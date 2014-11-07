@@ -52,3 +52,10 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# GAE SDK
+google_appengine/
+
+# Emacs
+*~
+*#
+.#*
