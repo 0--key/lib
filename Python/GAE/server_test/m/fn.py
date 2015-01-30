@@ -10,7 +10,6 @@ def quremo(a, b):
     qu = Decimal(b) / Decimal(a)
     re = int(qu)
     mo = Decimal(b) % Decimal(a)
-    logging.info("It's a log")
     return str(qu), str(re), str(mo)
 
 
