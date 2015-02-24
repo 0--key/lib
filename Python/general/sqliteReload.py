@@ -37,3 +37,40 @@ def get_catalogue():
             d = d + 1
     conn.close()
     return catalogue_data
+
+
+def get_cat_tree():
+    """
+    Extracts categories relations out from DB
+    {'first_category': {'child':
+    CREATE TABLE categories (id integer primary key autoincrement, category, parent_id, depth, foreign key (parent_id) references categories(id));
+    """
+    conn = sqlite3.connect('scraped.db')
+    cur = conn.cursor()
+    cur.execute('SELECT category FROM products_var_data LIMIT 1000')
+    raw_categories = cur.fetchall()
+    #print set(raw_categories), len(set(raw_categories)), raw_categories, len(raw_categories)
+    for i in set(raw_categories):
+        categories = i[0].split('/')[1:]
+        depth = 1
+        p_id = 1
+        for j in categories:
+            j = j.replace(';', '')
+            # does this category exists already:
+            cur.execute('SELECT id FROM categories_01 WHERE depth=? \
+            AND category=?', (depth, buffer(j)))
+            n = cur.fetchone()
+            if n:  # skip insertion
+                p_id = n[0]
+                depth = depth + 1
+                continue
+            else:
+                print j
+                #
+                cur.execute('INSERT INTO categories_01(category, \
+                parent_id, depth) VALUES (?,?,?)', (buffer(j), p_id, depth))
+                print (buffer(j), p_id, depth)
+                p_id = cur.lastrowid
+                depth = depth + 1
+                conn.commit()
+    conn.close()
