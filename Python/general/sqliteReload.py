@@ -47,7 +47,7 @@ def get_cat_tree():
     """
     conn = sqlite3.connect('scraped.db')
     cur = conn.cursor()
-    cur.execute('SELECT category FROM products_var_data LIMIT 1000')
+    cur.execute('SELECT category FROM products_var_data LIMIT 5000')
     raw_categories = cur.fetchall()
     #print set(raw_categories), len(set(raw_categories)), raw_categories, len(raw_categories)
     for i in set(raw_categories):
