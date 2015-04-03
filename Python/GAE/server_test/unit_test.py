@@ -3,6 +3,9 @@ import json
 import unittest
 from decimal import Decimal
 
+# GAE application API unit test
+# with strict following with its
+# description
 
 def quremo(a, b):
     """Primitive ariphmetic calculations"""
