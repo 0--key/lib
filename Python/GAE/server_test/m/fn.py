@@ -4,6 +4,7 @@ from google.appengine.api import memcache
 from google.appengine.ext import ndb
 from models import Result
 
+# MemCache and arithmetics inside
 
 def quremo(a, b):
     """Primitive ariphmetic calculations"""
