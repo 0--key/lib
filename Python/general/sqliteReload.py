@@ -1,7 +1,7 @@
 import sqlite3
 
 """
-Updates sqlite table with changed file's content
+Updates sqlite3 table with changed file's content
 """
 
 conn = sqlite3.connect('server/mhn.db')
