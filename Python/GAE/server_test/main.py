@@ -7,6 +7,8 @@ from google.appengine.ext import ndb
 from google.appengine.ext.webapp.util import run_wsgi_app
 from m.fn import get_quremo
 
+# Web application with primitive arithmetical calculations
+# and API for external usage
 
 class MainHandler(webapp.RequestHandler):
     def get(self):
