@@ -59,7 +59,7 @@ def init_json_file_gen():
     p_data = cur.fetchall()
     for i in p_data:
         msg = i
-        logging.info(msg)
+        logger.info(msg)
     conn.commit()
     conn.close
     print 'Job done'
@@ -103,3 +103,7 @@ if sys.argv[0]:
         conn = sqlite3.connect('tmp_data.db')
         conc_two_json_files(conn, sys.argv[2], sys.argv[3])
         conn.close()
+    if sys.argv[1] == '-i':
+        # initial data fulfillment
+        init_json_file_gen()
+        
