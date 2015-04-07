@@ -1,5 +1,7 @@
-import sys, logging
-import sqlite3, json
+import sys
+import logging
+import sqlite3
+import json
 
 """
 Few general statistical methods are there:
@@ -8,7 +10,7 @@ Few general statistical methods are there:
 """
 # Configure logging for degug purposes
 logger = logging.getLogger('json_processing_app')
-hdlr = logging.FileHandler('/var/tmp/json_processing_app.log')
+hdlr = logging.FileHandler('/var/tmp/json_processing_app1.log')
 formatter = logging.Formatter(
     '%(asctime)s %(levelname)s %(message)s')
 hdlr.setFormatter(formatter)
@@ -17,7 +19,9 @@ logger.setLevel(logging.DEBUG)
 # Lets generate json out from sqlite3 DB with 29k unique items
 """
 sqlite> .schema products
-CREATE TABLE "products" (id integer primary key autoincrement, name, sku, manufacturer, manuf_url, weight, pack_weight, dimension, description, ingredients, warning, suggested_use);
+CREATE TABLE "products" (id integer primary key autoincrement,
+name, sku, manufacturer, manuf_url, weight, pack_weight, dimension,
+description, ingredients, warning, suggested_use);
 CREATE INDEX sku_index ON "products"(sku);
 
 sqlite> select count(*) from products;
@@ -27,10 +31,13 @@ sqlite> select count(sku) from products;
 29676
 """
 # Define classes and their methods firstly
+
+
 class Product():
     """
     product from iherb web store
     """
+
     def __init__(self, data_row):
         """
         init data table cells fulfillment
@@ -43,6 +50,7 @@ class Product():
                        ingredients, warning, suggested_use]
         self.id = data_row['id']
         return True
+
     def __add__():
         return True
 
@@ -52,6 +60,8 @@ class Product():
 def init_json_file_gen():
     """
     Generates JSON file out from DB
+    for using as a trusted data for functional testing
+    purposes
     """
     conn = sqlite3.connect('scraped.db')
     cur = conn.cursor()
@@ -64,8 +74,10 @@ def init_json_file_gen():
     conn.close
     print 'Job done'
     return True
+
 # Define functionalyty in accordion with low RAM consumption
 # and allocate json into HD DB
+
 
 def conc_two_json_files(conn, json1, json2):
     """
@@ -106,4 +118,3 @@ if sys.argv[0]:
     if sys.argv[1] == '-i':
         # initial data fulfillment
         init_json_file_gen()
-        
