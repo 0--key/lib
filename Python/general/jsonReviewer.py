@@ -59,3 +59,9 @@ def __init__(self):
     return True
 
 print "I'm here!"
+
+# functional body is here
+
+if sys.argv[0]:
+    conn = sqlite3.connect('scraped.db')
+    conc_two_json_files(conn, 'file1', 'file2')
