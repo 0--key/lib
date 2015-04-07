@@ -1,4 +1,4 @@
-import sys
+import sys, logging
 import sqlite3, json
 
 """
@@ -6,7 +6,14 @@ Few general statistical methods are there:
  - unique;
  - similar by criteria
 """
-
+# Configure logging for degug purposes
+logger = logging.getLogger('json_processing_app')
+hdlr = logging.FileHandler('/var/tmp/json_processing_app.log')
+formatter = logging.Formatter(
+    '%(asctime)s %(levelname)s %(message)s')
+hdlr.setFormatter(formatter)
+logger.addHandler(hdlr)
+logger.setLevel(logging.INFO)
 # Lets generate json out from sqlite3 DB with 29k unique items
 """
 sqlite> .schema products
@@ -51,6 +58,7 @@ def conc_two_json_files(conn, json1, json2):
     cur = conn.cursor()
     conn.commit()
     output_file_name = "date" + ".json"
+    logger.info('While this is just chatty')
     return True
 
 
