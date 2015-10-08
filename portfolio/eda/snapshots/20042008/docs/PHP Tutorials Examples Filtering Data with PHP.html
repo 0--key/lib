@@ -1,0 +1,1144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="verify-v1" content="+J21X+3KbH1F9F9+Sel4Pab3hJlNw7mdm85lPLFeHVU=" />
+<title>PHP Tutorials Examples Filtering Data with PHP</title>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.phpro.org/rss/all.rss"/>
+<link href="/css/phpro.css" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<style type="text/css">
+div.article h3 {
+margin-top:1px;
+}
+</style>
+<![endif]-->
+
+
+</head>
+<body>
+<div id="header">
+<div id="headerUpper">
+
+<div id="search">
+<p>
+<a href="/rss/all.rss">PHPRO.ORG RSS Feed <img class="rss_top" src="/images/rss.gif" alt="rss" /></a>
+</p>
+</div>
+</div>
+<div id="headerMiddle">
+<h1>
+<span>phpro.org - proactive php development</span>
+</h1>
+
+<ul id="navigation">
+<li><a href="/" title="home">Home</a></li>
+<li class="active"><a href="/articles" title="Articles">Articles</a></li>
+<li><a href="/tutorials" title="Tutorials">Tutorials</a></li>
+<li><a href="/examples" title="Examples">Examples</a></li>
+<li><a href="/projects" title="Projects">Projects</a></li>
+<li><a href="/classes" title="PHPRO Classes">Classes</a></li>
+<li><a href="/manual">Manual</a></li>
+<li class="last"><a href="/contact" title="Contact">Contact</a></li>				
+</ul>
+</div>
+<div id="headerLower"></div>
+</div>
+
+<!-- begin main content -->
+<div id="content">
+
+<h2>Filtering Data with PHP</h2>
+<h3>A basis for a security model</h3>
+<p>By Kevin Waterson <i>&lt;kevin@phpro.org&gt;</i></p>
+<h3>Contents</h3>
+<ol>
+<li><a href="#1">What is a PHP Filter</a></li>
+<li><a href="#2">Getting Started</a></li>
+<li><a href="#3">Filtering Variables</a></li>
+<li><a href="#4">Validating INTEGERS</a></li>
+<li><a href="#5">Validate BOOLEAN</a></li>
+<li><a href="#6">Validate FLOAT</a></li>
+<li><a href="#7">Validate REGEX</a></li>
+<li><a href="#8">Validate a URL</a></li>
+<li><a href="#9">Validate an IP Address</a></li>
+<li><a href="#10">Validate an Email Address</a></li>
+<li><a href="#11">Sanitizing Variables</a></li>
+<li><a href="#12">Sanitize a String</a></li>
+<li><a href="#13">URL Encode</a></li>
+<li><a href="#14">Sanitize Special Chars</a></li>
+<li><a href="#15">Filter Unsafe RAW</a></li>
+<li><a href="#16">Sanitize an Email Address</a></li>
+<li><a href="#17">Sanitize a URL</a></li>
+<li><a href="#18">Sanitize an Integer</a></li>
+<li><a href="#19">Sanitize a Float</a></li>
+<li><a href="#20">Magic Quotes</a></li>
+<li><a href="#21">Callback Filter</a></li>
+<li><a href="#22">The INPUT Filter</a></li>
+<li><a href="#23">Filter an array</a></li>
+<li><a href="#24">Filter an array with callback</a></li>
+<li><a href="#25">A Real World Example</a></li>
+<li><a href="#100">Credits</a></li>
+</ol>
+
+<h2><a class="anchor" name="1">What is a PHP Filter</a></h2>
+<p>
+One of the greatest strengths of PHP is its ease of use. Unfortunately this same benifit has worked against PHP as many new coders have forgotten any security measures or lack the expertise to create a class to <a href="http://phpro.org/tutorials/Validating-User-Input.html">validate</a> their variables from end users. PHP provides an extension to help with this process. There are many validation classes out there, some better than others, with an equal number of methods for doing the same task. The PHP filter extension has many of the functions needed for checking many types of user input. Handled locally this provides a standard method of filtering data. This makes for easier to read code as we will all be using the same functions rather than having to create our own. This will bring PHP security to fore with programmers able to easily implement simple, yet robust, filtering of data. Never again do we need to see code like this below.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br />&nbsp;&nbsp;</span><span style="color: #007700">include(</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'filename'</span><span style="color: #007700">]);<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>Or, even more common is database queries like this one...</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br />&nbsp;&nbsp;mysql_query</span><span style="color: #007700">(</span><span style="color: #DD0000">"INSERT&nbsp;INTO&nbsp;table&nbsp;(field_one,&nbsp;field_two)&nbsp;VALUES&nbsp;({$_POST['var1']},&nbsp;{$_POST['var2']})"</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+
+<h2><a class="anchor" name="2">Getting Started</a></h2>
+<p>
+To get a look at what the filter extension has to offer, we can easily list all the available filters with the input_filters_list() function. Lets put it to work.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br />&lt;table&gt;<br />&lt;tr&gt;&lt;td&gt;Filter&nbsp;Name&lt;/td&gt;&lt;td&gt;Filter&nbsp;ID&lt;/td&gt;&lt;/tr&gt;<br /><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">foreach(</span><span style="color: #0000BB">filter_list</span><span style="color: #007700">()&nbsp;as&nbsp;</span><span style="color: #0000BB">$id&nbsp;</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$filter</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'&lt;tr&gt;&lt;td&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$filter</span><span style="color: #007700">.</span><span style="color: #DD0000">'&lt;/td&gt;&lt;td&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">filter_id</span><span style="color: #007700">(</span><span style="color: #0000BB">$filter</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;/td&gt;&lt;/tr&gt;'</span><span style="color: #007700">.</span><span style="color: #DD0000">"\n"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>&lt;/table&gt;<br /><br /></span>
+</code>
+</div>
+
+<p>
+The above code will produce a table like the one below.
+</p>
+<table>
+<tr><td>Filter Name</td><td>Filter ID</td></tr>
+<tr><td>int</td><td>257</td></tr>
+<tr><td>boolean</td><td>258</td></tr>
+<tr><td>float</td><td>259</td></tr>
+<tr><td>validate_regexp</td><td>272</td></tr>
+<tr><td>validate_url</td><td>273</td></tr>
+<tr><td>validate_email</td><td>274</td></tr>
+<tr><td>validate_ip</td><td>275</td></tr>
+<tr><td>string</td><td>513</td></tr>
+<tr><td>stripped</td><td>513</td></tr>
+<tr><td>encoded</td><td>514</td></tr>
+<tr><td>special_chars</td><td>515</td></tr>
+<tr><td>unsafe_raw</td><td>516</td></tr>
+<tr><td>email</td><td>517</td></tr>
+<tr><td>url</td><td>518</td></tr>
+<tr><td>number_int</td><td>519</td></tr>
+<tr><td>number_float</td><td>520</td></tr>
+<tr><td>magic_quotes</td><td>521</td></tr>
+<tr><td>callback</td><td>1024</td></tr>
+</table>
+
+<p>
+This is quite an impressive list and more will be added in time. Note also that each filter has its own Filter ID, this will become useful as we progress through this tutorial. Each of these filters can be used with the filter_var() function and here we will step through each one show how it works. Note that the string and stripped have the same ID. This is because they are the same.
+</p>
+
+
+<h2><a class="anchor" name="3">Filtering Variables</a></h2>
+<p>
+The actual filtering of variables is done with the filter_var() function. Lets start with a simple integer filter to see how it works.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">1234</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+
+<p>
+The above code will echo 1234. The filter_var() function will return INT(1234) because the input has validated as an integer. Lets change the $int variable to a non int value and see the results.
+</p>
+
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">'abc1234'</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>
+Now we see a different result. No display is made because the variable $int has failed validation and the filter_var() function has returned bool(false). Also note that if the variable is set to $int='' then it will again return bool(false). Consider this code..
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">''</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>
+As you can see if you run the above snippet of code, the result is once again a blank page. From here we can continue with INTEGER validation as the filter_var() function has some amazing properties to allow us to do many of the validation tasks we once had to write ourselves.
+</p>
+
+
+<h2><a class="anchor" name="4">Validating INTEGERS</a></h2>
+<p>
+As we saw in the previous section, validating a variable as type INT is simple with the filter_var() function. But wait, theres more. FILTER_VALIDATE_INT also allows us to specify a range for our integer variable. This is most excellent when we need to check if a variable is both of type INT and between 1 and 100. Lets see some code.
+</p>
+
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">42</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;lower&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$min&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">50</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;upper&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$max&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"min_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$min</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$max</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+<p>
+<span class="codechar">WTF!</span>... Above we have tried to validate an interger that must be in the range of 50 and 100. The number 42 clearly is not within this range, yet it passes the validation. What has happened here is we have incorrectly specified the options for min_range and max_range. Although this looks correct, and no error is generated the filter simply falls back to being FILTER_VALIDATE_INT and the number 42 passes. Below we show how to correctly specify the options array.
+</p>
+
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">42</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;lower&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$min&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">50</span><span style="color: #007700">;<br /></span><span style="color: #FF8000">/***&nbsp;upper&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$max&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"min_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$min</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$max</span><span style="color: #007700">)));<br /><br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+
+
+<p>
+Now we see a different behaviour when the options array is correctly specified as above. We havetried to validate an INT(42), checking that it is both of the type INT and it is within the range of 50 and 100. The above code will return boolean FALSE as the interger 42 is not withing the range specified. Note also that this will work for negative values. Consider this next block of code.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;-</span><span style="color: #0000BB">2</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;lower&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$min&nbsp;</span><span style="color: #007700">=&nbsp;-</span><span style="color: #0000BB">10</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;upper&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$max&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"min_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$min</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$max</span><span style="color: #007700">)));<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+
+<p>
+The above code will echo -2 as it is both of type INT and within the range of -10 to 100. We could also validate our integer by specifying only a min_range or a max_range. This can prove helpful if we need a number to be no less than 10 for example. Lets see it in action.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;integer&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">12</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;lower&nbsp;limit&nbsp;of&nbsp;the&nbsp;int&nbsp;***/<br /></span><span style="color: #0000BB">$min&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">10</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,array(</span><span style="color: #DD0000">'options'</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">'min_range'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$min</span><span style="color: #007700">)));<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The above code now correctly validates an integer that must not be less than, or equal to 10. Now we can move on a little. We have seen how we can validate a single INT, but we can go further and validate an array of values. To validate an array of values, in this case integers, we use the <span class="codechar">filter_var_array()</span> function. This function alone makes the whole filter extension worth the effort. The filter_var_array() function allows us to filter or validate many different data types. But for now, lets simply stick with INTs. Lets code it up and see.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;array&nbsp;of&nbsp;values&nbsp;to&nbsp;filter&nbsp;***/<br /></span><span style="color: #0000BB">$arr&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">10</span><span style="color: #007700">,</span><span style="color: #DD0000">"109"</span><span style="color: #007700">,</span><span style="color: #DD0000">""</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"-1234"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"some&nbsp;text"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"asdf234asdfgs"</span><span style="color: #007700">,&nbsp;array());<br /><br /></span><span style="color: #FF8000">/***&nbsp;create&nbsp;an&nbsp;array&nbsp;of&nbsp;filtered&nbsp;values&nbsp;***/<br /></span><span style="color: #0000BB">$filtered_array&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$arr</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;print&nbsp;out&nbsp;the&nbsp;results&nbsp;***/<br /></span><span style="color: #007700">foreach(</span><span style="color: #0000BB">$filtered_array&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #0000BB">$key</span><span style="color: #007700">.</span><span style="color: #DD0000">'&nbsp;--&nbsp;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$value</span><span style="color: #007700">.</span><span style="color: #DD0000">'&lt;br&nbsp;/&gt;'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+<p>
+The above code will print out the array. It should look like this<br />
+0 -- 10<br />
+1 -- 109<br />
+2 -- <br />
+3 -- -1234<br />
+4 -- <br />
+5 -- <br />
+6 -- Array<br />
+As you can see, it has printed out the values that are of type INT. We note that 4 and 5 in the list are blank as the filter_var() function has return bool(false) here. Finally we see the last type is merely an array. This type of flexibility is makes the filter extension a great improvement over having to code up all this validation yourself. There is no longer any excuse for sloppy security practices.
+</p>
+<p>
+Moving on from validating an array of values, the FILTER_VALIDATE_INT filter  allows us to also validate INTEGERS of the type OCTAL and HEX. Clever stuff, and will save a bundle of time as we no longer need to code up endless hex and octal arrays. Two flags are currently available for this type of checking. They are:
+</p>
+<ul>
+<li>FILTER_FLAG_ALLOW_HEX</li>
+<li>FILTER_FLAG_ALLOW_OCTAL</li>
+</ul>
+<p>
+Once again the filter uses an array to hold the flags, be sure to correctly specify them as shown here with the flags array. Lets see how we go with a hex value.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;hex&nbsp;value&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$hex&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"0xff"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;filter&nbsp;with&nbsp;HEX&nbsp;flag&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$hex</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"flags"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_FLAG_ALLOW_HEX</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+<p>
+The above code will correctly echoes 255. The filter has successfully validated the HEX value and returned that value. If validation fails with a non-hex value it will return bool(false). Of course, hex values are not case sensitive so 0Xff or 0xFF would validate also. As we mentioned earlier, we can also use an OCTAL value in the same way.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;OCTAL&nbsp;value&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$octal&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">0666</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;with&nbsp;the&nbsp;OCTAL&nbsp;flag&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$octal</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"flags"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_FLAG_ALLOW_OCTAL</span><span style="color: #007700">))&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"Value&nbsp;is&nbsp;not&nbsp;OCTAL!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$octal&nbsp;is&nbsp;a&nbsp;valid&nbsp;OCTAL&nbsp;number"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+
+<h2><a class="anchor" name="5">Validate Boolean</a></h2>
+<p>
+Along with the amazing INTEGER validation PHP also provides a similar method of validating BOOLEAN values. Here we see how easy it is to check for a BOOLEAN value.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;test&nbsp;for&nbsp;a&nbsp;boolean&nbsp;value&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #DD0000">"true"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_BOOLEAN</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+The above code will echo 1. This is because the BOOLEAN filter has found a valid boolean value. Other acceptable boolean values that return TRUE are listed here.
+</p>
+<ul>
+<li>1</li>
+<li>&quot;1&quot;</li>
+<li>&quot;yes&quot;</li>
+<li>&quot;true&quot;</li>
+<li>&quot;on&quot;</li>
+<li>TRUE</li>
+</ul>
+<p>
+These values are not case sensitive so that true and TrUe are the same. Values that return false are listed below here.
+<ul>
+<li>0</li>
+<li>&quot;0&quot;</li>
+<li>&quot;no&quot;</li>
+<li>&quot;false&quot;</li>
+<li>&quot;off&quot;</li>
+<li>&quot;&quot;</li>
+<li>NULL</li>
+<li>FALSE</li>
+</ul>
+<p>
+The BOOLEAN filter will also allow us to evaluate code within the filter itself to test for values. Consider the below code using the ternary operator.
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;simple&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">2</span><span style="color: #007700">,</span><span style="color: #0000BB">3</span><span style="color: #007700">,</span><span style="color: #0000BB">4</span><span style="color: #007700">,</span><span style="color: #0000BB">5</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;test&nbsp;for&nbsp;a&nbsp;boolean&nbsp;value&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">in_array</span><span style="color: #007700">(</span><span style="color: #0000BB">3</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$array</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_BOOLEAN</span><span style="color: #007700">)&nbsp;?&nbsp;</span><span style="color: #DD0000">"TRUE"&nbsp;</span><span style="color: #007700">:&nbsp;</span><span style="color: #DD0000">"FALSE"</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+<p>
+The above code will echo TRUE as it has tested the result of the in_array() function and has found the return value to be bool(true). Not to be forgotten here is that we can use an array of values to test for boolean values also. Lets see how.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;multi&nbsp;dimensional&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">2</span><span style="color: #007700">,</span><span style="color: #0000BB">3</span><span style="color: #007700">,</span><span style="color: #0000BB">4</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">2</span><span style="color: #007700">,</span><span style="color: #0000BB">3</span><span style="color: #007700">,</span><span style="color: #0000BB">4</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">/***&nbsp;create&nbsp;the&nbsp;list&nbsp;of&nbsp;values&nbsp;***/<br /></span><span style="color: #0000BB">$values&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_BOOLEAN</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_REQUIRE_ARRAY</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;dump&nbsp;the&nbsp;values&nbsp;***/<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$values</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+
+<p>
+The above code will produce something like this..
+</p>
+<ul>
+<li>array(6) {</li>
+<li>[0]=&gt; bool(false)</li>
+<li>[1]=&gt; bool(true)</li>
+<li>[2]=&gt; bool(false)</li>
+<li>[3]=&gt; bool(false)</li>
+<li>[4]=&gt; bool(false)</li>
+<li>[5]=&gt; array(5) { </li>
+<li><ul>
+    <li>[0]=&gt; bool(false)</li>
+    <li>[1]=&gt; bool(true)</li>
+    <li>[2]=&gt; bool(false)</li>
+    <li>[3]=&gt; bool(false)</li>
+    <li>[4]=&gt; bool(false)</li>
+    <li>}</li>
+  </ul>
+</li>
+<li>}</li>
+</ul>
+<p>
+As you can see above, the filter has recursively iterated over the array and returned the a boolean value depending on the array members value.
+</p>
+
+<h2><a class="anchor" name="6">Validate FLOAT</a></h2>
+<p>
+There are of course times we need to validate a floating point number and once again this is simply done as the rest.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;FLOAT&nbsp;value&nbsp;to&nbsp;check&nbsp;***/<br /></span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">22.42</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;with&nbsp;the&nbsp;FLOAT&nbsp;flag&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_FLOAT</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$float&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$float&nbsp;is&nbsp;a&nbsp;valid&nbsp;floating&nbsp;point&nbsp;number"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+
+<p>
+Like other validation options we can still validate an array of floats. Similar to how we validated an array of boolean values, we apply the same principles, and flags, to the float filter. We can also use negative values.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;array&nbsp;of&nbsp;values&nbsp;***/<br /></span><span style="color: #0000BB">$array&nbsp;</span><span style="color: #007700">=&nbsp;array(</span><span style="color: #0000BB">1.2</span><span style="color: #007700">,</span><span style="color: #DD0000">"1.7"</span><span style="color: #007700">,</span><span style="color: #DD0000">""</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"-12345.678"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"some&nbsp;text"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"abcd4.2efgh"</span><span style="color: #007700">,&nbsp;array());<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$validation_array&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$array</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_FLOAT</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_REQUIRE_ARRAY</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;dump&nbsp;the&nbsp;array&nbsp;of&nbsp;validated&nbsp;data&nbsp;***/<br /></span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$validation_array</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+
+<p>The above code will return a list something like this
+</p>
+<ul>
+<li>array(7) {</li>
+<li>[0]=&gt; float(1.2)</li>
+<li>[1]=&gt; float(1.7)</li>
+<li>[2]=&gt; bool(false)</li>
+<li>[3]=&gt; float(-23234.123)
+<li>[4]=&gt; bool(false)
+<li>[5]=&gt; bool(false)
+<li>[6]=&gt; array(0) { }</li>
+<li>}</li>
+</ul>
+<p>
+The filter will also allow us to filter an array with a user specified seperator. So that a float like 1,234 can be accepted.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;array&nbsp;of&nbsp;floats&nbsp;with&nbsp;seperators&nbsp;***/<br /></span><span style="color: #0000BB">$floats&nbsp;</span><span style="color: #007700">=&nbsp;array(<br /></span><span style="color: #DD0000">"1,234"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">","</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"1.234"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">".."</span><span style="color: #007700">,<br /></span><span style="color: #DD0000">"1.2e3"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">","<br /></span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;validate&nbsp;the&nbsp;floats&nbsp;against&nbsp;the&nbsp;user&nbsp;defined&nbsp;decimal&nbsp;seperators&nbsp;***/<br /></span><span style="color: #007700">foreach&nbsp;(</span><span style="color: #0000BB">$floats&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$dec_sep</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$out&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_FLOAT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"decimal"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">$dec_sep</span><span style="color: #007700">)));<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;dump&nbsp;the&nbsp;results&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$out</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+From the code above we get the output as follows..
+</p>
+<ul>
+<li>float(1.234)</li>
+<li>Warning: filter_var() [function.filter-var]: decimal separator must be one char in /www/filter.php on line 13</li>
+<li>bool(false)</li>
+<li>bool(false)</li>
+</ul>
+<p>
+Lets step through this for a minute. The first value has used a comma as a decimal seperator. Normally this would be invalid and be regarded as a thousands seperator. However we have specified the comma as the decimal seperator and so it remains valid and the filter replaces the decimal seperator with a dot and returns 1.234. Next we have a Warning due to the use of a double dot as a decimal seperator. This is nvalid as a decimal seperator must be one character only. Following this, the filter returns bool(false) for that value. The final value also returns bool(false) as the decimal seperators do not match.
+</p>
+<h2><a class="anchor" name="7">Validate REGEX</a></h2>
+<p>
+If you are unfamiliar with regex then it is highly recommended you begin with the phPRO <a href="http://www.phpro.org/tutorials/Introduction-to-PHP-Regular-Expressions.html">Introduction to PHP Regular Expressions</a>. This should put you in good condition for the following. For those adept at regex, then read on. Validating by regex is something we do commonly for information that should fit a pattern. The  filter extension allows us to validate variables in the same manner as we have seen previously. First we will attempt a simple pattern match to see if a string begins with the letter and then we will try to match an email address.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;the&nbsp;string&nbsp;we&nbsp;wish&nbsp;to&nbsp;match&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Try&nbsp;to&nbsp;match&nbsp;me"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;with&nbsp;the&nbsp;regex&nbsp;pattern&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_REGEXP</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"regexp"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"/^T(.*)/"</span><span style="color: #007700">)))&nbsp;===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;no&nbsp;match"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;we&nbsp;match&nbsp;the&nbsp;pattern&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;string&nbsp;begins&nbsp;with&nbsp;T"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+From the above code we see the string does match the pattern and a bool(false) is not returned. If the pattern does match the string value is returned just as with all the previous validation types. Lets see a little more complex regex to try to match an email address.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;email&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$email&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"hatemail@phpro.org"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;the&nbsp;pattern&nbsp;we&nbsp;wish&nbsp;to&nbsp;match&nbsp;against&nbsp;***/<br /></span><span style="color: #0000BB">$pattern&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"/^\S+@[\w\d.-]{2,}\.[\w]{2,6}$/iU"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;with&nbsp;the&nbsp;regex&nbsp;pattern&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_REGEXP</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"regexp"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$pattern</span><span style="color: #007700">)))&nbsp;===&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;no&nbsp;match"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;we&nbsp;match&nbsp;the&nbsp;pattern&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;email&nbsp;address&nbsp;is&nbsp;valid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+
+<p>
+So, the above code will match the email address and print the line<br />
+The email address is valid<br />
+Normally you would not use this method of email checking for email addresses as the filter extension provides checking for this purpose, but more on that later. Should you accidently omit the regex in your checking an E_WARNING is generated and the filter will return bool FALSE.
+</p>
+
+<h2><a class="anchor" name="8">Validate a URL</a></h2>
+<p>
+URLs can be tricky to deal with. there is no maximum length defined in the rfc and you would be totally amazed at just how many different variations and formats a URL can be in. Recommended reading is RFC 1738 which explains all you need to know about URL validation. You could then write up your own class with which to validate all your ipv4 and ipv6 URLs etc. Or, you can simply use FILTER_VALIDATE_URL in filter_var(). Lets see how it works in its simplest form.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;rfc&nbsp;compliant&nbsp;web&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://www.phpro.org"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;we&nbsp;match&nbsp;the&nbsp;pattern&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!&lt;br&nbsp;/&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+
+<p>
+Above we see, like in the examples previous, a simple check of the variable with an if statement tells us the url value is valid. But not all URLs are in this form. According to the rfc, a URL can take many forms. The URL may be in the form of an IP address, or have a QUERY string attached to it. This is why URLs have been so difficult to validate in the past. Several flags have been provided with the URL validation filter to check for some of these occurances and to validate against them. They are listed here.
+<p>
+<ul>
+<li>FILTER_FLAG_SCHEME_REQUIRED</li>
+<li>FILTER_FLAG_HOST_REQUIRED</li>
+<li>FILTER_FLAG_PATH_REQUIRED</li>
+<li>FILTER_FLAG_QUERY_REQUIRED</li>
+</ul>
+<p>
+We will begin at the top here and check for flag scheme.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;non&nbsp;rfc&nbsp;compliant&nbsp;URL&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"index.php"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_SCHEME_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+We see from above that the URL supplied does not validate against the FILTER_FLAG_SCHEME_REQUIRED flag. The URL needs to be properly formatted to fit the required scheme. Lets try again with a different URL.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;rfc&nbsp;compliant&nbsp;URL&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://foo"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_SCHEME_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+Now we see that the URL validates against the scheme. The return values are bool(false) if the validation fails, or if it passes validation the URL string is returned. Lets continue with the other flags and FLAG_HOST_REQUIRED. If we were to alter the above filter flag from FILTER_FLAG_SCHEME_REQUIRED to FILTER_FLAG_HOST_REQUIRED it would still validate as the URL http://foo has the host name of "foo". Lets try with an invalid host name.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;path&nbsp;with&nbsp;no&nbsp;host&nbsp;name&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"/path/to/foo"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;the&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_HOST_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+
+<p>
+Now we see that the missing hostname does not validate against the required flag and returns bool(false). What would happen if you tried a URL like <span class="codechar">http://</span> one wonders. It is left as an excercise for the reader to try. To enable correct validation the FILTER_FLAG_HOST_REQUIRED flag must be satisified such as the example below.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;path&nbsp;with&nbsp;no&nbsp;host&nbsp;name&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;the&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_HOST_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Of course now, the code above validates the URL as we have now supplied a value that satisfies the FILTER_FLAG_HOST_REQUIRED flag. Next we see the FILTER_FLAG_PATH_REQUIRED flag. This flag as the name suggests tells the URL validator that a path is required within the url for it to validate. Lets see it in action.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;URL&nbsp;with&nbsp;a&nbsp;path&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/path/to/foo"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;the&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_PATH_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+We see from the above code that the URL is valid because it contains a path after the host name. Should the path be missing and the URL was simply http://www.phpro.org then it would fail validation and return bool(false). Next we see the FILTER_FLAG_QUERY_REQUIRED flag. You should now have no problems implementing this as it follows the same convention as the previous flags. As the name suggests, this flag requires the URL to have a query string of type file.php?var=foo&amp;var2=bar. The use is exactly the same as before.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;URL&nbsp;with&nbsp;a&nbsp;query&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/index.php?var=foo&amp;var2=bar"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;the&nbsp;validate&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_URL</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_QUERY_REQUIRED</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;there&nbsp;is&nbsp;no&nbsp;match&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"Sorry,&nbsp;$url&nbsp;is&nbsp;not&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;URL&nbsp;is&nbsp;valid&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"The&nbsp;URL,&nbsp;$url&nbsp;is&nbsp;valid!"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+<h2><a class="anchor" name="9">Filter IP Address</a></h2>
+<p>
+Following on from validation of URLs, we often find we need to validate an IP Address. Of course, and IP address may be of different formats for ipv4 and ipv6. An IP address may also need to be within a range of private or reserved ranges. The filter extension makes it possible to discern these differences and to validate an IP address to fit most needs. In its simplest form the validation of a url will look like this.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;IP&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$ip&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"192.168.0.1"</span><span style="color: #007700">;<br /><br />if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$ip</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_IP</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;not&nbsp;a&nbsp;valid&nbsp;IP"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;valid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+<p>
+As we have supplied the above with a valid IP address it validates and all is well. But now we may wish to validate an IPV6 address or an address with a private range. The IP filter has several flag with which to validate an IP address with. Listed here.
+</p>
+<ul>
+<li>FILTER_FLAG_IPV4</li>
+<li>FILTER_FLAG_IPV6</li>
+<li>FILTER_FLAG_NO_PRIV_RANGE</li>
+<li>FILTER_FLAG_NO_RES_RANGE</li>
+</ul>
+<p>
+Starting at the top we will check to see if an IP is a valid IPV4 address.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;IP&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$ip&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"192.168.0"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;as&nbsp;IPV4&nbsp;address&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$ip</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_IP</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_IPV4</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;not&nbsp;a&nbsp;valid&nbsp;IP"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;valid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+<p>
+In the above example the IP address has failed to validate as it is not a complete IPV4 address. It would need to be of the form of the example that preceded it, 192.168.0.1 to validate. This is fine, but growth of the net has seen us run out of IPV4 addresses and so we need to validate against IPV6 addresses also. Here we show the use of the FILTER_FLAG_IPV6 flag.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;IP&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$ip&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"2001:0db8:85a3:08d3:1319:8a2e:0370:7334"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;as&nbsp;IPV6&nbsp;address&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$ip</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_IP</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_IPV6</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;not&nbsp;a&nbsp;valid&nbsp;IP"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;valid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+Above we see that the IPV6 address is a valid form of IP and passes validation. Next we see if an IP falls within a private range.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;IP&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$ip&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"192.168.0.1"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;a&nbsp;private&nbsp;range&nbsp;address&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$ip</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_IP</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_NO_PRIV_RANGE</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;within&nbsp;a&nbsp;private&nbsp;range"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;not&nbsp;a&nbsp;private&nbsp;IP"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>
+The above code will print the line <br />
+192.168.0.1 is within a private range<br />
+because the IP address is within the range of private IP address as specified in the RFC. Try changing the IP to a public IP address, that is one used over the internet, and see the results.
+</p>
+
+<p>
+The FILTER_FLAG_NO_RES_RANGE, as the name suggests, will allow no reserved range IP addresses. Only valid non-reserved address will pass validation here.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;IP&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$ip&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"255.255.255.255"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;a&nbsp;non&nbsp;reserve&nbsp;range&nbsp;address&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$ip</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_IP</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_NO_RES_RANGE</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;within&nbsp;a&nbsp;reserved&nbsp;range"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">"$ip&nbsp;is&nbsp;not&nbsp;within&nbsp;a&nbsp;reserved&nbsp;range"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Of course, the IP address 255.255.255.255 is within a reserved range and it fails to validate against the FILTER_FLAG_NO_RES_RANGE flag and returns bool FALSE. The filter will take an IPV4 or IPV6 IP address. Try this simple script with some other IP addresses such as:<br />
+66.163.161.117<br />
+2001:0db8:85a3:08d3:1319:8a2e:0370:7334<br />
+and see this in action.
+</p>
+
+<h2><a class="anchor" name="10">Validate Email Address</a></h2>
+<p>
+What validation suite would be complete without the ability to validate an email address. Almost everybody has their own function and regex for this and many holy wars have been fought over the "correct" method of doing it. We saw earlier how we could do this with the FILTER_VALIDATE_REGEXP filter and supplying a REGEX to the filter. Of course, everybody has their own REGEX that is better than everybody elses. Now we have a standard way that everybody can use. Lets put it to work.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;email&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$email&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"kevin@foo.bar.net"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;try&nbsp;to&nbsp;validate&nbsp;the&nbsp;email&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_EMAIL</span><span style="color: #007700">)&nbsp;===&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;it&nbsp;fails&nbsp;validation&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"$email&nbsp;is&nbsp;invalid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;if&nbsp;the&nbsp;address&nbsp;passes&nbsp;validation&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">"$email&nbsp;is&nbsp;valid"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+
+<p>
+So, there you have the email validated and the world is a better place having saved many kittens. This filter takes no addition flags or options, it simply validates the email.
+</p>
+
+<h2><a class="anchor" name="11">Sanitizing Variables</a></h2>
+<p>
+Whilst it is well to be able to validate the data we use, it is equally important to be able to clean up any data that may come to our scripts, especially data from user land. The filter_var() function also contains filters for many data types that will clean up data for use in our scripts. Here we will show their uses in a simple context.
+</p>
+
+<h2><a class="anchor" name="12">Sanitize A String</a></h2>
+<p>
+The FILTER_SANITIZE_STRING filter allows us to filter various information from a string to allow us to safely use the data within for our applications. Lets look at the possible flags for FILTER_SANITIZE_STRING. You can use this to strip tags, unwanted characters or even encode them.
+</p>
+<ul>
+<li>FILTER_FLAG_NO_ENCODE_QUOTES</li>
+<li>FILTER_FLAG_STRIP_LOW</li>
+<li>FILTER_FLAG_STRIP_HIGH</li>
+<li>FILTER_FLAG_ENCODE_LOW</li>
+<li>FILTER_FLAG_ENCODE_HIGH</li>
+<li>FILTER_FLAG_ENCODE_AMP</li>
+</ul>
+<p>
+These flags perform various sanitizing functions on a string. Without them the FILTER_SANITIZE_STRING works in this way.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;script&gt;foo&lt;/script&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+We see from the above code that the &lt;script&gt;&lt;/script&gt; tags have been removed leaving only the "foo" text. Using the optional flags we can gain a little more control of this behaviour. Lets modify our string variable a little to include some quotes.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;script&gt;\"'foo'\"&lt;/script&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+If we look at the HTML source produced from the above code, we we see that we now have the &lt;script&gt;&lt;/script&gt; tags remove and the quotes have been encoded to produce a string like &amp;#34;&amp;#39;foo&amp;#39;&amp;#34;<br />
+Should we wish to keep the quotes the FILTER_FLAG_NO_ENCODE_QUOTES flag can help us.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;script&gt;\"'foo'\"&lt;/script&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_NO_ENCODE_QUOTES</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+Now we see from the above code, the quotes have not been encoded and are returned without their HTML entity values. We can gain a little more control of the characters we wish to encode with the filter by stipping or encoding only the high, or low characters. High and low characters are defined as those with an ASCII value below 32 or above 32. Lets code up some chars and put the required flags to work.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;li&gt;&lt;script&gt;!@#$%^&amp;*foo&lt;/script&gt;&lt;br&gt;&lt;p&nbsp;/&gt;&lt;li&nbsp;/&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_LOW</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+<p>
+The companion flag to this is of course FILTER_FLAG_STRIP_HIGH, which strips all other characters. It is used in the same manner.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;li&gt;&lt;script&gt;!@#$%^&amp;*foo&lt;/script&gt;&lt;br&gt;&lt;p&nbsp;/&gt;&lt;li&nbsp;/&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_HIGH</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /><br /></span>
+</code>
+</div>
+
+<p>
+This is all well for stripping out unwanted characters, but does not address the issue of keeping them. To this end we use the encoding functions in the same way.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;li&gt;&lt;script&gt;!@#$%^&amp;*foo&lt;/script&gt;&lt;br&gt;&lt;p&nbsp;/&gt;&lt;li&nbsp;/&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_LOW</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /><br /></span>
+</code>
+</div>
+<p>
+By now you should be getting into the swing of the filter functions and flags. It should be quite easy to see the companian flag to the code above and how FILTER_FLAG_ENCODE_HIGH works. It will encode ASCII characters over 32.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;tags&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"&lt;li&gt;&lt;script&gt;!@#$%^&amp;*foo&lt;/script&gt;&lt;br&gt;&lt;p&nbsp;/&gt;&lt;li&nbsp;/&gt;"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_HIGH</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /><br /></span>
+</code>
+</div>
+<p>
+Lastly in this section is the FILTER_FLAG_ENCODE_AMP. No prizes for guessing this one. It encodes the &amp; character to &amp;amp;
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;with&nbsp;an&nbsp;ampersand&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/file.php?foo=1&amp;bar=2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_STRING</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_AMP</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+The resulting string will look the same in the browser, however, if you view the source you will see the ampersand has been correctly encode to look like<br />
+http://phpro.org/file.php?foo=1&amp;#38;bar=2
+</p>
+<p>
+The FILTER_SANITIZE_STRING (string) filter has an alias called FILTER_SANITIZE_STRIPPED (stripped). I have no idea why it is there and suggest it dies a slow painful death as it can only lead to confustion.
+</p>
+
+<h2><a class="anchor" name="13">URL Encode</a></h2>
+<p>
+The ability to url encode data has previously fallen to the urlencode() function. This functionality has been embrace by the filter extension and provides more features than previously. We can now URL encode a string and optionally strip or encode special characters. Lets see it in action.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;url&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/a&nbsp;dir!/file.php?foo=1&amp;bar=2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;(url&nbsp;encode)&nbsp;the&nbsp;url&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>The above code will produce a string like this<br />
+http%3A%2F%2Fphpro.org%2Fa%20dir%21%2Ffile.php%3Ffoo%3D1%26bar%3D2<br />
+As you can see, the spaces and special chars have been encoded for use in urls. Like the string filter, the encoded filter has HIGH and LOW filtering options with flags that can be set. The LOW filter deals with special chars below ASCII 32 and the HIGH deals with the rest.The flags allow the filtering or sanitizing of the input string. The flags should look familiar by now and are listed below.
+</p>
+<ul>
+<li>FILTER_FLAG_STRIP_LOW</li>
+<li>FILTER_FLAG_STRIP_HIGH</li>
+<li>FILTER_FLAG_ENCODE_LOW</li>
+<li>FILTER_FLAG_ENCODE_HIGH</li>
+</ul>
+<p>
+Lets put them each through thier paces to see how each works.
+</p>
+<div class="codebox">
+
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;url&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/a&nbsp;dir!/file.php?foo=1&amp;bar=2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;our&nbsp;string&nbsp;with&nbsp;the&nbsp;stripped&nbsp;chars&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_LOW</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>Any characters below ASCII 32 will be stripped from the URL variable above. Of course, we can strip all characters above ASCII 32 with FILTER_FLAG_STRIP_HIGH as shown below.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;url&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://phpro.org/a&nbsp;dir!/file.php?foo=1&amp;bar=2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;our&nbsp;string&nbsp;with&nbsp;the&nbsp;stripped&nbsp;chars&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_HIGH</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+Rather than strip the any ASCII chars from a url we could encode them instead using FILTER_FLAG_ENCODE_HIGH or FILTER_FLAG_ENCODE_LOW.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;url&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"one&nbsp;two&amp;three"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;and&nbsp;encode&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_LOW</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code></div>
+<p>
+The same again but encoding the HIGH characters.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;url&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"one&nbsp;two&amp;three"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;and&nbsp;encode&nbsp;the&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_HIGH</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+
+
+<h2><a class="anchor" name="14">Sanitize Special Chars</a></h2>
+<p>
+This filter option allows us to HTML-escape '"&lt;&gt;&amp; and characters with ASCII value less than 32. Because of this there is no FILTER_FLAG_ENCODE_LOW flag. The available flags are listed here
+</p>
+<ul>
+<li>FILTER_FLAG_STRIP_LOW</li>
+<li>FILTER_FLAG_STRIP_HIGH</li>
+<li>FILTER_FLAG_ENCODE_HIGH</li>
+</ul>
+<p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;our&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"?&gt;&lt;!@#$%^&amp;*()}{~bobthebuilder"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;sanitized&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+If we view the result in our browser and view the source, the result from the above code will look this:<br />
+?&amp;#62;&amp;#60;!@#$%^&amp;#38;*()}{~bobthebuilder<br />
+As you can see, it has seized on the several characters and HTML encoded them. Next we will see how it works with the FILTER_FLAG_STRIP_LOW flag.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;our&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"кириллица"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;sanitized&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_LOW</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+The sanitized string from above should look a little like this:<br />
+ÐºÐ¸Ñ€Ð¸Ð»Ð»Ð¸Ñ†Ð°<br />
+funky....
+<p>
+<p>
+We can of course choose to strip the HIGH ASCII values like this:
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;our&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"fooкириллицаbar"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;sanitized&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_STRIP_HIGH</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>Finally, we can encode the high chars
+<p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;our&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"fooкириллицаbar&amp;fubar"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;sanitized&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_HIGH</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code>
+</div>
+<p>
+In the above code, the foo and the bar remain, whilst the characters between foo and bar have been sanitized, whilst the ampersand has been encoded.
+</p>
+
+<h2><a class="anchor" name="15">Filter Unsafe RAW</a></h2>
+<p>
+This is perhaps the oddest of the filters. The PHP manual quotes it as "Do nothing, optionally strip or encode special characters." Well, doing nothing is what I do best. Not to be out-performed it still keeps all the flags as listed below.
+</p>
+<ul>
+<li>FILTER_FLAG_STRIP_LOW</li>
+<li>FILTER_FLAG_STRIP_HIGH</li>
+<li>FILTER_FLAG_ENCODE_LOW</li>
+<li>FILTER_FLAG_ENCODE_HIGH</li>
+<li>FILTER_FLAG_ENCODE_AMP</li>
+</ul>
+<p>
+You should by now know how to use the STRIP and ENCODE flags. If you do not, return to the top of this document and start from their. Here we will show only the FILTER_FLAG_ENCODE_AMP flag in use.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;our&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"Bed&nbsp;&amp;&nbsp;Breakfast"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;sanitized&nbsp;string&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_UNSAFE_RAW</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ENCODE_AMP</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span><br /></span>
+</code>
+</div>
+<p>
+The code above will print the following line<br />
+Bed &amp;#38; Breakfast<br />
+As you can see,the ampersand is now encoded as the flag dictates.
+</p>
+
+
+<h2><a class="anchor" name="16">Sanitize an Email Address</a></h2>
+<p>
+Earlier we saw how to filter and validate an email address. Here we can take the email address and sanitize it. That is, remove illegal or unwanted characters from it. It is surprising the amount of characters that are allowed in a valid email address. They are:<br />
+All letters, digits and $-_.+!*'(),{}|\\^~[]`&lt;&gt;#%";/?:@&amp;=.<br />
+Lets put it to the test.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;email&nbsp;address&nbsp;***/<br /></span><span style="color: #0000BB">$email&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"kevin&amp;friends@(foo).ex\\ample.com"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;email&nbsp;address&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_EMAIL</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The above code will produce the output:<br />
+kevin&mp;friends@foo.example.com<br />
+The ampersand has remained but the () and the three backslashes have been removed, leaving us with a usable, or sanitized, email address.
+</p>
+
+<h2><a class="anchor" name="17">Sanitize a URL</a></h2>
+<p>
+Unlike the FILTER_SANITIZE_ENCODED filter that encodes URL strings, or the FILTER_VALIDATE_URL which checks if a URL is valid, the FILTER_SANITIZE_URL will strip out illegal characters. The characters that are not removed are letters and digits and the following:<br />
+$ - _ . + ! * ' ( ) , { } | \ \ ^ ~ [ ] ` &gt; &lt; # % " ; / ? : @ &amp; = .<br />
+To see it in action is simple as this filter takes no flags.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;URL&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"http://www.phÆpro.oФrg"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;URL&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">,&nbsp;&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_URL</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>The url string above contains 2 utf-8 characters (your browser may not show these, check source) which are illegal in urls. The FILTER_SANITIZE_URL filter has stripped these characters from the string leaving us with a valid URL.
+</p>
+
+<h2><a class="anchor" name="18">Sanitize an Integer</a></h2>
+<p>
+To sanitize an Integer is simple with the FILTER_SANITIZE_INT filter. This filter strips out all characters except for digits and . + -<br />
+It is simple to use and we no longer need to boggle our minds with <a href="http://phpro.org/tutorials/Introduction-to-PHP-Regular-Expressions.html">regular expressions</a>.
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;interger&nbsp;***/<br /></span><span style="color: #0000BB">$int&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"abc40def+;2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;integer&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$int</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The above code produces an output of 40+2 as the none INT values, as specified by the filter, have been removed.
+</p>
+
+
+<h2><a class="anchor" name="19">Sanitize a Float</a></h2>
+<p>
+Sanitizing a float is a little more playful and as FILTER_SANITIZE_NUMBER_FLOAT filter takes 3 flags.
+</p>
+<ul>
+<li>FILTER_FLAG_ALLOW_FRACTION</li>
+<li>FILTER_FLAG_ALLOW_THOUSAND</li>
+<li>FILTER_FLAG_ALLOW_SCIENTIFIC</li>
+</ul>
+<p>
+These flags are self explanatory and are easy to use as shown below. First we will put the FILTER_SANITIZE_NUMBER_FLOAT filter to the test without any flags.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;floating&nbsp;point&nbsp;number&nbsp;***/<br /></span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"abc40.4def+;2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;float&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_FLOAT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Like the previous example this filter has stripped out all chacaracters except for digits and the + and - characters. The dot character is removed with this filter. Optionally would could keep the .(dot) character with the optional FILTER_FLAG_ALLOW_FRACTION flag.
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;floating&nbsp;point&nbsp;number&nbsp;***/<br /></span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"abc40.4def+;2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;float&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_FLOAT</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ALLOW_FRACTION</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Above we now see that the script returns<br />
+40.4+2<br />
+as we have now allowed fractional notation. We could also allow thousand seperators with the FILTER_FLAG_ALLOW_THOUSAND flag as demonstrated below.
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;floating&nbsp;point&nbsp;number&nbsp;***/<br /></span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"abc40.,000+;2"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;float&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_FLOAT</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ALLOW_THOUSAND</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Now the script above returns<br />
+40,000+2<br />
+because we have allowed the use of the thousand seperator in the string. If we wished to use scientific notation we can also allow the use of the characters <span class="codechar">e</span> and <span class="codechar">E</span> as we see below here.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;floating&nbsp;point&nbsp;number&nbsp;***/<br /></span><span style="color: #0000BB">$float&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"abc40+;4.2e"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;float&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$float</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_FLOAT</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_FLAG_ALLOW_SCIENTIFIC</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+This should now be rather self explanatory as we see the flag allowing scientific notation and the script returns<br />
+40+42e<br />
+Note the the decimal seperator has been removed also.
+</p>
+
+<h2><a class="anchor" name="20">Magic Quotes</a></h2>
+<p>
+The use of magic quotes in PHP has been a contentious issue from its inception. The removal of magic quotes in favour of user defined escaping of characters makes a lot of sense. Here we can impliment the functionality of magic quotes without having them force upon us by php.ini settings which may vary from server to server. The FILTER_SANITIZE_MAGIC_QUOTES filter applies the addslashes function to a string, thus providing us with an escaped string for use in our applications.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"test'test2'test3''&nbsp;test\'\"test5"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;sanitize&nbsp;the&nbsp;float&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_MAGIC_QUOTES</span><span style="color: #007700">)<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+As we can see, this above script returns<br />
+test\'test2\'test3\'\' test\\\'\"test5<br />
+as the addslashes() function has been applied to the string and escaped the characters that need to be escaped.
+</p>
+
+<h2><a class="anchor" name="21">Callback Filter</a></h2>
+<p>
+The FILTER_CALLBACK filter does exactly what it says. Calls a user-defined function to filter our data. This functionality permits us full control of the filtering of data. Here we will begin with a simple user defined function that converts spaces to underscores.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/**<br />*&nbsp;Callback&nbsp;function<br />*&nbsp;Convert&nbsp;spaces&nbsp;to&nbsp;underscores<br />*<br />*&nbsp;@param&nbsp;$string<br />*<br />*&nbsp;@return&nbsp;string<br />*<br />**/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">space2underscore</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">str_replace</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"_"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br />}<br /><br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is&nbsp;not&nbsp;a&nbsp;love&nbsp;song"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"space2underscore"</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+We see the filter has used our space2underscore() function as a callback and converted the spaces in the string so that it now returns<br />
+This_is_not_a_love_song.<br />
+We could use a PHP function rather than our own as demonstrated here
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is&nbsp;not&nbsp;a&nbsp;love&nbsp;song"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;use&nbsp;a&nbsp;PHP&nbsp;defined&nbsp;function&nbsp;as&nbsp;callback&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"ucwords"</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Now we see that using a simple PHP callback function is simple on our string and the return value is<br />
+This Is Not A Love Song<br />.
+If a non-existant function is used an error an error is generated as shown below.
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"phpro.org"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;callback&nbsp;without&nbsp;a&nbsp;declared&nbsp;function&nbsp;***/<br /></span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"non_existant_function"</span><span style="color: #007700">));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The above script will produce an error like<br />
+Warning: filter_var() [function.filter-var]: First argument is expected to be a valid callback in /www/fil.php on line 6<br />
+We have seen above the use of several functions to use as a callback. But what if we wanted to use several functions  for our callback array. Lets put it to the test.
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;a&nbsp;string&nbsp;***/<br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is&nbsp;not&nbsp;a&nbsp;love&nbsp;song"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;use&nbsp;a&nbsp;PHP&nbsp;defined&nbsp;function&nbsp;as&nbsp;callback&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"ucwords"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"strtolower"</span><span style="color: #007700">)));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+GRIM...<br />
+We see above that the use of mulitple callbacks is not permitted and will generate an error as follows:<br />
+Warning: filter_var() [function.filter-var]: First argument is expected to be a valid callback in /home/kevin/html/fil.php on line 7.<br />
+We can however, call a class method as shown below here.
+</p>
+
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;class&nbsp;method&nbsp;callback&nbsp;***/<br /></span><span style="color: #007700">class&nbsp;</span><span style="color: #0000BB">my_class</span><span style="color: #007700">{<br /><br /></span><span style="color: #FF8000">/**<br />*&nbsp;Callback&nbsp;method<br />*&nbsp;Convert&nbsp;spaces&nbsp;to&nbsp;underscores<br />*<br />*&nbsp;@param&nbsp;$string<br />*<br />*&nbsp;@return&nbsp;string<br />*<br />**/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">space2underscore</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">str_replace</span><span style="color: #007700">(</span><span style="color: #DD0000">"&nbsp;"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"_"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$string</span><span style="color: #007700">);<br />}<br /><br />}</span><span style="color: #FF8000">/***&nbsp;end&nbsp;of&nbsp;class&nbsp;***/<br /><br /></span><span style="color: #0000BB">$string&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"This&nbsp;is&nbsp;not&nbsp;a&nbsp;love&nbsp;song"</span><span style="color: #007700">;<br /><br />echo&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$string</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"my_class"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"space2underscore"</span><span style="color: #007700">)));<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Moving on from the above class we can also use a call back with a thown exception like this..
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/*&nbsp;thrown&nbsp;exception&nbsp;in&nbsp;the&nbsp;callback&nbsp;*/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">check_num</span><span style="color: #007700">(&amp;</span><span style="color: #0000BB">$num</span><span style="color: #007700">)&nbsp;{<br />if(</span><span style="color: #0000BB">$num&nbsp;</span><span style="color: #007700">!=&nbsp;</span><span style="color: #0000BB">4</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">Exception</span><span style="color: #007700">(</span><span style="color: #DD0000">"This&nbsp;is&nbsp;an&nbsp;exception&nbsp;error&nbsp;message"</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />}<br /><br /></span><span style="color: #FF8000">/***&nbsp;declare&nbsp;a&nbsp;number&nbsp;variable&nbsp;***/<br /></span><span style="color: #0000BB">$num&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">3</span><span style="color: #007700">;<br /><br />try&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$num</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"check_num"</span><span style="color: #007700">));<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />catch&nbsp;(</span><span style="color: #0000BB">Exception&nbsp;$e</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #0000BB">$e</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getMessage</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+From the above code we see that the $num variable does not match the value in the check_num() method and so an exception is thrown. The exception is then caught as usual in the first catch block and the error messages is displayed.
+</p>
+
+<h2><a class="anchor" name="22">The INPUT Filter</a></h2>
+<p>
+As the name suggests, the input filter gets input from outside our script and can then filter it. The function used for this is the filter_input() function. With this we can validate our variables as the come in from userland and be sure they are dealt with before we start using them. This ensures we have some semblance of a security model in place. If you are not moving to this architecture then you are letting yourself, and your customers, down. The input filter can gather data from several sources.
+</p>
+<ul>
+<li>INPUT_GET</li>
+<li>INPUT_POST</li>
+<li>INPUT_COOKIE</li>
+<li>INPUT_ENV</li>
+<li>INPUT_SERVER</li>
+<li>INPUT_SESSION  (Not yet implemented)</li>
+<li>INPUT_REQUEST (Not yet implemented)</li>
+</ul>
+<p>
+Here follows a simple example of using the filter_input() function to deal with GET variables. Lets assume you have a URL of the the type http://www.example.com?num=7<br />
+Lets see how we can validate this using our input filter.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;filter&nbsp;the&nbsp;input&nbsp;number&nbsp;from&nbsp;GET&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_input</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_GET</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'num'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"min_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">10</span><span style="color: #007700">)))&nbsp;!=&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'num'</span><span style="color: #007700">].</span><span style="color: #DD0000">'&nbsp;is&nbsp;valid'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'Invalid&nbsp;number&nbsp;supplied'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+As seen with earlier use of the FILTER_VALIDATE_INT filter, we are able to validate that the supplied value is a digit and that it is with the range of 1 to 10. Should an invalid value be supplied the filter_input will return bool(false). The INPUT_GET parameter tells the filter_input that the value is coming from GET.
+</p>
+<p>
+In the same manner as we validated the Integer above, we can do the same for any value. Here we show the filter_input in use with a different filter.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;filter&nbsp;the&nbsp;GET&nbsp;text&nbsp;variable&nbsp;with&nbsp;a&nbsp;value&nbsp;of&nbsp;&lt;kevin&gt;&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;&nbsp;</span><span style="color: #0000BB">filter_input</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_GET</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'text'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The above code uses the FILTER_SANITIZE_SPECIAL_CHARS filter to check the value of the GET variable named text. When if finds special chars it converts them for use like this<br />
+&map;#62;kevin&amp;#60;
+</p>
+<p>
+Of course we can use any of our filters in this way, here we use the FILTER_SANITIZE_ENCODED filter to encode the variable for use in a url. We use a url of the type filter.php?text=php pro
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #FF8000">/***&nbsp;input&nbsp;url&nbsp;is&nbsp;filter.php?text=php&nbsp;pro&nbsp;***/<br /><br />/***&nbsp;fiter&nbsp;and&nbsp;encode&nbsp;the&nbsp;GET&nbsp;text&nbsp;variable&nbsp;for&nbsp;use&nbsp;in&nbsp;a&nbsp;url&nbsp;***/<br /></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_input</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_GET</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'text'</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_ENCODED</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;encoded&nbsp;url&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #DD0000">'&lt;a&nbsp;href="?text='</span><span style="color: #007700">.</span><span style="color: #0000BB">$url</span><span style="color: #007700">.</span><span style="color: #DD0000">'"&gt;Link&lt;/a&gt;'</span><span style="color: #007700">;<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+From the code above we get the encoded url value like this<br />
+&lt;a href="?text=php%20pro"&gt;Link&lt;/a&gt;<br />
+Note that the space has been converted to a HTML special char for use in the url.
+</p>
+
+<p>So, lets assume we are recieving our data from a form and we need to access the POST array. This is done in the same mammer as accessing GET variables with INPUT_POST as we show here.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br />&lt;form&nbsp;method="post"&gt;<br />&lt;input&nbsp;type="text"&nbsp;name="number"&nbsp;&nbsp;value="123blah456"&nbsp;/&gt;<br />&lt;input&nbsp;type="submit"&nbsp;/&gt;<br />&lt;/form&gt;<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;number&nbsp;from&nbsp;form&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">filter_input</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"number"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_NUMBER_INT</span><span style="color: #007700">);<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+If we use the form above we find INPUT_POST applies the FILTER_SANITIZE_NUMBER_INT filter to the $_POST['number'] variable. It strips out the characters that are not digits which we can then use in our applications. With this sort of flexibility in use of the various filters, it is a small step to use any filter by applying the same methods. Here we show a simple form POST and a callback to prepare data for INSERTing into a MySQL database.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<br />&lt;form&nbsp;method="post"&gt;<br />&lt;input&nbsp;type="text"&nbsp;name="answer"&nbsp;&nbsp;value="123bla''h456"&nbsp;/&gt;<br />&lt;input&nbsp;type="submit"&nbsp;/&gt;<br />&lt;/form&gt;<br /><span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/***&nbsp;use&nbsp;a&nbsp;callback&nbsp;filter&nbsp;to&nbsp;mysql_real_escape_string&nbsp;***/<br /></span><span style="color: #0000BB">$answer&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_input</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"answer"</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"mysql_real_escape_string"</span><span style="color: #007700">));<br /><br /></span><span style="color: #FF8000">/***&nbsp;create&nbsp;an&nbsp;sql&nbsp;query&nbsp;***/<br /></span><span style="color: #0000BB">$sql&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #DD0000">"INSERT&nbsp;INTO&nbsp;quiz&nbsp;(answers)&nbsp;VALUES&nbsp;('{$answer}')"</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;query&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$sql</span><span style="color: #007700">;<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>The code above demonstrates how flexible the filter extension is. We could of course use $_SERVER or $_SESSION as the INPUTs and the functionality would remain the same.
+</p>
+
+<h2><a class="anchor" name="23">Filter an Array</a></h2>
+<p>
+Up till now we have focused on validation of variables from various sources. Here we show how the filters can be used on an array of values. This is done using the filter_var_array() function. We will show here a simulated POST array that could come from a form and how to apply different filters to the various array members.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /><br /></span><span style="color: #FF8000">/**<br />*&nbsp;Callback&nbsp;function<br />*&nbsp;@format&nbsp;a&nbsp;name<br />*&nbsp;@param&nbsp;string&nbsp;$name<br />*&nbsp;@return&nbsp;string&nbsp;formated&nbsp;name<br />**/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">formatName</span><span style="color: #007700">(</span><span style="color: #0000BB">$name</span><span style="color: #007700">){<br />&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">ucwords</span><span style="color: #007700">(</span><span style="color: #0000BB">strtolower</span><span style="color: #007700">(</span><span style="color: #0000BB">$name</span><span style="color: #007700">));<br />}<br /><br /></span><span style="color: #FF8000">/***&nbsp;simulated&nbsp;POST&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$_POST&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"name"&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"KeViN&nbsp;WatersoN"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"age"&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"42"</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"email"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #DD0000">"kevin@phpro.org"</span><span style="color: #007700">,<br />);<br /><br /></span><span style="color: #FF8000">/***&nbsp;an&nbsp;array&nbsp;of&nbsp;filters&nbsp;***/<br /></span><span style="color: #0000BB">$filters&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"name"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"filter"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"flags"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_FLAG_ARRAY</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"formatName"</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"age"&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(</span><span style="color: #DD0000">"filter"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"flags"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_FLAG_ARRAY</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"min_range"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">1</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">100</span><span style="color: #007700">)),<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"email"&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_EMAIL</span><span style="color: #007700">,<br />);<br /><br /></span><span style="color: #FF8000">/***&nbsp;apply&nbsp;the&nbsp;filters&nbsp;to&nbsp;the&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$filtered_array&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var_array</span><span style="color: #007700">(</span><span style="color: #0000BB">$_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$filters</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;loop&nbsp;and&nbsp;display&nbsp;keys&nbsp;and&nbsp;values&nbsp;***/<br /></span><span style="color: #007700">foreach(</span><span style="color: #0000BB">$filtered_array&nbsp;</span><span style="color: #007700">as&nbsp;</span><span style="color: #0000BB">$k</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$v</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #0000BB">$k</span><span style="color: #007700">.</span><span style="color: #DD0000">"&nbsp;-&nbsp;"</span><span style="color: #007700">.</span><span style="color: #0000BB">$v</span><span style="color: #007700">.</span><span style="color: #DD0000">"&lt;br&nbsp;/&gt;"</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Lets step through the above code to see what we have done here. The output will be like:<br />
+name - Kevin Waterson<br />
+age - 42<br />
+email - kevin@phpro.org<br />
+We began with a simple callback function that we use to apply later in the script. Next we created a simulated POST array to simulate the data coming from a form, or possibly CURL. We then create an array of filters we wish to supply to each of the POST variables. It is then a simple matter for us to apply the filters array to the POST array with the filter_var_array() function. We loop over our filtered_array and see the values. This is by far a superior method of handling variables from users. Of course the POST data could be any array of data. You may be able to see how helpful the callback filter will be when used on POST data intended for INSERTing into a database. A simple callback to a function such as mysql_real_escape_string(), as seen previously, would make life a lot simpler for some.
+</p>
+
+<p>
+As mentioned, any array could be used. A POST array was used above as an example, but there is a better way to hand inputs using the filter_input_array. Like the filter_input() function, the filter_input_array() function takes it array of values from inputs as follows
+</p>
+<ul>
+<li>INPUT_GET</li>
+<li>INPUT_POST</li>
+<li>INPUT_COOKIE</li>
+<li>INPUT_SERVER</li>
+<li>INPUT_ENV</li>
+<li>INPUT_SESSION</li>
+<li>INPUT_REQUEST</li>
+</ul>
+<div class="codebox">
+<code><span style="color: #000000">
+<br />&lt;form&nbsp;method="post"&gt;<br />&lt;input&nbsp;type="text"&nbsp;name="name"&nbsp;&nbsp;value="Kevin"&nbsp;/&gt;&lt;br&nbsp;/&gt;<br />&lt;input&nbsp;type="text"&nbsp;name="age"&nbsp;&nbsp;&nbsp;value="42"&nbsp;/&gt;&lt;br&nbsp;/&gt;<br />&lt;input&nbsp;type="text"&nbsp;name="email"&nbsp;value="kevin@phpro.org"&nbsp;/&gt;&lt;br&nbsp;/&gt;<br />&lt;input&nbsp;type="submit"&nbsp;/&gt;<br />&lt;/form&gt;<br /><span style="color: #0000BB">&lt;?php<br /><br />$filters&nbsp;</span><span style="color: #007700">=&nbsp;array(<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"age"&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"filter"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_VALIDATE_INT</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"flags"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">FILTER_FLAG_ARRAY</span><span style="color: #007700">|</span><span style="color: #0000BB">FILTER_NULL_ON_FAILURE</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"options"</span><span style="color: #007700">=&gt;array(</span><span style="color: #DD0000">"min_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">0</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"max_range"</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">100</span><span style="color: #007700">)),<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"name"&nbsp;&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_SPECIAL_CHARS</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"email"&nbsp;</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">FILTER_SANITIZE_EMAIL</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">"notset"</span><span style="color: #007700">=&gt;&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_INT<br /></span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;apply&nbsp;the&nbsp;filters&nbsp;to&nbsp;the&nbsp;POST&nbsp;array&nbsp;***/<br /></span><span style="color: #0000BB">$filtered&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_input_array</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$filters</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/***&nbsp;echo&nbsp;the&nbsp;filtered&nbsp;array&nbsp;members&nbsp;***/<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">$filtered</span><span style="color: #007700">[</span><span style="color: #DD0000">'name'</span><span style="color: #007700">]&nbsp;.</span><span style="color: #DD0000">'&lt;br&nbsp;/&gt;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$filtered</span><span style="color: #007700">[</span><span style="color: #DD0000">'age'</span><span style="color: #007700">]&nbsp;.</span><span style="color: #DD0000">'&lt;br&nbsp;/&gt;'</span><span style="color: #007700">.&nbsp;</span><span style="color: #0000BB">$filtered</span><span style="color: #007700">[</span><span style="color: #DD0000">'email'</span><span style="color: #007700">].</span><span style="color: #DD0000">'&lt;br&nbsp;/&gt;'</span><span style="color: #007700">;<br /><br /></span><span style="color: #FF8000">/***&nbsp;check&nbsp;for&nbsp;the&nbsp;notset&nbsp;variable&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_has_var</span><span style="color: #007700">(</span><span style="color: #0000BB">INPUT_POST</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">"notset"</span><span style="color: #007700">)&nbsp;!==&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;</span><span style="color: #DD0000">'Variable&nbsp;is&nbsp;in&nbsp;filter'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">var_dump</span><span style="color: #007700">(</span><span style="color: #0000BB">$filtered</span><span style="color: #007700">[</span><span style="color: #DD0000">"notset"</span><span style="color: #007700">]);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+Stepping through this code we see some familiar filters and some new introductions. When using the FILTER_VALIDATE_INT for the age variable we have added the flag constant FILTER_NULL_ON_FAILURE. This flag tells the filter engine to return NULL rather than bool(false) if the filter fails. This can be handy if we wish to INSERT into a database or something. Wehave used the filter_input_array() function to apply the filters to their respective POST variables much the same as we did with the filter_var_array() function earlier. From there it is simple to echo the filtered array members, or if our program dictated, we may have other uses for them.
+</p>
+<p>
+At the very last we have used the filter_has_var() function to check if the variable notset is in the INPUT_POST filter. As it is not it returns NULL as seen with the var_dump().
+</p>
+
+<h2><a class="anchor" name="24">Filter an Array with CALLBACK</a></h2>
+<p>
+Of course, not all arrays come from outside our scripts. Quite often we need to perform operations on our own arrays. Previously, if we wanted to use a callback would would have used array_walk() to apply a callback function. The filter extension deals with this just as simply as with any array. In the following example we will do something useful. The task of hiding email addresses from spam bots is an age old task and many have taken to use ASCII values instead to print thier mails. Latter day spambots read these also, but it makes for a good callback example to iterate over each character of an email address and convert it to its ASCII value using the PHP ord() function.
+</p>
+<div class="codebox">
+<code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php<br /></span><span style="color: #007700">echo&nbsp;</span><span style="color: #0000BB">encodeEmail</span><span style="color: #007700">(</span><span style="color: #DD0000">'kevin@phpro.org'</span><span style="color: #007700">);<br /><br /></span><span style="color: #FF8000">/**<br />&nbsp;*<br />&nbsp;*&nbsp;Return&nbsp;ASCII&nbsp;value&nbsp;web&nbsp;use<br />&nbsp;*<br />&nbsp;*&nbsp;@param&nbsp;string<br />&nbsp;*<br />&nbsp;*&nbsp;@return&nbsp;string<br />&nbsp;*<br />&nbsp;*/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">makeASCII</span><span style="color: #007700">(</span><span style="color: #0000BB">$char</span><span style="color: #007700">=</span><span style="color: #0000BB">0</span><span style="color: #007700">){<br />&nbsp;&nbsp;return&nbsp;</span><span style="color: #DD0000">'&amp;#'</span><span style="color: #007700">.</span><span style="color: #0000BB">ord</span><span style="color: #007700">(</span><span style="color: #0000BB">$char</span><span style="color: #007700">).</span><span style="color: #DD0000">';'</span><span style="color: #007700">;<br />}<br /><br /><br /></span><span style="color: #FF8000">/**<br />&nbsp;*<br />&nbsp;*&nbsp;@Encode&nbsp;an&nbsp;email&nbsp;to&nbsp;ascii<br />&nbsp;*<br />&nbsp;*&nbsp;@parma&nbsp;string<br />&nbsp;*<br />&nbsp;*&nbsp;@return&nbsp;string<br />&nbsp;*<br />&nbsp;*/<br /></span><span style="color: #007700">function&nbsp;</span><span style="color: #0000BB">encodeEmail</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">){<br /></span><span style="color: #FF8000">/***&nbsp;check&nbsp;if&nbsp;the&nbsp;filter&nbsp;has&nbsp;a&nbsp;var&nbsp;***/<br /></span><span style="color: #007700">if(</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_VALIDATE_EMAIL</span><span style="color: #007700">)&nbsp;!==&nbsp;</span><span style="color: #0000BB">FALSE</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;split&nbsp;the&nbsp;email&nbsp;into&nbsp;single&nbsp;chars&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$charArray&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">str_split</span><span style="color: #007700">(</span><span style="color: #0000BB">$email</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;apply&nbsp;a&nbsp;callback&nbsp;funcion&nbsp;to&nbsp;each&nbsp;array&nbsp;member&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$encodedArray&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">filter_var</span><span style="color: #007700">(</span><span style="color: #0000BB">$charArray</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">FILTER_CALLBACK</span><span style="color: #007700">,&nbsp;array(</span><span style="color: #DD0000">'options'</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">"makeASCII"</span><span style="color: #007700">));<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">/***&nbsp;put&nbsp;the&nbsp;string&nbsp;back&nbsp;together&nbsp;***/<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$encodedString&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">implode</span><span style="color: #007700">(</span><span style="color: #DD0000">''</span><span style="color: #007700">,</span><span style="color: #0000BB">$encodedArray</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #DD0000">'&lt;a&nbsp;href="mailto:'</span><span style="color: #007700">.</span><span style="color: #0000BB">$encodedString</span><span style="color: #007700">.</span><span style="color: #DD0000">'"&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$encodedString</span><span style="color: #007700">.</span><span style="color: #DD0000">'&lt;/a&gt;'</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />else<br />&nbsp;&nbsp;{<br />&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br />&nbsp;&nbsp;}<br />}<br /><br /></span><span style="color: #0000BB">?&gt;<br /></span>
+</span>
+</code></div>
+<p>
+The string resulting from this will be an ASCII encode mail address for use on a web page like this <br />
+&lt;a&nbsp;href="mailto:&amp;#107;&amp;#101;&amp;#118;&amp;#105;&amp;#110;&amp;#64;&amp;#112;&amp;#104;&amp;#112;&amp;#114;&amp;#111;&amp;#46;&amp;#111;&amp;#114;&amp;#103;"&gt;&amp;#107;&amp;#101;&amp;#118;&amp;#105;&amp;#110;&amp;#64;&amp;#112;&amp;#104;&amp;#112;&amp;#114;&amp;#111;&amp;#46;&amp;#111;&amp;#114;&amp;#103;&lt;a&gt;<br />
+More importantly, what we have done is used the filter_var() function on an array, just as we would a string. The same principles apply and the filter will apply the callback function to each member of the array. It does'nt get any easier than this.
+</p>
+
+<h2><a class="anchor" name="25">A Real World Example</a></h2>
+<p>
+We have seen above many ways in which we can use the filter extension to improve our script. The use in the real world will not differ greatly from what you have seen here, but will have different value for different applications. With the focus on security, this section has blossomed into its own tutorial which is available at <a href="http://www.phpro.org/tutorials/PHP-Security.html">http://www.phpro.org/tutorials/PHP-Security.html</a>. This tutorialis highly recommended for those wishing to use the filter functions for input validation and sanitation.
+</p>
+<h2><a class="anchor" name="100">Credits</a></h2>
+<p>
+Many thanks to Derick Rethans and Pierre for their help with the code in this tutorial and quick fixes to bugs in the PHP 5.2.0 core as we came across them. Pierre and Derick are PHP core developers and the creators of the filter extenstion. You can catch the latest from Pierre on his blog at <a href="http://blog.thepimp.net">http://blog.thepimp.net</a>.
+</p> 
+</div> <!-- end of main content div-->
+
+<div id="banner">
+<div id="audiobiblio">
+Shameless plug for ...<br />
+<a href="http://www.audiobiblio.com">Free Music Streaming</a>
+</div>
+</div>
+
+<div id="footer">
+Copyright © 2007 Professional PHP Development (phpro.org). All rights reserved.<br />
+Use of this site implies that you have read and agree with our <a href="terms">terms and conditions</a>, <a href="disclaimer">disclaimer</a>, and
+<a href="privacy">privacy policy</a>.
+</div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-3491171-1";
+urchinTracker();
+</script>
+
+</body>
+</html>

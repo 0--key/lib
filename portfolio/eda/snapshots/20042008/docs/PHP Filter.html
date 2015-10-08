@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PHP Filter</title>
+ 
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="Keywords" content="xml,tutorial,html,dhtml,css,xsl,xhtml,javascript,asp,ado,vbscript,dom,sql,colors,soap,php,authoring,programming,training,learning,beginner's guide,primer,lessons,school,howto,reference,examples,samples,source code,tags,demos,tips,links,FAQ,tag list,forms,frames,color table,w3c,cascading style sheets,active server pages,dynamic html,internet,database,development,Web building,Webmaster,html guide" />
+
+<meta name="Description" content="Free HTML XHTML CSS JavaScript DHTML XML DOM XSL XSLT RSS AJAX ASP ADO PHP SQL tutorials, references, examples for web building." />
+
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+
+<link rel="stylesheet" type="text/css" href="/stdtheme.css" />
+
+</head>
+
+<body>
+
+<a name="top"></a>
+<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#808080">
+<tr>
+<td width="234" valign="top">
+<a href="http://www.w3schools.com"><img src="/images/w3default80.jpg" border="0" alt="W3Schools" /></a>
+</td>
+<th valign="middle" align="left" class="right">
+<iframe style="background-color:#808080" src="/banners/bannerframe.asp?adpartner=mosso" height="90" width="728"
+marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+
+<br /></th>
+</tr>
+</table>
+
+<table style="margin-left:1px" width="790px" border="0" cellpadding="0" cellspacing="2">
+<tr>
+<td width="137" class="content" valign="top"><br />
+<a class="left" href="/default.asp" target="_top">
+<img src="/images/homeicon.gif" border="0" alt="home" /></a>
+<a class="left" href="/default.asp" target="_top">
+<b>HOME</b></a>
+<br /><br />
+<b>PHP Basic</b><br />
+<a class="left" target="_top" href="default.asp" >PHP HOME</a><br />
+<a class="left" target="_top" href="php_intro.asp" >PHP Intro</a><br />
+<a class="left" target="_top" href="php_install.asp" >PHP Install</a><br />
+<a class="left" target="_top" href="php_syntax.asp" >PHP Syntax</a><br />
+<a class="left" target="_top" href="php_variables.asp" >PHP Variables</a><br />
+<a class="left" target="_top" href="php_string.asp" >PHP String</a><br />
+<a class="left" target="_top" href="php_operators.asp" >PHP Operators</a><br />
+<a class="left" target="_top" href="php_if_else.asp" >PHP If...Else</a><br />
+<a class="left" target="_top" href="php_switch.asp" >PHP Switch</a><br />
+<a class="left" target="_top" href="php_arrays.asp" >PHP Arrays</a><br />
+<a class="left" target="_top" href="php_looping.asp" >PHP Looping</a><br />
+<a class="left" target="_top" href="php_functions.asp" >PHP Functions</a><br />
+<a class="left" target="_top" href="php_forms.asp" >PHP Forms</a><br />
+<a class="left" target="_top" href="php_get.asp" >PHP $_GET</a><br />
+<a class="left" target="_top" href="php_post.asp" >PHP $_POST</a><br />
+<br />
+<b>PHP Advanced</b><br />
+<a class="left" target="_top" href="php_date.asp" >PHP Date</a><br />
+<a class="left" target="_top" href="php_includes.asp" >PHP Include</a><br />
+<a class="left" target="_top" href="php_file.asp" >PHP File</a><br />
+<a class="left" target="_top" href="php_file_upload.asp" >PHP File Upload</a><br />
+<a class="left" target="_top" href="php_cookies.asp" >PHP Cookies</a><br />
+<a class="left" target="_top" href="php_sessions.asp" >PHP Sessions</a><br />
+<a class="left" target="_top" href="php_mail.asp" >PHP E-mail</a><br />
+<a class="left" target="_top" href="php_secure_mail.asp" >PHP Secure E-mail</a><br />
+<a class="left" target="_top" href="php_error.asp" >PHP Error</a><br />
+<a class="left" target="_top" href="php_exception.asp" >PHP Exception</a><br />
+<a class="left" target="_top" href="php_filter.asp" style='font-weight:bold;'>PHP Filter</a><br />
+<br />  
+<b>PHP Database</b><br />
+<a class="left" target="_top" href="php_mysql_intro.asp" >MySQL Introduction</a><br />
+<a class="left" target="_top" href="php_mysql_connect.asp" >MySQL Connect</a><br />
+<a class="left" target="_top" href="php_mysql_create.asp" >MySQL Create</a><br />
+<a class="left" target="_top" href="php_mysql_insert.asp" >MySQL Insert</a><br />
+<a class="left" target="_top" href="php_mysql_select.asp" >MySQL Select</a><br />
+<a class="left" target="_top" href="php_mysql_where.asp" >MySQL Where</a><br />
+<a class="left" target="_top" href="php_mysql_order_by.asp" >MySQL Order By</a><br />
+<a class="left" target="_top" href="php_mysql_update.asp" >MySQL Update</a><br />
+<a class="left" target="_top" href="php_mysql_delete.asp" >MySQL Delete</a><br />
+<a class="left" target="_top" href="php_db_odbc.asp" >PHP ODBC</a><br />
+<br />
+<b>PHP XML</b><br />
+<a class="left" target="_top" href="php_xml_parser_expat.asp" >XML Expat Parser</a><br />
+<a class="left" target="_top" href="php_xml_dom.asp" >XML DOM</a><br />
+<a class="left" target="_top" href="php_xml_simplexml.asp" >XML SimpleXML</a><br />
+<br />
+<b>PHP and AJAX</b><br />
+<a class="left" target="_top" href="php_ajax_intro.asp" >AJAX Introduction</a><br />
+<a class="left" target="_top" href="php_ajax_xmlhttprequest.asp" >XMLHttpRequest</a><br />
+<a class="left" target="_top" href="php_ajax_suggest.asp" >AJAX Suggest</a><br />
+<a class="left" target="_top" href="php_ajax_xml.asp" >AJAX XML</a><br />
+<a class="left" target="_top" href="php_ajax_database.asp" >AJAX Database</a><br />
+<a class="left" target="_top" href="php_ajax_responsexml.asp" >AJAX responseXML</a><br />
+<a class="left" target="_top" href="php_ajax_livesearch.asp" >AJAX Live Search</a><br />
+<a class="left" target="_top" href="php_ajax_rss_reader.asp" >AJAX RSS Reader</a><br />
+<a class="left" target="_top" href="php_ajax_poll.asp" >AJAX Poll</a><br />
+<br />
+<b>PHP Reference</b><br />
+<a class="left" target="_top" href="php_ref_array.asp" >PHP Array</a><br />
+<a class="left" target="_top" href="php_ref_calendar.asp" >PHP Calendar</a><br />
+<a class="left" target="_top" href="php_ref_date.asp" >PHP Date</a><br />
+<a class="left" target="_top" href="php_ref_directory.asp" >PHP Directory</a><br />
+<a class="left" target="_top" href="php_ref_error.asp" >PHP Error</a><br />
+<a class="left" target="_top" href="php_ref_filesystem.asp" >PHP Filesystem</a><br />
+<a class="left" target="_top" href="php_ref_filter.asp" >PHP Filter</a><br />
+<a class="left" target="_top" href="php_ref_ftp.asp" >PHP FTP</a><br />
+<a class="left" target="_top" href="php_ref_http.asp" >PHP HTTP</a><br />
+<a class="left" target="_top" href="php_ref_libxml.asp" >PHP Libxml</a><br />
+<a class="left" target="_top" href="php_ref_mail.asp" >PHP Mail</a><br />
+<a class="left" target="_top" href="php_ref_math.asp" >PHP Math</a><br />
+<a class="left" target="_top" href="php_ref_misc.asp" >PHP Misc</a><br />
+<a class="left" target="_top" href="php_ref_mysql.asp" >PHP MySQL</a><br />
+<a class="left" target="_top" href="php_ref_simplexml.asp" >PHP SimpleXML</a><br />
+<a class="left" target="_top" href="php_ref_string.asp" >PHP String</a><br />
+<a class="left" target="_top" href="php_ref_xml.asp" >PHP XML</a><br />
+<a class="left" target="_top" href="php_ref_zip.asp" >PHP Zip</a><br />
+<br />
+<b>PHP Quiz</b><br />
+<a class="left" target="_top" href="php_quiz.asp" >PHP Quiz</a><br />
+
+<!--<b>PHP XML</b><br />
+<a class="left" target="_top" href="php_xml_parser.asp" >PHP Expat</a><br />
+<a class="left" target="_top" href="php_xml.asp" >PHP XML</a><br />
+<br />
+<b>PHP Software</b><br />
+<a class="left" target="_top" href="php_zend.asp" >Zend Studio</a><br />
+--><br />
+<b>Selected Reading</b><br />
+<a class="left" target="_top" href="/browsers/browsers_stats.asp">Web Statistics</a><br />
+<a class="left" target="_top" href="/site/site_glossary.asp">Web Glossary</a><br />
+<a class="left" target="_top" href="/hosting/default.asp">Web Hosting</a><br />
+<a class="left" target="_top" href="/quality/default.asp">Web Quality</a><br /><br />
+<a class="left" target="_top" href="/forum/default.asp">W3Schools Forum</a><br /><br />
+<a class="left" target="_top" href="/about/about_helping.asp">Helping W3Schools</a><br /><br />
+<script type="text/javascript"><!--
+google_ad_client = "pub-3440800076797949";
+/*LeftLinkUnit*/
+google_ad_slot = "4854527104";
+google_ad_width = 120;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td>
+<td valign="top">
+<table style="border: 1px solid gray" width="100%" bgcolor="#FFFFFF" border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td>
+
+<h1>PHP Filter</h1>
+<a href="php_exception.asp"><img alt="previous" border="0" src="/images/btn_previous.gif" width="100" height="20" /></a>
+<a href="php_mysql_intro.asp"><img alt="next" border="0" src="/images/btn_next.gif" width="100" height="20" /></a>
+<hr />
+<p class="intro">PHP filters are used to validate and filter data coming from 
+insecure sources, like user input.</p>
+<hr />
+
+<h2>What is a PHP Filter? </h2>
+<p>A PHP filter is used to validate and filter data coming from insecure sources.</p>
+<p>To test, validate and filter user input or custom data is an important part 
+of any web application.</p>
+<p>The PHP filter extension is designed to make data 
+filtering easier and quicker.</p>
+<hr />
+
+<h2>Why use a Filter?</h2>
+<p>Almost all web applications depend on external input. Usually this comes from 
+a user or another application (like a web service). By using filters you can be 
+sure your application gets the correct input type.</p>
+<p><b>You should always filter all external data!</b></p>
+<p>Input filtering is one of the most important application security issues.</p>
+<p>What is external data?</p>
+<ul>
+	<li>Input data from a form</li>
+	<li>Cookies</li>
+	<li>Web services data</li>
+	<li>Server variables</li>
+	<li>Database query results</li>
+</ul>
+<hr />
+
+<h2>Functions and Filters</h2>
+<p>To filter a variable, use one of the following filter functions:</p>
+<ul>
+	<li>filter_var() - Filters a single variable with a specified filter</li>
+	<li>filter_var_array() - Filter several variables with the same or different 
+	filters</li>
+	<li>filter_input - Get one input variable and filter it</li>
+	<li>filter_input_array - Get several input variables and filter them with 
+	the same or different filters</li>
+</ul>
+<p>In the example below, we validate an integer using the filter_var() function:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table13"><tr><td>
+<pre>&lt;?php
+$int = 123;</pre>
+<pre>if(!filter_var($int, FILTER_VALIDATE_INT))
+ {
+ echo(&quot;Integer is not valid&quot;);
+ }
+else
+ {
+ echo(&quot;Integer is valid&quot;);
+ }
+?&gt;</pre>
+</td></tr></table>
+
+<p>The code above uses the &quot;FILTER_VALIDATE_INT&quot;&nbsp; filter to filter the 
+variable. Since the integer is valid, the output of the code above will be: 
+&quot;Integer is valid&quot;.</p>
+<p>If we try with a variable that is not an integer (like &quot;123abc&quot;), the output 
+will be: &quot;Integer is not valid&quot;.</p>
+<p>For a complete list of functions and filters, visit our
+<a href="php_ref_filter.asp">PHP Filter Reference.</a><br />
+</p>
+<hr />
+
+<h2>Validating and Sanitizing</h2>
+<p>There are two kinds of filters:</p>
+<p>Validating filters:</p>
+<ul>
+	<li>Are used to validate user input</li>
+	<li>Strict format rules (like URL or E-Mail validating)</li>
+	<li>Returns the expected type on success or FALSE on failure</li>
+</ul>
+
+<p>Sanitizing filters:</p>
+<ul>
+	<li>Are used to allow or disallow specified characters in a string</li>
+	<li>No data format rules</li>
+	<li>Always return the string</li>
+</ul>
+<hr />
+
+<h2>Options and Flags</h2>
+<p>Options and flags are used to add additional filtering options to the 
+specified filters.</p>
+<p>Different filters have different options and flags. </p>
+<p>In the example below, we validate an integer using the filter_var() and the &quot;min_range&quot; 
+and &quot;max_range&quot; options:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table14"><tr><td>
+<pre>&lt;?php
+$var=300;</pre>
+<pre>$int_options = array(
+&quot;options&quot;=&gt;array
+ (
+ &quot;min_range&quot;=&gt;0,
+ &quot;max_range&quot;=&gt;256
+ )
+);</pre>
+<pre>if(!filter_var($var, FILTER_VALIDATE_INT, $int_options))
+ {
+ echo(&quot;Integer is not valid&quot;);
+ }
+else
+ {
+ echo(&quot;Integer is valid&quot;);
+ }
+?&gt;</pre>
+</td></tr></table>
+
+<p>Like the code above, options must be put in an associative array with the 
+name &quot;options&quot;. If a flag is used it does not need to be in an array.</p>
+<p>Since the integer is &quot;300&quot; it is not in the specified range, and the output of the code above will be: 
+&quot;Integer is not valid&quot;.</p>
+<p>For a complete list of functions and filters, visit our
+<a href="php_ref_filter.asp">PHP Filter Reference.</a> Check each filter to see 
+what options and flags are available.</p>
+<hr />
+
+<h2>Validate Input</h2>
+<p>Let's try validating input from a form.</p>
+<p>The first thing we need to do is to confirm that the input data we are 
+looking for exists.</p>
+<p>Then we filter the input data using the filter_input() function.</p>
+<p>In the example below, the input variable &quot;email&quot; is sent to the PHP page:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table3"><tr><td>
+<pre>&lt;?php
+if(!filter_has_var(INPUT_GET, &quot;email&quot;))
+ {
+ echo(&quot;Input type does not exist&quot;);
+ }
+else
+ {
+ if (!filter_input(INPUT_GET, &quot;email&quot;, FILTER_VALIDATE_EMAIL))
+  {
+  echo &quot;E-Mail is not valid&quot;;
+  }
+ else
+  {
+  echo &quot;E-Mail is valid&quot;;
+  }
+ }
+?&gt;</pre>
+</td></tr></table>
+
+<h2>Example Explained</h2>
+<p>The example above has an input (email) sent to it using the &quot;GET&quot; method:</p>
+<ol>
+	<li>Check if an &quot;email&quot; input variable of the &quot;GET&quot; type exist</li>
+	<li>If the input variable exists, check if it is a valid e-mail address</li>
+</ol>
+<hr />
+
+<h2>Sanitize Input</h2>
+<p>Let's try cleaning up an URL sent from a form.</p>
+<p>First we confirm that the input data we are 
+looking for exists.</p>
+<p>Then we sanitize the input data using the filter_input() function.</p>
+<p>In the example below, the input variable &quot;url&quot; is sent to the PHP page:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table5"><tr><td>
+<pre>&lt;?php
+if(!filter_has_var(INPUT_POST, &quot;url&quot;))
+ {
+ echo(&quot;Input type does not exist&quot;);
+ }
+else
+ {
+ $url = filter_input(INPUT_POST, 
+ &quot;url&quot;, FILTER_SANITIZE_URL);
+ }
+?&gt;</pre>
+</td></tr></table>
+<h2>Example Explained</h2>
+<p>The example above has an input (url) sent to it using the &quot;POST&quot; method:</p>
+<ol>
+	<li>Check if the &quot;url&quot; input of the &quot;POST&quot; type exists</li>
+	<li>If the input variable exists, sanitize (take away invalid characters) 
+	and store it in the $url variable</li>
+</ol>
+<p>If the input variable is a string like this 
+&quot;http://www.W3ååSchøøools.com/&quot;, the $url variable after the sanitizing will 
+look like this:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table16"><tr><td>
+<pre>http://www.W3Schools.com/</pre>
+</td></tr></table>
+<br />
+<hr />
+
+<h2>Filter Multiple Inputs</h2>
+<p>A form almost always consist of more than one input field. To avoid calling 
+the filter_var or filter_input functions over and over, we can use the 
+filter_var_array or the filter_input_array functions.</p>
+<p>In this example we use the filter_input_array() function to filter three GET 
+variables. The received GET variables is a name, an age and an e-mail address:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table1"><tr><td>
+<pre>&lt;?php
+$filters = array
+ (
+ &quot;name&quot; =&gt; array
+  (
+  &quot;filter&quot;=&gt;FILTER_SANITIZE_STRING
+  ),
+ &quot;age&quot; =&gt; array
+  (
+  &quot;filter&quot;=&gt;FILTER_VALIDATE_INT,
+  &quot;options&quot;=&gt;array
+   (
+   &quot;min_range&quot;=&gt;1,
+   &quot;max_range&quot;=&gt;120
+   )
+  ),
+ &quot;email&quot;=&gt; FILTER_VALIDATE_EMAIL,
+ );</pre>
+<pre>$result = filter_input_array(INPUT_GET, $filters);</pre>
+<pre>if (!$result[&quot;age&quot;])
+ {
+ echo(&quot;Age must be a number between 1 and 120.&lt;br /&gt;&quot;);
+ }
+elseif(!$result[&quot;email&quot;])
+ {
+ echo(&quot;E-Mail is not valid.&lt;br /&gt;&quot;);
+ }
+else
+ {
+ echo(&quot;User input is valid&quot;);
+ }
+?&gt;</pre>
+</td></tr></table>
+<h2>Example Explained</h2>
+<p>The example above has three inputs (name, age and email) sent to it using the &quot;GET&quot; method:</p>
+<ol>
+	<li>Set an array containing the name of input variables and the filters used 
+	on the specified input variables</li>
+	<li>Call the filter_input_array() function with the GET input variables and 
+	the array we just set</li>
+	<li>Check the &quot;age&quot; and &quot;email&quot; variables in the $result variable for 
+	invalid inputs. (If any of the input variables are invalid, that input 
+	variable will be FALSE after the filter_input_array() function)</li>
+</ol>
+<p>The second parameter of the filter_input_array() function can be an array or 
+a single filter ID.</p>
+<p>If the parameter is a single filter ID all values in the input array are 
+filtered by the specified filter.</p>
+<p>If the parameter is an array it must follow these rules:</p>
+<ul>
+	<li>Must be an associative array containing an input variable as an array key 
+	(like the &quot;age&quot; input variable)</li>
+	<li>The array value must be a filter ID or an array specifying the 
+	filter, flags and options</li>
+</ul>
+<hr />
+
+<h2>Using Filter Callback</h2>
+<p>It is possible to call a user defined function and use it as a filter using 
+the FILTER_CALLBACK filter. This way, we have full control of the data 
+filtering.</p>
+<p>You can create your own user defined function or use an existing PHP function</p>
+<p>The function you wish to use to filter is specified the same way as an option 
+is specified. In an associative array with the name &quot;options&quot;</p>
+<p>In the example below, we use a user created function to convert all&nbsp; &quot;_&quot; 
+to whitespaces:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table8"><tr><td>
+<pre>&lt;?php
+function convertSpace($string)
+{
+return str_replace(&quot;_&quot;, &quot; &quot;, $string);
+}
+
+$string = &quot;Peter_is_a_great_guy!&quot;;
+
+echo filter_var($string, FILTER_CALLBACK,
+array(&quot;options&quot;=&gt;&quot;convertSpace&quot;));
+?&gt;</pre>
+</td></tr></table>
+<p>The result from the code above should look like this:</p>
+<table width="100%" border="1" class="ex" cellspacing="0" id="table17"><tr><td>
+<pre>Peter is a great guy!</pre>
+</td></tr></table>
+<h2>Example Explained</h2>
+<p>The example above converts all &quot;_&quot; to whitespaces:</p>
+<ol>
+	<li>Create a function to replace &quot;_&quot; to whitespaces</li>
+	<li>Call the filter_var() function with the FILTER_CALLBACK filter and an 
+	array containing our function</li>
+</ol>
+<hr />
+
+<a href="php_exception.asp"><img alt="previous" border="0" src="/images/btn_previous.gif" width="100" height="20" /></a>
+<a href="php_mysql_intro.asp"><img alt="next" border="0" src="/images/btn_next.gif" width="100" height="20" /></a>
+
+<br />
+<hr />
+
+<!-- **** SPOTLIGHTS 1 **** -->
+
+<iframe src="/banners/aspallframe.asp" height="110" width="485"
+marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+<hr />
+<!-- **** SPOTLIGHTS 2 **** -->
+
+<div style="background-color:#dae6f2;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="66%"><a target="_blank" href="http://www.ektron.com/cms400-web-cms.aspx?id=5748&amp;cpid=BAC-3165&amp;campaignid=3165">
+    <img src="/images/020108_w3school_ad_logo2.gif" alt="Ektron" width="328" height="108" border="0" /></a></td>
+    <td width="34%" rowspan="2"><div align="center"><a target="_blank" href="http://www.ektron.com/cms400-web-cms.aspx?id=5748&amp;cpid=BAC-3165&amp;campaignid=3165">
+    <img src="/images/020108_w3school_ad_box2.gif" alt="Ektron Intranet" width="141" height="232" border="0"/></a></div></td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="http://www.ektron.com/cms400-web-cms.aspx?id=5748&amp;cpid=BAC-3165&amp;campaignid=3165">
+    <img src="/images/020108_w3school_ad_intranet2.gif" alt="Ektron" width="328" height="124" border="0" /></a></td>
+    </tr>
+</table>
+
+<p style="padding: 10px; margin:0px;"><a target="_blank" href="http://www.ektron.com/cms400-web-cms.aspx?id=5748&amp;cpid=BAC-3165&amp;campaignid=3165">
+<strong>The Ektron Intranet</strong></a>
+lets you do everything you need to do on your corporate intranet and everything you want to do<strong>... all with just one application</strong>.</p>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td valign="top"><table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-color:#005695">
+<tr>
+<td><table cellspacing="0" cellpadding="5" width="100%" border="0" bgcolor="#FFFFFF">
+<tr>
+<td bgcolor="#dae6f2"><p><strong>What can you do with the Ektron Intranet? </strong></p></td>
+</tr>
+<tr>
+<td><table width="100%" border="0" align="center" cellpadding="4" cellspacing="0">
+<tr>
+<td><p><img src="/images/120107-email-search.gif" width="16" height="16" alt="Ektron" /></p></td>
+<td valign="top"><p>Navigate through content, documents, assets, colleagues and workgroups quickly and intuitively with  <strong>enterprise search</strong></p></td>
+</tr>
+<tr>
+<td><p><img src="/images/120107-email-community.gif" width="16" height="16" alt="Ektron" /></p></td>
+<td valign="top"><p>Communicate with friends and colleagues with forums, message boards and corporate blogging using the new <strong>Social Networking Platform</strong> </p></td>
+</tr>
+<tr>
+<td><p><img src="/images/120107-email-cms.gif" width="16" height="16" alt="Ektron" /></p></td>
+<td valign="top"><p>Promote collaboration among coworkers in your organization through project <strong>workspaces</strong> where others can efficiently find information and work   together</p></td>
+</tr>
+<tr>
+<td><p><img src="/images/120107-email-socialnetwork.gif" width="16" height="16" alt="Ektron" /></p></td>
+<td valign="top"><p><strong>Personalize</strong> your company profile by bookmarking and organizing favorite content, uploading assets, posting photos,  blogging, and more</p></td>
+</tr>
+<tr>
+<td><p><img src="/images/120107-email-web20toolbox.gif" width="16" height="16" alt="Ektron" /></p></td>
+<td valign="top"><p>Interact with features like <strong>tagging</strong>, <strong>flagging, wikis</strong> and <strong>ratings</strong> found in the <strong>Web 2.0 Toolbox</strong></p></td>
+</tr>
+<tr>
+<td><img src="/images/121907-cms.gif" width="16" height="16" alt="Ektron" /></td>
+<td valign="top"><p>Author/edit content, manage   navigation, menus, audit trails, workflow and approvals with the best in breed <strong>Content Management</strong> </p></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="padding: 0px 10px 10px 10px; line-height: 14pt;">
+<p align="center">See why there are 20,000+ Ektron integrations worldwide.<br />Request an
+<a target="_blank" href="http://www.ektron.com/instant_demo.cfm?cpid=BAC-3165&amp;campaignid=3165"><strong>INSTANT DEMO</strong></a> or download a
+<a target="_blank" href="http://www.ektron.com/download.cfm?product_id=363&amp;purchase=0&amp;cpid=BAC-3165&amp;campaignid=3165">
+<strong>FREE TRIAL</strong></a> today.</p></td>
+</tr>
+</table>        
+</div>
+<hr />
+
+
+
+<!-- **** SPOTLIGHTS 3 **** -->
+<table cellpadding="0" cellspacing="0"><tr><td width="72"></td><td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3440800076797949";
+/*txt*/
+google_ad_slot = "1699448869";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr></table>
+<hr />
+
+<center>
+
+<iframe style="background-color:#ffffff" src="/banners/textframesmall.asp" height="65" width="490" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+Your browser does not support inline frames or is currently configured not to display inline frames.
+</iframe>
+
+</center>
+<hr />
+
+
+<!-- **** END SPOTLIGHTS **** -->
+
+</td></tr>
+
+<tr><td>
+<p>Jump to: <a href="#top" target="_top"><b>Top of Page</b></a>
+or <a href="/default.asp" target="_top"><b>HOME</b></a> or
+<a href='/PHP/php_filter.asp?output=print' target="_blank">
+<img src="/images/print.gif" alt="Printer Friendly" border="0" />
+<b>Printer friendly page</b></a></p>
+<p>W3Schools provides material for training only. We do not warrant the correctness of its contents.
+The risk from using it lies entirely with the user.
+While using this site, you agree to have read and accepted our
+<a href="/about/about_copyright.asp">terms of use</a> and
+<a href="/about/about_privacy.asp">privacy policy</a>.
+</p>
+<p><a href="/about/about_copyright.asp">Copyright 1999-2008</a> by Refsnes Data. All Rights Reserved.</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0"><tr>
+<td width="60%" align="left">
+<a href="http://validator.w3.org/check?uri=referer" target="_blank">
+<img src="/images/vxhtml.gif" alt="Validate" width="88" height="31" border="0" /></a>
+<a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">
+<img src="/images/vcss.gif" alt="Validate" width="88" height="31" border="0" /></a>
+<a href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Explanation of Level A Conformance" target="_blank">
+<img src="/images/wai.gif" alt="W3C-WAI level A conformance icon" width="88" height="31" border="0" /></a>
+</td>
+<td>
+<a href="/xhtml/xhtml_howto.asp" target="_top">W3Schools was converted to XHTML in December 1999</a>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</td>
+
+
+<td width="145" align="center" valign="top">
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><th class="right">SITE SEARCH</th></tr>
+<tr>
+<td class="right" valign="top" align="center">
+<form style="margin-top:4px;margin-bottom:4px" method="get" name="searchform" action="http://www.google.com/search" target="_blank">
+<input type="hidden" name="sitesearch" value="www.w3schools.com" />
+<input alt="search" type="text" style="width:90px" name="as_q" size="20" />&nbsp;<input style="width:20px;font-weight:bold" type="submit" value="..."/>
+</form>
+<a class="right" href="/about/default.asp" target="_top">About W3Schools</a><br />
+<a class="right" href="/forum/default.asp" target="_top">W3Schools Forum</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+
+<a href="http://www.dotnetbutton.com/" target="_blank"><img src="/images/dotnetbutton.gif" alt="dotnetbutton" border="0" /></a>
+<br />
+<a class="right" href="http://www.dotnetbutton.com/" target="_blank">Dynamic button image generation</a>
+
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr><th class="right">WEB HOSTING</th></tr>
+<tr><td align="center" class="right">
+<a class="red" href="http://www.dotdnr.com" target="_blank">$15 Domain Name<br />Registration<br />Save $20 / year!</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a href="http://www.pickaweb.co.uk" target="_blank">UK Domain Names<br />
+UK Web Hosting</a><br />
+<a href="http://www.merkaweb.com" target="_blank">Alojamiento Web</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a href="http://www.net2.co.uk" target="_blank">Buy UK Domain Names</a><br />
+<a href="http://www.123domainnames.co.uk" target="_blank">Register Domain Names</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.names.co.uk">Cheap Domain Names</a><br />
+<a target="_blank" href="http://www.simply.com">Cheap Web Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.lunarpages.com">Best Web Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.domainmonster.com">Domain Name Registration</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.eukhost.com">PHP MySQL Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.web-hosting-top.com">Top 10 Web Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.hosting-review.com">Web Hosting Providers</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.hostdepartment.com">Web Hosting Company</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.krystal.co.uk" title="UK Web Hosting">UK Web Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.heartinternet.co.uk/index.shtml">UK Reseller Hosting</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><th class="right">WEB BUILDING</th></tr>
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.trendytemplates.com">Website Templates</a><br />
+<a target="_blank" href="http://www.trendyflash.com">Flash Templates</a><br />
+<a target="_blank" href="http://www.designer360.com">Website Builder</a><br />
+<a target="_blank" href="http://www.sitecubeplus.com">Internet Business Opportunity</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.GetAFreelancer.com">Custom Programming</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.ektron.com/web-content-management-solutions.aspx?cpid=BAC-2105&amp;campaignid=2105">
+FREE Trial or Demo<br />
+Web Content Manager<br />
+Forms,Web Alerts,RSS</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.ecommercetemplates.com">Ecommerce Software</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+<a target="_blank" href="http://www.webdesigners-directory.com/">Web Design</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0"><tr>
+<td align="center" class="right">
+
+<a target="_blank" href="http://www.altova.com/ref/?s=w3s_text&amp;q=test1">Edit XML with XMLSpy®</a><br/>
+
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr><th class="right">SHOPPING</th></tr>
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.uk-wholesaler.co.uk">UK Wholesalers</a><br />
+<a target="_blank" href="http://www.wholesalepages.co.uk">UK Wholesale</a><br />
+<a target="_blank" href="http://www.bayut.com">UAE Dubai Property</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.thinkfinancial.com/private-student-loans/private_student_loans.php">Private Student Loans</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" class="right">
+<a target="_blank" href="http://www.esources.co.uk">UK Dropshippers &amp; Wholesalers Directory</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr><th class="right">EDUCATION</th></tr>
+<tr><td align="center" class="right">
+<a href="http://www.all-computer-schools.com/featured/web-design-development-programs?src=asd_acom_062007_00000001"
+target="_blank">US Web Design Schools</a>
+</td></tr></table>
+
+<table class="right" width="100%" cellpadding="0" cellspacing="0">
+<tr><td align="center" class="right">
+<a target="_blank" href="/cert/default.asp">HTML Exam</a>
+</td></tr></table>
+
+<table class="right" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+<tr><th class="right">YELLOW PAGES</th></tr>
+<tr><td align="center" class="right">
+<a href="http://www.nettkatalogen.no" target="_blank">www.nettkatalogen.no</a><br />
+<a href="http://www.gulex.dk" target="_blank">www.gulex.dk</a><br />
+<a href="http://www.gulex.se" target="_blank">www.gulex.se</a><br />
+<a href="http://www.gelbex.de" target="_blank">www.gelbex.de</a><br />
+<a href="http://www.teloos.fi" target="_blank">www.teloos.fi</a><br />
+<a href="http://www.teloos.fr" target="_blank">www.teloos.fr</a><br />
+<a href="http://www.teloos.co.uk" target="_blank">www.teloos.co.uk</a><br />
+<a href="http://www.teloos.at" target="_blank">www.teloos.at</a><br />
+<a href="http://www.teloos.de" target="_blank">www.teloos.de</a>
+</td></tr></table>
+
+
+
+<br />
+</td>
+</tr></table>
+
+</body>
+</html>

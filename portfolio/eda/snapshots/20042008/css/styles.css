@@ -1,0 +1,61 @@
+/* CSS Document
+author - Jeve Cadan
+*/
+
+a.menu_link {
+font-family:Arial, Helvetica, sans-serif;
+color:#494F09;
+text-decoration:underline;
+font-size:12px
+}
+a {
+font-family:Arial, Helvetica, sans-serif;
+color:#586005;
+text-decoration:underline;
+font-size:12px}
+h4 {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#586005;
+}
+h1 {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+color:#586005;
+font-size:18px;
+margin: 0px 0px 0px 0px;
+font-weight:normal
+}
+.text {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#586005
+}
+/* Added 9th of Feb
+*/
+.catalog_list input[type="button"] {
+cursor: pointer;
+}
+
+.catalog_list td.listname {
+text-align:left;
+}
+
+.catalog_list td.listname a.nobeauty {
+text-transform:lowercase;
+}
+
+.row22 {
+background: #F3F3F3;
+}
+
+.tdcart {
+white-space: nowrap;
+}
+
+.cart_qnt {
+width: 2em;
+}
+
+
+
+

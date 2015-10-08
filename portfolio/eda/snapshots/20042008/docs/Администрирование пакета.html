@@ -1,0 +1,1142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=koi8-r">
+   <META NAME="Author" CONTENT="Alexey V. Pautov">
+   
+   <META NAME="GENERATOR" CONTENT="Created by Dos Navigator.">
+   <TITLE>Администрирование пакета</TITLE>
+</HEAD>
+<body bgcolor="#DDE1C2">
+<LINK REL="stylesheet" href="/opennet.css" type="text/css">
+<!--htdig_noindex-->
+<FORM method="get" action="http://www.opennet.ru/search.shtml">
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" BGCOLOR="#E9EAD6" style="background: #E9EAD6 url('/back.gif') repeat-x bottom left">
+<A HREF="http://www.opennet.ru"><IMG SRC="/opennet2.gif" HEIGHT=60 WIDTH=249 ALT="The OpenNET Project" BORDER="0"></A><br>
+</TD>
+
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+
+<TD VALIGN=TOP ALIGN=RIGHT WIDTH="470" BGCOLOR="#D9DAC6">
+<TABLE BORDER=0 CELLPADDING=1 WIDTH="470">
+<TR>
+<TD HEIGHT=60 BGCOLOR="#D9DAC6">
+
+<script language=JavaScript>                            
+<!--                            
+                            
+var haveFlash = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;                            
+                            
+if( haveFlash ){                            
+        haveFlash = (parseInt(haveFlash.description.substring(haveFlash.description.indexOf(".")-1))>=5);                            
+} else if ( navigator.userAgent && navigator.userAgent.indexOf( "MSIE" ) >=0                            
+       && ( parseFloat( navigator.appVersion )  >=4)                            
+       && ( navigator.userAgent.indexOf( "Windows 95" ) >=0                            
+         || navigator.userAgent.indexOf( "Windows NT" ) >=0                            
+         || navigator.userAgent.indexOf( "Windows 98" ) >=0 )                            
+    ){                            
+        document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');                            
+        document.write(' on error resume next \n');                            
+        document.write(' haveFlash = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5")))\n');                            
+        document.write('</SCR' + 'IPT\> \n');                            
+}                            
+if ( haveFlash ){                            
+        var swf_url = '/img/securit1.swf' + '?link1=' + 'http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit1';                            
+        document.write('<object classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 codebase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0 width=468 height=60>');                            
+        document.write('<param name=movie value="' + swf_url + '"><param name=menu value=false><param name=section value=1629><param name=quality value=high>');                            
+        document.write('<EM' + 'BED src="' + swf_url + '" quality=high ');                            
+        document.write('menu=false swLiveConnect=FALSE WIDTH=468 HEIGHT=60');                            
+        document.write('TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');                                
+        document.write('</EMBED>');                            
+        document.write(' </object>');                               
+}else{                            
+        document.write('<a href=http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit_gif target=_blank><img src=/img/securit.gif width=468 height=60 border=0></a>');                            
+}                            
+//-->                            
+</script>                            
+<noscript><a href=http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit_gif target=_blank><img src=/img/securit.gif width=468 height=60 border=0></a></noscript>                            
+
+
+
+</TD>
+</TR>
+</TABLE>
+</TD>
+
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+<TD WIDTH="40" BGCOLOR="#E9EAD6" style="background: #E9EAD6 url('/back.gif') repeat-x bottom left">&nbsp;</TD>
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+
+<TD VALIGN=TOP ALIGN=RIGHT WIDTH="130" BGCOLOR="#E9EAD6" ROWSPAN=3>
+<a href="http://www.lanbilling.ru/" target=_blank><img src="/img/lanbilling3.gif" width=130 height=125 border=0></a>
+</TD>
+
+</TR>
+
+<TR BGCOLOR="#B0B190"><TD COLSPAN=6><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD></TR>
+
+
+<TR BGCOLOR="#E9EAD6">
+<TD ALIGN=CENTER COLSPAN=5>
+<table width="100%">
+<tr>
+<td rowspan=2 width=300 nowrap class="h">
+<INPUT type=hidden name=exclude value="index|/man.shtml"><A HREF="http://www.opennet.ru/search.shtml" class="h"><u>Поиск</u></A>&nbsp;(<A HREF="http://www.opennet.ru/keywords/" class="h">ключи</A>):&nbsp;<INPUT type="text" size="20" name="words" value="">
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/prog/sml/" class="h"><b><u>ПРОГРАММЫ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/filebase.shtml" class="h"><b><u>СТАТЬИ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/tips/sml/" class="h"><b><u>СОВЕТЫ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://forum.opennet.ru" class="h"><b><u>ФОРУМ</u></b></A>
+</td></tr>
+<tr><td>
+   <A HREF="http://www.opennet.ru/links/sml/" class="h"><b><u>ССЫЛКИ</u></b></A>
+</td><td class="h">
+   <A HREF="http://www.opennet.ru/opennews/" class="h"><b><u>НОВОСТИ</u></b></A> (<a href="http://www.opennet.ru/news/opennet.shtml" class="h">+</a>)
+</td><td>
+   <A HREF="http://www.opennet.ru/man.shtml" class="h"><b><u>MAN'ы</u></b></A>
+</td><td>
+   <A HREF="http://www.opennet.ru/docs/" class="h"><b><u>ДОКУМЕНТАЦИЯ</u></b></A>
+</td></tr>
+</table>
+</TD>
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+</TR>
+<TR BGCOLOR="#B0B190"><TD COLSPAN=7><IMG SRC="/p.gif" HEIGHT=2 WIDTH=1 ALT=""></TD></TR>
+</TABLE>
+<div style="width: 90%; text-align: left;" id=adv><A HREF="http://job.samsung.ru" target=_blank><IMG SRC="/img/samsung_line4.gif" BORDER="0" width="279" height="40"></a></div>
+
+<script language="JavaScript"><!--
+d=document;a='';r=escape(d.referrer);a+=';r='+r;
+js=10; d.write('<img src="http://top.list.ru/counter'+
+'?id=77689;js='+js+a+';rand='+Math.random()+
+'" alt="" height=1 width=1>');
+if(js>11)d.write('<'+'!-- ')//--></script><noscript><img
+src="http://top.list.ru/counter?js=na;id=77689"
+height=1 width=1 alt="">
+</noscript>
+</FORM>
+<!--/htdig_noindex-->
+
+
+<table  BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" style="margin-bottom: 5px;margin-top: 5px;">
+<tr><td>
+<TABLE  BORDER=0 CELLSPACING=0 CELLPADDING=4 BGCOLOR="#E9EAD6" WIDTH="100%">
+<TR BGCOLOR="#C7CBB1"><TD><FONT COLOR="#000090">
+<b><a href="http://www.opennet.ru/docs/">Каталог документации</a> / 
+<a href="http://www.opennet.ru/docs/121.shtml">Раздел "Базы данных, SQL"</a> /
+<a href="http://www.opennet.ru/docs/RUS/mysqlrus/">Оглавление документа</a>
+</b>
+</TD></TR>
+</TABLE>
+</TD></TR>
+<TR BGCOLOR="#B0B190"><TD><IMG SRC="/p.gif" HEIGHT=3 WIDTH=1 ALT=""></TD></TR>
+</TABLE>
+
+
+<CENTER><H1>Администрирование пакета</H1></CENTER>
+<P><UL><LI><B>Администрирование пакета</B>
+<UL><LI><A href="#About">Предоставление доступа к базам данных</A></LI>
+<LI><A href="#password">Как работают пароли</A></LI></UL>
+<LI><A href="#mysqld">Запуск mysqld (при загрузке системы)</A></LI>
+<LI><A href="#mysqldru">Запуск mysqld (при запущенной системе)</A></LI>
+<LI><A href="#compile">Опции, задаваемые при компиляции пакета</A></LI>
+<LI><A href="#logins">Выключение альтернативных пользовательских логинов</A>
+</LI>
+<LI><A href="#autodef">Выключение автоматического присваивания значений по
+умолчанию</A></LI>
+<LI><A href="#keylen">Изменение используемой длины ключа</A></LI>
+<LI><A href="#sort">Изменение порядка сортировки</A></LI>
+<LI><A href="#Adding">Добавление функций в MySQL</A></LI>
+<LI><A href="#fastload">Быстрая загрузка данных</A></LI>
+<LI><A href="#tuning">Настройка mysqld</A></LI>
+<LI><A href="#notes">Полезные замечания</A></LI>
+<UL><LI><A href="#hints">Маленькие хитрости по улучшению производительности
+</A></LI>
+<LI><A href="#optquery">Оптимизация запросов</A></LI>
+<LI><A href="#optwhere">Какая оптимизация выполняется для условия WHERE?</A>
+</LI>
+<LI><A href="#optmem">Оптимизация памяти, используемой таблицами</A></LI>
+<LI><A href="#tpms">Несоответствия типов в INSERT</A></LI></UL>
+<LI><A href="#versql">О чем говорит номер версии MySQL</A></LI>
+<LI>Протокол "клиент-сервер"</LI>
+<UL><LI><A href="#cliser">Обозначения</A></LI>
+<LI><A href="#cliserdt">Детальное описание</A></LI>
+<LI><A href="#clisertp">Типы пакетов</A></LI>
+<LI><A href="#cliserok">:ok</A></LI>
+<LI><A href="#cliserer">:error</A></LI>
+<LI><A href="#clisercm">:command</A></LI>
+<LI><A href="#cliserqu">:query</A></LI>
+<LI><A href="#cliserda">:data</A></LI></UL>
+<LI><A HREF="#Table_Details">Подробно о таблицах</A></LI>
+<LI><A HREF="#About_Keys">Ключи и все о них</A></LI>
+<LI><A HREF="#MySQL_Future">MySQL: планы на будущее</A></LI>
+<LI><A HREF="#LinuxThreads">Потоки в Linux</A></LI></UL></UL><HR>
+
+<P><CENTER><H1><A NAME="access">Предоставление доступа к базам данных</H1>
+</CENTER>
+<P>СУБД MySQL использует специальную базу данных для предоставления прав
+доступа к своим базам данных. Эти права могут базироваться на именах серверов
+и/или пользователей и предоставляться для одной или нескольких баз данных
+
+<P>Пользовательские аккаунты могут быть снабжены паролями. При обращении к
+базе данных, пароль шифруется. Поэтому он не может быть перехвачен и
+использован посторонним (это мнение автора СУБД...).
+
+<P>СУБД MySQL имеет три таблицы, а именно:
+<P><TABLE border=1>
+<CAPTION>База данных: mysql Таблица: db</CAPTION>
+<TR><TH>Поле<TH>Тип<TH>Null<TH>Ключ<TH>Умолчание<TH>Extra</TR>
+<TR><TD valign=top>Хост<TD valign=top>char(60)<TD valign=top>
+    <TD valign=top>PRI</TR>
+<TR><TD valign=top>Db<TD valign=top>char(32)<TD valign=top><TD valign=top>PRI
+    </TR>
+<TR><TD valign=top>Пользователь<TD valign=top>char(16)<TD valign=top>
+    <TD valign=top>PRI</TR>
+<TR><TD valign=top>Select_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Insert_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Update_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Delete_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Create_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Drop_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR></TABLE>
+
+<TABLE border=1>
+<CAPTION>База данных: mysql Таблица: host</CAPTION>
+<TR><TH>Поле<TH>Тип<TH>Null<TH>Ключ<TH>Умолчание<TH>Extra</TR>
+<TR><TD valign=top>Хост<TD valign=top>char(60)<TD valign=top><TD valign=top>
+    PRI</TR>
+<TR><TD valign=top>Db<TD valign=top>char(32)<TD valign=top><TD valign=top>PRI
+    </TR>
+<TR><TD valign=top>Select_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Insert_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Update_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Delete_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Create_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Drop_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR></TABLE>
+
+<TABLE border=1>
+<CAPTION>База данных: mysql Таблица: user</CAPTION>
+<TR><TH>Поле<TH>Тип<TH>Null<TH>Key<TH>Умолчание<TH>Extra</TR>
+<TR><TD valign=top>Хост<TD valign=top>char(60)<TD valign=top><TD valign=top>
+    PRI</TR>
+<TR><TD valign=top>Пользователь<TD valign=top>char(16)<TD valign=top>
+    <TD valign=top>PRI</TR>
+<TR><TD valign=top>Пароль<TD valign=top>char(8)</TR>
+<TR><TD valign=top>Select_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Insert_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Update_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Delete_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Create_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Drop_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Reload_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Shutdown_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>Process_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR>
+<TR><TD valign=top>File_priv<TD valign=top>char(1)<TD valign=top>
+    <TD valign=top><TD valign=top>N</TR></TABLE>
+
+<P>Пример добавления новых пользователей:
+<P><FONT COLOR=white><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE>
+<FONT COLOR=green>$ mysql mysql</FONT>
+
+<FONT COLOR=green>mysql> INSERT INTO user VALUES ('%','monty',password('something'),</FONT>
+<FONT COLOR=green>    -> 'Y','Y','Y','Y','Y','Y','Y','Y','Y','Y');</FONT>
+<FONT COLOR=green>mysql> INSERT INTO user (host,user,password) values('localhost','dummy','');</FONT>
+<FONT COLOR=green>mysql> INSERT INTO user VALUES ('%','admin','','N','N','N','N','N','N','Y','N','Y','N');</FONT>
+<FONT COLOR=green>mysql> quit</FONT>
+
+<FONT COLOR=green>$ mysqladmin reload</FONT>
+</PRE></TD></TR></TABLE></FONT>
+
+<P>Добавлено три новых пользователя (юзверя):
+<BR><TABLE border=0>
+<TR><TD valign=top>monty:
+<TD valign=top>Суперпользователь (администратор), должен использовать пароль, для
+работы с mysql.
+<BR><TR>
+<TD valign=top>dummy:
+<TD valign=top>Должен быть допущен к индивидуальной базе данных по таблице '<SAMP>db
+    </SAMP>'.
+<BR><TR><TD valign=top>admin:
+<TD valign=top>Не нуждается в пароле, но разрешено выполнение только команд <KBD>
+'mysqladmin reload</KBD>' and '<KBD>mysqladmin processlist</KBD>'. Может быть
+допущен к индивидуальной базе данных через таблицу '<SAMP>db</SAMP>'.</TABLE>
+
+<P><B>ВНИМАНИЕ!</B> Вы ДОЛЖНЫ использовать функцию <CODE>password()</CODE>
+при создании пользователя, имеющего пароль. СУБД MySQL ожидает получить
+зашифрованный пароль.
+
+<P>Атрибуты, установленные в таблице пользователей перекрывают атрибуты,
+установленные в таблице DB. Если сервер поддерживает много баз данных, лучше
+создавать пользователей без прав доступа в таблице пользователей и назначать
+им права доступа к базе данных по таблице db.
+
+<P>Если Вы используете MIT threads package, обратите внимание, что имя
+localhost не будет работать, так как MIT threads package не поддерживает
+socket-подключения. Это означает, что Вы должны всегда определять ваш
+hostname (имя сервера) при подключении, даже если Вы работаете с одним и тем
+же сервером.
+
+<P>Следует помнить следующие правила при настройке прав доступа:
+<UL type=circle><LI>Имя сервера и поля в таблице db могут содержать
+                    регулярные выражения языка SQL: символы % и _. В других
+                    полях использовать их нельзя.</LI>
+<LI>Имя сервера может быть доменным именем, именем localhost, IP адресом или
+    SQL выражением. Пустое поле "имя сервера" означает любой сервер.</LI>
+<LI>Поле db является именем базы данных или SQL выражением.</LI>
+<LI>Пустое имя пользователя эквивалентно любому пользователю.</LI>
+<LI>Пустой пароль эквивалентен любому паролю. Вы можете создать
+    суперпользователя (super-user) установив все права для него в 'Y' в
+    таблице пользователей при создании этого аккаунта. Этот пользователь
+    сможет делать что угодно, не считаясь со значениями, установленными в
+    таблице DB!</LI>
+<LI>Таблица серверов проверяется только когда в таблице db поле "имя
+    сервера" пустое.</LI>
+<LI>Все таблицы, по возможности, сортируются в порядке host-user-db.</LI>
+</UL>
+
+<P><TABLE border=1>
+<TR><TD valign=top>Пользователь</TD>
+<TD valign=top>Сортируется по именам серверов и пользователей.</TD></TR>
+<TR><TD valign=top>db</TD>
+<TD valign=top>Сортируется по именам серверов, пользователей и баз данных.</TD></TR>
+<TR><TD valign=top>Сервер</TD>
+<TD valign=top>Сортируется по именам серверов и баз данных.</TD></TR></TABLE>
+
+<P>Начиная с версии 3.20.19 сервера введена еще одна хитрость, для попытки
+вычислить, как данный пользователь обратится к данной базе данных. Допустим
+существование пользователя с именем Джо, который зарегистрирован так:
+
+<P><CODE>INSERT INTO user VALUES('%.external.domain.com','','','N','N','N',
+'N','N','N','N','N','N','N');</CODE>
+
+<P>Проверка таблицы баз данных будет выполнена для пользователя '' (пустое
+имя), а не для пользователя Джо, даже если пользователь, Джо имеет запись в
+таблице доступа к базам данных (db таблице).
+
+<P>Создание пользовательских аккаунтов - вероятно, наиболее путающий аспект
+СУБД MySQL, (особенно, если никогда не имел с ней дела), так что не
+удивляйтесь, если потребуется некоторое время, чтобы во всем разобраться и
+получить парочку несколько неприятных сюрпризов. Использование программы
+<A HREF="commands.html#Mysqlaccess">mysqlaccess</A> делает управление
+доступом несколько более ясным.
+
+<P>Вообще лучше избегать использования регулярных выражений SQL в полях имени
+сервера. Это упрощает отладку.
+
+<P>Конкретно, установите все поля "имя сервера" в '%' и очистите таблицу
+серверов. Как только все начнет нормально функционировать, можно начинать
+эксперименты с добавлением имен серверов в таблицу серверов в случае
+такой необходимости.
+
+<P>Если получено сообщение об ошибке 'Access denied', то скорее всего вы
+нормально связались с демоном mysqld, но имеете неправильную информацию в
+вашей таблице пользователей.
+
+<CENTER><H2><A NAME="password">Как работают пароли</H2></CENTER>
+<P>Зашифрованный пароль сохраняется в таблице пользователей ('<SAMP>user
+</SAMP>').
+
+<P><UL><LI>При установлении соединения сервер посылает случайное число
+           клиенту.</LI>
+<LI>Клиент шифрует пароль, чтобы получить то, что имеет сервер (он хранит
+    пароли в зашифрованном виде) и вычисляет число из полученного с сервера
+    случайного числа и зашифрованного пароля. Это число отсылается на сервер.
+<LI>Сервер вычисляет число из сохраненного в зашифрованном виде пароля и
+    сгенерированного случайного числа. Если это число совпадет с тем, которое
+    прислал клиент, связь устанавливается.
+</LI></UL>
+
+<CENTER><H3><A NAME="mysqld">Запуск mysqld (при загрузке системы)</H3>
+</CENTER>
+
+<CENTER><H4>Solaris</H4></CENTER>
+Скопируйте скрипт mysql.server из каталога mysql bin в <SAMP>/etc/init.d
+</SAMP>.
+
+<P>Проверьте все пути в скрипте mysql.server. Проверьте и установите
+safe_mysqld в <SAMP>/etc/init.d/mysql.server и в /etc/rc2.d/S99mysql.server
+</SAMP>.
+
+<CENTER><H4>Linux</H4></CENTER>
+<P>В Caldera Open Linux надо добавить в файл /etc/rc.d/rc.local следующее:
+
+<P><SAMP>/usr/local/bin/safe_mysql &</SAMP>
+
+<P>Конечно, здесь надо задать правильный путь в каталог с MySQL.
+
+<CENTER><H3><A name="mysqldru">Запуск mysqld (при запущенной системе)</H3>
+</CENTER>
+Программа mysqld может быть запущена от имени любого пользователя. По
+умолчанию она запускается от имени root. Если она запускается от имени любого
+другого пользователя, надо установить правильные права доступа ко всем
+необходимым файлам.
+
+<p>Зайдите в систему как пользователь-владелец MySQL и дайте следующую
+команду (Предполагается, что исполняемый модуль mysql находится в вашем
+пути. Если это не так, укажите полный путь):
+
+<p><KBD>safe_mysql &</KBD>
+
+<p><HR WIDTH="100%">
+<CENTER><H2><A name="compile">Опции, задаваемые при компиляции пакета</H2>
+</CENTER>
+Как и большая часть программ для unix, MySQL поставляется в виде исходного
+текста, который надо откомпилировать. Перед компиляцией можно произвести
+некоторую настройку пакета на уровне исходного текста.
+
+<P><CENTER><H3><A name="logins">Выключение альтернативных пользовательских
+логинов</H3></CENTER>
+
+<P>Если вы не хотите, чтобы пользователи могли применять опцию -u для входа в
+mysql под другим логином, можно закомментировать в файле global.h строку:
+
+<P><PRE>
+
+#define SAFE_USER 1  /* Comment this if you are paranoid */
+
+</PRE>
+
+<P><CENTER><H3><A name="autodef">Выключение автоматического присваивания
+значений по умолчанию</H3></CENTER>
+
+<P>По умолчанию MySQL автоматически назначит значение по умолчанию полям,
+которые явно не объявлены. MySQL будет делать это исходя из типа конкретного
+поля. Если Вы предпочли бы, чтобы поля с необъявленными значениями имели
+значение NULL, то добавьте в файл global.h строку:
+
+<P><PRE>
+
+#define DONT_USE_DEFAULT_FIELDS
+
+</PRE>
+
+<CENTER><H3><A name="keylen">Изменение используемой длины ключа</H3></CENTER>
+<P>По умолчанию MySQL рассматривает только 1120 байтов ключа. Вы можете
+увеличивать это значение, редактируя файл <TT>nisam.h</TT> и изменяя значение
+N_MAX_KEY_LENGTH. Обратите внимание, что это может вести к снижению
+производительности. Нет причины делать это значение меньше, поскольку можно
+определить ключ, длина которого меньше указанного поля. Более подробно это
+рассмотрено в разделе <A HREF ="sql.html#Keys">"Ключи"</A>.
+
+<CENTER><H3><A name="sort">Изменение порядка сортировки</H3></CENTER>
+<P>По умолчанию MySQL сортирует строки согласно ISO8859-1 (latin1). Вы
+можете изменить это во время конфигурации, определяя следующую опцию.
+
+<P><PRE>
+  --with-charset=[charset]
+</PRE>
+
+Где [charset] может быть один из: latin1, latin2, koi8_ru, dec8, dos, hp8,
+swe7, usa7.
+
+<P>Чтобы узнать о том, как добавлять новые наборы символов, посмотрите
+каталог строк в исходниках.
+
+<P><B>Обратите внимание</B>: Если Вы меняете наборы символов уже создав
+базу данных, Вы будете должны выполнить isamchk с параметрами -e, и -q для
+всех таблиц, иначе MySQL не будет работать правильно.
+
+<CENTER><H2><A name="Adding">Добавление функций в MySQL</H2></CENTER>
+<P>Если Вы понимаете C++, и Yacc, то относительно просто добавить функцию к
+СУБД MySQL. Если не понимаете, то дело хуже.
+
+<P>Сначала добавьте строку в файл sql_lex.cc с именем функции в массив
+sql_functions.
+
+<P>Затем добавьте две строки в файл sql_yacc.y. Первая определяет символ
+препроцессора yacc. Вы должны добавить это к началу файла. Затем определите
+параметры функции, и создайте 'item' с этими параметрами.
+
+<P>В файле item_func.h объявляют класс, который наследуется из Item_num_func
+   или Item_str_func, в зависимости от того, возвращает ли ваша функция число
+   или строку.
+
+<P>В intem_func.cc добавьте:
+
+<P><DD>double *Item_func_newname::val()<P></DD>
+
+если Вы определяете числовую функцию, или
+
+<P><DD>String *Item_func_newname::Str(String *str)<P></DD>
+
+если Вы определяете строковую функцию.
+
+<P>Для строковой функции вы должны также определить следующую функцию:
+
+<P><DD>void Item_func_newname::fix_length_and_dec()</DD>
+
+<P>Она должна по крайней мере вычислить 'max_length' основанный на полученных
+параметрах. max_length - максимальное число символов, которое функция может
+вернуть (максимальная длина возвращаемого значения).
+
+<P>Если функция не может возвращать null, Вы должны также установить
+'maybe_null=0'.
+
+<P>Для строковых функций параметр 'String *str', предоставляет буфер для
+хранения результата. Строковая функция должна вернуть строку, которая
+хранит результат.
+
+<P>Все строковые функции должны избегать выделения памяти больше, чем им
+   абсолютно необходимо! Системные ресурсы не бесконечны...
+
+<HR WIDTH="100%">
+<CENTER><H2><A name="fastload">Быстрая загрузка данных</H2></CENTER>
+<P>Самый быстрый способ загружать данные в MySQL - команда LOAD DATA INFILE.
+Это в 3-20 раз быстрее, чем использование инструкций INSERT.
+Для еще большего количества быстродействия Вы можете использовать следующую
+процедуру, чтобы отключить формирование ключа на вашей таблице, в то время
+как данные загружаются. Для этого надо находиться в вашем MySQL каталоге баз
+данных, или обеспечивать полные пути к вашей базе данных.
+
+<P><TABLE BORDER=1>
+<TR><TD valign=top>isamchk -rq -k0 [имя_базы_данных]/[имя_таблицы]</TD>
+<TD valign=top>Удаление ключей</TD></TR>
+<TR><TD valign=top>LOAD DATA INFILE ...</TD>
+<TD valign=top>Чтение Ваших данных</TD></TR>
+<TR><TD valign=top>isamchk -rq [имя_базы_данных]/[имя_таблицы]</TD>
+<TD valign=top>Создание ключей таблицы заново</TD></TR>
+<TR><TD valign=top>mysqladmin reload.</TD>
+<TD valign=top>Сообщите, чтобы mysql использовал новую таблицу</TD></TR>
+</TABLE>
+
+<P><HR WIDTH="100%">
+<A name="tuning"><CENTER><H2>Настройка mysqld</H2></CENTER>
+Когда Вы указываете опцию -O, отдельно (без дополнительных параметров) Вы
+получите список всех переменных и их текущих значений. Это может выглядеть
+примерно так:
+
+<pre>
+
+$ mysqld -O
+
+</pre>
+
+<P>Возможные переменные в опции -O:
+<BR><TABLE><TR><TH>Имя</TH><TH>Значение по умолчанию</TH></TR>
+<TR><TD valign=top>back_log</B></TD>
+<TD valign=top>Определите размер очереди для входящих tcp/ip подключений. Убедитесь,
+    что установили его побольше, когда Вы ожидаете большое количество
+    подключений в коротком периоде времени. Некоторые ОС могут иметь
+    максимальное значение этой переменной 128 или 256. Подробности об этой
+    очереди можно посмотреть на man-странице listen(2).<TD valign=top></TR>
+<TR><TD valign=top><B>keybuffer</B></TD>
+<TD valign=top>Размер кэш-буфера, для хранения всех недавно использованных ключей.
+    Большой буфер дает самую лучшую эффективность. С переключателем -Sl
+    распределен только один буфер.</TD></TR>
+<TR><TD valign=top><B>max_allowed_packet</B></TD>
+<TD valign=top>Буфер подключений сервера может быть изменен до этого значения, если
+    пользователь дает длинную команду. Начальный буфер = 'net_buffer_length'.
+    На каждое подключение выделяется один буфер.</TD></TR>
+<TR><TD valign=top><B>net_buffer_length</B></TD>
+<TD valign=top>Начальный размер буфера подключений. На каждое подключение выделяется
+    один буфер.</TD></TR>
+<TR><TD valign=top><B>max_connections</B></TD>
+<TD valign=top>Максимальное число подключений, которые mysqld может иметь открытыми в
+    одно и то же время.</TD></TR>
+<TR><TD valign=top><B>table_cache</B></TD>
+<TD valign=top>Максимальное число таблиц сохраняемых открытыми на сервере. Таблицы
+    хранятся открытыми, для ускорения запроса к часто используемым таблицам.
+    Однако, каждая открытая таблица требует много памяти.</TD></TR>
+<TR><TD valign=top><B>recordbuffer</B></TD>
+<TD valign=top>Размер кэш-буфера для хранения прочитанных записей. На каждое подключение
+    выделяется один буфер.</TD></TR>
+<TR><TD valign=top><B>sortbuffer</B></TD>
+<TD valign=top>Размер буфера, используемого при сортировке. На каждое подключение
+    выделяется один буфер.</TD></TR>
+<TR><TD valign=top><B>max_sort_length<B></TD>
+<TD valign=top>Максимальное время для сортировки?<P></TD></TR></TABLE>
+
+<CENTER><H3><A name="notes">Полезные замечания</H3></CENTER>
+<UL><LI>Все потоки совместно используют ту же самую основную память.</LI>
+<LI>MySQL в настоящее время не использует memmap. Это может изменяться.</LI>
+<LI>Вы можете определять размер буфера для ключей при старте mysqld. Буфер
+    ключей будет кэшировать все ключи во всех таблицах В ПОРЯДКЕ ПОСТУПЛЕНИЯ
+    запросов (переменная keybuffer)</LI>
+<LI>Каждое подключение использует некоторую часть потока, стек и буфер
+    подключений (переменная net_buffer_length).</LI>
+<LI>Каждый запрос, делающий последовательный просмотр записей в таблице,
+    распределяет буфер чтений (переменная recordbuffer).</LI>
+<LI>Каждый запрос, выполняющий сортировку, распределяет sortbuffer и один или
+    два временных файла. Максимально необходимое дисковое пространство =
+    (sort_key_length + sizeof(long))*2.</LI>
+<LI>Все объединения выполняются за один проход, и результат сохраняется во
+    временной таблице в памяти. Выполнение полного объединения и сортировки
+    на двух больших таблицах может потребовать очень большого объема памяти.
+</LI>
+<LI>Индексные файлы открываются один раз. Файлы данных открываются один раз
+    для каждого параллельного потока. Каждый параллельный поток имеет полную
+    таблицу struct и поле struct плюс память для трех полных строк столбцов.
+    BLOB требует еще 5-8 байт.</LI>
+<LI>Если таблица имеет BLOB, буфер будет распределен, чтобы читать данные
+    BLOB. Этот буфер будет расти по мере необходимости, до размеров самого
+    большого BLOB в таблице.</LI>
+<LI>Когда таблица используется, она сохраняется в кэше. Этот кэш будет
+    загружен и опорожнен В ПОРЯДКЕ ПОСТУПЛЕНИЯ запросов (FIFO). По умолчанию
+    mysqld будет кэшировать 64 таблицы. Если много потоков обращаются к одной
+    и той же таблице одновременно, будет иметься одна запись на поток. ТО
+    ЕСТЬ, если два потока одновременно обращаются к той же самой таблице,
+    будет две записи в кэше.</LI>
+<LI>Команда <KBD>mysqladmin reload</KBD> закрывает все таблицы, которые не
+    используются, и отмечает все используемые таблицы, которые будут закрыты,
+    когда работающие потоки завершатся. Это позволяет эффективно использовать
+    память, своевременно ее освобождая.</LI></UL>
+
+<P>Если Вы имеете прикладную программу, которая требует большого количества
+потоков, это является хорошим способом уменьшить значения recordbuffer и
+sortbuffer примерно до 32K. Вы можете даже уменьшить recordbuffer до 8КБ без
+особых проблем. Кроме того можно рассматривать уменьшение значения переменной
+keybuffer до размера в 512КБ. Это сохранит большой объем памяти, и повысит
+эффективность работы.
+
+<HR WIDTH="100%">
+<CENTER><H3><A name="hints">Маленькие хитрости по улучшению
+производительности</H3></CENTER>
+
+<P>После того, как Вы загрузили данные в вашу базу данных, Вы можете
+выполнить команду <TT>'isamchk -a'</TT> над вашими таблицами. Программа
+isamchk соберет статистику по вашим таблицам, которую сможет использовать
+оптимизатор. Вообще, надо выполнить isamchk только однажды на таблице. При
+этом предполагается, что что данные в таблице во время isamchk выполнены в
+типичном представлении для вашей таблицы.
+
+<HR WIDTH="100%">
+<CENTER><H3><A name="optquery">Оптимизация запросов</H3></CENTER>
+
+<CENTER><H4><A name="optwhere">Какая оптимизация выполняется для условия
+WHERE?</H4></CENTER>
+
+<P><UL><LI>Удаление скобок (все ненужные скобки удаляются)
+<BR>((a AND b) AND c OR (((a AND b) AND (c AND d)) -&gt; (a AND b) OR
+(a AND b AND c AND d)</LI>
+<LI>Выполняется свертывание констант
+    <BR>(a < b AND b=c) AND a=5 -> b > 5 AND b=5</LI>
+<LI>Удаление проверки условий в выражении с константами (необходимо из-за
+    свертывания констант).
+    <BR>(b>=5 AND b=5) OR (b = 6 and 5 = 5) or (B=7 and 5 = 6) ->
+    = B=5 or B=6</LI>
+<LI>Если выбор невозможен, возвращаются пустые строки.</LI>
+<LI>Поиск всех ключей, которые могут использоваться. Используется тот ключ,
+    который находит меньше записей. Этот ключ используется в следующих
+    выражениях:
+    <BR>=, >, >= <, <=, BETWEEN и LIKE с префиксом символа 'something%'</LI>
+<LI>Удаляются ключи, которые не охватывают все уровни 'AND' и key_parts для
+    которых не полностью определены требования key_parts.
+<BR><PRE>
+  key = 1 or A = 10                         -> NULL (Нельзя использовать ключ)
+  key = 1 or A = 10 and key=2               -> key = 1 OR key = 2
+  key_part_1 = const and key_part_3 = const -> key_part_1 = const
+</PRE></LI>
+<LI>Читаются все константы в таблице
+<BR>Постоянные таблицы:
+<OL><LI>Таблица всего с одной записью.</LI>
+<LI>Таблица, которая использует только другие константы из таблиц и константы
+    на полном уникальном ключе.</LI></OL>
+
+<P>const_table.key = constant
+<P>const_table.key_part_1 = const_table2.field and<BR>
+   const_table.key_part_2 = constant</LI>
+
+<LI>Находится лучшая комбинация присоединений для соединения таблиц (увы,
+    методом перебора :-(&nbsp;)</LI>
+<LI>Для каждой таблицы используется, если возможно, линейный ключ для чтения
+    записей. Каждый индекс таблицы опрашивается на предмет существования там
+    ключа, который охватывает &lt; 30% записей. Если такой ключ там найдется,
+    то он используется, иначе используется быстрое сканирование таблицы.</LI>
+<LI>Перед выводом каждой записи, пропускаются те, которые соответствуют
+    предложению HAVING.</LI></UL>
+
+<P><HR WIDTH="100%">
+<CENTER><H4><A name="optmem">Оптимизация памяти, используемой таблицами</H4>
+</CENTER>
+<P>Есть несколько вещей, которые Вы можете сделать, чтобы минимизировать
+количество места, которое используют ваши таблицы. Прежде всего используйте
+НЕ ПУСТОЙ указатель всякий раз, когда возможно. Это ускорит запросы, и
+сохранит 1 бит на поле.
+
+<P>Вы можете сохранить много места, используя меньшие целочисленные
+переменные. Например, MEDIUMINT часто вполне достаточен.
+
+<P>Вообще Вы должны выбрать самый маленький тип данных, в котором Вы будете
+нуждаться, если есть проблемы с памятью.
+
+<P>Имейте в виду, что поля фиксированной длины в mysql обрабатываются
+значительно быстрее. Избегая полей переменной длины (VARCHAR, BLOBs), можно
+повысить эффективность на 10-200%.
+
+<HR WIDTH="100%">
+<CENTER><H2><A name="tpms">Несоответствия типов в INSERT</H2></CENTER>
+<P>В настоящее время инструкция INSERT дает ошибку только при вставке
+пустого указателя (NULL) в не пустой столбец.
+
+<P>При использовании INSERT или команды, которая может воздействовать на
+много записей, выполняется следующее:
+
+<P><UL><LI>Значения преобразуются в правый тип (от integer/real/string до
+           integer/real/string) перед сохранением.</LI>
+<LI>Слишком длинные строки усекаются, и увеличивается значение переменной
+    'warnings'.</LI>
+<LI>Если значение ниже минимального значения для столбца, минимальное
+    значение вставляется, и увеличивается значение переменной
+    'warnings'.</LI>
+<LI>Если значение выше максимального значения для столбца, максимальное
+    значение вставляется, и увеличивается значение переменной
+    'warnings'.</LI>
+<LI>При преобразовании строки в целое число, значение усекается при первой
+    не-цифре. Если в строке есть какой-либо символ, не являющийся цифрой, то
+    увеличивается значение переменной 'warnings'.</LI>
+<LI>При преобразовании строки в число с плавающей точкой увеличивается
+    значение переменной 'warnings', если после целого числа есть какие-либо
+    символы, кроме точки.</LI></UL>
+
+<P>Во время связи клиента с сервером 'warnings information' возвращается
+только при использовании 'ALTER TABLE' или 'LOAD DATA FROM...'.
+
+<HR WIDTH="100%">
+<CENTER><H2><A name="versql">О чем говорит номер версии MySQL</H2></CENTER>
+Версии MySQL нумеруются по следующей схеме:
+
+<P>111.222.333
+<P><TABLE BORDER=0>
+<TR><TD valign=top>111</TD>
+<TD valign=top>Если первая цифра изменяется, это означает, что были сделаны серьезные
+    изменения. Они могут включать поддержку новых форматов файлов, новые
+    протоколы, и т.д. Будьте готовы сделать некоторые модификации ваших
+    прикладных программ перед выполнением после обновления. По крайней мере
+    Вам придется выполнить дамп и перезагрузить Ваши таблицы.</TD></TR>
+<TR><TD valign=top>222</TD>
+<TD valign=top>Значительный новый код/функциональные возможности. Может включать мелочь
+    в поддержке синтаксиса SQL или интерфейса пользователя. Вам не придется
+    делать сильных изменений в Ваших прикладных программах, но тщательно
+    проверьте их перед выполнением.</TD></TR>
+<TR><TD valign=top>333</TD>
+<TD valign=top>Маленькие безопасные изменения, которые не должны разорвать
+    что-нибудь у сисопа на части. Самая большая проблема здесь - добавление
+    ключевых слов SQL, которые находятся в противоречии с существующими
+    именами таблицы. Если Вы избегаете использовать ключевые слова стандарта
+    SQL-92 для ваших имен таблиц <I>(так вообще-то и надо...)</I>, все должно
+    быть ХОРОШО.</TD></TR></TABLE>
+
+<P>Хорошая идея - всегда проверять файл NEWS, когда Вы загружаете новую
+версию. Это должно дать Вам, представление о том, что именно изменилось,
+начиная с вашей последней модификации.
+
+<P><HR WIDTH="100%">
+<CENTER><H2>Протокол клиент/сервер</H2></CENTER>
+<P>На всякий случай приведу подробное описание протокола "клиент-сервер",
+используемого пакетом MySQL для связи между клиентом и сервером базы данных.
+
+<P><CENTER><H3><A name="cliser">Обозначения</H3></CENTER>
+<P><PRE>
+&LT; = клиент
+&GT; = сервер
+[] 1 байт
+[2: ] 2 байта (нижний байт первый)
+[3: ] 3 байта (нижний байт первый)
+[4: ] 4 байта (нижний байт первый)
+[string: ] строка, кончающаяся нулем.
+[length: ] длина целого числа. Проверьте Net_store_length()
+           для этого! Идея в том, чтобы наиболее часто получать
+           данные длиной в 1 байт, но допускать и более длинные
+           данные (и NULL).
+</PRE>
+
+<CENTER><H3><A name="cliserdt">Детальное описание</H3></CENTER>
+<P>Каждый передаваемый пакет имеет следующий префикс:
+
+<P>[3: длина пакета] [номер пакета] данные
+
+<P>При приеме пакета добавляется [0] после каждого принятого пакета, чтобы
+получить простую обработку строк ошибки.
+
+<P>Номера пакетов начинаются с 0 и увеличиваются для каждого
+посланного/полученного пакета.
+
+<CENTER><H3><A name="clisertp">Типы пакетов</H3></CENTER>
+
+<CENTER><H3>:connect</H3></CENTER>
+<P>> [protocol version] [string: password crypt seed]
+<P>< [2: 0] [3: max_allowed_client_packet_length] [string: user name]
+<P>  [string: scrambled password]
+<P>> ok packet
+
+<P>Посмотрите в файле password.c из исходников MySQL какой метод используется
+для шифрования паролей. Пароль должен быть пустым, если пользователь не имеет
+никакого пароля.
+
+<CENTER><H3><A name="cliserok">:ok</H3></CENTER>
+<P>[0] [length: affected_rows] [length: unique id]
+
+<CENTER><H3><A name="cliserer">:error</H3></CENTER>
+<P>Может приходить в любое время.
+
+<P>> [255] [string: error message]
+
+<CENTER><H3><A name="clisercm">:command</H3></CENTER>
+<P>< [command number]
+
+<P>enum enum_server_command{SLEEP,QUIT,INIT_DB,QUERY,FIELD_LIST,
+                            CREATE_DB,DROP_DB,RELOAD,SHUTDOWN,STATISTICS,
+                            PROCESS_INFO,CONNECT}
+
+<CENTER><H3><A name="cliserqu">:query</H3></CENTER>
+<P>< [QUERY command] [string: query string]  (The end null is not sent)
+<P>> [0] [length: affected rows] [length: insert id]  (Insert, delete...)
+
+<P>или:
+<P>> [length: column_count] (a query result)
+<P>> column field data packets
+<P>> row data packets
+
+<CENTER><H3><A name="cliserda">:data</H3></CENTER>
+<P>: Данные передаются пока не придет пакет, который состоит только из
+одиночного символа [254]. Остерегайтесь: могут иметься пакеты, которые
+начинаются с символа 254! Каждый пакет типа 'data' имеет поле 'column count'.
+
+<P>Формат каждого поля:
+<P>[:length] == NULL_LENGTH -> NULL field
+
+<P>или:
+<P>[:length] [length data] (Строка не оканчивается на \0!)
+<P>Пакет данных столбца состоит из 5 столбцов со следующими данными:
+
+<P>[:string table name]<BR>
+[:string column name]<BR>
+[:3 create length of column (may be larger in a few cases)]<BR>
+[:1 type (as of enum_field_types)]<BR>
+[:1 flag] [:1 decimals]    (2 байта!)
+
+<P> При использовании команды list_fields имеется шестой столбец:<BR>
+[:string default]
+
+<P>Посмотрите в файлах libmysql.c, net.c и password.c более подробную
+информацию о форматах пакетов.
+
+<P><HR WIDTH="100%">
+<CENTER><H2><A NAME="Table_Details">Подробно о таблицах</H2></CENTER>
+<P>Для получения описания таблицы используйте команду (Вы должны перейти в
+каталог, который содержит таблицу, информацию о которой Вы желаете получить.
+Вообще это будет $DATADIR/[dbname], где dbname - имя базы данных, которая
+содержит таблицу.):
+
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE>
+<FONT COLOR=green>prompt> isamchk -d table_name</FONT><FONT COLOR=white>
+
+ISAM file:     table_name
+Data records:               215  Deleted blocks:              0
+Recordlength:                85
+Record format: Packed
+
+table description:
+Key Start Len Index   Type
+1   37    14  unique  text packed stripped
+2   1     30  multip. text packed stripped
+3   51    4   multip. long
+4   31    2   multip. short
+    33    2           short
+    35    2           short
+</FONT></PRE></TD></TR></TABLE>
+
+Для более подробных сведений о таблице попробуйте:
+
+<TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE>
+<FONT COLOR=green>prompt> isamchk -d -v table_name</FONT><FONT COLOR=white>
+
+ISAM file:     Customer
+Isam-version:  2
+Creation time: 1996-12-17 21:40:04
+Data records:                 0  Deleted blocks:              0
+Datafile: Parts:              0  Deleted data:                0
+Datafilepointer (bytes):      4  Keyfile pointer (bytes):     3
+Recordlength:               374
+Record format: Packed
+
+table description:
+Key Start Len Index   Type                       Root  Blocksize    Rec/key
+1   2     2   unique  short                        -1       1024          1
+2   4     80  multip. text packed stripped         -1       1024          1
+3   2     2   multip. short                        -1       1024          1
+</FONT></PRE></TD></TR></TABLE>
+
+<P>Объяснение полученного результата:
+<P><TABLE>
+<TR><TD valign=top>ISAM file</TD>
+<TD valign=top>Имя ISAM-файла.</TD></TR>
+<TR><TD valign=top>Isam-version</TD>
+<TD valign=top>Версия ISAM формата. Сейчас всегда 2.</TD></TR>
+<TR><TD valign=top>Creation time</TD>
+<TD valign=top>Когда файл данных был создан?</TD></TR>
+<TR><TD valign=top>Recover time</TD>
+<TD valign=top>Когда в последний раз был восстановлен файл индекса/данных?
+</TD></TR>
+<TR><TD valign=top>Data records</TD>
+<TD valign=top>Сколько записей/строк.</TD></TR>
+<TR><TD valign=top>Deleted blocks</TD>
+<TD valign=top>Сколько удаленных блоков все еще занимают место? См. примеры в
+    разделе по isamchk для информации относительно избавления от
+    неиспользуемого места.</TD></TR>
+<TR><TD valign=top>Datafile: Parts</TD>
+<TD valign=top>Для динамической записи это показывает, сколько блоков данных
+    в ней. Для оптимизированной таблицы без дырок это будет то же, что и Data
+    records.</TD></TR>
+<TR><TD valign=top>Deleted data</TD>
+<TD valign=top>Сколько всего байт занимают удаленные данные.</TD></TR>
+<TR><TD valign=top>Datafilepointer</TD>
+<TD valign=top>Сколько байтов занимает указатель файла данных? Это 2, 3 или 4
+    байта. Большинство таблиц обходится 2 байтами, но это не может
+    управляться из MySQL. Для фиксированных таблиц это адрес записи. Для
+    динамических таблиц это адрес байта.</TD></TR>
+<TR><TD valign=top>Keyfile pointer</TD>
+<TD valign=top>Сколько байтов занимает указатель файла данных? Это обычно 1,
+    2 или 3 байта. Большинство таблиц обходится 2 байтами, но это вычисляется
+    mysql автоматически. Это всегда адрес блока.</TD></TR>
+<TR><TD valign=top>Max datafile length</TD>
+<TD valign=top>Сколько байт может использовать для этой таблицы файл данных
+    (.ISD).</TD></TR>
+<TR><TD valign=top>Max keyfile length</TD>
+<TD valign=top>Сколько байт может использовать для этой таблицы файл ключей.
+</TD></TR>
+<TR><TD valign=top>Recordlength</TD>
+<TD valign=top>Сколько пробела занимает каждая запись/строка?</TD></TR>
+<TR><TD valign=top>Record format</TD>
+<TD valign=top>Какой формат имеет каждая запись/строка?</TD></TR>
+<TR><TD valign=top>table description</TD>
+<TD valign=top>Список всех ключей в таблице. Для каждого ключа выводится
+    краткая информация низкого уровня (большее количество информации в
+    следующей таблице).</TD></TR></TABLE>
+
+<P>Краткая информация низкого уровня для каждого ключа:
+<P><TABLE>
+<TR><TD valign=top>Key</TD>
+<TD valign=top>Номер ключа.</TD></TR>
+<TR><TD valign=top>Start</TD>
+<TD valign=top>Где в записи/строке начинается индексная часть.</TD></TR>
+<TR><TD valign=top>Len</TD>
+<TD valign=top>Какой длины индексная часть? Для упакованных чисел это всегда
+    полная длина поля. Для строк она может быть короче полной длины (хотя
+    MySQL все же не поддерживает такой вариант).</TD></TR>
+<TR><TD valign=top>Index</TD>
+<TD valign=top>unique или multip.</TD></TR>
+<TR><TD valign=top>Type</TD>
+<TD valign=top>Какой тип данных имеет эта индексная часть? Это - C тип данных
+    (опционально packed или short).</TD></TR>
+<TR><TD valign=top>Root</TD>
+<TD valign=top>Адрес корня индексного блока.</TD></TR>
+<TR><TD valign=top>Blocksize</TD>
+<TD valign=top>Размер каждого индексного блока. По умолчанию 1024, но это
+    может быть изменено во время компиляции.</TD></TR>
+<TR><TD valign=top>Rec/key</TD>
+<TD valign=top>Статистическое значение, используемое оптимизатором. Оно
+    сообщает, сколько записей приходится на этот ключа. Уникальный ключ
+    всегда имеет значение 1. Это может измениться после того, как таблица
+    загружена и стабилизирована, используя <NOBR><SAMP>isamchk -a</SAMP>
+    </NOBR>. По умолчанию 30.</TD></TR></TABLE>
+
+<P>MySQL FAQ имеет обширную информацию по этой теме.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="About_Keys">Ключи и все о них.</H2></CENTER>
+<P>Ниже дается некоторая информацию низкого уровня относительно того, как
+ключи хранятся и используются в MySQL.
+
+<P>Текущий размер блока для B-tree равен 1024 и и всех блоков (за исключением
+root) - по крайней мере 2/3 от полного. Для типичного идентификатора
+(id = 4 байта) это означает 1024/(4+4)*2/3=85 ключей в соответствии с
+записью, и таким образом можно находить позицию реальной записи в 5
+позиционированиях.
+
+<P>Если Вы желаете, чтобы ваши индексы B-tree были 100% полными, выполните
+isamchk с опцией -rq над вашими файлами таблицы.
+
+<P>Только первая часть ключа может быть префиксно сжата. Если два ключа имеют
+тот же самый префикс, другая часть ключа будет занимать 1 байт. Все строковые
+части длиннее 4 символов имеют удаленные хвостовые пробелы.
+
+<P>Если ключ фиксированного размера, то nisam использует двоичный поиск в
+каждом блоке, иначе используется последовательный поиск.
+
+<P>Все блоки ключей читаются/пишутся через key_buffer (по умолчанию 1M) так
+что блок root буферизуется всегда.
+
+<P>Чтение следующего оптимизировано, так что библиотека не должна
+консультироваться с любым другим блоком при чтении из списка блоков. Это дает
+очень хорошую эффективность, когда Вы должны читать группу записей с тем же
+самым ключом.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="MySQL_Future">MySQL: планы на будущее</H2></CENTER>
+<P>Ниже приводятся планы по дальнейшему развитию и совершенствованию пакета
+MySQL и его будущих версиях.
+
+<P><UL><LI>В версии 3.21.0 все типы поля будут написаны как классы, и будет
+    сделан новый оптимизатор для WHERE.</LI>
+<LI>В версии 3.21.0 будет добавлен метод блокировки таблицы.</LI>
+<LI>В версии 3.22.0 будет добавлен простой язык модификаций. Он будет
+    включать поддержку циклов и подпрограмм.</LI>
+<LI>Добавление встроенного языка модификаций в 3.22.0 сделает возможным
+    определять свои процедуры для модификации таблиц.</LI>
+<LI>Все возможности, требовательные к ресурсам, могут сильно понизить
+    производительность. Поэтому предполагается сделать так, чтобы на этапе
+    компиляции пакета их можно было отключить в случае отсутствия в них
+    необходимости и в целях повышения производительности.</LI></UL>
+
+<P>Включение блокировки таблицы и сохраненных процедур должно пройти длинный
+путь к предоставлению людям функциональных возможностей, в которых они
+нуждаются без серьезного воздействия на эффективность MySQL.
+
+<P>Такие свойства как views, rollback и triggers будут добавлены на каком-то
+этапе опционально. Они требуют основательной переработки пакета.
+
+<P>Внутренние и внешние объединения, возможно, будут добавлены в версии
+3.21.0
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="LinuxThreads">Потоки в Linux</H2></CENTER>
+<P>Когда MySQL запущен на Linux системе и использует потоки Linux, Вы будете
+видеть минимум три процесса. Фактически, это потоки. Будет иметься один
+поток для Linux Threads manager, один, чтобы обрабатывать подключения и один,
+чтобы обработать сигналы.
+
+<P>В заключение хочется попросить Вас, если Вам понравилась эта страничка или
+пригодилась изложенная здесь информация,
+<A href="mailto:rldp@ftp.botik.ru?subject=Спасибо!&body=Спасибо за работу!">
+послать благодарность автору.</A> Это поможет мне
+вести статистику того, скольким людям пригодилось хоть что-то из моих трудов.
+
+<P><A href="admin.html">Локальное оглавление.</A>
+<P><A href="index.html">На главную страничку.</A>
+
+
+<!--htdig_noindex-->
+<br>
+
+<table><tr valign=top><td width="383">
+<iframe src="http://www.opennet.ru/adv_ibm.html" height="240" width="383" scrolling="no" name="ibm" border="0" frameborder="0" target="_blank"></iframe>
+</td><td>
+<table CELLSPACING=0 CELLPADDING=0 BORDER=1 BGCOLOR="#441144" WIDTH=100% ALIGN=center>
+<tr>
+<td ALIGN="center" VALIGN="center">
+<table align="center" width=100% border=1 cellspacing=0 cellpadding=2 bordercolor=#F8BB0B bordercolordark=#F8BB0B bordercolorlight=#FFFFFF>
+<tr>
+<td bgcolor=#FFF8E8 align=center colspan=2>
+<a href=http://www.linuxcenter.ru/?sid=nP5OTFA1 title="Дистрибутивы Linux, BSD и программы от ЛинуксЦентра">
+<font size=4 face="sans-serif" color=#5B1900>
+<b>Дистрибутивы Linux, BSD и программы от ЛинуксЦентра:</b>
+</font>
+</td>
+</tr>
+<tr>
+<td bgcolor=#FFF8E8 align=left>
+<font size=2 face="sans-serif" color=#5B1900 width=50%>		1. <a href="http://www.linuxcenter.ru/shop/gifts/znachki/znachog_ubuntu/?sid=nP5OTFA1" title="Значок Ubuntu">
+<font size=3 face="sans-serif" color=#5B1900>Значок Ubuntu - 85 руб.</font>
+</a>
+<br>
+				2. <a href="http://www.linuxcenter.ru/shop/gifts/stiker_na_sistblok_pc/?sid=nP5OTFA1" title="Объемная наклейка на системный блок (Beastie - Tux - Mandriva)">
+<font size=3 face="sans-serif" color=#5B1900>Объемная наклейка на системный блок (Beastie - Tux - Mandriva) - 100 руб.</font>
+</a>
+<br>
+				3. <a href="http://www.linuxcenter.ru/shop/gifts/znachki/Tux_emal_na_metalle/?sid=nP5OTFA1" title="Значок Tux (эмаль на металле)">
+<font size=3 face="sans-serif" color=#5B1900>Значок Tux (эмаль на металле) - 145 руб.</font>
+</a>
+<br>
+				4. <a href="http://www.linuxcenter.ru/shop/recommend/home_and_small_business/Ubuntu_Linux_7.10_i386_1CD/?sid=nP5OTFA1" title="Ubuntu Linux 7.10 для платформы x86 (1CD)">
+<font size=3 face="sans-serif" color=#5B1900>Ubuntu Linux 7.10 для платформы x86 (1CD) - 115 руб.</font>
+</a>
+<br>
+				5. <a href="http://www.linuxcenter.ru/shop/books-and-magazines/Linux-Format/jurnal_linux_format_january_2008/?sid=nP5OTFA1" title="Журнал Linux Format #1 (100/101) Январь 2008 (Ubuntu 7.10, OpenSUSE 10.3 + Архив LXF: подшивка журналов за 2005-2007 год)">
+<font size=3 face="sans-serif" color=#5B1900>Журнал Linux Format #1 (100/101) Январь 2008 (Ubuntu 7.10, OpenSUSE 10.3 + Архив LXF: подшивка журналов за 2005-2007 год) - 250 руб.</font>
+</a>
+<br>
+				6. <a href="http://www.linuxcenter.ru/shop/recommend/Mandriva_PowerPack_2008_BOX/?sid=nP5OTFA1" title="Mandriva PowerPack 2008 (BOX)">
+<font size=3 face="sans-serif" color=#5B1900>Mandriva PowerPack 2008 (BOX) - 2325 руб.</font>
+</a>
+<br>
+				7. <a href="http://www.linuxcenter.ru/shop/linux-software/office/cbornik_programmnogo_obespeceniy_openoff23_box/?sid=nP5OTFA1" title="Cборник программного обеспечения OpenOffice.org 2.3 (BOX)">
+<font size=3 face="sans-serif" color=#5B1900>Cборник программного обеспечения OpenOffice.org 2.3 (BOX) - 695 руб.</font>
+</a>
+<br>
+				8. <a href="http://www.linuxcenter.ru/shop/distros/linux-distros/OpenSUSE_10_3_x86_1DVD_1CD/?sid=nP5OTFA1" title="OpenSUSE 10.3 платформа x86 (1DVD + 1CD)">
+<font size=3 face="sans-serif" color=#5B1900>OpenSUSE 10.3 платформа x86 (1DVD + 1CD) - 350 руб.</font>
+</a>
+<br>
+				9. <a href="http://www.linuxcenter.ru/shop/gifts/Keyring/Tux_brelok/?sid=nP5OTFA1" title="Брелок Tux">
+<font size=3 face="sans-serif" color=#5B1900>Брелок Tux - 135 руб.</font>
+</a>
+<br>
+				10. <a href="http://www.linuxcenter.ru/shop/distros/linux-distros/ALT_Linux_4_0_Desktop_1DVD/?sid=nP5OTFA1" title="ALT Linux 4.0 Desktop (1DVD)">
+<font size=3 face="sans-serif" color=#5B1900>ALT Linux 4.0 Desktop (1DVD) - 300 руб.</font>
+</a>
+<br>
+		</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+
+<!--/htdig_noindex-->
+
+
+<!-- footer -->
+<!--htdig_noindex-->
+<br>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH="100%" BGCOLOR="#B0B190">
+<TR><TD>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" VALIGN="MIDDLE">
+<TR>
+<TD WIDTH="35%" BGCOLOR="#E9EAD6" ALIGN=LEFT>
+<FONT SIZE="-1">
+&nbsp;&nbsp;<A HREF="/cgi-bin/opennet/bookmark.cgi">Закладки&nbsp;на&nbsp;сайте</A><BR>
+&nbsp;&nbsp;<A HREF="/cgi-bin/opennet/bookmark.cgi?submit=add" target="blank_">Проследить&nbsp;за&nbsp;страницей</A>
+</FONT>
+</TD>
+<TD WIDTH="65%" ALIGN=RIGHT BGCOLOR="#E9EAD6">
+<FONT SIZE="-1">Created&nbsp;1996-2008&nbsp;by&nbsp;<B><A HREF="/contact.shtml" title="email mc@tyumen.ru">Maxim&nbsp;Chirkov</A></B></FONT>&nbsp;&nbsp;<BR>
+<FONT SIZE="-1"><A HREF="http://www.opennet.ru/guestbook.shtml">Добавить</A>,&nbsp;<A HREF="http://www.opennet.ru/reklama.shtml">Реклама</A>,&nbsp;<A HREF="http://www.opennet.ru/banners2.shtml">Вебмастеру</A>,&nbsp;<A HREF="http://www.opennet.ru/cup.shtml">ЦУП</A>,&nbsp;<A HREF="http://www.opennet.ru/guide.shtml">ГИД</A></FONT>&nbsp;&nbsp;
+</TD>
+</TR>
+</TABLE>
+</TD></TR>
+</TABLE>
+
+
+<div align=right><table><tr><td>
+<a target=_blank href="http://www.runnet.ru"><img src="/img/runnet.gif" border=0 height=31 width=88 alt="RUNNet"></a>
+<a target=_blank href="http://top.list.ru/jump?from=77689"><img src="http://top.list.ru/counter?id=77689;t=75;l=1" border=0 height=31 width=38 alt="TopList"></a>
+<a target=_blank href="http://counter.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?10566" width=1 height=1 border=0><img src="/banner.gif" width=88 height=31 border=0></a>
+</td></tr></table>
+</div>
+</form>
+<!--/htdig_noindex-->
+<!-- end of footer -->
+
+</BODY>
+</HTML>

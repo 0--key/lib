@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="cp1251"?> 
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" 
+   "http://www.wapforum.org/DTD/wml_1.1.xml"> 
+
+<wml>
+
+<card id="splash" title="Welcome!">
+<onevent type="ontimer">
+      <go href="#main" />
+</onevent>
+
+<timer name="delay" value="20"/>
+
+<p align="center" mode="wrap">
+<b><br/><br/>
+Привет!
+</b>
+</p>
+</card>
+
+
+<card id="main" title="Login">
+<p align="center"> 
+<fieldset title="Аутентификация"> 
+Nick:<br/> 
+<input name="nick" type="text" format="X*x"/> 
+Password:<br/> 
+<input name="pass" type="password" format="XXXXNN"/> 
+</fieldset> 
+<anchor> 
+Login 
+<go method="post" href="login.php" > 
+<postfield name="nick" value="$(nick)"/> 
+<postfield name="pass" value="$(pass)"/>
+<postfield name="type" value="auth"/>  
+</go> 
+</anchor> 
+</p> 
+
+</card>
+
+</wml>

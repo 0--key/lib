@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="Login" title="Login">
+<do type="accept" label="Password">
+<go href="#Password"/>
+</do>
+<p>
+UserName:
+<select name="name" title="Name:">
+<option value="John Doe">John Doe</option>
+<option value="Paul Smith">Paul Smith</option>
+<option value="Joe Dean">Joe Dean</option>
+<option value="Bill Todd">Bill Todd</option>
+</select>
+</p>
+</card>
+<card id="Password" title="Password:">
+<do type="accept" label="Results">
+<go href="#Results"/>
+</do>
+<p>
+Password: <input type="text" name="password"/>
+</p>
+</card>
+<card id="Results" title="Results:">
+<p>
+You entered:<br/>
+Name: $(name)<br/>
+Password:$(password)<br/>
+</p>
+</card>
+</wml>

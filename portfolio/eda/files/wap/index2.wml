@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<card id="main" title="МТС">
+<p>
+	
+	
+	
+</p>
+
+	<!-- COMMENT: time_shift_banner -->
+	
+<p>
+	
+</p>
+<p>
+		
+		
+		
+				
+				
+		
+		
+		<input name="q" size="10" type="text" />
+		<anchor><go method='post' href='http://wap.mts.com.ua/ru/search'>
+		<postfield name='q' value='$(q)'/>
+		<postfield name='hl' value='en'/>
+		<postfield name='mrestrict' value='wml'/>
+		<postfield name='uipref' value='3'/>
+		<postfield name='doSearch' value='1'/>
+		<postfield name='from' value='/'/>
+		</go>Поиск</anchor><br/>
+<br/>
+</p>
+	
+	
+	<p>
+		Обсуждаем: <a href="http://wap.mts.com.ua/ru/comments_list?from=/10754&amp;tid=717&amp;bu=http%3A%2F%2Fwap.mts.com.ua%2Fru%2Findex">Состоится ли Евро-2012 в Украине?</a><br /><br />
+		
+		
+		
+		
+		
+		<br/>
+		
+		<a href="http://wap.mts.com.ua/ru/change_lang?langto=en&amp;bu=http%3A%2F%2Fwap.mts.com.ua%2Fen%2Findex">English</a><br/>
+		<a href="http://wap.mts.com.ua/ru/change_lang?langto=ua&amp;bu=http%3A%2F%2Fwap.mts.com.ua%2Fua%2Findex">Українська</a><br/>
+		<a href="http://wap.mts.com.ua/ru/change_lang?langto=tr&amp;bu=http%3A%2F%2Fwap.mts.com.ua%2Ftr%2Findex">Translit</a><br/>
+	</p>
+</card>
+</wml>

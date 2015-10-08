@@ -1,0 +1,1533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=koi8-r">
+  <META NAME="Author" CONTENT="Alexey V. Pautov">
+  
+  <META NAME="GENERATOR" CONTENT="Created by Dos Navigator.">
+  <TITLE>Реализация языка SQL в СУБД MySQL</TITLE>
+</HEAD>
+<body bgcolor="#DDE1C2">
+<LINK REL="stylesheet" href="/opennet.css" type="text/css">
+<!--htdig_noindex-->
+<FORM method="get" action="http://www.opennet.ru/search.shtml">
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%">
+<TR>
+<TD VALIGN="BOTTOM" BGCOLOR="#E9EAD6" style="background: #E9EAD6 url('/back.gif') repeat-x bottom left">
+<A HREF="http://www.opennet.ru"><IMG SRC="/opennet2.gif" HEIGHT=60 WIDTH=249 ALT="The OpenNET Project" BORDER="0"></A><br>
+</TD>
+
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+
+<TD VALIGN=TOP ALIGN=RIGHT WIDTH="470" BGCOLOR="#D9DAC6">
+<TABLE BORDER=0 CELLPADDING=1 WIDTH="470">
+<TR>
+<TD HEIGHT=60 BGCOLOR="#D9DAC6">
+
+<script language=JavaScript>                            
+<!--                            
+                            
+var haveFlash = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;                            
+                            
+if( haveFlash ){                            
+        haveFlash = (parseInt(haveFlash.description.substring(haveFlash.description.indexOf(".")-1))>=5);                            
+} else if ( navigator.userAgent && navigator.userAgent.indexOf( "MSIE" ) >=0                            
+       && ( parseFloat( navigator.appVersion )  >=4)                            
+       && ( navigator.userAgent.indexOf( "Windows 95" ) >=0                            
+         || navigator.userAgent.indexOf( "Windows NT" ) >=0                            
+         || navigator.userAgent.indexOf( "Windows 98" ) >=0 )                            
+    ){                            
+        document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');                            
+        document.write(' on error resume next \n');                            
+        document.write(' haveFlash = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5")))\n');                            
+        document.write('</SCR' + 'IPT\> \n');                            
+}                            
+if ( haveFlash ){                            
+        var swf_url = '/img/securit2.swf' + '?link1=' + 'http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit2';                            
+        document.write('<object classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 codebase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0 width=468 height=60>');                            
+        document.write('<param name=movie value="' + swf_url + '"><param name=menu value=false><param name=section value=1629><param name=quality value=high>');                            
+        document.write('<EM' + 'BED src="' + swf_url + '" quality=high ');                            
+        document.write('menu=false swLiveConnect=FALSE WIDTH=468 HEIGHT=60');                            
+        document.write('TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');                                
+        document.write('</EMBED>');                            
+        document.write(' </object>');                               
+}else{                            
+        document.write('<a href=http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit_gif target=_blank><img src=/img/securit.gif width=468 height=60 border=0></a>');                            
+}                            
+//-->                            
+</script>                            
+<noscript><a href=http://click.opennet.ru/cgi-bin/opennet/hjump.cgi?securit_gif target=_blank><img src=/img/securit.gif width=468 height=60 border=0></a></noscript>                            
+
+
+
+</TD>
+</TR>
+</TABLE>
+</TD>
+
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+<TD WIDTH="40" BGCOLOR="#E9EAD6" style="background: #E9EAD6 url('/back.gif') repeat-x bottom left">&nbsp;</TD>
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+
+<TD VALIGN=TOP ALIGN=RIGHT WIDTH="130" BGCOLOR="#E9EAD6" ROWSPAN=3>
+<a href="http://www.lanbilling.ru/" target=_blank><img src="/img/lanbilling3.gif" width=130 height=125 border=0></a>
+</TD>
+
+</TR>
+
+<TR BGCOLOR="#B0B190"><TD COLSPAN=6><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD></TR>
+
+
+<TR BGCOLOR="#E9EAD6">
+<TD ALIGN=CENTER COLSPAN=5>
+<table width="100%">
+<tr>
+<td rowspan=2 width=300 nowrap class="h">
+<INPUT type=hidden name=exclude value="index|/man.shtml"><A HREF="http://www.opennet.ru/search.shtml" class="h"><u>Поиск</u></A>&nbsp;(<A HREF="http://www.opennet.ru/keywords/" class="h">ключи</A>):&nbsp;<INPUT type="text" size="20" name="words" value="">
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/prog/sml/" class="h"><b><u>ПРОГРАММЫ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/filebase.shtml" class="h"><b><u>СТАТЬИ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://www.opennet.ru/tips/sml/" class="h"><b><u>СОВЕТЫ</u></b></A>
+</td><td width="25%">
+   <A HREF="http://forum.opennet.ru" class="h"><b><u>ФОРУМ</u></b></A>
+</td></tr>
+<tr><td>
+   <A HREF="http://www.opennet.ru/links/sml/" class="h"><b><u>ССЫЛКИ</u></b></A>
+</td><td class="h">
+   <A HREF="http://www.opennet.ru/opennews/" class="h"><b><u>НОВОСТИ</u></b></A> (<a href="http://www.opennet.ru/news/opennet.shtml" class="h">+</a>)
+</td><td>
+   <A HREF="http://www.opennet.ru/man.shtml" class="h"><b><u>MAN'ы</u></b></A>
+</td><td>
+   <A HREF="http://www.opennet.ru/docs/" class="h"><b><u>ДОКУМЕНТАЦИЯ</u></b></A>
+</td></tr>
+</table>
+</TD>
+<TD BGCOLOR="#B0B190" WIDTH="1"><IMG SRC="/p.gif" HEIGHT=1 WIDTH=1 ALT=""></TD>
+</TR>
+<TR BGCOLOR="#B0B190"><TD COLSPAN=7><IMG SRC="/p.gif" HEIGHT=2 WIDTH=1 ALT=""></TD></TR>
+</TABLE>
+<div style="width: 90%; text-align: left;" id=adv><A HREF="http://job.samsung.ru" target=_blank><IMG SRC="/img/samsung_line4.gif" BORDER="0" width="279" height="40"></a></div>
+
+<script language="JavaScript"><!--
+d=document;a='';r=escape(d.referrer);a+=';r='+r;
+js=10; d.write('<img src="http://top.list.ru/counter'+
+'?id=77689;js='+js+a+';rand='+Math.random()+
+'" alt="" height=1 width=1>');
+if(js>11)d.write('<'+'!-- ')//--></script><noscript><img
+src="http://top.list.ru/counter?js=na;id=77689"
+height=1 width=1 alt="">
+</noscript>
+</FORM>
+<!--/htdig_noindex-->
+
+
+<table  BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" style="margin-bottom: 5px;margin-top: 5px;">
+<tr><td>
+<TABLE  BORDER=0 CELLSPACING=0 CELLPADDING=4 BGCOLOR="#E9EAD6" WIDTH="100%">
+<TR BGCOLOR="#C7CBB1"><TD><FONT COLOR="#000090">
+<b><a href="http://www.opennet.ru/docs/">Каталог документации</a> / 
+<a href="http://www.opennet.ru/docs/121.shtml">Раздел "Базы данных, SQL"</a> /
+<a href="http://www.opennet.ru/docs/RUS/mysqlrus/">Оглавление документа</a>
+</b>
+</TD></TR>
+</TABLE>
+</TD></TR>
+<TR BGCOLOR="#B0B190"><TD><IMG SRC="/p.gif" HEIGHT=3 WIDTH=1 ALT=""></TD></TR>
+</TABLE>
+
+
+<CENTER><H1>Реализация языка SQL в СУБД MySQL</H1></CENTER><BR>
+<P align=right><FONT SIZE=-1>Студент нанимается на лето подработать в<BR>
+университете, его спрашивают:<BR>
+- Языком владеешь?<BR>
+- Я в совершенстве владею языком!<BR>
+- Отлично, будешь наклеивать марки на конверты.</FONT></P>
+
+<UL type=disc><LI><B>Реализация языка SQL в СУБД MySQL</B>
+<LI><A HREF="#Overview">Коротко о главном</A></LI>
+<LI><A HREF="#AlterTable">ALTER TABLE</A></LI>
+<LI><A HREF="#Create">CREATE TABLE</A></LI>
+<LI><A HREF="#Dtypes">Типы данных</A></LI>
+<LI><A HREF="#Keys">Ключи</A></LI>
+<LI><A HREF="#Blobs">BLOB'ы</A></LI>
+<LI><A HREF="#BBlobs">Двоичные данные в BLOBS</A></LI>
+<LI><A HREF="#CIndex">CREATE INDEX</A></LI>
+<LI><A HREF="#Delete">DELETE</A></LI>
+<LI><A HREF="#Desc">DESCRIBE</A></LI>
+<LI><A HREF="#Drop">DROP</A></LI>
+<LI><A HREF="#DIndex">DROP INDEX</A></LI>
+<LI><A HREF="#Grant">GRANT</A></LI>
+<LI><A HREF="#Select">SELECT</A></LI>
+
+<UL type=circle><LI><A HREF="#Functions">Функции</A></LI>
+<LI><A HREF="#Lfunc">Логические операторы</A></LI>
+<UL type=disc><LI><SAMP>+,-,*,/</SAMP></LI>
+<LI><SAMP>%</SAMP></LI>
+<LI><SAMP>|, &</SAMP></LI>
+<LI><SAMP>-</SAMP></LI>
+<LI><SAMP>()</SAMP></LI>
+<LI><SAMP>BETWEEN</SAMP></LI>
+<LI><SAMP>BIT_COUNT()</SAMP></LI>
+<LI><SAMP>ELT</SAMP></LI>
+<LI><SAMP>FIELD</SAMP></LI>
+<LI><SAMP>IF</SAMP></LI>
+<LI><SAMP>IFNULL</SAMP></LI>
+<LI><SAMP>ISNULL</SAMP></LI>
+<LI><SAMP>NOT/!</SAMP></LI>
+<LI><SAMP>OR,AND</SAMP></LI>
+<LI><SAMP>SIGN</SAMP></LI>
+<LI><SAMP>SUM()</SAMP></LI>
+<LI><SAMP>= &lt;&gt; &lt;= &lt; &gt;= &gt;</SAMP></LI>
+<LI><SAMP>expr LIKE expr</SAMP></LI>
+<LI><SAMP>expr NOT LIKE expr</SAMP></LI>
+<LI><SAMP>expr REGEXP expr</SAMP></LI>
+<LI><SAMP>expr NOT REGEXP expr</SAMP></LI></UL>
+
+<LI><A HREF="#Mfunc">Математические функции</A></LI>
+<UL type=disc><LI><SAMP>ABS</SAMP></LI>
+<LI><SAMP>CEILING</SAMP></LI>
+<LI><SAMP>EXP</SAMP></LI>
+<LI><SAMP>FORMAT</SAMP></LI>
+<LI><SAMP>LOG</SAMP></LI>
+<LI><SAMP>LOG10</SAMP></LI>
+<LI><SAMP>MAX</SAMP></LI>
+<LI><SAMP>MIN</SAMP></LI>
+<LI><SAMP>MOD</SAMP></LI>
+<LI><SAMP>POW</SAMP></LI>
+<LI><SAMP>ROUND</SAMP></LI>
+<LI><SAMP>RAND</SAMP></LI>
+<LI><SAMP>SQRT</SAMP></LI></UL>
+
+<LI><A HREF="#Sfunc">Работа со строками</A></LI>
+<UL type=disc><LI><SAMP>CONCAT</SAMP></LI>
+<LI><SAMP>INTERVAL</SAMP> (назывался INTERVALL в предыдущих версиях)</LI>
+<LI><SAMP>INSERT</SAMP></LI>
+<LI><SAMP>LCASE</SAMP></LI>
+<LI><SAMP>LEFT</SAMP></LI>
+<LI><SAMP>LENGTH</SAMP></LI>
+<LI><SAMP>LOCATE</SAMP></LI>
+<LI><SAMP>LTRIM</SAMP></LI>
+<LI><SAMP>REPLACE</SAMP></LI>
+<LI><SAMP>RIGHT</SAMP></LI>
+<LI><SAMP>RTRIM</SAMP></LI>
+<LI><SAMP>STRCMP</SAMP></LI>
+<LI><SAMP>SUBSTRING</SAMP></LI>
+<LI><SAMP>STRCMP</SAMP></LI>
+<LI><SAMP>UCASE</SAMP></LI></UL>
+
+<LI><A HREF="#MSfunc">Вспомогательные функции</A></LI>
+<UL type=disc><LI><SAMP>CURDATE</SAMP></LI>
+<LI><SAMP>DATABASE</SAMP></LI>
+<LI><SAMP>FROM_DAYS</SAMP></LI>
+<LI><SAMP>NOW</SAMP></LI>
+<LI><SAMP>PASSWORD</SAMP></LI>
+<LI><SAMP>PERIOD_ADD</SAMP></LI>
+<LI><SAMP>PERIOD_DIFF</SAMP></LI>
+<LI><SAMP>TO_DAYS</SAMP></LI>
+<LI><SAMP>UNIX_TIMESTAMP</SAMP></LI>
+<LI><SAMP>USER</SAMP></LI>
+<LI><SAMP>WEEKDAY</SAMP></LI></UL>
+
+<LI><A HREF="#Gfunc">Групповые функции</A></LI>
+<UL type=disc><LI><SAMP>AVG</SAMP></LI>
+<LI><SAMP>SUM</SAMP></LI>
+<LI><SAMP>COUNT</SAMP></LI>
+<LI><SAMP>MIN</SAMP></LI>
+<LI><SAMP>MAX</SAMP></LI></UL>
+
+<LI><A HREF="#Joins">Связи</A></LI>
+<LI><A HREF="#Aliases">Псевдонимы</A></LI>
+<LI><A HREF="#Insert">INSERT INTO</A></LI>
+<LI><A HREF="#LDI">LOAD DATA INFILE</A></LI>
+<LI><A HREF="#SetOption">SET OPTION</A></LI>
+<LI><A HREF="#Update">UPDATE</A></LI>
+<LI><A HREF="#Show">SHOW</A></LI>
+<LI><A HREF="#Strings">Строки</A></LI>
+<LI><A HREF="#Numbers">Числа</A></LI></UL><HR>
+
+<CENTER><H2><A NAME="Overview">Обзор</H2></CENTER>
+<P>СУБД MySQL предоставляет в Ваше распоряжение подмножество языка SQL,
+соответствующее спецификации ANSI SQL 92.
+
+<P>Основные цели MySQL - быстродействие и ошибкоустойчивость. Добавление
+транзакций принесет значительное быстродействие и повышение сложности.
+В настоящее время имеется проект, который должен дать подобные функциональные
+Это, вероятно, будет выполнено, с помощью введения атомарной модификации
+нескольких таблиц сразу.
+
+<P>Ядро, на котором сформирован MySQL - набор подпрограмм, которые
+использовались в высокотребовательном окружении много лет. В то время, как
+MySQL все еще находится в разработке, это уже предоставляет богатый и
+полезный функциональный набор.
+
+<P><HR WIDTH="100%">
+<CENTER><H2><A NAME="AlterTable">ALTER TABLE</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P>ALTER [IGNORE] TABLE table_name alter_specification [,
+   alter_specification ...]
+
+<P><PRE>
+  alter_specification:
+    ADD [COLUMN] create_definition or
+    CHANGE [COLUMN] old_column_name create_definition or
+    ALTER [COLUMN] column_name { SET default | DROP DEFAULT } or
+    DROP [COLUMN] column_name or DROP PRIMARY KEY or DROP INDEX key_name
+    DROP FOREIGN KEY key_name
+</PRE>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Команда ALTER TABLE может быть использована для изменения определения
+таблицы. ALTER TABLE работает с временно созданной таблицей в которую
+копирует все данные из текущей таблицы. Когда копия готова, старая таблица
+удаляется, а новая переименуется в нее. Это выполнено таким способом, что все
+изменения автоматически переназначаются на новую таблицу.
+
+<P>Пока работает ALTER TABLE, старая таблица доступна для других клиентов.
+Обновления и запись в таблицу останавливаются и будут выполнены только после
+того, как новая таблица будет готова. Если IGNORE не определен, то
+копирование будет прервано и процесс отработан назад в случае наличия любых
+уникальных ключей, дублированных в новой таблице.
+
+<P><UL><LI>CHANGE column_name, DROP column_name и DROP INDEX являются MySQL
+        расширениями ANSI SQL.</LI>
+<LI>[COLUMN] факультативный параметр и может быть опущен.</LI>
+<LI>Конструкция ALTER [COLUMN] может быть использована для изменения или
+    удаления старого значения по умолчанию.</LI>
+<LI>ADD и CHANGE используют один и тот же create_definition, что и CREATE
+    TABLE. См. <A HREF="sql.html#Create">CREATE TABLE</A>.</LI>
+<LI>Если вы удаляете column_name, которое является частью составного ключа,
+    то часть ключа будет удалена. Если все части ключа удалены, то будет
+    удален весь ключ.</LI>
+<LI>DROP PRIMARY KEY удаляет первый уникальный ключ в таблице.</LI>
+<LI>CHANGE делает лучшее преобразование существующей информации в новый
+    формат.</LI>
+<LI>Синтаксис DROP FOREIGN KEY пока существует для запланированных
+    функциональных возможностей. В настоящее время не делает ничего.</LI>
+    </UL>
+
+<P>Вы можете использовать функцию C API mysql_info(&MYSQL_RESULT) чтобы
+узнать, сколько записей скопировано и сколько удалено из-за дублированных
+ключей.
+
+<P>Для использования команды ALTER TABLE вы должны иметь права доступа
+<I>select</I>, <I>insert</I>, <I>delete</I>, <I>update</I>, <I>create</I> и
+<I>drop</I> для этой таблицы.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Create">CREATE TABLE</A></H2></CENTER><P>
+
+<B>СИНТАКСИС:</B>
+<P>CREATE TABLE table_name (create_definition, ...)
+
+<P>Здесь create_definition имеет следующий формат:<br>
+<PRE>
+  create_definition:
+    column_name type NOT NULL [DEFAULT default_value] [ PRIMARY KEY ] or
+    column_name type [NULL] [ PRIMARY KEY ] or
+    PRIMARY (KEY|INDEX) [key_name] ( column_name,... ) or
+    (KEY|INDEX) [key_name] ( column_name[length],...) or
+    INDEX [key_name] ( column_name[length],...) or
+    UNIQUE (column_name[length],...) or
+    FOREIGN (KEY|INDEX) [key_name] (column_name[length],...)
+            REFERENCES table_name
+  [ON DELETE (RESTRICT | CASCADE | SET NULL) ]
+</PRE>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>В MySQL все поля имеют неявное значение по умолчанию, если объявлены, как
+не пустые (NOT NULL). Если вы не даете значения по умолчанию при
+использовании не пустого поля, оно будет назначено, исходя из типа поля.
+
+<P>Блок FOREIGN нужен только для совместимости. Ключевое слово REFERENCE тоже
+не выполняет в данной версии никаких действий.
+
+<P>Команда MySQL CREATE TABLE не поддерживает ключевое слово SQL CHECK.
+<P>Для создания таблицы Вы должны иметь права доступа <I>create</I>.
+
+<P>Замечания:
+<P><UL>
+<LI>Номер столбца может иметь дополнительное ключевое слово AUTO_INCREMENT,
+чтобы автоматически получить номер = самый большой номер столбца + 1 для
+каждой вставки, в которой номер столбца = 0 или NULL. ТО ЕСТЬ, если Вы
+попробуете вставить значение ноля в числовой столбец, который имеет атрибут
+AUTO_INCREMENT, Вы получите номер столбца, который на 1 большим, чем самый
+большой предварительно использованный номер.
+
+<P>Если Вы желаете начать отсчет не с ноля, просто вставьте желательное
+стартовое значение в первой записи, которую Вы вставляете в данную таблицу.
+В настоящее время нет никакого другого способа достичь этого эффекта.
+
+<P><B>ВНИМАНИЕ:</B>
+<P>Если Вы используете AUTO_INCREMENT, Вы можете использовать его только в
+одном поле таблицы. Обратите внимание также, что это поле должно быть
+объявлено как первичный ключ, и должно быть числовым.</LI><BR>
+<LI>ZEROFILL означает, что значение дополняется слева нулями до максимальной
+    длины поля.
+<P><B>ПРИМЕР:</B>
+<P><SAMP>INT(5) ZEROFILL; значение 5 превращается в "00005"</SAMP></LI>
+<LI>Столбцы ключа и столбцы TIMESTAMP не могут быть пустыми. Для столбцов
+    ключа атрибут NULL тихо удаляется.</LI>
+<LI>Вы можете вставить NULL для полей типа TIMESTAMP и числовых полей с
+    атрибутом AUTO_INCREMENT.</LI>
+<LI>BLOB столбцы не мог быть ключами. Вы не можете группировать на BLOB.
+    Однако, можно использовать строковые функции MySQL, чтобы группировать
+    на подразделах BLOB.</LI>
+<LI>Теперь можно использовать BLOB столбцы в предложении WHERE.</LI>
+<LI>Удаленные записи находятся в связанном списке, и последующие вставки
+    будут повторно использовать старые позиции.</LI>
+<LI>Каждый столбец, который может принять значение NULL, берет 1 бит
+    дополнительного пространства.</LI>
+<LI>Если нет никаких VARCHAR столбцов, и BLOBs, то MySQL использует
+    фиксированный формат записей. Вы можете ожидать существенно лучшую
+    эффективность, в этом случае. Также не нужно оптимизировать ваши таблицы
+    с помощью isamchk, когда используется фиксированный формат записи.</LI>
+<LI>Если Вы используете записи переменной длины и делаете много модификаций,
+    Вы должны выполнять время от времени '<SAMP>isamchk -r table_name</SAMP>'
+    на таблице, чтобы получить лучшее размещение. Попробуйте команду
+    '<SAMP>isamchk -ei table_name</SAMP>' для сбора статистики.</LI>
+<LI>Максимальная длина записи может быть найдена так:<BR>
+    1 + сумма длин столбцов + null_columns/8 + число столбцов переменной
+    длины.</LI>
+<LI>В некоторых случаях атрибуты могут тихо меняться после создания:
+    VARCHAR столбцы с длиной 1 или 2 изменяется на CHAR. При использовании
+    одних VARCHAR столбцов все CHAR столбцы более длинные, чем 2 изменяется
+    на VARCHARS.</LI>
+<LI>При INSERT/UPDATE все строки (CHAR и VARCHAR) приводятся к максимальной
+    длине, заданной, CREATE. Все хвостовые пробелы автоматически удаляются.
+    <br>Например, VARCHAR(10) задает, что столбец может содержать строки с
+    длиной до 10 символов.</LI>
+<LI>Что угодно/0 дает значение NULL.</LI>
+<LI>REGEXP использует кодировку ISOLATIN1 при использовании функций
+    символьного типа, подобно [[:ALPHA:]].</LI></UL>
+
+<HR WIDTH="100%">
+<CENTER><H3><A NAME="Dtypes">Типы данных</A></H3></CENTER>
+<P>Поля должны иметь один из следующих типов данных:<BR>
+
+<TABLE border=1>
+<TR><TD>BIGINT [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>8 байт целое (если компилятор поддерживает такой тип)</TD>
+<TR><TD>BLOB
+<TD>Двоичный объект (максимальная длина 65535 байт)</TD>
+<TR><TD>CHAR(NUM)</TD>
+<TD>Строка фиксированной длины (1 &lt;= NUM &lt;= 255)</TD>
+<TR><TD>DATE</TD>
+<TD>Сохраняет информацию о дате. Использует формат "YYYY-MM-DD". Может
+модифицироваться как строка или число, хотя Вы, вероятно, используете
+контекст строки для времени и даты.
+
+<P>MySQL тип DATEпонимает по крайней мере следующие синтаксис.<BR>
+<UL><LI>YYYY-MM-DD (Обратите внимание что '- ' может фактически быть
+        ЛЮБОЙ не цифрой)</LI>
+<LI>YY-MM-DD (Обратите внимание что '- ' может фактически быть ЛЮБОЙ не
+    цифрой)</LI>
+<LI>YYMMDD</LI>
+<LI>YYMM</LI></UL>
+
+<P>Диапазон для этого типа данных от 0000-00-00 до 9999-12-31. Так что
+"проблема 2000" здесь не стоит. В отличие от TIMESTAMP, DATE принимает годы
+и в виде двух цифр от 0000 до 0099. Это не очень полезно в большинстве
+случаев. Используйте задание лет четырьмя цифрами в полях типа DATE. Тип DATE
+имеет длину 4 байта.</TD>
+<TR><TD>DATETIME</TD>
+<TD>Объединение типов DATE и TIME. Тип DATETIME идентичен типу TIMESTAMP со
+следующими исключениями:<BR>
+<UL><LI>Когда запись вставляется в таблицу, содержащую поля типа DATETIME,
+        поле DATETIME не изменяется.
+<LI>Диапазон для поля типа DATETIME: '0000-01-01 00:00:00' - '9999-12-31
+    23:59:59' при использовании в контексте строки, и
+    '00000000000000' - '99991231235959' при использовании в контексте числа.
+    </UL><BR>Тип DATETIME имеет длину 8 байт.</TD>
+<TR><TD>DECIMAL (length,dec)</TD>
+<TD>Десятичное число с плавающей запятой.</TD>
+<TR><TD>DOUBLE [(length,dec)]</TD>
+<TD>Число (4 или 8 байт) двойной точности с максимальной длиной и
+    фиксированном числом десятичных чисел.</TD>
+<TR><TD>FLOAT  [(precision)]
+<TD>Номер с плавающей запятой. FLOAT(4) и FLOAT одиночная точность. FLOAT(8)
+    обеспечивает двойную точность.</TD>
+<TR><TD>FLOAT  [(length,decimals)]
+<TD>Число одиночной точности с максимальной длиной и фиксированном числом
+    десятичных чисел (4 байта).</TD>
+<TR><TD>INT [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>Целое (4 байта).</TD>
+<TR><TD>INTEGER [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>Целое число 4 байта</TD>
+<TR><TD>LONGBLOB</TD>
+<TD>Двоичный объект с максимальной длиной 2**32 байт.</TD>
+<TR><TD>MEDIUMBLOB</TD>
+<TD>Двоичный объект с максимальной длиной 16777216 байт.</TD>
+<TR><TD>MEDIUMINT [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>Целое (3 байта).</TD>
+<TR><TD>REAL [(length,dec)]</TD>
+<TD>Идентично DOUBLE (8 байт).</TD>
+<TR><TD>SMALLINT [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>Целое (2 байта).</TD><TR>
+<TR><TD>TINYBLOB</TD>
+<TD>Двоичный объект с максимальной длиной 255 байт.</TD>
+<TR><TD>TINYINT [(length)] [UNSIGNED] [ZEROFILL]</TD>
+<TD>Целое число (1 байт).</TD>
+<TR><TD>VARCHAR(NUM)</TD>
+<TD>Строка переменной длины (1 &lt;= NUM &lt;= 255)</TD>
+<TR><TD>TIME </TD>
+<TD>Хранит информацию о времени. Использует формат "HH:MM:SS".
+    Может использоваться как строка или число. MySQL тип TIME понимает
+    следующий синтаксис.
+    <UL><LI>HH:MM:DD</LI>
+    <LI>HHMMDD</LI>
+    <LI>HHMM</LI>
+    <LI>HH</LI></UL>
+Данные типа TIME имеют длину 3 байта.</TD>
+<TR><TD>TIMESTAMP(NUM)</TD>
+<TD>Автоматически изменяется при вставке/обновлении. Имеет формат
+    YYMMDDHHMMSS или YYYYMMDDHHMMSS. Вы можете модифицировать поле TIMESTAMP
+    при выполнении INSERT. Это полезно, когда Вы хотите установить
+    произвольную дату/время для записи. В течение модификаций Вы не должны
+    определять значение для вашего поля TIMESTAMP, или определять NULL как
+    значение, для вставки. Иначе вы получите недопустимое значение для этого
+    поля.
+<P>Когда используете mysql с ODBC и Access Вы должны использовать значение 14
+   для NUM, поскольку это заставляет MySQL всегда использовать в годах четыре
+   цифры. Значение 12 заставит MySQL использовать в году две цифры. Значение
+   по умолчанию - 14.
+<P>Обратите внимание, что в случае таблиц с несколькими полями TIMESTAMP
+   только первое такое поле будет модифицироваться автоматически.</TD></TR>
+   </TABLE>
+
+<P>Длина поля определяет, сколько всего цифр может иметь число, в то время
+как поле dec определяет, сколько из этих цифр будет после десятичной точки.
+Эти значения используются только для форматирования и вычисления максимальной
+ширины столбца.
+
+<HR WIDTH="100%">
+<CENTER><H3><A NAME="Keys">Ключи</A></H3></CENTER>
+
+<P>MySQL таблица может иметь до 16 ключей, каждый из которых может иметь до
+15 полей. Максимальная поддерживаемая длина ключа 120 байт. Вы можете
+увеличить длину ключа, изменяя N_MAX_KEY_LENGTH в файле nisam.h и
+перекомпилировав пакет. Обратите внимание, что длинные ключи могут привести к
+низкой эффективности.
+
+<P>Ключи могут иметь имена. В случае первичного ключа имя будет всегда
+PRIMARY. Если имя ключа не задано в процессе создания таблицы, то заданное по
+умолчанию имя ключа - первое имя столбца с факультативным суффиксом (_2, _3,
+и т. д.) чтобы сделать это имя уникальным. Имя ключа может использоваться с
+командой <A HREF="aql.html#AlterTable">ALTER TABLE</A>, чтобы удалить ключ.
+
+<P>При создании ключа Вы можете факультативно определить, что только
+первые N символов поля будут использоваться. Например, если Вы хотите
+создавать уникальный ключ на поле, в котором только первые 40 символов
+уникальны, можно сделать следующее.
+
+<P><SAMP>CREATE TABLE</SAMP> SomeTable (composite CHAR(200),
+                             INDEX comp_idx(composite(40)));
+
+<P>Хорошая идея - использовать эту опцию на неуникальных полях, поскольку
+   эта мера значительно уменьшит размер вашего индекса, а снижение
+   производительности будет очень не большим.
+
+<P>Вы можете иметь один первичный ключ на таблицу. Если поле определено, как
+поле первичного ключа, то генерируется индекс. Нет никакой необходимости
+определять нормальный ключ. Кроме того, при определении дополнительных
+индексов, которые содержат первичный ключ не будет иметь смысла, поскольку
+первичный ключ сделает индекс бесполезным.
+
+<P>Ключи с несколькими полями следует использовать для оптимизации
+узкоспецифических запросов. То есть, все поля в предложении WHERE запроса
+должны появляться в многопольном ключе.
+
+<P>Поскольку MySQL использует B-Tree не нужно объявлять ключи, которые
+являются префиксами других ключей. Оптимизатор найдет любой пригодный для
+использования префикс ключа и использует его, чтобы выполнить поиск.
+Например, если Вы объявляете следующий ключ:
+<P><SAMP>INDEX (first, second, third, fourth)</SAMP>
+
+<P>Вы также неявно создали следующие ключи:
+<P><SAMP>(first, second, third)</SAMP><BR>
+<SAMP>(first, second)</SAMP><BR>
+<SAMP>(first)</SAMP>
+
+<P>Объявление ненужных ключей только займет дополнительное место и замедлит
+ваши запросы. Ключи должны быть созданы во время создания таблицы или
+изменения таблицы с использованием команды <A HREF="sql.html#AlterTable">ALTER
+TABLE</A>.
+
+<HR WIDTH="100%">
+<CENTER><H3><A NAME="Blobs">BLOB'ы</A></H3></CENTER><P>
+BLOB - "Binary Large OBject" - двоичный большой объект.
+
+<P>Как отмечено выше, MySQL поддерживает четыре типа BLOB:
+
+<P><PRE>
+tinyblob        (0-255 байт)
+blob            (0-65535 байт)
+mediumblob      (0-16777216 байт)
+longblob        (0-2147483648 байт)
+</PRE>
+
+<P>Обратите внимание, что могут иметься некоторые ограничения из-за размера
+буфера сообщения. Буфер сообщений выделяется динамически. Вы должны знать,
+что 'max_allowed_packet' устанавливается на сервере и клиенте. По умолчанию,
+это - 64КБ для сервера и 512КБ для клиента.
+
+<P>Вы можете сменить размер буфера, запустив <SAMP>mysqld</SAMP> с опцией
+<SAMP>-O</SAMP>. Но помните, что это количество памяти будет выделяться
+каждому потоку!
+
+<P><B>ПРИМЕР:</B>
+<P><SAMP>mysqld -O max_allowed_packet=max_blob_length</SAMP>
+<P>MySQL WIN95 ODBC драйвер определяет BLOB как LONGVARCHAR.
+
+<CENTER><H3><A NAME="BBlobs">Двоичные данные в BLOBS</H3></CENTER>
+<P>Если Вы вставляете двоичные данные в BLOB, Вы не должны применять
+следующие символов:
+<P><UL><LI><CODE>\0</CODE></LI>
+<LI><CODE>\\</CODE></LI>
+<LI><CODE><CODE>'</CODE> или <CODE>"</CODE></CODE></LI></UL>
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="CIndex">CREATE INDEX</A></H2></CENTER>
+<P><B>СИНТАКСИС:</B>
+<P><UL><SAMP>CREATE [UNIQUE] INDEX index_name ON table_name
+             (column_name,... )</SAMP></UL>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>В MySQL эта команда проверит был ли данный индекс создан, когда
+создавалась таблица. Она не создает индекс. Это предусмотрено по причинам
+совместимости. Если Вы хотите добавить, ключ используйте команду
+<A HREF="sql.html#AlterTable">ALTER TABLE</A>.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Delete">DELETE</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><UL><SAMP>DELETE FROM table_name WHERE where_definition</SAMP>
+
+<P>Здесь where_definition имеет формат:<BR>
+<PRE>
+where_definition:
+  where_expr or where_expr [AND | OR] where_expr
+</PRE>
+
+where_expr имеет формат:<BR>
+<PRE>
+where_expr:
+  column_name [&gt; | &gt;= | = | &lt;&gt; | &lt;= | &lt; ]
+  column_name_or_constant or
+  column_name LIKE column_name_or_constant or
+  column_name IS NULL or column_name IS NOT NULL or (where_definition)
+</PRE></UL>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Удаляет записи из таблицы.
+
+<P><UL><LI>Возвращает количество обработанных записей.</LI>
+<LI>Если вызван DELETE без WHERE, то таблица будет очищена. В этом случае
+    DELETE вернет 0 для числа обработанных записей.</LI></UL>
+
+<P>Замечания:
+<UL><LI>Все строки сравниваются без учета регистра (ISO_8859_1). Если Вы
+        должны сделать чувствительный к регистру поиск, то используйте REGEXP
+        в предложении HAVING.</LI>
+<LI>LIKE применим на числовых столбцах.</LI>
+<LI>Сравнение с явным NULL (столбец == NULL) эквивалентно условию IS NULL,
+    то есть использованию (столбец IS NULL). Это было сделано, для
+    совместимости с mSQL.</LI></UL>
+
+<P>Вы должны иметь права доступа <I>delete</I> для удаления записей.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Desc">DESCRIBE</H2></CENTER>
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>(DESCRIBE | DESC) table [column]</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Описывает таблицу или столбец. Эта команда подобна команде
+   <A HREF="sql.html#Show">SHOW</A>. Факультативный параметр [column] может
+   быть именем столбца или строкой. Если [column] - строка, он может
+   содержать символы подстановки.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Drop">DROP</H2></A></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>DROP TABLE table_name [table_name ...]</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Удаляет (в оригинальной документации почему-то сказано, что роняет) одну
+   или несколько таблиц.
+
+<P>Если Вы хотите только удалить все данные в таблице и сохранить ее
+структуру для будущего повторного заполнения, Вы можете использовать команду
+<A HREF="sql.html#Delete">DELETE</A>.
+
+<P>ОСТЕРЕГАЙТЕСЬ! DROP TABLE полностью удалит именованную таблицу(ы) из
+вашей системы. Не предусмотрено никакого UNDO или UNERASE (если Вы не имеете
+резервной копии, конечно).
+
+<P>Вы должны иметь права доступа <I>delete</I>, чтобы использовать DROP.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="DIndex">DROP INDEX</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>DROP INDEX index_name</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+
+<P>Эта команда ничего не делает. Чтобы удалить индекс, Вы должны
+   использовать команду <A HREF="sql.html#AlterTable">ALTER TABLE</A>.
+
+<P>DROP INDEX предусмотрен по причине совместимости. Это вводит в заблуждение
+некоторые клиенты, которые думают, что получили то, что они просили. Прежде
+всего это касается тупых ODBC драйверов.
+
+<HR WIDTH="100%">
+<H2><CENTER><A NAME="Grant">GRANT</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><PRE>
+  GRANT (ALL PRIVILEGES | (SELECT, INSERT, UPDATE, DELETE, REFERENCES
+        (column list), USAGE)) ON table TO user,... [WITH GRANT OPTION]
+</PRE>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Команда GRANT ничего не делает. Она всегда возвращает истину и нужна
+прежде всего, чтобы ввести в заблуждение некоторые прикладные программы,
+которые используют ODBC и думают, что команда GRANT, которую они выдали,
+что-то сделала. Вообще, ODBC такая библиотека, что для совместимости с ней
+предусмотрена не одна функция... См. главу <A HREF="admin.html">
+Администрирование пакета</A> для получения подробностей по поводу прав
+доступа в MySQL.
+
+<HR WIDTH="100%">
+<H2><CENTER><A NAME="Select">SELECT</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><PRE>
+  SELECT [STRAIGHT_JOIN] [DISTINCT | ALL] select_expression,...
+         [FROM tables... [WHERE where_definition] [GROUP BY column,...]
+         [ORDER BY column [ASC | DESC], ...] HAVING full_where_definition
+         [LIMIT [offset,] rows] [PROCEDURE procedure_name]]
+         [INTO OUTFILE 'file_name'... ]
+</PRE>
+
+<P>Здесь where_definition:
+<P><PRE>
+  where_definition:
+    where_expr or where_expr [AND | OR] where_expr
+</PRE>
+
+where_expr имеет формат:<BR>
+<PRE>
+  where_expr:
+    column_name [&gt; | &gt;= | = | &lt;&gt; | &lt;= | &lt;]
+    column_name_or_constant or column_name LIKE column_name_or_constant or
+    column_name IS NULL or column_name IS NOT NULL or (where_definition)
+</PRE>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Оператор SELECT является краеугольным камнем всего языка SQL. Он
+   используется, чтобы выполнить запросы к базе данных. Это действительно
+   основа языка SQL. Для хорошего общего учебника о том, как работает
+   SELECT, посмотрите
+<A HREF="http://w3.one.net/~jhoffman/sqltut.htm#Basics of the SELECT Statement">
+http://w3.one.net/~jhoffman/sqltut.htm#Basics of the SELECT Statement</A>.
+
+<P>В MySQL версии меньше 3.21.x предложение WHERE очень ограничено. HAVING
+   будет работать там, где предложение WHERE ничего не делает. Некоторые
+   примеры, которые не работают в предложении WHERE - REGEXP и операторе !.
+   В основном, Вы не можете использовать функции с WHERE, но Вы можете
+   использовать функции с HAVING.
+
+<P>HAVING по существу, WHERE применительно к результатам. Он используется
+   главным образом для узкой области данных, возвращенных запросом.
+
+<P>Вы должны иметь права <I>select</I> для использования SELECT.</UL>
+
+<CENTER><H3><A NAME="Functions">Функции</A></H3></CENTER>
+<A NAME="Lfunc"></A>
+<P><SAMP>select_expression</SAMP> может содержать следующие функции и
+операторы:
+
+<P><TABLE border=1>
+<TR><TD><SAMP>+ - * /</SAMP></TD>
+<TD>Арифметические действия.</TD></TR>
+<TR><TD><SAMP>%</SAMP></TD>
+<TD>Остаток от деления (как в C)</TD></TR>
+<TR><TD><SAMP>| &amp;</SAMP></TD>
+<TD>Битовые функции (используется 48 бит).</TD></TR>
+<TR><TD><SAMP>-</SAMP></TD>
+<TD>Смена знака числа.</TD></TR>
+<TR><TD><SAMP>( )</SAMP></TD>
+<TD>Скобки.</TD></TR>
+<TR><TD><SAMP>BETWEEN(A,B,C)</SAMP></TD>
+<TD>(A >= B) AND (A <= C).</TD></TR>
+<TR><TD><SAMP>BIT_COUNT()</SAMP></TD>
+<TD>Количество бит.</TD></TR>
+<TR><TD><SAMP>ELT(N,a,b,c,d)</SAMP></TD>
+<TD>Возвращает a, если N == 1, b, если N == 2 и т. д. a,b,c,d строки.
+    <P><B>ПРИМЕР:</B>
+    <P>ELT(3,"First","Second","Third","Fourth")<BR>
+    вернет "Third".</TD></TR>
+<TR><TD><SAMP>FIELD(Z,a,b,c)</SAMP></TD>
+<TD>Возвращает a, если Z == a, b, если Z == b и т. д. a,b,c,d строки.
+    <P><B>ПРИМЕР:</B>
+    <P>FIELD("Second","First","Second","Third","Fourth")<BR>
+    вернет "Second".</TD></TR>
+<TR><TD><SAMP>IF(A,B,C)</SAMP></TD>
+<TD>Если A истина (!= 0 and != NULL), то вернет B, иначе вернет C.</TD></TR>
+<TR><TD><SAMP>IFNULL(A,B)</SAMP></TD>
+<TD>Если A не null, вернет A, иначе вернет B.</TD></TR>
+<TR><TD><SAMP>ISNULL(A)</SAMP></TD>
+<TD>Вернет 1, если A == NULL, иначе вернет 0. Эквивалент ('A == NULL').</TD>
+</TR>
+<TR><TD><SAMP>NOT !</SAMP></TD>
+<TD>NOT, вернет TRUE (1) или FALSE (0).</TD></TR>
+<TR><TD><SAMP>OR, AND</SAMP></TD>
+<TD>Вернет TRUE (1) или FALSE (0).</TD></TR>
+<TR><TD><SAMP>SIGN()</SAMP></TD>
+<TD>Вернет -1, 0 или 1 (знак аргумента).</TD></TR>
+<TR><TD><SAMP>SUM()</SAMP></TD>
+<TD>Сумма столбца.</TD></TR>
+<TR><TD><SAMP>= &lt;&gt; &lt;= &lt; &gt;= &gt;</SAMP></TD>
+<TD>Вернет TRUE (1) или FALSE (0).</TD></TR>
+<TR><TD><I>expr</I><SAMP> LIKE </SAMP><I>expr</I></TD>
+<TD>Вернет TRUE (1) или FALSE (0).</TD></TR>
+<TR><TD><I>expr</I><SAMP> NOT LIKE </SAMP><I>expr</I></TD>
+<TD>Вернет TRUE (1) или FALSE (0).</TD></TR>
+<TR><TD><I>expr</I><SAMP> REGEXP </SAMP><I>expr</I></TD>
+<TD>Проверяет строку на соответствие регулярному выражению expr.</TD></TR>
+<TR><TD><I>expr</I><SAMP> NOT REGEXP </SAMP><I>expr</I></TD>
+<TD>Проверяет строку на соответствие регулярному выражению expr.</TD></TR>
+</TABLE>
+
+<P><A NAME="Mfunc"></A>
+<P><SAMP>select_expression</SAMP> может также содержать один или большее
+количество следующих математических функций.
+
+<P><TABLE border=1>
+<TR><TD><SAMP>ABS()</SAMP></TD>
+<TD>Абсолютное значение (модуль числа).</TD></TR>
+<TR><TD><SAMP>CEILING()</SAMP></TD>
+<TD>()</TD></TR>
+<TR><TD><SAMP>EXP()</SAMP></TD>
+<TD>Экспонента.</TD></TR>
+<TR><TD><SAMP>FORMAT(nr,NUM)</SAMP></TD>
+<TD>Форматирует число в формат '#,###,###.##' с NUM десятичных цифр.</TD>
+</TR>
+<TR><TD><SAMP>LOG()</SAMP></TD>
+<TD>Логарифм.</TD></TR>
+<TR><TD><SAMP>LOG10()</SAMP></TD>
+<TD>Логарифм по основанию 10.</TD></TR>
+<TR><TD><SAMP>MIN(),MAX()</SAMP></TD>
+<TD>Минимум или максимум соответственно. Должна иметь при вызове два или
+    более аргументов, иначе рассматривается как групповая функция.</TD></TR>
+<TR><TD><SAMP>MOD()</SAMP></TD>
+<TD>Остаток от деления (аналог %).</TD></TR>
+<TR><TD><SAMP>POW()</SAMP></TD>
+<TD>Степень.</TD></TR>
+<TR><TD><SAMP>ROUND()</SAMP></TD>
+<TD>Округление до ближайшего целого числа.</TD></TR>
+<TR><TD><SAMP>RAND([integer_expr])</SAMP></TD>
+<TD>Случайное число типа float, 0 &lt;= x &lt;= 1.0, используется
+    integer_expr как значение для запуска генератора.</TD></TR>
+<TR><TD><SAMP>SQRT()</SAMP></TD>
+<TD>Квадратный корень.</TD></TR></TABLE>
+
+<A NAME="Sfunc"></A>
+<P><SAMP>select_expression</SAMP> может также содержать одну или больше
+следующих строковых функций.
+
+<P><TABLE border=1>
+<TR><TD><SAMP>CONCAT()</SAMP></TD>
+<TD>Объединение строк.</TD></TR>
+<TR><TD><SAMP>INTERVAL(A,a,b,c,d)</SAMP></TD>
+<TD>Возвращает 1, если A == a, 2, если A == b...  Если совпадений нет,
+    вернет 0. A,a,b,c,d... строки.</TD></TR>
+<TR><TD><SAMP>INSERT(org,strt,len,new)</SAMP></TD>
+<TD>Заменяет подстроку org[strt...len(gth)] на new. Первая позиция строки=1.
+</TD></TR>
+<TR><TD><SAMP>LCASE(A)</SAMP></TD>
+<TD>Приводит A к нижнему регистру.</TD></TR>
+<TR><TD><SAMP>LEFT()</SAMP></TD>
+<TD>Возвращает строку символов, отсчитывая слева.</TD></TR>
+<TR><TD><SAMP>LENGTH()</SAMP></TD>
+<TD>Длина строки.</TD></TR>
+<TR><TD><SAMP>LOCATE(A,B)</SAMP></TD>
+<TD>Позиция подстроки B в строке A.</TD></TR>
+<TR><TD><SAMP>LOCATE(A,B,C)</SAMP></TD>
+<TD>Позиция подстроки B в строке A, начиная с позиции C.</TD></TR>
+<TR><TD><SAMP>LTRIM(str)</SAMP></TD>
+<TD>Удаляет все начальные пробелы из строки str.</TD></TR>
+<TR><TD><SAMP>REPLACE(A,B,C)</SAMP></TD>
+<TD>Заменяет все подстроки B в строке A на подстроку C.</TD></TR>
+<TR><TD><SAMP>RIGHT()</SAMP></TD>
+<TD>Get string counting from right.</TD></TR>
+<TR><TD><SAMP>RTRIM(str)</SAMP></TD>
+<TD>Удаляет хвостовые пробелы из строки str.</TD></TR>
+<TR><TD><SAMP>STRCMP()</SAMP></TD>
+<TD>Возвращает 0, если строки одинаковые.</TD></TR>
+<TR><TD><SAMP>SUBSTRING(A,B,C)</SAMP></TD>
+<TD>Возвращает подстроку из A, с позиции B до позиции C.</TD></TR>
+<TR><TD><SAMP>UCASE(A)</SAMP></TD>
+<TD>Переводит A в верхний регистр.</TD></TR></TABLE>
+
+<A NAME="MSfunc">
+<P>И наконец несколько просто полезных функций, которые тоже можно
+применить в <SAMP>select_expression</SAMP>.
+
+<P><TABLE border=1>
+<TR><TD><SAMP>CURDATE()</SAMP></TD>
+<TD>Текущая дата.</TD></TR>
+<TR><TD><SAMP>DATABASE()</SAMP></TD>
+<TD>Имя текущей базы данных из которой выполняется выбор.</TD></TR>
+<TR><TD><SAMP>FROM_DAYS()</SAMP></TD>
+<TD>Меняет день на DATE.</TD></TR>
+<TR><TD><SAMP>NOW()</SAMP></TD>
+<TD>Текущее время в форматах YYYYMMDDHHMMSS или "YYYY-MM-DD HH:MM:SS". Формат
+    зависит от того в каком контексте используется NOW(): числовом или
+    строковом.</TD></TR>
+<TR><TD><SAMP>PASSWORD()</SAMP></TD>
+<TD>Шифрует строку.</TD></TR>
+<TR><TD><SAMP>PERIOD_ADD(P:N)</SAMP></TD>
+<TD>Добавить N месяцев к периоду P (в формате YYMM).</TD></TR>
+<TR><TD><SAMP>PERIOD_DIFF(A,B)</SAMP></TD>
+<TD>Возвращает месяцы между A и B. Обратите внимание, что PERIOD_DIFF
+    работает только с датами в форме YYMM или YYYMM.</TD></TR>
+<TR><TD><SAMP>TO_DAYS()</SAMP></TD>
+<TD>Меняет DATE (YYMMDD) на номер дня.</TD></TR>
+<TR><TD><SAMP>UNIX_TIMESTAMP([<I>date</I>])</SAMP></TD>
+<TD>Возвращает метку времени unix, если вызвана без <I>date</I> (секунды,
+    начиная с GMT 1970.01.01 00:00:00). При вызове со столбцом TIMESTAMP
+    вернет TIMESTAMP.
+    <P><I>date</I> может быть также строкой DATE, DATETIME или числом в
+    формате YYMMDD (или YYYMMDD).</TD></TR>
+<TR><TD><SAMP>USER()</SAMP>
+<TD>Возвращает логин текущего пользователя.</TD></TR>
+<TR><TD><SAMP>WEEKDAY()</SAMP></TD>
+<TD>Возвращает день недели (0 = понедельник, 1 = вторник, ...).</TD></TR>
+</TABLE>
+
+<A NAME="Gfunc">
+<CENTER><H3>Групповые функции в операторе select:</CENTER></H3>
+
+<P>Следующие функции могут быть использованы в предложении GROUP:
+<P><TABLE border=1>
+<TR><TD><SAMP>AVG()</SAMP></TD>
+<TD>Среднее для группы GROUP.</TD></TR>
+<TR><TD><SAMP>SUM()</SAMP></TD>
+<TD>Сумма элементов GROUP.</TD></TR>
+<TR><TD><SAMP>COUNT()</SAMP></TD>
+<TD>Число элементов в GROUP.</TD></TR>
+<TR><TD><SAMP>MIN()</SAMP></TD>
+<TD>Минимальный элемент в GROUP.</TD></TR>
+<TR><TD><SAMP>MAX()</SAMP></TD>
+<TD>Максимальный элемент в GROUP.</TD></TR></TABLE>
+
+<P>Здесь <SAMP>MIN()</SAMP> и <SAMP>MAX()</SAMP> могут принимать строку или
+число в качестве аргумента. Эти функции не могут использоваться в выражении,
+хотя их параметр может быть выражением:
+<P><B>ПРИМЕР:</B>
+&quot;<SAMP>SUM(value/10)</SAMP>&quot; нормально, но вот
+&quot;<SAMP>SUM(value)/10</SAMP>&quot; уже нет!
+
+<P><UL><LI>Строки автоматически конвертируются в числа и наоборот по мере
+необходимости (прямо как в perl).
+При использовании операторов <SAMP>= &lt;&gt; &lt;= &gt;= &lt; &gt;</SAMP>
+как в инструкции WHERE, левая сторона определяет, выполняется ли тест с
+числами или со строками. Все сравнения строк независимы от регистра
+(ISO8859-1).
+
+<P>ПРИМЕР:
+<PRE>
+  "a" &LT; "b"   ; Сравнение строк
+  "a" &LT; 0     ; Сравнение строк
+  0  &LT; "a"    ; Сравнение чисел
+  a &LT; 5       ; Если поле имеет тип CHAR, то сравниваются строки,
+                 ; иначе сравниваются числа.
+</PRE>
+
+<BR>Если надо учитывать регистр, используйте REGEXP в HAVING.</LI>
+<LI>Имя столбца не должно иметь префикса таблицы, если данное имя столбца
+уникально.</LI>
+<LI>В LIKE выражения <SAMP>%</SAMP> и <SAMP>_</SAMP> могут предваряться
+символом <SAMP>\</SAMP> для получения символьного выражения.</LI>
+<LI>DATE является строкой с одним из синтаксисов:
+<UL><LI>YYMMDD        (Год считается 2000, если YY &lt; 70)</LI>
+<LI>YYYYMMDD</LI>
+<LI>YY.MM.DD      Здесь '.' может быть любым нецифровым разделителем</LI>
+<LI>YYYY.MM.DD    Здесь '.' может быть любым нецифровым разделителем</LI>
+</LI></UL>
+<LI>IFNULL() и IF() возвращает число или строку в зависимости от ситуации,
+    в которой использованы.</LI>
+<LI><I>Order</I> и <I>group</I> столбец может быть именем столбца, его
+    псевдонимом или номером в операторе SELECT.</LI>
+<LI>HAVING может принимать в качестве аргумента любые поля или псевдонимы в
+    <SAMP>select_expression</SAMP>. Он применяется последним перед передачей
+    данных клиенту без какой-либо оптимизации. Не используйте его для
+    элементов из предложения WHERE.
+    <P><B>Замечание:</B> Вы не можете написать:<BR>
+    <SAMP>SELECT user,MAX(salary) FROM users GROUP BY users HAVING
+    max(salary)>10</SAMP><BR>
+    Вместо этого, используйте нечто вроде следующего (это хороший пример
+    использования <A HREF="sql.html#Aliases">псевдонимов столбцов</A>):<BR>
+    <SAMP>SELECT user,MAX(salary) AS sum FROM users GROUP BY users HAVING
+    sum > 10</SAMP><P></LI>
+<LI>LIMIT принимает один или два аргумента. Один аргумент задает максимальное
+    число строк в результате. В случае двух аргументов этот максимум задает
+    второй аргумент, а первый указывает смещение первой строки.</LI>
+<LI>INTO OUTFILE 'filename' пишет результаты в файл. Файл не должен
+    существовать на момент выполнения этой команды. См. раздел LOAD DATA
+    INFILE для более подробной информации. Это может быть весьма опасной
+    командой, если daemon запущен от имени root. Самое лучшее предоставить
+    право доступа <I>file</I> только когда это абсолютно необходимо.</LI>
+<LI>Вы можете использовать числовое значение в предложении ORDER BY для
+    определения столбца, который Вас интересует. ТО ЕСТЬ, если Вы желаете
+    провести сортировку второго столбца, определенного в вашем запросе
+    SELECT, следует написать "ORDER BY 2;". Это также полезно, когда Вы
+    использовали функцию в вашем SELECT.
+
+<P><B>ПРИМЕР:</B>
+<P><PRE>
+  SELECT Widget_Table.widget_id, Widget_Table.widget_name,
+         Purchase_Order_Item.widget_id, sum(Purchase_Order_Item.quantity)
+         FROM Widget_Table, Purchase_Order_Item
+         WHERE Widget_Table.widget_id = Purchase_Order_Item.widget_id
+         GROUP BY Widget_Table.widge t_name ORDER BY 4;</LI></UL>
+</PRE>
+
+<P><HR WIDTH="100%">
+<CENTER><H2><A NAME="Joins">Присоединения</A></H2></CENTER>
+<P>Свойство объединения SQL дает способность определить связи между таблицами
+и отыскивать) информацию, основанную на этих связях.
+
+<P>Связи перечисляются в предложении FROM запроса SELECT. Каждая связь
+отделяется запятой.
+
+<P><B>ПРИМЕР:</B>
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE>
+<FONT COLOR=green>$ mysql mysql</FONT><FONT COLOR=white>
+
+Welcome to the mysql monitor. Commands ends with ; or \g.
+Type 'help' for help.
+
+</FONT><FONT COLOR=green>
+mysql> SELECT db.user, db.delete_priv, user.user, user.delete_priv</FONT>
+<FONT COLOR=green>    -> FROM db,user WHERE db.user = user.user;</FONT>
+</PRE></TD></TR></TABLE>
+
+<BR>Этот запрос соединит таблицы <SAMP>db</SAMP> и <SAMP>user</SAMP>
+посредством поля <SAMP>user</SAMP>. Это распечатает что-то вроде следующего:
+
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE><FONT COLOR=white>
++------+-------------+------+-------------+
+| user | delete_priv | user | delete_priv |
++------+-------------+------+-------------+
+|mke   | N           | mke  | N           |
++------+-------------+------+-------------+
+</FONT></PRE></TD></TR></TABLE>
+
+<P>Первые два поля фактические <SAMP>db.user</SAMP> и <SAMP>db.delete_priv
+</SAMP>, последние два <SAMP>user.user</SAMP> и <SAMP>user.delete_priv</SAMP>.
+
+<P>Обратите внимание, что мы используем имена таблицы в нашем запросе, чтобы
+определить точно, с какими полями мы работаем.
+
+<P>Вы можете объединить до пятнадцати таблиц в одном объединении.
+
+<P>MySQL не будет использовать ключи, чтобы соединить таблицы посредством
+полей, которые не имеют идентичный тип. Это означает, что Вы должны всегда
+использовать те же самые типы для полей, которые предназначены, для
+использования в объединениях.
+
+<P>Псевдонимы могут также использоваться для имен столбца. См. детали в
+следующем разделе.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Aliases">Псевдонимы</A></H2></CENTER>
+<P>СУБД MySQL поддерживает концепцию псевдонимов для таблиц и полей.
+
+<P>Псевдонимы для таблиц являются стандартной частью языка SQL.
+<P><B>ПРИМЕР:</B>
+<P><SAMP>SELECT A.user,A.select_priv,A.insert_priv,A.update_priv FROM user A
+</SAMP>
+
+<P>В этом примере использован псевдоним таблицы, чтобы сократить ваш запрос,
+объявляя псевдоним, который короче имени таблицы. Вы используете псевдоним в
+первой части выбора, и определяете это в FROM, определяя реальное имя
+таблицы, пробел и псевдоним. Если Вы имеете больше чем одну таблицу, для
+которой Вы желаете создать псевдоним, просто добавьте запятую после каждой
+пары имя/псевдоним таблицы.
+
+<P> Если Вы используете псевдонимы с запросом, который будет иметь
+предложение WHERE, Вы должны использовать псевдоним в предложении WHERE
+вместо реального имени таблицы.
+
+<P>Псевдонимы для полей таблицы - специфическое для MySQL расширение.
+<P><B>ПРИМЕР:</B>
+<P><SAMP>SELECT user.user AS "User Name", user.delete_priv AS "Delete"
+         FROM user;</SAMP>
+
+<BR>Одно хорошее дело, которое делают псевдонимы поля - это то, что они
+позволяют Вам определять более дружественные метки для вашего вывода.
+Результат вышеупомянутого запроса мог бы окончательно выглядеть примерно так:
+
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE><FONT COLOR=white>
++-----------+--------+
+| User Name | Delete |
++-----------+--------+
+| root      | Y      |
+| mke       | N      |
+| dummy     | N      |
+| admin     | N      |
++-----------+--------+
+</FONT></PRE></TD></TR></TABLE>
+
+<P>Хороший совет - брать псевдонимы в кавычки, в данном примере "Delete"
+вызвало бы ошибку синтаксического анализа при применение без кавычек. (Это
+потому, что DELETE является ключевым словом SQL.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Insert">INSERT INTO</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>INSERT INTO table [(column_name, ...)] VALUES (expression,...) ||
+</SAMP><BR><SAMP>INSERT INTO table [(column_name, ...)] SELECT ..</SAMP>.
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Вставляет данные в таблицу.
+<P><UL><LI>В выражении можно использовать любое предыдущее поле в списке
+           column_name (или таблицу, если список имен столбцов не задан).
+           </LI>
+<LI>При использовании SELECT вы не можете указать ORDER BY.</LI>
+<LI>Вы можете использовать функцию C API mysql_info для получения строки:
+    <P>@result{Records: 220 Duplicates: 1 Warnings: 1}<P>
+<UL><LI>Records показывает число записей, возвращенных SELECT'ом.</LI>
+<LI>Duplicates = число строк, которые не могли быть вставлены из-за
+    дублирования ключей.</LI>
+<LI>Warnings = счетчик числа столбцов в запросе SELECT, которые равны NULL,
+    но были объявлены как NOT NULL для таблицы, в которую Вы вставляете
+    результаты. Столбцы получат значение по умолчанию (помните: в MySQL все
+    NOT NULL столбцы имеют значение по умолчанию!). Если Вы не объявляли при
+    создании таблицы это самое значение, оно будет автоматически назначено,
+    основанным на типе поля.</LI>
+<LI>Если Вы желаете вставить NULL в данное значение, Вы должны сделать это,
+    не определяя значение для поля, в которое Вы желаете вставить NULL.</LI>
+</UL></UL>
+
+<P><B>ПРИМЕР:</B>
+<P><SAMP>INSERT INTO Customer(customer_name,customer_contact)
+                VALUES("Joes Wholesale","Joe Smith")</SAMP>
+
+<P>Этот запрос создаст новую запись в таблице Customer, которая будет
+содержать автоматически сгенерированный customer_id, и значения, определенные
+в запросе. Все другие поля будут пустыми (NULL).
+
+<P>Вы также можете использовать SELECT для копирования элементов из одной
+таблицы в другую. MySQL поддерживает ограниченную форму запросов sub, для
+выполнения этой возможности.
+
+<P>Вы должны иметь права доступа <I>insert</I> для использования этой
+команды.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="LDI">LOAD DATA INFILE</A></H2></CENTER>
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>LOAD DATA INFILE syntax</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Команды, для чтения данных из текстового файла.
+
+<P><B>ПРИМЕР:</B>
+<P><SAMP>LOAD DATA INFILE 'customer.tab' [REPLACE | IGNORE]
+                   INTO TABLE Customer [fields [terminated by ','
+                   [optionally] enclosed by '"' escaped by '\\' ]]
+                   [lines terminated by '\n'] [(field list)]</SAMP>
+
+<P>Для записи в текстовый файл используйте:
+<BR><SAMP>SELECT ... INTO OUTFILE 'customer.tab' fields terminated by ','
+                     enclosed by '"' escaped by '\\' lines terminated by '\n'
+</SAMP>.
+
+<P><TABLE border=1 cellpadding=4>
+<TR><TD>"fields terminated by"</TD>
+<TD>Имеет значение по умолчанию \t.</TD></TR>
+<TR><TD>"fields [optionally] enclosed by"</TD>
+<TD>Имеет значение по умолчанию ".</TD></TR>
+<TR><TD>"fields escaped by"</TD>
+<TD>Имеет значение по умолчанию '\\'.</TD></TR>
+<TR><TD>"lines terminated by"</TD>
+<TD>Имеет значение по умолчанию '\n'.</TD></TR></TABLE>
+
+<P>"fields terminated by" и "lines terminated by" могут быть больше, чем 1
+символом.
+
+<P>Если "fields terminated by" и "fields enclosed by" являются пустыми
+строками, то размер строки будет фиксированным. То есть, будет производиться
+чтение полей одной длины.
+
+<P>С фиксированными значениями NULL для размера строки будут выводиться
+пустые строки.
+
+<P>Если указаны "optionally" в "enclosed by" и Вы не используете
+фиксированный размер строк, только строки с этим символом будут включены в
+команду SELECT ... INTO.
+
+<P>Если "escaped by" не пусто, то следующие символы будут снабжены префиксом:
+"escaped by", ASCII 0, и первый символ из "fields terminated by",
+"fields enclosed by" и "lines terminated by".
+
+<P>Если использован REPLACE, новая строка заменит все строки, которые
+имеют тот же самый уникальный ключ. Если использован IGNORE, строки будут
+пропущен, если там уже существует запись с идентичным уникальным ключом.
+Если ни один из вышеупомянутых параметров не используется, будет выдана
+ошибка, и остальная часть textfile будет игнорироваться, если найден
+дублирующий ключ.
+
+<P>Некоторые ситуации, которые не поддерживаются LOAD DATA INFILE:
+<P><UL><LI>Фиксированные размеры строк ("FIELDS TERMINATED BY" и
+           "FIELDS ENCLOSED BY" являются пустыми) и поля BLOB.</LI>
+<LI>Разделитель, являющийся префиксом другого разделителя.</LI>
+<LI>"FIELDS ESCAPED BY" пустое и данные содержат один или несколько
+    разделителей.</LI></UL>
+
+<P>Все строки читаются в таблицу. Если строка имеет слишком мало полей,
+остальная часть полей в таблице устанавливается в значения по умолчанию.
+<P>По соображениям безопасности textfile должен находиться в каталоге баз
+данных или быть читаемым всеми.
+<P>Если "FIELDS ENCLOSED BY" не пустое, то NULL читается как значение NULL.
+Если "FIELDS ESCAPED" не пустое, то \N тоже читается как значение NULL.
+Note Обратите внимание, что это БОЛЬШАЯ N, верхний регистр!
+
+<P>Когда запрос LOAD DATA выполнен, Вы можете получить следующую строку
+информации, используя функцию C API mysql_info().
+<P><SAMP>@result{Records: 1 Deleted: 0 Skiped: 0 Warnings: 0}</SAMP>
+
+<P>Переменная Warnings увеличивается с каждым столбцом, который не может
+быть сохранен без потери точности, для каждого столбца, который не получал
+значение из строки текста при чтении (это случается, если строка слишком
+короткая) и для каждой строки, которая имеет большее количество данных чем
+может вписываться в данные столбцы.
+
+<P>Вы должны иметь права доступа <I>select</I> и <I>insert</I> таблице
+<I>user</I> для использования этой команды.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="SetOption">SET OPTION</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>SET OPTION SQL_VALUE_OPTON=value, ...</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Меняет или устанавливает опции MySQL. Опции действуют только в пределах
+текущего сеанса.
+
+<P>MySQL поддерживает следующие опции (в этой версии пока одну):
+
+<P><TABLE border=1>
+<TR><TD>SQL_SELECT_LIMIT=value</TD>
+<TD>Максимальное число записей, которое возвращает SELECT. Если SELECT имеет
+    параметр LIMIT, то используется значение из этой опции.</TD></TR></TABLE>
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Update">UPDATE</A></H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>UPDATE table SET column=expression,... WHERE where_definition</SAMP>
+
+<P>Здесь where_definition:
+<P><PRE>
+
+where_definition:
+  where_expr or where_expr [AND | OR] where_expr
+
+</PRE>
+
+Здесь where where_expr имеет формат:<BR>
+
+<PRE>
+where_expr:
+  column_name [&gt; | &gt;= | = | &lt;&gt; | &lt;= | &lt; ]
+  column_name_or_constant or
+  column_name LIKE column_name_or_constant or
+  column_name IS NULL or column_name IS NOT NULL or (where_definition)
+</PRE></UL>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Обновляет одно или несколько полей в таблице MySQL.
+
+<UL><LI>Все обновления выполняются слева направо.</LI>
+
+<LI>Внутри UPDATE на одной таблице все операции атомарные. Напримерe, Вы
+можете увеличивать счетчик внутри таблицы, просто прибавляя 1 к
+соответствующей переменной.</LI></UL>
+
+<P><B>ПРИМЕРЫ:</B>
+<P><SAMP>UPDATE Widget_Table SET widgets_on_hand=widgets_on_hand - 300
+                where widget_id=3;</SAMP>
+<P>Этот запрос вычтет 300 из значения widgets_on_hand для widget = 3.
+
+<P><SAMP>DELETE FROM Purchase_Order_Item WHERE purchase_order = 456</SAMP>
+<P>Этот запрос удалит все записи из Purchase_Order_Item, которые имеют
+значение 456 для purchase_order. Обратите внимание, что вообще Вы НИКОГДА
+не должны бы удалять данные из этого сорта базы данных. Вы создаете базы
+данных, чтобы следить за информацией, и даже плохая информация могла бы стать
+полезной в некотором случае. Гораздо лучше иметь некоторый тип кода
+состояния, который Вы используете, когда данные стали недопустимыми по
+каким-либо причинам.
+
+<P>Вы также хотели бы удалять запись в Purchase_Order для purchase_order 456.
+Важно убедиться, что, когда Вы удаляете информацию, Вы избавляетесь от всех
+ссылок к этой информации. Иначе Вы закончите с разрушенной базой данных.
+
+<P>Вы должны иметь права доступа <I>update</I> для использования этой
+команды.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Show">SHOW</H2></CENTER>
+
+<P><B>СИНТАКСИС:</B>
+<P><SAMP>SHOW DATABASES [LIKE wild]<br>
+SHOW KEYS FROM table_name<BR>
+SHOW TABLES [FROM database] [LIKE wild]<br>
+SHOW [COLUMNS|FIELDS] FROM table [FROM database] [LIKE wild]</SAMP>
+
+<P><B>ОПИСАНИЕ:</B>
+<P>Отображает информацию о базе данных MySQL. "wild" эквивалент регулярному
+выражению для SQL LIKE.
+
+<P><B>ПРИМЕР:</B>
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE>
+<FONT COLOR=green>$ mysql WidgetDB</FONT><FONT COLOR=white>
+
+Welcome to the mysql monitor.  Commands ends with ; or \g.
+Type 'help' for help.
+
+<FONT COLOR=green>mysql> SHOW fields FROM Widget_Table from WidgetDB;</FONT>
+
+6 rows in set (0.34 sec)
++--------------------+--------------+------+-----+---------+----------------+
+| Field              | Type         | Null | Key | Default | Extra          |
++--------------------+--------------+------+-----+---------+----------------+
+| widget_id          | mediumint(8) |      | PRI | 0       | auto_increment |
+| widget_name        | char(60)     |      | MUL |         |                |
+| widget_color_id    | mediumint(8) |      | MUL | 0       |                |
+| widget_size_id     | mediumint(8) |      |     | 0       |                |
+| widgets_on_hand    | smallint(5)  |      |     | 0       |                |
+| widget_price       | float(8,2)   |      |     | 0.00    |                |
+| commission_percent | float(4,2)   |      |     | 0.00    |                |
++--------------------+--------------+------+-----+---------+----------------+
+
+</FONT><FONT COLOR=green>mysql></FONT>
+</PRE></TD></TR></TABLE>
+
+<P> Первые два поля довольно очевидны. <SAMP>Null</SAMP> будет содержать YES,
+если это поле может быть равным NULL, <SAMP>Key</SAMP> сообщает имеет ли это
+поле индекс, <SAMP>Default</SAMP> сообщает Вам значение по умолчанию, которое
+будет назначено этому полю, если там ничего не окажется после выполнения
+команды INSERT, <SAMP>Extra</SAMP> указывает другие атрибуты поля, такие как
+AUTO_INCREMENT, например.
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Strings">О строках</H2></CENTER>
+
+<P><UL><LI>Строка может иметь <SAMP>'</SAMP> или <SAMP>"</SAMP> в качестве
+ограничителей.</LI>
+<LI><SAMP>\</SAMP> является управляющим символом. Распознаются следующие
+    управляющие последовательности:
+<BR><TABLE border=1>
+<TR><TD><SAMP>\0</SAMP></TD>
+<TD>ASCII 0. Примечание: это - 5C 30, а не 5C 00!</TD></TR>
+<TR><TD><SAMP>\n</SAMP></TD>
+<TD>Новая строка.</TD></TR>
+<TR><TD><SAMP>\t</SAMP></TD>
+<TD>Табуляция.</TD></TR>
+<TR><TD><SAMP>\r</SAMP></TD>
+<TD>Возврат каретки.</TD></TR>
+<TR><TD><SAMP>\b</SAMP></TD>
+<TD>backspace</TD></TR>
+<TR><TD><SAMP>\'</SAMP></TD>
+<TD>'</TD></TR>
+<TR><TD><SAMP>\"</SAMP></TD>
+<TD>"</TD></TR>
+<TR><TD><SAMP>\\</SAMP></TD>
+<TD>\</TD></TR>
+<TR><TD><SAMP>\%</SAMP></TD>
+<TD>% (используется в строках с символами подстановки для поиска '%')</TD>
+</TR>
+<TR><TD><SAMP>\_</SAMP></TD>
+<TD>_ (используется в строках с символами подстановки для поиска '_')</TD>
+</TR></TABLE></LI></UL>
+
+<P>Примеры правильных строк:<BR>
+<UL type=disc><LI><SAMP>'hello'</SAMP></LI>
+<LI><SAMP>"hello"</SAMP></LI>
+<LI><SAMP>'""hello""'</SAMP></LI>
+<LI><SAMP>"'ello"</SAMP></LI>
+<LI><SAMP>"'e"l"lo"</SAMP></LI>
+<LI><SAMP>'\'hello'</SAMP></LI>
+<LI><SAMP>"This\nIs\nFour\nlines"</SAMP></LI></UL>
+
+<P>' в строке записывается как ''.
+<P>" в строке записывается как "".
+<P>Пример, чтобы прояснить ситуацию:
+
+<P><TABLE border=0 cellpadding=10 bgcolor=black><TR><TD>
+<PRE><FONT COLOR=green>
+mysql> select 'hello',"'hello'",'""hello""','''h''e''l''l''o''',"hel""lo";
+</FONT><FONT COLOR=white>
+
+1 rows in set (0.01 sec)
+
++-------+---------+-----------+-------------+--------+
+| hello | 'hello' | ""hello"" | 'h'e'l'l'o' | hel"lo |
++-------+---------+-----------+-------------+--------+
+| hello | 'hello' | ""hello"" | 'h'e'l'l'o' | hel"lo |
++-------+---------+-----------+-------------+--------+
+</FONT></PRE></TD></TR></TABLE>
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="Numbers">О числах</H2></CENTER>
+
+<P><UL><LI>Целые числа состоят из последовательности цифр.</LI>
+<LI>Плавающие числа состоят из последовательности цифр с факультативным
+    десятичным разделителем представляемым точкой ".".</LI>
+<LI>В версии 3.20.X все вычисления выполняются с числами типа doubles, что
+    приводит к тому, что большие значения типа ulonglong усекаются. В версии
+    3.21.X это исправлено.</LI></UL>
+
+<HR WIDTH="100%">
+<CENTER><H2><A NAME="ColumnNames">Имена таблиц и столбцов</H2></CENTER>
+
+<P>Вы можете использовать только набор символов ISO8859-2 (или набор символов
+который Вы определили при компиляции начальном выборе конфигурации и
+компиляции пакета), символ подчеркивания, и 0-9 в именах столбцов.
+
+<P>Дефисы, пробелы и другие специальные символы не могут использоваться,
+   поскольку они сделали бы невозможным использование таблицы или столбца в
+   операторе <A href="#Select">SELECT</A>.
+
+<P>В заключение хочется попросить Вас, если Вам понравилась эта страничка или
+пригодилась изложенная здесь информация,
+<A href="mailto:rldp@ftp.botik.ru?subject=Спасибо!&body=Спасибо за работу!">
+послать благодарность автору.</A> Это поможет мне
+вести статистику того, скольким людям пригодилось хоть что-то из моих трудов.
+
+<P><A href="sql.html">Локальное оглавление.</A>
+<P><A href="index.html">На главную страничку.</A>
+
+
+<!--htdig_noindex-->
+<br>
+
+<table><tr valign=top><td width="383">
+<iframe src="http://www.opennet.ru/adv_ibm.html" height="240" width="383" scrolling="no" name="ibm" border="0" frameborder="0" target="_blank"></iframe>
+</td><td>
+<table CELLSPACING=0 CELLPADDING=0 BORDER=1 BGCOLOR="#441144" WIDTH=100% ALIGN=center>
+<tr>
+<td ALIGN="center" VALIGN="center">
+<table align="center" width=100% border=1 cellspacing=0 cellpadding=2 bordercolor=#F8BB0B bordercolordark=#F8BB0B bordercolorlight=#FFFFFF>
+<tr>
+<td bgcolor=#FFF8E8 align=center colspan=2>
+<a href=http://www.linuxcenter.ru/?sid=nP5OTFA1 title="Дистрибутивы Linux, BSD и программы от ЛинуксЦентра">
+<font size=4 face="sans-serif" color=#5B1900>
+<b>Дистрибутивы Linux, BSD и программы от ЛинуксЦентра:</b>
+</font>
+</td>
+</tr>
+<tr>
+<td bgcolor=#FFF8E8 align=left>
+<font size=2 face="sans-serif" color=#5B1900 width=50%>		1. <a href="http://www.linuxcenter.ru/shop/gifts/znachki/znachog_ubuntu/?sid=nP5OTFA1" title="Значок Ubuntu">
+<font size=3 face="sans-serif" color=#5B1900>Значок Ubuntu - 85 руб.</font>
+</a>
+<br>
+				2. <a href="http://www.linuxcenter.ru/shop/gifts/stiker_na_sistblok_pc/?sid=nP5OTFA1" title="Объемная наклейка на системный блок (Beastie - Tux - Mandriva)">
+<font size=3 face="sans-serif" color=#5B1900>Объемная наклейка на системный блок (Beastie - Tux - Mandriva) - 100 руб.</font>
+</a>
+<br>
+				3. <a href="http://www.linuxcenter.ru/shop/gifts/znachki/Tux_emal_na_metalle/?sid=nP5OTFA1" title="Значок Tux (эмаль на металле)">
+<font size=3 face="sans-serif" color=#5B1900>Значок Tux (эмаль на металле) - 145 руб.</font>
+</a>
+<br>
+				4. <a href="http://www.linuxcenter.ru/shop/recommend/home_and_small_business/Ubuntu_Linux_7.10_i386_1CD/?sid=nP5OTFA1" title="Ubuntu Linux 7.10 для платформы x86 (1CD)">
+<font size=3 face="sans-serif" color=#5B1900>Ubuntu Linux 7.10 для платформы x86 (1CD) - 115 руб.</font>
+</a>
+<br>
+				5. <a href="http://www.linuxcenter.ru/shop/books-and-magazines/Linux-Format/jurnal_linux_format_january_2008/?sid=nP5OTFA1" title="Журнал Linux Format #1 (100/101) Январь 2008 (Ubuntu 7.10, OpenSUSE 10.3 + Архив LXF: подшивка журналов за 2005-2007 год)">
+<font size=3 face="sans-serif" color=#5B1900>Журнал Linux Format #1 (100/101) Январь 2008 (Ubuntu 7.10, OpenSUSE 10.3 + Архив LXF: подшивка журналов за 2005-2007 год) - 250 руб.</font>
+</a>
+<br>
+				6. <a href="http://www.linuxcenter.ru/shop/recommend/Mandriva_PowerPack_2008_BOX/?sid=nP5OTFA1" title="Mandriva PowerPack 2008 (BOX)">
+<font size=3 face="sans-serif" color=#5B1900>Mandriva PowerPack 2008 (BOX) - 2325 руб.</font>
+</a>
+<br>
+				7. <a href="http://www.linuxcenter.ru/shop/linux-software/office/cbornik_programmnogo_obespeceniy_openoff23_box/?sid=nP5OTFA1" title="Cборник программного обеспечения OpenOffice.org 2.3 (BOX)">
+<font size=3 face="sans-serif" color=#5B1900>Cборник программного обеспечения OpenOffice.org 2.3 (BOX) - 695 руб.</font>
+</a>
+<br>
+				8. <a href="http://www.linuxcenter.ru/shop/distros/linux-distros/OpenSUSE_10_3_x86_1DVD_1CD/?sid=nP5OTFA1" title="OpenSUSE 10.3 платформа x86 (1DVD + 1CD)">
+<font size=3 face="sans-serif" color=#5B1900>OpenSUSE 10.3 платформа x86 (1DVD + 1CD) - 350 руб.</font>
+</a>
+<br>
+				9. <a href="http://www.linuxcenter.ru/shop/gifts/Keyring/Tux_brelok/?sid=nP5OTFA1" title="Брелок Tux">
+<font size=3 face="sans-serif" color=#5B1900>Брелок Tux - 135 руб.</font>
+</a>
+<br>
+				10. <a href="http://www.linuxcenter.ru/shop/distros/linux-distros/ALT_Linux_4_0_Desktop_1DVD/?sid=nP5OTFA1" title="ALT Linux 4.0 Desktop (1DVD)">
+<font size=3 face="sans-serif" color=#5B1900>ALT Linux 4.0 Desktop (1DVD) - 300 руб.</font>
+</a>
+<br>
+		</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table></td></tr></table>
+
+<!--/htdig_noindex-->
+
+
+<!-- footer -->
+<!--htdig_noindex-->
+<br>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=1 WIDTH="100%" BGCOLOR="#B0B190">
+<TR><TD>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" VALIGN="MIDDLE">
+<TR>
+<TD WIDTH="35%" BGCOLOR="#E9EAD6" ALIGN=LEFT>
+<FONT SIZE="-1">
+&nbsp;&nbsp;<A HREF="/cgi-bin/opennet/bookmark.cgi">Закладки&nbsp;на&nbsp;сайте</A><BR>
+&nbsp;&nbsp;<A HREF="/cgi-bin/opennet/bookmark.cgi?submit=add" target="blank_">Проследить&nbsp;за&nbsp;страницей</A>
+</FONT>
+</TD>
+<TD WIDTH="65%" ALIGN=RIGHT BGCOLOR="#E9EAD6">
+<FONT SIZE="-1">Created&nbsp;1996-2008&nbsp;by&nbsp;<B><A HREF="/contact.shtml" title="email mc@tyumen.ru">Maxim&nbsp;Chirkov</A></B></FONT>&nbsp;&nbsp;<BR>
+<FONT SIZE="-1"><A HREF="http://www.opennet.ru/guestbook.shtml">Добавить</A>,&nbsp;<A HREF="http://www.opennet.ru/reklama.shtml">Реклама</A>,&nbsp;<A HREF="http://www.opennet.ru/banners2.shtml">Вебмастеру</A>,&nbsp;<A HREF="http://www.opennet.ru/cup.shtml">ЦУП</A>,&nbsp;<A HREF="http://www.opennet.ru/guide.shtml">ГИД</A></FONT>&nbsp;&nbsp;
+</TD>
+</TR>
+</TABLE>
+</TD></TR>
+</TABLE>
+
+
+<div align=right><table><tr><td>
+<a target=_blank href="http://www.runnet.ru"><img src="/img/runnet.gif" border=0 height=31 width=88 alt="RUNNet"></a>
+<a target=_blank href="http://top.list.ru/jump?from=77689"><img src="http://top.list.ru/counter?id=77689;t=75;l=1" border=0 height=31 width=38 alt="TopList"></a>
+<a target=_blank href="http://counter.rambler.ru/top100/"><img src="http://counter.rambler.ru/top100.cnt?10566" width=1 height=1 border=0><img src="/banner.gif" width=88 height=31 border=0></a>
+</td></tr></table>
+</div>
+</form>
+<!--/htdig_noindex-->
+<!-- end of footer -->
+
+</BODY>
+</HTML>
