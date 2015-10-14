@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+{% block head %}  <head>
+    <title>IHE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <meta name="subject" content="Creative collaboration" />
+    <meta name="robots" content="All" />
+    <meta name="copyright" content="Null is key" />
+    <meta name="abstract" content="Site description here" />
+    <meta name="MSSmartTagsPreventParsing" content="true" />
+    <link id="theme" rel="stylesheet" type="text/css" href="/static/style.css" title="theme" />
+    <link type="text/css" href="/static/jQuery/css/ui-lightness/jquery-ui-1.8.10.custom.css" rel="Stylesheet" />
+    <script type="text/javascript" src="/static/jQuery/js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="/static/jQuery/js/jquery-ui-1.8.10.custom.min.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+{% endblock %}
+{% block extra_js %}
+{% endblock%}
+</head>
+  <body> 
+    <!-- top wrapper -->  
+{% block topWrapper %}
+    <div id="topWrapper"> 
+      <div id="topBanner"></div> 
+    </div>  
+{% endblock %}
+{% block topnav %}
+    <div id="topnav"> 
+      <ul>
+<!-- id="current" style="border:none"-->
+        <li>
+          <a href="/" shape="rect" title="This page must help you
+to choose Google App Engine
+as the base of yours WWW project"
+	     >What is it?</a>
+        </li>
+        <li>
+          <a href="/guestbook/" shape="rect">Guestbook</a>
+        </li>
+        <li>
+          <a href="/guestbook/" shape="rect">Examples</a>
+        </li>
+        <li>
+          <a href="/nurce/" shape="rect">Services</a>
+        </li>
+        <li>
+          <a href="#" shape="rect">Terms</a>
+        </li>
+      </ul> 
+    </div>  
+{% endblock %}
+    <!-- end top wrapper -->  
+{% block wrapper %}
+    <div id="wrapper"> 
+      <div id="container"> 
+        <div id="banner" class="slideshowContainer"> 
+          <!-- put your slideshow images here -->  
+          <div class="slideshow"> 
+            <a href="http://www.flickr.com/photos/12836528@N00/1161507336" title="Facade" target="_blank" shape="rect"> 
+              <img src="http://lh6.ggpht.com/_d6vKxl1jKWk/S9XzN29FXdI/AAAAAAABDAg/3lYLjJQdX8E/facade.jpg" /> 
+            </a>  
+            <a href="http://www.flickr.com/photos/28481088@N00/2495495981" title="Twisted building" target="_blank" shape="rect"> 
+              <img src="http://lh6.ggpht.com/_d6vKxl1jKWk/S9XzOZurSSI/AAAAAAABDAk/9RRnvdbw8d0/twisted.jpg" /> 
+            </a>  
+            <a href="http://www.flickr.com/photos/51035555243@N01/43213643" title="Working late" target="_blank" shape="rect"> 
+              <img src="http://lh4.ggpht.com/_d6vKxl1jKWk/S9X8hUDF9qI/AAAAAAABDBI/nUypLbC1y8w/workinglate.jpg" /> 
+            </a> 
+          </div>  
+          <div class="slideshowLeftCorner"></div>  
+          <div class="slideshowRightCorner"></div>  
+          <div class="slideshowBottom"></div> 
+        </div>  
+{% endblock %}
+        <!--  content -->  
+{% block content %}
+        <div id="content"> 
+          <div style="margin-top:20px;"> 
+            <div class="one_fourth"> 
+              <div class="bloc rounded"> 
+                <h3>Secure</h3>  
+                <p> 
+                  <img src="static/images/security.png" style="float:right;margin:0 0 0 8px" />You'll not need else to be aware of security updates on yours server. And you'll might to forget about DDoS, XSS and SQL injection problems. Google App Engine has not this vulnerabilities.
+                </p> 
+              </div> 
+            </div>  
+            <div class="one_fourth"> 
+              <div class="bloc rounded"> 
+                <h3>Power</h3>  
+                <p> 
+                  <img src="static/images/datastore.png" style="float:right;margin:0 0 0 8px" />Large and flexible Google Datastore can satisfied all you needs in querying on any level of complexity.
+                </p> 
+              </div> 
+            </div>  
+            <div class="one_fourth"> 
+              <div class="bloc rounded"> 
+                </p> 
+                <h3>Battery included</h3>  
+                <p> 
+                  <img src="static/images/battery.png" style="float:right;margin:0 0 0 8px" /> Google Inc. lends to usage much more then may be necessary to create the real reach web application in convenient, smart and flexible wrapper.
+                </p> 
+              </div> 
+            </div>  
+            <div class="one_fourth last"> 
+              <div class="bloc rounded"> 
+                <h3>Free-of-charge</h3>  
+                <p> 
+                  <img src="static/images/payments.png" style="float:right;margin:0 0 0 8px" />All this stuff are work to you without any payments in a wide conditions!
+                </p> 
+              </div> 
+            </div>  
+            <div class="clear"></div>  
+            <div> 
+              <h1>Google Application Engine</h1>  
+              <h2><strong>This is a modern and wise decision - to collaborate whith Google.</strong>
+              </h2> 
+            </div>  
+            <div class="half"> 
+              <h3>Don't reinvent the wheel!</h3>  
+              <p>Usage already existing power, flexible and precise tools is obvious step.</p> 
+            </div>  
+            <div class="half last"> 
+              <h3>Just concentrate yours attention on the development</h3>  
+              <p>Life is short! Do what you do well.</p> 
+            </div> 
+          </div>  
+          <div class="clear"></div> 
+        </div>  
+        <!-- end content -->  
+{% endblock %}
+        <div class="clear" style="height:40px"></div> 
+      </div>  
+      <!-- end container --> 
+    </div>  
+{% block bottomWrapper %}
+    <div id="bottomWrapper"> 
+      <div id="footer"> 
+        <div class="footer-one-third"> 
+          <h2>Company</h2>  
+          <ul>
+            <li>
+              <a href="#" shape="rect">Who are we</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">What we do</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Contact</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Partners</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Links</a>
+            </li>
+          </ul> 
+        </div>  
+        <div class="footer-one-third"> 
+          <h2>Products</h2>  
+          <ul>
+            <li>
+              <a href="#" shape="rect">Products</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Services</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Clients</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Testimonials</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Links</a>
+            </li>
+          </ul> 
+        </div>  
+        <div class="footer-one-third footer-last"> 
+          <h2>Blog archives</h2>  
+          <ul>
+            <li>
+              <a href="#" shape="rect">Lorem ipsum</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Dolor sit</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Turpis egestas</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Commodo</a>
+            </li>
+            <li>
+              <a href="#" shape="rect">Eget non</a>
+            </li>
+          </ul> 
+        </div> 
+      </div>  
+      <div id="bottom-links"> 
+        <div style="padding-top:20px"> 
+          <!--
+KEEP THE FOLLOWING CODE IN RESPECT WITH COPYRIGHT OR MAKE 
+A $10 DONATION AT WWW.DOTEMPLATE.COM IF YOU WANT TO REMOVE IT 
+-->  
+          <a href="http://www.dotemplate.com" shape="rect">Web template</a> created with doTemplate<br>
+	  <a href="http://code.google.com/appengine/" title="Learn more about Google App Engine"><img src="static/images/powered_by_appengine.png" width="116" height="23" alt="Powered by Google App Engine"></a>
+        </div> 
+      </div> 
+    </div> 
+{% endblock %}
+  </body>
+</html>

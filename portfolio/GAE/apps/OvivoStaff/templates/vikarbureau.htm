@@ -1,0 +1,137 @@
+{% extends "_base.htm" %}
+{% block container %}
+    <h5>This is a category: {{ category }}</h5>
+    <h5>This is a path: {{ path }}</h5>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <!--Sidebar content-->
+	<form action="/review" class="well form-search">Input the searching term: 
+	  <input type="text" name="term" value="{{ Q_term }}" class="input-medium search-query"></br>
+	    <div class="control-group">
+	      <label class="control-label">And chose the search optons below:</label>
+	      <div class="controls">
+		<label class="radio">
+		  <input type="radio" name="search_option" id="optionsRadios2" value="in_cities" checked>
+		  In cities
+		</label>
+		<label class="radio">
+		  <input type="radio" name="search_option" id="optionsRadios1" value="in_tags">
+		  In companies tags
+		</label>
+		<label class="radio">
+		  <input type="radio" name="search_option" id="optionsRadios1" value="in_names">
+		  In companies names
+		</label>
+		<label class="radio">
+		  <input type="radio" name="search_option" id="optionsRadios1" value="in_description">
+		  In companies description
+		</label>
+		<label class="radio">
+		  <input type="radio" name="search_option" id="optionsRadios1" value="in_postalcode">
+		  In postalcodes
+		</label>
+	      </div>
+	    </div>
+	<button type="submit" class="btn-info">Search</button>
+      </form>
+    </div>
+    <div class="span9">
+      <!--Body content-->
+      {{ search_navbar }}
+      {% if companies %}
+      {% for i in companies %}
+      <dl class="dl-horizontal">
+	<dt><a href="#" rel="popover" title="{{ i.0 }}" data-content='{{ i.16 }}'>{{ i.0 }} kort<i class="icon-map-marker"></i></a></dt>
+	<dd>{% ifnotequal i.3 "http://example.com" %}<a href="{{ i.3 }}">Site</a>{% else %}Site unknown{% endifnotequal %}</dd>
+      </dl>
+      {% endfor %}
+      {% endif %}
+<!--      {% if companies %}
+    <h3>Search result:</h3>
+    <h4>There are {{ results_number }} companies matches </h4>
+    <h5>This is a category: {{ category }}</h5>
+    <h5>This is a location: {{ location }}</h5>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Company name</th> 
+      <th>Adress</th>
+      <th>Short Description</th>
+      <th>Words</th>
+      <th>Phone</th>
+      <th>Phone type</th>
+      <th>Tags</th>
+      <th>General description</th>
+      <th>Words</th>
+      <th>Headers</th>
+      <th>Paragraph</th>
+      <th>Content</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+{% for i in companies %}
+    <tr>
+      <!--<td><a href="{{ i.3 }}">{{ i.0 }}</a></td>-->
+<!--      <td>
+{% if i.6 %}
+<a href="#" rel="tooltip" title="Phones:
+{% for j in i.6 %}      
+{{ j }}
+{% endfor %}
+">
+{% endif %}{{ i.0 }}
+{% if i.6 %}</a>
+{% endif %}</td>
+      <td><a href="/review?term={{ i.15.0 }}&search_option=in_cities">{{ i.1 }}</a><a href="#" rel="popover" title="{{ i.0 }}" data-content='{{ i.16 }}'> Map <i class="icon-map-marker"></i></a></td>
+      <td>{{ i.4 }}</td>
+      <td>
+{% for j in i.5 %}      
+{{ j }}</br>
+{% endfor %}
+      </td>
+      <td>
+{% for j in i.6 %}      
+{{ j }}</br></br>
+{% endfor %}
+      </td>
+      <td>{{ i.7 }}</td>
+      <td>
+{% for j in i.8 %}      
+<a href ="/review?term={{ j }}&search_option=in_tags">{{ j }}</a></br>
+{% endfor %}
+      </td>
+      <td>{{ i.9 }}</td>
+      <td>
+{% for j in i.10 %}      
+{{ j }}</br>
+{% endfor %}
+      </td>
+      <td>
+{% for j in i.11 %}      
+{{ j }}</br>
+{% endfor %}
+      </td>
+      <td>{{ i.12 }}</td>
+      <td>
+{% for j in i.13 %}      
+{{ j }}</br>
+{% endfor %}
+      </td>
+      <td>
+{% for j in i.14 %}      
+{{ j }}</br>
+{% endfor %}
+      </td>
+    </tr>
+{% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+    </div>
+  </div> -->
+</div>
+</div>
+{% endblock %}

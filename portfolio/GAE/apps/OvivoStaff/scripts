@@ -1,0 +1,10 @@
+python2.5 ../../google_appengine/appcfg.py create_bulkloader_config --filename=bulkloader.yaml --url=http://ovivogae.appspot.com/_ah/remote_api --application=s~ovivogae
+
+python2.5 ../../google_appengine/remote_api_shell.py -s localhost:8080
+python2.5 google_appengine/remote_api_shell.py ovivogae
+
+ 525  python2.7 google_appengine/appcfg.py upload_data --config_file=apps/OvivoStaff/bulkloader.yaml --filename=krak_items_07.csv --kind=Company apps/OvivoStaff/ --url=http://localhost:8080/_ah/remote_api --application=dev~ovivogae --email=foobar@nowhere.com
+  528  python2.5 google_appengine/appcfg.py update apps/OvivoStaff/ --application=s~ovivogae
+  529  python2.5 google_appengine/appcfg.py upload_data --config_file=apps/OvivoStaff/bulkloader.yaml --filename=krak_items_07.csv --kind=Company apps/OvivoStaff/ --url=http://ovivogae.appspot.com/_ah/remote_api --application=s~ovivogae --email=a.s.kosinov@gmail.com
+  530  python2.5 google_appengine/appcfg.py update apps/OvivoStaff/ --application=s~ovivogae
+
