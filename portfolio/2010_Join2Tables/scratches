@@ -1,0 +1,8 @@
+mysql> create user 'jose'@'localhost' identified by '5t0len';
+Query OK, 0 rows affected (0.32 sec)
+mysql> grant all privileges on  join_two_tables.* to 'jose'@'localhost';
+Query OK, 0 rows affected (0.06 sec)
+create table small_table (id char(4), npanxx mediumint unsigned);
+create table Giga_T (OCN varchar(4), NPANXX varchar(10), STATE varchar(2), LATA int(3),  BUY_INTRA decimal(6,5), BUY_INTER decimal(6,5), SELL_INTRA decimal(6,5), SELL_INTER decimal(7,6));
+
+SELECT * INTO OUTFILE 'result.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM Giga_T;
