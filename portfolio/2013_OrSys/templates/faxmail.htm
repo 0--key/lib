@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>New Purchase Order</title>
+  </head>
+  <body>
+    <div align="center">
+      <h3>Purchase Order {{ poData.No }}</h3>
+      <br>
+      <h4>Hi there,</h4>
+      <h4>The details for the new Purchase Order are below.</h4>
+      <h4>Please ensure PO {{ poData.No }} is listed in your invoice.</h4>
+      <br>
+      <table border="1" cellpadding="1" cellspacing="1" width="100%"> 
+	  <thead>
+	    <tr>
+	      <th width="20" align="center">#</th>
+	      <th width="80" align="center">SKU</th>
+	      <th align="center">Product Name</th>
+	      <th width="30"align="center">Qty</th>
+	      <th width="100" align="center">Price</th>
+	      <th width="110"align="center">sT</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for i in prSet %}
+	    <tr>
+	      <td align="center"><small>{{ i.No }}</small></td>
+	      <td align="center"><small>{{ i.sku }}</small></td>
+	      <td align="center"><small>{{ i.name }}</small></td>
+	      <td align="center"><small>{{ i.qty }}</small></td>
+	      <td align="center"><small>{{ i.price }}</small></td>
+	      <td align="center"><small>{{ i.subtotal }}</small></td>
+	    </tr>
+	    {% endfor %}
+	    <tr>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td></td>
+	      <td align="center">Total</td>
+	      <td align="center"><b>{{ poData.total }}$</b></td>
+	    </tr>
+	  </tbody>
+      </table>
+      <p>
+	<i>Who should I contact about this PO?</i>
+      </p>
+      <p>
+	<i>You should contact your designated Buyer:</i>
+      </p>
+      <p>
+	<ul>
+	  <li><i>{{ poData.buyer }}</i></li>
+	  <li><i>{{ poData.email }}</i></li>
+	  <li><i>{{ poData.phoneNo }}</i></li>
+	</ul>
+      </p>
+      <p><i><b>Thanks, have a lovely day.</b></i><br>
+      </p>
+    </div>
+  </body>
+</html>
+
