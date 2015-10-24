@@ -1,0 +1,27 @@
+        # lets save the images:
+"""        if logo_url:
+            logo_name = company_name.replace('/', 'qq').encode('ascii','ignore') + '_logo.jpg'
+            lf = open(str('logo/'+logo_name), 'wb')
+            lf.write(urllib.urlopen(logo_url).read())
+            lf.close()
+        else:
+            logo_name = "Logo not exists"
+        # lets prevent company branches maps lost:
+        if self.company_counter.has_key(company_name):
+            self.company_counter.update({company_name:(self.company_counter.get(company_name)+1)})
+            map_name = company_name.replace('/', 'qq').encode('ascii','ignore') + str(self.company_counter.get(company_name)) + '_map.png'
+        else:
+            self.company_counter.update({company_name:0})
+            map_name = company_name.replace('/', 'qq').encode('ascii','ignore') + '_map.png'
+        m = open(str('maps/'+map_name), 'wb')
+        m.write(urllib.urlopen(map_link[0]).read())
+        m.close()
+        l = 0
+        images_location = []
+        for url in images_url_list:
+            image_name = company_name.replace('/', 'qq').encode('ascii','ignore') + '_decription' + str(l) + '.jpg'
+            images_location.append(image_name)
+            l = l+1
+            f = open(str('illustrations/'+image_name), 'wb')
+            f.write(urllib.urlopen(url).read())
+            f.close()"""
