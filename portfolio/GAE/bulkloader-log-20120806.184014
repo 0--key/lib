@@ -1,0 +1,304 @@
+[INFO     2012-08-06 18:40:14,017 bulkloader.py] Logging to bulkloader-log-20120806.184014
+[INFO     2012-08-06 18:40:14,018 bulkloader.py] Throttling transfers:
+[INFO     2012-08-06 18:40:14,018 bulkloader.py] Bandwidth: 250000 bytes/second
+[INFO     2012-08-06 18:40:14,018 bulkloader.py] HTTP connections: 8/second
+[INFO     2012-08-06 18:40:14,018 bulkloader.py] Entities inserted/fetched/modified: 20/second
+[INFO     2012-08-06 18:40:14,018 bulkloader.py] Batch Size: 10
+[INFO     2012-08-06 18:40:14,098 bulkloader.py] Opening database: bulkloader-progress-20120806.184014.sql3
+[DEBUG    2012-08-06 18:40:15,223 adaptive_thread_pool.py] [WorkerThread-0] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,223 adaptive_thread_pool.py] [WorkerThread-1] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,224 adaptive_thread_pool.py] [WorkerThread-2] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,224 adaptive_thread_pool.py] [WorkerThread-3] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,224 adaptive_thread_pool.py] [WorkerThread-4] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,225 adaptive_thread_pool.py] [WorkerThread-5] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,225 adaptive_thread_pool.py] [WorkerThread-6] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,226 adaptive_thread_pool.py] [WorkerThread-7] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,226 adaptive_thread_pool.py] [WorkerThread-8] WorkerThread: started
+[DEBUG    2012-08-06 18:40:15,227 bulkloader.py] Configuring remote_api. url_path = /_ah/remote_api, servername = localhost:8080
+[DEBUG    2012-08-06 18:40:15,227 adaptive_thread_pool.py] [WorkerThread-9] WorkerThread: started
+[DEBUG    2012-08-06 18:40:17,174 bulkloader.py] Bulkloader using app_id: dev~ovivogae
+[INFO     2012-08-06 18:40:17,174 bulkloader.py] Connecting to localhost:8080/_ah/remote_api
+[DEBUG    2012-08-06 18:40:17,286 bulkloader.py] [Thread-11] ProgressTrackerThread: started
+[DEBUG    2012-08-06 18:40:17,286 bulkloader.py] [Thread-12] DataSourceThread: started
+[INFO     2012-08-06 18:40:17,286 bulkloader.py] Starting import; maximum 10 entities per post
+[DEBUG    2012-08-06 18:40:17,338 adaptive_thread_pool.py] [WorkerThread-0] Got work item [1-10]
+[DEBUG    2012-08-06 18:40:17,488 bulkloader.py] [WorkerThread-0] [1-10] Transferred 10 entities in 0.1 seconds
+[DEBUG    2012-08-06 18:40:17,488 adaptive_thread_pool.py] Increasing active thread count to 2
+[DEBUG    2012-08-06 18:40:17,488 adaptive_thread_pool.py] [WorkerThread-3] Got work item [11-20]
+[DEBUG    2012-08-06 18:40:17,490 adaptive_thread_pool.py] [WorkerThread-0] Got work item [21-30]
+[DEBUG    2012-08-06 18:40:17,669 bulkloader.py] [WorkerThread-3] [11-20] Transferred 10 entities in 0.2 seconds
+[DEBUG    2012-08-06 18:40:17,670 adaptive_thread_pool.py] Increasing active thread count to 3
+[DEBUG    2012-08-06 18:40:17,670 adaptive_thread_pool.py] [WorkerThread-5] Got work item [31-40]
+[DEBUG    2012-08-06 18:40:17,671 adaptive_thread_pool.py] [WorkerThread-6] Got work item [41-50]
+[DEBUG    2012-08-06 18:40:17,748 bulkloader.py] [WorkerThread-0] [21-30] Transferred 10 entities in 0.3 seconds
+[DEBUG    2012-08-06 18:40:17,748 adaptive_thread_pool.py] Increasing active thread count to 4
+[DEBUG    2012-08-06 18:40:17,749 adaptive_thread_pool.py] [WorkerThread-0] Got work item [51-60]
+[DEBUG    2012-08-06 18:40:17,749 adaptive_thread_pool.py] [WorkerThread-7] Got work item [61-70]
+[DEBUG    2012-08-06 18:40:18,069 bulkloader.py] [WorkerThread-5] [31-40] Transferred 10 entities in 0.3 seconds
+[DEBUG    2012-08-06 18:40:18,070 adaptive_thread_pool.py] Increasing active thread count to 5
+[DEBUG    2012-08-06 18:40:18,070 adaptive_thread_pool.py] [WorkerThread-9] Got work item [71-80]
+[DEBUG    2012-08-06 18:40:18,070 adaptive_thread_pool.py] [WorkerThread-5] Got work item [81-90]
+[DEBUG    2012-08-06 18:40:18,201 bulkloader.py] [WorkerThread-7] [61-70] Transferred 10 entities in 0.4 seconds
+[DEBUG    2012-08-06 18:40:18,201 adaptive_thread_pool.py] Increasing active thread count to 6
+[DEBUG    2012-08-06 18:40:18,201 adaptive_thread_pool.py] [WorkerThread-2] Got work item [91-100]
+[DEBUG    2012-08-06 18:40:18,202 adaptive_thread_pool.py] [WorkerThread-4] Got work item [101-110]
+[DEBUG    2012-08-06 18:40:18,333 bulkloader.py] [WorkerThread-0] [51-60] Transferred 10 entities in 0.6 seconds
+[DEBUG    2012-08-06 18:40:18,334 adaptive_thread_pool.py] Increasing active thread count to 7
+[DEBUG    2012-08-06 18:40:18,334 adaptive_thread_pool.py] [WorkerThread-0] Got work item [111-120]
+[DEBUG    2012-08-06 18:40:18,334 adaptive_thread_pool.py] [WorkerThread-8] Got work item [121-130]
+[DEBUG    2012-08-06 18:40:18,454 bulkloader.py] [WorkerThread-6] [41-50] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:18,484 adaptive_thread_pool.py] Increasing active thread count to 8
+[DEBUG    2012-08-06 18:40:18,487 adaptive_thread_pool.py] [WorkerThread-6] Got work item [131-140]
+[DEBUG    2012-08-06 18:40:18,490 adaptive_thread_pool.py] [WorkerThread-7] Got work item [141-150]
+[DEBUG    2012-08-06 18:40:18,635 bulkloader.py] [WorkerThread-5] [81-90] Transferred 10 entities in 0.5 seconds
+[DEBUG    2012-08-06 18:40:18,635 adaptive_thread_pool.py] Increasing active thread count to 9
+[DEBUG    2012-08-06 18:40:18,635 adaptive_thread_pool.py] [WorkerThread-3] Got work item [151-160]
+[DEBUG    2012-08-06 18:40:18,636 adaptive_thread_pool.py] [WorkerThread-1] Got work item [161-170]
+[DEBUG    2012-08-06 18:40:18,848 bulkloader.py] [WorkerThread-9] [71-80] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:18,849 adaptive_thread_pool.py] Increasing active thread count to 10
+[DEBUG    2012-08-06 18:40:18,849 adaptive_thread_pool.py] [WorkerThread-9] Got work item [171-180]
+[DEBUG    2012-08-06 18:40:18,849 adaptive_thread_pool.py] [WorkerThread-5] Got work item [181-190]
+[DEBUG    2012-08-06 18:40:18,985 bulkloader.py] [WorkerThread-4] [101-110] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:18,985 adaptive_thread_pool.py] [WorkerThread-4] Got work item [191-200]
+[DEBUG    2012-08-06 18:40:19,080 bulkloader.py] [WorkerThread-2] [91-100] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:19,080 adaptive_thread_pool.py] [WorkerThread-2] Got work item [201-210]
+[DEBUG    2012-08-06 18:40:19,199 bulkloader.py] [WorkerThread-8] [121-130] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:19,199 adaptive_thread_pool.py] [WorkerThread-8] Got work item [211-220]
+[DEBUG    2012-08-06 18:40:19,200 bulkloader.py] [Thread-12] DataSourceThread: exiting
+[DEBUG    2012-08-06 18:40:19,217 bulkloader.py] Waiting for worker threads to finish...
+[DEBUG    2012-08-06 18:40:19,295 bulkloader.py] [WorkerThread-0] [111-120] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:19,296 adaptive_thread_pool.py] [WorkerThread-0] Got work item [221-230]
+[DEBUG    2012-08-06 18:40:19,409 bulkloader.py] [WorkerThread-7] [141-150] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:19,409 adaptive_thread_pool.py] [WorkerThread-7] Got work item [231-240]
+[DEBUG    2012-08-06 18:40:19,514 bulkloader.py] [WorkerThread-6] [131-140] Transferred 10 entities in 1.0 seconds
+[DEBUG    2012-08-06 18:40:19,515 adaptive_thread_pool.py] [WorkerThread-6] Got work item [241-250]
+[DEBUG    2012-08-06 18:40:19,608 bulkloader.py] [WorkerThread-9] [171-180] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:19,608 adaptive_thread_pool.py] [WorkerThread-9] Got work item [251-260]
+[DEBUG    2012-08-06 18:40:19,722 bulkloader.py] [WorkerThread-4] [191-200] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:19,723 adaptive_thread_pool.py] [WorkerThread-4] Got work item [261-270]
+[DEBUG    2012-08-06 18:40:19,838 bulkloader.py] [WorkerThread-2] [201-210] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:19,839 adaptive_thread_pool.py] [WorkerThread-2] Got work item [271-280]
+[DEBUG    2012-08-06 18:40:19,943 bulkloader.py] [WorkerThread-8] [211-220] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:19,944 adaptive_thread_pool.py] [WorkerThread-8] Got work item [281-290]
+[DEBUG    2012-08-06 18:40:20,063 bulkloader.py] [WorkerThread-1] [161-170] Transferred 10 entities in 1.4 seconds
+[DEBUG    2012-08-06 18:40:20,064 adaptive_thread_pool.py] [WorkerThread-1] Got work item [291-300]
+[DEBUG    2012-08-06 18:40:20,178 bulkloader.py] [WorkerThread-7] [231-240] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:20,179 adaptive_thread_pool.py] [WorkerThread-7] Got work item [301-310]
+[DEBUG    2012-08-06 18:40:20,308 bulkloader.py] [WorkerThread-0] [221-230] Transferred 10 entities in 1.0 seconds
+[DEBUG    2012-08-06 18:40:20,308 adaptive_thread_pool.py] [WorkerThread-0] Got work item [311-320]
+[DEBUG    2012-08-06 18:40:20,396 bulkloader.py] [WorkerThread-6] [241-250] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:20,396 adaptive_thread_pool.py] [WorkerThread-6] Got work item [321-330]
+[DEBUG    2012-08-06 18:40:20,491 bulkloader.py] [WorkerThread-4] [261-270] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:20,492 adaptive_thread_pool.py] [WorkerThread-4] Got work item [331-340]
+[DEBUG    2012-08-06 18:40:20,605 bulkloader.py] [WorkerThread-9] [251-260] Transferred 10 entities in 1.0 seconds
+[DEBUG    2012-08-06 18:40:20,606 adaptive_thread_pool.py] [WorkerThread-9] Got work item [341-350]
+[DEBUG    2012-08-06 18:40:20,697 bulkloader.py] [WorkerThread-2] [271-280] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:20,698 adaptive_thread_pool.py] [WorkerThread-2] Got work item [351-360]
+[DEBUG    2012-08-06 18:40:20,832 bulkloader.py] [WorkerThread-1] [291-300] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:20,833 adaptive_thread_pool.py] [WorkerThread-1] Got work item [361-370]
+[DEBUG    2012-08-06 18:40:21,057 bulkloader.py] [WorkerThread-3] [151-160] Transferred 10 entities in 2.4 seconds
+[DEBUG    2012-08-06 18:40:21,057 adaptive_thread_pool.py] [WorkerThread-3] Got work item [371-380]
+[DEBUG    2012-08-06 18:40:21,182 bulkloader.py] [WorkerThread-0] [311-320] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:21,182 adaptive_thread_pool.py] [WorkerThread-0] Got work item [381-390]
+[DEBUG    2012-08-06 18:40:21,278 bulkloader.py] [WorkerThread-6] [321-330] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:21,278 adaptive_thread_pool.py] [WorkerThread-6] Got work item [391-400]
+[DEBUG    2012-08-06 18:40:21,415 bulkloader.py] [WorkerThread-4] [331-340] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:21,415 adaptive_thread_pool.py] [WorkerThread-4] Got work item [401-410]
+[DEBUG    2012-08-06 18:40:21,528 bulkloader.py] [WorkerThread-8] [281-290] Transferred 10 entities in 1.5 seconds
+[DEBUG    2012-08-06 18:40:21,529 adaptive_thread_pool.py] [WorkerThread-8] Got work item [411-420]
+[DEBUG    2012-08-06 18:40:21,639 bulkloader.py] [WorkerThread-9] [341-350] Transferred 10 entities in 1.0 seconds
+[DEBUG    2012-08-06 18:40:21,639 adaptive_thread_pool.py] [WorkerThread-9] Got work item [421-430]
+[DEBUG    2012-08-06 18:40:21,748 bulkloader.py] [WorkerThread-1] [361-370] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:21,749 adaptive_thread_pool.py] [WorkerThread-1] Got work item [431-440]
+[DEBUG    2012-08-06 18:40:21,871 bulkloader.py] [WorkerThread-3] [371-380] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:21,872 adaptive_thread_pool.py] [WorkerThread-3] Got work item [441-450]
+[DEBUG    2012-08-06 18:40:21,960 bulkloader.py] [WorkerThread-2] [351-360] Transferred 10 entities in 1.2 seconds
+[DEBUG    2012-08-06 18:40:21,961 adaptive_thread_pool.py] [WorkerThread-2] Got work item [451-460]
+[DEBUG    2012-08-06 18:40:22,245 bulkloader.py] [WorkerThread-0] [381-390] Transferred 10 entities in 1.0 seconds
+[DEBUG    2012-08-06 18:40:22,245 adaptive_thread_pool.py] [WorkerThread-0] Got work item [461-470]
+[DEBUG    2012-08-06 18:40:22,361 bulkloader.py] [WorkerThread-4] [401-410] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:22,362 adaptive_thread_pool.py] [WorkerThread-4] Got work item [471-480]
+[DEBUG    2012-08-06 18:40:22,447 bulkloader.py] [WorkerThread-7] [301-310] Transferred 10 entities in 2.3 seconds
+[DEBUG    2012-08-06 18:40:22,448 adaptive_thread_pool.py] [WorkerThread-7] Got work item [481-490]
+[DEBUG    2012-08-06 18:40:22,553 bulkloader.py] [WorkerThread-9] [421-430] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:22,553 adaptive_thread_pool.py] [WorkerThread-9] Got work item [491-500]
+[DEBUG    2012-08-06 18:40:22,639 bulkloader.py] [WorkerThread-5] [181-190] Transferred 10 entities in 3.8 seconds
+[DEBUG    2012-08-06 18:40:22,639 adaptive_thread_pool.py] [WorkerThread-5] Got work item [501-510]
+[DEBUG    2012-08-06 18:40:22,733 bulkloader.py] [WorkerThread-1] [431-440] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:22,734 adaptive_thread_pool.py] [WorkerThread-1] Got work item [511-520]
+[DEBUG    2012-08-06 18:40:22,837 bulkloader.py] [WorkerThread-3] [441-450] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:22,838 adaptive_thread_pool.py] [WorkerThread-3] Got work item [521-530]
+[DEBUG    2012-08-06 18:40:23,015 bulkloader.py] [WorkerThread-0] [461-470] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,015 adaptive_thread_pool.py] [WorkerThread-0] Got work item [531-540]
+[DEBUG    2012-08-06 18:40:23,110 bulkloader.py] [WorkerThread-4] [471-480] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,112 adaptive_thread_pool.py] [WorkerThread-4] Got work item [541-550]
+[DEBUG    2012-08-06 18:40:23,207 bulkloader.py] [WorkerThread-7] [481-490] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,208 adaptive_thread_pool.py] [WorkerThread-7] Got work item [551-560]
+[DEBUG    2012-08-06 18:40:23,327 bulkloader.py] [WorkerThread-9] [491-500] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:23,327 adaptive_thread_pool.py] [WorkerThread-9] Got work item [561-570]
+[DEBUG    2012-08-06 18:40:23,419 bulkloader.py] [WorkerThread-5] [501-510] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,420 adaptive_thread_pool.py] [WorkerThread-5] Got work item [571-580]
+[DEBUG    2012-08-06 18:40:23,512 bulkloader.py] [WorkerThread-1] [511-520] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:23,512 adaptive_thread_pool.py] [WorkerThread-1] Got work item [581-590]
+[DEBUG    2012-08-06 18:40:23,630 bulkloader.py] [WorkerThread-3] [521-530] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:23,637 adaptive_thread_pool.py] [WorkerThread-3] Got work item [591-600]
+[DEBUG    2012-08-06 18:40:23,720 bulkloader.py] [WorkerThread-0] [531-540] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,723 adaptive_thread_pool.py] [WorkerThread-0] Got work item [601-610]
+[DEBUG    2012-08-06 18:40:23,811 bulkloader.py] [WorkerThread-4] [541-550] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,812 adaptive_thread_pool.py] [WorkerThread-4] Got work item [611-620]
+[DEBUG    2012-08-06 18:40:23,900 bulkloader.py] [WorkerThread-7] [551-560] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:23,901 adaptive_thread_pool.py] [WorkerThread-7] Got work item [621-630]
+[DEBUG    2012-08-06 18:40:24,169 bulkloader.py] [WorkerThread-6] [391-400] Transferred 10 entities in 2.9 seconds
+[DEBUG    2012-08-06 18:40:24,169 adaptive_thread_pool.py] [WorkerThread-6] Got work item [631-640]
+[DEBUG    2012-08-06 18:40:24,259 bulkloader.py] [WorkerThread-9] [561-570] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:24,259 adaptive_thread_pool.py] [WorkerThread-9] Got work item [641-650]
+[DEBUG    2012-08-06 18:40:24,350 bulkloader.py] [WorkerThread-5] [571-580] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:24,351 adaptive_thread_pool.py] [WorkerThread-5] Got work item [651-660]
+[DEBUG    2012-08-06 18:40:24,438 bulkloader.py] [WorkerThread-1] [581-590] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:24,439 adaptive_thread_pool.py] [WorkerThread-1] Got work item [661-670]
+[DEBUG    2012-08-06 18:40:24,527 bulkloader.py] [WorkerThread-0] [601-610] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:24,528 adaptive_thread_pool.py] [WorkerThread-0] Got work item [671-680]
+[DEBUG    2012-08-06 18:40:24,722 bulkloader.py] [WorkerThread-4] [611-620] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:24,722 adaptive_thread_pool.py] [WorkerThread-4] Got work item [681-690]
+[DEBUG    2012-08-06 18:40:24,812 bulkloader.py] [WorkerThread-7] [621-630] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:24,813 adaptive_thread_pool.py] [WorkerThread-7] Got work item [691-700]
+[DEBUG    2012-08-06 18:40:24,897 bulkloader.py] [WorkerThread-6] [631-640] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:24,898 adaptive_thread_pool.py] [WorkerThread-6] Got work item [701-710]
+[DEBUG    2012-08-06 18:40:25,003 bulkloader.py] [WorkerThread-9] [641-650] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,003 adaptive_thread_pool.py] [WorkerThread-9] Got work item [711-720]
+[DEBUG    2012-08-06 18:40:25,076 bulkloader.py] [WorkerThread-5] [651-660] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,082 adaptive_thread_pool.py] [WorkerThread-5] Got work item [721-730]
+[DEBUG    2012-08-06 18:40:25,202 bulkloader.py] [WorkerThread-1] [661-670] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,203 adaptive_thread_pool.py] [WorkerThread-1] Got work item [731-740]
+[DEBUG    2012-08-06 18:40:25,304 bulkloader.py] [WorkerThread-0] [671-680] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,305 adaptive_thread_pool.py] [WorkerThread-0] Got work item [741-750]
+[DEBUG    2012-08-06 18:40:25,402 bulkloader.py] [WorkerThread-4] [681-690] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,403 adaptive_thread_pool.py] [WorkerThread-4] Got work item [751-760]
+[DEBUG    2012-08-06 18:40:25,515 bulkloader.py] [WorkerThread-7] [691-700] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,515 adaptive_thread_pool.py] [WorkerThread-7] Got work item [761-770]
+[DEBUG    2012-08-06 18:40:25,625 bulkloader.py] [WorkerThread-2] [451-460] Transferred 10 entities in 3.7 seconds
+[DEBUG    2012-08-06 18:40:25,626 adaptive_thread_pool.py] [WorkerThread-2] Got work item [771-780]
+[DEBUG    2012-08-06 18:40:25,715 bulkloader.py] [WorkerThread-6] [701-710] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:25,716 adaptive_thread_pool.py] [WorkerThread-6] Got work item [781-790]
+[DEBUG    2012-08-06 18:40:25,803 bulkloader.py] [WorkerThread-9] [711-720] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:25,811 adaptive_thread_pool.py] [WorkerThread-9] Got work item [791-800]
+[DEBUG    2012-08-06 18:40:25,915 bulkloader.py] [WorkerThread-1] [731-740] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:25,915 adaptive_thread_pool.py] [WorkerThread-1] Got work item [801-810]
+[DEBUG    2012-08-06 18:40:26,020 bulkloader.py] [WorkerThread-0] [741-750] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:26,021 adaptive_thread_pool.py] [WorkerThread-0] Got work item [811-820]
+[DEBUG    2012-08-06 18:40:26,123 bulkloader.py] [WorkerThread-4] [751-760] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:26,124 adaptive_thread_pool.py] [WorkerThread-4] Got work item [821-830]
+[DEBUG    2012-08-06 18:40:26,835 bulkloader.py] [WorkerThread-8] [411-420] Transferred 10 entities in 5.3 seconds
+[DEBUG    2012-08-06 18:40:26,836 adaptive_thread_pool.py] [WorkerThread-8] Got work item [831-840]
+[DEBUG    2012-08-06 18:40:26,932 bulkloader.py] [WorkerThread-2] [771-780] Transferred 10 entities in 1.3 seconds
+[DEBUG    2012-08-06 18:40:26,932 adaptive_thread_pool.py] [WorkerThread-2] Got work item [841-850]
+[DEBUG    2012-08-06 18:40:27,028 bulkloader.py] [WorkerThread-6] [781-790] Transferred 10 entities in 1.3 seconds
+[DEBUG    2012-08-06 18:40:27,029 adaptive_thread_pool.py] [WorkerThread-6] Got work item [851-860]
+[DEBUG    2012-08-06 18:40:27,144 bulkloader.py] [WorkerThread-9] [791-800] Transferred 10 entities in 1.3 seconds
+[DEBUG    2012-08-06 18:40:27,144 adaptive_thread_pool.py] [WorkerThread-9] Got work item [861-870]
+[DEBUG    2012-08-06 18:40:27,359 bulkloader.py] [WorkerThread-1] [801-810] Transferred 10 entities in 1.4 seconds
+[DEBUG    2012-08-06 18:40:27,359 adaptive_thread_pool.py] [WorkerThread-1] Got work item [871-880]
+[DEBUG    2012-08-06 18:40:27,449 bulkloader.py] [WorkerThread-0] [811-820] Transferred 10 entities in 1.4 seconds
+[DEBUG    2012-08-06 18:40:27,449 adaptive_thread_pool.py] [WorkerThread-0] Got work item [881-890]
+[DEBUG    2012-08-06 18:40:27,539 bulkloader.py] [WorkerThread-4] [821-830] Transferred 10 entities in 1.4 seconds
+[DEBUG    2012-08-06 18:40:27,539 adaptive_thread_pool.py] [WorkerThread-4] Got work item [891-900]
+[DEBUG    2012-08-06 18:40:27,635 bulkloader.py] [WorkerThread-8] [831-840] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:27,636 adaptive_thread_pool.py] [WorkerThread-8] Got work item [901-910]
+[DEBUG    2012-08-06 18:40:27,720 bulkloader.py] [WorkerThread-7] [761-770] Transferred 10 entities in 2.2 seconds
+[DEBUG    2012-08-06 18:40:27,720 adaptive_thread_pool.py] [WorkerThread-7] Got work item [911-920]
+[DEBUG    2012-08-06 18:40:27,806 bulkloader.py] [WorkerThread-6] [851-860] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:27,807 adaptive_thread_pool.py] [WorkerThread-6] Got work item [921-930]
+[DEBUG    2012-08-06 18:40:27,896 bulkloader.py] [WorkerThread-9] [861-870] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:27,896 adaptive_thread_pool.py] [WorkerThread-9] Got work item [931-940]
+[DEBUG    2012-08-06 18:40:27,977 bulkloader.py] [WorkerThread-1] [871-880] Transferred 10 entities in 0.6 seconds
+[DEBUG    2012-08-06 18:40:27,977 adaptive_thread_pool.py] [WorkerThread-1] Got work item [941-950]
+[DEBUG    2012-08-06 18:40:28,064 bulkloader.py] [WorkerThread-0] [881-890] Transferred 10 entities in 0.6 seconds
+[DEBUG    2012-08-06 18:40:28,064 adaptive_thread_pool.py] [WorkerThread-0] Got work item [951-960]
+[DEBUG    2012-08-06 18:40:28,153 bulkloader.py] [WorkerThread-4] [891-900] Transferred 10 entities in 0.6 seconds
+[DEBUG    2012-08-06 18:40:28,164 adaptive_thread_pool.py] [WorkerThread-4] Got work item [961-970]
+[DEBUG    2012-08-06 18:40:28,330 bulkloader.py] [WorkerThread-8] [901-910] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:28,330 adaptive_thread_pool.py] [WorkerThread-8] Got work item [971-980]
+[DEBUG    2012-08-06 18:40:28,428 bulkloader.py] [WorkerThread-3] [591-600] Transferred 10 entities in 4.8 seconds
+[DEBUG    2012-08-06 18:40:28,428 adaptive_thread_pool.py] [WorkerThread-3] Got work item [981-990]
+[DEBUG    2012-08-06 18:40:28,538 bulkloader.py] [WorkerThread-6] [921-930] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:28,539 adaptive_thread_pool.py] [WorkerThread-6] Got work item [991-1000]
+[DEBUG    2012-08-06 18:40:28,648 bulkloader.py] [WorkerThread-5] [721-730] Transferred 10 entities in 3.6 seconds
+[DEBUG    2012-08-06 18:40:28,649 adaptive_thread_pool.py] [WorkerThread-5] Got work item [1001-1010]
+[DEBUG    2012-08-06 18:40:28,744 bulkloader.py] [WorkerThread-1] [941-950] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:28,745 adaptive_thread_pool.py] [WorkerThread-1] Got work item [1011-1020]
+[DEBUG    2012-08-06 18:40:28,841 bulkloader.py] [WorkerThread-0] [951-960] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:28,841 adaptive_thread_pool.py] [WorkerThread-0] Got work item [1021-1030]
+[DEBUG    2012-08-06 18:40:28,933 bulkloader.py] [WorkerThread-9] [931-940] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:28,942 adaptive_thread_pool.py] [WorkerThread-9] Got work item [1031-1040]
+[DEBUG    2012-08-06 18:40:29,036 bulkloader.py] [WorkerThread-8] [971-980] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:29,037 adaptive_thread_pool.py] [WorkerThread-8] Got work item [1041-1050]
+[DEBUG    2012-08-06 18:40:29,287 bulkloader.py] [WorkerThread-3] [981-990] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:29,288 adaptive_thread_pool.py] [WorkerThread-3] Got work item [1051-1060]
+[DEBUG    2012-08-06 18:40:29,395 bulkloader.py] [WorkerThread-6] [991-1000] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:29,395 adaptive_thread_pool.py] [WorkerThread-6] Got work item [1061-1070]
+[DEBUG    2012-08-06 18:40:29,487 bulkloader.py] [WorkerThread-5] [1001-1010] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:29,487 adaptive_thread_pool.py] [WorkerThread-5] Got work item [1071-1080]
+[DEBUG    2012-08-06 18:40:29,579 bulkloader.py] [WorkerThread-1] [1011-1020] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:29,579 adaptive_thread_pool.py] [WorkerThread-1] Got work item [1081-1090]
+[DEBUG    2012-08-06 18:40:29,672 bulkloader.py] [WorkerThread-0] [1021-1030] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:29,673 adaptive_thread_pool.py] [WorkerThread-0] Got work item [1091-1100]
+[DEBUG    2012-08-06 18:40:29,781 bulkloader.py] [WorkerThread-2] [841-850] Transferred 10 entities in 2.8 seconds
+[DEBUG    2012-08-06 18:40:29,782 adaptive_thread_pool.py] [WorkerThread-2] Got work item [1101-1110]
+[DEBUG    2012-08-06 18:40:29,879 bulkloader.py] [WorkerThread-9] [1031-1040] Transferred 10 entities in 0.9 seconds
+[DEBUG    2012-08-06 18:40:29,879 adaptive_thread_pool.py] [WorkerThread-9] Got work item [1111-1120]
+[DEBUG    2012-08-06 18:40:29,997 bulkloader.py] [WorkerThread-3] [1051-1060] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:29,997 adaptive_thread_pool.py] [WorkerThread-3] Got work item [1121-1130]
+[DEBUG    2012-08-06 18:40:30,109 bulkloader.py] [WorkerThread-6] [1061-1070] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,110 adaptive_thread_pool.py] [WorkerThread-6] Got work item [1131-1140]
+[DEBUG    2012-08-06 18:40:30,216 bulkloader.py] [WorkerThread-5] [1071-1080] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,216 adaptive_thread_pool.py] [WorkerThread-5] Got work item [1141-1150]
+[DEBUG    2012-08-06 18:40:30,325 bulkloader.py] [WorkerThread-1] [1081-1090] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,325 adaptive_thread_pool.py] [WorkerThread-1] Got work item [1151-1160]
+[DEBUG    2012-08-06 18:40:30,422 bulkloader.py] [WorkerThread-0] [1091-1100] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,423 adaptive_thread_pool.py] [WorkerThread-0] Got work item [1161-1170]
+[DEBUG    2012-08-06 18:40:30,530 bulkloader.py] [WorkerThread-2] [1101-1110] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,531 adaptive_thread_pool.py] [WorkerThread-2] Got work item [1171-1180]
+[DEBUG    2012-08-06 18:40:30,630 bulkloader.py] [WorkerThread-9] [1111-1120] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,630 adaptive_thread_pool.py] [WorkerThread-9] Got work item [1181-1190]
+[DEBUG    2012-08-06 18:40:30,727 bulkloader.py] [WorkerThread-3] [1121-1130] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,728 adaptive_thread_pool.py] [WorkerThread-3] Got work item [1191-1200]
+[DEBUG    2012-08-06 18:40:30,819 bulkloader.py] [WorkerThread-6] [1131-1140] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,820 adaptive_thread_pool.py] [WorkerThread-6] Got work item [1201-1210]
+[DEBUG    2012-08-06 18:40:30,920 bulkloader.py] [WorkerThread-5] [1141-1150] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:30,921 adaptive_thread_pool.py] [WorkerThread-5] Got work item [1211-1218]
+[DEBUG    2012-08-06 18:40:31,029 bulkloader.py] [WorkerThread-1] [1151-1160] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:31,112 bulkloader.py] [WorkerThread-0] [1161-1170] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:31,200 bulkloader.py] [WorkerThread-2] [1171-1180] Transferred 10 entities in 0.7 seconds
+[DEBUG    2012-08-06 18:40:31,285 bulkloader.py] [WorkerThread-9] [1181-1190] Transferred 10 entities in 0.6 seconds
+[DEBUG    2012-08-06 18:40:31,522 bulkloader.py] [WorkerThread-7] [911-920] Transferred 10 entities in 3.8 seconds
+[DEBUG    2012-08-06 18:40:31,612 bulkloader.py] [WorkerThread-3] [1191-1200] Transferred 10 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:31,688 bulkloader.py] [WorkerThread-5] [1211-1218] Transferred 8 entities in 0.8 seconds
+[DEBUG    2012-08-06 18:40:31,777 bulkloader.py] [WorkerThread-8] [1041-1050] Transferred 10 entities in 2.7 seconds
+[DEBUG    2012-08-06 18:40:31,862 bulkloader.py] [WorkerThread-4] [961-970] Transferred 10 entities in 3.7 seconds
+[DEBUG    2012-08-06 18:40:33,274 bulkloader.py] [WorkerThread-6] [1201-1210] Transferred 10 entities in 2.4 seconds
+[DEBUG    2012-08-06 18:40:33,300 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,302 adaptive_thread_pool.py] [WorkerThread-9] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,304 adaptive_thread_pool.py] [WorkerThread-5] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,306 adaptive_thread_pool.py] [WorkerThread-6] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,315 adaptive_thread_pool.py] [WorkerThread-2] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,328 adaptive_thread_pool.py] [WorkerThread-0] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,328 adaptive_thread_pool.py] [WorkerThread-4] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,328 adaptive_thread_pool.py] [WorkerThread-3] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,328 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,338 adaptive_thread_pool.py] [WorkerThread-7] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,343 adaptive_thread_pool.py] [WorkerThread-8] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,344 adaptive_thread_pool.py] [WorkerThread-1] WorkerThread: exiting
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,345 adaptive_thread_pool.py] Waiting for Anonymous_WorkerThread to exit
+[DEBUG    2012-08-06 18:40:33,346 bulkloader.py] Waiting for progress_thread to terminate...
+[DEBUG    2012-08-06 18:40:33,508 bulkloader.py] [Thread-11] ProgressTrackerThread: exiting
+[DEBUG    2012-08-06 18:40:33,510 bulkloader.py] ... done.
+[INFO     2012-08-06 18:40:33,510 bulkloader.py] 1218 entities total, 0 previously transferred
+[INFO     2012-08-06 18:40:33,511 bulkloader.py] 1218 entities (1108311 bytes) transferred in 19.5 seconds
+[INFO     2012-08-06 18:40:33,511 bulkloader.py] All entities successfully transferred

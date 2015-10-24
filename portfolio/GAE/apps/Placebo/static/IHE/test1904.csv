@@ -1,0 +1,63 @@
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.243;eye exam;Procedure;HCPCS;06/2009;S3000;Indicates service was with an eye care professional
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.1;Diagnostic procedures on retina, choroid, vitreous, and posterior chamber
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.2;Destruction of lesion of retina and choroid
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.3;Repair of retinal tear
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.4;Repair of retinal detachment with scleral buckling and implant
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.5;Other repair of retinal detachment
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;14.9;Other operations on retina, choroid, and posterior chamber
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.02;"Comprehensive eye examination Eye examination covering all aspects of the visual system"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.03;"Extended ophthalmologic work-up Examination (for): glaucoma neuro-ophthalmology retinal disease"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.04;"Eye examination under anesthesia
+Code also type of examination"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.11;Fundus photography
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.12;Fluorescein angiography or angioscopy of eye
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;95.16;P32 and other tracer studies of eye
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.244;eye exam;Procedure;ICD-9-CM;06/2009;V72.0;Examination of eyes and vision
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.245;eye exam;Procedure;SNOMED-CT;07/2009;134395001;diabetic retinopathy screening
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.245;eye exam;Procedure;SNOMED-CT;07/2009;390735007;retinal screening
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.245;eye exam;Procedure;SNOMED-CT;07/2009;390847009;O/E - no retinopathy
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.245;eye exam;Procedure;SNOMED-CT;07/2009;390855002;O/E - diabetic maculopathy absent both eyes
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.61;fecal occult blood test (FOBT);Laboratory test;CPT;06/2009;82270;
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.61;fecal occult blood test (FOBT);Laboratory test;CPT;06/2009;82274;
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.62;fecal occult blood test (FOBT);Laboratory test;GROUPING;n/a;2.16.840.1.113883.3.464.0001.61;"""fecal occult blood test (FOBT)"" CPT code list"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.62;fecal occult blood test (FOBT);Laboratory test;GROUPING;n/a;2.16.840.1.113883.3.464.0001.63;"""fecal occult blood test (FOBT)"" HCPCS code list"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.62;fecal occult blood test (FOBT);Laboratory test;GROUPING;n/a;2.16.840.1.113883.3.464.0001.64;"""fecal occult blood test (FOBT)"" LOINC code list"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.62;fecal occult blood test (FOBT);Laboratory test;GROUPING;n/a;2.16.840.1.113883.3.464.0001.65;"""fecal occult blood test (FOBT)"" SNOMED-CT code list"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.62;fecal occult blood test (FOBT);Laboratory test;GROUPING;n/a;2.16.840.1.113883.3.464.0001.66;"""fecal occult blood test (FOBT)"" ICD-9-CM code list"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.63;fecal occult blood test (FOBT);Laboratory test;HCPCS;06/2009;G0328;"Colorectal cancer screening; fecal occult blood test, immunoassay, 1-3 simultaneous determinations"
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.63;fecal occult blood test (FOBT);Laboratory test;HCPCS;06/2009;G0394;Maintenance for Lookback Period
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;12503-9;Hemoglobin.gastrointestinal^4th specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;12504-7;Hemoglobin.gastrointestinal^5th specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;14563-1;Hemoglobin.gastrointestinal^1st specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;14564-9;Hemoglobin.gastrointestinal^2nd specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;14565-6;Hemoglobin.gastrointestinal^3rd specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;2335-8;Hemoglobin.gastrointestinal
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;27396-1;Hemoglobin.gastrointestinal
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;27401-9;Hemoglobin.gastrointestinal^6th specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;27925-7;Hemoglobin.gastrointestinal^7th specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;27926-5;Hemoglobin.gastrointestinal^8th specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.64;fecal occult blood test (FOBT);Laboratory test;LOINC;06/2009;29771-3;Hemoglobin.gastrointestinal
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;61788003;Ward guaiac test
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;252156002;occult blood screening
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;441579003;measurement of occult blood in stool specimen using immunoassay
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;441626002;measurement of occult blood in body fluid specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;442067009;measurement of occult blood in two separate stool specimens
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;442516004;measurement of occult blood in three separate stool specimens
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;442554004;guaiac test for occult blood in feces specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;442563002;measurement of occult blood in single stool specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.65;fecal occult blood test (FOBT);Laboratory test;SNOMED-CT;07/2009;442722005;qualitative measurement of occult blood in gastric fluid specimen
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.66;fecal occult blood test (FOBT);Procedure;ICD-9-CM;06/2009;V76.51;Screening of intestine: Colon
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;105170;cefadroxil 125 MG per 5 ML Oral Suspension
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;105171;cefadroxil 500 MG per 5 ML Oral Suspension
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;197454;Cephalexin 500 MG Oral Tablet
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;197455;Cephradine 250 MG Oral Capsule
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;197456;Cephradine 500 MG Oral Capsule
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;242794;Cephradine 250 MG/ML Injectable Solution
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;250582;Cephalexin 100 MG/ML Oral Suspension
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309046;Cefadroxil 250 MG Oral Capsule
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309047;cefadroxil 1 GM Oral Tablet
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309048;Cefadroxil 50 MG/ML Oral Suspension
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309049;Cefadroxil 500 MG Oral Capsule
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309051;Cefazolin 10 MG/ML Injectable Solution
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309052;cefazolin 1 G per 50 ML ADD-Vantage Powder for Injectable Solution
+National Committee for Quality Assurance;2.16.840.1.113883.3.464.0001.246;First generation cephalosporins;Medication;RxNorm;07/2009;309053;Cefazolin 225 MG/ML Injectable Solution
