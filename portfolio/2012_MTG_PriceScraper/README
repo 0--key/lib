@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+This is a source code of blackborder.com python scraper
+=======
+installation:
+
+pip install -r requirements.txt
+
+invocation:
+
+MTGPriceScraper/MTGPriceScraper$ scrapy crawl testspider --set FEED_URI=items_01.json --set FEED_FORMAT=json
+>>>>>>> 6a3e6e44893869ce349ecdf9565e286c26f94427

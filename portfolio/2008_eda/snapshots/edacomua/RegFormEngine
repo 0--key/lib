@@ -1,0 +1,65 @@
+<script language="javascript"
+src="http://bad.oriontv.net/sms-send/sms.js"></script>
+<style>
+
+body { scrollbar-base-color: #eeeeee; scrollbar-arrow-color: #c6c6c6; }
+
+.flat { border: 2px #ffffff solid; text-align: right; }
+
+.hill { border: 1px #DBDBDB ridge; }</style>
+<form name="frmMain" method="post"
+action="http://bad.oriontv.net/sms-send/index.php">
+<table align="center" border="0" bordercolor="#ffffff"
+cellpadding="2" cellspacing="0" width="480">
+<tbody>
+<tr>
+<td colspan="3" align="right" bgcolor="#ffffff">
+<p align="center"><b><font color="#000000" face="Arial"
+size="2">Отправка SMS</font></b></p>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#ffffff"> <font face="Arial"
+size="2">Оператор : </font></td>
+<td colspan="2" bgcolor="#ffffff">
+<select name="operator" size="1"
+onchange="chan(this.selectedIndex);">
+<option value="KS(067)">KS(067)</option>
+<option value="KS,Djuice(097)">KS,Djuice(097)</option>
+<option value="KS(096)">KS(096)</option>
+<option value="UMC(050)">UMC(050)</option>
+<option value="UMC(050)">UMC(095)</option>
+<option value="GTO">Golden Telecom Odessa</option>
+<option value="GTK">Golden Telecom Kyiv</option>
+<option value="Jeans(066)">Jeans(066)</option>
+<option value="Jeans(095)">Jeans(095)</option>
+<option value="Jeans(099)">Jeans(099)</option>
+<option value="Билайн(068)">Билайн(068)</option>
+</select>
+<input class="flat" name="oper" size="7" maxlength="7"
+type="text"><input class="hill" name="cellular" maxlength="7" size="7"
+type="text"></td>
+</tr>
+<tr>
+<td align="right" bgcolor="#ffffff" valign="top"><font
+face="Arial" size="2">Сообщение :</font> </td>
+<td colspan="2" bgcolor="#ffffff"><textarea name="message"
+cols="40" onkeydown="checkSMS();" rows="4" wrap="VIRTUAL"></textarea><br>
+<input name="sleft" size="3" maxlength="3" disabled="true"
+border="0" type="text"><font face="Arial" size="2">осталось символов</font></td>
+</tr>
+<tr>
+<td align="left" bgcolor="#ffffff" valign="top"> <br>
+</td>
+<td align="left" bgcolor="#ffffff" valign="top"><input
+name="sender" value="Отправиь SMS"
+style="border-style: solid; border-width: 1px; font-family: Arial; font-size: 10px;"
+onclick="sendSMS();" type="button"></td>
+<td align="center" bgcolor="#ffffff" valign="top"> <input
+name="reseter"
+style="border-style: solid; border-width: 1px; font-family: Arial; font-size: 10px;"
+value="Очистить" type="button"></td>
+</tr>
+</tbody>
+</table>
+</form>

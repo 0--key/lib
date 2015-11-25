@@ -1,0 +1,113 @@
+/* CSS Document
+author - Petro Bondarevsky
+*/
+.body_back {
+background-image:url(../images/body_back.gif);
+background-position: top;
+background-repeat:repeat-x}
+.head_left_img{
+background-image:url(../images/head_left_img.jpg);
+background-position:left top;
+background-repeat:no-repeat}
+.head_right_img{
+background-image:url(../images/head_right_img.jpg);
+background-position:right top;
+background-repeat:no-repeat}
+.head_grad {
+background-image:url(../images/head_back.gif);
+background-position:top;
+background-repeat:repeat-x}
+.body_left_img {
+background-image: url(../images/body_left_img.jpg);
+background-position:top left;
+background-repeat: no-repeat}
+.small_white_text {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#597a43;
+}
+.phone_text {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#a73300;
+font-weight:bold
+}
+.icq {
+font-family:Tahoma,Arial, Helvetica, sans-serif;
+color:#586005;
+font-size:9px;
+text-decoration:underline
+}
+.menu_razdel {
+background-image:url(../images/menu_razdel.gif);
+background-position:bottom right;
+background-repeat:no-repeat}
+a.menu_link {
+font-family:Arial, Helvetica, sans-serif;
+color:#586005;
+text-decoration:underline;
+font-size:12px
+}
+a {
+font-family:Arial, Helvetica, sans-serif;
+color:#586005;
+text-decoration:underline;
+font-size:12px}
+h4 {
+  font-family:Tahoma, Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#586005;
+}
+h1 {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+color:#586005;
+font-size:18px;
+margin: 0px 0px 0px 0px;
+font-weight:normal
+}
+.text {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#586005
+}
+.ramka_yell {
+border: 1px solid #e8db3f;}
+.ramka_yell_3 {
+border-left: 1px solid #e8db3f;
+border-right: 1px solid #e8db3f;
+border-bottom: 1px solid #e8db3f;
+}
+.ramka_responses_title {
+border-bottom: 1px solid #e8db3f;
+}
+.ramka_responses_body {
+
+}
+h2 {
+font-family:Arial, Helvetica, sans-serif;
+color:#686e0a;
+font-size:14px;
+margin: 0px 0px 0px 0px;
+font-weight: bold
+}
+.textbox {
+border: 1px solid #e7da3e;
+background-color:#FFFFFF;
+}
+.tovar_m {
+padding: 0px 0px 5px 22px}
+h3 {
+font-family:Arial, Helvetica, sans-serif;
+color:#686e0a;
+font-size:16px;
+margin: 0px 0px 0px 0px;
+font-weight: bold;
+}
+.price {
+font-family:Arial, Helvetica, sans-serif;
+color:#d87a00;
+font-size:15px;
+margin: 0px 0px 0px 0px;
+font-weight: bold;
+}
+

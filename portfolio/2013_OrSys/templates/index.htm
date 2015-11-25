@@ -1,0 +1,666 @@
+{% extends "_base.htm" %}
+{% block container %}
+        <section class="hbox stretch">
+            <!-- .aside --> 
+            <aside class="bg-success dker aside-sm nav-vertical" id="nav">
+                <section class="vbox">
+                    <header class="bg-black nav-bar"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="#" class="nav-brand" data-toggle="fullscreen"><img src="static/img/order-sys.png" alt="Order Sys"></a> <a class="btn btn-link visible-xs" data-toggle="collapse" data-target=".navbar-collapse"> <i class="fa fa-comment-o"></i> </a> </header>
+      <section>
+        <nav class="nav-primary hidden-xs">
+          <ul class="nav">
+            <li> <a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is notification about recent orders number"><i class="fa fa-shopping-cart"></i><span class="badge up bg-danger">+6</span><span>Orders</span></a></li>
+            <li> <a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is notification about products number in the recent orders"> <i class="fa fa-leaf"></i><span>Products<span class="badge up bg-warning">+106</span> </span> </a> </li>
+	    <li> <a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is number of successfully resolved orders"> <i class="fa fa-archive"></i><span>Archive<span class="badge up bg-info">55</span></span> </a> </li>
+            <li> <a href="#"><i class="fa fa-briefcase"></i><span>Suppliers</span> </a> </li>
+          </ul>
+        </nav>
+      </section>
+                    <footer class="footer bg-gradient hidden-xs"> <a href="http://flatfull.com/themes/todo/modal.lockme.html" data-toggle="ajaxModal" class="btn btn-sm btn-link m-r-n-xs pull-right"> <i class="fa fa-power-off"></i> </a> <a href="#nav" data-toggle="class:nav-vertical" class="btn btn-sm btn-link m-l-n-sm"> <i class="fa fa-bars"></i> </a> </footer>
+                </section>
+            </aside>
+            <!-- /.aside --> <!-- .vbox --> 
+            <section id="content">
+                <section class="vbox">
+                    <header class="header bg-black navbar navbar-inverse">
+                        <div class="collapse navbar-collapse pull-in">
+                            <ul class="nav navbar-nav m-l-n">
+                                <li class="active"><a href="#">Dashboard</a></li>
+                                <li><a href="http://flatfull.com/themes/todo/pjax" data-pjax="" data-target="#pjax-container">Pjax</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a> 
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-form navbar-left m-t-sm" role="search">
+                                <div class="form-group">
+                                    <div class="input-group input-s"> <input type="text" class="form-control input-sm no-border bg-dark" placeholder="Search"> <span class="input-group-btn"> <button type="submit" class="btn btn-sm btn-success btn-icon"><i class="fa fa-search"></i></button> </span> </div>
+                                </div>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="hidden-xs">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-bell-o text-white"></i> <span class="badge up bg-info m-l-n-sm">2</span> </a> 
+                                    <section class="dropdown-menu animated fadeInUp input-s-lg">
+                                        <section class="panel bg-white">
+                                            <header class="panel-heading"> <strong>You have <span class="count-n">2</span> notifications</strong> </header>
+                                            <div class="list-group"> <a href="#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="static/photo.jpg" alt="John said" class="img-circle"> </span> <span class="media-body block m-b-none"> Use awesome animate.css<br> <small class="text-muted">28 Aug 13</small> </span> </a> <a href="#" class="media list-group-item"> <span class="media-body block m-b-none"> 1.0 initial released<br> <small class="text-muted">27 Aug 13</small> </span> </a> </div>
+                                            <footer class="panel-footer text-sm"> <a href="#" class="pull-right"><i class="fa fa-cog"></i></a> <a href="#">See all the notifications</a> </footer>
+                                        </section>
+                                    </section>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="thumb-sm avatar pull-left m-t-n-xs m-r-xs"> <img src="static/faces/{{ logo }}.jpg"> </span> {{ user }} <b class="caret"></b> </a> 
+                                    <ul class="dropdown-menu animated fadeInLeft">
+                                        <li> <a href="#">Settings</a> </li>
+                                        <li> <a href="http://flatfull.com/themes/todo/profile.html">Profile</a> </li>
+                                        <li> <a href="#"> <span class="badge bg-danger pull-right">3</span> Notifications </a> </li>
+                                        <li> <a href="http://flatfull.com/themes/todo/docs.html">Help</a> </li>
+                                        <li> <a href="/logout">Logout</a> </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </header>
+                    <section class="scrollable" id="pjax-container">
+                        <section class="hbox">
+                            <aside class="bg-white-only">
+                                <header class="bg-light">
+                                    <ul class="nav nav-tabs">
+                                        <li class="{% if active.orders %}active{% endif %}"><a href="#tab1" data-toggle="tab">Recent orders</a></li>
+					<li class="{% if active.p_agg %}active{% endif %}"><a href="#tab2" data-toggle="tab">Aggregated products</a></li>
+                                        <li class="{% if active.invoices %}active{% endif %}"><a href="#tab3" data-toggle="tab">Composed <b>PO</b></a></li>
+					<li class=""><a href="#tab4" data-toggle="tab">Sent <b>PO</b></a></li>
+                                        <li class="{% if active.hold %}active{% endif %}"><a href="#tab7" data-toggle="tab">Pail</a></li>
+                                        <li class="{% if active.suppliers %}active{% endif %}"><a href="#tab5" data-toggle="tab">Suppliers</a></li>
+                                        <li class=""><a href="#tab6" data-toggle="tab">Users</a></li>
+                                    </ul>
+                                </header>
+
+                                <div class="tab-content">
+				<!-- First tab -->
+                                    <div class="tab-pane {% if active.orders %}active{% endif %}" id="tab1">
+                                        <div class="wrapper alert alert-success">
+					  <h3>Order List</h3>
+					  <h4>Helpful hint ---> push on total price dollar sign</h4>
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th class="th-sortable" data-toggle="class">№ | Date </th>
+						  <th class="th-sortable" data-toggle="class">Customer </th>
+						  <th class="th-sortable" data-toggle="class">Total sum </th>
+						  {% if not o_t_lock %}<th class="th-sortable" data-toggle="class">Status </th>{% endif %}
+					      </tr>
+					  </thead>
+
+					  <tbody>
+					    {% for i in orders %}
+					      <tr>
+						  <td><input type="checkbox" name="post[]" value="2"></td>
+						  <td>{{ i.m_id }}<br>{{ i.time }}</td>
+						  <td>{{ i.customer }}</td>
+						  <td>
+						    <div class="panel-group m-b" id="accordion2">
+						      <div class="panel">
+							  <div class="panel-heading"> <span class="btn btn-default"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse{{ i.id }}"> <i class="fa fa-usd"></i>{{ i.t_sum }}  </a></span> </div>
+							  <div id="collapse{{ i.id }}" class="panel-collapse collapse">
+							      <div class="panel-body text-sm">
+								<table class="table table-striped m-b-none dataTable">
+								  <thead>
+								    <tr>
+								      <th width="50">SKU</th>
+								      <th>Name</th>
+								      <th width="100">Price</th>
+								      <th width="40">Qty</th>
+								     </tr>
+								    </thead>
+								    <tbody>
+								      {% for j in i.o_c %}
+								      <tr>
+									<td>{{ j.sku }}  </td>
+									<td>{{ j.p_name }}  </td>
+									<td><i class="fa fa-usd"></i>{{ j.price }}  </td>
+									<td>{{ j.qty }}  </td>
+								      </tr>
+								      {% endfor %}
+								     </tbody>
+								</table>
+							      </div>
+							  </div>
+						      </div>
+						  </div>
+						  </td>
+						  {% if not o_t_lock %}<td> <a href="toggleOrder?o_id={{ i.id }}">
+						      {% if i.pending %}<i class="fa fa-check text-success text"></i>
+						      {% else %}<i class="fa fa-times text-danger text"></i>
+						      {% endif %}</a></td>
+						  {% endif %}
+					      </tr>
+					    {% endfor %}
+					  </tbody>
+				      </table>
+				      <!-- tab bottom there -->
+				      <div class="row">
+					  <div class="col-sm-4 hidden-xs">
+					      <select class="input-sm form-control input-s-sm inline">
+						  <option value="0">Bulk action</option>
+						  <option value="1">Delete selected</option>
+						  <option value="2">Bulk edit</option>
+						  <option value="3">Export</option>
+					      </select>
+					      <button class="btn btn-sm btn-white">Apply</button> 
+					  </div>
+					  <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small> </div>
+					  <div class="col-sm-4 text-right text-center-xs">
+					      <ul class="pagination pagination-sm m-t-none m-b-none">
+						  <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+						  <li><a href="#">1</a></li>
+						  <li><a href="#">2</a></li>
+						  <li><a href="#">3</a></li>
+						  <li><a href="#">4</a></li>
+						  <li><a href="#">5</a></li>
+						  <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+					      </ul>
+					  </div>
+				      </div>
+				</div>
+				    </div>
+				<!-- second tab -->
+                                    <div class="tab-pane {% if active.p_agg %}active{% endif %}" id="tab2">
+                                        <div class="wrapper alert alert-info">
+					  <h3>{{ agg_products_qty }} products aggregated from pending orders:</h3>
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th>SKU</th>
+						  <th>Product</th>
+						  <th>Sell</th>
+						  <th>Sigma Qty</th>
+						  <th>Corrections</th>
+					      </tr>
+					  </thead>
+					  <tbody>
+					    {% for k in orders_agg %}
+					      <tr>
+						  <td><input type="checkbox" name="post[]" value="2"></td>
+						  <td>{{ k.sku }}</td>
+						  <td>
+						    {{ k.product }}
+						    <a href="graspProduct?p_id={{ k.sku }}" class="btn btn-xs btn-default btn-rounded">Grasp <i class="fa fa-hand-o-right"></i></a>
+						  </td>
+						  <td>Sell: {{ k.order_orig.0.1 }}$</td>						  
+						  <td>
+						    <div class="panel-group m-b" id="accordion2">
+						      <div class="panel">
+							  <div class="panel-heading"> <span class="label bg-primary">
+							      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse{{ k.sku }}"> <i class="fa fa-bars"></i>{{ k.sigma }}  </a></span>
+							  </div>
+							  <div id="collapse{{ k.sku }}" class="panel-collapse collapse">
+							      <div class="panel-body text-sm alert alert-success">
+								<table class="table table-striped m-b-none dataTable">
+								  <thead>
+								    <tr>
+								      <th width="70">OrderNumber</th>
+								      <th width="40">Price</th>
+								      <th width="40">Qty</th>
+								     </tr>
+								    </thead>
+								    <tbody>
+								      {% for L in k.order_orig %}
+								      <tr>
+									<td>{{ L.0 }}  </td>
+									<td>{{ L.1 }}  </td>
+									<td>{{ L.2 }}  </td>
+								      </tr>
+								      {% endfor %}
+								     </tbody>
+								</table>
+							      </div>
+							  </div>
+						      </div>
+						  </div>
+						  </td>
+						  <td>
+						    <form action="appendItem" method="post" class="form-inline">
+						    <div class="form-group">
+						      <select name="supplier">
+							{% for L in k.suppliers %}
+							<option value="{{ L.0 }}">{{ L.1 }}</option>
+							{% endfor %}
+						      </select>
+						    </div>
+						    <div class="form-group">
+						      <label>Buy$:</label><input type="text" name="price" class="form-control">
+						      <input type="hidden" name="sku" value="{{ k.sku }}">
+						      <input type="hidden" name="sigma" value="{{ k.sigma }}">
+						      <input type="hidden" name="o_oprice" value="{{ k.order_orig.0.1 }}">
+						    </div>
+						    <button type="submit" class="btn-sm btn-success"> <i class="fa fa-plus"></i> to <b>PO</b></button>
+						    </form>
+					      </tr>
+					    {% endfor %}
+					  </tbody>
+				      </table>
+				      <!-- tab bottom there -->
+				      <div class="row">
+					  <div class="col-sm-4 hidden-xs">
+					      <select class="input-sm form-control input-s-sm inline">
+						  <option value="0">Bulk action</option>
+						  <option value="1">Delete selected</option>
+						  <option value="2">Bulk edit</option>
+						  <option value="3">Export</option>
+					      </select>
+					      <button class="btn btn-sm btn-white">Apply</button> 
+					  </div>
+					  <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small> </div>
+					  <div class="col-sm-4 text-right text-center-xs">
+					      <ul class="pagination pagination-sm m-t-none m-b-none">
+						  <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+						  <li><a href="#">1</a></li>
+						  <li><a href="#">2</a></li>
+						  <li><a href="#">3</a></li>
+						  <li><a href="#">4</a></li>
+						  <li><a href="#">5</a></li>
+						  <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+					      </ul>
+					  </div>
+				      </div>
+				</div>
+				    </div>
+
+ 				<!-- Pending invoices tab   -->
+                                    <div class="tab-pane{% if active.invoices %} active{% endif %}" id="tab3">
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th class="th-sortable" data-toggle="class">№ | Date </th>
+						  <th class="th-sortable" data-toggle="class">Supplier</th>
+						  <th class="th-sortable" data-toggle="class">Invoice composition</th>
+					      </tr>
+					  </thead>
+					  <tbody>
+					    {% if pItab %}{% for m in pItab %}
+					    <tr>
+					      <td></td>
+					      <td>{{ m.i_id }}<br>{{ m.i_date }}</td>
+					      <td>
+						<div class="panel-group m-b" id="accordion4">
+						  <div class="panel">
+						    <div class="panel-heading">
+						      <span class="btn-sm btn-info">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapse_supp{{ m.s_d.id }}">
+							  <i class="fa fa-globe"></i>  {{ m.s_d.name }}</a></span>
+						    </div>
+						    <div id="collapse_supp{{ m.s_d.id }}" class="panel-collapse collapse">
+						      <div class="panel-body text-sm">
+							<strong>Address:<br></strong>
+							  {{ m.s_d.address.line1 }}<br>
+							  {{ m.s_d.address.city }}<br>
+							  {{ m.s_d.address.province }}<br>
+							  <strong>zip: </strong>{{ m.s_d.address.zip }}<br>
+							  {{ m.s_d.address.country }}<br>
+							  <strong>Contact person:</strong><br>
+							  {{ m.s_d.contact.first_name }} {{ m.s_d.contact.last_name }}<br>
+							  <i class="fa fa-circle"></i> Email: {{ m.s_d.contact.email }}<br>
+							  <i class="fa fa-heart-o"></i> Preference: {{ m.s_d.contact.preference }}<br>
+							  <i class="fa fa-phone"></i> {{ m.s_d.contact.phone }}<br>
+							  <i class="fa fa-phone-square"></i> Fax: {{ m.s_d.contact.fax }}
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					      </td>
+					      <td><!-- Invoice composition -->
+						<div class="panel-group m-b" id="accordion3">
+						      <div class="panel">
+							  <div class="panel-heading">
+							    <span class="btn-sm btn-{% if m.iErr %}warning{% else %}default{% endif %}">
+							      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapse{{ m.i_id }}">
+								<i class="fa fa-usd"></i>{{ m.sigma }}</a></span>
+							    <p align="right">
+							      <span class="btn-sm btn-warning"><a  href="sendPO?i_id={{ m.i_id }}"> <i class="fa fa-mail-forward"></i></a></span>
+							    </p>
+							  </div>
+							  <div id="collapse{{ m.i_id }}" class="panel-collapse collapse">
+							      <div class="panel-body text-sm">
+								<table class="table table-striped m-b-none dataTable">
+								  <thead>
+								    <tr>
+								      <th>Author</th>
+								      <th>Product</th>
+								      <th>SKU</th>
+								      <th>Price</th>
+								      <th>Sold</th>
+								      <th>%</th>
+								      <th>Qty</th>
+								      <th>Sigma</>
+								      <th>Appended</th>
+								     </tr>
+								    </thead>
+								    <tbody>
+								      {% for p in m.p_data %}
+								      <tr>
+									<td>{{ p.author}}</td>
+									<td>{{ p.product }}</td>
+									<td>{{ p.sku }}</td>
+									<td><i class="fa fa-usd"></i>{{ p.price }}</td>
+									<td><i class="fa fa-usd"></i>{{ p.o_oprice }}</td>
+									<td>{% if p.pErr %}<span class="label bg-warning">{% endif %}{{ p.k }}%{% if p.pErr %}</span>{% endif %}
+									</td>
+									<td>{{ p.qty }}</td>
+									<td>{{ p.sigma }}</td>
+									<td>{{ p.a_date }}
+									  <p>
+									    <form action="removeItem" method="post" class="form-inline">
+									      <input type="hidden" name="piID" value="{{ p.piID }}">
+									      <button type="submit" class="btn-xs btn-danger">Remove</button>
+									    </form>
+									  </p>
+									</td>
+								      </tr>
+								      {% endfor %}
+								    </tbody>
+								</table>
+							      </div>
+							  </div>
+						      </div>
+						  </div>
+					      </td>
+					    </tr>
+					    {% endfor %}{% endif %}
+					  </tbody>
+				      </table>
+                                    </div>
+
+ 				<!-- Sent PO -->
+                                    <div class="tab-pane" id="tab4">
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th class="th-sortable" data-toggle="class">№</th>
+						  <th class="th-sortable" data-toggle="class"> Init Date </th>
+						  <th class="th-sortable" data-toggle="class">Initiator</th>
+						  <th class="th-sortable" data-toggle="class">Supplier</th>
+						  <th class="th-sortable" data-toggle="class">Invoice composition</th>
+					      </tr>
+					  </thead>
+					  <tbody>
+					    {% if sItab %}
+					    {% for q in sItab %}
+					    <tr>
+					      <td></td>
+					      <td>
+						<h5>{{ q.i_id }}</h5>
+					      </td>
+					      <td>
+						<h5>{{ q.i_date }}</h5>
+					      </td>
+					      <td>
+						<h5>{{ q.i_author }}</h5>
+					      </td>
+					      <td>
+						<div class="panel-group m-b" id="accordion5">
+						  <div class="panel">
+						    <div class="panel-heading">
+						      <span class="btn-sm btn-info">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapse_supp{{ q.s_d.id }}">
+							  <i class="fa fa-globe"></i>  {{ q.s_d.name }}</a></span>
+						    </div>
+						    <div id="collapse_supp{{ q.s_d.id }}" class="panel-collapse collapse">
+						      <div class="panel-body text-sm">
+							<strong>Address:<br></strong>
+							  {{ q.s_d.address.line1 }}<br>
+							  {{ q.s_d.address.city }}<br>
+							  {{ q.s_d.address.province }}<br>
+							  <strong>zip: </strong>{{ q.s_d.address.zip }}<br>
+							  {{ q.s_d.address.country }}<br>
+							  <strong>Contact person:</strong><br>
+							  {{ q.s_d.contact.first_name }} {{ q.s_d.contact.last_name }}<br>
+							  <i class="fa fa-circle"></i> Email: {{ q.s_d.contact.email }}<br>
+							  <i class="fa fa-heart-o"></i> Preference: {{ q.s_d.contact.preference }}<br>
+							  <i class="fa fa-phone"></i> {{ q.s_d.contact.phone }}<br>
+							  <i class="fa fa-phone-square"></i> Fax: {{ q.s_d.contact.fax }}
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					      </td>
+					      <td><!-- Invoice composition -->
+						<div class="panel-group m-b" id="accordion6">
+						      <div class="panel">
+							    <h5>Purchase order sent by {{ q.s_author }}<br>
+							      {{ q.s_date }}
+							    </h5>
+							  <div class="panel-heading">
+							    <span class="btn-sm btn-{% if q.iErr %}warning{% else %}default{% endif %}">
+							      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapse{{ q.i_id }}">
+								<i class="fa fa-usd"></i>{{ q.sigma }}</a></span>
+							  </div>
+							  <div id="collapse{{ q.i_id }}" class="panel-collapse collapse">
+							      <div class="panel-body text-sm">
+								<table class="table table-striped m-b-none dataTable">
+								  <thead>
+								    <tr>
+								      <th>Author</th>
+								      <th>Product</th>
+								      <th>SKU</th>
+								      <th>Price</th>
+								      <th>Sold</th>
+								      <th>%</th>
+								      <th>Qty</th>
+								      <th>Sigma</>
+								      <th>Appended</th>
+								     </tr>
+								    </thead>
+								    <tbody>
+								      {% for pr in q.p_data %}
+								      <tr>
+									<td>{{ pr.author}}</td>
+									<td>{{ pr.product }}
+									  <a href="graspProduct?p_id={{ pr.sku }}" class="btn btn-xs btn-default btn-rounded">
+									    Grasp
+									    <i class="fa fa-hand-o-right"></i>
+									  </a>
+									</td>
+									<td>{{ pr.sku }}</td>
+									<td><i class="fa fa-usd"></i>{{ pr.price }}</td>
+									<td><i class="fa fa-usd"></i>{{ pr.o_oprice }}</td>
+									<td>
+									  {% if pr.pErr %}<span class="label bg-warning">{% endif %}
+									    {{ pr.k }}%
+									    {% if pr.pErr %}</span>{% endif %}
+									</td>
+									<td>{{ pr.qty }}</td>
+									<td>{{ pr.sigma }}</td>
+									<td>{{ pr.a_date }}
+									</td>
+								      </tr>
+								      {% endfor %}
+								    </tbody>
+								</table>
+							      </div>
+							  </div>
+						      </div>
+						  </div>
+					      </td>
+					    </tr>
+					    {% endfor %}{% endif %}
+					  </tbody>
+				      </table>
+                                    </div>
+
+				<!-- Suppliers tab -->
+                                    <div class="tab-pane {% if active.suppliers %}active{% endif %}" id="tab5">
+                                        <div class="wrapper alert alert-warning">
+					  <h3>Suppliers List</h3>
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th class="th-sortable" data-toggle="class">№ | Date </th>
+						  <th class="th-sortable" data-toggle="class">Author </th>
+						  <th class="th-sortable" data-toggle="class">Supplier </th>
+						  <th class="th-sortable" data-toggle="class">Contact person </th>
+						  <th></th>
+					      </tr>
+					  </thead>
+
+					  <tbody>
+					    {% for i in supp_data %}
+					      <tr>
+						  <td><input type="checkbox" name="post[]" value="2"></td>
+						  <td>{{ i.s_id }}<br>{{ i.inserted }}</td>
+						  <td>{{ i.author }}</td>
+						  <td><strong>{{ i.s_name  }}</strong><br>{{ i.address_line }}
+						    <br>{{ i.city }}<br>{{ i.province }}<br>{{ i.zip }}
+						    <br>{{ i.country }} </td>
+						  <td><strong>{{ i.first_name }} {{ i.last_name }}</strong><br>
+						    <i class="fa fa-circle"></i> Email: {{ i.email }}<br>
+						    <i class="fa fa-heart-o"></i> Preference: {{ i.preference }}<br>
+						    <i class="fa fa-phone"></i> {{ i.phone }}<br>
+						    <i class="fa fa-phone-square"></i> Fax: {{ i.fax }}
+						  </td>
+						  <td>
+						    <a href="editSupplier?s_id={{ i.s_id }}" data-toggle="ajaxModal" class="btn btn-sm btn-info">Edit</a>					  </td>
+					      </tr>
+					    {% endfor %}
+					  </tbody>
+				      </table>
+				      <!-- tab bottom there -->
+				      <div class="row">
+					<div class="col-sm-4 hidden-xs">
+					  <a href="addNewSupplier" data-toggle="ajaxModal" class="btn btn-sm btn-info">Add new supplier</a>
+					</div>
+					<div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">This is place to something interesting</small>
+					</div>
+					<div class="col-sm-4 text-right text-center-xs">
+					</div>
+				      </div>
+					</div>
+				    </div>
+
+				<!-- Pail tab -->
+                                    <div class="tab-pane {% if active.hold %}active{% endif %}" id="tab7">
+                                        <div class="wrapper alert alert-warning">
+					  <h3>Held products List</h3>
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th class="th-sortable" data-toggle="class">№ | Initial Date </th>
+						  <th class="th-sortable" data-toggle="class">Author</th>
+						  <th class="th-sortable" data-toggle="class">SKU</th>
+						  <th class="th-sortable" data-toggle="class">Name</th>
+						  <th class="th-sortable" data-toggle="class">Properties</th>
+						  <th class="th-sortable" data-toggle="class">Resolved</th>
+					      </tr>
+					  </thead>
+
+					  <tbody>
+					    {% for r in hTd %}
+					      <tr>
+						  <td>{{ r.id }}<br>{{ r.i_date }}</td>
+						  <td>{{ r.author }}</td>
+						  <td>{{ r.sku }}</td>
+						  <td>{{ r.name }}</td>
+						  <td>
+						    <div class="panel-group m-b" id="accordion7">
+						      <div class="panel">
+							  <div class="panel-heading">
+							    <span class="label bg-primary">
+							      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion7" href="#collapse_hTd{{ r.id }}">
+								<i class="fa fa-bars"></i> Aggregated by batch
+							    </a></span>
+							  </div>
+							  <div id="collapse_hTd{{ r.id }}" class="panel-collapse collapse">
+							      <div class="panel-body text-sm alert alert-success">
+								<table class="table table-striped m-b-none dataTable">
+								  <thead>
+								    <tr>
+								      <th width="70">OrderNumber</th>
+								      <th width="40">Price</th>
+								      <th width="40">Qty</th>
+								     </tr>
+								    </thead>
+								    <tbody>
+								      {% for s in r.pData %}
+								      <tr>
+									<td>{{ s.order_id }}  </td>
+									<td>{{ s.price }}  </td>
+									<td>{{ s.qty }}  </td>
+								      </tr>
+								      {% endfor %}
+								     </tbody>
+								</table>
+							      </div>
+							  </div>
+						      </div>
+						  </div>
+						  </td>
+						  <td>{% if r.r_date %}
+						    {{ r.r_date }}<br>by {{ r.resolver }}
+						    {% else %}
+						      <div class="btn-group">
+							<a href="throwProduct?p_id={{ r.id }}" class="btn btn-sm btn-primary btn-rounded"><i class="fa fa-reply"></i> Throw in</a>
+							<a href="eliminateProduct?p_id={{ r.id }}" class="btn btn-sm btn-warning btn-rounded">Annihilate <i class="fa fa-trash-o"></i></a>
+						      </div>
+						    {% endif %}
+						  </td>
+						  <!--data-toggle="ajaxModal" -->
+						  <!--td><strong>{{ r.s_name  }}</strong><br>{{ r.address_line }}
+						    <br>{{ r.city }}<br>{{ r.province }}<br>{{ r.zip }}
+						    <br>{{ r.country }} </td>
+						  <td><strong>{{ r.first_name }} {{ r.last_name }}</strong><br>
+						    <i class="fa fa-circle"></i> Email: {{ r.email }}<br>
+						    <i class="fa fa-heart-o"></i> Preference: {{ r.preference }}<br>
+						    <i class="fa fa-phone"></i> {{ r.phone }}<br>
+						    <i class="fa fa-phone-square"></i> Fax: {{ r.fax }}
+						  </td>
+						  <td>
+						    <a href="editSupplier?s_id={{ r.s_id }}" data-toggle="ajaxModal" class="btn btn-sm btn-info">Edit</a>
+						  </td-->
+					      </tr>
+					    {% endfor %}
+					  </tbody>
+				      </table>
+				      <!-- tab bottom there -->
+				      <div class="row">
+					<div class="col-sm-4 hidden-xs">
+					  <!--a href="addNewSupplier" data-toggle="ajaxModal" class="btn btn-sm btn-info">Add new supplier</a-->
+					</div>
+					<div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">This is place to something interesting</small>
+					</div>
+					<div class="col-sm-4 text-right text-center-xs">
+					</div>
+				      </div>
+					</div>
+				    </div>
+
+
+ 				<!-- Users tab -->
+                                    <div class="tab-pane" id="tab6">
+					  <table class="table table-striped b-t text-sm">
+					    <thead>
+					      <tr>
+						  <th width="20"><input type="checkbox"></th>
+						  <th class="th-sortable" data-toggle="class">№ | Date </th>
+						  <th class="th-sortable" data-toggle="class">Supplier</th>
+						  <th class="th-sortable" data-toggle="class">Invoice composition</th>
+					      </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td></td>
+					    </tr>
+					  </tbody>
+				      </table>
+                                    </div>
+
+{% endblock %}

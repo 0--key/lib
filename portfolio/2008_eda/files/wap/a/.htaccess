@@ -1,0 +1,4 @@
+#AddHandler x-httpd-php5all .php .inc .php5 .wml
+#Options -Indexes
+DirectoryIndex index_new.wml
+#AddHandler x-httpd-php5all .php .inc .php5 .wml

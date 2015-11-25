@@ -1,0 +1,682 @@
+antony@anton-ThinkPad:~/Desktop/projects/OrSys/orsys$ mysql -h 103.1.217.37 -u fastfres_ordsys -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6654791
+Server version: 5.5.35-33.0 Percona Server (GPL), Release rel33.0, Revision 611
+
+Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show tables in fastfres_magento;
++---------------------------------------------+
+| Tables_in_fastfres_magento                  |
++---------------------------------------------+
+| admin_assert                                |
+| admin_role                                  |
+| admin_rule                                  |
+| admin_user                                  |
+| adminnotification_inbox                     |
+| api2_acl_attribute                          |
+| api2_acl_role                               |
+| api2_acl_rule                               |
+| api2_acl_user                               |
+| api_assert                                  |
+| api_role                                    |
+| api_rule                                    |
+| api_session                                 |
+| api_user                                    |
+| au_postcode                                 |
+| australia_eparcel                           |
+| captcha_log                                 |
+| catalog_category_anc_categs_index_idx       |
+| catalog_category_anc_categs_index_tmp       |
+| catalog_category_anc_products_index_idx     |
+| catalog_category_anc_products_index_tmp     |
+| catalog_category_entity                     |
+| catalog_category_entity_datetime            |
+| catalog_category_entity_decimal             |
+| catalog_category_entity_int                 |
+| catalog_category_entity_text                |
+| catalog_category_entity_varchar             |
+| catalog_category_flat_store_1               |
+| catalog_category_product                    |
+| catalog_category_product_index              |
+| catalog_category_product_index_enbl_idx     |
+| catalog_category_product_index_enbl_tmp     |
+| catalog_category_product_index_idx          |
+| catalog_category_product_index_tmp          |
+| catalog_compare_item                        |
+| catalog_eav_attribute                       |
+| catalog_product_bundle_option               |
+| catalog_product_bundle_option_value         |
+| catalog_product_bundle_price_index          |
+| catalog_product_bundle_selection            |
+| catalog_product_bundle_selection_price      |
+| catalog_product_bundle_stock_index          |
+| catalog_product_enabled_index               |
+| catalog_product_entity                      |
+| catalog_product_entity_datetime             |
+| catalog_product_entity_decimal              |
+| catalog_product_entity_gallery              |
+| catalog_product_entity_group_price          |
+| catalog_product_entity_group_rrp            |
+| catalog_product_entity_int                  |
+| catalog_product_entity_media_gallery        |
+| catalog_product_entity_media_gallery_value  |
+| catalog_product_entity_text                 |
+| catalog_product_entity_tier_price           |
+| catalog_product_entity_varchar              |
+| catalog_product_flat_1                      |
+| catalog_product_index_eav                   |
+| catalog_product_index_eav_decimal           |
+| catalog_product_index_eav_decimal_idx       |
+| catalog_product_index_eav_decimal_tmp       |
+| catalog_product_index_eav_idx               |
+| catalog_product_index_eav_tmp               |
+| catalog_product_index_group_price           |
+| catalog_product_index_price                 |
+| catalog_product_index_price_bundle_idx      |
+| catalog_product_index_price_bundle_opt_idx  |
+| catalog_product_index_price_bundle_opt_tmp  |
+| catalog_product_index_price_bundle_sel_idx  |
+| catalog_product_index_price_bundle_sel_tmp  |
+| catalog_product_index_price_bundle_tmp      |
+| catalog_product_index_price_cfg_opt_agr_idx |
+| catalog_product_index_price_cfg_opt_agr_tmp |
+| catalog_product_index_price_cfg_opt_idx     |
+| catalog_product_index_price_cfg_opt_tmp     |
+| catalog_product_index_price_downlod_idx     |
+| catalog_product_index_price_downlod_tmp     |
+| catalog_product_index_price_final_idx       |
+| catalog_product_index_price_final_tmp       |
+| catalog_product_index_price_idx             |
+| catalog_product_index_price_opt_agr_idx     |
+| catalog_product_index_price_opt_agr_tmp     |
+| catalog_product_index_price_opt_idx         |
+| catalog_product_index_price_opt_tmp         |
+| catalog_product_index_price_tmp             |
+| catalog_product_index_tier_price            |
+| catalog_product_index_website               |
+| catalog_product_link                        |
+| catalog_product_link_attribute              |
+| catalog_product_link_attribute_decimal      |
+| catalog_product_link_attribute_int          |
+| catalog_product_link_attribute_varchar      |
+| catalog_product_link_type                   |
+| catalog_product_option                      |
+| catalog_product_option_price                |
+| catalog_product_option_title                |
+| catalog_product_option_type_price           |
+| catalog_product_option_type_title           |
+| catalog_product_option_type_value           |
+| catalog_product_relation                    |
+| catalog_product_super_attribute             |
+| catalog_product_super_attribute_label       |
+| catalog_product_super_attribute_pricing     |
+| catalog_product_super_link                  |
+| catalog_product_website                     |
+| cataloginventory_stock                      |
+| cataloginventory_stock_item                 |
+| cataloginventory_stock_status               |
+| cataloginventory_stock_status_idx           |
+| cataloginventory_stock_status_tmp           |
+| catalogrule                                 |
+| catalogrule_affected_product                |
+| catalogrule_customer_group                  |
+| catalogrule_group_website                   |
+| catalogrule_product                         |
+| catalogrule_product_price                   |
+| catalogrule_website                         |
+| catalogsearch_fulltext                      |
+| catalogsearch_query                         |
+| catalogsearch_result                        |
+| checkout_agreement                          |
+| checkout_agreement_store                    |
+| cms_block                                   |
+| cms_block_store                             |
+| cms_page                                    |
+| cms_page_store                              |
+| core_cache                                  |
+| core_cache_option                           |
+| core_cache_tag                              |
+| core_config_data                            |
+| core_email_template                         |
+| core_flag                                   |
+| core_layout_link                            |
+| core_layout_update                          |
+| core_resource                               |
+| core_session                                |
+| core_store                                  |
+| core_store_group                            |
+| core_translate                              |
+| core_url_rewrite                            |
+| core_variable                               |
+| core_variable_value                         |
+| core_website                                |
+| coupon_aggregated                           |
+| coupon_aggregated_order                     |
+| coupon_aggregated_updated                   |
+| cron_schedule                               |
+| customer_address_entity                     |
+| customer_address_entity_datetime            |
+| customer_address_entity_decimal             |
+| customer_address_entity_int                 |
+| customer_address_entity_text                |
+| customer_address_entity_varchar             |
+| customer_eav_attribute                      |
+| customer_eav_attribute_website              |
+| customer_entity                             |
+| customer_entity_datetime                    |
+| customer_entity_decimal                     |
+| customer_entity_int                         |
+| customer_entity_text                        |
+| customer_entity_varchar                     |
+| customer_form_attribute                     |
+| customer_group                              |
+| dataflow_batch                              |
+| dataflow_batch_export                       |
+| dataflow_batch_import                       |
+| dataflow_import_data                        |
+| dataflow_profile                            |
+| dataflow_profile_history                    |
+| dataflow_session                            |
+| design_change                               |
+| directory_country                           |
+| directory_country_format                    |
+| directory_country_region                    |
+| directory_country_region_name               |
+| directory_currency_rate                     |
+| downloadable_link                           |
+| downloadable_link_price                     |
+| downloadable_link_purchased                 |
+| downloadable_link_purchased_item            |
+| downloadable_link_title                     |
+| downloadable_sample                         |
+| downloadable_sample_title                   |
+| dropshipping_vendor                         |
+| eav_attribute                               |
+| eav_attribute_group                         |
+| eav_attribute_label                         |
+| eav_attribute_option                        |
+| eav_attribute_option_value                  |
+| eav_attribute_set                           |
+| eav_entity                                  |
+| eav_entity_attribute                        |
+| eav_entity_datetime                         |
+| eav_entity_decimal                          |
+| eav_entity_int                              |
+| eav_entity_store                            |
+| eav_entity_text                             |
+| eav_entity_type                             |
+| eav_entity_varchar                          |
+| eav_form_element                            |
+| eav_form_fieldset                           |
+| eav_form_fieldset_label                     |
+| eav_form_type                               |
+| eav_form_type_entity                        |
+| gift_message                                |
+| googlecheckout_notification                 |
+| importexport_importdata                     |
+| index_event                                 |
+| index_process                               |
+| index_process_event                         |
+| log_customer                                |
+| log_quote                                   |
+| log_summary                                 |
+| log_summary_type                            |
+| log_url                                     |
+| log_url_info                                |
+| log_visitor                                 |
+| log_visitor_info                            |
+| log_visitor_online                          |
+| newsletter_problem                          |
+| newsletter_queue                            |
+| newsletter_queue_link                       |
+| newsletter_queue_store_link                 |
+| newsletter_subscriber                       |
+| newsletter_template                         |
+| oauth_consumer                              |
+| oauth_nonce                                 |
+| oauth_token                                 |
+| paypal_cert                                 |
+| paypal_payment_transaction                  |
+| paypal_settlement_report                    |
+| paypal_settlement_report_row                |
+| persistent_session                          |
+| poll                                        |
+| poll_answer                                 |
+| poll_store                                  |
+| poll_vote                                   |
+| product_alert_price                         |
+| product_alert_stock                         |
+| rating                                      |
+| rating_entity                               |
+| rating_option                               |
+| rating_option_vote                          |
+| rating_option_vote_aggregated               |
+| rating_store                                |
+| rating_title                                |
+| report_compared_product_index               |
+| report_event                                |
+| report_event_types                          |
+| report_viewed_product_aggregated_daily      |
+| report_viewed_product_aggregated_monthly    |
+| report_viewed_product_aggregated_yearly     |
+| report_viewed_product_index                 |
+| review                                      |
+| review_detail                               |
+| review_entity                               |
+| review_entity_summary                       |
+| review_status                               |
+| review_store                                |
+| sales_bestsellers_aggregated_daily          |
+| sales_bestsellers_aggregated_monthly        |
+| sales_bestsellers_aggregated_yearly         |
+| sales_billing_agreement                     |
+| sales_billing_agreement_order               |
+| sales_flat_creditmemo                       |
+| sales_flat_creditmemo_comment               |
+| sales_flat_creditmemo_grid                  |
+| sales_flat_creditmemo_item                  |
+| sales_flat_invoice                          |
+| sales_flat_invoice_comment                  |
+| sales_flat_invoice_grid                     |
+| sales_flat_invoice_item                     |
+| sales_flat_order                            |
+| sales_flat_order_address                    |
+| sales_flat_order_grid                       |
+| sales_flat_order_item                       |
+| sales_flat_order_payment                    |
+| sales_flat_order_status_history             |
+| sales_flat_quote                            |
+| sales_flat_quote_address                    |
+| sales_flat_quote_address_item               |
+| sales_flat_quote_item                       |
+| sales_flat_quote_item_option                |
+| sales_flat_quote_payment                    |
+| sales_flat_quote_shipping_rate              |
+| sales_flat_shipment                         |
+| sales_flat_shipment_comment                 |
+| sales_flat_shipment_grid                    |
+| sales_flat_shipment_item                    |
+| sales_flat_shipment_track                   |
+| sales_invoiced_aggregated                   |
+| sales_invoiced_aggregated_order             |
+| sales_order_aggregated_created              |
+| sales_order_aggregated_updated              |
+| sales_order_status                          |
+| sales_order_status_label                    |
+| sales_order_status_state                    |
+| sales_order_tax                             |
+| sales_order_tax_item                        |
+| sales_payment_transaction                   |
+| sales_recurring_profile                     |
+| sales_recurring_profile_order               |
+| sales_refunded_aggregated                   |
+| sales_refunded_aggregated_order             |
+| sales_shipping_aggregated                   |
+| sales_shipping_aggregated_order             |
+| salesrule                                   |
+| salesrule_coupon                            |
+| salesrule_coupon_usage                      |
+| salesrule_customer                          |
+| salesrule_customer_group                    |
+| salesrule_label                             |
+| salesrule_product_attribute                 |
+| salesrule_website                           |
+| sendfriend_log                              |
+| shipping_tablerate                          |
+| sitemap                                     |
+| smtppro_email_log                           |
+| tag                                         |
+| tag_properties                              |
+| tag_relation                                |
+| tag_summary                                 |
+| tax_calculation                             |
+| tax_calculation_rate                        |
+| tax_calculation_rate_title                  |
+| tax_calculation_rule                        |
+| tax_class                                   |
+| tax_order_aggregated_created                |
+| tax_order_aggregated_updated                |
+| weee_discount                               |
+| weee_tax                                    |
+| widget                                      |
+| widget_instance                             |
+| widget_instance_page                        |
+| widget_instance_page_layout                 |
+| wishlist                                    |
+| wishlist_item                               |
+| wishlist_item_option                        |
+| xmlconnect_application                      |
+| xmlconnect_config_data                      |
+| xmlconnect_history                          |
+| xmlconnect_notification_template            |
+| xmlconnect_queue                            |
++---------------------------------------------+
+342 rows in set (0.41 sec)
+
+mysql> show create table fastfres_magento.sales_flat_order;
+| sales_flat_order | CREATE TABLE `sales_flat_order` (
+  `entity_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Entity Id',
+  `state` varchar(32) DEFAULT NULL COMMENT 'State',
+  `status` varchar(32) DEFAULT NULL COMMENT 'Status',
+  `coupon_code` varchar(255) DEFAULT NULL COMMENT 'Coupon Code',
+  `protect_code` varchar(255) DEFAULT NULL COMMENT 'Protect Code',
+  `shipping_description` varchar(255) DEFAULT NULL COMMENT 'Shipping Description',
+  `is_virtual` smallint(5) unsigned DEFAULT NULL COMMENT 'Is Virtual',
+  `store_id` smallint(5) unsigned DEFAULT NULL COMMENT 'Store Id',
+  `customer_id` int(10) unsigned DEFAULT NULL COMMENT 'Customer Id',
+  `base_discount_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Discount Amount',
+  `base_discount_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Base Discount Canceled',
+  `base_discount_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Discount Invoiced',
+  `base_discount_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Discount Refunded',
+  `base_grand_total` decimal(12,4) DEFAULT NULL COMMENT 'Base Grand Total',
+  `base_shipping_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Amount',
+  `base_shipping_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Canceled',
+  `base_shipping_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Invoiced',
+  `base_shipping_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Refunded',
+  `base_shipping_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Tax Amount',
+  `base_shipping_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Tax Refunded',
+  `base_subtotal` decimal(12,4) DEFAULT NULL COMMENT 'Base Subtotal',
+  `base_subtotal_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Base Subtotal Canceled',
+  `base_subtotal_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Subtotal Invoiced',
+  `base_subtotal_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Subtotal Refunded',
+  `base_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Amount',
+  `base_tax_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Canceled',
+  `base_tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Invoiced',
+  `base_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Refunded',
+  `base_to_global_rate` decimal(12,4) DEFAULT NULL COMMENT 'Base To Global Rate',
+  `base_to_order_rate` decimal(12,4) DEFAULT NULL COMMENT 'Base To Order Rate',
+  `base_total_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Canceled',
+  `base_total_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Invoiced',
+  `base_total_invoiced_cost` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Invoiced Cost',
+  `base_total_offline_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Offline Refunded',
+  `base_total_online_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Online Refunded',
+  `base_total_paid` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Paid',
+  `base_total_qty_ordered` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Qty Ordered',
+  `base_total_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Refunded',
+  `discount_amount` decimal(12,4) DEFAULT NULL COMMENT 'Discount Amount',
+  `discount_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Discount Canceled',
+  `discount_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Discount Invoiced',
+  `discount_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Discount Refunded',
+  `grand_total` decimal(12,4) DEFAULT NULL COMMENT 'Grand Total',
+  `shipping_amount` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Amount',
+  `shipping_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Canceled',
+  `shipping_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Invoiced',
+  `shipping_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Refunded',
+  `shipping_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Tax Amount',
+  `shipping_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Tax Refunded',
+  `store_to_base_rate` decimal(12,4) DEFAULT NULL COMMENT 'Store To Base Rate',
+  `store_to_order_rate` decimal(12,4) DEFAULT NULL COMMENT 'Store To Order Rate',
+  `subtotal` decimal(12,4) DEFAULT NULL COMMENT 'Subtotal',
+  `subtotal_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Subtotal Canceled',
+  `subtotal_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Subtotal Invoiced',
+  `subtotal_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Subtotal Refunded',
+  `tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Tax Amount',
+  `tax_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Tax Canceled',
+  `tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Tax Invoiced',
+  `tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Tax Refunded',
+  `total_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Total Canceled',
+  `total_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Total Invoiced',
+  `total_offline_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Total Offline Refunded',
+  `total_online_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Total Online Refunded',
+  `total_paid` decimal(12,4) DEFAULT NULL COMMENT 'Total Paid',
+  `total_qty_ordered` decimal(12,4) DEFAULT NULL COMMENT 'Total Qty Ordered',
+  `total_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Total Refunded',
+  `can_ship_partially` smallint(5) unsigned DEFAULT NULL COMMENT 'Can Ship Partially',
+  `can_ship_partially_item` smallint(5) unsigned DEFAULT NULL COMMENT 'Can Ship Partially Item',
+  `customer_is_guest` smallint(5) unsigned DEFAULT NULL COMMENT 'Customer Is Guest',
+  `customer_note_notify` smallint(5) unsigned DEFAULT NULL COMMENT 'Customer Note Notify',
+  `billing_address_id` int(11) DEFAULT NULL COMMENT 'Billing Address Id',
+  `customer_group_id` smallint(6) DEFAULT NULL COMMENT 'Customer Group Id',
+  `edit_increment` int(11) DEFAULT NULL COMMENT 'Edit Increment',
+  `email_sent` smallint(5) unsigned DEFAULT NULL COMMENT 'Email Sent',
+  `forced_shipment_with_invoice` smallint(5) unsigned DEFAULT NULL COMMENT 'Forced Do Shipment With Invoice',
+  `payment_auth_expiration` int(11) DEFAULT NULL COMMENT 'Payment Authorization Expiration',
+  `quote_address_id` int(11) DEFAULT NULL COMMENT 'Quote Address Id',
+  `quote_id` int(11) DEFAULT NULL COMMENT 'Quote Id',
+  `shipping_address_id` int(11) DEFAULT NULL COMMENT 'Shipping Address Id',
+  `adjustment_negative` decimal(12,4) DEFAULT NULL COMMENT 'Adjustment Negative',
+  `adjustment_positive` decimal(12,4) DEFAULT NULL COMMENT 'Adjustment Positive',
+  `base_adjustment_negative` decimal(12,4) DEFAULT NULL COMMENT 'Base Adjustment Negative',
+  `base_adjustment_positive` decimal(12,4) DEFAULT NULL COMMENT 'Base Adjustment Positive',
+  `base_shipping_discount_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Discount Amount',
+  `base_subtotal_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Base Subtotal Incl Tax',
+  `base_total_due` decimal(12,4) DEFAULT NULL COMMENT 'Base Total Due',
+  `payment_authorization_amount` decimal(12,4) DEFAULT NULL COMMENT 'Payment Authorization Amount',
+  `shipping_discount_amount` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Discount Amount',
+  `subtotal_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Subtotal Incl Tax',
+  `total_due` decimal(12,4) DEFAULT NULL COMMENT 'Total Due',
+  `weight` decimal(12,4) DEFAULT NULL COMMENT 'Weight',
+  `customer_dob` datetime DEFAULT NULL COMMENT 'Customer Dob',
+  `increment_id` varchar(50) DEFAULT NULL COMMENT 'Increment Id',
+  `applied_rule_ids` varchar(255) DEFAULT NULL COMMENT 'Applied Rule Ids',
+  `base_currency_code` varchar(3) DEFAULT NULL COMMENT 'Base Currency Code',
+  `customer_email` varchar(255) DEFAULT NULL COMMENT 'Customer Email',
+  `customer_firstname` varchar(255) DEFAULT NULL COMMENT 'Customer Firstname',
+  `customer_lastname` varchar(255) DEFAULT NULL COMMENT 'Customer Lastname',
+  `customer_middlename` varchar(255) DEFAULT NULL COMMENT 'Customer Middlename',
+  `customer_prefix` varchar(255) DEFAULT NULL COMMENT 'Customer Prefix',
+  `customer_suffix` varchar(255) DEFAULT NULL COMMENT 'Customer Suffix',
+  `customer_taxvat` varchar(255) DEFAULT NULL COMMENT 'Customer Taxvat',
+  `discount_description` varchar(255) DEFAULT NULL COMMENT 'Discount Description',
+  `ext_customer_id` varchar(255) DEFAULT NULL COMMENT 'Ext Customer Id',
+  `ext_order_id` varchar(255) DEFAULT NULL COMMENT 'Ext Order Id',
+  `global_currency_code` varchar(3) DEFAULT NULL COMMENT 'Global Currency Code',
+  `hold_before_state` varchar(255) DEFAULT NULL COMMENT 'Hold Before State',
+  `hold_before_status` varchar(255) DEFAULT NULL COMMENT 'Hold Before Status',
+  `order_currency_code` varchar(255) DEFAULT NULL COMMENT 'Order Currency Code',
+  `original_increment_id` varchar(50) DEFAULT NULL COMMENT 'Original Increment Id',
+  `relation_child_id` varchar(32) DEFAULT NULL COMMENT 'Relation Child Id',
+  `relation_child_real_id` varchar(32) DEFAULT NULL COMMENT 'Relation Child Real Id',
+  `relation_parent_id` varchar(32) DEFAULT NULL COMMENT 'Relation Parent Id',
+  `relation_parent_real_id` varchar(32) DEFAULT NULL COMMENT 'Relation Parent Real Id',
+  `remote_ip` varchar(255) DEFAULT NULL COMMENT 'Remote Ip',
+  `shipping_method` varchar(255) DEFAULT NULL COMMENT 'Shipping Method',
+  `store_currency_code` varchar(3) DEFAULT NULL COMMENT 'Store Currency Code',
+  `store_name` varchar(255) DEFAULT NULL COMMENT 'Store Name',
+  `x_forwarded_for` varchar(255) DEFAULT NULL COMMENT 'X Forwarded For',
+  `customer_note` text COMMENT 'Customer Note',
+  `created_at` timestamp NULL DEFAULT NULL COMMENT 'Created At',
+  `updated_at` timestamp NULL DEFAULT NULL COMMENT 'Updated At',
+  `total_item_count` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Total Item Count',
+  `customer_gender` int(11) DEFAULT NULL COMMENT 'Customer Gender',
+  `hidden_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Amount',
+  `base_hidden_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Amount',
+  `shipping_hidden_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Hidden Tax Amount',
+  `base_shipping_hidden_tax_amnt` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Hidden Tax Amount',
+  `hidden_tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Invoiced',
+  `base_hidden_tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Invoiced',
+  `hidden_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Refunded',
+  `base_hidden_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Refunded',
+  `shipping_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Shipping Incl Tax',
+  `base_shipping_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Base Shipping Incl Tax',
+  `coupon_rule_name` varchar(255) DEFAULT NULL COMMENT 'Coupon Sales Rule Name',
+  `paypal_ipn_customer_notified` int(11) DEFAULT '0' COMMENT 'Paypal Ipn Customer Notified',
+  `gift_message_id` int(11) DEFAULT NULL COMMENT 'Gift Message Id',
+  `xero_invoice_id` varchar(255) DEFAULT NULL,
+  `xero_invoice_number` varchar(255) DEFAULT NULL,
+  `xero_export_status` smallint(5) DEFAULT '0',
+  `xero_last_validation_errors` text,
+  PRIMARY KEY (`entity_id`),
+  UNIQUE KEY `UNQ_SALES_FLAT_ORDER_INCREMENT_ID` (`increment_id`),
+  KEY `IDX_SALES_FLAT_ORDER_STATUS` (`status`),
+  KEY `IDX_SALES_FLAT_ORDER_STATE` (`state`),
+  KEY `IDX_SALES_FLAT_ORDER_STORE_ID` (`store_id`),
+  KEY `IDX_SALES_FLAT_ORDER_CREATED_AT` (`created_at`),
+  KEY `IDX_SALES_FLAT_ORDER_CUSTOMER_ID` (`customer_id`),
+  KEY `IDX_SALES_FLAT_ORDER_EXT_ORDER_ID` (`ext_order_id`),
+  KEY `IDX_SALES_FLAT_ORDER_QUOTE_ID` (`quote_id`),
+  KEY `IDX_SALES_FLAT_ORDER_UPDATED_AT` (`updated_at`),
+  CONSTRAINT `FK_SALES_FLAT_ORDER_CUSTOMER_ID_CUSTOMER_ENTITY_ENTITY_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_FLAT_ORDER_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=1052 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order' |
+1 row in set (2.07 sec)
+
+mysql> mysql> select * from fastfres_magento.sales_flat_order where entity_id=100000875;
+Empty set (1.83 sec)
+
+mysql> select created_at from fastfres_magento.sales_flat_order limit 10;
++---------------------+
+| created_at          |
++---------------------+
+| 2012-12-05 04:41:40 |
+| 2012-12-05 05:45:39 |
+| 2012-12-06 07:03:24 |
+| 2012-12-06 09:11:19 |
+| 2012-12-07 08:11:51 |
+| 2012-12-07 09:43:38 |
+| 2012-12-07 09:51:21 |
+| 2012-12-07 09:53:19 |
+| 2012-12-07 10:24:16 |
+| 2012-12-07 11:41:03 |
++---------------------+
+10 rows in set (0.41 sec)
+
+mysql> select created_at from fastfres_magento.sales_flat_order desc limit 10;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'desc limit 10' at line 1
+mysql> select created_at from fastfres_magento.sales_flat_order order by created_at desc limit 10;
++---------------------+
+| created_at          |
++---------------------+
+| 2014-03-20 06:20:21 |
+| 2014-03-20 05:42:21 |
+| 2014-03-20 04:13:12 |
+| 2014-03-20 03:59:49 |
+| 2014-03-20 03:31:31 |
+| 2014-03-20 00:11:41 |
+| 2014-03-18 06:02:28 |
+| 2014-03-18 03:46:48 |
+| 2014-03-18 02:27:54 |
+| 2014-03-18 01:59:15 |
++---------------------+
+10 rows in set (0.41 sec)
+
+mysql> select entity_id, created_at from fastfres_magento.sales_flat_order order by created_at desc limit 10;
++-----------+---------------------+
+| entity_id | created_at          |
++-----------+---------------------+
+|      1051 | 2014-03-20 06:20:21 |
+|      1050 | 2014-03-20 05:42:21 |
+|      1049 | 2014-03-20 04:13:12 |
+|      1048 | 2014-03-20 03:59:49 |
+|      1047 | 2014-03-20 03:31:31 |
+|      1046 | 2014-03-20 00:11:41 |
+|      1045 | 2014-03-18 06:02:28 |
+|      1044 | 2014-03-18 03:46:48 |
+|      1043 | 2014-03-18 02:27:54 |
+|      1042 | 2014-03-18 01:59:15 |
++-----------+---------------------+
+10 rows in set (0.41 sec)
+
+mysql> select created_at from fastfres_magento.sales_flat_order where entity_id=877;
++---------------------+
+| created_at          |
++---------------------+
+| 2014-01-23 02:07:39 |
++---------------------+
+1 row in set (0.45 sec)
+
+mysql> show create table fastfres_magento.sales_flat_order_item;
+
+| sales_flat_order_item | CREATE TABLE `sales_flat_order_item` (
+  `item_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Item Id',
+  `order_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Order Id',
+  `parent_item_id` int(10) unsigned DEFAULT NULL COMMENT 'Parent Item Id',
+  `quote_item_id` int(10) unsigned DEFAULT NULL COMMENT 'Quote Item Id',
+  `store_id` smallint(5) unsigned DEFAULT NULL COMMENT 'Store Id',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'Created At',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' COMMENT 'Updated At',
+  `product_id` int(10) unsigned DEFAULT NULL COMMENT 'Product Id',
+  `product_type` varchar(255) DEFAULT NULL COMMENT 'Product Type',
+  `product_options` text COMMENT 'Product Options',
+  `weight` decimal(12,4) DEFAULT '0.0000' COMMENT 'Weight',
+  `is_virtual` smallint(5) unsigned DEFAULT NULL COMMENT 'Is Virtual',
+  `sku` varchar(255) DEFAULT NULL COMMENT 'Sku',
+  `name` varchar(255) DEFAULT NULL COMMENT 'Name',
+  `description` text COMMENT 'Description',
+  `applied_rule_ids` text COMMENT 'Applied Rule Ids',
+  `additional_data` text COMMENT 'Additional Data',
+  `free_shipping` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Free Shipping',
+  `is_qty_decimal` smallint(5) unsigned DEFAULT NULL COMMENT 'Is Qty Decimal',
+  `no_discount` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'No Discount',
+  `qty_backordered` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Backordered',
+  `qty_canceled` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Canceled',
+  `qty_invoiced` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Invoiced',
+  `qty_ordered` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Ordered',
+  `qty_refunded` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Refunded',
+  `qty_shipped` decimal(12,4) DEFAULT '0.0000' COMMENT 'Qty Shipped',
+  `base_cost` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Cost',
+  `price` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Price',
+  `base_price` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Base Price',
+  `original_price` decimal(12,4) DEFAULT NULL COMMENT 'Original Price',
+  `base_original_price` decimal(12,4) DEFAULT NULL COMMENT 'Base Original Price',
+  `tax_percent` decimal(12,4) DEFAULT '0.0000' COMMENT 'Tax Percent',
+  `xero_rate` varchar(255) DEFAULT NULL,
+  `tax_amount` decimal(12,4) DEFAULT '0.0000' COMMENT 'Tax Amount',
+  `base_tax_amount` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Tax Amount',
+  `tax_invoiced` decimal(12,4) DEFAULT '0.0000' COMMENT 'Tax Invoiced',
+  `base_tax_invoiced` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Tax Invoiced',
+  `discount_percent` decimal(12,4) DEFAULT '0.0000' COMMENT 'Discount Percent',
+  `discount_amount` decimal(12,4) DEFAULT '0.0000' COMMENT 'Discount Amount',
+  `base_discount_amount` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Discount Amount',
+  `discount_invoiced` decimal(12,4) DEFAULT '0.0000' COMMENT 'Discount Invoiced',
+  `base_discount_invoiced` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Discount Invoiced',
+  `amount_refunded` decimal(12,4) DEFAULT '0.0000' COMMENT 'Amount Refunded',
+  `base_amount_refunded` decimal(12,4) DEFAULT '0.0000' COMMENT 'Base Amount Refunded',
+  `row_total` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Row Total',
+  `base_row_total` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Base Row Total',
+  `row_invoiced` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Row Invoiced',
+  `base_row_invoiced` decimal(12,4) NOT NULL DEFAULT '0.0000' COMMENT 'Base Row Invoiced',
+  `row_weight` decimal(12,4) DEFAULT '0.0000' COMMENT 'Row Weight',
+  `base_tax_before_discount` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Before Discount',
+  `tax_before_discount` decimal(12,4) DEFAULT NULL COMMENT 'Tax Before Discount',
+  `ext_order_item_id` varchar(255) DEFAULT NULL COMMENT 'Ext Order Item Id',
+  `locked_do_invoice` smallint(5) unsigned DEFAULT NULL COMMENT 'Locked Do Invoice',
+  `locked_do_ship` smallint(5) unsigned DEFAULT NULL COMMENT 'Locked Do Ship',
+  `price_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Price Incl Tax',
+  `base_price_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Base Price Incl Tax',
+  `row_total_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Row Total Incl Tax',
+  `base_row_total_incl_tax` decimal(12,4) DEFAULT NULL COMMENT 'Base Row Total Incl Tax',
+  `hidden_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Amount',
+  `base_hidden_tax_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Amount',
+  `hidden_tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Invoiced',
+  `base_hidden_tax_invoiced` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Invoiced',
+  `hidden_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Refunded',
+  `base_hidden_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Hidden Tax Refunded',
+  `is_nominal` int(11) NOT NULL DEFAULT '0' COMMENT 'Is Nominal',
+  `tax_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Tax Canceled',
+  `hidden_tax_canceled` decimal(12,4) DEFAULT NULL COMMENT 'Hidden Tax Canceled',
+  `tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Tax Refunded',
+  `base_tax_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Tax Refunded',
+  `discount_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Discount Refunded',
+  `base_discount_refunded` decimal(12,4) DEFAULT NULL COMMENT 'Base Discount Refunded',
+  `gift_message_id` int(11) DEFAULT NULL COMMENT 'Gift Message Id',
+  `gift_message_available` int(11) DEFAULT NULL COMMENT 'Gift Message Available',
+  `base_weee_tax_applied_amount` decimal(12,4) DEFAULT NULL COMMENT 'Base Weee Tax Applied Amount',
+  `base_weee_tax_applied_row_amnt` decimal(12,4) DEFAULT NULL COMMENT 'Base Weee Tax Applied Row Amnt',
+  `weee_tax_applied_amount` decimal(12,4) DEFAULT NULL COMMENT 'Weee Tax Applied Amount',
+  `weee_tax_applied_row_amount` decimal(12,4) DEFAULT NULL COMMENT 'Weee Tax Applied Row Amount',
+  `weee_tax_applied` text COMMENT 'Weee Tax Applied',
+  `weee_tax_disposition` decimal(12,4) DEFAULT NULL COMMENT 'Weee Tax Disposition',
+  `weee_tax_row_disposition` decimal(12,4) DEFAULT NULL COMMENT 'Weee Tax Row Disposition',
+  `base_weee_tax_disposition` decimal(12,4) DEFAULT NULL COMMENT 'Base Weee Tax Disposition',
+  `base_weee_tax_row_disposition` decimal(12,4) DEFAULT NULL COMMENT 'Base Weee Tax Row Disposition',
+  PRIMARY KEY (`item_id`),
+  KEY `IDX_SALES_FLAT_ORDER_ITEM_ORDER_ID` (`order_id`),
+  KEY `IDX_SALES_FLAT_ORDER_ITEM_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_SALES_FLAT_ORDER_ITEM_ORDER_ID_SALES_FLAT_ORDER_ENTITY_ID` FOREIGN KEY (`order_id`) REFERENCES `sales_flat_order` (`entity_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_SALES_FLAT_ORDER_ITEM_STORE_ID_CORE_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `core_store` (`store_id`) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=29092 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Order Item' |
+
+1 row in set (0.41 sec)
+
+mysql> select sku, qty_ordered, price, name from fastfres_magento.sales_flat_order_item where order_id=875 order by qty_ordered;
+
+select region, postcode, firstname, lastname, street, city, email, telephone, fax from fastfres_magento.sales_flat_order_address where entity_id=1749;

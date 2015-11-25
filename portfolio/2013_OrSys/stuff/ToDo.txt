@@ -1,0 +1,966 @@
+8th of February:
+
+    - reconfigure project at HG;		+
+    - install MySQL 5.16 at EC2 instance;	+
+    - test it;	    	    			+
+    - fill local DB with sample data;		+
+    - simultaneously configure DB tables;	+
+    - create frontend template to review data in DB;	+
+    - create local MySQL DB backup;	      	 +
+    - restore this bacup at the cloud;		 +
+    - test remote application;			 +
+    - commit changes.				 +
+
+10th of February:
+
+     All this tasks from list above are sequentially iterates.
+
+12th of February:
+
+     Now app have DB with strong relationship between objects. The task is in creating a neat frontend to review this data, correct it and even process invoices by email. There are several steps to follow in this direction:
+
+     - Determine the main table objects;
+     - Chose an appropriate view of main table;
+     - Upload data from MySQL into this table;
+
+15th of February:
+
+     It's possible to determine the app main functions:
+
+     - Automatically convert product lists from every order into invoices;
+     - Allow users to review the invoices, accept or reject it;
+     - Send accepted invoices to suppliers;
+     - Edit rejected invoices.
+
+     Lets describe a convertation function. For example there are 6 new orders which need to converted into several invoices. Each order contains different number of products.
+
+        # The second tab: products in invoices. Third tab: Invoices.
+        # on the first step operator could choose supplier for each product
+        # at the second step operator consolidate separate products into
+        # individual invoices, than review, accept and send it to supplers 
+
+	E.g. dataset for second tab could be like list of dictionaries:
+	pii_dataset = [{'sku': sku, 'product': p_name,
+	'order_orig': [(o_id, qty)...], 'sigma': sigma}, {}...{}]
+
+
+19th of February.
+
+     Suppose now it's time to describe the app main function concept at whole. Strictly speaking it must serve to provide a convenient access to data about orders and help operator to compose invoices for suppliers. Let's iterate the main stages in data processing:
+
+     - Periodically ask Magento about recent orders;
+     - Get XML answer;
+     - Extract data out there;
+     - Save data in MySQL tables;
+     - Pass data about orders to operator's web browser:
+       * Orders general information tab 1 default open;
+       * Aggregated products from orders tab 2;
+       * Auto-solved invoices tab 3;
+       * Unsolved product purchase tab 4;
+     - Send invoices to suppliers by:
+       ^ email;
+       ^ SMS;
+
+21th of February.
+
+     It's time to describe tha app behaviour in case when several operators simultaneously work on orders resolving. Lets imagine this function as a repetition of much simpler operation:
+
+     - Unresolved recent orders review;
+     - OrSys in charge to detect the products with unknown price and supplier and pass operator to define this properties for eachone (separation by product);
+     - Fulfilled defining will force OrSys to generate the invoices list filled by average data;
+     - It's necessary to allow user to correct each row in this list (separation by supplier):
+
+	 There is exists input data overlapping issue when operators could edit the same data in the same time. Exactly to avoid this it's necessary to separate operator's views and allow them to work simultaneously on the different data only. There are several methods user isolation and lets focus our attention on the most simple but effective - data locking during edit. 
+
+22th of February.
+
+
+	 In other words the average workflow is:
+
+	 1. Refresh recent orders;
+	 2. Detect new products there;
+	 3. Propose to define its unknown properties;
+	 4. Aggregate orders by products;
+	 5. Propose to correct prices and suppliers for every product;
+	 6. Aggregate invoices by suppliers;
+	 7. Propose to edit supplier or (and) price if it necessary;
+	 8. Generate invoice messages.
+
+	 Seems like it would be convenient to develop a raw template for one operator only and add locking feature later.
+
+23th of February.
+
+     There are several questions which will be resolved ASAP:
+
+     -  insertion:
+     	* new supplier;
+	* new clerk;
+	* new phone(fax);
+     - linking between:
+       # supplier and clerk;
+       # clerk and phone;
+
+       All this function later should be accessable for operator hence lets implement it using GUI (not CLI).
+
+25th of February.
+
+     I'm still continue develop suppliers tab filling function implemented through modal window form submit. Hope today it might possible to solve new supplier insertion with input data convertations and verifications. At the next step I'll resolve suppliers data update issue in the same method.
+     Meanwhile it's time to DB correction:
+
+     	       - alter TIMESTAMP column for several tables;
+	       - alter author column for few tables;
+
+     This preparation will simplify application debugging and tuning in the future and help to detect any deviation in operators behaviour.
+
+26th of February.
+
+     Suppliers tab filling system is partially ready to data input. 
+
+27th of February.
+
+     Lets focus our attention at insertion with a primitive data validation firstly.
+
+1st of March.
+
+    Data insertion and updating algorithm seems like a bit knotty to solve it on the fly, thus it requires detailed specification itself. Suppose it might implemented by drawing the graphical schema. Lets take an attempt to describe it in the several words:
+
+    - data should be inserted only if they are new (not known);
+    - if data already exists in DB they should be linked.
+
+    This concept provides a true way to avoid data duplication and allows to secure its integrity.
+     
+3th of March.
+
+    Function of insertion data about the new supplier well fitted into the main concept above is ready now. It's time to test it:
+
+ - All fields are filled by new data;
+ - Supplier is a new one but:
+   + Address is known;
+   + Clerk is known;
+   + Phone is empty;
+   + Phone is known;
+   + Fax is empty;
+   + Fax is known;
+   + etc.
+
+   Next one should bugfixing issue (+)
+   Code refactoring (+)
+   Necessary inserted data correction implementation (+)
+   Testing (+)
+
+
+   And the next one should be existing supplier data correction function development (-)
+   and testing (-)
+
+   After than this operation will successfuly solved it would be great to:
+   	 - dump local DB;
+   	 - commit it all into HG;
+	 - update code and DB on EC2 instance;
+	 - test it;
+	 - write UserManual :-)
+	 - write Daily Statements
+ 
+6th of March.
+
+    Now it's time to think about invoice composition implementation. Suppose it might be handy to split all available invoices onto several categories:
+
+    - automatically generated:
+      * if particular product properties was defined already;
+      * by price input;
+      * and choosing optimal supplier;
+    - manually defined:
+      * if not previously defined it requres to be done;
+      * by price input;
+      * and choosing an optimal supplier;
+    - pending:
+      * after than product was accepted as correct;
+      * it migrates to invoice to supplier;
+      * with other products for this supplier exactly;
+      * it's possible to exclude out from invoice any product;
+      * in this case it moves to manually definded tab;
+      * and wait there for solving;
+      * by defining properties and aggregating into invoices;
+    - sent.
+
+
+8th of March.
+
+    Next steps further in the new function development:
+
+    - Choose supplier;
+    - Edit price;
+    - Process item.
+
+Most apropriate solution in enlarging "Product Aggregated" tab by addition necessary functionality. Initially suppliers list is fixed and suggested supplier feature will be developed later.
+
+
+9th of March:
+
+    + Add validation on user input into checkProduct;
+    + Add user input sanitizing before MySQL substitution;
+
+
+10th of March:
+
+    + Add price onto 'Aggregated Products' tab;
+    + Develop and test insertion into invoices and invoice_composition;
+
+    Lets split process of moving product from agg_products tab onto pending invoices tab into functional pieces:
+
+    + Check up existing open (not sent) invoice for particular supplier;
+    + If it exists - append this product to it;
+    + Else - create (open) pending invoice for particular supplier;
+      
+
+
+11th of March:
+
+    + add original_order_price column to invoice compositon table;
+     	> append this product to it;
+    + Exclude this products out from agg_products >>> https://url.odesk.com/4rn9lz
+
+
+12th of March:
+
+    + Pending invoices tab design; ---> https://url.odesk.com/q4478m, https://url.odesk.com/y6svwa, https://url.odesk.com/ehsvwa, https://url.odesk.com/h1cfgu
+
+
+14th of March:
+
+      + Edit suppliers data rendering function;
+     + Pending invoices tab design;
+
+15th of March:
+
+    + Develop and test:
+      * product deletion out from invoice; -->https://url.odesk.com/mq678m
+      * empty invoices excluding;
+
+
+16th of March:
+
+    + Finish and test update supplier function;
+    + Deploying at EC2;
+    - Brief user manual;
+    + Weekly stmts.
+
+
+19th of March:
+
+     Conceptual thinking
+
+
+20th of March:
+
+
+     - Further development stages concept composing:
+       - Upload data about recent orders utilizing Wyomind.com:
+       	 ! Necessary to investigate its features;
+
+Several thoughts about Magento API https://url.odesk.com/2w6pq4 Seems like it's fossil https://github.com/openlabs/magento/commits/a68f4f19d63ad1a13ce61bbef347c59fee3e07c5/magento/api.py untrusted poor documented Python library. In many cases it is a code garbage and nothing useful.
+
+Lets focus attention on fetching data out from Magento. There are the infinite number of oblique methods and only one direct. I mean direct connect to Magento RDBMS. It requires nothing except sequrity issue:
+     - create a separate user:
+       * with read only access for all Magento tables;
+       * identified by strong password;
+       * with remote access permission from ec2-54-253-196-66.ap-southeast-2.compute.amazonaws.com only (optional);
+     - opening firewall port for remote access to RDBMS server.
+
+This manipulation are extremly simple to do but they could absolutely safely satisfy our requirements in data access. Why we must to use a complex third-part solutions (libraries) if any RDBMS have a safe remote access option out of the box? Yes, of course it is a bit old fashion but all other subtleties are brilliant.
+
+Best regards
+Anton
+
+21st of March:
+
+    - Existing code corrections and edit:
+      + # GP - This is the Gross Profit Margin % - the calculation is Sell Price - Buy Price / Sell * 100;
+      + # Magento order revocation implementation;
+      - # pre-fill the 'buy price' based on the last used value.
+
+
+23rd of March
+
+     Several thoughts about order revocation features. There are several cases when it might be helpful to prevent orders processing inside OrSys:
+
+     - At beta testing period orders will be processed manually;
+     - Later in production revocation initiated by customer might occure;
+
+
+24th of March
+
+     Lets implement order excluding out from further processing by enlarging orders table with status column. Simultaneously with this correction new question around orders processing apperared: it is neccessary to exclude out from the further processing all products from revoked orders. This issue requres to rearrange functions source code in the new manner.
+
+
+25th of March
+
+     Customer's order revocation was particularly solved for a while if no one product included into invoice already. If it opposite it should be compensated by additional calculations or operator workflow changes.
+     Price pre-filling feature requires manipulating with trusted supplier-price value pairs. On my point of view it might be useful to utilize data out from previously processed invioces as trust criteria. There are no one successfuly processed invoices now.
+     In any case both this options will solved later.
+     
+  - Steps further:
+   + Regular remote Magento DB interaction for:
+     ! New order detection;
+     ! Orsys DB filling by detected data.
+   * Send invoices by SMS and e-mail functions:
+     > Twilio API investigation;
+     > Flask-mail installation, set up and testing.
+   * Simultaneous order resolving capability implementation:
+     % Transaction subtleties clarification & detalisation;
+   * Phone numbers output view humanization (spaces conjunction);
+
+*/5 * * * * touch /home/antony/Desktop/projects/OrSys/orsys/logs/cron_test.log
+
+26th, 27th of March
+
+     + EC2 remote connection to Magento DB testing;
+     + New orders data filling function composing;
+     + Data filler unit testing;
+     + Code corrections
+     + EC2 instance crontab configuring;
+     
+     Synonym issue revealed
+     
+Traceback (most recent call last):
+  File "detector.py", line 191, in <module>
+    oData, pDataSet = getFreshOrderDataSet(lastOid)
+  File "detector.py", line 55, in getFreshOrderDataSet
+    'cName': customer_firstname + ' ' + customer_lastname,
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+28th of March
+
+     Continue to iterate correction launch and log analyse loop sequence.
+
+
+29th of March
+
+     Data filler functional improving, testing and corrections.
+
+30th of March
+
+     Orders tab rearranging content by time and separation by status. Seems like it most convenient to operator to move revocated ones to the tab's bottom with ordering by Magento registration time and limit with 10 (?)
+
+2nd of April
+
+  - Steps further:
+   * Send invoices by SMS and e-mail functions:
+     > Twilio API investigation;
+     > Flask-mail installation, set up and testing.
+   * Simultaneous order resolving capability implementation:
+     % Transaction subtleties clarification & detalisation;
+   * Phone numbers output view humanization (spaces conjunction);
+  + Brief user manual;
+
+
+
+3rd, 4th, 5th of April
+
+    + PO emailing setup, configuring and testing.
+
+
+
+6th, 9th of April
+
+    + Sent PO tab composing;
+    + Fetch only actual (recent) data;
+
+
+10th of April
+
+     + LeeMunroe html letter composing;
+
+
+11th of April
+
+     + LeeMunroe table html+css correction:
+       ++ configured like a vertical products list separaded
+       	  by *** and empty rows because email focused on to
+	  vertical oriented smartphone's screens (!)
+     + User model enlarging by adding email, name and phone;
+     + PO numerating issue investigation;
+     + Email subject modification;
+
+
+13th of April
+
+    - SKU and product name issue investigation:
+      * clean product name;
+      * SKU and product name synonyms;
+
+
+14th, 15th of April
+
+    + Dynamic PO PDF generation issue solving:
+      + Reportlab library studying;
+      + Test PDF generation;
+      + PO PDF generation;
+    + PDF attachments testing;
+
+
+16th of April
+
+     - Output PDF formatting:
+       + Enumerate rows;
+       + Change table grid proportion;
+       + Cut up product's name;
+       + Set up page footer;
+       + Set up page Title;
+       + Set up PDF file naming;
+       + Add buyer's properties;
+
+
+17th of April
+
+    + % Jake's sapmle review in ToDo env;
+    + Fax composing and send function dev:
+
+
+19th, 20th of April
+
+    - Faxmail function debug:
+      # faxmail testing inside iPython;
+      # code corrections;
+       # https://url.odesk.com/qnp1s6 - UTBox hidden features
+       # https://url.odesk.com/vxo0r5 - perhaps it is a clue      
+    - SMS notifications dev:
+      * SMS capabilities investigation;
+      * appropriate data structure dev;
+      * SMS send function dev;
+      * https://url.odesk.com/p3r3u8 - Twilio Error
+
+
+22th of April
+
+     - SMS PO composing:
+       	   & Looking for existing lib which applicable
+       	     for wrapping PO data table into SMS --> NOT FOUND
+	   & concept development:
+	     + message width is 14 symbols;
+	     + header: # PO properties;
+	     + body: # PO products table;
+	     + footer: ?
+
+
+23th of April
+
+     + Logging configuring;
+     + Composing FaxMail attacments as HTML:
+       * LeeMunroe template isn't valid!;
+
+
+24th of April
+
+     + SMS PO nice view composing:
+       - 160 symbols per one;
+       - prevent products properties separation;
+       - by filling unnecessary space by #;
+       - might been implemented later if it necessary;
+       - (?)
+     + FaxMail HTML attachments simplification:
+       + Raw HTML template creation;
+       + Testing as simple email;
+       + Rearranging into FaxMail;
+
+
+25th of April
+
+     + SubTotal and Total calculation function dev;
+     + Embedding subTotal and Total sums into PO templates;
+     + Clerk SMS phone number normalizatoion;
+     + Clerk fax number involving as an argument;
+     + Daily STMTs
+     - After than PO was sent products returns issue studying:
+       + it's necessary to exclude sent products out from
+       	 aggregated products tab;
+
+	 -- How to do this??
+
+	 + in general case sent product was previously
+	 aggregated out from several orders;
+	 e.g. sent_products = {'sku': ['order_1', 'order_2', ... , 'order_N']}
+
+	 ++ or by altering an additional row 'sent' with bool value;
+
+	 ++ or by creating additional table sent_products (id, sku, order_id)
+
+
+
+26 of April
+
+   + Think about actual issue:
+
+| invoice_composition | CREATE TABLE `invoice_composition` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invoice_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `price` decimal(5,2) unsigned DEFAULT NULL,
+  `original_order_price` decimal(5,2) unsigned DEFAULT NULL,
+  `qty` smallint(5) unsigned DEFAULT NULL,
+  `author_id` int(11) DEFAULT NULL,
+  `appended` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `remover_id` int(11) DEFAULT NULL,
+  `removed` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `inv` (`invoice_id`),
+  KEY `prod` (`product_id`),
+  KEY `auth_inv` (`author_id`),
+  KEY `remover` (`remover_id`),
+  CONSTRAINT `auth_inv` FOREIGN KEY (`author_id`) REFERENCES `authors` (`id`),
+  CONSTRAINT `inv` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`id`),
+  CONSTRAINT `prod` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`),
+  CONSTRAINT `remover` FOREIGN KEY (`remover_id`) REFERENCES `authors` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=latin1 |
+
+
+| order_composition | CREATE TABLE `order_composition` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `price` decimal(5,2) unsigned DEFAULT NULL,
+  `qty` smallint(5) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `_order` (`order_id`),
+  KEY `product` (`product_id`),
+  CONSTRAINT `product` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`),
+  CONSTRAINT `_order` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2844 DEFAULT CHARSET=latin1 |
+
+
+Lets ALTER table order_composition by boolean row sent and foreign key invoices (id) It is enough to fully define product in the certain order status.
+  In other words products in purchase orders are included from specific orders.
+
+
+Hello sir
+
+My recent investigations revealed several curious questions which should be discussed. First of all I'm take an attempt to disclose my point of view on general things. Generally speaking programming is struggle with events. In ideal circumstances on every possible case it would possible to define processing algorithm. In real world there is infinite of possible cases thus duration of 'ideal' programming is infinite also. On practice it's might be wise to define the custom limits and decrease the expected cases. Lets think about our application in real world categories pleas.
+
+Undoubtly it is possible to implement any required function. The question is this function really required (!) On my point of view by defining limits:
+
+	  - It's necessary to freeze dataset before composing purchase orders;
+	  - After than ALL orders are solved it will possible to send ALL purchase orders to suppliers;
+	  - Than the pending orders pull become emptied, the meta function loop could be repeated.
+
+we should avoid data mishmash, simplify operator duty and get other side effects of simplification and clarification. Seems it is a natural way to resolve orders which are already accumulated and temporarily ignore arrived later freezing point. 
+
+In other words the app have a naked functional circle inside: accumulation --> processing --> distribution. Bear in mind this fact it might be easy to follow this feature than to neglect it. Exactly on this supposition seems like now it's time to bundle together application features:
+
+   - Data accumulation;
+   - Data processing;
+   - Data distribution;
+
+with user behaviour by defining artificial rules in User Manual. This operation should purely clarify the task at whole and seems like it might be the last step in OrSys development.
+
+
+
+28th of April
+
+Hi Anton
+
+I have spent the weekend thinking about possible solutions to this issue. 
+
+In real life data and usage, orders will be processed daily. Or in other words, customer orders will be processed & completed before new customer orders are received.
+
+The test sample data that we have in the Ordys consists of several weeks of orders. This may be the reason behind the complexity that we are experiencing. It may also reveal that there isn't a problem at all.
+
+In the current workflow, our Buyers send Orders to suppliers the night before for some products and then literally walk around the Sydney Markets and order the remaining products. Due to complex nature of our products & seasonality some supplier may not have all the products they usually sell, so our Buyers will walk around the market to find the product in an unstructured manner. Given this, its not possible to completely freeze the dataset in an artificial manner.
+
+I think in terms of functionality, its very important that the Operator can process orders in a more ad hoc and less strict manner that is still clean/organised. Is there a programmatic way to solve this problem?
+
+I have an idea that may work just as well yet ensuring the possibility of processing orders for different products, at different times and lowering the possibility of errors.
+
+The idea, is for the Buyer/Operator to individually select the orders to add them to a 'Processing Queue' (more user friendly name could be Combined Order). 
+
+For instance, 
+
+1) on the Recent orders tab Operator could 'select' each order to be added to 'Processing Queue' (Combined Order). 
+
+2) Ordsys would do data accumulation only for those selected orders. It would temporarily ignore all the other orders not selected for the processing queue/combined order and set a 'added to processing queue' flag in db.
+
+
+The process would be similar to what you suggested:
+   - Select Orders to add to > Processing Queue;
+   - Data accumulation;
+   - Data processing;
+   - Data distribution;
+
+In this scenario, the Operator would still need to be able to send POs separately (not all at the same time) as that is important functionality. 
+
+Do you think this would work? Is this difficult to achieve? Would this take more effort to develop then to solve the issue more directly?
+
+>>>>>>>>>><<<<<<<<<<<<<<
+
+Hello sir
+
+Order excluding out from data processing function was successfully implemented already. Could you look at https://url.odesk.com/_01ANEqHU1xf2YJh4dJD9tdBq70EI3YY5fa please. If you'll click on status element:
+
+      - it will toggle into red X;
+      - this order definitely will:
+      	- move to the tab bottom;
+	- be passed out from further calculations.
+
+The reverse sequence could be triggered by click on red X ;-)
+
+Suppose it might be convenient to call this function as 'Order Revocation || Icluding' and it have certain limitation. The order revocation would work perfectly only if it will be implemented after data locking (freezing) but before purchase order composing. E.g. the exist successful User sequence is:
+
+    - Lock the accumulated data;
+    - Revocate the certain orders;
+    - Compose the purchase orders;
+    - Distribute the purchase orders.
+
+Obviously it is an ideal schema because sometimes might occure collision when several products in purchase order are absent ('some supplier may not have all the products they usually sell'). It seems like a separate issue and I started to think about possible solution.
+
+Best regards
+Anton
+
+			**********
+
+29th of April
+
+    + User Manual Template writing;
+    - Clarification:
+      - Product absence;
+      + Freeze;
+      + Combine ordres;
+
+
+
+1. OrSys automatically update orders three times per hour;
+2. OrSys render orders which younger than three days old;
+3. Newly detected orders iniitally not included in product calculations;
+4. When the operator start to compose purchase orders (s)he:
+   a) Ensure what 'Composed PO' tab is empty;
+   b) Include certain orders manually on the first tab;
+   c) Define price and supplier on the second tab;
+   d) Send accepted purchase orders on the third tab;
+   e) Review sent purchase orders on the fourth tab;
+5. Collision resolving:
+   a) Missing product issue;
+
+
+30 th April
+
+   - Missing product issue solving;
+     * Sometimes might happen when supplier have not usually sold product. In this case clerk
+     will inform designated buyer about product's SKU. Obviously it's possible to compose a
+     new purchase order with this SKU but address it to another supplier.
+
+     * Initial state after than all included orders are resolved:
+     - Recent order tab filled by included orders and the new just detected ones;
+     - Agg products tab filled by products wich accumulated out from last resolved orders;
+     - Composed PO tab is empty;
+     - Sent PO tab filled by recently sent PO;
+     Q: How fast the missing product becomes known usually;
+     - Hence most convenient way to solve this issue is inclusion this product alongside the
+     next PO composing; 
+
+
+     	  ^^^***^^^
+
+Hello sir
+
+Firstly I'll take attempt to answer your question about separate data distribution. There is the ordinary workflow circle in a bit precise view:
+
+   - Select Orders to add to > Processing Queue;
+   - Product aggregation;
+   - Data processing;
+   - Data distribution;
+
+Obviously if we strives to accomplish store filling with products there is one way to do it. It is to fully resolve ALL orders with ALL products. Seems like circle workflow schema simplify this task. For achieve the main goal (resolve certain orders with ALL products) we must to follow a simple rule. It's necessary to include ALL aggregated products into PO and send it eventually. If we started by choosing the orders, composed several PO and decide to include several orders also it is a wrong way. It might destroy data integrity and qty products in orders will be not equal qty in PO(!) Suppose the right way is in following by the whole circle only. 
+
+I started to think about missing product issue:
+
+
+   - Missing product issue solving;
+     * Sometimes might happen when supplier have not usually sold product. In this case clerk
+     will inform designated buyer about product's SKU. Obviously it's possible to compose a
+     new purchase order with this SKU but address it to another supplier.
+
+     * Initial state after than all included orders are resolved:
+     - Recent order tab filled by included orders and the new just detected ones;
+     - Agg products tab filled by products wich accumulated out from last resolved orders;
+     - Composed PO tab is empty;
+     - Sent PO tab filled by recently sent PO;
+     Q: How fast the missing product becomes known usually;
+     - Hence most convenient way to solve this issue is inclusion this product alongside the
+     next PO composing;
+
+Hope this general conclusions might inspire your imagination on the rigth path ;-)
+Could you answer how fast the missing product becomes known usually?
+
+King regards
+Anton
+
+
+1st of May
+
+    + Hold product feature investigations:
+      + specification;
+      + detalization;
+      + clarification;
+
+The main workflow
+
+Dashboard tab
+After successful authentication user goes to dashboard and allow to review:
+
+Unsolved recent orders list;
+Products which the latter contains;
+Automatically resolved invoices list;
+List of invoices which requires a manual resolution;
+Held products tab;
+Suppliers list with their credentials.
+
+Automatic invoices completion realized by substitution a recently defined supplier for each particular product. It might be manually switched to another default supplier for this particular product. All previously defined suppliers saved in the associated stack.
+Obviously, in case when product purchased first time the supplier is unknown and it should be manually inputted by operator. Only after than the defined product should be included into certain invoice, its supplier will saved and the one’s next purchase might be accomplished by OrSys in automate manner.
+Additionally it is necessary to check up each product price before than include it into purchase order composition. After than purchase order will been completely composed it waits operator review and approval.
+In case than certain order will be reverted by customer OrSys operator in charge to exclude this one out from further calculations. It’s possible only if zero products from this order are included into pending PO, or, obviously if they did not sent to suppliers yet.
+
+   Exactly for resolving collision serves a held products tab. Products in the latter was excluded  out from the orders and not included yet in particular PO. In other words it is like a custom products storage where aggregated product are accumulates before when operator move it  into PO.
+There are two outcomes when particular product will becomes held:
+
+      - Primary from aggregated products tab;
+      - Secondary from supplier missing product.
+
+Obviously it is two ways out from held products tab:
+
+	  - Including into particular PO;
+	  - Removing to trash.
+
+
+
+    - Hold product metafunction development:
+      - GUI configuring;
+      	+ Add 'Hold' button on the agg tab;
+      	+ Add 'Hold' button on the sent tab;
+	+ Add Pail Tab on the Dashboard;
+
+
+5th of May
+
+
+  Batch concept description.
+
+  Delayed purchase order feature or hold product in another words demands creating of products pail where product which can't be ordered right now should accumulated, aggregated and wait their salvation. There are several subtleties there:
+
+  	  - products have different origin:
+	    + from agg_products tab;
+	    + from sent_PO tab;
+	  - products might have varied properties:
+	    = sku;
+	    = name;
+	    = price;
+	    = qty;
+	  - products in the pail should have two outcomes:
+	    % they might be included into certain purchase order;
+	    % or removed into to trash.
+
+For products origin tracing exactly to prevent data duplication when the same product might been included into pail several times a product batch concept was developed. Initially before the product aggregation by its SKU it should be useful to bundle all pending orders together and aggregate products out from this sheaf directly. In this case each aggregated product could have the unique batchNo which will point out on its origin.
+
+
+7th, 8th, 9th, 10th, 11th of May
+
+create table products_in_pail (id int auto_increment, order_batch_id int, product_id int, author_id int, i_date datetime, resolver_id int, r_time datetime, primary key (id), foreign key (order_batch_id) references order_batches(id), foreign key (product_id) references products(id), foreign key (author_id) references authors(id), foreign key (resolver_id) references authors(id));
+
+
+At other hand is it possible to avoid new definition involving? What if utilize a natural and primary product properties only?
+Lets combine both methods and try to get some significant results.
+
+It is a good idea to avoid data corruption in the pail and it will require additional efforts.
+
+    + Hold product metafunction development:
+      + Data model enlarging;
+      + Function dev:
+      	+ Lock orders tab after first product at agg tab touching;
+	+ Create a new product batch;
+	+ Add product to the pail from agg tab;
+	  + Their excluding out from agg tab;
+	  + Display it at the pail tab;
+	    + Author nick;
+	    + orderNo, price, qty bundle;
+	  + Recent orders tab locking issue;
+	+ Throw product back into agg tab;
+	  + Last batch close issue;
+	+ Unlocking orders tab;
+      + Testing;
+      + Corrections;
+
+   Lets think about product behaviour inside the pail. Initially there are products from one batch only but later it might accumulate products out from different batches. How to implement this feature in a much neat manner?
+
+   In other hand usually OrSys might have a pail full of products which could have a diverse origin.
+
+   In addition seems like the best solution is to describe the user behaviour in order solving and take an attempt to accomodate OrSys functions for human needs.
+
+
+13th, 14th, 15th of May
+
+     Product pail concept development:
+
+     - Product aggregation inside pail issue sloving:
+     ISSUE DESCRIPTION: It might be useful to aggregate same products inside the pail.
+
+     - Recent orders tab locking issue clarification:
+     ISSUE DESCRIPTION: Now the recent orders tab is locked up when first agg product is moved into PO or PP. It's a order batch concept implenemtation and serves to prevent data duplication. BUT: It's impossible to compose another batch before than all agg products was not included into PO and all the latter are sent. In other words it's a full and clear batch resolving case. Sometimes some products from the actual batch could be passed into PP and wait their later resolving. It's a partial resolving case. In this case recent products tab shouldn't be locked.
+
+   Lets compound this logical requirements into precise algorithm. It might be wise to bundle the latter together with the User Manual to avoid misunderstandings.
+
+     - User Manual corrections:
+
+   - Order resolving inside OrSys based on batch processing;
+   - Batch is a sheaf of orders;
+   - Order batch is successfully resolved when all orders its contains are resolved;
+   + Forward workflow:
+
+       - User able to compose the batch by in(ex)cluding orders;
+       - All products in the batch will be aggregated by OrSys in accordion with its SKUs:
+	   - Into product pail if the same ones are unsolved there with:
+	       # new batch initiation if this particular product is the first one;
+	       # no orders tab locking (batch is liquid);
+	   - Else into aggregated product tab with:
+	       # new batch initiation if this particular product is the first one;
+	       # order tab locking (batch is frozen).
+       - It's possible to compose purchase orders by in(ex)cluding product on agg tab only;
+
+   + Backward workflow:
+       - It's possible to move product from the pail on the agg tab;
+       - It's possible to include product from sent purchase order into the pail;
+       - It's possible to delete product out form the pail (move to Trash);
+
+
+16th of May
+
+   Lets describe relationship between general functions, OrderTab lock, AggTab, products in the pail and resolved order batches.
+
+   Function	 	|      OrderTab	      		|	  AggTab 	| 	  Pail	      		| 	  ROB
+   			|      				|	  		|	  			|
+Append new order	|      Unchanged		| Primary absorbtion	| Conditional absorbtion	| Unchanged
+Exclude order		|      If unlocked		| Primary removing	| Conditional removing		| Unchanged
+Grasp product		|      Conditional lock
+Throw product
+Eliminate Product							  
+
+18th of May
+
+Known bugs:
+
++ I received several 'Internal Server Errors' when navigating throughout the application.
+
++ Clicking "Grasp" does not remove it from aggregated products list.
+
++ Clicking "Grasp" multiple times, adds it to the pail multiple times. It should only be added to the pail once.
+
+
+
+19th of May
+
++ Changing supplier preference (for instance from fax to email) does not take affect when changed by the user: suppDataUpdate development
+
+    * All aggregated products reappeared once they were composed & sent to suppliers,  even though they were already sent.
+    * All aggregated products re-appeared when removing one item from a composed purchase order, even though they have already been composed & sent to suppliers.
+
+The last two issues related onto (product pail)&(order batches) concept. Thus it requires discovering all available subtleties and looking for the optimal solution implementation.
+
+
+20th of May
+
+     <h1>- User Manual corrections:</h1>
+
+   - Order resolving inside OrSys based on batch processing;
+   - Batch is a sheaf of orders;
+   - Order batch is successfully resolved when all orders its contains are resolved;
+   - Order is resolved when all products it contains are:
+     - included into purchase order and it is sent;
+     - or accumulated in the product pail.
+
+   + Forward workflow:
+
+       - User able to compose the batch by in(ex)cluding orders;
+       - All products in the batch will be aggregated by OrSys in accordion with its SKUs:
+	   - Into product pail if the same ones are unsolved there with:
+	       # new batch initiation if this particular product is the first one;
+	       # no orders tab locking (batch is liquid);
+	   - Else into aggregated product tab with:
+	       # new batch initiation if this particular product is the first one;
+	       # order tab locking (batch is frozen).
+       - It's possible to compose purchase orders by in(ex)cluding product on agg tab only;
+
+   + Backward workflow:
+       - It's possible to move product from the pail on the agg tab (throw it up);
+       - It's possible to include product from sent purchase order into the pail (move to the pail);
+       - It's possible to delete product out form the pail (move to Trash  or eliminate);
+
+
+   Suppose it might be useful to disclose a whole app's functionality by detailed description of each particualar case. Here they are:
+
+   - MainStream case:
+     - user choose the orders to resolve;
+     - OrSys aggregates products by its SKU;
+     - OrSys substitutes prices and suppliers by experience;  
+     - user defines price and supplier for every products with empty purchase history;
+     - OrSys fills purchase orders by defined products accordingly with its supplier;
+     - user check up PO and send it;
+   - Minor case:
+   - Reverse case:
+   - Custom case:
+
+
+23th of May
+
+     Workflow diagram development. It's clear now what it might be handy to develop application with no product pail at all and later just overbuild the latter one. 
+
+24th of May
+
+     - Functional specification corrections: https://www.dropbox.com/s/6m2mvhyxew9zeyg/OrSysSpec.pdf
+     - Exclude resolved order out from recent orders tab function.
+       Main rule: order is resolved if all products it contains was included into PO or absorbed in
+       PP. In the backward case when it might be necessary to return product from PP into agg product
+       tab.
+ 
+
+25th of May
+
+
+  Especially for neat product manipulation inside and outside product pail lets introduce a new concept.
+     Order batch might be:
+
+     - Liquid and allows:
+       - to incorporate new orders;
+       - to exclude particular orders;
+     - yields spontaneously when:
+       - new order included into aggregation &&
+       - the recent order batch is resloved &&
+       - product pail contains unsolved product from this order;
+     - might transformated into:
+       - NULL when have a zero product inside;
+       - frozen one after when user manually move the
+	 first product in the forward direction;
+
+     - Frozen not allows order inc(de)crement but could
+       be resolved;
+     - might be originated out from:
+       - /dev/null (the new batch);
+       - transformation from the liquid one;
+
+
+
+
+     Func dev:
+	- Add product to the pail from sent tab;
+	- Excluding fully resolved batch of orders out from orders tab;
+
+
+!! One product per order not included into aggregation ISSUE found !! fixed ++
+
+    ^^^^^^^ Do later: ^^^^^^^
+
+   - Already included product question;
+   - Custom PO composing feature;
+
+    - Empty PO hidden existence issue;
+    - Synonym issue solving:
+      * DB enlarging;
+      * Products tab design;
+      * Function development;
+      * Testing & corrections.
+    - Last choice (history) per product feature dev;
+    - RestFul API

@@ -1,0 +1,2048 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>Filter Functions</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"><LINK
+REL="HOME"
+TITLE="Руководство по PHP"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="Справочник функций"
+HREF="funcref.html"><LINK
+REL="PREVIOUS"
+TITLE="unlink"
+HREF="function.unlink.html"><LINK
+REL="NEXT"
+TITLE="filter_has_var"
+HREF="function.filter-has-var.html"><META
+HTTP-EQUIV="Content-type"
+CONTENT="text/html; charset=UTF-8"></HEAD
+><BODY
+CLASS="reference"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Руководство по PHP</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="function.unlink.html"
+ACCESSKEY="P"
+>Пред.</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="function.filter-has-var.html"
+ACCESSKEY="N"
+>След.</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="reference"
+><A
+NAME="ref.filter"
+></A
+><DIV
+CLASS="TITLEPAGE"
+><H1
+CLASS="title"
+>XLI. Filter Functions</H1
+><DIV
+CLASS="PARTINTRO"
+><A
+NAME="AEN49747"
+></A
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.intro"
+>Введение</A
+></H1
+><P
+>&#13;    This extension serves for validating and filtering data coming usually
+    from some insecure source such as user input.
+   </P
+><P
+>&#13;    The following filters currently exist, be sure to read the 
+    <A
+HREF="ref.filter.html#filter.constants"
+>Filter Constants</A
+> section 
+    for information that describes the behavior of each constant:
+    <DIV
+CLASS="table"
+><A
+NAME="AEN49753"
+></A
+><P
+><B
+>Таблица 1. Existing filters</B
+></P
+><TABLE
+BORDER="1"
+CLASS="CALSTABLE"
+><COL><COL><COL><COL><THEAD
+><TR
+><TH
+>ID</TH
+><TH
+>Name</TH
+><TH
+>Options</TH
+><TH
+>Flags</TH
+><TH
+>Description</TH
+></TR
+></THEAD
+><TBODY
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_INT</B
+></TT
+></TD
+><TD
+>"int"</TD
+><TD
+>&#13;         <CODE
+CLASS="parameter"
+>min_range</CODE
+>,
+         <CODE
+CLASS="parameter"
+>max_range</CODE
+>
+        </TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_OCTAL</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_HEX</B
+></TT
+>
+        </TD
+><TD
+>Validates value as integer, optionally from the specified range.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_BOOLEAN</B
+></TT
+></TD
+><TD
+>"boolean"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         Returns <TT
+CLASS="constant"
+><B
+>TRUE</B
+></TT
+> for "1", "true", "on" and "yes",
+         <TT
+CLASS="constant"
+><B
+>FALSE</B
+></TT
+> for "0", "false", "off", "no", and "",
+         <TT
+CLASS="constant"
+><B
+>NULL</B
+></TT
+> otherwise.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_FLOAT</B
+></TT
+></TD
+><TD
+>"float"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>Validates value as float.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_REGEXP</B
+></TT
+></TD
+><TD
+>"validate_regexp"</TD
+><TD
+>&#13;         <CODE
+CLASS="parameter"
+>regexp</CODE
+>
+        </TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         Validates value against <CODE
+CLASS="parameter"
+>regexp</CODE
+>, a
+         <A
+HREF="ref.pcre.html"
+>Perl-compatible</A
+> regular expression.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_URL</B
+></TT
+></TD
+><TD
+>"validate_url"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_SCHEME_REQUIRED</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_HOST_REQUIRED</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_PATH_REQUIRED</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_QUERY_REQUIRED</B
+></TT
+>
+        </TD
+><TD
+>Validates value as URL, optionally with required components.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_EMAIL</B
+></TT
+></TD
+><TD
+>"validate_email"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>Validates value as e-mail.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_IP</B
+></TT
+></TD
+><TD
+>"validate_ip"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_IPV4</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_IPV6</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_PRIV_RANGE</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_RES_RANGE</B
+></TT
+>
+        </TD
+><TD
+>&#13;         Validates value as IP address, optionally only IPv4 or IPv6 or not
+         from private or reserved ranges.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_STRING</B
+></TT
+></TD
+><TD
+>"string"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_ENCODE_QUOTES</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_AMP</B
+></TT
+>
+        </TD
+><TD
+>Strip tags, optionally strip or encode special characters.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_STRIPPED</B
+></TT
+></TD
+><TD
+>"stripped"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>Alias of "string" filter.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_ENCODED</B
+></TT
+></TD
+><TD
+>"encoded"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_HIGH</B
+></TT
+>
+        </TD
+><TD
+>URL-encode string, optionally strip or encode special characters.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_SPECIAL_CHARS</B
+></TT
+></TD
+><TD
+>"special_chars"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_HIGH</B
+></TT
+>
+        </TD
+><TD
+>&#13;         HTML-escape <TT
+CLASS="literal"
+>'"&#60;&#62;&#38;</TT
+> and characters with
+         ASCII value less than 32, optionally strip or encode other special
+         characters.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_UNSAFE_RAW</B
+></TT
+></TD
+><TD
+>"unsafe_raw"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_LOW</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_HIGH</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_AMP</B
+></TT
+>
+        </TD
+><TD
+>Do nothing, optionally strip or encode special characters.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_EMAIL</B
+></TT
+></TD
+><TD
+>"email"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         Remove all characters except letters, digits and
+         <TT
+CLASS="literal"
+>!#$%&#38;'*+-/=?^_`{|}~@.[]</TT
+>.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_URL</B
+></TT
+></TD
+><TD
+>"url"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         Remove all characters except letters, digits and
+         <TT
+CLASS="literal"
+>$-_.+!*'(),{}|\\^~[]`&#60;&#62;#%";/?:@&#38;=</TT
+>.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_NUMBER_INT</B
+></TT
+></TD
+><TD
+>"number_int"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         Remove all characters except digits and <TT
+CLASS="literal"
+>+-</TT
+>.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_NUMBER_FLOAT</B
+></TT
+></TD
+><TD
+>"number_float"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&#13;         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_FRACTION</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_THOUSAND</B
+></TT
+>,
+         <TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_SCIENTIFIC</B
+></TT
+>
+        </TD
+><TD
+>&#13;         Remove all characters except digits, <TT
+CLASS="literal"
+>+-</TT
+> and
+         optionally <TT
+CLASS="literal"
+>.,eE</TT
+>.
+        </TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_MAGIC_QUOTES</B
+></TT
+></TD
+><TD
+>"magic_quotes"</TD
+><TD
+>&nbsp;</TD
+><TD
+>&nbsp;</TD
+><TD
+>Apply <A
+HREF="function.addslashes.html"
+><B
+CLASS="function"
+>addslashes()</B
+></A
+>.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="constant"
+><B
+>FILTER_CALLBACK</B
+></TT
+></TD
+><TD
+>"callback"</TD
+><TD
+>&nbsp;</TD
+><TD
+><A
+HREF="language.pseudo-types.html#language.types.callback"
+><B
+CLASS="type"
+>callback</B
+></A
+> function or method</TD
+><TD
+>Call user-defined function to filter data.</TD
+></TR
+></TBODY
+></TABLE
+></DIV
+>
+   </P
+></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.requirements"
+>Требования</A
+></H1
+><P
+>Эти функции всегда доступны.</P
+></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.installation"
+>Установка</A
+></H1
+><P
+>&#13;  A short installation note: just type
+  <TABLE
+BORDER="0"
+BGCOLOR="#E0E0E0"
+CELLPADDING="5"
+><TR
+><TD
+><PRE
+CLASS="screen"
+>$ pecl install filter</PRE
+></TD
+></TR
+></TABLE
+>
+  in your console.
+ </P
+></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.configuration"
+>Настройка во время выполнения</A
+></H1
+><P
+>&#13;Поведение этих функций зависит от установок в <TT
+CLASS="filename"
+>php.ini</TT
+>.
+</P
+><P
+>&#13;  <DIV
+CLASS="table"
+><A
+NAME="AEN49949"
+></A
+><P
+><B
+>Таблица 2. Filter Configuration Options</B
+></P
+><TABLE
+BORDER="1"
+CLASS="CALSTABLE"
+><COL><COL><COL><COL><THEAD
+><TR
+><TH
+>Name</TH
+><TH
+>Default</TH
+><TH
+>Changeable</TH
+><TH
+>Changelog</TH
+></TR
+></THEAD
+><TBODY
+><TR
+><TD
+>filter.default</TD
+><TD
+>unsafe_raw</TD
+><TD
+>PHP_INI_PERDIR</TD
+><TD
+>&nbsp;</TD
+></TR
+><TR
+><TD
+>filter.default_flags</TD
+><TD
+>&nbsp;</TD
+><TD
+>PHP_INI_PERDIR</TD
+><TD
+>&nbsp;</TD
+></TR
+></TBODY
+></TABLE
+></DIV
+>
+  Для подробного описания констант
+PHP_INI_*, обратитесь к документации функции <A
+HREF="function.ini-set.html"
+><B
+CLASS="function"
+>ini_set()</B
+></A
+>.
+</P
+><P
+>Краткое разъяснение конфигурационных
+директив.</P
+><P
+>&#13; <P
+></P
+><DIV
+CLASS="variablelist"
+><DL
+><DT
+><A
+NAME="ini.filter.default"
+></A
+><CODE
+CLASS="parameter"
+>filter.default</CODE
+>
+    <A
+HREF="language.types.string.html"
+><B
+CLASS="type"
+>string</B
+></A
+></DT
+><DD
+><P
+>&#13;     Filter all $_GET, $_POST, $_COOKIE and $_REQUEST data by this filter.
+     Original data can be accessed through <A
+HREF="function.filter-input.html"
+><B
+CLASS="function"
+>filter_input()</B
+></A
+>.
+    </P
+><P
+>&#13;     Accepts the name of the filter you like to use by default. See the
+     existing filter list for the list of the filter names.
+    </P
+></DD
+><DT
+><A
+NAME="ini.filter.default-flags"
+></A
+><CODE
+CLASS="parameter"
+>filter.default_flags</CODE
+>
+    <A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+></DT
+><DD
+><P
+>&#13;     Default flags
+    </P
+></DD
+></DL
+></DIV
+>
+ </P
+></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.resources"
+>Типы ресурсов</A
+></H1
+><P
+>Данное расширение не определяет никакие типы ресурсов.</P
+></DIV
+><DIV
+CLASS="section"
+><H1
+CLASS="section"
+><A
+NAME="filter.constants"
+>Предопределенные константы</A
+></H1
+><P
+>&#13;Перечисленные ниже константы определены данным расширением и могут быть
+доступны только в том случае, если PHP был собран с
+поддержкой этого расширения или же в том случае, если
+данное расширение подгружается во время выполнения.
+</P
+><P
+></P
+><DIV
+CLASS="variablelist"
+><DL
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_POST</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.post"
+>POST</A
+> variables.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_GET</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.get"
+>GET</A
+> variables.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_COOKIE</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.cookies"
+>COOKIE</A
+> variables.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_ENV</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.environment"
+>ENV</A
+> variables.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_SERVER</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.server"
+>SERVER</A
+> variables.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_SESSION</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.session"
+>SESSION</A
+> variables.
+    (not implemented yet)
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>INPUT_REQUEST</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     <A
+HREF="reserved.variables.html#reserved.variables.request"
+>REQUEST</A
+> variables.
+    (not implemented yet)
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NONE</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     No flags.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_REQUIRE_SCALAR</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;      Flag used to require scalar as input
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_REQUIRE_ARRAY</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;      Require an array as input. 
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FORCE_ARRAY</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Always returns an array.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_NULL_ON_FAILURE</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Use NULL instead of FALSE on failure. 
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_INT</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "int" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_BOOLEAN</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "boolean" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_FLOAT</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "float" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_REGEXP</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "validate_regexp" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_URL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "validate_url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_EMAIL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "validate_email" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_VALIDATE_IP</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "validate_ip" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_DEFAULT</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;    ID of default ("string") filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_UNSAFE_RAW</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "unsafe_raw" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_STRING</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "string" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_STRIPPED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "stripped" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_ENCODED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "encoded" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_SPECIAL_CHARS</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "special_chars" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_EMAIL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "email" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_URL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_NUMBER_INT</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "number_int" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_NUMBER_FLOAT</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "number_float" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_SANITIZE_MAGIC_QUOTES</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "magic_quotes" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_CALLBACK</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     ID of "callback" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_OCTAL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow octal notation (<TT
+CLASS="literal"
+>0[0-7]+</TT
+>) in "int" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_HEX</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow hex notation (<TT
+CLASS="literal"
+>0x[0-9a-fA-F]+</TT
+>) in "int" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_LOW</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Strip characters with ASCII value less than 32.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_STRIP_HIGH</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Strip characters with ASCII value greater than 127.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_LOW</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Encode characters with ASCII value less than 32.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_HIGH</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Encode characters with ASCII value greater than 127.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ENCODE_AMP</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Encode <TT
+CLASS="literal"
+>&#38;</TT
+>.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_ENCODE_QUOTES</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Don't encode <TT
+CLASS="literal"
+>'</TT
+> and <TT
+CLASS="literal"
+>"</TT
+>.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_EMPTY_STRING_NULL</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     (No use for now.)
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_FRACTION</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow fractional part in "number_float" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_THOUSAND</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow thousand separator (<TT
+CLASS="literal"
+>,</TT
+>) in "number_float" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_ALLOW_SCIENTIFIC</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow scientific notation (<TT
+CLASS="literal"
+>e</TT
+>, <TT
+CLASS="literal"
+>E</TT
+>) in
+     "number_float" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_SCHEME_REQUIRED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Require scheme in "validate_url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_HOST_REQUIRED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Require host in "validate_url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_PATH_REQUIRED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Require path in "validate_url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_QUERY_REQUIRED</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Require query in "validate_url" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_IPV4</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow only IPv4 address in "validate_ip" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_IPV6</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Allow only IPv6 address in "validate_ip" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_RES_RANGE</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Deny reserved addresses in "validate_ip" filter.
+    </P
+></DD
+><DT
+><TT
+CLASS="constant"
+><B
+>FILTER_FLAG_NO_PRIV_RANGE</B
+></TT
+>
+     (<A
+HREF="language.types.integer.html"
+><B
+CLASS="type"
+>integer</B
+></A
+>)</DT
+><DD
+><P
+>&#13;     Deny private addresses in "validate_ip" filter.
+    </P
+></DD
+></DL
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="TOC"
+><DL
+><DT
+><B
+>Содержание</B
+></DT
+><DT
+><A
+HREF="function.filter-has-var.html"
+>filter_has_var</A
+>&nbsp;--&nbsp;Checks if variable of specified type exists</DT
+><DT
+><A
+HREF="function.filter-id.html"
+>filter_id</A
+>&nbsp;--&nbsp;Returns the filter ID belonging to a named filter</DT
+><DT
+><A
+HREF="function.filter-input-array.html"
+>filter_input_array</A
+>&nbsp;--&nbsp;Gets multiple variables from outside PHP and optionally filters them</DT
+><DT
+><A
+HREF="function.filter-input.html"
+>filter_input</A
+>&nbsp;--&nbsp;Gets variable from outside PHP and optionally filters it</DT
+><DT
+><A
+HREF="function.filter-list.html"
+>filter_list</A
+>&nbsp;--&nbsp;Returns a list of all supported filters</DT
+><DT
+><A
+HREF="function.filter-var-array.html"
+>filter_var_array</A
+>&nbsp;--&nbsp;Gets multiple variables and optionally filters them</DT
+><DT
+><A
+HREF="function.filter-var.html"
+>filter_var</A
+>&nbsp;--&nbsp;Filters a variable with a specified filter</DT
+></DL
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="function.unlink.html"
+ACCESSKEY="P"
+>Пред.</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Начало</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="function.filter-has-var.html"
+ACCESSKEY="N"
+>След.</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>unlink</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="funcref.html"
+ACCESSKEY="U"
+>Уровень выше</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>filter_has_var</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>
