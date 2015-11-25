@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://flatfull.com/themes/todo/table.html -->
+<html lang="en" class=" js no-touch no-android chrome no-firefox no-iemobile no-ie no-ie10 no-ie11 no-ios">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Web Application | todo</title>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./Web_Application_Frontend_files/app.v2.css" type="text/css">
+    <link rel="stylesheet" href="./Web_Application_Frontend_files/font.css" type="text/css" cache="false">
+    <link rel="stylesheet" href="./Web_Application_Frontend_files/fuelux.css" type="text/css">
+    <link rel="stylesheet" href="./Web_Application_Frontend_files/datatables.css" type="text/css">
+    <!--[if lt IE 9]> <script src="js/ie/respond.min.js" cache="false"></script> <script src="js/ie/html5.js" cache="false"></script> <script src="js/ie/fix.js" cache="false"></script> <![endif]-->
+    <style type="text/css"></style>
+    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+  </head>
+  <body style="">
+    <section class="hbox stretch">
+      <!-- .aside --> 
+      <aside class="bg-dark aside-sm" id="nav">
+        <section class="vbox">
+          <header class="dker nav-bar"> <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen" data-target="#nav"> <i class="fa fa-bars"></i> </a> <a href="http://flatfull.com/themes/todo/table.html#" class="nav-brand" data-toggle="fullscreen">todo</a> <a class="btn btn-link visible-xs" data-toggle="class:show" data-target=".nav-user"> <i class="fa fa-comment-o"></i> </a> </header>
+          <section class="w-f">
+            <div class="lter nav-user hidden-xs pos-rlt">
+              <div class="nav-avatar pos-rlt">
+                <a href="http://flatfull.com/themes/todo/table.html#" class="thumb-sm avatar animated rollIn" data-toggle="dropdown"> <img src="./Web_Application_Frontend_files/avatar.jpg" alt="" class=""> <span class="caret caret-white"></span> </a> 
+                <ul class="dropdown-menu m-t-sm animated fadeInLeft">
+                  <span class="arrow top"></span> 
+                  <li> <a href="http://flatfull.com/themes/todo/table.html#">Settings</a> </li>
+                  <li> <a href="http://flatfull.com/themes/todo/profile.html">Profile</a> </li>
+                  <li> <a href="http://flatfull.com/themes/todo/table.html#"> <span class="badge bg-danger pull-right">3</span> Notifications </a> </li>
+                  <li class="divider"></li>
+                  <li> <a href="http://flatfull.com/themes/todo/docs.html">Help</a> </li>
+                  <li> <a href="http://flatfull.com/themes/todo/signin.html">Logout</a> </li>
+                </ul>
+                <div class="visible-xs m-t m-b">
+                  <a href="http://flatfull.com/themes/todo/table.html#" class="h3">John.Smith</a> 
+                  <p><i class="fa fa-map-marker"></i> London, UK</p>
+                </div>
+              </div>
+              <div class="nav-msg">
+                <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"> <b class="badge badge-white count-n">2</b> </a> 
+                <section class="dropdown-menu m-l-sm pull-left animated fadeInRight">
+                  <div class="arrow left"></div>
+                  <section class="panel bg-white">
+                    <header class="panel-heading"> <strong>You have <span class="count-n">2</span> notifications</strong> </header>
+                    <div class="list-group"> <a href="http://flatfull.com/themes/todo/table.html#" class="media list-group-item"> <span class="pull-left thumb-sm"> <img src="./Web_Application_Frontend_files/avatar.jpg" alt="John said" class="img-circle"> </span> <span class="media-body block m-b-none"> Use awesome animate.css<br> <small class="text-muted">28 Aug 13</small> </span> </a> <a href="http://flatfull.com/themes/todo/table.html#" class="media list-group-item"> <span class="media-body block m-b-none"> 1.0 initial released<br> <small class="text-muted">27 Aug 13</small> </span> </a> </div>
+                    <footer class="panel-footer text-sm"> <a href="http://flatfull.com/themes/todo/table.html#" class="pull-right"><i class="fa fa-cog"></i></a> <a href="http://flatfull.com/themes/todo/table.html#">See all the notifications</a> </footer>
+                  </section>
+                </section>
+              </div>
+            </div>
+            <nav class="nav-primary hidden-xs">
+              <ul class="nav">
+                <li> <a href="http://flatfull.com/themes/todo/index.html"> <i class="fa fa-eye"></i> <span>Discover</span> </a> </li>
+                <li class="dropdown-submenu active">
+                  <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-flask"></i> <span>UI kit</span> </a> 
+                  <ul class="dropdown-menu">
+                    <li> <a href="http://flatfull.com/themes/todo/buttons.html">Buttons</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/icons.html"> <b class="badge pull-right">302</b>Icons </a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/grid.html">Grid</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/widgets.html"> <b class="badge bg-primary pull-right">8</b>Widgets </a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/components.html"> <b class="badge pull-right">18</b>Components </a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/list.html">List groups</a> </li>
+                    <li> <a href="./Web_Application_Frontend_files/Web_Application_Frontend.html">Table</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/form.html">Form</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/chart.html">Chart</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/calendar.html">Fullcalendar</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/portlet.html">Portlet</a> </li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-file-text"></i> <span>Pages</span> </a> 
+                  <ul class="dropdown-menu">
+                    <li> <a href="http://flatfull.com/themes/todo/dashboard.html">Dashboard</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/dashboard-1.html">Dashboard one</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/dashboard-2.html">Dashboard layout</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/analysis.html">Analysis</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/master.html">Master</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/maps.html">Maps</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/gallery.html">Gallery</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/profile.html">Profile</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/blog.html">Blog</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/invoice.html">Invoice</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/signin.html">Signin page</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/signup.html">Signup page</a> </li>
+                    <li> <a href="http://flatfull.com/themes/todo/404.html">404 page</a> </li>
+                  </ul>
+                </li>
+                <li> <a href="http://flatfull.com/themes/todo/mail.html"> <b class="badge bg-primary pull-right">3</b> <i class="fa fa-envelope-o"></i> <span>Mail</span> </a> </li>
+                <li> <a href="http://flatfull.com/themes/todo/tasks.html"> <i class="fa fa-tasks"></i> <span>Tasks</span> </a> </li>
+                <li> <a href="http://flatfull.com/themes/todo/notes.html"> <i class="fa fa-pencil"></i> <span>Notes</span> </a> </li>
+                <li> <a href="http://flatfull.com/themes/todo/timeline.html"> <i class="fa fa-clock-o"></i> <span>Timeline</span> </a> </li>
+              </ul>
+            </nav>
+          </section>
+          <footer class="footer bg-gradient hidden-xs"> <a href="http://flatfull.com/themes/todo/modal.lockme.html" data-toggle="ajaxModal" class="btn btn-sm btn-link m-r-n-xs pull-right"> <i class="fa fa-power-off"></i> </a> <a href="http://flatfull.com/themes/todo/table.html#nav" data-toggle="class:nav-vertical" class="btn btn-sm btn-link m-l-n-sm"> <i class="fa fa-bars"></i> </a> </footer>
+        </section>
+      </aside>
+      <!-- /.aside --> <!-- .vbox --> 
+      <section id="content">
+        <section class="vbox">
+          <header class="header bg-success bg-gradient">
+            <ul class="nav nav-tabs">
+              <li class=""><a href="http://flatfull.com/themes/todo/table.html#static" data-toggle="tab">Static table</a></li>
+              <li class="active"><a href="http://flatfull.com/themes/todo/table.html#datagrid" data-toggle="tab">Datagrid</a></li>
+              <li class=""><a href="http://flatfull.com/themes/todo/table.html#datatable" data-toggle="tab">Datatable</a></li>
+            </ul>
+          </header>
+          <section class="scrollable wrapper">
+            <div class="tab-content">
+              <div class="tab-pane" id="static">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <section class="panel">
+                      <header class="panel-heading"> <span class="label bg-danger pull-right">4 left</span> Tasks </header>
+                      <table class="table table-striped m-b-none text-sm">
+                        <thead>
+                          <tr>
+                            <th>Progress</th>
+                            <th>Item</th>
+                            <th width="70"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="progress progress-sm progress-striped active m-t-xs m-b-none">
+                                <div class="progress-bar progress-bar-success" data-toggle="tooltip" data-original-title="80%" style="width: 80%"></div>
+                              </div>
+                            </td>
+                            <td>App prototype design</td>
+                            <td class="text-right">
+                              <div class="btn-group">
+                                <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a> 
+                                <ul class="dropdown-menu pull-right">
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Another action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Something else here</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="progress progress-xs m-t-xs m-b-none">
+                                <div class="progress-bar progress-bar-info" data-toggle="tooltip" data-original-title="40%" style="width: 40%"></div>
+                              </div>
+                            </td>
+                            <td>Design documents</td>
+                            <td class="text-right">
+                              <div class="btn-group">
+                                <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a> 
+                                <ul class="dropdown-menu pull-right">
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Another action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Something else here</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="progress progress-xs m-t-xs m-b-none">
+                                <div class="progress-bar progress-bar-warning" data-toggle="tooltip" data-original-title="20%" style="width: 20%"></div>
+                              </div>
+                            </td>
+                            <td>UI toolkit</td>
+                            <td class="text-right">
+                              <div class="btn-group">
+                                <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a> 
+                                <ul class="dropdown-menu pull-right">
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Another action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Something else here</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="progress progress-xs m-t-xs m-b-none">
+                                <div class="progress-bar progress-bar-danger" data-toggle="tooltip" data-original-title="15%" style="width: 15%"></div>
+                              </div>
+                            </td>
+                            <td>Testing</td>
+                            <td class="text-right">
+                              <div class="btn-group">
+                                <a href="http://flatfull.com/themes/todo/table.html#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil"></i></a> 
+                                <ul class="dropdown-menu pull-right">
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Another action</a></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Something else here</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="http://flatfull.com/themes/todo/table.html#">Separated link</a></li>
+                                </ul>
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </section>
+                  </div>
+                  <div class="col-sm-6">
+                    <section class="panel">
+                      <header class="panel-heading">Stats</header>
+                      <table class="table table-striped m-b-none text-sm">
+                        <thead>
+                          <tr>
+                            <th>Graph</th>
+                            <th>Item</th>
+                            <th width="70"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="sparkline" data-bar-color="#5cb85c" data-type="bar" data-height="19">
+                                <canvas width="70" height="19" style="display: inline-block; width: 70px; height: 19px; vertical-align: top;"></canvas>
+                              </div>
+                            </td>
+                            <td>App downloads</td>
+                            <td class="text-success"> <i class="fa fa-level-up"></i> 40% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="sparkline" data-bar-color="#61a1e1" data-type="bar" data-height="19">
+                                <canvas width="76" height="19" style="display: inline-block; width: 76px; height: 19px; vertical-align: top;"></canvas>
+                              </div>
+                            </td>
+                            <td>Social connection</td>
+                            <td class="text-success"> <i class="fa fa-level-up"></i> 20% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="sparkline" data-bar-color="#999900" data-type="bar" data-height="19">
+                                <canvas width="70" height="19" style="display: inline-block; width: 70px; height: 19px; vertical-align: top;"></canvas>
+                              </div>
+                            </td>
+                            <td>Revenue</td>
+                            <td class="text-warning"> <i class="fa fa-level-down"></i> 5% </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="sparkline" data-bar-color="#ff5f5f" data-type="bar" data-height="19">
+                                <canvas width="70" height="19" style="display: inline-block; width: 70px; height: 19px; vertical-align: top;"></canvas>
+                              </div>
+                            </td>
+                            <td>Customer increase</td>
+                            <td class="text-danger"> <i class="fa fa-level-down"></i> 20% </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </section>
+                  </div>
+                </div>
+                <section class="panel">
+                  <header class="panel-heading"> Responsive Table </header>
+                  <div class="row text-sm wrapper">
+                    <div class="col-sm-5 m-b-xs">
+                      <select class="input-sm form-control input-s-sm inline">
+                        <option value="0">Bulk action</option>
+                        <option value="1">Delete selected</option>
+                        <option value="2">Bulk edit</option>
+                        <option value="3">Export</option>
+                      </select>
+                      <button class="btn btn-sm btn-white">Apply</button> 
+                    </div>
+                    <div class="col-sm-4 m-b-xs">
+                      <div class="btn-group" data-toggle="buttons"> <label class="btn btn-sm btn-white active"> <input type="radio" name="options" id="option1"> Day </label> <label class="btn btn-sm btn-white"> <input type="radio" name="options" id="option2"> Week </label> <label class="btn btn-sm btn-white"> <input type="radio" name="options" id="option2"> Month </label> </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="input-group"> <input type="text" class="input-sm form-control" placeholder="Search"> <span class="input-group-btn"> <button class="btn btn-sm btn-white" type="button">Go!</button> </span> </div>
+                    </div>
+                  </div>
+                  <div class="table-responsive">
+                    <table class="table table-striped b-t text-sm">
+                      <thead>
+                        <tr>
+                          <th width="20"><input type="checkbox"></th>
+                          <th class="th-sortable active" data-toggle="class">Project <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> </th>
+                          <th>Task</th>
+                          <th>Date</th>
+                          <th width="30"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="2"></td>
+                          <td>Idrawfast</td>
+                          <td>4c</td>
+                          <td>Jul 25, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="3"></td>
+                          <td>Formasa</td>
+                          <td>8c</td>
+                          <td>Jul 22, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="4"></td>
+                          <td>Avatar system</td>
+                          <td>15c</td>
+                          <td>Jul 15, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="4"></td>
+                          <td>Throwdown</td>
+                          <td>4c</td>
+                          <td>Jul 11, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="5"></td>
+                          <td>Idrawfast</td>
+                          <td>4c</td>
+                          <td>Jul 7, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="6"></td>
+                          <td>Formasa</td>
+                          <td>8c</td>
+                          <td>Jul 3, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="7"></td>
+                          <td>Avatar system </td>
+                          <td>15c</td>
+                          <td>Jul 2, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox" name="post[]" value="8"></td>
+                          <td>Videodown</td>
+                          <td>4c</td>
+                          <td>Jul 1, 2013</td>
+                          <td> <a href="http://flatfull.com/themes/todo/table.html#" class="active" data-toggle="class"><i class="fa fa-check text-success text-active"></i><i class="fa fa-times text-danger text"></i></a> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <footer class="panel-footer">
+                    <div class="row">
+                      <div class="col-sm-4 hidden-xs">
+                        <select class="input-sm form-control input-s-sm inline">
+                          <option value="0">Bulk action</option>
+                          <option value="1">Delete selected</option>
+                          <option value="2">Bulk edit</option>
+                          <option value="3">Export</option>
+                        </select>
+                        <button class="btn btn-sm btn-white">Apply</button> 
+                      </div>
+                      <div class="col-sm-4 text-center"> <small class="text-muted inline m-t-sm m-b-sm">showing 20-30 of 50 items</small> </div>
+                      <div class="col-sm-4 text-right text-center-xs">
+                        <ul class="pagination pagination-sm m-t-none m-b-none">
+                          <li><a href="http://flatfull.com/themes/todo/table.html#"><i class="fa fa-chevron-left"></i></a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#">1</a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#">2</a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#">3</a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#">4</a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#">5</a></li>
+                          <li><a href="http://flatfull.com/themes/todo/table.html#"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </footer>
+                </section>
+              </div>
+              <div class="tab-pane active" id="datagrid">
+                <section class="panel">
+                  <header class="panel-heading"> DataGrid <i class="fa fa-info-sign text-muted" data-toggle="tooltip" data-placement="bottom" data-title="ajax to load the data." data-original-title="" title=""></i> </header>
+                  <div class="table-responsive">
+                    <table id="MyStretchGrid" class="table table-striped datagrid m-b-sm">
+                      <thead>
+                        <tr>
+                          <th colspan="5">
+                            <div class="row">
+                              <div class="col-sm-8 m-t-xs m-b-xs">
+                                <div class="select filter" data-resize="auto">
+                                  <button data-toggle="dropdown" class="btn btn-sm btn-white dropdown-toggle"> <span class="dropdown-label" style="width: 105px;">All</span> <span class="caret"></span> </button> 
+                                  <ul class="dropdown-menu">
+                                    <li data-value="all"><a href="http://flatfull.com/themes/todo/table.html#">All</a></li>
+                                    <li data-value="lt5m"><a href="http://flatfull.com/themes/todo/table.html#">Population &lt; 5M</a></li>
+                                    <li data-value="gte5m"><a href="http://flatfull.com/themes/todo/table.html#">Population &gt;= 5M</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="col-sm-4 m-t-xs m-b-xs">
+                                <div class="input-group search datagrid-search">
+                                  <input type="text" class="input-sm form-control" placeholder="Search"> 
+                                  <div class="input-group-btn"> <button class="btn btn-white btn-sm"><i class="icon-search"></i></button> </div>
+                                </div>
+                              </div>
+                            </div>
+                          </th>
+                        </tr>
+                        <tr>
+                          <th data-property="toponymName" class="sortable">Name</th>
+                          <th data-property="countrycode" class="sortable">Country</th>
+                          <th data-property="population" class="sortable">Population</th>
+                          <th data-property="fcodeName" class="sortable">Type</th>
+                          <th data-property="geonameId" class="sortable">Edit</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mexico City</td>
+                          <td>MX</td>
+                          <td>12294193</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=3530597"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Manila</td>
+                          <td>PH</td>
+                          <td>10444527</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1701668"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Dhaka</td>
+                          <td>BD</td>
+                          <td>10356500</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1185241"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Seoul</td>
+                          <td>KR</td>
+                          <td>10349312</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1835848"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Jakarta</td>
+                          <td>ID</td>
+                          <td>8540121</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1642911"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Tokyo</td>
+                          <td>JP</td>
+                          <td>8336599</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1850147"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Taipei</td>
+                          <td>TW</td>
+                          <td>7871900</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1668341"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Beijing</td>
+                          <td>CN</td>
+                          <td>7480601</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1816670"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>BogotГЎ</td>
+                          <td>CO</td>
+                          <td>7102602</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=3688689"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Hong Kong</td>
+                          <td>HK</td>
+                          <td>7012738</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1819729"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Bangkok</td>
+                          <td>TH</td>
+                          <td>5104476</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1609350"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Singapore</td>
+                          <td>SG</td>
+                          <td>3547809</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1880252"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Pyongyang</td>
+                          <td>KP</td>
+                          <td>3222000</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1871859"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Kabul</td>
+                          <td>AF</td>
+                          <td>3043532</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1138958"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Caracas</td>
+                          <td>VE</td>
+                          <td>3000000</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=3646738"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Santo Domingo</td>
+                          <td>DO</td>
+                          <td>2201941</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=3492908"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Havana</td>
+                          <td>CU</td>
+                          <td>2163824</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=3553478"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Tashkent</td>
+                          <td>UZ</td>
+                          <td>1978028</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1512569"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Phnom Penh</td>
+                          <td>KH</td>
+                          <td>1573544</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1821306"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                        <tr>
+                          <td>Kuala Lumpur</td>
+                          <td>MY</td>
+                          <td>1453975</td>
+                          <td>capital of a political entity</td>
+                          <td><a href="http://flatfull.com/themes/todo/table.html#edit?geonameid=1735161"><i class="icon-pencil"></i></a></td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <th class="row" colspan="5">
+                            <div class="datagrid-footer-left col-sm-6 text-center-xs m-l-n" style="visibility: visible;">
+                              <div class="grid-controls m-t-sm">
+                                <span> <span class="grid-start">1</span> - <span class="grid-end">20</span> of <span class="grid-count">146 items</span> </span> 
+                                <div class="select grid-pagesize dropup" data-resize="auto">
+                                  <button data-toggle="dropdown" class="btn btn-sm btn-white dropdown-toggle"> <span class="dropdown-label">20</span> <span class="caret"></span> </button> 
+                                  <ul class="dropdown-menu">
+                                    <li data-value="5"><a href="http://flatfull.com/themes/todo/table.html#">5</a></li>
+                                    <li data-value="10"><a href="http://flatfull.com/themes/todo/table.html#">10</a></li>
+                                    <li data-value="20"><a href="http://flatfull.com/themes/todo/table.html#">20</a></li>
+                                    <li data-value="50"><a href="http://flatfull.com/themes/todo/table.html#">50</a></li>
+                                    <li data-value="100"><a href="http://flatfull.com/themes/todo/table.html#">100</a></li>
+                                  </ul>
+                                </div>
+                                <span>Per Page</span> 
+                              </div>
+                            </div>
+                            <div class="datagrid-footer-right col-sm-6 text-right text-center-xs" style="visibility: visible;">
+                              <div class="grid-pager m-r-n">
+                                <button type="button" class="btn btn-sm btn-white grid-prevpage" disabled="disabled"><i class="fa fa-chevron-left"></i></button> <span>Page</span> 
+                                <div class="inline">
+                                  <div class="input-group dropdown combobox">
+                                    <input class="input-sm form-control" type="text"> 
+                                    <div class="input-group-btn dropup">
+                                      <button class="btn btn-sm btn-white" data-toggle="dropdown"><i class="caret"></i></button> 
+                                      <ul class="dropdown-menu pull-right">
+                                        <li><a>1</a></li>
+                                        <li><a>2</a></li>
+                                        <li><a>3</a></li>
+                                        <li><a>4</a></li>
+                                        <li><a>5</a></li>
+                                        <li><a>6</a></li>
+                                        <li><a>7</a></li>
+                                        <li><a>8</a></li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <span>of <span class="grid-pages">8</span></span> <button type="button" class="btn btn-sm btn-white grid-nextpage"><i class="fa fa-chevron-right"></i></button> 
+                              </div>
+                            </div>
+                          </th>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </section>
+              </div>
+              <div class="tab-pane" id="datatable">
+                <section class="panel">
+                  <header class="panel-heading"> DataTables <i class="fa fa-info-sign text-muted" data-toggle="tooltip" data-placement="bottom" data-title="ajax to load the data." data-original-title="" title=""></i> </header>
+                  <div class="table-responsive">
+                    <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div id="DataTables_Table_0_length" class="dataTables_length">
+                            <label>
+                              Show 
+                              <select size="1" name="DataTables_Table_0_length" aria-controls="DataTables_Table_0">
+                                <option value="10" selected="selected">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                              </select>
+                              entries
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="dataTables_filter" id="DataTables_Table_0_filter"><label>Search: <input type="text" aria-controls="DataTables_Table_0"></label></div>
+                        </div>
+                        <div id="DataTables_Table_0_processing" class="dataTables_processing" style="visibility: hidden;">Processing...</div>
+                      </div>
+                      <table class="table table-striped m-b-none dataTable" data-ride="datatables" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info">
+                        <thead>
+                          <tr role="row">
+                            <th width="20%" class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 20px;" aria-label="Rendering engine: activate to sort column ascending">Rendering engine</th>
+                            <th width="25%" class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 25px;" aria-label="Browser: activate to sort column ascending">Browser</th>
+                            <th width="25%" class="sorting_desc" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 25px;" aria-sort="descending" aria-label="Platform(s): activate to sort column ascending">Platform(s)</th>
+                            <th width="15%" class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 15px;" aria-label="Engine version: activate to sort column ascending">Engine version</th>
+                            <th width="15%" class="sorting" role="columnheader" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" style="width: 15px;" aria-label="CSS grade: activate to sort column ascending">CSS grade</th>
+                          </tr>
+                        </thead>
+                        <tbody role="alert" aria-live="polite" aria-relevant="all">
+                          <tr class="odd">
+                            <td class="">Misc</td>
+                            <td class="">IE Mobile</td>
+                            <td class=" sorting_1">Windows Mobile 6</td>
+                            <td class="">-</td>
+                            <td class="">C</td>
+                          </tr>
+                          <tr class="even">
+                            <td class="">Trident</td>
+                            <td class="">Internet Explorer 7</td>
+                            <td class=" sorting_1">Win XP SP2+</td>
+                            <td class="">7</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="odd">
+                            <td class="">Trident</td>
+                            <td class="">AOL browser (AOL desktop)</td>
+                            <td class=" sorting_1">Win XP</td>
+                            <td class="">6</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="even">
+                            <td class="">Gecko</td>
+                            <td class="">Netscape Browser 8</td>
+                            <td class=" sorting_1">Win 98SE+</td>
+                            <td class="">1.7</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="odd">
+                            <td class="">Gecko</td>
+                            <td class="">Firefox 1.0</td>
+                            <td class=" sorting_1">Win 98+ / OSX.2+</td>
+                            <td class="">1.7</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="even">
+                            <td class="">Gecko</td>
+                            <td class="">Firefox 1.5</td>
+                            <td class=" sorting_1">Win 98+ / OSX.2+</td>
+                            <td class="">1.8</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="odd">
+                            <td class="">Gecko</td>
+                            <td class="">Firefox 2.0</td>
+                            <td class=" sorting_1">Win 98+ / OSX.2+</td>
+                            <td class="">1.8</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="even">
+                            <td class="">Gecko</td>
+                            <td class="">Netscape Navigator 9</td>
+                            <td class=" sorting_1">Win 98+ / OSX.2+</td>
+                            <td class="">1.8</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="odd">
+                            <td class="">Gecko</td>
+                            <td class="">Seamonkey 1.1</td>
+                            <td class=" sorting_1">Win 98+ / OSX.2+</td>
+                            <td class="">1.8</td>
+                            <td class="">A</td>
+                          </tr>
+                          <tr class="even">
+                            <td class="">Gecko</td>
+                            <td class="">Mozilla 1.7</td>
+                            <td class=" sorting_1">Win 98+ / OSX.1+</td>
+                            <td class="">1.7</td>
+                            <td class="">A</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="dataTables_info" id="DataTables_Table_0_info">Showing 1 to 10 of 57 entries</div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="dataTables_paginate paging_full_numbers" id="DataTables_Table_0_paginate"><a tabindex="0" class="first paginate_button paginate_button_disabled" id="DataTables_Table_0_first">First</a><a tabindex="0" class="previous paginate_button paginate_button_disabled" id="DataTables_Table_0_previous">Previous</a><span><a tabindex="0" class="paginate_active">1</a><a tabindex="0" class="paginate_button">2</a><a tabindex="0" class="paginate_button">3</a><a tabindex="0" class="paginate_button">4</a><a tabindex="0" class="paginate_button">5</a></span><a tabindex="0" class="next paginate_button" id="DataTables_Table_0_next">Next</a><a tabindex="0" class="last paginate_button" id="DataTables_Table_0_last">Last</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+        </section>
+        <a href="http://flatfull.com/themes/todo/table.html#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a> 
+      </section>
+      <!-- /.vbox --> 
+    </section>
+    <script src="./Web_Application_Frontend_files/app.v2.js"></script> <!-- Bootstrap --> <!-- App --> <!-- fuelux --> <script src="./Web_Application_Frontend_files/fuelux.js"></script> <script src="./Web_Application_Frontend_files/underscore-min.js"></script> <!-- datatables --> <script src="./Web_Application_Frontend_files/jquery.dataTables.min.js"></script> <!-- Sparkline Chart --> <!-- Easy Pie Chart --> 
+    <div id="selectTextSize" style="">Population &gt;= 5M</div>
+  </body>
+</html>
