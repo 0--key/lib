@@ -1,0 +1,104 @@
+You will need to scrape http://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent every few seconds and get any new filings. 
+
+Then you will post the list of filings and companies that you've retrieved since your last check to an endpoint that we've created.
+
+We just need the company, the stock ticker of company, the time it was posted on the SEC's website, the type of SEC form, and the name of the document posted.
+
+We would prefer that either Python, Go, or NodeJS be used for this project. 
+
+YOU MUST HAVE SOME FINANCE KNOWLEDGE FOR THIS PROJECT. 
+
+If you do a great job on this, we have a ton more work for you!!!
+
+
+Hello sir,
+
+I've wrote the raw template and got first results out from sec.gov. Could you review the attached .zip, please?
+
+There are several questions about your project:
+
+1. Could you explain what is stock ticker and where it allocates on the main table;
+2. What average number of items you're reconed to store in database;
+3. What average number of new items per day might emerge?
+
+
+In any case this monitoring system development might allocate less than 5 hours with SQLite3 or MySQL as RDBMS. Seems like it would be completed on Sunday.
+
+In other hand obviously that you need to disclose how do you prefer to interact with the application. Obviously it requires to deploy it somewhere in the web and so on and so fourth
+
+On my point of view a comprehensive technical specification collaborative composing is a good point to start out from.
+
+King regards,
+Alioth
+
+The Securities & Exchange Commission (SEC) requires companies to file earnings reports no later than 45 days after the end of their first three quarters, and their quarterly and annual reports 90 days after their fiscal year end. Companies file quarterly earnings reports on Form 10-Q or 10-QSB and yearly earnings reports on Form 10-K or 10-KSB. A company can file these reports or announce earnings publicly whenever it chooses, provided it follows the 45- and 90-day guidelines set forth by the SEC.
+
+Hence, suppose they are: SEC1296 and SEC1673
+
+
++4:22 PM IST, 6 Nov, 2015 Adam Rose How long would TORificication require? Can't you just cache in Redis rather than RDBMS?
+
++
+
++When it detects new, it should POST to our incoming content API endpoint. I will give you the URL and specs with that if we move forward
+
++Adam Rose 	 4:22 PM IST, 6 Nov, 2015 Adam Rose What's your skype?
+
++
+
++32  sudo apt-get install redis-server
+
++33  sudo pip install redis
+
++
+
+Hi Adam,
+
+
+
+With any doubt Redis is a great tool for this task. HTTP POST request isn't tricky to implement also.
+
+My Skype ID is cosmozzzic. It would be great to have a chat with you and get necessary specs.
+
+
+
+King regards,
+
+Alioth
+/html/body/div[1]/table[2]/tbody/tr[66]/td[3]/a
+/html/body/div[1]/table[2]/tbody/tr[67]/td[4]
+
+
+General format:
+[issuer name] [form type] For [form type description]
+
+If "/A" included in form type, use general format:
+[issuer name] Amended [form type] For [form type description]
+
+3/4/13G/13D formats:
+[issuer name] [form type] By [reporting person] For [form type description]
+
+If "/A" included in form type 13G or 13D, use general format:
+[issuer name] Amended [form type] By [reporting person] For [form type description]
+
+Format for non-specified form type:
+[co name] [form type]
+
+Form type descriptions:
+3 = Initial Statement Of Beneficial Ownership
+4 = Changes To Beneficial Ownership
+6-K = General Corporate Statement By Foreign Issuer
+8-K = General Corporate Statement
+10-K = Annual Report
+10-Q = Quarterly Report
+SC 13F = Institutional Investors' Quarterly Holdings
+SC 13G = Change In Stake
+SC 13D = Change In Passive Stake
+F-1 = Initial Offering By Foreign Issuer
+S-1 = Initial Offering 
+S-3 = Offering Of Securities
+S-4 = Offering Of Securities
+S-8 = Offering To Employees Via Benefits Plans
+SD = Specialized Disclosure
+D = Notice Of Exempt Offering
+
