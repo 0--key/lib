@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:ihe:iti:svs:2008 /static/IHE/SVS_ValueSetRepository.xsd"
+    xmlns="urn:ihe:iti:svs:2008">
+    <ValueSet id="{{ ID }}"
+        displayName="{{ dName }}"/>
+    <ConceptList>{% for item in placebo %}{% for row in item  %}
+      <Concept code="{{ row.code }}" concept="{{ row.concept }}" category = "{{ row.category }}" taxonomy="{{ row.taxonomy }}" TaxonomyVersion="{{ row.taxonomy_version }}" descriptor="{{ row.descriptor }}"/>{% endfor %}{% endfor %}
+    </ConceptList>
+</RetrieveValueSetResponse>

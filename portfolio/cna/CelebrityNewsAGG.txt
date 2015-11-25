@@ -1,0 +1,187 @@
+Detailed Project Objectives:
+
+1. Research and recommend a good online data-source(s) for celebrity news;
+    - Research and evaluate 5-10 alternative sources for news-content articles (e.g. Google News, Bing News, Feedly, etc.). Present your results and provide recommendation(s).
+    - [IMDB Celebrity News](http://www.imdb.com/news/celebrity) is a reasonable example of how the data will ultimately be presented. 
+    - Important considerations for data-source:
+            - breadth of up-to-date celebrity-related content available;
+            - cost-of-use;
+            - ease-of-use (e.g. API that is pretty easy to integrate into the program);
+            - ability to scale (i.e. to handle large number of queries, perhaps 10,000-100,000+ queries, and amount of data per query);
+
+2. Research and recommend a good data-source for celebrity-related "categories" and "sub-categories";
+    - These celebrity-related "categories" and "sub-categories" will be used for organizing, searching and filtering celebrity news articles (from Project Objective 1).
+    - An example of celebrity-related categories and associated sub-categories could be:
+        - Category = "Music"
+        - Sub-categories = "Rock-n-roll", "Country", etc.
+    - Research and evaluate 3-5 alternative sources for celebrity-related "categories" and "sub-categories" (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Category:Films_by_genre) or [IMDB](http://www.imdb.com/genre/), etc.). Present results and provide recommendation(s).
+    - Important considerations for data-source:
+        - A reasonably comprehensive and robust list of the celebrity-related "categories" and "sub-categories";
+        - Ease-of-use (e.g. relatively easy extraction from data-source without copyright restrictions, clear relationships between "categories" and "sub-categories", straight-forward mapping to celebrity news-content articles (see above);
+        
+3. Develop a Python program that takes search-criteria and uses it to find associated celebrity news (using the data-source from Project Objective 1), and populates the news results to a Postgres database.
+    - The search-criteria can be based on celebrity-related categories, sub-categories (from Project Objective 2), keywords, or free-text;
+
+Hi
+
+1. In other words you want to develop news data aggregator whith certain main functions:
+   - derive data out from several sources;
+   - populate Postgres database with those data;
+   - render data out from Postgres into frontend similar with http://www.imdb.com/news/celebrity;
+
+2. News categorizing is a separate task and it well resolved by NLTK library (http://www.ibm.com/developerworks/library/os-pythonnltk/index.html) As result it is possible to get the set of tags for every news article. Each tag is linked with similar news in DB. Obviously several tags are pre-defined (names, genres etc.), and a few ones been emerged during categorizing process (like movies, songs or concerts).
+
+3. After data processing disclosed above it would be possible retrive particular data out from DB (not out from news sources) in any format you're prefer.
+
+In conclusion I want to emphasise that the average development duratin (on my point of view) is more than a month.
+
+King regards,
+Alioth
+
+
+Hi Alioth,
+
+My Skype ID will be pyramidtechnologyllc.
+
+Attached is a more thorough project spec. It would be great if you can look it over before the meeting and:
+
+    think about whether the spec sounds clear and reasonable;
+    prepare any questions or clarifications that you have for me;
+    think about whether your capabilities and interests will be a good fit for the project; and
+    refine your cost and time estimation, based on the detailed spec and on our conversation on Thursday.
+
+
+Thanks and looking forward to speaking with you,
+David
+
+	- The Google News Search API has been officially deprecated as of May 26, 2011. It will continue to work as per our deprecation policy, but the number of requests you may make per day may be limited. (https://developers.google.com/news-search/)
+	- Imdb.com available http://www.imdb.com/xml/find?json=1&nr=1&nm=on&q=jeniffer+garner and http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=lost
+	- Imdb.com new API for movies data retrieving: http://www.omdbapi.com/
+	- Imdb.com plain text data: http://www.imdb.com/interfaces
+	  + it is possible to access data via FTP: ftp://ftp.fu-berlin.de/pub/misc/movies/database/
+    filename   	  	      	     	      	content-length last-modified				file-type
+    "README"					1428	       Sun%2C%2029%20May%202014%2000%3A00%3A00 FILE 
+    "actors.list.gz" 	    	    		286628050      Sun%2C%2023%20Oct%202015%2020%3A48%3A00 FILE 
+    "actresses.list.gz"     	    		159983588      Sun%2C%2023%20Oct%202015%2020%3A51%3A00 FILE 
+    "aka-names.list.gz"     	    		8000268        Sun%2C%2023%20Oct%202015%2020%3A59%3A00 FILE 
+    "aka-titles.list.gz"    	    		8892333        Sun%2C%2023%20Oct%202015%2020%3A58%3A00 FILE 
+    "alternate-versions.list.gz"    		2489051        Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "biographies.list.gz" 	    		188551220      Sun%2C%2023%20Oct%202015%2020%3A58%3A00 FILE 
+    "business.list.gz" 		    		10029873       Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "certificates.list.gz" 	    		5402342	       Sun%2C%2023%20Oct%202015%2020%3A59%3A00 FILE 
+    "cinematographers.list.gz" 	    		18208903       Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "color-info.list.gz" 	    		16661970       Sun%2C%2023%20Oct%202015%2021%3A00%3A00 FILE 
+    "complete-cast.list.gz" 	    		1012063        Sun%2C%2016%20Mar%202012%2000%3A00%3A00 FILE 
+    "complete-crew.list.gz" 	    		594007 	       Sun%2C%2016%20Mar%202012%2000%3A00%3A00 FILE 
+    "composers.list.gz" 	    		14475566       Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "contrib" 			    		0 	       Sun%2C%2016%20Dec%202013%2000%3A00%3A00 DIRECTORY 
+    "costume-designers.list.gz"     		4844388        Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "countries.list.gz" 	    		16889330       Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "crazy-credits.list.gz" 	    		1302430        Sun%2C%2023%20Oct%202015%2020%3A57%3A00 FILE 
+    "diffs" 			    		0 	       Sun%2C%2024%20Oct%202015%2003%3A46%3A00 DIRECTORY 
+    "directors.list.gz" 	    		32608939       Sun%2C%2023%20Oct%202015%2020%3A52%3A00 FILE 
+    "distributors.list.gz" 	    		26151249       Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "editors.list.gz" 		    		23067332       Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "filesizes" 		    		1259 	       Sun%2C%2023%20Oct%202015%2020%3A48%3A00 FILE 
+    "filesizes.old" 		    		1259 	       Sun%2C%2023%20Oct%202015%2020%3A48%3A00 FILE 
+    "genres.list.gz" 		    		16446364       Sun%2C%2023%20Oct%202015%2021%3A00%3A00 FILE 
+    "german-aka-titles.list.gz"     		355393 	       Sun%2C%2020%20May%202005%2000%3A00%3A00 FILE 
+    "goofs.list.gz" 		    		20029419       Sun%2C%2023%20Oct%202015%2020%3A57%3A00 FILE 
+    "iso-aka-titles.list.gz" 	    		21347 	       Sun%2C%2016%20Oct%201998%2000%3A00%3A00 FILE 
+    "italian-aka-titles.list.gz"    		415956 	       Sun%2C%2014%20Dec%202000%2000%3A00%3A00 FILE 
+    "keywords.list.gz" 		    		44687299       Sun%2C%2023%20Oct%202015%2021%3A03%3A00 FILE 
+    "language.list.gz" 		    		16943715       Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "laserdisc.list.gz" 	    		802452 	       Sun%2C%2020%20May%202005%2000%3A00%3A00 FILE 
+    "literature.list.gz" 	    		6020213        Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "locations.list.gz" 	    		13502100       Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "miscellaneous-companies.list.gz" 		14346246       Sun%2C%2023%20Oct%202015%2021%3A03%3A00 FILE 
+    "miscellaneous.list.gz" 	      		97424240       Sun%2C%2023%20Oct%202015%2020%3A54%3A00 FILE 
+    "movie-links.list.gz" 	      		4737305        Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "movies.list.gz" 		      		34917921       Sun%2C%2023%20Oct%202015%2020%3A57%3A00 FILE 
+    "mpaa-ratings-reasons.list.gz"    		314690 	       Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "newsletter" 		      		0 	       Sun%2C%2020%20Aug%202009%2000%3A00%3A00 DIRECTORY 
+    "outbound" 			      		0 	       Sun%2C%2005%20May%202010%2000%3A00%3A00 DIRECTORY 
+    "plot.list.gz" 		      		122002844      Sun%2C%2023%20Oct%202015%2020%3A55%3A00 FILE 
+    "producers.list.gz" 	      		81428390       Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "production-companies.list.gz"    		28966774       Sun%2C%2023%20Oct%202015%2021%3A00%3A00 FILE 
+    "production-designers.list.gz"    		5790820        Sun%2C%2023%20Oct%202015%2020%3A53%3A00 FILE 
+    "quotes.list.gz" 		      		69399515       Sun%2C%2023%20Oct%202015%2020%3A57%3A00 FILE 
+    "ratings.list.gz" 		      		12250289       Sun%2C%2023%20Oct%202015%2020%3A55%3A00 FILE 
+    "release-dates.list.gz" 	      		52325642       Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "running-times.list.gz" 	      		13072098       Sun%2C%2023%20Oct%202015%2020%3A59%3A00 FILE 
+    "sound-mix.list.gz" 	      		6676613        Sun%2C%2023%20Oct%202015%2021%3A00%3A00 FILE 
+    "soundtracks.list.gz" 	      		19845942       Sun%2C%2023%20Oct%202015%2020%3A57%3A00 FILE 
+    "special-effects-companies.list.gz"        	1067305        Sun%2C%2023%20Oct%202015%2021%3A02%3A00 FILE 
+    "taglines.list.gz" 			       	5601393        Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "technical.list.gz" 		       	13572060       Sun%2C%2023%20Oct%202015%2021%3A01%3A00 FILE 
+    "tools" 				       	0 	       Sun%2C%2020%20Aug%202009%2000%3A00%3A00 DIRECTORY 
+    "trivia.list.gz" 			       	45863708       Sun%2C%2023%20Oct%202015%2020%3A56%3A00 FILE 
+    "writers.list.gz" 			       	51077908       Sun%2C%2023%20Oct%202015%2020%3A52%3A00 FILE 
+
+
+  For navigation in plenty of data sources about celebrities I've used my RSS aggregator INOreader. It proposes to me list of most popular RSS channels. Here it is:
+
+	- http://gawker.com/
+	  | Today's gossip is tomorrow's news
+	  | 4k subscribers 234 articles/week 
+	  + http://feeds.gawker.com/gawker/full
+	- http://perezhilton.com/
+	  | Perez Hilton dishes up the juiciest celebrity gossip
+	  | 1k subscribers 469 articles/week
+	  + http://i.perezhilton.com/?feed=rss2
+	- http://dlisted.com/
+	  | Be Very Afraid
+	  | 1k subscribers 69 articles/week
+	  + http://dlisted.com/rss.xml
+	- https://www.tmz.com/
+	  | Celebrity Gossip and Entertainment News
+	  | 1k subscribers 228 articles/week 
+	  + http://www.tmz.com/rss.xml
+	...  
+
+  The main question is: what if RSS feeds not contain any records matching the search criteria? For example if we type into app 'Benedict Cumberbatch'?
+
+
+Hi Alioth,
+
+Due to a bug on UpWork, the "Python News Aggregator" job seems to have been accidentally
+closed. However, the position has not yet been filled. I can either post a duplicate job on UpWork
+and invite you to re-apply, or we can coordinate this agreement via email.
+ 
+In any case, I would like to initiate work with you on this project. Attached is the Project
+Specification And Contract for a fixed-price of $200, to be completed within 2 weeks. The sooner
+each of the deliverables is completed, the sooner payment would be provided. Please evaluate the
+contract and, to initiate the project, simply sign and return it. If you prefer to coordinate this work
+directly, then payments could be deposited to your PayPal account.
+
+For Project Objectives 1 and 2, Bing seems to be the front-runner as a data-source. We would like
+assistance confirming that Bing will meet our needs in terms of the considerations mentioned in the
+Project Specification (see Project Objectives 1 and 2 for details). This could mean using Bing in the
+context of the API, RSS feeds, web-scraping, or some combination of these options. It may be
+desirable to develop a test-program that uses either Bing's API or the RSS feeds for its
+"Entertainment News". We could then see if that meets our needs and go from there.
+ 
+Please let me know if you have any questions. I would need to know your decision about the project
+by Monday (November 2nd).
+ 
+Best regards,
+David
+
+
+
+Hello David,
+
+Seems like it would be nice if you create a new job on Upwork and invite me to collaboration. It might be a private job, I suppose.
+
+There are three milestones which might be solved at the initial stage:
+
+  + Research and generation of preliminary outline and recommendation on news­content data­source and celebrity­related news categories and sub­categories: $10.00
+  + Refined and finalized report on news­content data­sources, celebrity­related news categories and sub­categories, and recommendations: $30.00
+
+http://www.bing.com/news?q=entertainment+news&FORM=NWRFSH not contains innate 'category' and https://news.google.com has the latter.
+  
+??   The main question is: what if RSS feeds not contain any records matching the search criteria? For example if we type into app 'Benedict Cumberbatch'?
+
+
+Truly yours,
+Alioth

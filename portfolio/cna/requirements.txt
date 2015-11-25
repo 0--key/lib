@@ -1,0 +1,19 @@
+# Ubuntu14.04
+# Python2.7
+# Postgres9.3
+# postgresql-server-dev-9.3
+# psycopg2
+#
+#
+# Postgres administration:
+# create new user:
+# postgres -U postgres
+# postgres=# CREATE USER pyramid WITH PASSWORD 'h1dDen';
+# postgres=# CREATE DATABASE pyramid_db WITH OWNER=pyramid;
+# change /etc/postgresql/9.3/main/pg_hba.conf add the string below:
+# local   pyramid_db      pyramid                                 md5
+# sudo service postgresql restart
+# psql pyramid -h 127.0.0.1 -d pyramid_db
+lxml
+requests
+psql pyramid -h 127.0.0.1 -d pyramid_db -f pg_init.sql
