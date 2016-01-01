@@ -11865,6 +11865,54 @@
       : Gun 300.0
       : Gun 300.0
       : Knife 20.0
+***** Pizza factory
+      #+BEGIN_SRC python :output results
+        class Pizza(object):
+
+            def __init__(self):
+                self._price = None
+
+            def get_price(self):
+                return self._price
+
+
+        class HamAndMushroomPizza(Pizza):
+
+            def __init__(self):
+                self._price = 8.5
+
+
+        class DeluxePizza(Pizza):
+
+            def __init__(self):
+                self._price = 10.5
+
+
+        class HawaiianPizza(Pizza):
+
+            def __init__(self):
+                self._price = 11.5
+
+
+        class PizzaFactory(object):
+
+            @staticmethod
+            def create_pizza(pizza_type):
+                if pizza_type == 'HamMushroom':
+                    return HamAndMushroomPizza()
+                elif pizza_type == 'Deluxe':
+                    return DeluxePizza()
+                elif pizza_type == 'Hawaiian':
+                    return HawaiianPizza()
+
+
+        for pizza_type, price in zip(['HamMushroom', 'Deluxe', 'Hawaiian'], [8.5, 10.5, 11.5]):
+            assert PizzaFactory.create_pizza(pizza_type).get_price() == price,\
+                "%s validation failed." % pizza_type
+      #+END_SRC
+
+      #+RESULTS:
+      : None
 
 *** Abstract factory
 **** Problem
