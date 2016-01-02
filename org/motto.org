@@ -12136,6 +12136,16 @@
      Sometimes creational patterns are complementary: =Builder= can use one of
      the other patterns to implement which components are built.
      #+END_QUOTE
+**** Scenario
+     Building cars:
+     - Tires
+     - Engine
+     - etc.
+**** Solution
+***** Director
+***** Abstract Builder: interfaces
+***** Concrete Builder: implements the interfaces
+***** Product: object being built
 *** Prototype
 *** Prototype example
 *** Decorator
