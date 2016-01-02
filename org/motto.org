@@ -12112,7 +12112,30 @@
       returning a class with the same name
 **** Caution
 *** Builder
-*** Builder example
+**** Problem
+     #+BEGIN_QUOTE
+     The builder pattern is an object creation software design pattern.
+     Unlike the abstract factory pattern and the factory method pattern
+     whose intention is to enable polymorphism, the intention of the
+     builder pattern is to find a solution to the telescoping constructor
+     anti-pattern[citation needed]. The telescoping constructor anti-pattern
+     occurs when the increase of object constructor parameter combination
+     leads to an exponential list of constructors.
+     Instead of using numerous constructors, the builder pattern uses another
+     object, a /builder/, that receives each initialization parameter step by
+     step and then returns the resulting constructed object at once.
+     #+END_QUOTE
+
+     The main premise for design is an excessive number of constructors.
+
+     #+BEGIN_QUOTE
+     =Builder= often builds a =Composite=. Often, designs start out using =Factory
+     Method= (less complicated, more customizable, subclasses proliferate) and
+     evolve toward =Abstract Factory=, =Prototype=, or =Builder= (more flexible,
+     more complex) as the designer discovers where more flexibility is needed.
+     Sometimes creational patterns are complementary: =Builder= can use one of
+     the other patterns to implement which components are built.
+     #+END_QUOTE
 *** Prototype
 *** Prototype example
 *** Decorator
