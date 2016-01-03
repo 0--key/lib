@@ -13789,6 +13789,21 @@
 
 *** Code snippets
 
+**** Clone python-patterns repositories
+     into =DVCS/pp= folder
+
+**** Rename all repositories by their author nick
+
+**** Create =Emacs= deskop file there
+
+**** Read all repos
+
+**** Compile theirs gist into my own motto
+
+**** Elaborate these addition
+
+**** Contribute it into faif
+
 ** DONE Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
    [[Git update][Upgrade git]]
