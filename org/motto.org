@@ -13871,16 +13871,11 @@
    http://bit.ly/hE8j3k
 
 ** TODO Emacs [2/2] 
-
 *** DONE registers
 
 *** DONE version control
-
-** DONE new favicon
-
 ** README.md export test not works properly
    it's necessary to edit it strictly in 0--key.io 
-
 ** DONE Internal links test
    It's necessary to compose the absolute links only
 
