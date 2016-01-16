@@ -27,7 +27,6 @@
 
 
 * Knowledge is power;						       :True:
-
 ** it is product of education;					       :True:
 
 *** TODO reading;
@@ -41,7 +40,8 @@
 *** they require repetition;
 
 *** the spaced repetition is the best approach;
-* Dive into Python programming language
+
+* Dive deeper into Python programming language
 
 ** in six months
 
@@ -58,8 +58,16 @@
 http://github.com/pydata/pydata-book
 
 
-* Python for Data Analyse
-** DONE Preliminaries
-** TODO Introductory Examples
-*** collections pack
-** TODO IPython: An Interactive Computing and Development Environment
+** Python for Data Analyse
+*** DONE Preliminaries
+*** TODO Introductory Examples
+**** collections pack
+*** TODO IPython: An Interactive Computing and Development Environment
+
+** Programming Python 4th Edition
+** NLP with Python
+* Enhance general coding grit
+** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
+* Enlarge Emacs toolbox
+** TODO [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
+** TODO [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
