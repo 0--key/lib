@@ -72,3 +72,4 @@ http://github.com/pydata/pydata-book
 * Enlarge Emacs toolbox
 ** TODO [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** TODO [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
+*** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
