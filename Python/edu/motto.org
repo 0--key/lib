@@ -60,16 +60,18 @@ http://github.com/pydata/pydata-book
 
 ** Python for Data Analyse
 *** DONE Preliminaries
-*** TODO Introductory Examples
+*** TODO Introductory Examples <2016-01-18 Mon>
 **** collections pack
 *** TODO IPython: An Interactive Computing and Development Environment
-
+    <2016-01-18 Mon>
 ** Programming Python 4th Edition
 ** NLP with Python
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
-*** [[http://careercup.com/][Additional information]]
+*** [[http://careercup.com/][Additional information]] on website
 * Enlarge Emacs toolbox
-** TODO [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
-** TODO [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
+** DONE [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
+** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
+** DONE OrgMode [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
+** TODO [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
