@@ -1,4 +1,4 @@
-(key-chord-define-global "hj"     'undo)
+(key-chord-define-global "uu"     'undo)
 ;; single movement
 (key-chord-define-global "jk"     'forward-char)
 (key-chord-define-global "fd"     'backward-char)
@@ -9,6 +9,20 @@
 (key-chord-define-global "fs"     'backward-word)
 (key-chord-define-global "uo"     'backward-paragraph)
 (key-chord-define-global "m."     'forward-paragraph)
-;;
-;;
+(key-chord-define-global "<<"     'beginning-of-buffer)
+(key-chord-define-global ">>"     'end-of-buffer)
+;; deleting and yanking
+(key-chord-define-global "ww"     'kill-region)
+(key-chord-define-global "WW"     'kill-ring-save)
+(key-chord-define-global "yy"     'yank)
+(key-chord-define-global "YY"     'yank-pop)
+;; switch buffer
+(key-chord-define-global "oo"     'other-window)
+;;(key-chord-define-global "OO"     'other-window 2)
+;;(key-chord-define-global "op"     'other-window 3)
+(key-chord-define-global "bb"     'list-buffers)
+(key-chord-define-global "BB"     'switch-to-buffer)
+;; save all
+(key-chord-define-global "ss"     'save-some-buffers)
+(key-chord-define-global "SS"     'save-buffer)
 (provide 'key-chord-map)
