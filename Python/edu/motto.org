@@ -75,3 +75,20 @@ http://github.com/pydata/pydata-book
 *** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
 ** DONE OrgMode [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
 ** TODO [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
+*** mkdir ~/.emacs.d/lisp/
+**** put into it key-chord.el
+**** and key-chord-map.el:
+     (key-chord-define-global "hj"     'undo)
+     (provide 'key-chord-map)
+*** add into init.el:
+    (add-to-list 'load-path "~/.emacs.d/lisp/")
+    (require 'key-chord)
+    (key-chord-mode 1)
+    (require 'key-chord-map)
+
+
+
+
+
+This is a sample text to reveiw key-chords
+How it works
