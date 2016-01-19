@@ -11,6 +11,8 @@
 (key-chord-define-global "m."     'forward-paragraph)
 (key-chord-define-global "<<"     'beginning-of-buffer)
 (key-chord-define-global ">>"     'end-of-buffer)
+(key-chord-define-global "tt"     'scroll-down-command)
+(key-chord-define-global "vv"     'scroll-up-command)
 ;; deleting and yanking
 (key-chord-define-global "ww"     'kill-region)
 (key-chord-define-global "WW"     'kill-ring-save)
@@ -25,4 +27,5 @@
 ;; save all
 (key-chord-define-global "ss"     'save-some-buffers)
 (key-chord-define-global "SS"     'save-buffer)
+;;
 (provide 'key-chord-map)
