@@ -61,3 +61,4 @@ google_appengine/
 .#*
 
 pydata-book/
+venv/

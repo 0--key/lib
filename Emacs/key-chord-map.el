@@ -20,8 +20,8 @@
 (key-chord-define-global "YY"     'yank-pop)
 ;; switch buffer
 (key-chord-define-global "oo"     'other-window)
-;;(key-chord-define-global "OO"     'other-window 2)
-;;(key-chord-define-global "op"     'other-window 3)
+;(key-chord-define-global "OO"     "/C-o/C-o")
+;(key-chord-define-global "op"     "/C-u/2/C-o")
 (key-chord-define-global "bb"     'list-buffers)
 (key-chord-define-global "BB"     'switch-to-buffer)
 ;; save all

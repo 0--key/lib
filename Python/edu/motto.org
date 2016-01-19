@@ -68,10 +68,10 @@ http://github.com/pydata/pydata-book
 **** TODO IPython: An Interactive Computing and Development Environment
      <2016-01-18 Mon>
 *** Programming Python 4th Edition
-**** Install and test Python3 devEnv
+**** DONE Install and test Python3 devEnv
      virtualenv -p /usr/bin/python3 yourenv
      source yourenv/bin/activate
-     pip install package-name
+     pip install ipython
      DEADLINE: <2016-01-19 Tue>
 *** NLP with Python
 
@@ -83,7 +83,7 @@ http://github.com/pydata/pydata-book
 ** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
 ** DONE OrgMode [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
-** TODO [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
+** DONE [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
 **** put into it key-chord.el
 **** and key-chord-map.el:
