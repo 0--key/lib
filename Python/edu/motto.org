@@ -69,6 +69,9 @@ http://github.com/pydata/pydata-book
      <2016-01-18 Mon>
 *** Programming Python 4th Edition
 **** Install and test Python3 devEnv
+     virtualenv -p /usr/bin/python3 yourenv
+     source yourenv/bin/activate
+     pip install package-name
      DEADLINE: <2016-01-19 Tue>
 *** NLP with Python
 
