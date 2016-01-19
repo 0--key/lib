@@ -44,9 +44,10 @@
 * Dive deeper into Python programming language
 
 ** in six months
-
+   
 ** with:
 
+*** Python3
 *** Standard approaches
 *** NLTK
 *** NumPy
@@ -58,14 +59,19 @@
 http://github.com/pydata/pydata-book
 
 
-** Python for Data Analyse
-*** DONE Preliminaries
-*** TODO Introductory Examples <2016-01-18 Mon>
-**** collections pack
-*** TODO IPython: An Interactive Computing and Development Environment
-    <2016-01-18 Mon>
-** Programming Python 4th Edition
-** NLP with Python
+** by studying:
+
+*** Python for Data Analyse
+**** DONE Preliminaries
+**** TODO Introductory Examples <2016-01-18 Mon>
+***** collections pack
+**** TODO IPython: An Interactive Computing and Development Environment
+     <2016-01-18 Mon>
+*** Programming Python 4th Edition
+**** Install and test Python3 devEnv
+     DEADLINE: <2016-01-19 Tue>
+*** NLP with Python
+
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
