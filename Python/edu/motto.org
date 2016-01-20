@@ -48,7 +48,14 @@
 ** with:
 
 *** Python3
-*** Standard approaches
+**** DONE Install and test Python3 devEnv
+     virtualenv -p /usr/bin/python3 yourenv
+     source yourenv/bin/activate
+     pip install ipython
+     DEADLINE: <2016-01-19 Tue>
+**** TODO Install numpy, pandas, nltk into devEnv
+     DEADLINE: <2016-01-20 Wed>
+*** Standard library
 *** NLTK
 *** NumPy
 *** pandas
@@ -68,11 +75,6 @@ http://github.com/pydata/pydata-book
 **** TODO IPython: An Interactive Computing and Development Environment
      <2016-01-18 Mon>
 *** Programming Python 4th Edition
-**** DONE Install and test Python3 devEnv
-     virtualenv -p /usr/bin/python3 yourenv
-     source yourenv/bin/activate
-     pip install ipython
-     DEADLINE: <2016-01-19 Tue>
 *** NLP with Python
 
 * Enhance general coding grit
