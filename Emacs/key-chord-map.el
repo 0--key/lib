@@ -27,5 +27,9 @@
 ;; save all
 (key-chord-define-global "ss"     'save-some-buffers)
 (key-chord-define-global "SS"     'save-buffer)
+;; deletion
+(key-chord-define-global "gf"     'kill-word)
+(key-chord-define-global "hj"     'backward-kill-word)
+(key-chord-define-global "kl"     'kill-line)
 ;;
 (provide 'key-chord-map)
