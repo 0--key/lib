@@ -57,25 +57,26 @@
    
 ** with:
 
-*** Python3
+*** Python3++
 **** DONE Install and test Python3 devEnv
      virtualenv -p /usr/bin/python3 yourenv
      source yourenv/bin/activate
      pip install ipython
      DEADLINE: <2016-01-19 Tue>
-**** TODO Install DEADLINE: <2016-01-20 Wed>
+**** DONE Install into devEnv:
+     DEADLINE: <2016-01-20 Wed>
 ***** numpy
       sudo apt-get install python3-dev
       pip install numpy
-***** pandas, nltk into devEnv
+***** pandas
+      pip install pandas
+***** nltk
+      pip install -U nltk
       
-*** Standard library
-*** NLTK
-*** NumPy
-*** pandas
-*** matplotlib
-*** IPython
-*** SciPy
+***** matplotlib
+      sudo apt-get install libfreetype6-dev
+      sudo apt-get install libxft-dev
+      pip install matplotlib 
 
 http://github.com/pydata/pydata-book
 

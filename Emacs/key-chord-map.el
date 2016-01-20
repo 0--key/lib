@@ -13,6 +13,8 @@
 (key-chord-define-global ">>"     'end-of-buffer)
 (key-chord-define-global "tt"     'scroll-down-command)
 (key-chord-define-global "vv"     'scroll-up-command)
+(key-chord-define-global "sa"     'move-beginning-of-line)
+(key-chord-define-global ";'"     'move-end-of-line)
 ;; deleting and yanking
 (key-chord-define-global "ww"     'kill-region)
 (key-chord-define-global "WW"     'kill-ring-save)
