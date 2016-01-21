@@ -6,7 +6,7 @@ runs strings as code;  could also eval() record dict all at once;
 could also dbfile.write(key + '\n') vs print(key, file=dbfile);
 """
 
-dbfilename = 'people-file'
+dbfilename = 'people-file.edu'
 ENDDB = 'enddb.'
 ENDREC = 'endrec.'
 RECSEP = '=>'
