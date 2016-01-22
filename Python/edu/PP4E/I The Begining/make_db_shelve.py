@@ -23,9 +23,6 @@ def get_from_shelve():
     
 
 def update_shelve():
-    """
-    Updates db on the shelve
-    """
     db = shelve.open('people-shelve.edu')
     sue = db['sue']                       # fetch sue
     sue['pay'] *= 1.50
