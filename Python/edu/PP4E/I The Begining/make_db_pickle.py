@@ -1,4 +1,5 @@
-import pickle, glob
+import pickle
+import glob
 
 
 def pickle_db(object):
@@ -18,4 +19,3 @@ def find_files():  # seeking for matching filenames
     for filename in glob.glob('*.py'):
         print(filename)
     return True
-        
