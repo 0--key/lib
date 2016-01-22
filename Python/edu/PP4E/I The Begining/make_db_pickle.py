@@ -1,4 +1,4 @@
-import pickle
+import pickle, glob
 
 
 def pickle_db(object):
@@ -12,3 +12,10 @@ def restore_pickled_obj():
     dbfile = open('people-pickle.edu', 'rb')  # use binary mode files in 3.X
     db = pickle.load(dbfile)
     return db
+
+
+def find_files():  # seeking for matching filenames
+    for filename in glob.glob('*.py'):
+        print(filename)
+    return True
+        
