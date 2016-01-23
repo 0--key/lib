@@ -1,41 +1,4 @@
 
-* Jargon
-
-** Munge/Munging/Wrangling
-   Describes the overall process of manipulating unstructured and/or messy data
-   into a structured or clean form. The word has snuck its way into the jargon
-   of many modern day data hackers. Munge rhymes with “lunge”.
-
-** Interacting with the outside world
-   Reading and writing with a variety of file formats and databases.
-
-** Preparation
-   Cleaning, munging, combining, normalizing, reshaping, slicing and dicing, and
-   transforming data for analysis.
-
-** Transformation
-   Applying mathematical and statistical operations to groups of data sets to
-   derive new data sets. For example, aggregating a large table by group variables.
-
-** Modeling and computation
-   Connecting your data to statistical models, machine learning algorithms, or other
-   computational tools
-
-** Presentation
-   Creating interactive or static graphical visualizations or textual summaries
-
-   
-
-** Cracking Interview
-*** A hiring committee typically wants to see one interviewer
-    who is an "enthusiastic endorser"
-*** Be ready to code on a whiteboard and make sure all of your
-    thoughts are clearly communicated
-*** Well, I may be embellishing a little, but hear me out.
-*** I am not exaggerating to say that I did not understand
-    a single answer she gave during the interview p.16
-*** 
-    
 * Knowledge is power;						       :True:
 ** it is product of education;					       :True:
 
@@ -50,6 +13,68 @@
 *** they require repetition;
 
 *** the spaced repetition is the best approach;
+* Jargon
+    
+** PP4E
+*** Let’s step back for a moment and consider how far ’ve come.
+
+**** 
+
+*** If you’ve already studied Python in any sort of depth,
+    you probably already know that this is where its OOP support begins
+    to become attractive:
+
+    Structure
+    With OOP,  can naturally associate processing logic with record data—classes
+    provide both a program unit that combines logic and data in a single package and
+    a hierarchy that allows code to be easily factored to avoid redundancy.
+
+    Encapsulation
+    With OOP,  can also wrap up details such as name processing and pay increases
+    behind method functions—i.e.,  are free to change method implementations
+    without breaking their users.
+
+    Customization
+    And with OOP,  have a natural growth path. Classes can be extended and cus-
+    tomized by coding n subclasses, without changing or breaking already working
+    code.
+
+
+** PfDA
+*** Munge/Munging/Wrangling
+    Describes the overall process of manipulating unstructured and/or messy data
+    into a structured or clean form. The word has snuck its way into the jargon
+    of many modern day data hackers. Munge rhymes with “lunge”.
+
+*** Interacting with the outside world
+    Reading and writing with a variety of file formats and databases.
+
+*** Preparation
+    Cleaning, munging, combining, normalizing, reshaping, slicing and dicing, and
+    transforming data for analysis.
+
+*** Transformation
+    Applying mathematical and statistical operations to groups of data sets to
+    derive new data sets. For example, aggregating a large table by group variables.
+
+*** Modeling and computation
+    Connecting your data to statistical models, machine learning algorithms, or other
+    computational tools
+
+*** Presentation
+    Creating interactive or static graphical visualizations or textual summaries
+
+    
+
+** Cracking Interview
+*** A hiring committee typically wants to see one interviewer
+    who is an "enthusiastic endorser"
+*** Be ready to code on a whiteboard and make sure all of your
+    thoughts are clearly communicated
+*** Well, I may be embellishing a little, but hear me out.
+*** I am not exaggerating to say that I did not understand
+    a single answer she gave during the interview p.16
+*** 
 
 * Dive deeper into Python programming language
 
