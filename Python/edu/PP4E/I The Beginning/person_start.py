@@ -12,6 +12,13 @@ class Person:
     def giveRaise(self, percent):
         self.pay *= (1.0 + percent)
 
+
+class Manager(Person):
+
+    def giveRaise(self, percent, bonus=0.1):
+        self.pay *= (1.0 + percent + bonus)
+
+
 if __name__ == '__main__':
     bob = Person('Bob Smith', 42, 30000, 'software')
     sue = Person('Sue Jones', 45, 40000, 'hardware')

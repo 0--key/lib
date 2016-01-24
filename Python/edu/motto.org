@@ -149,8 +149,10 @@ http://github.com/pydata/pydata-book
 
 This is a sample text to reveiw key-chords
 How it works
-** TODO [[Spelling checkinghttps://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
+** DONE [[Spelling checkinghttps://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
+** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
+   DEADLINE: <2016-01-31 Sun>
 * Enhance English
 ** Grammar
 ** Pronounce
