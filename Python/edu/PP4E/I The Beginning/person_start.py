@@ -6,6 +6,9 @@ class Person:
         self.pay = pay
         self.job = job
 
+    def __str__(self):
+        return '<%s => %s>' % (self.__class__.__name__, self.name)
+
     def lastName(self):
         return self.name.split()[-1]
 
@@ -16,7 +19,7 @@ class Person:
 class Manager(Person):
 
     def giveRaise(self, percent, bonus=0.1):
-        self.pay *= (1.0 + percent + bonus)
+        Person.giveRaise(self, percent + bonus)
 
 
 if __name__ == '__main__':
