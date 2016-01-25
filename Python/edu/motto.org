@@ -76,6 +76,14 @@
     a single answer she gave during the interview p.16
 *** 
 
+
+** Writing Idiomatic Python
+
+*** Oftentimes,
+    functions need to accept an arbitrary list of positional parameters
+    and/or keyword parameters , use a subset of them, and forward the rest to
+    another function.
+
 * Dive deeper into Python programming language
 
 ** in six months
@@ -132,6 +140,7 @@ http://github.com/pydata/pydata-book
      [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
 **** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
      
+*** Writing Idiomatic Python
 
 * Discover Git
 
