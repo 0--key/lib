@@ -129,7 +129,13 @@ http://github.com/pydata/pydata-book
 *** Python Anti-Patterns
 **** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 **** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
+     [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
 **** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
+     
+
+* Discover Git
+
+** Fork useful projects
 
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
