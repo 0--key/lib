@@ -105,7 +105,6 @@
 
 http://github.com/pydata/pydata-book
 
-
 ** by studying:
 
 *** Python for Data Analyse
@@ -122,10 +121,20 @@ http://github.com/pydata/pydata-book
 **** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 **** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
 *** NLP with Python
+    
+*** Effective Python
+
+**** [[https://github.com/bslatkin/effectivepython][Git]]
+*** Fluent Python
+*** Python Anti-Patterns
+**** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
+**** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
+**** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
 
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
+** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 * Enlarge Emacs toolbox
 ** DONE [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
