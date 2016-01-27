@@ -20,4 +20,5 @@ class Person():
 
     def __str__(self):
         return ('<%s => %s: %s y.o. // %s , %s>' %
-                (self.__class__.__name__, self.name, self.age, self.job, self.pay))
+                (self.__class__.__name__, self.name, self.age,
+                 self.job, self.pay))
