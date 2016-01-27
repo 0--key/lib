@@ -46,6 +46,12 @@
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 (split-window-right)
 ;;
+(setq default-directory "/usr/local/share/DVCS/lib/Python/edu/effectivepython/")
+(shell "ge")
+;;
+(setq default-directory "/usr/local/share/DVCS/lib/Python/edu/python-patterns/")
+(shell "gp")
+;;
 (setq default-directory "/usr/local/share/DVCS/lib/")
 (shell "git")
 ;;(switch-to-buffer "git")
