@@ -1,5 +1,5 @@
 
-* Knowledge is power;						       :True:
+* Knowledge is power © 						       :True:
 ** it is product of education;					       :True:
 
 *** TODO reading;
@@ -13,6 +13,7 @@
 *** they require repetition;
 
 *** the spaced repetition is the best approach;
+
 * Jargon & definition
     
 ** PP4E
@@ -77,7 +78,19 @@
 *** It was a real mess; we'd inherited a nasty ball of spaghetti,
     and we needed people who could jump in, figure things out,
     and be part of the solution.
-*** 
+*** Sometimes, I don’t have a very good attention to detail.
+    While that’s good because it lets me execute quickly, it also means
+    that I sometimes make careless mistakes. Because of that, I make
+    sure to always have someone else double check my work.
+*** Table 1
+*** Table 2
+*** I can go into more details if you’d like
+*** I asked him open-ended questionson how he felt it was going,
+    and which components he was excited about tackling.
+*** Handling Technical Questions
+**** So when you get a hard question, don’t panic.
+     Just start talking aloud about how you would solve it.
+*** Five Algorithm Approaches
 
 ** Writing Idiomatic Python
 
