@@ -58,4 +58,9 @@
 ;;(buffer-menu-other-window)
 (other-window 1)
 ;;
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (emacs-lisp . t)
+  ))
 ;; (global-auto-revert-mode t)

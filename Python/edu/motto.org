@@ -174,13 +174,6 @@ http://github.com/pydata/pydata-book
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 * Enlarge Emacs toolbox
-** TODO New shortcuts
-   C-x Left/Right
-   M-x $
-   M-x ispell
-   M-g g, M-g M-g
-   C-h b, d, k
-** TODO Reveal OrgMode
 ** DONE [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
@@ -205,8 +198,41 @@ This is a sample text to reveiw key-chords
 How it works
 ** DONE [[Spelling checkinghttps://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
+** TODO New shortcuts
+   C-x Left/Right
+   M-x $
+   M-x ispell
+   M-g g, M-g M-g
+   C-h b, d, k, v(ariable)
+   M-x eval-buffer
+** TODO Reveal OrgMode BaBel
+*** http://orgmode.org/worg/org-contrib/babel/intro.html
+*** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
+*** http://orgmode.org/worg/org-contrib/babel/languages.html#configure
+*** http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+** TODO Embedding Python source code into Org document
+*** This is the first and successful attempt			       :CODE:
+    #+begin_src python :results output
+      import sys
+      print(sys.version)
+      print("Hello, world!")
+      print("This is a test")
+      for i in range(4):
+	  print(i)
+    #+end_src python
+
+    #+RESULTS:
+    : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+    : [GCC 4.8.4]
+    : Hello, world!
+    : This is a test
+    : 0
+    : 1
+    : 2
+    : 3
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>
+
 * Enhance English
 ** Grammar
 ** Pronounce
