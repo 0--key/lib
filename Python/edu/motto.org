@@ -230,6 +230,33 @@ How it works
     : 1
     : 2
     : 3
+*** Lets try to embed code snippet from outside
+    #+INCLUDE: "./include_test.py"
+*** Examples from real world
+    #+name: session_init
+    #+begin_src python :results output :session test
+      # Example from Slatkin's book
+      a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+      print('First four:', a[:4])
+      print('Last four: ', a[-4:])
+      print('Middle two:', a[3:-3])
+    #+end_src
+
+    #+RESULTS: session_init
+    : First four: ['a', 'b', 'c', 'd']
+    : Last four:  ['e', 'f', 'g', 'h']
+    : Middle two: ['d', 'e']
+
+    #+BEGIN_SRC python :results output :session test
+      # it's the session test
+      print('This is a session variable a : ')
+    #+END_SRC
+
+    #+RESULTS:
+    : This is a session variable a : 
+
+*** Session test
+
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>
 
