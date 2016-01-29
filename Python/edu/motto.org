@@ -64,7 +64,25 @@
 *** Presentation
     Creating interactive or static graphical visualizations or textual summaries
 
-    
+** OrgMode
+*** Curious thought
+    #+BEGIN_QUOTE
+        Let us change our traditional attitude to the construction of
+	programs: Instead of imagining that our main task is to instruct
+	a computer what to do, let us concentrate rather on explaining
+	to human beings what we want a computer to do.
+
+	The practitioner of literate programming can be regarded as an
+	essayist, whose main concern is with exposition and excellence of
+	style. Such an author, with thesaurus in hand, chooses the names
+	of variables carefully and explains what each variable means.
+	He or she strives for a program that is comprehensible because
+	its concepts have been introduced in an order that is best for
+	human understanding, using a mixture of formal and informal
+	methods that reinforce each other.
+
+    – Donald Knuth
+    #+END_QUOTE
 ** Cracking Interview
 *** A hiring committee typically wants to see one interviewer
     who is an "enthusiastic endorser"
