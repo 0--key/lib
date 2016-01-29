@@ -1,0 +1,32 @@
+#+TITLE:Org-mode Babel test file 
+#+AUTHOR: Anton Kosinov
+#+email: a.s.kosinov@gmail.com
+#+INFOJS_OPT: 
+#+BABEL: :session *Py* :cache yes :results output graphics :exports both :tangle yes 
+-----
+#+BEGIN_SRC python :session *Py*
+  import sys
+  
+  def test():
+      """
+      Example with no session
+      """
+      return 'Hello World!'
+  test()
+  4 + 8
+#+END_SRC
+
+#+RESULTS:
+: None
+
+#+BEGIN_SRC python :session *Py*
+  import sys
+  
+  s = sys.version
+  return 4 + 7 
+  
+#+END_SRC
+
+#+RESULTS:
+: 11
+

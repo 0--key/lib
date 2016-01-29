@@ -244,7 +244,13 @@ How it works
     : 2
     : 3
 *** Lets try to embed code snippet from outside
-    #+INCLUDE: "./include_test.py"
+    #+BEGIN_SRC python
+      print(sys.version)
+          
+    #+END_SRC
+
+    #+RESULTS:
+
 *** Examples from real world
     #+name: session_init
     #+begin_src python :results output :session test
@@ -262,17 +268,19 @@ How it works
 
     #+BEGIN_SRC python :results output :session test
       # it's the session test
-      print('This is a session variable a : ')
+      print('This is a session variable a : ', a)
     #+END_SRC
 
     #+RESULTS:
-    : This is a session variable a : 
 
 *** Session test
+    #+BEGIN_SRC 
+    
+    #+END_SRC
 
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>
-
+   
 * Enhance English
 ** Grammar
 ** Pronounce

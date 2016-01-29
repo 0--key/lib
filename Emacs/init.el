@@ -63,4 +63,19 @@
  '((python . t)
    (emacs-lisp . t)
   ))
+;; Babel customization
+(custom-set-variables
+ '(org-confirm-babel-evaluate nil))
+;;
+(define-skeleton org-skeleton
+  "Header info for a emacs-org file."
+  "Title: "
+  "#+TITLE:" str " \n"
+  "#+AUTHOR: Anton Kosinov\n"
+  "#+email: a.s.kosinov@gmail.com\n"
+  "#+INFOJS_OPT: \n"
+  "#+BABEL: :session *Py* :cache yes :results output graphics :exports both :tangle yes \n"
+  "-----"
+ )
+(global-set-key [C-S-f4] 'org-skeleton)
 ;; (global-auto-revert-mode t)
