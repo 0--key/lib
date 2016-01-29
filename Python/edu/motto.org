@@ -218,6 +218,7 @@ How it works
    M-g g, M-g M-g
    C-h b, d, k, v(ariable)
    M-x eval-buffer
+*** trivial embedding into main text:
 ** TODO Reveal OrgMode BaBel
 *** http://orgmode.org/worg/org-contrib/babel/intro.html
 *** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
@@ -262,21 +263,31 @@ How it works
     #+end_src
 
     #+RESULTS: session_init
-    : First four: ['a', 'b', 'c', 'd']
+    : 
+    : >>> First four: ['a', 'b', 'c', 'd']
     : Last four:  ['e', 'f', 'g', 'h']
     : Middle two: ['d', 'e']
 
     #+BEGIN_SRC python :results output :session test
+      import sys
       # it's the session test
       print('This is a session variable a : ', a)
     #+END_SRC
 
     #+RESULTS:
+    : 
+    : ... This is a session variable a :  ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 
 *** Session test
-    #+BEGIN_SRC 
-    
+    #+BEGIN_SRC python :results output :session test 
+      print(sys.version)
+      print('How it might be possible!', a[2:5])
     #+END_SRC
+
+    #+RESULTS:
+    : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+    : [GCC 4.8.4]
+    : How it might be possible! ['c', 'd', 'e']
 
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>

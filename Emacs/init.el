@@ -31,6 +31,10 @@
 ;;(setq py-split-windows-on-execute-p nil)
 ; try to automagically figure out indentation
 ;;(setq py-smart-indentation t)
+;
+(require 'package)
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+;
 (package-initialize)
     (elpy-enable)
 ;;

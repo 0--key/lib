@@ -17,16 +17,17 @@
 #+END_SRC
 
 #+RESULTS:
-: None
+: 12
 
 #+BEGIN_SRC python :session *Py*
-  import sys
-  
   s = sys.version
-  return 4 + 7 
-  
+  4 + 7
+  s
+  return test()
+
 #+END_SRC
 
 #+RESULTS:
-: 11
+: 3.4.3 (default, Oct 14 2015, 20:33:09) 
+: [GCC 4.8.4]
 
