@@ -4,30 +4,39 @@
 #+INFOJS_OPT: 
 #+BABEL: :session *Py* :cache yes :results output graphics :exports both :tangle yes 
 -----
-#+BEGIN_SRC python :session *Py*
-  import sys
+
+
+* Initiate session
+  #+BEGIN_SRC python :results output :session I
+    import sys
+    print(sys.version)
+
+  #+END_SRC
+
+  #+RESULTS:
+  : 
+  : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+  : [GCC 4.8.4]
+
+* Test session variables
+  #+BEGIN_SRC python :results output :session I
+  print(sys.version)
   
-  def test():
-      """
-      Example with no session
-      """
-      return 'Hello World!'
-  test()
-  4 + 8
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-: 12
+  #+RESULTS:
+  : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+  : [GCC 4.8.4]
 
-#+BEGIN_SRC python :session *Py*
-  s = sys.version
-  4 + 7
-  s
-  return test()
+* Test second session
+  #+BEGIN_SRC python :results output :session II
+  print(sys.version)
+  
+  #+END_SRC
 
-#+END_SRC
-
-#+RESULTS:
-: 3.4.3 (default, Oct 14 2015, 20:33:09) 
-: [GCC 4.8.4]
+  #+RESULTS:
+  : 
+  : >>> >>> >>> Traceback (most recent call last):
+  :   File "<stdin>", line 1, in <module>
+  : NameError: name 'sys' is not defined
 
