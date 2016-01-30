@@ -13,9 +13,12 @@
 *** they require repetition;
 
 *** the spaced repetition is the best approach;
-
+   
+* Enhance English
+** Grammar
+** Pronounce
+** Vocabulary
 * Jargon & definition
-    
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
 
@@ -109,7 +112,23 @@
 **** So when you get a hard question, don’t panic.
      Just start talking aloud about how you would solve it.
 *** Five Algorithm Approaches
-
+**** I: EXAMPLIFY
+**** II: PATTERN MATCHING
+**** III: SIMPLIFY & GENERALIZE
+**** IV: BASE CASE AND BUILD
+**** V: DATA STRUCTURE BRAINSTORM
+*** If what you want is to stay an engineer for life, then there is
+    absolutely nothing wrong with that.
+*** Top Ten Mistakes Candidates Make
+    #+BEGIN_QUOTE
+    Quality beats quantity
+    #+END_QUOTE
+    When asked a question, break your answer into three parts
+    (Situation / Action / Response, Issue 1 / Issue 2 / Issue 3, etc)
+    and speak for just a couple sentences about each. If I want more
+    details, I’ll ask!
+    
+    
 ** Writing Idiomatic Python
 
 *** Oftentimes,
@@ -132,82 +151,11 @@
 **** Unicode
      Unicode characters
 *** 
-
-* Dive deeper into Python programming language
-
-** in six months
-   
-** with:
-
-*** Python3++
-**** DONE Install and test Python3 devEnv
-     virtualenv -p /usr/bin/python3 yourenv
-     source yourenv/bin/activate
-     pip install ipython
-     DEADLINE: <2016-01-19 Tue>
-**** DONE Install into devEnv:
-     DEADLINE: <2016-01-20 Wed>
-***** numpy
-      sudo apt-get install python3-dev
-      pip install numpy
-***** pandas
-      pip install pandas
-***** nltk
-      pip install -U nltk
-      
-***** matplotlib
-      sudo apt-get install libfreetype6-dev
-      sudo apt-get install libxft-dev
-      pip install matplotlib 
-
-http://github.com/pydata/pydata-book
-
-** by studying:
-
-*** Python for Data Analyse
-**** DONE Preliminaries
-**** TODO Introductory Examples <2016-01-18 Mon>
-***** collections pack
-**** TODO IPython: An Interactive Computing and Development Environment
-     <2016-01-18 
-*** Official Python documentation
-**** http://docs.python.org
-**** http://pypi.python.org/pypi
-**** http://pyvideo.org
-*** Programming Python 4th Edition
-**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
-**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
-*** NLP with Python
-    
-*** Effective Python
-
-**** [[https://github.com/bslatkin/effectivepython][Git]]
-*** Fluent Python
-*** Python Anti-Patterns
-**** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
-**** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
-     [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
-**** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
-     
-*** Writing Idiomatic Python
-
-* Discover Git
-
-** Fork useful projects
-
-*** DONE EffectivePython
-*** DONE Python-Patterns
-** Evaluate it in educational purposes
-** Open pull request
-
-* Enhance general coding grit
-** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
-*** [[http://careercup.com/][Additional information]] on website
-** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 * Enlarge Emacs toolbox
 ** DONE [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
-*** predefined snippets for PyMode ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
+*** predefined snippets for PyMode
+    ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
 ** DONE OrgMode [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
 ** DONE [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
@@ -309,8 +257,74 @@ How it works
 
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>
+
+* Dive deeper into Python programming language
+
+** in six months
    
-* Enhance English
-** Grammar
-** Pronounce
-** Vocabulary
+** with:
+
+*** Python3++
+**** DONE Install and test Python3 devEnv
+     virtualenv -p /usr/bin/python3 yourenv
+     source yourenv/bin/activate
+     pip install ipython
+     DEADLINE: <2016-01-19 Tue>
+**** DONE Install into devEnv:
+     DEADLINE: <2016-01-20 Wed>
+***** numpy
+      sudo apt-get install python3-dev
+      pip install numpy
+***** pandas
+      pip install pandas
+***** nltk
+      pip install -U nltk
+      
+***** matplotlib
+      sudo apt-get install libfreetype6-dev
+      sudo apt-get install libxft-dev
+      pip install matplotlib 
+
+http://github.com/pydata/pydata-book
+
+** by studying:
+
+*** Python for Data Analyse
+**** DONE Preliminaries
+**** TODO Introductory Examples <2016-01-18 Mon>
+***** collections pack
+**** TODO IPython: An Interactive Computing and Development Environment
+     <2016-01-18 
+*** Official Python documentation
+**** http://docs.python.org
+**** http://pypi.python.org/pypi
+**** http://pyvideo.org
+*** Programming Python 4th Edition
+**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
+**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
+*** NLP with Python
+    
+*** Effective Python
+
+**** [[https://github.com/bslatkin/effectivepython][Git]]
+*** Fluent Python
+*** Python Anti-Patterns
+**** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
+**** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
+     [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
+**** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
+     
+*** Writing Idiomatic Python
+* Enhance general coding grit
+** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
+*** [[http://careercup.com/][Additional information]] on website
+** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
+
+* Discover Git workflow subtleties
+
+** Fork useful projects
+
+*** DONE EffectivePython
+*** DONE Python-Patterns
+** Evaluate it in educational purposes
+** Open pull request
