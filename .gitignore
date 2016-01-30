@@ -64,5 +64,6 @@ pydata-book/
 effectivepython/
 PP4E_sources/
 python-patterns/
+python-beyond-basics/
 venv/
 *.edu
