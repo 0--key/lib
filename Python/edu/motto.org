@@ -308,6 +308,12 @@ http://github.com/pydata/pydata-book
 
 **** [[https://github.com/bslatkin/effectivepython][Git]]
 *** Fluent Python
+**** Preface
+***** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
+***** TODO [[https://docs.python.org/3/tutorial/][Python Tutorial]]
+      #+BEGIN_QUOTE
+      Premature abstraction is as bad as premature optimization.
+      #+END_QUOTE
 *** Python Anti-Patterns
 **** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 **** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
