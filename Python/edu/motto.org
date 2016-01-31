@@ -1,5 +1,5 @@
 
-* Knowledge is power © 						       :True:
+* Knowledge is power ©				      :True:InitialPostulate:
 ** it is product of education;					       :True:
 
 *** TODO reading;
@@ -16,6 +16,23 @@
    
 * Enhance English
 ** Grammar
+*** [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
+**** Pronouns
+***** DONE Personal pronouns
+***** it and there
+***** possessive pronouns (see possessives:- pronouns)
+***** this, that, these and those
+***** one and ones
+***** questions
+***** reflexive pronouns
+***** reciprocal pronouns: each other and one another
+***** indefinite pronouns
+***** relative pronouns
+**** Determiners and quantifiers
+***** interrogative determiners: which and what
+***** indefinite article: a and an
+***** definite article: the
+***** quantifiers
 ** Pronounce
 ** Vocabulary
 * Jargon & definition
@@ -177,20 +194,8 @@ This is a sample text to reveiw key-chords
 How it works
 ** DONE [[Spelling checkinghttps://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
-** TODO New shortcuts
-   C-x Left/Right
-   M-x $
-   M-x ispell
-   M-g g, M-g M-g
-   C-h b, d, k, v(ariable)
-   M-x eval-buffer
-*** trivial embedding into main text:
-** TODO Reveal OrgMode BaBel
-*** http://orgmode.org/worg/org-contrib/babel/intro.html
-*** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
-*** http://orgmode.org/worg/org-contrib/babel/languages.html#configure
-*** http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
-** TODO Embedding Python source code into Org document
+** DONE Embedding Python source code into Org document
+   Demands to install Org recent version 
 *** This is the first and successful attempt			       :CODE:
     #+begin_src python :results output
       import sys
@@ -254,7 +259,19 @@ How it works
     : 3.4.3 (default, Oct 14 2015, 20:33:09) 
     : [GCC 4.8.4]
     : How it might be possible! ['c', 'd', 'e']
-
+** TODO Reveal OrgMode BaBel
+*** http://orgmode.org/worg/org-contrib/babel/intro.html
+*** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
+*** http://orgmode.org/worg/org-contrib/babel/languages.html#configure
+*** [#B] http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+** TODO New shortcuts
+   C-x Left/Right
+   M-x $
+   M-x ispell
+   M-g g, M-g M-g
+   C-h b, d, k, v(ariable)
+   M-x eval-buffer
+*** trivial embedding into main text:
 ** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
    DEADLINE: <2016-01-31 Sun>
 
