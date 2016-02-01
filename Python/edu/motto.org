@@ -261,6 +261,38 @@ How it works
     : 3.4.3 (default, Oct 14 2015, 20:33:09) 
     : [GCC 4.8.4]
     : How it might be possible! ['c', 'd', 'e']
+
+*** Full-Fledged
+    #+BEGIN_SRC python :results output :session test
+      # initialize data to be stored in files, pickles, shelves
+
+      # records
+      bob = {'name': 'Bob Smith', 'age': 42, 'pay': 30000, 'job': 'dev'}
+      sue = {'name': 'Sue Jones', 'age': 45, 'pay': 40000, 'job': 'hdw'}
+      tom = {'name': 'Tom',       'age': 50, 'pay': 0,     'job': None}
+
+      # database
+      db = {}
+      db['bob'] = bob
+      db['sue'] = sue
+      db['tom'] = tom
+
+
+      for key in db:
+          print(key, '=>\n  ', db[key])
+
+    
+    #+END_SRC
+
+    #+RESULTS:
+    : 
+    : >>> ... >>> >>> >>> >>> ... >>> >>> >>> >>> >>> >>> ... ... sue =>
+    :    {'pay': 40000, 'age': 45, 'name': 'Sue Jones', 'job': 'hdw'}
+    : tom =>
+    :    {'pay': 0, 'age': 50, 'name': 'Tom', 'job': None}
+    : bob =>
+    :    {'pay': 30000, 'age': 42, 'name': 'Bob Smith', 'job': 'dev'}
+
 ** TODO Reveal OrgMode BaBel <2016-03-01 Tue> 
 *** http://orgmode.org/worg/org-contrib/babel/intro.html
 *** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code

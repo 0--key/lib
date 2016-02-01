@@ -1,5 +1,3 @@
-;;(require 'tramp)
-;;(setq tramp-default-method "ssh")
 ;;(setq desktop-files-not-to-save "^$")
 ;;
 ;;(require 'git-blame)
