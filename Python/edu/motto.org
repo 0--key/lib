@@ -308,21 +308,19 @@ http://github.com/pydata/pydata-book
 
 ** by studying:
 
-*** Python for Data Analyse
-**** DONE Preliminaries
-**** TODO Introductory Examples <2016-01-18 Mon>
-***** collections pack
-**** TODO IPython: An Interactive Computing and Development Environment
-     <2016-01-18 
+*** Programming Python 4th Edition
+**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
+**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
 *** Official Python documentation
 **** http://docs.python.org
 **** http://pypi.python.org/pypi
 **** http://pyvideo.org
-*** Programming Python 4th Edition
-**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
-**** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
-*** NLP with Python
-  
+*** Python Anti-Patterns
+**** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
+**** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
+     [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
+**** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
+     
 *** Effective Python
 
 **** [[https://github.com/bslatkin/effectivepython][Git]]
@@ -333,13 +331,16 @@ http://github.com/pydata/pydata-book
       #+BEGIN_QUOTE
       Premature abstraction is as bad as premature optimization.
       #+END_QUOTE
-*** Python Anti-Patterns
-**** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
-**** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
-     [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
-**** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
-     
 *** Writing Idiomatic Python
+*** NLP with Python
+  
+*** Python for Data Analyse
+**** DONE Preliminaries
+**** TODO Introductory Examples <2016-01-18 Mon>
+***** collections pack
+**** TODO IPython: An Interactive Computing and Development Environment
+     <2016-01-18 
+
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
