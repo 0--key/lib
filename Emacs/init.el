@@ -39,6 +39,7 @@
     (add-to-list 'load-path "~/.emacs.d/lisp/")
     (require 'key-chord)
 	(require 'key-chord-map)
+;;(require 'nero)
 
 ;; ######
 
