@@ -15,7 +15,7 @@
 
   #+RESULTS:
   : 
-  : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+  : >>> >>> >>> >>> 3.4.3 (default, Oct 14 2015, 20:28:29) 
   : [GCC 4.8.4]
 
 * Test session variables
@@ -25,7 +25,7 @@
   #+END_SRC
 
   #+RESULTS:
-  : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+  : 3.4.3 (default, Oct 14 2015, 20:28:29) 
   : [GCC 4.8.4]
 
 * Test second session
@@ -35,8 +35,12 @@
   #+END_SRC
 
   #+RESULTS:
-  : 
-  : >>> >>> >>> Traceback (most recent call last):
+  : Traceback (most recent call last):
   :   File "<stdin>", line 1, in <module>
   : NameError: name 'sys' is not defined
 
+* Test link behaviour
+
+** Try to insert it into body
+   [[http://test.org][Test]]
+   It works!

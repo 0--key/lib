@@ -15,9 +15,10 @@
 *** the spaced repetition is the best approach;
    
 * Enhance English
-** Grammar
-*** [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** Pronouns
+** TODO Grammar
+*** Tutorial
+    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
+**** TODO Pronouns
 ***** DONE Personal pronouns
 ***** it and there
 ***** possessive pronouns (see possessives:- pronouns)
@@ -28,15 +29,16 @@
 ***** reciprocal pronouns: each other and one another
 ***** indefinite pronouns
 ***** relative pronouns
-**** Determiners and quantifiers
+**** TODO Determiners and quantifiers
 ***** interrogative determiners: which and what
 ***** indefinite article: a and an
 ***** definite article: the
 ***** quantifiers
-** Pronounce
-*** listen and [[http://www.manythings.org/listen/][read]] alone
-** Vocabulary
-*** example [[http://www.manythings.org/sentences/words/][sentences]] of real English with new words
+** TODO Pronounce
+** TODO Vocabulary
+   example [[http://www.manythings.org/sentences/words/][sentences]] of real English with new words
+   [[http://tatoeba.org/eng/downloads][Tatoeba]] dataset {sentences with their translation}
+
 * Jargon & definition
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
@@ -171,12 +173,16 @@
      Unicode characters
 *** 
 * Enlarge Emacs toolbox
-** DONE [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
-** DONE [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
+** DONE Elpy
+   [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
+** DONE YaSnippet
+   [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode
     ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
-** DONE OrgMode [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
-** DONE [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
+** DONE OrgMode
+   [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
+** DONE KeyChord
+   [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
 **** put into it key-chord.el
 **** and key-chord-map.el:
@@ -194,7 +200,8 @@
 
 This is a sample text to reveiw key-chords
 How it works
-** DONE [[Spelling checkinghttps://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
+** DONE ISpell
+   [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
 ** DONE Embedding Python source code into Org document
    Demands to install Org recent version 
@@ -263,7 +270,7 @@ How it works
     : How it might be possible! ['c', 'd', 'e']
 
 *** Full-Fledged
-    #+BEGIN_SRC python :results output :session test
+    #+BEGIN_SRC python :results output
       # initialize data to be stored in files, pickles, shelves
 
       # records
@@ -277,27 +284,32 @@ How it works
       db['sue'] = sue
       db['tom'] = tom
 
-
+      print('\n')
       for key in db:
           print(key, '=>\n  ', db[key])
 
-    
+
     #+END_SRC
 
     #+RESULTS:
     : 
-    : >>> ... >>> >>> >>> >>> ... >>> >>> >>> >>> >>> >>> ... ... sue =>
-    :    {'pay': 40000, 'age': 45, 'name': 'Sue Jones', 'job': 'hdw'}
-    : tom =>
-    :    {'pay': 0, 'age': 50, 'name': 'Tom', 'job': None}
+    : 
     : bob =>
-    :    {'pay': 30000, 'age': 42, 'name': 'Bob Smith', 'job': 'dev'}
+    :    {'pay': 30000, 'job': 'dev', 'age': 42, 'name': 'Bob Smith'}
+    : sue =>
+    :    {'pay': 40000, 'job': 'hdw', 'age': 45, 'name': 'Sue Jones'}
+    : tom =>
+    :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
 
-** TODO Reveal OrgMode BaBel <2016-03-01 Tue> 
-*** http://orgmode.org/worg/org-contrib/babel/intro.html
-*** http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
-*** http://orgmode.org/worg/org-contrib/babel/languages.html#configure
-*** http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+** DONE Reveal OrgMode BaBel <2016-03-01 Tue> 
+*** Intro
+    http://orgmode.org/worg/org-contrib/babel/intro.html
+*** Tutorial
+    http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
+*** Configure languages
+    http://orgmode.org/worg/org-contrib/babel/languages.html#configure
+*** Supported languages
+    http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
 *** shortcuts
     |----------+------------------|
     | Sequence | Expands to       |
@@ -328,9 +340,10 @@ How it works
 **** Elisp evaluationM-x eval-buffer
 *** Python-mode
 
-** TODO [[https://github.com/tsgates/git-emacs][Emacs+Git]] 
+
+** TODO Git and Emacs synthesis
+   [[https://github.com/tsgates/git-emacs][Emacs+Git]]
    DEADLINE: <2016-02-28 Sun>
-** [[http://tatoeba.org/eng/downloads][Tatoeba]] dataset {sentences with their translation}
 * Dive deeper into Python programming language
 
 ** in six months <2016-06-15 Wed> 
