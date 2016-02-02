@@ -337,7 +337,11 @@ How it works
 **** M-x ispell
 **** GoTo M-g g, M-g M-g
 **** Help with keys C-h b, d, k, v(ariable)
-**** Elisp evaluationM-x eval-buffer
+**** Elisp evaluation
+     M-x eval-buffer
+**** Bookmarks (set/goto/list/del:
+     C-x r m/b/l/M-x bookmark-delete
+**** 
 *** Python-mode
 
 
@@ -379,16 +383,25 @@ http://github.com/pydata/pydata-book
 
 ***** Official tutorial
       https://docs.python.org/3/tutorial/
-****** 1. Whetting Your Appetite
-****** 2. Using the Python Interpreter
+****** DONE 1. Whetting Your Appetite
+****** DONE 2. Using the Python Interpreter
         2.1. Invoking the Interpreter
             2.1.1. Argument Passing
             2.1.2. Interactive Mode
         2.2. The Interpreter and Its Environment
             2.2.1. Source Code Encoding
-****** 3. An Informal Introduction to Python
+****** TODO 3. An Informal Introduction to Python
         3.1. Using Python as a Calculator
             3.1.1. Numbers
+	    #+BEGIN_SRC python :results output :session intro
+	    2 + 2
+	    
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : 4
+
+	    
             3.1.2. Strings
             3.1.3. Lists
         3.2. First Steps Towards Programming
@@ -540,7 +553,7 @@ http://github.com/pydata/pydata-book
 ****** collections pack
 ***** TODO IPython: An Interactive Computing and Development Environment
       <2016-01-18 
-
+      
 
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
