@@ -341,6 +341,15 @@ How it works
      M-x eval-buffer
 **** Bookmarks (set/goto/list/del:
      C-x r m/b/l/M-x bookmark-delete
+**** Some keys in ‘*Bookmark List*’:
+     ‘a’ – show annotation for the current bookmark
+     ‘A’ – show all annotations for your bookmarks
+     ‘d’ – mark various entries for deletion (‘x’ – to delete them)
+     ‘e’ – edit the annotation for the current bookmark
+     ‘m’ – mark various entries for display and other operations, (‘v’ – to visit)
+     ‘o’ – visit the current bookmark in another window, keeping the bookmark list open
+     ‘C-o’ – switch to the current bookmark in another window
+     ‘r’ – rename the current bookmark
 **** 
 *** Python-mode
 
