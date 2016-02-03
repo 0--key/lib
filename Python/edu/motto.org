@@ -181,6 +181,39 @@
     ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
 ** DONE OrgMode
    [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
+*** DONE Reveal OrgMode BaBel <2016-03-01 Tue> 
+**** Intro
+     http://orgmode.org/worg/org-contrib/babel/intro.html
+**** Tutorial
+     http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
+**** Configure languages
+     http://orgmode.org/worg/org-contrib/babel/languages.html#configure
+**** Supported languages
+     http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+**** shortcuts
+     |----------+------------------|
+     | Sequence | Expands to       |
+     |----------+------------------|
+     | <s       | #+BEGIN_SRC      |
+     | <e       | #+BEGIN_EXAMPLE  |
+     | <q       | #+BEGIN_QUOTE    |
+     | <v       | #+BEGIN_VERSE    |
+     | <V       | #+BEGIN_VERBATIM |
+     | <c       | #+BEGIN_CENTER   |
+     | <l       | #+BEGIN_LaTeX    |
+     | <L       | #+LaTeX          |
+     | <h       | #+BEGIN_HTML     |
+     | <H       | #+HTML           |
+     | <a       | #+BEGIN_ASCII    |
+     | <A       | #+ASCII:         |
+     | <i       | #+INDEX:         |
+     | <I       | #+INCLUDE:       |
+     |----------+------------------|
+
+
+
+*** Dates <2016-02-03 Wed>
+*** Tags <2016-02-04 Thu>
 ** DONE KeyChord
    [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
@@ -301,35 +334,6 @@ How it works
     : tom =>
     :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
 
-** DONE Reveal OrgMode BaBel <2016-03-01 Tue> 
-*** Intro
-    http://orgmode.org/worg/org-contrib/babel/intro.html
-*** Tutorial
-    http://orgmode.org/manual/Working-With-Source-Code.html#Working-With-Source-Code
-*** Configure languages
-    http://orgmode.org/worg/org-contrib/babel/languages.html#configure
-*** Supported languages
-    http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
-*** shortcuts
-    |----------+------------------|
-    | Sequence | Expands to       |
-    |----------+------------------|
-    | <s       | #+BEGIN_SRC      |
-    | <e       | #+BEGIN_EXAMPLE  |
-    | <q       | #+BEGIN_QUOTE    |
-    | <v       | #+BEGIN_VERSE    |
-    | <V       | #+BEGIN_VERBATIM |
-    | <c       | #+BEGIN_CENTER   |
-    | <l       | #+BEGIN_LaTeX    |
-    | <L       | #+LaTeX          |
-    | <h       | #+BEGIN_HTML     |
-    | <H       | #+HTML           |
-    | <a       | #+BEGIN_ASCII    |
-    | <A       | #+ASCII:         |
-    | <i       | #+INDEX:         |
-    | <I       | #+INCLUDE:       |
-    |----------+------------------|
-
 ** TODO New shortcuts
 *** General
 **** Switch buffer in the stack C-x Left/Right
@@ -340,7 +344,7 @@ How it works
 **** Elisp evaluation
      M-x eval-buffer
 **** Bookmarks (set/goto/list/del:
-     C-x r m/b/l/M-x bookmark-delete
+     C-x r m/b/l/M-x [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Bookmarks.html][bookmark]]-delete
 **** Some keys in ‘*Bookmark List*’:
      ‘a’ – show annotation for the current bookmark
      ‘A’ – show all annotations for your bookmarks
@@ -350,7 +354,14 @@ How it works
      ‘o’ – visit the current bookmark in another window, keeping the bookmark list open
      ‘C-o’ – switch to the current bookmark in another window
      ‘r’ – rename the current bookmark
+**** Text accumulation
+     [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Accumulating-Text.html][==>]]
+***** append to:
+      buffer, register or file
+***** prepend to:
+      buffer or register
 **** 
+
 *** Python-mode
 
 
