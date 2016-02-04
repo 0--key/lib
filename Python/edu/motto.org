@@ -403,7 +403,7 @@ http://github.com/pydata/pydata-book
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
 
-***** Official tutorial						   :tutorial:
+***** Official tutorial [18%] 					   :tutorial:
       https://docs.python.org/3/tutorial/
 ****** DONE 1. Whetting Your Appetite
 ****** DONE 2. Using the Python Interpreter
@@ -412,7 +412,7 @@ http://github.com/pydata/pydata-book
             2.1.2. Interactive Mode
         2.2. The Interpreter and Its Environment
             2.2.1. Source Code Encoding
-****** TODO 3. An Informal Introduction to Python
+****** DONE 3. An Informal Introduction to Python
         3.1. Using Python as a Calculator
             3.1.1. Numbers
 	    #+BEGIN_SRC python :results output :session intro
@@ -475,7 +475,7 @@ http://github.com/pydata/pydata-book
 	#+RESULTS:
 	: 1, 1, 2, 3, 5, 8, 
 
-****** 4. More Control Flow Tools				      :input:
+****** TODO 4. More Control Flow Tools				      :input:
         4.1. if Statements
 	#+BEGIN_SRC python
 	x = int(input("Please enter an integer: "))
@@ -503,7 +503,38 @@ http://github.com/pydata/pydata-book
 	: ['defenestrate', 'cat', 'window', 'defenestrate']
 
         4.3. The range() Function
+	#+BEGIN_SRC python :results output
+          for i in range(5):
+             print(i, end=", ")
+          print('==============')
+	#+END_SRC
+
+	#+RESULTS:
+	: 0, 1, 2, 3, 4, ==============
+
         4.4. break and continue Statements, and else Clauses on Loops
+	#+BEGIN_SRC python :results output
+          for n in range(2, 10):
+              for x in range(2, n):
+                  if n % x == 0:
+                      print(n, 'equals', x, '*', n//x)
+                      break
+	      else:
+		  # loop fell through without finding a factor
+		  print(n, 'is a prime number')
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 2 is a prime number
+	: 3 is a prime number
+	: 4 equals 2 * 2
+	: 5 is a prime number
+	: 6 equals 2 * 3
+	: 7 is a prime number
+	: 8 equals 2 * 4
+	: 9 equals 3 * 3
+
         4.5. pass Statements
         4.6. Defining Functions
         4.7. More on Defining Functions
@@ -515,7 +546,7 @@ http://github.com/pydata/pydata-book
             4.7.6. Documentation Strings
             4.7.7. Function Annotations
         4.8. Intermezzo: Coding Style
-****** 5. Data Structures
+****** TODO 5. Data Structures
         5.1. More on Lists
             5.1.1. Using Lists as Stacks
             5.1.2. Using Lists as Queues
@@ -528,7 +559,7 @@ http://github.com/pydata/pydata-book
         5.6. Looping Techniques
         5.7. More on Conditions
         5.8. Comparing Sequences and Other Types
-****** 6. Modules
+****** TODO 6. Modules
         6.1. More on Modules
             6.1.1. Executing modules as scripts
             6.1.2. The Module Search Path
@@ -539,13 +570,13 @@ http://github.com/pydata/pydata-book
             6.4.1. Importing * From a Package
             6.4.2. Intra-package References
             6.4.3. Packages in Multiple Directories
-****** 7. Input and Output
+****** TODO 7. Input and Output
         7.1. Fancier Output Formatting
             7.1.1. Old string formatting
         7.2. Reading and Writing Files
             7.2.1. Methods of File Objects
             7.2.2. Saving structured data with json
-****** 8. Errors and Exceptions
+****** TODO 8. Errors and Exceptions
         8.1. Syntax Errors
         8.2. Exceptions
         8.3. Handling Exceptions
@@ -553,7 +584,7 @@ http://github.com/pydata/pydata-book
         8.5. User-defined Exceptions
         8.6. Defining Clean-up Actions
         8.7. Predefined Clean-up Actions
-****** 9. Classes
+****** TODO 9. Classes
         9.1. A Word About Names and Objects
         9.2. Python Scopes and Namespaces
             9.2.1. Scopes and Namespaces Example
@@ -572,7 +603,7 @@ http://github.com/pydata/pydata-book
         9.9. Iterators
         9.10. Generators
         9.11. Generator Expressions
-****** 10. Brief Tour of the Standard Library
+****** TODO 10. Brief Tour of the Standard Library
         10.1. Operating System Interface
         10.2. File Wildcards
         10.3. Command Line Arguments
@@ -585,7 +616,7 @@ http://github.com/pydata/pydata-book
         10.10. Performance Measurement
         10.11. Quality Control
         10.12. Batteries Included
-****** 11. Brief Tour of the Standard Library – Part II
+****** TODO 11. Brief Tour of the Standard Library – Part II
         11.1. Output Formatting
         11.2. Templating
         11.3. Working with Binary Data Record Layouts
@@ -594,17 +625,17 @@ http://github.com/pydata/pydata-book
         11.6. Weak References
         11.7. Tools for Working with Lists
         11.8. Decimal Floating Point Arithmetic
-****** 12. Virtual Environments and Packages
+****** TODO 12. Virtual Environments and Packages
         12.1. Introduction
         12.2. Creating Virtual Environments
         12.3. Managing Packages with pip
-****** 13. What Now?
-****** 14. Interactive Input Editing and History Substitution
+****** TODO 13. What Now?
+****** TODO 14. Interactive Input Editing and History Substitution
         14.1. Tab Completion and History Editing
         14.2. Alternatives to the Interactive Interpreter
-****** 15. Floating Point Arithmetic: Issues and Limitations
+****** TODO 15. Floating Point Arithmetic: Issues and Limitations
         15.1. Representation Error
-****** 16. Appendix
+****** TODO 16. Appendix
         16.1. Interactive Mode
             16.1.1. Error Handling
             16.1.2. Executable Python Scripts
