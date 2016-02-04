@@ -464,7 +464,7 @@ http://github.com/pydata/pydata-book
 	      concatenation
 	      
         3.2. First Steps Towards Programming
-	#+BEGIN_SRC python :results output :session intro
+	#+BEGIN_SRC python :results output
 	  # Fibonacci series
           a, b = 0, 1
           while b < 10:
@@ -473,10 +473,35 @@ http://github.com/pydata/pydata-book
 	#+END_SRC
 
 	#+RESULTS:
+	: 1, 1, 2, 3, 5, 8, 
 
-****** 4. More Control Flow Tools
+****** 4. More Control Flow Tools				      :input:
         4.1. if Statements
+	#+BEGIN_SRC python
+	x = int(input("Please enter an integer: "))
+	#+END_SRC
         4.2. for Statements
+	
+	#+BEGIN_SRC python :results output
+          # Measure some strings:
+          words = ['cat', 'window', 'defenestrate']
+          for w in words:
+              print(w, len(w))
+          print('==============')
+          for w in words[:]:
+              if len(w) > 6:
+                  words.insert(0, w)
+          print(words)
+
+	#+END_SRC
+
+	#+RESULTS:
+	: cat 3
+	: window 6
+	: defenestrate 12
+	: ==============
+	: ['defenestrate', 'cat', 'window', 'defenestrate']
+
         4.3. The range() Function
         4.4. break and continue Statements, and else Clauses on Loops
         4.5. pass Statements
