@@ -402,380 +402,899 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
+***** The Python Tutorial [18%]
+****** DONE Whetting Your Appetite
 
-***** Official tutorial [18%] 					   :tutorial:
-      https://docs.python.org/3/tutorial/
-****** DONE 1. Whetting Your Appetite
-****** DONE 2. Using the Python Interpreter
-        2.1. Invoking the Interpreter
-            2.1.1. Argument Passing
-            2.1.2. Interactive Mode
-        2.2. The Interpreter and Its Environment
-            2.2.1. Source Code Encoding
-****** DONE 3. An Informal Introduction to Python
-        3.1. Using Python as a Calculator
-            3.1.1. Numbers
-	    #+BEGIN_SRC python :results output :session intro
-              2 + 2
-              tax = 12.5 / 100
-              price = 100.50
-              price + _  # last result in interactive mode
-              round(_, 2)
+****** DONE Using the Python Interpreter
+
+******* Invoking the Interpreter
+
+******** Argument Passing
+
+******** Interactive Mode
+
+******* The Interpreter and Its Environment
+
+******** Source Code Encoding
+
+****** DONE An Informal Introduction to Python
+
+******* Using Python as a Calculator
+
+******** Numbers
+	 #+BEGIN_SRC python :results output :session intro
+	   2 + 2
+	   tax = 12.5 / 100
+	   price = 100.50
+	   price + _  # last result in interactive mode
+	   round(_, 2)
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 4
+	 : >>> >>> 104.5
+	 : 104.5
+
+******** Strings
+	 #+BEGIN_SRC python :results output :session intro
+	   'spam eggs'  # single quotes
+	   s = 'First line.\nSecond line.'  # \n means newline
+	   s
+	   print(s)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 'spam eggs'
+	 : >>> 'First line.\nSecond line.'
+	 : First line.
+	 : Second line.
+
+	 +---+---+---+---+---+---+
+	 | P | y | t | h | o | n |
+	 +---+---+---+---+---+---+
+	 0   1   2   3   4   5   6
+	-6  -5  -4  -3  -2  -1
+
+	String Methods
+	Strings Formatting
+	printf-style String Formatting
+
+******** Lists
+	 #+BEGIN_QUOTE
+	 Mutable, indexed and ordered sequence
+	 #+END_QUOTE
+
+	 + features
+	   shallow copy [:]
+	   slicing [n:m]
+	   concatenation
+
+******* First Steps Towards Programming
+	    #+BEGIN_SRC python :results output
+	      # Fibonacci series
+              a, b = 0, 1
+              while b < 10:
+		  print(b, end=", ")
+		  a, b = b, a + b
+	    #+END_SRC
+
+****** TODO More Control Flow Tools
+
+******* "if" Statements
+	#+BEGIN_EXAMPLE
+    	    x = int(input("Please enter an integer: "))
+	#+END_EXAMPLE
+******* "for" Statements
+	    #+BEGIN_SRC python :results output
+              # Measure some strings:
+              words = ['cat', 'window', 'defenestrate']
+              for w in words:
+		  print(w, len(w))
+              print('==============')
+              for w in words[:]:
+		  if len(w) > 6:
+                      words.insert(0, w)
+              print(words)
 
 	    #+END_SRC
 
 	    #+RESULTS:
-	    : 4
-	    : >>> >>> 104.5
-	    : 104.5
-	    
-            3.1.2. Strings
-	    #+BEGIN_SRC python :results output :session intro
-              'spam eggs'  # single quotes
-              s = 'First line.\nSecond line.'  # \n means newline
-              s
-              print(s)
+	    : cat 3
+	    : window 6
+	    : defenestrate 12
+	    : ==============
+	    : ['defenestrate', 'cat', 'window', 'defenestrate']
+
+******* The "range()" Function
+	    #+BEGIN_SRC python :results output
+              for i in range(5):
+		 print(i, end=", ")
+              print('==============')
 	    #+END_SRC
 
 	    #+RESULTS:
-	    : 'spam eggs'
-	    : >>> 'First line.\nSecond line.'
-	    : First line.
-	    : Second line.
+	    : 0, 1, 2, 3, 4, ==============
 
-	    +---+---+---+---+---+---+
-	    | P | y | t | h | o | n |
-	    +---+---+---+---+---+---+
-	    0   1   2   3   4   5   6
-	   -6  -5  -4  -3  -2  -1
+******* "break" and "continue" Statements, and "else" Clauses on Loops
+	    #+BEGIN_SRC python :results output
+              for n in range(2, 10):
+		  for x in range(2, n):
+                      if n % x == 0:
+			  print(n, 'equals', x, '*', n//x)
+			  break
+		  else:
+		      # loop fell through without finding a factor
+		      print(n, 'is a prime number')
 
-	   String Methods
-	   Strings Formatting
-	   printf-style String Formatting
-            3.1.3. Lists
+	    #+END_SRC
 
+	    #+RESULTS:
+	    : 2 is a prime number
+	    : 3 is a prime number
+	    : 4 equals 2 * 2
+	    : 5 is a prime number
+	    : 6 equals 2 * 3
+	    : 7 is a prime number
+	    : 8 equals 2 * 4
+	    : 9 equals 3 * 3
+
+	    #+BEGIN_SRC python :results output
+              # continue example
+              for num in range(2, 10):
+		  if num % 2 == 0:
+                      print("Found an even number", num)
+                      continue
+		  print("Found a number", num)
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : Found an even number 2
+	    : Found a number 3
+	    : Found an even number 4
+	    : Found a number 5
+	    : Found an even number 6
+	    : Found a number 7
+	    : Found an even number 8
+	    : Found a number 9
+
+******* "pass" Statements
 	    #+BEGIN_QUOTE
-	    Mutable, indexed and ordered sequence
+	    Does nothing
 	    #+END_QUOTE
 
-	    + features
-	      shallow copy [:]
-	      slicing [n:m]
-	      concatenation
-	      
-        3.2. First Steps Towards Programming
+******* Defining Functions
 	#+BEGIN_SRC python :results output
-	  # Fibonacci series
-          a, b = 0, 1
-          while b < 10:
-              print(b, end=", ")
-              a, b = b, a + b
-	#+END_SRC
+	  # example
+	  def fib(n):    # write Fibonacci series up to n
+	      """Print a Fibonacci series up to n."""
+	      a, b = 0, 1
+	      while a < n:
+		  print(a, end=' ')
+		  a, b = b, a+b
+	      print()
 
-	#+RESULTS:
-	: 1, 1, 2, 3, 5, 8, 
-
-****** TODO 4. More Control Flow Tools				      :input:
-        4.1. if Statements
-	#+BEGIN_SRC python
-	x = int(input("Please enter an integer: "))
-	#+END_SRC
-        4.2. for Statements
-	
-	#+BEGIN_SRC python :results output
-          # Measure some strings:
-          words = ['cat', 'window', 'defenestrate']
-          for w in words:
-              print(w, len(w))
-          print('==============')
-          for w in words[:]:
-              if len(w) > 6:
-                  words.insert(0, w)
-          print(words)
-
-	#+END_SRC
-
-	#+RESULTS:
-	: cat 3
-	: window 6
-	: defenestrate 12
-	: ==============
-	: ['defenestrate', 'cat', 'window', 'defenestrate']
-
-        4.3. The range() Function
-	#+BEGIN_SRC python :results output
-          for i in range(5):
-             print(i, end=", ")
-          print('==============')
-	#+END_SRC
-
-	#+RESULTS:
-	: 0, 1, 2, 3, 4, ==============
-
-        4.4. break and continue Statements, and else Clauses on Loops
-	#+BEGIN_SRC python :results output
-          for n in range(2, 10):
-              for x in range(2, n):
-                  if n % x == 0:
-                      print(n, 'equals', x, '*', n//x)
-                      break
-	      else:
-		  # loop fell through without finding a factor
-		  print(n, 'is a prime number')
-
-	#+END_SRC
-
-	#+RESULTS:
-	: 2 is a prime number
-	: 3 is a prime number
-	: 4 equals 2 * 2
-	: 5 is a prime number
-	: 6 equals 2 * 3
-	: 7 is a prime number
-	: 8 equals 2 * 4
-	: 9 equals 3 * 3
-
-	#+BEGIN_SRC python :results output
-          # continue example
-          for num in range(2, 10):
-              if num % 2 == 0:
-                  print("Found an even number", num)
-                  continue
-              print("Found a number", num)
-	#+END_SRC
-
-	#+RESULTS:
-	: Found an even number 2
-	: Found a number 3
-	: Found an even number 4
-	: Found a number 5
-	: Found an even number 6
-	: Found a number 7
-	: Found an even number 8
-	: Found a number 9
-
-        4.5. pass Statements
-	#+BEGIN_QUOTE
-	Does nothing
-	#+END_QUOTE
-        4.6. Defining Functions
-	#+BEGIN_SRC python :results output
-          # example
-          def fib(n):    # write Fibonacci series up to n
-              """Print a Fibonacci series up to n."""
-              a, b = 0, 1
-              while a < n:
-                  print(a, end=' ')
-                  a, b = b, a+b
-              print()
-
-          # Now call the function we just defined:
-          fib(2000)
+	  # Now call the function we just defined:
+	  fib(2000)
 	#+END_SRC
 
 	#+RESULTS:
 	: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
 
 	#+BEGIN_SRC python :results output
-          def fib2(n): # return Fibonacci series up to n
-              """Return a list containing the Fibonacci series up to n."""
-              result = []
-              a, b = 0, 1
-              while a < n:
-                  result.append(a)    # see below
-                  a, b = b, a+b
-              return result
+	  def fib2(n): # return Fibonacci series up to n
+	      """Return a list containing the Fibonacci series up to n."""
+	      result = []
+	      a, b = 0, 1
+	      while a < n:
+		  result.append(a)    # see below
+		  a, b = b, a+b
+	      return result
 
-          f100 = fib2(100)    # call it
-          print(f100)                # write the result
+	  f100 = fib2(100)    # call it
+	  print(f100)                # write the result
 	#+END_SRC
 
 	#+RESULTS:
 	: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+******* More on Defining Functions
 
-        4.7. More on Defining Functions
-            4.7.1. Default Argument Values
-	    The default value is evaluated only once.
+******** Default Argument Values
+	   The default value is evaluated only once.
+	   #+BEGIN_SRC python :results output
+
+	     def f(a, L=[]):
+		 L.append(a)
+		 return L
+
+	     print(f(1))
+	     print(f(2))
+	     print(f(3))
+	   #+END_SRC
+
+	   #+RESULTS:
+	   : [1]
+	   : [1, 2]
+	   : [1, 2, 3]
+
+	   To prevent this behaviour:
+	   #+BEGIN_SRC python :results output
+	     def f(a, L=None):
+		 if L is None:
+		     L = []
+		 L.append(a)
+		 return L
+
+	     print(f(1))
+	     print(f(2))
+	     print(f(3))
+	   #+END_SRC
+
+	   #+RESULTS:
+	   : [1]
+	   : [2]
+	   : [3]
+
+
+******** Keyword Arguments
+	   #+BEGIN_SRC python :results output
+	     def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
+		 print("-- This parrot wouldn't", action, end=' ')
+		 print("if you put", voltage, "volts through it.")
+		 print("-- Lovely plumage, the", type)
+		 print("-- It's", state, "!")
+
+	     # this are correct usage
+	     parrot(1000)                                          # 1 positional argument
+	     parrot(voltage=1000)                                  # 1 keyword argument
+	     parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
+	     parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments
+	     parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments
+	     parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword
+
+	     # and this are incorrect -->
+	     #parrot()                     # required argument missing
+	     #parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
+	     #parrot(110, voltage=220)     # duplicate value for the same argument
+	     #parrot(actor='John Cleese')  # unknown keyword argument
+	   #+END_SRC
+
+	   #+RESULTS:
+	   #+begin_example
+	   -- This parrot wouldn't voom if you put 1000 volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's a stiff !
+	   -- This parrot wouldn't voom if you put 1000 volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's a stiff !
+	   -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's a stiff !
+	   -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's a stiff !
+	   -- This parrot wouldn't jump if you put a million volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's bereft of life !
+	   -- This parrot wouldn't voom if you put a thousand volts through it.
+	   -- Lovely plumage, the Norwegian Blue
+	   -- It's pushing up the daisies !
+    #+end_example
+
+******** Arbitrary Argument Lists
+
+******** Unpacking Argument Lists
+
+******** Lambda Expressions
+
+******** Documentation Strings
+
+******** Function Annotations
+
+******* Intermezzo: Coding Style
+
+****** TODO Data Structures
+
+******* More on Lists
+
+******** Using Lists as Stacks
+
+******** Using Lists as Queues
+
+******** List Comprehensions
+
+******** Nested List Comprehensions
+
+******* The "del" statement
+
+******* Tuples and Sequences
+
+******* Sets
+
+******* Dictionaries
+
+******* Looping Techniques
+
+******* More on Conditions
+
+******* Comparing Sequences and Other Types
+
+****** TODO Modules
+
+******* More on Modules
+
+******** Executing modules as scripts
+
+******** The Module Search Path
+
+******** "Compiled" Python files
+
+******* Standard Modules
+
+******* The "dir()" Function
+
+******* Packages
+
+******** Importing * From a Package
+
+******** Intra-package References
+
+******** Packages in Multiple Directories
+
+****** TODO Input and Output
+
+******* Fancier Output Formatting
+
+******** Old string formatting
+
+******* Reading and Writing Files
+
+******** Methods of File Objects
+
+******** Saving structured data with "json"
+
+****** TODO Errors and Exceptions
+
+******* Syntax Errors
+
+******* Exceptions
+
+******* Handling Exceptions
+
+******* Raising Exceptions
+
+******* User-defined Exceptions
+
+******* Defining Clean-up Actions
+
+******* Predefined Clean-up Actions
+
+****** TODO Classes
+
+******* A Word About Names and Objects
+
+******* Python Scopes and Namespaces
+
+******** Scopes and Namespaces Example
+
+******* A First Look at Classes
+
+******** Class Definition Syntax
+
+******** Class Objects
+
+******** Instance Objects
+
+******** Method Objects
+
+******** Class and Instance Variables
+
+******* Random Remarks
+
+******* Inheritance
+
+******** Multiple Inheritance
+
+******* Private Variables
+
+******* Odds and Ends
+
+******* Exceptions Are Classes Too
+
+******* Iterators
+
+******* Generators
+
+******* Generator Expressions
+
+****** TODO Brief Tour of the Standard Library
+
+******* Operating System Interface
+
+******* File Wildcards
+
+******* Command Line Arguments
+
+******* Error Output Redirection and Program Termination
+
+******* String Pattern Matching
+
+******* Mathematics
+
+******* Internet Access
+
+******* Dates and Times
+
+******* Data Compression
+
+******* Performance Measurement
+
+******* Quality Control
+
+******* Batteries Included
+
+****** TODO Brief Tour of the Standard Library -- Part II
+
+******* Output Formatting
+
+******* Templating
+
+******* Working with Binary Data Record Layouts
+
+******* Multi-threading
+
+******* Logging
+
+******* Weak References
+
+******* Tools for Working with Lists
+
+******* Decimal Floating Point Arithmetic
+
+****** TODO Virtual Environments and Packages
+
+******* Introduction
+
+******* Creating Virtual Environments
+
+******* Managing Packages with pip
+
+****** TODO What Now?
+
+****** TODO Interactive Input Editing and History Substitution
+
+******* Tab Completion and History Editing
+
+******* Alternatives to the Interactive Interpreter
+
+****** TODO Floating Point Arithmetic:  Issues and Limitations
+
+******* Representation Error
+
+****** TODO Appendix
+
+******* Interactive Mode
+
+******** Error Handling
+
+******** Executable Python Scripts
+
+******** The Interactive Startup File
+
+******** The Customization Modules
+
+
+********* Official tutorial [18%]				   :tutorial:
+	  https://docs.python.org/3/tutorial/
+********** DONE 1. Whetting Your Appetite
+********** DONE 2. Using the Python Interpreter
+            2.1. Invoking the Interpreter
+		2.1.1. Argument Passing
+		2.1.2. Interactive Mode
+            2.2. The Interpreter and Its Environment
+		2.2.1. Source Code Encoding
+********** DONE 3. An Informal Introduction to Python
+            3.1. Using Python as a Calculator
+		3.1.1. Numbers
+		#+BEGIN_SRC python :results output :session intro
+		  2 + 2
+		  tax = 12.5 / 100
+		  price = 100.50
+		  price + _  # last result in interactive mode
+		  round(_, 2)
+
+		#+END_SRC
+
+		#+RESULTS:
+		: 4
+		: >>> >>> 104.5
+		: 104.5
+	    
+		3.1.2. Strings
+		#+BEGIN_SRC python :results output :session intro
+		  'spam eggs'  # single quotes
+		  s = 'First line.\nSecond line.'  # \n means newline
+		  s
+		  print(s)
+		#+END_SRC
+
+		#+RESULTS:
+		: 'spam eggs'
+		: >>> 'First line.\nSecond line.'
+		: First line.
+		: Second line.
+
+		+---+---+---+---+---+---+
+		| P | y | t | h | o | n |
+		+---+---+---+---+---+---+
+		0   1   2   3   4   5   6
+	       -6  -5  -4  -3  -2  -1
+
+	       String Methods
+	       Strings Formatting
+	       printf-style String Formatting
+		3.1.3. Lists
+
+		#+BEGIN_QUOTE
+		Mutable, indexed and ordered sequence
+		#+END_QUOTE
+
+		+ features
+		  shallow copy [:]
+		  slicing [n:m]
+		  concatenation
+	      
+            3.2. First Steps Towards Programming
 	    #+BEGIN_SRC python :results output
-
-              def f(a, L=[]):
-                  L.append(a)
-                  return L
-
-              print(f(1))
-              print(f(2))
-              print(f(3))
+	      # Fibonacci series
+              a, b = 0, 1
+              while b < 10:
+		  print(b, end=", ")
+		  a, b = b, a + b
 	    #+END_SRC
 
 	    #+RESULTS:
-	    : [1]
-	    : [1, 2]
-	    : [1, 2, 3]
+	    : 1, 1, 2, 3, 5, 8, 
 
-	    To prevent this behaviour:
+********** TODO 4. More Control Flow Tools			      :input:
+            4.1. if Statements
+	    #+BEGIN_SRC python
+	    x = int(input("Please enter an integer: "))
+	    #+END_SRC
+            4.2. for Statements
+	
 	    #+BEGIN_SRC python :results output
-              def f(a, L=None):
-                  if L is None:
-                      L = []
-                  L.append(a)
-                  return L
+              # Measure some strings:
+              words = ['cat', 'window', 'defenestrate']
+              for w in words:
+		  print(w, len(w))
+              print('==============')
+              for w in words[:]:
+		  if len(w) > 6:
+                      words.insert(0, w)
+              print(words)
 
-              print(f(1))
-              print(f(2))
-              print(f(3))
 	    #+END_SRC
 
 	    #+RESULTS:
-	    : [1]
-	    : [2]
-	    : [3]
+	    : cat 3
+	    : window 6
+	    : defenestrate 12
+	    : ==============
+	    : ['defenestrate', 'cat', 'window', 'defenestrate']
 
-            4.7.2. Keyword Arguments
+            4.3. The range() Function
 	    #+BEGIN_SRC python :results output
-              def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
-                  print("-- This parrot wouldn't", action, end=' ')
-                  print("if you put", voltage, "volts through it.")
-                  print("-- Lovely plumage, the", type)
-                  print("-- It's", state, "!")
-
-              # this are correct usage
-              parrot(1000)                                          # 1 positional argument
-              parrot(voltage=1000)                                  # 1 keyword argument
-              parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
-              parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments
-              parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments
-              parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword
-
-              # and this are incorrect -->
-              #parrot()                     # required argument missing
-              #parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
-              #parrot(110, voltage=220)     # duplicate value for the same argument
-              #parrot(actor='John Cleese')  # unknown keyword argument
+              for i in range(5):
+		 print(i, end=", ")
+              print('==============')
 	    #+END_SRC
 
 	    #+RESULTS:
-	    #+begin_example
-	    -- This parrot wouldn't voom if you put 1000 volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's a stiff !
-	    -- This parrot wouldn't voom if you put 1000 volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's a stiff !
-	    -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's a stiff !
-	    -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's a stiff !
-	    -- This parrot wouldn't jump if you put a million volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's bereft of life !
-	    -- This parrot wouldn't voom if you put a thousand volts through it.
-	    -- Lovely plumage, the Norwegian Blue
-	    -- It's pushing up the daisies !
-	    #+end_example
+	    : 0, 1, 2, 3, 4, ==============
 
-            4.7.3. Arbitrary Argument Lists
-            4.7.4. Unpacking Argument Lists
-            4.7.5. Lambda Expressions
-            4.7.6. Documentation Strings
-            4.7.7. Function Annotations
-        4.8. Intermezzo: Coding Style
-****** TODO 5. Data Structures
-        5.1. More on Lists
-            5.1.1. Using Lists as Stacks
-            5.1.2. Using Lists as Queues
-            5.1.3. List Comprehensions
-            5.1.4. Nested List Comprehensions
-        5.2. The del statement
-        5.3. Tuples and Sequences
-        5.4. Sets
-        5.5. Dictionaries
-        5.6. Looping Techniques
-        5.7. More on Conditions
-        5.8. Comparing Sequences and Other Types
-****** TODO 6. Modules
-        6.1. More on Modules
-            6.1.1. Executing modules as scripts
-            6.1.2. The Module Search Path
-            6.1.3. “Compiled” Python files
-        6.2. Standard Modules
-        6.3. The dir() Function
-        6.4. Packages
-            6.4.1. Importing * From a Package
-            6.4.2. Intra-package References
-            6.4.3. Packages in Multiple Directories
-****** TODO 7. Input and Output
-        7.1. Fancier Output Formatting
-            7.1.1. Old string formatting
-        7.2. Reading and Writing Files
-            7.2.1. Methods of File Objects
-            7.2.2. Saving structured data with json
-****** TODO 8. Errors and Exceptions
-        8.1. Syntax Errors
-        8.2. Exceptions
-        8.3. Handling Exceptions
-        8.4. Raising Exceptions
-        8.5. User-defined Exceptions
-        8.6. Defining Clean-up Actions
-        8.7. Predefined Clean-up Actions
-****** TODO 9. Classes
-        9.1. A Word About Names and Objects
-        9.2. Python Scopes and Namespaces
-            9.2.1. Scopes and Namespaces Example
-        9.3. A First Look at Classes
-            9.3.1. Class Definition Syntax
-            9.3.2. Class Objects
-            9.3.3. Instance Objects
-            9.3.4. Method Objects
-            9.3.5. Class and Instance Variables
-        9.4. Random Remarks
-        9.5. Inheritance
-            9.5.1. Multiple Inheritance
-        9.6. Private Variables
-        9.7. Odds and Ends
-        9.8. Exceptions Are Classes Too
-        9.9. Iterators
-        9.10. Generators
-        9.11. Generator Expressions
-****** TODO 10. Brief Tour of the Standard Library
-        10.1. Operating System Interface
-        10.2. File Wildcards
-        10.3. Command Line Arguments
-        10.4. Error Output Redirection and Program Termination
-        10.5. String Pattern Matching
-        10.6. Mathematics
-        10.7. Internet Access
-        10.8. Dates and Times
-        10.9. Data Compression
-        10.10. Performance Measurement
-        10.11. Quality Control
-        10.12. Batteries Included
-****** TODO 11. Brief Tour of the Standard Library – Part II
-        11.1. Output Formatting
-        11.2. Templating
-        11.3. Working with Binary Data Record Layouts
-        11.4. Multi-threading
-        11.5. Logging
-        11.6. Weak References
-        11.7. Tools for Working with Lists
-        11.8. Decimal Floating Point Arithmetic
-****** TODO 12. Virtual Environments and Packages
-        12.1. Introduction
-        12.2. Creating Virtual Environments
-        12.3. Managing Packages with pip
-****** TODO 13. What Now?
-****** TODO 14. Interactive Input Editing and History Substitution
-        14.1. Tab Completion and History Editing
-        14.2. Alternatives to the Interactive Interpreter
-****** TODO 15. Floating Point Arithmetic: Issues and Limitations
-        15.1. Representation Error
-****** TODO 16. Appendix
-        16.1. Interactive Mode
-            16.1.1. Error Handling
-            16.1.2. Executable Python Scripts
-            16.1.3. The Interactive Startup File
-            16.1.4. The Customization Modules
+            4.4. break and continue Statements, and else Clauses on Loops
+	    #+BEGIN_SRC python :results output
+              for n in range(2, 10):
+		  for x in range(2, n):
+                      if n % x == 0:
+			  print(n, 'equals', x, '*', n//x)
+			  break
+		  else:
+		      # loop fell through without finding a factor
+		      print(n, 'is a prime number')
+
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : 2 is a prime number
+	    : 3 is a prime number
+	    : 4 equals 2 * 2
+	    : 5 is a prime number
+	    : 6 equals 2 * 3
+	    : 7 is a prime number
+	    : 8 equals 2 * 4
+	    : 9 equals 3 * 3
+
+	    #+BEGIN_SRC python :results output
+              # continue example
+              for num in range(2, 10):
+		  if num % 2 == 0:
+                      print("Found an even number", num)
+                      continue
+		  print("Found a number", num)
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : Found an even number 2
+	    : Found a number 3
+	    : Found an even number 4
+	    : Found a number 5
+	    : Found an even number 6
+	    : Found a number 7
+	    : Found an even number 8
+	    : Found a number 9
+
+            4.5. pass Statements
+	    #+BEGIN_QUOTE
+	    Does nothing
+	    #+END_QUOTE
+            4.6. Defining Functions
+	    #+BEGIN_SRC python :results output
+              # example
+              def fib(n):    # write Fibonacci series up to n
+		  """Print a Fibonacci series up to n."""
+		  a, b = 0, 1
+		  while a < n:
+                      print(a, end=' ')
+                      a, b = b, a+b
+		  print()
+
+              # Now call the function we just defined:
+              fib(2000)
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
+
+	    #+BEGIN_SRC python :results output
+              def fib2(n): # return Fibonacci series up to n
+		  """Return a list containing the Fibonacci series up to n."""
+		  result = []
+		  a, b = 0, 1
+		  while a < n:
+                      result.append(a)    # see below
+                      a, b = b, a+b
+		  return result
+
+              f100 = fib2(100)    # call it
+              print(f100)                # write the result
+	    #+END_SRC
+
+	    #+RESULTS:
+	    : [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+            4.7. More on Defining Functions
+		4.7.1. Default Argument Values
+		The default value is evaluated only once.
+		#+BEGIN_SRC python :results output
+
+		  def f(a, L=[]):
+                      L.append(a)
+                      return L
+
+		  print(f(1))
+		  print(f(2))
+		  print(f(3))
+		#+END_SRC
+
+		#+RESULTS:
+		: [1]
+		: [1, 2]
+		: [1, 2, 3]
+
+		To prevent this behaviour:
+		#+BEGIN_SRC python :results output
+		  def f(a, L=None):
+                      if L is None:
+			  L = []
+                      L.append(a)
+                      return L
+
+		  print(f(1))
+		  print(f(2))
+		  print(f(3))
+		#+END_SRC
+
+		#+RESULTS:
+		: [1]
+		: [2]
+		: [3]
+
+		4.7.2. Keyword Arguments
+		#+BEGIN_SRC python :results output
+		  def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
+                      print("-- This parrot wouldn't", action, end=' ')
+                      print("if you put", voltage, "volts through it.")
+                      print("-- Lovely plumage, the", type)
+                      print("-- It's", state, "!")
+
+		  # this are correct usage
+		  parrot(1000)                                          # 1 positional argument
+		  parrot(voltage=1000)                                  # 1 keyword argument
+		  parrot(voltage=1000000, action='VOOOOOM')             # 2 keyword arguments
+		  parrot(action='VOOOOOM', voltage=1000000)             # 2 keyword arguments
+		  parrot('a million', 'bereft of life', 'jump')         # 3 positional arguments
+		  parrot('a thousand', state='pushing up the daisies')  # 1 positional, 1 keyword
+
+		  # and this are incorrect -->
+		  #parrot()                     # required argument missing
+		  #parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
+		  #parrot(110, voltage=220)     # duplicate value for the same argument
+		  #parrot(actor='John Cleese')  # unknown keyword argument
+		#+END_SRC
+
+		#+RESULTS:
+		#+begin_example
+		-- This parrot wouldn't voom if you put 1000 volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's a stiff !
+		-- This parrot wouldn't voom if you put 1000 volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's a stiff !
+		-- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's a stiff !
+		-- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's a stiff !
+		-- This parrot wouldn't jump if you put a million volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's bereft of life !
+		-- This parrot wouldn't voom if you put a thousand volts through it.
+		-- Lovely plumage, the Norwegian Blue
+		-- It's pushing up the daisies !
+		#+end_example
+
+		4.7.3. Arbitrary Argument Lists
+		4.7.4. Unpacking Argument Lists
+		4.7.5. Lambda Expressions
+		4.7.6. Documentation Strings
+		4.7.7. Function Annotations
+            4.8. Intermezzo: Coding Style
+********** TODO 5. Data Structures
+            5.1. More on Lists
+		5.1.1. Using Lists as Stacks
+		5.1.2. Using Lists as Queues
+		5.1.3. List Comprehensions
+		5.1.4. Nested List Comprehensions
+            5.2. The del statement
+            5.3. Tuples and Sequences
+            5.4. Sets
+            5.5. Dictionaries
+            5.6. Looping Techniques
+            5.7. More on Conditions
+            5.8. Comparing Sequences and Other Types
+********** TODO 6. Modules
+            6.1. More on Modules
+		6.1.1. Executing modules as scripts
+		6.1.2. The Module Search Path
+		6.1.3. “Compiled” Python files
+            6.2. Standard Modules
+            6.3. The dir() Function
+            6.4. Packages
+		6.4.1. Importing * From a Package
+		6.4.2. Intra-package References
+		6.4.3. Packages in Multiple Directories
+********** TODO 7. Input and Output
+            7.1. Fancier Output Formatting
+		7.1.1. Old string formatting
+            7.2. Reading and Writing Files
+		7.2.1. Methods of File Objects
+		7.2.2. Saving structured data with json
+********** TODO 8. Errors and Exceptions
+            8.1. Syntax Errors
+            8.2. Exceptions
+            8.3. Handling Exceptions
+            8.4. Raising Exceptions
+            8.5. User-defined Exceptions
+            8.6. Defining Clean-up Actions
+            8.7. Predefined Clean-up Actions
+********** TODO 9. Classes
+            9.1. A Word About Names and Objects
+            9.2. Python Scopes and Namespaces
+		9.2.1. Scopes and Namespaces Example
+            9.3. A First Look at Classes
+		9.3.1. Class Definition Syntax
+		9.3.2. Class Objects
+		9.3.3. Instance Objects
+		9.3.4. Method Objects
+		9.3.5. Class and Instance Variables
+            9.4. Random Remarks
+            9.5. Inheritance
+		9.5.1. Multiple Inheritance
+            9.6. Private Variables
+            9.7. Odds and Ends
+            9.8. Exceptions Are Classes Too
+            9.9. Iterators
+            9.10. Generators
+            9.11. Generator Expressions
+********** TODO 10. Brief Tour of the Standard Library
+            10.1. Operating System Interface
+            10.2. File Wildcards
+            10.3. Command Line Arguments
+            10.4. Error Output Redirection and Program Termination
+            10.5. String Pattern Matching
+            10.6. Mathematics
+            10.7. Internet Access
+            10.8. Dates and Times
+            10.9. Data Compression
+            10.10. Performance Measurement
+            10.11. Quality Control
+            10.12. Batteries Included
+********** TODO 11. Brief Tour of the Standard Library – Part II
+            11.1. Output Formatting
+            11.2. Templating
+            11.3. Working with Binary Data Record Layouts
+            11.4. Multi-threading
+            11.5. Logging
+            11.6. Weak References
+            11.7. Tools for Working with Lists
+            11.8. Decimal Floating Point Arithmetic
+********** TODO 12. Virtual Environments and Packages
+            12.1. Introduction
+            12.2. Creating Virtual Environments
+            12.3. Managing Packages with pip
+********** TODO 13. What Now?
+********** TODO 14. Interactive Input Editing and History Substitution
+            14.1. Tab Completion and History Editing
+            14.2. Alternatives to the Interactive Interpreter
+********** TODO 15. Floating Point Arithmetic: Issues and Limitations
+            15.1. Representation Error
+********** TODO 16. Appendix
+            16.1. Interactive Mode
+		16.1.1. Error Handling
+		16.1.2. Executable Python Scripts
+		16.1.3. The Interactive Startup File
+		16.1.4. The Customization Modules
+
+********* Official documentation
+	  http://docs.python.org
+********* http://pypi.python.org/pypi
+********* http://pyvideo.org
+
+******** Programming Python 4th Edition				:programming:
+********* [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
+********* [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
+******** Python Anti-Patterns				      :anti:patterns:
+********* [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
+********* [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
+	  [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
+********* [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
+******** Fluent Python						     :fluent:
+********* Preface
+********** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
+********** TODO [[https://docs.python.org/3/tutorial/][Python Tutorial]]
+	   #+BEGIN_QUOTE
+	   Premature abstraction is as bad as premature optimization.
+	   #+END_QUOTE
+******** Writing Idiomatic Python				     :idioma:
+
+******** Effective Python					     :effect:
+
+********* [[https://github.com/bslatkin/effectivepython][Git]]
+
+
+******* Applied Python
+
+******** NLP with Python
+******** Python for Data Analyse
+********* DONE Preliminaries
+********* TODO Introductory Examples <2016-01-18 Mon>
+********** collections pack
+********* TODO IPython: An Interactive Computing and Development Environment
+	  <2016-01-18 
+      
 
 ***** Official documentation
       http://docs.python.org
