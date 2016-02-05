@@ -370,6 +370,8 @@ How it works
      M-x ansi-term RET lynx
 **** Replace new line
      C-q C-j
+** DONE MELPA installation
+** TODO Helm-dictionary install and test it up
 * Dive deeper into Python programming language 			     :Python:
 
 ** in six months <2016-06-15 Wed> 
@@ -1946,3 +1948,5 @@ http://github.com/pydata/pydata-book
 *** DONE Python-Patterns
 ** Evaluate it in educational purposes
 ** Open pull request
+* OpenSource contributing
+  https://github.com/milkypostman/melpa
