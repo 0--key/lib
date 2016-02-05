@@ -486,25 +486,25 @@ http://github.com/pydata/pydata-book
     	    x = int(input("Please enter an integer: "))
 	#+END_EXAMPLE
 ******* "for" Statements
-	    #+BEGIN_SRC python :results output
-              # Measure some strings:
-              words = ['cat', 'window', 'defenestrate']
-              for w in words:
-		  print(w, len(w))
-              print('==============')
-              for w in words[:]:
-		  if len(w) > 6:
-                      words.insert(0, w)
-              print(words)
+	#+BEGIN_SRC python :results output
+	  # Measure some strings:
+	  words = ['cat', 'window', 'defenestrate']
+	  for w in words:
+	      print(w, len(w))
+	  print('==============')
+	  for w in words[:]:
+	      if len(w) > 6:
+		  words.insert(0, w)
+	  print(words)
 
-	    #+END_SRC
+	#+END_SRC
 
-	    #+RESULTS:
-	    : cat 3
-	    : window 6
-	    : defenestrate 12
-	    : ==============
-	    : ['defenestrate', 'cat', 'window', 'defenestrate']
+	#+RESULTS:
+	: cat 3
+	: window 6
+	: defenestrate 12
+	: ==============
+	: ['defenestrate', 'cat', 'window', 'defenestrate']
 
 ******* The "range()" Function
 	    #+BEGIN_SRC python :results output
@@ -682,8 +682,53 @@ http://github.com/pydata/pydata-book
     #+end_example
 
 ******** Arbitrary Argument Lists
+	 #+BEGIN_SRC python :results output
+           def write_multiple_items(file, separator, *args):
+               file.write(separator.join(args))
+
+
+           def concat(*args, sep="/"):  # keyword-only might occur after
+              return sep.join(args)
+
+           print(concat("earth", "mars", "venus"))
+           print('==============')
+           print(concat("earth", "mars", "venus", sep="."))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : earth/mars/venus
+	 : ==============
+	 : earth.mars.venus
 
 ******** Unpacking Argument Lists
+	 #+BEGIN_SRC python :results output
+           p = list(range(3, 6))            # normal call with separate arguments
+           print(p)
+           print('==============')
+           args = [3, 6]
+           q = list(range(*args))            # call with arguments unpacked from a list
+           print(q)
+	   print('==============')
+
+           # same fashion, dictionaries can deliver keyword arguments with
+           # the "**"-operator:
+
+           def parrot(voltage, state='a stiff', action='voom'):
+               print("-- This parrot wouldn't", action, end=' ')
+               print("if you put", voltage, "volts through it.", end=' ')
+               print("E's", state, "!")
+
+           d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+           print(parrot(**d))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : [3, 4, 5]
+	 : ==============
+	 : [3, 4, 5]
+	 : ==============
+	 : -- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !
+	 : None
 
 ******** Lambda Expressions
 
