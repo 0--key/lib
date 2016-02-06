@@ -847,6 +847,116 @@ http://github.com/pydata/pydata-book
 	functions and methods.
 
 ****** TODO Data Structures
+******* Terse manual
+******** list.append(x)
+	  Add an item to the end of the list.
+	  Equivalent to "a[len(a):] = [x]".
+	  #+BEGIN_SRC python :results output :session lists
+            a = [66.25, 333]
+            a.append(333)
+            print(a)
+	  #+END_SRC
+
+	  #+RESULTS:
+	  : 
+	  : >>> [66.25, 333, 333]
+
+******** list.extend(L)
+	 Extend the list by appending all the items in the given list.
+	 Equivalent to "a[len(a):] = L".
+	 #+BEGIN_SRC python :results output :session lists
+	 b = [1, 1234.5]
+	 a.extend(b)
+	 print(a)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : >>> [66.25, 333, 333, 1, 1234.5]
+
+******** list.insert(i, x)
+	 Insert an item at a given position.  The first argument is the
+	 index of the element before which to insert, so "a.insert(0, x)"
+	 inserts at the front of the list, and "a.insert(len(a), x)" is
+	 equivalent to "a.append(x)".
+	 #+BEGIN_SRC python :results output :session lists
+	 a.insert(2, -1)
+	 print(a)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : [66.25, 333, -1, 333, 1, 1234.5]
+
+******** list.remove(x)
+	 Remove the first item from the list whose value is *x*.  It is an
+	 error if there is no such item.
+	 #+BEGIN_SRC python :results output :session lists
+	 a.remove(66.25)
+	 print(a)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : [333, -1, 333, 1, 1234.5]
+
+******** list.pop([i])
+	 Remove the item at the given position in the list, and return it.
+	 If no index is specified, "a.pop()" removes and returns the last
+	 item in the list.
+	 #+BEGIN_SRC python :results output :session lists
+	 a.pop(4)
+	 a.pop()
+	 print(a)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 1234.5
+	 : 1
+	 : [333, -1, 333]
+
+******** list.clear()
+	 Remove all items from the list.  Equivalent to "del a[:]".
+******** list.index(x, [n])
+	 Return the index in the list of the [n] item whose value is *x*.
+	 It is an error if there is no such item.
+	 #+BEGIN_SRC python :results output :session lists
+	 a.index(333)
+	 a.index(333, 2)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 0
+	 : 2
+
+******** list.count(x)
+	 Return the number of times *x* appears in the list.
+	 #+BEGIN_SRC python :results output :session lists
+	 a.extend([2, 2, 2])
+	 print(a)
+	 a.count(333)
+	 a.count(2)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : [333, -1, 333, 2, 2, 2, 2, 2, 2]
+	 : 2
+	 : 6
+
+******** list.reverse()
+	 Reverse the elements of the list in place.
+	 #+BEGIN_SRC python :results output :session lists
+	 a.reverse()
+	 print(a)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : [333, -1, 333, 2, 2, 2, 2, 2, 2]
+
+******** list.copy()
+	 Return a shallow copy of the list.  Equivalent to "a[:]".
 ******* More on Lists
 ******** Using Lists as Stacks
 
