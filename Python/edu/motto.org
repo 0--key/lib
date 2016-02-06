@@ -18,11 +18,26 @@
 ** TODO Grammar
 *** Tutorial
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** TODO Pronouns [18%]
+**** TODO Pronouns [27%]
 ***** DONE Personal pronouns
 ***** DONE it and there
-***** TODO you and they
+***** DONE you and they
 ***** TODO possessive pronouns (see possessives:- pronouns)
+
+      | subject | object | pos.adj | pos.pron |
+      |---------+--------+---------+----------|
+      | I       | me     | my      | mine     |
+      |---------+--------+---------+----------|
+      | you     | you    | your    | yours    |
+      |---------+--------+---------+----------|
+      | he      | him    | his     | his      |
+      |---------+--------+---------+----------|
+      | she     | her    | her     | hers     |
+      |---------+--------+---------+----------|
+      | we      | us     | our     | ours     |
+      |---------+--------+---------+----------|
+      | they    | them   | their   | theirs   | 
+  
 ***** TODO this, that, these and those
 ***** TODO one and ones
 ***** TODO questions
@@ -370,6 +385,9 @@ How it works
      M-x ansi-term RET lynx
 **** Replace new line
      C-q C-j
+*** Orgmode
+**** Table header closing
+     C-c <RET>
 ** DONE MELPA installation
 ** TODO Helm-dictionary install and test it up
 * Dive deeper into Python programming language 			     :Python:
@@ -404,7 +422,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [18%]
+***** The Python Tutorial [25%]
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -481,7 +499,7 @@ http://github.com/pydata/pydata-book
 		  a, b = b, a + b
 	    #+END_SRC
 
-****** TODO More Control Flow Tools
+****** DONE More Control Flow Tools
 
 ******* "if" Statements
 	#+BEGIN_EXAMPLE
@@ -600,7 +618,6 @@ http://github.com/pydata/pydata-book
 	#+RESULTS:
 	: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ******* More on Defining Functions
-
 ******** Default Argument Values
 	   The default value is evaluated only once.
 	   #+BEGIN_SRC python :results output
@@ -636,7 +653,6 @@ http://github.com/pydata/pydata-book
 	   : [1]
 	   : [2]
 	   : [3]
-
 
 ******** Keyword Arguments
 	   #+BEGIN_SRC python :results output
@@ -772,6 +788,20 @@ http://github.com/pydata/pydata-book
 	 : ==============
 	 : [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 	 : ==============
+	 #+BEGIN_SRC python :results output
+           import sys
+
+           summ = lambda x, y: x + y   #  def sum(x,y): return x + y
+           out = lambda *x: sys.stdout.write(" ".join(map(str,x)))
+
+           print(summ(4, 5))
+           print(out("a", "b", "c", "D"))
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 9
+	 : a b c D7
 
 ******** Documentation Strings
 	 #+BEGIN_SRC python :results output
@@ -793,14 +823,23 @@ http://github.com/pydata/pydata-book
 	 :     
 
 ******** Function Annotations
-	 
+	 #+BEGIN_QUOTE
+	 completely optional metadata information
+	 about the types used by user-defined functions
+	 #+END_QUOTE
 	 
 ******* Intermezzo: Coding Style
+	Making it easy for others to read your code
+	is always a good idea, and adopting a nice coding style helps
+	tremendously for that.
+	+ Suggestions:
+	  - When possible, put comments on a line of their own;
+	  - Name your classes and functions consistently; the convention is to
+	use "CamelCase" for classes and "lower_case_with_underscores" for
+	functions and methods.
 
 ****** TODO Data Structures
-
 ******* More on Lists
-
 ******** Using Lists as Stacks
 
 ******** Using Lists as Queues
