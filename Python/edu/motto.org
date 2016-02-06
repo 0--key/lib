@@ -731,13 +731,70 @@ http://github.com/pydata/pydata-book
 	 : ==============
 	 : -- This parrot wouldn't VOOM if you put four million volts through it. E's bleedin' demised !
 	 : None
+	 #+BEGIN_SRC python :results output
+           # test with argument passing
+           def arg_test(*args, **kwargs):
+               print('This is a first positional argument: %s' % (args[0],))
+               print('This is artument value with key "last_name": %s' %
+                     (kwargs['last_name'],))
+               print('This is a second positional argument: %s' % (args[1],))
+
+           # arg_test('Tony', last_name='Kosinov', 'WebDev')  # wrong
+           arg_test('Tony', 'WebDev', last_name='Kosinov')
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : This is a first positional argument: Tony
+	 : This is artument value with key "last_name": Kosinov
+	 : This is a second positional argument: WebDev
 
 ******** Lambda Expressions
+	 #+BEGIN_SRC python :results output
+           def make_incrementor(n):
+               return lambda x: x + n
+
+           f = make_incrementor(42)
+           print(f(0))
+           print(f(1))
+           print('==============')
+
+           pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+           pairs.sort(key=lambda pair: pair[1])  # sort by second element in the tuple
+           print(pairs)
+           print('==============')
+
+           mult3 = filter(lambda x: x % 3 == 0, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 42
+	 : 43
+	 : ==============
+	 : [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
+	 : ==============
 
 ******** Documentation Strings
+	 #+BEGIN_SRC python :results output
+           def my_function():
+               """Do nothing, but document it.
+
+               No, really, it doesn't do anything.
+               """
+               pass
+
+           print(my_function.__doc__)
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : Do nothing, but document it.
+	 : 
+	 :     No, really, it doesn't do anything.
+	 :     
 
 ******** Function Annotations
-
+	 
+	 
 ******* Intermezzo: Coding Style
 
 ****** TODO Data Structures
