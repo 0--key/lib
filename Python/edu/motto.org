@@ -14,11 +14,11 @@
 
 *** the spaced repetition is the best approach;
    
-* Enhance English						    :English:
-** TODO Grammar
-*** Tutorial
+* Enhance English [0%] 						    :English:
+** TODO Grammar [%]
+*** Tutorial [%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** TODO Pronouns [45%]
+**** TODO Pronouns [54%]
 ***** DONE Personal pronouns
 ***** DONE it and there
 ***** DONE you and they
@@ -47,8 +47,17 @@
       I'm John and these are my children Molly and Jake.
       What are those men doing on the roof?
       Do you take this woman to be your lawfully wedded wife?
-***** TODO one and ones
+***** DONE one and ones
+      How old are my children? The younger one is four and the older
+      one is seven.
+      The new mobiles are much lighter than the old ones.
+      I don't mind what kind of car it is, I just want one that gets
+      me there.
+      Which do you prefer? This one, or that one?
+      I need some new glasses. The ones I have at the moment are broken.
+      I hope this holiday will be one to remember.
 ***** TODO questions
+      
 ***** TODO reflexive pronouns
 ***** TODO reciprocal pronouns: each other and one another
 ***** TODO indefinite pronouns
@@ -58,10 +67,13 @@
 ***** TODO indefinite article: a and an
 ***** TODO definite article: the
 ***** TODO quantifiers
-** TODO Pronounce
-** TODO Vocabulary
-   example [[http://www.manythings.org/sentences/words/][sentences]] of real English with new words
-   [[http://tatoeba.org/eng/downloads][Tatoeba]] dataset {sentences with their translation}
+** TODO Pronounce [0%]
+*** TODO Reading aloud at the regualr base [33%]
+**** TODO Adventures of Hucklberry Finn
+**** TODO My Family and Other Animals
+**** DONE Python Talk to Me podcast
+** TODO Vocabulary [0%]
+*** TODO Vocabla repetition
 
 * Jargon & definition						    :corpora:
 ** PP4E
@@ -394,10 +406,15 @@ How it works
 **** Replace new line
      C-q C-j
 *** Orgmode
-**** Table header closing
-     C-c <RET>
+**** Tables
+***** |header|...
+***** Table header closing
+      C-c <RET>
+**** Babel
+***** Execute code in the current subtree
+      C-c C-v s
 ** DONE MELPA installation
-** TODO Helm-dictionary install and test it up
+** DONE Helm-dictionary install and test it up
 * Dive deeper into Python programming language 			     :Python:
 
 ** in six months <2016-06-15 Wed> 
