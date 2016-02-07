@@ -413,6 +413,8 @@ How it works
 **** Babel
 ***** Execute code in the current subtree
       C-c C-v s
+***** Backward to higher level heading
+      C-c C-u
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
 * Dive deeper into Python programming language 			     :Python:
@@ -827,6 +829,25 @@ http://github.com/pydata/pydata-book
 	 #+RESULTS:
 	 : 9
 	 : a b c D7
+	 #+NAME: jump_table
+	 #+BEGIN_SRC python :results output
+           # jump table implementation
+           L = [lambda x: x ** 2,
+                lambda x: x ** 3,
+                lambda x: x ** 4]
+           # Inline function definition
+           # A list of three callable functions
+           for f in L:
+               print(f(2)) # Prints 4, 8, 16
+           print(L[0](3)) # Prints 9
+
+	 #+END_SRC
+
+	 #+RESULTS: jump_table
+	 : 4
+	 : 8
+	 : 16
+	 : 9
 
 ******** Documentation Strings
 	 #+BEGIN_SRC python :results output
@@ -973,11 +994,59 @@ http://github.com/pydata/pydata-book
 	 : [333, -1, 333, 2, 2, 2, 2, 2, 2]
 
 ******** list.copy()
-	 Return a shallow copy of the list.  Equivalent to "a[:]".
+	 Return a shallow copy of the list. Equivalent to "a[:]".
 ******* More on Lists
 ******** Using Lists as Stacks
+	 #+BEGIN_SRC python :results output :session stack
+           stack = [3, 4, 5]
+           stack.append(6)
+           stack.append(7)
+           stack
+           '============='
+           stack.pop()
+           stack
+           stack.pop()
+           '============='
+           stack.pop()
+           '============='
+           stack
+	 #+END_SRC
+
+	 #+RESULTS:
+	 #+begin_example
+
+	 >>> >>> [3, 4, 5, 6, 7]
+	 '============='
+	 7
+	 [3, 4, 5, 6]
+	 6
+	 '============='
+	 5
+	 '============='
+	 [3, 4]
+#+end_example
 
 ******** Using Lists as Queues
+	 #+NAME: Queue
+	 #+BEGIN_SRC python :results output :session queue
+           from collections import deque
+           queue = deque(["Eric", "John", "Michael"])
+           queue.append("Terry")           # Terry arrives
+           queue.append("Graham")          # Graham arrives
+           queue.popleft()                 # The first to arrive now leaves
+           print('=============')
+           queue.popleft()                 # The second to arrive now leaves
+           print('=============')
+           queue                           # Remaining queue in order of arrival
+	 #+END_SRC
+
+	 #+RESULTS: Queue
+	 : 
+	 : >>> >>> >>> 'Eric'
+	 : =============
+	 : 'John'
+	 : =============
+	 : deque(['Michael', 'Terry', 'Graham'])
 
 ******** List Comprehensions
 
@@ -2165,7 +2234,6 @@ http://github.com/pydata/pydata-book
 ***** TODO IPython: An Interactive Computing and Development Environment
       <2016-01-18 
       
-
 * Enhance general coding grit
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
