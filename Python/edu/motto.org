@@ -405,6 +405,19 @@ How it works
      M-x ansi-term RET lynx
 **** Replace new line
      C-q C-j
+**** Move forward/backward sentence
+     M-e/a
+**** Delete word/character
+     M/C-d
+     M-Del previous word
+**** Delete sentence
+     M-k next
+     C-x Del previous
+**** Kill line
+     C-k
+     M-C-k from end of the line up to the cursor
+**** TODO Manipulation with frames
+     C-x 5 b switch to buffer other frame
 *** Orgmode
 **** Tags
      Set C-c C-q
