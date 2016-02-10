@@ -18,7 +18,7 @@
 ** TODO Grammar [%]
 *** Tutorial [%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** TODO Pronouns [72%]
+**** TODO Pronouns [81%]
 ***** DONE Personal pronouns
 ***** DONE it and there
 ***** DONE you and they
@@ -87,7 +87,13 @@
       He cut himself shaving today.
       Ladies and gentlemen. There's masses of food, so please help yourselves.
 
-***** TODO reciprocal pronouns: each other and one another
+***** DONE reciprocal pronouns: each other and one another
+      The animals looked at each other.
+      Romeo and Juliet loved each other.
+      You and Jack didn't talk to each other.
+      We gave present to each other.
+      My girlfriend and I met one another's parents last night.
+      My brother and I used to borrow each other's clothes.
 ***** TODO indefinite pronouns
 ***** TODO relative pronouns
 **** TODO Determiners and quantifiers [0%]
@@ -437,15 +443,16 @@ How it works
      M-e/a
 **** Delete word/character
      M/C-d
-     M-Del previous word
+     M-DEL previous word
 **** Delete sentence
      M-k next
-     C-x Del previous
+     C-x DEL previous
 **** Kill line
      C-k
      M-C-k from end of the line up to the cursor
-**** TODO Manipulation with frames
+**** DONE Manipulation with frames
      C-x 5 b switch to buffer other frame
+**** 
 *** Orgmode
 **** Tags
      Set C-c C-q
