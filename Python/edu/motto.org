@@ -499,7 +499,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [25%]
+***** The Python Tutorial [31%]
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -934,7 +934,7 @@ http://github.com/pydata/pydata-book
 	use "CamelCase" for classes and "lower_case_with_underscores" for
 	functions and methods.
 
-****** TODO Data Structures
+****** DONE Data Structures
 ******* Terse manual
 ******** list.append(x)
 	  Add an item to the end of the list.
@@ -1404,7 +1404,6 @@ http://github.com/pydata/pydata-book
 	: =============
 	: >>> ... ... >>> {'sape': 4139, 'guido': 4127, 'jack': 4098}
 
-
 ******* Looping Techniques
 	#+BEGIN_SRC python :results output :session
           knights = {'gallahad': 'the pure', 'robin': 'the brave'}
@@ -1466,9 +1465,26 @@ http://github.com/pydata/pydata-book
 #+end_example
 
 ******* More on Conditions
-	
+	#+BEGIN_SRC python :results output :session
+          string1, string2, string3 = '', 'Trondheim', 'Hammer Dance'
+          non_null = string1 or string2 or string3
+          print(non_null)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> Trondheim
 
 ******* Comparing Sequences and Other Types
+	#+BEGIN_QUOTE
+	(1, 2, 3)              < (1, 2, 4)
+	[1, 2, 3]              < [1, 2, 4]
+	'ABC' < 'C' < 'Pascal' < 'Python'
+	(1, 2, 3, 4)           < (1, 2, 4)
+	(1, 2)                 < (1, 2, -1)
+	(1, 2, 3)             == (1.0, 2.0, 3.0)
+	(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
+	#+END_QUOTE
 
 ****** TODO Modules
 
