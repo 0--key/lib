@@ -1406,8 +1406,67 @@ http://github.com/pydata/pydata-book
 
 
 ******* Looping Techniques
+	#+BEGIN_SRC python :results output :session
+          knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+          for k, v in knights.items():
+              print(k, v)
+
+          for i, v in enumerate(['tic', 'tac', 'toe']):
+              print(i, v)
+
+          # To loop over two or more sequences at the same time, the entries can
+          # be paired with the "zip()" function.
+
+          questions = ['name', 'quest', 'favorite color']
+          answers = ['lancelot', 'the holy grail', 'blue']
+          for q, a in zip(questions, answers):
+              print('What is your {0}?  It is {1}.'.format(q, a))
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... robin the brave
+	: gallahad the pure
+	: ... ... 0 tic
+	: 1 tac
+	: 2 toe
+	: ... ... >>> >>> >>> ... ... What is your name?  It is lancelot.
+	: What is your quest?  It is the holy grail.
+	: What is your favorite color?  It is blue.
+
+	Sometimes it is tempting to iterate some sequences in their reverse
+	order:
+	#+BEGIN_SRC python :results output :session
+
+          for i in reversed(range(1, 10, 2)):
+              print(i)
+
+          # To loop over a sequence in sorted order, use the "sorted()" function
+          # which returns a new sorted list while leaving the source unaltered.
+
+          basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+          for f in sorted(set(basket)):
+              print(f)
+
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	... ... 9
+	7
+	5
+	3
+	1
+	... ... >>> >>> ... ... apple
+	banana
+	orange
+	pear
+#+end_example
 
 ******* More on Conditions
+	
 
 ******* Comparing Sequences and Other Types
 
