@@ -182,6 +182,8 @@
 *** Presentation
     Creating interactive or static graphical visualizations or textual summaries
 
+** Python Beyond
+   A read-eval-print loop (REPL)
 ** OrgMode
 *** Curious thought
     #+BEGIN_QUOTE
@@ -2165,21 +2167,52 @@ http://github.com/pydata/pydata-book
              # "We only raise Shields when one or more giant robots attack,
              # so I can just return that value..."
              return number_of_evil_robots_attacking()
-
+         # if should_raise_shields():  # idiomatic approach
          if should_raise_shields() == True:
              raise_shields()
              print ('Shields raised')
          else:
-             print("Function isn't True")
+             print("Safe! No giant robots attacking")
        #+END_SRC
 
        #+RESULTS:
-       : Function isn't True
+       : Safe! No giant robots attacking
        
-
        1.1.2 Avoid repeating variable name in compound if statement
+       #+BEGIN_SRC python :results output
+         is_generic_name = False
+         name = 'Tom'
+         if name == 'Tom' or name == 'Dick' or name == 'Harry':
+             is_generic_name = True
+
+         # Idiomatic
+         name = 'Tom'
+         is_generic_name = name in ('Tom', 'Dick', 'Harry')
+         print(is_generic_name)
+       #+END_SRC
+
+       #+RESULTS:
+       : True
+
        1.1.3 Avoid placing conditional branch code on the same line as
        the colon
+       #+BEGIN_SRC python :results output
+         name = 'Jeff'
+         address = 'New York, NY'
+         if name: print (name)
+         print (address)
+         # Idiomatic
+         if name:
+             print (name)
+         print (address)
+       #+END_SRC
+
+       #+RESULTS:
+       : Jeff
+       : New York, NY
+       : Jeff
+       : New York, NY
+
 ****** 1.2 For loops
        1.2.1 Use the enumerate function in loops instead of creating an
        “index” variable
