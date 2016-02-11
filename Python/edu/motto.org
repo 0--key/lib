@@ -1539,12 +1539,37 @@ http://github.com/pydata/pydata-book
 ******** "Compiled" Python files
 
 ******* Standard Modules
+	#+BEGIN_SRC python :results output :session modules
+          import sys
+          for i, j in enumerate(sys.path):
+              print(i, "::", j, end="\n")
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... 0 :: 
+	: 1 :: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4
+	: 2 :: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/plat-x86_64-linux-gnu
+	: 3 :: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/lib-dynload
+	: 4 :: /usr/lib/python3.4
+	: 5 :: /usr/lib/python3.4/plat-x86_64-linux-gnu
+	: 6 :: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages
 
 ******* The "dir()" Function
+	#+BEGIN_QUOTE
+	The built-in function "dir()" is used to find out which names a module
+	defines.  It returns a sorted list of strings.
+
+	Without arguments, "dir()" lists the names you have defined currently.
+	#+END_QUOTE
 
 ******* Packages
-
+	#+BEGIN_QUOTE
+	Packages are a way of structuring Python's module namespace by using
+	"dotted module names".
+	#+END_QUOTE
 ******** Importing * From a Package
+	 
 
 ******** Intra-package References
 
