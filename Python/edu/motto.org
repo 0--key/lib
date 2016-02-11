@@ -1511,11 +1511,29 @@ http://github.com/pydata/pydata-book
 	#+END_QUOTE
 
 ****** TODO Modules
+       #+BEGIN_SRC python :results output :session modules
+         import fibo
+         fibo.fib(1000)
+         fibo.fib2(100)
+         fibo.__name__
+       #+END_SRC
+
+       #+RESULTS:
+       : Type "help", "copyright", "credits" or "license" for more information.
+       : >>> >>> >>> >>> 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+       : [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+       : 'fibo'
 
 ******* More on Modules
+	#+BEGIN_QUOTE
+	Note: For efficiency reasons, each module is only imported once per
+	interpreter session.  Therefore, if you change your modules, you
+	must restart the interpreter -- or, if it's just one module you want
+	to test interactively, use "importlib.reload()", e.g. "import
+	importlib; importlib.reload(modulename)".
+	#+END_QUOTE
 
 ******** Executing modules as scripts
-
 ******** The Module Search Path
 
 ******** "Compiled" Python files
