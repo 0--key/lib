@@ -18,7 +18,7 @@
 ** TODO Grammar [%]
 *** Tutorial [%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** TODO Pronouns [81%]
+**** TODO Pronouns [90%]
 ***** DONE Personal pronouns
 ***** DONE it and there
 ***** DONE you and they
@@ -94,7 +94,31 @@
       We gave present to each other.
       My girlfriend and I met one another's parents last night.
       My brother and I used to borrow each other's clothes.
-***** TODO indefinite pronouns
+***** DONE indefinite pronouns
+
+      | somebody  | someone  | something  |
+      |-----------+----------+------------|
+      | anybody   | anyone   | anything   |
+      | nobody    | no one   | nothing    |
+      | everybody | everyone | everything |
+
+      I went to Baker's house this morning but there was nobody home.
+      The fridge is empty. We need to buy something for dinner tonight.
+      I don't want to talk with Stewart. I don't have anything to say to him.
+      I've left my wallet at home. Can anybody lend me a bit of money?
+      Isabelle is a really popular manager. Everybody likes and respects her.
+      Hello? Is anybody there?
+      Louise is a huge fan of Elvis Prestley. She knows everything about him.
+      I've had flue for the past three weeks, and nothing seems to make it
+      any better.
+      >>
+      Everybody is saying that Nadal will win the match, but I'm not so sure.
+      If anybody has any questions, they're very welcome to come and ask me.
+      Nobody in my family eats meat.
+      Somebody stole my wallet yesterday. They took it from my desk.
+      Helena sent twenty job applications but nobody replied.
+      My home town is the same as it was twenty years ago; nothing has changed.
+      
 ***** TODO relative pronouns
 **** TODO Determiners and quantifiers [0%]
 ***** TODO interrogative determiners: which and what
@@ -2108,6 +2132,7 @@ http://github.com/pydata/pydata-book
 
        #+RESULTS:
        : Function isn't True
+       
 
        1.1.2 Avoid repeating variable name in compound if statement
        1.1.3 Avoid placing conditional branch code on the same line as
