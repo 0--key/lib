@@ -2282,30 +2282,29 @@ http://github.com/pydata/pydata-book
 **** Writing Idiomatic Python					     :idioma:
 ***** 1 Control Structures and Functions
 ****** 1.1 If Statements
-       1.1.1 Avoid comparing directly to True , False , or None
-       #+BEGIN_SRC python :results output
-         def raise_shields():
-             return True
+******* 1.1.1 Avoid comparing directly to True , False , or None
+	#+BEGIN_SRC python :results output
+          def raise_shields():
+              return True
 
-         def number_of_evil_robots_attacking():
-             return 10
+          def number_of_evil_robots_attacking():
+              return 10
 
-         def should_raise_shields():
-             # "We only raise Shields when one or more giant robots attack,
-             # so I can just return that value..."
-             return number_of_evil_robots_attacking()
-         # if should_raise_shields():  # idiomatic approach
-         if should_raise_shields() == True:
-             raise_shields()
-             print ('Shields raised')
-         else:
-             print("Safe! No giant robots attacking")
-       #+END_SRC
+          def should_raise_shields():
+              # "We only raise Shields when one or more giant robots attack,
+              # so I can just return that value..."
+              return number_of_evil_robots_attacking()
+          # if should_raise_shields():  # idiomatic approach
+          if should_raise_shields() == True:
+              raise_shields()
+              print ('Shields raised')
+          else:
+              print("Safe! No giant robots attacking")
+	#+END_SRC
 
-       #+RESULTS:
-       : Safe! No giant robots attacking
-       
-       1.1.2 Avoid repeating variable name in compound if statement
+	#+RESULTS:
+	: Safe! No giant robots attacking
+******* 1.1.2 Avoid repeating variable name in compound if statement
        #+BEGIN_SRC python :results output
          is_generic_name = False
          name = 'Tom'
@@ -2320,8 +2319,7 @@ http://github.com/pydata/pydata-book
 
        #+RESULTS:
        : True
-
-       1.1.3 Avoid placing conditional branch code on the same line as
+******* 1.1.3 Avoid placing conditional branch code on the same line as
        the colon
        #+BEGIN_SRC python :results output
          name = 'Jeff'
@@ -2340,11 +2338,45 @@ http://github.com/pydata/pydata-book
        : Jeff
        : New York, NY
 
-****** 1.2 For loops
-       1.2.1 Use the enumerate function in loops instead of creating an
-       “index” variable
-       1.2.2 Use the in keyword to iterate over an iterable
-       1.2.3 Use else to execute code after a for loop concludes
+****** 1.2 For loops       
+******* 1.2.1 Use the enumerate function in loops instead of creating an “index” variable
+	#+BEGIN_SRC python :results output
+          my_container = ['Larry', 'Moe', 'Curly']
+          for index, element in enumerate(my_container):
+              print ('{} {}'.format(index, element))
+	#+END_SRC
+
+	#+RESULTS:
+	: 0 Larry
+	: 1 Moe
+	: 2 Curly
+
+******* 1.2.2 Use the in keyword to iterate over an iterable
+	#+BEGIN_SRC python :results output
+          my_list = ['Larry', 'Moe', 'Curly']
+          for element in my_list:
+              print (element)
+	#+END_SRC
+
+	#+RESULTS:
+	: Larry
+	: Moe
+	: Curly
+
+******* 1.2.3 Use else to execute code after a for loop concludes
+	#+BEGIN_SRC python
+          for user in get_all_users():
+              print ('Checking {}'.format(user))
+              for email_address in user.get_all_email_addresses():
+                  if email_is_malformed(email_address):
+                      print ('Has a malformed email address!')
+                      break
+              else:  # for loop successfully iterated all items
+                  print ('All email addresses are valid!')
+	#+END_SRC
+
+	#+RESULTS:
+
 ****** 1.3 Functions
        1.3.1 Avoid using '' , [] , and {} as default parameters to func-
        tions
