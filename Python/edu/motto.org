@@ -1604,8 +1604,109 @@ http://github.com/pydata/pydata-book
 ******** Packages in Multiple Directories
 	 ##
 ****** TODO Input and Output
-
 ******* Fancier Output Formatting
+	#+BEGIN_SRC python :results output
+          for x in range(1, 11):
+              print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+
+          for x in range(1, 11):
+              print(repr(x).rjust(2), repr(x*x).rjust(3), end=' ')
+              # Note use of 'end' on previous line
+              print(repr(x*x*x).rjust(4))
+	#+END_SRC
+
+	#+BEGIN_SRC python :results output
+          # Basic usage of the "str.format()" method looks like this:
+          print('We are the {} who say "{}!"'.format('knights', 'Ni'))
+          print('=============')
+          print('{0} and {1}'.format('spam', 'eggs'))
+
+          print('{1} and {0}'.format('spam', 'eggs'))
+          print('=============')
+
+          # If keyword arguments are used in the "str.format()" method, their
+          # values are referred to by using the name of the argument.
+
+          print('This {food} is {adjective}.'.format(
+                food='spam', adjective='absolutely horrible'))
+          print('=============')
+
+          # Positional and keyword arguments can be arbitrarily combined:
+
+          print('The story of {0}, {1}, and {other}.'.format('Bill', 'Manfred',
+                                                             other='Georg'))
+          print('=============')
+
+          # "'!a'" (apply "ascii()"), "'!s'" (apply "str()") and "'!r'" (apply
+          # "repr()") can be used to convert the value before it is formatted:
+
+          import math
+          print('The value of PI is approximately {!a}.'.format(math.pi))
+
+          print('The value of PI is approximately {!r}.'.format(math.pi))
+          print('=============')
+
+          # An optional "':'" and format specifier can follow the field name. This
+          # allows greater control over how the value is formatted.  The following
+          # example rounds Pi to three places after the decimal.
+
+          import math
+          print('The value of PI is approximately {0:.3f}.'.format(math.pi))
+          print('=============')
+
+          # Passing an integer after the "':'" will cause that field to be a
+          # minimum number of characters wide.  This is useful for making tables
+          # pretty.
+
+          table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+          for name, phone in table.items():
+              print('{0:10} ==> {1:10d}'.format(name, phone))
+          print('=============')
+          # If you have a really long format string that you don't want to split
+          # up, it would be nice if you could reference the variables to be
+          # formatted by name instead of by position.  This can be done by simply
+          # passing the dict and using square brackets "'[]'" to access the keys
+
+          table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+          print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; ''Dcab: {0[Dcab]:d}'.format(table))
+          print('=============')
+
+          # This could also be done by passing the table as keyword arguments with
+          # the '**' notation.
+
+          #    >>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
+          print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))
+          print('=============')
+
+          # This is particularly useful in combination with the built-in function
+          # "vars()", which returns a dictionary containing all local variables.
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+	We are the knights who say "Ni!"
+	=============
+	spam and eggs
+	eggs and spam
+	=============
+	This spam is absolutely horrible.
+	=============
+	The story of Bill, Manfred, and Georg.
+	=============
+	The value of PI is approximately 3.141592653589793.
+	The value of PI is approximately 3.141592653589793.
+	=============
+	The value of PI is approximately 3.142.
+	=============
+	Jack       ==>       4098
+	Sjoerd     ==>       4127
+	Dcab       ==>       7678
+	=============
+	Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+	=============
+	Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+	=============
+#+end_example
 
 ******** Old string formatting
 
