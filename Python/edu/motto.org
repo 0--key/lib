@@ -543,7 +543,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [31%]
+***** The Python Tutorial [37%]
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -1530,7 +1530,7 @@ http://github.com/pydata/pydata-book
 	(1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
 	#+END_QUOTE
 
-****** TODO Modules
+****** DONE Modules
        #+BEGIN_SRC python :results output :session modules
          import fibo
          fibo.fib(1000)
@@ -1555,7 +1555,6 @@ http://github.com/pydata/pydata-book
 
 ******** Executing modules as scripts
 ******** The Module Search Path
-
 ******** "Compiled" Python files
 
 ******* Standard Modules
@@ -1589,12 +1588,21 @@ http://github.com/pydata/pydata-book
 	"dotted module names".
 	#+END_QUOTE
 ******** Importing * From a Package
+	 For example, the file "sound/effects/__init__.py" could contain the
+	 following code:
 	 
+	 __all__ = ["echo", "surround", "reverse"]
+	 
+	 This would mean that "from sound.effects import *" would import the
+	 three named submodules of the "sound" package.
 
 ******** Intra-package References
+	    from . import echo
+	    from .. import formats
+	    from ..filters import equalizer
 
 ******** Packages in Multiple Directories
-
+	 ##
 ****** TODO Input and Output
 
 ******* Fancier Output Formatting
