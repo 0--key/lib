@@ -16,9 +16,9 @@
    
 * Enhance English [0%] 						    :English:
 ** TODO Grammar [%]
-*** Tutorial [%]
+*** Tutorial [50%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-**** TODO Pronouns [90%]
+**** DONE Pronouns [100%]
 ***** DONE Personal pronouns
 ***** DONE it and there
 ***** DONE you and they
@@ -119,7 +119,25 @@
       Helena sent twenty job applications but nobody replied.
       My home town is the same as it was twenty years ago; nothing has changed.
       
-***** TODO relative pronouns
+***** DONE relative pronouns
+      
+      | Subject | Object | Posessive |
+      |---------+--------+-----------|
+      | who     | who(m) | whose     |
+      |---------+--------+-----------|
+      | which   | which  | whose     |
+      |---------+--------+-----------|
+      | that    | that   |           |
+
+      He is the artist whose paintings sell for millions.
+      That's a song that reminds me of my youth.
+      She's only person who really understands me.
+      He tore up the photograph, who upset me.
+      They had four children, all of whom went to university.
+      She wrote a best-selling book, the name of which I've completely
+      forgotten.
+      Where's the girl who is selling the ice-cream?
+      Isn't that the man, whose brother was a famous pianist?
 **** TODO Determiners and quantifiers [0%]
 ***** TODO interrogative determiners: which and what
 ***** TODO indefinite article: a and an
