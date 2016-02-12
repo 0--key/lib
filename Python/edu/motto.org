@@ -151,7 +151,7 @@
 ** TODO Vocabulary [0%]
 *** TODO Vocabla repetition
 
-* Jargon & definition						    :corpora:
+* Jargon & definition 						    :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
 
@@ -221,6 +221,11 @@
 
     – Donald Knuth
     #+END_QUOTE
+*** Getting Things Done is a time-management method, described in a book of the same title
+    by productivity consultant David Allen. It is often referred to as GTD. The GTD method
+    rests on the idea of moving planned tasks and projects out of the mind by recording
+    them externally and then breaking them into actionable work items. This allows one to
+    focus attention on taking action on tasks, instead of on recalling them.
 ** Cracking Interview
 *** A hiring committee typically wants to see one interviewer
     who is an "enthusiastic endorser"
@@ -509,6 +514,12 @@ How it works
       C-c C-v s
 ***** Backward to higher level heading
       C-c C-u
+***** Find tag
+      C-c \
+***** Build sparse tree
+      C-c / <extra-key>
+***** Exit out from sparse tree
+      C-c C-c
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
 * Dive deeper into Python programming language 			     :Python:
