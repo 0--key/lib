@@ -172,22 +172,43 @@
 **** TODO Adventures of Hucklberry Finn
 **** TODO My Family and Other Animals
 **** DONE Python Talk to Me podcast
-** TODO Vocabulary [0%]
-*** TODO Vocabla repetition
+** TODO Vocabulary [50%]
+*** DONE Vocabla repetition
 *** TODO Quora reading
-    #+BEGIN_QUOTE
-    One easy way to create a unique skill is to combine two
-    seemingly unrelated skills into one skill.  Being the best
-    computer scientist in the world is really hard.  Being the
-    person who knows the most about dolphins is really hard.
-    But being the person who best knows about the intersection
-    of software and dolphins is accomplishable.
+**** TODO Quotations about life sense
+     #+BEGIN_QUOTE
+     One easy way to create a unique skill is to combine two
+     seemingly unrelated skills into one skill.  Being the best
+     computer scientist in the world is really hard.  Being the
+     person who knows the most about dolphins is really hard.
+     But being the person who best knows about the intersection
+     of software and dolphins is accomplishable.
 
-    But if you and I have a debate and we argue two sides, and
-    you are proven wrong, that doesn't make me right.  I could
-    be just as wrong as you.
-    #+END_QUOTE
-    
+     But if you and I have a debate and we argue two sides, and
+     you are proven wrong, that doesn't make me right.  I could
+     be just as wrong as you.
+     #+END_QUOTE
+**** TODO Software Engineering maroon
+     #+BEGIN_QUOTE
+     Decorators are convenient for factoring out common prologue,
+     epilogue, and/or exception-handling code in similar functions
+     (much like context managers and the "with" statement), such
+     as:
+     - Acquiring and releasing locks (e.g. a "@with_lock(x)" decorator);
+     - Entering a database transaction (and committing if successful, 
+       or rolling back upon encountering an unhandled exception);
+     - Asserting pre- or post-conditions (e.g. "@returns(int)");
+     - Parsing arguments or enforcing authentication (especially in web 
+       application servers like Pylons where there's a global request 
+       and/or cookies object that might accompany formal parameters 
+       to a function);
+     - Instrumentation, timing or logging, e.g. tracing every time a 
+       function runs;
+     - They are also used as shorthand to define class methods 
+       (@classmethod) and static methods (@staticmethod) in Python 
+       classes.
+     #+END_QUOTE
+     
 * Jargon & definition 						    :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
