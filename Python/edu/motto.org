@@ -559,6 +559,20 @@ How it works
      M-C-k from end of the line up to the cursor
 **** DONE Manipulation with frames
      C-x 5 b switch to buffer other frame
+**** Mark ring 16 items there
+     C-u C-SPC Jump to last mark
+**** Undo
+     C-_
+**** TODO CUA mode
+**** Comment
+     M-; region
+**** Completion
+     M-/
+**** TODO Tags
+     C-x C-i
+     M-.
+**** eShell
+     C-x m
 **** 
 *** Orgmode
 **** Tags
