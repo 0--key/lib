@@ -1737,14 +1737,16 @@ http://github.com/pydata/pydata-book
           # passing the dict and using square brackets "'[]'" to access the keys
 
           table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
-          print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; ''Dcab: {0[Dcab]:d}'.format(table))
+          print('Jack: {0[Jack]:d}; Sjoerd: {0[Sjoerd]:d}; ''Dcab: {0[Dcab]:d}'.
+                format(table))
           print('=============')
 
           # This could also be done by passing the table as keyword arguments with
           # the '**' notation.
 
           #    >>> table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
-          print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table))
+          print('Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.
+                format(**table))
           print('=============')
 
           # This is particularly useful in combination with the built-in function
@@ -1778,8 +1780,23 @@ http://github.com/pydata/pydata-book
 #+end_example
 
 ******** Old string formatting
+	 The "%" operator can also be used for string formatting.
+	 #+BEGIN_SRC python :results output
+           import math
+           print('The value of PI is approximately %5.3f.' % math.pi)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : The value of PI is approximately 3.142.
 
 ******* Reading and Writing Files
+	#+BEGIN_QUOTE
+	"open()" returns a *file object*, and is most commonly
+	used with two arguments: "open(filename, mode)".
+
+	>>> f = open('workfile', 'w')
+	
+	#+END_QUOTE
 
 ******** Methods of File Objects
 
