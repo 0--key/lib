@@ -138,7 +138,7 @@
       forgotten.
       Where's the girl who is selling the ice-cream?
       Isn't that the man, whose brother was a famous pianist?
-**** TODO Determiners and quantifiers [0%]
+**** TODO Determiners and quantifiers [50%]
      - Determiners
        #+BEGIN_QUOTE
        D are words wich come at the beginning of the noun phrase.
@@ -163,8 +163,40 @@
        We use quantifiers when we want to give someone information about
        the number of something: how much or how many.
        #+END_QUOTE
-***** TODO interrogative determiners: which and what
-***** TODO indefinite article: a and an
+***** DONE interrogative determiners: which and what
+      - We use 'which' as a determiner to ask a question about a specific
+	group of people or things:
+	+ Which restaurant did you go to?
+	+ Which countries in South America have you visited?
+      - When we are asking a general question we use 'what' as a determiner:
+	+ What films do you like?
+	+ What university did you go to?
+***** DONE indefinite article: a and an
+      1. We use the indefinite article, a/an, with count nouns when the 
+	 hearer/reader does not know exactly which one we are referring to:
+	 - Police are searching for a 14 year-old girl.
+      2. We also use it to show the person or thing in one of a group:
+	 - She is a pupil at London Road School.
+      3. We do not use an indefinite article with plural nouns and uncount
+	 nouns:
+	 - She was wearing blue shoes. (=plural noun)
+	 - She has short blonde hair. (=uncount noun)
+      4. We use a/an to say what someone is or what job they do:
+	 - My brother is a doctor.
+	 - George is a student.
+      5. We use a/an with a singular noun to say something about all things
+	 of that kind:
+	 - A man needs friends.
+	 - A dog likes to eat meat.
+      Train set:
+      - A woman has the right to a career. (5)
+      - Pandas eat only one specific type of bamboo. (3)
+      - The house was bought by Italian couple. (3)
+      - She worked as a waitress to help pay for her course. (4)
+      - He's been a Chelsea fan for years. (2)
+      - I was talking to a guy about that the other day. (1)
+      - He seems to know a lot about wine. (3)
+
 ***** TODO definite article: the
 ***** TODO quantifiers
 ** TODO Pronounce [0%]
@@ -573,7 +605,8 @@ How it works
      M-.
 **** eShell
      C-x m
-**** 
+**** Indent the region
+     C-M-\
 *** Orgmode
 **** Tags
      Set C-c C-q
