@@ -365,7 +365,14 @@
     functions need to accept an arbitrary list of positional parameters
     and/or keyword parameters , use a subset of them, and forward the rest to
     another function.
-
+*** Though this is explicitly mentioned in the Python tutorial,
+    it nevertheless surprises even experienced developers.
+*** Oftentimes, functions need to accept an arbitrary list of positional
+    parameters and/or keyword parameters , use a subset of them, and forward
+    the rest to another function. Using *args and **kwargs as parameters
+    allows a function to accept an arbitrary list of positional and keyword
+    arguments, respectively.
+*** 
 ** Effective Python
 
 *** Python3
@@ -2530,14 +2537,66 @@ http://github.com/pydata/pydata-book
 	#+RESULTS:
 
 ****** 1.3 Functions
-       1.3.1 Avoid using '' , [] , and {} as default parameters to func-
-       tions
-       1.3.2 Use *args and **kwargs to accept arbitrary arguments
+******* 1.3.1 Avoid using '' , [] , and {} as default parameters to functions
+	#+BEGIN_SRC python :results output
+          # The default value [of a function] is evaluated only once.
+          # This makes a difference when the default is a mutable object
+          # such as a list, dictionary, or instances of most classes. For
+          # example, the following function accumulates the arguments
+          # passed to it on subsequent calls.
+          def f(a, L=[]):
+              L.append(a)
+              return L
+          print (f(1))
+          print (f(2))
+          print (f(3))
+          print('=============')
+
+          # Idiomatic
+          # 
+          # 
+          # If you don't want the default to be shared between subsequent
+          # calls, you can write the function like this instead:
+          def f(a, L=None):
+              if L is None:
+                  L = []
+              L.append(a)
+              return L
+          print (f(1))
+          print (f(2))
+          print (f(3))
+	#+END_SRC
+******* 1.3.2 Use *args and **kwargs to accept arbitrary arguments
+	#+BEGIN_SRC python
+          def make_api_call(foo, bar, baz, *args, **kwargs):
+              # Now I can accept any type and number of arguments
+              # without worrying about breaking existing code.
+              baz_coefficient = kwargs['the_baz']
+              # I can even forward my args to a different function without
+              # knowing their contents!
+              return baz_coefficient in new_function(args)
+	#+END_SRC
 ***** 2 Working with Data
 ****** 2.1 Lists
-       2.1.1 Use a list comprehension to create a transformed version
+****** 2.1.1 Use a list comprehension to create a transformed version
        of an existing list
-       2.1.2 Use the * operator to represent the “rest” of a list
+       #+BEGIN_SRC python :results output
+         # Harmful
+
+         some_other_list = range(10)
+         some_list = list()
+         for element in some_other_list:
+             if is_prime(element):
+                 some_list.append(element + 5)
+
+         # Idiomatic               
+
+         some_other_list = range(10)
+         some_list = [element + 5 for
+                      element in some_other_list if
+                      is_prime(element)]
+       #+END_SRC
+****** 2.1.2 Use the * operator to represent the “rest” of a list
 ****** 2.2 Dictionaries
        2.2.1 Use the default parameter of dict.get to provide default
        values
