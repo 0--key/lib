@@ -693,7 +693,25 @@ How it works
 **** Version control
 ***** Diff
       C-x v =
-***** 
+***** Undo
+      C-x v u
+***** Commit log
+      C-x v l
+      - f - visit particular rev
+      - d - review particualr diff
+***** Magit
+      - status C-x g RET
+      - main Git concept involves a conscious atomic committing ® 
+**** Shell
+     - eshell fully-customizing eLisp 
+**** TODO cSSh feature
+     launch many tasks in parallel on the different hosts
+**** TODO color-theme.el
+**** M-x oddmuse-edit
+**** M-x irc /join #emacs
+**** Blog about Emacs
+     [[http://planet.emacsen.org][blog]]
+**** http://peepcode.com
 *** Orgmode
 **** Tags
      Set C-c C-q
