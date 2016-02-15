@@ -683,6 +683,17 @@ How it works
      C-x m
 **** Indent the region
      C-M-\
+**** Spell checking
+     M-x flyspell-mode
+**** TODO flymake-mode for Python
+**** Long scroll in two windows
+     M-x follow-mode
+**** List of keys in the particular mode
+     C-h m
+**** Version control
+***** Diff
+      C-x v =
+***** 
 *** Orgmode
 **** Tags
      Set C-c C-q
