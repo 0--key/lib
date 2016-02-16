@@ -89,3 +89,10 @@
  )
 (global-set-key [C-S-f4] 'org-skeleton)
 ;; (global-auto-revert-mode t)
+;; colorization
+;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el")
+;; (require 'color-theme)
+;; (eval-after-load "color-theme"
+;;   '(progn
+;;      (color-theme-initialize)
+;;      (color-theme-hober)))
