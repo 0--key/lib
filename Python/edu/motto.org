@@ -138,7 +138,7 @@
       forgotten.
       Where's the girl who is selling the ice-cream?
       Isn't that the man, whose brother was a famous pianist?
-**** TODO Determiners and quantifiers [50%]
+**** TODO Determiners and quantifiers [75%]
      - Determiners
        #+BEGIN_QUOTE
        D are words wich come at the beginning of the noun phrase.
@@ -175,7 +175,7 @@
       1. We use the indefinite article, a/an, with count nouns when the 
 	 hearer/reader does not know exactly which one we are referring to:
 	 - Police are searching for a 14 year-old girl.
-      2. We also use it to show the person or thing in one of a group:
+      2. We also use it to show the person or thing is one of a group:
 	 - She is a pupil at London Road School.
       3. We do not use an indefinite article with plural nouns and uncount
 	 nouns:
@@ -197,7 +197,7 @@
       - I was talking to a guy about that the other day. (1)
       - He seems to know a lot about wine. (3)
 
-***** TODO definite article: the
+***** DONE definite article: the
       We use the definite article in front of a noun when we believe the
       hearer/reader knows exactly what we are referring to.
       - because there is only one:
@@ -266,8 +266,39 @@
 	+ hotels, pubs and restaurants (we do not use the definite article 
 	  in the name of the hotel or restaurant is the name of the owner)
 	+ families: the Obamas, the Jacksons
-
+	  
 ***** TODO quantifiers
+      #+BEGIN_QUOTE
+      We use quantifiers when we want to give someone information about
+      the number of something: how much or how many.
+      #+END_QUOTE
+
+      Sometimes we use a quantifier in the  place of a determiner:
+      - Most children start school at the age of five.
+      - We ate some bread and butter.
+      - We saw lots of birds.
+	
+      We use these quantifiers with both count and uncount nouns:
+      | all  | any  | enough | less    | a lot of | lots of |
+      | more | most | no     | none of | some     |         |
+
+      and some more colloquial forms:
+      | plenty of | heaps of | a load of | loads of | tons of | etc |
+
+      some quantifiers can be used only with count nouns:
+      | both | each | either | (a) few | fewer | neither | several |
+
+      and some more colloquial forms:
+      | a couple of | hundreds of | thousands of | etc |
+
+      some quantifiers can be used only with uncount nouns:
+      | a little | (not) much | a bit of | 
+
+      and, particularly with abstract nouns such as time, money, trouble,
+      etc:, we often use:
+      | a great deal of | a good deal of | 
+
+      Members of groups:
 ** TODO Pronounce [0%]
 *** TODO Reading aloud at the regualr base [33%]
 **** TODO Adventures of Hucklberry Finn
