@@ -751,12 +751,13 @@ How it works
      - eshell fully-customizing eLisp 
 **** TODO cSSh feature
      launch many tasks in parallel on the different hosts
-**** TODO color-theme.el
+**** DONE color-theme.el
 **** M-x oddmuse-edit
 **** M-x irc /join #emacs
 **** Blog about Emacs
      [[http://planet.emacsen.org][blog]]
-**** http://peepcode.com
+**** Pluralsight
+     great resource with video tutorials 
 *** Orgmode
 **** Tags
      Set C-c C-q
