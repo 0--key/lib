@@ -96,3 +96,6 @@
 ;;   '(progn
 ;;      (color-theme-initialize)
 ;;      (color-theme-hober)))
+
+;; (require 'git)
+;;   (require 'git-blame)

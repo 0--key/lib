@@ -825,6 +825,8 @@ How it works
       C-c C-c
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
+** DONE Embedding Git
+   sudo apt-get install git-el
 * Dive deeper into Python programming language 			     :Python:
 
 ** in six months <2016-06-15 Wed> 
