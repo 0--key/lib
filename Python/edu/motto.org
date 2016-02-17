@@ -16,7 +16,7 @@
    
 * Enhance English [0%] 						    :English:
 ** TODO Grammar [%]
-*** Tutorial [50%]
+*** Tutorial [100%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
 **** DONE Pronouns [100%]
 ***** DONE Personal pronouns
@@ -138,7 +138,7 @@
       forgotten.
       Where's the girl who is selling the ice-cream?
       Isn't that the man, whose brother was a famous pianist?
-**** TODO Determiners and quantifiers [75%]
+**** DONE Determiners and quantifiers [100%]
      - Determiners
        #+BEGIN_QUOTE
        D are words wich come at the beginning of the noun phrase.
@@ -267,7 +267,7 @@
 	  in the name of the hotel or restaurant is the name of the owner)
 	+ families: the Obamas, the Jacksons
 	  
-***** TODO quantifiers
+***** DONE quantifiers
       #+BEGIN_QUOTE
       We use quantifiers when we want to give someone information about
       the number of something: how much or how many.
@@ -312,7 +312,54 @@
       - All of the children live at home.
       - He has spent all of his money.
 
-      Note
+      Note that, if we are talking about two people or things we use
+      quantifiers both, either and neither.
+      | One supermarket | Two supermarkets     | More than two supermarkets |
+      |-----------------+----------------------+----------------------------|
+      | The supermarket | Both supermarkets    | All the supermarkets were  |
+      | was closed      | were closed.         | closed.                    |
+      |-----------------+----------------------+----------------------------|
+      | The supermarket | Neither of the       | None of the supermarkets   |
+      | wasn't open.    | supermarkets was     | were open.                 |
+      |                 | open.                |                            |
+      |-----------------+----------------------+----------------------------|
+      | I don't think   | I don't think either | I don't think any of the   |
+      | the supermarket | of the supermarkets  | supermarkets were open.    |
+      | was open.       | was open.            |                            | 
+
+      & Nouns with either and neither have a singular verb.
+
+      Singular quantifiers:
+
+      We use every or each with a singular noun to mean all:
+      | There was a party in every street      | = | There were parties in all the streets      |
+      |----------------------------------------+---+--------------------------------------------|
+      | Every shop was decorated with          |   | All the shops were decorated with          |
+      | flowers                                | = | flowers.                                   |
+      |----------------------------------------+---+--------------------------------------------|
+      | Each child was given a prize.          | = | All the children were given a prize.       |
+      |----------------------------------------+---+--------------------------------------------|
+      | There was a prize in each competition. | = | There were prizes in all the competitions. |
+
+      We often use every to talk about times like days, weeks and years:
+      - When we were children we had holidays at our grandmother's every year.
+      - When we stayed at my grandmother's house we went to the beach every day.
+      - We visit our daughter every Christmas.
+
+      BUT: We do not use a determiner with every and each. We DO NOT say:
+      -- The every shop was decorated with flowers.
+      -- The each child was given a prize.
+
+      Activities:
+
+      - Could you dive me some advice?
+      - There are only a few players in the world with his skill.
+      - Every year I promise myself I will lose some weight.
+      - When I got there both the banks had closed.
+      - Can you give me a couple of pounds for the bus fare?
+      - I went to a great deal of trouble to get those tickets.
+      - Either that dog goes or I do!
+
 ** TODO Pronounce [0%]
 *** TODO Reading aloud at the regualr base [33%]
 **** TODO Adventures of Hucklberry Finn
