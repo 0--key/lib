@@ -90,7 +90,7 @@
 (global-set-key [C-S-f4] 'org-skeleton)
 ;; (global-auto-revert-mode t)
 ;; colorization
-;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/color-theme.el")
+;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
 ;; (require 'color-theme)
 ;; (eval-after-load "color-theme"
 ;;   '(progn
@@ -99,3 +99,6 @@
 
 ;; (require 'git)
 ;;   (require 'git-blame)
+
+;; (require 'org-bullets)
+;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
