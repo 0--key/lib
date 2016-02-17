@@ -552,6 +552,15 @@
 * Enlarge Emacs toolbox 					      :Emacs:
 ** DONE Elpy
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
+** DONE Update Emacs version up to 24.5
+   - Package `emacs-24.4' is unavailable
+   - Download from http://ftp.gnu.org/gnu/emacs/
+   - tar -xf emacs*
+   - sudo apt-get remove emacs # remove old version
+   - cd emacs* && ./configure && make
+   - sudo checkinstall -D # create .deb package
+** DONE OrgBullets
+   https://github.com/sabof/org-bullets
 ** DONE YaSnippet
    [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode
