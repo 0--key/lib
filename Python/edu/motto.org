@@ -865,6 +865,57 @@ How it works
 ** DONE Helm-dictionary install and test it up
 ** DONE Embedding Git
    sudo apt-get install git-el
+** DONE MaGit
+*** Core features
+    In Magit staging a hunk or even just part of a hunk is as trivial as
+    staging all changes made to a file.
+    That being said, many users
+    have reported that using Magit was what finally taught them what Git
+    is capable of and how to use it to its fullest.
+    Magit wraps and in many cases improves upon at least the following Git
+    porcelain commands:
+**** add
+**** am
+**** bisect
+**** blame
+**** branch
+**** checkout
+**** cherry
+**** cherry-pick
+**** clean
+**** clone
+**** commit
+**** config
+**** describe
+**** diff
+**** fetch
+**** format-patch
+**** init
+**** log
+**** remote
+**** request-pull
+**** reset
+**** revert
+**** rm
+**** show
+**** stash
+**** submodule
+**** tag
+
+*** Installation
+    M-x package-install RET magit RET
+**** Upgrade Emacs version >24.4 (see above)
+**** Upgrade Git version at the upmost
+     - sudo add-apt-repository ppa:git-core/ppa
+     - sudo apt-get update
+     - sudo apt-get install git
+*** Getting started
+*** Interface concepts
+*** Manipulating
+*** Transferring
+*** Miscellaneous
+*** Customizing
+*** Plumbing
 * Dive deeper into Python programming language 			     :Python:
 
 ** in six months <2016-06-15 Wed> 
