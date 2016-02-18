@@ -16,7 +16,7 @@
    
 * Enhance English [0%] 						    :English:
 ** TODO Grammar [%]
-*** Tutorial [100%]
+*** Tutorial [66%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
 **** DONE Pronouns [100%]
 ***** DONE Personal pronouns
@@ -359,6 +359,35 @@
       - Can you give me a couple of pounds for the bus fare?
       - I went to a great deal of trouble to get those tickets.
       - Either that dog goes or I do!
+
+
+**** TODO Possessives [0%]
+***** TODO nouns
+      We use a noun with 's with a singular noun show possession:
+      - We are having a party at John's house.
+      - Michael drove his friend's car.
+	
+      We use s' with plural noun ending in -s:
+      - This is my parents' house.
+      - Those are ladies' shoes.
+
+      But we use 's with other plural nouns:
+      - These are men's shoes.
+      - Children's clothes are very expensive.
+
+      We can use a possessive instead of a noun phrase to avoid repeating
+      words:
+      | Is that John's car? | No, it's Mary's [car]. |
+      |---------------------+------------------------|
+      | Whose coat is this? | It's my wife's [coat]. |   
+
+***** TODO adjectives
+
+***** TODO pronouns
+
+***** TODO questions
+
+***** TODO pronouns
 
 ** TODO Pronounce [0%]
 *** TODO Reading aloud at the regualr base [33%]
