@@ -2107,12 +2107,53 @@ http://github.com/pydata/pydata-book
 	 : >>> >>> >>> >>> '[1, "simple", "list"]'
 
 ****** TODO Errors and Exceptions
-
 ******* Syntax Errors
-
+	Syntax errors, also known as parsing errors, are perhaps the most
+	common kind of complaint you get while you are still learning Python
 ******* Exceptions
+	Even if a statement or expression is syntactically correct, it may
+	cause an error when an attempt is made to execute it. Errors detected
+	during execution are called exceptions
 
 ******* Handling Exceptions
+	#+BEGIN_SRC python :results output :session exeptions
+          import sys
+
+          try:
+              f = open('myfile.txt')
+              s = f.readline()
+              i = int(s.strip())
+          except OSError as err:
+              print("OS error: {0}".format(err))
+          except ValueError:
+              print("Could not convert data to an integer.")
+          except:
+              print("Unexpected error:", sys.exc_info()[0])
+              raise
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> ... ... ... ... ... ... ... ... ... ... ... OS error: [Errno 2] No such file or directory: 'myfile.txt'
+
+	The "try" ... "except" statement has an optional *else clause*, which,
+	when present, must follow all except clauses.  It is useful for code
+	that must be executed if the try clause does not raise an exception.
+	#+BEGIN_SRC python :results output :session exeptions
+          for arg in sys.argv[1:]:
+              try:
+                  f = open(arg, 'r')
+              except IOError:
+                  print('cannot open', arg)
+              else:
+                  print(arg, 'has', len(f.readlines()), 'lines')
+                  f.close()
+
+	#+END_SRC
+
+	#+RESULTS:
+
 
 ******* Raising Exceptions
 
