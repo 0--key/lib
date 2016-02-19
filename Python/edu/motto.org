@@ -941,32 +941,57 @@ How it works
     Magit wraps and in many cases improves upon at least the following Git
     porcelain commands:
 **** add
+     Add file contents to the index
 **** am
+     Apply a series of patches from a mailbox
 **** bisect
+     Use binary search to find the commit that introduced a bug
 **** blame
+     Show what revision and author last modified each line of a file
 **** branch
+     List, create, or delete branches
 **** checkout
+     Switch branches or restore working tree files
 **** cherry
+     Find commits not merged upstream
 **** cherry-pick
+     Apply the changes introduced by some existing commits
 **** clean
+     Remove untracked files from the working tree
 **** clone
+     Clone a repository into a new directory
 **** commit
+     Record changes to the repository
 **** config
 **** describe
+     Describe a commit using the most recent tag reachable from it
 **** diff
+     Show changes between commits, commit and working tree, etc
 **** fetch
+     Download objects and refs from another repository
 **** format-patch
+     Prepare patches for e-mail submission
 **** init
 **** log
+     Show commit logs
 **** remote
+     Manage set of tracked repositories
 **** request-pull
+     Generates a summary of pending changes
 **** reset
+     Reset current HEAD to the specified state
 **** revert
+     Revert some existing commits
 **** rm
+     Remove files from the working tree and from the index
 **** show
+     Show various types of objects
 **** stash
+     Stash the changes in a dirty working directory away
 **** submodule
+     Initialize, update or inspect submodules
 **** tag
+     Create, list, delete or verify a tag object signed with GPG
 
 *** Installation
     M-x package-install RET magit RET
@@ -2272,10 +2297,115 @@ http://github.com/pydata/pydata-book
 	#+RESULTS:
 
 ******* Raising Exceptions
+	#+BEGIN_QUOTE
+	The "raise" statement allows the programmer to force a specified
+	exception to occur. For example:
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session exeptions
+	raise NameError('HiThere')
+	#+END_SRC
+
+	#+RESULTS:
+	: Traceback (most recent call last):
+	:   File "<stdin>", line 1, in <module>
+	: NameError: HiThere
+	#+BEGIN_QUOTE
+	If you need to determine whether an exception was raised but don't
+	intend to handle it, a simpler form of the "raise" statement allows
+	you to re-raise the exception:
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session exeptions
+          try:
+              raise NameError('HiThere')
+          except NameError:
+              print('An exception flew by!')
+              raise
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... An exception flew by!
+	: Traceback (most recent call last):
+	:   File "<stdin>", line 2, in <module>
+	: NameError: HiThere
 
 ******* User-defined Exceptions
+	#+BEGIN_QUOTE
+	Programs may name their own exceptions by creating a new exception
+	class (see *Classes* for more about Python classes).  Exceptions
+	should typically be derived from the "Exception" class, either
+	directly or indirectly.  For example:
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session exeptions
+          class MyError(Exception):
+              def __init__(self, value):
+                  self.value = value
+              def __str__(self):
+                  return repr(self.value)
+
+          try:
+              raise MyError(2*2)
+          except MyError as e:
+              print('My exception occurred, value:', e.value)
+
+          raise MyError('oops!')
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... >>> ... ... ... ... My exception occurred, value: 4
+	: Traceback (most recent call last):
+	:   File "<stdin>", line 1, in <module>
+	: __main__.MyError: 'oops!'
 
 ******* Defining Clean-up Actions
+	#+BEGIN_QUOTE
+	A ~finally~ clause is always executed before leaving the "try"
+	statement, whether an exception has occurred or not. When an exception
+	has occurred in the "try" clause and has not been handled by an
+	"except" clause (or it has occurred in an "except" or "else" clause),
+	it is re-raised after the "finally" clause has been executed.  The
+	"finally" clause is also executed "on the way out" when any other
+	clause of the "try" statement is left via a "break", "continue" or
+	"return" statement.
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session exeptions
+          def divide(x, y):
+              try:
+                  result = x / y
+              except ZeroDivisionError:
+                  print("division by zero!")
+              else:
+                  print("result is", result)
+              finally:
+                  print("executing finally clause")
+
+          divide(2, 1)
+          print('=============')
+          divide(2, 0)
+          print('=============')
+          divide("2", "1")
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	... ... ... ... ... ... ... ... >>> result is 2.0
+	executing finally clause
+	=============
+	division by zero!
+	executing finally clause
+	=============
+	executing finally clause
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	  File "<stdin>", line 3, in divide
+	TypeError: unsupported operand type(s) for /: 'str' and 'str'
+#+end_example
+
+	In real world applications, the "finally" clause is useful for
+	releasing external resources (such as files or network connections),
+	regardless of whether the use of the resource was successful.
 
 ******* Predefined Clean-up Actions
 
