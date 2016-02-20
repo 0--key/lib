@@ -2453,6 +2453,15 @@ http://github.com/pydata/pydata-book
 	regardless of whether the use of the resource was successful.
 
 ******* Predefined Clean-up Actions
+	#+BEGIN_QUOTE
+	The "with" statement allows objects
+	like files to be used in a way that ensures they are always cleaned up
+	promptly and correctly.	
+	#+END_QUOTE
+	#+BEGIN_SRC python
+	with open("myfile.txt") as f:
+        for line in f:
+	#+END_SRC
 
 ****** TODO Classes
 
