@@ -2571,10 +2571,75 @@ http://github.com/pydata/pydata-book
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
 **** Python Anti-Patterns				      :anti:patterns:
+**** 
 ***** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 ***** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
       [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
 ***** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
+**** Python Beyond the Basics
+***** Organizing Larger Programs
+      - Packages
+      - Imports From sys.path
+      - Implementing Packages
+      - Subpackages
+      - Example A Full Program
+      - Relative Imports
+      - Controlling Imports With __all__
+      - Namespace Packages
+      - Executable Directories
+      - Recommended Layout
+      - Duck Tails Modules Are Singletons
+      - Summary
+
+***** Beyond Basic Function
+      - Function Review
+      - Callable Instances
+      - Classes Are Callable
+      - Conditional Expressions
+      - Lambdas
+      - Detecting Callable Objects
+      - Extended Formal Argument Syntax
+      - Extended Call Syntax
+      - Forwarding Arguments
+      - Duck Tail Transposing Tables
+      - Summary
+
+***** Closures and Decorators
+      - Local Functions
+      - Returning Functions From Functions
+      - Closures and Nested Scopes
+      - Function Factories
+      - The Nonlocal Keyword
+      - Function Decorators
+      - A First Decorator Example
+      - What Can Be a Decorator
+      - Instances as Decorators
+      - Multiple Decorators
+      - Decorating Methods
+      - functools.wraps()
+      - Duck Tails Validating Arguments
+      - Summary
+
+***** Properties and Class Methods
+      - Class Attributes
+      - Static Methods
+      - Class Methods
+      - Static Methods With Inheritance
+      - Class Methods With Inheritance
+      - Properties
+      - Properties and Inheritance
+      - Duck Tail The Template Method Pattern
+      - Summary
+
+***** Strings and Representations
+***** Numeric and Scalar Types
+***** Iterables and Iteration
+***** Inheritance and Subtype Polymorphism
+***** Implementing Collections
+***** Exceptions and Errors
+***** Defining Context Managers
+***** Introspection
+
 **** Fluent Python						     :fluent:
 ***** Preface
 ****** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
