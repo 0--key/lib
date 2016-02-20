@@ -15,8 +15,8 @@
 *** the spaced repetition is the best approach;
    
 * Enhance English [0%] 						    :English:
-** TODO Grammar [%]
-*** Tutorial [66%]
+** TODO Grammar [0%]
+*** TODO Tutorial [37%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
 **** DONE Pronouns [100%]
 ***** DONE Personal pronouns
@@ -360,9 +360,8 @@
       - I went to a great deal of trouble to get those tickets.
       - Either that dog goes or I do!
 
-
-**** TODO Possessives [0%]
-***** TODO nouns
+**** DONE Possessives [100%]
+***** DONE nouns
       We use a noun with 's with a singular noun show possession:
       - We are having a party at John's house.
       - Michael drove his friend's car.
@@ -381,7 +380,7 @@
       |---------------------+------------------------|
       | Whose coat is this? | It's my wife's [coat]. |   
 
-***** TODO adjectives
+***** DONE adjectives
 
       | Subject | Object | Possesive |
       |---------+--------+-----------|
