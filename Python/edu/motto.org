@@ -1084,7 +1084,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [43%]
+***** The Python Tutorial [100%]
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -2293,7 +2293,7 @@ http://github.com/pydata/pydata-book
 	 : 
 	 : >>> >>> >>> >>> '[1, "simple", "list"]'
 
-****** TODO Errors and Exceptions
+****** DONE Errors and Exceptions
 ******* Syntax Errors
 	Syntax errors, also known as parsing errors, are perhaps the most
 	common kind of complaint you get while you are still learning Python
