@@ -2676,23 +2676,28 @@ http://github.com/pydata/pydata-book
 
 	#+RESULTS:
 	: 
-	: >>> >>> ... ... ... ... ... ... ... ... >>> >>> '208.73.211.70'
+	: >>> >>> >>> >>> >>> ... ... ... ... ... ... ... ... >>> >>> '208.73.211.70'
 	: =============
 	: {'north-west.com': '208.73.211.70'}
 	: =============
 	: '93.93.131.30'
-	: {'sixty-north.com': '93.93.131.30', 'north-west.com': '208.73.211.70'}
+	: {'north-west.com': '208.73.211.70', 'sixty-north.com': '93.93.131.30'}
 
 	And check up how cache works:
 	#+BEGIN_SRC python :results output :session functions
           from timeit import timeit
           timeit(setup="from __main__ import resolver", 
                  stmt="resolver('python.org')", number=1)
+          print('=============')
+          timeit(setup="from __main__ import resolver", 
+                 stmt="resolver('python.org')", number=1)
 	#+END_SRC
 
 	#+RESULTS:
 	: 
-	: ... 8.360002539120615e-06
+	: ... 0.0025375600016559474
+	: =============
+	: ... 7.88000033935532e-06
 
       - Classes Are Callable
       - Conditional Expressions
