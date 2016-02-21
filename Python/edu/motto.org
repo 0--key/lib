@@ -2649,7 +2649,7 @@ http://github.com/pydata/pydata-book
       - Duck Tails Modules Are Singletons
       - Summary
 
-***** Beyond Basic Function
+***** Beyond Basic Function				      :socket:timeit:
       - Function Review
       - Callable Instances
 	#+BEGIN_SRC python :results output :session functions
