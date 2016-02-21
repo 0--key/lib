@@ -696,9 +696,13 @@
    - Package `emacs-24.4' is unavailable
    - Download from http://ftp.gnu.org/gnu/emacs/
    - tar -xf emacs*
-   - sudo apt-get remove emacs # remove old version
+   - sudo apt-get remove emacs
+      remove old version
    - cd emacs* && ./configure && make
-   - sudo checkinstall -D # create .deb package
+   - sudo checkinstall -D
+      create .deb package
+   - sudo apt-mark hold emacs
+     to prevent unneccessary update with 14.04 core
 ** DONE OrgBullets
    https://github.com/sabof/org-bullets
 ** DONE YaSnippet
