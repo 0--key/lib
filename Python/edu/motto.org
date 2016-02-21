@@ -2652,6 +2652,48 @@ http://github.com/pydata/pydata-book
 ***** Beyond Basic Function
       - Function Review
       - Callable Instances
+	#+BEGIN_SRC python :results output :session functions
+          import socket
+
+
+          class Resolver:
+              """Converts domain name into ip"""
+              def __init__(self):
+                  self._cache = {}
+              def __call__(self, host):
+                  if host not in self._cache:
+                      self._cache[host] = socket.gethostbyname(host)
+                  return self._cache[host]
+
+          resolver = Resolver()
+          resolver('north-west.com')
+          print('=============')
+          resolver._cache
+          print('=============')
+          resolver('sixty-north.com')
+          resolver._cache
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> >>> ... ... ... ... ... ... ... ... >>> >>> '208.73.211.70'
+	: =============
+	: {'north-west.com': '208.73.211.70'}
+	: =============
+	: '93.93.131.30'
+	: {'sixty-north.com': '93.93.131.30', 'north-west.com': '208.73.211.70'}
+
+	And check up how cache works:
+	#+BEGIN_SRC python :results output :session functions
+          from timeit import timeit
+          timeit(setup="from __main__ import resolver", 
+                 stmt="resolver('python.org')", number=1)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... 8.360002539120615e-06
+
       - Classes Are Callable
       - Conditional Expressions
       - Lambdas
