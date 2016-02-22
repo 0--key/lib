@@ -2691,13 +2691,18 @@ http://github.com/pydata/pydata-book
           print('=============')
           timeit(setup="from __main__ import resolver", 
                  stmt="resolver('python.org')", number=1)
+          print('=============')
+          # normalize output
+          print("{:f}".format(_))
 	#+END_SRC
 
 	#+RESULTS:
 	: 
-	: ... 0.0025375600016559474
+	: ... 0.0024511199999324162
 	: =============
-	: ... 7.88000033935532e-06
+	: ... 7.520000053773401e-06
+	: =============
+	: ... 0.000008
 
       - Classes Are Callable
       - Conditional Expressions
