@@ -102,3 +102,6 @@
 
 ;; (require 'org-bullets)
 ;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+;;
+;; (global-set-key (kbd "C-x g") 'magit-status)
+;; (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
