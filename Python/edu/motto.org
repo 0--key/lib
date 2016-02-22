@@ -2668,22 +2668,22 @@ http://github.com/pydata/pydata-book
 ***** [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
 **** Python Beyond the Basics
 ***** Organizing Larger Programs
-      - Packages
-      - Imports From sys.path
-      - Implementing Packages
-      - Subpackages
-      - Example A Full Program
-      - Relative Imports
-      - Controlling Imports With __all__
-      - Namespace Packages
-      - Executable Directories
-      - Recommended Layout
-      - Duck Tails Modules Are Singletons
-      - Summary
+****** Packages
+****** Imports From sys.path
+****** Implementing Packages
+****** Subpackages
+****** Example A Full Program
+****** Relative Imports
+****** Controlling Imports With __all__
+****** Namespace Packages
+****** Executable Directories
+****** Recommended Layout
+****** Duck Tails Modules Are Singletons
+****** Summary
 
 ***** Beyond Basic Function				      :socket:timeit:
-      - Function Review
-      - Callable Instances
+****** Function Review
+****** Callable Instances
 	#+BEGIN_SRC python :results output :session functions
           import socket
 
@@ -2736,42 +2736,42 @@ http://github.com/pydata/pydata-book
 	: =============
 	: ... 0.000008
 
-      - Classes Are Callable
-      - Conditional Expressions
-      - Lambdas
-      - Detecting Callable Objects
-      - Extended Formal Argument Syntax
-      - Extended Call Syntax
-      - Forwarding Arguments
-      - Duck Tail Transposing Tables
-      - Summary
+****** Classes Are Callable
+****** Conditional Expressions
+****** Lambdas
+****** Detecting Callable Objects
+****** Extended Formal Argument Syntax
+****** Extended Call Syntax
+****** Forwarding Arguments
+****** Duck Tail Transposing Tables
+****** Summary
 
 ***** Closures and Decorators
-      - Local Functions
-      - Returning Functions From Functions
-      - Closures and Nested Scopes
-      - Function Factories
-      - The Nonlocal Keyword
-      - Function Decorators
-      - A First Decorator Example
-      - What Can Be a Decorator
-      - Instances as Decorators
-      - Multiple Decorators
-      - Decorating Methods
-      - functools.wraps()
-      - Duck Tails Validating Arguments
-      - Summary
+****** Local Functions
+****** Returning Functions From Functions
+****** Closures and Nested Scopes
+****** Function Factories
+****** The Nonlocal Keyword
+****** Function Decorators
+****** A First Decorator Example
+****** What Can Be a Decorator
+****** Instances as Decorators
+****** Multiple Decorators
+****** Decorating Methods
+****** functools.wraps()
+****** Duck Tails Validating Arguments
+****** Summary
 
 ***** Properties and Class Methods
-      - Class Attributes
-      - Static Methods
-      - Class Methods
-      - Static Methods With Inheritance
-      - Class Methods With Inheritance
-      - Properties
-      - Properties and Inheritance
-      - Duck Tail The Template Method Pattern
-      - Summary
+****** Class Attributes
+****** Static Methods
+****** Class Methods
+****** Static Methods With Inheritance
+****** Class Methods With Inheritance
+****** Properties
+****** Properties and Inheritance
+****** Duck Tail The Template Method Pattern
+****** Summary
 
 ***** Strings and Representations
 ***** Numeric and Scalar Types
