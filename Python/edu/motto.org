@@ -2897,7 +2897,49 @@ http://github.com/pydata/pydata-book
        : 
        : ... >>> >>> >>> ['N', 'a', 'i', 'r', 'o', 'b', 'i']
        : <class 'list'>
+
 ****** Lambdas
+       #+BEGIN_SRC python :results output :session functions
+         scientists = ['Marie Curie', 'Albert Einstein', 'Niels Bohr', 'Isaac Newton',
+                       'Dmitri Mendeleev', 'Antoine Lavoisier', 'Carl Linnaeus',
+                       'Alfred Wegener', 'Charles Darwin']
+         print(sorted(scientists, key=lambda name: name.split()[-1]))
+         print('=============')
+         last_name = lambda name: name.split()[-1]
+         last_name
+         print('=============')
+         print(last_name("Nikola Tesla"))
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... >>> ['Niels Bohr', 'Marie Curie', 'Charles Darwin', 'Albert Einstein', 'Antoine Lavoisier', 'Carl Linnaeus', 'Dmitri Mendeleev', 'Isaac Newton', 'Alfred Wegener']
+       : =============
+       : >>> <function <lambda> at 0x7f6f98542400>
+       : =============
+       : Tesla
+
+       | Function                              | Lambda                             |
+       |---------------------------------------+------------------------------------|
+       | statement which defines a function    | expression which evaluates to      |
+       | and binds it to a name                | a function                         |
+       |---------------------------------------+------------------------------------|
+       | Must have a name                      | Anonymous                          |
+       |---------------------------------------+------------------------------------|
+       | Arguments delimited by parentheses,   | Argument list terminated by colon  |
+       | separated by commas                   | separated by commas                |
+       |---------------------------------------+------------------------------------|
+       | Zero or more arguments supported -    | Zero or more arguments supported - |
+       | zero arguments => empty parentheses   | zero arguments => lambda:          |
+       |---------------------------------------+------------------------------------|
+       | Body is intended block of statements  | Body is a single expression        |
+       |---------------------------------------+------------------------------------|
+       | A return statement required to return | The return value is given by the   |
+       | anything other than None              | body expression. No return         |
+       |                                       | statement is permitted.            |
+       |---------------------------------------+------------------------------------|
+       | Regular functions can have docstrings | Lambdas cannot have docstrings     |
+     
 ****** Detecting Callable Objects
 ****** Extended Formal Argument Syntax
 ****** Extended Call Syntax
