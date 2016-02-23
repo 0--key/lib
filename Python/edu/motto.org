@@ -2941,6 +2941,42 @@ http://github.com/pydata/pydata-book
        | Regular functions can have docstrings | Lambdas cannot have docstrings     |
      
 ****** Detecting Callable Objects
+       #+BEGIN_SRC python :results output :session functions
+         def is_even(x):
+             return x % 2 == 0
+
+
+         callable(is_even)
+         print('=============')
+         is_odd = lambda x: x % 2 == 1
+         callable(is_odd)
+         print('=============')
+         callable(list)
+         callable(list.append)
+         class CallMe:
+             def __call__(self):
+                 print("Called!")
+
+         call_me = CallMe()
+         callable(call_me)
+         print('=============')
+         callable("This is not callable")
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       ... >>> >>> True
+       =============
+       >>> True
+       =============
+       True
+       True
+       ... ... ... >>> >>> True
+       =============
+       False
+#+end_example
+
 ****** Extended Formal Argument Syntax
 ****** Extended Call Syntax
 ****** Forwarding Arguments
