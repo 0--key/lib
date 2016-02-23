@@ -2860,6 +2860,43 @@ http://github.com/pydata/pydata-book
        : False
 
 ****** Conditional Expressions
+       Old-fashion approach:
+       #+BEGIN_SRC python :results output :session functions
+         def sequence_class(immutable):
+             if immutable:
+                 cls = tuple
+             else:
+                 cls = list
+             return cls
+
+         seq = sequence_class(immutable=True)
+         t = seq("Timbuktu")
+         t
+         print('=============')
+         type(t)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... >>> >>> >>> ('T', 'i', 'm', 'b', 'u', 'k', 't', 'u')
+       : =============
+       : <class 'tuple'>
+
+       Much terse and dense solution:
+       #+BEGIN_SRC python :results output :session functions
+         def sequence_class(immutable):
+             return tuple if immutable else list
+
+         seq = sequence_class(immutable=False)
+         s = seq("Nairobi")
+         s
+         type(s)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... >>> >>> >>> ['N', 'a', 'i', 'r', 'o', 'b', 'i']
+       : <class 'list'>
 ****** Lambdas
 ****** Detecting Callable Objects
 ****** Extended Formal Argument Syntax
