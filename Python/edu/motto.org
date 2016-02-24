@@ -3101,6 +3101,45 @@ http://github.com/pydata/pydata-book
        : ... >>> ... ... ... ... ... ... >>> <img border="1" src="monet.jpg" alt="Sunrise by Claude Monet">
 
 ****** Extended Call Syntax
+       Usually it is solved as:
+       #+BEGIN_SRC python
+       def extended(*args, **kwargs):
+       #+END_SRC
+       Examples:
+       #+BEGIN_SRC python :results output :session functions
+         def print_args(arg1, arg2, *args):
+             print(arg1)
+             print(arg2)
+             print(args)
+
+         t = (11, 12, 14, 15)
+         # print_args(t) NOT WORKS BUT
+         print_args(*t)  # works well
+         print('=============')
+
+         # And in the same way for dicts:
+
+         def color(red, green, blue, **kwargs):
+             print("r =", red)
+             print("g =", green)
+             print("b =", blue)
+             print(kwargs)
+
+         k = {'red':21, 'green':68, 'blue':120, 'alpha':52}
+         color(**k)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> >>> ... 11
+       : 12
+       : (14, 15)
+       : =============
+       : >>> ... >>> ... ... ... ... ... >>> >>> r = 21
+       : g = 68
+       : b = 120
+       : {'alpha': 52}
+       
 ****** Forwarding Arguments
 ****** Duck Tail Transposing Tables
 ****** Summary
