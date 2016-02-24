@@ -2930,12 +2930,14 @@ http://github.com/pydata/pydata-book
        : ... >>> >>> >>> ['N', 'a', 'i', 'r', 'o', 'b', 'i']
        : <class 'list'>
 
-****** Lambdas
+****** Lambdas							     :pprint:
        #+BEGIN_SRC python :results output :session functions
+         from pprint import pprint as pp
+
          scientists = ['Marie Curie', 'Albert Einstein', 'Niels Bohr', 'Isaac Newton',
                        'Dmitri Mendeleev', 'Antoine Lavoisier', 'Carl Linnaeus',
                        'Alfred Wegener', 'Charles Darwin']
-         print(sorted(scientists, key=lambda name: name.split()[-1]))
+         pp(sorted(scientists, key=lambda name: name.split()[-1]))
          print('=============')
          last_name = lambda name: name.split()[-1]
          last_name
@@ -2944,12 +2946,22 @@ http://github.com/pydata/pydata-book
        #+END_SRC
 
        #+RESULTS:
-       : 
-       : ... >>> ['Niels Bohr', 'Marie Curie', 'Charles Darwin', 'Albert Einstein', 'Antoine Lavoisier', 'Carl Linnaeus', 'Dmitri Mendeleev', 'Isaac Newton', 'Alfred Wegener']
-       : =============
-       : >>> <function <lambda> at 0x7f6f98542400>
-       : =============
-       : Tesla
+       #+begin_example
+
+       >>> ... ... >>> ['Niels Bohr',
+	'Marie Curie',
+	'Charles Darwin',
+	'Albert Einstein',
+	'Antoine Lavoisier',
+	'Carl Linnaeus',
+	'Dmitri Mendeleev',
+	'Isaac Newton',
+	'Alfred Wegener']
+       =============
+       >>> <function <lambda> at 0x7fb1eab84730>
+       =============
+       Tesla
+#+end_example
 
        | Function                              | Lambda                             |
        |---------------------------------------+------------------------------------|
