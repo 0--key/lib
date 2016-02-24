@@ -3164,6 +3164,33 @@ http://github.com/pydata/pydata-book
        : 255
        
 ****** Duck Tail Transposing Tables
+       #+BEGIN_SRC python :results output :session functions
+         from pprint import pprint as pp
+
+         sunday = [11, 12, 14, 15, 17, 22]
+         monday = [13, 14, 16, 20, 20, 21]
+         tuesday = [2, 2, 3, 7, 9, 10]
+
+         daily = [sunday, monday, tuesday]
+         pp(daily)
+         for i in zip(*daily):
+             print(i)
+
+         transposed = list(zip(*daily))
+         pp(transposed)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> >>> >>> >>> >>> >>> [[11, 12, 14, 15, 17, 22], [13, 14, 16, 20, 20, 21], [2, 2, 3, 7, 9, 10]]
+       : ... ... (11, 13, 2)
+       : (12, 14, 2)
+       : (14, 16, 3)
+       : (15, 20, 7)
+       : (17, 20, 9)
+       : (22, 21, 10)
+       : >>> [(11, 13, 2), (12, 14, 2), (14, 16, 3), (15, 20, 7), (17, 20, 9), (22, 21, 10)]
+
 ****** Summary
 
 ***** Closures and Decorators
