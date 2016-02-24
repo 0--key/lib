@@ -3141,6 +3141,28 @@ http://github.com/pydata/pydata-book
        : {'alpha': 52}
        
 ****** Forwarding Arguments
+       #+BEGIN_SRC python :results output :session functions
+         def trace(f, *args, **kwargs):
+             print("args =", args)
+             print("kwargs =", kwargs)
+             result = f(*args, **kwargs)
+             print("result =", result)
+             return result
+
+         print(int("ff", base=16))
+         print('=============')
+         trace(int, "ff", base=16)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... >>> 255
+       : =============
+       : args = ('ff',)
+       : kwargs = {'base': 16}
+       : result = 255
+       : 255
+       
 ****** Duck Tail Transposing Tables
 ****** Summary
 
