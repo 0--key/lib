@@ -3022,6 +3022,84 @@ http://github.com/pydata/pydata-book
 #+end_example
 
 ****** Extended Formal Argument Syntax
+       Passing arbitrary number of arguments to particular function:
+       #+BEGIN_SRC python :results output :session functions
+         def hipervolume(*args):
+             print(args)
+             print(type(args))
+
+         hipervolume(3, 4)
+         print('=============')
+         hipervolume(5, 6, 7)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> >>> ... ... ... >>> (3, 4)
+       : <class 'tuple'>
+       : =============
+       : (5, 6, 7)
+       : <class 'tuple'>
+       Iterate these arguments:
+       #+BEGIN_SRC python :results output :session functions
+         def hypervolume(*lenghts):
+             i = iter(lenghts)
+             v = next(i)  # first arg
+             for lenght in i:
+                 v *= lenght
+             return v
+
+         print(hypervolume(2, 4))
+         print('=============')
+         print(hypervolume(2, 4, 6, 8))
+         print(hypervolume(1))
+         print('=============')
+         print(hypervolume())
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       ... ... ... ... ... >>> 8
+       =============
+       384
+       1
+       =============
+       Traceback (most recent call last):
+	 File "<stdin>", line 1, in <module>
+	 File "<stdin>", line 3, in hypervolume
+       StopIteration
+#+end_example
+
+       Passing dictionary as argument:
+       #+BEGIN_SRC python :results output :session functions
+         def tag(name, **kwargs):
+             print(name)
+             print(kwargs)
+             print(type(kwargs))
+
+         tag('img', src="monet.jpg", alt="Sunrise by Claude Monet", border=1)
+         print('=============')
+         # lets iterate arguments
+
+         def tag(name, **attributes):
+             result = '<' + name
+             for key, value in attributes.items():
+                 result += ' {k}="{v}"'. format(k=key, v=str(value))
+             result += '>'
+             return result
+
+         print(tag('img', src="monet.jpg", alt="Sunrise by Claude Monet", border=1))
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> img
+       : {'border': 1, 'src': 'monet.jpg', 'alt': 'Sunrise by Claude Monet'}
+       : <class 'dict'>
+       : =============
+       : ... >>> ... ... ... ... ... ... >>> <img border="1" src="monet.jpg" alt="Sunrise by Claude Monet">
+
 ****** Extended Call Syntax
 ****** Forwarding Arguments
 ****** Duck Tail Transposing Tables
