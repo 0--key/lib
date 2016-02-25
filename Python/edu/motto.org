@@ -2727,18 +2727,60 @@ http://github.com/pydata/pydata-book
 ****** TODO Classes
 
 ******* A Word About Names and Objects
-
 ******* Python Scopes and Namespaces
-
 ******** Scopes and Namespaces Example
+	 #+BEGIN_SRC python :results output :session classes
+           def scope_test():
+               def do_local():
+                   spam = "local spam"
+               def do_nonlocal():
+                   nonlocal spam
+                   spam = "nonlocal spam"
+               def do_global():
+                   global spam
+                   spam = "global spam"
+               spam = "test spam"
+               do_local()
+               print('\n')
+               print("After local assignment:", spam)
+               do_nonlocal()
+               print("After nonlocal assignment:", spam)
+               do_global()
+               print("After global assignment:", spam)
+
+           scope_test()
+           print("In global scope:", spam)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... >>> 
+	 : 
+	 : After local assignment: test spam
+	 : After nonlocal assignment: nonlocal spam
+	 : After global assignment: nonlocal spam
+	 : In global scope: global spam
 
 ******* A First Look at Classes
-
 ******** Class Definition Syntax
-
 ******** Class Objects
+	 Support two kinds of operations:
+	 - attribute references
+	   #+BEGIN_SRC python
+             class MyClass:
+                 """A simple example class"""
+                 i = 12345
+                 def f(self):
+                     return 'hello world'
+	   #+END_SRC
+	 - instantiation
+	   #+BEGIN_SRC python
+	   x = MyClass()
+	   #+END_SRC
 
 ******** Instance Objects
+	 - Data attributes
+	 - Methods
 
 ******** Method Objects
 
