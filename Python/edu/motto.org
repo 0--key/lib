@@ -785,7 +785,8 @@
       - The government is firmly committed to reducing public debt, and
 	is therefore bitterly opposed to any increases.  
 
-You need to use your dictionary to find what sort of nouns these intensifiers go with.
+      You need to use your dictionary to find what sort of nouns these
+      intensifiers go with.
 ***** TODO mitigators
 ***** TODO noun modifiers
 
@@ -2715,9 +2716,13 @@ http://github.com/pydata/pydata-book
 	promptly and correctly.	
 	#+END_QUOTE
 	#+BEGIN_SRC python
-	with open("myfile.txt") as f:
-        for line in f:
+          with open("myfile.txt") as f:
+              for line in f:
+                  print(line, end="!")
 	#+END_SRC
+
+	After the statement is executed, the file ~f~ is always closed, even
+	if a problem was encountered while processing the lines.
 
 ****** TODO Classes
 
