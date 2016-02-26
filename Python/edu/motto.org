@@ -4287,7 +4287,49 @@ http://github.com/pydata/pydata-book
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-* Discover Git workflow subtleties
+* Discover Git work-flow subtleties 					:Git:
+** Version Control with Git
+*** Preface
+**** Audience
+**** Assumed Framework
+**** Book Layout and Omissions
+     #+BEGIN_QUOTE
+     The concepts covered in Chapter 4 are essential for a firm grasp
+     on Git’s object model.
+     #+END_QUOTE
+**** Conventions Used in This Book
+**** Using Code Examples
+**** Safari® Books Online
+**** How to Contact Us
+**** Acknowledgments
+**** Attributions
+*** Introduction
+**** Background
+**** The Birth of Git
+**** Precedents
+**** Timeline
+**** What’s in a Name?
+*** Installing Git
+*** Getting Started
+*** Basic Git Concepts
+*** File Management and the Index
+*** Commits
+*** Branches
+*** Diffs
+*** Merges
+*** Altering Commits
+*** The Stash and the Reflog
+*** Remote Repositories
+*** Repository Management
+*** Patches
+*** Hooks
+*** Combining Projects
+*** Submodule Best Practices
+*** Using Git with Subversion Repositories
+*** Advanced Manipulations
+*** Tips, Tricks, and Techniques
+*** Git and GitHub
+* Open-Source contributing
 ** Fork useful projects
 
 *** DONE EffectivePython
