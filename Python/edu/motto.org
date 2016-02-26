@@ -2787,7 +2787,6 @@ http://github.com/pydata/pydata-book
 	 - Methods
 
 ******** Method Objects
-
 ******** Class and Instance Variables
 	 #+BEGIN_SRC python :results output :session classes
            class Dog:
@@ -2867,6 +2866,35 @@ http://github.com/pydata/pydata-book
 	 : ['play dead']
 
 ******* Random Remarks
+	Methods may call other methods by using method attributes of the
+	"self" argument:
+	#+BEGIN_SRC python :results output :session classes
+          class Bag:
+              def __init__(self):
+                  self.data = []
+              def add(self, x):
+                  self.data.append(x)
+              def addtwice(self, x):
+                  self.add(x)
+                  self.add(x)
+
+          b = Bag()
+          b.add(3)
+          print('\n')
+          print(b.data)
+          b.addtwice(5)
+          print(b.data)
+          b.__class__()
+          isinstance(b, Bag)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... ... ... >>> >>> >>>
+	: [3]
+	: >>> [3, 5, 5]
+	: <__main__.Bag object at 0x7fbbe05e0898>
+	: True
 
 ******* Inheritance
 
