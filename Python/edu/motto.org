@@ -795,6 +795,7 @@
 **** TODO Verbs
 **** TODO Clause, phrase and sentence
 *** TODO Exercises
+
 * Jargon & definition 						    :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
@@ -911,8 +912,7 @@
     (Situation / Action / Response, Issue 1 / Issue 2 / Issue 3, etc)
     and speak for just a couple sentences about each. If I want more
     details, I’ll ask!
-    
-    
+       
 ** Writing Idiomatic Python
 
 *** Oftentimes,
