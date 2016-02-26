@@ -941,7 +941,11 @@
      raw 8-bit values
 **** Unicode
      Unicode characters
-*** 								    :corpora:
+** Tutorial
+   If you still don't understand how methods work, a look at the
+   implementation can perhaps clarify matters.
+   
+
 * Enlarge Emacs toolbox 					      :Emacs:
 ** DONE Elpy
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
