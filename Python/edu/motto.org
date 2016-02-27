@@ -2968,7 +2968,23 @@ http://github.com/pydata/pydata-book
 	: True
 
 ******* Inheritance
+	#+BEGIN_SRC python
+          class DerivedClassName(BaseClassName):
+              <statement-1>
+              .
+              .
+              .
+              <statement-N>
+	#+END_SRC
 ******** Multiple Inheritance
+	 #+BEGIN_SRC python
+           class DerivedClassName(Base1, Base2, Base3):
+               <statement-1>
+               .
+               .
+               .
+               <statement-N>
+	 #+END_SRC
 	 
 ******* Private Variables
 
