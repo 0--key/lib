@@ -3028,10 +3028,140 @@ http://github.com/pydata/pydata-book
 ******* Exceptions Are Classes Too
 
 ******* Iterators
+	#+BEGIN_SRC python :session classes
+          #
+          for element in [1, 2, 3]: print(element)
+          for element in (1, 2, 3):
+              print(element)
+          d = {'one':1, 'two':2}
+          for key in d:
+              print(key)
+          for key in d:
+              print(key, d[key])
+          for char in "123":
+              print(char)
+          # for line in open("myfile.txt"):
+          #     print(line, end='')
+
+	#+END_SRC
+
+	Behind the scenes:
+	#+BEGIN_SRC python :results output :session classes
+          s = 'abc'
+          it = iter(s)
+          it
+          print('=============')
+          next(it)
+          print('=============')
+          next(it)
+          print('=============')
+          next(it)
+          print('=============')
+          next(it)
+
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	>>> <str_iterator object at 0x7f6883dd6ac8>
+	=============
+	'a'
+	=============
+	'b'
+	=============
+	'c'
+	=============
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	StopIteration
+#+end_example
+
+	Having seen the mechanics behind the iterator protocol, it is easy to
+	add iterator behavior to your classes.  Define an "__iter__()" method
+	which returns an object with a "__next__()" method.  If the class
+	defines "__next__()", then "__iter__()" can just return "self":
+	
+	#+BEGIN_SRC python :results output :session classes
+          class Reverse:
+              """Iterator for looping over a sequence backwards."""
+              def __init__(self, data):
+                  self.data = data
+                  self.index = len(data)
+              def __iter__(self):
+                  return self
+              def __next__(self):
+                  if self.index == 0:
+                      raise StopIteration
+                  self.index = self.index - 1
+                  return self.data[self.index]
+
+          rev = Reverse('spam')
+	  print('\n')
+          iter(rev)
+          for char in rev:
+              print(char)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... ... ... ... ... ... ... >>> >>>
+	: <__main__.Reverse object at 0x7f6883dd6e48>
+	: ... ... m
+	: a
+	: p
+	: s
 
 ******* Generators
+	#+BEGIN_SRC python :results output :session classes
+          def reverse(data):
+              for index in range(len(data)-1, -1, -1):
+                  yield data[index]
+
+          print('\n')
+          for char in reverse('golf'):
+              print(char)
+	#+END_SRC
+
+	~Generator~s are a simple and powerful tool for creating iterators.
+	They are written like regular functions but use the "yield" statement
+	whenever they want to return data.  Each time "next()" is called on
+	it, the generator resumes where it left off (it remembers all the data
+	values and which statement was last executed).  An example shows that
+	generators can be trivially easy to create:
+
+	#+RESULTS:
+	: 
+	: ... ... >>>
+	: ... ... f
+	: l
+	: o
+	: g
 
 ******* Generator Expressions
+	Some simple generators can be coded succinctly as expressions using a
+	syntax similar to list comprehensions but with parentheses instead of
+	brackets.
+	#+BEGIN_SRC python
+          >>> sum(i*i for i in range(10))                 # sum of squares
+          285
+
+          >>> xvec = [10, 20, 30]
+          >>> yvec = [7, 5, 3]
+          >>> sum(x*y for x,y in zip(xvec, yvec))         # dot product
+          260
+
+          >>> from math import pi, sin
+          >>> sine_table = {x: sin(x*pi/180) for x in range(0, 91)}
+
+          >>> unique_words = set(word  for line in page  for word in line.split())
+
+          >>> valedictorian = max((student.gpa, student.name) for student in graduates)
+
+          >>> data = 'golf'
+          >>> list(data[i] for i in range(len(data)-1, -1, -1))
+          ['f', 'l', 'o', 'g']
+	#+END_SRC
 
 ****** TODO Brief Tour of the Standard Library
 
