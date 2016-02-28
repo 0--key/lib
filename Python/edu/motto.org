@@ -1473,7 +1473,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [100%]
+***** The Python Tutorial [56%]
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -2856,7 +2856,7 @@ http://github.com/pydata/pydata-book
 	After the statement is executed, the file ~f~ is always closed, even
 	if a problem was encountered while processing the lines.
 
-****** TODO Classes
+****** DONE Classes
 
 ******* A Word About Names and Objects
 ******* Python Scopes and Namespaces
@@ -3761,6 +3761,7 @@ http://github.com/pydata/pydata-book
 
 ***** Closures and Decorators
 ****** Local Functions
+       LEGB rule
 ****** Returning Functions From Functions
 ****** Closures and Nested Scopes
 ****** Function Factories
