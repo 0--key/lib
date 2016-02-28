@@ -1074,6 +1074,29 @@
    If you still don't understand how methods work, a look at the
    implementation can perhaps clarify matters.
    
+* Improve your memory
+  Miller's magic number is 7
+
+** Memory principles
+*** Repetition
+    - Write it down
+    - Repeat it
+    - Quiz yourself
+*** Exaggeration
+*** Chunking
+*** Association
+*** Pictures
+    A picture worth a thousand words.
+    Visual information is easier to remember than abstract
+    information
+    
+** Memory techniques
+
+** Using the numeric peg system
+
+** Situational methods
+
+** Conclusion
 
 * Enlarge Emacs toolbox 					      :Emacs:
 ** DONE Elpy
@@ -3405,7 +3428,6 @@ http://github.com/pydata/pydata-book
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
 **** Python Anti-Patterns				      :anti:patterns:
-**** 
 ***** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 ***** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
       [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
@@ -3857,6 +3879,7 @@ http://github.com/pydata/pydata-book
 ***** Defining Context Managers
 ***** Introspection
 
+**** Python Beyond the Basics OOP
 **** Fluent Python						     :fluent:
 ***** Preface
 ****** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
