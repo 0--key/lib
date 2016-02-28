@@ -924,6 +924,7 @@
       - We often stayed in one another's houses.
       One another refers to group larger than two members.
 *** TODO Exercises
+    http://merriam-webster.com/dictionary/worth
 
 * Jargon & definition 						    :corpora:
 ** PP4E
@@ -3879,7 +3880,80 @@ http://github.com/pydata/pydata-book
 ***** Defining Context Managers
 ***** Introspection
 
-**** Python Beyond the Basics OOP
+**** Mastering Python OOP						:OOP:
+***** Introduction To Object Oriented Python
+****** Introduction And About The Author
+****** What Is Object Oriented Programming And Why
+****** Object-Oriented Python
+****** Modules Versus Classes
+
+***** Getting Started
+****** Prerequisites And Toolkit                  
+****** Choosing An IDE Or Text Editor And Workflow
+
+***** Classes
+****** Classes, Instances, Attributes And Methods
+****** Defining A Class
+****** Instance Methods
+****** Instance Attributes
+****** Encapsulation
+****** Init Constructor
+****** Class Attributes
+****** Working With Class And Instance Data
+****** Assignment 1
+****** Assignment 1 - Solution
+
+***** Inheritance And Polymorphism
+****** Inheriting Attributes
+****** Inheritance Examples
+****** Polymorphism
+****** Inheriting The Constructor
+****** Multiple Inheritance And The Lookup Tree
+****** Decorators, Static And Class Methods
+****** Abstract Classes
+****** Method Overloading - Extending And Providing
+****** Composition Versus Inheritance
+****** Assignment 2
+****** Assignment 2 - Solution
+****** Assignment 2 For Extra Credit - Solution
+
+***** Advanced Features
+****** Implementing Core Syntax
+****** Subclassing Built-Ins
+****** Attribute Encapsulation
+****** Private Variable Names
+****** With Context
+****** New Style Classes
+****** Assignment 3
+****** Assignment 3 - Supplementary Hints
+****** Assignment 3 - Solution
+
+***** Exceptions
+****** Trapping And Raising Exceptions
+****** Custom Exceptions
+****** Assignment 4
+****** Assignment 4 - Solution
+
+***** Object Serialization
+****** Pickle
+****** JSON
+****** YAML
+****** Assignment 5
+****** Assignment 5 - Solution
+
+***** Efficiency And Testing
+****** Debugging - PDB
+****** Logging
+****** Benchmarking - The Timeit Module
+****** The Pytest Module - Part 1
+****** The Pytest Module - Part 2
+****** Assignment 6
+****** Assignment 6 - Solution
+
+***** Conclusion
+****** What We Have Learned
+****** Where To Go From Here						:OOP:
+
 **** Fluent Python						     :fluent:
 ***** Preface
 ****** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
