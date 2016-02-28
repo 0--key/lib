@@ -3223,16 +3223,76 @@ http://github.com/pydata/pydata-book
 ****** TODO Brief Tour of the Standard Library
 
 ******* Operating System Interface
+	#+BEGIN_SRC python :session stdlib
+          import os
+          from pprint import pprint
+          print('\n')
+          pprint(dir(os))
+          print('\n')
+          help(os)
+
+	#+END_SRC
+
+	#+RESULTS:
 
 ******* File Wildcards
+	The "glob" module provides a function for making file lists from
+	directory wildcard searches:
+	#+BEGIN_SRC python :results output :session stdlib
+	import glob
+	glob.glob('*.org')
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ['babel.org', 'doc.org', 'motto.org', 'magit.org']
 
 ******* Command Line Arguments
+	- sys.argv
+	- getopt
+	- argparse
 
 ******* Error Output Redirection and Program Termination
+	#+BEGIN_SRC python :results output :session stdlib
+          import sys
+          sys.stderr.write('Warning, log file not found \
+          starting a new one\n')
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... Warning, log file not found starting a new one
+	: 47
+
+	The most direct way to terminate a script is to use "sys.exit()".
 
 ******* String Pattern Matching
+	#+BEGIN_SRC python :results output :session stdlib
+          import re
+          re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest')
+          print('\n')
+          re.sub(r'(\b[a-z]+) \1', r'\1', 'cat in the the hat')
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ['foot', 'fell', 'fastest']
+	: 
+	: 'cat in the hat'
+
+	#+BEGIN_QUOTE
+	When only simple capabilities are needed, string methods are preferred
+	because they are easier to read and debug:
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session stdlib
+	'tea for too'.replace('too', 'two')
+	#+END_SRC
+
+	#+RESULTS:
+	: 'tea for two'
 
 ******* Mathematics
+	
 
 ******* Internet Access
 
