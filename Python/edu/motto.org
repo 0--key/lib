@@ -3986,10 +3986,67 @@ http://github.com/pydata/pydata-book
 **** Mastering Python OOP						:OOP:
 ***** Introduction To Object Oriented Python
 ****** Introduction And About The Author
+******* Course Objectives
+	- Design reusable Object-Oriented Python classes
+	- Apply powerful OOP concepts to handle complexity 
+	  + Classes, instances
+	  + Encapsulation, inheritance, polymorphism
+	- Handle errors (exceptions)
+	- Serialize (store) objects for later use
+	- Debug, test and benchmark your code
+******* Purpose and Outcomes
+	- Learn OOP concepts used across many languages:
+	  + Java
+	  + C++
+	  + JavaScript
+	  + etc.
+	- Be able to contribute Python code on a professional level
+	- Understand OOP terminology when discussed online or in interviews
+	- Take an essential next step in your Python education
+	- If already familiar with OOP, see how it is applied in a 
+	/Pythonic/ way
+	
 ****** What Is Object Oriented Programming And Why
-****** Object-Oriented Python
-****** Modules Versus Classes
+******* What is an Object
+	An /object/ is a unit of data (having one or more attributes), of
+	a particular class or type, with associated functionality (methods)
+******* Object-Oriented Programming (OOP)
+	- Developed in the 1960's (Simula67, smalltalk)
+	- A paradigm for code organization and design
+	- The OOP paradigm:
+	  - Organized data into /objects/ and functionality into /methods/
+	  - Defines object specifications (data and methods) in classes
+	- Promote collaboration, code extension and maintenance
+	- The primary paradigm for software design worldwide
+******* OOP: Why?
+	- OOP organizes code so it is:
+	  - Easier to use
+	  - Easier to understand
+	  - Easier to maintain and extend
+	  - Easier to collaborate
+	- Complexity must always be managed
+	- OOP is a universal paradigm (many languages)
+	- Learning OOP is a necessary next step into the larger world of 
+	software engineering
+******* OOP: three pillars					    :pillars:
+	- encapsulation
+	- inheritance
+	- polymorphism
 
+****** Object-Oriented Python
+       - Everything is an object, even numbers
+       - Other languages employ /primitives/ (non-object data)
+       - All entities in Python follow the same rules of objects
+	 - Every object (instance of a class) has a type (the class)
+	 - The object or class has attributes, some of which are methods
+
+****** Modules Versus Classes
+       - Python modules are files that contain Python code
+       - Python modules can b executed or imported
+       - Modules can contain class definitions
+       - Sometimes a module consists of a single class;
+	 in this case a module may seem synonymous with a class
+	 
 ***** Getting Started
 ****** Prerequisites And Toolkit                  
 ****** Choosing An IDE Or Text Editor And Workflow
