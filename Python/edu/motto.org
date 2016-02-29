@@ -1402,6 +1402,7 @@ How it works
 **** Pluralsight
      great resource with video tutorials 
 *** Orgmode
+*** Orgmode								:org:
 **** Tags
      Set C-c C-q
 **** Tables
@@ -1531,7 +1532,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [56%]
+***** The Python Tutorial [56%]					   :tutorial:
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -3280,7 +3281,7 @@ http://github.com/pydata/pydata-book
 
 ****** TODO Brief Tour of the Standard Library
 
-******* Operating System Interface
+******* Operating System Interface					 :os:
 	#+BEGIN_SRC python :session stdlib
           import os
           from pprint import pprint
@@ -3293,7 +3294,7 @@ http://github.com/pydata/pydata-book
 
 	#+RESULTS:
 
-******* File Wildcards
+******* File Wildcards						       :glob:
 	The "glob" module provides a function for making file lists from
 	directory wildcard searches:
 	#+BEGIN_SRC python :results output :session stdlib
@@ -3310,7 +3311,7 @@ http://github.com/pydata/pydata-book
 	- getopt
 	- argparse
 
-******* Error Output Redirection and Program Termination
+******* Error Output Redirection and Program Termination	     :stderr:
 	#+BEGIN_SRC python :results output :session stdlib
           import sys
           sys.stderr.write('Warning, log file not found \
@@ -3324,7 +3325,7 @@ http://github.com/pydata/pydata-book
 
 	The most direct way to terminate a script is to use "sys.exit()".
 
-******* String Pattern Matching
+******* String Pattern Matching						 :re:
 	#+BEGIN_SRC python :results output :session stdlib
           import re
           re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest')
