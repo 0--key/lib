@@ -450,10 +450,18 @@
       - Is the party at our place or theirs?
       - My dessert was the ice cream and yours was the mousse.
 
-***** TODO questions
+***** DONE questions
+      We use whose to ask questions:
+      | Pattern A             | Pattern B             |
+      |-----------------------+-----------------------|
+      | Whose coat is this?   | Whose is this coat?   |
+      | Whose book is that?   | Whose is that book?   |
+      | Whose bags are those? | Whose are those bags? | 
 
-***** TODO pronouns
-
+***** DONE reciprocal pronouns (обоюдный)
+      - They helped to look after each other's children.
+      - We often stayed in one another's houses.
+      One another refers to group larger than two members.
 **** DONE Adjectives [100%]
      We use adjectives to describe nouns.
      Most adjectives can be used in front of a noun:
@@ -973,18 +981,6 @@
        classes.
      #+END_QUOTE
      
-***** DONE questions
-      We use whose to ask questions:
-      | Pattern A             | Pattern B             |
-      |-----------------------+-----------------------|
-      | Whoswe coat is this?  | Whose is this coat?   |
-      | Whose book is that?   | Whose is that book?   |
-      | Whose bags are those? | Whose are those bags? | 
-
-***** DONE reciprocal pronouns (обоюдный)
-      - They helped to look after each other's children.
-      - We often stayed in one another's houses.
-      One another refers to group larger than two members.
 *** TODO Exercises
     http://merriam-webster.com/dictionary/worth
 
