@@ -4173,8 +4173,35 @@ http://github.com/pydata/pydata-book
 	 in this case a module may seem synonymous with a class
 	 
 ***** Getting Started
-****** Prerequisites And Toolkit                  
+****** Prerequisites And Toolkit
+       1. Prerequisites
+       2. Able to write and run Python programs
+       3. Have debugged programs and diagnosed errors
+       4. Can use /built-in/ data structures:
+	  - numbers
+	  - strings
+	  - lists
+	  - tuples
+	  - dictionaries
+	  - sets
+	  - files
+       5. Can use /for/ loops, /while/ loops /if/ statements
+       6. Can write functions
+       7. Python 2.x
+	  - built-in on most Mac and Linux systems
+	  - must be installed on Windows
+	  - use ~python -V~ at Python prompt to see version
+	  - Python 3 is very similar to Python 2
+       8. Supplementary Module Installs
+	  - *Yaml* for data serialization
+	  - *pytest* for testing
 ****** Choosing An IDE Or Text Editor And Workflow
+       An integrated development environment is a text editor
+       geared toward software development
+       - Syntax highlighting
+       - Function indexing
+       - Running programs
+       - Debugging
 
 ***** Classes
 ****** Classes, Instances, Attributes And Methods
