@@ -3487,11 +3487,71 @@ http://github.com/pydata/pydata-book
 	: 
 	: 1.3720238095238095
 
-******* Internet Access
+******* Internet Access						     :urllib:
+	#+BEGIN_SRC python :results output :session stdlib
+          from urllib.request import urlopen
+          with urlopen('http://tycho.usno.navy.mil/cgi-bin/timer.pl') as response:
+              for line in response:
+                  line = line.decode('utf-8')  # Decoding the binary data to text.
+                  if 'EST' in line or 'EDT' in line:  # look for Eastern Time
+                      print('\n')
+                      print(line)
+	#+END_SRC
 
-******* Dates and Times
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... ... 
+	: 
+	: <BR>Mar. 01, 04:04:38 AM EST		Eastern Time
 
-******* Data Compression
+******* Dates and Times						       :date:
+	#+BEGIN_SRC python :results output :session stdlib
+          # dates are easily constructed and formatted
+          from datetime import date
+          now = date.today()
+          print('\n')
+          now
+          now.strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B.")
+
+          # dates support calendar arithmetic
+          birthday = date(1978, 2, 23)
+          age = now - birthday
+          print('\n')
+          age.days
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> >>>
+	: datetime.date(2016, 3, 1)
+	: '03-01-16. 01 Mar 2016 is a Tuesday on the 01 day of March.'
+	: >>> ... >>> >>>
+	: 13886
+
+******* Data Compression					       :zlib:
+	#+BEGIN_SRC python :results output :session stdlib
+          import zlib
+          s = b'witch which has which witches wrist watch'
+          print('\n')
+          len(s)
+          #
+          t = zlib.compress(s)
+          print('\n')
+          len(t)
+          #
+          zlib.decompress(t)
+          #
+          zlib.crc32(s)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>>
+	: 41
+	: ... >>>
+	: 37
+	: ... b'witch which has which witches wrist watch'
+	: ... 226805979
 
 ******* Performance Measurement
 
