@@ -4205,10 +4205,78 @@ http://github.com/pydata/pydata-book
 
 ***** Classes
 ****** Classes, Instances, Attributes And Methods
+       - Class: a blueprint for an instance
+       - Instance: a constructed /object/ of the class
+       - Type: indicates the class the instance belongs to
+       - Attribute: any object value: /object.*attribute*/
+       - Method: a =callable attribute= defined in the class
 ****** Defining A Class
+       - Review: /class/
+	 - Classes are =instance factories=
+	 - Classes define an =instance blueprint=
+       - Construct an /instance/ or object of the class
+	 - Instances know to which class they belong (=type=)
+	 - Instances can access variables defined in the class
 ****** Instance Methods
+       When we call the instance method this instance is passed as the
+       first argument automatically
+       - Instance methods are variables defined in the class
+       - They are accessed through the instance:
+	 *instance.method()*
+       - When called through the instance the instance is 
+	 automatically passed as first argument to the method
+       - Because of this automatic passing of the instance, 
+	 instance methods are known as /bound/ methods, i.e. 
+	 bound to the instance upon which it is called
+
+       Six point to remember:
+
+       - An /instance/ of a /class/ knows what class it's from
+       - Vars defined in the class are available to the instance
+       - A method on an instance passes /instance/ as the first 
+	 argument to the method (named /self/ in the method)
+       - Instances have their own data, called /instance attributes/
+       - Variables defined in the class are called /class attributes/
+       - When we read an attribute, Python looks for it first in the 
+	 instance, and then the class
+       
 ****** Instance Attributes
+
+       An /object/ is a unit of data (having one or more attributes),
+       of a particular /class/ or type, with associated functionality
+       (methods).
+
+       =STATE=
+       - We have seen than an instance can access variables defined 
+	 in the class
+       - An instance can also get and set values in /itself/
+       - Because these values change according to what happens to 
+	 the object, we call these values =state=
+       - Instance data takes the form of /instance attribute/ values, 
+	 set and accessed through *object.attribute* syntax
+
 ****** Encapsulation
+       OOP three major facets (pillars)
+       - encapsulation
+
+	 - refers to the safe storage of data (as attributes) 
+	   in an instance
+	 - data should be accessed only through instance methods
+	 - data should be evaluated as correct (depending on the 
+	   requirements set in class methods)
+	 - data should be safe from changes by external processes
+
+       - inheritance
+       - polymorphism
+
+       *Breaking encapsulation*
+
+       - Although normally set in a setter method, instance
+	 attribute values can be set anywhere
+       - Encapsulation in Python is a voluntary restriction
+       - Python does not implement data hiding, as does other 
+	 languages
+
 ****** Init Constructor
 ****** Class Attributes
 ****** Working With Class And Instance Data
