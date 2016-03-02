@@ -1667,7 +1667,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [56%]					   :tutorial:
+***** The Python Tutorial [62%] 				   :tutorial:
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -3414,8 +3414,7 @@ http://github.com/pydata/pydata-book
           ['f', 'l', 'o', 'g']
 	#+END_SRC
 
-****** TODO Brief Tour of the Standard Library
-
+****** DONE Brief Tour of the Standard Library
 ******* Operating System Interface					 :os:
 	#+BEGIN_SRC python :session stdlib
           import os
