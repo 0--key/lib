@@ -1521,11 +1521,13 @@ How it works
      great resource with video tutorials 
 *** Orgmode								:org:
 **** Motion							     :motion:
-     next/previous heading                C-c C-n/p
-     next/previous heading, same level    C-c C-f/b
-     backward to higher level heading     C-c C-u  
-     jump to another place in document    C-c C-j  
-     previous/next plain list item	  S-UP/DOWN
+
+     | next/previous heading             | C-c C-n/p |
+     | next/previous heading, same level | C-c C-f/b |
+     | backward to higher level heading  | C-c C-u   |
+     | jump to another place in document | C-c C-j   |
+     | previous/next plain list item     | S-UP/DOWN |
+
 **** Markup							     :markup:
      *bold*
      /italic/
