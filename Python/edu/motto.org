@@ -3608,11 +3608,62 @@ http://github.com/pydata/pydata-book
 	: ... b'witch which has which witches wrist watch'
 	: ... 226805979
 
-******* Performance Measurement
+******* Performance Measurement					     :timeit:
+	#+BEGIN_SRC python :results output :session stdlib
+          from timeit import Timer
+          print('\n')
+          Timer('t=a; a=b; b=t', 'a=1; b=2').timeit()
+          print('\n')
+          Timer('a,b = b,a', 'a=1; b=2').timeit()
+	#+END_SRC
 
-******* Quality Control
+	#+RESULTS:
+	: 
+	: >>>
+	: 0.14289407999967807
+	: 
+	: 0.13235212000017782
 
-******* Batteries Included
+	#+BEGIN_QUOTE
+	In contrast to "timeit"'s fine level of granularity, the "profile" and
+	"pstats" modules provide tools for identifying time critical sections
+	in larger blocks of code.
+	#+END_QUOTE
+
+******* Quality Control					   :doctest:unittest:
+	#+BEGIN_QUOTE
+		The =doctest= module provides a tool for scanning a module and
+		validating tests embedded in a program's docstrings.  Test
+		construction is as simple as cutting-and-pasting a typical call along
+		with its results into the docstring. This improves the documentation
+		by providing the user with an example and it allows the doctest module
+		to make sure the code remains true to the documentation:
+	#+END_QUOTE
+	
+	#+BEGIN_SRC python :results output :session stdlib
+          def average(values):
+              """Computes the arithmetic mean of a list of numbers.
+
+              >>> print(average([20, 30, 70]))
+              40.0
+              """
+              return sum(values) / len(values)
+
+          import doctest
+	  print('\n')
+          doctest.testmod()   # automatically validate the embedded tests
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... ... >>> >>>
+	: TestResults(failed=0, attempted=1)
+
+	#+BEGIN_SRC python :results output :session stdlib
+	
+	#+END_SRC
+
+******* Batteries Included ®
 
 ****** TODO Brief Tour of the Standard Library -- Part II
 
