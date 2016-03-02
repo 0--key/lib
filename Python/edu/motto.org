@@ -1428,6 +1428,9 @@ How it works
 ** TODO New shortcuts						       :keys:
 *** General								:gen:
 **** Switch buffer in the stack C-x Left/Right
+**** Key bindings
+     C-h b
+     C-x 8 
 **** Word spell check M-x $
 **** M-x ispell
 **** GoTo M-g g, M-g M-g
