@@ -4457,14 +4457,12 @@ http://github.com/pydata/pydata-book
 ****** Encapsulation
        OOP three major facets (pillars)
        - encapsulation
-
 	 - refers to the safe storage of data (as attributes) 
 	   in an instance
 	 - data should be accessed only through instance methods
 	 - data should be evaluated as correct (depending on the 
 	   requirements set in class methods)
 	 - data should be safe from changes by external processes
-
        - inheritance
        - polymorphism
 
