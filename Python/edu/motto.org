@@ -1523,6 +1523,18 @@ How it works
 **** Pluralsight
      great resource with video tutorials 
 *** Orgmode								:org:
+**** Getting started
+
+     | To read the on-line documentation try | M-x org-info |
+
+**** Visibility Cycling						 :visibility:
+
+     | rotate current subtree between states         | TAB             |
+     | rotate entire buffer between states           | S-TAB           |
+     | restore property-dependent startup visibility | C-u C-u TAB     |
+     | show the whole file, including drawers        | C-u C-u C-u TAB |
+     | reveal context around point                   | C-c C-r         |
+
 **** Motion							     :motion:
 
      | next/previous heading             | C-c C-n/p |
