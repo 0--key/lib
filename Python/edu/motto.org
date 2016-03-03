@@ -4338,6 +4338,20 @@ http://github.com/pydata/pydata-book
        - Construct an /instance/ or object of the class
 	 - Instances know to which class they belong (=type=)
 	 - Instances can access variables defined in the class
+       #+BEGIN_SRC python :results output :session oop
+         class MyClass(object):
+             pass
+
+         this_obj = MyClass()
+         print('\n')
+         print(this_obj)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> >>> ... ... >>> >>>
+       : <__main__.MyClass object at 0x7ff2119ce128>
+
 ****** Instance Methods
        When we call the instance method this instance is passed as the
        first argument automatically
@@ -4360,7 +4374,21 @@ http://github.com/pydata/pydata-book
        - Variables defined in the class are called /class attributes/
        - When we read an attribute, Python looks for it first in the 
 	 instance, and then the class
-       
+       #+BEGIN_SRC python :results output :session oop
+         class Joe(object):
+             def callme(self):
+                 print('calling "callme" method with instance:  ')
+
+         this_joe = Joe()
+         print('\n')
+         this_joe.callme()
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... >>> >>>
+       : calling "callme" method with instance:
+
 ****** Instance Attributes
 
        An /object/ is a unit of data (having one or more attributes),
@@ -4375,6 +4403,56 @@ http://github.com/pydata/pydata-book
 	 the object, we call these values =state=
        - Instance data takes the form of /instance attribute/ values, 
 	 set and accessed through *object.attribute* syntax
+       #+BEGIN_SRC python :results output :session oop
+         class MyClass(object):
+             var = 10
+
+         this_obj = MyClass()
+         that_obj = MyClass()
+
+         print('\n')
+         print(this_obj.var)
+         print(that_obj.var)
+
+         this_obj.var = 11
+
+         print('\n')
+         print(this_obj.var)
+         print(that_obj.var)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... >>> >>> >>> >>>
+       : 10
+       : 10
+       : >>> >>> >>>
+       : 11
+       : 10
+
+       #+BEGIN_SRC python :results output :session oop
+         import random
+
+         class MyClass(object):
+             def do_something(self):
+                 self.rand_val = random.randint(1, 10)
+
+         myinst = MyClass()
+         myinst.do_something()
+         print('\n')
+         print(myinst.rand_val)
+
+         myinst.do_something()
+         print('\n')
+         print(myinst.rand_val)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> ... ... ... >>> >>> >>>
+       : 1
+       : >>> >>>
+       : 6
 
 ****** Encapsulation
        OOP three major facets (pillars)
@@ -4397,6 +4475,36 @@ http://github.com/pydata/pydata-book
        - Encapsulation in Python is a voluntary restriction
        - Python does not implement data hiding, as does other 
 	 languages
+	 #+BEGIN_SRC python :results output :session stdlib
+           class MyClass(object):
+               def set_val(self, val):
+                   self.value = val
+               def get_val(self):
+                   return self.value
+
+           a = MyClass()
+           b = MyClass()
+           a.set_val(11)
+           b.set_val(107)
+
+           print('\n')
+           print(a.get_val())
+           print(b.get_val())
+           # breaking encapsulation
+           a.value = 13
+           print('\n')
+           print(a.get_val())
+           print(b.get_val())
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... ... ... ... >>> >>> >>> >>> >>> >>>
+	 : 11
+	 : 107
+	 : ... >>>
+	 : 13
+	 : 107
 
 ****** Init Constructor
 ****** Class Attributes
