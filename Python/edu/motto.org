@@ -4620,6 +4620,51 @@ http://github.com/pydata/pydata-book
        - When we read an attribute, Python looks for it first in
 	 the instance, and then the class.
 
+	 #+BEGIN_SRC python :results output :session stdlib
+           class InstanceCounter(object):
+               """ Example """
+               count = 0
+               def __init__(self, val):
+                   self.val = val
+                   InstanceCounter.count += 1
+               def set_val(self, newval):
+                   self.val = newval
+               def get_val(self):
+                   return self.val
+               def get_count(self):
+                   return InstanceCounter.count
+
+           a = InstanceCounter(5)
+           b = InstanceCounter(13)
+           c = InstanceCounter(17)
+
+           for j in (a, b, c):
+               print('\n')
+               print("val of object: %s" % (j.get_val()))
+               print("count: %s" % (j.get_count()))
+               print("count from instance: %s" % (j.count))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 #+begin_example
+
+	 ... ... ... ... ... ... ... ... ... ... ... >>> >>> >>> >>> >>> ... ... ... ... ... 
+
+	 val of object: 5
+	 count: 3
+	 count from instance: 3
+
+
+	 val of object: 13
+	 count: 3
+	 count from instance: 3
+
+
+	 val of object: 17
+	 count: 3
+	 count from instance: 3
+#+end_example
+
 ****** Assignment 1
 ****** Assignment 1 - Solution
 
