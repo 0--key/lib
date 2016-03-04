@@ -4505,8 +4505,110 @@ http://github.com/pydata/pydata-book
 	 : 107
 
 ****** Init Constructor
+       #+BEGIN_SRC python :results output :session oop
+         class MyNum(object):
+             def __init__(self, value):
+                 print('Calling __init__')
+                 self.val = value
+             def increment(self):
+                 self.val += 1
+
+         print('\n')
+         dd = MyNum(5)
+         dd.increment()
+         dd.increment()
+         print(dd.val)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... >>>
+       : Calling __init__
+       : >>> >>> 7
+
+       - _init_ is a keyword variable: it must be named init
+       - It is a method automatically called when a new instance is
+	 constructed
+       - If it is not present, it is not called
+       - The *self* argument is the first appearance of the instance
+       - __init__ offers the opportunity to initialize attributes
+	 in the instance at the time of construction
+
 ****** Class Attributes
+       #+BEGIN_SRC python :results output :session oop
+         class YourClass(object):
+             class_var = 10
+             def set_val(self):
+                 self.instance_var = 100
+
+         dd = YourClass()
+         print('\n')
+         print(dd.class_var)
+         dd.set_val()
+         print('\n')
+         print(dd.instance_var)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> >>>
+       : 10
+       : >>>
+       : 100
+
 ****** Working With Class And Instance Data
+       #+BEGIN_SRC python :results output :session oop
+         class YourClass(object):
+             class_val = 'classy'
+
+         dd = YourClass()
+         print('\n')
+         print(dd.class_val)
+         dd.class_val = 're-assigned'
+         print('\n')
+         print(dd.class_val)
+         del dd.class_val
+         print('\n')
+         print(dd.class_val)
+         try:
+             del dd.class_val
+         except AttributeError:
+             print('Class attribute impossible to delete')
+
+         print('\n')
+         if dd.class_val:
+             print(dd.class_val)
+         else:
+             print('Class value was deleted successfully')
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       ... >>> >>>
+       classy
+       >>>
+       re-assigned
+
+       classy
+       ... ... ... Class attribute impossible to delete
+
+       ... ... ... ... classy
+#+end_example
+
+       #+BEGIN_QUOTE
+       Class attributes vs instance attributes
+
+       - Attributes / variables in the class are accessible through the
+	 instance
+       - Instance attributes are also accessible by the instance
+       - When we use the syntax /object.attribute/, we're asking Python
+	 to look up the attribute:
+	 - first in the instance
+	 - Then in the class
+       - Method calls through the instance follow this look-up.
+       #+END_QUOTE
+
 ****** Assignment 1
 ****** Assignment 1 - Solution
 
