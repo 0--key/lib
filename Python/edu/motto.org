@@ -4599,7 +4599,7 @@ http://github.com/pydata/pydata-book
        #+BEGIN_QUOTE
        Class attributes vs instance attributes
 
-       - Attributes / variables in the class are accessible through the
+       - _Attributes_ / _variables_ in the class are accessible through the
 	 instance
        - Instance attributes are also accessible by the instance
        - When we use the syntax /object.attribute/, we're asking Python
