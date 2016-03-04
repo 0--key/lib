@@ -4609,6 +4609,17 @@ http://github.com/pydata/pydata-book
        - Method calls through the instance follow this look-up.
        #+END_QUOTE
 
+       6 points to understanding classes
+
+       - An instance of a class knows what class it's from
+       - Vars defined in the class are available to the instance
+       - A method on an instance passes /instance/ as the first
+	 argument to the method (named /self/ in method)
+       - Instances have their own data, called /instance attributes/
+       - Variables defined in the class are /class attributes/
+       - When we read an attribute, Python looks for it first in
+	 the instance, and then the class.
+
 ****** Assignment 1
 ****** Assignment 1 - Solution
 
