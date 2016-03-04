@@ -42,25 +42,25 @@
 (package-initialize)
     (elpy-enable)
 ;;
-    (add-to-list 'load-path "~/.emacs.d/lisp/")
-    (require 'key-chord)
-	(require 'key-chord-map)
+    ;; (add-to-list 'load-path "~/.emacs.d/lisp/")
+    ;; (require 'key-chord)
+    ;; 	(require 'key-chord-map)
 ;;(require 'nero)
 ;;(require 'helm-dictionary)
 
 ;; ######
 
 (desktop-save-mode 1)
-(key-chord-mode 1)
+;;(key-chord-mode 1)
 ;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 (split-window-right)
 ;;
-(setq default-directory "/usr/local/share/DVCS/lib/Python/edu/effectivepython/")
-(shell "ge")
+;; (setq default-directory "/usr/local/share/DVCS/lib/Python/edu/effectivepython/")
+;; (shell "ge")
 ;;
-(setq default-directory "/usr/local/share/DVCS/lib/Python/edu/python-patterns/")
-(shell "gp")
+;; (setq default-directory "/usr/local/share/DVCS/lib/Python/edu/python-patterns/")
+;; (shell "gp")
 ;;
 (setq default-directory "/usr/local/share/DVCS/lib/")
 (shell "git")
@@ -90,18 +90,18 @@
 (global-set-key [C-S-f4] 'org-skeleton)
 ;; (global-auto-revert-mode t)
 ;; colorization
-;; (add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
-;; (require 'color-theme)
-;; (eval-after-load "color-theme"
-;;   '(progn
-;;      (color-theme-initialize)
-;;      (color-theme-hober)))
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-ld-dark)));;hober)))
 
 ;; (require 'git)
 ;;   (require 'git-blame)
 
-;; (require 'org-bullets)
-;; (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(require 'org-bullets)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
 ;; (global-set-key (kbd "C-x g") 'magit-status)
 ;; (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
