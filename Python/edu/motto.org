@@ -4473,7 +4473,7 @@ http://github.com/pydata/pydata-book
        - Encapsulation in Python is a voluntary restriction
        - Python does not implement data hiding, as does other 
 	 languages
-	 #+BEGIN_SRC python :results output :session stdlib
+	 #+BEGIN_SRC python :results output :session oop
            class MyClass(object):
                def set_val(self, val):
                    self.value = val
