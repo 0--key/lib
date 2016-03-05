@@ -1618,7 +1618,8 @@ How it works
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
 ** DONE Embedding Git
-   sudo apt-get install git-el
+   sudo apt-get install git-el on Ubuntu host
+   & git-blame as Emacs package
 ** DONE MaGit
 *** Core features
     In Magit staging a hunk or even just part of a hunk is as trivial as

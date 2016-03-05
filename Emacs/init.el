@@ -97,8 +97,8 @@
      (color-theme-initialize)
      (color-theme-ld-dark)));;hober)))
 
-;; (require 'git)
-;;   (require 'git-blame)
+(require 'git)
+  (require 'git-blame)
 
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
