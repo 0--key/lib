@@ -3877,18 +3877,6 @@ http://github.com/pydata/pydata-book
 
 ********* [[https://github.com/bslatkin/effectivepython][Git]]
 
-
-******* Applied Python
-
-******** NLP with Python
-******** Python for Data Analyse
-********* DONE Preliminaries
-********* TODO Introductory Examples <2016-01-18 Mon>
-********** collections pack
-********* TODO IPython: An Interactive Computing and Development Environment
-	  <2016-01-18 
-      
-
 ***** Official documentation
       http://docs.python.org
 ***** http://pypi.python.org/pypi
@@ -5072,7 +5060,6 @@ http://github.com/pydata/pydata-book
 
 
 *** Applied Python						   :practice:
-
 **** TODO Python HOWTOs
 
 ***** Porting Python 2 Code to Python 3
