@@ -3730,8 +3730,81 @@ http://github.com/pydata/pydata-book
 ****** TODO Brief Tour of the Standard Library -- Part II
 
 ******* Output Formatting
+******** Provides a version of ~repr()~ customized for abbreviated :reprlib:
+	 displays of large or deeply nested containers:
+	 #+BEGIN_SRC python :results output :session stdlib2
+           import reprlib
+           reprlib.repr(set('supercalifragilisticexpialidocious'))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : >>> "set(['a', 'c', 'd', 'e', 'f', 'g', ...])"
+
+******** When the result is longer than one line, the "pretty	     :pprint:
+	 printer" adds line breaks and indentation to more clearly reveal data
+	 structure:
+	 #+BEGIN_SRC python :results output :session stdlib2
+           import pprint
+           t = [[[['black', 'cyan'], 'white', ['green', 'red']], [['magenta',
+               'yellow'], 'blue']]]
+           print('\n')
+           pprint.pprint(t, width=30)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... >>>
+	 : [[[['black', 'cyan'],
+	 :    'white',
+	 :    ['green', 'red']],
+	 :   [['magenta', 'yellow'],
+	 :    'blue']]]
+
+******** The "textwrap" module formats paragraphs of text to fit :textwrap:
+	 a given screen	 width:
+	 #+BEGIN_SRC python :results output :session stdlib2
+           import textwrap
+           doc = """The wrap() method is just like fill() except that it returns
+           a list of strings instead of one big string with newlines to separate
+           the wrapped lines."""
+	   print('\n')
+           print(textwrap.fill(doc, width=40))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... ... >>>
+	 : The wrap() method is just like fill()
+	 : except that it returns a list of strings
+	 : instead of one big string with newlines
+	 : to separate the wrapped lines.
+
+******** The "locale" module accesses a database of culture specific :locale:
+	 data formats. The grouping attribute of locale's format
+	 function provides a direct way of formatting numbers with
+	 group separators:
+	 #+BEGIN_SRC python :results output :session stdlib2
+           import locale
+	   # en_US.utf8 is out from locale -a bash output
+           locale.setlocale(locale.LC_ALL, 'en_US.utf8')
+
+           conv = locale.localeconv()          # get a mapping of conventions
+           x = 1234567.8
+           locale.format("%d", x, grouping=True)
+
+           locale.format_string("%s%.*f", (conv['currency_symbol'],
+                                conv['frac_digits'], x), grouping=True)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... 'en_US.utf8'
+	 : >>> >>> >>> '1,234,567'
+	 : >>> ... '$1,234,567.80'
 
 ******* Templating
+	
 
 ******* Working with Binary Data Record Layouts
 
