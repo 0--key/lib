@@ -3804,8 +3804,6 @@ http://github.com/pydata/pydata-book
 	 : >>> >>> >>> '1,234,567'
 	 : >>> ... '$1,234,567.80'
 
-******* Templating
-	
 ******* Templating						   :Template:
 	Simplified substitution syntax:
 	#+BEGIN_SRC python :results output :session stdlib2
