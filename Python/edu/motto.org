@@ -4106,33 +4106,6 @@ http://github.com/pydata/pydata-book
 
 ******** The Customization Modules
 
-
-********* Official documentation
-	  http://docs.python.org
-********* http://pypi.python.org/pypi
-********* http://pyvideo.org
-
-******** Programming Python 4th Edition				:programming:
-********* [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
-********* [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
-******** Python Anti-Patterns				      :anti:patterns:
-********* [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
-********* [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
-	  [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
-********* [[https://github.com/faif/python-patterns][A collection of design patterns and idioms in Python]]
-******** Fluent Python						     :fluent:
-********* Preface
-********** DONE [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
-********** DONE [[https://docs.python.org/3/tutorial/][Python Tutorial]]
-	   #+BEGIN_QUOTE
-	   Premature abstraction is as bad as premature optimization.
-	   #+END_QUOTE
-******** Writing Idiomatic Python				     :idioma:
-
-******** Effective Python					     :effect:
-
-********* [[https://github.com/bslatkin/effectivepython][Git]]
-
 ***** Official documentation
       http://docs.python.org
 ***** http://pypi.python.org/pypi
