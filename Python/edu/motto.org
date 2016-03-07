@@ -1743,6 +1743,9 @@ How it works
 *** Miscellaneous
 *** Customizing
 *** Plumbing
+*** Maroon
+**** Discard hunk in unstaged area:
+     k(ill) malicious changes and revert buffer
 * Dive deeper into Python programming language 			     :Python:
 
 ** in six months <2016-07-15 Wed> 
