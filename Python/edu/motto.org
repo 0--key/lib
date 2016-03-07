@@ -4564,11 +4564,142 @@ http://github.com/pydata/pydata-book
 
 ***** Closures and Decorators
 ****** Local Functions
+
+       - Useful for specialized, one-off functions
+       - Aid in code organization and readability
+       - Similar to lambdas, but more general:
+	 - May contain multiply expressions
+	 - May contain statements
+
        LEGB rule
+       #+BEGIN_SRC python :results output :session deco
+         def sort_by_last_letter(strings):
+             def last_letter(s):
+                 return s[-1]
+             return sorted(strings, key=last_letter)
+
+         sort_by_last_letter(['one', 'two', 'three', 'four'])
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> ['one', 'three', 'two', 'four']
+
 ****** Returning Functions From Functions
+       #+BEGIN_SRC python :results output :session deco
+         store = []
+
+         def sort_by_last_letter(strings):
+             def last_letter(s):
+                 return s[-1]
+             store.append(last_letter)
+	     print('\n')
+             print(last_letter)
+             return sorted(strings, key=last_letter)
+
+         sort_by_last_letter(['one', 'two', 'three', 'four'])
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> ... ... ... ... ... ... ... >>> 
+       : 
+       : <function sort_by_last_letter.<locals>.last_letter at 0x7ff2c4ac3400>
+       : ['one', 'three', 'two', 'four']
+
 ****** Closures and Nested Scopes
+       #+BEGIN_SRC python :results output :session deco
+         g = 'global'
+         def outer(p='param'):
+             l = 'local'
+             def inner():
+                 print(g, p, l)
+             inner()
+
+         print('\n')
+         outer()
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... >>>
+       : global param local
+
+       #+BEGIN_QUOTE
+       LEGB does not apply when making new bindings.
+       #+END_QUOTE
+       #+BEGIN_SRC python :results output :session deco
+         message = 'global'
+         def enclosing():
+             message = 'enclosing'
+             def local():
+                 global message
+                 message = 'local'
+             print('enclosing message:', message)
+             local()
+             print('enclosing message:', message)
+         print('enclosing message:', message)
+         enclosing()
+         print('enclosing message:', message)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... ... ... ...   File "<stdin>", line 9
+       :     print('enclosing message:', message)
+       :         ^
+       : SyntaxError: invalid syntax
+       : >>> enclosing message: global
+
 ****** Function Factories
+       #+BEGIN_SRC python :results output :session deco
+         def raise_to(exp):
+             def raise_to_exp(x):
+                 return pow(x, exp)
+             return raise_to_exp
+
+         square = raise_to(2)
+         cube = raise_to(3)
+         print('\n')
+         square(4)
+         cube(5)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> >>> >>>
+       : 16
+       : 125
+
 ****** The Nonlocal Keyword
+       #+BEGIN_SRC python :results output :session deco
+         import time
+         def make_timer():
+             last_called = None
+             def elapsed():
+                 nonlocal last_called
+                 now = time.time()
+                 if last_called is None:
+                     last_called = now
+                     return None
+                 result = now - last_called
+                 last_called = now
+                 return result
+             return elapsed
+
+         t = make_timer()
+	 print('\n')
+         t()
+         t()
+	 t()
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... ... ... ... ... ... ... ... >>> >>>
+       : >>> 0.005356311798095703
+       : 0.005377054214477539
+
 ****** Function Decorators
 ****** A First Decorator Example
 ****** What Can Be a Decorator
