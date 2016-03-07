@@ -4704,6 +4704,17 @@ http://github.com/pydata/pydata-book
        : 0.005377054214477539
 
 ****** Function Decorators
+       #+BEGIN_QUOTE
+       Implemented as callables that take and return
+       other callables
+       #+END_QUOTE
+
+       - Replace, enhance, or modify existing functions
+       - Does not change the original function definition
+       - Calling code does not need to change
+       - Decorator mechanism uses the modified function's
+	 original name
+
 ****** A First Decorator Example
 ****** What Can Be a Decorator
 ****** Instances as Decorators
