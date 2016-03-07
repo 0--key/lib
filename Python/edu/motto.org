@@ -4765,6 +4765,55 @@ http://github.com/pydata/pydata-book
        : >>> 2
 
 ****** Instances as Decorators
+       #+BEGIN_SRC python :results output :session oop
+         class Trace:
+             def __init__(self):
+                 self.enabled = True
+             def __call__(self, f):
+                 def wrap(*args, **kwargs):
+                     if self.enabled:
+                         print('Calling {}'.format(f))
+                     return f(*args, **kwargs)
+                 return wrap
+
+         tracer = Trace()
+
+         @tracer
+         def rotate_list(l):
+             return l[1:] + [l[0]]
+
+         print('\n')
+         l = [1, 2, 3]
+         l = rotate_list(l)
+         l
+         l = rotate_list(l)
+         l
+         l = rotate_list(l)
+         l
+         tracer.enabled = False          # change behavior on-the-fly
+         l = rotate_list(l)
+         l
+         l = rotate_list(l)
+         l
+         l = rotate_list(l)
+         l
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       ... ... ... ... ... ... ... ... >>> >>> >>> ... ... ... >>>
+       >>> Calling <function rotate_list at 0x7f8ec11c9c80>
+       [2, 3, 1]
+       Calling <function rotate_list at 0x7f8ec11c9c80>
+       [3, 1, 2]
+       Calling <function rotate_list at 0x7f8ec11c9c80>
+       [1, 2, 3]
+       >>> >>> [2, 3, 1]
+       >>> [3, 1, 2]
+       >>> [1, 2, 3]
+#+end_example
+
 ****** Multiple Decorators
 ****** Decorating Methods
 ****** functools.wraps()
