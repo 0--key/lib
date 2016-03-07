@@ -1744,7 +1744,7 @@ How it works
 *** Customizing
 *** Plumbing
 *** Maroon
-**** Discard hunk in unstaged area:
+**** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
 * Dive deeper into Python programming language 			     :Python:
 
