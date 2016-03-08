@@ -1460,7 +1460,6 @@
      |----------+------------------|
 
 
-
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
 ** DONE KeyChord
@@ -1584,9 +1583,16 @@ How it works
      : tom =>
      :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
 
+*** Bash 							      :shell:
+    #+BEGIN_SRC shell
+      pwd
+      cd ../../
+      pwd
     #+END_SRC
 
     #+RESULTS:
+    | /home/antony/Desktop/DVCS/lib/Python/edu |
+    | /home/antony/Desktop/DVCS/lib            |
 
 ** TODO New shortcuts						       :keys:
 *** General								:gen:

@@ -72,6 +72,7 @@
  'org-babel-load-languages
  '((python . t)
    (emacs-lisp . t)
+   (shell . t)
   ))
 ;; Babel customization
 (custom-set-variables
