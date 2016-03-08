@@ -3994,7 +3994,7 @@ http://github.com/pydata/pydata-book
           print('Main program waited until background was done.')
 	#+END_SRC
 	
-******* Logging
+******* Logging							    :logging:
 	#+BEGIN_SRC python :results output :session stdlib2
           import logging
           logging.debug('Debugging information')
