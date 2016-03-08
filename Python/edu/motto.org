@@ -4779,25 +4779,87 @@ http://github.com/pydata/pydata-book
 	 original name
 
 ****** A First Decorator Example
-       #+BEGIN_SRC python :results output :session oop
-         def escape_unicode(f):
-             def wrap(*args, **kwargs):
-                 x = f(*args, **kwargs)
-                 return ascii(x)
-             return wrap
+******* Discover main facilities
+	#+BEGIN_SRC python :results output :session oop
+          def entryExit(f):
+              def new_f():
+                  print("Entering", f.__name__)
+                  f()
+                  print("Exited", f.__name__)
+              return new_f
 
-         @escape_unicode
-         def northern_city():
-             return 'Tromsø'
+          @entryExit
+          def func1():
+              print("inside func1()")
 
-         print('\n')
-         print(northern_city())
-       #+END_SRC
+          @entryExit
+          def func2():
+              print("inside func2()")
 
-       #+RESULTS:
-       : 
-       : >>> >>> ... ... ... ... ... >>> ... ... ... >>>
-       : 'Troms\xf8'
+          print('\n')
+          func1()
+          func2()
+          print(func1.__name__)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... >>> ... ... ... >>> ... ... ... >>>
+	: Entering func1
+	: inside func1()
+	: Exited func1
+	: Entering func2
+	: inside func2()
+	: Exited func2
+	: new_f
+******* Decorating & logging
+	#+BEGIN_SRC python :results output :session oop
+          import logging
+
+          def logger(f):
+              def explicit(**kwargs):
+                  print('\nTest message')
+                  logging.warning('This is input arguments: \n%s', kwargs)
+                  return f(**kwargs)
+              return explicit
+
+          @logger
+          def main_function(**kwargs):
+              sigma = kwargs['first_arg'] + kwargs['second_arg']
+              return sigma
+
+          arguments = {'first_arg': 4, 'second_arg': 7}
+          print(main_function(**arguments))
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> ... ... ... ... ... ... >>> ... ... ... ... >>> >>> 
+	: Test message
+	: WARNING:root:This is input arguments: 
+	: {'second_arg': 7, 'first_arg': 4}
+	: 11
+
+******* Escape Unicode
+	#+BEGIN_SRC python :results output :session oop
+          def escape_unicode(f):
+              def wrap(*args, **kwargs):
+                  x = f(*args, **kwargs)
+                  return ascii(x)
+              return wrap
+
+          @escape_unicode
+          def northern_city():
+              return 'Tromsø'
+
+          print('\n')
+          print(northern_city())
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... ... ... >>> ... ... ... >>>
+	: 'Troms\xf8'
 
 ****** What Can Be a Decorator
        #+BEGIN_SRC python :results output :session oop
