@@ -1459,6 +1459,115 @@
      | <I       | #+INCLUDE:       |
      |----------+------------------|
 
+*** TODO Literate programming 
+**** Python 
+     Demands to install Org recent version 
+***** This is the first and successful attempt			       :CODE:
+      #+begin_src python :results output
+	import sys
+	print(sys.version)
+	print("Hello, world!")
+	print("This is a test")
+	for i in range(4):
+	    print(i)
+      #+end_src python
+
+      #+RESULTS:
+      : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+      : [GCC 4.8.4]
+      : Hello, world!
+      : This is a test
+      : 0
+      : 1
+      : 2
+      : 3
+***** Lets try to embed code snippet from outside
+      #+BEGIN_SRC python
+	print(sys.version)
+          
+      #+END_SRC
+
+      #+RESULTS:
+
+***** Examples from real world
+      #+name: session_init
+      #+begin_src python :results output :session test
+	# Example from Slatkin's book
+	a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+	print('First four:', a[:4])
+	print('Last four: ', a[-4:])
+	print('Middle two:', a[3:-3])
+      #+end_src
+
+      #+RESULTS: session_init
+      : 
+      : >>> First four: ['a', 'b', 'c', 'd']
+      : Last four:  ['e', 'f', 'g', 'h']
+      : Middle two: ['d', 'e']
+
+      #+BEGIN_SRC python :results output :session test
+	import sys
+	# it's the session test
+	print('This is a session variable a : ', a)
+      #+END_SRC
+
+      #+RESULTS:
+      : 
+      : ... This is a session variable a :  ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+***** Session test
+      #+BEGIN_SRC python :results output :session test 
+	print(sys.version)
+	print('How it might be possible!', a[2:5])
+      #+END_SRC
+
+      #+RESULTS:
+      : 3.4.3 (default, Oct 14 2015, 20:33:09) 
+      : [GCC 4.8.4]
+      : How it might be possible! ['c', 'd', 'e']
+
+***** Full-Fledged
+      #+BEGIN_SRC python :results output
+	# initialize data to be stored in files, pickles, shelves
+
+	# records
+	bob = {'name': 'Bob Smith', 'age': 42, 'pay': 30000, 'job': 'dev'}
+	sue = {'name': 'Sue Jones', 'age': 45, 'pay': 40000, 'job': 'hdw'}
+	tom = {'name': 'Tom',       'age': 50, 'pay': 0,     'job': None}
+
+	# database
+	db = {}
+	db['bob'] = bob
+	db['sue'] = sue
+	db['tom'] = tom
+
+	print('\n')
+	for key in db:
+            print(key, '=>\n  ', db[key])
+
+
+      #+END_SRC
+
+      #+RESULTS:
+      : 
+      : 
+      : bob =>
+      :    {'pay': 30000, 'job': 'dev', 'age': 42, 'name': 'Bob Smith'}
+      : sue =>
+      :    {'pay': 40000, 'job': 'hdw', 'age': 45, 'name': 'Sue Jones'}
+      : tom =>
+      :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
+
+**** Bash							      :shell:
+     #+BEGIN_SRC shell
+       pwd
+       cd ../../
+       pwd
+     #+END_SRC
+
+     #+RESULTS:
+     | /home/antony/Desktop/DVCS/lib/Python/edu |
+     | /home/antony/Desktop/DVCS/lib            |
 
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
@@ -1484,116 +1593,6 @@ How it works
 ** DONE ISpell
    [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
-** TODO Embedding 
-*** Python source code into Org document
-    Demands to install Org recent version 
-**** This is the first and successful attempt			       :CODE:
-     #+begin_src python :results output
-       import sys
-       print(sys.version)
-       print("Hello, world!")
-       print("This is a test")
-       for i in range(4):
-	   print(i)
-     #+end_src python
-
-     #+RESULTS:
-     : 3.4.3 (default, Oct 14 2015, 20:33:09) 
-     : [GCC 4.8.4]
-     : Hello, world!
-     : This is a test
-     : 0
-     : 1
-     : 2
-     : 3
-**** Lets try to embed code snippet from outside
-     #+BEGIN_SRC python
-       print(sys.version)
-          
-     #+END_SRC
-
-     #+RESULTS:
-
-**** Examples from real world
-     #+name: session_init
-     #+begin_src python :results output :session test
-       # Example from Slatkin's book
-       a = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-       print('First four:', a[:4])
-       print('Last four: ', a[-4:])
-       print('Middle two:', a[3:-3])
-     #+end_src
-
-     #+RESULTS: session_init
-     : 
-     : >>> First four: ['a', 'b', 'c', 'd']
-     : Last four:  ['e', 'f', 'g', 'h']
-     : Middle two: ['d', 'e']
-
-     #+BEGIN_SRC python :results output :session test
-       import sys
-       # it's the session test
-       print('This is a session variable a : ', a)
-     #+END_SRC
-
-     #+RESULTS:
-     : 
-     : ... This is a session variable a :  ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-
-**** Session test
-     #+BEGIN_SRC python :results output :session test 
-       print(sys.version)
-       print('How it might be possible!', a[2:5])
-     #+END_SRC
-
-     #+RESULTS:
-     : 3.4.3 (default, Oct 14 2015, 20:33:09) 
-     : [GCC 4.8.4]
-     : How it might be possible! ['c', 'd', 'e']
-
-**** Full-Fledged
-     #+BEGIN_SRC python :results output
-       # initialize data to be stored in files, pickles, shelves
-
-       # records
-       bob = {'name': 'Bob Smith', 'age': 42, 'pay': 30000, 'job': 'dev'}
-       sue = {'name': 'Sue Jones', 'age': 45, 'pay': 40000, 'job': 'hdw'}
-       tom = {'name': 'Tom',       'age': 50, 'pay': 0,     'job': None}
-
-       # database
-       db = {}
-       db['bob'] = bob
-       db['sue'] = sue
-       db['tom'] = tom
-
-       print('\n')
-       for key in db:
-           print(key, '=>\n  ', db[key])
-
-
-     #+END_SRC
-
-     #+RESULTS:
-     : 
-     : 
-     : bob =>
-     :    {'pay': 30000, 'job': 'dev', 'age': 42, 'name': 'Bob Smith'}
-     : sue =>
-     :    {'pay': 40000, 'job': 'hdw', 'age': 45, 'name': 'Sue Jones'}
-     : tom =>
-     :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
-
-*** Bash 							      :shell:
-    #+BEGIN_SRC shell
-      pwd
-      cd ../../
-      pwd
-    #+END_SRC
-
-    #+RESULTS:
-    | /home/antony/Desktop/DVCS/lib/Python/edu |
-    | /home/antony/Desktop/DVCS/lib            |
-
 ** TODO New shortcuts						       :keys:
 *** General								:gen:
 **** Switch buffer in the stack C-x Left/Right
