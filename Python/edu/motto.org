@@ -4206,17 +4206,56 @@ http://github.com/pydata/pydata-book
 	 : NameError: name 'getcontext' is not defined
 	 : Decimal('0.1428571428571428571428571429')
 
-****** TODO Virtual Environments and Packages
-
+****** DONE Virtual Environments and Packages			       :venv:
 ******* Introduction
-
 ******* Creating Virtual Environments
+******* Managing Packages with pip					:pip:
+	#+BEGIN_SRC shell
+	pip list
+	#
+	pip show autopep8
+	#+END_SRC
 
-******* Managing Packages with pip
+	#+RESULTS:
+	| autopep8          | (1.2.1)                                                               
+	| decorator         | (4.0.6)                                                               
+	| ipython           | (4.0.3)                                                               
+	| ipython-genutils  | (0.1.0)                                                               
+	| path.py           | (8.1.2)                                                               
+	| pep8              | (1.7.0)                                                               
+	| pexpect           | (4.0.1)                                                               
+	| pickleshare       | (0.6)                                                                 
+	| pip               | (8.0.2)                                                               
+	| ptyprocess        | (0.5)                                                                 
+	| setuptools        | (12.0.5)                                                              
+	| simplegeneric     | (0.8.1)                                                               
+	| traitlets         | (4.1.0)                                                               
+	| ---               |                                                                       
+	| Metadata-Version: | 1.1                                                                   
+	| Name:             | autopep8                                                              
+	| Version:          | 1.2.1                                                                 
+	| Summary:          | A                                                                     
+	| Home-page:        | [[https://github.com/hhatto/autopep8]]                                    
+	| Author:           | Hideo                                                                 
+	| Author-email:     | hhatto.jp@gmail.com                                                   
+	| License:          | Expat                                                                 
+	| Location:         | /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages 
+	| Requires:         | pep8                                                                  
+	| Entry-points:     |                                                                       
+	| [console_scripts] |                                                                       
+	| autopep8          | =                                                                     
 
-****** TODO What Now?
+	#+BEGIN_EXAMPLE
+	pip freeze > requirements.txt
+	#+END_EXAMPLE
 
-****** TODO Interactive Input Editing and History Substitution
+	The "requirements.txt" can then be committed to version control and
+	shipped as part of an application.  Users can then install all the
+	necessary packages with "install -r":
+
+	#+BEGIN_EXAMPLE
+	pip install -r requirements.txt
+	#+END_EXAMPLE
 
 ******* Tab Completion and History Editing
 
