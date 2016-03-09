@@ -1874,7 +1874,7 @@ http://github.com/pydata/pydata-book
 
 *** Python's Theory						     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [68%] 				   :tutorial:
+***** The Python Tutorial [100%] 				   :tutorial:
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -4257,11 +4257,10 @@ http://github.com/pydata/pydata-book
 	pip install -r requirements.txt
 	#+END_EXAMPLE
 
+****** DONE Interactive Input Editing and History Substitution
 ******* Tab Completion and History Editing
 
 ******* Alternatives to the Interactive Interpreter
-
-****** TODO Floating Point Arithmetic:  Issues and Limitations
 
 ****** DONE Floating Point Arithmetic:  Issues and Limitations
        Just remember, even though the printed result looks like the exact
