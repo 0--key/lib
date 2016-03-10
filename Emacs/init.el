@@ -76,7 +76,18 @@
   ))
 ;; Babel customization
 (custom-set-variables
- '(org-confirm-babel-evaluate nil))
+ '(org-confirm-babel-evaluate nil)
+ ;; ElFeed ->>
+ '(elfeed-feeds
+   (quote
+    ("https://www.quora.com/Life/rss"
+     "https://www.quora.com/Computer-Programmers/rss"
+     "https://www.quora.com/Learning/rss"
+     "https://www.quora.com/Python-programming-language-1/rss"
+     "https://www.quora.com/Life-Advice/rss"
+     "https://www.quora.com/Philosophy-of-Everyday-Life/rss"
+     "https://www.quora.com/Software-Engineering/rss")))
+ )
 ;;
 (define-skeleton org-skeleton
   "Header info for a emacs-org file."
