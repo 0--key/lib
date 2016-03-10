@@ -4936,7 +4936,7 @@ http://github.com/pydata/pydata-book
 	 : Exited func2
 	 : new_f
 ******* Decorating & logging
-	#+BEGIN_SRC python :results output :session oop
+	#+BEGIN_SRC python :results output :session deco
           import logging
 
           def logger(f):
@@ -4964,7 +4964,7 @@ http://github.com/pydata/pydata-book
 	: 11
 
 ******* Escape Unicode
-	#+BEGIN_SRC python :results output :session oop
+	#+BEGIN_SRC python :results output :session deco
           def escape_unicode(f):
               def wrap(*args, **kwargs):
                   x = f(*args, **kwargs)
@@ -4985,7 +4985,8 @@ http://github.com/pydata/pydata-book
 	: 'Troms\xf8'
 
 ****** What Can Be a Decorator
-       #+BEGIN_SRC python :results output :session oop
+       Class as decorator
+       #+BEGIN_SRC python :results output :session deco
          class CallCount:
              def __init__(self, f):
                  self.f = f
@@ -5013,7 +5014,7 @@ http://github.com/pydata/pydata-book
        : >>> 2
 
 ****** Instances as Decorators
-       #+BEGIN_SRC python :results output :session oop
+       #+BEGIN_SRC python :results output :session deco
          class Trace:
              def __init__(self):
                  self.enabled = True
