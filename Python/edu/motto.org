@@ -4875,39 +4875,66 @@ http://github.com/pydata/pydata-book
 	 original name
 
 ****** A First Decorator Example
+       Function as decorator
 ******* Discover main facilities
-	#+BEGIN_SRC python :results output :session oop
-          def entryExit(f):
-              def new_f():
-                  print("Entering", f.__name__)
-                  f()
-                  print("Exited", f.__name__)
-              return new_f
+******** Functional replacement
+	 #+BEGIN_SRC python :results output :session deco
+           def func_replacement(f):
+               """Non-intrusive argument mutation
+               """
+               def tap(**kwargs):
+                   kwargs['first_arg'] = kwargs['first_arg'] * 2  # 
+                   kwargs['second_arg'] = kwargs['second_arg'] * 2  # 
+                   return f(**kwargs)
+               return tap
 
-          @entryExit
-          def func1():
-              print("inside func1()")
+           @func_replacement
+           def main_function(**kwargs):
+               sigma = kwargs['first_arg'] + kwargs['second_arg']
+               return sigma
 
-          @entryExit
-          def func2():
-              print("inside func2()")
+           arguments = {'first_arg': 4, 'second_arg': 7}
+           print('\n', main_function(**arguments))
+	 #+END_SRC
 
-          print('\n')
-          func1()
-          func2()
-          print(func1.__name__)
-	#+END_SRC
+	 #+RESULTS:
+	 : 
+	 : ... ... ... ... ... ... ... >>> ... ... ... ... >>> >>> 
+	 :  22
 
-	#+RESULTS:
-	: 
-	: ... ... ... ... ... >>> ... ... ... >>> ... ... ... >>>
-	: Entering func1
-	: inside func1()
-	: Exited func1
-	: Entering func2
-	: inside func2()
-	: Exited func2
-	: new_f
+******** Tracing
+	 #+BEGIN_SRC python :results output :session deco
+           def entryExit(f):
+               def new_f():
+                   print("Entering", f.__name__)
+                   f()
+                   print("Exited", f.__name__)
+               return new_f
+
+           @entryExit
+           def func1():
+               print("inside func1()")
+
+           @entryExit
+           def func2():
+               print("inside func2()")
+
+           print('\n')
+           func1()
+           func2()
+           print(func1.__name__)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... ... ... ... ... >>> ... ... ... >>> ... ... ... >>>
+	 : Entering func1
+	 : inside func1()
+	 : Exited func1
+	 : Entering func2
+	 : inside func2()
+	 : Exited func2
+	 : new_f
 ******* Decorating & logging
 	#+BEGIN_SRC python :results output :session oop
           import logging
