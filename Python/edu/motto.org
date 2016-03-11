@@ -5133,6 +5133,87 @@ http://github.com/pydata/pydata-book
 #+end_example
 
 ****** Multiple Decorators
+       #+BEGIN_SRC python :results output :session deco
+         def deco1(f):
+             def new_f1():
+                 print("Entering", f.__name__)
+                 f()
+                 print("Exited", f.__name__)
+             return new_f1
+
+         def deco2(f):
+             def new_f2():
+                 print("Entering", f.__name__)
+                 f()
+                 print("Exited", f.__name__)
+             return new_f2
+
+         def deco3(f):
+             def new_f3():
+                 print("Entering", f.__name__)
+                 f()
+                 print("Exited", f.__name__)
+             return new_f3
+
+         @deco1
+         @deco2
+         @deco3
+         def func1():
+             print("inside func1()")
+
+         print('\n')
+         func1()
+         print(func1.__name__)
+
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       ... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... >>>
+       Entering new_f2
+       Entering new_f3
+       Entering func1
+       inside func1()
+       Exited func1
+       Exited new_f3
+       Exited new_f2
+       new_f1
+#+end_example
+
+       Another approach:
+       #+BEGIN_SRC python :results output :session deco
+         def p_decorate(func):
+             def func_wrapper(name):
+                 return "<p>{0}</p>".format(func(name))
+             return func_wrapper         
+
+         def strong_decorate(func):
+             def func_wrapper(name):
+                 return "<strong>{0}</strong>".format(func(name))
+             return func_wrapper
+
+         def div_decorate(func):
+             def func_wrapper(name):
+                 return "<div>{0}</div>".format(func(name))
+             return func_wrapper
+
+         @div_decorate
+         @p_decorate
+         @strong_decorate
+         def get_text(name):
+             return "lorem ipsum, {0} dolor sit amet".format(name)
+
+         print('\n')
+         print(get_text("Ahab"))
+
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> ... ... ... ... >>> ... ... ... ... >>> ... ... ... ... ... >>>
+       : <div><p><strong>lorem ipsum, Ahab dolor sit amet</strong></p></div>
+
 ****** Decorating Methods
 ****** functools.wraps()
 ****** Duck Tails Validating Arguments
