@@ -5215,6 +5215,32 @@ http://github.com/pydata/pydata-book
        : <div><p><strong>lorem ipsum, Ahab dolor sit amet</strong></p></div>
 
 ****** Decorating Methods
+       #+BEGIN_SRC python :results output :session deco
+         def p_decorate(func):
+             def func_wrapper(*args, **kwargs):
+                 return "<p>{0}</p>".format(func(*args, **kwargs))
+             return func_wrapper
+
+         class Person(object):
+             def __init__(self):
+                 self.name = "John"
+                 self.family = "Doe"
+             @p_decorate
+             def get_fullname(self):
+                 return self.name+" "+self.family
+
+         my_person = Person()
+	 print('\n')
+         print(my_person.get_fullname())
+	 print(my_person.get_fullname.__name__)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... >>> ... ... ... ... ... ... ... >>> >>>
+       : <p>John Doe</p>
+       : func_wrapper
+
 ****** functools.wraps()
 ****** Duck Tails Validating Arguments
 ****** Summary
