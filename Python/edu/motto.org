@@ -4275,44 +4275,71 @@ http://github.com/pydata/pydata-book
 	 : NameError: name 'getcontext' is not defined
 	 : Decimal('0.1428571428571428571428571429')
 
-****** DONE Virtual Environments and Packages			       :venv:
+****** DONE Virtual Environments and Packages		       :venv:
 ******* Introduction
 ******* Creating Virtual Environments
-******* Managing Packages with pip					:pip:
-	#+BEGIN_SRC shell
-	pip list
-	#
-	pip show autopep8
+******* Managing Packages with pip	:pip:shell:
+	#+BEGIN_SRC shell :results output
+          echo
+            echo "It's pip list there"
+            pip list
+            #
+            echo
+            echo 'Autopep properties:'
+            pip show autopep8
+	    echo
+	    echo
+	    echo 'Git status there >>'
+            git status
 	#+END_SRC
 
 	#+RESULTS:
-	| autopep8          | (1.2.1)                                                               
-	| decorator         | (4.0.6)                                                               
-	| ipython           | (4.0.3)                                                               
-	| ipython-genutils  | (0.1.0)                                                               
-	| path.py           | (8.1.2)                                                               
-	| pep8              | (1.7.0)                                                               
-	| pexpect           | (4.0.1)                                                               
-	| pickleshare       | (0.6)                                                                 
-	| pip               | (8.0.2)                                                               
-	| ptyprocess        | (0.5)                                                                 
-	| setuptools        | (12.0.5)                                                              
-	| simplegeneric     | (0.8.1)                                                               
-	| traitlets         | (4.1.0)                                                               
-	| ---               |                                                                       
-	| Metadata-Version: | 1.1                                                                   
-	| Name:             | autopep8                                                              
-	| Version:          | 1.2.1                                                                 
-	| Summary:          | A                                                                     
-	| Home-page:        | [[https://github.com/hhatto/autopep8]]                                    
-	| Author:           | Hideo                                                                 
-	| Author-email:     | hhatto.jp@gmail.com                                                   
-	| License:          | Expat                                                                 
-	| Location:         | /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages 
-	| Requires:         | pep8                                                                  
-	| Entry-points:     |                                                                       
-	| [console_scripts] |                                                                       
-	| autopep8          | =                                                                     
+	#+begin_example
+
+	It's pip list there
+	autopep8 (1.2.1)
+	decorator (4.0.6)
+	ipython (4.0.3)
+	ipython-genutils (0.1.0)
+	path.py (8.1.2)
+	pep8 (1.7.0)
+	pexpect (4.0.1)
+	pickleshare (0.6)
+	pip (8.0.2)
+	ptyprocess (0.5)
+	setuptools (12.0.5)
+	simplegeneric (0.8.1)
+	traitlets (4.1.0)
+
+	Autopep properties:
+	---
+	Metadata-Version: 1.1
+	Name: autopep8
+	Version: 1.2.1
+	Summary: A tool that automatically formats Python code to conform to the PEP 8 style guide
+	Home-page: https://github.com/hhatto/autopep8
+	Author: Hideo Hattori
+	Author-email: hhatto.jp@gmail.com
+	License: Expat License
+	Location: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages
+	Requires: pep8
+	Entry-points:
+	  [console_scripts]
+	  autopep8 = autopep8:main
+
+
+	Git status there >>
+	On branch master
+	Your branch is ahead of 'origin/master' by 6 commits.
+	  (use "git push" to publish your local commits)
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git checkout -- <file>..." to discard changes in working directory)
+
+		modified:   motto.org
+
+	no changes added to commit (use "git add" and/or "git commit -a")
+#+end_example
 
 	#+BEGIN_EXAMPLE
 	pip freeze > requirements.txt
