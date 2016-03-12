@@ -1663,6 +1663,7 @@
 
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
+    C-c \ or C-c / m
 ** DONE KeyChord
    [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
