@@ -1,6 +1,6 @@
 
 * Knowledge is power © 		     :True:InitialPostulate:
-** it is product of education;					       :True:
+** it is product of education;        :True:
 
 *** TODO reading;
 
@@ -1501,9 +1501,9 @@
    - Repeat the exercise
      
 * Enlarge Emacs toolbox 	     :Emacs:
-** DONE Elpy
+** DONE Elpy					       :elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
-** DONE Update Emacs version up to 24.5
+** DONE Update Emacs version up to 24.5	                 :24.5:
    - Package `emacs-24.4' is unavailable
    - Download from http://ftp.gnu.org/gnu/emacs/
    - tar -xf emacs*
@@ -1520,9 +1520,9 @@
    [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode
     ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
-** DONE OrgMode
+** DONE OrgMode					:OrgMode:
    [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
-*** DONE Reveal OrgMode BaBel <2016-03-01 Tue> 
+*** DONE Reveal OrgMode BaBel <2016-03-01 Tue>	:babel:
 **** Intro
      http://orgmode.org/worg/org-contrib/babel/intro.html
 **** Tutorial
@@ -1551,7 +1551,7 @@
      | <I       | #+INCLUDE:       |
      |----------+------------------|
 
-*** TODO Literate programming 
+*** TODO Literate programming			:Python:
 **** Python 
      Demands to install Org recent version 
 ***** This is the first and successful attempt			       :CODE:
@@ -1650,7 +1650,7 @@
       : tom =>
       :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
 
-**** Bash							      :shell:
+**** Bash 		      :shell:
      #+BEGIN_SRC shell
        pwd
        cd ../../
@@ -1686,8 +1686,8 @@ How it works
 ** DONE ISpell
    [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
-** TODO New shortcuts						       :keys:
-*** General								:gen:
+** TODO New shortcuts 	       :keys:
+*** General 			:gen:
 **** Switch buffer in the stack C-x Left/Right
 **** Key bindings
      C-h b
@@ -1718,9 +1718,9 @@ How it works
 **** Read-only mode
      C-x C-r RET (view-mode)
      C-x C-q read-only mode toggle
-**** Nero browser					       :nero:browser:
+**** Nero browser        :nero:browser:
      M-x nero
-**** Lynx inside					       :lynx:browser:
+**** Lynx inside        :lynx:browser:
      M-x ansi-term RET lynx
 **** Replace new line
      C-q C-j
@@ -1783,12 +1783,12 @@ How it works
      [[http://planet.emacsen.org][blog]]
 **** Pluralsight
      great resource with video tutorials 
-*** Orgmode								:org:
+*** Orgmode 			:org:
 **** Getting started
 
      | To read the on-line documentation try | M-x org-info |
 
-**** Visibility Cycling						 :visibility:
+**** Visibility Cycling 	 :visibility:
 
      | rotate current subtree between states         | TAB             |
      | rotate entire buffer between states           | S-TAB           |
@@ -1796,7 +1796,7 @@ How it works
      | show the whole file, including drawers        | C-u C-u C-u TAB |
      | reveal context around point                   | C-c C-r         |
 
-**** Motion							     :motion:
+**** Motion 		     :motion:
 
      | next/previous heading             | C-c C-n/p |
      | next/previous heading, same level | C-c C-f/b |
@@ -1804,7 +1804,7 @@ How it works
      | jump to another place in document | C-c C-j   |
      | previous/next plain list item     | S-UP/DOWN |
 
-**** Markup							     :markup:
+**** Markup 		     :markup:
      *bold*
      /italic/
      _underlined_
@@ -1942,9 +1942,9 @@ http://github.com/pydata/pydata-book
 
 ** by studying with slope to hone:
 
-*** Python's Theory						     :theory:
+*** Python's Theory 	     :theory:
 **** Official Python documentation			      :documentation:
-***** The Python Tutorial [100%] 				   :tutorial:
+***** The Python Tutorial [100%] 			   :tutorial:
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -3692,7 +3692,7 @@ http://github.com/pydata/pydata-book
 	#+END_SRC
 
 ****** DONE Brief Tour of the Standard Library
-******* Operating System Interface					 :os:
+******* Operating System Interface  :os:
 	#+BEGIN_SRC python :session stdlib
           import os
           from pprint import pprint
@@ -3705,7 +3705,7 @@ http://github.com/pydata/pydata-book
 
 	#+RESULTS:
 
-******* File Wildcards						       :glob:
+******* File Wildcards 	       :glob:
 	The "glob" module provides a function for making file lists from
 	directory wildcard searches:
 	#+BEGIN_SRC python :results output :session stdlib
@@ -3736,7 +3736,7 @@ http://github.com/pydata/pydata-book
 
 	The most direct way to terminate a script is to use "sys.exit()".
 
-******* String Pattern Matching						 :re:
+******* String Pattern Matching 	 :re:
 	#+BEGIN_SRC python :results output :session stdlib
           import re
           re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest')
@@ -3821,7 +3821,7 @@ http://github.com/pydata/pydata-book
 	: 
 	: 1.3720238095238095
 
-******* Internet Access						     :urllib:
+******* Internet Access 	     :urllib:
 	#+BEGIN_SRC python :results output :session stdlib
           from urllib.request import urlopen
           with urlopen('http://tycho.usno.navy.mil/cgi-bin/timer.pl') as response:
@@ -3838,7 +3838,7 @@ http://github.com/pydata/pydata-book
 	: 
 	: <BR>Mar. 01, 04:04:38 AM EST		Eastern Time
 
-******* Dates and Times						       :date:
+******* Dates and Times 	       :date:
 	#+BEGIN_SRC python :results output :session stdlib
           # dates are easily constructed and formatted
           from datetime import date
@@ -3862,7 +3862,7 @@ http://github.com/pydata/pydata-book
 	: >>> ... >>> >>>
 	: 13886
 
-******* Data Compression					       :zlib:
+******* Data Compression        :zlib:
 	#+BEGIN_SRC python :results output :session stdlib
           import zlib
           s = b'witch which has which witches wrist watch'
@@ -3887,7 +3887,7 @@ http://github.com/pydata/pydata-book
 	: ... b'witch which has which witches wrist watch'
 	: ... 226805979
 
-******* Performance Measurement					     :timeit:
+******* Performance Measurement      :timeit:
 	#+BEGIN_SRC python :results output :session stdlib
           from timeit import Timer
           print('\n')
@@ -3909,7 +3909,7 @@ http://github.com/pydata/pydata-book
 	in larger blocks of code.
 	#+END_QUOTE
 
-******* Quality Control					   :doctest:unittest:
+******* Quality Control    :doctest:unittest:
 	#+BEGIN_QUOTE
 		The =doctest= module provides a tool for scanning a module and
 		validating tests embedded in a program's docstrings.  Test
@@ -4020,7 +4020,7 @@ http://github.com/pydata/pydata-book
 	 : >>> >>> >>> '1,234,567'
 	 : >>> ... '$1,234,567.80'
 
-******* Templating						   :Template:
+******* Templating 	   :Template:
 	Simplified substitution syntax:
 	#+BEGIN_SRC python :results output :session stdlib2
           from string import Template
@@ -4074,7 +4074,7 @@ http://github.com/pydata/pydata-book
               start += extra_size + comp_size     # skip to the next header
 	#+END_SRC
 
-******* Multi-threading					  :threading:zipfile:
+******* Multi-threading   :threading:zipfile:
 	#+BEGIN_SRC python
           import threading, zipfile
 
@@ -4097,7 +4097,7 @@ http://github.com/pydata/pydata-book
           print('Main program waited until background was done.')
 	#+END_SRC
 	
-******* Logging							    :logging:
+******* Logging 		    :logging:
 	#+BEGIN_SRC python :results output :session stdlib2
           import logging
           logging.debug('Debugging information')
@@ -4113,7 +4113,7 @@ http://github.com/pydata/pydata-book
 	: ERROR:root:Error occurred
 	: CRITICAL:root:Critical error -- shutting down
 
-******* Weak References						 :weakref:gc:
+******* Weak References 	 :weakref:gc:
 	Python does automatic memory management (reference counting for most
 	objects and *garbage collection* to eliminate cycles).  The memory is
 	freed shortly after the last reference to it has been eliminated.
@@ -4149,7 +4149,7 @@ http://github.com/pydata/pydata-book
 	: KeyError: 'primary'
 
 ******* Tools for Working with Lists
-******** Array							      :array:
+******** Array 		      :array:
 	 #+BEGIN_SRC python :results output :session stdlib2
            from array import array
            a = array('H', [4000, 10, 700, 22222])
@@ -4165,7 +4165,7 @@ http://github.com/pydata/pydata-book
 	 : 26932
 	 : 
 	 : array('H', [10, 700])
-******** Deque							      :deque:
+******** Deque 		      :deque:
 	 The "collections" module provides a "deque()" object that is like a
 	 list with faster appends and pops from the left side but slower
 	 lookups in the middle. These objects are well suited for implementing
@@ -4194,7 +4194,7 @@ http://github.com/pydata/pydata-book
                    unsearched.append(m)
 
 	 #+END_SRC
-******** Bisect							     :bisect:
+******** Bisect 		     :bisect:
 	 In addition to alternative list implementations, the library also
 	 offers other tools such as the "bisect" module with functions for
 	 manipulating sorted lists:
@@ -4211,7 +4211,7 @@ http://github.com/pydata/pydata-book
 	 : 
 	 : >>> >>>
 	 : [(100, 'perl'), (200, 'tcl'), (300, 'ruby'), (400, 'lua'), (500, 'python')]
-******** Heap							      :heapq:
+******** Heap 		      :heapq:
 	 The "heapq" module provides functions for implementing heaps based on
 	 regular lists.  The lowest valued entry is always kept at position
 	 zero.  This is useful for applications which repeatedly access the
@@ -4558,7 +4558,7 @@ http://github.com/pydata/pydata-book
        : ... >>> >>> >>> ['N', 'a', 'i', 'r', 'o', 'b', 'i']
        : <class 'list'>
 
-****** Lambdas							     :pprint:
+****** Lambdas 		     :pprint:
        #+BEGIN_SRC python :results output :session functions
          from pprint import pprint as pp
 
@@ -4821,7 +4821,7 @@ http://github.com/pydata/pydata-book
 
 ****** Summary
 
-***** Closures and Decorators					 :decorators:
+***** Closures and Decorators  :decorators:
 ****** Local Functions
 
        - Useful for specialized, one-off functions
@@ -5384,7 +5384,7 @@ http://github.com/pydata/pydata-book
 ***** Defining Context Managers
 ***** Introspection
 
-**** Mastering Python OOP						:OOP:
+**** Mastering Python OOP 	:OOP:
 ***** Introduction To Object Oriented Python
 ****** Introduction And About The Author
 ******* Course Objectives
@@ -5429,7 +5429,7 @@ http://github.com/pydata/pydata-book
 	- OOP is a universal paradigm (many languages)
 	- Learning OOP is a necessary next step into the larger world of 
 	software engineering
-******* OOP: three pillars 					    :pillars:
+******* OOP: three pillars      :pillars:
 	#+BEGIN_QUOTE
 	- encapsulation
 	- inheritance
@@ -5873,16 +5873,16 @@ http://github.com/pydata/pydata-book
 
 ***** Conclusion
 ****** What We Have Learned
-****** Where To Go From Here						:OOP:
+****** Where To Go From Here 	:OOP:
 
-**** Fluent Python						     :fluent:
+**** Fluent Python 	     :fluent:
 ***** Preface
 ****** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
 ****** TODO [[https://docs.python.org/3/tutorial/][Python Tutorial]]
        #+BEGIN_QUOTE
        Premature abstraction is as bad as premature optimization.
        #+END_QUOTE
-**** Writing Idiomatic Python					     :idioma:
+**** Writing Idiomatic Python      :idioma:
 ***** 1 Control Structures and Functions
 ****** 1.1 If Statements
 ******* 1.1.1 Avoid comparing directly to True , False , or None
@@ -6101,12 +6101,12 @@ http://github.com/pydata/pydata-book
        4.2.2 Use functions in the os.path module when working with
        directory paths
 
-**** Effective Python						     :effect:
+**** Effective Python 	     :effect:
 
 ***** [[https://github.com/bslatkin/effectivepython][Git]]
 
 
-*** Applied Python						      :HOWTO:
+*** Applied Python 	      :HOWTO:
 **** TODO Python HOWTOs
 
 ***** Porting Python 2 Code to Python 3
