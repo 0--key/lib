@@ -5241,7 +5241,38 @@ http://github.com/pydata/pydata-book
        : <p>John Doe</p>
        : func_wrapper
 
-****** functools.wraps()
+****** Passing arguments to decorators
+       #+BEGIN_SRC python :results output :session deco
+         def tags(tag_name):
+             def tags_decorator(func):
+                 def func_wrapper(name):
+                     return "<{0}>{1}</{0}>".format(tag_name, func(name))
+                 return func_wrapper
+             return tags_decorator
+
+         @tags("p")
+         def get_text(name):
+             """returns some text"""
+             return "Hello "+name
+
+         print('\n', get_text("John"))
+         print(get_text.__name__) # get_text
+         print(get_text.__doc__) # returns some text
+         print(get_text.__module__) # __main__
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... ... >>> ... ... ... ... >>> 
+       :  <p>Hello John</p>
+       : func_wrapper
+       : None
+       : __main__
+
+       Obviously that all private methods are overwritten
+       by decorator function. It is no matter for learning
+       sample but huge significant detail during debugging.
+
 ****** Duck Tails Validating Arguments
 ****** Summary
 
