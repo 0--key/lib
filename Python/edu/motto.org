@@ -1500,7 +1500,7 @@
    - Meet or beat this time
    - Repeat the exercise
      
-* Enlarge Emacs toolbox 	     :Emacs:
+* Enlarge Emacs toolbox 	                :Emacs:
 ** DONE Elpy					       :elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE Update Emacs version up to 24.5	                 :24.5:
@@ -1554,7 +1554,7 @@
 *** TODO Literate programming			:Python:
 **** Python 
      Demands to install Org recent version 
-***** This is the first and successful attempt			       :CODE:
+***** This is the first and successful attempt	:CODE:
       #+begin_src python :results output
 	import sys
 	print(sys.version)
@@ -1943,8 +1943,8 @@ http://github.com/pydata/pydata-book
 ** by studying with slope to hone:
 
 *** Python's Theory 	     :theory:
-**** Official Python documentation			      :documentation:
-***** The Python Tutorial [100%] 			   :tutorial:
+**** Official Python documentation 		:documentation:
+***** The Python Tutorial [100%] 		:tutorial:
 ****** DONE Whetting Your Appetite
 
 ****** DONE Using the Python Interpreter
@@ -4276,10 +4276,10 @@ http://github.com/pydata/pydata-book
 	 : NameError: name 'getcontext' is not defined
 	 : Decimal('0.1428571428571428571428571429')
 
-****** DONE Virtual Environments and Packages		       :venv:
+****** DONE Virtual Environments and Packages	:venv:
 ******* Introduction
 ******* Creating Virtual Environments
-******* Managing Packages with pip	:pip:shell:
+******* Managing Packages with pip	        :pip:shell:
 	#+BEGIN_SRC shell :results output
           echo
             echo "It's pip list there"
@@ -6669,12 +6669,12 @@ http://github.com/pydata/pydata-book
 ***** TODO IPython: An Interactive Computing and Development Environment
       <2016-01-18 
       
-* Enhance general coding grit	     :coding:
+* Enhance general coding grit	                :coding:
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-* Discover Git work-flow  	     :Git:
+* Discover Git work-flow  	                :Git:
 ** Version Control with Git
 *** Preface
 **** Audience
