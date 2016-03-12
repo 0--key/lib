@@ -1650,16 +1650,25 @@
       : tom =>
       :    {'pay': 0, 'job': None, 'age': 50, 'name': 'Tom'}
 
-**** Bash 		      :shell:
-     #+BEGIN_SRC shell
-       pwd
-       cd ../../
-       pwd
-     #+END_SRC
+**** Bash 		                        :shell:
 
-     #+RESULTS:
-     | /home/antony/Desktop/DVCS/lib/Python/edu |
-     | /home/antony/Desktop/DVCS/lib            |
+***** Test sample				:sample:
+      #+BEGIN_SRC shell :results output
+	pwd
+	cd ../../
+	pwd
+	echo
+	git status
+      #+END_SRC
+
+      #+RESULTS:
+      : /home/antony/Desktop/DVCS/lib/Python/edu
+      : /home/antony/Desktop/DVCS/lib
+      : 
+      : On branch master
+      : Your branch is ahead of 'origin/master' by 11 commits.
+      :   (use "git push" to publish your local commits)
+      : nothing to commit, working directory clean
 
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
