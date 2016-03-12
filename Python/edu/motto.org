@@ -4793,7 +4793,7 @@ http://github.com/pydata/pydata-book
 
 ****** Summary
 
-***** Closures and Decorators
+***** Closures and Decorators					 :decorators:
 ****** Local Functions
 
        - Useful for specialized, one-off functions
