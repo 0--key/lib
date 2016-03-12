@@ -1908,7 +1908,7 @@ How it works
 *** Miscellaneous
 *** Customizing
 *** Plumbing
-*** Maroon
+*** Extract
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
 * Dive deeper into Python programming language 			     :Python:
