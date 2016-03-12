@@ -5273,6 +5273,39 @@ http://github.com/pydata/pydata-book
        by decorator function. It is no matter for learning
        sample but huge significant detail during debugging.
 
+****** functools.wraps()				    :functools:wraps:
+       They are rescue in that case:
+       #+BEGIN_SRC python :results output :session deco
+         from functools import wraps
+
+         def tags(tag_name):
+             def tags_decorator(func):
+                 @wraps(func)            # <
+                 def func_wrapper(name):
+                     return "<{0}>{1}</{0}>".format(tag_name, func(name))
+                 return func_wrapper
+             return tags_decorator
+
+         @tags("p")
+         def get_text(name):
+             """returns some text"""
+             return "Hello "+name
+
+         print('\n', get_text("John"))
+         print(get_text.__name__) # get_text
+         print(get_text.__doc__) # returns some text
+         print(get_text.__module__) # __main__
+
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> ... ... ... ... ... ... ... >>> ... ... ... ... >>> 
+       :  <p>Hello John</p>
+       : get_text
+       : returns some text
+       : __main__
+
 ****** Duck Tails Validating Arguments
 ****** Summary
 
