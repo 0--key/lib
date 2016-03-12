@@ -1,5 +1,5 @@
 
-* Knowledge is power ©				      :True:InitialPostulate:
+* Knowledge is power © 		     :True:InitialPostulate:
 ** it is product of education;					       :True:
 
 *** TODO reading;
@@ -14,7 +14,7 @@
 
 *** the spaced repetition is the best approach;
    
-* Enhance English [0%] 						    :English:
+* Enhance English [0%] 		     :English:
 ** TODO Grammar [0%]
 *** TODO Tutorial [37%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -1287,7 +1287,7 @@
 *** TODO Exercises
     http://merriam-webster.com/dictionary/worth
 
-* Jargon & definition 						    :corpora:
+* Jargon & definition 		     :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
 
@@ -1499,8 +1499,8 @@
    - Write down how long it takes
    - Meet or beat this time
    - Repeat the exercise
-
-* Enlarge Emacs toolbox 					      :Emacs:
+     
+* Enlarge Emacs toolbox 	     :Emacs:
 ** DONE Elpy
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE Update Emacs version up to 24.5
@@ -1911,7 +1911,7 @@ How it works
 *** Extract
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
-* Dive deeper into Python programming language 			     :Python:
+* Dive deeper into Python 	     :Python:
 
 ** in six months <2016-07-15 Wed> 
 ** with:
@@ -6105,7 +6105,7 @@ http://github.com/pydata/pydata-book
 ***** [[https://github.com/bslatkin/effectivepython][Git]]
 
 
-*** Applied Python						   :practice:
+*** Applied Python						      :HOWTO:
 **** TODO Python HOWTOs
 
 ***** Porting Python 2 Code to Python 3
@@ -6668,12 +6668,12 @@ http://github.com/pydata/pydata-book
 ***** TODO IPython: An Interactive Computing and Development Environment
       <2016-01-18 
       
-* Enhance general coding grit					     :coding:
+* Enhance general coding grit	     :coding:
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-* Discover Git work-flow subtleties 					:Git:
+* Discover Git work-flow  	     :Git:
 ** Version Control with Git
 *** Preface
 **** Audience
