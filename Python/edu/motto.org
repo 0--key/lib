@@ -5306,8 +5306,35 @@ http://github.com/pydata/pydata-book
        : returns some text
        : __main__
 
-****** Duck Tails Validating Arguments
 ****** Summary
+       - Decorators are powerful tool
+       - Decorators are widely used in Python
+       - It's possible to overuse decorators
+	 Be mindful
+       - They can improve maintainability, increase
+	 clarity and reduce complexity
+
+       #+BEGIN_SRC python :results output :session deco
+         def logging_decorator(func):
+             def logging_wrapper(*args, **kwargs):
+                 print(func.__name__ + ' was called')
+                 return func(*args, **kwargs)
+             return logging_wrapper
+
+         @logging_decorator
+         def test_function(x):
+             """A decorated function"""
+             return x * x
+
+         print('\n')
+         print(test_function(3))
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... ... ... >>> ... ... ... ... >>>
+       : test_function was called
+       : 9
 
 ***** Properties and Class Methods
 ****** Class Attributes
