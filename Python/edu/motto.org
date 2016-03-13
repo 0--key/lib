@@ -6201,17 +6201,28 @@ http://github.com/pydata/pydata-book
 
 ****** Static Methods and Class Methods
 
-***** Functional Programming HOWTO
+***** Functional Programming HOWTO [10%]
 
-****** Introduction
+****** DONE Introduction [4/4]
 
-******* Formal provability
+******* DONE Formal provability
+	#+BEGIN_QUOTE
+	Even if you wrote down or generated
+	a proof, there would then be the question of verifying the proof;
+	maybe there's an error in it, and you wrongly believe you've proved
+	the program correct.
+	#+END_QUOTE
+******* DONE Modularity
 
-******* Modularity
+******* DONE Ease of debugging and testing
 
-******* Ease of debugging and testing
-
-******* Composability
+******* DONE Composability
+	#+BEGIN_QUOTE
+	Over time you'll form a personal library of utilities.  Often you'll
+	assemble new programs by arranging existing functions in a new
+	configuration and writing a few functions specialized for the current
+	task.
+	#+END_QUOTE
 
 ****** Iterators
 
