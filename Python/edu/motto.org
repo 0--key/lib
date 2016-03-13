@@ -6224,19 +6224,19 @@ http://github.com/pydata/pydata-book
 	task.
 	#+END_QUOTE
 
-****** Iterators
+****** TODO Iterators
 
 ******* Data Types That Support Iterators
 
-****** Generator expressions and list comprehensions
+****** TODO Generator expressions and list comprehensions
 
-****** Generators
+****** TODO Generators
 
 ******* Passing values into a generator
 
-****** Built-in functions
+****** TODO Built-in functions
 
-****** The itertools module
+****** TODO The itertools module
 
 ******* Creating new iterators
 
@@ -6248,15 +6248,15 @@ http://github.com/pydata/pydata-book
 
 ******* Grouping elements
 
-****** The functools module
+****** TODO The functools module
 
 ******* The operator module
 
-****** Small functions and the lambda expression
+****** TODO Small functions and the lambda expression
 
-****** Revision History and Acknowledgements
+****** TODO Revision History and Acknowledgements
 
-****** References
+****** TODO References
 
 ******* General
 
