@@ -1933,7 +1933,70 @@ How it works
 *** Extract
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
-* Dive deeper into Python 	     :Python:
+** DONE Emacs regexp
+*** Emacs regex Syntax
+    The most commonly used command that uses regex is ~query-replace-regexp~.
+
+    Here's commonly used patterns.
+
+    Pattern         Matches                                                  
+    .               Any single character except newline ("\n").              
+    \.              One period                                               
+    [0-9]+          One or more digits                                       
+    [^0-9]+         Skip digits                                              
+    [A-Za-z]+       one or more letters                                      
+    [-A-Za-z0-9]+   one or more {letter, digit, hyphen}                      
+    [_A-Za-z0-9]+   one or more {letter, digit, underscore}                  
+    [-_A-Za-z0-9]+  one or more {letter, digit, hyphen, underscore}          
+    [[:ascii:]]+    one or more ASCII chars. (codepoint 0 to 127, inclusive) 
+    [[:nonascii:]]+ one or more none-ASCII characters (⁖ Unicode characters) 
+    [\n\t ]+        one or more {newline character, tab, space}.             
+    
+    Pattern     Matches                             
+    "\([^"]+\)" capture text between double quotes. 
+*** Repetition
+    Pattern Matches                                                             
+      +       match previous pattern 1 or more times                              
+      *       match previous pattern 0 or more times                              
+      ?       match previous pattern 0 or 1 time                                  
+      +?      match previous pattern 1 or more times, but with minimal match      
+	      (aka non-greedy)                                                    
+
+*** Boundary anchors
+      Pattern Matches                              
+      ^…      Beginning of {line, string, buffer}  
+      …$      End of {line, string, buffer}        
+      \`…     Beginning of {string, buffer}        
+      …\'     End of {string, buffer}              
+      \b      word boundary marker                 
+
+    Unicode character can be used literally. But for non-printable ones such as
+    “RIGHT-TO-LEFT MARK”, you can represent them by a code. See: Emacs: Newline
+    Representation ^M ^J ^L
+    
+    For complete list of regex syntax, see: (info "(elisp) Syntax of Regexps")
+    
+    Matching Newline ＆ Tab
+    
+    When using interactive commands, emacs won't understand \n or \t.
+    
+    - To enter a new line, press 【Ctrl+q Ctrl+j】
+    - To enter a Tab character, press 【Ctrl+q Tab ↹】 
+
+*** Case sensitivity
+
+    When using [a-z], it is not case sensitive by default. Case sensitivity is
+    controlled by the variable case-fold-search. Call toggle-case-fold-search to
+    toggle it.
+    
+    Do not use [A-z], because that'll match some punctuation chars too. Use
+    [A-Za-z].
+
+*** Samples:
+    Ctrl-q Ctrl-j [-][-_A-Za-z0-9 ]+[.srt]+$
+
+
+* Dive deeper into Python 					     :Python:
 
 ** in six months <2016-07-15 Wed> 
 ** with:
