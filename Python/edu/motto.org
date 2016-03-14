@@ -6828,9 +6828,26 @@ http://github.com/pydata/pydata-book
 *** Installing Git
 *** Getting Started
 *** Basic Git Concepts
+**** Basic Concepts
      Keeping track of multiple repositories may seem like a /daunting/
      prospect, but the fundamentals you learn in this chapter apply
      just the same.
+***** Repositories
+***** Git Object Types
+***** Index
+***** Content-Addressable Names
+***** Git Tracks Content
+***** Pathname Versus Content
+***** Pack Files
+**** Object Store Pictures
+**** Git Concepts at Work
+***** Inside the .git Directory
+***** Objects, Hashes, and Blobs
+***** Files and Trees
+***** A Note on Git’s Use of SHA1
+***** Tree Hierarchies
+***** Commits
+
 *** File Management and the Index
 *** Commits
 *** Branches
