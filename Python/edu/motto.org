@@ -6828,6 +6828,9 @@ http://github.com/pydata/pydata-book
 *** Installing Git
 *** Getting Started
 *** Basic Git Concepts
+     Keeping track of multiple repositories may seem like a /daunting/
+     prospect, but the fundamentals you learn in this chapter apply
+     just the same.
 *** File Management and the Index
 *** Commits
 *** Branches
