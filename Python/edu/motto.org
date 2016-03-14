@@ -6928,6 +6928,75 @@ http://github.com/pydata/pydata-book
 *** Advanced Manipulations
 *** Tips, Tricks, and Techniques
 *** Git and GitHub
+** Git Essential Training:
+*** Introduction
+*** What is Git
+*** Installing Git
+*** Getting Started
+*** Git Concepts and Architecture
+**** Exploring the three-trees architecture
+       - Two-trees architecture close-up:
+       	 + repository
+       	 + working copy
+       - Three-trees
+       	 + staging index
+	   /as a middle-ware/ between
+**** The Git work-flow
+       - change working copy
+       - add these changes to staging index
+       - commit they into repository
+**** Using hash values (SHA-1)
+       - Git generates a checksum for each change set
+       	 - checksum algorithms convert data into a simple number
+       	 - same data always equals same checksum
+       - Data integrity is fundamental
+       	 - changing data would change checksum
+       - Git uses SHA-1 hash algorithm to create checksums
+       	 - 40-character hexadecimal string (0-9, a-f)
+**** Working with the HEAD pointer
+     *HEAD*
+     - pointer to *tip* of current branch in repository
+     - last state of repository, what was last checked out
+     - points to parent of next commit
+       /where writing commits takes place/
+*** Making Changes to Files
+**** Adding files
+**** Editing files
+**** Viewing changes with diff
+     git diff
+**** Viewing only staged changes
+     git diff --staged
+**** Deleting files
+     git rm
+**** Moving and renaming files
+     git mv old_name.txt new_name.txt
+*** Using Git with a Real Project
+
+*** Undoing Changes
+**** Undoing working directory changes
+**** Unstaging files
+**** Amending commits
+**** Retrieving old versions
+**** Reverting a commit
+**** Using reset to undo commits
+**** Demonstrating a soft reset
+**** Demonstrating a mixed reset
+**** Demonstrating a hard reset
+**** Removing untracked files
+*** Ignoring Files
+**** Using .gitignore files
+**** Understanding what to ignore
+**** Ignoring files globally
+**** Ignoring tracked files
+**** Tracking empty directories
+*** Navigating the Commit Tree
+*** Branching
+*** Merging Branches
+*** Stashing Changes
+*** Remotes
+*** Tools and Next Steps
+*** Conclusion
+
 * Open-Source contributing
 ** Fork useful projects
 
