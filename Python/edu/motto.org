@@ -6257,6 +6257,73 @@ http://github.com/pydata/pydata-book
 #+end_example
 
 ******* Data Types That Support Iterators
+	#+BEGIN_SRC python :results output :session fp
+          m = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4,
+               'May': 5, 'Jun': 6, 'Jul': 7, 'Aug': 8,
+               'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
+          print('\n')
+          print('\n')
+          for key in m:  #doctest: +SKIP
+              print(key, m[key])
+
+          print('\n')
+          for value in m.values():  #doctest: +SKIP
+              print(value)
+
+          print('\n')
+          for value in m.items():  #doctest: +SKIP
+              print(value)
+
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	... >>>
+
+	... ... Dec 12
+	Apr 4
+	Aug 8
+	Nov 11
+	Jun 6
+	Jan 1
+	Sep 9
+	Oct 10
+	Feb 2
+	Mar 3
+	May 5
+	Jul 7
+
+	... ... 12
+	4
+	8
+	11
+	6
+	1
+	9
+	10
+	2
+	3
+	5
+	7
+
+	... ... ('Dec', 12)
+	('Apr', 4)
+	('Aug', 8)
+	('Nov', 11)
+	('Jun', 6)
+	('Jan', 1)
+	('Sep', 9)
+	('Oct', 10)
+	('Feb', 2)
+	('Mar', 3)
+	('May', 5)
+	('Jul', 7)
+#+end_example
+	#+BEGIN_QUOTE
+	The "dict()" constructor can accept an iterator that returns a finite
+	stream of "(key, value)" tuples:
+	#+END_QUOTE
 
 ****** TODO Generator expressions and list comprehensions
 
