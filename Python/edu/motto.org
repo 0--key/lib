@@ -1543,7 +1543,7 @@
      http://orgmode.org/worg/org-contrib/babel/languages.html#configure
 **** Supported languages
      http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
-**** shortcuts
+**** shortcuts					:shortcuts:
      |----------+------------------|
      | Sequence | Expands to       |
      |----------+------------------|
@@ -4487,10 +4487,10 @@ http://github.com/pydata/pydata-book
 ***** http://pypi.python.org/pypi
 ***** http://pyvideo.org
 
-**** Programming Python 4th Edition				:programming:
+**** Programming Python 4th Edition		:programming:
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
-**** Python Anti-Patterns				      :anti:patterns:
+**** Python Anti-Patterns			:anti:patterns:
 ***** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 ***** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
       [[https://github.com/quantifiedcode/python-anti-patterns][Git]] for this book
@@ -5468,7 +5468,7 @@ http://github.com/pydata/pydata-book
 ***** Defining Context Managers
 ***** Introspection
 
-**** Mastering Python OOP 	:OOP:
+**** TODO Mastering Python OOP			:OOP:
 ***** Introduction To Object Oriented Python
 ****** Introduction And About The Author
 ******* Course Objectives
@@ -5959,14 +5959,14 @@ http://github.com/pydata/pydata-book
 ****** What We Have Learned
 ****** Where To Go From Here 	:OOP:
 
-**** Fluent Python 	     :fluent:
+**** Fluent Python 	                        :fluent:
 ***** Preface
 ****** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
 ****** TODO [[https://docs.python.org/3/tutorial/][Python Tutorial]]
        #+BEGIN_QUOTE
        Premature abstraction is as bad as premature optimization.
        #+END_QUOTE
-**** Writing Idiomatic Python      :idioma:
+**** Writing Idiomatic Python                   :idioma:
 ***** 1 Control Structures and Functions
 ****** 1.1 If Statements
 ******* 1.1.1 Avoid comparing directly to True , False , or None
@@ -6185,12 +6185,12 @@ http://github.com/pydata/pydata-book
        4.2.2 Use functions in the os.path module when working with
        directory paths
 
-**** Effective Python 	     :effect:
+**** Effective Python 	                        :effect:
 
 ***** [[https://github.com/bslatkin/effectivepython][Git]]
 
 
-*** Applied Python 	      :HOWTO:
+*** Applied Python 	                        :HOWTO:
 **** TODO Python HOWTOs
 
 ***** Porting Python 2 Code to Python 3
@@ -6299,7 +6299,7 @@ http://github.com/pydata/pydata-book
 	task.
 	#+END_QUOTE
 
-****** TODO Iterators					:iter:
+****** DONE Iterators						       :iter:
        #+BEGIN_QUOTE
        An iterator is an object representing a stream of data; this object
        returns the data one element at a time.
