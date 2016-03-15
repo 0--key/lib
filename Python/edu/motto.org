@@ -6276,7 +6276,7 @@ http://github.com/pydata/pydata-book
 
 ****** Static Methods and Class Methods
 
-***** Functional Programming HOWTO [10%]
+***** Functional Programming HOWTO [30%]
 
 ****** DONE Introduction [4/4]
 
@@ -6399,8 +6399,75 @@ http://github.com/pydata/pydata-book
 	The "dict()" constructor can accept an iterator that returns a finite
 	stream of "(key, value)" tuples:
 	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session fp
+          L = [('Italy', 'Rome'),
+               ('France', 'Paris'), \
+               ('US', 'Washington DC')]
+          print('\n')
+          dict(iter(L))
+	#+END_SRC
 
-****** TODO Generator expressions and list comprehensions
+	#+RESULTS:
+	: 
+	: ... >>>
+	: {'Italy': 'Rome', 'US': 'Washington DC', 'France': 'Paris'}
+
+****** DONE Generator expressions and list comprehensions  :genexps:listcomp:
+       
+       #+BEGIN_SRC python :results output :session fp
+         line_list = ['  line 1\n', 'line 2  \n', 'line 3 \n']
+
+         # Generator expression -- returns iterator
+	 # expression in (parenthesis) 
+         stripped_iter = (line.strip() for line in line_list)
+         print('\n')
+         print(stripped_iter)
+         print(next(stripped_iter))
+	 print(next(stripped_iter))
+         # List comprehension -- returns list
+	 # just use square brackets around expression
+         stripped_list = [line.strip() for line in line_list]
+         print('\n', stripped_list)
+         # you can select only certain elements by adding an ""if""
+
+         stripped_list = [line.strip() for line in line_list
+                          if line != ""]
+         print('\n', stripped_list)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> ... >>>
+       : <generator object <genexpr> at 0x7fdb674e9cf0>
+       : line 1
+       : line 2
+       : ... >>> 
+       :  ['line 1', 'line 2', 'line 3']
+       : ... >>> ... >>> 
+       :  ['line 1', 'line 2', 'line 3']
+
+       #+BEGIN_SRC python :results output :session fp
+         from pprint import pprint
+         seq1 = 'abc'
+         seq2 = (1,2,3)
+	 print('\n')
+         pprint([(x, y) for x in seq1 for y in seq2])
+       #+END_SRC
+
+       #+RESULTS:
+       #+begin_example
+
+       >>> >>>
+       [('a', 1),
+	('a', 2),
+	('a', 3),
+	('b', 1),
+	('b', 2),
+	('b', 3),
+	('c', 1),
+	('c', 2),
+	('c', 3)]
+#+end_example
 
 ****** TODO Generators
 
