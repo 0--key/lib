@@ -1933,7 +1933,7 @@ How it works
 *** Extract
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
-** DONE Emacs regexp
+** DONE Emacs regexp				:regexp:
 *** Emacs regex Syntax
     The most commonly used command that uses regex is ~query-replace-regexp~.
 
@@ -1996,7 +1996,7 @@ How it works
     Ctrl-q Ctrl-j [-][-_A-Za-z0-9 ]+[.srt]+$
 
 
-* Dive deeper into Python 					     :Python:
+* Dive deeper into Python 			:Python:
 
 ** in six months <2016-07-15 Wed> 
 ** with:
@@ -6867,7 +6867,7 @@ http://github.com/pydata/pydata-book
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
 * Discover Git work-flow  	                :Git:
-** Version Control with Git
+** Version Control with Git			:vc:
 *** Preface
 **** Audience
 **** Assumed Framework
@@ -6928,7 +6928,7 @@ http://github.com/pydata/pydata-book
 *** Advanced Manipulations
 *** Tips, Tricks, and Techniques
 *** Git and GitHub
-** Git Essential Training:
+** Git Essential Training:			:essence:
 *** Introduction
 *** What is Git
 *** Installing Git
