@@ -1573,6 +1573,7 @@
 ** DONE Elpy					       :elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE Update Emacs version up to 24.5	                 :24.5:
+   #+NAME: Emacs24.5
    - Package `emacs-24.4' is unavailable
    - Download from http://ftp.gnu.org/gnu/emacs/
    - tar -xf emacs*
@@ -7212,3 +7213,8 @@ http://github.com/pydata/pydata-book
 ** Open pull request
 
   https://github.com/milkypostman/melpa
+
+
+* TODO ToDo 
+** Install Emacs24.5 on Ubuntu 14.04
+   [[Follow the link][Emacs24.5]]
