@@ -6526,11 +6526,93 @@ http://github.com/pydata/pydata-book
 	('c', 3)]
 #+end_example
 
-****** TODO Generators
+****** TODO Generators				:yield:
+       #+BEGIN_QUOTE
+       Generators are a special class of functions that simplify the task of
+       writing iterators.  Regular functions compute a value and return it,
+       but generators return an iterator that returns a stream of values.
+       #+END_QUOTE
+       This is what generators provide; they can be thought of as resumable
+       functions.
+       #+BEGIN_SRC python :results output :session fp
+         def gen_ints(n):
+             for i in range(n):
+                 yield i
 
+         j = gen_ints(4)  # j is simple generator
+	 print('\n')
+         next(j)
+         print(next(j))
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... ... >>> >>>
+       : 0
+       : 1
+
+       #+BEGIN_QUOTE
+       When you call a generator function, it doesn't return a single value;
+       instead it returns a generator object that supports the iterator
+       protocol.  On executing the "yield" expression, the generator outputs
+       the value of "i", similar to a "return" statement.  The big difference
+       between "yield" and a "return" statement is that on reaching a "yield"
+       the generator's state of execution is suspended and local variables
+       are preserved.  On the next call to the generator's "__next__()"
+       method, the function will resume executing.
+       #+END_QUOTE
+
+       #+BEGIN_SRC python :results output :session fp
+         for i in gen_ints(4):
+             print(i)
+
+	     
+         a, b, c = gen_ints(3)
+         print(a, b, c)
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : ... 0
+       : 1
+       : 2
+       : 3
+       : ... >>> 0 1 2
+       
 ******* Passing values into a generator
+	#+BEGIN_SRC python :results output :session fp
+          def counter(maximum):
+              i = 0
+              while i < maximum:
+                  val = (yield i)
+                  # If value provided, change counter
+                  if val is not None:
+                      i = val
+                  else:
+                      i += 1
+
+          j = counter(10)
+          print('\n')
+          next(j)
+          next(j)
+          j.send(8)
+          next(j)
+          next(j)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> ... ... ... ... ... ... ... ... ... >>> >>>
+	: 0
+	: 1
+	: 8
+	: 9
+	: Traceback (most recent call last):
+	:   File "<stdin>", line 1, in <module>
+	: StopIteration
 
 ****** TODO Built-in functions
+       
 
 ****** TODO The itertools module
 
