@@ -1,5 +1,5 @@
 
-* Knowledge is power © 		     :True:InitialPostulate:
+* Knowledge is power © 		                :True:InitialPostulate:
 ** it is product of education;        :True:
 
 *** TODO reading;
@@ -14,7 +14,7 @@
 
 *** the spaced repetition is the best approach;
    
-* Enhance English [0%] 		     :English:
+* Enhance English [0%] 		                :English:
 ** TODO Grammar [0%]
 *** TODO Tutorial [37%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -1356,7 +1356,7 @@
 *** TODO Exercises
     http://merriam-webster.com/dictionary/worth
 
-* Jargon & definition 		     :corpora:
+* Jargon & definition 		                :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
 
@@ -2083,7 +2083,7 @@ http://github.com/pydata/pydata-book
 
 ** by studying with slope to hone:
 
-*** Python's Theory 	     :theory:
+*** Python's Theory 	                        :theory:
 **** Official Python documentation 		:documentation:
 ***** The Python Tutorial [100%] 		:tutorial:
 ****** DONE Whetting Your Appetite
@@ -6356,7 +6356,7 @@ http://github.com/pydata/pydata-book
 	task.
 	#+END_QUOTE
 
-****** DONE Iterators						       :iter:
+****** DONE Iterators				:iter:
        #+BEGIN_QUOTE
        An iterator is an object representing a stream of data; this object
        returns the data one element at a time.
