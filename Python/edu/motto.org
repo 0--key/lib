@@ -7218,3 +7218,39 @@ http://github.com/pydata/pydata-book
 * TODO ToDo 
 ** Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
+** TODO Big-Charge-Init approach
+*** Foreword
+    Distributed computational units design with data-driven bias.
+    Based on Emacs text editor and free-distributed. 
+*** Brief description
+    In recent years there are a plenty of tools and technologies drastically
+    simplified user's data generation. Nowadays it it a cool feature to have is
+    to know your visitor's metadata. It's such natural to serves your master in
+    a much useful way. And, in another side of this user data generation and perhaps
+    alongside with it, there is a data size issue become to rule in charge.
+*** Data Size
+    It's a hard question to answer precisely. Because it's all about precision.
+**** All data
+     Strictly speaking it's a false impression. Data always less than you're expected.
+     In most cases it is something around how to separate the wheat from
+     the chaff. And separation is a primitive process, what about how to
+     prepare the dough and cook a few cakes?
+**** In a trusted state
+     - It's checking before writing in DB.
+     - It's integrity testing twice a day (week).
+     - Garbage strategy is the last thing to do.
+     - Well-composed data-sets are usually stable.
+*** Preliminary statistical computation
+    - Avg, Max, Min, Sqrt, Med, Sigma, 6Sigmas
+    - For sorted various ways lists
+    - In 3D
+*** Additional model re-factoring
+    It's a bit recursive task and in several cases it should be helpful
+    to refocus your attention on a bit different kind of data (concept)
+    honing (approving)
+*** Data processing algorithm optimization
+    Sometimes (and very often) the speed is significant. And, as it is
+    necessary to do in real world - you'll train speed up. It's impossible
+    to achieve any results in speed in ignore /practice/.
+*** Data-Set deployment
+    Locate your data separately, please.
