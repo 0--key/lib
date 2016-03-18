@@ -1977,7 +1977,7 @@ How it works
 *** Installation
     M-x package-install RET magit RET
 **** Upgrade Emacs version >24.4 (see above)
-**** Upgrade Git version at the upmost
+**** Upgrade Git version at the topmost
      - sudo add-apt-repository ppa:git-core/ppa
      - sudo apt-get update
      - sudo apt-get install git
