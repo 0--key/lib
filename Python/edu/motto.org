@@ -1977,7 +1977,8 @@ How it works
 *** Installation
     M-x package-install RET magit RET
 **** Upgrade Emacs version >24.4 (see above)
-**** Upgrade Git version at the topmost
+**** Upgrade Git version at the topmost 			:git:upgrade:
+     #+NAME: Git update
      - sudo add-apt-repository ppa:git-core/ppa
      - sudo apt-get update
      - sudo apt-get install git
@@ -7218,6 +7219,7 @@ http://github.com/pydata/pydata-book
 * TODO ToDo 
 ** Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
+   [[Git update][Upgrade git]]
 ** TODO Big-Charge-Init approach
 *** Foreword
     Distributed computational units design with data-driven bias.
