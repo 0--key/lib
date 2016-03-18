@@ -1580,6 +1580,8 @@
    - sudo apt-get remove emacs
       remove old version
    - cd emacs* && ./configure && make
+     or ./configure --with-x-toolkit=no
+     --with-xpm=no --with-gif=no --with-tiff=no
    - sudo checkinstall -D
       create .deb package
    - sudo apt-mark hold emacs
