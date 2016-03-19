@@ -1570,9 +1570,9 @@
    - Repeat the exercise
      
 * Enlarge Emacs toolbox 	                :Emacs:
-** DONE Elpy					       :elpy:
+** DONE Elpy					:elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
-** DONE Update Emacs version up to 24.5	                 :24.5:
+** DONE Update Emacs version up to 24.5	        :24.5:
    #+NAME: Emacs24.5
    - Package `emacs-24.4' is unavailable
    - Download from http://ftp.gnu.org/gnu/emacs/
@@ -1767,8 +1767,8 @@ How it works
 ** DONE ISpell
    [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
    DEADLINE: <2016-01-25 Mon>
-** TODO New shortcuts 	       :keys:
-*** General 			:gen:
+** TODO New shortcuts 	                        :keys:
+*** General 			                :gen:
 **** Switch buffer in the stack C-x Left/Right
 **** Key bindings
      C-h b
@@ -1864,7 +1864,7 @@ How it works
      [[http://planet.emacsen.org][blog]]
 **** Pluralsight
      great resource with video tutorials 
-*** Orgmode 			:org:
+*** Orgmode 			                :org:
 **** Getting started
 
      | To read the on-line documentation try | M-x org-info |
