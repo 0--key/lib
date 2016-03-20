@@ -7217,7 +7217,17 @@ http://github.com/pydata/pydata-book
     - Really dangerous option *be aware*
 **** Removing un-tracked files
     ~git clean~
-    thrown away all unstaged files at once*** Ignoring Files
+    thrown away all unstaged files at once
+*** Ignoring Files
+**** Using .gitignore files
+**** Understanding what to ignore
+**** Ignoring files globally
+**** Ignoring tracked files
+    - add to .gitignore
+    - tell git to stop tracking it
+      ~git rm --cached <filename>~
+      /removes the <file> out from staging index/
+**** Tracking empty directories
 *** Branching
 *** Merging Branches
 *** Stashing Changes
