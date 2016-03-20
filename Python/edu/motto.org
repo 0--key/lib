@@ -7180,8 +7180,6 @@ http://github.com/pydata/pydata-book
      git rm
 **** Moving and renaming files
      git mv old_name.txt new_name.txt
-*** Using Git with a Real Project
-
 *** Undoing Changes
 **** Undoing working directory changes
 **** Unstaging files
@@ -7199,7 +7197,6 @@ http://github.com/pydata/pydata-book
 **** Ignoring files globally
 **** Ignoring tracked files
 **** Tracking empty directories
-*** Navigating the Commit Tree
 *** Branching
 *** Merging Branches
 *** Stashing Changes
