@@ -53,7 +53,12 @@
      "https://www.quora.com/Python-programming-language-1/rss"
      "https://www.quora.com/Life-Advice/rss"
      "https://www.quora.com/Philosophy-of-Everyday-Life/rss"
-     "https://www.quora.com/Software-Engineering/rss")))
+     "https://www.quora.com/Software-Engineering/rss"
+     "https://www.quora.com/Good-Habits/rss"
+     "https://www.quora.com/Career-Advice/rss"
+     "https://www.quora.com/Sociology-of-Everyday-Life/rss"
+     "https://www.quora.com/People-Skills/rss"
+     "https://www.quora.com/Linux/rss")))
  );; end of custom variables
 ;;
 ;; (global-auto-revert-mode t)
