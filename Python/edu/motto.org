@@ -7182,21 +7182,42 @@ http://github.com/pydata/pydata-book
      git mv old_name.txt new_name.txt
 *** Undoing Changes
 **** Undoing working directory changes
+    ~git checkout -- index.html~
 **** Unstaging files
+    ~git reset HEAD resources.html~
 **** Amending commits
+    ~git commit --amend -m 'The last commit edit by join the new one'~
+    /the same command to change commit message only/
 **** Retrieving old versions
+    ~git checkout <commit_id> -- <filename>~
 **** Reverting a commit
+    /mirror changes and invert it/
+    ~git revert <commit_id>~
 **** Using reset to undo commits
 **** Demonstrating a soft reset
+    #+BEGIN_QUOTE
+    Just rewind back in time
+    #+END_QUOTE
+    ~git reset --soft <commit_id>~
+    - changes are in the staging index
+    - it's possible to:
+      ~git reset --soft <recent_id>~
+    - Like a *Time Machine*
+    - Moves HEAD pointer among commits
+    - Safest solution
 **** Demonstrating a mixed reset
+    #+BEGIN_QUOTE
+    Same as the previous one except that changes move into
+    working tree (not staging index)
+    #+END_QUOTE
+    - Hence it handy to edit it up one more time
 **** Demonstrating a hard reset
-**** Removing untracked files
-*** Ignoring Files
-**** Using .gitignore files
-**** Understanding what to ignore
-**** Ignoring files globally
-**** Ignoring tracked files
-**** Tracking empty directories
+    - Move project state backward only
+    - Leaves no traces of unnecessary commits
+    - Really dangerous option *be aware*
+**** Removing un-tracked files
+    ~git clean~
+    thrown away all unstaged files at once*** Ignoring Files
 *** Branching
 *** Merging Branches
 *** Stashing Changes
