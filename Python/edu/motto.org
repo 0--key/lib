@@ -7229,6 +7229,20 @@ http://github.com/pydata/pydata-book
       /removes the <file> out from staging index/
 **** Tracking empty directories
 *** Branching
+**** Branching overview
+**** Viewing and creating branches
+**** Switching branches
+**** Creating and switching branches
+**** Switching branches with uncommitted changes
+**** Comparing branches
+    ~git diff <branch_1>..<branch_2>~
+    ~git diff --color-words <branch_1>..<branch_2>^~
+    ~git branch --merged~
+**** Renaming branches
+    ~git branch -m <old_b_name> <new_b_name>~
+**** Deleting branches
+    ~git branch -d <b_name>~
+**** Configuring the command prompt to show the branch
 *** Merging Branches
 *** Stashing Changes
 *** Remotes
