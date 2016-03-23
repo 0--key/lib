@@ -7244,6 +7244,15 @@ http://github.com/pydata/pydata-book
     ~git branch -d <b_name>~
 **** Configuring the command prompt to show the branch
 *** Merging Branches
+**** Merging code
+**** Using fast-forward merge vs. true merge
+**** Merging conflicts
+**** Resolving merge conflicts
+***** Abort
+***** Resolve the conflict manually
+***** Use a merge tool
+**** Exploring strategies to reduce merge conflicts
+
 *** Stashing Changes
 *** Remotes
 *** Tools and Next Steps
