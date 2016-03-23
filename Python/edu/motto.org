@@ -7251,6 +7251,7 @@ http://github.com/pydata/pydata-book
 ***** Abort
       ~git merge --abort~
 ***** Resolve the conflict manually
+      Is it possible to do?
 ***** Use a merge tool
 **** Exploring strategies to reduce merge conflicts
 
