@@ -2121,6 +2121,12 @@ How it works
 *** Samples:
     Ctrl-q Ctrl-j [-][-_A-Za-z0-9 ]+[.srt]+$
 
+** DONE Capture
+   Capture lets you quickly store notes with little interruption of your
+   work flow.
+*** Setting up
+*** Using
+*** TODO Capture templates
 
 * Dive deeper into Python 			:Python:
 

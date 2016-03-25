@@ -92,3 +92,11 @@
 (setq google-translate-default-target-language "ru")
 (global-set-key (kbd "C-c t") 'google-translate-at-point)
 (global-set-key (kbd "C-c T") 'google-translate-query-translate)
+;;     (setq org-default-notes-file (concat org-directory "/notes.org"))
+     (define-key global-map "\C-cc" 'org-capture)
+
+ (setq org-capture-templates
+       '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+	  "* TODO %?\n  %i\n  %a")
+	 ("j" "Journal" entry (file+datetree "~/org/journal.org")
+	  "* %?\nEntered on %U\n  %i\n  %a")))
