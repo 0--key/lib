@@ -7147,7 +7147,8 @@ http://github.com/pydata/pydata-book
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-* Discover Git work-flow  	                :Git:
+* Discover Git work-flow 						:Git:
+  [[http://nvie.com/posts/a-successful-git-branching-model/][Branching Model]]
 ** Version Control with Git			:vc:
 *** Preface
 **** Audience
