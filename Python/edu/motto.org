@@ -7323,6 +7323,7 @@ http://github.com/pydata/pydata-book
       ~git merge --abort~
 ***** Resolve the conflict manually
       It is necessary to test how to resolve it
+      And test how it works
 ***** Use a merge tool
 **** Exploring strategies to reduce merge conflicts
 
