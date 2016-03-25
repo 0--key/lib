@@ -7322,7 +7322,11 @@ http://github.com/pydata/pydata-book
 ***** Abort
       ~git merge --abort~
 ***** Resolve the conflict manually
+<<<<<<< HEAD
       Is it possible to do?
+=======
+      It is necessary to test how to resolve it
+>>>>>>> test_branch
 ***** Use a merge tool
 **** Exploring strategies to reduce merge conflicts
 
