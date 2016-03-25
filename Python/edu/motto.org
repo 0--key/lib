@@ -7325,7 +7325,7 @@ http://github.com/pydata/pydata-book
       It is necessary to test how to resolve it
       This is the next test on merge conflict
       This string out from master branch
-      New string out from the new branch
+      New string out from the custom branch
 ***** Use a merge tool
 **** Exploring strategies to reduce merge conflicts
 
