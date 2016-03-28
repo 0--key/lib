@@ -14,7 +14,7 @@
 
 *** the spaced repetition is the best approach;
    
-* Enhance English [0%] 		                :English:
+* Enhance English			        :English:
 ** TODO Grammar [0%]
 *** TODO Tutorial [37%]
     [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -7147,7 +7147,7 @@ http://github.com/pydata/pydata-book
 *** [[http://careercup.com/][Additional information]] on website
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-* Discover Git work-flow 						:Git:
+* Discover Git work-flow 			:Git:
   [[http://nvie.com/posts/a-successful-git-branching-model/][Branching Model]]
 ** Version Control with Git			:vc:
 *** Preface
@@ -7351,9 +7351,13 @@ http://github.com/pydata/pydata-book
 
 
 * TODO ToDo 
-** Install Emacs24.5 on Ubuntu 14.04
+** DONE Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
    [[Git update][Upgrade git]]
+** DONE Accomplish request-pull with Vikky
+   This is a first pull request
+   This is repo's actual state test
+
 ** TODO Big-Charge-Init approach
 *** Foreword
     Distributed computational units design with data-driven bias.
@@ -7399,6 +7403,3 @@ http://github.com/pydata/pydata-book
 **** Org-Octopress
 *** Custom URLs
 *** Guides
-** Accomplish request-pull with Vikky
-   This is a first pull request
-   This is repo's actual state test
