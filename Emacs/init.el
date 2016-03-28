@@ -45,20 +45,6 @@
  '(org-confirm-babel-evaluate nil)
 ;;
  ;; ElFeed ->>
- '(elfeed-feeds
-   (quote
-    ("https://www.quora.com/Life/rss"
-     "https://www.quora.com/Computer-Programmers/rss"
-     "https://www.quora.com/Learning/rss"
-     "https://www.quora.com/Python-programming-language-1/rss"
-     "https://www.quora.com/Life-Advice/rss"
-     "https://www.quora.com/Philosophy-of-Everyday-Life/rss"
-     "https://www.quora.com/Software-Engineering/rss"
-     "https://www.quora.com/Good-Habits/rss"
-     "https://www.quora.com/Career-Advice/rss"
-     "https://www.quora.com/Sociology-of-Everyday-Life/rss"
-     "https://www.quora.com/People-Skills/rss"
-     "https://www.quora.com/Linux/rss")))
  );; end of custom variables
 ;;
 ;; (global-auto-revert-mode t)
@@ -100,3 +86,16 @@
 	  "* TODO %?\n  %i\n  %a")
 	 ("j" "Journal" entry (file+datetree "~/org/journal.org")
 	  "* %?\nEntered on %U\n  %i\n  %a")))
+(setq elfeed-feeds
+    '(("https://www.quora.com/Life/rss" Life)
+      ("https://www.quora.com/Computer-Programmers/rss" Programmers)
+      ("https://www.quora.com/Learning/rss" Learning)
+      ("https://www.quora.com/Python-programming-language-1/rss" Python)
+      ("https://www.quora.com/Life-Advice/rss" Advice)
+      ("https://www.quora.com/Philosophy-of-Everyday-Life/rss" Everyday)
+      ("https://www.quora.com/Software-Engineering/rss" Software)
+      ("https://www.quora.com/Good-Habits/rss" Good-Habits)
+      ("https://www.quora.com/Career-Advice/rss" Career)
+      ("https://www.quora.com/Sociology-of-Everyday-Life/rss" Sociology)
+      ("https://www.quora.com/People-Skills/rss" Skills)
+      ("https://www.quora.com/Linux/rss" Linux)))
