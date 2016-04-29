@@ -1881,6 +1881,7 @@ How it works
    DEADLINE: <2016-01-25 Mon>
 ** TODO New shortcuts 	                        :keys:
 *** General 			                :gen:
+**** M-x toggle-truncate-lines
 **** Switch buffer in the stack C-x Left/Right
 **** Key bindings
      C-h b
