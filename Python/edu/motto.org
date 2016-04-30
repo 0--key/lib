@@ -1770,6 +1770,14 @@
 ** Replace the comments or pseudo-code with real code
 
 ** Optimize the real code
+   
+** Common Mistakes
+
+*** Jumping right into code
+
+*** Not understanding the problem
+
+*** Skipping manual steps
 
 ** Practicing
 
