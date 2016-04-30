@@ -42,10 +42,13 @@
   ))
 ;; ^^^ Babel customization
 (custom-set-variables
- '(org-confirm-babel-evaluate nil)
-;;
- ;; ElFeed ->>
- );; end of custom variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(magit-diff-section-arguments (quote ("--no-ext-diff")))
+ '(org-confirm-babel-evaluate nil))
+;; end of custom variables
 ;;
 ;; (global-auto-revert-mode t)
 ;;
@@ -99,3 +102,9 @@
       ("https://www.quora.com/Sociology-of-Everyday-Life/rss" Sociology)
       ("https://www.quora.com/People-Skills/rss" Skills)
       ("https://www.quora.com/Linux/rss" Linux)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
