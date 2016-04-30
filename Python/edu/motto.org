@@ -1757,6 +1757,32 @@
    - Meet or beat this time
    - Repeat the exercise
      
+* Problem solving technique
+
+** Read the problem completely twice
+
+** Solve the problem manually with 3 sets of sample data
+
+** Optimize the manual steps
+
+** Write the manual steps as comments or pseudo-code
+
+** Replace the comments or pseudo-code with real code
+
+** Optimize the real code
+
+** Practicing
+
+*** TopCoder
+
+**** [[http://bit.ly/VUZa8u][Algorithm contents]]
+
+**** [[http://bit.ly/Yc6hnr][Advanced tutorials]]
+
+*** [[http://codility.com/][Codility]]
+
+*** [[http://projecteuler.net/][Project Euler]]
+
 * Enlarge Emacs toolbox 	                :Emacs:
 ** DONE Elpy					:elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
