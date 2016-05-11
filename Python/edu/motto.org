@@ -7494,6 +7494,14 @@ http://github.com/pydata/pydata-book
 * Enhance general coding grit	                :coding:
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
+*** Programming design questions
+**** Software design pattern
+     is a general reusable solution to a commonly occurring problem within
+     a given context in software design.
+**** Singleton pattern
+     is a design pattern that restricts the instantiation of a class
+     to one object.
+**** Already utilized patterns
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
 * Discover Git work-flow 			:Git:
