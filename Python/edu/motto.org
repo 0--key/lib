@@ -5991,9 +5991,15 @@ http://github.com/pydata/pydata-book
 ******* OOP: three pillars      :pillars:
 	#+BEGIN_QUOTE
 	- encapsulation
+	  - data hiding or restricting access to data
+	  - put data and operations in the same place
 	- inheritance
 	- polymorphism
+	  - the provision of a single interface to entities of
+	    different types
 	#+END_QUOTE
+	object composition is a way to combine simple objects
+	or data types into more complex ones
 ****** Object-Oriented Python
        - Everything is an object, even numbers
        - Other languages employ /primitives/ (non-object data)
