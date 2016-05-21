@@ -7200,8 +7200,103 @@ http://github.com/pydata/pydata-book
 	:   File "<stdin>", line 1, in <module>
 	: StopIteration
 
-****** TODO Built-in functions
-       
+****** DONE Built-in functions					  :built:ins:
+
+******* map()								:map:
+	#+BEGIN_SRC python :results output :session fp
+          def upper(s):
+              return s.upper()
+
+          list(map(upper, ['sentence', 'fragment']))
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... >>> ['SENTENCE', 'FRAGMENT']
+
+	
+******* filter()						     :filter:
+	#+BEGIN_SRC python :results output :session fp
+          def is_even(x):
+              return (x % 2) == 0
+
+          list(filter(is_even, range(10)))
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... >>> [0, 2, 4, 6, 8]
+
+******* enumerate()						  :enumerate:
+	#+BEGIN_SRC python :results output :session fp
+          for item in enumerate(['subject', 'verb', 'object']):
+              print(item)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... (0, 'subject')
+	: (1, 'verb')
+	: (2, 'object')
+
+******* sorted()						     :sorted:
+	#+BEGIN_SRC python :results output :session fp
+          import random
+          # Generate 8 random numbers between [0, 10000)
+          rand_list = random.sample(range(10000), 8)
+          rand_list  
+          sorted(rand_list)  
+          sorted(rand_list, reverse=True)
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... >>> [929, 3653, 8652, 6331, 2231, 4890, 5664, 5483]
+	: [929, 2231, 3653, 4890, 5483, 5664, 6331, 8652]
+	: [8652, 6331, 5664, 5483, 4890, 3653, 2231, 929]
+
+******* any()								:any:
+	#+BEGIN_SRC python :results output :session fp
+          any([0,1,0])
+          any([0,0,0])
+          any([1,1,1])
+	#+END_SRC
+
+	#+RESULTS:
+	: True
+	: False
+	: True
+
+******* all()								:all:
+	#+BEGIN_SRC python :results output :session fp
+          all([0,1,0])
+          all([0,0,0])
+          all([1,1,1])
+	#+END_SRC
+
+	#+RESULTS:
+	: False
+	: False
+	: True
+
+******* zip()								:zip:
+	takes one element from each iterable and returns
+	them in a tuple:
+	#+BEGIN_SRC python :results output :session fp
+          list(zip(['a', 'b', 'c'], (1, 2, 3)))
+	  #print(a)
+	  
+          # with non equal number of elements:
+          list(zip(['a', 'b'], (1, 2, 3)))
+	  #print(b)
+	#+END_SRC
+
+	#+RESULTS:
+	: [('a', 1), ('b', 2), ('c', 3)]
+	: ... >>> ... [('a', 1), ('b', 2)]
 
 ****** TODO The itertools module
 
