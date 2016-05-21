@@ -6922,7 +6922,7 @@ http://github.com/pydata/pydata-book
 
 ****** Static Methods and Class Methods
 
-***** Functional Programming HOWTO [30%]
+***** Functional Programming HOWTO [50%]			  :func_prog:
 
 ****** DONE Introduction [4/4]
 
@@ -7115,7 +7115,7 @@ http://github.com/pydata/pydata-book
 	('c', 3)]
 #+end_example
 
-****** TODO Generators				:yield:
+****** DONE Generators						      :yield:
        #+BEGIN_QUOTE
        Generators are a special class of functions that simplify the task of
        writing iterators.  Regular functions compute a value and return it,
