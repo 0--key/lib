@@ -59,7 +59,7 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-late-night)));;hober)))
+     (color-theme-lawrence)));;night)));;hober)))
 (global-set-key (kbd "C-c 1") 'color-theme-charcoal-black)
 (global-set-key (kbd "C-c 2") 'color-theme-lawrence)
 (global-set-key (kbd "C-c 3") 'color-theme-lethe)
@@ -70,8 +70,10 @@
 (global-set-key (kbd "C-c 8") 'color-theme-retro-orange)
 ;;
 ;;
-(require 'git)
-(require 'git-blame)
+;;(require 'git)
+;;(require 'git-blame)
+;;
+(require 'howdoi)
 ;;
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
