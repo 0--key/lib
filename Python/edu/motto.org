@@ -1728,7 +1728,7 @@
        - There are some wonderful Goyas in the Prado.
        - Have you ever read 'The Tale of Two Cities'?
 
-**** TODO Verbs [8%]
+**** TODO Verbs [12%]
      Verbs in English have four basic parts:
 
      | Base form | -ing form | Past tense | Past participle |
@@ -1841,7 +1841,61 @@
        - Did they suspect anything?
        - Could we have done anything?
 
-***** TODO Verb phrases
+***** DONE Verb phrases
+      The verb phrase in English has the following forms:
+
+****** a main verb
+       | We        | are     | here.         |
+       | I         | like    | it.           |
+       | Everybody | saw     | the accident. |
+       | We        | laughed |               | 
+
+       The verb may be in the present tense /(are, like)/ or the past tenses
+       /(saw, laughed)/. A verb phrase with only a main verb expresses
+       *simple aspect*
+       
+****** an *auxiliary verb ("be")* and a main verb in /-ing/ form
+       | Everybody | is   | watching |
+       | We        | were | laughing |
+
+       A verb phrase with "be" and /-ing/ expresses *continuous aspect*.
+
+****** an *auxiliary verb ("have")* and a *main verb with past participle*
+       | They      | have | enjoyed  | themselves. |
+       | Everybody | has  | worked   | hard.       |
+       | He        | had  | finished | work.       |
+
+       A verb with "have" and the past participle expresses *perfect aspect*.
+       A verb with /have//has/ expresses *present perfect*, and a verb with
+       /had/ expresses *past perfect*.
+
+****** an *auxiliary verb ("have" + "been")* and a *main verb in the /-ing/ form*
+       | Everybody | has been | working  | hard. |
+       | He        | had been | singing. |       |
+
+       A verb with "have" and "been" and the present participle expresses
+       *perfect continuous aspect*. A verb with /have//has/ expresses
+       *present perfect continuous*, and a verb with /had/ expresses
+       *past perfect continuous*.
+
+****** a *modal verb* (can, could, may, might, must, shall, should, will, would)
+       and a *main verb*
+       | They | will  | come. |
+       | He   | might | come. |
+
+****** We can use *modal verbs* with the auxiliaries *"be"*, *"have"* and
+       *"have been"*
+       | They | will  | be        | listening. |
+       | He   | might | have      | arrived.   |
+       | She  | must  | have been | listening. |
+
+****** Activities
+       - He has been working very hard lately.
+       - You should have gone to the doctor.
+       - I may see you on Thursday.
+       - We will be thinking about you.
+       - I have seen you somewhere before.
+       - It is raining again.
 
 ***** TODO Present tense
 
