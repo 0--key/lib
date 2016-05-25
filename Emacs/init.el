@@ -62,7 +62,7 @@
      (color-theme-lawrence)));;night)));;hober)))
 (global-set-key (kbd "C-c 1") 'color-theme-charcoal-black)
 (global-set-key (kbd "C-c 2") 'color-theme-lawrence)
-(global-set-key (kbd "C-c 3") 'color-theme-lethe)
+(global-set-key (kbd "C-c 3") 'color-theme-hober);; for Magit particularly
 (global-set-key (kbd "C-c 4") 'color-theme-calm-forest)
 (global-set-key (kbd "C-c 5") 'color-theme-dark-gnus)
 (global-set-key (kbd "C-c 6") 'color-theme-late-night)
