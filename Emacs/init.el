@@ -39,6 +39,7 @@
  '((python . t)
    (emacs-lisp . t)
    (shell . t)
+   (js . t)
   ))
 ;; ^^^ Babel customization
 (custom-set-variables

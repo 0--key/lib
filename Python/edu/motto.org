@@ -2833,6 +2833,13 @@
       :   (use "git push" to publish your local commits)
       : nothing to commit, working directory clean
 
+**** javascript								 :js:
+     #+BEGIN_SRC js :results value
+       2 + 7
+     #+END_SRC
+
+     #+RESULTS:
+
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
     C-c \ or C-c / m
