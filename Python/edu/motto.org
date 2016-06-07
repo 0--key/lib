@@ -2885,9 +2885,10 @@
 
 **** javascript								 :js:
      #+BEGIN_SRC js :results value
-       2 + 7
+       2 + 7;
+       console.log(sum(range(1, 10)));
      #+END_SRC
-
+     
      #+RESULTS:
 
 *** Dates <2016-02-03 Wed>
