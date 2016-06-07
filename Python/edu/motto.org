@@ -2883,13 +2883,19 @@
       :   (use "git push" to publish your local commits)
       : nothing to commit, working directory clean
 
-**** javascript								 :js:
-     #+BEGIN_SRC js :results value
-       2 + 7;
-       console.log(sum(range(1, 10)));
+**** javascript					:js:
+     #+BEGIN_SRC js :cmd "nodejs"
+       var total = 0, count = 1;
+       while (count <= 10) {
+       total += count;
+       count += 1;
+       }
+       console.log(total);
      #+END_SRC
      
      #+RESULTS:
+     : 55
+     : undefined
 
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
