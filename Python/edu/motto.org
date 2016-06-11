@@ -8426,6 +8426,25 @@ http://github.com/pydata/pydata-book
       <2016-01-18 
       
 * Enhance general coding grit	                :coding:
+
+** Test Driven Development Approach		:TDD:
+
+*** unittest
+    #+BEGIN_SRC shell :results output
+      pwd
+      python --version
+      # python -m unittest -h
+      # python -m unittest init_test
+
+
+    #+END_SRC
+
+    #+RESULTS:
+    : /usr/local/share/DVCS/lib/Python/edu
+    : Python 3.4.3
+
+*** nosetest
+
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
 *** Programming design questions
