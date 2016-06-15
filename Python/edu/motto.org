@@ -2522,6 +2522,7 @@
 
 
 ***** TODO Continuous aspect
+      
 
 ***** TODO Active and passive voice
 
@@ -8499,8 +8500,10 @@ http://github.com/pydata/pydata-book
 *** unittest
     #+BEGIN_SRC shell :results output
       pwd
+      cd modules
+      pwd
       python --version
-      # python -m unittest -h
+      python -m unittest test
       # python -m unittest init_test
 
 
@@ -8508,6 +8511,7 @@ http://github.com/pydata/pydata-book
 
     #+RESULTS:
     : /usr/local/share/DVCS/lib/Python/edu
+    : /usr/local/share/DVCS/lib/Python/edu/modules
     : Python 3.4.3
 
 *** nosetest
