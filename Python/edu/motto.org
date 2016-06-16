@@ -8527,6 +8527,12 @@ http://github.com/pydata/pydata-book
 	 - A Unit test should fail & point out which unit failed and why
 
 
+****** Limitations of unit testing
+       It's not a 100% guarantee of bug-free development
+       - Testing can't find all the errors
+       - Unit testing won't fine integration errors
+
+
 *** unittest
     #+BEGIN_SRC shell :results output
       pwd
