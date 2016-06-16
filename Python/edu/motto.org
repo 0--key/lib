@@ -8503,24 +8503,28 @@ http://github.com/pydata/pydata-book
 
 ***** What is unit testing for?
       *Test Suit*
-      - Understand what to build
-	+ Collaborate with people in other roles to understand what's needed
-	  - Business analyst
-	  - Product owner
-	  - Tester
-	  - Integration designer
-	  - Lead developer
-      - Document the units
-	- /Executable specification/
-	  - Tests document the behavior of the code
-	  - How the unit is intended to be used
-      - Design the units
-	- Decompose the problem into units that are independently testable
-	  - loose coupling
-	- Design the ~interface~ separately from doing the ~implementation~
-      - Regression protection
-	Regression - something worked before and doesn't any more
-	- A Unit test should fail & point out which unit failed and why
+      
+****** Understand what to build
+	 + Collaborate with people in other roles to understand what's needed
+	   - Business analyst
+	   - Product owner
+	   - Tester
+	   - Integration designer
+	   - Lead developer
+       
+****** Document the units
+	 - /Executable specification/
+	   - Tests document the behavior of the code
+	   - How the unit is intended to be used
+       
+****** Design the units
+	 - Decompose the problem into units that are independently testable
+	   - loose coupling
+	 - Design the ~interface~ separately from doing the ~implementation~
+       
+****** Regression protection
+	 Regression - something worked before and doesn't any more
+	 - A Unit test should fail & point out which unit failed and why
 
 
 *** unittest
