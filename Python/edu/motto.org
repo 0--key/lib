@@ -8533,6 +8533,37 @@ http://github.com/pydata/pydata-book
        - Unit testing won't fine integration errors
 
 
+***** Your personal development process
+
+****** Test last
+       - Design code
+       - Achieve some results
+       - Design test(s) to prevent regression
+       - Debug and rework
+
+       *Risk:*
+       - Discover test-ability problems and bugs late in the process
+       - You'll rush or skip designing the tests
+
+
+****** Test first
+       - Design code
+       - Design tests
+       - Write code
+
+       *Risk:* Rework
+
+
+****** Test driven
+       - Write a test
+       - Write a little code
+       - Gradually rebuild code and test together
+
+
+***** Continuous integration
+      http://www.martinfowler.com/articles/continuousIntegration.html
+
+
 *** unittest
     #+BEGIN_SRC shell :results output
       pwd
