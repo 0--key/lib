@@ -3214,7 +3214,7 @@ How it works
 ** DONE Embedding Git
    sudo apt-get install git-el on Ubuntu host
    & git-blame as Emacs package
-** DONE MaGit
+** DONE MaGit					:Magit:
 *** Core features
     In Magit staging a hunk or even just part of a hunk is as trivial as
     staging all changes made to a file.
