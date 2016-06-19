@@ -8499,6 +8499,93 @@ http://github.com/pydata/pydata-book
 
 *** Main Concepts
 
+**** Write better code in less time
+     Evan Dorn
+     http://lrdesign.com
+     evan@lrdesign.com
+     @idahoev
+
+***** Intelligence is a liability
+
+***** Smart people
+      Can make progress without process (This is *not* a good thing)
+
+***** False premises to avoid TDD
+      - Washing hands and organizing surgical tools wastes a lot of time. I
+	could help more patients if I just dove in.
+      - We know how skyscrapers work. Just give us some bricks and we'll get
+	started.
+
+
+***** Professionals
+      - Design, plan and prepare /first/.
+      - ...then do the work.
+      - This produces better results /faster/.
+
+
+***** Process is the difference between
+      - Surgery and cutting people open
+      - Engineering and tinkering
+      - Software engineering and programming
+
+
+***** Software process
+      - Architecture
+      - Conventions & standards
+      - Version Control
+      - Coordination (agile, etc.)
+      - Test-driven development
+
+
+***** Tests provide
+      - Documentation of code
+      - Catch future errors
+      - Long-term time savings
+
+      But tests are just a tool, not a process
+
+***** Test-Driven Development
+      is more than just writing tests
+
+***** TDD defined
+      - Decide what the code will do
+      - Write a test that will pass if the code does that thing
+      - Run the test, see it fail
+      - Write the code
+      - Run the test, see it pass
+
+
+***** TDD provides
+      - Design and plan before you code
+      - Document your design
+      - Proof that code implements design
+      - _Encourages design of testable code_
+
+
+***** Testable code
+      Looks a lot like good code!
+      - Modular
+      - Decoupled design
+      - Methods of limited scope
+      - etc.
+
+
+***** Result
+      Better code in /less time/.
+
+***** Caveat
+      You will have to do this for a while before you will be faster.
+
+***** Caveat #2
+      Intelligence is an *asset*.
+      /Be smart about how you test/
+
+***** Use judgment
+      - Some things are too hard to test
+      - Some tests are too trivial to be useful
+      - Overtesting /is/ possible
+      - Exploratory coding w/o tests is OK!
+
 **** Why and when you should write unit tests?
 
 ***** What is unit testing for?
