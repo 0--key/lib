@@ -8717,6 +8717,48 @@ http://github.com/pydata/pydata-book
     : /usr/local/share/DVCS/lib/Python/edu/modules
     : Python 3.4.3
 
+*** pytest					:pytest:
+
+**** Official documentation
+     [[http://pytest.org/latest/contents.html#toc][link]]
+
+***** Installation
+      #+BEGIN_SRC shell
+      python --version
+      pip install -U pytest
+      py.test --version
+      #+END_SRC
+
+      #+RESULTS:
+      | Python       | 3.4.3                             |           |              |        |
+      | Collecting   | pytest                            |           |              |        |
+      | Downloading  | pytest-2.9.2-py2.py3-none-any.whl | (162kB)   |              |        |
+      | Collecting   | py>=1.4.29                        | (from     | pytest)      |        |
+      | Downloading  | py-1.4.31-py2.py3-none-any.whl    | (81kB)    |              |        |
+      | Installing   | collected                         | packages: | py,          | pytest |
+      | Successfully | installed                         | py-1.4.31 | pytest-2.9.2 |        |
+      
+      
+***** Getting started
+      #+BEGIN_SRC shell :results output
+              pwd
+              ls tests
+        #       echo '# content of test_sample.py
+        # def func(x):
+        #     return x + 1
+
+        # def test_answer():
+        #     assert func(3) == 5' > tests/test_sample.py
+
+      #+END_SRC
+
+      #+RESULTS:
+      : /usr/local/share/DVCS/lib/Python/edu
+      : __init__.py
+      : init_test.py
+      : __pycache__
+      : test_sample.py
+
 *** nosetest
 
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
