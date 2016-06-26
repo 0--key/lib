@@ -1728,7 +1728,7 @@
        - There are some wonderful Goyas in the Prado.
        - Have you ever read 'The Tale of Two Cities'?
 
-**** TODO Verbs [28%]
+**** TODO Verbs [32%]
      Verbs in English have four basic parts:
 
      | Base form | -ing form | Past tense | Past participle |
@@ -2573,7 +2573,71 @@
        - She's going out with that friend of Mike's now.
 
 
-***** TODO Active and passive voice
+***** DONE Active and passive voice
+      *Transitive verbs* have both *active* and *passive* forms:
+
+      | active                          | passive                       |
+      |---------------------------------+-------------------------------|
+      | The hunter killed lion          | The lion was killed by hunter |
+      | Someone has cleaned the windows | The windows have been cleaned |
+
+      The passive forms are made up of the verb /be/ with a *past participle*:
+
+      |             | /be/            | past participle |                    |
+      |-------------+-----------------+-----------------+--------------------|
+      | English     | is              | spoken          | all over the world |
+      | The windows | have been       | cleaned         |                    |
+      | Lunch       | was being       | served          |                    |
+      | The work    | will be         | finished        | soon               |
+      | They        | might have been | invited         | to the party       |
+
+      We sometimes use verb /get/ to form the passive:
+      - Be careful with the glass. It might *get* broken.
+      - Peter *got* hurt in a crush.
+
+      If we want to show the person or thing doing the action we use *by*:
+      - She was attacked by a dangerous dog.
+      - The money was stolen by her husband.
+
+      We can use the *indirect object* as the subject of a passive verb:
+
+      | active                             | passive                              |
+      |------------------------------------+--------------------------------------|
+      | I gave him a book for his birthday | He was given a book for his birthday |
+      | Someone sent her a cheque for a    | She was sent a cheque for a          |
+      | thousand euros                     | thousand euros                       |
+
+      We can use *phrasal verbs* in the passive:
+
+      | active                                | passive                                   |
+      |---------------------------------------+-------------------------------------------|
+      | They *called off* the meeting         | The meeting *was called off*.             |
+      | His grandmother *looked after* him    | He *was looked after* by his grandmother. |
+      | They *will send* him *away* to school | He *will be sent away* to school.         |
+
+      Some verbs very *frequently used in the passive* are followed by the
+      *to-infinitive*:
+
+      | be supposed to  | be expected to | be asked to |
+      | be scheduled to | be allowed to  | be told to  |
+
+      - John *has been asked to* make a speech at the meeting.
+      - You *are supposed to* wear a uniform.
+      - The meeting *is scheduled to* start at seven.
+
+
+****** Activities
+       - The decorations are currently being refurbished.
+       - Job applicants are expected to arrive fifteen minutes before the
+	 start of the test.
+       - The actor had already been offered twice before.
+       - After his parents died, hi was brought up by an aunt in New Zealand.
+       - I'm afraid that particular product has been discounted.
+       - Patients should always be told of the severity of their condition.
+       - The lifeboatman  was awarded a medal for bravery.
+       - Examination candidates will be informed of the result of the interview
+	 on Wednesday.
+       - All members of staff will be taken down at the end of the month.
 
 ***** TODO to +infinitive
 
