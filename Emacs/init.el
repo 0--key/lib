@@ -9,7 +9,14 @@
 ;;
 (package-initialize)
 (elpy-enable)
- 
+
+(require 'voca-builder)
+  (setq voca-builder/voca-file "~/.vocabulary.org")
+  (setq voca-builder/export-file "~/.voca-builder-temp.org")
+  (setq voca-builder/current-tag "Demo")
+  (global-set-key (kbd "<f4>") 'voca-builder/search-popup) 
+
+
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
