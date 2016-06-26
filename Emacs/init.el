@@ -111,7 +111,8 @@
       ("https://www.quora.com/Career-Advice/rss" Career)
       ("https://www.quora.com/Sociology-of-Everyday-Life/rss" Sociology)
       ("https://www.quora.com/People-Skills/rss" Skills)
-      ("https://www.quora.com/Linux/rss" Linux)))
+      ("https://www.quora.com/Linux/rss" Linux)
+      ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
