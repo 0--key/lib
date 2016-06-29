@@ -3168,40 +3168,6 @@
    - Meet or beat this time
    - Repeat the exercise
      
-* Problem solving technique
-
-** Read the problem completely twice
-
-** Solve the problem manually with 3 sets of sample data
-
-** Optimize the manual steps
-
-** Write the manual steps as comments or pseudo-code
-
-** Replace the comments or pseudo-code with real code
-
-** Optimize the real code
-   
-** Common Mistakes
-
-*** Jumping right into code
-
-*** Not understanding the problem
-
-*** Skipping manual steps
-
-** Practicing
-
-*** TopCoder
-
-**** [[http://bit.ly/VUZa8u][Algorithm contents]]
-
-**** [[http://bit.ly/Yc6hnr][Advanced tutorials]]
-
-*** [[http://codility.com/][Codility]]
-
-*** [[http://projecteuler.net/][Project Euler]]
-
 * Enlarge Emacs toolbox 	                :Emacs:
 ** DONE Elpy					:elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
@@ -8843,6 +8809,42 @@ http://github.com/pydata/pydata-book
       
 * Enhance general coding grit	                :coding:
 
+** Problem solving technique
+
+*** Read the problem completely twice
+
+*** Solve the problem manually with 3 sets of sample data
+
+*** Optimize the manual steps
+
+*** Write the manual steps as comments or pseudo-code
+
+*** Replace the comments or pseudo-code with real code
+
+*** Optimize the real code
+   
+*** Common Mistakes
+
+**** Jumping right into code
+
+**** Not understanding the problem
+
+**** Skipping manual steps
+
+*** Practicing
+
+**** TopCoder
+
+***** [[http://bit.ly/VUZa8u][Algorithm contents]]
+
+***** [[http://bit.ly/Yc6hnr][Advanced tutorials]]
+
+**** [[http://codility.com/][Codility]]
+
+**** [[http://projecteuler.net/][Project Euler]]
+
+
+
 ** Test Driven Development Approach		:TDD:
 
 *** Main Concepts
@@ -9060,6 +9062,7 @@ http://github.com/pydata/pydata-book
 
 *** nosetest
 
+
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
 *** Programming design questions
@@ -9070,7 +9073,10 @@ http://github.com/pydata/pydata-book
      is a design pattern that restricts the instantiation of a class
      to one object.
 **** Already utilized patterns
+
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
+
+
 
 * Discover Git work-flow 			:Git:
   [[http://nvie.com/posts/a-successful-git-branching-model/][Branching Model]]
