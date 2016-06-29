@@ -14,6 +14,70 @@
 
 *** the spaced repetition is the best approach;
    
+** Improve your memory
+   Miller's magic number is 7
+
+*** Memory principles
+**** Repetition
+     - Write it down
+     - Repeat it
+     - Quiz yourself
+**** Exaggeration
+**** Chunking
+**** Association
+**** Pictures
+     A picture worth a thousand words.
+     Visual information is easier to remember than abstract
+     information
+    
+*** Memory techniques
+**** Note-taking techniques
+     Taking notes strengthens your memory
+**** Using mnemonic devices
+     - Read paragraph
+     - Highlight key words or phrases
+       - highlight
+       - make notes in margins
+       - underline
+       - use an app
+**** Using songs, rhymes, and alliteration
+     Text is easier to remember as a song
+**** The story method
+     The human mind is wired to remember stories
+**** The link system
+**** Memory palaces and the method of loci
+**** The similar-sound technique
+
+*** Using the numeric peg system
+
+*** Situational methods
+
+*** Conclusion
+
+** Speed reading fundamentals
+*** Three reading habits that slow you down
+    1. Fixation
+    2. Regression
+    3. Subvocalization
+*** Using your hand to guide your eyes
+    when you are reading book
+*** Reading faster on the computer screen
+    http://accelareader.com
+*** Simple drills you can practice to boost reading speed
+    - Read for twenty minutes
+    - Mark the place where you stopped
+    - Get through that same material in ten minutes or less
+*** Reading groups of words
+    Each line of text has three parts:
+    - Beginning
+    - Middle
+    - End
+*** Using deadlines to improve your reading speed
+    - Read one page of text
+    - Write down how long it takes
+    - Meet or beat this time
+    - Repeat the exercise
+     
 * Enhance English			        :English:
 ** TODO Grammar [0%]
 *** TODO Tutorial [75%]
@@ -3104,70 +3168,6 @@
    If you still don't understand how methods work, a look at the
    implementation can perhaps clarify matters.
    
-* Improve your memory
-  Miller's magic number is 7
-
-** Memory principles
-*** Repetition
-    - Write it down
-    - Repeat it
-    - Quiz yourself
-*** Exaggeration
-*** Chunking
-*** Association
-*** Pictures
-    A picture worth a thousand words.
-    Visual information is easier to remember than abstract
-    information
-    
-** Memory techniques
-*** Note-taking techniques
-    Taking notes strengthens your memory
-*** Using mnemonic devices
-    - Read paragraph
-    - Highlight key words or phrases
-      - highlight
-      - make notes in margins
-      - underline
-      - use an app
-*** Using songs, rhymes, and alliteration
-    Text is easier to remember as a song
-*** The story method
-    The human mind is wired to remember stories
-*** The link system
-*** Memory palaces and the method of loci
-*** The similar-sound technique
-
-** Using the numeric peg system
-
-** Situational methods
-
-** Conclusion
-
-* Speed reading fundamentals
-** Three reading habits that slow you down
-   1. Fixation
-   2. Regression
-   3. Subvocalization
-** Using your hand to guide your eyes
-   when you are reading book
-** Reading faster on the computer screen
-   http://accelareader.com
-** Simple drills you can practice to boost reading speed
-   - Read for twenty minutes
-   - Mark the place where you stopped
-   - Get through that same material in ten minutes or less
-** Reading groups of words
-   Each line of text has three parts:
-   - Beginning
-   - Middle
-   - End
-** Using deadlines to improve your reading speed
-   - Read one page of text
-   - Write down how long it takes
-   - Meet or beat this time
-   - Repeat the exercise
-     
 * Enlarge Emacs toolbox 	                :Emacs:
 ** DONE Elpy					:elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
@@ -9075,8 +9075,6 @@ http://github.com/pydata/pydata-book
 **** Already utilized patterns
 
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
-
-
 
 * Discover Git work-flow 			:Git:
   [[http://nvie.com/posts/a-successful-git-branching-model/][Branching Model]]
