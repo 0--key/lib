@@ -3377,11 +3377,9 @@
 
 This is a sample text to reveiw key-chords
 How it works
-** DONE ISpell
-   [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html][Spelling check]]
-   DEADLINE: <2016-01-25 Mon>
 ** TODO New shortcuts 	                        :keys:
-*** General 			                :gen:
+*** General 								:gen:
+**** *Help* with keys C-h b, d, k, v(ariable)
 **** M-x toggle-truncate-lines
 **** Switch buffer in the stack C-x Left/Right
 **** Key bindings
@@ -3390,7 +3388,6 @@ How it works
 **** Word spell check M-x $
 **** M-x ispell
 **** GoTo M-g g, M-g M-g
-**** Help with keys C-h b, d, k, v(ariable)
 **** Elisp evaluation
      M-x eval-buffer
 **** Bookmarks (set/goto/list/del:
@@ -3436,21 +3433,16 @@ How it works
      C-u C-SPC Jump to last mark
 **** Undo
      C-_
-**** TODO CUA mode
-**** Comment
-     M-; region
+**** (Un)Comment region
+     M-;
 **** Completion
      M-/
-**** TODO Tags
-     C-x C-i
-     M-.
 **** eShell
      C-x m
 **** Indent the region
      C-M-\
 **** Spell checking
      M-x flyspell-mode
-**** TODO flymake-mode for Python
 **** Long scroll in two windows
      M-x follow-mode
 **** List of keys in the particular mode
@@ -3476,7 +3468,7 @@ How it works
 **** M-x irc /join #emacs
 **** Blog about Emacs
      [[http://planet.emacsen.org][blog]]
-**** Pluralsight
+**** DONE Pluralsight
      great resource with video tutorials 
 *** Orgmode 			                :org:
 **** Getting started
@@ -3675,7 +3667,7 @@ How it works
    work flow.
 *** Setting up
 *** Using
-*** TODO Capture templates
+*** DONE Capture templates
 
 * Dive deeper into Python 			:Python:
 
