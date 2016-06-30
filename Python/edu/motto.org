@@ -3370,13 +3370,6 @@
     (require 'key-chord)
     (key-chord-mode 1)
     (require 'key-chord-map)
-
-
-
-
-
-This is a sample text to reveiw key-chords
-How it works
 ** TODO New shortcuts 	                        :keys:
 *** General 					:gen:
 **** *Help* with keys C-h b, d, k, v(ariable)
