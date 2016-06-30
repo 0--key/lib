@@ -3378,7 +3378,7 @@
 This is a sample text to reveiw key-chords
 How it works
 ** TODO New shortcuts 	                        :keys:
-*** General 								:gen:
+*** General 					:gen:
 **** *Help* with keys C-h b, d, k, v(ariable)
 **** M-x toggle-truncate-lines
 **** Switch buffer in the stack C-x Left/Right
@@ -3475,7 +3475,7 @@ How it works
 
      | To read the on-line documentation try | M-x org-info |
 
-**** Visibility Cycling 	 :visibility:
+**** Visibility Cycling				:visibility:
 
      | rotate current subtree between states         | TAB             |
      | rotate entire buffer between states           | S-TAB           |
@@ -3483,7 +3483,7 @@ How it works
      | show the whole file, including drawers        | C-u C-u C-u TAB |
      | reveal context around point                   | C-c C-r         |
 
-**** Motion 		     :motion:
+**** Motion					:motion:
 
      | next/previous heading             | C-c C-n/p |
      | next/previous heading, same level | C-c C-f/b |
@@ -3491,7 +3491,7 @@ How it works
      | jump to another place in document | C-c C-j   |
      | previous/next plain list item     | S-UP/DOWN |
 
-**** Markup 		     :markup:
+**** Markup					:markup:
      *bold*
      /italic/
      _underlined_
@@ -3511,13 +3511,14 @@ How it works
       C-c C-u
 ***** Find tag
       C-c \
-***** Build sparse tree
-      C-c / <extra-key>
 ***** Exit out from sparse tree
       C-c C-c
+**** Sparse trees
+     C-c / <extra-key>
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
 ** DONE Embedding Git
+   *Optionally* for _direct&instant_ Git usage
    sudo apt-get install git-el on Ubuntu host
    & git-blame as Emacs package
 ** DONE MaGit					:Magit:
@@ -3669,6 +3670,7 @@ How it works
 *** Using
 *** DONE Capture templates
 
+** DONE Voca-builder				:vocabulary:extension:
 * Dive deeper into Python 			:Python:
 
 ** in six months <2016-07-15 Wed> 
