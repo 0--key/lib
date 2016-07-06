@@ -9469,9 +9469,8 @@ http://github.com/pydata/pydata-book
 *** Tools and Next Steps
 *** Conclusion
 
-* Open-Source contributing
-** Fork useful projects
-
+* Open-Source contributing			:OpenSource:
+** Fork useful projects				:forks:
 *** DONE EffectivePython
     [[/usr/local/share/DVCS/lib/Python/edu/effectivepython][fork]]
 *** DONE Python-Patterns
@@ -9488,7 +9487,6 @@ http://github.com/pydata/pydata-book
 * TODO ToDo 
 
 ** Main data-flow
-
 *** Vocabulary
     captured by voca-builder and stored into
     vocabulary.org
@@ -9498,6 +9496,7 @@ http://github.com/pydata/pydata-book
 *** Idioms
 
 *** Code snippets
+
 
 ** DONE Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
