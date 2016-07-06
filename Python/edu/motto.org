@@ -9473,7 +9473,12 @@ http://github.com/pydata/pydata-book
 ** Fork useful projects
 
 *** DONE EffectivePython
+    [[/usr/local/share/DVCS/lib/Python/edu/effectivepython][fork]]
 *** DONE Python-Patterns
+    [[/usr/local/share/DVCS/lib/Python/edu/python-patterns][fork]]
+*** DONE Talk Python to Me
+    [[file:/usr/local/share/DVCS/talk-python-transcripts/][fork]]
+
 ** Evaluate it in educational purposes
 ** Open pull request
 
