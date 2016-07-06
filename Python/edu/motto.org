@@ -9486,6 +9486,19 @@ http://github.com/pydata/pydata-book
 
 
 * TODO ToDo 
+
+** Main data-flow
+
+*** Vocabulary
+    captured by voca-builder and stored into
+    vocabulary.org
+
+*** Quotations
+
+*** Idioms
+
+*** Code snippets
+
 ** DONE Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
    [[Git update][Upgrade git]]
