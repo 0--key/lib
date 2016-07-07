@@ -9454,13 +9454,13 @@ http://github.com/pydata/pydata-book
       ~git merge --abort~
 ***** Resolve the conflict manually
       It is necessary to test how to resolve it
-      This is the next test on merge conflict
-      This string out from master branch
-<<<<<<< HEAD
-      New string out from the custom branch
-=======
-      New string out from the #1 branch
->>>>>>> custom
+****** Switch on custom branch
+****** Make changes
+****** Commit changes
+****** Return on master branch
+****** Change the same hunk of code
+****** Commit this changes
+****** Merge branches
 ***** Use a merge tool
 **** Exploring strategies to reduce merge conflicts
 
