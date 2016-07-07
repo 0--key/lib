@@ -9456,7 +9456,7 @@ http://github.com/pydata/pydata-book
       It is necessary to test how to resolve it
 ****** Switch on custom branch
 ****** Make changes
-       (this changes from the master branch)
+       {this changes from the custom branch}
 ****** Commit changes
 ****** Return on master branch
 ****** Change the same hunk of code
