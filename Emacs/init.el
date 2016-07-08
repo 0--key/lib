@@ -20,9 +20,12 @@
 (require 'org-bullets)
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
-
 (desktop-save-mode 1)
-;;(key-chord-mode 1)
+;;
+(require 'key-chord)
+  (key-chord-mode 1)
+  (key-chord-define-global "qq"     'google-translate-at-point)
+  (key-chord-define-global "QQ"     'voca-builder/search-popup)
 ;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 ;;(split-window-right)
