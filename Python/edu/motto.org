@@ -9586,9 +9586,8 @@ http://github.com/pydata/pydata-book
 * TODO ToDo 
 
 ** Main data-flow
-*** Vocabulary
-    captured by voca-builder and stored into
-    vocabulary.org
+*** DONE Vocabulary
+    captured by voca-builder and [[file://usr/local/share/DVCS/lib/eng.org][stored into file]]
 
 *** Quotations
 
