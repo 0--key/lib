@@ -67,9 +67,9 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-charcoal-black)));;night)));;hober)))
+     (color-theme-ld-dark)))
 (global-set-key (kbd "C-c 1") 'color-theme-charcoal-black)
-(global-set-key (kbd "C-c 2") 'color-theme-digital-ofs1);; for Magit
+(global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
 (global-set-key (kbd "C-c 3") 'color-theme-hober)
 (global-set-key (kbd "C-c 4") 'color-theme-calm-forest)
 (global-set-key (kbd "C-c 5") 'color-theme-dark-gnus)
