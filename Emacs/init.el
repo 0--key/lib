@@ -96,10 +96,12 @@
      (define-key global-map "\C-cc" 'org-capture)
 
  (setq org-capture-templates
-       '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
-	  "* TODO %?\n  %i\n  %a")
-	 ("j" "Journal" entry (file+datetree "~/org/journal.org")
-	  "* %?\nEntered on %U\n  %i\n  %a")))
+'(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+   "* TODO %?\n  %i\n  %a")
+  ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/idioms.org")
+   "* %i\n %U\n  %a")
+  ("j" "Journal" entry (file+datetree "~/org/journal.org")
+   "* %?\nEntered on %U\n  %i\n  %a")))
 ;;
 ;;
 (setq elfeed-feeds

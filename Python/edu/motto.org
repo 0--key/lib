@@ -9591,7 +9591,8 @@ http://github.com/pydata/pydata-book
 
 *** Quotations
 
-*** Idioms
+*** DONE Idioms
+    captured and [[file:/usr/local/share/DVCS/lib/idioms.py][stored here]]
 
 *** Code snippets
 
