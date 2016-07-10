@@ -99,7 +99,7 @@
 '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
   ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/idioms.org")
-   "* %i\n %U\n  %a")
+   "* %i\n %U")
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")))
 ;;
