@@ -1,5 +1,15 @@
+def test_write():
+    sys.stdout.write("Hello\n")
+    return True
+test_write()
+
+
 >>> 2 + 2
 4
 
 >>> 3 * 3
 10
+
+import sys
+
+
