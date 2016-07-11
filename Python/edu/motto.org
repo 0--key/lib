@@ -8190,6 +8190,16 @@ http://github.com/pydata/pydata-book
 
 ***** [[https://github.com/bslatkin/effectivepython][Git]]
 
+**** Testing					:tests:
+     #+BEGIN_SRC shell
+     pwd
+     cd Learning_Python_Testing
+     pwd
+     python -m doctest test.txt
+     
+     #+END_SRC
+
+     #+RESULTS:
 
 *** Applied Python 	                        :HOWTO:
 **** TODO Python HOWTOs
