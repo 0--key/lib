@@ -9371,6 +9371,169 @@ http://github.com/pydata/pydata-book
 
 *** nosetest
 
+*** Learning Python Testing			:LPT:
+
+**** Python and Testing
+
+***** Testing for fun and profit
+
+***** Levels of testing
+
+***** Unit testing
+
+***** Integration testing
+
+***** System testing
+
+***** Acceptance testing
+
+***** Regression testing
+
+***** Test-driven development
+
+***** You'll need Python
+
+***** Summary
+
+**** Working with doctest
+***** Where doctest performs best 
+***** The doctest language 
+***** Example – creating and running a simple doctest 
+***** Result – three times three does not equal ten 
+***** The syntax of doctests 
+***** Example – a more complex test 
+***** Result – five tests run 
+***** Expecting exceptions 
+***** Example – checking for an exception 
+***** Result – success at failing 
+***** Expecting blank lines 
+***** Controlling doctest behavior with directives 
+***** Ignoring part of the result 
+***** Example – ellipsis test drive 
+***** Result – ellipsis elides 
+***** Ignoring white space 
+***** Example – invoking normality 
+***** Result – white space matches any other white space 
+***** Skipping an example 
+***** Example – humans only 
+***** Result – it looks like a test, but it's not 
+***** The other directives 
+***** The execution scope of doctest tests 
+***** Check your understanding 
+***** Exercise – English to doctest 
+***** Embedding doctests into docstrings 
+***** Example – a doctest in a docstring 
+***** Result – the code is now self-documenting and self-testable 
+***** Putting it into practice – an AVL tree 
+***** English specification 
+***** Node data 
+***** Testing the constructor 
+***** Recalculating height 
+***** Making a node deletable 
+***** Rotation 
+***** Locating a node 
+***** The rest of the specification 
+***** Summary 
+**** Unit Testing with doctest
+***** What is unit testing?
+***** The limitations of unit testing 
+***** Example – identifying units 
+***** Choosing units 
+***** Check your understanding 
+***** Unit testing during the development process 
+***** Design 
+***** Development 
+***** Feedback 
+***** Development, again 
+***** Later stages of the process 
+***** Summary 
+**** Decoupling Units with unittest.mock 
+***** Mock objects in general 
+***** Mock objects according to unittest.mock 
+***** Standard mock objects 
+***** Non-mock attributes 
+***** Non-mock return values and raising exceptions 
+***** Mocking class or function details 
+***** Mocking function or method side effects 
+***** Mocking containers and objects with a special behavior 
+***** Mock objects for properties and descriptors 
+***** Mocking file objects 
+***** Replacing real code with mock objects 
+***** Mock objects in action 
+***** Better PID tests 
+***** Patching time.time 
+***** Decoupling from the constructor 
+***** Summary 
+**** Structured Testing with unittest 
+***** The basics 
+***** Assertions 
+***** The assertTrue method 
+***** The assertFalse method 
+***** The assertEqual method 
+***** The assertNotEqual method 
+***** The assertAlmostEqual method 
+***** The assertNotAlmostEqual method 
+***** The assertIs and assertIsNot methods 
+***** The assertIsNone and assertIsNotNone methods 
+***** The assertIn and assertNotIn methods 
+***** The assertIsInstance and assertNotIsInstance methods 
+***** The assertRaises method 
+***** The fail method 
+***** Make sure you get it 
+***** Test fixtures 
+***** Example – testing database-backed units 
+***** Summary 
+**** Running Your Tests with Nose 
+***** Installing Nose 
+***** Organizing tests 
+***** An example of organizing tests 
+***** Simplifying the Nose command line 
+***** Customizing Nose's test search 
+***** Check your understanding 
+***** Practicing Nose 
+***** Nose and doctest tests 
+***** Nose and unittest tests 
+***** Module fixture practice 
+***** Package fixture practice 
+***** Nose and ad hoc tests 
+***** Summary 
+**** Test-driven Development Walk-through 
+***** Writing the specification 
+***** Try it for yourself – what are you going to do? 
+***** Wrapping up the specification 
+***** Writing initial unit tests 
+***** Try it for yourself – write your early unit tests 
+***** Wrapping up the initial unit tests 
+***** Coding planner.data 
+***** Using tests to get the code right 
+***** Try it for yourself – writing and debugging code 
+***** Writing the persistence tests 
+***** Finishing up the personal planner 
+***** Summary 
+**** Integration and System Testing 
+***** Introduction to integration testing and system testing 
+***** Deciding on an integration order 
+***** Automating integration tests and system tests 
+***** Writing integration tests for the time planner 
+***** Check yourself – writing integration tests 
+***** Summary 
+**** Other Tools and Techniques 
+***** Code coverage 
+***** Installing coverage.py 
+***** Using coverage.py with Nose 
+***** Version control integration 
+***** Git 
+***** Example test-runner hook 
+***** Subversion 
+***** Mercurial 
+***** Bazaar 
+***** Automated continuous integration 
+***** Buildbot 
+***** Setup 
+***** Using Buildbot 
+***** Summary 
+***** Index 
+
 
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
