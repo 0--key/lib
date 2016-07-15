@@ -26,6 +26,7 @@
   (key-chord-mode 1)
   (key-chord-define-global "qq"     'google-translate-at-point)
   (key-chord-define-global "QQ"     'voca-builder/search-popup)
+  (key-chord-define-global "wq"     'org-set-tags-command)
 ;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 ;;(split-window-right)
