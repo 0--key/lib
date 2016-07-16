@@ -9375,21 +9375,56 @@ http://github.com/pydata/pydata-book
 
 **** Python and Testing
 
+     #+BEGIN_QUOTE
+     show you a new way to test, a way that puts much of
+     the burden of testing right where it should be—on the computer. Even
+     better, your tests will help you to find problems early, and tell you
+     just where they are, so that you can fix them easily. You'll love the
+     easy, helpful methods of automated testing, and test-driven development.
+     #+END_QUOTE
+
 ***** Testing for fun and profit
+
+      #+BEGIN_QUOTE
+      Spending less time on debugging and being sure of your result makes
+      programming more fun. Producing a higher quality of code in a shorter
+      amount of time makes it more profitable. The test suite provides instant
+      feedback, allowing you to run each chunk of your code now instead of
+      waiting for the program as a whole to be in a state where you can execute
+      it. This quick turnaround makes programming both more satisfying and more
+      productive.
+      #+END_QUOTE
 
 ***** Levels of testing
 
-***** Unit testing
+****** Unit testing
 
-***** Integration testing
+****** Integration testing
 
-***** System testing
+****** System testing
 
 ***** Acceptance testing
 
+      #+BEGIN_QUOTE
+      When a program is first specified, we decide what behavior is expected
+      out of it. Tests that are written to confirm that the program actually
+      does what was expected are called acceptance tests.
+      #+END_QUOTE
+
 ***** Regression testing
 
+      #+BEGIN_QUOTE
+      Tests that make sure that the working code doesn't become buggy are
+      called regression tests. They can be written before or after a bug is
+      found, and they provide you with the assurance that your program's
+      complexity is not causing the bugs to multiply.
+      #+END_QUOTE
+
 ***** Test-driven development
+
+      #+BEGIN_QUOTE
+      *...you always write the tests first...*
+      #+END_QUOTE
 
 ***** You'll need Python
 

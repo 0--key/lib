@@ -1394,3 +1394,80 @@ noun
  3. непокладистый человек (tough customer, toughie, toughy)
  4. тяжелый человек (difficult person, toughy, terror, toughie)
  5. хулиган (bully, hooligan, hoodlum, ruffian, tough, toughie)
+
+* refinements :LPT:
+[2016-07-16 Sat 08:49]
+
+Do you know which fork is for your salad and which one is for dessert?
+Then you have some refinement — good manners and taste.
+
+Things that go through a process of refinement have been refined;
+they've lost their rough edges. For people, this means they have good
+manners, and for substances like oil and sugar, it means that their
+impurities have been removed. With refinement, things and people
+become more acceptable: the sugar's refinement makes it appropriate to
+serve at a fancy party, and your refinement makes you a perfect guest
+there.
+
+This gives you a pretty basic understanding of what we'll be talking
+about in this book. There are many refinements and tools to make the
+process quicker and easier, but the basic idea is to tell the computer
+what you expect, using simple and easily-written chunks of code, and then
+tell the computer to double-check your expectations throughout the coding
+process. Because expectations are easy to describe, you can write them
+down first, allowing the computer to shoulder much of the burden of
+debugging your code. Because expectations are easy to describe, you can
+write them down fast, allowing you to move on to interesting things while
+the computer keeps track of the rest.
+
+* lured :LPT:
+[2016-07-16 Sat 08:57]
+
+To lure is to entice or bait someone.  A lure is used to bait or
+entice fish to attach themselves to your hook.  "He had a new shiny
+lure, which was enough to lure me into going on the fishing trip."
+
+The verb lure is related to words that mean “bait,” “deceit,” and
+“invite.”  Often, when lure is used, there is a nefarious implication,
+as in: “He was able to lure her into the alley, but her friends soon
+came looking for her.”  The noun lure is the thing that draws in the
+person or animal, which can be either a physical object or a concept.
+"The lure of his great wealth kept her in the relationship despite his
+infidelity."
+
+For this reason, newcomers to automated testing are sometimes lured into
+ignoring the distinction between unit testing and integration testing.
+* encompass :LPT:
+[2016-07-16 Sat 08:58]
+
+Encompass means to contain. When you see the word, picture a campus
+which encompasses lecture halls, a football field, a medical center, a
+dining hall and some parking lots.
+
+Encompass can be used when talking about anything that contains
+something else. A lecture on Edward Hopper might encompass all aspects
+of his life and art, a work of art could encompass many techniques,
+and a policeman's jurisdiction may encompass an entire state. The
+continental U.S. encompasses 48 states. This entry encompasses many
+examples of the word encompass in use!
+
+In integration testing, the boundaries of isolation are pushed further
+back, so that the tests encompass the interactions between related units.
+* shoulder :LPT:
+[2016-07-16 Sat 09:09]
+
+noun
+ 1. the upper joint of the human arm and the part of the body between this and the neck.
+    "Occasionally it starts in one region such as the neck and shoulders and spreads over a period of time."
+ 2. a part of something resembling a shoulder in shape, position, or function.
+    "the shoulder of a pulley"
+ 3. a paved strip alongside a road for stopping on in an emergency.
+    "My partner and I had parked on the shoulder of the highway and began to chat."
+
+verb
+ 1. put (something heavy) over one's shoulder or shoulders to carry.
+    "we shouldered our crippling backpacks and set off slowly up the hill"
+ 2. push (someone or something) out of one's way with one's shoulder.
+    "she shouldered him brusquely aside"
+
+allowing the computer to shoulder much of the burden of debugging your code
