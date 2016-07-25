@@ -3656,7 +3656,10 @@
      | <I       | #+INCLUDE:       |
      |----------+------------------|
 
-*** TODO Literate programming			:Python:
+*** DONE Literate programming			:literate:programming:
+
+**** Full-fledged sample
+     [[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][The brilliant illustration]]
 **** Python 
      Demands to install Org recent version 
 ***** This is the first and successful attempt	:CODE:
