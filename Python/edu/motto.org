@@ -9552,18 +9552,64 @@ http://github.com/pydata/pydata-book
 
 ***** Summary
 
-**** Working with doctest
+**** Working with doctest			:doctest:
 ***** Where doctest performs best 
 ***** The doctest language 
-***** Example – creating and running a simple doctest 
-***** Result – three times three does not equal ten 
+****** Example – creating and running a simple doctest
+       #+BEGIN_SRC sh :results output :exports both
+       cd /usr/local/share/DVCS/lib/Python/edu/Learning_Python_Testing/
+       pwd
+       python --version
+       #python ‑m doctest test.txt 2>&1
+       #true
+       
+       #+END_SRC
+
+       #+RESULTS:
+       : /usr/local/share/DVCS/lib/Python/edu/Learning_Python_Testing
+       : Python 3.4.3
+
+       #+NAME: doctest-foo
+       #+BEGIN_SRC rst
+       example foo::
+       >>> from HelloWorld import *
+       >>>
+       >>> foo = HelloWorld('foo')
+       >>> foo.say_hello()
+       Hello foo
+
+       #+END_SRC
+
+       and another: 
+
+       #+NAME: doctest-bar
+       #+BEGIN_SRC rst
+       example bar::
+       >>> from HelloWorld import *
+       >>>
+       >>> bar = HelloWorld('bar')
+       >>> bar.say_hello()
+       Hello bar
+
+       #+END_SRC
+
+       Create a document to "tangle" them into 
+
+       #+BEGIN_SRC text :noweb yes :tangle test_HelloWorld.txt :exports none
+       <<doctest-foo>>
+       <<doctest-bar>>
+       #+END_SRC
+
+
+****** Result – three times three does not equal ten 
 ***** The syntax of doctests 
 ***** Example – a more complex test 
 ***** Result – five tests run 
 ***** Expecting exceptions 
 ***** Example – checking for an exception 
 ***** Result – success at failing 
-***** Expecting blank lines 
+***** Expecting blank lines
+      <BLANKLINE>
 ***** Controlling doctest behavior with directives 
 ***** Ignoring part of the result 
 ***** Example – ellipsis test drive 
