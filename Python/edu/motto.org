@@ -1791,7 +1791,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [60%]
+*** TODO Verbs [64%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -3336,7 +3336,56 @@
       - We should take the underground in case there's a lot of traffic.
 
 
-**** TODO The verb *be*
+**** DONE The verb *be*
+     The verb *be* has the following forms:
+     | Present simple:      | Affirmative:   | I am                   | We are              |
+     |                      |                | You are                | You are             |
+     |                      |                | He/she/it is           | They are            |
+     |----------------------+----------------+------------------------+---------------------|
+     |                      | Question form: | Am I?                  | Are we?             |
+     |                      |                | Are you?               | Are you?            |
+     |                      |                | Is he/she/it?          | Are they?           |
+     |----------------------+----------------+------------------------+---------------------|
+     |                      | Negative:      | I am not/I'm not       | We are not/aren't   |
+     |                      |                | You are not/aren't     | You are not/aren't  |
+     |                      |                | He/she/it is not/isn't | They are not/aren't |
+     |----------------------+----------------+------------------------+---------------------|
+     | Past simple:         |                | I was                  | We were             |
+     |                      |                | You were               | You were            |
+     |                      |                | He/she/it was          | They were           |
+     |----------------------+----------------+------------------------+---------------------|
+     | The past participle: |                | been                   |                     |
+     |----------------------+----------------+------------------------+---------------------|
+     | Present perfect:     |                | has/have been          |                     |
+     |----------------------+----------------+------------------------+---------------------|
+     | Past perfect:        |                | had been               |                     |
+
+     The verb /be/ is used in the following patterns:
+
+***** with a *noun*:
+      - My mother *is* a teacher.
+      - Bill Clinton *was* the president of US.
+
+
+***** With an *adjective*:
+      - This soup *is* very tasty.
+      - The children *were* good.
+
+
+****** with the /-ing/ form to make *the continuous* aspect
+       - We *were walking* down the street.
+       - Everything was wet. It *had been raining* for hours.
+
+
+****** with the /-ed/ form to make *the passive voice*
+       - The house *was built* in 1890.
+       - The street *is called* Montagu Street.
+       - This care *was made* in Japan.
+
+
+***** with a *prepositional phrase*:
+      - John and his wife *are from Manchester*.
+      - The flowers *are on the table*.
 
 **** TODO Link verbs
 
