@@ -9940,7 +9940,16 @@ http://github.com/pydata/pydata-book
 ****** Commit this changes
 ****** Merge branches
 ***** Use a merge tool
+      ~git mergetool <Enter>~
 **** Exploring strategies to reduce merge conflicts
+***** keep lines short
+***** keep commits small and focused
+***** beware stray edits to whitespace
+      - spaces;
+      - tabs;
+      - line returns
+***** merge often
+***** track changes to master
 
 *** Stashing Changes
 *** Remotes
