@@ -2146,3 +2146,70 @@ DEFINITION
 noun
  1. a young actress with aspirations to become a star.
     "a Hollywood starlet"
+
+* tangled :LPT:
+[2016-07-27 Wed 10:21]
+
+Tangled is an adjective that describes a confused mass. You're likely
+to hear tangled used most often when referring to hair. If it's
+tangled, you can't brush or comb through it.
+
+Other than discussing hair, tangled can be used to refer to anything
+that's jumbled up and confused. Like that tangled pile of wires behind
+your television and computer that you keep tripping over. Tangled can
+also mean something highly complicated or intricate, like the
+relationships between ex-wives, ex-husbands and stepchildren in a
+family. The word tangled is most famous for being included in a
+well-known literary quote from Sir Walter Scott's poem, "Marmion" —
+"Oh what a tangled web we weave, when first we practise to deceive."
+
+Answer: There are three units that exist in the preceding code and that
+  are as follows: __init__, method1, and method2. __init__ is a method,
+  just as method1 and method2. The fact that it's a constructor means
+  that it's all tangled up with the other units, but it's still a method
+  containing code and a possible location for bugs, and so we cannot
+  afford to treat this as anything other than a unit.
+* rigamarole :LPT:
+[2016-07-27 Wed 10:26]
+
+Rigamarole is a messy, complicated process that takes longer than it
+should. The rigamarole involved in getting your driver's license might
+make it tempting to just keep riding your bike.
+
+The word rigamarole, which is also spelled rigmarole, is a great way
+to describe bureaucratic procedures like paying taxes or registering
+for college classes, or lengthy tasks like helping a small child put
+on boots, mittens, a coat, and a hat before leaving the house on a
+snowy day. You can also use it to mean "a long, rambling story:" "He
+went into the rigamarole of how he'd pulled himself up by his boot
+straps."
+
+The smaller the units are, the more useful the tests tend to be because
+they narrow down the location and nature of bugs more quickly. For
+example, if you choose to treat the Testable class as a unit, tests of
+the class will fail if there is a mistake in any of the methods. This
+tells you that there's a mistake in Testable, but not that it's in
+method2, or wherever it actually is. On the other hand, there is a
+certain amount of rigamarole involved in treating method4 and its like as
+units, to such an extent that the next chapter of the book is dedicated
+to dealing with such situations. Even so, I recommend using methods and
+functions as units most of the time because it pays off in the long run.
+* bogged :LPT:
+[2016-07-27 Wed 10:28]
+
+You'd be pretty soggy by morning if you accidentally set your tent up
+in a bog. A bog is a swampy kind of ground made up mostly of
+decomposing plants and mosses.
+
+Nothing can be built on a bog because the ground is so spongy and
+damp, and no crops can be grown there. The dried soil from a bog can,
+however, be dried and burned for fuel. A figurative bog is anything
+that you tend to get stuck in, like a bog of health problems. Things
+can also "bog you down", or slow you down literally or figuratively,
+like when your homework bogs you down so you can't enjoy the weekend.
+
+We're going to walk through the development of one class, treating it as
+a complete programming project and integrating unit testing at each step
+of the process. For something as small as a single standalone class, this
+may seem silly, but it illustrates the practices that keep larger
+projects from getting bogged down in a tangle of bugs.
