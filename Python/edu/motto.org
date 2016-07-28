@@ -9952,6 +9952,25 @@ http://github.com/pydata/pydata-book
 ***** track changes to master
 
 *** Stashing Changes
+    Special fourth area in git repository
+
+**** Save changes
+     ~git stash save "message~
+
+**** View stashed changes
+     ~git stash list~
+     Changes in stash available to review from all branches
+     ~git stash show [-p(atch)] stash@{0}~
+
+**** Retrieve changes out from stash
+     ~git stash pop~ removes stashed changes out from stash
+     ~git stash apply~ leaves a copy in the stash
+
+**** Deleting stashed changes
+     ~git stash drop stash@{0}~
+     ~git stash clear~ delete all existing stashed changes
+
+
 *** Remotes
 *** Tools and Next Steps
 *** Conclusion
