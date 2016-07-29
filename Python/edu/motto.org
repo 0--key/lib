@@ -10021,6 +10021,25 @@ http://github.com/pydata/pydata-book
 
 * Open-Source contributing			:OpenSource:
 ** Fork useful projects				:forks:
+*** DONE Manual how to fork
+**** Forking itself
+     Just by pushing the button on useful project
+     page. It's enough to get its fork in your
+     repo.
+**** Sync your fork
+     Sometimes in fork's ancestor occure changes.
+     Exactly to pull it on your local version of
+     repo do [[https://help.github.com/articles/syncing-a-fork/][this]] or something like this:
+     #+BEGIN_SRC sh
+     git remote -v # check up does upstream configured ever
+     # add it
+     git remote add upstream https://github.com/mikeckennedy/talk-python-transcripts.git
+     git remote -v
+     git fetch upstream
+     git checkout master
+     git merge upstream/master     
+     #+END_SRC
+     
 *** DONE EffectivePython
     [[/usr/local/share/DVCS/lib/Python/edu/effectivepython][fork]]
 *** DONE Python-Patterns
