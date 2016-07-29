@@ -1791,7 +1791,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [64%]
+*** TODO Verbs [68%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -3387,7 +3387,51 @@
       - John and his wife *are from Manchester*.
       - The flowers *are on the table*.
 
-**** TODO Link verbs
+**** DONE Link verbs
+     Some verbs are followed by either a noun or an adjective:
+     | She was a good friend | = | N + V + N   |
+     |-----------------------+---+-------------|
+     | She was very happy    | = | N + V + Adj |
+     |-----------------------+---+-------------|
+     | He became headmaster  | = | N + V + N   |
+     |-----------------------+---+-------------|
+     | He became angry       | = | N + V + Adj |
+
+     These verbs are called *link verbs*. Common verbs like this are:
+     | be   | become | appear | feel  |
+     |------+--------+--------+-------|
+     | look | remain | seem   | sound |
+
+     - She *seemed* _an intelligent woman_.
+     - She *seemed* _intelligent_.
+     - He *looked* _hungry_.
+     - He *looked* _a good player_.
+
+     After /appear/ and /seem/ we often use /to be/:
+     - She *appeared to be* _an intelligent woman_.
+     - He *seemed to be* _angry_.
+
+     Some link verbs are followed by an *adjective*. Common verbs like this are:
+     | get   | go    | grow |
+     |-------+-------+------|
+     | taste | smell |      |
+
+     - *He got* _hungry_ in the evening.
+     - *She grew* _stronger_ every day.
+
+
+***** Activities
+      - I wrote for an hour non-stop in the exam and now my arm feels sore.
+      - It's a very easy vegetable to cultivate - it grows anywhere.
+      - Wearing trousers like that seems to be fashion these days.
+      - You have to be careful with meat in this climate - it goes bad very quickly.
+      - That looks good. Did you make it all by yourself?
+      - What's that noise? It sounds like someone needs help.
+      - It appears to be the remains of a dinosaur.
+      - It isn't chicken, but it tastes like chicken.
+      - Bring a jumper. It gets very chilly at night.
+      - It remains to be decided who will be the next Prime Minister.
+      - He is very proud of his children.
 
 **** TODO Delexical verbs like have, take, make and give
 
