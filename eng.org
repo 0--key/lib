@@ -2402,7 +2402,7 @@ Let’s switch out happiness for well-being for a second. Well-being is
 that feeling of contentment you get when you are immensely satisfied
 with where you are right now.
 
-* Facilitate :Quora:
+* Facilitate :ProGit:
 [2016-07-30 Sat 16:38]
 
 To facilitate means to make something easier. If your best friend is
@@ -2416,3 +2416,75 @@ just sit in awkward silence. Synonyms are ease, simplify, expedite,
 and assist.
 
 Facilitate Distributed Development
+* swaths :ProGit:
+[2016-07-30 Sat 17:32]
+
+A swath was originally the long narrow space created by a single swing
+of a scythe in a field of grass or corn as the cutter moved through
+it. Nowadays it is used more figuratively to mean any kind of path
+someone makes.
+
+The figurative use of swath has nonphysical senses as well, as in the
+term "a significant swath of the population believes..." Or if someone
+is trying to attract attention to themselves, or is making quite a
+public stir, they might be said to be "cutting a swath through the
+business world" or "cutting a swath on the dance floor." Hopefully,
+neither of the latter involves using scythes.
+
+The Open Source community using Git has also exploded. When I originally sat
+down to write the book nearly five years ago (it took me a while to get the
+first version out), I had just started working at a very little known company
+developing a Git hosting website called GitHub. At the time of publishing
+there were maybe a few thousand people using the site and just four of us
+working on it. As I write this introduction, GitHub is announcing our 10
+millionth hosted project, with nearly 5 million registered developer accounts
+and over 230 employees. Love it or hate it, GitHub has heavily changed large
+swaths of the Open Source community in a way that was barely conceivable when
+I sat down to write the first edition.
+* conceivable							     :ProGit:
+[2016-07-30 Sat 17:33]
+
+If you see yellowish skies on a humid, spring evening in Kansas, it is
+entirely conceivable that a tornado is in the making. That is to say,
+it's imaginable or even possible, so make sure you take every
+conceivable precaution.
+
+If you conceive of something, you imagine or think of it. So, it makes
+sense that the adjective conceivable describes things that can be
+imagined or thought of. People often use the word conceivable in
+extreme contexts. If you look everywhere for your homework but still
+can't find it, you might declare, "I searched in every conceivable
+location! My homework must have disappeared." In response, your
+teacher might remark that disappearing homework is inconceivable, or
+"impossible to imagine."
+
+* scythe							     :ProGit:
+[2016-07-30 Sat 17:36]
+
+A scythe is a sharp, curved blade used for mowing or reaping. While
+farmers use it to cut plants, the grim reaper uses it to, well, scare
+you to death.
+
+In Old English, scythe was spelled siðe. Since there is no longer an ð
+in modern English, scythe became the accepted form of the word in the
+early 15th century. It drew its sc- start from the Latin scissor,
+meaning “carver, cutter.” Farmers use these tools to slice and trim
+grass and other plant stalks. Napoleon Bonaparte once noted that
+“Occupation is the scythe of time,” meaning that work mows down or
+diminishes time.
+
+* pondering :ProGit:
+[2016-07-30 Sat 17:40]
+
+>14C<K20;
+
+verb
+ 1. @07<KH;OBL (reflect, meditate, think, ponder, contemplate, speculate)
+ 2. >14C<K20BL (think, ponder, consider, think over, mull, contemplate)
+ 3. 2725H820BL (weigh, balance, ponder, scale, deliberate, heft)
+
+DEFINITION
+
+verb
+ 1. think about (something) carefully, especially before making a decision or reaching a conclusion.
+    "I pondered the question of what clothes to wear for the occasion"
