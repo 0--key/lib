@@ -10014,10 +10014,22 @@ http://github.com/pydata/pydata-book
      ~git stash drop stash@{0}~
      ~git stash clear~ delete all existing stashed changes
 
-
 *** Remotes
+    The remote branch *master* mirrored by the local
+    *origin/master*
+    and it's possible to sync with your custom-maid
+    branch with the same name *master*
+
+    ~git remote -v~
+    ~git remote add~
+    etc.
+
+    ~git branch -r(emotes)~
+    ~git branch -a(ll)~
+    
 *** Tools and Next Steps
 *** Conclusion
+
 
 * Open-Source contributing			:OpenSource:
 ** Fork useful projects				:forks:
