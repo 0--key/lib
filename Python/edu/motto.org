@@ -9829,7 +9829,13 @@ http://github.com/pydata/pydata-book
      prospect, but the fundamentals you learn in this chapter apply
      just the same.
 ***** Repositories
+      Database containing all the information needed to retain and manage
+      the revisions and history of a project.
 ***** Git Object Types
+      - blobs
+      - trees
+      - commits
+      - tags
 ***** Index
 ***** Content-Addressable Names
 ***** Git Tracks Content
