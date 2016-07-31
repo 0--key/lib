@@ -13,7 +13,7 @@
 (require 'voca-builder)
   (setq voca-builder/voca-file "/usr/local/share/DVCS/lib/eng.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
-  (setq voca-builder/current-tag "Demo")
+  (setq voca-builder/current-tag "Quora")
   (global-set-key (kbd "<f4>") 'voca-builder/search-popup) 
 
 
