@@ -97,10 +97,14 @@
      (define-key global-map "\C-cc" 'org-capture)
 
  (setq org-capture-templates
-'(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+'(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
   ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/idioms.org")
    "* %i\n %U")
+  ;;
+  ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/thoughts.org")
+   "* %c\n%i\n %a")
+  ;;
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")))
 ;;
@@ -126,6 +130,9 @@
       ("https://www.quora.com/Python-programming-language-1/rss" Python)
       ("https://www.quora.com/Web-Development/rss" Web Dev)
       ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)))
+
+
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -1,0 +1,30 @@
+
+* 2016
+** 2016-08 August
+*** 2016-08-01 Monday
+**** Three things really bothered me:
+
+      1. If I'm not sitting at my desk typing, I'm not working.
+      You hired me as a programmer, not as a typist.  You could have saved yourself a fortune if all you wanted was a clerk.
+      Programming is problem-solving, it's not typing.
+
+      2. Program specifications that specify something completely different than what the client actually wants.  (It happens a lot if the client thinks he knows programming and specifies the program in what he thinks are programming terms, not in the terms of his business.  I can lean accounting a lot faster than you can get 20 years of programming experience.)
+
+      3. Making "just this little change - it's no work at all, so don't add it to the bill".  If it's no work at all, YOU do it. If I have to spend 3 hours clearing up exactly what you want changed and how you want it changed, that's 3 hours you're going to pay for and nothing's been written yet.  And making one little change may impact other areas, which will also have to be changed.  Programmers know the word side-effects - clients don't.  ("You can't do just one thing.")  Your "little change" may be 80 man-hours of work.  You're not getting that for free.  Read your contract.  ANY changes from the specifications in the contract will be billed additionally.
+      file:/usr/local/share/DVCS/stuff/txt/notes.txt::Three%20things%20really%20bothered%20me:
+**** The "dolla dolla bills" argument:
+   For internet businesses, website
+   performance is super-critical to their bottom line. There are studies
+   that show that: 
+
+       "Amazon found every 100ms of latency cost them 1% in sales. Google
+       found an extra .5 seconds in search page generation time dropped
+       traffic by 20%. A broker could lose $4 million in revenues per
+       millisecond if their electronic trading platform is 5 milliseconds
+       behind the competition."
+
+   For this reason, there is a lot of investment into
+   performance/productivity improvements from the big players. Google
+   built the v8 engine that powers Chrome and Node.js. Facebook created
+   and open-sourced the React.js framework. Google maintains the
+   Angular.js framework.
