@@ -103,11 +103,12 @@
    "* %i\n %U")
   ;;
   ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/thoughts.org")
-   "* %c\n%i\n %a")
+   "* %?%c\n%i\n %l")
   ;;
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")))
 ;;
+
 ;;
 (setq elfeed-feeds
     '(("https://www.quora.com/Algorithms/rss" Algorithms)
