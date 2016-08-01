@@ -3647,6 +3647,8 @@
    implementation can perhaps clarify matters.
    
 * Enlarge Emacs toolbox 	                :Emacs:
+
+** TODO Sacha [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][config]]
 ** DONE Elpy					:elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE Update Emacs version up to 24.5	        :24.5:
@@ -10132,13 +10134,19 @@ http://github.com/pydata/pydata-book
 *** Install SDK
 *** Compile Emacs24.5 on armel
 ** Publish your posts
-*** https://pages.github.com/
+*** At GitHub 
+**** Associated with repository
+     Anton S. Kosinov's [[http://0--key.github.io/][blog]]
+**** Guides
+     http://renard.github.io/o-blog/
+     
 *** Jekyll
 **** Hyde
 **** Octopress
 **** Org-Jekyll
+     http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html
 **** Org-Octopress
 *** Custom URLs
-*** Guides
+
 ** Make resume
    http://bit.ly/hE8j3k
