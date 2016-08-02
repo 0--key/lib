@@ -10219,6 +10219,20 @@ http://github.com/pydata/pydata-book
 ** Maemo5
 *** Install SDK
 *** Compile Emacs24.5 on armel
+*** Create key-chords to
+**** read EWW or ElFeed
+**** DONE translate unknown words
+     'google-translate-at-point
+**** DONE Extend vocabulary
+     'voca-builder/search-popup
+**** DONE return into single buffer on the frame view
+     'delete-other-windows
+**** DONE mark regions
+     'set-mark-command
+**** DONE copy region into kill-ring
+     'kill-ring-save
+**** DONE capture region
+     'org-capture
 ** Publish your posts
 *** At GitHub 
 **** Associated with repository

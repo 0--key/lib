@@ -23,10 +23,16 @@
 (desktop-save-mode 1)
 ;;
 (require 'key-chord)
-  (key-chord-mode 1)
-  (key-chord-define-global "qq"     'google-translate-at-point)
-  (key-chord-define-global "QQ"     'voca-builder/search-popup)
-  (key-chord-define-global "wq"     'org-set-tags-command)
+    (key-chord-mode 1)
+    (key-chord-define-global "qq"     'google-translate-at-point)
+    (key-chord-define-global "QQ"     'voca-builder/search-popup)
+    (key-chord-define-global "wq"     'org-set-tags-command)
+;; for n900 interaction
+    (key-chord-define-global "VV"     'voca-builder/search-popup)
+    (key-chord-define-global "OO"     'delete-other-windows)
+    (key-chord-define-global "MM"     'set-mark-command)
+    (key-chord-define-global "KK"     'kill-ring-save)
+    (key-chord-define-global ",,"     'org-capture)
 ;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 ;;(split-window-right)
