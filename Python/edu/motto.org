@@ -3791,6 +3791,7 @@
 *** DONE Literate programming			:literate:programming:
 
 **** Full-fledged sample
+     #+NAME: illustration
      [[http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html][The brilliant illustration]]
 **** Python 
      Demands to install Org recent version 
@@ -10239,6 +10240,7 @@ http://github.com/pydata/pydata-book
      Anton S. Kosinov's [[http://0--key.github.io/][blog]]
 **** Guides
      http://renard.github.io/o-blog/
+     Scientific usage [[illustration][sample]]
      
 *** Jekyll
 **** Hyde
