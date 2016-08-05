@@ -21,6 +21,9 @@
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
 (desktop-save-mode 1)
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(setq sentence-end-double-space nil)
 ;;
 (require 'key-chord)
     (key-chord-mode 1)
