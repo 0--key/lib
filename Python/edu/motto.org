@@ -10235,11 +10235,12 @@ http://github.com/pydata/pydata-book
 *** Remotes
     The remote branch *master* mirrored by the local
     *origin/master*
-    and it's possible to sync with your custom-maid
+    and it's possible to sync with your custom-made
     branch with the same name *master*
 
     ~git remote -v~
     ~git remote add~
+    ~git remote add <shortname> <url>~
     etc.
 
     ~git branch -r(emotes)~
