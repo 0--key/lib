@@ -9996,6 +9996,174 @@ http://github.com/pydata/pydata-book
 ***** Summary 
 ***** Index 
 
+*** Test-Driven Python Development 				       :TDPD:
+**** 1. Getting Started with Test-Driven Development 
+***** Prerequisites
+***** Understanding test-driven development 
+***** TDD versus unit testing versus integration testing 
+***** Using TDD to build a stock alert application 
+***** Writing our first test 
+***** Analyzing the test output 
+***** Test errors versus test failures 
+***** Making the test pass 
+***** Reorganizing the test code 
+***** Running the tests after the reorganization 
+***** Summary 
+**** 2. Red-Green-Refactor – The TDD Cycle 
+***** Tests are executable requirements 
+***** Arrange-Act-Assert 
+***** Documenting our tests 
+***** Testing for exceptions 
+***** Exploring assert methods 
+***** Specific asserts versus generic asserts 
+***** Setup and teardown 
+***** Brittle tests 
+***** Refactoring the design 
+***** Refactoring tests 
+***** Exploring the Rule classes 
+***** Exercise 
+***** Summary 
+**** 3. Code Smells and Refactoring 
+***** A dual crossover moving average 
+***** Implementing the dual crossover moving average 
+***** Identifying code smells 
+***** Refactoring 
+***** The Rename Variable and Rename Method refactorings 
+***** Commenting Styles 
+***** Replace Magic Literals with Constants 
+***** The Extract Method refactoring 
+***** Replace Calculation with Temporary Variable 
+***** Extract Conditional to Method 
+***** The DRY principle 
+***** Single Responsibility Principle 
+***** Extract Class 
+***** Move Method to Class 
+***** The importance of tests 
+***** Exercise 
+***** Wrapping up 
+***** Summary 
+**** 4. Using Mock Objects to Test Interactions 
+***** Hand writing a simple mock 
+***** Using the Python mocking framework 
+***** Mocking objects 
+***** Mocking return values 
+***** Mocking side effects 
+***** How much mocking is too much? 
+***** Mocks versus stubs versus fakes versus spies 
+***** Patching methods 
+***** An important gotcha when patching 
+***** Tying it all together 
+***** Summary 
+**** 5. Working with Legacy Code 
+***** What is legacy code? 
+***** Understanding the code 
+***** What are characterization tests? 
+***** Using the Python interactive shell to understand the code 
+***** Writing a characterization test 
+***** Using pdb to understand the code 
+***** Some common pdb commands 
+***** Walking through a pdb session 
+***** Techniques to break dependencies 
+***** The Rope refactoring library 
+***** Separate initialization from execution 
+***** Use default values for parameters 
+***** Extract the method and test 
+***** Inject dependencies 
+***** Inherit and test 
+***** Stubbing local methods 
+***** Extract the method and stub 
+***** The cycle continues 
+***** Time to refactor 
+***** Long-term refactoring 
+***** Summary 
+**** 6. Maintaining Your Test Suite 
+***** Goals of test maintenance 
+***** Organizing tests 
+***** Filesystem layout 
+***** Naming conventions 
+***** Test suite grouping 
+***** Making tests readable 
+***** Using docstrings 
+***** Using fixtures 
+***** Fixtures and patching 
+***** Using a custom test case class hierarchy 
+***** Writing tests closer to the domain 
+***** Writing helper methods 
+***** Writing better asserts 
+***** Using custom equality checkers 
+***** Using matchers 
+***** Summary 
+**** 7. Executable Documentation with doctest 
+***** Our first doctest 
+***** Running the doctest 
+***** Test failures 
+***** Testing for exceptions 
+***** Package-level doctests 
+***** Maintaining doctests 
+***** Running a suite of doctests 
+***** Setup and teardown 
+***** Limitations of doctest 
+***** Doctest directives 
+***** How do doctests fit into the TDD process? 
+***** Summary 
+**** 8. Extending unittest with nose2 
+***** Getting started with nose2 
+***** Writing tests for nose2 
+***** Setup and teardown 
+***** Parameterized tests 
+***** Generated tests 
+***** Layers 
+***** nose2 plugins 
+***** Doctest support 
+***** Writing test results to an XML file 
+***** Measuring test coverage 
+***** Debugging test failures 
+***** nose2 configuration 
+***** Summary 
+**** 9. Unit Testing Patterns 
+***** Pattern – fast tests 
+***** Pattern – running a subset of tests 
+***** Test loaders 
+***** Using the load_tests protocol 
+***** Skipping tests 
+***** Pattern – using attributes 
+***** Attributes with vanilla unittests 
+***** Pattern – expected failures 
+***** Pattern – data-driven tests 
+***** Pattern – integration and system tests 
+***** Pattern – spies 
+***** Pattern – asserting a sequence of calls 
+***** Pattern – patching the open function 
+***** Pattern – mocking with mutable args 
+***** Summary 
+**** 10. Tools to Improve Test-Driven Development 
+***** TDD tools 
+***** py.test 
+***** py.test versus nose2 
+***** Trial 
+***** Sure 
+***** PyHamcrest 
+***** Integrating with build tools 
+***** Paver 
+***** Integrating with packaging tools 
+***** Setuptools 
+***** Distutils 
+***** Integrating with continuous integration tools 
+***** Jenkins 
+***** Travis CI 
+***** Other tools 
+***** tox 
+***** Sphinx 
+***** IDE integration 
+***** Summary 
+**** A. Answers to Exercises 
+***** Red-Green-Refactor – The TDD Cycle 
+***** Code Smells and Refactoring 
+**** B. Working with Older Python Versions 
+***** Writing code that is compatible across versions 
+***** Running tests from the command line 
+***** Running the examples in this book 
+**** Index 
 
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
