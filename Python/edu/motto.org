@@ -3387,6 +3387,7 @@
       - John and his wife *are from Manchester*.
       - The flowers *are on the table*.
 
+
 **** DONE Link verbs
      Some verbs are followed by either a noun or an adjective:
      | She was a good friend | = | N + V + N   |
@@ -3432,6 +3433,7 @@
       - Bring a jumper. It gets very chilly at night.
       - It remains to be decided who will be the next Prime Minister.
       - He is very proud of his children.
+
 
 **** DONE Delexical verbs like have, take, make, go, do and give
      We often use common verbs like *have* and *take* with nouns like
@@ -8960,7 +8962,6 @@ http://github.com/pydata/pydata-book
 	#+RESULTS:
 	: 
 	: ... >>> ['SENTENCE', 'FRAGMENT']
-
 	
 ******* filter()						     :filter:
 	#+BEGIN_SRC python :results output :session fp
