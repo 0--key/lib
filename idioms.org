@@ -105,3 +105,8 @@
     [2016-08-02 Tue 16:29]
 **** But then I realized that he had the right idea – why reinvent the wheel?
     [2016-08-02 Tue 16:30]
+*** 2016-08-07 Sunday
+**** There are two common patterns for organizing test code this way.
+    [2016-08-07 Sun 12:17]
+**** In the process, we will dig deeper into the TDD cycle
+    [2016-08-07 Sun 12:41]
