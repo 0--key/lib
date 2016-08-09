@@ -144,22 +144,22 @@
       ("http://planet.python.org/rss10.xml" Planet Python)
       ("http://code.activestate.com/feeds/recipes/langs/python/" Python recipes)
       ;;
-      ("http://feeds.feedburner.com/EnglishAsASecondLanguagePodcast" ESL)
-      ;; BBC podcasts there --->
-      ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_vocab/rss.xml" 6m_voc)
-      ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_gram/rss.xml" 6m_gram)
-      ("http://downloads.bbc.co.uk/podcasts/worldservice/how2/rss.xml" 6m_eng)
-      ("http://downloads.bbc.co.uk/podcasts/worldservice/discovery/rss.xml" Discovery)
-      ("http://downloads.bbc.co.uk/podcasts/worldservice/science/rss.xml" Science Hour)
-      ("http://www.bbc.co.uk/programmes/p00xtky9/episodes/downloads.rss" Why Factor)
-      ("http://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads.rss" The English We Speak)
-      ("http://www.bbc.co.uk/programmes/p028z2z0/episodes/downloads.rss" The Food Chain)
-      ("http://www.bbc.co.uk/programmes/p035w97h/episodes/downloads.rss" The Compass)
-      ("http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss" Analysis)
-      ("http://www.bbc.co.uk/programmes/b006qykl/episodes/downloads.rss" In Our Time)
-      ("http://www.bbc.co.uk/programmes/p004kln9/episodes/downloads.rss" The Forum)
-      ("http://downloads.bbc.co.uk/podcasts/radio4/ta/rss.xml" Thinking Allowed)))
-
+      ;; ("http://feeds.feedburner.com/EnglishAsASecondLanguagePodcast" ESL)
+      ;; ;; BBC podcasts there --->
+      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_vocab/rss.xml" 6m_voc)
+      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_gram/rss.xml" 6m_gram)
+      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/how2/rss.xml" 6m_eng)
+      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/discovery/rss.xml" Discovery)
+      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/science/rss.xml" Science Hour)
+      ;; ("http://www.bbc.co.uk/programmes/p00xtky9/episodes/downloads.rss" Why Factor)
+      ;; ("http://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads.rss" The English We Speak)
+      ;; ("http://www.bbc.co.uk/programmes/p028z2z0/episodes/downloads.rss" The Food Chain)
+      ;; ("http://www.bbc.co.uk/programmes/p035w97h/episodes/downloads.rss" The Compass)
+      ;; ("http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss" Analysis)
+      ;; ("http://www.bbc.co.uk/programmes/b006qykl/episodes/downloads.rss" In Our Time)
+      ;; ("http://www.bbc.co.uk/programmes/p004kln9/episodes/downloads.rss" The Forum)
+      ;; ("http://downloads.bbc.co.uk/podcasts/radio4/ta/rss.xml" Thinking Allowed)
+      ))
 
 
 (custom-set-faces
