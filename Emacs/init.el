@@ -140,6 +140,9 @@
       ("https://www.quora.com/Python-programming-language-1/rss" Python)
       ("https://www.quora.com/Web-Development/rss" Web Dev)
       ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)
+      ;; Planet Python
+      ("http://planet.python.org/rss10.xml" Planet Python)
+      ("http://code.activestate.com/feeds/recipes/langs/python/" Python recipes)
       ;;
       ("http://feeds.feedburner.com/EnglishAsASecondLanguagePodcast" ESL)
       ;; BBC podcasts there --->
