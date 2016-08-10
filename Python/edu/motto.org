@@ -10743,10 +10743,15 @@ http://github.com/pydata/pydata-book
 *** At GitHub 
 **** Associated with repository
      Anton S. Kosinov's [[http://0--key.github.io/][blog]]
-**** Guides
-     http://renard.github.io/o-blog/
-     Scientific usage [[illustration][sample]]
-     
+**** Guides						       :html:publish:
+     - http://renard.github.io/o-blog/
+     - Jekyll
+       full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
+     - Scientific usage [[illustration][sample]]
+     - Org-mode template for *technical specification documents* &
+       [[https://github.com/thi-ng/org-spec][HTML publishing]]
+     - One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote*
+       =without RSS=
 *** Jekyll
 **** Hyde
 **** Octopress
