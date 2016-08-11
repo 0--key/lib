@@ -10748,19 +10748,17 @@ http://github.com/pydata/pydata-book
      'kill-ring-save
 **** DONE capture region
      'org-capture
-** Publish your posts
+** Publish your posts out from org-mode
 *** At GitHub 
 **** Associated with repository
      Anton S. Kosinov's [[http://0--key.github.io/][blog]]
-**** Guides						       :html:publish:
-     - http://renard.github.io/o-blog/
-     - Jekyll
-       full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
-     - Scientific usage [[illustration][sample]]
+**** Guides how to blogging with Emacs 			       :html:publish:
+     - Scientific usage [[illustration][sample]] proves that it might be awesome
+     - O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
+     - Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
      - Org-mode template for *technical specification documents* &
        [[https://github.com/thi-ng/org-spec][HTML publishing]]
-     - One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote*
-       =without RSS=
+     - One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
 *** Jekyll
 **** Hyde
 **** Octopress
