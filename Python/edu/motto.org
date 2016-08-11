@@ -10228,7 +10228,30 @@ http://github.com/pydata/pydata-book
 ***** Tests are executable requirements 
 ***** Arrange-Act-Assert 
 ***** Documenting our tests 
-***** Testing for exceptions 
+***** Testing for exceptions
+      Straightforward approach:
+      #+BEGIN_SRC python
+        def test_negative_price_should_throw_ValueError(self):
+               goog = Stock("GOOG")
+               try:
+                   goog.update(datetime(2014, 2, 13), -1)
+               except ValueError:
+                   return
+               self.fail("ValueError was not raised")
+      #+END_SRC
+      Sophisticated approach:
+      #+BEGIN_SRC python
+        def test_negative_price_should_throw_ValueError(self):
+            goog = Stock("GOOG")
+            self.assertRaises(ValueError, goog.update, datetime(2014, 2, 13), -1)
+      #+END_SRC
+      or in a bit convenient way:
+      #+BEGIN_SRC python
+        def test_negative_price_should_throw_ValueError(self):
+            goog = Stock("GOOG")
+            with self.assertRaises(ValueError):
+                goog.update(datetime(2014, 2, 13), -1)
+      #+END_SRC
 ***** Exploring assert methods 
 ***** Specific asserts versus generic asserts 
 ***** Setup and teardown 
