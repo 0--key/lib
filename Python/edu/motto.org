@@ -10518,14 +10518,21 @@ http://github.com/pydata/pydata-book
     /mirror changes and invert it/
     ~git revert <commit_id>~
 **** Using reset to undo commits
+     ‘x’     (‘magit-reset’)
+
+     Reset the head and index to some commit read from the user =and=
+     defaulting to the *commit at point*.  The working tree is kept as-is.
+     With a prefix argument also reset the working tree.
+
 **** Demonstrating a soft reset
     #+BEGIN_QUOTE
     Just rewind back in time
     #+END_QUOTE
     ~git reset --soft <commit_id>~
-    - changes are in the staging index
+    - changes are allocated into the staging index
     - it's possible to:
       ~git reset --soft <recent_id>~
+      ~git reset --soft HEAD^~
     - Like a *Time Machine*
     - Moves HEAD pointer among commits
     - Safest solution
