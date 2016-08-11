@@ -3875,10 +3875,12 @@
 *** TODO Clause, phrase and sentence
 
 ** TODO Pronounce [0%]
-*** TODO Reading aloud at the regualr base [50%]
-**** TODO Adventures of Hucklberry Finn
-**** TODO My Family and Other Animals
-**** DONE The Time Machine
+*** TODO Reading aloud at the regualr base [33%]	       :reading:list:
+**** TODO Adventures of Hucklberry Finn				:AHF:
+**** TODO My Family and Other Animals				:MFOA:
+**** TODO How to Read a Book					:HRB:
+**** TODO Moonwalking with Einstein				:MwE:
+**** DONE The Time Machine					:TTM:
 **** DONE Python Talk to Me podcast
 ** TODO Vocabulary [50%]
 *** DONE Vocabla repetition
