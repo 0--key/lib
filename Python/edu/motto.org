@@ -10703,10 +10703,13 @@ http://github.com/pydata/pydata-book
 *** DONE Vocabulary
     captured by voca-builder and [[file://usr/local/share/DVCS/lib/eng.org][stored into file]]
 
-*** Quotations
+*** DONE Thoughts
+    Extracted and [[file:/usr/local/share/DVCS/lib/thoughts.org][collected here]]
 
 *** DONE Idioms
-    captured and [[file:/usr/local/share/DVCS/lib/idioms.py][stored here]]
+    captured and [[file:/usr/local/share/DVCS/lib/idioms.org][stored here]]
+
+*** Quotations
 
 *** Code snippets
 
