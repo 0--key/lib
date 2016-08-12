@@ -10271,12 +10271,136 @@ http://github.com/pydata/pydata-book
             with self.assertRaises(ValueError):
                 goog.update(datetime(2014, 2, 13), -1)
       #+END_SRC
-***** Exploring assert methods 
-***** Specific asserts versus generic asserts 
-***** Setup and teardown 
-***** Brittle tests 
-***** Refactoring the design 
-***** Refactoring tests 
+***** Exploring assert methods
+****** assertFalse(x, msg)
+****** assertTrue(x, msg)
+
+
+****** assertIsNone(x, msg)
+****** assertIsNotNone(x, msg)
+
+
+****** assertEqual(x, y, msg)
+****** assertNotEqual(x, y, msg)
+
+
+****** assertAlmostEqual(x, y, places, msg, delta)
+       #+BEGIN_SRC python
+         def test_stock_price_should_give_the_latest_price(self):
+             goog = Stock("GOOG")
+             goog.update(datetime(2014, 2, 12), price=10)
+             goog.update(datetime(2014, 2, 13), price=8.4)
+             self.assertAlmostEqual(8.4, goog.price, delta=0.0001)
+
+         # or synonymous
+         # self.assertAlmostEqual(8.4, goog.price, places=4)
+       #+END_SRC
+****** assertNotAlmostEqual(x, y, places, msg, delta)
+
+
+****** assertGreater(x, y, msg)
+****** assertGreaterEqual(x, y, msg)
+
+
+****** assertLess(x, y, msg)
+****** assertLessEqual(x, y, msg)
+
+
+****** assertIs(x, y, msg)
+       #+BEGIN_SRC python
+         import unittest
+
+
+         test = unittest.TestCase()
+         test.assertEqual([1, 2], [1, 2], \
+                          "They are not equal one another!")
+         test.assertIs([1, 2], [1, 2], \
+                       "They are not the same objects!")
+       #+END_SRC
+
+       #+RESULTS:
+
+****** assertIsNot(x, y, msg)
+
+
+****** assertIn(x, seq, msg)
+****** assertNotIn(x, seq, msg)
+
+
+****** assertIsInstance(x, cls, msg)
+****** assertNotIsInstance(x, cls, msg)
+
+
+****** assertRegex(text, regex, msg)
+****** assertNotRegex(text, regex, msg)
+
+
+****** assertRaises(exception, callable, *args, **kwargs)
+
+
+****** fail(msg)      
+***** Specific asserts versus generic asserts
+      #+BEGIN_QUOTE
+      It is recommended to use the more specific asserts
+      wherever possible.
+      #+END_QUOTE
+***** Setup and teardown
+      Three levels fixture's execution:
+      - Module
+      - Class
+      - Case
+
+      #+BEGIN_SRC python :results output :session TDD
+        import unittest
+
+
+        def setUpModule():
+            print("setUpModule")
+        def tearDownModule():
+            print("tearDownModule")
+
+
+        class Class1Test(unittest.TestCase):
+            @classmethod
+            def setUpClass(cls):
+                print("  setUpClass")
+            @classmethod
+            def tearDownClass(cls):
+                print("  tearDownClass")
+            def setUp(self):
+                print("       setUp")
+            def tearDown(self):
+                print("       tearDown")
+            def test_1(self):
+                print("         class 1 test 1")
+            def test_2(self):
+                print("         class 1 test 2")
+
+
+        class Class2Test(unittest.TestCase):
+            def test_1(self):
+                print("         class 2 test 1")
+      #+END_SRC
+
+      #+RESULTS:
+
+***** Brittle tests
+      #+BEGIN_QUOTE
+      A test is brittle when a change in the implementation
+      details requires a change in the test cases.
+      #+END_QUOTE
+***** Refactoring the design
+      #+BEGIN_QUOTE
+      *A quick primer on properties*
+
+      Properties are a feature of Python where we can delegate attribute access to a
+      function. Since we declared price as a property, accessing Stock.price will cause
+      the method to be called instead of searching for the attribute. In our
+      implementation, it allows us to create an interface so that other modules can
+      refer to the stock price as an attribute, even though there is no such actual
+      attribute in the object.
+      #+END_QUOTE
+***** Refactoring tests
 ***** Exploring the Rule classes 
 ***** Exercise 
 ***** Summary 
