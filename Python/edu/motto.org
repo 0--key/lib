@@ -4025,13 +4025,15 @@
 *** TODO Clause, phrase and sentence
 
 ** TODO Pronounce [0%]
-*** TODO Reading aloud at the regualr base [33%]	       :reading:list:
+*** TODO Reading aloud at the regualr base [37%] 	       :reading:list:
 **** TODO Adventures of Hucklberry Finn				:AHF:
 **** TODO My Family and Other Animals				:MFOA:
 **** TODO How to Read a Book					:HRB:
 **** TODO Moonwalking with Einstein				:MwE:
 **** DONE The Time Machine					:TTM:
 **** DONE Python Talk to Me podcast
+**** DONE [[Version Control with Git][Version Control with Git]]
+**** TODO [[TDPD][Test-Driven Python Development]]
 ** TODO Vocabulary [50%]
 *** DONE Vocabla repetition
 *** TODO Quora reading
@@ -10396,6 +10398,7 @@ http://github.com/pydata/pydata-book
 
 *** Test-Driven Python Development 				       :TDPD:
 **** 1. Getting Started with Test-Driven Development 
+    #+NAME: TDPD
 ***** Prerequisites
 ***** Understanding test-driven development 
 ***** TDD versus unit testing versus integration testing 
@@ -10726,6 +10729,7 @@ http://github.com/pydata/pydata-book
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
 *** Version Control with Git			    :book:Matthew_McCullough:
+    #+NAME: VCwG
 **** Preface
 ***** Audience
 ***** Assumed Framework
