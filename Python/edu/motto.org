@@ -10396,9 +10396,9 @@ http://github.com/pydata/pydata-book
 ***** Summary 
 ***** Index 
 
-*** Test-Driven Python Development 				       :TDPD:
-**** 1. Getting Started with Test-Driven Development 
+*** Test-Driven Python Development [20%] 			       :TDPD:
     #+NAME: TDPD
+**** DONE 1. Getting Started with Test-Driven Development 
 ***** Prerequisites
 ***** Understanding test-driven development 
 ***** TDD versus unit testing versus integration testing 
@@ -10410,7 +10410,7 @@ http://github.com/pydata/pydata-book
 ***** Reorganizing the test code 
 ***** Running the tests after the reorganization 
 ***** Summary 
-**** 2. Red-Green-Refactor – The TDD Cycle 
+**** DONE 2. Red-Green-Refactor – The TDD Cycle 
 ***** Tests are executable requirements 
 ***** Arrange-Act-Assert 
 ***** Documenting our tests 
@@ -10571,7 +10571,7 @@ http://github.com/pydata/pydata-book
 ***** Exploring the Rule classes 
 ***** Exercise 
 ***** Summary 
-**** 3. Code Smells and Refactoring 
+**** TODO 3. Code Smells and Refactoring 
 ***** A dual crossover moving average 
 ***** Implementing the dual crossover moving average 
 ***** Identifying code smells 
@@ -10590,7 +10590,7 @@ http://github.com/pydata/pydata-book
 ***** Exercise 
 ***** Wrapping up 
 ***** Summary 
-**** 4. Using Mock Objects to Test Interactions 
+**** TODO 4. Using Mock Objects to Test Interactions 
 ***** Hand writing a simple mock 
 ***** Using the Python mocking framework 
 ***** Mocking objects 
@@ -10602,7 +10602,7 @@ http://github.com/pydata/pydata-book
 ***** An important gotcha when patching 
 ***** Tying it all together 
 ***** Summary 
-**** 5. Working with Legacy Code 
+**** TODO 5. Working with Legacy Code 
 ***** What is legacy code? 
 ***** Understanding the code 
 ***** What are characterization tests? 
@@ -10624,7 +10624,7 @@ http://github.com/pydata/pydata-book
 ***** Time to refactor 
 ***** Long-term refactoring 
 ***** Summary 
-**** 6. Maintaining Your Test Suite 
+**** TODO 6. Maintaining Your Test Suite 
 ***** Goals of test maintenance 
 ***** Organizing tests 
 ***** Filesystem layout 
@@ -10641,7 +10641,7 @@ http://github.com/pydata/pydata-book
 ***** Using custom equality checkers 
 ***** Using matchers 
 ***** Summary 
-**** 7. Executable Documentation with doctest 
+**** TODO 7. Executable Documentation with doctest 
 ***** Our first doctest 
 ***** Running the doctest 
 ***** Test failures 
@@ -10654,7 +10654,7 @@ http://github.com/pydata/pydata-book
 ***** Doctest directives 
 ***** How do doctests fit into the TDD process? 
 ***** Summary 
-**** 8. Extending unittest with nose2 
+**** TODO 8. Extending unittest with nose2 
 ***** Getting started with nose2 
 ***** Writing tests for nose2 
 ***** Setup and teardown 
@@ -10667,8 +10667,8 @@ http://github.com/pydata/pydata-book
 ***** Measuring test coverage 
 ***** Debugging test failures 
 ***** nose2 configuration 
-***** Summary 
-**** 9. Unit Testing Patterns 
+***** TODO Summary 
+**** TODO 9. Unit Testing Patterns 
 ***** Pattern – fast tests 
 ***** Pattern – running a subset of tests 
 ***** Test loaders 
@@ -10684,7 +10684,7 @@ http://github.com/pydata/pydata-book
 ***** Pattern – patching the open function 
 ***** Pattern – mocking with mutable args 
 ***** Summary 
-**** 10. Tools to Improve Test-Driven Development 
+**** TODO 10. Tools to Improve Test-Driven Development 
 ***** TDD tools 
 ***** py.test 
 ***** py.test versus nose2 
