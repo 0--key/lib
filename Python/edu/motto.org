@@ -10724,250 +10724,256 @@ http://github.com/pydata/pydata-book
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
 * Discover Git work-flow 			:Git:
-  [[http://nvie.com/posts/a-successful-git-branching-model/][Branching Model]]
-** Version Control with Git			:vc:
-*** Preface
-**** Audience
-**** Assumed Framework
-**** Book Layout and Omissions
+** Git VC theoretical basement			:theory:
+*** Version Control with Git			    :book:Matthew_McCullough:
+**** Preface
+***** Audience
+***** Assumed Framework
+***** Book Layout and Omissions
+      #+BEGIN_QUOTE
+      The concepts covered in Chapter 4 are essential for a firm grasp
+      on Git’s object model.
+      #+END_QUOTE
+***** Conventions Used in This Book
+***** Using Code Examples
+***** Safari® Books Online
+***** How to Contact Us
+***** Acknowledgments
+***** Attributions
+**** Introduction
+***** Background
+***** The Birth of Git
+***** Precedents
+***** Timeline
+***** What’s in a Name?
+**** Installing Git
+**** Getting Started
+**** Basic Git Concepts
+***** Basic Concepts
+      Keeping track of multiple repositories may seem like a /daunting/
+      prospect, but the fundamentals you learn in this chapter apply
+      just the same.
+****** Repositories
+       Database containing all the information needed to retain and manage
+       the revisions and history of a project.
+****** Git Object Types
+       - blobs
+       - trees
+       - commits
+       - tags
+****** Index
+****** Content-Addressable Names
+****** Git Tracks Content
+****** Pathname Versus Content
+****** Pack Files
+***** Object Store Pictures
+***** Git Concepts at Work
+****** Inside the .git Directory
+****** Objects, Hashes, and Blobs
+****** Files and Trees
+****** A Note on Git’s Use of SHA1
+****** Tree Hierarchies
+****** Commits
+
+**** File Management and the Index
+**** Commits
+**** Branches
+**** Diffs
+**** Merges
+**** Altering Commits
+**** The Stash and the Reflog
+**** Remote Repositories
+**** Repository Management
+**** Patches
+**** Hooks
+**** Combining Projects
+**** Submodule Best Practices
+**** Using Git with Subversion Repositories
+**** Advanced Manipulations
+**** Tips, Tricks, and Techniques
+**** Git and GitHub
+*** Git Essential Training:					    :essence:
+**** Introduction
+**** What is Git
+**** Installing Git
+**** Getting Started
+**** Git Concepts and Architecture
+***** Exploring the three-trees architecture
+	- Two-trees architecture close-up:
+       	  + repository
+       	  + working copy
+	- Three-trees
+       	  + staging index
+	    /as a middle-ware/ between
+***** The Git work-flow
+	- change working copy
+	- add these changes to staging index
+	- commit they into repository
+***** Using hash values (SHA-1)
+	- Git generates a checksum for each change set
+       	  - checksum algorithms convert data into a simple number
+       	  - same data always equals same checksum
+	- Data integrity is fundamental
+       	  - changing data would change checksum
+	- Git uses SHA-1 hash algorithm to create checksums
+       	  - 40-character hexadecimal string (0-9, a-f)
+***** Working with the HEAD pointer
+      *HEAD*
+      - pointer to *tip* of current branch in repository
+      - last state of repository, what was last checked out
+      - points to parent of next commit
+	/where writing commits takes place/
+**** Making Changes to Files
+***** Adding files
+***** Editing files
+***** Viewing changes with diff
+      git diff
+***** Viewing only staged changes
+      git diff --staged
+***** Deleting files
+      git rm
+***** Moving and renaming files
+      git mv old_name.txt new_name.txt
+**** Undoing Changes
+***** Undoing working directory changes
+     ~git checkout -- index.html~
+***** Unstaging files
+     ~git reset HEAD resources.html~
+***** Amending commits
+     ~git commit --amend -m 'The last commit edit by join the new one'~
+     /the same command to change commit message only/
+***** Retrieving old versions
+     ~git checkout <commit_id> -- <filename>~
+***** Reverting a commit
+     /mirror changes and invert it/
+     ~git revert <commit_id>~
+***** Using reset to undo commits
+      ‘x’     (‘magit-reset’)
+
+      Reset the head and index to some commit read from the user =and=
+      defaulting to the *commit at point*.  The working tree is kept as-is.
+      With a prefix argument also reset the working tree.
+
+***** Demonstrating a soft reset
      #+BEGIN_QUOTE
-     The concepts covered in Chapter 4 are essential for a firm grasp
-     on Git’s object model.
+     Just rewind back in time
      #+END_QUOTE
-**** Conventions Used in This Book
-**** Using Code Examples
-**** Safari® Books Online
-**** How to Contact Us
-**** Acknowledgments
-**** Attributions
-*** Introduction
-**** Background
-**** The Birth of Git
-**** Precedents
-**** Timeline
-**** What’s in a Name?
-*** Installing Git
-*** Getting Started
-*** Basic Git Concepts
-**** Basic Concepts
-     Keeping track of multiple repositories may seem like a /daunting/
-     prospect, but the fundamentals you learn in this chapter apply
-     just the same.
-***** Repositories
-      Database containing all the information needed to retain and manage
-      the revisions and history of a project.
-***** Git Object Types
-      - blobs
-      - trees
-      - commits
-      - tags
-***** Index
-***** Content-Addressable Names
-***** Git Tracks Content
-***** Pathname Versus Content
-***** Pack Files
-**** Object Store Pictures
-**** Git Concepts at Work
-***** Inside the .git Directory
-***** Objects, Hashes, and Blobs
-***** Files and Trees
-***** A Note on Git’s Use of SHA1
-***** Tree Hierarchies
-***** Commits
+     ~git reset --soft <commit_id>~
+     - changes are allocated into the staging index
+     - it's possible to:
+       ~git reset --soft <recent_id>~
+       ~git reset --soft HEAD^~
+     - Like a *Time Machine*
+     - Moves HEAD pointer among commits
+     - Safest solution
+***** Demonstrating a mixed reset
+     #+BEGIN_QUOTE
+     Same as the previous one except that changes move into
+     working tree (not staging index)
+     #+END_QUOTE
+     - Hence it handy to edit it up one more time
+***** Demonstrating a hard reset
+     - Move project state backward only
+     - Leaves no traces of unnecessary commits
+     - Really dangerous option *be aware*
+***** Removing un-tracked files
+     ~git clean~
+     thrown away all unstaged files at once
+**** Ignoring Files
+***** Using .gitignore files
+***** Understanding what to ignore
+***** Ignoring files globally
+***** Ignoring tracked files
+     - add to .gitignore
+     - tell git to stop tracking it
+       ~git rm --cached <filename>~
+       /removes the <file> out from staging index/
+***** Tracking empty directories
+**** Branching
+***** Branching overview
+***** Viewing and creating branches
+***** Switching branches
+***** Creating and switching branches
+***** Switching branches with uncommitted changes
+***** Comparing branches
+     ~git diff <branch_1>..<branch_2>~
+     ~git diff --color-words <branch_1>..<branch_2>^~
+     ~git branch --merged~
+***** Renaming branches
+     ~git branch -m <old_b_name> <new_b_name>~
+***** Deleting branches
+     ~git branch -d <b_name>~
+***** Configuring the command prompt to show the branch
+**** Merging Branches
+***** Merging code
+***** Using fast-forward merge vs. true merge
+***** Merging conflicts
+***** Resolving merge conflicts
+****** Abort
+       ~git merge --abort~
+****** Resolve the conflict manually
+       It is necessary to test how to resolve it
+******* Switch on custom branch
+******* Make changes
+	{this changes from the custom branch}
+******* Commit changes
+******* Return on master branch
+******* Change the same hunk of code
+******* Commit this changes
+******* Merge branches
+****** Use a merge tool
+       ~git mergetool <Enter>~
+***** Exploring strategies to reduce merge conflicts
+****** keep lines short
+****** keep commits small and focused
+****** beware stray edits to whitespace
+       - spaces;
+       - tabs;
+       - line returns
+****** merge often
+****** track changes to master
 
-*** File Management and the Index
-*** Commits
-*** Branches
-*** Diffs
-*** Merges
-*** Altering Commits
-*** The Stash and the Reflog
-*** Remote Repositories
-*** Repository Management
-*** Patches
-*** Hooks
-*** Combining Projects
-*** Submodule Best Practices
-*** Using Git with Subversion Repositories
-*** Advanced Manipulations
-*** Tips, Tricks, and Techniques
-*** Git and GitHub
-** Git Essential Training:			:essence:
-*** Introduction
-*** What is Git
-*** Installing Git
-*** Getting Started
-*** Git Concepts and Architecture
-**** Exploring the three-trees architecture
-       - Two-trees architecture close-up:
-       	 + repository
-       	 + working copy
-       - Three-trees
-       	 + staging index
-	   /as a middle-ware/ between
-**** The Git work-flow
-       - change working copy
-       - add these changes to staging index
-       - commit they into repository
-**** Using hash values (SHA-1)
-       - Git generates a checksum for each change set
-       	 - checksum algorithms convert data into a simple number
-       	 - same data always equals same checksum
-       - Data integrity is fundamental
-       	 - changing data would change checksum
-       - Git uses SHA-1 hash algorithm to create checksums
-       	 - 40-character hexadecimal string (0-9, a-f)
-**** Working with the HEAD pointer
-     *HEAD*
-     - pointer to *tip* of current branch in repository
-     - last state of repository, what was last checked out
-     - points to parent of next commit
-       /where writing commits takes place/
-*** Making Changes to Files
-**** Adding files
-**** Editing files
-**** Viewing changes with diff
-     git diff
-**** Viewing only staged changes
-     git diff --staged
-**** Deleting files
-     git rm
-**** Moving and renaming files
-     git mv old_name.txt new_name.txt
-*** Undoing Changes
-**** Undoing working directory changes
-    ~git checkout -- index.html~
-**** Unstaging files
-    ~git reset HEAD resources.html~
-**** Amending commits
-    ~git commit --amend -m 'The last commit edit by join the new one'~
-    /the same command to change commit message only/
-**** Retrieving old versions
-    ~git checkout <commit_id> -- <filename>~
-**** Reverting a commit
-    /mirror changes and invert it/
-    ~git revert <commit_id>~
-**** Using reset to undo commits
-     ‘x’     (‘magit-reset’)
+**** Stashing Changes
+     Special fourth area in git repository
 
-     Reset the head and index to some commit read from the user =and=
-     defaulting to the *commit at point*.  The working tree is kept as-is.
-     With a prefix argument also reset the working tree.
+***** Save changes
+      ~git stash save "message~
 
-**** Demonstrating a soft reset
-    #+BEGIN_QUOTE
-    Just rewind back in time
-    #+END_QUOTE
-    ~git reset --soft <commit_id>~
-    - changes are allocated into the staging index
-    - it's possible to:
-      ~git reset --soft <recent_id>~
-      ~git reset --soft HEAD^~
-    - Like a *Time Machine*
-    - Moves HEAD pointer among commits
-    - Safest solution
-**** Demonstrating a mixed reset
-    #+BEGIN_QUOTE
-    Same as the previous one except that changes move into
-    working tree (not staging index)
-    #+END_QUOTE
-    - Hence it handy to edit it up one more time
-**** Demonstrating a hard reset
-    - Move project state backward only
-    - Leaves no traces of unnecessary commits
-    - Really dangerous option *be aware*
-**** Removing un-tracked files
-    ~git clean~
-    thrown away all unstaged files at once
-*** Ignoring Files
-**** Using .gitignore files
-**** Understanding what to ignore
-**** Ignoring files globally
-**** Ignoring tracked files
-    - add to .gitignore
-    - tell git to stop tracking it
-      ~git rm --cached <filename>~
-      /removes the <file> out from staging index/
-**** Tracking empty directories
-*** Branching
-**** Branching overview
-**** Viewing and creating branches
-**** Switching branches
-**** Creating and switching branches
-**** Switching branches with uncommitted changes
-**** Comparing branches
-    ~git diff <branch_1>..<branch_2>~
-    ~git diff --color-words <branch_1>..<branch_2>^~
-    ~git branch --merged~
-**** Renaming branches
-    ~git branch -m <old_b_name> <new_b_name>~
-**** Deleting branches
-    ~git branch -d <b_name>~
-**** Configuring the command prompt to show the branch
-*** Merging Branches
-**** Merging code
-**** Using fast-forward merge vs. true merge
-**** Merging conflicts
-**** Resolving merge conflicts
-***** Abort
-      ~git merge --abort~
-***** Resolve the conflict manually
-      It is necessary to test how to resolve it
-****** Switch on custom branch
-****** Make changes
-       {this changes from the custom branch}
-****** Commit changes
-****** Return on master branch
-****** Change the same hunk of code
-****** Commit this changes
-****** Merge branches
-***** Use a merge tool
-      ~git mergetool <Enter>~
-**** Exploring strategies to reduce merge conflicts
-***** keep lines short
-***** keep commits small and focused
-***** beware stray edits to whitespace
-      - spaces;
-      - tabs;
-      - line returns
-***** merge often
-***** track changes to master
+***** View stashed changes
+      ~git stash list~
+      Changes in stash available to review from all branches
+      ~git stash show [-p(atch)] stash@{0}~
 
-*** Stashing Changes
-    Special fourth area in git repository
+***** Retrieve changes out from stash
+      ~git stash pop~ removes stashed changes out from stash
+      ~git stash apply~ leaves a copy in the stash
 
-**** Save changes
-     ~git stash save "message~
+***** Deleting stashed changes
+      ~git stash drop stash@{0}~
+      ~git stash clear~ delete all existing stashed changes
 
-**** View stashed changes
-     ~git stash list~
-     Changes in stash available to review from all branches
-     ~git stash show [-p(atch)] stash@{0}~
+**** Remotes
+     The remote branch *master* mirrored by the local
+     *origin/master*
+     and it's possible to sync with your custom-made
+     branch with the same name *master*
 
-**** Retrieve changes out from stash
-     ~git stash pop~ removes stashed changes out from stash
-     ~git stash apply~ leaves a copy in the stash
+     ~git remote -v~
+     ~git remote add~
+     ~git remote add <shortname> <url>~
+     etc.
 
-**** Deleting stashed changes
-     ~git stash drop stash@{0}~
-     ~git stash clear~ delete all existing stashed changes
-
-*** Remotes
-    The remote branch *master* mirrored by the local
-    *origin/master*
-    and it's possible to sync with your custom-made
-    branch with the same name *master*
-
-    ~git remote -v~
-    ~git remote add~
-    ~git remote add <shortname> <url>~
-    etc.
-
-    ~git branch -r(emotes)~
-    ~git branch -a(ll)~
+     ~git branch -r(emotes)~
+     ~git branch -a(ll)~
     
-*** Tools and Next Steps
-*** Conclusion
+**** Tools and Next Steps
+**** Conclusion
+
+** Original implementation			:practice:
+   [[https://github.com/petervanderdoes/gitflow-avh][Git-Flow (AVH edition)]]
+
+** MaGit plugin					:efficiency:
+   Git-Flow [[https://github.com/jtatarik/magit-gitflow][plugin]] for magit.el
 
 
 * Open-Source contributing			:OpenSource:
