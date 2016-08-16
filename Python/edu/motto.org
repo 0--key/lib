@@ -4481,8 +4481,9 @@
 **** Kill line
      C-k
      M-C-k from end of the line up to the cursor
-**** DONE Manipulation with frames
+**** Manipulation with frames
      C-x 5 b switch to buffer other frame
+     C-x r f store the current frameset in register
 **** Mark ring 16 items there
      C-u C-SPC Jump to last mark
 **** Undo
@@ -4504,6 +4505,8 @@
 **** Version control
 ***** Diff
       C-x v =
+***** Diff in branches
+      C-u C-x v =
 ***** Undo
       C-x v u
 ***** Commit log
@@ -10398,7 +10401,7 @@ http://github.com/pydata/pydata-book
 
 *** Test-Driven Python Development [20%] 			       :TDPD:
     #+NAME: TDPD
-**** DONE 1. Getting Started with Test-Driven Development 
+**** DONE 1. Getting Starqted with Test-Driven Development 
 ***** Prerequisites
 ***** Understanding test-driven development 
 ***** TDD versus unit testing versus integration testing 
@@ -11112,3 +11115,9 @@ http://github.com/pydata/pydata-book
 
 ** Make resume
    http://bit.ly/hE8j3k
+
+** TODO Emacs [0/2] 
+
+*** TODO registers
+
+*** TODO version control
