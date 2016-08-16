@@ -56,3 +56,9 @@
      bad for Engineering.
    7 Half an hour isn't long enough to get in "the zone" and write good
      code.
+*** 2016-08-16 Tuesday
+**** Code smells
+   One of the biggest advantages of following a test-driven development process
+   is that the tests that we write are always around to make sure that we don't
+   break anything. This gives us a safety net to tinker with the code and make
+   sure that it is easy to read, easy to maintain, and well written.
