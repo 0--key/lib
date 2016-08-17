@@ -10577,11 +10577,36 @@ http://github.com/pydata/pydata-book
 **** TODO 3. Code Smells and Refactoring 
 ***** A dual crossover moving average 
 ***** Implementing the dual crossover moving average 
-***** Identifying code smells 
+***** Identifying code smells
+      #+BEGIN_QUOTE
+      What are the problems you can find with this code? The following are some
+      problems:
+      - *Long method*: Long methods and classes are difficult to read and
+	understand.
+      - *Unclear naming*: For instance, what is variable cpl supposed to be?
+      - *Complex conditionals*: The if conditions are quite complicated, and it
+	is unclear what exactly they are checking for.
+      - *Bad comments*: None of the comments are descriptive and, in addition,
+	two comments both say BUY signal. Obviously, one of them is wrong.
+      - *Magic constants*: In various places, the numbers 5, 10, –11, and so on
+	are =hard coded=. Suppose we decide to change the long-term moving
+	average to use a 20-day period, then where are the places we need to
+	change? What is the possibility that we may miss one?
+      - *Code duplication*: Both the conditionals seem almost the same, with a
+	 very minor difference.
+
+      All these problems are generally referred to as code smells. Code smells
+      are simple patterns that can be easily spotted and refactored to make
+      code better. Sometimes, code smells can be rectified by doing a few
+      simple changes. Other times, it may lead up to a change of the design
+      itself.
+      #+END_QUOTE
 ***** Refactoring 
-***** The Rename Variable and Rename Method refactorings 
-***** Commenting Styles 
-***** Replace Magic Literals with Constants 
+****** The Rename Variable and Rename Method refactorings
+       *Tests as a safety net*
+****** Commenting Styles
+
+****** Replace Magic Literals with Constants 
 ***** The Extract Method refactoring 
 ***** Replace Calculation with Temporary Variable 
 ***** Extract Conditional to Method 
