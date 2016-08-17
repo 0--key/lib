@@ -79,3 +79,9 @@
    is that the tests that we write are always around to make sure that we don't
    break anything. This gives us a safety net to tinker with the code and make
    sure that it is easy to read, easy to maintain, and well written.
+*** 2016-08-17 Wednesday
+**** Tests as a safety net 
+   Having a solid set of tests is critical before we do refactoring. This is
+   because tests give us the confidence that we haven't broken anything
+   during the refactoring. We will be running the tests multiple times
+   during a refactoring as we proceed from step to step.

@@ -135,3 +135,11 @@
     [2016-08-16 Tue 12:08]
 **** keenness of observation
     [2016-08-16 Tue 12:12]
+*** 2016-08-17 Wednesday
+**** There are many types of refactoring, from the extremely simple going
+     up to much more complex refactorings.
+    [2016-08-17 Wed 12:32]
+**** We should rename this to something more descriptive
+    [2016-08-17 Wed 12:38]
+**** A cursory glance at the code will tell the reader exactly what the comment says.
+    [2016-08-17 Wed 12:46]
