@@ -4481,7 +4481,7 @@
 **** Kill line
      C-k
      M-C-k from end of the line up to the cursor
-**** Manipulation with frames
+**** Manipulation with frames			:frames:
      C-x 5 b switch to buffer other frame
      C-x r f store the current frameset in register
 **** Mark ring 16 items there
@@ -4502,7 +4502,7 @@
      M-x follow-mode
 **** List of keys in the particular mode
      C-h m
-**** Version control
+**** Version control				:vc:
 ***** Diff
       C-x v =
 ***** Diff in branches
