@@ -10605,19 +10605,96 @@ http://github.com/pydata/pydata-book
 ****** The Rename Variable and Rename Method refactorings
        *Tests as a safety net*
 ****** Commenting Styles
+       #+BEGIN_QUOTE
+       Generally speaking, comments are a code smell because they indicate that
+       the code itself is not easy to read.
+       #+END_QUOTE
+****** Replace Magic Literals with Constants
+       #+BEGIN_QUOTE
+       Replacing hard-coded values with constants accomplishes two things: first,
+       should we need to change the values, we can do it at a single place, and,
+       second, the constants are more descriptive and help make the code more
+       readable.
+       #+END_QUOTE
 
-****** Replace Magic Literals with Constants 
-***** The Extract Method refactoring 
-***** Replace Calculation with Temporary Variable 
-***** Extract Conditional to Method 
-***** The DRY principle 
-***** Single Responsibility Principle 
-***** Extract Class 
-***** Move Method to Class 
-***** The importance of tests 
-***** Exercise 
-***** Wrapping up 
-***** Summary 
+       #+BEGIN_SRC python :results output :session TDD
+         from enum import Enum
+
+         # We then create the enumeration class.
+
+
+         class StockSignal(Enum):
+             buy = 1
+             neutral = 0
+             sell = -1
+
+         # Finally, we can replace the return value with the enumeration:
+
+             # NEUTRAL signal
+         print('\n')
+         print('This is a value: %d' % StockSignal.neutral.value)
+
+         # With this change, we can also remove the comments above the return
+         # values, as the constants are descriptive enough.
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> ... >>> >>> ... ... ... ... >>> ... >>> ...
+       : This is a value: 0
+       : 0
+
+****** The Extract Method refactoring
+       #+BEGIN_QUOTE
+       Another way to make comments redundant is to take the code and put it in
+       a method with a descriptive name.
+       #+END_QUOTE
+****** Replace Calculation with Temporary Variable
+       #+BEGIN_QUOTE
+       The conditional is messy because we are doing many calculations and
+       comparisons at the same time, which is hard to follow. We can clean this
+       up by using temporary variables to store the calculation values and then
+       using the variables in the conditionals.
+       #+END_QUOTE
+****** Extract Conditional to Method
+       #+BEGIN_QUOTE
+       In this refactoring, we take the comparison and move
+       it into its own method with a descriptive name.
+       #+END_QUOTE
+****** The DRY principle
+       #+BEGIN_QUOTE
+       *DRY* stands for *Don't Repeat Yourself*. If you ever find yourself
+       writing the same (or similar) code in multiple places, there is a good chance
+       that a refactoring will allow you to put that logic in once place and call it
+       from each place that it is needed.
+       #+END_QUOTE
+****** Single Responsibility Principle
+       #+BEGIN_QUOTE
+       From a design perspective, the most common reason that classes get cluttered
+       is due to not following the Single *Responsibility Principle (SRP)*. What this
+       principle states is that a class should have a single, clear, coherent
+       purpose. A class that tries to do too many different things is an indicator
+       of a poor design.
+       #+END_QUOTE
+****** Extract Class
+       #+BEGIN_QUOTE
+       The Extract Class refactoring is used to take some functionality and move it
+       into a separate class.
+       #+END_QUOTE
+****** Move Method to Class 
+***** The importance of tests
+      #+BEGIN_QUOTE
+      It is easy to overlook small things when moving code around, which
+      could end up breaking the code. By running the tests often, we know
+      immediately when we break something. This makes it *easy to fix the mistake*.
+      #+END_QUOTE
+***** Exercise
+***** Wrapping up
+***** Summary
+      #+BEGIN_QUOTE
+      Test-driven development and refactoring go hand in hand and are invaluable
+      tools in any developer's toolbox.
+      #+END_QUOTE
 **** TODO 4. Using Mock Objects to Test Interactions 
 ***** Hand writing a simple mock 
 ***** Using the Python mocking framework 
