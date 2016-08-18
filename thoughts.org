@@ -85,3 +85,10 @@
    because tests give us the confidence that we haven't broken anything
    during the refactoring. We will be running the tests multiple times
    during a refactoring as we proceed from step to step.
+*** 2016-08-18 Thursday
+**** _single_leading_underscore
+   weak "internal use" indicator.  E.g. "from M import *" *does not import*
+   objects whose name starts with an underscore.
+**** Single Responsibility Principle (SRP)
+     Class should have a single, clear, coherent purpose. A class that tries
+     to do too many different things is an indicator of a poor design.
