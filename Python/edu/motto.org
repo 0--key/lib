@@ -11201,12 +11201,31 @@ http://github.com/pydata/pydata-book
 **** Associated with repository
      Anton S. Kosinov's [[http://0--key.github.io/][blog]]
 **** Guides how to blogging with Emacs 			       :html:publish:
-     - Scientific usage [[illustration][sample]] proves that it might be awesome
-     - O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
-     - Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
-     - Org-mode template for *technical specification documents* &
-       [[https://github.com/thi-ng/org-spec][HTML publishing]]
-     - One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
+***** Scientific usage [[illustration][sample]] proves that it might be awesome
+
+	*Installation Guide*
+
+	Evaluate expression below to determine where org expects
+	to seek its libraries:
+
+	#+BEGIN_SRC elisp
+          (expand-file-name
+          "ditaa.jar"
+          (file-name-as-directory
+          (expand-file-name
+          "scripts"
+          (file-name-as-directory
+          (expand-file-name
+          "../contrib"
+          (file-name-directory (org-find-library-dir "org")))))))
+	#+END_SRC
+
+	#+RESULTS:
+	: /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
+
+	[[http://netix.dl.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip][Download]], unzip, rename and locate into above path
+	Add ~(ditaa .t)~ into org-babel-load-languages
+
 *** Jekyll
 **** Hyde
 **** Octopress
