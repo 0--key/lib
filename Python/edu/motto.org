@@ -11226,6 +11226,36 @@ http://github.com/pydata/pydata-book
 	[[http://netix.dl.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip][Download]], unzip, rename and locate into above path
 	Add ~(ditaa .t)~ into org-babel-load-languages
 
+	*Test it*:
+	#+BEGIN_SRC ditaa :file ./color_test.png
+          /----\ /----\
+          |c33F| |cC02|
+          |    | |    |
+          \----/ \----/
+
+          /----\ /----\
+          |c1FF| |c1AB|
+          |    | |    |
+          \----/ \----/
+	#+END_SRC
+
+	#+RESULTS:
+	[[file:./color_test.png]]
+
+	#+BEGIN_SRC ditaa :file ./second_color_test.png
+          Color codes
+          /-------------+-------------\
+          |cRED RED     |cBLU BLU     |
+          +-------------+-------------+
+          |cGRE GRE     |cPNK PNK     |
+          +-------------+-------------+
+          |cBLK BLK     |cYEL YEL     |
+          \-------------+-------------/
+
+	#+END_SRC
+
+	#+RESULTS:
+	[[file:./second_color_test.png]]
 *** Jekyll
 **** Hyde
 **** Octopress
