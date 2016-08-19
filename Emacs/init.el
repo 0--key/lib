@@ -60,7 +60,12 @@
    (shell . t)
    (js . t)
    (ditaa . t)
+   (plantuml . t)
    ))
+;;
+(setq org-plantuml-jar-path
+      (expand-file-name "~/.emacs.d/elpa/contrib/scripts/plantuml.jar"))
+;;
 ;; ^^^ Babel customization
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
