@@ -11256,6 +11256,16 @@ http://github.com/pydata/pydata-book
 
 	#+RESULTS:
 	[[file:./second_color_test.png]]
+
+***** O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
+
+***** Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
+
+***** Org-mode template for *technical specification documents* &
+	[[https://github.com/thi-ng/org-spec][HTML publishing]]
+
+***** One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
+
 *** Jekyll
 **** Hyde
 **** Octopress
