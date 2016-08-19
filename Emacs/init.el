@@ -59,7 +59,7 @@
    (emacs-lisp . t)
    (shell . t)
    (js . t)
-   (ditaa .t)
+   (ditaa . t)
    ))
 ;; ^^^ Babel customization
 (custom-set-variables
