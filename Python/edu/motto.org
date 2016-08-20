@@ -7242,7 +7242,42 @@
 **** Standard Library [%]
 ***** 1. Introduction 
 
-***** 2. Built-in Functions 
+***** 2. Built-in Functions
+      #+BEGIN_QUOTE
+      built-in functions and exceptions — objects that can be used by
+      all Python code *without the need of an import* statement.
+      #+END_QUOTE
+      #+BEGIN_SRC python :results output
+        abs()         dict()      help()          min()      setattr()          
+        all()         dir()       hex()           next()     slice()            
+        any()         divmod()    id()            object()   sorted()           
+        ascii()       enumerate() input()         oct()      staticmethod()     
+        bin()         eval()      int()           open()     str()              
+        bool()        exec()      isinstance()    ord()      sum()              
+        bytearray()   filter()    issubclass()    pow()      super()            
+        bytes()       float()     iter()          print()    tuple()            
+        callable()    format()    len()           property() type()             
+        chr()         frozenset() list()          range()    vars()             
+        classmethod() getattr()   locals()        repr()     zip()              
+        compile()     globals()   map()           reversed() __import__()       
+        complex()     hasattr()   max()           round()                       
+        delattr()     hash()      memoryview()    set()
+
+      #+END_SRC
+
+	#+BEGIN_SRC python :results output :session biult-in
+          help('all')
+	#+END_SRC
+
+	#+RESULTS:
+	: Help on built-in function all in module builtins:
+	: 
+	: all(...)
+	:     all(iterable) -> bool
+	:     
+	:     Return True if bool(x) is True for all values x in the iterable.
+	:     If the iterable is empty, return True.
+
 
 ***** 3. Built-in Constants
 
