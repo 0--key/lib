@@ -7322,7 +7322,32 @@
 
 ****** 8.5. heapq — Heap queue algorithm 
 
-****** 8.6. bisect — Array bisection algorithm 
+****** 8.6. bisect — Array bisection algorithm			     :bisect:
+       #+BEGIN_SRC python :results output :session stdlib
+         from bisect import bisect_left
+
+         data = [('red', 5), ('blue', 1), ('yellow', 8), ('black', 0)]
+         data.sort(key=lambda r: r[1])
+         print('\n')
+         data
+         keys = [r[1] for r in data]         # precomputed list of keys
+         print("This are the keys: %s" % keys)
+         data[bisect_left(keys, 0)]
+         data[bisect_left(keys, 1)]
+         data[bisect_left(keys, 5)]
+         data[bisect_left(keys, 8)]
+       #+END_SRC
+
+       #+RESULTS:
+       : 
+       : >>> >>> >>>
+       : [('black', 0), ('blue', 1), ('red', 5), ('yellow', 8)]
+       : >>> This are the keys: [0, 1, 5, 8]
+       : ('black', 0)
+       : ('blue', 1)
+       : ('red', 5)
+       : ('yellow', 8)
+
 
 ****** 8.7. array — Efficient arrays of numeric values 
 
