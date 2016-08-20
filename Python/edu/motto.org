@@ -4757,7 +4757,6 @@
 http://github.com/pydata/pydata-book
 
 ** by studying with slope to hone:
-
 *** Python's Theory 	                        :theory:
 **** Official Python documentation 		:documentation:
 ***** The Python Tutorial [100%] 		:tutorial:
@@ -8141,6 +8140,7 @@ http://github.com/pydata/pydata-book
 **** Programming Python 4th Edition		:programming:
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
+*** Mastering Python
 **** Python Anti-Patterns			:anti:patterns:
 ***** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 ***** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
@@ -9899,6 +9899,8 @@ http://github.com/pydata/pydata-book
 
         function_with_certain_name()
       #+END_SRC
+
+
 * Enhance general coding grit	                :coding:
 
 ** Problem solving technique
