@@ -76,7 +76,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(magit-diff-section-arguments (quote ("--no-ext-diff")))
- '(org-confirm-babel-evaluate nil))
+ '(org-confirm-babel-evaluate nil)
+ '(org-src-window-setup (quote other-frame)))
 ;; end of custom variables
 ;;
 ;; (global-auto-revert-mode t)
