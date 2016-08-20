@@ -1,3 +1,6 @@
+(setq custom-file "~/.emacs.d/init-custom.el")
+(load custom-file)
+;;
 (require 'package)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 ;; and MELPA
@@ -70,19 +73,6 @@
       (expand-file-name "~/.emacs.d/elpa/contrib/scripts/plantuml.jar"))
 ;;
 ;; ^^^ Babel customization
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(magit-diff-section-arguments (quote ("--no-ext-diff")))
- '(org-confirm-babel-evaluate nil)
- '(org-src-window-setup (quote other-frame)))
-;; end of custom variables
-;;
-;; (global-auto-revert-mode t)
-;;
-
 ;; colorization
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
 (require 'color-theme)
@@ -171,11 +161,3 @@
       ;; ("http://www.bbc.co.uk/programmes/p004kln9/episodes/downloads.rss" The Forum)
       ;; ("http://downloads.bbc.co.uk/podcasts/radio4/ta/rss.xml" Thinking Allowed)
       ))
-
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
