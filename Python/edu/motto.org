@@ -4730,34 +4730,47 @@
 ** DONE Voca-builder				:vocabulary:extension:
 * Dive deeper into Python 			:Python:
 
-** in six months <2016-07-15 Wed> 
-** with:
+** Prerequisites
 
 *** Python3++
-**** DONE Install and test Python3 devEnv
-     virtualenv -p /usr/bin/python3 yourenv
-     source yourenv/bin/activate
-     pip install ipython
-     DEADLINE: <2016-01-19 Tue>
-**** DONE Install into devEnv:
-     DEADLINE: <2016-01-20 Wed>
-***** numpy
-      sudo apt-get install python3-dev
-      pip install numpy
-***** pandas
-      pip install pandas
-***** nltk
-      pip install -U nltk
-      
-***** matplotlib
-      sudo apt-get install libfreetype6-dev
-      sudo apt-get install libxft-dev
-      pip install matplotlib 
+    Install and test Python3 devEnv
+    #+BEGIN_SRC shell
+      virtualenv -p /usr/bin/python3 yourenv
+      source yourenv/bin/activate
+      pip install ipython
+    #+END_SRC
 
-http://github.com/pydata/pydata-book
+*** Install core libraries into devEnv:
+    In accordion with the [[http://github.com/pydata/pydata-book][book]] 
+
+**** numpy
+     #+BEGIN_SRC shell
+       sudo apt-get install python3-dev
+       pip install numpy
+     #+END_SRC
+
+**** pandas
+     #+BEGIN_SRC shell
+       pip install pandas
+     #+END_SRC
+
+**** nltk
+     #+BEGIN_SRC shell
+       pip install -U nltk
+     #+END_SRC
+
+**** matplotlib
+     #+BEGIN_SRC shell
+       sudo apt-get install libfreetype6-dev
+       sudo apt-get install libxft-dev
+       pip install matplotlib 
+     #+END_SRC
+
 
 ** by studying with slope to hone:
+
 *** Python's Theory 	                        :theory:
+
 **** Official Python documentation 		:documentation:
 ***** The Python Tutorial [100%] 		:tutorial:
 ****** DONE Whetting Your Appetite
@@ -7228,7 +7241,7 @@ http://github.com/pydata/pydata-book
 
 ******** The Customization Modules
 
-***** TODO Python HOWTOs [0%]
+***** TODO Python HOWTOs [0%]		        :howto:
 ****** TODO Porting Python 2 Code to Python 3
 
 ******* The Short Explanation
@@ -8140,7 +8153,55 @@ http://github.com/pydata/pydata-book
 **** Programming Python 4th Edition		:programming:
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_pickle.py][Pickle file as DB]]
-*** Mastering Python
+
+
+*** Applied Python				:usage:
+
+**** NLP with Python							:NLP:
+**** Python for Data Analyse				       :data:analyse:
+***** DONE Preliminaries
+***** TODO Introductory Examples <2016-01-18 Mon>
+****** collections pack
+***** TODO IPython: An Interactive Computing and Development Environment
+      <2016-01-18 
+**** Useful snippets						   :snippets:
+***** Associated sorting
+      #+BEGIN_SRC python :results output
+        # Sorting lists relative to each other in 1 line:
+
+        list1 = ['c','b','a']
+        list2 = [6,5,4]
+        list3 = ['some-val-associated-with-c','another_val-b','z_another_third_val-a']
+
+        list1, list2, list3 = [list(t) for t in zip(*sorted(zip(list1, list2, list3)))] 
+
+        print('\n\nsorted output:\n', list1, '\n', list2, '\n', list3 )
+      #+END_SRC
+
+      #+RESULTS:
+      : 
+      : 
+      : sorted output:
+      :  ['a', 'b', 'c'] 
+      :  [4, 5, 6] 
+      :  ['z_another_third_val-a', 'another_val-b', 'some-val-associated-with-c']
+
+***** The name of caller's function establishing
+      #+BEGIN_SRC python :results output
+        def func_name():
+            import traceback
+            return traceback.extract_stack(None, 2)[0][2]
+
+
+        def function_with_certain_name():
+            print('The caller function has a name: %s' % func_name())
+
+        function_with_certain_name()
+      #+END_SRC
+
+
+*** Mastering Python						  :mastering:
+
 **** Python Anti-Patterns			:anti:patterns:
 ***** [[https://www.quantifiedcode.com/knowledge-base/][Python Knowledge Base]]
 ***** [[http://docs.quantifiedcode.com/python-anti-patterns/][The Little Book of Python Anti-Patterns]]
@@ -9857,48 +9918,6 @@ http://github.com/pydata/pydata-book
 
      #+RESULTS:
 
-*** Applied Python 	                        :HOWTO:
-**** NLP with Python
-**** Python for Data Analyse
-***** DONE Preliminaries
-***** TODO Introductory Examples <2016-01-18 Mon>
-****** collections pack
-***** TODO IPython: An Interactive Computing and Development Environment
-      <2016-01-18 
-**** Useful snippets
-***** Associated sorting
-      #+BEGIN_SRC python :results output
-        # Sorting lists relative to each other in 1 line:
-
-        list1 = ['c','b','a']
-        list2 = [6,5,4]
-        list3 = ['some-val-associated-with-c','another_val-b','z_another_third_val-a']
-
-        list1, list2, list3 = [list(t) for t in zip(*sorted(zip(list1, list2, list3)))] 
-
-        print('\n\nsorted output:\n', list1, '\n', list2, '\n', list3 )
-      #+END_SRC
-
-      #+RESULTS:
-      : 
-      : 
-      : sorted output:
-      :  ['a', 'b', 'c'] 
-      :  [4, 5, 6] 
-      :  ['z_another_third_val-a', 'another_val-b', 'some-val-associated-with-c']
-
-***** The name of caller's function establishing
-      #+BEGIN_SRC python :results output
-        def func_name():
-            import traceback
-            return traceback.extract_stack(None, 2)[0][2]
-
-
-        def function_with_certain_name():
-            print('The caller function has a name: %s' % func_name())
-
-        function_with_certain_name()
-      #+END_SRC
 
 
 * Enhance general coding grit	                :coding:
