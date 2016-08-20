@@ -7229,10 +7229,915 @@ http://github.com/pydata/pydata-book
 
 ******** The Customization Modules
 
-***** Official documentation
+***** TODO Python HOWTOs
+
+****** Porting Python 2 Code to Python 3
+
+******* The Short Explanation
+
+******* Details
+
+******** Drop support for Python 2.6 and older
+
+******** Make sure you specify the proper version support in your
+            "setup.py" file
+
+******** Have good test coverage
+
+******** Learn the differences between Python 2 & 3
+
+******** Update your code
+
+********* Division
+
+********* Text versus binary data
+
+******** Prevent compatibility regressions
+
+******** Check which dependencies block your transition
+
+******** Update your "setup.py" file to denote Python 3 compatibility
+
+******** Use continuous integration to stay compatible
+
+******* Dropping Python 2 support completely
+
+****** Porting Extension Modules to Python 3
+
+******* Conditional compilation
+
+******* Changes to Object APIs
+
+******** str/unicode Unification
+
+******** long/int Unification
+
+******* Module initialization and state
+
+******* CObject replaced with Capsule
+
+******* Other options
+
+****** Curses Programming with Python
+
+******* What is curses?
+
+******** The Python curses module
+
+******* Starting and ending a curses application
+
+******* Windows and Pads
+
+******* Displaying Text
+
+******** Attributes and Color
+
+******* User Input
+
+******* For More Information
+
+****** Descriptor HowTo Guide
+
+******* Abstract
+
+******* Definition and Introduction
+
+******* Descriptor Protocol
+
+******* Invoking Descriptors
+
+******* Descriptor Example
+
+******* Properties
+
+******* Functions and Methods
+
+******* Static Methods and Class Methods
+
+****** Functional Programming HOWTO [50%]			  :func_prog:
+
+******* DONE Introduction [4/4]
+
+******** DONE Formal provability
+	 #+BEGIN_QUOTE
+	 Even if you wrote down or generated
+	 a proof, there would then be the question of verifying the proof;
+	 maybe there's an error in it, and you wrongly believe you've proved
+	 the program correct.
+	 #+END_QUOTE
+******** DONE Modularity
+
+******** DONE Ease of debugging and testing
+
+******** DONE Composability
+	 #+BEGIN_QUOTE
+	 Over time you'll form a personal library of utilities.  Often you'll
+	 assemble new programs by arranging existing functions in a new
+	 configuration and writing a few functions specialized for the current
+	 task.
+	 #+END_QUOTE
+
+******* DONE Iterators						       :iter:
+	#+BEGIN_QUOTE
+	An iterator is an object representing a stream of data; this object
+	returns the data one element at a time.
+	#+END_QUOTE
+
+	#+BEGIN_SRC python :results output :session fp
+          L = [1,2,3]
+          it = iter(L)
+          print('\n')
+          it  #doctest: +ELLIPSIS
+          print('\n')
+          it.__next__()  # same as next(it)
+	  next(it)
+	  next(it)
+	  next(it)
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	>>>
+	<list_iterator object at 0x7f6a3ceeb3c8>
+
+	1
+	2
+	3
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	StopIteration
+ #+end_example
+
+******** Data Types That Support Iterators
+	 #+BEGIN_SRC python :results output :session fp
+           m = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4,
+		'May': 5, 'Jun': 6, 'Jul': 7, 'Aug': 8,
+		'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
+           print('\n')
+           print('\n')
+           for key in m:  #doctest: +SKIP
+               print(key, m[key])
+
+           print('\n')
+           for value in m.values():  #doctest: +SKIP
+               print(value)
+
+           print('\n')
+           for value in m.items():  #doctest: +SKIP
+               print(value)
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 #+begin_example
+
+	 ... >>>
+
+	 ... ... Dec 12
+	 Apr 4
+	 Aug 8
+	 Nov 11
+	 Jun 6
+	 Jan 1
+	 Sep 9
+	 Oct 10
+	 Feb 2
+	 Mar 3
+	 May 5
+	 Jul 7
+
+	 ... ... 12
+	 4
+	 8
+	 11
+	 6
+	 1
+	 9
+	 10
+	 2
+	 3
+	 5
+	 7
+
+	 ... ... ('Dec', 12)
+	 ('Apr', 4)
+	 ('Aug', 8)
+	 ('Nov', 11)
+	 ('Jun', 6)
+	 ('Jan', 1)
+	 ('Sep', 9)
+	 ('Oct', 10)
+	 ('Feb', 2)
+	 ('Mar', 3)
+	 ('May', 5)
+	 ('Jul', 7)
+ #+end_example
+	 #+BEGIN_QUOTE
+	 The "dict()" constructor can accept an iterator that returns a finite
+	 stream of "(key, value)" tuples:
+	 #+END_QUOTE
+	 #+BEGIN_SRC python :results output :session fp
+           L = [('Italy', 'Rome'),
+		('France', 'Paris'), \
+		('US', 'Washington DC')]
+           print('\n')
+           dict(iter(L))
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... >>>
+	 : {'Italy': 'Rome', 'US': 'Washington DC', 'France': 'Paris'}
+
+******* DONE Generator expressions and list comprehensions :genexps:listcomp:
+       
+	#+BEGIN_SRC python :results output :session fp
+          line_list = ['  line 1\n', 'line 2  \n', 'line 3 \n']
+
+          # Generator expression -- returns iterator
+	  # expression in (parenthesis) 
+          stripped_iter = (line.strip() for line in line_list)
+          print('\n')
+          print(stripped_iter)
+          print(next(stripped_iter))
+	  print(next(stripped_iter))
+          # List comprehension -- returns list
+	  # just use square brackets around expression
+          stripped_list = [line.strip() for line in line_list]
+          print('\n', stripped_list)
+          # you can select only certain elements by adding an ""if""
+
+          stripped_list = [line.strip() for line in line_list
+                           if line != ""]
+          print('\n', stripped_list)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: >>> ... >>>
+	: <generator object <genexpr> at 0x7fdb674e9cf0>
+	: line 1
+	: line 2
+	: ... >>> 
+	:  ['line 1', 'line 2', 'line 3']
+	: ... >>> ... >>> 
+	:  ['line 1', 'line 2', 'line 3']
+
+	#+BEGIN_SRC python :results output :session fp
+          from pprint import pprint
+          seq1 = 'abc'
+          seq2 = (1,2,3)
+	  print('\n')
+          pprint([(x, y) for x in seq1 for y in seq2])
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+
+	>>> >>>
+	[('a', 1),
+	 ('a', 2),
+	 ('a', 3),
+	 ('b', 1),
+	 ('b', 2),
+	 ('b', 3),
+	 ('c', 1),
+	 ('c', 2),
+	 ('c', 3)]
+ #+end_example
+
+******* DONE Generators						      :yield:
+	#+BEGIN_QUOTE
+	Generators are a special class of functions that simplify the task of
+	writing iterators.  Regular functions compute a value and return it,
+	but generators return an iterator that returns a stream of values.
+	#+END_QUOTE
+	This is what generators provide; they can be thought of as resumable
+	functions.
+	#+BEGIN_SRC python :results output :session fp
+          def gen_ints(n):
+              for i in range(n):
+                  yield i
+
+          j = gen_ints(4)  # j is simple generator
+	  print('\n')
+          next(j)
+          print(next(j))
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... ... >>> >>>
+	: 0
+	: 1
+
+	#+BEGIN_QUOTE
+	When you call a generator function, it doesn't return a single value;
+	instead it returns a generator object that supports the iterator
+	protocol.  On executing the "yield" expression, the generator outputs
+	the value of "i", similar to a "return" statement.  The big difference
+	between "yield" and a "return" statement is that on reaching a "yield"
+	the generator's state of execution is suspended and local variables
+	are preserved.  On the next call to the generator's "__next__()"
+	method, the function will resume executing.
+	#+END_QUOTE
+
+	#+BEGIN_SRC python :results output :session fp
+          for i in gen_ints(4):
+              print(i)
+
+	     
+          a, b, c = gen_ints(3)
+          print(a, b, c)
+	#+END_SRC
+
+	#+RESULTS:
+	: 
+	: ... 0
+	: 1
+	: 2
+	: 3
+	: ... >>> 0 1 2
+       
+******** Passing values into a generator
+	 #+BEGIN_SRC python :results output :session fp
+           def counter(maximum):
+               i = 0
+               while i < maximum:
+                   val = (yield i)
+                   # If value provided, change counter
+                   if val is not None:
+                       i = val
+                   else:
+                       i += 1
+
+           j = counter(10)
+           print('\n')
+           next(j)
+           next(j)
+           j.send(8)
+           next(j)
+           next(j)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : >>> ... ... ... ... ... ... ... ... ... >>> >>>
+	 : 0
+	 : 1
+	 : 8
+	 : 9
+	 : Traceback (most recent call last):
+	 :   File "<stdin>", line 1, in <module>
+	 : StopIteration
+
+******* DONE Built-in functions					  :built:ins:
+
+******** map()								:map:
+	 #+BEGIN_SRC python :results output :session fp
+           def upper(s):
+               return s.upper()
+
+           list(map(upper, ['sentence', 'fragment']))
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... >>> ['SENTENCE', 'FRAGMENT']
+	
+******** filter()						     :filter:
+	 #+BEGIN_SRC python :results output :session fp
+           def is_even(x):
+               return (x % 2) == 0
+
+           list(filter(is_even, range(10)))
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... >>> [0, 2, 4, 6, 8]
+
+******** enumerate()						  :enumerate:
+	 #+BEGIN_SRC python :results output :session fp
+           for item in enumerate(['subject', 'verb', 'object']):
+               print(item)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... (0, 'subject')
+	 : (1, 'verb')
+	 : (2, 'object')
+
+******** sorted()						     :sorted:
+	 #+BEGIN_SRC python :results output :session fp
+           import random
+           # Generate 8 random numbers between [0, 10000)
+           rand_list = random.sample(range(10000), 8)
+           rand_list  
+           sorted(rand_list)  
+           sorted(rand_list, reverse=True)
+
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : 
+	 : ... >>> [929, 3653, 8652, 6331, 2231, 4890, 5664, 5483]
+	 : [929, 2231, 3653, 4890, 5483, 5664, 6331, 8652]
+	 : [8652, 6331, 5664, 5483, 4890, 3653, 2231, 929]
+
+******** any()								:any:
+	 #+BEGIN_SRC python :results output :session fp
+           any([0,1,0])
+           any([0,0,0])
+           any([1,1,1])
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : True
+	 : False
+	 : True
+
+******** all()								:all:
+	 #+BEGIN_SRC python :results output :session fp
+           all([0,1,0])
+           all([0,0,0])
+           all([1,1,1])
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : False
+	 : False
+	 : True
+
+******** zip()								:zip:
+	 takes one element from each iterable and returns
+	 them in a tuple:
+	 #+BEGIN_SRC python :results output :session fp
+           list(zip(['a', 'b', 'c'], (1, 2, 3)))
+	   #print(a)
+	  
+           # with non equal number of elements:
+           list(zip(['a', 'b'], (1, 2, 3)))
+	   #print(b)
+	 #+END_SRC
+
+	 #+RESULTS:
+	 : [('a', 1), ('b', 2), ('c', 3)]
+	 : ... >>> ... [('a', 1), ('b', 2)]
+
+******* TODO The itertools module
+
+******** Creating new iterators
+
+******** Calling functions on elements
+
+******** Selecting elements
+
+******** Combinatoric functions
+
+******** Grouping elements
+
+******* TODO The functools module
+
+******** The operator module
+
+******* TODO Small functions and the lambda expression
+
+******* TODO Revision History and Acknowledgements
+
+******* TODO References
+
+******** General
+
+******** Python-specific
+
+******** Python documentation
+
+****** Logging HOWTO
+
+******* Basic Logging Tutorial
+
+******** When to use logging
+
+******** A simple example
+
+******** Logging to a file
+
+******** Logging from multiple modules
+
+******** Logging variable data
+
+******** Changing the format of displayed messages
+
+******** Displaying the date/time in messages
+
+******** Next Steps
+
+******* Advanced Logging Tutorial
+
+******** Logging Flow
+
+******** Loggers
+
+******** Handlers
+
+******** Formatters
+
+******** Configuring Logging
+
+******** What happens if no configuration is provided
+
+******** Configuring Logging for a Library
+
+******* Logging Levels
+
+******** Custom Levels
+
+******* Useful Handlers
+
+******* Exceptions raised during logging
+
+******* Using arbitrary objects as messages
+
+******* Optimization
+
+****** Logging Cookbook
+
+******* Using logging in multiple modules
+
+******* Multiple handlers and formatters
+
+******* Logging to multiple destinations
+
+******* Configuration server example
+
+******* Dealing with handlers that block
+
+******* Sending and receiving logging events across a network
+
+******* Adding contextual information to your logging output
+
+******** Using LoggerAdapters to impart contextual information
+
+********* Using objects other than dicts to pass contextual
+              information
+
+******** Using Filters to impart contextual information
+
+******* Logging to a single file from multiple processes
+
+******* Using file rotation
+
+******* Use of alternative formatting styles
+
+******* Customizing "LogRecord"
+
+******* Subclassing QueueHandler - a ZeroMQ example
+
+******* Subclassing QueueListener - a ZeroMQ example
+
+******* An example dictionary-based configuration
+
+******* Using a rotator and namer to customize log rotation processing
+
+******* A more elaborate multiprocessing example
+
+******* Inserting a BOM into messages sent to a SysLogHandler
+
+******* Implementing structured logging
+
+******* Customizing handlers with "dictConfig()"
+
+******* Using particular formatting styles throughout your application
+
+******** Using LogRecord factories
+
+******** Using custom message objects
+
+******* Configuring filters with "dictConfig()"
+
+******* Customized exception formatting
+
+******* Speaking logging messages
+
+******* Buffering logging messages and outputting them conditionally
+
+******* Formatting times using UTC (GMT) via configuration
+
+****** Regular Expression HOWTO
+
+******* Introduction
+
+******* Simple Patterns
+
+******** Matching Characters
+
+******** Repeating Things
+
+******* Using Regular Expressions
+
+******** Compiling Regular Expressions
+
+******** The Backslash Plague
+
+******** Performing Matches
+
+******** Module-Level Functions
+
+******** Compilation Flags
+
+******* More Pattern Power
+
+******** More Metacharacters
+
+******** Grouping
+
+******** Non-capturing and Named Groups
+
+******** Lookahead Assertions
+
+******* Modifying Strings
+
+******** Splitting Strings
+
+******** Search and Replace
+
+******* Common Problems
+
+******** Use String Methods
+
+******** match() versus search()
+
+******** Greedy versus Non-Greedy
+
+******** Using re.VERBOSE
+
+******* Feedback
+
+****** Socket Programming HOWTO
+
+******* Sockets
+
+******** History
+
+******* Creating a Socket
+
+******** IPC
+
+******* Using a Socket
+
+******** Binary Data
+
+******* Disconnecting
+
+******** When Sockets Die
+
+******* Non-blocking Sockets
+
+****** Sorting HOW TO
+
+******* Sorting Basics
+
+******* Key Functions
+
+******* Operator Module Functions
+
+******* Ascending and Descending
+
+******* Sort Stability and Complex Sorts
+
+******* The Old Way Using Decorate-Sort-Undecorate
+
+******* The Old Way Using the *cmp* Parameter
+
+******* Odd and Ends
+
+****** Unicode HOWTO
+
+******* Introduction to Unicode
+
+******** History of Character Codes
+
+******** Definitions
+
+******** Encodings
+
+******** References
+
+******* Python's Unicode Support
+
+******** The String Type
+
+******** Converting to Bytes
+
+******** Unicode Literals in Python Source Code
+
+******** Unicode Properties
+
+******** Unicode Regular Expressions
+
+******** References
+
+******* Reading and Writing Unicode Data
+
+******** Unicode filenames
+
+******** Tips for Writing Unicode-aware Programs
+
+********* Converting Between File Encodings
+
+********* Files in an Unknown Encoding
+
+******** References
+
+******* Acknowledgements
+
+****** HOWTO Fetch Internet Resources Using The urllib Package
+
+******* Introduction
+
+******* Fetching URLs
+
+******** Data
+
+******** Headers
+
+******* Handling Exceptions
+
+******** URLError
+
+******** HTTPError
+
+********* Error Codes
+
+******** Wrapping it Up
+
+********* Number 1
+
+********* Number 2
+
+******* info and geturl
+
+******* Openers and Handlers
+
+******* Basic Authentication
+
+******* Proxies
+
+******* Sockets and Layers
+
+******* Footnotes
+
+****** HOWTO Use Python in the web
+
+******* The Low-Level View
+
+******** Common Gateway Interface
+
+********* Simple script for testing CGI
+
+********* Setting up CGI on your own server
+
+********* Common problems with CGI scripts
+
+******** mod_python
+
+******** FastCGI and SCGI
+
+********* Setting up FastCGI
+
+******** mod_wsgi
+
+******* Step back: WSGI
+
+******** WSGI Servers
+
+******** Case study: MoinMoin
+
+******* Model-View-Controller
+
+******* Ingredients for Websites
+
+******** Templates
+
+******** Data persistence
+
+******* Frameworks
+
+******** Some notable frameworks
+
+********* Django
+
+********* TurboGears
+
+********* Zope
+
+********* Other notable frameworks
+
+****** Argparse Tutorial
+
+******* Concepts
+
+******* The basics
+
+******* Introducing Positional arguments
+
+******* Introducing Optional arguments
+
+******** Short options
+
+******* Combining Positional and Optional arguments
+
+******* Getting a little more advanced
+
+******** Conflicting options
+
+******* Conclusion
+
+****** An introduction to the ipaddress module
+
+******* Creating Address/Network/Interface objects
+
+******** A Note on IP Versions
+
+******** IP Host Addresses
+
+******** Defining Networks
+
+******** Host Interfaces
+
+******* Inspecting Address/Network/Interface Objects
+
+******* Networks as lists of Addresses
+
+******* Comparisons
+
+******* Using IP Addresses with other modules
+
+******* Getting more detail when instance creation fails
+
+****** Argument Clinic How-To
+
+******* The Goals Of Argument Clinic
+
+******* Basic Concepts And Usage
+
+******* Converting Your First Function
+
+******* Advanced Topics
+
+******** Symbolic default values
+
+******** Renaming the C functions and variables generated by Argument
+            Clinic
+
+******** Converting functions using PyArg_UnpackTuple
+
+******** Optional Groups
+
+******** Using real Argument Clinic converters, instead of "legacy
+            converters"
+
+******** Py_buffer
+
+******** Advanced converters
+
+******** Parameter default values
+
+******** The "NULL" default value
+
+******** Expressions specified as default values
+
+******** Using a return converter
+
+******** Cloning existing functions
+
+******** Calling Python code
+
+******** Using a "self converter"
+
+******** Writing a custom converter
+
+******** Writing a custom return converter
+
+******** METH_O and METH_NOARGS
+
+******** tp_new and tp_init functions
+
+******** Changing and redirecting Clinic's output
+
+******** The #ifdef trick
+
+******** Using Argument Clinic in Python files
+
+***** Useful links
       http://docs.python.org
-***** http://pypi.python.org/pypi
-***** http://pyvideo.org
+      http://pypi.python.org/pypi
+      http://pyvideo.org
 
 **** Programming Python 4th Edition		:programming:
 ***** [[/usr/local/share/DVCS/lib/Python/edu/PP4E/I%20The%20Begining/make_db_file.py][File as DB]]
@@ -8954,911 +9859,6 @@ http://github.com/pydata/pydata-book
      #+RESULTS:
 
 *** Applied Python 	                        :HOWTO:
-**** TODO Python HOWTOs
-
-***** Porting Python 2 Code to Python 3
-
-****** The Short Explanation
-
-****** Details
-
-******* Drop support for Python 2.6 and older
-
-******* Make sure you specify the proper version support in your
-           "setup.py" file
-
-******* Have good test coverage
-
-******* Learn the differences between Python 2 & 3
-
-******* Update your code
-
-******** Division
-
-******** Text versus binary data
-
-******* Prevent compatibility regressions
-
-******* Check which dependencies block your transition
-
-******* Update your "setup.py" file to denote Python 3 compatibility
-
-******* Use continuous integration to stay compatible
-
-****** Dropping Python 2 support completely
-
-***** Porting Extension Modules to Python 3
-
-****** Conditional compilation
-
-****** Changes to Object APIs
-
-******* str/unicode Unification
-
-******* long/int Unification
-
-****** Module initialization and state
-
-****** CObject replaced with Capsule
-
-****** Other options
-
-***** Curses Programming with Python
-
-****** What is curses?
-
-******* The Python curses module
-
-****** Starting and ending a curses application
-
-****** Windows and Pads
-
-****** Displaying Text
-
-******* Attributes and Color
-
-****** User Input
-
-****** For More Information
-
-***** Descriptor HowTo Guide
-
-****** Abstract
-
-****** Definition and Introduction
-
-****** Descriptor Protocol
-
-****** Invoking Descriptors
-
-****** Descriptor Example
-
-****** Properties
-
-****** Functions and Methods
-
-****** Static Methods and Class Methods
-
-***** Functional Programming HOWTO [50%]			  :func_prog:
-
-****** DONE Introduction [4/4]
-
-******* DONE Formal provability
-	#+BEGIN_QUOTE
-	Even if you wrote down or generated
-	a proof, there would then be the question of verifying the proof;
-	maybe there's an error in it, and you wrongly believe you've proved
-	the program correct.
-	#+END_QUOTE
-******* DONE Modularity
-
-******* DONE Ease of debugging and testing
-
-******* DONE Composability
-	#+BEGIN_QUOTE
-	Over time you'll form a personal library of utilities.  Often you'll
-	assemble new programs by arranging existing functions in a new
-	configuration and writing a few functions specialized for the current
-	task.
-	#+END_QUOTE
-
-****** DONE Iterators				:iter:
-       #+BEGIN_QUOTE
-       An iterator is an object representing a stream of data; this object
-       returns the data one element at a time.
-       #+END_QUOTE
-
-       #+BEGIN_SRC python :results output :session fp
-         L = [1,2,3]
-         it = iter(L)
-         print('\n')
-         it  #doctest: +ELLIPSIS
-         print('\n')
-         it.__next__()  # same as next(it)
-	 next(it)
-	 next(it)
-	 next(it)
-       #+END_SRC
-
-       #+RESULTS:
-       #+begin_example
-
-       >>>
-       <list_iterator object at 0x7f6a3ceeb3c8>
-
-       1
-       2
-       3
-       Traceback (most recent call last):
-	 File "<stdin>", line 1, in <module>
-       StopIteration
-#+end_example
-
-******* Data Types That Support Iterators
-	#+BEGIN_SRC python :results output :session fp
-          m = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4,
-               'May': 5, 'Jun': 6, 'Jul': 7, 'Aug': 8,
-               'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
-          print('\n')
-          print('\n')
-          for key in m:  #doctest: +SKIP
-              print(key, m[key])
-
-          print('\n')
-          for value in m.values():  #doctest: +SKIP
-              print(value)
-
-          print('\n')
-          for value in m.items():  #doctest: +SKIP
-              print(value)
-
-	#+END_SRC
-
-	#+RESULTS:
-	#+begin_example
-
-	... >>>
-
-	... ... Dec 12
-	Apr 4
-	Aug 8
-	Nov 11
-	Jun 6
-	Jan 1
-	Sep 9
-	Oct 10
-	Feb 2
-	Mar 3
-	May 5
-	Jul 7
-
-	... ... 12
-	4
-	8
-	11
-	6
-	1
-	9
-	10
-	2
-	3
-	5
-	7
-
-	... ... ('Dec', 12)
-	('Apr', 4)
-	('Aug', 8)
-	('Nov', 11)
-	('Jun', 6)
-	('Jan', 1)
-	('Sep', 9)
-	('Oct', 10)
-	('Feb', 2)
-	('Mar', 3)
-	('May', 5)
-	('Jul', 7)
-#+end_example
-	#+BEGIN_QUOTE
-	The "dict()" constructor can accept an iterator that returns a finite
-	stream of "(key, value)" tuples:
-	#+END_QUOTE
-	#+BEGIN_SRC python :results output :session fp
-          L = [('Italy', 'Rome'),
-               ('France', 'Paris'), \
-               ('US', 'Washington DC')]
-          print('\n')
-          dict(iter(L))
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: ... >>>
-	: {'Italy': 'Rome', 'US': 'Washington DC', 'France': 'Paris'}
-
-****** DONE Generator expressions and list comprehensions  :genexps:listcomp:
-       
-       #+BEGIN_SRC python :results output :session fp
-         line_list = ['  line 1\n', 'line 2  \n', 'line 3 \n']
-
-         # Generator expression -- returns iterator
-	 # expression in (parenthesis) 
-         stripped_iter = (line.strip() for line in line_list)
-         print('\n')
-         print(stripped_iter)
-         print(next(stripped_iter))
-	 print(next(stripped_iter))
-         # List comprehension -- returns list
-	 # just use square brackets around expression
-         stripped_list = [line.strip() for line in line_list]
-         print('\n', stripped_list)
-         # you can select only certain elements by adding an ""if""
-
-         stripped_list = [line.strip() for line in line_list
-                          if line != ""]
-         print('\n', stripped_list)
-       #+END_SRC
-
-       #+RESULTS:
-       : 
-       : >>> ... >>>
-       : <generator object <genexpr> at 0x7fdb674e9cf0>
-       : line 1
-       : line 2
-       : ... >>> 
-       :  ['line 1', 'line 2', 'line 3']
-       : ... >>> ... >>> 
-       :  ['line 1', 'line 2', 'line 3']
-
-       #+BEGIN_SRC python :results output :session fp
-         from pprint import pprint
-         seq1 = 'abc'
-         seq2 = (1,2,3)
-	 print('\n')
-         pprint([(x, y) for x in seq1 for y in seq2])
-       #+END_SRC
-
-       #+RESULTS:
-       #+begin_example
-
-       >>> >>>
-       [('a', 1),
-	('a', 2),
-	('a', 3),
-	('b', 1),
-	('b', 2),
-	('b', 3),
-	('c', 1),
-	('c', 2),
-	('c', 3)]
-#+end_example
-
-****** DONE Generators						      :yield:
-       #+BEGIN_QUOTE
-       Generators are a special class of functions that simplify the task of
-       writing iterators.  Regular functions compute a value and return it,
-       but generators return an iterator that returns a stream of values.
-       #+END_QUOTE
-       This is what generators provide; they can be thought of as resumable
-       functions.
-       #+BEGIN_SRC python :results output :session fp
-         def gen_ints(n):
-             for i in range(n):
-                 yield i
-
-         j = gen_ints(4)  # j is simple generator
-	 print('\n')
-         next(j)
-         print(next(j))
-       #+END_SRC
-
-       #+RESULTS:
-       : 
-       : ... ... >>> >>>
-       : 0
-       : 1
-
-       #+BEGIN_QUOTE
-       When you call a generator function, it doesn't return a single value;
-       instead it returns a generator object that supports the iterator
-       protocol.  On executing the "yield" expression, the generator outputs
-       the value of "i", similar to a "return" statement.  The big difference
-       between "yield" and a "return" statement is that on reaching a "yield"
-       the generator's state of execution is suspended and local variables
-       are preserved.  On the next call to the generator's "__next__()"
-       method, the function will resume executing.
-       #+END_QUOTE
-
-       #+BEGIN_SRC python :results output :session fp
-         for i in gen_ints(4):
-             print(i)
-
-	     
-         a, b, c = gen_ints(3)
-         print(a, b, c)
-       #+END_SRC
-
-       #+RESULTS:
-       : 
-       : ... 0
-       : 1
-       : 2
-       : 3
-       : ... >>> 0 1 2
-       
-******* Passing values into a generator
-	#+BEGIN_SRC python :results output :session fp
-          def counter(maximum):
-              i = 0
-              while i < maximum:
-                  val = (yield i)
-                  # If value provided, change counter
-                  if val is not None:
-                      i = val
-                  else:
-                      i += 1
-
-          j = counter(10)
-          print('\n')
-          next(j)
-          next(j)
-          j.send(8)
-          next(j)
-          next(j)
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: >>> ... ... ... ... ... ... ... ... ... >>> >>>
-	: 0
-	: 1
-	: 8
-	: 9
-	: Traceback (most recent call last):
-	:   File "<stdin>", line 1, in <module>
-	: StopIteration
-
-****** DONE Built-in functions					  :built:ins:
-
-******* map()								:map:
-	#+BEGIN_SRC python :results output :session fp
-          def upper(s):
-              return s.upper()
-
-          list(map(upper, ['sentence', 'fragment']))
-
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: ... >>> ['SENTENCE', 'FRAGMENT']
-	
-******* filter()						     :filter:
-	#+BEGIN_SRC python :results output :session fp
-          def is_even(x):
-              return (x % 2) == 0
-
-          list(filter(is_even, range(10)))
-
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: ... >>> [0, 2, 4, 6, 8]
-
-******* enumerate()						  :enumerate:
-	#+BEGIN_SRC python :results output :session fp
-          for item in enumerate(['subject', 'verb', 'object']):
-              print(item)
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: ... (0, 'subject')
-	: (1, 'verb')
-	: (2, 'object')
-
-******* sorted()						     :sorted:
-	#+BEGIN_SRC python :results output :session fp
-          import random
-          # Generate 8 random numbers between [0, 10000)
-          rand_list = random.sample(range(10000), 8)
-          rand_list  
-          sorted(rand_list)  
-          sorted(rand_list, reverse=True)
-
-	#+END_SRC
-
-	#+RESULTS:
-	: 
-	: ... >>> [929, 3653, 8652, 6331, 2231, 4890, 5664, 5483]
-	: [929, 2231, 3653, 4890, 5483, 5664, 6331, 8652]
-	: [8652, 6331, 5664, 5483, 4890, 3653, 2231, 929]
-
-******* any()								:any:
-	#+BEGIN_SRC python :results output :session fp
-          any([0,1,0])
-          any([0,0,0])
-          any([1,1,1])
-	#+END_SRC
-
-	#+RESULTS:
-	: True
-	: False
-	: True
-
-******* all()								:all:
-	#+BEGIN_SRC python :results output :session fp
-          all([0,1,0])
-          all([0,0,0])
-          all([1,1,1])
-	#+END_SRC
-
-	#+RESULTS:
-	: False
-	: False
-	: True
-
-******* zip()								:zip:
-	takes one element from each iterable and returns
-	them in a tuple:
-	#+BEGIN_SRC python :results output :session fp
-          list(zip(['a', 'b', 'c'], (1, 2, 3)))
-	  #print(a)
-	  
-          # with non equal number of elements:
-          list(zip(['a', 'b'], (1, 2, 3)))
-	  #print(b)
-	#+END_SRC
-
-	#+RESULTS:
-	: [('a', 1), ('b', 2), ('c', 3)]
-	: ... >>> ... [('a', 1), ('b', 2)]
-
-****** TODO The itertools module
-
-******* Creating new iterators
-
-******* Calling functions on elements
-
-******* Selecting elements
-
-******* Combinatoric functions
-
-******* Grouping elements
-
-****** TODO The functools module
-
-******* The operator module
-
-****** TODO Small functions and the lambda expression
-
-****** TODO Revision History and Acknowledgements
-
-****** TODO References
-
-******* General
-
-******* Python-specific
-
-******* Python documentation
-
-***** Logging HOWTO
-
-****** Basic Logging Tutorial
-
-******* When to use logging
-
-******* A simple example
-
-******* Logging to a file
-
-******* Logging from multiple modules
-
-******* Logging variable data
-
-******* Changing the format of displayed messages
-
-******* Displaying the date/time in messages
-
-******* Next Steps
-
-****** Advanced Logging Tutorial
-
-******* Logging Flow
-
-******* Loggers
-
-******* Handlers
-
-******* Formatters
-
-******* Configuring Logging
-
-******* What happens if no configuration is provided
-
-******* Configuring Logging for a Library
-
-****** Logging Levels
-
-******* Custom Levels
-
-****** Useful Handlers
-
-****** Exceptions raised during logging
-
-****** Using arbitrary objects as messages
-
-****** Optimization
-
-***** Logging Cookbook
-
-****** Using logging in multiple modules
-
-****** Multiple handlers and formatters
-
-****** Logging to multiple destinations
-
-****** Configuration server example
-
-****** Dealing with handlers that block
-
-****** Sending and receiving logging events across a network
-
-****** Adding contextual information to your logging output
-
-******* Using LoggerAdapters to impart contextual information
-
-******** Using objects other than dicts to pass contextual
-             information
-
-******* Using Filters to impart contextual information
-
-****** Logging to a single file from multiple processes
-
-****** Using file rotation
-
-****** Use of alternative formatting styles
-
-****** Customizing "LogRecord"
-
-****** Subclassing QueueHandler - a ZeroMQ example
-
-****** Subclassing QueueListener - a ZeroMQ example
-
-****** An example dictionary-based configuration
-
-****** Using a rotator and namer to customize log rotation processing
-
-****** A more elaborate multiprocessing example
-
-****** Inserting a BOM into messages sent to a SysLogHandler
-
-****** Implementing structured logging
-
-****** Customizing handlers with "dictConfig()"
-
-****** Using particular formatting styles throughout your application
-
-******* Using LogRecord factories
-
-******* Using custom message objects
-
-****** Configuring filters with "dictConfig()"
-
-****** Customized exception formatting
-
-****** Speaking logging messages
-
-****** Buffering logging messages and outputting them conditionally
-
-****** Formatting times using UTC (GMT) via configuration
-
-***** Regular Expression HOWTO
-
-****** Introduction
-
-****** Simple Patterns
-
-******* Matching Characters
-
-******* Repeating Things
-
-****** Using Regular Expressions
-
-******* Compiling Regular Expressions
-
-******* The Backslash Plague
-
-******* Performing Matches
-
-******* Module-Level Functions
-
-******* Compilation Flags
-
-****** More Pattern Power
-
-******* More Metacharacters
-
-******* Grouping
-
-******* Non-capturing and Named Groups
-
-******* Lookahead Assertions
-
-****** Modifying Strings
-
-******* Splitting Strings
-
-******* Search and Replace
-
-****** Common Problems
-
-******* Use String Methods
-
-******* match() versus search()
-
-******* Greedy versus Non-Greedy
-
-******* Using re.VERBOSE
-
-****** Feedback
-
-***** Socket Programming HOWTO
-
-****** Sockets
-
-******* History
-
-****** Creating a Socket
-
-******* IPC
-
-****** Using a Socket
-
-******* Binary Data
-
-****** Disconnecting
-
-******* When Sockets Die
-
-****** Non-blocking Sockets
-
-***** Sorting HOW TO
-
-****** Sorting Basics
-
-****** Key Functions
-
-****** Operator Module Functions
-
-****** Ascending and Descending
-
-****** Sort Stability and Complex Sorts
-
-****** The Old Way Using Decorate-Sort-Undecorate
-
-****** The Old Way Using the *cmp* Parameter
-
-****** Odd and Ends
-
-***** Unicode HOWTO
-
-****** Introduction to Unicode
-
-******* History of Character Codes
-
-******* Definitions
-
-******* Encodings
-
-******* References
-
-****** Python's Unicode Support
-
-******* The String Type
-
-******* Converting to Bytes
-
-******* Unicode Literals in Python Source Code
-
-******* Unicode Properties
-
-******* Unicode Regular Expressions
-
-******* References
-
-****** Reading and Writing Unicode Data
-
-******* Unicode filenames
-
-******* Tips for Writing Unicode-aware Programs
-
-******** Converting Between File Encodings
-
-******** Files in an Unknown Encoding
-
-******* References
-
-****** Acknowledgements
-
-***** HOWTO Fetch Internet Resources Using The urllib Package
-
-****** Introduction
-
-****** Fetching URLs
-
-******* Data
-
-******* Headers
-
-****** Handling Exceptions
-
-******* URLError
-
-******* HTTPError
-
-******** Error Codes
-
-******* Wrapping it Up
-
-******** Number 1
-
-******** Number 2
-
-****** info and geturl
-
-****** Openers and Handlers
-
-****** Basic Authentication
-
-****** Proxies
-
-****** Sockets and Layers
-
-****** Footnotes
-
-***** HOWTO Use Python in the web
-
-****** The Low-Level View
-
-******* Common Gateway Interface
-
-******** Simple script for testing CGI
-
-******** Setting up CGI on your own server
-
-******** Common problems with CGI scripts
-
-******* mod_python
-
-******* FastCGI and SCGI
-
-******** Setting up FastCGI
-
-******* mod_wsgi
-
-****** Step back: WSGI
-
-******* WSGI Servers
-
-******* Case study: MoinMoin
-
-****** Model-View-Controller
-
-****** Ingredients for Websites
-
-******* Templates
-
-******* Data persistence
-
-****** Frameworks
-
-******* Some notable frameworks
-
-******** Django
-
-******** TurboGears
-
-******** Zope
-
-******** Other notable frameworks
-
-***** Argparse Tutorial
-
-****** Concepts
-
-****** The basics
-
-****** Introducing Positional arguments
-
-****** Introducing Optional arguments
-
-******* Short options
-
-****** Combining Positional and Optional arguments
-
-****** Getting a little more advanced
-
-******* Conflicting options
-
-****** Conclusion
-
-***** An introduction to the ipaddress module
-
-****** Creating Address/Network/Interface objects
-
-******* A Note on IP Versions
-
-******* IP Host Addresses
-
-******* Defining Networks
-
-******* Host Interfaces
-
-****** Inspecting Address/Network/Interface Objects
-
-****** Networks as lists of Addresses
-
-****** Comparisons
-
-****** Using IP Addresses with other modules
-
-****** Getting more detail when instance creation fails
-
-***** Argument Clinic How-To
-
-****** The Goals Of Argument Clinic
-
-****** Basic Concepts And Usage
-
-****** Converting Your First Function
-
-****** Advanced Topics
-
-******* Symbolic default values
-
-******* Renaming the C functions and variables generated by Argument
-           Clinic
-
-******* Converting functions using PyArg_UnpackTuple
-
-******* Optional Groups
-
-******* Using real Argument Clinic converters, instead of "legacy
-           converters"
-
-******* Py_buffer
-
-******* Advanced converters
-
-******* Parameter default values
-
-******* The "NULL" default value
-
-******* Expressions specified as default values
-
-******* Using a return converter
-
-******* Cloning existing functions
-
-******* Calling Python code
-
-******* Using a "self converter"
-
-******* Writing a custom converter
-
-******* Writing a custom return converter
-
-******* METH_O and METH_NOARGS
-
-******* tp_new and tp_init functions
-
-******* Changing and redirecting Clinic's output
-
-******* The #ifdef trick
-
-******* Using Argument Clinic in Python files
-
 **** NLP with Python
 **** Python for Data Analyse
 ***** DONE Preliminaries
