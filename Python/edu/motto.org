@@ -7229,9 +7229,8 @@ http://github.com/pydata/pydata-book
 
 ******** The Customization Modules
 
-***** TODO Python HOWTOs
-
-****** Porting Python 2 Code to Python 3
+***** TODO Python HOWTOs [0%]
+****** TODO Porting Python 2 Code to Python 3
 
 ******* The Short Explanation
 
@@ -7262,7 +7261,7 @@ http://github.com/pydata/pydata-book
 
 ******* Dropping Python 2 support completely
 
-****** Porting Extension Modules to Python 3
+****** TODO Porting Extension Modules to Python 3
 
 ******* Conditional compilation
 
@@ -7278,7 +7277,7 @@ http://github.com/pydata/pydata-book
 
 ******* Other options
 
-****** Curses Programming with Python
+****** TODO Curses Programming with Python
 
 ******* What is curses?
 
@@ -7296,7 +7295,7 @@ http://github.com/pydata/pydata-book
 
 ******* For More Information
 
-****** Descriptor HowTo Guide
+****** TODO Descriptor HowTo Guide
 
 ******* Abstract
 
@@ -7314,7 +7313,7 @@ http://github.com/pydata/pydata-book
 
 ******* Static Methods and Class Methods
 
-****** Functional Programming HOWTO [50%]			  :func_prog:
+****** TODO Functional Programming HOWTO [50%]			  :func_prog:
 
 ******* DONE Introduction [4/4]
 
@@ -7717,7 +7716,7 @@ http://github.com/pydata/pydata-book
 
 ******** Python documentation
 
-****** Logging HOWTO
+****** TODO Logging HOWTO
 
 ******* Basic Logging Tutorial
 
@@ -7765,7 +7764,7 @@ http://github.com/pydata/pydata-book
 
 ******* Optimization
 
-****** Logging Cookbook
+****** TODO Logging Cookbook
 
 ******* Using logging in multiple modules
 
@@ -7828,7 +7827,7 @@ http://github.com/pydata/pydata-book
 
 ******* Formatting times using UTC (GMT) via configuration
 
-****** Regular Expression HOWTO
+****** TODO Regular Expression HOWTO
 
 ******* Introduction
 
@@ -7878,7 +7877,7 @@ http://github.com/pydata/pydata-book
 
 ******* Feedback
 
-****** Socket Programming HOWTO
+****** TODO Socket Programming HOWTO
 
 ******* Sockets
 
@@ -7898,7 +7897,7 @@ http://github.com/pydata/pydata-book
 
 ******* Non-blocking Sockets
 
-****** Sorting HOW TO
+****** TODO Sorting HOW TO
 
 ******* Sorting Basics
 
@@ -7916,7 +7915,7 @@ http://github.com/pydata/pydata-book
 
 ******* Odd and Ends
 
-****** Unicode HOWTO
+****** TODO Unicode HOWTO
 
 ******* Introduction to Unicode
 
@@ -7956,7 +7955,7 @@ http://github.com/pydata/pydata-book
 
 ******* Acknowledgements
 
-****** HOWTO Fetch Internet Resources Using The urllib Package
+****** TODO HOWTO Fetch Internet Resources Using The urllib Package
 
 ******* Introduction
 
@@ -7992,7 +7991,7 @@ http://github.com/pydata/pydata-book
 
 ******* Footnotes
 
-****** HOWTO Use Python in the web
+****** TODO HOWTO Use Python in the web
 
 ******* The Low-Level View
 
@@ -8038,7 +8037,7 @@ http://github.com/pydata/pydata-book
 
 ********* Other notable frameworks
 
-****** Argparse Tutorial
+****** TODO Argparse Tutorial
 
 ******* Concepts
 
@@ -8058,7 +8057,7 @@ http://github.com/pydata/pydata-book
 
 ******* Conclusion
 
-****** An introduction to the ipaddress module
+****** TODO An introduction to the ipaddress module
 
 ******* Creating Address/Network/Interface objects
 
@@ -8080,7 +8079,7 @@ http://github.com/pydata/pydata-book
 
 ******* Getting more detail when instance creation fails
 
-****** Argument Clinic How-To
+****** TODO Argument Clinic How-To
 
 ******* The Goals Of Argument Clinic
 
