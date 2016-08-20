@@ -38,6 +38,9 @@
     (key-chord-define-global "KK"     'kill-ring-save)
     (key-chord-define-global ",,"     'org-capture)
 ;;
+(key-chord-define org-mode-map "NN"     'org-forward-heading-same-level)
+(key-chord-define org-mode-map "UU"     'org-backward-heading-same-level)
+;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 ;;(split-window-right)
 ;;
