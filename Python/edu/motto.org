@@ -7239,10 +7239,10 @@
 
 ******* The Customization Modules
 
-**** Standard Library [%]
-***** 1. Introduction 
+**** Standard Library [5%]
+***** DONE 1. Introduction
 
-***** 2. Built-in Functions
+***** DONE 2. Built-in Functions
       #+BEGIN_QUOTE
       built-in functions and exceptions — objects that can be used by
       all Python code *without the need of an import* statement.
@@ -7279,11 +7279,11 @@
 	:     If the iterable is empty, return True.
 
 
-***** 3. Built-in Constants
+***** TODO 3. Built-in Constants
 
 ****** 3.1. Constants added by the site module 
 
-***** 4. Built-in Types
+***** TODO 4. Built-in Types
 
 ****** 4.1. Truth Value Testing 
 
@@ -7311,7 +7311,7 @@
 
 ****** 4.13. Special Attributes 
 
-***** 5. Built-in Exceptions
+***** TODO 5. Built-in Exceptions
 
 ****** 5.1. Base classes 
 
@@ -7321,7 +7321,7 @@
 
 ****** 5.4. Exception hierarchy 
 
-***** 6. Text Processing Services
+***** TODO 6. Text Processing Services
 
 ****** 6.1. string — Common string operations 
 
@@ -7339,13 +7339,13 @@
 
 ****** 6.8. rlcompleter — Completion function for GNU readline 
 
-***** 7. Binary Data Services
+***** TODO 7. Binary Data Services
 
 ****** 7.1. struct — Interpret bytes as packed binary data 
 
 ****** 7.2. codecs — Codec registry and base classes 
 
-***** 8. Data Types
+***** TODO 8. Data Types
 
 ****** 8.1. datetime — Basic date and time types 
 
@@ -7398,7 +7398,7 @@
 
 ****** 8.13. enum — Support for enumerations 
 
-***** 9. Numeric and Mathematical Modules
+***** TODO 9. Numeric and Mathematical Modules
 
 ****** 9.1. numbers — Numeric abstract base classes 
 
@@ -7414,7 +7414,7 @@
 
 ****** 9.7. statistics — Mathematical statistics functions 
 
-***** 10. Functional Programming Modules
+***** TODO 10. Functional Programming Modules
 
 ****** 10.1. itertools — Functions creating iterators for efficient
 
@@ -7426,7 +7426,7 @@
 
 ****** 10.3. operator — Standard operators as functions 
 
-***** 11. File and Directory Access
+***** TODO 11. File and Directory Access
 
 ****** 11.1. pathlib — Object-oriented filesystem paths 
 
@@ -7450,7 +7450,7 @@
 
 ****** 11.11. macpath — Mac OS 9 path manipulation functions 
 
-***** 12. Data Persistence
+***** TODO 12. Data Persistence
 
 ****** 12.1. pickle — Python object serialization 
 
@@ -7464,7 +7464,7 @@
 
 ****** 12.6. sqlite3 — DB-API 2.0 interface for SQLite databases 
 
-***** 13. Data Compression and Archiving
+***** TODO 13. Data Compression and Archiving
 
 ****** 13.1. zlib — Compression compatible with gzip 
 
@@ -7478,7 +7478,7 @@
 
 ****** 13.6. tarfile — Read and write tar archive files 
 
-***** 14. File Formats
+***** TODO 14. File Formats
 
 ****** 14.1. csv — CSV File Reading and Writing 
 
@@ -7490,13 +7490,13 @@
 
 ****** 14.5. plistlib — Generate and parse Mac OS X .plist files 
 
-***** 15. Cryptographic Services
+***** TODO 15. Cryptographic Services
 
 ****** 15.1. hashlib — Secure hashes and message digests 
 
 ****** 15.2. hmac — Keyed-Hashing for Message Authentication 
 
-***** 16. Generic Operating System Services
+***** TODO 16. Generic Operating System Services
 
 ****** 16.1. os — Miscellaneous operating system interfaces 
 
@@ -7534,7 +7534,7 @@
 
 ****** 16.16. ctypes — A foreign function library for Python 
 
-***** 17. Concurrent Execution
+***** TODO 17. Concurrent Execution
 
 ****** 17.1. threading — Thread-based parallelism 
 
@@ -7558,7 +7558,7 @@
 
 ****** 17.10. _dummy_thread — Drop-in replacement for the _thread module 
 
-***** 18. Interprocess Communication and Networking
+***** TODO 18. Interprocess Communication and Networking
 
 ****** 18.1. socket — Low-level networking interface 
 
@@ -7580,7 +7580,7 @@
 
 ****** 18.9. mmap — Memory-mapped file support 
 
-***** 19. Internet Data Handling
+***** TODO 19. Internet Data Handling
 
 ****** 19.1. email — An email and MIME handling package 
 
@@ -7602,7 +7602,7 @@
 
 ****** 19.10. uu — Encode and decode uuencode files 
 
-***** 20. Structured Markup Processing Tools
+***** TODO 20. Structured Markup Processing Tools
 
 ****** 20.1. html — HyperText Markup Language support 
 
@@ -7630,7 +7630,7 @@
 
 ****** 20.13. xml.parsers.expat — Fast XML parsing using Expat 
 
-***** 21. Internet Protocols and Support
+***** TODO 21. Internet Protocols and Support
 
 ****** 21.1. webbrowser — Convenient Web-browser controller 
 
@@ -7688,7 +7688,7 @@
 
 ****** 21.28. ipaddress — IPv4/IPv6 manipulation library 
 
-***** 22. Multimedia Services
+***** TODO 22. Multimedia Services
 
 ****** 22.1. audioop — Manipulate raw audio data 
 
@@ -7708,13 +7708,13 @@
 
 ****** 22.9. ossaudiodev — Access to OSS-compatible audio devices 
 
-***** 23. Internationalization
+***** TODO 23. Internationalization
 
 ****** 23.1. gettext — Multilingual internationalization services 
 
 ****** 23.2. locale — Internationalization services 
 
-***** 24. Program Frameworks
+***** TODO 24. Program Frameworks
 
 ****** 24.1. turtle — Turtle graphics 
 
@@ -7722,7 +7722,7 @@
 
 ****** 24.3. shlex — Simple lexical analysis 
 
-***** 25. Graphical User Interfaces with Tk
+***** TODO 25. Graphical User Interfaces with Tk
 
 ****** 25.1. tkinter — Python interface to Tcl/Tk 
 
@@ -7736,7 +7736,7 @@
 
 ****** 25.6. Other Graphical User Interface Packages 
 
-***** 26. Development Tools
+***** TODO 26. Development Tools
 
 ****** 26.1. typing — Support for type hints 
 
@@ -7756,7 +7756,7 @@
 
 ****** 26.9. test.support — Utilities for the Python test suite 
 
-***** 27. Debugging and Profiling
+***** TODO 27. Debugging and Profiling
 
 ****** 27.1. bdb — Debugger framework 
 
@@ -7772,7 +7772,7 @@
 
 ****** 27.7. tracemalloc — Trace memory allocations 
 
-***** 28. Software Packaging and Distribution
+***** TODO 28. Software Packaging and Distribution
 
 ****** 28.1. distutils — Building and installing Python modules 
 
@@ -7782,7 +7782,7 @@
 
 ****** 28.4. zipapp — Manage executable python zip archives 
 
-***** 29. Python Runtime Services
+***** TODO 29. Python Runtime Services
 
 ****** 29.1. sys — System-specific parameters and functions 
 
@@ -7814,13 +7814,13 @@
 
 ****** 29.14. fpectl — Floating point exception control 
 
-***** 30. Custom Python Interpreters
+***** TODO 30. Custom Python Interpreters
 
 ****** 30.1. code — Interpreter base classes 
 
 ****** 30.2. codeop — Compile Python code 
 
-***** 31. Importing Modules
+***** TODO 31. Importing Modules
 
 ****** 31.1. zipimport — Import modules from Zip archives 
 
@@ -7832,7 +7832,7 @@
 
 ****** 31.5. importlib – The implementation of import 
 
-***** 32. Python Language Services
+***** TODO 32. Python Language Services
 
 ****** 32.1. parser — Access Python parse trees 
 
@@ -7860,11 +7860,11 @@
 
 ****** 32.13. pickletools — Tools for pickle developers 
 
-***** 33. Miscellaneous Services
+***** TODO 33. Miscellaneous Services
 
 ****** 33.1. formatter — Generic output formatting 
 
-***** 34. MS Windows Specific Services
+***** TODO 34. MS Windows Specific Services
 
 ****** 34.1. msilib — Read and write Microsoft Installer files 
 
@@ -7874,7 +7874,7 @@
 
 ****** 34.4. winsound — Sound-playing interface for Windows 
 
-***** 35. Unix Specific Services
+***** TODO 35. Unix Specific Services
 
 ****** 35.1. posix — The most common POSIX system calls 
 
@@ -7902,17 +7902,17 @@
 
 ****** 35.13. syslog — Unix syslog library routines 
 
-***** 36. Superseded Modules
+***** TODO 36. Superseded Modules
 
 ****** 36.1. optparse — Parser for command line options 
 
 ****** 36.2. imp — Access the import internals 
 
-***** 37. Undocumented Modules
+***** TODO 37. Undocumented Modules
 
 ****** 37.1. Platform specific modules 
 
-**** TODO Python HOWTOs [0%]					      :howto:
+**** TODO Python HOWTOs [0%] 					      :howto:
 ***** TODO Porting Python 2 Code to Python 3
 
 ****** The Short Explanation
