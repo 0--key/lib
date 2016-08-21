@@ -8,10 +8,10 @@
 
     *Installation Guide*
 
-    Evaluate expression below to determine where org expects
-    to seek its libraries:
+    Evaluate expression below in *scratch* buffer to determine
+    where org expects to seeks its libraries by default config:
 
-    #+BEGIN_SRC elisp
+    #+BEGIN_SRC elisp :exports both
       (expand-file-name
       "ditaa.jar"
       (file-name-as-directory
@@ -26,11 +26,12 @@
     #+RESULTS:
     : /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
 
-     Download]], unzip, rename and locate into above path
-    Add ~(ditaa .t)~ into org-babel-load-languages
+    - Download, unzip, rename [[http://ditaa.sourceforge.net/][java package]] and locate it there
+    - Add ~(ditaa . t)~ into org-babel-load-languages in your .emacs
 
     *Test it*:
-    #+BEGIN_SRC ditaa :file img/color_test.png :export both
+    #+BEGIN_SRC org
+    #+BEGIN_SRC ditaa :file img/color_test.png :exports both
       /----\ /----\
       |c33F| |cC02|
       |    | |    |
@@ -40,9 +41,16 @@
       |c1FF| |c1AB|
       |    | |    |
       \----/ \----/
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/color_test.png]]
     #+END_SRC
 
-    #+BEGIN_SRC ditaa :file img/second_color_test.png
+    [[file:img/color_test.png]]
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC ditaa :file img/second_color_test.png :exports both
       Color codes
       /-------------+-------------\
       |cRED RED     |cBLU BLU     |
@@ -52,9 +60,13 @@
       |cBLK BLK     |cYEL YEL     |
       \-------------+-------------/
 
+    ,#+END_SRC
 
-      New string there
+    #+RESULTS:
+    [[file:img/second_color_test.png]]
     #+END_SRC
+
+    file:img/second_color_test.png
 
     #+BEGIN_SRC plantuml :file img/tryout.png
     Alice -> Bob: synchronous call
