@@ -161,12 +161,19 @@
       ;; ("http://www.bbc.co.uk/programmes/p004kln9/episodes/downloads.rss" The Forum)
       ;; ("http://downloads.bbc.co.uk/podcasts/radio4/ta/rss.xml" Thinking Allowed)
       ))
+
 ;;
 (setq org-publish-project-alist
       '(("org"
 	 :base-directory "/usr/local/share/DVCS/lib/pub/"
 	 :publishing-directory "/usr/local/share/DVCS/0--key.github.io"
 	 :publishing-function org-html-publish-to-html
+	 :auto-sitemap t
+	 :sitemap-filename "index.html"
+	 :sitemap-title "Cooking Python"
+	 :sitemap-file-entry-format "%d %t"
 	 :section-numbers nil
 	 :with-toc nil
 	 )))
+
+;; img not generated since initial html export
