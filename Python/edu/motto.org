@@ -1,9 +1,7 @@
 #+AUTHOR:    Anton S. Kosinov
-#+TITLE:     Cooking Python Sample
-#+SUBTITLE:  How to enjoy yourself
+#+TITLE:     Mental Athlete Diary
+#+SUBTITLE:  How to cope with yourself
 #+EMAIL:     a.s.kosinov@gmail.com
-#+SELECT_TAG Initial
-#+EXCLUDE_TAG Personal
 #+LANGUAGE: en
 #+STARTUP: showall
 #+OPTIONS: H:2 num:nil toc:t \n:nil @:t ::t |:t ^:{} _:{} *:t
