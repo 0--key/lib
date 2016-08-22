@@ -2,6 +2,7 @@
 #+AUTHOR:    Anton S. Kosinov
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
+#+OPTIONS: num:nil toc:t \n:nil @:t ::t |:t ^:{} _:{} *:t
 
 * It's first export to html test
 * Scientific usage proves that it might be awesome
