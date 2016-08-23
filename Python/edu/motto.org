@@ -7245,7 +7245,7 @@
 
 ******* The Customization Modules
 
-**** Standard Library [5%]
+**** Standard Library [8%] 					     :stdlib:
 ***** DONE 1. Introduction
 
 ***** DONE 2. Built-in Functions
@@ -7285,10 +7285,59 @@
 	:     If the iterable is empty, return True.
 
 
-***** TODO 3. Built-in Constants
+***** DONE 3. Built-in Constants
+      - False
+      - True
+      - None
+      - NotImplemented
+      - Ellipsis
+      - __debug__
 
+      Test-driven development might be a self-explained approach in
+      studying. Create the general capability test:
+      #+BEGIN_SRC python :tangle test_stdlib.py
+        import unittest
+
+
+        class TestGeneric(unittest.TestCase):
+
+            def test_true(self):
+                self.assertTrue(1 + 3 == 4)
+
+            def test_false(self):
+                self.assertFalse(1 + 4 == 4)
+
+            def test_none(self):
+                value = None
+                self.assertIsNone(value)
+
+            # def test_not_implemented(self):
+            #     self.assertTrue("abc" < 123)
+
+            # def test_ellipsis(self):
+            #     self.assertTrue('ellipsis' == type(Ellipsis))
+
+            # def test__debug__(self):
+            #     self.assertTrue(__debug__)
+      #+END_SRC
+
+      #+BEGIN_SRC shell :results output pp :exports both
+      python -m unittest -v test_stdlib.py 2>&1
+      #+END_SRC
+
+      #+RESULTS:
+      : test_false (test_stdlib.TestGeneric) ... ok
+      : test_none (test_stdlib.TestGeneric) ... ok
+      : test_true (test_stdlib.TestGeneric) ... ok
+      : 
+      : ----------------------------------------------------------------------
+      : Ran 3 tests in 0.000s
+      : 
+      : OK
+
+
+      
 ****** 3.1. Constants added by the site module 
-
 ***** TODO 4. Built-in Types
 
 ****** 4.1. Truth Value Testing 
