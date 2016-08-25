@@ -1,0 +1,54 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Bake code inside emacs
+tagline: " Ensure yourself"
+permalink: /emacs/how-to-evaluate-code-inside-emacs.html
+categories: [emacs, literate programming, practice]
+tags: [emacs, org-mode, babel]
+---
+#+END_HTML
+#+OPTIONS: tags:nil toc:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+* Prerequisites
+  
+** Emacs
+   Type in your terminal:
+     #+BEGIN_SRC sh :results output :exports both
+     emacs --version
+     #+END_SRC
+
+     #+RESULTS:
+     : GNU Emacs 24.5.1
+     : Copyright (C) 2015 Free Software Foundation, Inc.
+     : GNU Emacs comes with ABSOLUTELY NO WARRANTY.
+     : You may redistribute copies of Emacs
+     : under the terms of the GNU General Public License.
+     : For more information about these matters, see the file named COPYING.
+
+   
+** Org-mode
+
+   Type =M-x org-version=
+     #+BEGIN_SRC elisp :exports both
+     org-version
+     #+END_SRC
+
+     #+RESULTS:
+     : 8.3.5   
+
+** Language support
+
+   Check source code support languages accessible in babel. Evaluate
+   this statement in emacs:
+     #+BEGIN_SRC elisp :exports both
+     (print org-babel-load-languages)
+     #+END_SRC
+
+     #+RESULTS:
+     : ((python . t) (emacs-lisp . t) (shell . t) (js . t) (ditaa . t) (plantuml . t))
+
+* Settings
+
+* Evaluation
+  

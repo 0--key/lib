@@ -1,0 +1,182 @@
+#+BEGIN_HTML
+---
+layout: page
+title: Data visualisation
+tagline: " A picture worths a hundred words"
+categories: [emacs, literate programming]
+tags: [org-mode, emacs, uml, plantuml, ditaa, schema, babel]
+---
+#+END_HTML
+#+OPTIONS: tags:nil toc:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+
+
+* Ditaa
+    #+BEGIN_SRC org
+    #+BEGIN_SRC ditaa :file img/color_test.png :exports both
+      /----\ /----\
+      |c33F| |cC02|
+      |    | |    |
+      \----/ \----/
+
+      /----\ /----\
+      |c1FF| |c1AB|
+      |    | |    |
+      \----/ \----/
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/color_test.png]]
+    #+END_SRC
+
+    [[http://0--key.github.io/assets/img/color_test.png]]
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC ditaa :file img/second_color_test.png :exports both
+      Color codes
+      /-------------+-------------\
+      |cRED RED     |cBLU BLU     |
+      +-------------+-------------+
+      |cGRE GRE     |cPNK PNK     |
+      +-------------+-------------+
+      |cBLK BLK     |cYEL YEL     |
+      \-------------+-------------/
+
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/second_color_test.png]]
+    #+END_SRC
+
+    [[http://0--key.github.io/assets/img/second_color_test.png]]
+
+* PlantUML
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC plantuml :file img/tryout.png :exports both
+    Alice -> Bob: synchronous call
+    Alice ->> Bob: asynchronous call
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/tryout.png]]
+    #+END_SRC
+
+    [[http://0--key.github.io/assets/img/tryout.png]]
+
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC plantuml :file img/comp.png :exports both
+    package "Some Group" {
+    HTTP - [First Component]
+    [Another Component]
+    }
+
+    node "Other Groups" {
+    FTP - [Second Component]
+    [First Component] --> FTP
+    }
+
+    cloud {
+    [Example 1]
+    }
+
+
+    database "MySql" {
+    folder "This is my folder" {
+    [Folder 3]
+    }
+    frame "Foo" {
+    [Frame 4]
+    }
+    }
+
+
+    [Another Component] --> [Example 1]
+    [Example 1] --> [Folder 3]
+    [Folder 3] --> [Frame 4]
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/comp.png]]
+    
+    #+END_SRC
+
+    [[http://0--key.github.io/assets/img/comp.png]]
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC plantuml :file img/gradient.png :exports both
+    skinparam backgroundcolor AntiqueWhite/Gold
+    skinparam classBackgroundColor Wheat|CornflowerBlue
+
+    class Foo #red-green
+    note left of Foo #blue\9932CC
+    this is my
+    note on this class
+    end note
+
+    package example #GreenYellow/LightGoldenRodYellow {
+    class Dummy
+    }
+    ,#+END_SRC
+
+    #+RESULTS:
+    [[file:img/gradient.png]]
+    #+END_SRC
+
+    [[http://0--key.github.io/assets/img/gradient.png]]
+
+    
+
+* How to achive similar functionality
+
+** JVM required
+   #+BEGIN_SRC sh :exports both
+   java -version 2>&1
+   #+END_SRC
+
+   #+RESULTS:
+   | java    | version | 1.6.0_39    |           |            |                                 |       |
+   | OpenJDK | Runtime | Environment | (IcedTea6 |   1.13.11) | (6b39-1.13.11-0ubuntu0.14.04.1) |       |
+   | OpenJDK | Server  | VM          | (build    | 23.25-b01, | mixed                           | mode) |
+
+   If it is not so, you'll need to install it.
+
+** Define java plugins path for emacs usage
+   
+   Evaluate expression below in *scratch* buffer to determine
+   where org expects to seeks its libraries by default config:
+
+     #+BEGIN_SRC elisp :exports both
+       (expand-file-name
+       "ditaa.jar"
+       (file-name-as-directory
+       (expand-file-name
+       "scripts"
+       (file-name-as-directory
+       (expand-file-name
+       "../contrib"
+       (file-name-directory (org-find-library-dir "org")))))))
+     #+END_SRC
+
+     #+RESULTS:
+     : /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
+
+      
+** Install plantUML and ditaa libraries
+
+   Download, unzip, rename [[http://ditaa.sourceforge.net/][java package]] and locate it there
+    
+** Extend Babel src languages list
+
+   Add a couple strings ~into org-babel-load-languages~ in your
+   ~.emacs.el~ or ~init.el~
+
+   #+BEGIN_SRC lisp
+   (ditaa . t)
+   (plantuml . t)
+   #+END_SRC
+
+** Test it
+
+   [[http://0--key.github.io/emacs/how-to-evaluate-code-inside-emacs.html][Try to evaluate]] the code snippets in the top of this page.

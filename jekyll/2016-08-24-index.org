@@ -1,0 +1,98 @@
+#+BEGIN_HTML
+---
+layout: page
+title: Intro
+tagline: 'Cook it gently._/\/\/^\/\/\/-<8<'
+permalink: /index.html
+categories: [emacs, literate programming, data science]
+tags: [sotfware development, emacs, Python, learning]
+---
+#+END_HTML
+#+OPTIONS: tags:nil toc:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+* Short intro							      :intro:
+
+  #+BEGIN_QUOTE
+
+  As the TDD approach became a standard option in web development it
+  is time to wrap all code you're studied already in this modern
+  envelop. It is =not just modern quirk=, it mainly used to enhance
+  your general coding skills by bundling it together with instant code
+  quality testing, simplify software development process as a whole
+  and furthermore grant you ability to go further in career.
+
+  Next would be as a *literate code unveiled TDD approach* for direct
+  execution on your host. On a flip side the code might serve to you
+  as a gauge and start point, or even to encourage you in your journey
+  across realm of knowledge. Exactly to rectify your personal Python
+  skill all code samples should be run in a slick manner, hence it all
+  possible to modify, improve or rearrange on your own taste.
+
+  For experienced users I might suggest to fork this project on [[https://github.com/0--key/0--key.github.io][Github]]
+  and evaluate it for your personal usage. In any case feel free to
+  contribute to it.
+  #+END_QUOTE
+  
+* Brief prelude							    :prelude:
+
+  #+BEGIN_QUOTE
+  Any science is an experience which forged and enveloped in some
+  skill. Data science by its nature built on data.
+
+  There are several levels of data acquisition:
+  - Read-only access is an initial proves possession over some
+    particular data.
+  - There are several much precise tools to compose quires and get
+    much informative data out of array. It's the second flow on data
+    processing functions list.
+  - The third one might be data integrity checking strategy on duty to
+    prevent any data corruption and lost.
+  - And as a final stage in data cooking it might be data visualisation.
+  #+END_QUOTE
+
+* General description						:description:
+
+  There are infinite number of wrong approaches and the best path to
+  achieve some skill is to learn it by doing. For example it's
+  completely impossible to play basketball with no ideas about the
+  rules of this dexterity demonstration. As another premise of
+  apprenticeship it might be noticed about Ancient Greek samples of
+  great thinkers, who ponder about most of our modern science in the
+  same way. All they was scholars and learn all life long.
+
+
+* Preamble
+
+# Of cause learning by doing is a final stage in human creativity. It requires a lot of 
+# passion, huge amount of time and hardships happen certainly. And it is a peculiar time
+# machine. There is one way further, and a lot of noways.
+
+# Introduction
+
+# Python 3.4.1 under the detailed scrutiny by unittest module.
+
+# Description
+
+# Literate programming book for wide range of learners by reading and typing. A little bit 
+# of primitive mathematics used for self-explanatory clarity in proves. All language's features 
+# hooks and idioms are available to test on Emacs frame.
+
+* Prerequisites
+
+# Ubuntu 14/16.04
+# Python3
+# Emacs 24.4
+
+* Methodology
+
+# In my humble opinion the best way to learn programming language lies in
+# reading source code of working code samples. Code and its output are crucially
+# dense (habitually awkward) text. Read and run it by yourself. It's vivid and unique thus useful for education.
+# If you wish to unleash your brain feel free to modify or even improve my code.
+# In any case good luck, be calm and detect calamity in their seeds.
+
+* Topics
+
+* Feedback
+
+* Conclusion
