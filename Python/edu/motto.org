@@ -11823,6 +11823,7 @@
      ~git branch -a(ll)~
     
 **** Tools and Next Steps
+     ~git config --global credential.helper 'cache --timeout=3600'~
 **** Conclusion
 
 ** Original implementation			:practice:
