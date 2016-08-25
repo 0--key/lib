@@ -167,16 +167,26 @@
 
 ;;
 (setq org-publish-project-alist
-      '(("org"
-	 :base-directory "/usr/local/share/DVCS/lib/pub/"
-	 :publishing-directory "/usr/local/share/DVCS/0--key.github.io"
-	 :publishing-function org-html-publish-to-html
-	 :auto-sitemap t
-	 :sitemap-filename "index.html"
-	 :sitemap-title "Cooking Python"
-	 :sitemap-file-entry-format "%d %t"
-	 :section-numbers nil
-	 :with-toc nil
-	 )))
+'(("jekyll-org"
+   :base-directory "/usr/local/share/DVCS/lib/jekyll/"
+   :base-extension "org"
+   ;; Path to your Jekyll project.
+   :publishing-directory "/usr/local/share/DVCS/0--key.io/_posts/"
+   :recursive t
+   :publishing-function org-html-publish-to-html
+   :headline-levels 4
+   :html-extension "html"
+   :section-numbers nil
+   :with-toc nil
+   :body-only t
+   ;; Only export section between <body> </body> (body-only)
+   )
+  ("jekyll-org-img"
+   :base-directory "/usr/local/share/DVCS/lib/jekyll/img/"
+   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
+   :publishing-directory "/usr/local/share/DVCS/0--key.io/assets/"
+   :recursive t
+   :publishing-function org-publish-attachment)
 
-;; img not generated since initial html export
+  ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
+  ))
