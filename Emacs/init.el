@@ -44,6 +44,9 @@
 (key-chord-define org-mode-map "NN"     'org-forward-heading-same-level)
 (key-chord-define org-mode-map "UU"     'org-backward-heading-same-level)
 ;;
+(key-chord-define org-mode-map "''"     'org-edit-special)
+(key-chord-define org-src-mode-map "''"     'org-edit-src-exit)
+;;
 (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
 ;;(split-window-right)
 ;;
