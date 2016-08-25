@@ -83,7 +83,7 @@
   '(progn
      (color-theme-initialize)
      (color-theme-ld-dark)))
-(global-set-key (kbd "C-c 1") 'color-theme-charcoal-black)
+(global-set-key (kbd "C-c 1") 'color-theme-clarity)
 (global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
 (global-set-key (kbd "C-c 3") 'color-theme-hober)
 (global-set-key (kbd "C-c 4") 'color-theme-oswald)
