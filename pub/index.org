@@ -7,26 +7,46 @@
 #+OPTIONS:   H:3 num:nil toc:t \n:nil @:t ::t |:t ^:{} _:{} *:t
 #+STARTUP:   showall
 
-* Short intro
+* Short intro							      :intro:
 
-# Next would be as a TDD sample a literate code for work slick on yours hosts.
-# On a flip side ultimative and working code to serve you as a gauge and start
-# point of blowsome journey across and inside out whole kindom of knowledge. 
-# Exactly to simplify your Python all code samples should be run in a slick manner, 
-# hence it all Ellipsis
+  #+BEGIN_QUOTE
 
-* Brief prelude
+  As the TDD approach became a standard option in web development it
+  is time to wrap all code you're studied already in this modern
+  envelop. It is =not just modern quirk=, it mainly used to enhance
+  your general coding skills by bundling it together with instant code
+  quality testing, simplify software development process as a whole
+  and furthermore grant you ability to go further in career.
 
-# Any science has experience forged and enveloped in some skill. Data science
-# by its nature built on data. Read-only access is an initial proves possession 
-# over some particular data. There are several much precise tools to compose quires 
-# and get much informative data out of array. It's the second flow on data processing 
-# functions list. The third one might be data integrity checking strategy on duty to 
-# prevent any data corruption and lost. And as a final stage in deriving data on the
-# preparation table scrutiny.
+  Next would be as a *literate code unveiled TDD approach* for direct
+  execution on your host. On a flip side the code might serve to you
+  as a gauge and start point, or even to encourage you in your journey
+  across realm of knowledge. Exactly to rectify your personal Python
+  skill all code samples should be run in a slick manner, hence it all
+  possible to modify, improve or rearrange on your own taste.
 
+  For experienced users I might suggest to fork this project on [[https://github.com/0--key/0--key.github.io][Github]]
+  and evaluate it for your personal usage. In any case feel free to
+  contribute to it.
+  #+END_QUOTE
+  
+* Brief prelude							    :prelude:
 
-* General description
+  #+BEGIN_QUOTE
+  Any science is an experience which forged and enveloped in some
+  skill. Data science by its nature built on data. Read-only access is
+  an initial proves possession over some particular data. There are
+  several much precise tools to compose quires and get much
+  informative data out of array. It's the second flow on data
+  processing functions list. The third one might be data integrity
+  checking strategy on duty to prevent any data corruption and lost.
+  And as a final stage in deriving data on the preparation table
+  scrutiny.
+  #+END_QUOTE
+
+  [[file:intro.org][Niceties]]
+
+* General description						:description:
 
 # There are infinite number of wrong approaches and the best path to achieve some skill
 # is to learn it by doing. For example it's completely impossible to play basketball 
