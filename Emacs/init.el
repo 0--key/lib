@@ -184,7 +184,7 @@
   ("jekyll-org-img"
    :base-directory "/usr/local/share/DVCS/lib/jekyll/img/"
    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-   :publishing-directory "/usr/local/share/DVCS/0--key.io/assets/"
+   :publishing-directory "/usr/local/share/DVCS/0--key.io/img/assets/"
    :recursive t
    :publishing-function org-publish-attachment)
 
