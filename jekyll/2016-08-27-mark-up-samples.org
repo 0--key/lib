@@ -132,7 +132,6 @@ tags: [html export, mark-up, samples]
       #+CAPTION: An image with color samples
       #+ATTR_HTML: :alt four figures image :title Color test :align right
       [[http://0--key.github.io/assets/img/color_test.png]]
-  ;256;0c
 
 * Horizontal line
   line at least of 5 dashes
