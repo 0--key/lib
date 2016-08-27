@@ -60,36 +60,51 @@ tags: [sotfware development, emacs, Python, learning]
   great thinkers, who ponder about most of our modern science in the
   same way. All they was scholars and learn all life long.
 
-
 * Preamble
 
-# Of cause learning by doing is a final stage in human creativity. It requires a lot of 
-# passion, huge amount of time and hardships happen certainly. And it is a peculiar time
-# machine. There is one way further, and a lot of noways.
+  #+BEGIN_QUOTE
+  Of cause learning by doing is a final stage in human creativity. It
+  requires a lot of passion, huge amount of time and hardships happen
+  certainly. And it is a peculiar time machine. There is one way
+  further, and a lot of noways.
 
-# Introduction
+  #+END_QUOTE
 
-# Python 3.4.1 under the detailed scrutiny by unittest module.
+** Short description
 
-# Description
+   #+BEGIN_QUOTE
+   Python 3.4.1 under the detailed scrutiny by unittest module.   
+   #+END_QUOTE
 
-# Literate programming book for wide range of learners by reading and typing. A little bit 
-# of primitive mathematics used for self-explanatory clarity in proves. All language's features 
-# hooks and idioms are available to test on Emacs frame.
+** Description
+
+   #+BEGIN_QUOTE
+   Literate programming book for wide range of learners by reading
+   and typing. A little bit of primitive mathematics used for
+   self-explanatory clarity in proves. All language's features hooks and
+   idioms are available to test on Emacs frame.
+   #+END_QUOTE
 
 * Prerequisites
 
-# Ubuntu 14/16.04
-# Python3
-# Emacs 24.4
+** Ubuntu 14/16.04
+
+** Python3
+
+** Emacs 24.4
 
 * Methodology
 
-# In my humble opinion the best way to learn programming language lies in
-# reading source code of working code samples. Code and its output are crucially
-# dense (habitually awkward) text. Read and run it by yourself. It's vivid and unique thus useful for education.
-# If you wish to unleash your brain feel free to modify or even improve my code.
-# In any case good luck, be calm and detect calamity in their seeds.
+
+  #+BEGIN_QUOTE
+  In my humble opinion the best way to learn programming language lies
+  in reading source code of working code samples. Code and its output
+  are crucially dense (habitually awkward) text. Read and run it by
+  yourself. It's comprehensive and unique thus useful for education.
+  If you wish to unleash your brain feel free to modify or even
+  improve my code. In any case good luck, keep clear and detect calamity
+  in their seeds.
+  #+END_QUOTE
 
 * Topics
 
