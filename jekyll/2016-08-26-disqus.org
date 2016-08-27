@@ -1,0 +1,42 @@
+#+BEGIN_HTML
+---
+layout: post
+title: Socialize your app
+tagline: " Collect and review feedback"
+permalink: /disqus/how-to-define_disqus_shortname.html
+categories: [disqus]
+tags: [disqus, shortname, settings]
+---
+#+END_HTML
+#+OPTIONS: tags:nil toc:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+#+TOC: headlines 2
+
+* Issue description
+
+  First of all you got the message:
+  ~We were unable to load Disqus~
+  Try out to review this [[https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%2522we-were-unable-to-load-disqus-%2522][official manual]] about origin of this message,
+  and one possible explanation is below.
+
+  You're already installed your blog and registered _yourself_ on
+  Disqus. Next step is to integrate =disqus message board= into your
+  blog. It's usually do by defining the =shortname= in your config.
+
+  *NOTE* =shortname= *is not* your disqus name, it is a name of
+  [[https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-][particular message board]] associated with your site which you need to
+  register on disqus.
+
+* Solution
+
+  In my case I've defined name of my first message board as
+  0--key.github.io and it was trasformed into 0-key-github-io
+
+  Short name in many cases *not matches* your definition as you're
+  typed during registration. In my case dashes and dots was replaced
+  in a bit tricky manner.
+
+  | 0--key.github.io | >> | 0-key-github-io |
+
+  Take care of it.
+
