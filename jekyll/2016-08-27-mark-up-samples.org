@@ -1,0 +1,144 @@
+#+BEGIN_HTML
+---
+layout: page
+title: Make a stress on words
+tagline: " Keep your thought clear"
+permalink: /org-mode/mark-up-samples.html
+categories: [mark-up, org-mode]
+tags: [html export, mark-up, samples]
+---
+#+END_HTML
+#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+#+TOC: headlines 2
+
+* Individual emphasis
+  
+** Bold
+   *It's a bold text there*
+#+BEGIN_EXAMPLE
+   *It's a bold text there*
+#+END_EXAMPLE   
+
+** Italic
+   /Suppose it might be italic/
+#+BEGIN_EXAMPLE
+   /Suppose it might be italic/
+#+END_EXAMPLE
+
+** Underlined
+#+BEGIN_EXAMPLE
+   _This is underlined sentence._
+#+END_EXAMPLE
+
+   _This is underlined sentence._
+
+** Verbatim
+#+BEGIN_EXAMPLE
+   =and this is a verbatim sample=
+#+END_EXAMPLE
+
+   =and this is a verbatim sample=
+
+** Code displaying
+   
+   ~this is a specific type~
+
+   #+BEGIN_EXAMPLE
+   ~this is a specific type~
+#+END_EXAMPLE
+
+** And the final one
+   +how it looks on this page?+
+#+BEGIN_EXAMPLE
+   +how it looks on this page?+
+#+END_EXAMPLE
+
+* Group emphasis
+
+** Poetry
+   #+BEGIN_EXAMPLE 
+         #+BEGIN_VERSE
+       Great clouds overhead
+       Tiny black birds rise and fall
+       Snow covers Emacs
+
+           -- AlexSchroeder
+      #+END_VERSE
+
+   #+END_EXAMPLE
+
+      #+BEGIN_VERSE
+       Great clouds overhead
+       Tiny black birds rise and fall
+       Snow covers Emacs
+
+           -- AlexSchroeder
+      #+END_VERSE
+
+** Quotes
+
+   #+BEGIN_EXAMPLE
+        #+BEGIN_QUOTE
+	Everything should be made as simple as possible,
+	but not any simpler -- Albert Einstein
+	#+END_QUOTE   
+   #+END_EXAMPLE
+
+   #+BEGIN_QUOTE
+0   Everything should be made as simple as possible,
+   but not any simpler -- Albert Einstein
+   #+END_QUOTE
+
+** Center
+#+BEGIN_EXAMPLE
+     #+BEGIN_CENTER
+     Everything should be made as simple as possible, \\
+     but not any simpler
+     #+END_CENTER
+#+END_EXAMPLE
+
+     #+BEGIN_CENTER
+     Everything should be made as simple as possible, \\
+     but not any simpler
+     #+END_CENTER
+
+** Tables formatting
+   #+BEGIN_QUOTE
+   The default setting makes tables without cell borders and frame. If
+   you would like to change this for individual tables, place something
+   like the following before the table:
+   #+END_QUOTE
+   #+BEGIN_EXAMPLE
+      #+CAPTION: This is a table with lines around and between cells
+      #+ATTR_HTML: :border 2 :rules all :frame border  
+   #+END_EXAMPLE
+
+      #+CAPTION: This is a table with lines around and between cells
+      #+ATTR_HTML: :border 2 :rules all :frame border
+
+      | Firts row | Second row | Third row |
+      |-----------+------------+-----------|
+      | this      | is         | a test    |
+
+** The images inset
+   #+BEGIN_EXAMPLE
+      #+CAPTION: An image with color samples
+      #+ATTR_HTML: :alt four figures image :title Color test :align right  
+   #+END_EXAMPLE
+   Some arbitrary text to unveil ~align~ property in *html5* attribute.
+   Seems like it might look nice and pretty with no any unnecessary
+   complications.
+      #+CAPTION: An image with color samples
+      #+ATTR_HTML: :alt four figures image :title Color test :align right
+      [[http://0--key.github.io/assets/img/color_test.png]]
+  ;256;0c
+
+* Horizontal line
+  line at least of 5 dashes
+#+BEGIN_EXAMPLE
+  ------
+#+END_EXAMPLE
+
+  ------
+
