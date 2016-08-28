@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Data visualisation
-tagline: " A picture worths a hundred words"
+tagline: " A picture is worth a thousand words"
 categories: [emacs, literate programming]
 tags: [org-mode, emacs, uml, plantuml, ditaa, schema, babel]
 ---
@@ -162,7 +162,6 @@ tags: [org-mode, emacs, uml, plantuml, ditaa, schema, babel]
      #+RESULTS:
      : /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
 
-      
 ** Install plantUML and ditaa libraries
 
    Download, unzip, rename [[http://ditaa.sourceforge.net/][java package]] and locate it there

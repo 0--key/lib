@@ -32,7 +32,8 @@ tags: [sotfware development, emacs, Python, learning]
   and evaluate it for your personal usage. In any case feel free to
   contribute to it.
   #+END_QUOTE
-  
+#+TOC: headlines 2
+
 * Brief prelude							    :prelude:
 
   #+BEGIN_QUOTE
