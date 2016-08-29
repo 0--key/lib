@@ -11866,6 +11866,137 @@
 
   https://github.com/milkypostman/melpa
 
+* Publish your posts out from org-mode
+** DONE at Github pages at [[http://0--key.github.io/][this address]]
+** DONE Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]] based on this [[https://github.com/plusjade/jekyll-bootstrap.git][template]]
+*** Guides how to blogging with Emacs			       :html:publish:
+**** DONE Scientific usage [[illustration][sample]] proves that it might be awesome
+
+       *Installation Guide*
+
+       Evaluate expression below to determine where org expects
+       to seek its libraries:
+
+       #+BEGIN_SRC elisp
+         (expand-file-name
+         "ditaa.jar"
+         (file-name-as-directory
+         (expand-file-name
+         "scripts"
+         (file-name-as-directory
+         (expand-file-name
+         "../contrib"
+         (file-name-directory (org-find-library-dir "org")))))))
+       #+END_SRC
+
+       #+RESULTS:
+       : /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
+
+       [[http://netix.dl.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip][Download]], unzip, rename and locate into above path
+       Add ~(ditaa .t)~ into org-babel-load-languages
+
+       *Test it*:
+       #+BEGIN_SRC ditaa :file ./color_test.png
+         /----\ /----\
+         |c33F| |cC02|
+         |    | |    |
+         \----/ \----/
+
+         /----\ /----\
+         |c1FF| |c1AB|
+         |    | |    |
+         \----/ \----/
+       #+END_SRC
+
+       #+RESULTS:
+       [[file:./color_test.png]]
+
+       #+BEGIN_SRC ditaa :file ./second_color_test.png
+         Color codes
+         /-------------+-------------\
+         |cRED RED     |cBLU BLU     |
+         +-------------+-------------+
+         |cGRE GRE     |cPNK PNK     |
+         +-------------+-------------+
+         |cBLK BLK     |cYEL YEL     |
+         \-------------+-------------/
+
+
+         New string there
+       #+END_SRC
+
+       #+RESULTS:
+       [[file:./second_color_test.png]]
+
+       #+BEGIN_SRC plantuml :file tryout.png
+       Alice -> Bob: synchronous call
+       Alice ->> Bob: asynchronous call
+       #+END_SRC
+
+       #+RESULTS:
+       [[file:tryout.png]]
+
+       #+BEGIN_SRC plantuml :file comp.png
+       package "Some Group" {
+       HTTP - [First Component]
+       [Another Component]
+       }
+
+       node "Other Groups" {
+       FTP - [Second Component]
+       [First Component] --> FTP
+       }
+
+       cloud {
+       [Example 1]
+       }
+
+
+       database "MySql" {
+       folder "This is my folder" {
+       [Folder 3]
+       }
+       frame "Foo" {
+       [Frame 4]
+       }
+       }
+
+
+       [Another Component] --> [Example 1]
+       [Example 1] --> [Folder 3]
+       [Folder 3] --> [Frame 4]
+       #+END_SRC
+
+       #+RESULTS:
+       [[file:comp.png]]
+
+       #+BEGIN_SRC plantuml :file gradient.png
+       skinparam backgroundcolor AntiqueWhite/Gold
+       skinparam classBackgroundColor Wheat|CornflowerBlue
+
+       class Foo #red-green
+       note left of Foo #blue\9932CC
+       this is my
+       note on this class
+       end note
+
+       package example #GreenYellow/LightGoldenRodYellow {
+       class Dummy
+       }
+       #+END_SRC
+
+       #+RESULTS:
+       [[file:gradient.png]]
+
+**** O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
+
+**** Org-mode template for *technical specification documents* &
+       [[https://github.com/thi-ng/org-spec][HTML publishing]]
+
+**** One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
+
+
+
 
 * TODO ToDo 
 
@@ -11944,146 +12075,6 @@
      'kill-ring-save
 **** DONE capture region
      'org-capture
-** Publish your posts out from org-mode
-*** At GitHub 
-**** Associated with repository
-     Anton S. Kosinov's [[http://0--key.github.io/][blog]]
-**** Guides how to blogging with Emacs 			       :html:publish:
-***** Scientific usage [[illustration][sample]] proves that it might be awesome
-
-	*Installation Guide*
-
-	Evaluate expression below to determine where org expects
-	to seek its libraries:
-
-	#+BEGIN_SRC elisp
-          (expand-file-name
-          "ditaa.jar"
-          (file-name-as-directory
-          (expand-file-name
-          "scripts"
-          (file-name-as-directory
-          (expand-file-name
-          "../contrib"
-          (file-name-directory (org-find-library-dir "org")))))))
-	#+END_SRC
-
-	#+RESULTS:
-	: /home/antony/.emacs.d/elpa/contrib/scripts/ditaa.jar
-
-	[[http://netix.dl.sourceforge.net/project/ditaa/ditaa/0.9/ditaa0_9.zip][Download]], unzip, rename and locate into above path
-	Add ~(ditaa .t)~ into org-babel-load-languages
-
-	*Test it*:
-	#+BEGIN_SRC ditaa :file ./color_test.png
-          /----\ /----\
-          |c33F| |cC02|
-          |    | |    |
-          \----/ \----/
-
-          /----\ /----\
-          |c1FF| |c1AB|
-          |    | |    |
-          \----/ \----/
-	#+END_SRC
-
-	#+RESULTS:
-	[[file:./color_test.png]]
-
-	#+BEGIN_SRC ditaa :file ./second_color_test.png
-          Color codes
-          /-------------+-------------\
-          |cRED RED     |cBLU BLU     |
-          +-------------+-------------+
-          |cGRE GRE     |cPNK PNK     |
-          +-------------+-------------+
-          |cBLK BLK     |cYEL YEL     |
-          \-------------+-------------/
-
-
-          New string there
-	#+END_SRC
-
-	#+RESULTS:
-	[[file:./second_color_test.png]]
-
-	#+BEGIN_SRC plantuml :file tryout.png
-	Alice -> Bob: synchronous call
-	Alice ->> Bob: asynchronous call
-	#+END_SRC
-
-	#+RESULTS:
-	[[file:tryout.png]]
-
-	#+BEGIN_SRC plantuml :file comp.png
-	package "Some Group" {
-	HTTP - [First Component]
-	[Another Component]
-	}
-
-	node "Other Groups" {
-	FTP - [Second Component]
-	[First Component] --> FTP
-	}
-
-	cloud {
-	[Example 1]
-	}
-
-
-	database "MySql" {
-	folder "This is my folder" {
-	[Folder 3]
-	}
-	frame "Foo" {
-	[Frame 4]
-	}
-	}
-
-
-	[Another Component] --> [Example 1]
-	[Example 1] --> [Folder 3]
-	[Folder 3] --> [Frame 4]
-	#+END_SRC
-
-	#+RESULTS:
-	[[file:comp.png]]
-
-	#+BEGIN_SRC plantuml :file gradient.png
-	skinparam backgroundcolor AntiqueWhite/Gold
-	skinparam classBackgroundColor Wheat|CornflowerBlue
-
-	class Foo #red-green
-	note left of Foo #blue\9932CC
-	this is my
-	note on this class
-	end note
-
-	package example #GreenYellow/LightGoldenRodYellow {
-	class Dummy
-	}
-	#+END_SRC
-
-	#+RESULTS:
-	[[file:gradient.png]]
-
-***** O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
-
-***** Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]]
-
-***** Org-mode template for *technical specification documents* &
-	[[https://github.com/thi-ng/org-spec][HTML publishing]]
-
-***** One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
-
-*** Jekyll
-**** Hyde
-**** Octopress
-**** Org-Jekyll
-     http://www.gorgnegre.com/linux/using-emacs-orgmode-to-blog-with-jekyll.html
-**** Org-Octopress
-*** Custom URLs
-
 ** Make resume
    http://bit.ly/hE8j3k
 
