@@ -4664,6 +4664,10 @@
 *** Extract
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
+*** Plugins
+**** DONE github-clone
+**** DONE magit-hg-pulls
+
 ** DONE Emacs regexp				:regexp:
 *** Emacs regex Syntax
     The most commonly used command that uses regex is ~query-replace-regexp~.
@@ -4734,6 +4738,7 @@
 *** DONE Capture templates
 
 ** DONE Voca-builder				:vocabulary:extension:
+
 * Dive deeper into Python 			:Python:
 
 ** Prerequisites
