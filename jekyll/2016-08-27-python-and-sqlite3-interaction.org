@@ -16,33 +16,28 @@ tags: [TDD, samples]
   The main aim of this page is to discover SQLite3 features its general
   functionality. All tests implemented in venv with:
 
-  #+BEGIN_SRC sh :exports both
+  #+BEGIN_SRC org
+  #+BEGIN_SRC sh :results output :exports both
   python --version
-  #+END_SRC
+  # sqlite installed by default
+  sqlite3 --version
+  # host description
+  uname -a
+  ,#+END_SRC
 
   #+RESULTS:
   : Python 3.4.3
-
-
-  and SQLite3
-  #+BEGIN_SRC sh :exports both
-  sqlite3 --version
-  #+END_SRC
-
-  #+RESULTS:
   : 3.8.2 2013-12-06 14:53:30 27392118af4c38c5203a04b8013e1afdb1cebd0d
-
-
-  on Ubuntu host:
-  #+BEGIN_SRC sh :exports both
-  uname -a
+  : Linux antony-ThinkPad 3.13.0-93-generic #140-Ubuntu SMP Mon Jul 18 21:20:08 UTC 2016 i686 i686 i686 GNU/Linux
   #+END_SRC
 
-  #+RESULTS:
-  : Linux antony-ThinkPad 3.13.0-93-generic #140-Ubuntu SMP Mon Jul 18 21:20:08 UTC 2016 i686 i686 i686 GNU/Linux
+  #+BEGIN_QUOTE
+  *Tip* 
+  Copy the code snippet above in your own org file, allocate point
+  inside this code and type C-c C-c to evaluate it on your host.
+  #+END_QUOTE
 
 * Documentation
-
 ** Python stdlib library
    Detailed interaction [[https://docs.python.org/3/library/sqlite3.html][SQLite3 and Python]]
 
@@ -51,10 +46,11 @@ tags: [TDD, samples]
 
 * Prerequisites
 ** Manual testing
-   SQLite3 has extremeley powerful innate shell and it's might be
-   useful to use it in many cases. Just open your terminal tab and type
+   SQLite3 is equipped with extremeley powerful innate shell and it's
+   might be useful to use it in many cases. Just open your terminal
+   tab and type
    #+BEGIN_EXAMPLE
-   john@john-Thinkpad:~/sqlite3
+   john@john-Thinkpad:~$ sqlite3
    SQLite version 3.8.2 2013-12-06 14:53:30
    Enter ".help" for instructions
    Enter SQL statements terminated with a ";"
@@ -126,72 +122,87 @@ sqlite>
    We take an attempt to include and intersect emacs org-mode
    documents, SQLite3 tables and Python flexibility.
 
-
-   #+BEGIN_SRC python :results output :session sqlite3 :exports both
+   #+BEGIN_SRC org
+   #+BEGIN_SRC python :results output :session stdlib :exports both
    print('Hi')
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : Hi
+   #+END_SRC
 
+   #+BEGIN_QUOTE
+   *Tip*  It's easy to evaluate code snippets just copy it out from
+   browser page and paste it into your org-file. After that it would
+   possible to evaluate the snippet when you allocate point on it and
+   type =C-c C-c= The results should appear below the snippet.
+   #+END_QUOTE
    The latter output proves that Python was activated in Babel
    already. In case when you're got another result - don't worry, we
-   fix this issue in very next chapter.
+   will fix this issue in a very next chapter.
 
 ** Preparing Emacs
 *** Language support
 
     Now, when it is clear that SQLite3 and Python3 are installed
-    properly and accessible in terminal it's time to pull it inside
-    emacs org file. First of all you need ensure in supported languages
-    inside org-mode.
+    properly on our host and accessible in terminal it's time to pull
+    it inside emacs org file. First of all you need ensure in
+    supported languages inside org-mode.
 
+    #+BEGIN_SRC org
     #+BEGIN_SRC elisp :results output :exports both
     (print org-babel-load-languages)
-    #+END_SRC
+    ,#+END_SRC
 
     #+RESULTS:
     : 
-    : ((python . t) (emacs-lisp . t) (shell . t) (js . t) (ditaa . t) (plantuml . t))
+    : ((python . t) (emacs-lisp . t) (shell . t))    
+    #+END_SRC
 
 
     Obviously that:
-    - in out case SQLite3 not supported;
-    - Python was activated and ready to serve inside org-mode files.
+    - in our case SQLite3 not supported;
+    - Python, elisp and shell was activated and ready to serve inside
+      org-mode files.
 
     Lets activate all required languages support by evaluation this
     elisp code snippet:
 
+    #+BEGIN_SRC org
     #+BEGIN_SRC elisp
     (org-babel-do-load-languages
     'org-babel-load-languages
     '((python . t)
     (emacs-lisp . t)
     (shell . t)
-    (js . t)
-    (ditaa . t)
-    (plantuml . t)
     (sqlite . t)
     ))
-    #+END_SRC
+    ,#+END_SRC
    
     #+RESULTS:
-    : ((python . t) (emacs-lisp . t) (shell . t) (js . t) (ditaa . t) (plantuml . t) (sqlite . t))
+    : ((python . t) (emacs-lisp . t) (shell . t) (sqlite . t))    
+    #+END_SRC
 
 *** Integrity inside Emacs
     
     Ensure yourself, evaluate this, please:
 
+    #+BEGIN_SRC org
+
     #+BEGIN_SRC elisp :results output :exports both
     (print org-babel-load-languages)
-    #+END_SRC
+    ,#+END_SRC
 
     #+RESULTS:
     : 
-    : ((python . t) (emacs-lisp . t) (shell . t) (js . t) (ditaa . t) (plantuml . t) (sqlite . t))
+    : ((python . t) (emacs-lisp . t) (shell . t) (sqlite . t))    
+    #+END_SRC
 
-    As well-described on [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-sqlite.html][this page]]:
-   
+    Now it's clear that all required languages supported inside
+    org-mode. Lets test how SQLite3 works. As well-described on
+    [[http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-sqlite.html][this page]]:
+
+    #+BEGIN_SRC org
     #+name: sqlite-populate-test
     #+header: :results silent
     #+header: :dir ./
@@ -200,7 +211,7 @@ sqlite>
     drop table if exists greeting;
     create table greeting(one varchar(10), two varchar(10));
     insert into greeting values('Hello', 'world!');
-    #+end_src
+    ,#+end_src
 
     #+name: sqlite-hello
     #+header: :list
@@ -210,164 +221,199 @@ sqlite>
     #+header: :db test-sqlite.db
     #+begin_src sqlite
     select * from greeting;
-    #+end_src
+    ,#+end_src
 
     #+RESULTS: sqlite-hello
     Hello world!
 
     #+BEGIN_SRC sh :exports both
     ls | grep .db
-    #+END_SRC
+    ,#+END_SRC
 
     #+RESULTS:
     : test-sqlite.db
-
-    SQLite3 DB file was successfully created, initial data store in it.
-
-    #+BEGIN_SRC sqlite :echo on :db test-sqlite.db :results output
-    .databases
     #+END_SRC
-
-    #+RESULTS:
-    : .databases
-    : seq  name             file                                                      
-    : ---  ---------------  ----------------------------------------------------------
-    : 0    main             /usr/local/share/DVCS/lib/jekyll/test-sqlite.db           
+    SQLite3 DB file was successfully created, initial data store in it.
 
 * Emacs + Python + SQLite3
 ** Test existing DB
 
-   By means studying [[https://docs.python.org/3/library/sqlite3.html][this manual]]
-   #+BEGIN_SRC python :results output :session stdlib
-   import sqlite3
-   conn = sqlite3.connect('test-sqlite.db') # created in previous section
-   c = conn.cursor()
-   c.execute('SELECT * FROM greeting')
-   print(c.fetchone())
-   conn.close()
-   #+END_SRC
+*** Python connect and select from DB
 
-   #+RESULTS:
-   : 
-   : >>> >>> <sqlite3.Cursor object at 0xb718c5a0>
-   : ('Hello', 'world!')
+    By means studying [[https://docs.python.org/3/library/sqlite3.html][this manual]]
 
-   It proves read access from python. Lets up-to-date the existing table:
+    #+BEGIN_SRC org
+    #+BEGIN_SRC python :results output :session stdlib
+    import sqlite3
+    conn = sqlite3.connect('test-sqlite.db') # created in previous section
+    c = conn.cursor()
+    c.execute('SELECT * FROM greeting')
+    print(c.fetchone())
+    conn.close()
+    ,#+END_SRC
 
-   #+BEGIN_SRC sqlite :echo on :db test-sqlite.db :results output
-   .tables
-   .schema greeting
-   #+END_SRC
+    #+RESULTS:
+    : 
+    : >>> >>> <sqlite3.Cursor object at 0xb718c5a0>
+    : ('Hello', 'world!')
+   
+    #+END_SRC
 
-   #+RESULTS:
-   : .tables
-   : greeting
-   : .schema greeting
-   : CREATE TABLE greeting(one varchar(10), two varchar(10));
+    It proves the read access from python. Lets up-to-date the existing
+    table. As a start point we should know the schema:
 
-   It is its schema. Try to fulfill it by data out from org-table:
+    #+BEGIN_QUOTE
+    *Tip*  You need to close connection when you finish all
+     interactions with DB in Python. Thus =conn.close()= is the last
+     string in our snippet.
+    #+END_QUOTE
 
-   #+NAME: tableexample
-    | one           | two    |
-    |---------------+--------|
-    | Hi            | Tony!  |
-    | Hello         | guys!  |
-    | Good morning  | Vikky! |
-    | How are you   | doing? |
-    | Suppose it    | clear? |
+    ------
 
+    #+BEGIN_QUOTE
+    *Tip*  Python supports /sessions/ in org-mode. In many cases
+     it might be reasonable to /share sqlite3 connection/ among the
+     snippets in the same session. In our case the session name is =stdlib=.
+    #+END_QUOTE
 
-   #+BEGIN_SRC sqlite :db test-sqlite.db :results output :colnames yes :var orgtable=tableexample
+*** SQLite3 insertion test
 
-   drop table if exists greeting;
-   .mode csv
-   .import $orgtable greeting
-   select * from greeting;
-   #+END_SRC
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :echo on :db test-sqlite.db :results output
+    .tables
+    .schema greeting
+    ,#+END_SRC
 
-   #+RESULTS:
-   : Hi,Tony!
-   : Hello,guys!
-   : "Good morning",Vikky!
-   : "How are you",doing?
-   : "Suppose it",clear?
+    #+RESULTS:
+    : .tables
+    : greeting
+    : .schema greeting
+    : CREATE TABLE greeting(one varchar(10), two varchar(10));   
+    #+END_SRC
+
+    It is its schema. Try to fulfill it by data from org-table:
+
+    #+BEGIN_EXAMPLE
+    #+NAME: tableexample
+     | one           | two    |
+     |---------------+--------|
+     | Hi            | Tony!  |
+     | Hello         | guys!  |
+     | Good morning  | Vikky! |
+     | How are you   | doing? |
+     | Suppose it    | clear? |   
+    #+END_EXAMPLE
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :db test-sqlite.db :results output :colnames yes :var orgtable=tableexample
+
+    drop table if exists greeting;
+    .mode csv
+    .import $orgtable greeting
+    select * from greeting;
+    ,#+END_SRC
+
+    #+RESULTS:
+    : Hi,Tony!
+    : Hello,guys!
+    : "Good morning",Vikky!
+    : "How are you",doing?
+    : "Suppose it",clear?
+    #+END_SRC
+
 ** Combine approach
 
    Right now we have one table ~greeting~ with 4 rows there:
+
+   #+BEGIN_SRC org
    #+BEGIN_SRC sqlite :echo on :db test-sqlite.db :results output
    select * from greeting;
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : select * from greeting;
    : Hello,guys!
    : "Good morning",Vikky!
    : "How are you",doing?
-   : "Suppose it",clear?
+   : "Suppose it",clear?   
+   #+END_SRC
 
+   Try to do a similar operation in Python:
+   
    #+BEGIN_SRC python :results output :session stdlib :exports both
+   import sqlite3
    conn = sqlite3.connect('test-sqlite.db') # created in the section above
    c = conn.cursor()
    c.execute('SELECT * FROM greeting')
-   print(c.fetchall())
-   conn.close()
+   c.fetchall()
    #+END_SRC
 
    #+RESULTS:
    : 
-   : >>> <sqlite3.Cursor object at 0xb726c0e0>
+   : >>> >>> <sqlite3.Cursor object at 0xb720cf20>
    : [('Hello', 'guys!'), ('Good morning', 'Vikky!'), ('How are you', 'doing?'), ('Suppose it', 'clear?')]
 
-   As you could noticed it's necessary to open and close connection
-   after each one operation. In a flip side you have Python session
-   which share variables inside. The code below built on the
-   connection from the next snippet and in =stdlib= Python session in
-   Babel environment:
+   #+BEGIN_QUOTE
+   *Tip*  As you might noticed the snippet above leave a connection
+    open. Hence it might be convenient to use it (and =cursor=
+    also) in the next code evaluation in =stdlib= Python session.
+   #+END_QUOTE
 
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results output :session stdlib :exports both
-   conn = sqlite3.connect('test-sqlite.db') # created in the section above
-   c = conn.cursor()
    c.execute('SELECT count(*) FROM greeting')
-   c.fetchone()
-   #+END_SRC
+   print("Our database have %i rows now" % c.fetchone()[0])
+   ,#+END_SRC
 
    #+RESULTS:
-   : 
-   : >>> <sqlite3.Cursor object at 0xb726c0e0>
-   : (4,)
+   : <sqlite3.Cursor object at 0xb71c10e0>
+   : Our database have 4 rows now
 
    #+BEGIN_SRC python :results output :session stdlib :exports both
    c.execute('select * from greeting limit 2')
    c.fetchall()
    type(c.fetchall())
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : <sqlite3.Cursor object at 0xb726c0e0>
    : [('Hello', 'guys!'), ('Good morning', 'Vikky!')]
-   : <class 'list'>
+   : <class 'list'>   
+   #+END_SRC
 
-   The output from SQLite3 is a list.
+   =fetchall= method compose a list as an output type.
 
    Lets insert some values into our table =greeting= in pure Python:
+
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results output :session stdlib :exports both pp
    c.execute("INSERT INTO greeting VALUES ('Insertion', 'test')")
    conn.commit()
    c.execute('select * from greeting')
    c.fetchall()
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : <sqlite3.Cursor object at 0xb726c0e0>
    : >>> <sqlite3.Cursor object at 0xb726c0e0>
-   : [('Hello', 'guys!'), ('Good morning', 'Vikky!'), ('How are you', 'doing?'), ('Suppose it', 'clear?'), ('Insertion', 'test'), ('Insertion', 'test')]
+   : [('Hello', 'guys!'), ('Good morning', 'Vikky!'), ('How are you', 'doing?'), ('Suppose it', 'clear?'), ('Insertion', 'test'), ('Insertion', 'test')]   
+   #+END_SRC
 
-   ------
    Now it's time to close our connection to SQLite3 db and move
    further for more complex examples.
+
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results none :session stdlib :exports both
    conn.close()
+   ,#+END_SRC
    #+END_SRC
+
+   #+BEGIN_QUOTE
+   *Tip*  Org-mode opened your =stdlib= session in a separate buffer.
+    Its name is =*stdlib*= and feel free to interact with all session
+    variables there directly and a straightforward manner.
+   #+END_QUOTE
+
 * Full-fledged example
 ** Goal definition
    Now, when you're whetted your appetite, try to explain what results you
