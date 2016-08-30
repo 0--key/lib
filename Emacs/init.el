@@ -14,7 +14,7 @@
 (elpy-enable)
 
 (require 'voca-builder)
-  (setq voca-builder/voca-file "/usr/local/share/DVCS/lib/eng.org")
+  (setq voca-builder/voca-file "/usr/local/share/DVCS/lib/org/eng.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
   (setq voca-builder/current-tag "Quora")
 ;;
@@ -112,10 +112,10 @@
  (setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
-  ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/idioms.org")
+  ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/org/idioms.org")
    "* %i\n %U")
   ;;
-  ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/thoughts.org")
+  ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/org/thoughts.org")
    "* %?%c\n%i\n %l")
   ;;
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
