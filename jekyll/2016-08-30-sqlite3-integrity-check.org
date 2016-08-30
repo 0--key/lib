@@ -1,0 +1,112 @@
+#+BEGIN_HTML
+---
+layout: page
+title: SQLite3
+tagline: " Keep data purity"
+permalink: /sqlite3/data-integrity-testing.html
+categories: [org-mode, Python, SQLite3]
+tags: [TDD, samples, data integrity]
+---
+#+END_HTML
+#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+#+TOC: headlines 2
+
+* Definition
+  Real data gathered in real world could be corrupted in its source.
+  It's souns a bit enigmatic but it is. Sometimes somewhere something
+  goes on wrong and destroy data correctness. For example could you
+  imagine what happen if...
+
+  - Network connection dramatically failed down;
+  - Data source would generate a fake data;
+  - Data source generates a noise data in less than 3% occasions;
+  - etc.
+
+  Exactly to prevent data corruption you're restricted to check its
+  integrity on regular base. Ideally it might been implemented
+  immediately after each insertion and update operation but it a
+  tedious task even for computational machines. This approach 99.99%
+  average data quality but demands a lot of processing time to
+  implement. On a flip side of coin exactly this required for NASA
+  calculations at effective orbit for Juno or on something much
+  precise.
+
+  The much simpler approach might been implemented as DB integrity
+  check every minute, or day, or week. Combined with easy-backup
+  strategy it is much even, less limited by CPU usage and could solve
+  90% of arbitrary cases around data likely corruption or lost. 
+  
+* Documentation
+
+  Data itself has several innate properties, such as value and amount.
+  If you pay attention on the =table= data the first one which you
+  might notice is [[https://en.wikipedia.org/wiki/Database_normalization][database normalization]] term which yarns data itself,
+  relations, tables and databases.
+
+  But, it is completely ideal and contrast case, the untouchable goal,
+  which you should achieve or at least try to follow by it.
+
+* Prerequisites
+
+  - SQLite3 database;
+  - Emacs with particular properties.
+
+* Check strategy
+
+  Just unique fields. Uniqueness is matter.
+  #+BEGIN_SRC sh :exports both
+  ls /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/
+  #+END_SRC
+
+  #+RESULTS:
+  | activesport    |
+  | log1.txt       |
+  | log.txt        |
+  | pseudo-log.txt |
+  | scrapy.cfg     |
+  | scrapy_data.db |
+
+
+  Lets connect to DB:
+  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+  .schema
+  #+END_SRC
+
+  #+RESULTS:
+  : CREATE TABLE activesport(id INTEGER PRIMARY KEY, title TEXT);
+
+  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+  select count(*) from activesport;
+  select count(title) from activesport;
+  #+END_SRC
+
+  #+RESULTS:
+  : 981
+  : 981
+
+  #+BEGIN_QUOTE
+  All titles are unique.
+  #+END_QUOTE
+
+  Thus, ensure yourself:
+  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+  select title from activesport where id=1;
+  insert into activesport values(982, "Wishbone Bike 3 in 1 Recycled Edition Balance Bike");
+  select count(*) from activesport;
+  select count(title) from activesport;
+  delete from activesport where id=982;
+  select count(*) from activesport;
+  select count(title) from activesport;
+  #+END_SRC
+
+  #+RESULTS:
+  : "Wishbone Bike 3 in 1 Recycled Edition Balance Bike"
+  : 982
+  : 982
+  : 981
+  : 981
+
+* Results analyse
+
+* Conclusion
