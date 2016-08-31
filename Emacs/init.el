@@ -70,6 +70,7 @@
    (js . t)
    (ditaa . t)
    (plantuml . t)
+   (sqlite . t)
    ))
 ;;
 (setq org-plantuml-jar-path
