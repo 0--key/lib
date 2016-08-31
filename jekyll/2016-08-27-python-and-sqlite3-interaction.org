@@ -1,11 +1,11 @@
 #+BEGIN_HTML
 ---
-layout: page
+layout: post
 title: SQLite3
 tagline: " Small, fast, reliable!"
 permalink: /python/stdlib/sqlite3/interaction.html
 categories: [org-mode, Python, SQLite3]
-tags: [TDD, samples]
+tags: [tutorial, samples]
 ---
 #+END_HTML
 #+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
@@ -121,6 +121,11 @@ sqlite>
    mode, but our goal is to reach much literate level of interaction.
    We take an attempt to include and intersect emacs org-mode
    documents, SQLite3 tables and Python flexibility.
+-----
+#+BEGIN_QUOTE
+*Tip* To evaluate code in the snippet below you need to activate
+ [[/emacs/how-to-evaluate-code-inside-emacs.html][Python support]] in Babel.
+#+END_QUOTE
 
    #+BEGIN_SRC org
    #+BEGIN_SRC python :results output :session stdlib :exports both
@@ -237,7 +242,6 @@ sqlite>
 
 * Emacs + Python + SQLite3
 ** Test existing DB
-
 *** Python connect and select from DB
 
     By means studying [[https://docs.python.org/3/library/sqlite3.html][this manual]]

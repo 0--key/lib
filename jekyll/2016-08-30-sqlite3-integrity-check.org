@@ -1,6 +1,6 @@
 #+BEGIN_HTML
 ---
-layout: page
+layout: post
 title: SQLite3
 tagline: " Keep data purity"
 permalink: /sqlite3/data-integrity-testing.html
@@ -14,8 +14,8 @@ tags: [TDD, samples, data integrity]
 
 * Definition
   Particular data gathered in the real world could be spoiled.
-  It's sounds a bit enigmatic but it occurs mostly. Sometimes somewhere something
-  goes on the wrong way and destroy data accuracy. For example could you
+  It sounds a bit perplexing but it rarely occurs. Sometimes somewhere something
+  goes on the wrong path and disrupts data accuracy. For example could you
   imagine what happen if...
 
   - Network connection dramatically failed down;
@@ -157,7 +157,8 @@ tags: [TDD, samples, data integrity]
 ** Python remedy:
 
    Extract all titles, count its number, convert into =set= and count its length.
-   
+
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results output :session stdlib :exports both
      import sqlite3
 
@@ -166,26 +167,24 @@ tags: [TDD, samples, data integrity]
      c.execute('SELECT COUNT(*) FROM activesport')
      num_rows = c.fetchone()[0]
      c.execute('SELECT title FROM activesport')
-     #print(c.fetchall())
      title_set = set(t[0] for t in c.fetchall())
-     # print(num_rows)
-     # print(title_set)
      print("There are %d titles and %d are unique" % (num_rows, len(title_set)))
      conn.close()
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : 
    : >>> >>> >>> <sqlite3.Cursor object at 0xb703d220>
    : >>> <sqlite3.Cursor object at 0xb703d220>
-   : ... >>> ... ... There are 981 titles and 981 are unique
+   : ... >>> ... ... There are 981 titles and 981 are unique   
+   #+END_SRC
 
 ** Proof
 
    - Insert the existing title and check the uniqueness;
    - Delete the test row and recover DB into its initial state.
 
-
+     #+BEGIN_SRC org
    #+BEGIN_SRC python :results output pp :session stdlib :exports both
      import sqlite3
 
@@ -210,8 +209,7 @@ tags: [TDD, samples, data integrity]
      c.execute('DELETE FROM activesport WHERE id>?', (num_rows,))
      conn.commit()
      conn.close()
-
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    #+begin_example
@@ -225,8 +223,14 @@ tags: [TDD, samples, data integrity]
    ... >>> <sqlite3.Cursor object at 0xb71f9120>
    >>> There are 982 titles and 981 are unique
    ... <sqlite3.Cursor object at 0xb71f9120>
-#+end_example
+   #+end_example
 
+     #+END_SRC
+
+   #+BEGIN_QUOTE
+   There are 982 titles and 981 are unique
+   #+END_QUOTE
+   
 ** Code refactoring
 
    Now, when we already unveiled all subtleties around uniqueness it
@@ -234,6 +238,8 @@ tags: [TDD, samples, data integrity]
    synthesize a much nicer code.
 
    Create a function:
+
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results output :session stdlib :exports both
      # suppose that sqlite3 was already imported in the current session
      def uniq_field_test(conn, tbl, field):
@@ -249,14 +255,17 @@ tags: [TDD, samples, data integrity]
      conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
      print(uniq_field_test(conn, 'activesport', 'title'))
      conn.close()
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    : 
    : ... ... ... ... ... ... ... ... ... >>> >>> There are 981 titles and 981 are unique
+   
+   #+END_SRC
 
    Now, when the function =uniq_field_test= allocates in the =org session=:
 
+   #+BEGIN_SRC org
    #+BEGIN_SRC python :results output pp :session stdlib :exports both
      conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
      c = conn.cursor()
@@ -283,7 +292,7 @@ tags: [TDD, samples, data integrity]
      conn.commit()
      print(uniq_field_test(conn, tbl, field))
      conn.close()
-   #+END_SRC
+   ,#+END_SRC
 
    #+RESULTS:
    #+begin_example
@@ -297,14 +306,17 @@ tags: [TDD, samples, data integrity]
    ... ... >>> There are 982 titles and 981 are unique
    >>> <sqlite3.Cursor object at 0xb70051e0>
    >>> There are 981 titles and 981 are unique
-#+end_example
+#+end_example   
+   #+END_SRC
 
 * Results analyze
 
-  Code samples above confirms that it is possible to insert duplicate
+  Code samples above confirm that it is possible to insert duplicate
   data in our table.
 
 * Conclusion
 
-  The database structure allows to user corrupt the data. There are
-  several innate RDMBS methods to prevent this unwanted distortion.
+  This particular database structure allows to user deform data
+  integrity. There are several innate RDMBS methods to prevent this
+  unwanted distortion. And I'll take an attempt to discover them in
+  the following articles.
