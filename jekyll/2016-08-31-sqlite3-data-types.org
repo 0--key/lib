@@ -1,0 +1,167 @@
+#+BEGIN_HTML
+---
+layout: post
+title: SQLite3
+tagline: " Dynamic typing and Python lists"
+permalink: /sqlite3/data_types.html
+categories: [org-mode, Python, SQLite3, lists]
+tags: [tutorial, samples, data types]
+---
+#+END_HTML
+#+OPTIONS: tags:nil num:nil \n:nil @:t ::t |:t ^:{} _:{} *:t
+
+#+TOC: headlines 2
+* Definition
+  Data types in any RDBMS serve for data integrity protection. Its
+  plane definition in many cases might prevent data corruption by
+  rejecting erroneous data writing into DB cells.
+
+  SQLite3 in addition allows you to store Python lists in its tables.
+  It is not a bug but a feature.
+
+* Documentation
+  The main [[https://www.sqlite.org/datatype3.html][article]] about data types in SQLite3.
+
+* Fixtures
+** Dynamic typing explanation
+   
+   #+NAME: simple_example
+   | First name | Last name | Age |
+   |------------+-----------+-----|
+   | John       | Doe       |  33 |
+   | Ian        | Lord      |  69 |
+   | Steven     | Fry       | 66  |
+
+   #+BEGIN_SRC sqlite :db data_types.db :results column :var orgtable=simple_example :colnames yes :exports both
+   CREATE TABLE IF NOT EXISTS customers(first_name TEXT, last_name TEXT, age INT);
+   .mode csv
+   .import $orgtable customers
+   SELECT * FROM customers;
+   -- DROP TABLE customers; -- sometimes it is necessary
+   #+END_SRC
+
+   #+RESULTS:
+   | first_name | last_name | age |
+   |------------+-----------+-----|
+   | John       | Doe       |  33 |
+   | Ian        | Lord      |  69 |
+   | Steven     | Fry       |  66 |
+
+   Perfect! Now take an attempt to insert the row with wrong data type.
+
+   #+BEGIN_SRC sqlite :db data_types.db :results column :var orgtable=simple_example :colnames yes :exports both
+   INSERT INTO customers VALUES('Phil', 'Collins', 'ABBA');
+   SELECT * FROM customers;
+   #+END_SRC
+
+   #+RESULTS:
+   | first_name | last_name |  age |
+   |------------+-----------+------|
+   | John       | Doe       |   33 |
+   | Ian        | Lord      |   69 |
+   | Steven     | Fry       |   66 |
+   | Phil       | Collins   | ABBA |
+
+   #+BEGIN_SRC sqlite :db data_types.db :results column :var orgtable=simple_example :colnames yes :exports both
+   SELECT typeof(age) FROM customers;
+   #+END_SRC
+
+   #+RESULTS:
+   | typeof(age) |
+   |-------------|
+   | integer     |
+   | integer     |
+   | integer     |
+   | text        |
+
+   #+BEGIN_QUOTE
+   It is dynamic typing.
+   In SQLite, the datatype of a value is associated with the value itself, not with its container.
+   #+END_QUOTE
+
+** Python lists
+   #+BEGIN_SRC python :results output :session stdlib :exports both
+     import sqlite3
+
+     conn = sqlite3.connect('data_types.db')
+     c = conn.cursor()
+     c.execute('SELECT COUNT(*) FROM customers')
+     num_rows = c.fetchone()[0]
+     print(num_rows)
+     # conn.close()
+   #+END_SRC
+
+   #+RESULTS:
+   : 
+   : >>> >>> >>> <sqlite3.Cursor object at 0xb71195e0>
+   : >>> 4
+
+   #+BEGIN_SRC python :results output :session stdlib :exports both
+   sample_list = ['This', 'is', 'a', 'sample', 'list']
+   c.execute('INSERT INTO customers VALUES(?, ?, ?)', ('Captain', 'Ahab', repr(sample_list)))
+   conn.commit()
+   c.execute('SELECT * FROM customers')
+   result = c.fetchall()
+   print(result)
+   #+END_SRC
+
+   #+RESULTS:
+   : 
+   : <sqlite3.Cursor object at 0xb71195e0>
+   : >>> <sqlite3.Cursor object at 0xb71195e0>
+   : >>> [('John', 'Doe', 33), ('Ian', 'Lord', 69), ('Steven', 'Fry', 66), ('Phil', 'Collins', 'ABBA'), ('Captain', 'Ahab', "['This', 'is', 'a', 'sample', 'list']")]
+
+   #+BEGIN_SRC sqlite :db data_types.db :results column :var orgtable=simple_example :colnames yes :exports both
+   SELECT * FROM customers;
+   #+END_SRC
+
+   #+RESULTS:
+   | first_name | last_name |                                   age |
+   |------------+-----------+---------------------------------------|
+   | John       | Doe       |                                    33 |
+   | Ian        | Lord      |                                    69 |
+   | Steven     | Fry       |                                    66 |
+   | Phil       | Collins   |                                  ABBA |
+   | Captain    | Ahab      | ['This', 'is', 'a', 'sample', 'list'] |
+
+   #+BEGIN_SRC sqlite :db data_types.db :results column :var orgtable=simple_example :colnames yes :exports both
+   SELECT typeof(age) FROM customers;   
+   #+END_SRC
+
+   #+RESULTS:
+   | typeof(age) |
+   |-------------|
+   | integer     |
+   | integer     |
+   | integer     |
+   | text        |
+   | text        |
+
+   Seems like a plain text representation of Python list. Try to
+   retrieve the sample list out form SQLite3:
+   #+BEGIN_SRC python :results output :session stdlib :exports both
+   c.execute('SELECT age FROM customers WHERE first_name=?', ('Captain',))
+   sample_list = eval(c.fetchone()[0])
+   type(sample_list)
+   print(sample_list)
+   conn.close()
+   #+END_SRC
+
+   #+RESULTS:
+   : <sqlite3.Cursor object at 0xb71195e0>
+   : >>> <class 'list'>
+   : ['This', 'is', 'a', 'sample', 'list']
+
+* Results
+
+  #+BEGIN_QUOTE
+  Be careful, though that you are certain no user-generated data can
+  get into the column, or the eval() is a security risk.
+  #+END_QUOTE
+
+* Conclusion
+  - Dynamic typing requres to check your data apard and before any table
+    INSERT/UPDATE operation;
+  - Yes, it is possible to store Python lists in SQLite3 cells;
+  - List locates in a table cell as its representation, thus any SQL
+    operations under its content are unavailable.
