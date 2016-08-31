@@ -243,20 +243,20 @@ sqlite>
     By means studying [[https://docs.python.org/3/library/sqlite3.html][this manual]]
 
     #+BEGIN_SRC org
-    #+BEGIN_SRC python :results output :session stdlib
-    import sqlite3
-    conn = sqlite3.connect('test-sqlite.db') # created in previous section
-    c = conn.cursor()
-    c.execute('SELECT * FROM greeting')
-    print(c.fetchone())
-    conn.close()
-    ,#+END_SRC
+      ,#+BEGIN_SRC python :results output :session stdlib
+      import sqlite3
+      conn = sqlite3.connect('test-sqlite.db') # created in previous section
+      c = conn.cursor()
+      c.execute('SELECT * FROM greeting')
+      print(c.fetchone())
+      conn.close()
+      ,#+END_SRC
 
-    #+RESULTS:
-    : 
-    : >>> >>> <sqlite3.Cursor object at 0xb718c5a0>
-    : ('Hello', 'world!')
-   
+      ,#+RESULTS:
+      : 
+      : >>> >>> <sqlite3.Cursor object at 0xb718c5a0>
+      : ('Hello', 'world!')
+
     #+END_SRC
 
     It proves the read access from python. Lets up-to-date the existing
