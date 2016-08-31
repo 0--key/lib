@@ -13,9 +13,9 @@ tags: [TDD, samples, data integrity]
 #+TOC: headlines 2
 
 * Definition
-  Real data gathered in real world could be corrupted in its source.
-  It's souns a bit enigmatic but it is. Sometimes somewhere something
-  goes on wrong and destroy data correctness. For example could you
+  Particular data gathered in the real world could be spoiled.
+  It's sounds a bit enigmatic but it occurs mostly. Sometimes somewhere something
+  goes on the wrong way and destroy data accuracy. For example could you
   imagine what happen if...
 
   - Network connection dramatically failed down;
@@ -24,89 +24,287 @@ tags: [TDD, samples, data integrity]
   - etc.
 
   Exactly to prevent data corruption you're restricted to check its
-  integrity on regular base. Ideally it might been implemented
-  immediately after each insertion and update operation but it a
-  tedious task even for computational machines. This approach 99.99%
-  average data quality but demands a lot of processing time to
-  implement. On a flip side of coin exactly this required for NASA
-  calculations at effective orbit for Juno or on something much
-  precise.
+  integrity on a regular base. Ideally it might been implemented
+  immediately after each insertion/update operation but it a tedious
+  task even for computational machines. This approach performs 99.99%
+  average data quality but demands a lot of processing time. On a flip
+  side of coin exactly this required for NASA calculations of
+  effective orbit for Juno or even for something much precise
+  operations.
 
   The much simpler approach might been implemented as DB integrity
   check every minute, or day, or week. Combined with easy-backup
-  strategy it is much even, less limited by CPU usage and could solve
-  90% of arbitrary cases around data likely corruption or lost. 
+  strategy it is much plain and less bounded by CPU load. 
   
 * Documentation
 
   Data itself has several innate properties, such as value and amount.
-  If you pay attention on the =table= data the first one which you
-  might notice is [[https://en.wikipedia.org/wiki/Database_normalization][database normalization]] term which yarns data itself,
+  If you pay attention on the =table= data representation the first one which you
+  might notice is [[https://en.wikipedia.org/wiki/Database_normalization][database normalization]] term which intertwines data itself,
   relations, tables and databases.
 
-  But, it is completely ideal and contrast case, the untouchable goal,
-  which you should achieve or at least try to follow by it.
+  But, it is a completely ideal and perfect case, an untouchable target,
+  which you should strive to achieve or at least to take an attempt to
+  follow to keep your data in a dense state.
 
 * Prerequisites
 
   - SQLite3 database;
-  - Emacs with particular properties.
+  - Emacs with the particular properties.
 
 * Check strategy
+** Overview
+*** DB location
+    #+BEGIN_QUOTE
+    Just unique fields only. Uniqueness is matter.
+    #+END_QUOTE
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sh :exports both
+    ls /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/
+    ,#+END_SRC
 
-  Just unique fields. Uniqueness is matter.
-  #+BEGIN_SRC sh :exports both
-  ls /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/
-  #+END_SRC
+    #+RESULTS:
+    | activesport    |
+    | log1.txt       |
+    | log.txt        |
+    | pseudo-log.txt |
+    | scrapy.cfg     |
+    | scrapy_data.db |
+    
+    #+END_SRC
+*** DB schema
+    Lets connect to DB:
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+    .schema
+    ,#+END_SRC
 
-  #+RESULTS:
-  | activesport    |
-  | log1.txt       |
-  | log.txt        |
-  | pseudo-log.txt |
-  | scrapy.cfg     |
-  | scrapy_data.db |
+    #+RESULTS:
+    : CREATE TABLE activesport(id INTEGER PRIMARY KEY, title TEXT);    
+    #+END_SRC
+*** DB content
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :exports both :colnames yes
+    select * from activesport limit 10;
+    ,#+END_SRC
+
+    #+RESULTS:
+    | id | title                                                       |
+    |----+-------------------------------------------------------------|
+    |  1 | Wishbone Bike 3 in 1 Recycled Edition Balance Bike          |
+    |  2 | Wishbone Bike 2 in 1 Recycled Edition Balance Bike          |
+    |  3 | Nicko Flower Pink Wooden Balance Bike - Running Bike        |
+    |  4 | Giant HalfWay City 2015                                     |
+    |  5 | Wishbone Bike 3 in 1 - Original Balance Bike                |
+    |  6 | CBR Hopper Training / Balance Bike 2015                     |
+    |  7 | Giant Prime E+ 2 2015                                       |
+    |  8 | Giant TCR Advanced 1 2015                                   |
+    |  9 | Raleigh Red or Dead Starstruck Women's Classic Shopper Bike |
+    | 10 | Raleigh Stowaway 7 Folding Bike                             |
+    
+    #+END_SRC
+
+    The [[https://sqlite.org/pragma.html#pragma_integrity_check][main tool]] in SQLite3 toolbox for check data integrity in whole DB:
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+    pragma integrity_check;
+    ,#+END_SRC
+
+    #+RESULTS:
+    : ok
+    
+    #+END_SRC
+
+*** Count the number of rows in table:
+
+    #+BEGIN_SRC org
+    #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+    select count(*) from activesport;
+    select count(title) from activesport;
+    ,#+END_SRC
+
+    #+RESULTS:
+    : 981
+    : 981    
+    #+END_SRC
+
+** Are the titles unique?
+
+   Thus, ensure yourself: try to insert the existing title into our DB
+   and re-count number of rows.
+
+   #+BEGIN_SRC org
+   #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
+   select title from activesport where id=1;
+   insert into activesport values(((select count(*) from activesport) + 1), (select title from activesport where id=1));
+   -- re-count titles
+   select count(title) from activesport;
+   delete from activesport where id=(select count(*) from activesport);
+   select count(*) from activesport;
+   select count(title) from activesport;
+   ,#+END_SRC
+
+   #+RESULTS:
+   : "GT Bump 26 Jump Bike 2016"
+   : 982
+   : 981
+   : 981   
+   #+END_SRC
+
+   Seems like =select count(*)= in SQLite3 not provide [[https://www.sqlite.org/lang_aggfunc.html#count][an uniqueness check]] under particular data.
+
+** Python remedy:
+
+   Extract all titles, count its number, convert into =set= and count its length.
+   
+   #+BEGIN_SRC python :results output :session stdlib :exports both
+     import sqlite3
+
+     conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
+     c = conn.cursor()
+     c.execute('SELECT COUNT(*) FROM activesport')
+     num_rows = c.fetchone()[0]
+     c.execute('SELECT title FROM activesport')
+     #print(c.fetchall())
+     title_set = set(t[0] for t in c.fetchall())
+     # print(num_rows)
+     # print(title_set)
+     print("There are %d titles and %d are unique" % (num_rows, len(title_set)))
+     conn.close()
+   #+END_SRC
+
+   #+RESULTS:
+   : 
+   : >>> >>> >>> <sqlite3.Cursor object at 0xb703d220>
+   : >>> <sqlite3.Cursor object at 0xb703d220>
+   : ... >>> ... ... There are 981 titles and 981 are unique
+
+** Proof
+
+   - Insert the existing title and check the uniqueness;
+   - Delete the test row and recover DB into its initial state.
 
 
-  Lets connect to DB:
-  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
-  .schema
-  #+END_SRC
+   #+BEGIN_SRC python :results output pp :session stdlib :exports both
+     import sqlite3
 
-  #+RESULTS:
-  : CREATE TABLE activesport(id INTEGER PRIMARY KEY, title TEXT);
+     conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
+     c = conn.cursor()
+     c.execute('SELECT COUNT(*) FROM activesport')
+     num_rows = c.fetchone()[0]
+     c.execute('SELECT title from activesport WHERE id=1')
+     existing_title = c.fetchone()[0]
+     print(existing_title)
+     next_row = num_rows + 1
+     print(next_row)
+     c.execute('INSERT INTO activesport values (?, ?)', (next_row, existing_title))
+     conn.commit() # it is necessary after each INSERT/UPDATE operation
+     c.execute('SELECT title FROM activesport')
+     # collect all titles
+     title_set = set(t[0] for t in c.fetchall())
+     c.execute('SELECT COUNT(*) FROM activesport')
+     num_rows_new = c.fetchone()[0]
+     print("There are %d titles and %d are unique" % (num_rows_new, len(title_set)))
+     # clean-up
+     c.execute('DELETE FROM activesport WHERE id>?', (num_rows,))
+     conn.commit()
+     conn.close()
 
-  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
-  select count(*) from activesport;
-  select count(title) from activesport;
-  #+END_SRC
+   #+END_SRC
 
-  #+RESULTS:
-  : 981
-  : 981
+   #+RESULTS:
+   #+begin_example
 
-  #+BEGIN_QUOTE
-  All titles are unique.
-  #+END_QUOTE
+   >>> >>> >>> <sqlite3.Cursor object at 0xb71f9120>
+   >>> <sqlite3.Cursor object at 0xb71f9120>
+   >>> Wishbone Bike 3 in 1 Recycled Edition Balance Bike
+   >>> 982
+   <sqlite3.Cursor object at 0xb71f9120>
+   >>> <sqlite3.Cursor object at 0xb71f9120>
+   ... >>> <sqlite3.Cursor object at 0xb71f9120>
+   >>> There are 982 titles and 981 are unique
+   ... <sqlite3.Cursor object at 0xb71f9120>
+#+end_example
 
-  Thus, ensure yourself:
-  #+BEGIN_SRC sqlite :db /home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db :results output :exports both
-  select title from activesport where id=1;
-  insert into activesport values(982, "Wishbone Bike 3 in 1 Recycled Edition Balance Bike");
-  select count(*) from activesport;
-  select count(title) from activesport;
-  delete from activesport where id=982;
-  select count(*) from activesport;
-  select count(title) from activesport;
-  #+END_SRC
+** Code refactoring
 
-  #+RESULTS:
-  : "Wishbone Bike 3 in 1 Recycled Edition Balance Bike"
-  : 982
-  : 982
-  : 981
-  : 981
+   Now, when we already unveiled all subtleties around uniqueness it
+   is time to utilize the core features of org-mode =sessions= and
+   synthesize a much nicer code.
 
-* Results analyse
+   Create a function:
+   #+BEGIN_SRC python :results output :session stdlib :exports both
+     # suppose that sqlite3 was already imported in the current session
+     def uniq_field_test(conn, tbl, field):
+         c = conn.cursor()
+	 query = 'SELECT COUNT(*) FROM %s' % tbl 
+         c.execute(query)
+         num_rows = c.fetchone()[0]
+         query = 'SELECT %s FROM %s' % (field, tbl)
+         c.execute(query)
+         title_set = set(t[0] for t in c.fetchall())
+         return ("There are %d titles and %d are unique" % (num_rows, len(title_set)))
+
+     conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
+     print(uniq_field_test(conn, 'activesport', 'title'))
+     conn.close()
+   #+END_SRC
+
+   #+RESULTS:
+   : 
+   : ... ... ... ... ... ... ... ... ... >>> >>> There are 981 titles and 981 are unique
+
+   Now, when the function =uniq_field_test= allocates in the =org session=:
+
+   #+BEGIN_SRC python :results output pp :session stdlib :exports both
+     conn = sqlite3.connect('/home/vikky/Desktop/DVCS/stuff/scrapy/activesport/scrapy_data.db')
+     c = conn.cursor()
+     tbl = 'activesport'
+     field = 'title'
+     query = 'SELECT COUNT(*) FROM %s' % tbl
+     c.execute(query)
+     num_rows = c.fetchone()[0]
+     query = 'SELECT %s FROM %s WHERE id=1' % (field, tbl)
+     c.execute(query)
+     existing_value = c.fetchone()[0]
+     # fetchone() returns a tuple and we cut off the first element
+     print(existing_value)
+     print(type(existing_value))
+     next_row = num_rows+1
+     print(next_row)
+     c.execute('INSERT INTO activesport VALUES (?, ?)', (next_row, existing_value))
+     # INSERT demands table straight definition
+     # hence pre-formatted query not substitutes in the INSERT case
+     conn.commit() # writes data into table 
+     print(uniq_field_test(conn, tbl, field))
+     query = 'DELETE FROM %s WHERE id=%d' % (tbl, next_row)
+     c.execute(query)
+     conn.commit()
+     print(uniq_field_test(conn, tbl, field))
+     conn.close()
+   #+END_SRC
+
+   #+RESULTS:
+   #+begin_example
+
+   >>> >>> >>> >>> <sqlite3.Cursor object at 0xb70051e0>
+   >>> >>> <sqlite3.Cursor object at 0xb70051e0>
+   >>> ... Wishbone Bike 3 in 1 Recycled Edition Balance Bike
+   <class 'str'>
+   >>> 982
+   <sqlite3.Cursor object at 0xb70051e0>
+   ... ... >>> There are 982 titles and 981 are unique
+   >>> <sqlite3.Cursor object at 0xb70051e0>
+   >>> There are 981 titles and 981 are unique
+#+end_example
+
+* Results analyze
+
+  Code samples above confirms that it is possible to insert duplicate
+  data in our table.
 
 * Conclusion
+
+  The database structure allows to user corrupt the data. There are
+  several innate RDMBS methods to prevent this unwanted distortion.
