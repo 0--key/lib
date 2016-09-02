@@ -1797,7 +1797,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [76%]
+*** TODO Verbs [80%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -4016,7 +4016,76 @@
 
 
 
-**** TODO Double object verbs
+**** DONE Double object verbs
+     
+***** Some verbsl have *two objects* -
+      an indirect object and a direct object:
+
+      | Subject | Verb    | Indirect object | Direct object    |
+      |---------+---------+-----------------+------------------|
+      | My wife | sent    | me              | an email         |
+      | He      | brought | his mother      | some flowers     |
+      | He      | cooked  | all his friends | a delicious meal | 
+
+      These clauses have the structure:
+      ~V + N(indirect object) + N(direct object)~
+
+***** We can use a *prepositional phrase*
+      with /to/ or /for/ with an indirect object:
+
+      | Subject | Verb    | Direct Object    | Prepositional Phrase |
+      |---------+---------+------------------+----------------------|
+      | My wife | sent    | an email         | to me                |
+      | He      | brought | some flowers     | for his mother       |
+      | He      | cooked  | a delicious meal | for all his friends  |
+
+      These clauses have the structure:
+      ~V + N(direct object) + Prepositional phrase (indirect object)~
+
+***** Common verbs with /for/ and an indirect object are:
+
+      | book  | buy  | get  | cook | keep |
+      | bring | make | pour | save | find |
+
+      - He =booked= a table *for me* at the restaurant.
+      - We =made= toys *for all the children*.
+
+
+***** Common verbs with /to/ and indirect object are:
+
+      | give | lend | offer | pass | post    |
+      | read | sell | send  | show | promise |
+      | tell |      |       |      |         | 
+
+      - He =gave= his program *to the man* sitting next to him.
+      - They =sent= Christmas cards *to all their customers*.
+
+
+***** If the /indirect/ object is a /long phrase/ we normally use
+      *to* or *for*:
+
+      - He =showed= his ticket *to the policeman standing by the door*.
+      - We =kept= something to eat and drink *for all the people who arrived late*.
+
+
+***** If the /indirect object/ is a /pronoun/ we normally use
+      the N + V + N + N pattern:
+
+      - I =poured= /him/ =another drink=.
+      - Their mother =read= /them/ =another story=.
+
+
+***** Activities:
+      - He bought some flowers for his grandmother.
+      - If you need a jacket, I can lend one to you.
+      - He read the article to me and asked my opinion.
+      - Can you get some bread for me if you are going to the shop?
+      - The man passed the money to him across the counter.
+      - I'll keep the chicken in the oven for you until you get home.
+      - Would you like to pour some drinks for the guests?
+      - I sold my car to her for $700.
+      - I've promised the ring to my daughter after I'm gone.
+      - Don't tell me now. Save it for later.
 
 **** TODO Phrasal verbs
 
@@ -12002,6 +12071,7 @@
 
 
 
+** TODO Make a separate repo for blog's org-sources
 
 * TODO ToDo 
 
