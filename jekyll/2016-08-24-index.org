@@ -14,12 +14,17 @@ tags: [sotfware development, emacs, Python, learning]
 
   #+BEGIN_QUOTE
 
-  As the TDD approach became a standard option in web development it
-  is time to wrap all code you're studied already in this modern
-  envelop. It is =not just modern quirk=, it mainly used to enhance
-  your general coding skills by bundling it together with instant code
-  quality testing, simplify software development process as a whole
-  and furthermore grant you ability to go further in career.
+  As the TDD approach became a standard option in software development
+  therefore it is very time to wrap all code you're studied already in
+  this modern envelop. /It is not just a modern quirk/, it effectively
+  used to enhance your general coding skills by bundling it together
+  - initial idea clarification;
+  - acceptance criteria definition;
+  - instant, even and continuous code quality testing;
+  - source code purification;
+  - bug detection on an infant stage;
+  - simplify software development process as a whole;
+  - /grant to you/ ability to do your job ten times faster.
 
   Next would be as a *literate code unveiled TDD approach* for direct
   execution on your host. On a flip side the code might serve to you
@@ -28,9 +33,12 @@ tags: [sotfware development, emacs, Python, learning]
   skill all code samples should be run in a slick manner, hence it all
   possible to modify, improve or rearrange on your own taste.
 
-  For experienced users I might suggest to fork this project on [[https://github.com/0--key/0--key.github.io][Github]]
-  and evaluate it for your personal usage. In any case feel free to
-  contribute to it.
+  For experienced users I might suggest to curious reader to fork this
+  project on [[https://github.com/0--key/0--key.github.io][Github]] and evaluate it for your personal usage.It might
+  be interesting to you to change my variables on your on, or, in many
+  cases re-write one or another chunk of my code. On my
+  point of view it should be a huge comprehensive method to learn
+  programming. In any case feel free to contribute to it.
   #+END_QUOTE
 #+TOC: headlines 2
 
