@@ -169,7 +169,7 @@
 ;;
 (setq org-publish-project-alist
 '(("jekyll-org"
-   :base-directory "/usr/local/share/DVCS/lib/jekyll/"
+   :base-directory "/usr/local/share/DVCS/org-pub/"
    :base-extension "org"
    ;; Path to your Jekyll project.
    :publishing-directory "/usr/local/share/DVCS/0--key.io/_posts/"
@@ -183,9 +183,9 @@
    ;; Only export section between <body> </body> (body-only)
    )
   ("jekyll-org-img"
-   :base-directory "/usr/local/share/DVCS/lib/jekyll/img/"
+   :base-directory "/usr/local/share/DVCS/org-pub/img/"
    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-   :publishing-directory "/usr/local/share/DVCS/0--key.io/img/assets/"
+   :publishing-directory "/usr/local/share/DVCS/0--key.io/assets/img/"
    :recursive t
    :publishing-function org-publish-attachment)
 
