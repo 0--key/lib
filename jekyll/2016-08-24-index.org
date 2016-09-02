@@ -34,6 +34,36 @@ tags: [sotfware development, emacs, Python, learning]
   #+END_QUOTE
 #+TOC: headlines 2
 
+* Emacs
+
+** Tips
+
+** Literate Programming
+
+** elisp
+
+* Python
+
+** stdlib
+
+** how-to
+
+* SQLite3
+
+** Innate shell
+
+** Data types
+
+** Python interaction
+
+* Postgres
+
+** Innate shell
+
+** Data types
+
+** Python interaction
+
 * Brief prelude							    :prelude:
 
   #+BEGIN_QUOTE
