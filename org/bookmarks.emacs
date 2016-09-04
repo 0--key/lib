@@ -2,7 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("TDD_UnitTest"
+(("(org) External links"
+ (front-context-string . "     info:org#Ex")
+ (rear-context-string . "       IRC link\n")
+ (position . 138017)
+ (filename . "/home/antony/.emacs.d/elpa/org-20160822/org")
+ (info-node . "External links")
+ (handler . Info-bookmark-jump))
+("TDD_UnitTest"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "est\n    #+BEGIN_")
  (rear-context-string . "html\n\n\n*** unitt")
@@ -163,10 +170,10 @@
  (rear-context-string . "  be nil.\n\n** Ed")
  (position . 82336))
 ("org-capture-last-stored"
- (filename . "/usr/local/share/DVCS/lib/org/thoughts.org")
- (front-context-string . "**** Incredible ")
- (rear-context-string . "   enthralling.\n")
- (position . 5308))
+ (filename . "/usr/local/share/DVCS/lib/org/idioms.org")
+ (front-context-string . "**** You start m")
+ (rear-context-string . "9-04 Sun 09:33]\n")
+ (position . 7298))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "\n\n***** can or c")
