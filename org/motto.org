@@ -1797,7 +1797,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [80%]
+*** TODO Verbs [84%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -4087,7 +4087,100 @@
       - I've promised the ring to my daughter after I'm gone.
       - Don't tell me now. Save it for later.
 
-**** TODO Phrasal verbs
+**** DONE Phrasal verbs
+     Some verbs are *two part* verbs (see Clauses, Sentences and
+     Phrases). They consist of a *verb* and a *particle*:
+      - grow + up
+	>> The children are growing up.
+
+      Often this gives the verb a *new meaning*:
+      - take + after
+	>> She takes after her mother.
+	= She looks like her mother, or she behaves like her mother.
+      - count + on
+	>> I know I can count on you.
+	= I know I can trust you, or I know I can believe you.
+
+      Some *transitive* two part verbs (see Clauses, Sentences and
+      Phrases) have *only one* pattern:
+
+      *N(subject) + V + p + N(object)*
+
+      | N(subject) | Verb      | Particle | N(object)  |
+      |------------+-----------+----------+------------|
+      | She        | takes     | after    | her mother |
+      | I          | can count | on       | you        |
+      | My father  | comes     | from     | Madrid     |
+
+      Some transitive two part verbs are *phrasal verbs*. Phrasal
+      verbs have *two different patterns*:
+
+      - The usual pattern is: *N + V + N + p*
+	| N(subject) | Verb            | N(object)   | Particle |
+	|------------+-----------------+-------------+----------|
+	| She        | gave            | the money   | back     |
+	| He         | knocked         | the glass   | over     |
+	| We         | will be leaving | our friends | behind   |
+
+      - But sometimes these verbs have the pattern:
+	*N + V + p + N*
+	| N(subject) | Verb            | Particle | N(Object)   |
+	|------------+-----------------+----------+-------------|
+	| She        | gave            | back     | the money   |
+	| He         | knocked         | over     | glass       |
+	| We         | will be leaving | behind   | our friends |
+
+      When the object is a *personal pronoun*, these verbs have the pattern:
+      *N + V + N + p*:
+      - +She gave back it+
+	>> She gave it back
+      - +He knocked over it+
+	>> He knocked it over
+      - +We will be leaving behind them+
+	>>We will be leaving them behind
+
+      Phrasal verbs are nearly always made up of a *transitive verb*
+      and a *particle*. *Common verbs* with their frequent particles
+      are:
+
+      | bring: | about, along, back, forward, in, off, out, round, up             |
+      | buy:   | out, up                                                          |
+      | call:  | off, up                                                          |
+      | carry: | off, out                                                         |
+      | cut:   | back, down, off, out, up                                         |
+      | give:  | away, back, off                                                  |
+      | hand:  | back, down, in, on out, over, round                              |
+      | knock: | down, out, over                                                  |
+      | leave: | behind, out                                                      |
+      | let:   | down, in, off, out                                               |
+      | pass:  | down, over, round                                                |
+      | point: | out                                                              |
+      | push:  | about, around, over                                              |
+      | put:   | across, away, down, forward, off, on, out, through, together, up |
+      | read:  | out                                                              |
+      | set:   | apart, aside, back, down                                         |
+      | shut:  | away, int, off, out                                              |
+      | take:  | apart, away, back, down, in, on, up, over                        |
+      | think: | over, through, up                                                |
+
+***** Activities
+      - They have decided to call off the strike and return to work.
+      - When are you going to take down those decorations?
+	The wedding was two weeks ago!
+      - We want to bring about real change in this country.
+      - They had to put off the match until next week because of the snow.
+      - She let out a tremendous sigh of relief.
+      - They decided to carry out some research to see what people
+	really thought.
+      - Why don't you think over my proposal and tell me tomorrow?
+      - Mother can come and live with us. I don't want her shut away
+	in some institution.
+      - They're going to knock down the old bank and build some flats
+	there instead.
+      - The walkers got cut off by the advancing tide.
+      - Hand over the gun, son. You don't want anyone to get hurt.
+      - And now I shall read out the names of the lucky winners!
+      
 
 **** TODO Reflexive and ergative verbs
 
