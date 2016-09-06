@@ -110,3 +110,197 @@
 **** Incredible advantage
    I believe "do what you love" puts you at an incredible advantage
    because it's much easier to work harder at what you enjoy.
+** 2016-09 September
+*** 2016-09-05 Monday
+**** personal philosophy
+   One of the pillars of my personal philosophy is a firm belief that
+   inaction is the only foolproof method to fail. If I don't do anything,
+   I won't accomplish anything. If I give up, the results will never
+   come.
+**** personal philosophy
+   You *should* be in job the younger, cheaper
+   person couldn't do nearly as well, if at all
+**** "Everyone has a story you don't know"
+   It is a pretty known statement, but since the first time I heard it,
+   it touched me deeply. 
+
+   It makes me always remember to not judge people and to respect
+   everyone's choices.
+**** back-end devs on CSS
+   First, understand what this language is
+
+   CSS is a style language. It's probably closer to declarative
+   programming or rule-based programming. CSS is to HTML what XSLT is to
+   XML.
+
+   With this kind of language, does it make sense that there be compile
+   errors and message logs? No, it doesn't. The web wouldn't be very user
+   friendly if a page stopped working the moment it encountered an error
+   in a stylesheet.
+
+   So it's a good thing that CSS is a declarative language that can still
+   be parsed, even when the browser encounters an error. That means that
+   one mistake doesn't crash the site!
+
+   Now, let's, learn the parts of CSS
+
+   Let's look at this:
+
+   .myClass {
+   padding: .25em 1em;
+   }
+
+   This is called a ruleset. A ruleset is composed of two parts:
+
+   The selector, .myClass
+   The declaration block, {padding: .25em 1em;}
+
+   A declaration block is composed of declarations. Each declaration
+   contains two things:
+
+   A property, padding:
+   A value, .25em 1em
+
+   You come from a backend world. So look at declaration blocks like you
+   would look at JSON; they're key value pairs!
+
+   What does this mean for debugging?
+
+   That a problem could be in one of five places:
+
+   1 The ruleset: not formatted correctly, not present
+   2 The selector: not formatted correctly, not applicable to any element
+   3 The declaration block: not formatted correctly, not present
+   4 A property: not valid, not applicable to the element
+   5 A value: not valid, not formatted correctly
+
+   Next, Learn the Cascades
+
+   Let's talk about the "C" in CSS. The "C" is for Cascade.
+
+   There are many cascades. In CSS 2.1, there were three:
+
+   1 User Agent (the browser)
+   2 Author (what you write)
+   3 User (the person looking at the web page)
+
+   Now there are 10 cascades. [1] It's a bit more confusing. But what it
+   amounts to is that the CSS that you're writing and debugging is in the
+   middle. Your CSS comes after the browser's, but before the end-user's.
+
+   What does that mean for debugging?
+
+   Some issues are from the user agent cascade
+   Some issues, albeit rarely, an issue comes from the user cascade
+   Most issues come from attempting to modify the cascade (use of !
+     important, unnecessarily high specificity)
+
+   Then, learn how the browser parses a selector
+
+   This is important for back end devs, because this fact is not
+   intuitive:
+
+   The browser parses a selector from right to left.
+
+   When you write this:
+
+   #thisId .thisClass .thatClass div ul li a {
+           color: red;
+   }
+
+   Do you know what the browser reads first?
+
+   a {}
+
+   Why?
+
+   Because, that's what you're styling. Everything in front of is just a
+   "filter" to speak of. And think about it:
+
+   Do filters improve performance? Do they decrease the likelihood of
+   errors?
+
+   No. No they don't.
+
+   JavaScript does not behave this way, by the way. Longer selectors can
+   be helpful in JavaScript, after all, this will be parsed left to
+   right. But don't write CSS selectors like you would JavaScript.
+
+   What does this mean for debugging?
+
+   The longer a selector is, the more likely it is to not apply
+   If a declaration block is not being applied at all, it is because of
+     the selector
+
+   Now, understand the basics of "specificity"
+
+   I could write a whole essay on specificity. But that won't help you in
+   debugging.
+
+   When do you need to focus on specificity?
+
+   1 If you have two matching properties,
+   2 being styled in two different rulesets,
+   3 whose selectors apply to the same element
+
+   e.g., this doesn't matter. It's different properties.
+
+   .someClass {
+   color: red;
+   }
+   #someID{
+   font-family: Arial;
+   }
+
+   But this could matter:
+
+   .someClass {
+   color: red;
+   }
+   #someID{
+   color: blue;
+   }
+
+   Only if this is also true:
+
+   <div id="someID" class="someClass">
+   </div>
+
+   Now, sometimes, people will opt to "break" the cascade with !
+   important:
+
+   .someClass {
+   color: red !important;
+   }
+   #someID{
+   color: blue;
+   }
+
+   This is the wrong time for !important. Whoever does that is an
+   asshole. Don't be that guy.
+
+   What does this mean for debugging?
+
+   If a style is not being applied, but you know that the declaration
+   block and ruleset are correct:
+
+   The property is being overwritten in another ruleset with a more
+   specific selector
+   The property is being overwritten in another ruleset with an equal,
+     or less specific selector, where the property has an !important
+     declaration
+
+   Browsers are hard
+
+   There are standards
+   Browsers are supposed to follow standards
+   Most of the browsers are pretty good about following standards
+   IE7, 6 were not good about following standards
+   IE8 followed html4 and css2.1 standards
+   Where a standards doesn't say how to do it, browsers will be
+   different
+
+   What does this mean for debugging?
+
+   You'll need whisky. Lots and lots of whisky.
+   https://www.w3.org/TR/css-cascade-3/#cascade-origin
