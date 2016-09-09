@@ -26,6 +26,7 @@
 (desktop-save-mode 1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 ;;
 (require 'key-chord)
@@ -77,22 +78,6 @@
       (expand-file-name "~/.emacs.d/elpa/contrib/scripts/plantuml.jar"))
 ;;
 ;; ^^^ Babel customization
-;; colorization
-(add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-ld-dark)))
-(global-set-key (kbd "C-c 1") 'color-theme-clarity)
-(global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
-(global-set-key (kbd "C-c 3") 'color-theme-hober)
-(global-set-key (kbd "C-c 4") 'color-theme-oswald)
-(global-set-key (kbd "C-c 5") 'color-theme-tty-dark)
-(global-set-key (kbd "C-c 6") 'color-theme-taming-mr-arneson)
-(global-set-key (kbd "C-c 7") 'color-theme-euphoria)
-(global-set-key (kbd "C-c 8") 'color-theme-retro-orange)
-;;
 ;;
 ;;(require 'git)
 ;;(require 'git-blame)
@@ -194,3 +179,25 @@
 ;;
 (require 'magit-gh-pulls)
 (add-hook 'magit-mode-hook 'turn-on-magit-gh-pulls)
+;;
+;; colorization
+;;
+(add-to-list 'load-path "/usr/share/emacs/site-lisp/emacs-goodies-el/")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-euphoria)))
+;;
+(require 'moe-theme)
+(moe-dark)
+;;
+(global-set-key (kbd "C-c 1") 'color-theme-clarity)
+(global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
+(global-set-key (kbd "C-c 3") 'color-theme-hober)
+(global-set-key (kbd "C-c 4") 'color-theme-oswald)
+(global-set-key (kbd "C-c 5") 'color-theme-tty-dark)
+(global-set-key (kbd "C-c 6") 'color-theme-taming-mr-arneson)
+(global-set-key (kbd "C-c 7") 'color-theme-euphoria)
+(global-set-key (kbd "C-c 8") 'color-theme-retro-orange)
+;;
