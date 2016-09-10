@@ -187,10 +187,10 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-euphoria)))
+     (color-theme-lawrence)))
 ;;
-(require 'moe-theme)
-(moe-dark)
+;; (require 'moe-theme)
+;; (moe-dark)
 ;;
 (global-set-key (kbd "C-c 1") 'color-theme-clarity)
 (global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
@@ -199,5 +199,5 @@
 (global-set-key (kbd "C-c 5") 'color-theme-tty-dark)
 (global-set-key (kbd "C-c 6") 'color-theme-taming-mr-arneson)
 (global-set-key (kbd "C-c 7") 'color-theme-euphoria)
-(global-set-key (kbd "C-c 8") 'color-theme-retro-orange)
+(global-set-key (kbd "C-c 8") 'color-theme-lawrence)
 ;;
