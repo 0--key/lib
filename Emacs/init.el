@@ -77,6 +77,10 @@
 (setq org-plantuml-jar-path
       (expand-file-name "~/.emacs.d/elpa/contrib/scripts/plantuml.jar"))
 ;;
+(setq org-babel-default-header-args:sh
+      '((:prologue . "exec 2>&1") (:epilogue . ":"))
+      )
+;;
 ;; ^^^ Babel customization
 ;;
 ;;(require 'git)
