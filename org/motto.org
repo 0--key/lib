@@ -7639,7 +7639,7 @@
       built-in functions and exceptions — objects that can be used by
       all Python code *without the need of an import* statement.
       #+END_QUOTE
-      #+BEGIN_SRC python :results output
+      #+BEGIN_SRC python
         abs()         dict()      help()          min()      setattr()          
         all()         dir()       hex()           next()     slice()            
         any()         divmod()    id()            object()   sorted()           
@@ -12400,7 +12400,6 @@
 *** Quotations
 
 *** Code snippets
-
 
 ** DONE Install Emacs24.5 on Ubuntu 14.04
    [[Follow the link][Emacs24.5]]
