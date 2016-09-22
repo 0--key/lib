@@ -2,7 +2,14 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("(org) External links"
+(("Python indent"
+ (front-context-string . "     are evaluat")
+ (rear-context-string . "hen code blocks\n")
+ (position . 579691)
+ (filename . "/home/antony/.emacs.d/elpa/org-20160822/org")
+ (info-node . "Editing source code")
+ (handler . Info-bookmark-jump))
+("(org) External links"
  (front-context-string . "     info:org#Ex")
  (rear-context-string . "       IRC link\n")
  (position . 138017)
@@ -170,15 +177,15 @@
  (rear-context-string . "  be nil.\n\n** Ed")
  (position . 82336))
 ("org-capture-last-stored"
- (filename . "/usr/local/share/DVCS/lib/org/idioms.org")
- (front-context-string . "**** You start m")
- (rear-context-string . "9-04 Sun 09:33]\n")
- (position . 7298))
+ (filename . "/usr/local/share/DVCS/lib/org/thoughts.org")
+ (front-context-string . "**** What is pro")
+ (rear-context-string . "16-09-09 Friday\n")
+ (position . 11147))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
- (front-context-string . "\n\n***** can or c")
- (rear-context-string . "ntion, please?\n\n")
- (position . 150304))
+ (front-context-string . "\n\n\n\n**** DONE Do")
+ (rear-context-string . "ve or would have")
+ (position . 157820))
 ("(eww) Basics"
  (front-context-string . "\n2 Basic Usage\n*")
  (rear-context-string . "rview,  Up: Top\n")
