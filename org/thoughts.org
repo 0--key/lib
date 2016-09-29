@@ -304,3 +304,11 @@
 
    You'll need whisky. Lots and lots of whisky.
    https://www.w3.org/TR/css-cascade-3/#cascade-origin
+*** 2016-09-09 Friday
+**** What is profiling?
+     profiling in any language and anything is knowing heuristics about
+     what is running in your program, and for example how many times is
+     a function called, and how long does it take for this section of
+     code to run. And it's simply like a statistical thing. Like you
+     get a profile of your code, you see all the parts of your code
+     that are fast or slow for example.
