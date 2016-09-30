@@ -312,3 +312,20 @@
      code to run. And it's simply like a statistical thing. Like you
      get a profile of your code, you see all the parts of your code
      that are fast or slow for example.
+** 2016-10 October
+*** 2016-10-02 Sunday
+**** Heisenberg uncertainty
+   ...that it's a little bit like the Heisenberg uncertainty principle. If you observe a thing, by the fact that you've observed it, you've altered it.
+    file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::that%20it's%20a%20little%20bit%20like%20the%20Heisenberg%20uncertainty%20principle.%20If%20you%20observe%20a%20thing,%20by%20the%20fact%20that%20you've%20observed%20it,%20you've%20altered%20it.
+**** PyCallGraph
+   I was searching around more and I found PyCallGraph, which is amazing at showing you the flow of your program and it gives you great graphical representation of what cProfile is also showing you
+    file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::I%20was%20searching%20around%20more%20and%20I%20found%20PyCallGraph,%C2%A0which%20is%20amazing%20at%20showing%20you%20the%20flow%20of%20your%20program%20and%20it%20gives%20you%20great%20graphical%20representation%20of%20what%20cProfile%20is%20also%20showing%20you
+**** just pip install PyCallGraph
+   Yeah, super simple. It's one of the best things about pip as a package manager
+    file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::Yeah,%20super%20simple.%20It's%20one%20of%20the%20best%20things%20about%20pip%20as%20a%20package%20manager
+**** built in data structures instead of creating your own
+   Then there is some other interesting things you can do as well like you could use like
+   name tuples instead of actual class, or you could use built in data structures instead
+   of creating your own. Because a lot of times, the built in structures like list, an array,
+   and dictionary and so on are implemented deep down in C and they're much faster
+    file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::Then%20there%20is%20some%20other%20interesting%20things%20you%20can%20do%20as%20well%20like%20you%20could%20use%20like%20name%20tuples%20instead%20of%20actual%20class,%20or%20you%20could%20use%20built%20in%20data%20structures%20instead%20of%20creating%20your%20own.%20Because%20a%20lot%20of%20times,%20the%20built%20in%20structures%20like%20list,%20an%20array,%20and%20dictionary%20and%20so%20on%20are%20implemented%20deep%20down%20in%20C%20and%20they're%20much%20faster
