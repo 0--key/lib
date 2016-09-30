@@ -178,3 +178,12 @@
 **** Test-driven development and refactoring go hand in hand
      and are invaluable tools in any developer's toolbox.
     [2016-09-07 Wed 08:59]
+** 2016-10 October
+*** 2016-10-02 Sunday
+**** Linux kernel is big kernel, it includes everything you knows as an
+     OS,the drivers, the file system, the memory management, the task
+     scheduler, everything is in the same kernel space, communication
+     between them is easy and low cost.
+    [2016-10-02 Sun 10:30]
+**** As Yoda says "Do or do not". Hell is full of good intentions.
+    [2016-10-02 Sun 10:31]

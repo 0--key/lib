@@ -329,3 +329,7 @@
    of creating your own. Because a lot of times, the built in structures like list, an array,
    and dictionary and so on are implemented deep down in C and they're much faster
     file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::Then%20there%20is%20some%20other%20interesting%20things%20you%20can%20do%20as%20well%20like%20you%20could%20use%20like%20name%20tuples%20instead%20of%20actual%20class,%20or%20you%20could%20use%20built%20in%20data%20structures%20instead%20of%20creating%20your%20own.%20Because%20a%20lot%20of%20times,%20the%20built%20in%20structures%20like%20list,%20an%20array,%20and%20dictionary%20and%20so%20on%20are%20implemented%20deep%20down%20in%20C%20and%20they're%20much%20faster
+**** using a nuke to deal with a fly
+   When you are about to give up is much too late to motivate. It's not
+   as though some Tony-Robbins-like techniques will not help you at this
+   last moment, but it's like using a nuke to deal with a fly.
