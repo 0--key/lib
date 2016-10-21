@@ -5,7 +5,8 @@
  ;; If there is more than one, they won't work right.
  '(magit-diff-section-arguments (quote ("--no-ext-diff")))
  '(org-confirm-babel-evaluate nil)
- '(org-src-window-setup (quote other-frame)))
+ '(org-src-window-setup (quote other-frame))
+ '(send-mail-function (quote mailclient-send-it)))
 ;; end of custom variables
 ;;
 ;;
