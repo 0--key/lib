@@ -178,9 +178,9 @@
  (position . 82336))
 ("org-capture-last-stored"
  (filename . "/usr/local/share/DVCS/lib/org/thoughts.org")
- (front-context-string . "**** What is pro")
- (rear-context-string . "16-09-09 Friday\n")
- (position . 11147))
+ (front-context-string . "**** Everything ")
+ (rear-context-string . "ely deep level.\n")
+ (position . 14375))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "\n\n\n\n**** DONE Do")
