@@ -12037,13 +12037,41 @@
 
 *** Graphs
 
+**** Breadth-first search (BFS)
+
+**** Depth-first search (DFS), topological sorting
+
 *** Shortest Paths
+
+**** Single-source shortest paths problem
+
+**** Dijkstra
+
+**** Bellman-Ford
+
+**** Speeding up Dijkstra
 
 *** Dynamic Programming
 
+**** Memoization, subproblems, guessing, bottom-up
+     Fibonacci,
+     shortest paths
+
+**** Parent pointers; text justification, perfect-information
+     Blackjack rules
+
+**** String subproblems, psuedopolynomial time;
+     parenthesization, edit distance, knapsack
+
+**** Two kinds of guessing; piano/guitar fingering,
+     Tetris training, Super Mario Bros
+
 *** Advanced Topics
 
-**** Sorting by insert and by merge
+**** Computational complexity
+
+**** Algorithms research topics
+
 
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
