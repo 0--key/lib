@@ -11964,45 +11964,86 @@
 
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
 
-** Algorithms
+** 6.006 Introduction to Algorithms
 
-*** Sorting by insert and by merge
+*** Introduction
 
-**** Sorted sequences applied usage
+**** Algorithmic thinking, peak finding
 
-***** Finding a median
-      A[0:n] ==> B[0:n]
-      unsorted   B[n/2]
+**** Models of computation, Python cost model, document distance1
 
-***** Binary search
-      A[0:n]  looking for specific item k
-      B[0:n]  comparer to B[n/2]
+*** Sorting and Trees
 
-**** Insertion sort
-     For i = 1, 2 ... n
-     insert A[i] into sorted array A[0:i-1]
-     by pairwise swaps down to the correct position
+**** Insertion sort, merge sort
 
-        _                   _                   _
-     |5|2|4|6|1|3| ==> |2|5|4|6|1|3| ==> |2|4|5|6|1|3|
-       ^                   ^
-              _                      _
-     |2|4|5|6|1|3| ==>  |1|2  |4|5|6|3| ==> |1|2|3|4|5|6|
-     ^ ^ ^ ^ ^                ^ ^ ^ ^
+***** Sorted sequences applied usage
 
-**** Merge Sort
-     *Divide & conquer*
+****** Finding a median
+       A[0:n] ==> B[0:n]
+       unsorted   B[n/2]
 
-     - Split unsorted sequence into two parts
-     - Sort each one separately
-     - Merge they together
-       - Two sorted arrays as input
-       - Two fingers algo
+****** Binary search
+       A[0:n]  looking for specific item k
+       B[0:n]  comparer to B[n/2]
 
-**** Complexity
-     Merge sort in Python 2.2lg(n) microsec
-     Insertion sort in Python 0.2n^2 microsec
-     Insertion sort in C      0.01n^2 microsec
+***** Insertion sort
+      For i = 1, 2 ... n
+      insert A[i] into sorted array A[0:i-1]
+      by pairwise swaps down to the correct position
+
+         _                   _                   _
+      |5|2|4|6|1|3| ==> |2|5|4|6|1|3| ==> |2|4|5|6|1|3|
+        ^                   ^
+               _                      _
+      |2|4|5|6|1|3| ==>  |1|2  |4|5|6|3| ==> |1|2|3|4|5|6|
+      ^ ^ ^ ^ ^                ^ ^ ^ ^
+
+***** Merge Sort
+      *Divide & conquer*
+
+      - Split unsorted sequence into two parts
+      - Sort each one separately
+      - Merge they together
+        - Two sorted arrays as input
+        - Two fingers algo
+
+***** Complexity
+      Merge sort in Python 2.2lg(n) microsec
+      Insertion sort in Python 0.2n^2 microsec
+      Insertion sort in C      0.01n^2 microsec
+
+
+**** Heaps and heap sort
+
+**** Binary search trees, BST sort
+
+**** AVL trees, AVL sort
+
+**** Counting sort, radix sort, lower bounds for sorting and searching
+
+*** Hashing
+
+**** Hashing with chaining
+
+**** Table doubling, Karp-Rabin
+
+**** Open addressing, cryptographic hashing
+
+*** Numeric
+
+**** Integer arithmetic, Karatsuba multiplication
+
+**** Square roots, Newton's method
+
+*** Graphs
+
+*** Shortest Paths
+
+*** Dynamic Programming
+
+*** Advanced Topics
+
+**** Sorting by insert and by merge
 
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
