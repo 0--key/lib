@@ -12014,6 +12014,58 @@
 
 
 **** Heaps and heap sort
+     
+***** Applied usage as a =Priority Queue=
+      #+BEGIN_QUOTE
+      Implements a set =S= of elements, each of elements associated with a key.
+      #+END_QUOTE
+
+***** Typical operations
+
+****** Insert(S, x): insett element x into set =S=
+
+****** Max(S): return element of =S= with a largest key
+
+****** Extract_max(S): ^^^ and remove it from =S=
+
+****** Increase(S, x, k): increase the value of x's key to new value k
+
+***** Heap as a Tree
+      - Root of tree: first element
+      - Parent(i) = i/2
+      - Left(i) = 2i
+      - Right(i) = 2i + 1
+
+***** Linear view
+      |  1 |  2 |  3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+      |----+----+----+---+---+---+---+---+---+----|
+      | 16 | 14 | 10 | 8 | 7 | 9 | 3 | 2 | 4 |  1 |
+
+***** Max-Heap property
+      The key of a node >= the keys of its childen
+
+***** Heap operations
+
+****** Build_max_heap:
+       produces a max heap from an unsorted array
+
+****** max_heapify:
+       correct a single violation of the heap property in a
+       subtree's root
+
+***** Tree leaves definition
+      Elements A[n/2+1 ... n] are all leaves
+      O(nlgn) simple analysis
+
+***** Time complexity
+      #+BEGIN_QUOTE
+      Observe: =max_heapify= takes O(1) for nodes that are one level
+      above the leaves and in general O(l) time for nodes that are l levels
+      above the leaves
+      #+END_QUOTE
+     
+***** Python implementation
+      
 
 **** Binary search trees, BST sort
 
