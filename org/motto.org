@@ -12068,10 +12068,62 @@
       
 
 **** Binary search trees, BST sort
+     _Scheduling & Binary Search Trees_
+     Runway reservation system
+     - Definition
+     - How to solve with:
+       - arrays
+       - lists
+
+
+     Binary Search Trees: _operations_
+     Runway reservation system
+     Airport with a singel runway
+     Reservations for future landings:
+     - reserve request sepecifies landing time ~t~
+     - add ~t~ to the set ~R~ if no other landings are scheduled
+       within ~k~ minutes
+     - remove from set ~R~ after plane lands
+
+
+     \|R\| = n
+     O(lg n) time
+     ------
+
+     Possible solution:
+     _Unsorted list/array_
+     Insert in O(1) w/o check
+     Check ... O(n) time
+
+     _Sorted array_
+     
+     | 1 |  2 |  3 |  4 |
+     |---+----+----+----|
+     | 4 | 20 | 32 | 37 | 
+  
+     Find smallest ~i~ such that ~R[i]~ >= ~t~ in O(lg n) time
+     Compare ~R[i]~ and ~R[-i]~ agains ~t~ in O(1) time
+
+     :-( actual insertion requires shifting --> O(n) time
+
+    #+CAPTION: Max-heap
+    #+ATTR_HTML: :alt Max-heap :title A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn :align right
+    https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/200px-Binary_search_tree.svg.png
+
+     _Binary Search Trees_
+
+     node x: key(x)
+     pointers: /unlike a heap/
+     - parent(x)
+     - left(x)
+     - right(x)
+
 
 **** AVL trees, AVL sort
 
+
 **** Counting sort, radix sort, lower bounds for sorting and searching
+
 
 *** Hashing
 
