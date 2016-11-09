@@ -177,10 +177,10 @@
  (rear-context-string . "  be nil.\n\n** Ed")
  (position . 82336))
 ("org-capture-last-stored"
- (filename . "/usr/local/share/DVCS/lib/org/thoughts.org")
- (front-context-string . "**** Everything ")
- (rear-context-string . "ely deep level.\n")
- (position . 14375))
+ (filename . "/usr/local/share/DVCS/lib/org/idioms.org")
+ (front-context-string . "**** I'm not kid")
+ (rear-context-string . "1-14 Mon 14:53]\n")
+ (position . 9338))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "\n\n\n\n**** DONE Do")
@@ -202,8 +202,8 @@
  (handler . Info-bookmark-jump))
 ("acer_init"
  (filename .
-	   #("/scp:antony@192.168.0.107:/home/antony/.emacs.d/init.el" 1 4
-	     (tramp-default t)))
+           #("/scp:antony@192.168.0.107:/home/antony/.emacs.d/init.el" 1 4
+             (tramp-default t)))
  (front-context-string . "ts)\n(add-hook 'o")
  (rear-context-string . "quire 'org-bulle")
  (position . 993))
