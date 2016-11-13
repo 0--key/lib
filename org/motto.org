@@ -10755,10 +10755,283 @@
 
 **** Advanced Features
 ***** Implementing Core Syntax
+      Our classes can respond to core syntax features:
+      - Operators like +, -, *, /
+      - Operators like =in=
+      - Built-in functions like len() and str()
+      - Looping
+      - Subscripts and slices
+
+
+
+      Core syntax features translate to ~magic~ method calls
+      [[http://www.rafekettler.com/magicmethods.html][Full list]] of ~magic~ methods
+****** Core syntax resolutions:
+       | Strict implementation | Magic method            |
+       |-----------------------+-------------------------|
+       | 'abc' in var          | var.__contains__('abc') |
+       | var == 'abc'          | var.__eq__('abc')       |
+       | var[1]                | var.__getitem__(1)      |
+       | var[1:3]              | var.__getslice__(1, 3)  |
+       | len(var)              | var.__len__()           |
+       | print(var)            | var.__repr__()          |
+****** Sample
+       #+BEGIN_SRC python :session core
+         class SumList(object):
+
+             def __init__(self, this_list):
+                 self.mylist = this_list
+
+             def __add__(self, other):
+
+                 new_list = [x + y for x, y in zip(self.mylist, other.mylist)]
+                 return SumList(new_list)
+
+             def __repr__(self):
+                 return str(self.mylist)
+       #+END_SRC
+       Now, when our example class is defined, lets try to evaluate it:
+       #+BEGIN_SRC python :session core
+         cc = SumList([1, 2, 3, 4, 5])
+         dd = SumList([100, 200, 300, 400, 500])
+
+         ee = cc + dd
+         print ee
+       #+END_SRC
+
+
 ***** Subclassing Built-Ins
+      
+****** Classical usage
+       #+BEGIN_SRC python :session core
+         class MyClass(object):
+             pass
+
+         x = MyClass()
+         x.this = 'Hello'
+         x.that = 'anything'
+
+         print(x.this, ' ', x.that)
+       #+END_SRC
+       
+****** Inheriting from built-ins
+       - Python lets our classes inherit from built-in classes;
+       - An inheriting (child) class of a built-in shares all the same 
+	 attributes (including methods) of the built-in;
+       - We can take advantage of core built-in functionality, but 
+	 customize selected operations;
+       - Built-in behaviour is familiar to all Python developers - this 
+	 can make use of our inheriting class easy to learn.
+
+******* Sample #1
+       	#+BEGIN_SRC python :session core
+          class MyDict(dict):
+              pass
+
+          dd = MyDict()
+          dd['a'] = 5
+          dd['b'] = 6
+
+          for key in dd.keys():
+              print('{0}={1}'.format(key, dd[key]))
+       	#+END_SRC
+
+******* Sample #2
+       	#+BEGIN_SRC python :session core
+          class MyDict(dict):
+
+              def __setitem__(self, key, val):
+                  print("setting a key and value!")
+                  dict.__setitem__(self, key, val)  # prevent recursion
+
+          dd = MyDict()
+          dd['a'] = 5
+          dd['b'] = 6
+
+          for key in dd.keys():
+              print('{0}={1}'.format(key, dd[key]))
+       	#+END_SRC
+
+******* Sample #3
+       	#+BEGIN_SRC python :session core
+          class MyList(list):  # inherit from list
+
+              def __getitem__(self, index):
+                  if index == 0: raise IndexError
+                  if index > 0: index = index - 1
+                  return list.__getitem__(self, index)  # prevent recursion
+
+              def __setitem__(self, index, value):
+                  if index == 0: raise IndexError
+                  if index > 0: index = index - 1
+                  list.__setitem__(self. index, value)  # prevent recursion
+
+          x = MyList(['a', 'b', 'c'])
+          print(x)
+          x.append('spam')
+          print(x[0])
+          print(x[4])
+       	#+END_SRC
+
 ***** Attribute Encapsulation
+
+****** Classical example:
+       #+BEGIN_SRC python :session core
+         class MyClass(object):
+
+             def set_val(self, val):
+                 self.value = val
+
+             def get_val(self):
+                 return self.value
+
+         a = MyClass()
+         b = MyClass()
+
+         a.set_val(10)
+         b.set_val(100)
+
+         print(a.get_val())
+         print(b.get_val())
+       #+END_SRC
+
+****** But
+       - Instance attributes can be changed anywhere, to any value, 
+	 breaking encapsulation;
+       - Getter and Setter methods /encourage/ encapsulation, 
+	 but are clunker;
+       - Users are expected to _do the right thing_;
+       - Trusting the user is /Pythonic/
+
+****** @property
+       - *@property* is a decorator that designates an instance attribute 
+	 as encapsulate-able through methods;
+       - Getting, setting and deleting methods can be defined, called 
+	 automatically when a user accesses the attribute;
+       - The names are linked to the attribute name - the methods, 
+	 and setter and deleter methods must use it;
+       - @property offers some control, but don't try to force the user 
+	 into certain behaviors - it's un-Pythonic!
+
+****** Sample
+       #+BEGIN_SRC python :session core
+         class GetSet(object):
+
+             def __init__(self, value):
+                 self.attrval = value
+
+             @property
+             def var(self):
+                 print("Getting the 'var' attribute")
+                 return self.attrval
+
+             @var.setter
+             def var(self. value):
+                 print("Setting the 'var' attribute")
+                 self.attrval = value
+
+             @var.deleter
+             def var(self):
+                 print("Deleting the 'var' attribute")
+                 self.attrval = None
+
+         me = GetSet(5)
+
+         me.var = 1000
+         print(me.var)
+         del me.var
+         print(me.var)
+       #+END_SRC
+
+****** @property: additional notes
+       - @property should not encapsulate /expensive/ operations, because 
+	 attribute setting looks /cheap/;
+       - @property controls attributes that are expected, but can't 
+	 control attributes that are unexpected;
+       - __slots__ can define allowable attributes
+	 - saves memory by defining attributes ahead of time
+	 - should not be used to limit attributes - /un-Pythonic/!
+
 ***** Private Variable Names
+
+****** Variable naming: PEP8
+       - Module names: *all_lower_case*
+       - Class names and exception names: *CamelCase*
+       - Globals and locals: *all_lower_case*
+       - Functions and methods: *all_lower_case*
+       - Constants: *ALL_CAPS*
+
+
+****** Why conform to convention?
+       - More familiar to the vast majority of developers
+       - Clearer to most readers of your code
+       - Will match style of other contributors who work on same code
+       - Mark of a professional software developer
+       - Everyone will like you :-)
+
+
+****** Variable naming: /public/ and /private/
+       - /Public/ attributes or variables (intended to be used by the importer
+         of this module or user of this class):
+         *regular_lower_case*
+       - /Private/ attributes or variables (internal use by the module or class):
+         *_single_leading_underscore*
+       - /Private/ attributes that shouldn't be subclassed:
+         *__double_leading_underscore*
+       - /Magic/ attributes:
+         *__double_underscores__*
+
 ***** With Context
+      
+****** Several premises:
+       - Some objects need to /clean-up/ when done
+         - =File= object needs to /close()/
+         - A network connection may need to close
+         - A data-intensive operation may need to /del/ the data
+       - =__with__= provides a block that /cleans up/ when exited
+       - Can handle exceptions that occur within the block
+       - Can also execute code when entered
+
+****** Sample #1
+       #+BEGIN_SRC python :session core
+         with open('filename.txt') as fh:
+             for line in fh:
+                 line = line.rstrip()
+                 print(line)
+
+         # and an alternative version:
+
+         fh = open('filename.txt')
+         for line in fh:
+             print(line)
+         fh.close
+       #+END_SRC
+
+****** Sample #2
+       #+BEGIN_SRC python :results output
+         class SampleClass(object):
+
+             def __enter__(self):
+                 print('we have entered "with"')
+                 return self
+
+             def __exit__(self, type, value, traceback):
+                 print('we are leaving "with"')
+
+             def say_hi(self):
+                 print('hi, instance %s' % (id(self)))
+
+         with SampleClass() as cc:
+             cc.say_hi()
+         print('after the "with" block')
+       #+END_SRC
+
+       #+RESULTS:
+       : we have entered "with"
+       : hi, instance 3072332876
+       : we are leaving "with"
+       : after the "with" block
+
 ***** New Style Classes
 ***** Assignment 3
 ***** Assignment 3 - Supplementary Hints
