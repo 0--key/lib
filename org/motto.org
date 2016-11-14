@@ -12390,8 +12390,8 @@
 
      :-( actual insertion requires shifting --> O(n) time
 
-    #+CAPTION: Max-heap
-    #+ATTR_HTML: :alt Max-heap :title A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn :align right
+    #+CAPTION: Binary Search
+    #+ATTR_HTML: :alt Binary Search Tree :title A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn :align right
     https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/200px-Binary_search_tree.svg.png
 
      _Binary Search Trees_
