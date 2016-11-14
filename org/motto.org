@@ -12404,6 +12404,25 @@
 
 
 **** AVL trees, AVL sort
+     From [[https://en.wikipedia.org/wiki/AVL_tree][Wikipedia]]
+    #+CAPTION: AVL Tree
+    #+ATTR_HTML: :alt AVL Tree :title AVL tree with balance factors (green) :align right
+    https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/AVL-tree-wBalance_K.svg/262px-AVL-tree-wBalance_K.svg.png
+
+    #+BEGIN_QUOTE
+    In computer science, an AVL tree is a self-balancing binary search tree.
+    It was the first such data structure to be invented. In an AVL tree,
+    the heights of the two child subtrees of any node differ by at most one;
+    if at any time they differ by more than one, rebalancing is done to
+    restore this property. Lookup, insertion, and deletion all take O(log n)
+    time in both the average and worst cases, where n is the number of nodes
+    in the tree prior to the operation. Insertions and deletions may require
+    the tree to be rebalanced by one or more tree rotations.
+
+    The AVL tree is named after its two Soviet inventors, Georgy
+    Adelson-Velsky and Evgenii Landis, who published it in their 1962 paper
+    "An algorithm for the organization of information".
+    #+END_QUOTE
 
 
 **** Counting sort, radix sort, lower bounds for sorting and searching
