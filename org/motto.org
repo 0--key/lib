@@ -11063,6 +11063,14 @@
 ***** What We Have Learned
 ***** Where To Go From Here						:OOP:
 
+*** Pycon 2016
+
+**** The Live Cycle of a Python Class
+     [[http://bit.ly/pyconslides][Slides]]
+
+**** Why and How to Restructure Your Code
+     [[http://github.com/bslatkin/pycon2016][Code and slides]]
+
 *** Fluent Python						     :fluent:
 **** Preface
 ***** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
