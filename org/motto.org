@@ -10738,9 +10738,44 @@
 
 ***** Assignment 1
 ***** Assignment 1 - Solution
-
 **** Inheritance And Polymorphism
 ***** Inheriting Attributes
+****** Object.attribute lookup hierarchy
+      - The instance
+      - The class
+      - Any class from which this class inherits
+****** Example
+       #+BEGIN_SRC python :results output
+         class Date(object): # inherits from the 'object' class
+             def get_date(self):
+                 return '2016-12-09'
+
+         class Time(Date): # inherits from the 'Date' class
+             def get_time(self):
+                 return '13:19:41'
+
+         dt = Date()
+         print(dt.get_date())
+
+         tm = Time()
+         print(tm.get_time())
+         print(tm.get_date()) # found this method in the 'Date' class
+       #+END_SRC
+
+       #+RESULTS:
+       : 2016-12-09
+       : 13:19:41
+       : 2016-12-09
+
+****** Some inheritance terms
+       - An inheriting class
+	 - Child class
+	 - Derived class
+	 - Subclass
+       - An inherited class
+	 - Parent class
+	 - Base class
+	 - Superclass
 ***** Inheritance Examples
 ***** Polymorphism
 ***** Inheriting The Constructor
