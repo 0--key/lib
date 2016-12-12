@@ -10776,7 +10776,58 @@
 	 - Parent class
 	 - Base class
 	 - Superclass
+****** Inheritance itself
+******* The second pillar of *OOP*
+******* One class can inherit from another
+******** The class/ attributes ar inherited
+******** In particular, its methods ar inherited
+******** This means that instances of an inheriting (child)
+	 class can access attributes of the inherited (parent) class
+******* This is simply another level of attribute lookup:
+	- instance;
+	- class;
+	- inherited class.
 ***** Inheritance Examples
+      #+BEGIN_SRC python :results output
+        import unittest#.TestCase as tc
+
+        class Animal(object):
+            def __init__(self, name):
+                self.name = name
+            def eat(self, food):
+                print('%s is eating %s.' % (self.name, food))
+
+        class Dog(Animal):
+            def fetch(self, thing):
+                print('%s goes after the %s!' % (self.name, thing))
+
+        class Cat(Animal):
+            def swatstring(self):
+                print('%s shreds the string!' % (self.name))
+
+        r = Dog('Rover')
+        f = Cat('Fluffy')
+
+        r.fetch('paper')
+        f.swatstring()
+        r.eat('dog food')
+        unittest.TestCase.assertRaises(AttributeError, r.swatstring())
+        f.eat('cat food')
+        # assert(AttributeError, r.swatstring()) # AttributeError: 'Dog' object has no attribute 'swatstring'
+      #+END_SRC
+
+      #+RESULTS:
+      : Rover goes after the paper!
+      : Fluffy shreds the string!
+      : Rover is eating dog food.
+      : Fluffy is eating cat food.
+
+****** Inheritance hierarchy
+       - Classes can be organized into an /inheritance hierarchy/
+       - A child class can access the attribu;tes of all parent 
+	 (grandparent, etc.) classes
+       - Inheritance promotes code collaboration and reuse
+       - "No code should appear twice"
 ***** Polymorphism
 ***** Inheriting The Constructor
 ***** Multiple Inheritance And The Lookup Tree
