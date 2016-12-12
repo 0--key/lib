@@ -11089,7 +11089,7 @@
 	 into certain behaviors - it's un-Pythonic!
 
 ****** Sample
-       #+BEGIN_SRC python :session core
+       #+BEGIN_SRC python :results output
          class GetSet(object):
 
              def __init__(self, value):
