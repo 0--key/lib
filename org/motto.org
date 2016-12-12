@@ -10871,7 +10871,44 @@
        : Fluffy purrs
        : Precious purrs
        : Scout wags tail
+
 ***** Inheriting The Constructor
+      - *__init__* is like any other method; it can be inherited
+      - if a class does not have an *__init__* constructor, Python 
+	will check it parent class to see if it can find one
+      - As soon as it finds one, Python calls it and stops looking
+      - We can use the *super()* function to call methods in the 
+	parent class
+      - We may want to initialize in the parent as well as our 
+	own class
+
+****** Example #2
+       #+BEGIN_SRC python :results output
+         import random
+
+         class Animal(object):
+             
+             def __init__(self, name):
+                 self.name = name
+
+
+         class Dog(Animal):
+
+             def __init__(self, name):
+                 super(Dog, self).__init__(name)
+                 self.breed = random.choice(['Shih Tzu', 'Beagle', 'Mutt'])
+                 
+             def fetch(self, thing):
+                 print('{0} goes after the {1}'.format(self.name, thing))
+
+         d = Dog('Pluto')
+         print(d.name)
+         print(d.breed)
+       #+END_SRC
+
+       #+RESULTS:
+       : Pluto
+       : Beagle
 ***** Multiple Inheritance And The Lookup Tree
 ***** Decorators, Static And Class Methods
 ***** Abstract Classes
