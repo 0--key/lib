@@ -10909,7 +10909,17 @@
        #+RESULTS:
        : Pluto
        : Beagle
+
 ***** Multiple Inheritance And The Lookup Tree
+      - Any class can inherit from multiple classes
+      - Python normally uses a /depth-first/ order when 
+	searching inheriting classes
+      - But when two classes inherit from the same class, 
+	Python elieminates the first mention of that class from 
+	the /mro/ (method resolution order)
+      - The above applies to "new style" classes (inheriting from 
+	/object/)
+
 ***** Decorators, Static And Class Methods
 ***** Abstract Classes
 ***** Method Overloading - Extending And Providing
