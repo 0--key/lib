@@ -5,7 +5,7 @@
 #+LANGUAGE: en
 #+STARTUP: showall
 
-* Knowledge is power © 				      :True:InitialPostulate:
+* Knowledge is power © 				:True:InitialPostulate:
 ** it is product of education;        :True:
 
 *** TODO reading;
@@ -11313,7 +11313,6 @@
     #+RESULTS:
 
 
-
 * Enhance general coding grit	                :coding:
 
 ** Problem solving technique
@@ -12850,7 +12849,6 @@
 
 ** MaGit plugin					:efficiency:
    Git-Flow [[https://github.com/jtatarik/magit-gitflow][plugin]] for magit.el
-
 
 * Open-Source contributing			:OpenSource:
 ** Fork useful projects				:forks:
