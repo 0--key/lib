@@ -12595,7 +12595,27 @@
 
 *** Rahul
 
+**** Preface
+     #+BEGIN_QUOTE
+     A design pattern in architecture and computer science is a formal way of 
+     documenting a solution to a design problem in a particular field of expertise. The 
+     idea was introduced by the architect Christopher Alexander in the field of 
+     architecture and has been adapted for various other disciplines, including computer 
+     science. An organized collection of design patterns that relate to a particular field
+     is called a pattern language. 
+     #+END_QUOTE
 
+**** The Model-View-Controller Pattern
+     #+BEGIN_QUOTE
+     “Model–View–Controller (MVC) is a software 
+     architecture, currently considered an architectural 
+     pattern used in software engineering. The pattern 
+     isolates “domain logic” (the application logic for the 
+     user) from input and presentation (GUI), permitting 
+     independent development, testing and maintenance of 
+     each.” 
+     #+END_QUOTE
+     
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
 *** Version Control with Git			    :book:Matthew_McCullough:
