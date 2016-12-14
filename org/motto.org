@@ -11442,7 +11442,6 @@
       each.” 
       #+END_QUOTE
      
-
 * Enhance general coding grit	                :coding:
 
 ** Problem solving technique
@@ -11478,7 +11477,6 @@
 **** [[http://codility.com/][Codility]]
 
 **** [[http://projecteuler.net/][Project Euler]]
-
 
 
 ** Test Driven Development Approach		:TDD:
@@ -12616,7 +12614,6 @@
 
 **** Algorithms research topics
 
-
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
 *** Version Control with Git			    :book:Matthew_McCullough:
@@ -13026,14 +13023,10 @@
        #+RESULTS:
        [[file:gradient.png]]
 
-**** O-blog with Twitter-Bootstrap [[http://renard.github.io/o-blog/][template]] =not works properly=
-
 **** Org-mode template for *technical specification documents* &
        [[https://github.com/thi-ng/org-spec][HTML publishing]]
 
 **** One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
-
-
 
 ** DONE Make a separate repo for blog's org-sources
 
