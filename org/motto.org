@@ -11442,7 +11442,7 @@
       each.” 
       #+END_QUOTE
      
-* Enhance general coding grit	                :coding:
+* Elaborate general coding grit                                      :coding:
 
 ** Problem solving technique
 
@@ -12895,7 +12895,7 @@
     [[/usr/local/share/DVCS/lib/Python/edu/python-patterns][fork]]
 *** DONE Talk Python to Me
     [[file:/usr/local/share/DVCS/talk-python-transcripts/][fork]]
-
+*** [[https://github.com/faif/python-patterns][python-patterns]]
 ** Evaluate it in educational purposes
 ** Open pull request
 
