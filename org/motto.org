@@ -11478,6 +11478,45 @@
 
 **** [[http://projecteuler.net/][Project Euler]]
 
+** Design patterns
+*** What is a design pattern
+*** Types of design patterns
+*** Understanding object-oriented programming
+*** Working with inheritance and polymorphism
+*** Understanding Pattern context
+*** Working with Pattern language
+*** Factory
+*** Factory example
+*** Abstract factory
+*** Abstract factory example
+*** Singleton
+*** Singleton example
+*** Builder
+*** Builder example
+*** Prototype
+*** Prototype example
+*** Decorator
+*** Decorator example
+*** Proxy
+*** Proxy example
+*** Adapter
+*** Adapter example
+*** Composite
+*** Composite example
+*** Bridge
+*** Bridge example
+*** Observer
+*** Observer example
+*** Visitor
+*** Visitor example
+*** Iterator
+*** Iterator example
+*** Strategy
+*** Strategy example
+*** Chain of responsibility
+*** Chain of responsibility example
+*** Consistency
+*** Other qualities
 
 ** Test Driven Development Approach		:TDD:
 
