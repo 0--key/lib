@@ -11655,10 +11655,82 @@
 
 ** Design patterns
 *** What is a design pattern
+    #+BEGIN_QUOTE
+    Well-known solutions to recurring problems
+    #+END_QUOTE
+    Widely accepted solutions by the software
+    development community.
+    Why use design patterns?
+**** Motivations
+***** No need to reinvent the wheel and waste your
+      time
+***** Systematic reuse of design ideas of best
+      practices yields lower cost and higher quality
 *** Types of design patterns
+**** Creational Patterns
+***** Definition
+      Used to create objects in a systematic way
+***** Benefits
+      Flexibility
+***** Example:
+      Different subtypes of objects from the same
+      class at runtime
+**** Structural Patterns
+***** Definition
+      Establishes useful relationships between software
+      components in certain configurations.
+      To accomplish a goal: both functional and
+      nonfunctional
+      Different goals yield  different structures
+**** Behavioral Patterns
+***** Definition
+      Best practices of objects interaction
+***** Focus
+      Define the protocols
 *** Understanding object-oriented programming
+    Object-oriented mechanism used /interfaces/ for
+    - Structural inheritance;
+    - Creational polymorphism;
+    - Behavioral methods and their signatures
 *** Working with inheritance and polymorphism
+**** Inheritance
+     #+BEGIN_QUOTE
+     Establishes a relationship between two classes
+     as *Parent* and *Child*
+     #+END_QUOTE
+**** Child Class
+***** =Keeps= the attributes and methods
+      of its parent
+***** =Adds= new attributes or methods of
+      its own
+***** =Overrides= the existing methods of
+      its parent
+**** Polimorphism
+***** Relies on inheritance
+***** Allows child classes to be instantiated
+      and treated as the same type as its parent
+***** Enables a parent class to be manifest into
+      any of its child classes
 *** Understanding Pattern context
+**** Participants
+     - Classes involved to form a design pattern
+     - Roles
+**** Quality attributes
+***** Nonfunctional requirements
+      Usability, modifiability, reliability,
+      perfomance, etc.
+***** Effect on the entire software
+      Architectural solutions
+**** Forces
+     Various factors or trade-offs to consider.
+     Manifested in quality attributes.
+     In most cases would intail unintended
+     consequences.
+**** Consequences
+***** Side effects
+      ~Better security but worse perfomance~
+***** Decision makers
+      ~Despite the consequences~
 *** Working with Pattern language
 *** Factory
 *** Factory example
