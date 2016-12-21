@@ -11732,6 +11732,26 @@
 ***** Decision makers
       ~Despite the consequences~
 *** Working with Pattern language
+**** Name
+     - Shouls capture the gist of the pattern
+     - Becomes part of a vocabulary during the design process
+     - Needs to be
+       - Meaningful
+       - Memorable
+**** Context
+     - Provides a scenario
+       - Pattern may be used
+     - Provides more insights
+       - When to use it
+       - When /not/ to use it
+**** Problem
+     - Describes a design challenge
+       - Pattern is addressing
+**** Solution
+     - Specifies a pattern
+       - Structure: relationships among elements
+       - Behavior: interactions
+**** Related patterns
 *** Factory
 *** Factory example
 *** Abstract factory
