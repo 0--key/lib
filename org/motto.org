@@ -10422,7 +10422,8 @@
       : 
       : >>> >>> ... ... >>> >>>
       : <__main__.MyClass object at 0x7ff2119ce128>
-
+****** Brief overview differences between old-style
+       and new-style objects [[https://wiki.python.org/moin/NewClassVsClassicClass][there]]
 ***** Instance Methods
       When we call the instance method this instance is passed as the
       first argument automatically
@@ -11652,6 +11653,8 @@
 **** [[http://codility.com/][Codility]]
 
 **** [[http://projecteuler.net/][Project Euler]]
+
+**** [[https://www.codewars.com/users/Anton%2520S.%2520Kosinov][CodeWars]]
 
 ** Design patterns
 *** What is a design pattern
