@@ -11883,6 +11883,49 @@
 **** The /Borg/ design pattern
 
 *** Singleton example
+    #+BEGIN_SRC python :results output
+      class Borg(object):
+          """Borg pattern making the class attributes global"""
+          _shared_data_pool = {}
+
+          def __init__(self):
+              self.__dict__ = self._shared_data_pool  # Make it an attribute dictionary
+
+
+      class Singleton(Borg):  # Inherits from the Borg class
+          """This class now shares all its attributes among its various instances"""
+          # This essenstially makes the singleton objects an object-oriented global
+          # variable
+
+          def __init__(self, **kwargs):
+              Borg.__init__(self)
+              # Update the attribute dictionary by inserting a new key-value pair
+              self._shared_data_pool.update(kwargs)
+
+          def __str__(self):
+              # Returns the attribute dictionary for printing
+              return str(self._shared_data_pool)
+
+      # Let's create a singleton object and add our first acronym
+      x = Singleton(a="First shared value")
+      print('This is the initial value of X variable: %s' % x)
+
+      # Let's create another singleton object and if it refers to the same
+      # attribute dictionary by adding another acronym.
+      y = Singleton(b="Second shared value")
+      # same values indoors
+      print('This is the value of Y variable: %s' % y)
+      print('This is the value of X variable: %s' % x)
+      # compare the objects:
+      assert(x != y)  # but they are different!
+      assert(x is not y)  # in the same time
+    #+END_SRC
+
+    #+RESULTS:
+    : This is the initial value of X variable: {'a': 'First shared value'}
+    : This is the value of Y variable: {'b': 'Second shared value', 'a': 'First shared value'}
+    : This is the value of X variable: {'b': 'Second shared value', 'a': 'First shared value'}
+
 *** Builder
 *** Builder example
 *** Prototype
