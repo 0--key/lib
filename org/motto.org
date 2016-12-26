@@ -11866,6 +11866,22 @@
     : Its food is 'Dog Food!'!
 
 *** Singleton
+
+**** Only one instance
+
+**** Global variable in an object-oriented way
+
+*** Scenario
+
+**** An information cache
+
+*** Solution
+
+**** Module
+     Shared by multiple objects
+
+**** The /Borg/ design pattern
+
 *** Singleton example
 *** Builder
 *** Builder example
