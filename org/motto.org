@@ -11939,6 +11939,12 @@
      : This is the value of Y variable: {'b': 'Second shared value', 'a': 'First shared value'}
      : This is the value of X variable: {'b': 'Second shared value', 'a': 'First shared value'}
 
+**** A decorator
+**** A base class
+**** A metaclass
+**** Metaclass usage
+**** Specific decorator
+     returning a class with the same name
 *** Builder
 *** Builder example
 *** Prototype
