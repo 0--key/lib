@@ -11789,42 +11789,43 @@
 ***** Uncertainties in types of objects
 ***** Decisions to made at run-time
       regarding what classes to use
-*** Factory example
-    #+BEGIN_SRC python :results output
-      class Dog(object):
-          """A simple dog class"""
+**** Factory examples
+***** Pet factory
+      #+BEGIN_SRC python :results output
+        class Dog(object):
+            """A simple dog class"""
 
-          def __init__(self, name):
-              self._name = name
+            def __init__(self, name):
+                self._name = name
 
-          def speak(self):
-              return "Woof!"
-
-
-      class Cat(object):
-          """A simple cat class"""
-
-          def __init__(self, name):
-              self._name = name
-
-          def speak(self):
-              return "Meow!"
+            def speak(self):
+                return "Woof!"
 
 
-      def spawn_pet(pet="dog"):
-          """The factory method"""
-          pets = dict(dog=Dog("Hope"), cat=Cat("Peace"))
-          return pets[pet]
+        class Cat(object):
+            """A simple cat class"""
 
-      d = spawn_pet("dog")
-      print(d.speak())
-      c = spawn_pet("cat")
-      print(c.speak())
-    #+END_SRC
+            def __init__(self, name):
+                self._name = name
 
-    #+RESULTS:
-    : Woof!
-    : Meow!
+            def speak(self):
+                return "Meow!"
+
+
+        def spawn_pet(pet="dog"):
+            """The factory method"""
+            pets = dict(dog=Dog("Hope"), cat=Cat("Peace"))
+            return pets[pet]
+
+        d = spawn_pet("dog")
+        print(d.speak())
+        c = spawn_pet("cat")
+        print(c.speak())
+      #+END_SRC
+
+      #+RESULTS:
+      : Woof!
+      : Meow!
 
 *** Abstract factory
 **** Problem
