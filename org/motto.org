@@ -12080,6 +12080,21 @@
 
       #+RESULTS:
 
+***** Primitive Borg
+      #+BEGIN_SRC python :output results
+        class Borg(object):
+            __shared_state = {}
+
+            def __init__(self):
+                self.__dict__ = self.__shared_state
+
+        a = Borg()
+        a.toto = 12
+
+        b = Borg()
+        assert(a.toto == b.toto)
+        assert(id(a) != id(b))  # different ! but states are sames
+      #+END_SRC
       #+BEGIN_SRC python :results output
         class Borg(object):
             """Borg pattern making the class attributes global"""
