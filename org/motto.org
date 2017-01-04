@@ -12061,7 +12061,25 @@
 
 **** Singleton examples
     
-***** Borg
+***** Strict&narrow
+      A kind of =singleton= like a ~hard link~ in the UNIX filesystems
+      #+BEGIN_SRC python :results output
+        class Singleton(object):
+
+            def __new__(type):
+                if not '_the_instance' in type.__dict__:
+                    type._the_instance = object.__new__(type)
+                return type._the_instance
+
+        a = Singleton()
+        a.toto = 12
+
+        b = Singleton()
+        assert id(a) == id(b) and a.toto == b.toto, "These variables aren't same!!!"
+      #+END_SRC
+
+      #+RESULTS:
+
       #+BEGIN_SRC python :results output
         class Borg(object):
             """Borg pattern making the class attributes global"""
