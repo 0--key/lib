@@ -12095,6 +12095,7 @@
         assert(a.toto == b.toto)
         assert(id(a) != id(b))  # different ! but states are sames
       #+END_SRC
+***** Borg with abstract base class
       #+BEGIN_SRC python :results output
         class Borg(object):
             """Borg pattern making the class attributes global"""
@@ -12120,23 +12121,19 @@
 
         # Let's create a singleton object and add our first acronym
         x = Singleton(a="First shared value")
-        print('This is the initial value of X variable: %s' % x)
 
         # Let's create another singleton object and if it refers to the same
         # attribute dictionary by adding another acronym.
-        y = Singleton(b="Second shared value")
+        y = Singleton()
+        assert(y.a == x.a)
+        y.b = "Second shared value"
         # same values indoors
-        print('This is the value of Y variable: %s' % y)
-        print('This is the value of X variable: %s' % x)
-        # compare the objects:
+        assert(y.b == x.b) # compare the objects:
         assert(x != y)  # but they are different!
         assert(x is not y)  # in the same time
       #+END_SRC
 
       #+RESULTS:
-      : This is the initial value of X variable: {'a': 'First shared value'}
-      : This is the value of Y variable: {'b': 'Second shared value', 'a': 'First shared value'}
-      : This is the value of X variable: {'b': 'Second shared value', 'a': 'First shared value'}
 
 ***** A decorator
 ***** A base class
