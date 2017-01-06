@@ -12305,6 +12305,98 @@
       : Floor: One | Size: Big
       : Floor: More than One | Size: Small
 
+***** Divided builder from ~wklken~
+      #+BEGIN_SRC python :results output
+        from abc import ABCMeta, abstractmethod
+
+
+        class Product(object):
+            """
+            What you want to get as a result
+            """
+
+            def __init__(self):
+                self.__parts = []
+
+            def add(self, part):
+                self.__parts.append(part)
+
+            def show(self):
+                print('-'.join(self.__parts))
+
+
+        class Builder(object):
+            """
+            Empty template with all requrements
+            """
+
+            __metaclass__ = ABCMeta
+
+            @abstractmethod
+            def build_part_1(self):
+                pass
+
+            @abstractmethod
+            def build_part_2(self):
+                pass
+
+            @abstractmethod
+            def get_result(self):
+                pass
+
+
+        class BuilderA(Builder):
+            def __init__(self):
+                self.__product = Product()
+
+            def build_part_1(self):
+                self.__product.add("partA1")
+
+            def build_part_2(self):
+                self.__product.add("partA2")
+
+            def get_result(self):
+                return self.__product
+
+
+        class BuilderB(Builder):
+            def __init__(self):
+                self.__product = Product()
+
+            def build_part_1(self):
+                self.__product.add("partB1")
+
+            def build_part_2(self):
+                self.__product.add("partB2")
+
+            def get_result(self):
+                return self.__product
+
+
+        class Director(object):
+            @staticmethod
+            def construct(builder):
+                builder.build_part_1()
+                builder.build_part_2()
+
+
+
+        ba = BuilderA()
+        bb = BuilderB()
+
+        Director.construct(ba)
+        product = ba.get_result()
+        product.show()
+
+        Director.construct(bb)
+        product = bb.get_result()
+        product.show()
+      #+END_SRC
+
+      #+RESULTS:
+      : partA1-partA2
+      : partB1-partB2
+
 *** Prototype
 *** Prototype example
 *** Decorator
