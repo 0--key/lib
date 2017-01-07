@@ -12143,13 +12143,16 @@
       returning a class with the same name
 **** Caution
 *** Builder
+    #+BEGIN_QUOTE
+    Separates object construction from its representation
+    #+END_QUOTE
 **** Problem
      #+BEGIN_QUOTE
      The builder pattern is an object creation software design pattern.
      Unlike the abstract factory pattern and the factory method pattern
      whose intention is to enable polymorphism, the intention of the
      builder pattern is to find a solution to the telescoping constructor
-     anti-pattern[citation needed]. The telescoping constructor anti-pattern
+     anti-pattern. The telescoping constructor anti-pattern
      occurs when the increase of object constructor parameter combination
      leads to an exponential list of constructors.
      Instead of using numerous constructors, the builder pattern uses another
