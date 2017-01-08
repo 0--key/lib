@@ -12507,23 +12507,24 @@
       : Producer is busy!
 
 *** Adapter
-*** Adapter example
+**** Adapter example
 *** Composite
-*** Composite example
+**** Composite example
 *** Bridge
-*** Bridge example
+**** Bridge example
 *** Observer
-*** Observer example
+**** Observer example
 *** Visitor
-*** Visitor example
+**** Visitor example
 *** Iterator
-*** Iterator example
+**** Iterator example
 *** Strategy
-*** Strategy example
+**** Strategy example
 *** Chain of responsibility
-*** Chain of responsibility example
+**** Chain of responsibility example
 *** Consistency
 *** Other qualities
+
 
 ** Test Driven Development Approach		:TDD:
 
