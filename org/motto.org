@@ -12404,6 +12404,14 @@
 **** Prototype example
 ***** 
 *** Decorator
+**** Problem
+***** New features to an existing object
+***** Dynamic changes
+**** Scenario
+     <blink>Hello World!</blink>
+**** Solution
+***** Functions: objects in Python
+***** Built-in decorator feature *@*
 **** Decorator example
 ***** Simple wrapper
       #+BEGIN_SRC python :results output
