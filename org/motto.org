@@ -12452,6 +12452,16 @@
 
       #+END_SRC
 *** Proxy
+**** Problem
+***** Postpone object creation unless absolutely necessary
+***** Find a placeholder
+**** Scenario
+***** Producer
+***** Artist
+***** Guest
+**** Soluton
+***** Clients: interacting with a Proxy
+***** Proxy: responsible for creating the resource intensive objects
 **** Proxy example
 ***** Producer time-schedule
       #+BEGIN_SRC python :results output
