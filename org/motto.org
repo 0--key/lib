@@ -10738,13 +10738,188 @@
 
 ***** Assignment 1
 ***** Assignment 1 - Solution
-
 **** Inheritance And Polymorphism
 ***** Inheriting Attributes
+****** Object.attribute lookup hierarchy
+      - The instance
+      - The class
+      - Any class from which this class inherits
+****** Example
+       #+BEGIN_SRC python :results output
+         class Date(object): # inherits from the 'object' class
+             def get_date(self):
+                 return '2016-12-09'
+
+         class Time(Date): # inherits from the 'Date' class
+             def get_time(self):
+                 return '13:19:41'
+
+         dt = Date()
+         print(dt.get_date())
+
+         tm = Time()
+         print(tm.get_time())
+         print(tm.get_date()) # found this method in the 'Date' class
+       #+END_SRC
+
+       #+RESULTS:
+       : 2016-12-09
+       : 13:19:41
+       : 2016-12-09
+
+****** Some inheritance terms
+       - An inheriting class
+	 - Child class
+	 - Derived class
+	 - Subclass
+       - An inherited class
+	 - Parent class
+	 - Base class
+	 - Superclass
+****** Inheritance itself
+******* The second pillar of *OOP*
+******* One class can inherit from another
+******** The class/ attributes ar inherited
+******** In particular, its methods ar inherited
+******** This means that instances of an inheriting (child)
+	 class can access attributes of the inherited (parent) class
+******* This is simply another level of attribute lookup:
+	- instance;
+	- class;
+	- inherited class.
 ***** Inheritance Examples
+      #+BEGIN_SRC python :results output
+        import unittest#.TestCase as tc
+
+        class Animal(object):
+            def __init__(self, name):
+                self.name = name
+            def eat(self, food):
+                print('%s is eating %s.' % (self.name, food))
+
+        class Dog(Animal):
+            def fetch(self, thing):
+                print('%s goes after the %s!' % (self.name, thing))
+
+        class Cat(Animal):
+            def swatstring(self):
+                print('%s shreds the string!' % (self.name))
+
+        r = Dog('Rover')
+        f = Cat('Fluffy')
+
+        r.fetch('paper')
+        f.swatstring()
+        r.eat('dog food')
+        unittest.TestCase.assertRaises(AttributeError, r.swatstring())
+        f.eat('cat food')
+        # assert(AttributeError, r.swatstring()) # AttributeError: 'Dog' object has no attribute 'swatstring'
+      #+END_SRC
+
+      #+RESULTS:
+      : Rover goes after the paper!
+      : Fluffy shreds the string!
+      : Rover is eating dog food.
+      : Fluffy is eating cat food.
+
+****** Inheritance hierarchy
+       - Classes can be organized into an /inheritance hierarchy/
+       - A child class can access the attribu;tes of all parent 
+	 (grandparent, etc.) classes
+       - Inheritance promotes code collaboration and reuse
+       - "No code should appear twice"
 ***** Polymorphism
+      *Many Shapes*
+      - The third pillar of OOP
+      - Two classes with same /interface/ (i.e., method name)
+      - The methods are often different, but conceptually similar
+      - Allows for expressiveness in desigh: we can say that this 
+	group of related classes implement the same action
+      - /Duck typing/ refers to reading an object's attributes to 
+	decide whether it is of a proper type, rather than checking 
+	the type itself
+	
+****** Example #1
+       #+BEGIN_SRC python :results output
+         class Animal(object):
+             def __init__(self, name):
+                 self.name = name
+
+             def eat(self, food):
+                 print('{0} eats {1}'.format(self.name, food))
+
+         class Dog(Animal):
+             def fetch(self, thing):
+                 print('{0} goes after the {1}'.format(self.name, thing))
+
+             def show_affection(self):
+                 print('{0} wags tail'.format(self.name))
+
+         class Cat(Animal):
+             def swatstring(self):
+                 print('{0} shreds the string!'.format(self.name))
+
+             def show_affection(self):
+                 print('{0} purrs'.format(self.name))
+
+         for a in (Dog('Rover'), Cat('Fluffy'), Cat('Precious'), Dog('Scout')):
+             a.show_affection()
+       #+END_SRC
+
+       #+RESULTS:
+       : Rover wags tail
+       : Fluffy purrs
+       : Precious purrs
+       : Scout wags tail
+
 ***** Inheriting The Constructor
+      - *__init__* is like any other method; it can be inherited
+      - if a class does not have an *__init__* constructor, Python 
+	will check it parent class to see if it can find one
+      - As soon as it finds one, Python calls it and stops looking
+      - We can use the *super()* function to call methods in the 
+	parent class
+      - We may want to initialize in the parent as well as our 
+	own class
+
+****** Example #2
+       #+BEGIN_SRC python :results output
+         import random
+
+         class Animal(object):
+             
+             def __init__(self, name):
+                 self.name = name
+
+
+         class Dog(Animal):
+
+             def __init__(self, name):
+                 super(Dog, self).__init__(name)
+                 self.breed = random.choice(['Shih Tzu', 'Beagle', 'Mutt'])
+                 
+             def fetch(self, thing):
+                 print('{0} goes after the {1}'.format(self.name, thing))
+
+         d = Dog('Pluto')
+         print(d.name)
+         print(d.breed)
+       #+END_SRC
+
+       #+RESULTS:
+       : Pluto
+       : Beagle
+
 ***** Multiple Inheritance And The Lookup Tree
+      - Any class can inherit from multiple classes
+      - Python normally uses a /depth-first/ order when 
+	searching inheriting classes
+      - But when two classes inherit from the same class, 
+	Python elieminates the first mention of that class from 
+	the /mro/ (method resolution order)
+      - The above applies to "new style" classes (inheriting from 
+	/object/)
+
 ***** Decorators, Static And Class Methods
 ***** Abstract Classes
 ***** Method Overloading - Extending And Providing
@@ -10914,7 +11089,7 @@
 	 into certain behaviors - it's un-Pythonic!
 
 ****** Sample
-       #+BEGIN_SRC python :session core
+       #+BEGIN_SRC python :results output
          class GetSet(object):
 
              def __init__(self, value):
