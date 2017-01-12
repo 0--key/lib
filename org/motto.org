@@ -12401,6 +12401,23 @@
       : partB1-partB2
 
 *** Prototype
+**** Problem
+
+***** Creationg many identical objects individually:
+      expensive
+
+***** Cloning:
+      an alternative
+
+**** Scenario
+     Mass production
+
+**** Solution
+
+***** Create a prototypical instance first
+
+***** Simply clone it whenever you need replica
+
 **** Prototype example
 ***** 
 *** Decorator
