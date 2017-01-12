@@ -365,3 +365,10 @@
 **** measure of a good programmer
    The only measure of a good programmer is the ability to make good
    programs. Anything beyond that is just hand waving.
+*** 2017-01-12 Thursday
+**** "Classes" and "objects"
+   Classes can be thought of as blueprints for creating objects.
+**** problem of isolating tests from each other
+   mock objects are any objects that you can use as
+   substitutes in your test code, to keep your tests from overlapping and
+   your tested code from infiltrating the wrong tests.
