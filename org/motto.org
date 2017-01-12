@@ -12459,11 +12459,12 @@
         prototype.register_object('skylark', c)
 
         c1 = prototype.clone('skylark', color='Yellow')
-        print(c1)
+        print(c, '\n', c1)
       #+END_SRC
 
       #+RESULTS:
-      : Skylark | Yellow | Ex
+      : Skylark | Red | Ex 
+      :  Skylark | Yellow | Ex
 
 *** Decorator
 **** Problem
