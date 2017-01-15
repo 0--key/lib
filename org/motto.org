@@ -11226,6 +11226,45 @@
      - /Object-based/ storage stores objects as they are used in code
      - /Object-relational mappings/ can meditate between the two
 ***** Pickle
+****** Samples
+       #+BEGIN_SRC python
+         import pickle
+
+         mylist = ['a', 'b', 'c', 'd']
+
+         with open('datafile.txt', 'w') as fh:
+             pickle.dump(mylist, fh)
+
+         with open('datafile.txt') as fh:
+             unpickled_list = pickle.load(fh)
+
+         """
+         In the similar way it is possible to store and retrieve
+         all Pythonic datatypes
+         """
+
+         sample_int = 123
+         sample_string = 'This is a test'
+         dict_of_listst = {'a': [1, 2, 3],
+                           'b': [4, 5, 6]}
+         query_results = [('joe', 22, 'clerk'), ('pete', 34, 'salesman')]
+
+         with open('datafile.txt', 'w') as fh:
+             pickle.dump((sample_int, sample_string,
+                          dict_of_listst, query_results), fh)
+
+         with open('datafile.txt') as fh:
+             tup = pickle.load(fh)  # this is a tuple as an initial one
+       #+END_SRC
+****** Pickle and cPickle
+       - Python-native object storage
+       - Can store most Python objects on disk
+       - Does not store classes, modules or functions
+         but can refer to them
+       - Not human readable
+       - Uses the /pickle protocol/ which changes between
+         versions of Python
+       - cPickle is faster, C-compiled implementation
 ***** JSON
 ***** YAML
 ***** Assignment 5
