@@ -11220,6 +11220,11 @@
 ***** Assignment 4 - Solution
 
 **** Object Serialization
+     - /Serialization/ means /persistent/ storage, i.e., to disk
+     - /Relational/ storage writes data to tables
+       (e.g., relational database text files)
+     - /Object-based/ storage stores objects as they are used in code
+     - /Object-relational mappings/ can meditate between the two
 ***** Pickle
 ***** JSON
 ***** YAML
