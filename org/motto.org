@@ -11266,7 +11266,24 @@
          versions of Python
        - cPickle is faster, C-compiled implementation
 ***** JSON
+      - Java-script object notation
+      - Extremely popular standard for storing and
+        communicating structured data
+      - Human readable
+      - Often used for configuration files
+      - Resembles Python, but is not always valid Python
 ***** YAML
+      *YAML*: "Yaml Ain't Markup Language"
+      - Serializes Python objects, like Pickle or JSON
+      - Uses whitespace to separate elements
+        key: value
+        key2: value2
+        key3:
+        - listelement
+        - listelement2
+        - listelement3
+      - *Pyyaml* install: =sudo pip install pyyaml=
+      
 ***** Assignment 5
 ***** Assignment 5 - Solution
 
