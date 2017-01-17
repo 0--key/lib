@@ -12708,6 +12708,41 @@
       : 
       : British says 'Hello!'
       : 
+***** Target from wkl
+      #+BEGIN_SRC python :results output
+        from abc import ABCMeta, abstractmethod
+
+
+        class Target(object):
+            __metaclass__ = ABCMeta
+
+            @abstractmethod
+            def request(self):
+                pass
+
+
+        class Adaptee(object):
+
+            def special_request(self):
+                print("I am special")
+
+
+        class Adapter(Target):
+
+            def __init__(self):
+                self.adaptee = Adaptee()
+
+            def request(self):
+                self.adaptee.special_request()
+
+
+        a = Adapter()
+        a.request()
+      #+END_SRC
+
+      #+RESULTS:
+      : I am special
+
 *** Composite
 **** Composite example
 *** Bridge
