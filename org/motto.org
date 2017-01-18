@@ -12744,7 +12744,13 @@
       : I am special
 
 *** Composite
-**** Composite example
+**** Problem
+***** Recursive tree data structure
+***** Menu > submenu > sub-submenu
+**** Solution
+***** Component
+***** Child
+***** Composite
 *** Bridge
 **** Bridge example
 *** Observer
