@@ -12887,6 +12887,74 @@
       #+END_SRC
 
       #+RESULTS:
+***** Leaf #2 wkl
+      #+BEGIN_SRC python :results output
+        class Component(object):
+
+            def __init__(self, name):
+                self.name = name
+
+            def add(self, component):
+                pass
+
+            def remove(self, component):
+                pass
+
+            def display(self, depth):
+                pass
+
+
+        class Leaf(Component):
+
+            def add(self, component):
+                print("can not add to a leaf")
+
+            def remove(self, component):
+                print("can not remove from a leaf")
+
+            def display(self, depth):
+                print('-' * depth + self.name)
+
+
+        class Composite(Component):
+
+            def __init__(self, name):
+                super(Composite, self).__init__(name)
+                self.__children = []
+
+            def add(self, component):
+                self.__children.append(component)
+
+            def remove(self, component):
+                self.__children.remove(component)
+
+            def display(self, depth):
+                print('-' * depth + self.name)
+                for c in self.__children:
+                    c.display(depth + 2)
+
+
+        root = Composite("root")
+        root.add(Leaf("A"))
+        root.add(Leaf("B"))
+
+        comp = Composite("X")
+        comp.add(Leaf("XA"))
+        comp.add(Leaf("XB"))
+
+        root.add(comp)
+
+        root.display(1)
+      #+END_SRC
+
+      #+RESULTS:
+      : -root
+      : ---A
+      : ---B
+      : ---X
+      : -----XA
+      : -----XB
+
 *** Bridge
 **** Bridge example
 *** Observer
