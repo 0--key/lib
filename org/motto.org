@@ -12987,7 +12987,13 @@
       : blue
 
 *** Bridge
-**** Bridge example
+**** Problem
+***** Two unrelated, parallel, or orthogonal abstractions
+***** One: implementation-specific
+***** The other: implementation-independent
+**** Scenario
+**** Solution
+***** Separate the abstractions into two different class hierarchies
 *** Observer
 **** Observer example
 *** Visitor
