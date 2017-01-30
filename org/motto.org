@@ -13468,6 +13468,49 @@
       DecimalViewer: Subject Data 2 has data 15
 #+end_example
 
+***** Publisher and Subscriber
+      #+BEGIN_SRC python :results output
+        class Publisher(object):
+            users = set()
+
+            def register(self, user):
+                self.users.add(user)
+
+            def unregister(self, user):
+                self.users.discard(user)
+
+            def send_notifications(self, message):
+                for user in self.users:
+                    user.notify(message)
+
+
+        class Subscriber(object):
+
+            def __init__(self, username):
+                self.username = username
+
+            def notify(self, message):
+                print(self.username + ' received message: ' + message)
+
+        publisher = Publisher()
+
+        # Create observers that will receive notifications
+        bucky = Subscriber('Bucky')
+        sally = Subscriber('Sally')
+        publisher.register(bucky)
+        publisher.register(sally)
+
+        # Notifications are sent to every observer (subscriber)
+        publisher.send_notifications('We updated the website')
+        publisher.send_notifications('Make sure to add a profile picture')
+      #+END_SRC
+
+      #+RESULTS:
+      : Sally received message: We updated the website
+      : Bucky received message: We updated the website
+      : Sally received message: Make sure to add a profile picture
+      : Bucky received message: Make sure to add a profile picture
+
 *** Visitor
 **** Visitor example
 *** Iterator
