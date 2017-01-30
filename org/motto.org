@@ -13272,7 +13272,27 @@
       : UseCase2:  None
 
 *** Observer
-**** Observer example
+
+**** Problem
+
+***** Subjects to be monitored
+
+***** Observers to be notified
+
+**** Scenario
+
+***** Core temperatures
+      Reactors at power plant
+
+***** Registered observers
+
+**** Solution
+
+***** Subject: abstract class
+      - Attach
+      - Detach
+      - Notify
+***** Concrete subjects
 *** Visitor
 **** Visitor example
 *** Iterator
