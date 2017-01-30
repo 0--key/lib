@@ -13511,6 +13511,79 @@
       : Sally received message: Make sure to add a profile picture
       : Bucky received message: Make sure to add a profile picture
 
+***** Abstract observer
+      #+BEGIN_SRC python :results output
+        from abc import ABCMeta, abstractmethod
+
+
+        class Subject(object):
+
+            def __init__(self):
+                self.__observers = []
+
+            def attach(self, observer):
+                self.__observers.append(observer)
+
+            def detach(self, observer):
+                self.__observers.remove(observer)
+
+            def notify(self):
+                for o in self.__observers:
+                    o.update()
+
+
+        class ConcreteSubject(Subject):
+
+            @property
+            def status(self):
+                return self.__status
+
+            @status.setter
+            def status(self, value):
+                self.__status = value
+
+
+        class Observer(metaclass=ABCMeta):
+
+            @abstractmethod
+            def update(self):
+                pass
+
+
+        class ConcreteObserver(Observer):
+
+            def __init__(self, subject, name):
+                self.subject = subject
+                self.name = name
+                self.objserver_staus = None
+
+            def update(self):
+                self.objserver_staus = self.subject.status
+                print("the observer: %s status change to %s" %
+                      (self.name, self.objserver_staus))
+
+
+        s = ConcreteSubject()
+
+        s.attach(ConcreteObserver(s, "X"))
+        s.attach(ConcreteObserver(s, "Y"))
+        s.attach(ConcreteObserver(s, "Z"))
+
+        s.status = "A"
+        s.notify()
+
+        s.status = "B"
+        s.notify()
+      #+END_SRC
+
+      #+RESULTS:
+      : the observer: X status change to A
+      : the observer: Y status change to A
+      : the observer: Z status change to A
+      : the observer: X status change to B
+      : the observer: Y status change to B
+      : the observer: Z status change to B
+
 *** Visitor
 **** Visitor example
 *** Iterator
