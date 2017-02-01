@@ -13585,7 +13585,20 @@
       : the observer: Z status change to B
 
 *** Visitor
-**** Visitor example
+
+**** Problem
+***** New operations
+***** Existing classes
+***** All dynamically done
+**** Scenario
+***** House class
+***** HVAC specialist
+      Visitor type 1
+***** Electrician
+      Visitor type 2
+**** Solution
+***** New operations
+***** Various elements of an existing class hierarchy
 *** Iterator
 **** Iterator example
 *** Strategy
