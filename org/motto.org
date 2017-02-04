@@ -15576,10 +15576,16 @@
 ** Make resume
    http://bit.ly/hE8j3k
 
-** TODO Emacs [2/2] 
+** TODO Emacs [2/3] 
 *** DONE registers
-
 *** DONE version control
+*** TODO Org-mode 9
+    Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost. 
+**** TODO Virtual environment for testing
+**** TODO Test 25.1 version
+     - Pre-built packages [[http://emacs.secretsauce.net/][there]]
+     - Change log [[https://www.gnu.org/software/emacs/index.html#Releases][there]]
+
 ** README.md export test not works properly
    it's necessary to edit it strictly in 0--key.io 
 ** DONE Internal links test
