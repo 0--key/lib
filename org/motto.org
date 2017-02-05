@@ -13826,6 +13826,36 @@
 ***** Recommendation
 
 **** Iterator example
+
+***** German numbers
+      #+BEGIN_SRC python :results output
+        def count_to(count):
+            numbers_in_german = ["eins", "zwei", "drei", "vier", "funf"]
+            for number in numbers_in_german:
+                yield number
+
+        # Let's test the generator returned by our iterator
+        for num in count_to(3):
+            print("{}".format(num))
+
+        for num in count_to(4):
+            print("{}".format(num))
+      #+END_SRC
+
+      #+RESULTS:
+      #+begin_example
+      eins
+      zwei
+      drei
+      vier
+      funf
+      eins
+      zwei
+      drei
+      vier
+      funf
+#+end_example
+
 *** Strategy
 **** Strategy example
 *** Chain of responsibility
