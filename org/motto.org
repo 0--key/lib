@@ -13810,6 +13810,21 @@
       : visit_B C
 
 *** Iterator
+
+**** Problem
+     The traversal interfaces of an aggregate object -
+     getting overcrowded
+
+**** Solution
+
+***** Isolation
+
+***** Interface
+
+***** Tracking
+
+***** Recommendation
+
 **** Iterator example
 *** Strategy
 **** Strategy example
