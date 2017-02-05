@@ -13856,6 +13856,70 @@
       funf
 #+end_example
 
+***** Custom iteration implementation
+      #+BEGIN_SRC python :results output
+        from abc import ABCMeta, abstractmethod
+
+
+        class Iterator(metaclass=ABCMeta):
+
+            @abstractmethod
+            def first(self):
+                pass
+
+            @abstractmethod
+            def next(self):
+                pass
+
+            @abstractmethod
+            def is_done(self):
+                pass
+
+            @abstractmethod
+            def current_item(self):
+                pass
+
+
+        class CustomIterator(Iterator):
+
+            def __init__(self, iterable):
+                self.__iterable = iterable
+                self.current = 0
+
+            def first(self):
+                return self.__iterable[0]
+
+            def next(self):
+                result = None
+                self.current += 1
+                if self.current < len(self.__iterable):
+                    result = self.__iterable[self.current]
+                return result
+
+            def is_done(self):
+                return self.current >= len(self.__iterable)
+
+            def current_item(self):
+                return self.__iterable[self.current]
+
+
+        sample_iterable = ['first', 'second', 'third']
+
+        it = CustomIterator(sample_iterable)
+        print('First item in the sample iterable initially is a string:', it.first())
+        while not it.is_done():
+            print("current:", it.current_item())
+            it.next()
+        print('First item in the sample iterable remains be a string:', it.first())
+      #+END_SRC
+
+      #+RESULTS:
+      : First item in the sample iterable initially is a string: first
+      : current: first
+      : current: second
+      : current: third
+      : First item in the sample iterable remains be a string: first
+
 *** Strategy
 **** Strategy example
 *** Chain of responsibility
