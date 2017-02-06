@@ -6,6 +6,9 @@
  '(magit-diff-section-arguments (quote ("--no-ext-diff")))
  '(org-confirm-babel-evaluate nil)
  '(org-src-window-setup (quote other-frame))
+ '(package-selected-packages
+   (quote
+    (color-theme colonoscopy-theme voca-builder swiper org-bullets octopress moe-theme magit-gh-pulls key-chord howdoi google-translate github-clone git-blame f eww-lnum elpy elfeed el-get)))
  '(send-mail-function (quote mailclient-send-it)))
 ;; end of custom variables
 ;;
