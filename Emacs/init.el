@@ -195,8 +195,30 @@
      (color-theme-initialize)
      (color-theme-lawrence)))
 ;;
-;; (require 'moe-theme)
-;; (moe-dark)
+
+(setq elfeed-feeds
+    '(("https://www.quora.com/Algorithms/rss" Algorithms)
+      ("https://www.quora.com/Career-Advice/rss" Career)
+      ("https://www.quora.com/Computer-Programmers/rss" Programmers)
+      ("https://www.quora.com/Front-End-Web-Development/rss" FEWD)
+      ("https://www.quora.com/Good-Habits/rss" Good-Habits)
+      ("https://www.quora.com/Intelligence/rss" Intelligence)
+      ("https://www.quora.com/Life/rss" Life)
+      ("https://www.quora.com/Learning/rss" Learning)
+      ("https://www.quora.com/Learning-to-Program/rss" Learning to Program)
+      ("https://www.quora.com/Life-Advice/rss" Advice)
+      ("https://www.quora.com/Linux/rss" Linux)
+      ("https://www.quora.com/Mind-Tips-and-Hacks/rss" Mind Tips)
+      ("https://www.quora.com/Software-Engineering/rss" Software)
+      ("https://www.quora.com/Smart-People/rss" Smart People)
+      ("https://www.quora.com/Sociology-of-Everyday-Life/rss" Sociology)
+      ("https://www.quora.com/People-Skills/rss" Skills)
+      ("https://www.quora.com/Philosophy-of-Everyday-Life/rss" Everyday)
+      ("https://www.quora.com/Python-programming-language-1/rss" Python)
+      ("https://www.quora.com/Web-Development/rss" Web Dev)
+      ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)
+      ))
+
 ;;
 (global-set-key (kbd "C-c 1") 'color-theme-clarity)
 (global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
