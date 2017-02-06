@@ -115,49 +115,6 @@
 ;;
 
 ;;
-(setq elfeed-feeds
-    '(("https://www.quora.com/Algorithms/rss" Algorithms)
-      ("https://www.quora.com/Career-Advice/rss" Career)
-      ("https://www.quora.com/Computer-Programmers/rss" Programmers)
-      ("https://www.quora.com/Front-End-Web-Development/rss" FEWD)
-      ("https://www.quora.com/Good-Habits/rss" Good-Habits)
-      ("https://www.quora.com/Intelligence/rss" Intelligence)
-      ("https://www.quora.com/Life/rss" Life)
-      ("https://www.quora.com/Learning/rss" Learning)
-      ("https://www.quora.com/Learning-to-Program/rss" Learning to Program)
-      ("https://www.quora.com/Life-Advice/rss" Advice)
-      ("https://www.quora.com/Linux/rss" Linux)
-      ("https://www.quora.com/Mind-Tips-and-Hacks/rss" Mind Tips)
-      ("https://www.quora.com/Software-Engineering/rss" Software)
-      ("https://www.quora.com/Smart-People/rss" Smart People)
-      ("https://www.quora.com/Sociology-of-Everyday-Life/rss" Sociology)
-      ("https://www.quora.com/People-Skills/rss" Skills)
-      ("https://www.quora.com/Philosophy-of-Everyday-Life/rss" Everyday)
-      ("https://www.quora.com/Python-programming-language-1/rss" Python)
-      ("https://www.quora.com/Web-Development/rss" Web Dev)
-      ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)
-      ;; Planet Python
-      ;;("http://planet.python.org/rss10.xml" Planet Python)
-      ("http://code.activestate.com/feeds/recipes/langs/python/" Python recipes)
-      ;;
-      ;; ("http://feeds.feedburner.com/EnglishAsASecondLanguagePodcast" ESL)
-      ;; ;; BBC podcasts there --->
-      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_vocab/rss.xml" 6m_voc)
-      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/6min_gram/rss.xml" 6m_gram)
-      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/how2/rss.xml" 6m_eng)
-      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/discovery/rss.xml" Discovery)
-      ;; ("http://downloads.bbc.co.uk/podcasts/worldservice/science/rss.xml" Science Hour)
-      ;; ("http://www.bbc.co.uk/programmes/p00xtky9/episodes/downloads.rss" Why Factor)
-      ;; ("http://www.bbc.co.uk/programmes/p02pc9zn/episodes/downloads.rss" The English We Speak)
-      ;; ("http://www.bbc.co.uk/programmes/p028z2z0/episodes/downloads.rss" The Food Chain)
-      ;; ("http://www.bbc.co.uk/programmes/p035w97h/episodes/downloads.rss" The Compass)
-      ;; ("http://www.bbc.co.uk/programmes/b006r4vz/episodes/downloads.rss" Analysis)
-      ;; ("http://www.bbc.co.uk/programmes/b006qykl/episodes/downloads.rss" In Our Time)
-      ;; ("http://www.bbc.co.uk/programmes/p004kln9/episodes/downloads.rss" The Forum)
-      ;; ("http://downloads.bbc.co.uk/podcasts/radio4/ta/rss.xml" Thinking Allowed)
-      ))
-
-;;
 (setq org-publish-project-alist
 '(("jekyll-org"
    :base-directory "/usr/local/share/DVCS/org-pub/"
