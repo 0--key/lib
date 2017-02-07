@@ -9740,18 +9740,17 @@
 	- May contain statements
 
       LEGB rule
-      #+BEGIN_SRC python :results output :session deco
+      #+BEGIN_SRC python :results output
         def sort_by_last_letter(strings):
             def last_letter(s):
                 return s[-1]
             return sorted(strings, key=last_letter)
 
-        sort_by_last_letter(['one', 'two', 'three', 'four'])
+        print(sort_by_last_letter(['one', 'two', 'three', 'four']))
       #+END_SRC
 
       #+RESULTS:
-      : 
-      : ... ... ... >>> ['one', 'three', 'two', 'four']
+      : ['one', 'three', 'two', 'four']
 
 ***** Returning Functions From Functions
       #+BEGIN_SRC python :results output :session deco
