@@ -13945,6 +13945,14 @@
       : First item in the sample iterable remains be a string: first
 
 *** Strategy
+**** Problem
+     Need for dynamically changing the behavior
+     of an object
+**** Scenario
+     - Abstract Strategy class with default set of behaviors
+     - Concrete Strategy classes with new behaviors
+**** Solution
+     The =types= module in Python
 **** Strategy example
 *** Chain of responsibility
 **** Chain of responsibility example
