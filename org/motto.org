@@ -15618,6 +15618,16 @@
      - Pre-built packages [[http://emacs.secretsauce.net/][there]]
      - Change log [[https://www.gnu.org/software/emacs/index.html#Releases][there]]
 
+*** DONE desktops
+    Allow to customize your environment for particular
+    task. This feature allows you to:
+**** share
+     - bookmarks
+     - eww bookmarks
+**** custom
+     - registers
+     - buffers
+     - frames & windows
 ** README.md export test not works properly
    it's necessary to edit it strictly in 0--key.io 
 ** DONE Internal links test
