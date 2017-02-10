@@ -15585,10 +15585,10 @@
     to achieve any results in speed in ignore /practice/.
 *** Data-Set deployment
     Locate your data separately, please.
-** Porteus
+** DONE Porteus
 *** [[https://forum.porteus.org/viewtopic.php?f=81&t=6312&p=51379&hilit=ram+restore+changes#p51379][Save]] session's changes
 *** /boot/docs/cheatcodes.txt
-** Maemo5
+** DONE Maemo5
 *** Install SDK
 *** Compile Emacs24.5 on armel
 *** Create key-chords to
@@ -15608,13 +15608,13 @@
 ** Make resume
    http://bit.ly/hE8j3k
 
-** TODO Emacs [2/3] 
+** DONE Emacs [4/4] 
 *** DONE registers
 *** DONE version control
-*** TODO Org-mode 9
+*** DONE Org-mode 9
     Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost. 
-**** TODO Virtual environment for testing
-**** TODO Test 25.1 version
+**** DONE Virtual environment for testing
+**** DONE Test 25.1 version
      - Pre-built packages [[http://emacs.secretsauce.net/][there]]
      - Change log [[https://www.gnu.org/software/emacs/index.html#Releases][there]]
 
@@ -15623,4 +15623,4 @@
 ** DONE Internal links test
    It's necessary to compose the absolute links only
 
-** TODO Table of content with links to all posts
+** DONE Table of content with links to all posts
