@@ -47,11 +47,13 @@
 *** DONE registers
 *** DONE version control
 *** DONE Org-mode 9
-    Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost. 
+    Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost.
 **** DONE Virtual environment for testing
 **** DONE Test 25.1 version
      - Pre-built packages [[http://emacs.secretsauce.net/][there]]
      - Change log [[https://www.gnu.org/software/emacs/index.html#Releases][there]]
+**** TODO PROPERTIES testing
+**** TODO Sparse trees
 
 *** DONE desktops
     Allow to customize your environment for particular
@@ -63,6 +65,7 @@
      - registers
      - buffers
      - frames & windows
+*** DONE Install Emacs25.1 on Ubuntu 14.04
 *** DONE Install Emacs24.5 on Ubuntu 14.04
     [[Follow the link][Emacs24.5]]
     [[Git update][Upgrade git]]
