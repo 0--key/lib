@@ -6,6 +6,7 @@
 #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
+
 * Main data-flow
   :LOGBOOK:
   CLOCK: [2017-02-11 Sat 17:34]
@@ -24,8 +25,10 @@
 *** Quotations
 
 ** Python
+*** Coding
+**** TODO Recursion
 *** Code snippets
-
+*** Design patterns
 **** DONE Clone python-patterns repositories
      into =DVCS/pp= folder
 
@@ -110,6 +113,7 @@
      'kill-ring-save
 **** DONE capture region
      'org-capture
+
 
 
 * Miscellaneous
