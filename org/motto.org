@@ -4981,10 +4981,11 @@
       C-c C-u
 ***** Find tag
       C-c \
+
+**** Sparse trees
+***** C-c / <extra-key>
 ***** Exit out from sparse tree
       C-c C-c
-**** Sparse trees
-     C-c / <extra-key>
 ** DONE MELPA installation
 ** DONE Helm-dictionary install and test it up
 ** DONE Embedding Git
@@ -5146,6 +5147,8 @@
 
 ** DONE Voca-builder				:vocabulary:extension:
 
+***** Exit out from sparse tree
+      C-c C-c
 * Dive deeper into Python 			:Python:
 
 ** Prerequisites
