@@ -4,7 +4,8 @@
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
 #+STARTUP: showall
-
+#+PROPERTY:header-args :results output :exports both
+# :session :cache yes :tangle yes :comments org 
 * Main data-flow
   :LOGBOOK:
   CLOCK: [2017-02-11 Sat 17:34]
@@ -52,7 +53,14 @@
 **** DONE Test 25.1 version
      - Pre-built packages [[http://emacs.secretsauce.net/][there]]
      - Change log [[https://www.gnu.org/software/emacs/index.html#Releases][there]]
-**** TODO PROPERTIES testing
+**** DONE PROPERTIES testing
+     #+BEGIN_SRC python
+       print('Does it work properly?')
+     #+END_SRC
+
+     #+RESULTS:
+     : Does it work properly?
+
 **** TODO Sparse trees
 
 *** DONE desktops
