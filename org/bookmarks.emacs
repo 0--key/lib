@@ -2,20 +2,46 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Python indent"
- (front-context-string . "     are evaluat")
- (rear-context-string . "hen code blocks\n")
- (position . 579691)
- (filename . "/home/antony/.emacs.d/elpa/org-20160822/org")
- (info-node . "Editing source code")
- (handler . Info-bookmark-jump))
-("(org) External links"
- (front-context-string . "     info:org#Ex")
- (rear-context-string . "       IRC link\n")
- (position . 138017)
- (filename . "/home/antony/.emacs.d/elpa/org-20160822/org")
- (info-node . "External links")
- (handler . Info-bookmark-jump))
+(("ToDo"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "* TODO ToDo \n\n**")
+ (rear-context-string . "'s org-sources\n\n")
+ (position . 484157))
+("heritage"
+ (filename . "/usr/local/share/DVCS/stuff/txt/heritage/")
+ (front-context-string . "proclamation.org")
+ (rear-context-string . "88 Sep 29 12:52 ")
+ (position . 240))
+("test_driven_python"
+ (filename . "/usr/local/share/DVCS/test_driven_python/")
+ (front-context-string)
+ (rear-context-string . "96 Feb  8 20:03 ")
+ (position . 469))
+("PyMastering"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "it]] for this bo")
+ (rear-context-string . "anti-patterns][G")
+ (position . 302724))
+("doc"
+ (filename . "/usr/local/share/doc/")
+ (front-context-string . "r--  1 antony an")
+ (rear-context-string . "it.org\n  -rw-rw-")
+ (position . 311))
+("mercurial"
+ (filename . "/usr/local/share/DVCS/stuff/")
+ (front-context-string . "txt\n  drwxrwxr-x")
+ (rear-context-string . "96 Sep 29 11:00 ")
+ (position . 812))
+("py_oop"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "\n         class ")
+ (rear-context-string . " :results output")
+ (position . 352566))
+("algo"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "\n     From [[htt")
+ (rear-context-string . " trees, AVL sort")
+ (position . 386682))
 ("TDD_UnitTest"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "est\n    #+BEGIN_")
@@ -41,13 +67,6 @@
  (front-context-string . "			:shortcuts:\n ")
  (rear-context-string . "**** shortcuts		")
  (position . 163275))
-("(org) Export settings"
- (front-context-string . "     Toggle incl")
- (rear-context-string . "ity').\n\n`prop:'\n")
- (position . 432728)
- (filename . "/home/antony/.emacs.d/elpa/org-20160822/org")
- (info-node . "Export settings")
- (handler . Info-bookmark-jump))
 ("jekyll-solution"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "tion]]\n\n***** Or")
@@ -73,25 +92,11 @@
  (front-context-string . "\n;; \n(global-set")
  (rear-context-string . "ouble-space nil)")
  (position . 1105))
-("(org) Template expansion"
- (front-context-string . "ffer.\n     %:key")
- (rear-context-string . "ed by current bu")
- (position . 292001)
- (filename . "/home/antony/.emacs.d/elpa/org-20160725/org")
- (info-node . "Template expansion")
- (handler . Info-bookmark-jump))
 ("version-control-with-Git"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "positories\n*****")
  (rear-context-string . "e same.\n***** Re")
  (position . 312034))
-("(emacs) Version Control"
- (front-context-string . "\n28.1 Version Co")
- (rear-context-string . "Up: Maintaining\n")
- (position . 942924)
- (filename . "/usr/local/share/info/emacs")
- (info-node . "Version Control")
- (handler . Info-bookmark-jump))
 ("doctest_boilerplate"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "**** Working wit")
@@ -117,16 +122,6 @@
  (front-context-string)
  (rear-context-string . "60 Jul  7 15:37 ")
  (position . 1579))
-("voca-builder.el"
- (filename . "~/.emacs.d/elpa/voca-builder-20150625.1133/voca-builder.el")
- (front-context-string . "  (interactive)\n")
- (rear-context-string . "le, 2015-12-01\"\n")
- (position . 9253))
-("effective_py_code"
- (filename . "/usr/local/share/DVCS/lib/Python/edu/effectivepython/example_code/")
- (front-context-string . "item_21_example_")
- (rear-context-string . "04 Jan 26 16:37 ")
- (position . 1702))
 ("talk-py-to-me"
  (filename . "/usr/local/share/DVCS/talk-python-transcripts/transcripts/")
  (front-context-string . "045.txt\n  -rw-rw")
@@ -137,11 +132,6 @@
  (front-context-string . "Algorithms and D")
  (rear-context-string . "96 Feb 27 17:55 ")
  (position . 242))
-("emacs-goodies-el"
- (filename . "/usr/share/emacs/site-lisp/emacs-goodies-el/")
- (front-context-string . "..\n  -rwxr-xr-x ")
- (rear-context-string . "96 Jun 21 09:40 ")
- (position . 191))
 ("git-essentials"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "\n*** Tools and N")
@@ -157,54 +147,19 @@
  (front-context-string . "\n       \n\n******")
  (rear-context-string . "ilt-in functions")
  (position . 224729))
-("(emacs) Regexp Backslash"
- (front-context-string . "       2. To enc")
- (rear-context-string . "ox’ or ‘barx’.\n\n")
- (position . 347151)
- (filename . "/usr/local/share/info/emacs")
- (info-node . "Regexp Backslash")
- (handler . Info-bookmark-jump))
-("(ediff) Top"
- (front-context-string . "\n   This file do")
- (rear-context-string . "ir),  Up: (dir)\n")
- (position . 1222)
- (filename . "/usr/share/info/emacs-23/ediff")
- (info-node . "Top")
- (handler . Info-bookmark-jump))
 ("ediffing"
  (filename . "/usr/local/share/doc/magit.org")
  (front-context-string . "iffing\n\n- Key: e")
  (rear-context-string . "  be nil.\n\n** Ed")
  (position . 82336))
 ("org-capture-last-stored"
- (filename . "/usr/local/share/DVCS/lib/org/idioms.org")
- (front-context-string . "**** I'm not kid")
- (rear-context-string . "1-14 Mon 14:53]\n")
- (position . 9338))
+ (filename . "~/org/journal.org")
+ (front-context-string . "**** TDD(!)\n   E")
+ (rear-context-string . "17-02-10 Friday\n")
+ (position . 56549))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
- (front-context-string . "\n\n\n\n**** DONE Do")
- (rear-context-string . "ve or would have")
- (position . 157820))
-("(eww) Basics"
- (front-context-string . "\n2 Basic Usage\n*")
- (rear-context-string . "rview,  Up: Top\n")
- (position . 2205)
- (filename . "/usr/local/share/info/eww")
- (info-node . "Basics")
- (handler . Info-bookmark-jump))
-("(eww) Top"
- (front-context-string . "\nEWW\n***\n\nThis f")
- (rear-context-string . "iew,  Up: (dir)\n")
- (position . 915)
- (filename . "/usr/local/share/info/eww")
- (info-node . "Top")
- (handler . Info-bookmark-jump))
-("acer_init"
- (filename .
-           #("/scp:antony@192.168.0.107:/home/antony/.emacs.d/init.el" 1 4
-             (tramp-default t)))
- (front-context-string . "ts)\n(add-hook 'o")
- (rear-context-string . "quire 'org-bulle")
- (position . 993))
+ (front-context-string . "* TODO Reflexive")
+ (rear-context-string . "ers!\n      \n\n***")
+ (position . 166030))
 )
