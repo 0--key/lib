@@ -110,6 +110,9 @@
   ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/org/thoughts.org")
    "* %?%c\n%i\n %l")
   ;;
+    ("s" "Snippet" entry (file+headline "/usr/local/share/DVCS/lib/org/snippets.org" "init")
+     "* %?\n%c\n#+BEGIN_SRC python\n%i\n#+END_SRC")
+  ;;
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")))
 ;;

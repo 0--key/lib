@@ -1,0 +1,102 @@
+#+PROPERTY:header-args :results output :exports both
+
+* init
+  - Perfect sample of pre-formatted item
+    Let's look at a program which calculates the factorial of
+    any number entered by the user, by method of recursion.
+    
+    #+BEGIN_SRC python
+      def factorial(num):
+          if num == 0:
+              return 1
+          else:
+              return num * factorial(num - 1)
+
+      fact = factorial(5)
+      print("The factorial of", 5, "is", fact)
+    #+END_SRC
+
+      #+RESULTS:
+      : The factorial of 5 is 120
+
+
+** Infinite recursion
+So far, in Python, we have seen functions which call other
+functions. However, it is possible for a function to call
+itself. Lets look at a simple example.
+
+#+BEGIN_SRC python
+num = 0
+
+def main():
+    counter(num)
+
+def counter(num):
+    print(num)
+    num += 1
+    counter(num)
+
+#+END_SRC
+** Limited recursion
+   Recursion can be controlled, just like loops. Lets look at
+   an example of a controlled loop.
+   
+
+   #+BEGIN_SRC python
+  def main():
+      loopnum = int(input("How many times would you like to loop?\n"))
+      counter = 1
+      recurr(loopnum,counter)
+
+  def recurr(loopnum,counter):
+      if loopnum > 0:
+          print("This is loop iteration",counter)
+          recurr(loopnum - 1,counter + 1)
+      else:
+          print("The loop is complete.")
+
+#+END_SRC
+** 
+*** 
+ Recursion is also useful in an advanced topic called
+ generators. To generate the series 1,2,1,3,1,2,1,4,1,2... we
+ would need this code:
+
+ #+BEGIN_SRC python
+ def crazy(min_):
+     yield min_
+     g=crazy(min_+1)
+     while True:
+         yield next(g)
+         yield min_
+
+ i=crazy(1)
+
+ #+END_SRC
+ #+BEGIN_SRC python
+ def crazy(min_):
+     yield min_
+     g=crazy(min_+1)
+     while True:
+         yield next(g)
+         yield min_
+
+ i=crazy(1)
+
+ #+END_SRC
+** Another captures sample
+ Some people find this section useful, and some find it
+ confusing. If you find it confusing you can skip it. Now we
+ will do a walk through for the following program:
+
+ #+BEGIN_SRC python
+ def mult(a, b):
+     if b == 0:
+         return 0
+     rest = mult(a, b - 1)
+     value = a + rest
+     return value
+ result = mult(3, 2)
+ print("3 * 2 = ", result)
+
+ #+END_SRC
