@@ -4673,24 +4673,24 @@
 **** Supported languages
      http://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
 **** shortcuts					:shortcuts:
-     |----------+------------------|
-     | Sequence | Expands to       |
-     |----------+------------------|
-     | <s       | #+BEGIN_SRC      |
-     | <e       | #+BEGIN_EXAMPLE  |
-     | <q       | #+BEGIN_QUOTE    |
-     | <v       | #+BEGIN_VERSE    |
-     | <V       | #+BEGIN_VERBATIM |
-     | <c       | #+BEGIN_CENTER   |
-     | <l       | #+BEGIN_LaTeX    |
-     | <L       | #+LaTeX          |
-     | <h       | #+BEGIN_HTML     |
-     | <H       | #+HTML           |
-     | <a       | #+BEGIN_ASCII    |
-     | <A       | #+ASCII:         |
-     | <i       | #+INDEX:         |
-     | <I       | #+INCLUDE:       |
-     |----------+------------------|
+     |----------+---------------------|
+     | Sequence | Expands to          |
+     |----------+---------------------|
+     | <s       | #+BEGIN_SRC         |
+     | <e       | #+BEGIN_EXAMPLE     |
+     | <q       | #+BEGIN_QUOTE       |
+     | <v       | #+BEGIN_VERSE       |
+     | <V       | #+BEGIN_VERBATIM    |
+     | <c       | #+BEGIN_CENTER      |
+     | <l       | #+BEGIN_LaTeX       |
+     | <L       | #+LaTeX             |
+     | <h       | #+BEGIN_EXPORT html |
+     | <H       | #+HTML              |
+     | <a       | #+BEGIN_ASCII       |
+     | <A       | #+ASCII:            |
+     | <i       | #+INDEX:            |
+     | <I       | #+INCLUDE:          |
+     |----------+---------------------|
 
 *** DONE Literate programming			:literate:programming:
 
