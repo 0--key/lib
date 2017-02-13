@@ -3,7 +3,7 @@
 #+SUBTITLE:  Life in a plain text
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
-#+STARTUP: showall
+# #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
 
@@ -48,7 +48,9 @@
 ***** Context manager test
 
 ** Emacs
+
 *** DONE registers
+**** TODO Bookmarks+
 *** DONE version control
 *** DONE Org-mode 9
     Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost.
@@ -64,7 +66,8 @@
      #+RESULTS:
      : Does it work properly?
 
-**** TODO Sparse trees
+**** DONE Sparse trees
+**** TODO org-trello
 
 *** DONE desktops
     Allow to customize your environment for particular
@@ -76,6 +79,7 @@
      - registers
      - buffers
      - frames & windows
+**** TODO desktop+ 
 *** DONE Install Emacs25.1 on Ubuntu 14.04
 *** DONE Install Emacs24.5 on Ubuntu 14.04
     [[Follow the link][Emacs24.5]]

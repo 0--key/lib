@@ -2,7 +2,25 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("ToDo"
+(("Donald Knuth"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "Literate program")
+ (rear-context-string . "BEGIN_QUOTE\n    ")
+ (position . 176850))
+("(org) Sparse trees"
+ (front-context-string . "2.6 Sparse trees")
+ (rear-context-string . "ment structure\n\n")
+ (position . 54120)
+ (filename . "/home/antony/.emacs.d/elpa/org-20170210/org")
+ (info-node . "Sparse trees")
+ (handler . Info-bookmark-jump))
+("Org-mode short-cuts"
+ (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+ (front-context-string . "|----------+----")
+ (rear-context-string . "shortcuts:\n     ")
+ (position . 176057)
+ (annotation . ""))
+("ToDo"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "* TODO ToDo \n\n**")
  (rear-context-string . "'s org-sources\n\n")
@@ -153,10 +171,10 @@
  (rear-context-string . "  be nil.\n\n** Ed")
  (position . 82336))
 ("org-capture-last-stored"
- (filename . "~/org/journal.org")
- (front-context-string . "**** TDD(!)\n   E")
- (rear-context-string . "17-02-10 Friday\n")
- (position . 56549))
+ (filename . "/usr/local/share/DVCS/lib/org/snippets.org")
+ (front-context-string . "** Another captu")
+ (rear-context-string . "(1)\n\n #+END_SRC\n")
+ (position . 1798))
 ("eng"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "* TODO Reflexive")
