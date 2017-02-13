@@ -4693,6 +4693,13 @@
      |----------+---------------------|
 
 *** DONE Literate programming			:literate:programming:
+    #+BEGIN_QUOTE
+    Literate programming is what you need to rise above the ordinary level
+    of achievement. But I don’t believe in forcing ideas on anybody.
+    If literate programming isn’t your style, please forget it and do what
+    you like. If nobody likes it but me, let it die.
+    [[http://www.informit.com/articles/article.aspx?p%253D1193856][Donald Knuth]]
+    #+END_QUOTE
 
 **** Full-fledged sample
      #+NAME: illustration
