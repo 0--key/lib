@@ -69,7 +69,7 @@
  'org-babel-load-languages
  '((python . t)
    (emacs-lisp . t)
-   (shell . t)
+   (sh . t)
    (js . t)
    (ditaa . t)
    (plantuml . t)

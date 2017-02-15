@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Donald Knuth"
+(("snippets.org"
+ (filename . "/usr/local/share/DVCS/lib/org/snippets.org")
+ (front-context-string . "* init\n  - Perfe")
+ (rear-context-string . " :exports both\n\n")
+ (position . 55))
+("Donald Knuth"
  (filename . "/usr/local/share/DVCS/lib/org/motto.org")
  (front-context-string . "Literate program")
  (rear-context-string . "BEGIN_QUOTE\n    ")

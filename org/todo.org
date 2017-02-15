@@ -25,10 +25,13 @@
 *** Quotations
 
 ** Python
+*** TODO Warnings
+*** TODO Logging
+*** TODO Context manager
 *** Coding
-**** TODO Recursion
 *** Code snippets
 *** Design patterns
+**** DONE Recursion
 **** DONE Clone python-patterns repositories
      into =DVCS/pp= folder
 
@@ -48,7 +51,10 @@
 ***** Context manager test
 
 ** Emacs
-
+*** TODO Capture templates for
+**** quotation
+**** snippet
+**** point
 *** DONE registers
 **** TODO Bookmarks+
 *** DONE version control
@@ -159,7 +165,3 @@
     to achieve any results in speed in ignore /practice/.
 *** Data-Set deployment
     Locate your data separately, please.
-
-
-
-
