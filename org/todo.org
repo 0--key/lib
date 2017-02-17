@@ -86,17 +86,16 @@
      - registers
      - buffers
      - frames & windows
-**** TODO desktop+ 
+**** desktop+
+     /it is buggy and often ruins a buffers list in the desktop/
 *** DONE Install Emacs25.1 on Ubuntu 14.04
 *** DONE Install Emacs24.5 on Ubuntu 14.04
     [[Follow the link][Emacs24.5]]
     [[Git update][Upgrade git]]
-
 ** Git
 *** DONE Accomplish request-pull with Vikky
     This is a first pull request
     This is repo's actual state test
-
 ** Jekyll
 *** DONE Table of content with links to all posts
 *** DONE Internal links test
