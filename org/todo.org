@@ -76,7 +76,10 @@
      : Does it work properly?
 
 **** DONE Sparse trees
-**** TODO org-trello
+**** DONE org-trello
+     CLOCK: [2017-02-17 Fri 16:33]--[2017-02-17 Fri 16:55] =>  0:22
+     - Main [[https://org-trello.github.io/][page]]
+     - [[https://org-trello.github.io/install.html][Installation]]
 **** DONE Code blocks color
      Just modify =org-src-fontify-natively= to *on*
 *** DONE desktops
