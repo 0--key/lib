@@ -6,6 +6,7 @@
  '(Info-default-directory-list (quote ("/usr/share/info/" "/usr/share/info/emacs-25/")))
  '(magit-diff-section-arguments (quote ("--no-ext-diff")))
  '(org-confirm-babel-evaluate nil)
+ '(org-src-fontify-natively t)
  '(org-src-window-setup (quote other-frame))
  '(package-selected-packages
    (quote

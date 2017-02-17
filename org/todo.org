@@ -74,7 +74,8 @@
 
 **** DONE Sparse trees
 **** TODO org-trello
-
+**** DONE Code blocks color
+     Just modify =org-src-fontify-natively= to *on*
 *** DONE desktops
     Allow to customize your environment for particular
     task. This feature allows you to:
