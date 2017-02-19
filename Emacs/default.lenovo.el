@@ -1,4 +1,5 @@
 ;; all customization processed after init.el are there
+;; it is a symlink from /usr/local/share/emacs/site-lisp/default.el
 ;; colorization
 (require 'color-theme)
 (eval-after-load "color-theme"
@@ -15,4 +16,13 @@
 (global-set-key (kbd "C-c 6") 'color-theme-taming-mr-arneson)
 (global-set-key (kbd "C-c 7") 'color-theme-euphoria)
 (global-set-key (kbd "C-c 8") 'color-theme-lawrence)
+;;
+(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
+;;
+(setq google-translate-translation-directions-alist '(("en" . "ru")))
+(setq google-translate-default-source-language "en")
+(setq google-translate-default-target-language "ru")
+(global-set-key (kbd "C-c t") 'google-translate-at-point)
+(global-set-key (kbd "C-c T") 'google-translate-query-translate)
 ;;

@@ -89,15 +89,6 @@
 ;;(require 'git-blame)
 ;;
 (require 'howdoi)
-;;
-(global-set-key (kbd "C-x g") 'magit-status)
-(global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
-;;
-(setq google-translate-translation-directions-alist '(("en" . "ru")))
-(setq google-translate-default-source-language "en")
-(setq google-translate-default-target-language "ru")
-(global-set-key (kbd "C-c t") 'google-translate-at-point)
-(global-set-key (kbd "C-c T") 'google-translate-query-translate)
 ;;     (setq org-default-notes-file (concat org-directory "/notes.org"))
      (define-key global-map "\C-cc" 'org-capture)
 
