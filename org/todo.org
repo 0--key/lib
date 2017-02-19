@@ -64,6 +64,9 @@
     CLOCK: [2017-02-20 Mon 08:11]
     CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
 **** TODO Portability and synchronizing
+**** DONE EWW bookmarks are in
+     - as ~urls~
+     - but disappeared in =eww=
 **** DONE desktops
      Allow to customize your environment for particular
      task. This feature allows you to:

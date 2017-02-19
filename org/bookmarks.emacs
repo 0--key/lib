@@ -2,7 +2,33 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("TDD with Siddharta" 0 18
+(#1=(#("Coverage.py — Coverage.py 4.3.4 documentation" 0 45
+      (bmkp-full-record #1#))
+    (buffer-name . "*eww*")
+    (front-context-string . "* Jython 2.7.1, ")
+    (rear-context-string . "and PyPy3 5.5. \n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22699 52584 878733 168000))
+    (created . #2#)
+    (position . 1222)
+    (location . "https://coverage.readthedocs.io/en/coverage-4.3.4/")
+    (handler . bmkp-jump-eww))
+#1=(#("GoF" 0 3
+      (bmkp-full-record #1#))
+    (buffer-name . "*eww*")
+    (front-context-string . "Creational Patte")
+    (rear-context-string)
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 22699 51472 298495 527000)
+    (created 22699 51444 544441 676000)
+    (position . 1)
+    (location . "file:///usr/local/share/html/GoF/index.html")
+    (handler . bmkp-jump-eww))
+#1=(#("TDD with Siddharta" 0 18
       (bmkp-full-record #1#))
     (filename . "~/Desktop/Books/TDD/Siddharta Govindaraj - Test-Driven Python Development - 2015/Siddharta Govindaraj - Test-Driven Python Development - 2015.epub")
     (buffer-name . "Siddharta Govindaraj - Test-Driven Python Development - 2015.epub")
@@ -17,8 +43,8 @@
 #1=(#("generic" 0 7
       (bmkp-full-record #1#))
     (buffer-name . "init.el")
-    (visits . 3)
-    (time 22699 5086 921687 271000)
+    (visits . 4)
+    (time 22699 46490 544351 104000)
     (created 22698 43016 748057 360000)
     (position . 5515)
     (filename . "   - no file -")
@@ -29,8 +55,8 @@
     (annotation)
     (tags)
     (buffer-name . "2016-11-12-toys-tasks.org")
-    (visits . 6)
-    (time 22699 6072 85348 681000)
+    (visits . 7)
+    (time 22699 46456 572290 341000)
     (created 22698 42508 310919 286000)
     (position . 69877)
     (filename . "   - no file -")
@@ -69,12 +95,6 @@
     (rear-context-string . "shortcuts:\n     ")
     (position . 176057)
     (annotation . ""))
-#1=(#("ToDo" 0 4
-      (bmkp-full-record #1#))
-    (filename . "/usr/local/share/DVCS/lib/org/motto.org")
-    (front-context-string . "* TODO ToDo \n\n**")
-    (rear-context-string . "'s org-sources\n\n")
-    (position . 484157))
 #1=(#("heritage" 0 8
       (bmkp-full-record #1#))
     (filename . "/usr/local/share/DVCS/stuff/txt/heritage/")
@@ -155,10 +175,13 @@
     (position . 381953))
 #1=(#("assert_methods_list" 0 19
       (bmkp-full-record #1#))
+    (end-position . 452582)
+    (time 22699 52381 35359 784000)
+    (visits . 0)
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (front-context-string . "loring assert me")
     (rear-context-string . "ND_SRC\n***** Exp")
-    (position . 354728))
+    (position . 452582))
 #1=(#("stdlib" 0 6
       (bmkp-full-record #1#))
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
