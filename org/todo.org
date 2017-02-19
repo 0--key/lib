@@ -9,9 +9,15 @@
 
 * Main data-flow
   :LOGBOOK:
-  CLOCK: [2017-02-11 Sat 17:34]
-  CLOCK: [2017-02-10 Fri 16:36]
+  CLOCK: [2017-02-11 Sat 17:34]--[2017-02-11 Sat 17:54] =>  0:20
+  CLOCK: [2017-02-10 Fri 16:36]--[2017-02-10 Fri 17:06] =>  0:30
   :END:
+
+** Learning
+   CLOCK: [2017-02-18 Sat 17:58]--[2017-02-18 Sat 18:23] =>  0:25
+   - [[https://apps.ankiweb.net/docs/manual.html][Anki]]
+   - [[https://www.supermemo.com/en/frontpage][SuperMemo]]
+
 ** English
 *** DONE Vocabulary
     captured by voca-builder and [[file://usr/local/share/DVCS/lib/eng.org][stored into file]]
