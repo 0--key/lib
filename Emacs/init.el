@@ -12,14 +12,14 @@
 ;;
 (package-initialize)
 (elpy-enable)
-
+;;
 (require 'voca-builder)
   (setq voca-builder/voca-file "/usr/local/share/DVCS/lib/org/eng.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
   (setq voca-builder/current-tag "Quora")
 ;;
-
-
+(require 'bookmark+)
+;;
 (require 'org-bullets)
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
