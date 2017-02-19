@@ -49,17 +49,31 @@
 
 ***** Observer test syntax fix
 ***** Context manager test
-
 ** Emacs
 *** TODO Capture templates for
 **** quotation
 **** snippet
 **** point
+*** TODO Bookmarks+
+    CLOCK: [2017-02-20 Mon 08:11]
+    CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
+**** TODO Portability and synchronizing
+**** DONE desktops
+     Allow to customize your environment for particular
+     task. This feature allows you to:
+***** share
+      - bookmarks
+      - eww bookmarks
+***** custom
+      - registers
+      - buffers
+      - frames & windows
+***** desktop+
+      /it is buggy and often ruins a buffers list in the desktop/
 *** DONE ereader
     - nice tool to get in the hands
 *** DONE Man
 *** DONE registers
-**** TODO Bookmarks+
 *** DONE version control
 *** DONE Org-mode 9
     Several significant [[http://orgmode.org/Changes.html][changes]] and backward compatibility lost.
@@ -82,18 +96,6 @@
      - [[https://org-trello.github.io/install.html][Installation]]
 **** DONE Code blocks color
      Just modify =org-src-fontify-natively= to *on*
-*** DONE desktops
-    Allow to customize your environment for particular
-    task. This feature allows you to:
-**** share
-     - bookmarks
-     - eww bookmarks
-**** custom
-     - registers
-     - buffers
-     - frames & windows
-**** desktop+
-     /it is buggy and often ruins a buffers list in the desktop/
 *** DONE Install Emacs25.1 on Ubuntu 14.04
 *** DONE Install Emacs24.5 on Ubuntu 14.04
     [[Follow the link][Emacs24.5]]
