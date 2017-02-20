@@ -12273,7 +12273,72 @@
         : Our pet is 'Dog'!
         : Our pet says hello by 'Woof!'
         : Its food is 'Dog Food!'!
-***** 
+***** Button
+      #+BEGIN_SRC python :results output
+        from __future__ import print_function
+        import platform
+
+
+        class GuiFactory():
+            """Abstract Factory"""
+
+            @classmethod
+            def getFactory(Class):
+                if platform.system() == "Windows":
+                    return WinFactory()
+                elif platform.system() == "OSX":
+                    return OSXFactory()
+                elif platform.system() == "Linux":
+                    return LinuxFactory()
+
+            class Button:
+                """ Abstract Product"""
+
+                def paint(self):
+                    raise NotImplementedError
+
+            @classmethod
+            def getButton(Class):
+                return Class.Button()
+
+
+        class WinFactory(GuiFactory):
+            """Concrete Factory"""
+
+            class Button(GuiFactory.Button):
+                """Concrete Product"""
+
+                def paint(self):
+                    print("I am a Windows button")
+
+
+        class LinuxFactory(GuiFactory):
+            """Concrete Factory"""
+
+            class Button(GuiFactory.Button):
+                """Concrete Product"""
+
+                def paint(self):
+                    print("I am a Linux button")
+
+
+        class OSXFactory(GuiFactory):
+            """Concrete Factory"""
+
+            class Button(GuiFactory.Button):
+                """Concrete Product"""
+
+                def paint(self):
+                    print("I am a OSX button")
+
+
+        factory = GuiFactory.getFactory()
+        factory.getButton().paint()
+      #+END_SRC
+
+      #+RESULTS:
+      : I am a Linux button
+
 *** Singleton
 
 **** Definition
