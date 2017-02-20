@@ -11631,16 +11631,18 @@
 
 **** [[https://github.com/bslatkin/effectivepython][Git]]
 
-*** [[Test Driven Development Approach][Testing]]		      :tests:
-    #+BEGIN_SRC shell
+*** [[Test%20Driven%20Development%20Approach][Testing]]						       :test:doctest:
+    #+BEGIN_SRC sh :results output
     pwd
-    cd Learning_Python_Testing
+    # cd Learning_Python_Testing
     pwd
-    python -m doctest test.txt
+    # python -m doctest test.txt
      
     #+END_SRC
 
     #+RESULTS:
+    : /usr/local/share/DVCS/lib/org
+    : /usr/local/share/DVCS/lib/org
 
 *** Programming design patterns
 
