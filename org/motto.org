@@ -14117,7 +14117,6 @@
 *** Consistency
 *** Other qualities
 
-
 ** Test Driven Development Approach		:TDD:
 
 *** Main Concepts
@@ -15252,6 +15251,7 @@
 **** Computational complexity
 
 **** Algorithms research topics
+
 
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
