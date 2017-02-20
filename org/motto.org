@@ -1797,7 +1797,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [84%]
+*** TODO Verbs [88%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -4427,7 +4427,7 @@
       - And now I shall read out the names of the lucky winners!
       
 
-**** TODO Reflexive and ergative verbs
+**** DONE Reflexive and ergative verbs
 
 ***** Reflexive verbs
       The reflexive pronouns (see pronouns) are:
@@ -4482,10 +4482,97 @@
       - We all *enjoyed* _the party_.
       - I really *enjoyed* _my lunch_.
 
-
-
       +They all enjoyed+ They all *enjoyed* _themselves_.
       +I really enjoyed+ I really *enjoyed* _myself_.
+
+      *Note*: We do *not* use a reflexive pronoun after verb which
+      describe things people /usually/ do for themselves:
+
+      - He *washed* in cold water.
+      - He always *shaved* before going out in the evening.
+      - Michael *dressed* and got ready for the party.
+
+      We only use *reflexives* with these verbs for _emphasis_:
+
+      - He *dressed himself* _in spite of his injures_.
+      - _She's old enough_ to *wash herself*.
+
+
+***** Ergative verbs
+      Ergative verbs are *both* transitive and intransitive:
+
+      | Peter closed the door   |   | Transitive: N + V + N |
+      |-------------------------+---+-----------------------|
+      | The door closed         |   | Intransitive: N + V   |
+      |-------------------------+---+-----------------------|
+      | I boiled a pan of water |   | Transitive: N + V + N |
+      |-------------------------+---+-----------------------|
+      | The pan boiled          |   | Intransitive: N + V   | 
+
+
+      Common ergative verbs are:
+
+      | begin  | break | change  | close    | drop | crack | dry   | end   |
+      | finish | grow  | improve | increase | move | open  | shake | start |
+      | stop   | tear  | turn    |          |      |       |       |       |
+
+      + I *broke* the glass.
+      + I dropped the glass and it broke.
+
+      + The referee blew his whistle and started the match.
+      + The march started at 2.30.
+
+      + We grew some tasty potatoes.
+      + The potatoes were growing well.
+
+      + The wind shook the trees.
+      + The trees shook in the wind.
+
+
+      Many verbs to do with *cooking* are ergative verbs:
+
+      | bake   | boil | cook  | defrost |
+      |--------+------+-------+---------|
+      | freeze | melt | roast |         | 
+
+      - You should roast the meat at 200 degrees centigrade.
+      - The meat was roasting in a hot oven.
+
+      - I always defrost meat before I cook it.
+      - I am waiting for the meas to defrost.
+
+      - Melt the chocolate and pour it over the ice cream.
+      - The chocolate was melting in a pan.
+
+      Verbs to do with vehicles are often ergative:
+
+      | back | crash | drive | fly  | reverse |
+      |------+-------+-------+------+---------|
+      | run  | sail  | start | stop |         | 
+
+      - I'm learning to fly a plane.
+      - The plain flew at twice the speed of sound.
+
+      - He crashed his car into a tree.
+      - His car crashed into a tree.
+
+
+      We use some ergative verbs with only a few nouns:
+
+      | catch | dress, coat, clothes, trousers etc.   |
+      |-------+---------------------------------------|
+      | fire  | gun, pistol, rifle, rocket            |
+      |-------+---------------------------------------|
+      | play  | guitar, music, piano, violin, CD, DVD |
+      |-------+---------------------------------------|
+      | ring  | bell, alarm                           | 
+
+      - She caught her dress on a nail.
+      - Her dress caught on a nail.
+
+      - He fired a pistol to start the race.
+      - The pistol fired to start the race.
+
 
 **** TODO Verbs followed by /to/ + infinitive
 
