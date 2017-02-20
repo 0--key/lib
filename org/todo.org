@@ -63,7 +63,12 @@
 *** TODO Bookmarks+
     CLOCK: [2017-02-20 Mon 08:11]
     CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
-**** TODO Portability and synchronizing
+**** TODO Portability and synchronizing concept
+***** Create library
+***** Build the tree
+****** Settings
+****** Library
+****** Repositories
 **** DONE EWW bookmarks are in
      - as ~urls~
      - but disappeared in =eww=
