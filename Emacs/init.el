@@ -23,7 +23,7 @@
 (require 'org-bullets)
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
-(desktop-save-mode 1)
+;; (desktop-save-mode 1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
