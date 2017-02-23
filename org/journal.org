@@ -1,0 +1,83 @@
+
+* 2016
+** 2016-03 March
+*** 2016-03-24 Thursday
+**** Next capture
+   Entered on [2016-03-24 Thu 18:25]
+	Before we give the formal description of template definitions, let's
+     look at an example.  Say you would like to use one template to create
+     general TODO entries, and you want to put these entries under the
+     heading `Tasks' in your file `~/org/gtd.org'.  Also, a date tree in the
+     file `journal.org' should capture journal entries.  A possible
+     configuration would look like:
+     [[info:org#Capture%20templates][info:org#Capture templates]]
+**** And the next one
+   Entered on [2016-03-24 Thu 18:26]
+     If you then press `C-c c t', Org will prepare the template for you like
+     this:
+	  * TODO
+            [[file:LINK TO WHERE YOU INITIATED CAPTURE]]
+  
+     During expansion of the template, `%a' has been replaced by a link to
+     the location from where you called the capture command.  This can be
+     extremely useful for deriving tasks from emails, for example.  You fill
+     in the task definition, press `C-c C-c' and Org returns you to the same
+     place where you started the capture process.
+     [[info:org#Capture%20templates][info:org#Capture templates]]
+
+*** 2016-03-26 Saturday
+** 2016-06 June
+*** 2016-06-28 Tuesday
+**** Tortoise and hare
+   Entered on [2016-06-28 Tue 12:42]
+     As the tortoise said to the hare, slow and steady wins the race.
+** 2016-07 July
+*** 2016-07-01 Friday
+**** :-)
+   Entered on [2016-07-01 Fri 17:57]
+     Actions speak louder than words. Consequences matter more than
+     intentions.
+*** 2016-07-02 Saturday
+**** !=!
+   Entered on [2016-07-02 Sat 17:27]
+     “All men are created equal,”
+** 2016-11 November
+*** 2016-11-24 Thursday
+**** http://perfectimpulse.com/
+   Entered on [2016-11-24 Thu 20:38]
+     P.S. Please feel free to visit Perfect Impulse where I share
+     handpicked thoughts on self-improvement, productivity and life.
+**** https://en.wikipedia.org/wiki/Trie#/media/File:Trie_example.svg
+   Entered on [2016-11-24 Thu 20:43]
+     My favorite data structure is a digital tree or trie (trie comes from
+     the center of the word “retrieve”). Sadly not all data structures
+     courses cover this kind of trees and is a pity because they have many
+     interesting properties.
+*** 2016-11-25 Friday
+**** Nathan Yergler about PDB
+   Entered on [2016-11-25 Fri 12:47]
+   http://presentotron.com/nyergler/pdb/
+* Rockstar programmer
+   Entered on [2016-03-26 Sat 18:49]
+* 2017
+** 2017-02 February
+*** 2017-02-07 Tuesday
+**** epub only
+   Entered on [2017-02-07 Tue 19:45]
+     ereader            20161119.652  available  melpa      Major mode for reading ebooks with org-mode integration
+*** 2017-02-10 Friday
+**** TDD(!)
+   Entered on [2017-02-10 Fri 16:21]
+       abl-mode           20170208.647  available  melpa      Python TDD minor mode
+*** 2017-02-23 Thursday
+**** Project switching
+     Entered on [2017-02-23 Thu 18:32]
+     In particular, note that you can use the following kinds of bookmarks to
+     quickly switch among different projects (sets of bookmarks): Dired, Dired
+     tree, bookmark-list, bookmark-file, and desktop bookmarks.
+**** Seems like a killer feature for code refactoring
+     Entered on [2017-02-23 Thu 18:40]
+     You can regexp-search (‘M-a’) or query-replace (‘M-q’) the targets
+     (destination files or buffers) of the marked bookmarks, in the current
+     bookmark-list sort order. For Emacs 23 and later, you can even search
+     incrementally (‘M-s a C-s’, or ‘M-s a C-M-s’ for regexp).
