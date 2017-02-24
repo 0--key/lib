@@ -6944,3 +6944,98 @@ people use irregardless in their everyday speech.
 
 Examples in this manual indicate printed text with ‘⊣’, irrespective
 of where that text goes.
+
+* cramming 							      :Quora:
+[2017-02-24 Fri 20:39]
+переполняющий
+
+verb
+ 1. впихивать (cram, jam, squeeze)
+ 2. втискивать (squeeze, cram, box up, jam, edge into, fit in)
+ 3. пичкать (cram)
+ 4. втолковывать (cram, hammer, make understand)
+ 5. переполнять (overfill, overflow, overwhelm, overcrowd, cram, congest)
+ 6. набивать (fill, stuff, line, tamp, pack, print)
+ 7. откармливать (fatten, feed up, cram, flesh)
+ 8. наедаться (load, load up, cram, eat plenty of)
+ 9. натаскивать к экзамену (coach, coach for an examination, prime, cram)
+10. вбивать в голову (din into, cram, hammer, flog)
+11. наспех зазубривать (cram, cram up)
+12. лгать (lie, tell lies, slander, spruce, cram, sklent)
+
+DEFINITION
+
+noun
+ 1. the fraudulent practice of adding unauthorized charges to a customer's phone bill.
+    "Cramming occurs when a company places unauthorized, misleading or deceptive charges on your phone bill, and it happens all the time."
+
+verb
+ 1. completely fill (a place or container) to the point that it appears to be overflowing.
+    "the ashtray by the bed was crammed with cigarette butts"
+ 2. study intensively over a short period of time just before an examination.
+    "lectures were called off so students could cram for finals"
+
+To cram is to crowd or stuff people or things into a limited amount of
+space. You might be tempted to cram your mouth full of your mom's
+chocolate chip cookies, especially if they just came out of the oven
+and are still warm and gooey.
+
+You can cram yourself with food, or cram your books onto a shelf
+that's not quite big enough to hold them. A writer might cram one book
+with dozens of characters, or you could cram homemade pancakes with
+blueberries. Another way to cram is to study for a test all in one
+session: "I haven't studied at all yet — I'll have to stay up tonight
+and cram." The Old English root, crammian, means "stuff something into
+something else."
+
+After that you keep learning on the frigging as needed basis instead of
+cramming textbooks to pass algorithmic interviews.
+* notoriety :Quora:
+[2017-02-24 Fri 20:45]
+
+Notoriety is fame you get from doing something bad or being part of a
+misfortune or scandal. Just remember: Notoriety's not al-righty.
+Charles Manson earned notoriety for his grisly crimes.
+
+In our celebrity culture, it's hard not to think that seizing your 15
+minutes of fame is worth the shame of earning it through stupidity,
+scandal, or evil. (See: people's motives for going on reality
+television.) The rest of us can comfort ourselves with in our
+boringness that most people who become notorious fade from the public
+mind quickly.
+
+There are a few ways to do this,
+ but a copule are 1) working for others first and building a
+ clientele, or 2) gaining notoriety on the internet through a blog,
+ or as the author/contributor of an open source library.
+* tidbits :Quora:
+[2017-02-24 Fri 20:47]
+лакомые кусочки
+
+noun
+ 1. лакомый кусок (tidbit, tasty morsel, titbit)
+ 2. пикантная новость (tidbit, titbit)
+
+DEFINITION
+
+noun
+ 1. a small piece of tasty food.
+
+Here’s a few tidbits of advice:
+* invariants :Quora:
+[2017-02-24 Fri 21:29]
+инварианты
+
+noun
+ 1. инвариант (invariant)
+
+DEFINITION
+
+noun
+ 1. a function, quantity, or property that remains unchanged when a specified transformation is applied.
+    "For example, in Euclidean geometry, the relevant invariants are embodied in quantities that are not altered by geometric transformations such as rotations, dilations, and reflections."
+
+A friend of mine observed that people who have a CS background have a
+distinct approach to math problems: we try to give an algorithm to
+construct the desired object, then prove that it terminates and gives
+a correct result (typically using invariants).
