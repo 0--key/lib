@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(Info-default-directory-list (quote ("/usr/share/info/" "/usr/share/info/emacs-25/")))
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "/home/antony/.emacs.d/bookmarks")
  '(magit-diff-section-arguments (quote ("--no-ext-diff")))
  '(org-confirm-babel-evaluate nil)
  '(org-src-fontify-natively t)
@@ -13,7 +13,9 @@
    (quote
     (htmlize org bookmark+ ereader org-pomodoro color-theme colonoscopy-theme voca-builder swiper org-bullets octopress moe-theme magit-gh-pulls key-chord howdoi google-translate github-clone git-blame f eww-lnum elpy elfeed el-get)))
  '(send-mail-function (quote mailclient-send-it)))
+;;
 ;; end of custom variables
+
 ;;
 ;;
 (custom-set-faces
