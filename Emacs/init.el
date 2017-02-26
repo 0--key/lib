@@ -158,6 +158,10 @@
       ("https://www.quora.com/Philosophy-of-Everyday-Life/rss" Everyday)
       ("https://www.quora.com/Python-programming-language-1/rss" Python)
       ("https://www.quora.com/Web-Development/rss" Web Dev)
+      ("https://www.quora.com/profile/Noam-Ben-Ami/rss" Noam)
       ("https://www.quora.com/profile/James-Altucher/rss"  Altucher)
+      ("https://www.quora.com/Internship-Hiring/rss" Internship)
+      ("https://www.quora.com/Hiring/rss" Hiring)
+      ("https://www.quora.com/Engineering-Recruiting/rss" Recruiting)
       ))
 
