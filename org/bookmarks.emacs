@@ -15,17 +15,6 @@
     (position . 2062)
     (location . "https://www.quora.com/How-did-Rahul-Gulati-from-Jaypee-Institute-of-Information-Technology-get-hired-by-Facebook-and-then-by-Google/answer/Rahul-Gulati-2?ref=rss")
     (handler . bmkp-jump-eww))
-#1=(#("htmlize src highlight" 0 21
-      (bmkp-full-record #1#))
-    (buffer-name . "*Help*")
-    (visits . 2)
-    (time 22708 21653 715018 739000)
-    (created 22707 57848 281647 828000)
-    (position . 1)
-    (help-fn . describe-variable)
-    (help-args org-html-htmlize-output-type #<killed buffer>)
-    (position . 1)
-    (handler . help-bookmark-jump))
 #1=(#("What are the hardest and most useful skills to learn? - Quora" 0 61
       (bmkp-full-record #1#))
     (buffer-name . "*eww*")
