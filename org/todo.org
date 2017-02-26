@@ -60,6 +60,8 @@
 **** quotation
 **** snippet
 **** point
+*** TODO 25.1 overview
+    - https://www.masteringemacs.org/article/whats-new-in-emacs-25-1
 *** TODO Bookmarks+
     CLOCK: [2017-02-20 Mon 08:11]
     CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
@@ -125,6 +127,7 @@
 *** DONE Org-src export colorization
     - Existing [[http://emacs.stackexchange.com/questions/7629/the-syntax-highlight-and-indentation-of-source-code-block-in-exported-html-file][theme]]
 
+
 * Satellite
 ** DONE Porteus
 *** [[https://forum.porteus.org/viewtopic.php?f=81&t=6312&p=51379&hilit=ram+restore+changes#p51379][Save]] session's changes
@@ -188,3 +191,7 @@
     to achieve any results in speed in ignore /practice/.
 *** Data-Set deployment
     Locate your data separately, please.
+
+
+* Current
+  - zygospore          20140703.152  available  melpa      reversible C-x 1 (delete-other-windows)

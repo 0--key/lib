@@ -163,5 +163,6 @@
       ("https://www.quora.com/Internship-Hiring/rss" Internship)
       ("https://www.quora.com/Hiring/rss" Hiring)
       ("https://www.quora.com/Engineering-Recruiting/rss" Recruiting)
+      ("http://norvig.com/rss-feed.xml" Norvig)
       ))
 
