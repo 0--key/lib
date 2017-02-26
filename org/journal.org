@@ -81,3 +81,35 @@
      (destination files or buffers) of the marked bookmarks, in the current
      bookmark-list sort order. For Emacs 23 and later, you can even search
      incrementally (‘M-s a C-s’, or ‘M-s a C-M-s’ for regexp).
+*** 2017-02-26 Sunday
+**** Noam Ben-Ami
+     Entered on [2017-02-26 Sun 13:58]
+      1 First and foremost, many engineers simply write Bad Code: They inappropriately use recursion, they pick inappropriate data structures,
+       they don’t document their code, they pick poor variable names, they violate single responsibility like it’s going out of style, they use
+       inheritance as if it is a #include directive, god save us, they don’t understand synchronization and concurrency, they don’t think about
+       the memory and time implications of their algorithms, they don’t write tests, they violate least knowledge, etc etc etc. The most
+       fundamental skill is the ability to write solid code. This is the hardest skill and the one that requires the most work and experience.
+      2 Communication. Learn how to speak clearly, ask proper questions, listen carefully and pay attention to details.
+      3 Packaging and deployment. Learn how to properly package, version, and deploy code. Learn how to set up continuous integration and
+       deployment pipelines. It’s not sexy but it’s absolutely critical.
+      4 Testing. Learn how to properly test code. Understand the difference between unit, integration, soak, performance, smoke, and other test
+       types. Learn how to write code that is unit testable. Learn how to build proper integration harnesses and how to set up code coverage
+       reporting and how to automate test execution as part of your CI/CD pipeline.
+      5 Security. Learn how to write truly secure code. One interview question I have is how to prevent sql injection attacks. Most developers
+       get this flat out wrong and are flat out removed from any consideration: I consider their lack of basic knowledge to be a real and
+       present threat to any company that they work for.
+      6 Functional programming. Learn how to work within that paradigm. It’s taking over on both the front- and back-end and most developers
+       haven’t a clue about it and think that if they use lambdas then they are functional programmers.
+      7 Ok, this is the last one, but I think potentially the most important: Learn to teach and collaborate. There are amazing engineers out
+       there, but they don’t spread the love around, or they don’t keep up with the ecosystem. If you can teach the people around you new
+       things, if you can tell them “well, the way the industry is moving is like this, let me show you some new approaches” then you’re really
+       going to differentiate yourself. This means keeping up with developments in your sector - e.g. if you use Spark, know it well, and then
+       know what the latest version added and what the roadmap is and what potential technologies may displace it, then be prepared to carefully
+       talk about all that.
+      8 Well, well, apparently, much like Trump, I’m a liar. Here’s another crucial one: Be curious, for f*ck’s sake. I interview a lot of
+       people. And when I say a lot I mean I’ve screened literally hundreds of people for a dozen companies ranging from a single person doing
+       an MVP to Microsoft. Lack of curiosity crops up all the time, and it’s lethal. For example, I’ll speak to someone who has Spark on their
+       resume. Great, explain to me what makes Spark special. How do RDDs work? What are the different kinds of RDDs? How does Spark SQL work?
+       How does the streaming subsystem work? What are the tricky things you need to do in streaming that you don’t need to do in batch? If the
+       answer is “oh…um…sorry, I just wrote a Python script to count items in a log file,” then you’ve just a lot of damage to your credibility.
+       This used to happen a lot more often, until I learned how to detect lack of curiosity from the resume.
