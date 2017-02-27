@@ -113,3 +113,9 @@
        How does the streaming subsystem work? What are the tricky things you need to do in streaming that you don’t need to do in batch? If the
        answer is “oh…um…sorry, I just wrote a Python script to count items in a log file,” then you’ve just a lot of damage to your credibility.
        This used to happen a lot more often, until I learned how to detect lack of curiosity from the resume.
+*** 2017-02-27 Monday
+**** Data Structures
+     Entered on [2017-02-27 Mon 18:05]
+     The knowledge of data structures like Hash Tables, Trees, Tries,
+     Graphs and various algorithms goes a long way in solving these
+     problems efficiently.
