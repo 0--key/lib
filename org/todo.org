@@ -37,24 +37,24 @@
 *** Coding
 *** Code snippets
 *** Design patterns
-**** DONE Recursion
-**** DONE Clone python-patterns repositories
-     into =DVCS/pp= folder
+**** Study existing solution
+***** DONE Recursion
+***** DONE Clone python-patterns repositories
+      into =DVCS/pp= folder
 
-**** DONE Rename all repositories by their author nick
+***** DONE Rename all repositories by their author nick
 
-**** DONE Create =Emacs= deskop file there
+***** DONE Create =Emacs= deskop file there
 
-**** TODO Read all repos
+***** DONE Read all repos
 
-**** TODO Compile theirs gist into my own motto
+***** DONE Compile theirs gist into my own motto
 
-**** TODO Elaborate these addition
+***** DONE Elaborate these addition
 
-**** TODO Contribute it into faif
-
-***** Observer test syntax fix
-***** Context manager test
+***** DONE Contribute it into faif
+****** Observer test syntax fix
+****** Context manager test
 ** Emacs
 *** TODO Capture templates for
 **** quotation
