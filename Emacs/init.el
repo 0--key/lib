@@ -133,6 +133,13 @@
 
   ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
   ))
+
+;;
+;; http://0--key.github.io/emacs/org/export/jekyll/color-src-highlight.html
+;; (setq org-html-htmlize-output-type 'css)
+;; (setq org-html-htmlize-font-prefix "org-")
+;;
+
 ;;
 ;; (require 'magit-gh-pulls)
 ;; (add-hook 'magit-mode-hook 'turn-on-magit-gh-pulls)
