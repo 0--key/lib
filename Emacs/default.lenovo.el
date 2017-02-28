@@ -26,4 +26,4 @@
 (global-set-key (kbd "C-c t") 'google-translate-at-point)
 (global-set-key (kbd "C-c T") 'google-translate-query-translate)
 ;;
-(require 'ereader)
+
