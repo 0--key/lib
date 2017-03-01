@@ -5189,17 +5189,6 @@
 ***** Magit
       - status C-x g RET
       - main Git concept involves a conscious atomic committing ® 
-**** Shell
-     - eshell fully-customizing eLisp 
-**** TODO cSSh feature
-     launch many tasks in parallel on the different hosts
-**** color-theme.el
-**** M-x oddmuse-edit
-**** M-x irc /join #emacs
-**** Blog about Emacs
-     [[http://planet.emacsen.org][blog]]
-**** Pluralsight
-     great resource with video tutorials 
 *** Orgmode 			                :org:
 **** Getting started
 
@@ -5404,6 +5393,21 @@
 ***** Exit out from sparse tree
       C-c C-c
 ** MELPA installation
+** NOTES
+**** Shell
+     - eshell fully-customizing eLisp 
+**** cSSh feature
+     launch many tasks in parallel on the different hosts
+     cssh clusterssh implementation for emacs
+
+**** color-theme.el
+**** M-x oddmuse-edit
+**** M-x irc /join #emacs
+**** Blog about Emacs
+     [[http://planet.emacsen.org][blog]]
+**** Pluralsight
+     great resource with video tutorials 
+
 * Programming as art&craft
 ** Computation algorithms
 *** 6.006 Introduction to Algorithms
