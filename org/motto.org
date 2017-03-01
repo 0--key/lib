@@ -87,11 +87,11 @@
 * Enhance English			        :English:
 ** Grammar [85%]
    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
-*** DONE Pronouns [100%]
-**** DONE Personal pronouns
-**** DONE it and there
-**** DONE you and they
-**** DONE possessive pronouns (see possessives:- pronouns)
+*** Pronouns [100%]
+**** Personal pronouns
+**** it and there
+**** you and they
+**** possessive pronouns (see possessives:- pronouns)
 
      | subject | object | pos.adj | pos.pron |
      |---------+--------+---------+----------|
@@ -107,7 +107,7 @@
      |---------+--------+---------+----------|
      | they    | them   | their   | theirs   | 
   
-**** DONE this, that, these and those
+**** this, that, these and those
      What was that you said?
      This chicken tastes very good.
      Hello, this is Sandra speaking, how may I help you?
@@ -116,7 +116,7 @@
      I'm John and these are my children Molly and Jake.
      What are those men doing on the roof?
      Do you take this woman to be your lawfully wedded wife?
-**** DONE one and ones
+**** one and ones
      How old are my children? The younger one is four and the older
      one is seven.
      The new mobiles are much lighter than the old ones.
@@ -125,14 +125,14 @@
      Which do you prefer? This one, or that one?
      I need some new glasses. The ones I have at the moment are broken.
      I hope this holiday will be one to remember.
-**** DONE questions
+**** questions
      What you are afraid of?
      Which train did you come on?
      Who they are playing against?
      Which party are you going to vote for?
      What kind of music do you listen to?
      Who does she remaind you of?
-**** DONE reflexive pronouns
+**** reflexive pronouns
      The reflecxive pronouns are:
 
      | singular | myself - yourself - himself - herself - itself |
@@ -156,14 +156,14 @@
      He cut himself shaving today.
      Ladies and gentlemen. There's masses of food, so please help yourselves.
 
-**** DONE reciprocal pronouns: each other and one another
+**** reciprocal pronouns: each other and one another
      The animals looked at each other.
      Romeo and Juliet loved each other.
      You and Jack didn't talk to each other.
      We gave present to each other.
      My girlfriend and I met one another's parents last night.
      My brother and I used to borrow each other's clothes.
-**** DONE indefinite pronouns
+**** indefinite pronouns
 
      | somebody  | someone  | something  |
      |-----------+----------+------------|
@@ -188,7 +188,7 @@
      Helena sent twenty job applications but nobody replied.
      My home town is the same as it was twenty years ago; nothing has changed.
       
-**** DONE relative pronouns
+**** relative pronouns
       
      | Subject | Object | Posessive |
      |---------+--------+-----------|
@@ -207,7 +207,7 @@
      forgotten.
      Where's the girl who is selling the ice-cream?
      Isn't that the man, whose brother was a famous pianist?
-*** DONE Determiners and quantifiers [100%]
+*** Determiners and quantifiers [100%]
     - Determiners
       #+BEGIN_QUOTE
       D are words wich come at the beginning of the noun phrase.
@@ -232,7 +232,7 @@
       We use quantifiers when we want to give someone information about
       the number of something: how much or how many.
       #+END_QUOTE
-**** DONE interrogative determiners: which and what
+**** interrogative determiners: which and what
      - We use 'which' as a determiner to ask a question about a specific
        group of people or things:
        + Which restaurant did you go to?
@@ -240,7 +240,7 @@
      - When we are asking a general question we use 'what' as a determiner:
        + What films do you like?
        + What university did you go to?
-**** DONE indefinite article: a and an
+**** indefinite article: a and an
      1. We use the indefinite article, a/an, with count nouns when the 
 	hearer/reader does not know exactly which one we are referring to:
 	- Police are searching for a 14 year-old girl.
@@ -266,7 +266,7 @@
      - I was talking to a guy about that the other day. (1)
      - He seems to know a lot about wine. (3)
 
-**** DONE definite article: the
+**** definite article: the
      We use the definite article in front of a noun when we believe the
      hearer/reader knows exactly what we are referring to.
      - because there is only one:
@@ -336,7 +336,7 @@
 	 in the name of the hotel or restaurant is the name of the owner)
        + families: the Obamas, the Jacksons
 	  
-**** DONE quantifiers
+**** quantifiers
      #+BEGIN_QUOTE
      We use quantifiers when we want to give someone information about
      the number of something: how much or how many.
@@ -429,8 +429,8 @@
      - I went to a great deal of trouble to get those tickets.
      - Either that dog goes or I do!
 
-*** DONE Possessives [100%]
-**** DONE nouns
+*** Possessives [100%]
+**** nouns
      We use a noun with 's with a singular noun show possession:
      - We are having a party at John's house.
      - Michael drove his friend's car.
@@ -449,7 +449,7 @@
      |---------------------+------------------------|
      | Whose coat is this? | It's my wife's [coat]. |   
 
-**** DONE adjectives
+**** adjectives
 
      | Subject | Object | Possesive |
      |---------+--------+-----------|
@@ -483,7 +483,7 @@
      - Do you open your eyes under water?
      - I can't touch my toes any more. Time to go to the gym.
 
-**** DONE pronouns
+**** pronouns
      | Subject | Object | Possessive adj. | Possessive pronouns |
      |---------+--------+-----------------+---------------------|
      | I       | me     | my              | mine                |
@@ -519,7 +519,7 @@
      - Is the party at our place or theirs?
      - My dessert was the ice cream and yours was the mousse.
 
-**** DONE questions
+**** questions
      We use whose to ask questions:
      | Pattern A             | Pattern B             |
      |-----------------------+-----------------------|
@@ -527,11 +527,11 @@
      | Whose book is that?   | Whose is that book?   |
      | Whose bags are those? | Whose are those bags? | 
 
-**** DONE reciprocal pronouns (обоюдный)
+**** reciprocal pronouns (обоюдный)
      - They helped to look after each other's children.
      - We often stayed in one another's houses.
      One another refers to group larger than two members.
-*** DONE Adjectives [100%]
+*** Adjectives [100%]
     We use adjectives to describe nouns.
     Most adjectives can be used in front of a noun:
     - They have a beautiful house.
@@ -553,7 +553,7 @@
     - Sorry, can you stop the car? I feel sick.
     - I'd like to see than new Michael Moore film. It sounds
       interesting.
-**** DONE adjectives: -ed and -ing
+**** adjectives: -ed and -ing
      A lot of adjectives are made from verbs by adding -ing or -ed:
      - ing adjectives:
        the commonest -ing adjectives are:
@@ -586,7 +586,7 @@
        Example:
        - The children had nothing to do. They are bored.
 
-**** DONE order of adjectives
+**** order of adjectives
      Sometimes we use more than one adjective in front of a noun:
      - He was a nice intelligent young man.
      - She had a small round black wooden box.
@@ -672,7 +672,7 @@
      - He lives in the eastern district.
      - There were countless problems with the new machinery.
 
-**** DONE comparative and superlative adjectives
+**** comparative and superlative adjectives
      We use comparative adjectives to describe people and things:
      - This car is certainly better but it's much more expensive.
      - I'm feeling happier now.
@@ -705,7 +705,7 @@
      - That's the best film I've seen this year.
      - I have three sisters, Jan is the oldest and Angela is the youngest.
 
-**** DONE intensifiers
+**** intensifiers
 
      We use words like very, really and extremely to make adjectives
      stronger:
@@ -810,7 +810,7 @@
 
      You need to use your dictionary to find what sort of nouns these
      intensifiers go with.
-**** DONE mitigators
+**** mitigators
 
      Mitigators are the opposite of intensifiers. When we want to make
      an adjective less strong we use these words:
@@ -882,7 +882,7 @@
       - Cinema tickets are a bit more expensive on Saturdays.
       - Julia is just a little older than her twin sister.
 
-**** DONE noun modifiers
+**** noun modifiers
      We often use two nouns together to show that one thing is a part
      of something else:
 
@@ -941,8 +941,8 @@
       - The old newspaper seller
       - A tiring fifty kilometer journey
 
-*** DONE Adverbials [100%]
-**** DONE Why do we use adverbials
+*** Adverbials [100%]
+**** Why do we use adverbials
      We use adverbs to give more information about the verb.
 
      We use adverbials of manner to say how something happens or how
@@ -967,7 +967,7 @@
      - Perhaps the weather will be fine.
      - He is certainly coming to the party.
 
-**** DONE how we make adverbials
+**** how we make adverbials
       
 ***** An adverbial can be an adverb:
 
@@ -997,7 +997,7 @@
       - He's on the phone.
       - It opens automatically.
 
-**** DONE where do adverbials go in a sentence
+**** where do adverbials go in a sentence
 ***** We normally put adverbials /after the verb/:
 
       - He spoke angrily.
@@ -1051,7 +1051,7 @@
       - There is plenty of food and drink =in the kitchen=.
 	Please help yourself.
       - Hillary went into a cafe and =quickly ordered= a cup of coffee.
-**** DONE adverbs of manner
+**** adverbs of manner
      Adverbs of manner are usually formed from adjectives by adding -ly:
 
      - bad > badly
@@ -1114,7 +1114,7 @@
 	a book.
       - You look very bad! What time did you go to bed last night?
       
-**** DONE adverbials of place
+**** adverbials of place
      
      We use adverbials of place to describe:
 
@@ -1233,7 +1233,7 @@
       - How fare are we from the mainland?
       - This house is in a very nice part of town.
 
-**** DONE adverbials of time
+**** adverbials of time
      We use adverbials of time to say:
 ***** when something happened:
       - I saw Mary yesterday.
@@ -1405,7 +1405,7 @@
        - Have you fixed a car *yet*?
        - She won't have sent the email *yet*.
 
-**** DONE adverbials of probability
+**** adverbials of probability
      We use adverbials of probability to show *how certain we are* about
      something. The most frequent adverbials of probability are:
 
@@ -1439,7 +1439,7 @@
      - He said he would definitely be there.
      - I can't possibly refuse.
 
-**** DONE comparative adverbs
+**** comparative adverbs
      We can use comparative adverbs to show *change* of to make
      comparisons:
 
@@ -1469,7 +1469,7 @@
 
       She began to speak *a bit* more quickly.
       
-**** DONE superlative adverbs
+**** superlative adverbs
      We can use superlative adverbs to make comparisons:
 
      - His ankles hurt badly, but his knees hurt *worst*.
@@ -1488,7 +1488,7 @@
       - Going by train is much the best option, I think.
       - He's easily the best goalkeeper in the league.
       - Disaster struck when we least expected it.
-*** DONE Nouns
+*** Nouns
 **** Count nouns
      Count nouns have two forms: *singular* and *plural*.
 
@@ -1810,7 +1810,7 @@
     Most verbs have past tense and past participle in /-ed/ (worked,
     played, listened). But many of the most frequent verbs are irregular.
 
-**** DONE Irregular verbs
+**** Irregular verbs
      Most verbs have past tense and past participle in /-ed/ (worked,
     played, listened). But many of the most frequent verbs are irregular.
 
@@ -1868,7 +1868,7 @@
     | write      | wrote      | written         |
      
 
-**** DONE Question forms
+**** Question forms
      We make questions by:
 
 ***** moving an auxiliary to the front of the clause:
@@ -1911,7 +1911,7 @@
       - Could we have done anything?
 
 
-**** DONE Verb phrases
+**** Verb phrases
      The verb phrase in English has the following forms:
 
 ***** a main verb
@@ -1968,7 +1968,7 @@
       - It is raining again.
 
 
-**** DONE Present tense
+**** Present tense
      There are two tenses in English - past and present.
      The present tenses in English are used:
      - to talk about the *present*
@@ -2232,7 +2232,7 @@
 	- We haven't had any complaints so far.
 
 
-**** DONE Past tense
+**** Past tense
      There are two tenses in English - past and present.
      The past tense in English is used:
      - to talk about the *past*
@@ -2523,7 +2523,7 @@
        - I wish you'd told me earlier.
 
 
-**** DONE Perfective aspect
+**** Perfective aspect
 
 ***** We use the *present perfect* to show that something has continued
       up to the present:
@@ -2592,7 +2592,7 @@
        - I checked my cell phone. She *could have left* a message.
 
 
-**** DONE Continuous aspect
+**** Continuous aspect
      Both tenses have a continuous form. These continuous tenses are formed
      with the verb /be/ and the /-ing/ form of the verb:
 
@@ -2644,7 +2644,7 @@
       - She's going out with that friend of Mike's now.
 
 
-**** DONE Active and passive voice
+**** Active and passive voice
      *Transitive verbs* have both *active* and *passive* forms:
 
      | active                          | passive                       |
@@ -2711,7 +2711,7 @@
       - All members of staff will be taken down at the end of the month.
 
 
-**** DONE to +infinitive
+**** to +infinitive
      We use the /to/-infinitive:
 
 ***** to express *purpose* (to answer "Why...?"):
@@ -2822,7 +2822,7 @@
       - I am keen to hear all your latest news.
 
 
-**** DONE -ing forms
+**** -ing forms
      We can use the /-ing/ form of the verb:
       
 ***** as a *noun*:
@@ -2906,7 +2906,7 @@
       - It was a terrifying experience.
 
 
-**** DONE Talking about the present
+**** Talking about the present
 
 ***** We use present simple:
 
@@ -2949,7 +2949,7 @@
       - Who's knocking at the door? I don't know. It *could be* the police.
 
 
-**** DONE Talking about the past
+**** Talking about the past
       
 ***** Talking about past events and situations:
 
@@ -3055,7 +3055,7 @@
 	in the war.
 
 
-**** DONE Talking about the future
+**** Talking about the future
 
 ***** When we *know* about the *future* we normally use the *present tense*.
 
@@ -3167,7 +3167,7 @@
       - I'd love to come, but I am watching game tonight.
 
 
-**** DONE Verbs in time clauses and if clauses
+**** Verbs in time clauses and if clauses
 
 ***** Verbs in *time clauses* and *conditionals* follow the same patterns
       as in other clauses
@@ -3267,7 +3267,7 @@
       - I will ring you as soon as I reach the house.
 
 
-**** DONE Wishes and hypotheses
+**** Wishes and hypotheses
 
 ***** Wishes
       We use *past tense forms* to talk about wishes:
@@ -3342,7 +3342,7 @@
       - We should take the underground in case there's a lot of traffic.
 
 
-**** DONE The verb *be*
+**** The verb *be*
      The verb *be* has the following forms:
      | Present simple:      | Affirmative:   | I am                   | We are              |
      |                      |                | You are                | You are             |
@@ -3394,7 +3394,7 @@
       - The flowers *are on the table*.
 
 
-**** DONE Link verbs
+**** Link verbs
      Some verbs are followed by either a noun or an adjective:
      | She was a good friend | = | N + V + N   |
      |-----------------------+---+-------------|
@@ -3441,7 +3441,7 @@
       - He is very proud of his children.
 
 
-**** DONE Delexical verbs like have, take, make, go, do and give
+**** Delexical verbs like have, take, make, go, do and give
      We often use common verbs like *have* and *take* with nouns like
      /a shower/, /a drink/:
      - I *took* /a shower/. = I showered.
@@ -3652,7 +3652,7 @@
 	  I didn't have time to do the ironing.
 
 
-**** DONE Modal verbs
+**** Modal verbs
      The modal verbs are:
 
      | can    | could | may   | might | shall |
@@ -4260,7 +4260,7 @@
 
 
 
-**** DONE Double object verbs
+**** Double object verbs
      
 ***** Some verbsl have *two objects* -
       an indirect object and a direct object:
@@ -4332,7 +4332,7 @@
       - Don't tell me now. Save it for later.
 
 
-**** DONE Phrasal verbs
+**** Phrasal verbs
      Some verbs are *two part* verbs (see Clauses, Sentences and
      Phrases). They consist of a *verb* and a *particle*:
       - grow + up
@@ -4427,7 +4427,7 @@
       - And now I shall read out the names of the lucky winners!
       
 
-**** DONE Reflexive and ergative verbs
+**** Reflexive and ergative verbs
 
 ***** Reflexive verbs
       The reflexive pronouns (see pronouns) are:
@@ -4574,7 +4574,7 @@
       - The pistol fired to start the race.
 
 
-**** DONE Verbs followed by /to/ + infinitive
+**** Verbs followed by /to/ + infinitive
 
 ***** Some verbs are followed by the /to-infinitive/:
 
@@ -4696,12 +4696,12 @@
 **** My Family and Other Animals                                       :MFOA:
 **** How to Read a Book                                                 :HRB:
 **** Moonwalking with Einstein                                          :MwE:
-**** DONE The Time Machine					:TTM:
-**** DONE Python Talk to Me podcast
-**** DONE [[Version Control with Git][Version Control with Git]]
+**** The Time Machine					:TTM:
+**** Python Talk to Me podcast
+**** [[Version Control with Git][Version Control with Git]]
 **** [[TDPD][Test-Driven Python Development]]
 ** Vocabulary [50%]
-*** DONE Vocabla repetition
+*** Vocabla repetition
 *** Quora reading
 **** TODO Quotations about life sense
      #+BEGIN_QUOTE
@@ -4894,7 +4894,7 @@
 ** Sacha [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][config]]
 ** Elpy                                                                :elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
-** DONE Update Emacs version up to 24.5	        :24.5:
+** Update Emacs version up to 24.5	        :24.5:
    #+NAME: Emacs24.5
    - Package `emacs-24.4' is unavailable
    - Download from http://ftp.gnu.org/gnu/emacs/
@@ -4908,15 +4908,15 @@
       create .deb package
    - sudo apt-mark hold emacs
      to prevent unneccessary update with 14.04 core
-** DONE OrgBullets
+** OrgBullets
    https://github.com/sabof/org-bullets
-** DONE YaSnippet
+** YaSnippet
    [[http://capitaomorte.github.io/yasnippet/][YaSnippet]]
 *** predefined snippets for PyMode
     ~/.emacs.d/elpa/elpy-1.10.0/snippets/python-mode/
-** DONE OrgMode					:OrgMode:
+** OrgMode					:OrgMode:
    [[http://orgmode.org/orgcard.pdf][refCard]] <2016-01-18 Mon>
-*** DONE Reveal OrgMode BaBel <2016-03-01 Tue>	:babel:
+*** Reveal OrgMode BaBel <2016-03-01 Tue>	:babel:
 **** Intro
      http://orgmode.org/worg/org-contrib/babel/intro.html
 **** Tutorial
@@ -4945,7 +4945,7 @@
      | <I       | #+INCLUDE:          |
      |----------+---------------------|
 
-*** DONE Literate programming			:literate:programming:
+*** Literate programming			:literate:programming:
     #+BEGIN_QUOTE
     Literate programming is what you need to rise above the ordinary level
     of achievement. But I don’t believe in forcing ideas on anybody.
@@ -5092,7 +5092,7 @@
 *** Dates <2016-02-03 Wed>
 *** Tags <2016-02-04 Thu>
     C-c \ or C-c / m
-** DONE KeyChord
+** KeyChord
    [[http://www.emacswiki.org/emacs/key-chord.el][KeyChord]] <2016-01-18 Mon>
 *** mkdir ~/.emacs.d/lisp/
 **** put into it key-chord.el
@@ -5193,12 +5193,12 @@
      - eshell fully-customizing eLisp 
 **** TODO cSSh feature
      launch many tasks in parallel on the different hosts
-**** DONE color-theme.el
+**** color-theme.el
 **** M-x oddmuse-edit
 **** M-x irc /join #emacs
 **** Blog about Emacs
      [[http://planet.emacsen.org][blog]]
-**** DONE Pluralsight
+**** Pluralsight
      great resource with video tutorials 
 *** Orgmode 			                :org:
 **** Getting started
@@ -5246,7 +5246,7 @@
 ***** C-c / <extra-key>
 ***** Exit out from sparse tree
       C-c C-c
-** DONE MaGit					:Magit:
+** MaGit					:Magit:
 *** Core features
     In Magit staging a hunk or even just part of a hunk is as trivial as
     staging all changes made to a file.
@@ -5327,10 +5327,10 @@
 **** Discard hunk in _(un)_staged area:
      k(ill) malicious changes and revert buffer
 *** Plugins
-**** DONE github-clone
-**** DONE magit-hg-pulls
+**** github-clone
+**** magit-hg-pulls
 
-** DONE Emacs regexp				:regexp:
+** Emacs regexp				:regexp:
 *** Emacs regex Syntax
     The most commonly used command that uses regex is ~query-replace-regexp~.
 
@@ -5392,14 +5392,14 @@
 *** Samples:
     Ctrl-q Ctrl-j [-][-_A-Za-z0-9 ]+[.srt]+$
 
-** DONE Capture
+** Capture
    Capture lets you quickly store notes with little interruption of your
    work flow.
 *** Setting up
 *** Using
-*** DONE Capture templates
+*** Capture templates
 
-** DONE Voca-builder				:vocabulary:extension:
+** Voca-builder				:vocabulary:extension:
 
 ***** Exit out from sparse tree
       C-c C-c
@@ -8393,7 +8393,7 @@
 
 *** Test-Driven Python Development [100%]                              :TDPD:
     #+NAME: TDPD
-**** DONE 1. Getting Starqted with Test-Driven Development 
+**** 1. Getting Starqted with Test-Driven Development 
 ***** Prerequisites
 ***** Understanding test-driven development 
 ***** TDD versus unit testing versus integration testing 
@@ -8405,7 +8405,7 @@
 ***** Reorganizing the test code 
 ***** Running the tests after the reorganization 
 ***** Summary 
-**** DONE 2. Red-Green-Refactor – The TDD Cycle 
+**** 2. Red-Green-Refactor – The TDD Cycle 
 ***** Tests are executable requirements 
 ***** Arrange-Act-Assert 
 ***** Documenting our tests 
@@ -8852,10 +8852,10 @@
 ** Python's Theory						     :theory:
 
 *** Official Python documentation			      :documentation:
-**** DONE The Python Tutorial [100%]				   :tutorial:
-***** DONE Whetting Your Appetite
+**** The Python Tutorial [100%]				   :tutorial:
+***** Whetting Your Appetite
 
-***** DONE Using the Python Interpreter
+***** Using the Python Interpreter
 
 ****** Invoking the Interpreter
 
@@ -8867,7 +8867,7 @@
 
 ******* Source Code Encoding
 
-***** DONE An Informal Introduction to Python
+***** An Informal Introduction to Python
 
 ****** Using Python as a Calculator
 
@@ -8929,7 +8929,7 @@
 		 a, b = b, a + b
 	   #+END_SRC
 
-***** DONE More Control Flow Tools
+***** More Control Flow Tools
 
 ****** "if" Statements
        #+BEGIN_EXAMPLE
@@ -9287,7 +9287,7 @@
        use "CamelCase" for classes and "lower_case_with_underscores" for
        functions and methods.
 
-***** DONE Data Structures
+***** Data Structures
 ****** Terse manual
 ******* list.append(x)
 	 Add an item to the end of the list.
@@ -9839,7 +9839,7 @@
        (1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
        #+END_QUOTE
 
-***** DONE Modules
+***** Modules
       #+BEGIN_SRC python :results output :session modules
         import fibo
         fibo.fib(1000)
@@ -9912,7 +9912,7 @@
 
 ******* Packages in Multiple Directories
 	##
-***** DONE Input and Output
+***** Input and Output
 ****** Fancier Output Formatting
 	#+BEGIN_SRC python :results output
           for x in range(1, 11):
@@ -10061,7 +10061,7 @@
 	: 
 	: >>> >>> >>> >>> '[1, "simple", "list"]'
 
-***** DONE Errors and Exceptions
+***** Errors and Exceptions
 ****** Syntax Errors
        Syntax errors, also known as parsing errors, are perhaps the most
        common kind of complaint you get while you are still learning Python
@@ -10235,7 +10235,7 @@
        After the statement is executed, the file ~f~ is always closed, even
        if a problem was encountered while processing the lines.
 
-***** DONE Classes
+***** Classes
 
 ****** A Word About Names and Objects
 ****** Python Scopes and Namespaces
@@ -10599,7 +10599,7 @@
          ['f', 'l', 'o', 'g']
        #+END_SRC
 
-***** DONE Brief Tour of the Standard Library
+***** Brief Tour of the Standard Library
 ****** Operating System Interface					 :os:
        #+BEGIN_SRC python :session stdlib
          import os
@@ -10867,7 +10867,7 @@
 
 ****** Batteries Included ®
 
-***** DONE Brief Tour of the Standard Library -- Part II
+***** Brief Tour of the Standard Library -- Part II
 
 ****** Output Formatting
 ******* Provides a version of ~repr()~ customized for abbreviated   :reprlib:
@@ -11199,7 +11199,7 @@
 	: NameError: name 'getcontext' is not defined
 	: Decimal('0.1428571428571428571428571429')
 
-***** DONE Virtual Environments and Packages			       :venv:
+***** Virtual Environments and Packages			       :venv:
 ****** Introduction
 ****** Creating Virtual Environments
 ****** Managing Packages with pip				  :pip:shell:
@@ -11277,12 +11277,12 @@
 	pip install -r requirements.txt
 	#+END_EXAMPLE
 
-***** DONE Interactive Input Editing and History Substitution
+***** Interactive Input Editing and History Substitution
 ****** Tab Completion and History Editing
 
 ****** Alternatives to the Interactive Interpreter
 
-***** DONE Floating Point Arithmetic:  Issues and Limitations
+***** Floating Point Arithmetic:  Issues and Limitations
       Just remember, even though the printed result looks like the exact
       value of 1/10, the actual stored value is the nearest representable
       binary fraction.
@@ -11310,8 +11310,8 @@
        Fortran, and many others) often won't display the exact decimal number
        you expect.
 
-***** DONE What Now?
-***** DONE Appendix
+***** What Now?
+***** Appendix
 ****** Interactive Mode
 ******* Error Handling
 
@@ -11322,9 +11322,9 @@
 ******* The Customization Modules
 
 **** Standard Library [100%]                                         :stdlib:
-***** DONE 1. Introduction
+***** 1. Introduction
 
-***** DONE 2. Built-in Functions
+***** 2. Built-in Functions
       #+BEGIN_QUOTE
       built-in functions and exceptions — objects that can be used by
       all Python code *without the need of an import* statement.
@@ -11361,7 +11361,7 @@
 	:     If the iterable is empty, return True.
 
 
-***** DONE 3. Built-in Constants
+***** 3. Built-in Constants
       - False
       - True
       - None
@@ -12129,20 +12129,20 @@
 
 ***** Functional Programming HOWTO [100%]                         :func_prog:
 
-****** DONE Introduction [4/4]
+****** Introduction [4/4]
 
-******* DONE Formal provability
+******* Formal provability
 	#+BEGIN_QUOTE
 	Even if you wrote down or generated
 	a proof, there would then be the question of verifying the proof;
 	maybe there's an error in it, and you wrongly believe you've proved
 	the program correct.
 	#+END_QUOTE
-******* DONE Modularity
+******* Modularity
 
-******* DONE Ease of debugging and testing
+******* Ease of debugging and testing
 
-******* DONE Composability
+******* Composability
 	#+BEGIN_QUOTE
 	Over time you'll form a personal library of utilities.  Often you'll
 	assemble new programs by arranging existing functions in a new
@@ -12150,7 +12150,7 @@
 	task.
 	#+END_QUOTE
 
-****** DONE Iterators						       :iter:
+****** Iterators						       :iter:
        #+BEGIN_QUOTE
        An iterator is an object representing a stream of data; this object
        returns the data one element at a time.
@@ -12263,7 +12263,7 @@
 	: ... >>>
 	: {'Italy': 'Rome', 'US': 'Washington DC', 'France': 'Paris'}
 
-****** DONE Generator expressions and list comprehensions  :genexps:listcomp:
+****** Generator expressions and list comprehensions  :genexps:listcomp:
        
        #+BEGIN_SRC python :results output :session fp
          line_list = ['  line 1\n', 'line 2  \n', 'line 3 \n']
@@ -12320,7 +12320,7 @@
 	('c', 3)]
 #+end_example
 
-****** DONE Generators						      :yield:
+****** Generators						      :yield:
        #+BEGIN_QUOTE
        Generators are a special class of functions that simplify the task of
        writing iterators.  Regular functions compute a value and return it,
@@ -12405,7 +12405,7 @@
 	:   File "<stdin>", line 1, in <module>
 	: StopIteration
 
-****** DONE Built-in functions					  :built:ins:
+****** Built-in functions					  :built:ins:
 
 ******* map()								:map:
 	#+BEGIN_SRC python :results output :session fp
@@ -12962,7 +12962,7 @@
 
 *** NLP with Python							:NLP:
 *** Python for Data Analyse				       :data:analyse:
-**** DONE Preliminaries
+**** Preliminaries
 **** Introductory Examples <2016-01-18 Mon>
 ***** collections pack
 **** IPython: An Interactive Computing and Development Environment
@@ -15678,7 +15678,7 @@
 
 * Open-Source contributing			:OpenSource:
 ** Fork useful projects				:forks:
-*** DONE Manual how to fork
+*** Manual how to fork
 **** Forking itself
      Just by pushing the button on useful project
      page. It's enough to get its fork in your
@@ -15697,11 +15697,11 @@
      git merge upstream/master     
      #+END_SRC
      
-*** DONE EffectivePython
+*** EffectivePython
     [[/usr/local/share/DVCS/lib/Python/edu/effectivepython][fork]]
-*** DONE Python-Patterns
+*** Python-Patterns
     [[/usr/local/share/DVCS/lib/Python/edu/python-patterns][fork]]
-*** DONE Talk Python to Me
+*** Talk Python to Me
     [[file:/usr/local/share/DVCS/talk-python-transcripts/][fork]]
 *** [[https://github.com/faif/python-patterns][python-patterns]]
 ** Evaluate it in educational purposes
@@ -15710,10 +15710,10 @@
   https://github.com/milkypostman/melpa
 
 * Publish your posts out from org-mode
-** DONE at Github pages at [[http://0--key.github.io/][this address]]
-** DONE Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]] based on this [[https://github.com/plusjade/jekyll-bootstrap.git][template]]
+** at Github pages at [[http://0--key.github.io/][this address]]
+** Jekyll full-fledged [[https://acaird.github.io/computers/2013/05/24/blogging-with-org-and-git][solution]] based on this [[https://github.com/plusjade/jekyll-bootstrap.git][template]]
 *** Guides how to blogging with Emacs			       :html:publish:
-**** DONE Scientific usage [[illustration][sample]] proves that it might be awesome
+**** Scientific usage [[illustration][sample]] proves that it might be awesome
 
        *Installation Guide*
 
@@ -15836,5 +15836,5 @@
 
 **** One [[https://github.com/LeslieZhu/OrgNote][another]] implementation *OrgNote* nice, but =without RSS=
 
-** DONE Make a separate repo for blog's org-sources
+** Make a separate repo for blog's org-sources
 
