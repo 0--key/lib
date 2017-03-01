@@ -31,9 +31,9 @@
 *** Quotations
 
 ** Python
-*** TODO Warnings
-*** TODO Logging
-*** TODO Context manager
+*** Warnings
+*** Logging
+*** Context manager
 *** Coding
 *** Code snippets
 *** Design patterns
@@ -60,11 +60,11 @@
 ***** Create structure
 ***** Fulfill it by relevant content
 ** Emacs
-*** TODO Capture templates for
+*** Capture templates for
 **** quotation
 **** snippet
 **** point
-*** TODO 25.1 overview
+*** 25.1 overview
     - https://www.masteringemacs.org/article/whats-new-in-emacs-25-1
 *** TODO Bookmarks+
     CLOCK: [2017-02-20 Mon 08:11]
