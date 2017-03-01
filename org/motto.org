@@ -8,11 +8,11 @@
 * Knowledge is power © 				:True:InitialPostulate:
 ** it is product of education;        :True:
 
-*** TODO reading;
+*** reading;
 
-*** TODO thinking;
+*** thinking;
 
-*** TODO practicing;
+*** practicing;
 
 ** all knowledges reside in the memory;
 
@@ -85,7 +85,7 @@
     - Repeat the exercise
      
 * Enhance English			        :English:
-** TODO Grammar [75%]
+** Grammar [85%]
    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
 *** DONE Pronouns [100%]
 **** DONE Personal pronouns
@@ -1797,7 +1797,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** TODO Verbs [92%]
+*** Verbs [92%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -4690,19 +4690,19 @@
 
 *** TODO Clause, phrase and sentence
 
-** TODO Pronounce [0%]
-*** TODO Reading aloud at the regualr base [37%] 	       :reading:list:
-**** TODO Adventures of Hucklberry Finn				:AHF:
-**** TODO My Family and Other Animals				:MFOA:
-**** TODO How to Read a Book					:HRB:
-**** TODO Moonwalking with Einstein				:MwE:
+** Pronounce [0%]
+*** Reading aloud at the regualr base [100%]                   :reading:list:
+**** Adventures of Hucklberry Finn                                      :AHF:
+**** My Family and Other Animals                                       :MFOA:
+**** How to Read a Book                                                 :HRB:
+**** Moonwalking with Einstein                                          :MwE:
 **** DONE The Time Machine					:TTM:
 **** DONE Python Talk to Me podcast
 **** DONE [[Version Control with Git][Version Control with Git]]
-**** TODO [[TDPD][Test-Driven Python Development]]
-** TODO Vocabulary [50%]
+**** [[TDPD][Test-Driven Python Development]]
+** Vocabulary [50%]
 *** DONE Vocabla repetition
-*** TODO Quora reading
+*** Quora reading
 **** TODO Quotations about life sense
      #+BEGIN_QUOTE
      One easy way to create a unique skill is to combine two
@@ -4716,7 +4716,7 @@
      you are proven wrong, that doesn't make me right.  I could
      be just as wrong as you.
      #+END_QUOTE
-**** TODO Software Engineering maroon
+**** Software Engineering maroon
      #+BEGIN_QUOTE
      Decorators are convenient for factoring out common prologue,
      epilogue, and/or exception-handling code in similar functions
@@ -4891,8 +4891,8 @@
    
 * Enlarge Emacs toolbox 	                :Emacs:
 
-** TODO Sacha [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][config]]
-** DONE Elpy					:elpy:
+** Sacha [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][config]]
+** Elpy                                                                :elpy:
    [[http://elpy.readthedocs.org/en/latest/ide.html#documentation][Elpy]]
 ** DONE Update Emacs version up to 24.5	        :24.5:
    #+NAME: Emacs24.5
@@ -5104,7 +5104,7 @@
     (require 'key-chord)
     (key-chord-mode 1)
     (require 'key-chord-map)
-** TODO New shortcuts 	                        :keys:
+** New shortcuts                                                       :keys:
 *** General 					:gen:
 **** *Help* with keys C-h b, d, k, v(ariable)
 **** M-x toggle-truncate-lines
@@ -5246,12 +5246,6 @@
 ***** C-c / <extra-key>
 ***** Exit out from sparse tree
       C-c C-c
-** DONE MELPA installation
-** DONE Helm-dictionary install and test it up
-** DONE Embedding Git
-   *Optionally* for _direct&instant_ Git usage
-   sudo apt-get install git-el on Ubuntu host
-   & git-blame as Emacs package
 ** DONE MaGit					:Magit:
 *** Core features
     In Magit staging a hunk or even just part of a hunk is as trivial as
@@ -5409,6 +5403,7 @@
 
 ***** Exit out from sparse tree
       C-c C-c
+** MELPA installation
 * Programming as art&craft
 ** Computation algorithms
 *** 6.006 Introduction to Algorithms
@@ -8396,7 +8391,7 @@
 ***** Summary 
 ***** Index 
 
-*** Test-Driven Python Development [20%] 			       :TDPD:
+*** Test-Driven Python Development [100%]                              :TDPD:
     #+NAME: TDPD
 **** DONE 1. Getting Starqted with Test-Driven Development 
 ***** Prerequisites
@@ -8571,7 +8566,7 @@
 ***** Exploring the Rule classes 
 ***** Exercise 
 ***** Summary 
-**** TODO 3. Code Smells and Refactoring 
+**** 3. Code Smells and Refactoring 
 ***** A dual crossover moving average 
 ***** Implementing the dual crossover moving average 
 ***** Identifying code smells
@@ -8692,7 +8687,7 @@
       Test-driven development and refactoring go hand in hand and are invaluable
       tools in any developer's toolbox.
       #+END_QUOTE
-**** TODO 4. Using Mock Objects to Test Interactions 
+**** 4. Using Mock Objects to Test Interactions 
 ***** Hand writing a simple mock 
 ***** Using the Python mocking framework 
 ***** Mocking objects 
@@ -8704,7 +8699,7 @@
 ***** An important gotcha when patching 
 ***** Tying it all together 
 ***** Summary 
-**** TODO 5. Working with Legacy Code 
+**** 5. Working with Legacy Code 
 ***** What is legacy code? 
 ***** Understanding the code 
 ***** What are characterization tests? 
@@ -8726,7 +8721,7 @@
 ***** Time to refactor 
 ***** Long-term refactoring 
 ***** Summary 
-**** TODO 6. Maintaining Your Test Suite 
+**** 6. Maintaining Your Test Suite 
 ***** Goals of test maintenance 
 ***** Organizing tests 
 ***** Filesystem layout 
@@ -8743,7 +8738,7 @@
 ***** Using custom equality checkers 
 ***** Using matchers 
 ***** Summary 
-**** TODO 7. Executable Documentation with doctest 
+**** 7. Executable Documentation with doctest 
 ***** Our first doctest 
 ***** Running the doctest 
 ***** Test failures 
@@ -8756,7 +8751,7 @@
 ***** Doctest directives 
 ***** How do doctests fit into the TDD process? 
 ***** Summary 
-**** TODO 8. Extending unittest with nose2 
+**** 8. Extending unittest with nose2 
 ***** Getting started with nose2 
 ***** Writing tests for nose2 
 ***** Setup and teardown 
@@ -8769,8 +8764,8 @@
 ***** Measuring test coverage 
 ***** Debugging test failures 
 ***** nose2 configuration 
-***** TODO Summary 
-**** TODO 9. Unit Testing Patterns 
+***** Summary 
+**** 9. Unit Testing Patterns 
 ***** Pattern – fast tests 
 ***** Pattern – running a subset of tests 
 ***** Test loaders 
@@ -8786,7 +8781,7 @@
 ***** Pattern – patching the open function 
 ***** Pattern – mocking with mutable args 
 ***** Summary 
-**** TODO 10. Tools to Improve Test-Driven Development 
+**** 10. Tools to Improve Test-Driven Development 
 ***** TDD tools 
 ***** py.test 
 ***** py.test versus nose2 
@@ -11326,7 +11321,7 @@
 
 ******* The Customization Modules
 
-**** Standard Library [8%] 					     :stdlib:
+**** Standard Library [100%]                                         :stdlib:
 ***** DONE 1. Introduction
 
 ***** DONE 2. Built-in Functions
@@ -11419,7 +11414,7 @@
 
       
 ****** 3.1. Constants added by the site module 
-***** TODO 4. Built-in Types
+***** 4. Built-in Types
 
 ****** 4.1. Truth Value Testing 
 
@@ -11447,7 +11442,7 @@
 
 ****** 4.13. Special Attributes 
 
-***** TODO 5. Built-in Exceptions
+***** 5. Built-in Exceptions
 
 ****** 5.1. Base classes 
 
@@ -11457,7 +11452,7 @@
 
 ****** 5.4. Exception hierarchy 
 
-***** TODO 6. Text Processing Services
+***** 6. Text Processing Services
 
 ****** 6.1. string — Common string operations 
 
@@ -11475,13 +11470,13 @@
 
 ****** 6.8. rlcompleter — Completion function for GNU readline 
 
-***** TODO 7. Binary Data Services
+***** 7. Binary Data Services
 
 ****** 7.1. struct — Interpret bytes as packed binary data 
 
 ****** 7.2. codecs — Codec registry and base classes 
 
-***** TODO 8. Data Types
+***** 8. Data Types
 
 ****** 8.1. datetime — Basic date and time types 
 
@@ -11534,7 +11529,7 @@
 
 ****** 8.13. enum — Support for enumerations 
 
-***** TODO 9. Numeric and Mathematical Modules
+***** 9. Numeric and Mathematical Modules
 
 ****** 9.1. numbers — Numeric abstract base classes 
 
@@ -11550,7 +11545,7 @@
 
 ****** 9.7. statistics — Mathematical statistics functions 
 
-***** TODO 10. Functional Programming Modules
+***** 10. Functional Programming Modules
 
 ****** 10.1. itertools — Functions creating iterators for efficient
 
@@ -11562,7 +11557,7 @@
 
 ****** 10.3. operator — Standard operators as functions 
 
-***** TODO 11. File and Directory Access
+***** 11. File and Directory Access
 
 ****** 11.1. pathlib — Object-oriented filesystem paths 
 
@@ -11586,7 +11581,7 @@
 
 ****** 11.11. macpath — Mac OS 9 path manipulation functions 
 
-***** TODO 12. Data Persistence
+***** 12. Data Persistence
 
 ****** 12.1. pickle — Python object serialization 
 
@@ -11600,7 +11595,7 @@
 
 ****** 12.6. sqlite3 — DB-API 2.0 interface for SQLite databases 
 
-***** TODO 13. Data Compression and Archiving
+***** 13. Data Compression and Archiving
 
 ****** 13.1. zlib — Compression compatible with gzip 
 
@@ -11614,7 +11609,7 @@
 
 ****** 13.6. tarfile — Read and write tar archive files 
 
-***** TODO 14. File Formats
+***** 14. File Formats
 
 ****** 14.1. csv — CSV File Reading and Writing 
 
@@ -11626,13 +11621,13 @@
 
 ****** 14.5. plistlib — Generate and parse Mac OS X .plist files 
 
-***** TODO 15. Cryptographic Services
+***** 15. Cryptographic Services
 
 ****** 15.1. hashlib — Secure hashes and message digests 
 
 ****** 15.2. hmac — Keyed-Hashing for Message Authentication 
 
-***** TODO 16. Generic Operating System Services
+***** 16. Generic Operating System Services
 
 ****** 16.1. os — Miscellaneous operating system interfaces 
 
@@ -11670,7 +11665,7 @@
 
 ****** 16.16. ctypes — A foreign function library for Python 
 
-***** TODO 17. Concurrent Execution
+***** 17. Concurrent Execution
 
 ****** 17.1. threading — Thread-based parallelism 
 
@@ -11694,7 +11689,7 @@
 
 ****** 17.10. _dummy_thread — Drop-in replacement for the _thread module 
 
-***** TODO 18. Interprocess Communication and Networking
+***** 18. Interprocess Communication and Networking
 
 ****** 18.1. socket — Low-level networking interface 
 
@@ -11716,7 +11711,7 @@
 
 ****** 18.9. mmap — Memory-mapped file support 
 
-***** TODO 19. Internet Data Handling
+***** 19. Internet Data Handling
 
 ****** 19.1. email — An email and MIME handling package 
 
@@ -11738,7 +11733,7 @@
 
 ****** 19.10. uu — Encode and decode uuencode files 
 
-***** TODO 20. Structured Markup Processing Tools
+***** 20. Structured Markup Processing Tools
 
 ****** 20.1. html — HyperText Markup Language support 
 
@@ -11766,7 +11761,7 @@
 
 ****** 20.13. xml.parsers.expat — Fast XML parsing using Expat 
 
-***** TODO 21. Internet Protocols and Support
+***** 21. Internet Protocols and Support
 
 ****** 21.1. webbrowser — Convenient Web-browser controller 
 
@@ -11824,7 +11819,7 @@
 
 ****** 21.28. ipaddress — IPv4/IPv6 manipulation library 
 
-***** TODO 22. Multimedia Services
+***** 22. Multimedia Services
 
 ****** 22.1. audioop — Manipulate raw audio data 
 
@@ -11844,13 +11839,13 @@
 
 ****** 22.9. ossaudiodev — Access to OSS-compatible audio devices 
 
-***** TODO 23. Internationalization
+***** 23. Internationalization
 
 ****** 23.1. gettext — Multilingual internationalization services 
 
 ****** 23.2. locale — Internationalization services 
 
-***** TODO 24. Program Frameworks
+***** 24. Program Frameworks
 
 ****** 24.1. turtle — Turtle graphics 
 
@@ -11858,7 +11853,7 @@
 
 ****** 24.3. shlex — Simple lexical analysis 
 
-***** TODO 25. Graphical User Interfaces with Tk
+***** 25. Graphical User Interfaces with Tk
 
 ****** 25.1. tkinter — Python interface to Tcl/Tk 
 
@@ -11872,7 +11867,7 @@
 
 ****** 25.6. Other Graphical User Interface Packages 
 
-***** TODO 26. Development Tools
+***** 26. Development Tools
 
 ****** 26.1. typing — Support for type hints 
 
@@ -11892,7 +11887,7 @@
 
 ****** 26.9. test.support — Utilities for the Python test suite 
 
-***** TODO 27. Debugging and Profiling
+***** 27. Debugging and Profiling
 
 ****** 27.1. bdb — Debugger framework 
 
@@ -11908,7 +11903,7 @@
 
 ****** 27.7. tracemalloc — Trace memory allocations 
 
-***** TODO 28. Software Packaging and Distribution
+***** 28. Software Packaging and Distribution
 
 ****** 28.1. distutils — Building and installing Python modules 
 
@@ -11918,7 +11913,7 @@
 
 ****** 28.4. zipapp — Manage executable python zip archives 
 
-***** TODO 29. Python Runtime Services
+***** 29. Python Runtime Services
 
 ****** 29.1. sys — System-specific parameters and functions 
 
@@ -11950,13 +11945,13 @@
 
 ****** 29.14. fpectl — Floating point exception control 
 
-***** TODO 30. Custom Python Interpreters
+***** 30. Custom Python Interpreters
 
 ****** 30.1. code — Interpreter base classes 
 
 ****** 30.2. codeop — Compile Python code 
 
-***** TODO 31. Importing Modules
+***** 31. Importing Modules
 
 ****** 31.1. zipimport — Import modules from Zip archives 
 
@@ -11968,7 +11963,7 @@
 
 ****** 31.5. importlib – The implementation of import 
 
-***** TODO 32. Python Language Services
+***** 32. Python Language Services
 
 ****** 32.1. parser — Access Python parse trees 
 
@@ -11996,11 +11991,11 @@
 
 ****** 32.13. pickletools — Tools for pickle developers 
 
-***** TODO 33. Miscellaneous Services
+***** 33. Miscellaneous Services
 
 ****** 33.1. formatter — Generic output formatting 
 
-***** TODO 34. MS Windows Specific Services
+***** 34. MS Windows Specific Services
 
 ****** 34.1. msilib — Read and write Microsoft Installer files 
 
@@ -12010,7 +12005,7 @@
 
 ****** 34.4. winsound — Sound-playing interface for Windows 
 
-***** TODO 35. Unix Specific Services
+***** 35. Unix Specific Services
 
 ****** 35.1. posix — The most common POSIX system calls 
 
@@ -12038,18 +12033,18 @@
 
 ****** 35.13. syslog — Unix syslog library routines 
 
-***** TODO 36. Superseded Modules
+***** 36. Superseded Modules
 
 ****** 36.1. optparse — Parser for command line options 
 
 ****** 36.2. imp — Access the import internals 
 
-***** TODO 37. Undocumented Modules
+***** 37. Undocumented Modules
 
 ****** 37.1. Platform specific modules 
 
-**** TODO Python HOWTOs [0%] 					      :howto:
-***** TODO Porting Python 2 Code to Python 3
+**** Python HOWTOs [0%]                                               :howto:
+***** Porting Python 2 Code to Python 3
 
 ****** The Short Explanation
 
@@ -12080,7 +12075,7 @@
 
 ****** Dropping Python 2 support completely
 
-***** TODO Porting Extension Modules to Python 3
+***** Porting Extension Modules to Python 3
 
 ****** Conditional compilation
 
@@ -12096,7 +12091,7 @@
 
 ****** Other options
 
-***** TODO Curses Programming with Python
+***** Curses Programming with Python
 
 ****** What is curses?
 
@@ -12114,7 +12109,7 @@
 
 ****** For More Information
 
-***** TODO Descriptor HowTo Guide
+***** Descriptor HowTo Guide
 
 ****** Abstract
 
@@ -12132,7 +12127,7 @@
 
 ****** Static Methods and Class Methods
 
-***** TODO Functional Programming HOWTO [50%]			  :func_prog:
+***** Functional Programming HOWTO [100%]                         :func_prog:
 
 ****** DONE Introduction [4/4]
 
@@ -12507,7 +12502,7 @@
 	: [('a', 1), ('b', 2), ('c', 3)]
 	: ... >>> ... [('a', 1), ('b', 2)]
 
-****** TODO The itertools module
+****** The itertools module
 
 ******* Creating new iterators
 
@@ -12519,15 +12514,15 @@
 
 ******* Grouping elements
 
-****** TODO The functools module
+****** The functools module
 
 ******* The operator module
 
-****** TODO Small functions and the lambda expression
+****** Small functions and the lambda expression
 
-****** TODO Revision History and Acknowledgements
+****** Revision History and Acknowledgements
 
-****** TODO References
+****** References
 
 ******* General
 
@@ -12535,7 +12530,7 @@
 
 ******* Python documentation
 
-***** TODO Logging HOWTO
+***** Logging HOWTO
 
 ****** Basic Logging Tutorial
 
@@ -12583,7 +12578,7 @@
 
 ****** Optimization
 
-***** TODO Logging Cookbook
+***** Logging Cookbook
 
 ****** Using logging in multiple modules
 
@@ -12646,7 +12641,7 @@
 
 ****** Formatting times using UTC (GMT) via configuration
 
-***** TODO Regular Expression HOWTO
+***** Regular Expression HOWTO
 
 ****** Introduction
 
@@ -12696,7 +12691,7 @@
 
 ****** Feedback
 
-***** TODO Socket Programming HOWTO
+***** Socket Programming HOWTO
 
 ****** Sockets
 
@@ -12716,7 +12711,7 @@
 
 ****** Non-blocking Sockets
 
-***** TODO Sorting HOW TO
+***** Sorting HOW TO
 
 ****** Sorting Basics
 
@@ -12734,7 +12729,7 @@
 
 ****** Odd and Ends
 
-***** TODO Unicode HOWTO
+***** Unicode HOWTO
 
 ****** Introduction to Unicode
 
@@ -12774,7 +12769,7 @@
 
 ****** Acknowledgements
 
-***** TODO HOWTO Fetch Internet Resources Using The urllib Package
+***** HOWTO Fetch Internet Resources Using The urllib Package
 
 ****** Introduction
 
@@ -12810,7 +12805,7 @@
 
 ****** Footnotes
 
-***** TODO HOWTO Use Python in the web
+***** HOWTO Use Python in the web
 
 ****** The Low-Level View
 
@@ -12856,7 +12851,7 @@
 
 ******** Other notable frameworks
 
-***** TODO Argparse Tutorial
+***** Argparse Tutorial
 
 ****** Concepts
 
@@ -12876,7 +12871,7 @@
 
 ****** Conclusion
 
-***** TODO An introduction to the ipaddress module
+***** An introduction to the ipaddress module
 
 ****** Creating Address/Network/Interface objects
 
@@ -12898,7 +12893,7 @@
 
 ****** Getting more detail when instance creation fails
 
-***** TODO Argument Clinic How-To
+***** Argument Clinic How-To
 
 ****** The Goals Of Argument Clinic
 
@@ -12968,9 +12963,9 @@
 *** NLP with Python							:NLP:
 *** Python for Data Analyse				       :data:analyse:
 **** DONE Preliminaries
-**** TODO Introductory Examples <2016-01-18 Mon>
+**** Introductory Examples <2016-01-18 Mon>
 ***** collections pack
-**** TODO IPython: An Interactive Computing and Development Environment
+**** IPython: An Interactive Computing and Development Environment
      <2016-01-18 
 *** Useful snippets						   :snippets:
 **** Associated sorting
@@ -13987,7 +13982,7 @@
 **** Defining Context Managers
 **** Introspection
 
-*** TODO Mastering Python OOP						:OOP:
+*** Mastering Python OOP                                                :OOP:
 **** Introduction To Object Oriented Python
 ***** Introduction And About The Author
 ****** Course Objectives
@@ -15004,8 +14999,8 @@
 
 *** Fluent Python						     :fluent:
 **** Preface
-***** TODO [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
-***** TODO [[https://docs.python.org/3/tutorial/][Python Tutorial]]
+***** [[https://docs.python.org/3.0/whatsnew/3.0.html][What’s N In Python 3.0]]
+***** [[https://docs.python.org/3/tutorial/][Python Tutorial]]
       #+BEGIN_QUOTE
       Premature abstraction is as bad as premature optimization.
       #+END_QUOTE
@@ -15426,7 +15421,6 @@
 **** Already utilized patterns
 
 ** [[https://www.hackerrank.com/feed][HackerRank.com]] exercises
-
 
 * Discover Git work-flow 			:Git:
 ** Git VC theoretical basement			:theory:
