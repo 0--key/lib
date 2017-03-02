@@ -8824,6 +8824,29 @@
 ***** Running the examples in this book 
 **** Index 
 
+** Solid Code smells
+
+*** Inappropriate recursion
+
+*** Pertinent data structure
+
+*** Code documentation
+
+*** Variable names are self-explanatory
+
+*** Single responsibility approach
+
+*** Inheritance utilizing
+
+*** Syncronization
+
+*** Concurrency
+
+*** Memory management
+
+*** Time complexity
+
+*** Tests
 * Dive deeper into Python 			:Python:
 
 ** Prerequisites
