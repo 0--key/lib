@@ -425,3 +425,29 @@
 **** Socrates put it well
    We are what we repeatedly do.
    Excellence, then, is not an act, but a habit.
+** 2017-03 March
+*** 2017-03-02 Thursday
+**** Just as nobody becomes a piano player without playing the piano,
+     nobody becomes a program designer without creating actual programs
+     and getting them to work properly.
+**** The modern way to build applications is to go as serverless as possible.
+     - For your web services use something like Amazon Lambda.
+     - For static files just use S3.
+     - For the database? Amazon RDS.
+     - For email and other notifications? Amazon SES.
+     - Welcome to 2017.
+**** Our Values
+***** Mission First
+      We place long-term, collective impact ahead of personal
+      achievement.
+***** Drive
+      We aim high and do whatever it takes to get things done.
+***** Agility
+      We are nimble in our processes and systems, ready to adapt to a
+      changing world.
+***** Awareness
+      We are rigorous in our decisions and candid in our
+      communication.
+***** Pragmatism
+      We stay grounded in the outcomes that truly matter for our
+      mission.
