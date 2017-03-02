@@ -8823,7 +8823,21 @@
 ***** Running the examples in this book 
 **** Index 
 
+** Packaging and deployment
+   Learn how to properly:
+*** Package code
 
+*** Version code
+
+*** Deploy code
+
+** Contemporary development
+   Learn how to set up:
+*** Continuous integration
+
+*** Deployment pipelines
+
+** Solid Code smells
 *** Inappropriate recursion
 
 *** Pertinent data structure
