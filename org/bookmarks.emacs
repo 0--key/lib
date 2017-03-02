@@ -2,7 +2,43 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("CI" 0 2
+(#1=(#("Teach&Collaborate" 0 17
+      (bmkp-full-record #1#))
+    (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+    (buffer-name . "motto.org")
+    (front-context-string . "Learn to teach a")
+    (rear-context-string . "ercise\n     \n** ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22713 5908 682312 403000))
+    (created . #2#)
+    (position . 2113))
+#1=(#("Functional Programming" 0 22
+      (bmkp-full-record #1#))
+    (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+    (buffer-name . "motto.org")
+    (front-context-string . "Functional progr")
+    (rear-context-string . "secure code\n\n** ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22713 5722 160371 884000))
+    (created . #2#)
+    (position . 297241))
+#1=(#("Security" 0 8
+      (bmkp-full-record #1#))
+    (filename . "/usr/local/share/DVCS/lib/org/motto.org")
+    (buffer-name . "motto.org")
+    (front-context-string . "Security\n   Lear")
+    (rear-context-string . "\n\n*** Tests\n\n** ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22713 5705 597035 689000))
+    (created . #2#)
+    (position . 297188))
+#1=(#("CI" 0 2
       (bmkp-full-record #1#))
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
