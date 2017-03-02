@@ -84,6 +84,7 @@
     - Meet or beat this time
     - Repeat the exercise
      
+** Learn to teach and collaborate
 * Enhance English			        :English:
 ** Grammar [85%]
    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -8098,7 +8099,13 @@
 ***** Continuous integration
       http://www.martinfowler.com/articles/continuousIntegration.html
 
-
+**** Test types
+***** Unit
+***** Integration
+***** Soak
+***** Performance
+***** Smoke
+***** etc.
 *** unittest
     #+BEGIN_SRC shell :results output
       pwd
@@ -8831,12 +8838,16 @@
 
 *** Deploy code
 
+*** Build proper integration harnesses
 ** CI/CD
    Learn how to set up:
 *** Continuous integration
 
 *** Deployment pipelines
 
+*** Code coverage reporting
+
+*** Test execution automation
 ** Solid Code smells
 *** Inappropriate recursion
 
@@ -8859,6 +8870,12 @@
 *** Time complexity
 
 *** Tests
+
+** Security
+   Learn how to write truly secure code
+
+** Functional programming
+   Entirely paradigm 
 * Dive deeper into Python 			:Python:
 
 ** Prerequisites
