@@ -4742,7 +4742,6 @@
 
 ** Communication
    Learn how to:
-
 *** Speak clearly
 
 *** Ask proper questions
@@ -7944,7 +7943,7 @@
 *** Consistency
 *** Other qualities
 
-** Test Driven Development Approach		:TDD:
+** Testing                                                              :TDD:
 
 *** Main Concepts
 
@@ -8824,7 +8823,6 @@
 ***** Running the examples in this book 
 **** Index 
 
-** Solid Code smells
 
 *** Inappropriate recursion
 
