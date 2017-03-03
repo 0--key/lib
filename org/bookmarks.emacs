@@ -4,6 +4,7 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (#1=(#("Teach&Collaborate" 0 17
       (bmkp-full-record #1#))
+    (tags "self-improvement" "skill" "personal" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Learn to teach a")
@@ -16,6 +17,7 @@
     (position . 2113))
 #1=(#("Functional Programming" 0 22
       (bmkp-full-record #1#))
+    (tags "applied" "programming" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Functional progr")
@@ -28,6 +30,7 @@
     (position . 297241))
 #1=(#("Security" 0 8
       (bmkp-full-record #1#))
+    (tags "applied" "programming" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Security\n   Lear")
@@ -40,6 +43,7 @@
     (position . 297188))
 #1=(#("CI" 0 2
       (bmkp-full-record #1#))
+    (tags "applied" "programming" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Contemporary dev")
@@ -52,6 +56,7 @@
     (position . 296607))
 #1=(#("Communication" 0 13
       (bmkp-full-record #1#))
+    (tags "self-improvement" "skill" "personal" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Communication\n  ")
@@ -64,6 +69,7 @@
     (position . 177973))
 #1=(#("P&D" 0 3
       (bmkp-full-record #1#))
+    (tags "applied" "programming" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Packaging and de")
@@ -76,6 +82,7 @@
     (position . 296501))
 #1=(#("Solid Code" 0 10
       (bmkp-full-record #1#))
+    (tags "applied" "programming" "x0")
     (filename . "/usr/local/share/DVCS/lib/org/motto.org")
     (buffer-name . "motto.org")
     (front-context-string . "Solid Code smell")
