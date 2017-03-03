@@ -5662,2287 +5662,6 @@
 
 ***** Algorithms research topics
 
-** Design patterns
-*** What is a design pattern
-    #+BEGIN_QUOTE
-    Well-known solutions to recurring problems
-    #+END_QUOTE
-    Widely accepted solutions by the software
-    development community.
-    Why use design patterns?
-**** Motivations
-***** No need to reinvent the wheel and waste your
-      time
-***** Systematic reuse of design ideas of best
-      practices yields lower cost and higher quality
-*** Types of design patterns
-**** Creational Patterns
-***** Definition
-      Used to create objects in a systematic way
-***** Benefits
-      Flexibility
-***** Example:
-      Different subtypes of objects from the same
-      class at runtime
-**** Structural Patterns
-***** Definition
-      Establishes useful relationships between software
-      components in certain configurations.
-      To accomplish a goal: both functional and
-      nonfunctional
-      Different goals yield  different structures
-**** Behavioral Patterns
-***** Definition
-      Best practices of objects interaction
-***** Focus
-      Define the protocols
-*** Understanding object-oriented programming
-    Object-oriented mechanism used /interfaces/ for
-    - Structural inheritance;
-    - Creational polymorphism;
-    - Behavioral methods and their signatures
-*** Working with inheritance and polymorphism
-**** Inheritance
-     #+BEGIN_QUOTE
-     Establishes a relationship between two classes
-     as *Parent* and *Child*
-     #+END_QUOTE
-**** Child Class
-***** =Keeps= the attributes and methods
-      of its parent
-***** =Adds= new attributes or methods of
-      its own
-***** =Overrides= the existing methods of
-      its parent
-**** Polimorphism
-***** Relies on inheritance
-***** Allows child classes to be instantiated
-      and treated as the same type as its parent
-***** Enables a parent class to be manifest into
-      any of its child classes
-*** Understanding Pattern context
-**** Participants
-     - Classes involved to form a design pattern
-     - Roles
-**** Quality attributes
-***** Nonfunctional requirements
-      Usability, modifiability, reliability,
-      perfomance, etc.
-***** Effect on the entire software
-      Architectural solutions
-**** Forces
-     Various factors or trade-offs to consider.
-     Manifested in quality attributes.
-     In most cases would intail unintended
-     consequences.
-**** Consequences
-***** Side effects
-      ~Better security but worse perfomance~
-***** Decision makers
-      ~Despite the consequences~
-*** Working with Pattern language
-**** Name
-     - Shouls capture the gist of the pattern
-     - Becomes part of a vocabulary during the design process
-     - Needs to be
-       - Meaningful
-       - Memorable
-**** Context
-     - Provides a scenario
-       - Pattern may be used
-     - Provides more insights
-       - When to use it
-       - When /not/ to use it
-**** Problem
-     - Describes a design challenge
-       - Pattern is addressing
-**** Solution
-     - Specifies a pattern
-       - Structure: relationships among elements
-       - Behavior: interactions
-**** Related patterns
-*** Scholastic classification
-**** Pattern Name and Classification:
-     A descriptive and unique name that helps in identifying and referring to the pattern.
-**** Intent:
-     A description of the goal behind the pattern and the reason for using it.
-**** Also Known As:
-     Other names for the pattern.
-**** Motivation (Forces):
-     A scenario consisting of a problem and a context in which this pattern can be used.
-**** Applicability:
-     Situations in which this pattern is usable; the context for the pattern.
-**** Structure:
-     A graphical representation of the pattern. Class diagrams and Interaction diagrams may be used for this purpose.
-**** Participants:
-     A listing of the classes and objects used in the pattern and their roles in the design.
-**** Collaboration:
-     A description of how classes and objects used in the pattern interact with each other.
-**** Consequences:
-     A description of the results, side effects, and trade offs caused by using the pattern.
-**** Implementation:
-     A description of an implementation of the pattern; the solution part of the pattern.
-**** Sample Code:
-     An illustration of how the pattern can be used in a programming language.
-**** Known Uses:
-     Examples of real usages of the pattern.
-**** Related Patterns:
-     Other patterns that have some relationship with the pattern; discussion of the differences between the pattern and similar patterns.
-
-*** Factory
-**** Problem
-***** Uncertainties in types of objects
-***** Decisions to made at run-time
-      regarding what classes to use
-**** Factory examples
-***** Pet factory
-      #+BEGIN_SRC python :results output
-        class Dog(object):
-            """A simple dog class"""
-
-            def __init__(self, name):
-                self._name = name
-
-            def speak(self):
-                return "Woof!"
-
-
-        class Cat(object):
-            """A simple cat class"""
-
-            def __init__(self, name):
-                self._name = name
-
-            def speak(self):
-                return "Meow!"
-
-
-        def spawn_pet(pet="dog"):
-            """The factory method"""
-            pets = dict(dog=Dog("Hope"), cat=Cat("Peace"))
-            return pets[pet]
-
-        d = spawn_pet("dog")
-        print(d.speak())
-        c = spawn_pet("cat")
-        print(c.speak())
-      #+END_SRC
-
-      #+RESULTS:
-      : Woof!
-      : Meow!
-***** Weapon factory
-      #+BEGIN_SRC python :results output
-        from random import randrange
-
-
-        class Weapon(object):
-            name = None
-            cost = None
-
-            @staticmethod
-            def get_weapon(x):
-                if x == 0:
-                    return Knife()
-                if x == 1:
-                    return Gun()
-
-
-        class Knife(Weapon):
-            name = 'Knife'
-            cost = 20.00
-
-
-        class Gun(Weapon):
-            name = 'Gun'
-            cost = 300.00
-
-
-        # Create 5 random weapons
-        for _ in range(5):
-            w = Weapon.get_weapon(randrange(2))
-            print(w.name, w.cost)
-      #+END_SRC
-
-      #+RESULTS:
-      : Knife 20.0
-      : Gun 300.0
-      : Gun 300.0
-      : Gun 300.0
-      : Knife 20.0
-***** Pizza factory
-      #+BEGIN_SRC python :output results
-        class Pizza(object):
-
-            def __init__(self):
-                self._price = None
-
-            def get_price(self):
-                return self._price
-
-
-        class HamAndMushroomPizza(Pizza):
-
-            def __init__(self):
-                self._price = 8.5
-
-
-        class DeluxePizza(Pizza):
-
-            def __init__(self):
-                self._price = 10.5
-
-
-        class HawaiianPizza(Pizza):
-
-            def __init__(self):
-                self._price = 11.5
-
-
-        class PizzaFactory(object):
-
-            @staticmethod
-            def create_pizza(pizza_type):
-                if pizza_type == 'HamMushroom':
-                    return HamAndMushroomPizza()
-                elif pizza_type == 'Deluxe':
-                    return DeluxePizza()
-                elif pizza_type == 'Hawaiian':
-                    return HawaiianPizza()
-
-
-        for pizza_type, price in zip(['HamMushroom', 'Deluxe', 'Hawaiian'], [8.5, 10.5, 11.5]):
-            assert PizzaFactory.create_pizza(pizza_type).get_price() == price,\
-                "%s validation failed." % pizza_type
-      #+END_SRC
-
-      #+RESULTS:
-      : None
-***** Operation factory
-      #+BEGIN_SRC python :results output
-        class Operation(object):
-
-            @property
-            def number_a(self):
-                return self.__number_a
-
-            @number_a.setter
-            def number_a(self, value):
-                self.__number_a = value
-
-            @property
-            def number_b(self):
-                return self.__number_b
-
-            @number_b.setter
-            def number_b(self, value):
-                self.__number_b = value
-
-
-        class OperationAdd(Operation):
-            def get_result(self):
-                return self.number_a + self.number_b
-
-
-        class OperationSub(Operation):
-            def get_result(self):
-                return self.number_a - self.number_b
-
-
-        class OperationFactory(object):
-            @staticmethod
-            def create_operation(operate):
-                if operate == "+":
-                    return OperationAdd()
-                elif operate == "-":
-                    return OperationSub()
-
-        op = OperationFactory.create_operation('+')
-        op.number_a = 10
-        op.number_b = 5
-
-        print(op.get_result())
-
-      #+END_SRC
-
-      #+RESULTS:
-      : 15
-
-*** Abstract factory
-**** Problem
-***** The user expectations yields multiply
-      related objects
-**** Solution
-***** Abstract factory
-***** Concrete factory
-***** Abstract product
-***** Concrete product
-**** Abstract factory examples
-***** Pet shop
-        #+BEGIN_SRC python :results output
-          class Dog(object):
-              """One of the objects to be returned"""
-
-              def speak(self):
-                  return "Woof!"
-
-              def __str__(self):
-                  return "Dog"
-
-
-          class DogFactory(object):
-              """Concrete Factory"""
-
-              def get_pet(self):
-                  """Returns a Dog object"""
-                  return Dog()
-
-              def get_food(self):
-                  """Returns a Dog Food object"""
-                  return "Dog Food!"
-
-
-          class PetStore(object):
-              """ PetStore houses our Abstract Factory """
-
-              def __init__(self, pet_factory=None):
-                  """ pet_factory is our Abstract Factory """
-
-                  self._pet_factory = pet_factory
-
-              def show_pet(self):
-                  """ Utility method to display the details of the objects retured by the DogFactory """
-
-                  pet = self._pet_factory.get_pet()
-                  pet_food = self._pet_factory.get_food()
-
-                  print("Our pet is '{}'!".format(pet))
-                  print("Our pet says hello by '{}'".format(pet.speak()))
-                  print("Its food is '{}'!".format(pet_food))
-
-
-          # Create a Concrete Factory
-          factory = DogFactory()
-
-          # Create a pet store housing our Abstract Factory
-          shop = PetStore(factory)
-
-          # Invoke the utility method to show the details of our pet
-          shop.show_pet()
-        #+END_SRC
-
-        #+RESULTS:
-        : Our pet is 'Dog'!
-        : Our pet says hello by 'Woof!'
-        : Its food is 'Dog Food!'!
-***** Button
-      #+BEGIN_SRC python :results output
-        from __future__ import print_function
-        import platform
-
-
-        class GuiFactory():
-            """Abstract Factory"""
-
-            @classmethod
-            def getFactory(Class):
-                if platform.system() == "Windows":
-                    return WinFactory()
-                elif platform.system() == "OSX":
-                    return OSXFactory()
-                elif platform.system() == "Linux":
-                    return LinuxFactory()
-
-            class Button:
-                """ Abstract Product"""
-
-                def paint(self):
-                    raise NotImplementedError
-
-            @classmethod
-            def getButton(Class):
-                return Class.Button()
-
-
-        class WinFactory(GuiFactory):
-            """Concrete Factory"""
-
-            class Button(GuiFactory.Button):
-                """Concrete Product"""
-
-                def paint(self):
-                    print("I am a Windows button")
-
-
-        class LinuxFactory(GuiFactory):
-            """Concrete Factory"""
-
-            class Button(GuiFactory.Button):
-                """Concrete Product"""
-
-                def paint(self):
-                    print("I am a Linux button")
-
-
-        class OSXFactory(GuiFactory):
-            """Concrete Factory"""
-
-            class Button(GuiFactory.Button):
-                """Concrete Product"""
-
-                def paint(self):
-                    print("I am a OSX button")
-
-
-        factory = GuiFactory.getFactory()
-        factory.getButton().paint()
-      #+END_SRC
-
-      #+RESULTS:
-      : I am a Linux button
-
-*** Singleton
-
-**** Definition
-     #+BEGIN_QUOTE
-     In software engineering, the singleton pattern is a software
-     design pattern that restricts the instantiation of a class to
-     one object. This is useful when exactly one object is needed
-     to coordinate actions across the system. The concept is sometimes
-     generalized to systems that operate more efficiently when only
-     one object exists, or that restrict the instantiation to a
-     certain number of objects.
-     #+END_QUOTE
-
-**** Only one instance
-
-**** Global variable in an object-oriented way
-
-**** Scenario
-
-***** An information cache
-
-**** Solution
-
-***** Module
-      Shared by multiple objects
-
-***** The /Borg/ design pattern
-
-**** Singleton examples
-    
-***** Strict&narrow
-      A kind of =singleton= like a ~hard link~ in the UNIX filesystems
-      #+BEGIN_SRC python :results output
-        class Singleton(object):
-
-            def __new__(type):
-                if not '_the_instance' in type.__dict__:
-                    type._the_instance = object.__new__(type)
-                return type._the_instance
-
-        a = Singleton()
-        a.toto = 12
-
-        b = Singleton()
-        assert id(a) == id(b) and a.toto == b.toto, "These variables aren't same!!!"
-      #+END_SRC
-
-      #+RESULTS:
-
-***** Primitive Borg
-      #+BEGIN_SRC python :output results
-        class Borg(object):
-            __shared_state = {}
-
-            def __init__(self):
-                self.__dict__ = self.__shared_state
-
-        a = Borg()
-        a.toto = 12
-
-        b = Borg()
-        assert(a.toto == b.toto)
-        assert(id(a) != id(b))  # different ! but states are sames
-      #+END_SRC
-***** Borg with abstract base class
-      #+BEGIN_SRC python :results output
-        class Borg(object):
-            """Borg pattern making the class attributes global"""
-            _shared_data_pool = {}
-
-            def __init__(self):
-                self.__dict__ = self._shared_data_pool  # Make it an attribute dictionary
-
-
-        class Singleton(Borg):  # Inherits from the Borg class
-            """This class now shares all its attributes among its various instances"""
-            # This essenstially makes the singleton objects an object-oriented global
-            # variable
-
-            def __init__(self, **kwargs):
-                Borg.__init__(self)
-                # Update the attribute dictionary by inserting a new key-value pair
-                self._shared_data_pool.update(kwargs)
-
-            def __str__(self):
-                # Returns the attribute dictionary for printing
-                return str(self._shared_data_pool)
-
-        # Let's create a singleton object and add our first acronym
-        x = Singleton(a="First shared value")
-
-        # Let's create another singleton object and if it refers to the same
-        # attribute dictionary by adding another acronym.
-        y = Singleton()
-        assert(y.a == x.a)
-        y.b = "Second shared value"
-        # same values indoors
-        assert(y.b == x.b) # compare the objects:
-        assert(x != y)  # but they are different!
-        assert(x is not y)  # in the same time
-      #+END_SRC
-
-      #+RESULTS:
-
-***** A decorator
-***** A base class
-***** A metaclass
-***** Metaclass usage
-***** Specific decorator
-      returning a class with the same name
-**** Caution
-*** Builder
-    #+BEGIN_QUOTE
-    Separates object construction from its representation
-    #+END_QUOTE
-**** Problem
-     #+BEGIN_QUOTE
-     The builder pattern is an object creation software design pattern.
-     Unlike the abstract factory pattern and the factory method pattern
-     whose intention is to enable polymorphism, the intention of the
-     builder pattern is to find a solution to the telescoping constructor
-     anti-pattern. The telescoping constructor anti-pattern
-     occurs when the increase of object constructor parameter combination
-     leads to an exponential list of constructors.
-     Instead of using numerous constructors, the builder pattern uses another
-     object, a /builder/, that receives each initialization parameter step by
-     step and then returns the resulting constructed object at once.
-     #+END_QUOTE
-
-     The main premise for design is an excessive number of constructors.
-
-     #+BEGIN_QUOTE
-     =Builder= often builds a =Composite=. Often, designs start out using =Factory
-     Method= (less complicated, more customizable, subclasses proliferate) and
-     evolve toward =Abstract Factory=, =Prototype=, or =Builder= (more flexible,
-     more complex) as the designer discovers where more flexibility is needed.
-     Sometimes creational patterns are complementary: =Builder= can use one of
-     the other patterns to implement which components are built.
-     #+END_QUOTE
-**** Scenario
-     Building cars:
-     - Tires
-     - Engine
-     - etc.
-**** Solution
-***** Director
-***** Abstract Builder: interfaces
-***** Concrete Builder: implements the interfaces
-***** Product: object being built
-**** Builder example
-***** SkyLark
-      #+BEGIN_SRC python :results output
-        class Car(object):
-            """Product"""
-
-            def __init__(self):
-                self.model = None
-                self.tires = None
-                self.engine = None
-
-            def __str__(self):
-                return '{} | {} | {}'.format(self.model, self.tires, self.engine)
-
-
-        class Director(object):
-            """Director"""
-
-            def __init__(self, builder):
-                self._builder = builder
-
-            def construct_car(self):
-                pass
-
-            def get_car(self):
-                pass
-
-
-        class Builder(object):
-            """Abstract Builder"""
-
-            def __init__(self):
-                self.car = None
-
-            def create_new_car(self):
-                self.car = Car()
-
-
-        class SkyLarkBuilder(Builder):
-            """Concrete Builder --> provides parts and tools to work on the parts """
-
-            def add_model(self):
-                self.car.model = "Skylark"
-
-            def add_tires(self):
-                self.car.tires = "Regular tires"
-      #+END_SRC
-
-      #+RESULTS:
-
-***** Building producing at ~faif~
-      #+BEGIN_SRC python :results output
-        # Director
-        class Director(object):
-
-            def __init__(self):
-                self.builder = None
-
-            def construct_building(self):
-                self.builder.new_building()
-                self.builder.build_floor()
-                self.builder.build_size()
-
-            def get_building(self):
-                return self.builder.building
-
-
-        # Abstract Builder
-        class Builder(object):
-
-            def __init__(self):
-                self.building = None
-
-            def new_building(self):
-                self.building = Building()
-
-            def build_floor(self):
-                raise NotImplementedError
-
-            def build_size(self):
-                raise NotImplementedError
-
-        # Concrete Builder
-
-
-        class BuilderHouse(Builder):
-
-            def build_floor(self):
-                self.building.floor = 'One'
-
-            def build_size(self):
-                self.building.size = 'Big'
-
-
-        class BuilderFlat(Builder):
-
-            def build_floor(self):
-                self.building.floor = 'More than One'
-
-            def build_size(self):
-                self.building.size = 'Small'
-
-
-        # Product
-        class Building(object):
-
-            def __init__(self):
-                self.floor = None
-                self.size = None
-
-            def __repr__(self):
-                return 'Floor: {0.floor} | Size: {0.size}'.format(self)
-
-        director = Director()
-        director.builder = BuilderHouse()
-        director.construct_building()
-        building = director.get_building()
-        print(building)
-        director.builder = BuilderFlat()
-        director.construct_building()
-        building = director.get_building()
-        print(building)
-      #+END_SRC
-
-      #+RESULTS:
-      : Floor: One | Size: Big
-      : Floor: More than One | Size: Small
-
-***** Divided builder from ~wklken~
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Product(object):
-            """
-            What you want to get as a result
-            """
-
-            def __init__(self):
-                self.__parts = []
-
-            def add(self, part):
-                self.__parts.append(part)
-
-            def show(self):
-                print('-'.join(self.__parts))
-
-
-        class Builder(object):
-            """
-            Empty template with all requrements
-            """
-
-            __metaclass__ = ABCMeta
-
-            @abstractmethod
-            def build_part_1(self):
-                pass
-
-            @abstractmethod
-            def build_part_2(self):
-                pass
-
-            @abstractmethod
-            def get_result(self):
-                pass
-
-
-        class BuilderA(Builder):
-            def __init__(self):
-                self.__product = Product()
-
-            def build_part_1(self):
-                self.__product.add("partA1")
-
-            def build_part_2(self):
-                self.__product.add("partA2")
-
-            def get_result(self):
-                return self.__product
-
-
-        class BuilderB(Builder):
-            def __init__(self):
-                self.__product = Product()
-
-            def build_part_1(self):
-                self.__product.add("partB1")
-
-            def build_part_2(self):
-                self.__product.add("partB2")
-
-            def get_result(self):
-                return self.__product
-
-
-        class Director(object):
-            @staticmethod
-            def construct(builder):
-                builder.build_part_1()
-                builder.build_part_2()
-
-
-
-        ba = BuilderA()
-        bb = BuilderB()
-
-        Director.construct(ba)
-        product = ba.get_result()
-        product.show()
-
-        Director.construct(bb)
-        product = bb.get_result()
-        product.show()
-      #+END_SRC
-
-      #+RESULTS:
-      : partA1-partA2
-      : partB1-partB2
-
-*** Prototype
-**** Problem
-
-***** Creationg many identical objects individually:
-      expensive
-
-***** Cloning:
-      an alternative
-
-**** Scenario
-     Mass production
-
-**** Solution
-
-***** Create a prototypical instance first
-
-***** Simply clone it whenever you need replica
-
-**** Prototype example
-***** SkyLark
-      #+BEGIN_SRC python :results output
-        import copy
-
-        class Prototype:
-
-            def __init__(self):
-                self._objects = {}
-
-            def register_object(self, name, obj):
-                """register an object"""
-                self._objects[name] = obj
-
-            def unregister_object(self, name):
-                """Unregister an object"""
-                del self._objects[name]
-
-
-            def clone(self, name, **attr):
-                """Clone a registered object and update its attributes"""
-                obj = copy.deepcopy(self._objects.get(name))
-                obj.__dict__.update(attr)
-                return obj
-
-
-        class Car:
-
-            def __init__(self):
-                self.name = "Skylark"
-                self.color = "Red"
-                self.options = "Ex"
-
-            def __str__(self):
-                return '{} | {} | {}'.format(self.name, self.color, self.options)
-
-        c = Car()
-        prototype = Prototype()
-        prototype.register_object('skylark', c)
-
-        c1 = prototype.clone('skylark', color='Yellow')
-        print(c, '\n', c1)
-      #+END_SRC
-
-      #+RESULTS:
-      : Skylark | Red | Ex 
-      :  Skylark | Yellow | Ex
-
-***** Prototype dispatcher
-      #+BEGIN_SRC python :results output
-        import copy
-
-
-        class Prototype(object):
-            """
-            Default (dummy) values and cloning procedure description there
-            """
-
-            value = 'default'
-
-            def clone(self, **attrs):
-                """Clone a prototype and update inner attributes dictionary"""
-                obj = copy.deepcopy(self)
-                obj.__dict__.update(attrs)
-                return obj
-
-
-        class PrototypeDispatcher(object):
-            """
-            Accumulates clones by their names
-            """
-
-            def __init__(self):
-                self._objects = {}
-
-            def get_objects(self):
-                """Get all objects"""
-                return self._objects
-
-            def register_object(self, name, obj):
-                """Register an object"""
-                self._objects[name] = obj
-
-            def unregister_object(self, name):
-                """Unregister an object"""
-                del self._objects[name]
-
-
-        dispatcher = PrototypeDispatcher()
-        prototype = Prototype()
-
-        d = prototype.clone()
-        a = prototype.clone(value='a-value', category='a')
-        b = prototype.clone(value='b-value', is_checked=True)
-        print(d.value, a.value, b.value)
-        dispatcher.register_object('objecta', a)
-        dispatcher.register_object('objectb', b)
-        dispatcher.register_object('default', d)
-        print([{n: p.value} for n, p in dispatcher.get_objects().items()])
-      #+END_SRC
-
-      #+RESULTS:
-      : default a-value b-value
-      : [{'default': 'default'}, {'objecta': 'a-value'}, {'objectb': 'b-value'}]
-
-*** Decorator
-**** Problem
-***** New features to an existing object
-***** Dynamic changes
-**** Scenario
-     <blink>Hello World!</blink>
-**** Solution
-***** Functions: objects in Python
-***** Built-in decorator feature *@*
-**** Decorator example
-***** Simple wrapper
-      #+BEGIN_SRC python :results output
-        from functools import wraps
-
-        def make_blink(function):
-                """Defines the decorator"""
-
-                #This makes the decorator transparent in terms of its name and docstring
-
-
-                #Define the inner function
-                def decorator():
-                        #Grab the return value of the function being decorated
-                
-
-                        #Add new functionality to the function being decorated
-                
-
-                return decorator
-
-        #Apply the decorator here!
-
-        def hello_world():
-                """Original function! """
-
-                return "Hello, World!"
-
-        #Check the result of decorating
-
-
-        #Check if the function name is still the same name of the function being decorated
-
-
-        #Check if the docstring is still the same as that of the function being decorated
-
-
-
-      #+END_SRC
-*** Proxy
-**** Problem
-***** Postpone object creation unless absolutely necessary
-***** Find a placeholder
-**** Scenario
-***** Producer
-***** Artist
-***** Guest
-**** Soluton
-***** Clients: interacting with a Proxy
-***** Proxy: responsible for creating the resource intensive objects
-**** Proxy example
-***** Producer time-schedule
-      #+BEGIN_SRC python :results output
-        import time
-
-
-        class Producer:
-            """Define the 'resource-intensive' object to instantiate!"""
-
-            def produce(self):
-                print("Producer is working hard!")
-
-            def meet(self):
-                print("Producer has time to meet you now!")
-
-
-        class Proxy:
-            """"
-            Define the 'relatively less resource-intensive' proxy to 
-            instantiate as a middleman
-            """
-
-            def __init__(self):
-                self.occupied = 'No'
-                self.producer = None
-
-            def produce(self):
-                """Check if Producer is available"""
-                print("Artist checking if Producer is available ...")
-
-                if self.occupied == 'No':
-                    # If the producer is available, create a producer object!
-                    self.producer = Producer()
-                    time.sleep(2)
-
-                    # Make the prodcuer meet the guest!
-                    self.producer.meet()
-
-                else:
-                    # Otherwise, don't instantiate a producer
-                    time.sleep(2)
-                    print("Producer is busy!")
-
-        # Instantiate a Proxy
-        p = Proxy()
-
-        # Make the proxy: Artist produce until Producer is available
-        p.produce()
-
-        # Change the state to 'occupied'
-        p.occupied = 'Yes'
-
-        # Make the Producer produce
-        p.produce()
-      #+END_SRC
-
-      #+RESULTS:
-      : Artist checking if Producer is available ...
-      : Producer has time to meet you now!
-      : Artist checking if Producer is available ...
-      : Producer is busy!
-
-*** Adapter
-**** Adapter example
-***** Korean -> British
-      #+BEGIN_SRC python :results output
-        class Korean:
-            """Korean speaker"""
-
-            def __init__(self):
-                self.name = "Korean"
-
-            def speak_korean(self):
-                return "An-neyong?"
-
-
-        class British:
-            """English speaker"""
-
-            def __init__(self):
-                self.name = "British"
-
-            # Note the different method name here!
-            def speak_english(self):
-                return "Hello!"
-
-
-        class Adapter:
-            """This changes the generic method name to individualized method names"""
-
-            def __init__(self, object, **adapted_method):
-                """Change the name of the method"""
-                self._object = object
-
-                # Add a new dictionary item that establishes the mapping between the generic method name: speak() and the concrete method
-                # For example, speak() will be translated to speak_korean() if the
-                # mapping says so
-                self.__dict__.update(adapted_method)
-
-            def __getattr__(self, attr):
-                """Simply return the rest of attributes!"""
-                return getattr(self._object, attr)
-
-        # List to store speaker objects
-        objects = []
-
-        # Create a Korean object
-        korean = Korean()
-
-        # Create a British object
-        british = British()
-
-        # Append the objects to the objects list
-        objects.append(Adapter(korean, speak=korean.speak_korean))
-        objects.append(Adapter(british, speak=british.speak_english))
-
-
-        for obj in objects:
-            print("{} says '{}'\n".format(obj.name, obj.speak()))
-      #+END_SRC
-
-      #+RESULTS:
-      : Korean says 'An-neyong?'
-      : 
-      : British says 'Hello!'
-      : 
-***** Target from wkl
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Target(object):
-            __metaclass__ = ABCMeta
-
-            @abstractmethod
-            def request(self):
-                pass
-
-
-        class Adaptee(object):
-
-            def special_request(self):
-                print("I am special")
-
-
-        class Adapter(Target):
-
-            def __init__(self):
-                self.adaptee = Adaptee()
-
-            def request(self):
-                self.adaptee.special_request()
-
-
-        a = Adapter()
-        a.request()
-      #+END_SRC
-
-      #+RESULTS:
-      : I am special
-
-*** Composite
-**** Problem
-***** Recursive tree data structure
-***** Menu > submenu > sub-submenu
-**** Solution
-***** Component
-***** Child
-***** Composite
-**** Composites examples
-***** Component - Child - Composite
-      #+BEGIN_SRC python :results output
-        class Component(object):
-            """Abstract class"""
-
-            def __init__(self, *args, **kwargs):
-                pass
-
-            def component_function(self):
-                pass
-
-
-        class Child(Component):  # Inherits from the abstract class, Component
-            """Concrete class"""
-
-            def __init__(self, *args, **kwargs):
-                Component.__init__(self, *args, **kwargs)
-
-                # This is where we store the name of your child item!
-                self.name = args[0]
-
-            def component_function(self):
-                # Print the name of your child item here!
-                print("{}".format(self.name))
-
-
-        class Composite(Component):  # Inherits from the abstract class, Component
-            """Concrete class and maintains the tree recursive structure"""
-
-            def __init__(self, *args, **kwargs):
-                Component.__init__(self, *args, **kwargs)
-
-                # This is where we store the name of the composite object
-                self.name = args[0]
-
-                # This is where we keep our child items
-                self.children = []
-
-            def append_child(self, child):
-                """Method to add a new child item"""
-                self.children.append(child)
-
-            def remove_child(self, child):
-                """Method to remove a child item"""
-                self.children.remove(child)
-
-            def component_function(self):
-
-                # Print the name of the composite object
-                print("{}".format(self.name))
-
-                # Iterate through the child objects and invoke their component function
-                # printing their names
-                for i in self.children:
-                    i.component_function()
-
-        # Build a composite submenu 1
-        sub1 = Composite("submenu1")
-
-        # Create a new child sub_submenu 11
-        sub11 = Child("sub_submenu 11")
-        # Create a new Child sub_submenu 12
-        sub12 = Child("sub_submenu 12")
-
-        # Add the sub_submenu 11 to submenu 1
-        sub1.append_child(sub11)
-        # Add the sub_submenu 12 to submenu 1
-        sub1.append_child(sub12)
-
-        # Build a top-level composite menu
-        top = Composite("top_menu")
-
-        # Build a submenu 2 that is not a composite
-        sub2 = Child("submenu2")
-
-        # Add the composite submenu 1 to the top-level composite menu
-        top.append_child(sub1)
-
-        # Add the plain submenu 2 to the top-level composite menu
-        top.append_child(sub2)
-
-        # Let's test if our Composite pattern works!
-        top.component_function()
-      #+END_SRC
-
-      #+RESULTS:
-      : top_menu
-      : submenu1
-      : sub_submenu 11
-      : sub_submenu 12
-      : submenu2
-***** Leaf #1 gennad
-      #+BEGIN_SRC python :results output
-        class Component(object):
-
-            def __init__(self, *args, **kw):
-                pass
-
-            def component_function(self):
-                pass
-
-
-        class Leaf(Component):
-
-            def __init__(self, *args, **kw):
-                Component.__init__(self, *args, **kw)
-
-            def component_function(self):
-                print("some function")
-
-
-        class Composite(Component):
-
-            def __init__(self, *args, **kw):
-                Component.__init__(self, *args, **kw)
-                self.children = []
-
-            def append_child(self, child):
-                self.children.append(child)
-
-            def remove_child(self, child):
-                self.children.remove(child)
-
-            def component_function(self):
-                map(lambda x: x.component_function(), self.children)
-
-        c = Composite()
-        l = Leaf()
-        l_two = Leaf()
-        c.append_child(l)
-        c.append_child(l_two)
-        c.component_function()
-      #+END_SRC
-
-      #+RESULTS:
-***** Leaf #2 wkl
-      #+BEGIN_SRC python :results output
-        class Component(object):
-
-            def __init__(self, name):
-                self.name = name
-
-            def add(self, component):
-                pass
-
-            def remove(self, component):
-                pass
-
-            def display(self, depth):
-                pass
-
-
-        class Leaf(Component):
-
-            def add(self, component):
-                print("can not add to a leaf")
-
-            def remove(self, component):
-                print("can not remove from a leaf")
-
-            def display(self, depth):
-                print('-' * depth + self.name)
-
-
-        class Composite(Component):
-
-            def __init__(self, name):
-                super(Composite, self).__init__(name)
-                self.__children = []
-
-            def add(self, component):
-                self.__children.append(component)
-
-            def remove(self, component):
-                self.__children.remove(component)
-
-            def display(self, depth):
-                print('-' * depth + self.name)
-                for c in self.__children:
-                    c.display(depth + 2)
-
-
-        root = Composite("root")
-        root.add(Leaf("A"))
-        root.add(Leaf("B"))
-
-        comp = Composite("X")
-        comp.add(Leaf("XA"))
-        comp.add(Leaf("XB"))
-
-        root.add(comp)
-
-        root.display(1)
-      #+END_SRC
-
-      #+RESULTS:
-      : -root
-      : ---A
-      : ---B
-      : ---X
-      : -----XA
-      : -----XB
-
-***** Person composing
-      #+BEGIN_SRC python :results output
-        class Head(object):
-
-            def __init__(self, eye_color, hair_color):
-                self.eye_color = eye_color
-                self.hair_color = hair_color
-
-
-        class Body(object):
-
-            def __init__(self, weight):
-                self.weight = weight
-
-
-        class Person(object):
-
-            def __init__(self, eye_color, hair_color, weight):
-                self.head = Head(eye_color, hair_color)
-                self.body = Body(weight)
-
-            def print_eye_color(self):
-                print(self.head.eye_color)
-
-        bucky = Person('blue', 'blonde', 160)
-        bucky.print_eye_color()
-      #+END_SRC
-
-      #+RESULTS:
-      : blue
-
-*** Bridge
-**** Problem
-***** Two unrelated, parallel, or orthogonal abstractions
-***** One: implementation-specific
-***** The other: implementation-independent
-**** Scenario
-**** Solution
-***** Separate the abstractions into two different class hierarchies
-**** Bridge examples
-***** Circle and shapes
-      #+BEGIN_SRC python :results output
-        # ConcreteImplementor 1/2
-        class DrawingAPI1(object):
-
-            def draw_circle(self, x, y, radius):
-                print('API1.circle at {}:{} radius {}'.format(x, y, radius))
-
-
-        # ConcreteImplementor 2/2
-        class DrawingAPI2(object):
-
-            def draw_circle(self, x, y, radius):
-                print('API2.circle at {}:{} radius {}'.format(x, y, radius))
-
-
-        # Refined Abstraction
-        class CircleShape(object):
-
-            def __init__(self, x, y, radius, drawing_api):
-                self._x = x
-                self._y = y
-                self._radius = radius
-                self._drawing_api = drawing_api
-
-            # low-level i.e. Implementation specific
-            def draw(self):
-                self._drawing_api.draw_circle(self._x, self._y, self._radius)
-
-            # high-level i.e. Abstraction specific
-            def scale(self, pct):
-                self._radius *= pct
-
-
-        shapes = (CircleShape(1, 2, 3, DrawingAPI1()),
-                  CircleShape(5, 7, 11, DrawingAPI2()))
-
-        for shape in shapes:
-            shape.scale(2.5)
-            shape.draw()
-      #+END_SRC
-
-      #+RESULTS:
-      : API1.circle at 1:2 radius 7.5
-      : API2.circle at 5:7 radius 27.5
-***** Implementor and ConcreteImplementor
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Implementor(object):
-            __metaclass__ = ABCMeta
-
-            @abstractmethod
-            def operation(self):
-                pass
-
-
-        class ConcreteImplementorA(Implementor):
-
-            def operation(self):
-                print("plan A")
-
-
-        class ConcreteImplementorB(Implementor):
-
-            def operation(self):
-                print("plan B")
-
-
-        class Abstraction(object):
-
-            def __init__(self, implementor=None):
-                if implementor is not None:
-                    self.__implementor = implementor
-
-            @property
-            def implementor(self):
-                return self.__implementor
-
-            @implementor.setter
-            def implementor(self, value):
-                self.__implementor = value
-
-            def operation(self):
-                self.__implementor.operation()
-
-
-        class RefinedAbstraction(Abstraction):
-            pass
-
-
-        ab = RefinedAbstraction()
-
-        ab.implementor = ConcreteImplementorA()
-        ab.operation()
-
-        ab.implementor = ConcreteImplementorB()
-        ab.operation()
-      #+END_SRC
-
-      #+RESULTS:
-      : plan A
-      : plan B
-***** Linux vs Windows
-      #+BEGIN_SRC python :results output
-        class AbstractInterface:
-            """ Target interface.
-            This is the target interface, that clients use.
-            """
-
-
-        def someFunctionality(self):
-            raise NotImplemented()
-
-
-        class Bridge(AbstractInterface):
-            """ Bridge class.
-            This class forms a bridge between the target
-            interface and background implementation.
-            """
-
-
-            def __init__(self):
-                self.__implementation = None
-
-
-        class UseCase1(Bridge):
-            """ Variant of the target interface.
-            This is a variant of the target Abstract interface.
-            It can do something little differently and it can
-            also use various background implementations through
-            the bridge.
-            """
-
-
-            def __init__(self, implementation):
-                self.__implementation = implementation
-
-
-            def someFunctionality(self):
-                print("UseCase1: ",
-                      self.__implementation.anotherFunctionality())
-
-
-        class UseCase2(Bridge):
-
-
-            def __init__(self, implementation):
-                self.__implementation = implementation
-
-
-            def someFunctionality(self):
-                print("UseCase2: ",
-                      self.__implementation.anotherFunctionality())
-
-
-        class ImplementationInterface:
-            """ Interface for the background implementation.
-            This class defines how the Bridge communicates
-            with various background implementations.
-            """
-
-
-            def anotherFunctionality(self):
-                raise NotImplemented
-
-
-        class Linux(ImplementationInterface):
-            """ Concrete background implementation.
-            A variant of background implementation, in this
-            case for Linux!
-            """
-
-
-            def anotherFunctionality(self):
-                print("Linux!")
-
-
-        class Windows(ImplementationInterface):
-
-
-            def anotherFunctionality(self):
-                print("Windows.")
-
-
-
-        linux = Linux()
-        windows = Windows()
-
-        # Couple of variants under a couple
-        # of operating systems.
-        useCase = UseCase1(linux)
-        useCase.someFunctionality()
-
-        useCase = UseCase1(windows)
-        useCase.someFunctionality()
-
-        useCase = UseCase2(linux)
-        useCase.someFunctionality()
-
-        useCase = UseCase2(windows)
-        useCase.someFunctionality()
-      #+END_SRC
-
-      #+RESULTS:
-      : Linux!
-      : UseCase1:  None
-      : Windows.
-      : UseCase1:  None
-      : Linux!
-      : UseCase2:  None
-      : Windows.
-      : UseCase2:  None
-
-*** Observer
-
-**** Problem
-
-***** Subjects to be monitored
-
-***** Observers to be notified
-
-**** Scenario
-
-***** Core temperatures
-      Reactors at power plant
-
-***** Registered observers
-
-**** Solution
-
-***** Subject: abstract class
-      - Attach
-      - Detach
-      - Notify
-***** Concrete subjects
-**** Observer examples
-***** Core temperatures
-      #+BEGIN_SRC python :results output
-        class Subject(object):  # Represents what is being 'observed'
-
-            def __init__(self):
-                self._observers = []  # This where references to all the observers are being kept
-                # Note that this is a one-to-many relationship: there will be one
-                # subject to be observed by multiple _observers
-
-            def attach(self, observer):
-                if observer not in self._observers:  # If the observer is not already in the observers list
-                    self._observers.append(observer)  # append the observer to the list
-
-            def detach(self, observer):  # Simply remove the observer
-                try:
-                    self._observers.remove(observer)
-                except ValueError:
-                    pass
-
-            def notify(self, modifier=None):
-                for observer in self._observers:  # For all the observers in the list
-                    if modifier != observer:  # Don't notify the observer who is actually updating the temperature
-                        observer.update(self)  # Alert the observers!
-
-
-        class Core(Subject):  # Inherits from the Subject class
-
-            def __init__(self, name=""):
-                Subject.__init__(self)
-                self._name = name  # Set the name of the core
-                self._temp = 0  # Initialize the temperature of the core
-
-            @property  # Getter that gets the core temperature
-            def temp(self):
-                return self._temp
-
-            @temp.setter  # Setter that sets the core temperature
-            def temp(self, temp):
-                self._temp = temp
-                self.notify()  # Notify the observers whenever somebody changes the core temperature
-
-
-        class TempViewer:
-
-            def update(self, subject):  # Alert method that is invoked when the notify() method in a concrete subject is invoked
-                print("Temperature Viewer: {} has Temperature {}".format(
-                    subject._name, subject._temp))
-
-        # Let's create our subjects
-        c1 = Core("Core 1")
-        c2 = Core("Core 2")
-
-        # Let's create our observers
-        v1 = TempViewer()
-        v2 = TempViewer()
-
-        # Let's attach our observers to the first core
-        c1.attach(v1)
-        c1.attach(v2)
-
-        # Let's change the temperature of our first core
-        c1.temp = 80
-        c1.temp = 90
-      #+END_SRC
-
-      #+RESULTS:
-      : Temperature Viewer: Core 1 has Temperature 80
-      : Temperature Viewer: Core 1 has Temperature 80
-      : Temperature Viewer: Core 1 has Temperature 90
-      : Temperature Viewer: Core 1 has Temperature 90
-
-***** Hex and decimal observers
-      #+BEGIN_SRC python :results output
-        class Subject(object):
-
-            def __init__(self):
-                self._observers = []
-
-            def attach(self, observer):
-                if observer not in self._observers:
-                    self._observers.append(observer)
-
-            def detach(self, observer):
-                try:
-                    self._observers.remove(observer)
-                except ValueError:
-                    pass
-
-            def notify(self, modifier=None):
-                for observer in self._observers:
-                    if modifier != observer:
-                        observer.update(self)
-
-
-        # Example usage
-        class Data(Subject):
-
-            def __init__(self, name=''):
-                Subject.__init__(self)
-                self.name = name
-                self._data = 0
-
-            @property
-            def data(self):
-                return self._data
-
-            @data.setter
-            def data(self, value):
-                self._data = value
-                self.notify()
-
-
-        class HexViewer:
-
-            def update(self, subject):
-                print('HexViewer: Subject %s has data 0x%x' %
-                      (subject.name, subject.data))
-
-
-        class DecimalViewer:
-
-            def update(self, subject):
-                print('DecimalViewer: Subject %s has data %d' %
-                      (subject.name, subject.data))
-
-
-        # Example usage...
-        data1 = Data('Data 1')
-        data2 = Data('Data 2')
-        view1 = DecimalViewer()
-        view2 = HexViewer()
-        data1.attach(view1)
-        data1.attach(view2)
-        data2.attach(view2)
-        data2.attach(view1)
-
-        print("Setting Data 1 = 10")
-        data1.data = 10
-        print("Setting Data 2 = 15")
-        data2.data = 15
-        print("Setting Data 1 = 3")
-        data1.data = 3
-        print("Setting Data 2 = 5")
-        data2.data = 5
-        print("Detach HexViewer from data1 and data2.")
-        data1.detach(view2)
-        data2.detach(view2)
-        print("Setting Data 1 = 10")
-        data1.data = 10
-        print("Setting Data 2 = 15")
-        data2.data = 15
-      #+END_SRC
-
-      #+RESULTS:
-      #+begin_example
-      Setting Data 1 = 10
-      DecimalViewer: Subject Data 1 has data 10
-      HexViewer: Subject Data 1 has data 0xa
-      Setting Data 2 = 15
-      HexViewer: Subject Data 2 has data 0xf
-      DecimalViewer: Subject Data 2 has data 15
-      Setting Data 1 = 3
-      DecimalViewer: Subject Data 1 has data 3
-      HexViewer: Subject Data 1 has data 0x3
-      Setting Data 2 = 5
-      HexViewer: Subject Data 2 has data 0x5
-      DecimalViewer: Subject Data 2 has data 5
-      Detach HexViewer from data1 and data2.
-      Setting Data 1 = 10
-      DecimalViewer: Subject Data 1 has data 10
-      Setting Data 2 = 15
-      DecimalViewer: Subject Data 2 has data 15
-#+end_example
-
-***** Publisher and Subscriber
-      #+BEGIN_SRC python :results output
-        class Publisher(object):
-            users = set()
-
-            def register(self, user):
-                self.users.add(user)
-
-            def unregister(self, user):
-                self.users.discard(user)
-
-            def send_notifications(self, message):
-                for user in self.users:
-                    user.notify(message)
-
-
-        class Subscriber(object):
-
-            def __init__(self, username):
-                self.username = username
-
-            def notify(self, message):
-                print(self.username + ' received message: ' + message)
-
-        publisher = Publisher()
-
-        # Create observers that will receive notifications
-        bucky = Subscriber('Bucky')
-        sally = Subscriber('Sally')
-        publisher.register(bucky)
-        publisher.register(sally)
-
-        # Notifications are sent to every observer (subscriber)
-        publisher.send_notifications('We updated the website')
-        publisher.send_notifications('Make sure to add a profile picture')
-      #+END_SRC
-
-      #+RESULTS:
-      : Sally received message: We updated the website
-      : Bucky received message: We updated the website
-      : Sally received message: Make sure to add a profile picture
-      : Bucky received message: Make sure to add a profile picture
-
-***** Abstract observer
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Subject(object):
-
-            def __init__(self):
-                self.__observers = []
-
-            def attach(self, observer):
-                self.__observers.append(observer)
-
-            def detach(self, observer):
-                self.__observers.remove(observer)
-
-            def notify(self):
-                for o in self.__observers:
-                    o.update()
-
-
-        class ConcreteSubject(Subject):
-
-            @property
-            def status(self):
-                return self.__status
-
-            @status.setter
-            def status(self, value):
-                self.__status = value
-
-
-        class Observer(metaclass=ABCMeta):
-
-            @abstractmethod
-            def update(self):
-                pass
-
-
-        class ConcreteObserver(Observer):
-
-            def __init__(self, subject, name):
-                self.subject = subject
-                self.name = name
-                self.objserver_staus = None
-
-            def update(self):
-                self.objserver_staus = self.subject.status
-                print("the observer: %s status change to %s" %
-                      (self.name, self.objserver_staus))
-
-
-        s = ConcreteSubject()
-
-        s.attach(ConcreteObserver(s, "X"))
-        s.attach(ConcreteObserver(s, "Y"))
-        s.attach(ConcreteObserver(s, "Z"))
-
-        s.status = "A"
-        s.notify()
-
-        s.status = "B"
-        s.notify()
-      #+END_SRC
-
-      #+RESULTS:
-      : the observer: X status change to A
-      : the observer: Y status change to A
-      : the observer: Z status change to A
-      : the observer: X status change to B
-      : the observer: Y status change to B
-      : the observer: Z status change to B
-
-*** Visitor
-
-**** Problem
-***** New operations
-***** Existing classes
-***** All dynamically done
-**** Scenario
-***** House class
-***** HVAC specialist
-      Visitor type 1
-***** Electrician
-      Visitor type 2
-**** Solution
-***** New operations
-***** Various elements of an existing class hierarchy
-**** Visitor examples
-***** Electrician vs HVAC
-      #+BEGIN_SRC python :results output
-        class House(object):  # The class being visited
-
-            def accept(self, visitor):
-                """Interface to accept a visitor"""
-                visitor.visit(self)  # Triggers the visiting operation!
-
-            def work_on_hvac(self, hvac_specialist):
-                # Note that we now have a reference to the HVAC specialist object in
-                # the house object!
-                print(self, "worked on by", hvac_specialist)
-
-            def work_on_electricity(self, electrician):
-                # Note that we now have a reference to the electrician object in the
-                # house object!
-                print(self, "worked on by", electrician)
-
-            def __str__(self):
-                """Simply return the class name when the House object is printed"""
-                return self.__class__.__name__
-
-
-        class Visitor(object):
-            """Abstract visitor"""
-
-            def __str__(self):
-                """Simply return the class name when the Visitor object is printed"""
-                return self.__class__.__name__
-
-
-        class HvacSpecialist(Visitor):  # Inherits from the parent class, Visitor
-            """Concrete visitor: HVAC specialist"""
-
-            def visit(self, house):
-                # Note that the visitor now has a reference to the house object
-                house.work_on_hvac(self)
-
-
-        class Electrician(Visitor):  # Inherits from the parent class, Visitor
-            """Concrete visitor: electrician"""
-
-            def visit(self, house):
-                # Note that the visitor now has a reference to the house object
-                house.work_on_electricity(self)
-
-        # Create an HVAC specialist
-        first_visitor = HvacSpecialist()
-        # Create an electrician
-        second_visitor = Electrician()
-
-        # Create a house
-        home = House()
-
-        # Let the house accept the HVAC specialist and work on the house by
-        # invoking the visit() method
-        home.accept(first_visitor)
-
-        # Let the house accept the electrician and work on the house by invoking
-        # the visit() method
-        home.accept(second_visitor)
-      #+END_SRC
-
-      #+RESULTS:
-      : House worked on by HvacSpecialist
-      : House worked on by Electrician
-***** Object structure visitor
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Visitor(metaclass=ABCMeta):
-
-            @abstractmethod
-            def visitor_concrete_element_a(self, concrete_element_a):
-                pass
-
-            @abstractmethod
-            def visitor_concrete_element_b(self, concrete_element_b):
-                pass
-
-
-        class ConcreteVisitor1(Visitor):
-
-            def visitor_concrete_element_a(self, concrete_element_a):
-                print("%s visit %s" % (self.__class__.__name__,
-                                       concrete_element_a.__class__.__name__))
-
-            def visitor_concrete_element_b(self, concrete_element_b):
-                print("%s visit %s" % (self.__class__.__name__,
-                                       concrete_element_b.__class__.__name__))
-
-
-        class ConcreteVisitor2(Visitor):
-
-            def visitor_concrete_element_a(self, concrete_element_a):
-                print("%s visit %s" % (self.__class__.__name__,
-                                       concrete_element_a.__class__.__name__))
-
-            def visitor_concrete_element_b(self, concrete_element_b):
-                print("%s visit %s" % (self.__class__.__name__,
-                                       concrete_element_b.__class__.__name__))
-
-
-        class Element(metaclass=ABCMeta):
-
-            @abstractmethod
-            def accept(self, visitor):
-                pass
-
-
-        class ConcreteElementA(Element):
-
-            def accept(self, visitor):
-                visitor.visitor_concrete_element_a(self)
-
-
-        class ConcreteElementB(Element):
-
-            def accept(self, visitor):
-                visitor.visitor_concrete_element_b(self)
-
-
-        class ObjectStructure(object):
-
-            def __init__(self):
-                self.__elements = []
-
-            def attach(self, element):
-                self.__elements.append(element)
-
-            def detach(self, element):
-                self.__element.remove(element)
-
-            def accept(self, visitor):
-                for e in self.__elements:
-                    e.accept(visitor)
-
-
-        os = ObjectStructure()
-
-        os.attach(ConcreteElementA())
-        os.attach(ConcreteElementB())
-
-        v1 = ConcreteVisitor1()
-        os.accept(v1)
-
-        v2 = ConcreteVisitor2()
-        os.accept(v2)
-      #+END_SRC
-
-      #+RESULTS:
-      : ConcreteVisitor1 visit ConcreteElementA
-      : ConcreteVisitor1 visit ConcreteElementB
-      : ConcreteVisitor2 visit ConcreteElementA
-      : ConcreteVisitor2 visit ConcreteElementB
-
-***** Nodes inspector
-      #+BEGIN_SRC python :results output
-        class Node(object):
-            pass
-
-
-        class A(Node):
-            pass
-
-
-        class B(Node):
-            pass
-
-
-        class C(A, B):
-            pass
-
-
-        class Inspector(object):
-
-            def visit(self, node, *args, **kwargs):
-                method = None
-                for cls in node.__class__.__mro__:
-                    method_name = 'visit_' + cls.__name__
-                    method = getattr(self, method_name, None)
-                    if method:
-                        break
-
-                if not method:
-                    method = self.generic_visit
-                return method(node, *args, **kwargs)
-
-            def generic_visit(self, node, *args, **kwargs):
-                print('generic_visit ' + node.__class__.__name__)
-
-            def visit_B(self, node, *args, **kwargs):
-                print('visit_B ' + node.__class__.__name__)
-
-        a = A()
-        b = B()
-        c = C()
-        inspector = Inspector()
-        inspector.visit(a)
-        inspector.visit(b)
-        inspector.visit(c)
-      #+END_SRC
-
-      #+RESULTS:
-      : generic_visit A
-      : visit_B B
-      : visit_B C
-
-*** Iterator
-
-**** Problem
-     The traversal interfaces of an aggregate object -
-     getting overcrowded
-
-**** Solution
-
-***** Isolation
-
-***** Interface
-
-***** Tracking
-
-***** Recommendation
-
-**** Iterator example
-
-***** German numbers
-      #+BEGIN_SRC python :results output
-        def count_to(count):
-            numbers_in_german = ["eins", "zwei", "drei", "vier", "funf"]
-            for number in numbers_in_german:
-                yield number
-
-        # Let's test the generator returned by our iterator
-        for num in count_to(3):
-            print("{}".format(num))
-
-        for num in count_to(4):
-            print("{}".format(num))
-      #+END_SRC
-
-      #+RESULTS:
-      #+begin_example
-      eins
-      zwei
-      drei
-      vier
-      funf
-      eins
-      zwei
-      drei
-      vier
-      funf
-#+end_example
-
-***** Custom iteration implementation
-      #+BEGIN_SRC python :results output
-        from abc import ABCMeta, abstractmethod
-
-
-        class Iterator(metaclass=ABCMeta):
-
-            @abstractmethod
-            def first(self):
-                pass
-
-            @abstractmethod
-            def next(self):
-                pass
-
-            @abstractmethod
-            def is_done(self):
-                pass
-
-            @abstractmethod
-            def current_item(self):
-                pass
-
-
-        class CustomIterator(Iterator):
-
-            def __init__(self, iterable):
-                self.__iterable = iterable
-                self.current = 0
-
-            def first(self):
-                return self.__iterable[0]
-
-            def next(self):
-                result = None
-                self.current += 1
-                if self.current < len(self.__iterable):
-                    result = self.__iterable[self.current]
-                return result
-
-            def is_done(self):
-                return self.current >= len(self.__iterable)
-
-            def current_item(self):
-                return self.__iterable[self.current]
-
-
-        sample_iterable = ['first', 'second', 'third']
-
-        it = CustomIterator(sample_iterable)
-        print('First item in the sample iterable initially is a string:', it.first())
-        while not it.is_done():
-            print("current:", it.current_item())
-            it.next()
-        print('First item in the sample iterable remains be a string:', it.first())
-      #+END_SRC
-
-      #+RESULTS:
-      : First item in the sample iterable initially is a string: first
-      : current: first
-      : current: second
-      : current: third
-      : First item in the sample iterable remains be a string: first
-
-*** Strategy
-**** Problem
-     Need for dynamically changing the behavior
-     of an object
-**** Scenario
-     - Abstract Strategy class with default set of behaviors
-     - Concrete Strategy classes with new behaviors
-**** Solution
-     The =types= module in Python
-**** Strategy example
-*** Chain of responsibility
-**** Chain of responsibility example
-*** Consistency
-*** Other qualities
 
 ** Testing                                                              :TDD:
 
@@ -15308,6 +13027,7 @@
 
 *** Programming design patterns
 
+
 **** Gang of Fours
 ***** Creational Patterns
 
@@ -15436,6 +13156,2290 @@
       each.” 
       #+END_QUOTE
      
+
+**** Design patterns from Lynda
+***** What is a design pattern
+      #+BEGIN_QUOTE
+      Well-known solutions to recurring problems
+      #+END_QUOTE
+      Widely accepted solutions by the software
+      development community.
+      Why use design patterns?
+****** Motivations
+******* No need to reinvent the wheel and waste your
+	time
+******* Systematic reuse of design ideas of best
+	practices yields lower cost and higher quality
+***** Types of design patterns
+****** Creational Patterns
+******* Definition
+	Used to create objects in a systematic way
+******* Benefits
+	Flexibility
+******* Example:
+	Different subtypes of objects from the same
+	class at runtime
+****** Structural Patterns
+******* Definition
+	Establishes useful relationships between software
+	components in certain configurations.
+	To accomplish a goal: both functional and
+	nonfunctional
+	Different goals yield  different structures
+****** Behavioral Patterns
+******* Definition
+	Best practices of objects interaction
+******* Focus
+	Define the protocols
+***** Understanding object-oriented programming
+      Object-oriented mechanism used /interfaces/ for
+      - Structural inheritance;
+      - Creational polymorphism;
+      - Behavioral methods and their signatures
+***** Working with inheritance and polymorphism
+****** Inheritance
+       #+BEGIN_QUOTE
+       Establishes a relationship between two classes
+       as *Parent* and *Child*
+       #+END_QUOTE
+****** Child Class
+******* =Keeps= the attributes and methods
+	of its parent
+******* =Adds= new attributes or methods of
+	its own
+******* =Overrides= the existing methods of
+	its parent
+****** Polimorphism
+******* Relies on inheritance
+******* Allows child classes to be instantiated
+	and treated as the same type as its parent
+******* Enables a parent class to be manifest into
+	any of its child classes
+***** Understanding Pattern context
+****** Participants
+       - Classes involved to form a design pattern
+       - Roles
+****** Quality attributes
+******* Nonfunctional requirements
+	Usability, modifiability, reliability,
+	perfomance, etc.
+******* Effect on the entire software
+	Architectural solutions
+****** Forces
+       Various factors or trade-offs to consider.
+       Manifested in quality attributes.
+       In most cases would intail unintended
+       consequences.
+****** Consequences
+******* Side effects
+	~Better security but worse perfomance~
+******* Decision makers
+	~Despite the consequences~
+***** Working with Pattern language
+****** Name
+       - Shouls capture the gist of the pattern
+       - Becomes part of a vocabulary during the design process
+       - Needs to be
+	 - Meaningful
+	 - Memorable
+****** Context
+       - Provides a scenario
+	 - Pattern may be used
+       - Provides more insights
+	 - When to use it
+	 - When /not/ to use it
+****** Problem
+       - Describes a design challenge
+	 - Pattern is addressing
+****** Solution
+       - Specifies a pattern
+	 - Structure: relationships among elements
+	 - Behavior: interactions
+****** Related patterns
+***** Scholastic classification
+****** Pattern Name and Classification:
+       A descriptive and unique name that helps in identifying and referring to the pattern.
+****** Intent:
+       A description of the goal behind the pattern and the reason for using it.
+****** Also Known As:
+       Other names for the pattern.
+****** Motivation (Forces):
+       A scenario consisting of a problem and a context in which this pattern can be used.
+****** Applicability:
+       Situations in which this pattern is usable; the context for the pattern.
+****** Structure:
+       A graphical representation of the pattern. Class diagrams and Interaction diagrams may be used for this purpose.
+****** Participants:
+       A listing of the classes and objects used in the pattern and their roles in the design.
+****** Collaboration:
+       A description of how classes and objects used in the pattern interact with each other.
+****** Consequences:
+       A description of the results, side effects, and trade offs caused by using the pattern.
+****** Implementation:
+       A description of an implementation of the pattern; the solution part of the pattern.
+****** Sample Code:
+       An illustration of how the pattern can be used in a programming language.
+****** Known Uses:
+       Examples of real usages of the pattern.
+****** Related Patterns:
+       Other patterns that have some relationship with the pattern; discussion of the differences between the pattern and similar patterns.
+
+***** Factory
+****** Problem
+******* Uncertainties in types of objects
+******* Decisions to made at run-time
+	regarding what classes to use
+****** Factory examples
+******* Pet factory
+	#+BEGIN_SRC python :results output
+          class Dog(object):
+              """A simple dog class"""
+
+              def __init__(self, name):
+                  self._name = name
+
+              def speak(self):
+                  return "Woof!"
+
+
+          class Cat(object):
+              """A simple cat class"""
+
+              def __init__(self, name):
+                  self._name = name
+
+              def speak(self):
+                  return "Meow!"
+
+
+          def spawn_pet(pet="dog"):
+              """The factory method"""
+              pets = dict(dog=Dog("Hope"), cat=Cat("Peace"))
+              return pets[pet]
+
+          d = spawn_pet("dog")
+          print(d.speak())
+          c = spawn_pet("cat")
+          print(c.speak())
+	#+END_SRC
+
+	#+RESULTS:
+	: Woof!
+	: Meow!
+******* Weapon factory
+	#+BEGIN_SRC python :results output
+          from random import randrange
+
+
+          class Weapon(object):
+              name = None
+              cost = None
+
+              @staticmethod
+              def get_weapon(x):
+                  if x == 0:
+                      return Knife()
+                  if x == 1:
+                      return Gun()
+
+
+          class Knife(Weapon):
+              name = 'Knife'
+              cost = 20.00
+
+
+          class Gun(Weapon):
+              name = 'Gun'
+              cost = 300.00
+
+
+          # Create 5 random weapons
+          for _ in range(5):
+              w = Weapon.get_weapon(randrange(2))
+              print(w.name, w.cost)
+	#+END_SRC
+
+	#+RESULTS:
+	: Knife 20.0
+	: Gun 300.0
+	: Gun 300.0
+	: Gun 300.0
+	: Knife 20.0
+******* Pizza factory
+	#+BEGIN_SRC python :output results
+          class Pizza(object):
+
+              def __init__(self):
+                  self._price = None
+
+              def get_price(self):
+                  return self._price
+
+
+          class HamAndMushroomPizza(Pizza):
+
+              def __init__(self):
+                  self._price = 8.5
+
+
+          class DeluxePizza(Pizza):
+
+              def __init__(self):
+                  self._price = 10.5
+
+
+          class HawaiianPizza(Pizza):
+
+              def __init__(self):
+                  self._price = 11.5
+
+
+          class PizzaFactory(object):
+
+              @staticmethod
+              def create_pizza(pizza_type):
+                  if pizza_type == 'HamMushroom':
+                      return HamAndMushroomPizza()
+                  elif pizza_type == 'Deluxe':
+                      return DeluxePizza()
+                  elif pizza_type == 'Hawaiian':
+                      return HawaiianPizza()
+
+
+          for pizza_type, price in zip(['HamMushroom', 'Deluxe', 'Hawaiian'], [8.5, 10.5, 11.5]):
+              assert PizzaFactory.create_pizza(pizza_type).get_price() == price,\
+                  "%s validation failed." % pizza_type
+	#+END_SRC
+
+	#+RESULTS:
+	: None
+******* Operation factory
+	#+BEGIN_SRC python :results output
+          class Operation(object):
+
+              @property
+              def number_a(self):
+                  return self.__number_a
+
+              @number_a.setter
+              def number_a(self, value):
+                  self.__number_a = value
+
+              @property
+              def number_b(self):
+                  return self.__number_b
+
+              @number_b.setter
+              def number_b(self, value):
+                  self.__number_b = value
+
+
+          class OperationAdd(Operation):
+              def get_result(self):
+                  return self.number_a + self.number_b
+
+
+          class OperationSub(Operation):
+              def get_result(self):
+                  return self.number_a - self.number_b
+
+
+          class OperationFactory(object):
+              @staticmethod
+              def create_operation(operate):
+                  if operate == "+":
+                      return OperationAdd()
+                  elif operate == "-":
+                      return OperationSub()
+
+          op = OperationFactory.create_operation('+')
+          op.number_a = 10
+          op.number_b = 5
+
+          print(op.get_result())
+
+	#+END_SRC
+
+	#+RESULTS:
+	: 15
+
+***** Abstract factory
+****** Problem
+******* The user expectations yields multiply
+	related objects
+****** Solution
+******* Abstract factory
+******* Concrete factory
+******* Abstract product
+******* Concrete product
+****** Abstract factory examples
+******* Pet shop
+          #+BEGIN_SRC python :results output
+            class Dog(object):
+		"""One of the objects to be returned"""
+
+		def speak(self):
+                    return "Woof!"
+
+		def __str__(self):
+                    return "Dog"
+
+
+            class DogFactory(object):
+		"""Concrete Factory"""
+
+		def get_pet(self):
+                    """Returns a Dog object"""
+                    return Dog()
+
+		def get_food(self):
+                    """Returns a Dog Food object"""
+                    return "Dog Food!"
+
+
+            class PetStore(object):
+		""" PetStore houses our Abstract Factory """
+
+		def __init__(self, pet_factory=None):
+                    """ pet_factory is our Abstract Factory """
+
+                    self._pet_factory = pet_factory
+
+		def show_pet(self):
+                    """ Utility method to display the details of the objects retured by the DogFactory """
+
+                    pet = self._pet_factory.get_pet()
+                    pet_food = self._pet_factory.get_food()
+
+                    print("Our pet is '{}'!".format(pet))
+                    print("Our pet says hello by '{}'".format(pet.speak()))
+                    print("Its food is '{}'!".format(pet_food))
+
+
+            # Create a Concrete Factory
+            factory = DogFactory()
+
+            # Create a pet store housing our Abstract Factory
+            shop = PetStore(factory)
+
+            # Invoke the utility method to show the details of our pet
+            shop.show_pet()
+          #+END_SRC
+
+          #+RESULTS:
+          : Our pet is 'Dog'!
+          : Our pet says hello by 'Woof!'
+          : Its food is 'Dog Food!'!
+******* Button
+	#+BEGIN_SRC python :results output
+          from __future__ import print_function
+          import platform
+
+
+          class GuiFactory():
+              """Abstract Factory"""
+
+              @classmethod
+              def getFactory(Class):
+                  if platform.system() == "Windows":
+                      return WinFactory()
+                  elif platform.system() == "OSX":
+                      return OSXFactory()
+                  elif platform.system() == "Linux":
+                      return LinuxFactory()
+
+              class Button:
+                  """ Abstract Product"""
+
+                  def paint(self):
+                      raise NotImplementedError
+
+              @classmethod
+              def getButton(Class):
+                  return Class.Button()
+
+
+          class WinFactory(GuiFactory):
+              """Concrete Factory"""
+
+              class Button(GuiFactory.Button):
+                  """Concrete Product"""
+
+                  def paint(self):
+                      print("I am a Windows button")
+
+
+          class LinuxFactory(GuiFactory):
+              """Concrete Factory"""
+
+              class Button(GuiFactory.Button):
+                  """Concrete Product"""
+
+                  def paint(self):
+                      print("I am a Linux button")
+
+
+          class OSXFactory(GuiFactory):
+              """Concrete Factory"""
+
+              class Button(GuiFactory.Button):
+                  """Concrete Product"""
+
+                  def paint(self):
+                      print("I am a OSX button")
+
+
+          factory = GuiFactory.getFactory()
+          factory.getButton().paint()
+	#+END_SRC
+
+	#+RESULTS:
+	: I am a Linux button
+
+***** Singleton
+
+****** Definition
+       #+BEGIN_QUOTE
+       In software engineering, the singleton pattern is a software
+       design pattern that restricts the instantiation of a class to
+       one object. This is useful when exactly one object is needed
+       to coordinate actions across the system. The concept is sometimes
+       generalized to systems that operate more efficiently when only
+       one object exists, or that restrict the instantiation to a
+       certain number of objects.
+       #+END_QUOTE
+
+****** Only one instance
+
+****** Global variable in an object-oriented way
+
+****** Scenario
+
+******* An information cache
+
+****** Solution
+
+******* Module
+	Shared by multiple objects
+
+******* The /Borg/ design pattern
+
+****** Singleton examples
+    
+******* Strict&narrow
+	A kind of =singleton= like a ~hard link~ in the UNIX filesystems
+	#+BEGIN_SRC python :results output
+          class Singleton(object):
+
+              def __new__(type):
+                  if not '_the_instance' in type.__dict__:
+                      type._the_instance = object.__new__(type)
+                  return type._the_instance
+
+          a = Singleton()
+          a.toto = 12
+
+          b = Singleton()
+          assert id(a) == id(b) and a.toto == b.toto, "These variables aren't same!!!"
+	#+END_SRC
+
+	#+RESULTS:
+
+******* Primitive Borg
+	#+BEGIN_SRC python :output results
+          class Borg(object):
+              __shared_state = {}
+
+              def __init__(self):
+                  self.__dict__ = self.__shared_state
+
+          a = Borg()
+          a.toto = 12
+
+          b = Borg()
+          assert(a.toto == b.toto)
+          assert(id(a) != id(b))  # different ! but states are sames
+	#+END_SRC
+******* Borg with abstract base class
+	#+BEGIN_SRC python :results output
+          class Borg(object):
+              """Borg pattern making the class attributes global"""
+              _shared_data_pool = {}
+
+              def __init__(self):
+                  self.__dict__ = self._shared_data_pool  # Make it an attribute dictionary
+
+
+          class Singleton(Borg):  # Inherits from the Borg class
+              """This class now shares all its attributes among its various instances"""
+              # This essenstially makes the singleton objects an object-oriented global
+              # variable
+
+              def __init__(self, **kwargs):
+                  Borg.__init__(self)
+                  # Update the attribute dictionary by inserting a new key-value pair
+                  self._shared_data_pool.update(kwargs)
+
+              def __str__(self):
+                  # Returns the attribute dictionary for printing
+                  return str(self._shared_data_pool)
+
+          # Let's create a singleton object and add our first acronym
+          x = Singleton(a="First shared value")
+
+          # Let's create another singleton object and if it refers to the same
+          # attribute dictionary by adding another acronym.
+          y = Singleton()
+          assert(y.a == x.a)
+          y.b = "Second shared value"
+          # same values indoors
+          assert(y.b == x.b) # compare the objects:
+          assert(x != y)  # but they are different!
+          assert(x is not y)  # in the same time
+	#+END_SRC
+
+	#+RESULTS:
+
+******* A decorator
+******* A base class
+******* A metaclass
+******* Metaclass usage
+******* Specific decorator
+	returning a class with the same name
+****** Caution
+***** Builder
+      #+BEGIN_QUOTE
+      Separates object construction from its representation
+      #+END_QUOTE
+****** Problem
+       #+BEGIN_QUOTE
+       The builder pattern is an object creation software design pattern.
+       Unlike the abstract factory pattern and the factory method pattern
+       whose intention is to enable polymorphism, the intention of the
+       builder pattern is to find a solution to the telescoping constructor
+       anti-pattern. The telescoping constructor anti-pattern
+       occurs when the increase of object constructor parameter combination
+       leads to an exponential list of constructors.
+       Instead of using numerous constructors, the builder pattern uses another
+       object, a /builder/, that receives each initialization parameter step by
+       step and then returns the resulting constructed object at once.
+       #+END_QUOTE
+
+       The main premise for design is an excessive number of constructors.
+
+       #+BEGIN_QUOTE
+       =Builder= often builds a =Composite=. Often, designs start out using =Factory
+       Method= (less complicated, more customizable, subclasses proliferate) and
+       evolve toward =Abstract Factory=, =Prototype=, or =Builder= (more flexible,
+       more complex) as the designer discovers where more flexibility is needed.
+       Sometimes creational patterns are complementary: =Builder= can use one of
+       the other patterns to implement which components are built.
+       #+END_QUOTE
+****** Scenario
+       Building cars:
+       - Tires
+       - Engine
+       - etc.
+****** Solution
+******* Director
+******* Abstract Builder: interfaces
+******* Concrete Builder: implements the interfaces
+******* Product: object being built
+****** Builder example
+******* SkyLark
+	#+BEGIN_SRC python :results output
+          class Car(object):
+              """Product"""
+
+              def __init__(self):
+                  self.model = None
+                  self.tires = None
+                  self.engine = None
+
+              def __str__(self):
+                  return '{} | {} | {}'.format(self.model, self.tires, self.engine)
+
+
+          class Director(object):
+              """Director"""
+
+              def __init__(self, builder):
+                  self._builder = builder
+
+              def construct_car(self):
+                  pass
+
+              def get_car(self):
+                  pass
+
+
+          class Builder(object):
+              """Abstract Builder"""
+
+              def __init__(self):
+                  self.car = None
+
+              def create_new_car(self):
+                  self.car = Car()
+
+
+          class SkyLarkBuilder(Builder):
+              """Concrete Builder --> provides parts and tools to work on the parts """
+
+              def add_model(self):
+                  self.car.model = "Skylark"
+
+              def add_tires(self):
+                  self.car.tires = "Regular tires"
+	#+END_SRC
+
+	#+RESULTS:
+
+******* Building producing at ~faif~
+	#+BEGIN_SRC python :results output
+          # Director
+          class Director(object):
+
+              def __init__(self):
+                  self.builder = None
+
+              def construct_building(self):
+                  self.builder.new_building()
+                  self.builder.build_floor()
+                  self.builder.build_size()
+
+              def get_building(self):
+                  return self.builder.building
+
+
+          # Abstract Builder
+          class Builder(object):
+
+              def __init__(self):
+                  self.building = None
+
+              def new_building(self):
+                  self.building = Building()
+
+              def build_floor(self):
+                  raise NotImplementedError
+
+              def build_size(self):
+                  raise NotImplementedError
+
+          # Concrete Builder
+
+
+          class BuilderHouse(Builder):
+
+              def build_floor(self):
+                  self.building.floor = 'One'
+
+              def build_size(self):
+                  self.building.size = 'Big'
+
+
+          class BuilderFlat(Builder):
+
+              def build_floor(self):
+                  self.building.floor = 'More than One'
+
+              def build_size(self):
+                  self.building.size = 'Small'
+
+
+          # Product
+          class Building(object):
+
+              def __init__(self):
+                  self.floor = None
+                  self.size = None
+
+              def __repr__(self):
+                  return 'Floor: {0.floor} | Size: {0.size}'.format(self)
+
+          director = Director()
+          director.builder = BuilderHouse()
+          director.construct_building()
+          building = director.get_building()
+          print(building)
+          director.builder = BuilderFlat()
+          director.construct_building()
+          building = director.get_building()
+          print(building)
+	#+END_SRC
+
+	#+RESULTS:
+	: Floor: One | Size: Big
+	: Floor: More than One | Size: Small
+
+******* Divided builder from ~wklken~
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Product(object):
+              """
+              What you want to get as a result
+              """
+
+              def __init__(self):
+                  self.__parts = []
+
+              def add(self, part):
+                  self.__parts.append(part)
+
+              def show(self):
+                  print('-'.join(self.__parts))
+
+
+          class Builder(object):
+              """
+              Empty template with all requrements
+              """
+
+              __metaclass__ = ABCMeta
+
+              @abstractmethod
+              def build_part_1(self):
+                  pass
+
+              @abstractmethod
+              def build_part_2(self):
+                  pass
+
+              @abstractmethod
+              def get_result(self):
+                  pass
+
+
+          class BuilderA(Builder):
+              def __init__(self):
+                  self.__product = Product()
+
+              def build_part_1(self):
+                  self.__product.add("partA1")
+
+              def build_part_2(self):
+                  self.__product.add("partA2")
+
+              def get_result(self):
+                  return self.__product
+
+
+          class BuilderB(Builder):
+              def __init__(self):
+                  self.__product = Product()
+
+              def build_part_1(self):
+                  self.__product.add("partB1")
+
+              def build_part_2(self):
+                  self.__product.add("partB2")
+
+              def get_result(self):
+                  return self.__product
+
+
+          class Director(object):
+              @staticmethod
+              def construct(builder):
+                  builder.build_part_1()
+                  builder.build_part_2()
+
+
+
+          ba = BuilderA()
+          bb = BuilderB()
+
+          Director.construct(ba)
+          product = ba.get_result()
+          product.show()
+
+          Director.construct(bb)
+          product = bb.get_result()
+          product.show()
+	#+END_SRC
+
+	#+RESULTS:
+	: partA1-partA2
+	: partB1-partB2
+
+***** Prototype
+****** Problem
+
+******* Creationg many identical objects individually:
+	expensive
+
+******* Cloning:
+	an alternative
+
+****** Scenario
+       Mass production
+
+****** Solution
+
+******* Create a prototypical instance first
+
+******* Simply clone it whenever you need replica
+
+****** Prototype example
+******* SkyLark
+	#+BEGIN_SRC python :results output
+          import copy
+
+          class Prototype:
+
+              def __init__(self):
+                  self._objects = {}
+
+              def register_object(self, name, obj):
+                  """register an object"""
+                  self._objects[name] = obj
+
+              def unregister_object(self, name):
+                  """Unregister an object"""
+                  del self._objects[name]
+
+
+              def clone(self, name, **attr):
+                  """Clone a registered object and update its attributes"""
+                  obj = copy.deepcopy(self._objects.get(name))
+                  obj.__dict__.update(attr)
+                  return obj
+
+
+          class Car:
+
+              def __init__(self):
+                  self.name = "Skylark"
+                  self.color = "Red"
+                  self.options = "Ex"
+
+              def __str__(self):
+                  return '{} | {} | {}'.format(self.name, self.color, self.options)
+
+          c = Car()
+          prototype = Prototype()
+          prototype.register_object('skylark', c)
+
+          c1 = prototype.clone('skylark', color='Yellow')
+          print(c, '\n', c1)
+	#+END_SRC
+
+	#+RESULTS:
+	: Skylark | Red | Ex 
+	:  Skylark | Yellow | Ex
+
+******* Prototype dispatcher
+	#+BEGIN_SRC python :results output
+          import copy
+
+
+          class Prototype(object):
+              """
+              Default (dummy) values and cloning procedure description there
+              """
+
+              value = 'default'
+
+              def clone(self, **attrs):
+                  """Clone a prototype and update inner attributes dictionary"""
+                  obj = copy.deepcopy(self)
+                  obj.__dict__.update(attrs)
+                  return obj
+
+
+          class PrototypeDispatcher(object):
+              """
+              Accumulates clones by their names
+              """
+
+              def __init__(self):
+                  self._objects = {}
+
+              def get_objects(self):
+                  """Get all objects"""
+                  return self._objects
+
+              def register_object(self, name, obj):
+                  """Register an object"""
+                  self._objects[name] = obj
+
+              def unregister_object(self, name):
+                  """Unregister an object"""
+                  del self._objects[name]
+
+
+          dispatcher = PrototypeDispatcher()
+          prototype = Prototype()
+
+          d = prototype.clone()
+          a = prototype.clone(value='a-value', category='a')
+          b = prototype.clone(value='b-value', is_checked=True)
+          print(d.value, a.value, b.value)
+          dispatcher.register_object('objecta', a)
+          dispatcher.register_object('objectb', b)
+          dispatcher.register_object('default', d)
+          print([{n: p.value} for n, p in dispatcher.get_objects().items()])
+	#+END_SRC
+
+	#+RESULTS:
+	: default a-value b-value
+	: [{'default': 'default'}, {'objecta': 'a-value'}, {'objectb': 'b-value'}]
+
+***** Decorator
+****** Problem
+******* New features to an existing object
+******* Dynamic changes
+****** Scenario
+       <blink>Hello World!</blink>
+****** Solution
+******* Functions: objects in Python
+******* Built-in decorator feature *@*
+****** Decorator example
+******* Simple wrapper
+	#+BEGIN_SRC python :results output
+          from functools import wraps
+
+          def make_blink(function):
+                  """Defines the decorator"""
+
+                  #This makes the decorator transparent in terms of its name and docstring
+
+
+                  #Define the inner function
+                  def decorator():
+                          #Grab the return value of the function being decorated
+                
+
+                          #Add new functionality to the function being decorated
+                
+
+                  return decorator
+
+          #Apply the decorator here!
+
+          def hello_world():
+                  """Original function! """
+
+                  return "Hello, World!"
+
+          #Check the result of decorating
+
+
+          #Check if the function name is still the same name of the function being decorated
+
+
+          #Check if the docstring is still the same as that of the function being decorated
+
+
+
+	#+END_SRC
+***** Proxy
+****** Problem
+******* Postpone object creation unless absolutely necessary
+******* Find a placeholder
+****** Scenario
+******* Producer
+******* Artist
+******* Guest
+****** Soluton
+******* Clients: interacting with a Proxy
+******* Proxy: responsible for creating the resource intensive objects
+****** Proxy example
+******* Producer time-schedule
+	#+BEGIN_SRC python :results output
+          import time
+
+
+          class Producer:
+              """Define the 'resource-intensive' object to instantiate!"""
+
+              def produce(self):
+                  print("Producer is working hard!")
+
+              def meet(self):
+                  print("Producer has time to meet you now!")
+
+
+          class Proxy:
+              """"
+              Define the 'relatively less resource-intensive' proxy to 
+              instantiate as a middleman
+              """
+
+              def __init__(self):
+                  self.occupied = 'No'
+                  self.producer = None
+
+              def produce(self):
+                  """Check if Producer is available"""
+                  print("Artist checking if Producer is available ...")
+
+                  if self.occupied == 'No':
+                      # If the producer is available, create a producer object!
+                      self.producer = Producer()
+                      time.sleep(2)
+
+                      # Make the prodcuer meet the guest!
+                      self.producer.meet()
+
+                  else:
+                      # Otherwise, don't instantiate a producer
+                      time.sleep(2)
+                      print("Producer is busy!")
+
+          # Instantiate a Proxy
+          p = Proxy()
+
+          # Make the proxy: Artist produce until Producer is available
+          p.produce()
+
+          # Change the state to 'occupied'
+          p.occupied = 'Yes'
+
+          # Make the Producer produce
+          p.produce()
+	#+END_SRC
+
+	#+RESULTS:
+	: Artist checking if Producer is available ...
+	: Producer has time to meet you now!
+	: Artist checking if Producer is available ...
+	: Producer is busy!
+
+***** Adapter
+****** Adapter example
+******* Korean -> British
+	#+BEGIN_SRC python :results output
+          class Korean:
+              """Korean speaker"""
+
+              def __init__(self):
+                  self.name = "Korean"
+
+              def speak_korean(self):
+                  return "An-neyong?"
+
+
+          class British:
+              """English speaker"""
+
+              def __init__(self):
+                  self.name = "British"
+
+              # Note the different method name here!
+              def speak_english(self):
+                  return "Hello!"
+
+
+          class Adapter:
+              """This changes the generic method name to individualized method names"""
+
+              def __init__(self, object, **adapted_method):
+                  """Change the name of the method"""
+                  self._object = object
+
+                  # Add a new dictionary item that establishes the mapping between the generic method name: speak() and the concrete method
+                  # For example, speak() will be translated to speak_korean() if the
+                  # mapping says so
+                  self.__dict__.update(adapted_method)
+
+              def __getattr__(self, attr):
+                  """Simply return the rest of attributes!"""
+                  return getattr(self._object, attr)
+
+          # List to store speaker objects
+          objects = []
+
+          # Create a Korean object
+          korean = Korean()
+
+          # Create a British object
+          british = British()
+
+          # Append the objects to the objects list
+          objects.append(Adapter(korean, speak=korean.speak_korean))
+          objects.append(Adapter(british, speak=british.speak_english))
+
+
+          for obj in objects:
+              print("{} says '{}'\n".format(obj.name, obj.speak()))
+	#+END_SRC
+
+	#+RESULTS:
+	: Korean says 'An-neyong?'
+	: 
+	: British says 'Hello!'
+	: 
+******* Target from wkl
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Target(object):
+              __metaclass__ = ABCMeta
+
+              @abstractmethod
+              def request(self):
+                  pass
+
+
+          class Adaptee(object):
+
+              def special_request(self):
+                  print("I am special")
+
+
+          class Adapter(Target):
+
+              def __init__(self):
+                  self.adaptee = Adaptee()
+
+              def request(self):
+                  self.adaptee.special_request()
+
+
+          a = Adapter()
+          a.request()
+	#+END_SRC
+
+	#+RESULTS:
+	: I am special
+
+***** Composite
+****** Problem
+******* Recursive tree data structure
+******* Menu > submenu > sub-submenu
+****** Solution
+******* Component
+******* Child
+******* Composite
+****** Composites examples
+******* Component - Child - Composite
+	#+BEGIN_SRC python :results output
+          class Component(object):
+              """Abstract class"""
+
+              def __init__(self, *args, **kwargs):
+                  pass
+
+              def component_function(self):
+                  pass
+
+
+          class Child(Component):  # Inherits from the abstract class, Component
+              """Concrete class"""
+
+              def __init__(self, *args, **kwargs):
+                  Component.__init__(self, *args, **kwargs)
+
+                  # This is where we store the name of your child item!
+                  self.name = args[0]
+
+              def component_function(self):
+                  # Print the name of your child item here!
+                  print("{}".format(self.name))
+
+
+          class Composite(Component):  # Inherits from the abstract class, Component
+              """Concrete class and maintains the tree recursive structure"""
+
+              def __init__(self, *args, **kwargs):
+                  Component.__init__(self, *args, **kwargs)
+
+                  # This is where we store the name of the composite object
+                  self.name = args[0]
+
+                  # This is where we keep our child items
+                  self.children = []
+
+              def append_child(self, child):
+                  """Method to add a new child item"""
+                  self.children.append(child)
+
+              def remove_child(self, child):
+                  """Method to remove a child item"""
+                  self.children.remove(child)
+
+              def component_function(self):
+
+                  # Print the name of the composite object
+                  print("{}".format(self.name))
+
+                  # Iterate through the child objects and invoke their component function
+                  # printing their names
+                  for i in self.children:
+                      i.component_function()
+
+          # Build a composite submenu 1
+          sub1 = Composite("submenu1")
+
+          # Create a new child sub_submenu 11
+          sub11 = Child("sub_submenu 11")
+          # Create a new Child sub_submenu 12
+          sub12 = Child("sub_submenu 12")
+
+          # Add the sub_submenu 11 to submenu 1
+          sub1.append_child(sub11)
+          # Add the sub_submenu 12 to submenu 1
+          sub1.append_child(sub12)
+
+          # Build a top-level composite menu
+          top = Composite("top_menu")
+
+          # Build a submenu 2 that is not a composite
+          sub2 = Child("submenu2")
+
+          # Add the composite submenu 1 to the top-level composite menu
+          top.append_child(sub1)
+
+          # Add the plain submenu 2 to the top-level composite menu
+          top.append_child(sub2)
+
+          # Let's test if our Composite pattern works!
+          top.component_function()
+	#+END_SRC
+
+	#+RESULTS:
+	: top_menu
+	: submenu1
+	: sub_submenu 11
+	: sub_submenu 12
+	: submenu2
+******* Leaf #1 gennad
+	#+BEGIN_SRC python :results output
+          class Component(object):
+
+              def __init__(self, *args, **kw):
+                  pass
+
+              def component_function(self):
+                  pass
+
+
+          class Leaf(Component):
+
+              def __init__(self, *args, **kw):
+                  Component.__init__(self, *args, **kw)
+
+              def component_function(self):
+                  print("some function")
+
+
+          class Composite(Component):
+
+              def __init__(self, *args, **kw):
+                  Component.__init__(self, *args, **kw)
+                  self.children = []
+
+              def append_child(self, child):
+                  self.children.append(child)
+
+              def remove_child(self, child):
+                  self.children.remove(child)
+
+              def component_function(self):
+                  map(lambda x: x.component_function(), self.children)
+
+          c = Composite()
+          l = Leaf()
+          l_two = Leaf()
+          c.append_child(l)
+          c.append_child(l_two)
+          c.component_function()
+	#+END_SRC
+
+	#+RESULTS:
+******* Leaf #2 wkl
+	#+BEGIN_SRC python :results output
+          class Component(object):
+
+              def __init__(self, name):
+                  self.name = name
+
+              def add(self, component):
+                  pass
+
+              def remove(self, component):
+                  pass
+
+              def display(self, depth):
+                  pass
+
+
+          class Leaf(Component):
+
+              def add(self, component):
+                  print("can not add to a leaf")
+
+              def remove(self, component):
+                  print("can not remove from a leaf")
+
+              def display(self, depth):
+                  print('-' * depth + self.name)
+
+
+          class Composite(Component):
+
+              def __init__(self, name):
+                  super(Composite, self).__init__(name)
+                  self.__children = []
+
+              def add(self, component):
+                  self.__children.append(component)
+
+              def remove(self, component):
+                  self.__children.remove(component)
+
+              def display(self, depth):
+                  print('-' * depth + self.name)
+                  for c in self.__children:
+                      c.display(depth + 2)
+
+
+          root = Composite("root")
+          root.add(Leaf("A"))
+          root.add(Leaf("B"))
+
+          comp = Composite("X")
+          comp.add(Leaf("XA"))
+          comp.add(Leaf("XB"))
+
+          root.add(comp)
+
+          root.display(1)
+	#+END_SRC
+
+	#+RESULTS:
+	: -root
+	: ---A
+	: ---B
+	: ---X
+	: -----XA
+	: -----XB
+
+******* Person composing
+	#+BEGIN_SRC python :results output
+          class Head(object):
+
+              def __init__(self, eye_color, hair_color):
+                  self.eye_color = eye_color
+                  self.hair_color = hair_color
+
+
+          class Body(object):
+
+              def __init__(self, weight):
+                  self.weight = weight
+
+
+          class Person(object):
+
+              def __init__(self, eye_color, hair_color, weight):
+                  self.head = Head(eye_color, hair_color)
+                  self.body = Body(weight)
+
+              def print_eye_color(self):
+                  print(self.head.eye_color)
+
+          bucky = Person('blue', 'blonde', 160)
+          bucky.print_eye_color()
+	#+END_SRC
+
+	#+RESULTS:
+	: blue
+
+***** Bridge
+****** Problem
+******* Two unrelated, parallel, or orthogonal abstractions
+******* One: implementation-specific
+******* The other: implementation-independent
+****** Scenario
+****** Solution
+******* Separate the abstractions into two different class hierarchies
+****** Bridge examples
+******* Circle and shapes
+	#+BEGIN_SRC python :results output
+          # ConcreteImplementor 1/2
+          class DrawingAPI1(object):
+
+              def draw_circle(self, x, y, radius):
+                  print('API1.circle at {}:{} radius {}'.format(x, y, radius))
+
+
+          # ConcreteImplementor 2/2
+          class DrawingAPI2(object):
+
+              def draw_circle(self, x, y, radius):
+                  print('API2.circle at {}:{} radius {}'.format(x, y, radius))
+
+
+          # Refined Abstraction
+          class CircleShape(object):
+
+              def __init__(self, x, y, radius, drawing_api):
+                  self._x = x
+                  self._y = y
+                  self._radius = radius
+                  self._drawing_api = drawing_api
+
+              # low-level i.e. Implementation specific
+              def draw(self):
+                  self._drawing_api.draw_circle(self._x, self._y, self._radius)
+
+              # high-level i.e. Abstraction specific
+              def scale(self, pct):
+                  self._radius *= pct
+
+
+          shapes = (CircleShape(1, 2, 3, DrawingAPI1()),
+                    CircleShape(5, 7, 11, DrawingAPI2()))
+
+          for shape in shapes:
+              shape.scale(2.5)
+              shape.draw()
+	#+END_SRC
+
+	#+RESULTS:
+	: API1.circle at 1:2 radius 7.5
+	: API2.circle at 5:7 radius 27.5
+******* Implementor and ConcreteImplementor
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Implementor(object):
+              __metaclass__ = ABCMeta
+
+              @abstractmethod
+              def operation(self):
+                  pass
+
+
+          class ConcreteImplementorA(Implementor):
+
+              def operation(self):
+                  print("plan A")
+
+
+          class ConcreteImplementorB(Implementor):
+
+              def operation(self):
+                  print("plan B")
+
+
+          class Abstraction(object):
+
+              def __init__(self, implementor=None):
+                  if implementor is not None:
+                      self.__implementor = implementor
+
+              @property
+              def implementor(self):
+                  return self.__implementor
+
+              @implementor.setter
+              def implementor(self, value):
+                  self.__implementor = value
+
+              def operation(self):
+                  self.__implementor.operation()
+
+
+          class RefinedAbstraction(Abstraction):
+              pass
+
+
+          ab = RefinedAbstraction()
+
+          ab.implementor = ConcreteImplementorA()
+          ab.operation()
+
+          ab.implementor = ConcreteImplementorB()
+          ab.operation()
+	#+END_SRC
+
+	#+RESULTS:
+	: plan A
+	: plan B
+******* Linux vs Windows
+	#+BEGIN_SRC python :results output
+          class AbstractInterface:
+              """ Target interface.
+              This is the target interface, that clients use.
+              """
+
+
+          def someFunctionality(self):
+              raise NotImplemented()
+
+
+          class Bridge(AbstractInterface):
+              """ Bridge class.
+              This class forms a bridge between the target
+              interface and background implementation.
+              """
+
+
+              def __init__(self):
+                  self.__implementation = None
+
+
+          class UseCase1(Bridge):
+              """ Variant of the target interface.
+              This is a variant of the target Abstract interface.
+              It can do something little differently and it can
+              also use various background implementations through
+              the bridge.
+              """
+
+
+              def __init__(self, implementation):
+                  self.__implementation = implementation
+
+
+              def someFunctionality(self):
+                  print("UseCase1: ",
+			self.__implementation.anotherFunctionality())
+
+
+          class UseCase2(Bridge):
+
+
+              def __init__(self, implementation):
+                  self.__implementation = implementation
+
+
+              def someFunctionality(self):
+                  print("UseCase2: ",
+			self.__implementation.anotherFunctionality())
+
+
+          class ImplementationInterface:
+              """ Interface for the background implementation.
+              This class defines how the Bridge communicates
+              with various background implementations.
+              """
+
+
+              def anotherFunctionality(self):
+                  raise NotImplemented
+
+
+          class Linux(ImplementationInterface):
+              """ Concrete background implementation.
+              A variant of background implementation, in this
+              case for Linux!
+              """
+
+
+              def anotherFunctionality(self):
+                  print("Linux!")
+
+
+          class Windows(ImplementationInterface):
+
+
+              def anotherFunctionality(self):
+                  print("Windows.")
+
+
+
+          linux = Linux()
+          windows = Windows()
+
+          # Couple of variants under a couple
+          # of operating systems.
+          useCase = UseCase1(linux)
+          useCase.someFunctionality()
+
+          useCase = UseCase1(windows)
+          useCase.someFunctionality()
+
+          useCase = UseCase2(linux)
+          useCase.someFunctionality()
+
+          useCase = UseCase2(windows)
+          useCase.someFunctionality()
+	#+END_SRC
+
+	#+RESULTS:
+	: Linux!
+	: UseCase1:  None
+	: Windows.
+	: UseCase1:  None
+	: Linux!
+	: UseCase2:  None
+	: Windows.
+	: UseCase2:  None
+
+***** Observer
+
+****** Problem
+
+******* Subjects to be monitored
+
+******* Observers to be notified
+
+****** Scenario
+
+******* Core temperatures
+	Reactors at power plant
+
+******* Registered observers
+
+****** Solution
+
+******* Subject: abstract class
+	- Attach
+	- Detach
+	- Notify
+******* Concrete subjects
+****** Observer examples
+******* Core temperatures
+	#+BEGIN_SRC python :results output
+          class Subject(object):  # Represents what is being 'observed'
+
+              def __init__(self):
+                  self._observers = []  # This where references to all the observers are being kept
+                  # Note that this is a one-to-many relationship: there will be one
+                  # subject to be observed by multiple _observers
+
+              def attach(self, observer):
+                  if observer not in self._observers:  # If the observer is not already in the observers list
+                      self._observers.append(observer)  # append the observer to the list
+
+              def detach(self, observer):  # Simply remove the observer
+                  try:
+                      self._observers.remove(observer)
+                  except ValueError:
+                      pass
+
+              def notify(self, modifier=None):
+                  for observer in self._observers:  # For all the observers in the list
+                      if modifier != observer:  # Don't notify the observer who is actually updating the temperature
+                          observer.update(self)  # Alert the observers!
+
+
+          class Core(Subject):  # Inherits from the Subject class
+
+              def __init__(self, name=""):
+                  Subject.__init__(self)
+                  self._name = name  # Set the name of the core
+                  self._temp = 0  # Initialize the temperature of the core
+
+              @property  # Getter that gets the core temperature
+              def temp(self):
+                  return self._temp
+
+              @temp.setter  # Setter that sets the core temperature
+              def temp(self, temp):
+                  self._temp = temp
+                  self.notify()  # Notify the observers whenever somebody changes the core temperature
+
+
+          class TempViewer:
+
+              def update(self, subject):  # Alert method that is invoked when the notify() method in a concrete subject is invoked
+                  print("Temperature Viewer: {} has Temperature {}".format(
+                      subject._name, subject._temp))
+
+          # Let's create our subjects
+          c1 = Core("Core 1")
+          c2 = Core("Core 2")
+
+          # Let's create our observers
+          v1 = TempViewer()
+          v2 = TempViewer()
+
+          # Let's attach our observers to the first core
+          c1.attach(v1)
+          c1.attach(v2)
+
+          # Let's change the temperature of our first core
+          c1.temp = 80
+          c1.temp = 90
+	#+END_SRC
+
+	#+RESULTS:
+	: Temperature Viewer: Core 1 has Temperature 80
+	: Temperature Viewer: Core 1 has Temperature 80
+	: Temperature Viewer: Core 1 has Temperature 90
+	: Temperature Viewer: Core 1 has Temperature 90
+
+******* Hex and decimal observers
+	#+BEGIN_SRC python :results output
+          class Subject(object):
+
+              def __init__(self):
+                  self._observers = []
+
+              def attach(self, observer):
+                  if observer not in self._observers:
+                      self._observers.append(observer)
+
+              def detach(self, observer):
+                  try:
+                      self._observers.remove(observer)
+                  except ValueError:
+                      pass
+
+              def notify(self, modifier=None):
+                  for observer in self._observers:
+                      if modifier != observer:
+                          observer.update(self)
+
+
+          # Example usage
+          class Data(Subject):
+
+              def __init__(self, name=''):
+                  Subject.__init__(self)
+                  self.name = name
+                  self._data = 0
+
+              @property
+              def data(self):
+                  return self._data
+
+              @data.setter
+              def data(self, value):
+                  self._data = value
+                  self.notify()
+
+
+          class HexViewer:
+
+              def update(self, subject):
+                  print('HexViewer: Subject %s has data 0x%x' %
+			(subject.name, subject.data))
+
+
+          class DecimalViewer:
+
+              def update(self, subject):
+                  print('DecimalViewer: Subject %s has data %d' %
+			(subject.name, subject.data))
+
+
+          # Example usage...
+          data1 = Data('Data 1')
+          data2 = Data('Data 2')
+          view1 = DecimalViewer()
+          view2 = HexViewer()
+          data1.attach(view1)
+          data1.attach(view2)
+          data2.attach(view2)
+          data2.attach(view1)
+
+          print("Setting Data 1 = 10")
+          data1.data = 10
+          print("Setting Data 2 = 15")
+          data2.data = 15
+          print("Setting Data 1 = 3")
+          data1.data = 3
+          print("Setting Data 2 = 5")
+          data2.data = 5
+          print("Detach HexViewer from data1 and data2.")
+          data1.detach(view2)
+          data2.detach(view2)
+          print("Setting Data 1 = 10")
+          data1.data = 10
+          print("Setting Data 2 = 15")
+          data2.data = 15
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+	Setting Data 1 = 10
+	DecimalViewer: Subject Data 1 has data 10
+	HexViewer: Subject Data 1 has data 0xa
+	Setting Data 2 = 15
+	HexViewer: Subject Data 2 has data 0xf
+	DecimalViewer: Subject Data 2 has data 15
+	Setting Data 1 = 3
+	DecimalViewer: Subject Data 1 has data 3
+	HexViewer: Subject Data 1 has data 0x3
+	Setting Data 2 = 5
+	HexViewer: Subject Data 2 has data 0x5
+	DecimalViewer: Subject Data 2 has data 5
+	Detach HexViewer from data1 and data2.
+	Setting Data 1 = 10
+	DecimalViewer: Subject Data 1 has data 10
+	Setting Data 2 = 15
+	DecimalViewer: Subject Data 2 has data 15
+  #+end_example
+
+******* Publisher and Subscriber
+	#+BEGIN_SRC python :results output
+          class Publisher(object):
+              users = set()
+
+              def register(self, user):
+                  self.users.add(user)
+
+              def unregister(self, user):
+                  self.users.discard(user)
+
+              def send_notifications(self, message):
+                  for user in self.users:
+                      user.notify(message)
+
+
+          class Subscriber(object):
+
+              def __init__(self, username):
+                  self.username = username
+
+              def notify(self, message):
+                  print(self.username + ' received message: ' + message)
+
+          publisher = Publisher()
+
+          # Create observers that will receive notifications
+          bucky = Subscriber('Bucky')
+          sally = Subscriber('Sally')
+          publisher.register(bucky)
+          publisher.register(sally)
+
+          # Notifications are sent to every observer (subscriber)
+          publisher.send_notifications('We updated the website')
+          publisher.send_notifications('Make sure to add a profile picture')
+	#+END_SRC
+
+	#+RESULTS:
+	: Sally received message: We updated the website
+	: Bucky received message: We updated the website
+	: Sally received message: Make sure to add a profile picture
+	: Bucky received message: Make sure to add a profile picture
+
+******* Abstract observer
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Subject(object):
+
+              def __init__(self):
+                  self.__observers = []
+
+              def attach(self, observer):
+                  self.__observers.append(observer)
+
+              def detach(self, observer):
+                  self.__observers.remove(observer)
+
+              def notify(self):
+                  for o in self.__observers:
+                      o.update()
+
+
+          class ConcreteSubject(Subject):
+
+              @property
+              def status(self):
+                  return self.__status
+
+              @status.setter
+              def status(self, value):
+                  self.__status = value
+
+
+          class Observer(metaclass=ABCMeta):
+
+              @abstractmethod
+              def update(self):
+                  pass
+
+
+          class ConcreteObserver(Observer):
+
+              def __init__(self, subject, name):
+                  self.subject = subject
+                  self.name = name
+                  self.objserver_staus = None
+
+              def update(self):
+                  self.objserver_staus = self.subject.status
+                  print("the observer: %s status change to %s" %
+			(self.name, self.objserver_staus))
+
+
+          s = ConcreteSubject()
+
+          s.attach(ConcreteObserver(s, "X"))
+          s.attach(ConcreteObserver(s, "Y"))
+          s.attach(ConcreteObserver(s, "Z"))
+
+          s.status = "A"
+          s.notify()
+
+          s.status = "B"
+          s.notify()
+	#+END_SRC
+
+	#+RESULTS:
+	: the observer: X status change to A
+	: the observer: Y status change to A
+	: the observer: Z status change to A
+	: the observer: X status change to B
+	: the observer: Y status change to B
+	: the observer: Z status change to B
+
+***** Visitor
+
+****** Problem
+******* New operations
+******* Existing classes
+******* All dynamically done
+****** Scenario
+******* House class
+******* HVAC specialist
+	Visitor type 1
+******* Electrician
+	Visitor type 2
+****** Solution
+******* New operations
+******* Various elements of an existing class hierarchy
+****** Visitor examples
+******* Electrician vs HVAC
+	#+BEGIN_SRC python :results output
+          class House(object):  # The class being visited
+
+              def accept(self, visitor):
+                  """Interface to accept a visitor"""
+                  visitor.visit(self)  # Triggers the visiting operation!
+
+              def work_on_hvac(self, hvac_specialist):
+                  # Note that we now have a reference to the HVAC specialist object in
+                  # the house object!
+                  print(self, "worked on by", hvac_specialist)
+
+              def work_on_electricity(self, electrician):
+                  # Note that we now have a reference to the electrician object in the
+                  # house object!
+                  print(self, "worked on by", electrician)
+
+              def __str__(self):
+                  """Simply return the class name when the House object is printed"""
+                  return self.__class__.__name__
+
+
+          class Visitor(object):
+              """Abstract visitor"""
+
+              def __str__(self):
+                  """Simply return the class name when the Visitor object is printed"""
+                  return self.__class__.__name__
+
+
+          class HvacSpecialist(Visitor):  # Inherits from the parent class, Visitor
+              """Concrete visitor: HVAC specialist"""
+
+              def visit(self, house):
+                  # Note that the visitor now has a reference to the house object
+                  house.work_on_hvac(self)
+
+
+          class Electrician(Visitor):  # Inherits from the parent class, Visitor
+              """Concrete visitor: electrician"""
+
+              def visit(self, house):
+                  # Note that the visitor now has a reference to the house object
+                  house.work_on_electricity(self)
+
+          # Create an HVAC specialist
+          first_visitor = HvacSpecialist()
+          # Create an electrician
+          second_visitor = Electrician()
+
+          # Create a house
+          home = House()
+
+          # Let the house accept the HVAC specialist and work on the house by
+          # invoking the visit() method
+          home.accept(first_visitor)
+
+          # Let the house accept the electrician and work on the house by invoking
+          # the visit() method
+          home.accept(second_visitor)
+	#+END_SRC
+
+	#+RESULTS:
+	: House worked on by HvacSpecialist
+	: House worked on by Electrician
+******* Object structure visitor
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Visitor(metaclass=ABCMeta):
+
+              @abstractmethod
+              def visitor_concrete_element_a(self, concrete_element_a):
+                  pass
+
+              @abstractmethod
+              def visitor_concrete_element_b(self, concrete_element_b):
+                  pass
+
+
+          class ConcreteVisitor1(Visitor):
+
+              def visitor_concrete_element_a(self, concrete_element_a):
+                  print("%s visit %s" % (self.__class__.__name__,
+					 concrete_element_a.__class__.__name__))
+
+              def visitor_concrete_element_b(self, concrete_element_b):
+                  print("%s visit %s" % (self.__class__.__name__,
+					 concrete_element_b.__class__.__name__))
+
+
+          class ConcreteVisitor2(Visitor):
+
+              def visitor_concrete_element_a(self, concrete_element_a):
+                  print("%s visit %s" % (self.__class__.__name__,
+					 concrete_element_a.__class__.__name__))
+
+              def visitor_concrete_element_b(self, concrete_element_b):
+                  print("%s visit %s" % (self.__class__.__name__,
+					 concrete_element_b.__class__.__name__))
+
+
+          class Element(metaclass=ABCMeta):
+
+              @abstractmethod
+              def accept(self, visitor):
+                  pass
+
+
+          class ConcreteElementA(Element):
+
+              def accept(self, visitor):
+                  visitor.visitor_concrete_element_a(self)
+
+
+          class ConcreteElementB(Element):
+
+              def accept(self, visitor):
+                  visitor.visitor_concrete_element_b(self)
+
+
+          class ObjectStructure(object):
+
+              def __init__(self):
+                  self.__elements = []
+
+              def attach(self, element):
+                  self.__elements.append(element)
+
+              def detach(self, element):
+                  self.__element.remove(element)
+
+              def accept(self, visitor):
+                  for e in self.__elements:
+                      e.accept(visitor)
+
+
+          os = ObjectStructure()
+
+          os.attach(ConcreteElementA())
+          os.attach(ConcreteElementB())
+
+          v1 = ConcreteVisitor1()
+          os.accept(v1)
+
+          v2 = ConcreteVisitor2()
+          os.accept(v2)
+	#+END_SRC
+
+	#+RESULTS:
+	: ConcreteVisitor1 visit ConcreteElementA
+	: ConcreteVisitor1 visit ConcreteElementB
+	: ConcreteVisitor2 visit ConcreteElementA
+	: ConcreteVisitor2 visit ConcreteElementB
+
+******* Nodes inspector
+	#+BEGIN_SRC python :results output
+          class Node(object):
+              pass
+
+
+          class A(Node):
+              pass
+
+
+          class B(Node):
+              pass
+
+
+          class C(A, B):
+              pass
+
+
+          class Inspector(object):
+
+              def visit(self, node, *args, **kwargs):
+                  method = None
+                  for cls in node.__class__.__mro__:
+                      method_name = 'visit_' + cls.__name__
+                      method = getattr(self, method_name, None)
+                      if method:
+                          break
+
+                  if not method:
+                      method = self.generic_visit
+                  return method(node, *args, **kwargs)
+
+              def generic_visit(self, node, *args, **kwargs):
+                  print('generic_visit ' + node.__class__.__name__)
+
+              def visit_B(self, node, *args, **kwargs):
+                  print('visit_B ' + node.__class__.__name__)
+
+          a = A()
+          b = B()
+          c = C()
+          inspector = Inspector()
+          inspector.visit(a)
+          inspector.visit(b)
+          inspector.visit(c)
+	#+END_SRC
+
+	#+RESULTS:
+	: generic_visit A
+	: visit_B B
+	: visit_B C
+
+***** Iterator
+
+****** Problem
+       The traversal interfaces of an aggregate object -
+       getting overcrowded
+
+****** Solution
+
+******* Isolation
+
+******* Interface
+
+******* Tracking
+
+******* Recommendation
+
+****** Iterator example
+
+******* German numbers
+	#+BEGIN_SRC python :results output
+          def count_to(count):
+              numbers_in_german = ["eins", "zwei", "drei", "vier", "funf"]
+              for number in numbers_in_german:
+                  yield number
+
+          # Let's test the generator returned by our iterator
+          for num in count_to(3):
+              print("{}".format(num))
+
+          for num in count_to(4):
+              print("{}".format(num))
+	#+END_SRC
+
+	#+RESULTS:
+	#+begin_example
+	eins
+	zwei
+	drei
+	vier
+	funf
+	eins
+	zwei
+	drei
+	vier
+	funf
+  #+end_example
+
+******* Custom iteration implementation
+	#+BEGIN_SRC python :results output
+          from abc import ABCMeta, abstractmethod
+
+
+          class Iterator(metaclass=ABCMeta):
+
+              @abstractmethod
+              def first(self):
+                  pass
+
+              @abstractmethod
+              def next(self):
+                  pass
+
+              @abstractmethod
+              def is_done(self):
+                  pass
+
+              @abstractmethod
+              def current_item(self):
+                  pass
+
+
+          class CustomIterator(Iterator):
+
+              def __init__(self, iterable):
+                  self.__iterable = iterable
+                  self.current = 0
+
+              def first(self):
+                  return self.__iterable[0]
+
+              def next(self):
+                  result = None
+                  self.current += 1
+                  if self.current < len(self.__iterable):
+                      result = self.__iterable[self.current]
+                  return result
+
+              def is_done(self):
+                  return self.current >= len(self.__iterable)
+
+              def current_item(self):
+                  return self.__iterable[self.current]
+
+
+          sample_iterable = ['first', 'second', 'third']
+
+          it = CustomIterator(sample_iterable)
+          print('First item in the sample iterable initially is a string:', it.first())
+          while not it.is_done():
+              print("current:", it.current_item())
+              it.next()
+          print('First item in the sample iterable remains be a string:', it.first())
+	#+END_SRC
+
+	#+RESULTS:
+	: First item in the sample iterable initially is a string: first
+	: current: first
+	: current: second
+	: current: third
+	: First item in the sample iterable remains be a string: first
+
+***** Strategy
+****** Problem
+       Need for dynamically changing the behavior
+       of an object
+****** Scenario
+       - Abstract Strategy class with default set of behaviors
+       - Concrete Strategy classes with new behaviors
+****** Solution
+       The =types= module in Python
+****** Strategy example
+***** Chain of responsibility
+****** Chain of responsibility example
+***** Consistency
+***** Other qualities
+
+
 * Elaborate general coding grit                                      :coding:
 
 ** Problem solving technique
@@ -15694,7 +15698,7 @@
 ****** keep commits small and focused
 ****** beware stray edits to whitespace
        - spaces;
-       - tabs;
+       - tab;
        - line returns
 ****** merge often
 ****** track changes to master
