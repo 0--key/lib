@@ -5419,7 +5419,54 @@
      great resource with video tutorials 
 
 * Programming as art&craft
+
+** Problem solving
+
+*** How to Solve It:
+    #+BEGIN_QUOTE
+    A perennial bestseller by eminent mathematician G. Polya, How to
+    Solve It will show anyone in any field how to think straight.
+
+    In lucid and appealing prose, Polya reveals how the mathematical
+    method of demonstrating a proof or finding an unknown can be of
+    help in attacking any problem that can be "reasoned" out--from
+    building a bridge to winning a game of anagrams. Generations of
+    readers have relished Polya's deft--indeed,
+    brilliant--instructions on stripping away irrelevancies and going
+    straight to the heart of the problem.
+
+    In this best-selling classic, George Pólya revealed how the
+    mathematical method of demonstrating a proof or finding an unknown
+    can be of help in attacking any problem that can be "reasoned"
+    out--from building a bridge to winning a game of anagrams.
+    Generations of readers have relished Pólya's deft instructions on
+    stripping away irrelevancies and going straight to the heart of a
+    problem. How to Solve It popularized heuristics, the art and
+    science of discovery and invention. It has been in print
+    continuously since 1945 and has been translated into twenty-three
+    different languages.
+
+    Pólya was one of the most influential mathematicians of the
+    twentieth century. He made important contributions to a great
+    variety of mathematical research: from complex analysis to
+    mathematical physics, number theory, probability, geometry,
+    astronomy, and combinatorics. He was also an extraordinary
+    teacher--he taught until he was ninety--and maintained a strong
+    interest in pedagogical matters throughout his long career. In
+    addition to How to Solve It, he published a two-volume work on the
+    topic of problem solving, Mathematics of Plausible Reasoning, also
+    with Princeton.
+
+    Pólya is one of the most frequently quoted mathematicians, and the
+    following statements from How to Solve It make clear why: "My
+    method to overcome a difficulty is to go around it." "Geometry is
+    the science of correct reasoning on incorrect figures." "In order
+    to solve this differential equation you look at it till a solution
+    occurs to you."
+
+    #+END_QUOTE
 ** Computation algorithms
+
 *** 6.006 Introduction to Algorithms
 
 **** Introduction
