@@ -5508,8 +5508,39 @@
      great resource with video tutorials 
 
 * Programming as art&craft
+** Problem solving skill
+*** Lynda's approach
+**** Read the problem completely twice
 
-** Problem solving
+**** Solve the problem manually with 3 sets of sample data
+
+**** Optimize the manual steps
+
+**** Write the manual steps as comments or pseudo-code
+
+**** Replace the comments or pseudo-code with real code
+
+**** Optimize the real code
+   
+**** Common Mistakes
+***** Jumping right into code
+
+***** Not understanding the problem
+
+***** Skipping manual steps
+
+**** Practicing
+***** TopCoder
+
+****** [[http://bit.ly/VUZa8u][Algorithm contents]]
+
+****** [[http://bit.ly/Yc6hnr][Advanced tutorials]]
+
+***** [[http://codility.com/][Codility]]
+
+***** [[http://projecteuler.net/][Project Euler]]
+
+***** [[https://www.codewars.com/users/Anton%2520S.%2520Kosinov][CodeWars]]
 
 *** How to Solve It:
     #+BEGIN_QUOTE
@@ -15582,43 +15613,6 @@
 
 
 * Elaborate general coding grit                                      :coding:
-
-** Problem solving technique
-
-*** Read the problem completely twice
-
-*** Solve the problem manually with 3 sets of sample data
-
-*** Optimize the manual steps
-
-*** Write the manual steps as comments or pseudo-code
-
-*** Replace the comments or pseudo-code with real code
-
-*** Optimize the real code
-   
-*** Common Mistakes
-
-**** Jumping right into code
-
-**** Not understanding the problem
-
-**** Skipping manual steps
-
-*** Practicing
-
-**** TopCoder
-
-***** [[http://bit.ly/VUZa8u][Algorithm contents]]
-
-***** [[http://bit.ly/Yc6hnr][Advanced tutorials]]
-
-**** [[http://codility.com/][Codility]]
-
-**** [[http://projecteuler.net/][Project Euler]]
-
-**** [[https://www.codewars.com/users/Anton%2520S.%2520Kosinov][CodeWars]]
-
 ** CodeWars competition
 ** [[https://drive.google.com/file/d/0BzoOGnxA0v1FSkFNSXg4MWVpTkE/view?usp%3Dsharing][Crack Coding Interview]]
 *** [[http://careercup.com/][Additional information]] on website
