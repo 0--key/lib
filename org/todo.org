@@ -59,6 +59,10 @@
 ***** Choose the name for repo
 ***** Create structure
 ***** Fulfill it by relevant content
+** Elisp
+*** UnitTest
+    https://www.emacswiki.org/emacs/UnitTesting
+    https://www.emacswiki.org/emacs/ErtTestLibrary
 ** Emacs
 *** Capture templates for
 **** quotation
@@ -130,6 +134,11 @@
     It's necessary to compose the absolute links only
 *** DONE Org-src export colorization
     - Existing [[http://emacs.stackexchange.com/questions/7629/the-syntax-highlight-and-indentation-of-source-code-block-in-exported-html-file][theme]]
+** NLTK
+** AI
+   http://aima.cs.berkeley.edu/python/readme.html
+   https://people.eecs.berkeley.edu/~russell/code/doc/overview.html
+   https://people.eecs.berkeley.edu/~russell/code/doc/user.html
 
 
 * Satellite
