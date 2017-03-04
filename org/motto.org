@@ -1798,7 +1798,7 @@
       - There are some wonderful Goyas in the Prado.
       - Have you ever read 'The Tale of Two Cities'?
 
-*** Verbs [92%]
+*** Verbs [50%]
     Verbs in English have four basic parts:
 
     | Base form | -ing form | Past tense | Past participle |
@@ -13168,7 +13168,6 @@
 
 *** Programming design patterns
 
-
 **** Gang of Fours
 ***** Creational Patterns
 
@@ -13299,6 +13298,7 @@
      
 
 **** Design patterns from Lynda
+
 ***** What is a design pattern
       #+BEGIN_QUOTE
       Well-known solutions to recurring problems
