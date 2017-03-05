@@ -4780,8 +4780,8 @@
 
 *** TODO Clause, phrase and sentence
 
-** Pronounce [0%]
-*** Reading aloud at the regualr base [100%]                   :reading:list:
+** Pronounce
+*** Reading aloud at the regular base                          :reading:list:
 **** Adventures of Hucklberry Finn                                      :AHF:
 **** My Family and Other Animals                                       :MFOA:
 **** How to Read a Book                                                 :HRB:
@@ -4909,11 +4909,13 @@
 
     – Donald Knuth
     #+END_QUOTE
-*** Getting Things Done is a time-management method, described in a book of the same title
-    by productivity consultant David Allen. It is often referred to as GTD. The GTD method
-    rests on the idea of moving planned tasks and projects out of the mind by recording
-    them externally and then breaking them into actionable work items. This allows one to
-    focus attention on taking action on tasks, instead of on recalling them.
+*** Getting Things Done is a time-management method
+    described in a book of the same title by productivity consultant
+    David Allen. It is often referred to as GTD. The GTD method rests
+    on the idea of moving planned tasks and projects out of the mind
+    by recording them externally and then breaking them into
+    actionable work items. This allows one to focus attention on
+    taking action on tasks, instead of on recalling them.
 ** Cracking Interview
 *** A hiring committee typically wants to see one interviewer
     who is an "enthusiastic endorser"
@@ -4923,14 +4925,15 @@
 *** I am not exaggerating to say that I did not understand
     a single answer she gave during the interview p.16
 *** One of the most important messages that you, as a candidate,
-    can convey in your intervi is hiring me will make your lives easier
+    can convey in your intervi is hiring me will make your lives
+    easier
 *** It was a real mess; we'd inherited a nasty ball of spaghetti,
     and we needed people who could jump in, figure things out,
     and be part of the solution.
 *** Sometimes, I don’t have a very good attention to detail.
-    While that’s good because it lets me execute quickly, it also means
-    that I sometimes make careless mistakes. Because of that, I make
-    sure to always have someone else double check my work.
+    While that’s good because it lets me execute quickly, it also
+    means that I sometimes make careless mistakes. Because of that, I
+    make sure to always have someone else double check my work.
 *** Table 1
 *** Table 2
 *** I can go into more details if you’d like
@@ -5583,7 +5586,6 @@
     the science of correct reasoning on incorrect figures." "In order
     to solve this differential equation you look at it till a solution
     occurs to you."
-
     #+END_QUOTE
 ** Computation algorithms
 
