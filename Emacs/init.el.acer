@@ -14,17 +14,19 @@
  (require 'org-bullets)
    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
-(desktop-save-mode 1)
+(require 'bookmark+)
+(require 'ereader)
+;; (desktop-save-mode 1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
-(scroll-bar-mode -1)
+;; (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 ;;
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)
    (emacs-lisp . t)
-   (shell . t)
+   (sh . t)
    (sqlite . t)
    ))
 ;;
@@ -133,9 +135,15 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(Info-additional-directory-list (quote ("/usr/share/info/python3.4.2/")))
+ '(Info-default-directory-list (quote ("/usr/share/info/" "/usr/share/info/emacs-25/")))
+ '(bmkp-last-as-first-bookmark-file "/home/antony/.emacs.d/bookmarks")
  '(indent-tabs-mode nil)
  '(org-confirm-babel-evaluate nil)
- '(org-src-window-setup (quote other-frame)))
+ '(org-src-window-setup (quote other-frame))
+ '(package-selected-packages
+   (quote
+    (moe-theme ereader voca-builder travis pcache org-pomodoro org-octopress org-bullets octopress marshal magit key-chord howdoi google-translate elpy elfeed color-theme bookmark+))))
  
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
