@@ -52,8 +52,14 @@
    "* %i\n %U")
   ;;
   ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/org/thoughts.org")
-   "* %?%c\n%i\n %l")
+   "* %?%c\n%i\n %f")
   ;;
+  ("r" "Proverb riddle" entry (file+datetree "/usr/local/share/DVCS/lib/org/proverbs.org")
+   "* %c\n %? %i \n %f")
+  ;;
+  ("o" "Proverb obvious" entry (file+datetree "/usr/local/share/DVCS/lib/org/proverbs.org")
+   "* %i \n %f")
+  ;; 
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")))
 
