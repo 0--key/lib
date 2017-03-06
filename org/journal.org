@@ -119,3 +119,20 @@
      The knowledge of data structures like Hash Tables, Trees, Tries,
      Graphs and various algorithms goes a long way in solving these
      problems efficiently.
+** 2017-03 March
+*** 2017-03-06 Monday
+**** Intro sample
+   Entered on [2017-03-06 Mon 18:24]
+   This page contains snippets of code that demonstrate basic
+   EmacsLisp programming operations in the spirit of the
+   O’Reilly cookbook series of books. For every task addressed,
+   a worked-out solution is presented as a short, focused,
+   directly usable piece of code.
+
+   All this stuff can be found elsewhere, but it is scattered
+   about in libraries, manuals, etc. It would be helpful to
+   have here in one spot.
+
+   https://www.emacswiki.org/emacs/ElispCookbook
+*** 2017-03-07 Tuesday
+
