@@ -26,7 +26,7 @@
  'org-babel-load-languages
  '((python . t)
    (emacs-lisp . t)
-   (sh . t)
+   (shell . t)
    (sqlite . t)
    ))
 ;;
