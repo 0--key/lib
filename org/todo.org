@@ -77,6 +77,9 @@
 ***** Choose the name for repo
 ***** Create structure
 ***** Fulfill it by relevant content
+      :LOGBOOK:
+      CLOCK: [2017-03-17 Fri 12:20]--[2017-03-17 Fri 12:45] =>  0:25
+      :END:
 ** Elisp
    :LOGBOOK:
    CLOCK: [2017-03-11 Sat 11:33]--[2017-03-11 Sat 11:58] =>  0:25
