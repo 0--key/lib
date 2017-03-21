@@ -15612,7 +15612,63 @@
 ****** Chain of responsibility example
 ***** Consistency
 ***** Other qualities
+* AI
+** Neural Networks for Machine Learning
+*** Why do we need machine learning?
+    It is very hard to write programs that solve problems like
+    recognizing a three-dimensional object from a novel viewpoint in
+    new lighting conditions in a cluttered scene.
 
+    - We don't know what program to write because we don't know
+      how its done in our brain;
+    - Even if we had a good idea about how to do it, the
+      program might be horrendously complicated.
+
+
+    It is hard to write a program to compute the probability that a
+    credit card transaction is fraudulent.
+
+    - There may not be any rules that are both simple and reliable
+      We need to combine a very large number of weak rules.
+    - Fraud is a moving target. The program needs to /keep changing/
+
+
+    Instead of writing a program by hand for each specific task,
+    we collect lots of examples that specify the correct output
+    for a given input.
+    A machine learning algorithm then takes these examples
+    and produces a program that does the job.
+
+    - The program produced by the /learning algorithm/ may look
+      very different from a typical hand-written program. It may
+      contain millions of numbers.
+    - If we do it right, the program works for new cases as well
+      as the ones we trained it on.
+    - If the data changes the program can change too by training
+      on the new data.
+
+    Massive amounts of computations are now cheaper than paying
+    someone to write a task-specific program.
+
+    Some examples of tasks best solved by learning
+
+    Recognizing patterns:
+    - Objects in real scenes
+    - Facial identities or facial expressions
+    - Spoken words
+
+
+    Recognizing anomalies
+    - Unusual sequences of credit card transactions
+    - Unusual patterns of sensor readings in a nuclear power plant
+
+
+    Prediction
+    - Future stock prices or currency exchange rates
+    - Which movies will a person like?
+
+
+    A standard example of machine learning is [[https://en.wikipedia.org/wiki/MNIST_database][MNIST database]].
 
 * Elaborate general coding grit                                      :coding:
 ** CodeWars competition
