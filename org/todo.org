@@ -101,7 +101,6 @@
 *** 25.1 overview
     - https://www.masteringemacs.org/article/whats-new-in-emacs-25-1
 *** TODO Bookmarks+
-    CLOCK: [2017-02-20 Mon 08:11]
     CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
 **** TODO Portability and synchronizing concept
 ***** Create library
@@ -158,6 +157,12 @@
 *** DONE Accomplish request-pull with Vikky
     This is a first pull request
     This is repo's actual state test
+*** Python <src> rendering
+    :LOGBOOK:
+    CLOCK: [2017-03-14 Tue 21:43]--[2017-03-14 Tue 22:08] =>  0:25
+    CLOCK: [2017-03-14 Tue 20:23]--[2017-03-14 Tue 20:48] =>  0:25
+    :END:
+    
 ** Jekyll
 *** DONE Table of content with links to all posts
 *** DONE Internal links test
@@ -166,6 +171,7 @@
     - Existing [[http://emacs.stackexchange.com/questions/7629/the-syntax-highlight-and-indentation-of-source-code-block-in-exported-html-file][theme]]
 ** NLTK
 ** AI
+   CLOCK: [2017-03-20 Mon 17:12]--[2017-03-20 Mon 17:37] =>  0:25
    http://aima.cs.berkeley.edu/python/readme.html
    https://people.eecs.berkeley.edu/~russell/code/doc/overview.html
    https://people.eecs.berkeley.edu/~russell/code/doc/user.html
@@ -192,8 +198,33 @@
      'kill-ring-save
 **** DONE capture region
      'org-capture
+   CLOCK: [2017-03-20 Mon 16:03]--[2017-03-20 Mon 16:28] =>  0:25
+   :END:
+   =CV as .py code=
+   #+BEGIN_SRC python
+     class Engineer():
+         """General-purpose problem-solver"""
 
+         def review_issue(self, issue):
+             return corollary
 
+         def solve_issue(self, issue):
+             return solution
+
+     class SoftwareEngineer(Engineer):
+         """
+         Software-specific problems resolver
+         Inherits all general-purpose engineer's
+         functions and has the specific ones:
+         """
+
+         def guess_algorithm(self, issue):
+             return pertinent_algorithm
+
+         def complexity_control(self, software):
+             pass
+   #+END_SRC
+   
 
 * Miscellaneous
 ** Make resume
