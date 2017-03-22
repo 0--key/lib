@@ -10961,6 +10961,7 @@
        function_with_certain_name()
      #+END_SRC
 
+*** CookBook
 
 ** Mastering Python                                               :mastering:
 
@@ -15612,6 +15613,8 @@
 ****** Chain of responsibility example
 ***** Consistency
 ***** Other qualities
+
+
 * AI
 ** Neural Networks for Machine Learning
 *** Why do we need machine learning?
