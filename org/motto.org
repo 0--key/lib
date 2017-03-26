@@ -10926,6 +10926,79 @@
 ** Applied Python						      :usage:
 
 *** NLP with Python							:NLP:
+
+*** Neural networks
+
+**** Trivial perceptron in OOP
+     #+BEGIN_SRC python :eval noexport :exports both :results output
+       #!/usr/bin/env python
+       # -*- coding: utf-8 -*-
+       """
+       Single layer neural network
+       """
+
+       # def sigmoidal_function(signal,
+
+
+       class Inlet(object):
+           """Input signal into dendron"""
+
+           def __init__(self):
+               self.dendrons = []
+               self.signal = 1
+
+           def connect(self, dendron):
+               dendron.inlet = self
+               self.dendrons.append(dendron)
+
+
+       class Dendron(object):
+           """Convey signal to neuron"""
+
+           def __init__(self, perceptron, weight=0.1):
+               self.perceptron = perceptron
+               self.weight = weight
+               self.inlet = None
+
+
+       class Perceptron(object):
+           """Discriminator module itself"""
+
+           def __init__(self, df):
+               self.df = df
+               self.dendrons = []
+               self.output = 0
+
+           def connect(self, dendron):
+               self.dendrons.append(dendron)
+
+           def calculate_output(self):
+               for dendron in self.dendrons:
+                   self.output += self.df(
+                       dendron.weight *
+                       dendron.inlet.signal)
+
+
+       p1 = Perceptron(lambda x: x)
+       p2 = Perceptron(lambda x: x)
+       d1 = Dendron(p1)
+       d2 = Dendron(p2, 0.2)
+       i1 = Inlet()
+       i2 = Inlet()
+       i1.connect(d1)
+       i2.connect(d2)
+       p1.connect(d1)
+       p2.connect(d2)
+       p1.calculate_output()
+       p2.calculate_output()
+       print(p1.output, p2.output)
+     #+END_SRC
+
+     #+RESULTS:
+     : 0.1 0.2
+
+#+end_example
+
 *** Python for Data Analyse				       :data:analyse:
 **** Preliminaries
 **** Introductory Examples <2016-01-18 Mon>
