@@ -47,6 +47,7 @@
     CLOCK: [2017-03-12 Sun 19:05]--[2017-03-12 Sun 19:30] =>  0:25
     :END:
 *** Code snippets
+    CLOCK: [2017-03-24 Fri 11:19]--[2017-03-24 Fri 11:44] =>  0:25
 *** Design patterns
     :LOGBOOK:
     CLOCK: [2017-03-16 Thu 18:31]--[2017-03-16 Thu 18:56] =>  0:25
@@ -76,12 +77,24 @@
 **** Elaborate my own
 ***** Choose the name for repo
 ***** Create structure
+      CLOCK: [2017-03-22 Wed 18:20]--[2017-03-22 Wed 18:45] =>  0:25
 ***** Fulfill it by relevant content
       :LOGBOOK:
       CLOCK: [2017-03-17 Fri 12:20]--[2017-03-17 Fri 12:45] =>  0:25
       :END:
+***** Include code snippets
+      and satellite comments into 0--key blog
+***** Switch Travis-CI on
+      :LOGBOOK:
+      CLOCK: [2017-03-25 Sat 11:57]--[2017-03-25 Sat 12:22] =>  0:25
+      :END:
+      
+*** String formatting in Python3
+    
+    https://www.python.org/dev/peps/pep-3101/
 ** Elisp
    :LOGBOOK:
+   CLOCK: [2017-03-24 Fri 08:55]--[2017-03-24 Fri 09:20] =>  0:25
    CLOCK: [2017-03-11 Sat 11:33]--[2017-03-11 Sat 11:58] =>  0:25
    :END:
 *** UnitTest
@@ -89,11 +102,14 @@
     https://www.emacswiki.org/emacs/ErtTestLibrary
 *** An Introduction to Programming in Emacs Lisp
     :LOGBOOK:
+    CLOCK: [2017-03-20 Mon 17:47]--[2017-03-20 Mon 18:12] =>  0:25
     CLOCK: [2017-03-11 Sat 12:03]--[2017-03-11 Sat 12:28] =>  0:25
     :END:
     by Robert J. Chassell
 
 ** Emacs
+
+*** M-C-\
 *** Capture templates for
 **** quotation
 **** snippet
@@ -171,10 +187,17 @@
     - Existing [[http://emacs.stackexchange.com/questions/7629/the-syntax-highlight-and-indentation-of-source-code-block-in-exported-html-file][theme]]
 ** NLTK
 ** AI
+   :LOGBOOK:
+   CLOCK: [2017-03-23 Thu 13:59]--[2017-03-23 Thu 14:40] =>  0:41
+   CLOCK: [2017-03-22 Wed 09:57]--[2017-03-22 Wed 10:22] =>  0:25
    CLOCK: [2017-03-20 Mon 17:12]--[2017-03-20 Mon 17:37] =>  0:25
    http://aima.cs.berkeley.edu/python/readme.html
    https://people.eecs.berkeley.edu/~russell/code/doc/overview.html
    https://people.eecs.berkeley.edu/~russell/code/doc/user.html
+**** Scikit
+     :LOGBOOK:
+     CLOCK: [2017-03-22 Wed 10:46]--[2017-03-22 Wed 11:11] =>  0:25
+     :END:
 
 
 * Satellite
@@ -198,6 +221,10 @@
      'kill-ring-save
 **** DONE capture region
      'org-capture
+** TODO CV composing
+   :LOGBOOK:
+   CLOCK: [2017-03-24 Fri 09:42]--[2017-03-24 Fri 10:07] =>  0:25
+   CLOCK: [2017-03-22 Wed 08:38]--[2017-03-22 Wed 09:03] =>  0:25
    CLOCK: [2017-03-20 Mon 16:03]--[2017-03-20 Mon 16:28] =>  0:25
    :END:
    =CV as .py code=
