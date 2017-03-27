@@ -5509,6 +5509,12 @@
      [[http://planet.emacsen.org][blog]]
 **** Pluralsight
      great resource with video tutorials 
+** Emacs as a beagle
+   http://ergoemacs.org/emacs/emacs_grep_find.html
+*** In the current directory
+    =M-x grep <Tab>=
+*** Recursievly
+    =M-x rgrep <Tab>=
 
 * Programming as art&craft
 ** Problem solving skill
