@@ -10945,11 +10945,13 @@
 
            def __init__(self):
                self.dendrons = []
-               self.signal = 1
 
            def connect(self, dendron):
                dendron.inlet = self
                self.dendrons.append(dendron)
+
+           def modulate(self, signal):
+               self.signal = signal
 
 
        class Dendron(object):
@@ -10995,6 +10997,8 @@
        p2.connect(d2)
        p1.connect(d3)
        p2.connect(d4)
+       i1.modulate(1.0)
+       i2.modulate(1.0)
        p1.calculate_output()
        p2.calculate_output()
        print(p1.output, p2.output)
