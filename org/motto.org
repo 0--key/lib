@@ -10964,9 +10964,9 @@
 
 
        class Perceptron(object):
-           """Discriminator module itself"""
+           """Processing module itself"""
 
-           def __init__(self, df):
+           def __init__(self, df=lambda x: x):  # sigmoidal
                self.df = df
                self.dendrons = []
                self.output = 0
