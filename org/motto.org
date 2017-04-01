@@ -11007,10 +11007,10 @@
        class Dendron(object):
            """Convey signal to neuron"""
 
-           def __init__(self, perceptron, weight=0.1):
+           def __init__(self, perceptron, inlet, weight=0.1):
                self.perceptron = perceptron
                self.weight = weight
-               self.inlet = None
+               self.inlet = inlet
 
 
        class Perceptron(object):
@@ -11047,7 +11047,17 @@
                # in this case number of dendrons is equal wings^2
                for i in range(swing):
                    for j in range(swing):
-                       self.dendrons.append(Dendron(self.perceptrons[j]))
+                       self.dendrons.append(
+                           Dendron(self.perceptrons[-1],
+                                   self.inlets[-1]))
+                       self.perceptrons[-1].dendrons.append(self.dendrons[-1])
+
+           def eval_input(self, input_array):
+               for i in range(self.network_swing):
+                   self.inlets[i].modulate(input_array[i])
+               for i in self.perceptrons:
+                   i.calculate_output()
+
 
        NN = NeuralNetwork(2)
        print(len(NN.dendrons))
@@ -11074,12 +11084,14 @@
        # i2.modulate(1.0)
        # p1.calculate_output()
        # p2.calculate_output()
-       # print(p1.output, p2.output)
+       NN.eval_input([1, 1])
+       for i in NN.perceptrons:
+           print(i.output)
      #+END_SRC
 
      #+RESULTS:
-     : 4
-     : 25
+     : 0.2
+     : 0.2
 
 #+end_example
 
