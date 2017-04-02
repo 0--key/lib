@@ -10994,11 +10994,7 @@
            """Input signal into dendron"""
 
            def __init__(self):
-               self.dendrons = []
-
-           def connect(self, dendron):
-               dendron.inlet = self
-               self.dendrons.append(dendron)
+               pass
 
            def modulate(self, signal):
                self.signal = signal
@@ -11021,9 +11017,6 @@
                self.dendrons = []
                self.output = 0
 
-           def connect(self, dendron):
-               self.dendrons.append(dendron)
-
            def calculate_output(self):
                for dendron in self.dendrons:
                    self.output += self.df(
@@ -11036,16 +11029,14 @@
 
            def __init__(self, swing):
                """Creates network with swing inlets and equal number of
-               perceptrons intersected eachone inlet with all perseptrons"""
-               # self.perceptrons
+               perceptrons connected eachone inlet with all perseptrons"""
+               self.network_swing = swing
                self.inlets = []
                self.perceptrons = []
                self.dendrons = []
                for i in range(swing):
                    self.inlets.append(Inlet())
                    self.perceptrons.append(Perceptron())
-               # in this case number of dendrons is equal wings^2
-               for i in range(swing):
                    for j in range(swing):
                        self.dendrons.append(
                            Dendron(self.perceptrons[-1],
@@ -11060,30 +11051,6 @@
 
 
        NN = NeuralNetwork(2)
-       print(len(NN.dendrons))
-       NM = NeuralNetwork(5)
-       print(len(NM.dendrons))
-
-       # p1 = Perceptron()
-       # p2 = Perceptron()
-       # d1 = Dendron(p1)
-       # d2 = Dendron(p2, 0.2)
-       # d3 = Dendron(p1)
-       # d4 = Dendron(p2, 0.2)
-       # i1 = Inlet()
-       # i2 = Inlet()
-       # i1.connect(d1)
-       # i1.connect(d2)
-       # i2.connect(d3)
-       # i2.connect(d4)
-       # p1.connect(d1)
-       # p2.connect(d2)
-       # p1.connect(d3)
-       # p2.connect(d4)
-       # i1.modulate(1.0)
-       # i2.modulate(1.0)
-       # p1.calculate_output()
-       # p2.calculate_output()
        NN.eval_input([1, 1])
        for i in NN.perceptrons:
            print(i.output)
