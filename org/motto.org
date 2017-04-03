@@ -11050,15 +11050,26 @@
                    i.calculate_output()
 
 
+           def update_weights(self, weights_array):
+               for i in range(self.network_swing ** 2):
+                   self.dendrons[i].weight = weights_array[i]
+
        NN = NeuralNetwork(2)
+       NN.update_weights([0.1, 0.2, 0.3, 0.4])
+       for i in NN.dendrons:
+           print(i.weight)
        NN.eval_input([1, 1])
        for i in NN.perceptrons:
            print(i.output)
      #+END_SRC
 
      #+RESULTS:
+     : 0.1
      : 0.2
-     : 0.2
+     : 0.3
+     : 0.4
+     : 0.30000000000000004
+     : 0.7
 
 #+end_example
 
