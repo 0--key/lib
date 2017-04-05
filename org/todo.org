@@ -3,7 +3,7 @@
 #+SUBTITLE:  Life in a plain text
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
-# #+STARTUP: showall
+#+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
 
@@ -226,6 +226,9 @@
 
 ***** Lecture 2: The Perceptron learning procedure
       :LOGBOOK:
+      CLOCK: [2017-04-04 Tue 14:39]--[2017-04-04 Tue 15:08] =>  0:29
+      CLOCK: [2017-04-04 Tue 14:08]--[2017-04-04 Tue 14:33] =>  0:25
+      CLOCK: [2017-04-02 Sun 08:40]--[2017-04-02 Sun 09:05] =>  0:25
       :END:
 
 ***** Lecture 3: The backpropagation learning procedure
