@@ -6787,11 +6787,17 @@
       pip install ipython
     #+END_SRC
 
+
 *** Install core libraries into devEnv:
     In accordion with the [[http://github.com/pydata/pydata-book][book]] 
 
+**** Update =pip=
+     #+BEGIN_SRC sh
+     python -m pip install --upgrade pip
+     #+END_SRC     
+
 **** numpy
-     #+BEGIN_SRC shell
+     #+BEGIN_SRC shell :eval no :results output
        sudo apt-get install python3-dev
        pip install numpy
      #+END_SRC
@@ -6808,9 +6814,13 @@
 
 **** matplotlib
      #+BEGIN_SRC shell
-       sudo apt-get install libfreetype6-dev
-       sudo apt-get install libxft-dev
+       sudo apt-get install libfreetype6-dev libxft-dev
        pip install matplotlib 
+     #+END_SRC
+
+**** scipy
+     #+BEGIN_SRC sh
+     pip install scipy
      #+END_SRC
 
 
