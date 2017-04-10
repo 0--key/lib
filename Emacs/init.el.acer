@@ -22,14 +22,17 @@
 ;; (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 ;;
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)
    (emacs-lisp . t)
    (shell . t)
    (sqlite . t)
+   (octave . t)
    ))
 ;;
+
 (setq org-babel-default-header-args:sh
       '((:prologue . "exec 2>&1") (:epilogue . ":"))
       )
