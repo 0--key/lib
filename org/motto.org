@@ -6823,6 +6823,46 @@
      pip install scipy
      #+END_SRC
 
+**** Test new environment
+     #+BEGIN_SRC sh :results output :eval noexport
+     pip list | grep scipy
+     #+END_SRC
+
+     #+RESULTS:
+     : DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+     : scipy (0.19.0)
+
+     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results output
+       import numpy as np
+
+       a = np.zeros((2,2))  
+       a              
+       b = np.ones((1,2))   
+       b             
+     #+END_SRC
+
+     #+RESULTS:
+     : 
+     : >>> >>> array([[ 0.,  0.],
+     :        [ 0.,  0.]])
+     : >>> array([[ 1.,  1.]])
+
+     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results output
+       import matplotlib.pyplot as plt
+
+       # Compute the x and y coordinates for points on a sine curve
+       x = np.arange(0, 3 * np.pi, 0.1)
+       y = np.sin(x)
+
+       # Plot the points using matplotlib
+       plt.plot(x, y)
+       plt.show()  # You must call plt.show() to make graphics appear.
+     #+END_SRC
+
+     #+RESULTS:
+     : 
+     : ... >>> >>> >>> ... [<matplotlib.lines.Line2D object at 0x7f7d266ade80>]
+
 
 ** Python's Theory						     :theory:
 
