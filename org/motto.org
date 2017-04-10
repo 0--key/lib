@@ -15811,8 +15811,39 @@
        0.26882   0.16515
        0.90550   0.54937
 #+end_example
+*** Matrix ariphmetics
+    #+BEGIN_SRC octave :eval noexport :exports both :results output :session intro
+    2 * A
+    #+END_SRC
 
+    #+RESULTS:
+    : ans =
+    : 
+    :     2    2    4
+    :     6   10   16
+    :    26   42   68
 
+    #+BEGIN_SRC octave :eval noexport :exports both :results output :session intro
+    A * B
+    #+END_SRC
+
+    #+RESULTS:
+    : ans =
+    : 
+    :     2.4396    2.1985
+    :     9.6674    8.0246
+    :    41.1093   34.2970
+
+    #+BEGIN_SRC octave :eval noexport :exports both :results output :session intro
+    A' * A
+    #+END_SRC
+
+    #+RESULTS:
+    : ans =
+    : 
+    :     179    289    468
+    :     289    467    756
+    :     468    756   1224
 * AI
 ** Neural Networks for Machine Learning
 *** Why do we need machine learning?
