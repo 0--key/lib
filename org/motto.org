@@ -15776,6 +15776,41 @@
 ****** Chain of responsibility example
 ***** Consistency
 ***** Other qualities
+* GNU Octave                                                         :octave:
+** Simple examples
+*** Data output
+    #+BEGIN_SRC octave :eval noexport :results output
+      pi
+    #+END_SRC
+
+    #+RESULTS:
+    : ans =  3.1416
+*** Ariphmetics
+    #+BEGIN_SRC octave :exports both :eval noexport :results output :session intro
+    A = [ 1, 1, 2; 3, 5, 8; 13, 21, 34 ]
+    B = rand (3, 2); % semicolon supress output
+    B
+    B = rand (3, 2)
+    #+END_SRC
+
+    #+RESULTS:
+    #+begin_example
+    A =
+
+        1    1    2
+        3    5    8
+       13   21   34
+    B =
+
+       0.90582   0.69117
+       0.59903   0.45171
+       0.45883   0.86045
+    B =
+
+       0.35979   0.93463
+       0.26882   0.16515
+       0.90550   0.54937
+#+end_example
 
 
 * AI
