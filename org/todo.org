@@ -87,6 +87,8 @@
       
 ***** Fulfill it by relevant content
       :LOGBOOK:
+      CLOCK: [2017-04-09 Sun 10:33]--[2017-04-09 Sun 10:58] =>  0:25
+      CLOCK: [2017-04-09 Sun 10:00]--[2017-04-09 Sun 10:25] =>  0:25
       CLOCK: [2017-04-06 Thu 15:55]--[2017-04-06 Thu 16:20] =>  0:25
       CLOCK: [2017-03-17 Fri 12:20]--[2017-03-17 Fri 12:45] =>  0:25
       :END:
@@ -96,7 +98,12 @@
       :LOGBOOK:
       CLOCK: [2017-03-25 Sat 11:57]--[2017-03-25 Sat 12:22] =>  0:25
       :END:
-      
+***** Cross-linkage with 0--key.io
+      :LOGBOOK:
+      CLOCK: [2017-04-10 Mon 11:19]--[2017-04-10 Mon 11:44] =>  0:25
+      :END:
+
+
 *** String formatting in Python3
     
     https://www.python.org/dev/peps/pep-3101/
@@ -207,6 +214,8 @@
 *** DONE Org-src export colorization
     - Existing [[http://emacs.stackexchange.com/questions/7629/the-syntax-highlight-and-indentation-of-source-code-block-in-exported-html-file][theme]]
 *** Img scaling
+*** MathJax
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 ** NLTK
 ** AI
    :LOGBOOK:
