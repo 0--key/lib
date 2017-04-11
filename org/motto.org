@@ -5386,8 +5386,10 @@
      Generates a summary of pending changes
 **** reset
      Reset current HEAD to the specified state
+     =X= and =x= keys in Magit commits list
 **** revert
-     Revert some existing commits
+     Revert some existing commits by compensatory commit
+     =V= key in Magit
 **** rm
      Remove files from the working tree and from the index
 **** show
