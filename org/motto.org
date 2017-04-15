@@ -6840,7 +6840,7 @@
        a = np.zeros((2,2))  
        a              
        b = np.ones((1,2))   
-       b             
+       b
      #+END_SRC
 
      #+RESULTS:
@@ -6849,7 +6849,8 @@
      :        [ 0.,  0.]])
      : >>> array([[ 1.,  1.]])
 
-     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results output
+     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results file
+       import numpy as np
        import matplotlib.pyplot as plt
 
        # Compute the x and y coordinates for points on a sine curve
