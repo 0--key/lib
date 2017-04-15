@@ -11131,6 +11131,35 @@
 
 *** CookBook
 
+**** Data Structures and Algorithms
+
+***** Unpacking a Sequence into Separate Variables
+
+****** Description
+       You have an N-element tuple or sequence that you would like to
+       unpack into a collection of N variables.
+
+****** Solution
+       #+BEGIN_SRC python :results output
+         import unittest
+
+
+         class TestIterableUnpack(unittest.TestCase):
+
+             def setUp(self):
+                 self.iterable = ('first', 'second')
+
+             def test_simple_behavior(self):
+                 x, y = self.iterable
+                 self.assertEqual(x, 'first')
+
+             def tearDown(self):
+                 del self.iterable
+       #+END_SRC
+
+       #+RESULTS:
+
+
 ** Mastering Python                                               :mastering:
 
 *** Python Anti-Patterns				      :anti:patterns:
