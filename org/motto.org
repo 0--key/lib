@@ -6859,12 +6859,15 @@
 
        # Plot the points using matplotlib
        plt.plot(x, y)
-       plt.show()  # You must call plt.show() to make graphics appear.
+       # plt.show()  # You must call plt.show() to make graphics appear.
+       plt.draw()
+       plt.savefig("plt_test.png")
+       return "plt_test.png"
      #+END_SRC
 
      #+RESULTS:
-     : 
-     : ... >>> >>> >>> ... [<matplotlib.lines.Line2D object at 0x7f7d266ade80>]
+     [[file:[<matplotlib.lines.Line2D object at 0x7ff19c9eb668>]]]
+
 
 
 ** Python's Theory						     :theory:
