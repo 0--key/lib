@@ -6868,6 +6868,15 @@
      #+RESULTS:
      [[file:[<matplotlib.lines.Line2D object at 0x7ff19c9eb668>]]]
 
+*** Python package management system                              :miniconda:
+    #+NAME ppms
+    The main idea is to manage your Python in a bit tricky way:
+    - Generate virtual environment on the fly;
+    - Install or up-to date Python pakages in the bunch mode;
+
+
+**** Installation
+     - Download [[https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh][installer]]
 
 
 ** Python's Theory						     :theory:
