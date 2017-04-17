@@ -11033,13 +11033,13 @@
        class Dendron(object):
            """Convey signal to neuron"""
 
-           def __init__(self, perceptron, inlet, weight=0.1):
-               self.perceptron = perceptron
+           def __init__(self, neuron, inlet, weight=0.1):
+               self.neuron = neuron
                self.weight = weight
                self.inlet = inlet
 
 
-       class Perceptron(object):
+       class Neuron(object):
            """Processing module itself"""
 
            def __init__(self, df=lambda x: x):  # sigmoidal
@@ -11058,25 +11058,27 @@
            """Ties all classes above together"""
 
            def __init__(self, swing):
-               """Creates network with swing inlets and equal number of
-               perceptrons connected eachone inlet with all perseptrons"""
+               """Creates network with swing number of inlets and equal number of
+               neurons interconnected by dendrons
+
+               """
                self.network_swing = swing
                self.inlets = []
-               self.perceptrons = []
+               self.neurons = []
                self.dendrons = []
                for i in range(swing):
                    self.inlets.append(Inlet())
-                   self.perceptrons.append(Perceptron())
+                   self.neurons.append(Neuron())
                    for j in range(swing):
                        self.dendrons.append(
-                           Dendron(self.perceptrons[-1],
+                           Dendron(self.neurons[-1],
                                    self.inlets[-1]))
-                       self.perceptrons[-1].dendrons.append(self.dendrons[-1])
+                       self.neurons[-1].dendrons.append(self.dendrons[-1])
 
            def eval_input(self, input_array):
                for i in range(self.network_swing):
                    self.inlets[i].modulate(input_array[i])
-               for i in self.perceptrons:
+               for i in self.neurons:
                    i.calculate_output()
 
 
@@ -11089,11 +11091,11 @@
        for i in NN.dendrons:
            print(i.weight)
        NN.eval_input([1, 1])
-       for i in NN.perceptrons:
+       for i in NN.neurons:
            print(i.output)
      #+END_SRC
 
-     #+RESULTS:
+     #+RESULTS: perceptron
      : 0.1
      : 0.2
      : 0.3
