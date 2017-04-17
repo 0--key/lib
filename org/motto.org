@@ -10995,6 +10995,7 @@
 *** Neural networks
 
 **** Trivial perceptron in OOP
+     #+NAME: perceptron
      #+BEGIN_SRC python :eval noexport :exports both :results output
        #!/usr/bin/env python
        # -*- coding: utf-8 -*-
