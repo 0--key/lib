@@ -6825,51 +6825,65 @@
      pip install scipy
      #+END_SRC
 
-**** Test new environment
-     #+BEGIN_SRC sh :results output :eval noexport
-     pip list | grep scipy
+**** scikit-learn
+     #+BEGIN_SRC sh
+     pip install scikit-learn
      #+END_SRC
 
-     #+RESULTS:
-     : DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
-     : scipy (0.19.0)
+*** Test new environment
+    #+BEGIN_SRC sh :results output :eval noexport
+    pip list | grep scipy
+    #+END_SRC
 
-     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results output
-       import numpy as np
+    #+RESULTS:
+    : DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+    : scipy (0.19.0)
 
-       a = np.zeros((2,2))  
-       a              
-       b = np.ones((1,2))   
-       b
-     #+END_SRC
+    #+BEGIN_SRC python :eval noexport :exports both :session numpy :results output
+      import numpy as np
 
-     #+RESULTS:
-     : 
-     : >>> >>> array([[ 0.,  0.],
-     :        [ 0.,  0.]])
-     : >>> array([[ 1.,  1.]])
+      a = np.zeros((2,2))  
+      a              
+      b = np.ones((1,2))   
+      b
+    #+END_SRC
 
-     #+BEGIN_SRC python :eval noexport :exports both :session numpy :results file
-       import numpy as np
-       import matplotlib.pyplot as plt
+    #+RESULTS:
+    : 
+    : >>> >>> array([[ 0.,  0.],
+    :        [ 0.,  0.]])
+    : >>> array([[ 1.,  1.]])
 
-       # Compute the x and y coordinates for points on a sine curve
-       x = np.arange(0, 3 * np.pi, 0.1)
-       y = np.sin(x)
+    #+BEGIN_SRC python :eval noexport :exports both :session numpy :results file
+      import numpy as np
+      import matplotlib.pyplot as plt
 
-       # Plot the points using matplotlib
-       plt.plot(x, y)
-       # plt.show()  # You must call plt.show() to make graphics appear.
-       plt.draw()
-       plt.savefig("plt_test.png")
-       return "plt_test.png"
-     #+END_SRC
+      # Compute the x and y coordinates for points on a sine curve
+      x = np.arange(0, 3 * np.pi, 0.1)
+      y = np.sin(x)
 
-     #+RESULTS:
-     [[file:[<matplotlib.lines.Line2D object at 0x7ff19c9eb668>]]]
+      # Plot the points using matplotlib
+      plt.plot(x, y)
+      # plt.show()  # You must call plt.show() to make graphics appear.
+      plt.draw()
+      plt.savefig("plt_test.png")
+      return "plt_test.png"
+    #+END_SRC
+
+    #+RESULTS:
+    [[file:[<matplotlib.lines.Line2D object at 0x7ff19c9eb668>]]]
+
+
+    #+BEGIN_SRC python :eval noexport :exports both :session scikit
+    import sklearn as sk
+    import numpy as np
+    import matplotlib.pyplot as plt
+    #+END_SRC
+
+    #+RESULTS:
 
 *** Python package management system                              :miniconda:
-    #+NAME ppms
+    #+NAME: ppms
     The main idea is to manage your Python in a bit tricky way:
     - Generate virtual environment on the fly;
     - Install or up-to date Python pakages in the bunch mode;
