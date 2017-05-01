@@ -11083,7 +11083,6 @@
                for i in self.neurons:
                    i.calculate_output()
 
-
            def update_weights(self, weights_array):
                for i in range(self.network_swing ** 2):
                    self.dendrons[i].weight = weights_array[i]
@@ -11147,6 +11146,7 @@
 
        function_with_certain_name()
      #+END_SRC
+
 
 *** CookBook
 
