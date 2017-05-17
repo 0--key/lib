@@ -16,6 +16,7 @@
 ;;
 (require 'bookmark+)
 (require 'ereader)
+(require 'docker)
 ;; (desktop-save-mode 1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -135,7 +136,7 @@
  '(org-src-window-setup (quote other-frame))
  '(package-selected-packages
    (quote
-    (moe-theme ereader voca-builder travis pcache org-pomodoro org-octopress org-bullets octopress marshal magit key-chord howdoi google-translate elpy elfeed color-theme bookmark+))))
+    (docker moe-theme ereader voca-builder travis pcache org-pomodoro org-octopress org-bullets octopress marshal magit key-chord howdoi google-translate elpy elfeed color-theme bookmark+))))
  
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
