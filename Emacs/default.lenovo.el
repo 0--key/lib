@@ -26,4 +26,26 @@
 (global-set-key (kbd "C-c t") 'google-translate-at-point)
 (global-set-key (kbd "C-c T") 'google-translate-query-translate)
 ;;
-(require 'ereader)
+
+(require 'key-chord)
+    (key-chord-mode 1)
+    (key-chord-define-global "ww"     'google-translate-at-point)
+    (key-chord-define-global "QQ"     'voca-builder/search-popup)
+    (key-chord-define-global "wq"     'org-set-tags-command)
+    (key-chord-define-global "]\\"     'other-frame)
+;; for n900 interaction
+    (key-chord-define-global "VV"     'voca-builder/search-popup)
+    (key-chord-define-global "OO"     'delete-other-windows)
+    (key-chord-define-global "MM"     'set-mark-command)
+    (key-chord-define-global "KK"     'kill-ring-save)
+    (key-chord-define-global ",,"     'org-capture)
+;; for full-fledged keyboard
+    (key-chord-define-global "'\\"     'other-frame)
+;;
+(key-chord-define org-mode-map "NN"     'org-forward-heading-same-level)
+(key-chord-define org-mode-map "UU"     'org-backward-heading-same-level)
+;;
+(key-chord-define org-mode-map "''"     'org-edit-special)
+(key-chord-define org-src-mode-map "''"     'org-edit-src-exit)
+;;
+
