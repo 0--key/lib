@@ -42,8 +42,14 @@
 *** Warnings
 *** Logging
 *** Context manager
+*** TimeIt
+    :LOGBOOK:
+    CLOCK: [2017-04-27 Thu 06:25]--[2017-04-27 Thu 06:50] =>  0:25
+    :END:
 *** Coding
     :LOGBOOK:
+    CLOCK: [2017-04-24 Mon 10:17]--[2017-04-24 Mon 10:42] =>  0:25
+    CLOCK: [2017-04-23 Sun 10:21]--[2017-04-23 Sun 10:46] =>  0:25
     CLOCK: [2017-03-12 Sun 19:05]--[2017-03-12 Sun 19:30] =>  0:25
     :END:
 *** CookBook
@@ -87,6 +93,7 @@
       
 ***** Fulfill it by relevant content
       :LOGBOOK:
+      CLOCK: [2017-05-07 Sun 16:39]--[2017-05-07 Sun 17:04] =>  0:25
       CLOCK: [2017-04-09 Sun 10:33]--[2017-04-09 Sun 10:58] =>  0:25
       CLOCK: [2017-04-09 Sun 10:00]--[2017-04-09 Sun 10:25] =>  0:25
       CLOCK: [2017-04-06 Thu 15:55]--[2017-04-06 Thu 16:20] =>  0:25
@@ -103,12 +110,21 @@
       CLOCK: [2017-04-10 Mon 11:19]--[2017-04-10 Mon 11:44] =>  0:25
       :END:
 
-
 *** String formatting in Python3
     
     https://www.python.org/dev/peps/pep-3101/
+*** Scrapy
+**** Installation
+     #+BEGIN_SRC sh
+     pip install Scrapy
+     #+END_SRC
+**** Forking
+**** Overview
+**** Contribution
+
 ** Elisp
    :LOGBOOK:
+   CLOCK: [2017-05-06 Sat 16:34]--[2017-05-06 Sat 16:59] =>  0:25
    CLOCK: [2017-04-04 Tue 18:47]--[2017-04-04 Tue 19:12] =>  0:25
    CLOCK: [2017-03-24 Fri 08:55]--[2017-03-24 Fri 09:20] =>  0:25
    CLOCK: [2017-03-11 Sat 11:33]--[2017-03-11 Sat 11:58] =>  0:25
@@ -144,8 +160,11 @@
 **** point
 *** 25.1 overview
     - https://www.masteringemacs.org/article/whats-new-in-emacs-25-1
-*** TODO Bookmarks+
+*** DONE Bookmarks+
+    Set a separate folder for desktops files =~/.emacs.d/desktops/=
+    :LOGBOOK:
     CLOCK: [2017-02-18 Sat 21:06]--[2017-02-18 Sat 21:31] =>  0:25
+    :END:
 **** TODO Portability and synchronizing concept
 ***** Create library
 ***** Build the tree
@@ -241,9 +260,14 @@
      
 **** Coursera
 ***** Lecture 1: Introduction
+      :LOGBOOK:
+      CLOCK: [2017-05-02 Tue 16:21]--[2017-05-02 Tue 16:46] =>  0:25
+      :END:
 
 ***** Lecture 2: The Perceptron learning procedure
       :LOGBOOK:
+      CLOCK: [2017-04-27 Thu 16:44]--[2017-04-27 Thu 17:09] =>  0:25
+      CLOCK: [2017-04-27 Thu 16:03]--[2017-04-27 Thu 16:28] =>  0:25
       CLOCK: [2017-04-06 Thu 09:27]--[2017-04-06 Thu 09:42] =>  0:15
       CLOCK: [2017-04-04 Tue 14:39]--[2017-04-04 Tue 15:08] =>  0:29
       CLOCK: [2017-04-04 Tue 14:08]--[2017-04-04 Tue 14:33] =>  0:25
@@ -265,10 +289,19 @@
       
 
 ***** Lecture 5: Object recognition with neural nets
+      :LOGBOOK:
+      CLOCK: [2017-04-29 Sat 17:02]--[2017-04-29 Sat 17:27] =>  0:25
+      CLOCK: [2017-04-25 Tue 10:34]--[2017-04-25 Tue 10:59] =>  0:25
+      :END:
 
 ***** Lecture 6: Optimization: How to make the learning go faster
 
 ***** Lecture 7: Recurrent neural networks
+      :LOGBOOK:
+      CLOCK: [2017-05-09 Tue 09:45]--[2017-05-09 Tue 10:10] =>  0:25
+      CLOCK: [2017-05-02 Tue 12:13]--[2017-05-02 Tue 12:38] =>  0:25
+      CLOCK: [2017-05-02 Tue 11:37]--[2017-05-02 Tue 12:02] =>  0:25
+      :END:
 
 ***** Lecture 8: More recurrent neural networks
 
@@ -303,6 +336,15 @@
 
 **** Stacked Denoising Autoencoders
 
+** Matplotlib
+   :LOGBOOK:
+   CLOCK: [2017-05-10 Wed 10:11]--[2017-05-10 Wed 10:36] =>  0:25
+   CLOCK: [2017-05-10 Wed 09:33]--[2017-05-10 Wed 09:58] =>  0:25
+   CLOCK: [2017-05-09 Tue 10:34]--[2017-05-09 Tue 11:02] =>  0:28
+   CLOCK: [2017-05-07 Sun 09:27]--[2017-05-07 Sun 09:52] =>  0:25
+   CLOCK: [2017-05-07 Sun 08:50]--[2017-05-07 Sun 09:15] =>  0:25
+   CLOCK: [2017-05-02 Tue 17:10]--[2017-05-02 Tue 17:35] =>  0:25
+   :END:
 * Satellite
 ** DONE Porteus
 *** [[https://forum.porteus.org/viewtopic.php?f=81&t=6312&p=51379&hilit=ram+restore+changes#p51379][Save]] session's changes
@@ -324,47 +366,49 @@
      'kill-ring-save
 **** DONE capture region
      'org-capture
-** TODO CV composing
-   :LOGBOOK:
-   CLOCK: [2017-04-13 Thu 21:58]--[2017-04-13 Thu 22:23] =>  0:25
-   CLOCK: [2017-04-11 Tue 09:59]--[2017-04-11 Tue 10:24] =>  0:25
-   CLOCK: [2017-04-06 Thu 11:21]--[2017-04-06 Thu 11:46] =>  0:25
-   CLOCK: [2017-03-24 Fri 09:42]--[2017-03-24 Fri 10:07] =>  0:25
-   CLOCK: [2017-03-22 Wed 08:38]--[2017-03-22 Wed 09:03] =>  0:25
-   CLOCK: [2017-03-20 Mon 16:03]--[2017-03-20 Mon 16:28] =>  0:25
-   :END:
-   =CV as .py code=
-   #+BEGIN_SRC python
-     class Engineer():
-         """General-purpose problem-solver"""
-
-         def review_issue(self, issue):
-             return corollary
-
-         def solve_issue(self, issue):
-             return solution
-
-     class SoftwareEngineer(Engineer):
-         """
-         Software-specific problems resolver
-         Inherits all general-purpose engineer's
-         functions and has the specific ones:
-         """
-
-         def guess_algorithm(self, issue):
-             return pertinent_algorithm
-
-         def complexity_control(self, software):
-             pass
-   #+END_SRC
-*** ORG into PDF export
-    not resolved yet
-*** StackOverFlow propositions:
-    https://stackoverflow.com/users/story/create?r=JobsSidebar
-*** LinkedIn version
+** JobSeeking
+*** TODO CV composing
     :LOGBOOK:
-    CLOCK: [2017-04-02 Sun 10:15]--[2017-04-02 Sun 10:40] =>  0:25
+    CLOCK: [2017-04-19 Wed 20:14]--[2017-04-19 Wed 20:39] =>  0:25
+    CLOCK: [2017-04-13 Thu 21:58]--[2017-04-13 Thu 22:23] =>  0:25
+    CLOCK: [2017-04-11 Tue 09:59]--[2017-04-11 Tue 10:24] =>  0:25
+    CLOCK: [2017-04-06 Thu 11:21]--[2017-04-06 Thu 11:46] =>  0:25
+    CLOCK: [2017-03-24 Fri 09:42]--[2017-03-24 Fri 10:07] =>  0:25
+    CLOCK: [2017-03-22 Wed 08:38]--[2017-03-22 Wed 09:03] =>  0:25
+    CLOCK: [2017-03-20 Mon 16:03]--[2017-03-20 Mon 16:28] =>  0:25
     :END:
+    =CV as .py code=
+    #+BEGIN_SRC python
+      class Engineer():
+          """General-purpose problem-solver"""
+
+          def review_issue(self, issue):
+              return corollary
+
+          def solve_issue(self, issue):
+              return solution
+
+      class SoftwareEngineer(Engineer):
+          """
+          Software-specific problems resolver
+          Inherits all general-purpose engineer's
+          functions and has the specific ones:
+          """
+
+          def guess_algorithm(self, issue):
+              return pertinent_algorithm
+
+          def complexity_control(self, software):
+              pass
+    #+END_SRC
+**** ORG into PDF export
+     not resolved yet
+**** StackOverFlow propositions:
+     https://stackoverflow.com/users/story/create?r=JobsSidebar
+**** LinkedIn version
+     :LOGBOOK:
+     CLOCK: [2017-04-02 Sun 10:15]--[2017-04-02 Sun 10:40] =>  0:25
+     :END:
     
    
 
