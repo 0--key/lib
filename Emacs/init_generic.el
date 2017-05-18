@@ -51,12 +51,6 @@
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
-(setq google-translate-translation-directions-alist '(("en" . "ru")))
-(setq google-translate-default-source-language "en")
-(setq google-translate-default-target-language "ru")
-(global-set-key (kbd "C-c t") 'google-translate-at-point)
-(global-set-key (kbd "C-c T") 'google-translate-query-translate)
-
 (define-key global-map "\C-cc" 'org-capture)
 
  (setq org-capture-templates
