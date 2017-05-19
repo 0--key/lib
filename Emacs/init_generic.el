@@ -25,7 +25,7 @@
 ;;     (package-install package)))
 
 (elpy-enable)
-;; (pyvenv-activate "/usr/local/share/DVCS/venv3/")
+(pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
 
  (require 'org-bullets)
    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
