@@ -5,8 +5,9 @@
 (eval-after-load "color-theme"
   '(progn
      (color-theme-initialize)
-     (color-theme-lawrence)
-     (color-theme-euphoria)))
+     (color-theme-ld-dark)))
+     ;(color-theme-lawrence)
+     ;(color-theme-euphoria)))
 
 (global-set-key (kbd "C-c 1") 'color-theme-clarity)
 (global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
