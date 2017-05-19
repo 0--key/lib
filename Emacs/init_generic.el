@@ -107,11 +107,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(org-confirm-babel-evaluate nil)
+ '(org-src-window-setup (quote other-frame))
  '(package-selected-packages
    (quote
-    (org bookmark+ color-theme elfeed elpy google-translate
-    howdoi key-chord magit marshal org-bullets org-pomodoro
-    pcache travis voca-builder ereader docker))))
+    (org bookmark+ color-theme elfeed elpy google-translate howdoi key-chord magit marshal org-bullets org-pomodoro pcache travis voca-builder ereader docker))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
