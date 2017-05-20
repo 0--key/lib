@@ -457,3 +457,10 @@
   : Hi!
 
 
+* Shell test
+  #+BEGIN_SRC sh
+  echo "Hello"
+  #+END_SRC
+
+  #+RESULTS:
+  : Hello
