@@ -424,3 +424,20 @@
   :END:
   - zygospore          20140703.152  available  melpa      reversible C-x 1 (delete-other-windows)
   - *info* files Linux documentation
+
+
+* Python2 test
+
+  #+BEGIN_SRC elisp
+  (pyvenv-deactivate)
+  #+END_SRC
+
+  #+RESULTS:
+
+  #+BEGIN_SRC python :results output
+    print "Hi!"
+  #+END_SRC
+
+  #+RESULTS:
+  : Hi!
+
