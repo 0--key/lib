@@ -472,42 +472,61 @@
   - *info* files Linux documentation
 
 
-* Python2 test
+* Org-Babel test suite
+** Python2 test
 
-  #+BEGIN_SRC elisp
-  (pyvenv-deactivate)
-  #+END_SRC
+   #+BEGIN_SRC elisp
+   (pyvenv-deactivate)
+   #+END_SRC
 
-  #+RESULTS:
+   #+RESULTS:
 
-  #+BEGIN_SRC python :results output
-    print "Hi!"
-  #+END_SRC
+   #+BEGIN_SRC python :results output
+     print "Hi!"
+   #+END_SRC
 
-  #+RESULTS:
-  : Hi!
+   #+RESULTS:
+   : Hi!
 
+** Python3 test
 
-* Python3 test
+*** Activate py3 virtual environment
+    #+BEGIN_SRC elisp
+    (pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
+    #+END_SRC
 
-  #+BEGIN_SRC elisp
-  (pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
-  #+END_SRC
+    #+RESULTS:
 
-  #+RESULTS:
+*** Sample output
+    #+BEGIN_SRC python :results output
+      print("Hi!")
+    #+END_SRC
 
-  #+BEGIN_SRC python :results output
-    print("Hi!")
-  #+END_SRC
+    #+RESULTS:
+    : Hi!
 
-  #+RESULTS:
-  : Hi!
+*** Session variables
+    #+BEGIN_SRC python :session :results none
+      def print_hi():
+	  return "Hello, I'm alive!"
 
+      # another session variable
+      session_variable = "I'm living inside session"
+    #+END_SRC
 
-* Shell test
-  #+BEGIN_SRC sh
-  echo "Hello"
-  #+END_SRC
+    #+BEGIN_SRC python :session
+    print(print_hi())
+    print(session_variable)
+    #+END_SRC
 
-  #+RESULTS:
-  : Hello
+    #+RESULTS:
+    : Hello, I'm alive!
+    : I'm living inside session
+
+** Shell test
+   #+BEGIN_SRC sh
+   echo "Hello"
+   #+END_SRC
+
+   #+RESULTS:
+   : Hello
