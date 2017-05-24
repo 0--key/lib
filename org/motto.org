@@ -85,6 +85,7 @@
     - Repeat the exercise
      
 ** Learn to teach and collaborate
+
 * Enhance English			        :English:
 ** Grammar [85%]
    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -4839,6 +4840,7 @@
 *** Listen carefully
 
 *** Pay attention to details
+
 * Jargon & definition 		                :corpora:
 ** PP4E
 *** Let’s step back for a moment and consider how far ’ve come.
@@ -4991,6 +4993,7 @@
    If you still don't understand how methods work, a look at the
    implementation can perhaps clarify matters.
    
+
 * Enlarge Emacs toolbox 	                :Emacs:
 
 ** Sacha [[https://github.com/sachac/.emacs.d/blob/gh-pages/Sacha.org][config]]
