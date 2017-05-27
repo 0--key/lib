@@ -23,6 +23,17 @@
 ;; (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 ;;
+    (require 'langtool)
+    (setq langtool-language-tool-jar "/usr/local/java/languagetool-commandline-2.2.jar")
+
+    (global-set-key "\C-x4w" 'langtool-check)
+    (global-set-key "\C-x4W" 'langtool-check-done)
+    (global-set-key "\C-x4l" 'langtool-switch-default-language)
+    (global-set-key "\C-x44" 'langtool-show-message-at-point)
+    (global-set-key "\C-x4c" 'langtool-correct-buffer)
+
+    (setq langtool-default-language "en-US")
+    ;;(setq langtool-java-bin "/usr/bin/java")
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -136,7 +147,7 @@
  '(org-src-window-setup (quote other-frame))
  '(package-selected-packages
    (quote
-    (docker moe-theme ereader voca-builder travis pcache org-pomodoro org-octopress org-bullets octopress marshal magit key-chord howdoi google-translate elpy elfeed color-theme bookmark+))))
+    (langtool docker moe-theme ereader voca-builder travis pcache org-pomodoro org-octopress org-bullets octopress marshal magit key-chord howdoi google-translate elpy elfeed color-theme bookmark+))))
  
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
