@@ -8559,6 +8559,7 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 * empathetic :Quora:
   [2017-05-04 Thu 09:30]
 
+  /ˌɛm pəˈθɛt ɪk/ 
   чуткий
   
   An empathetic person is someone who can share another person's
@@ -8647,6 +8648,7 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 * insensate :Quora:
   [2017-05-08 Mon 09:54]
 
+  /ɪnˈsɛn seɪt/
   неодушевленный
 
   adjective
@@ -8679,6 +8681,25 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 
 * utterance :Quora:
   [2017-05-08 Mon 10:08]
+
+  /ˈʌt ər əns/
+  произнесение
+
+  noun
+  1. высказывание (utterance, statement, say, observation, discourse, outgiving)
+  2. произнесение (utterance, pronouncing, pronunciation, delivery, pronouncement)
+  3. произношение (pronunciation, accent, pronouncing, pronounce, speech, utterance)
+  4. выражение в словах (utterance)
+  5. дикция (diction, enunciation, elocution, utterance)
+  6. дар слова (utterance)
+  7. манера говорить (speech, tongue, utterance, parlance)
+
+  DEFINITION
+
+  noun
+  1. a spoken word, statement, or vocal sound.
+     "His bizarre word rhythm and gleeful disregard for punctuation makes even his most banal utterances sound dramatic."
+
 
   An utterance is a bit of spoken language. It could be anything from
   "Ugh!" to a full sentence.
@@ -8815,8 +8836,26 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   And so whenever your trying to use a recurrent neural network to
   learn attractors like this, you're bound to get vanishing or
   exploding gradients.
-* evades :Quora:
+* evade                                                               :Quora:
   [2017-05-09 Tue 10:08]
+
+  уклоняться
+
+  verb
+  1. уклоняться (dodge, skew, avoid, shrink, evade, deviate)
+  2. увернуться (dodge, evade)
+  3. избегать (avoid, shun, escape, evade, steer clear of, eschew)
+  4. обходить (bypass, get round, skirt, evade, walk, sidestep)
+  5. ускользать (escape, elude, slip, evade)
+  6. увиливать (shirk, prevaricate, equivocate, dodge, evade, wriggle out of)
+  7. отвиливать (evade, dodge)
+  8. не поддаваться усилиям (evade)
+
+  DEFINITION
+
+  verb
+  1. escape or avoid, especially by cleverness or trickery.
+     "friends helped him to evade capture for a time"
 
   When you evade something, you escape it. You could evade a police
   chase by slipping into a secret alley, or you could evade your
@@ -8875,6 +8914,21 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   appreciate and understand the risks of software implementation.
 * courtesy :Quora:
   [2017-05-14 Sun 14:01]
+
+  учтивость
+
+  noun
+  1. вежливость (courtesy, politeness, civility, comity, urbanity, decency)
+  2. учтивость (courtesy, politeness, urbanity, affability, delicacy, suavity)
+  3. обходительность (courtesy, complaisance, suavity)
+  4. этикет (etiquette, decorum, courtesy, form)
+  5. правила вежливости (courtesy)
+
+  DEFINITION
+
+  noun
+  1. the showing of politeness in one's attitude and behavior toward others.
+     "he had been treated with a degree of courtesy not far short of deference"
 
   A courtesy is a polite remark or respectful act. Complain about a
   bad meal, and you might get kicked out. But the common courtesy is
