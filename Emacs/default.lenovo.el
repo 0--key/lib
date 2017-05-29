@@ -31,7 +31,7 @@
 (require 'key-chord)
     (key-chord-mode 1)
     (key-chord-define-global "ww"     'google-translate-at-point)
-    (key-chord-define-global "QQ"     'voca-builder/search-popup)
+    (key-chord-define-global "qq"     'voca-builder/search-popup)
     (key-chord-define-global "wq"     'org-set-tags-command)
     (key-chord-define-global "]\\"     'other-frame)
 ;; for n900 interaction
