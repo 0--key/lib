@@ -4895,19 +4895,19 @@
 ** OrgMode
 *** Curious thought
     #+BEGIN_QUOTE
-        Let us change our traditional attitude to the construction of
-	programs: Instead of imagining that our main task is to instruct
-	a computer what to do, let us concentrate rather on explaining
-	to human beings what we want a computer to do.
+    Let us change our traditional attitude to the construction of
+    programs: Instead of imagining that our main task is to instruct
+    a computer what to do, let us concentrate rather on explaining
+    to human beings what we want a computer to do.
 
-	The practitioner of literate programming can be regarded as an
-	essayist, whose main concern is with exposition and excellence of
-	style. Such an author, with thesaurus in hand, chooses the names
-	of variables carefully and explains what each variable means.
-	He or she strives for a program that is comprehensible because
-	its concepts have been introduced in an order that is best for
-	human understanding, using a mixture of formal and informal
-	methods that reinforce each other.
+    The practitioner of literate programming can be regarded as an
+    essayist, whose main concern is with exposition and excellence of
+    style. Such an author, with thesaurus in hand, chooses the names
+    of variables carefully and explains what each variable means.
+    He or she strives for a program that is comprehensible because
+    its concepts have been introduced in an order that is best for
+    human understanding, using a mixture of formal and informal
+    methods that reinforce each other.
 
     – Donald Knuth
     #+END_QUOTE
@@ -5005,12 +5005,12 @@
    - Download from http://ftp.gnu.org/gnu/emacs/
    - tar -xf emacs*
    - sudo apt-get remove emacs
-      remove old version
+     remove old version
    - cd emacs* && ./configure && make
      or ./configure --with-x-toolkit=no
      --with-xpm=no --with-gif=no --with-tiff=no
    - sudo checkinstall -D
-      create .deb package
+     create .deb package
    - sudo apt-mark hold emacs
      to prevent unneccessary update with 14.04 core
 ** OrgBullets
@@ -5066,12 +5066,12 @@
      Demands to install Org recent version 
 ***** This is the first and successful attempt	:CODE:
       #+begin_src python :results output
-	import sys
-	print(sys.version)
-	print("Hello, world!")
-	print("This is a test")
-	for i in range(4):
-	    print(i)
+      import sys
+      print(sys.version)
+      print("Hello, world!")
+      print("This is a test")
+      for i in range(4):
+      print(i)
       #+end_src python
 
       #+RESULTS:
@@ -5321,7 +5321,7 @@
      _underlined_
      =verbatim=
      ~code~
-   +strike-through+
+     +strike-through+
 **** Tags
      Set C-c C-q
 **** Tables
@@ -5449,19 +5449,19 @@
     "\([^"]+\)" capture text between double quotes. 
 *** Repetition
     Pattern Matches                                                             
-      +       match previous pattern 1 or more times                              
-      *       match previous pattern 0 or more times                              
-      ?       match previous pattern 0 or 1 time                                  
-      +?      match previous pattern 1 or more times, but with minimal match      
-	      (aka non-greedy)                                                    
+	  +       match previous pattern 1 or more times                              
+	  *       match previous pattern 0 or more times                              
+	    ?       match previous pattern 0 or 1 time                                  
+	    +?      match previous pattern 1 or more times, but with minimal match      
+	    (aka non-greedy)                                                    
 
 *** Boundary anchors
-      Pattern Matches                              
-      ^…      Beginning of {line, string, buffer}  
-      …$      End of {line, string, buffer}        
-      \`…     Beginning of {string, buffer}        
-      …\'     End of {string, buffer}              
-      \b      word boundary marker                 
+    Pattern Matches                              
+    ^…      Beginning of {line, string, buffer}  
+    …$      End of {line, string, buffer}        
+    \`…     Beginning of {string, buffer}        
+    …\'     End of {string, buffer}              
+    \b      word boundary marker                 
 
     Unicode character can be used literally. But for non-printable ones such as
     “RIGHT-TO-LEFT MARK”, you can represent them by a code. See: Emacs: Newline
@@ -5698,11 +5698,11 @@
 	 | P | y | t | h | o | n |
 	 +---+---+---+---+---+---+
 	 0   1   2   3   4   5   6
-	-6  -5  -4  -3  -2  -1
+	 -6  -5  -4  -3  -2  -1
 
-	String Methods
-	Strings Formatting
-	printf-style String Formatting
+	 String Methods
+	 Strings Formatting
+	 printf-style String Formatting
 
 ******** Lists
 	 #+BEGIN_QUOTE
@@ -5715,13 +5715,13 @@
 	   concatenation
 
 ******* First Steps Towards Programming
-	    #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
 	      # Fibonacci series
               a, b = 0, 1
               while b < 10:
 		  print(b, end=", ")
 		  a, b = b, a + b
-	    #+END_SRC
+	#+END_SRC
 
 ****** More Control Flow Tools
 
@@ -5751,17 +5751,17 @@
 	: ['defenestrate', 'cat', 'window', 'defenestrate']
 
 ******* The "range()" Function
-	    #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
               for i in range(5):
 		 print(i, end=", ")
               print('==============')
-	    #+END_SRC
+	#+END_SRC
 
-	    #+RESULTS:
-	    : 0, 1, 2, 3, 4, ==============
+	#+RESULTS:
+	: 0, 1, 2, 3, 4, ==============
 
 ******* "break" and "continue" Statements, and "else" Clauses on Loops
-	    #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
               for n in range(2, 10):
 		  for x in range(2, n):
                       if n % x == 0:
@@ -5771,41 +5771,41 @@
 		      # loop fell through without finding a factor
 		      print(n, 'is a prime number')
 
-	    #+END_SRC
+	#+END_SRC
 
-	    #+RESULTS:
-	    : 2 is a prime number
-	    : 3 is a prime number
-	    : 4 equals 2 * 2
-	    : 5 is a prime number
-	    : 6 equals 2 * 3
-	    : 7 is a prime number
-	    : 8 equals 2 * 4
-	    : 9 equals 3 * 3
+	#+RESULTS:
+	: 2 is a prime number
+	: 3 is a prime number
+	: 4 equals 2 * 2
+	: 5 is a prime number
+	: 6 equals 2 * 3
+	: 7 is a prime number
+	: 8 equals 2 * 4
+	: 9 equals 3 * 3
 
-	    #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
               # continue example
               for num in range(2, 10):
 		  if num % 2 == 0:
                       print("Found an even number", num)
                       continue
 		  print("Found a number", num)
-	    #+END_SRC
+	#+END_SRC
 
-	    #+RESULTS:
-	    : Found an even number 2
-	    : Found a number 3
-	    : Found an even number 4
-	    : Found a number 5
-	    : Found an even number 6
-	    : Found a number 7
-	    : Found an even number 8
-	    : Found a number 9
+	#+RESULTS:
+	: Found an even number 2
+	: Found a number 3
+	: Found an even number 4
+	: Found a number 5
+	: Found an even number 6
+	: Found a number 7
+	: Found an even number 8
+	: Found a number 9
 
 ******* "pass" Statements
-	    #+BEGIN_QUOTE
-	    Does nothing
-	    #+END_QUOTE
+	#+BEGIN_QUOTE
+	Does nothing
+	#+END_QUOTE
 
 ******* Defining Functions
 	#+BEGIN_SRC python :results output
@@ -5843,8 +5843,8 @@
 	: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ******* More on Defining Functions
 ******** Default Argument Values
-	   The default value is evaluated only once.
-	   #+BEGIN_SRC python :results output
+	 The default value is evaluated only once.
+	 #+BEGIN_SRC python :results output
 
 	     def f(a, L=[]):
 		 L.append(a)
@@ -5853,15 +5853,15 @@
 	     print(f(1))
 	     print(f(2))
 	     print(f(3))
-	   #+END_SRC
+	 #+END_SRC
 
-	   #+RESULTS:
-	   : [1]
-	   : [1, 2]
-	   : [1, 2, 3]
+	 #+RESULTS:
+	 : [1]
+	 : [1, 2]
+	 : [1, 2, 3]
 
-	   To prevent this behaviour:
-	   #+BEGIN_SRC python :results output
+	 To prevent this behaviour:
+	 #+BEGIN_SRC python :results output
 	     def f(a, L=None):
 		 if L is None:
 		     L = []
@@ -5871,15 +5871,15 @@
 	     print(f(1))
 	     print(f(2))
 	     print(f(3))
-	   #+END_SRC
+	 #+END_SRC
 
-	   #+RESULTS:
-	   : [1]
-	   : [2]
-	   : [3]
+	 #+RESULTS:
+	 : [1]
+	 : [2]
+	 : [3]
 
 ******** Keyword Arguments
-	   #+BEGIN_SRC python :results output
+	 #+BEGIN_SRC python :results output
 	     def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
 		 print("-- This parrot wouldn't", action, end=' ')
 		 print("if you put", voltage, "volts through it.")
@@ -5899,29 +5899,29 @@
 	     #parrot(voltage=5.0, 'dead')  # non-keyword argument after a keyword argument
 	     #parrot(110, voltage=220)     # duplicate value for the same argument
 	     #parrot(actor='John Cleese')  # unknown keyword argument
-	   #+END_SRC
+	 #+END_SRC
 
-	   #+RESULTS:
-	   #+begin_example
-	   -- This parrot wouldn't voom if you put 1000 volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's a stiff !
-	   -- This parrot wouldn't voom if you put 1000 volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's a stiff !
-	   -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's a stiff !
-	   -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's a stiff !
-	   -- This parrot wouldn't jump if you put a million volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's bereft of life !
-	   -- This parrot wouldn't voom if you put a thousand volts through it.
-	   -- Lovely plumage, the Norwegian Blue
-	   -- It's pushing up the daisies !
-    #+end_example
+	 #+RESULTS:
+	 #+begin_example
+	 -- This parrot wouldn't voom if you put 1000 volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's a stiff !
+	 -- This parrot wouldn't voom if you put 1000 volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's a stiff !
+	 -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's a stiff !
+	 -- This parrot wouldn't VOOOOOM if you put 1000000 volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's a stiff !
+	 -- This parrot wouldn't jump if you put a million volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's bereft of life !
+	 -- This parrot wouldn't voom if you put a thousand volts through it.
+	 -- Lovely plumage, the Norwegian Blue
+	 -- It's pushing up the daisies !
+  #+end_example
 
 ******** Arbitrary Argument Lists
 	 #+BEGIN_SRC python :results output
@@ -6084,17 +6084,17 @@
 ****** Data Structures
 ******* Terse manual
 ******** list.append(x)
-	  Add an item to the end of the list.
-	  Equivalent to "a[len(a):] = [x]".
-	  #+BEGIN_SRC python :results output :session lists
+	 Add an item to the end of the list.
+	 Equivalent to "a[len(a):] = [x]".
+	 #+BEGIN_SRC python :results output :session lists
             a = [66.25, 333]
             a.append(333)
             print(a)
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  : 
-	  : >>> [66.25, 333, 333]
+	 #+RESULTS:
+	 : 
+	 : >>> [66.25, 333, 333]
 
 ******** list.extend(L)
 	 Extend the list by appending all the items in the given list.
@@ -6194,7 +6194,7 @@
 	 Return a shallow copy of the list. Equivalent to "a[:]".
 ******* More on Lists
 ******** Using Lists as Stacks
-	  #+BEGIN_SRC python :results output :session stack
+	 #+BEGIN_SRC python :results output :session stack
             stack = [3, 4, 5]
             stack.append(6)
             stack.append(7)
@@ -6207,21 +6207,21 @@
             stack.pop()
             '============='
             stack
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  #+begin_example
+	 #+RESULTS:
+	 #+begin_example
 
-	  >>> >>> [3, 4, 5, 6, 7]
-	  '============='
-	  7
-	  [3, 4, 5, 6]
-	  6
-	  '============='
-	  5
-	  '============='
-	  [3, 4]
- #+end_example
+	 >>> >>> [3, 4, 5, 6, 7]
+	 '============='
+	 7
+	 [3, 4, 5, 6]
+	 6
+	 '============='
+	 5
+	 '============='
+	 [3, 4]
+#+end_example
 
 ******** Using Lists as Queues
 	 #+NAME: Queue
@@ -6246,31 +6246,31 @@
 	 : deque(['Michael', 'Terry', 'Graham'])
 
 ******** List Comprehensions
-	  #+BEGIN_QUOTE
-	  provide a concise way to create lists.
-	  #+END_QUOTE
-	  #+BEGIN_SRC python :results output :session lists
+	 #+BEGIN_QUOTE
+	 provide a concise way to create lists.
+	 #+END_QUOTE
+	 #+BEGIN_SRC python :results output :session lists
             squares = list(map(lambda x: x**2, range(10)))
             squares_alt = [x**2 for x in range(10)]
 
             print(squares)
             print('=============')
             print(squares_alt)
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  : 
-	  : >>> >>> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-	  : =============
-	  : [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-	  #+NAME Recombination
-	  #+BEGIN_SRC python :results output :session lists
+	 #+RESULTS:
+	 : 
+	 : >>> >>> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+	 : =============
+	 : [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+	 #+NAME Recombination
+	 #+BEGIN_SRC python :results output :session lists
 	  [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  : [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
-	  #+BEGIN_SRC python :results output :session lists
+	 #+RESULTS:
+	 : [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+	 #+BEGIN_SRC python :results output :session lists
             vec = [-4, -2, 0, 2, 4]
             # create a new list with the values doubled
             [x*2 for x in vec]
@@ -6293,36 +6293,36 @@
             # flatten a list using a listcomp with two 'for'
             vec = [[1,2,3], [4,5,6], [7,8,9]]
             [num for elem in vec for num in elem]
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  #+begin_example
+	 #+RESULTS:
+	 #+begin_example
 
-	  ... [-8, -4, 0, 4, 8]
-	  =============
-	  ... [0, 2, 4]
-	  =============
-	  ... [4, 2, 0, 2, 4]
-	  =============
-	  ... >>> ['banana', 'loganberry', 'passion fruit']
-	  =============
-	  ... [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
-	  =============
-	  ... ... ... >>> [1, 2, 3, 4, 5, 6, 7, 8, 9]
- #+end_example
+	 ... [-8, -4, 0, 4, 8]
+	 =============
+	 ... [0, 2, 4]
+	 =============
+	 ... [4, 2, 0, 2, 4]
+	 =============
+	 ... >>> ['banana', 'loganberry', 'passion fruit']
+	 =============
+	 ... [(0, 0), (1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
+	 =============
+	 ... ... ... >>> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#+end_example
 
 
-	  List comprehensions can contain complex expressions and nested
-	  functions:
+	 List comprehensions can contain complex expressions and nested
+	 functions:
 
-	  #+BEGIN_SRC python :results output :session lists
+	 #+BEGIN_SRC python :results output :session lists
 	  from math import pi
 	  [str(round(pi, i)) for i in range(1, 6)]
-	  #+END_SRC
+	 #+END_SRC
 
-	  #+RESULTS:
-	  : 
-	  : ['3.1', '3.14', '3.142', '3.1416', '3.14159']
+	 #+RESULTS:
+	 : 
+	 : ['3.1', '3.14', '3.142', '3.1416', '3.14159']
 
 ******** Nested List Comprehensions                       :transposition:zip:
 	 #+BEGIN_SRC python :results output :session lists
@@ -6426,72 +6426,72 @@
 	: ... >>> 12345 54321 hello!
 
 ******* Sets
-	 A set is an unordered collection with no duplicate elements.
-	 Basic uses include membership testing and eliminating duplicate
-	 entries.
-	 #+BEGIN_SRC python :results output :session sets
+	A set is an unordered collection with no duplicate elements.
+	Basic uses include membership testing and eliminating duplicate
+	entries.
+	#+BEGIN_SRC python :results output :session sets
            basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
            print(basket)                      # show that duplicates have been removed
            print('=============')
            'orange' in basket                 # fast membership testing
            print('=============')
            'crabgrass' in basket
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 : Type "help", "copyright", "credits" or "license" for more information.
-	 : >>> >>> >>> >>> {'orange', 'apple', 'pear', 'banana'}
-	 : =============
-	 : True
-	 : =============
-	 : False
+	#+RESULTS:
+	: Type "help", "copyright", "credits" or "license" for more information.
+	: >>> >>> >>> >>> {'orange', 'apple', 'pear', 'banana'}
+	: =============
+	: True
+	: =============
+	: False
 
-	 + Set objects also support mathematical operations like:
-	   union
-	   intersection
-	   difference
-	   symmetric difference
-	   #+BEGIN_SRC python :results output :session sets
-             # Demonstrate set operations on unique letters from two words
+	+ Set objects also support mathematical operations like:
+	  union
+	  intersection
+	  difference
+	  symmetric difference
+	  #+BEGIN_SRC python :results output :session sets
+	    # Demonstrate set operations on unique letters from two words
 
-             a = set('abracadabra')
-             b = set('alacazam')
-             print(a)                                  # unique letters in a
-             print('======unique letters in a=====')
-             a - b                              # letters in a but not in b
-             print('======letters in a but not in b=======')
-             a | b                              # letters in either a or b
-             print('=======letters in either a or b======')
-             a & b                              # letters in both a and b
-             print('=======letters in both a and b======')
-             a ^ b                              # letters in a or b but not both
-             print('======letters in a or b but not both=======')
+	    a = set('abracadabra')
+	    b = set('alacazam')
+	    print(a)                                  # unique letters in a
+	    print('======unique letters in a=====')
+	    a - b                              # letters in a but not in b
+	    print('======letters in a but not in b=======')
+	    a | b                              # letters in either a or b
+	    print('=======letters in either a or b======')
+	    a & b                              # letters in both a and b
+	    print('=======letters in both a and b======')
+	    a ^ b                              # letters in a or b but not both
+	    print('======letters in a or b but not both=======')
 
-	   #+END_SRC
+	  #+END_SRC
 
-	   #+RESULTS:
-	   #+begin_example
+	  #+RESULTS:
+	  #+begin_example
 
-	   >>> >>> >>> {'r', 'a', 'c', 'b', 'd'}
-	   ======unique letters in a=====
-	   {'r', 'b', 'd'}
-	   ======letters in a but not in b=======
-	   {'r', 'a', 'd', 'b', 'm', 'z', 'c', 'l'}
-	   =======letters in either a or b======
-	   {'a', 'c'}
-	   =======letters in both a and b======
-	   {'r', 'd', 'z', 'm', 'b', 'l'}
-	   ======letters in a or b but not both=======
- #+end_example
-	   #+NAME: set comprehensions
-	   #+BEGIN_SRC python :results output :session sets
-	   a = {x for x in 'abracadabra' if x not in 'abc'}
-	   print(a)
-	   #+END_SRC
+	  >>> >>> >>> {'r', 'a', 'c', 'b', 'd'}
+	  ======unique letters in a=====
+	  {'r', 'b', 'd'}
+	  ======letters in a but not in b=======
+	  {'r', 'a', 'd', 'b', 'm', 'z', 'c', 'l'}
+	  =======letters in either a or b======
+	  {'a', 'c'}
+	  =======letters in both a and b======
+	  {'r', 'd', 'z', 'm', 'b', 'l'}
+	  ======letters in a or b but not both=======
+#+end_example
+	  #+NAME: set comprehensions
+	  #+BEGIN_SRC python :results output :session sets
+	  a = {x for x in 'abracadabra' if x not in 'abc'}
+	  print(a)
+	  #+END_SRC
 
-	   #+RESULTS: set comprehensions
-	   : 
-	   : {'r', 'd'}
+	  #+RESULTS: set comprehensions
+	  : 
+	  : {'r', 'd'}
 
 ******* Dictionaries
 	#+BEGIN_QUOTE
@@ -6552,7 +6552,7 @@
 	: >>> ... ... >>> {'sape': 4139, 'guido': 4127, 'jack': 4098}
 
 ******* Looping Techniques
-	 #+BEGIN_SRC python :results output :session
+	#+BEGIN_SRC python :results output :session
            knights = {'gallahad': 'the pure', 'robin': 'the brave'}
            for k, v in knights.items():
                print(k, v)
@@ -6568,22 +6568,22 @@
            for q, a in zip(questions, answers):
                print('What is your {0}?  It is {1}.'.format(q, a))
 
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 : 
-	 : ... ... robin the brave
-	 : gallahad the pure
-	 : ... ... 0 tic
-	 : 1 tac
-	 : 2 toe
-	 : ... ... >>> >>> >>> ... ... What is your name?  It is lancelot.
-	 : What is your quest?  It is the holy grail.
-	 : What is your favorite color?  It is blue.
+	#+RESULTS:
+	: 
+	: ... ... robin the brave
+	: gallahad the pure
+	: ... ... 0 tic
+	: 1 tac
+	: 2 toe
+	: ... ... >>> >>> >>> ... ... What is your name?  It is lancelot.
+	: What is your quest?  It is the holy grail.
+	: What is your favorite color?  It is blue.
 
-	 Sometimes it is tempting to iterate some sequences in their reverse
-	 order:
-	 #+BEGIN_SRC python :results output :session
+	Sometimes it is tempting to iterate some sequences in their reverse
+	order:
+	#+BEGIN_SRC python :results output :session
 
            for i in reversed(range(1, 10, 2)):
                print(i)
@@ -6595,21 +6595,21 @@
            for f in sorted(set(basket)):
                print(f)
 
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 #+begin_example
+	#+RESULTS:
+	#+begin_example
 
-	 ... ... 9
-	 7
-	 5
-	 3
-	 1
-	 ... ... >>> >>> ... ... apple
-	 banana
-	 orange
-	 pear
- #+end_example
+	... ... 9
+	7
+	5
+	3
+	1
+	... ... >>> >>> ... ... apple
+	banana
+	orange
+	pear
+#+end_example
 
 ******* More on Conditions
 	#+BEGIN_SRC python :results output :session
@@ -6700,15 +6700,15 @@
 	 three named submodules of the "sound" package.
 
 ******** Intra-package References
-	    from . import echo
-	    from .. import formats
-	    from ..filters import equalizer
+	 from . import echo
+	 from .. import formats
+	 from ..filters import equalizer
 
 ******** Packages in Multiple Directories
 	 ##
 ****** Input and Output
 ******* Fancier Output Formatting
-	 #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
            for x in range(1, 11):
                print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
 
@@ -6716,9 +6716,9 @@
                print(repr(x).rjust(2), repr(x*x).rjust(3), end=' ')
                # Note use of 'end' on previous line
                print(repr(x*x*x).rjust(4))
-	 #+END_SRC
+	#+END_SRC
 
-	 #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
            # Basic usage of the "str.format()" method looks like this:
            print('We are the {} who say "{}!"'.format('knights', 'Ni'))
            print('=============')
@@ -6785,33 +6785,33 @@
 
            # This is particularly useful in combination with the built-in function
            # "vars()", which returns a dictionary containing all local variables.
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 #+begin_example
-	 We are the knights who say "Ni!"
-	 =============
-	 spam and eggs
-	 eggs and spam
-	 =============
-	 This spam is absolutely horrible.
-	 =============
-	 The story of Bill, Manfred, and Georg.
-	 =============
-	 The value of PI is approximately 3.141592653589793.
-	 The value of PI is approximately 3.141592653589793.
-	 =============
-	 The value of PI is approximately 3.142.
-	 =============
-	 Jack       ==>       4098
-	 Sjoerd     ==>       4127
-	 Dcab       ==>       7678
-	 =============
-	 Jack: 4098; Sjoerd: 4127; Dcab: 8637678
-	 =============
-	 Jack: 4098; Sjoerd: 4127; Dcab: 8637678
-	 =============
- #+end_example
+	#+RESULTS:
+	#+begin_example
+	We are the knights who say "Ni!"
+	=============
+	spam and eggs
+	eggs and spam
+	=============
+	This spam is absolutely horrible.
+	=============
+	The story of Bill, Manfred, and Georg.
+	=============
+	The value of PI is approximately 3.141592653589793.
+	The value of PI is approximately 3.141592653589793.
+	=============
+	The value of PI is approximately 3.142.
+	=============
+	Jack       ==>       4098
+	Sjoerd     ==>       4127
+	Dcab       ==>       7678
+	=============
+	Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+	=============
+	Jack: 4098; Sjoerd: 4127; Dcab: 8637678
+	=============
+#+end_example
 
 ******** Old string formatting
 	 The "%" operator can also be used for string formatting.
@@ -6966,17 +6966,17 @@
 	: __main__.MyError: 'oops!'
 
 ******* Defining Clean-up Actions
-	 #+BEGIN_QUOTE
-	 A ~finally~ clause is always executed before leaving the "try"
-	 statement, whether an exception has occurred or not. When an exception
-	 has occurred in the "try" clause and has not been handled by an
-	 "except" clause (or it has occurred in an "except" or "else" clause),
-	 it is re-raised after the "finally" clause has been executed.  The
-	 "finally" clause is also executed "on the way out" when any other
-	 clause of the "try" statement is left via a "break", "continue" or
-	 "return" statement.
-	 #+END_QUOTE
-	 #+BEGIN_SRC python :results output :session exeptions
+	#+BEGIN_QUOTE
+	A ~finally~ clause is always executed before leaving the "try"
+	statement, whether an exception has occurred or not. When an exception
+	has occurred in the "try" clause and has not been handled by an
+	"except" clause (or it has occurred in an "except" or "else" clause),
+	it is re-raised after the "finally" clause has been executed.  The
+	"finally" clause is also executed "on the way out" when any other
+	clause of the "try" statement is left via a "break", "continue" or
+	"return" statement.
+	#+END_QUOTE
+	#+BEGIN_SRC python :results output :session exeptions
            def divide(x, y):
                try:
                    result = x / y
@@ -6992,27 +6992,27 @@
            divide(2, 0)
            print('=============')
            divide("2", "1")
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 #+begin_example
+	#+RESULTS:
+	#+begin_example
 
-	 ... ... ... ... ... ... ... ... >>> result is 2.0
-	 executing finally clause
-	 =============
-	 division by zero!
-	 executing finally clause
-	 =============
-	 executing finally clause
-	 Traceback (most recent call last):
-	   File "<stdin>", line 1, in <module>
-	   File "<stdin>", line 3, in divide
-	 TypeError: unsupported operand type(s) for /: 'str' and 'str'
- #+end_example
+	... ... ... ... ... ... ... ... >>> result is 2.0
+	executing finally clause
+	=============
+	division by zero!
+	executing finally clause
+	=============
+	executing finally clause
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	  File "<stdin>", line 3, in divide
+	TypeError: unsupported operand type(s) for /: 'str' and 'str'
+#+end_example
 
-	 In real world applications, the "finally" clause is useful for
-	 releasing external resources (such as files or network connections),
-	 regardless of whether the use of the resource was successful.
+	In real world applications, the "finally" clause is useful for
+	releasing external resources (such as files or network connections),
+	regardless of whether the use of the resource was successful.
 
 ******* Predefined Clean-up Actions
 	#+BEGIN_QUOTE
@@ -7258,7 +7258,7 @@
 ******* Exceptions Are Classes Too
 
 ******* Iterators
-	 #+BEGIN_SRC python :session classes
+	#+BEGIN_SRC python :session classes
            #
            for element in [1, 2, 3]: print(element)
            for element in (1, 2, 3):
@@ -7273,10 +7273,10 @@
            # for line in open("myfile.txt"):
            #     print(line, end='')
 
-	 #+END_SRC
+	#+END_SRC
 
-	 Behind the scenes:
-	 #+BEGIN_SRC python :results output :session classes
+	Behind the scenes:
+	#+BEGIN_SRC python :results output :session classes
            s = 'abc'
            it = iter(s)
            it
@@ -7289,30 +7289,30 @@
            print('=============')
            next(it)
 
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 #+begin_example
+	#+RESULTS:
+	#+begin_example
 
-	 >>> <str_iterator object at 0x7f6883dd6ac8>
-	 =============
-	 'a'
-	 =============
-	 'b'
-	 =============
-	 'c'
-	 =============
-	 Traceback (most recent call last):
-	   File "<stdin>", line 1, in <module>
-	 StopIteration
- #+end_example
+	>>> <str_iterator object at 0x7f6883dd6ac8>
+	=============
+	'a'
+	=============
+	'b'
+	=============
+	'c'
+	=============
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	StopIteration
+#+end_example
 
-	 Having seen the mechanics behind the iterator protocol, it is easy to
-	 add iterator behavior to your classes.  Define an "__iter__()" method
-	 which returns an object with a "__next__()" method.  If the class
-	 defines "__next__()", then "__iter__()" can just return "self":
+	Having seen the mechanics behind the iterator protocol, it is easy to
+	add iterator behavior to your classes.  Define an "__iter__()" method
+	which returns an object with a "__next__()" method.  If the class
+	defines "__next__()", then "__iter__()" can just return "self":
 	
-	 #+BEGIN_SRC python :results output :session classes
+	#+BEGIN_SRC python :results output :session classes
            class Reverse:
                """Iterator for looping over a sequence backwards."""
                def __init__(self, data):
@@ -7331,16 +7331,16 @@
            iter(rev)
            for char in rev:
                print(char)
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 : 
-	 : ... ... ... ... ... ... ... ... ... ... ... >>> >>>
-	 : <__main__.Reverse object at 0x7f6883dd6e48>
-	 : ... ... m
-	 : a
-	 : p
-	 : s
+	#+RESULTS:
+	: 
+	: ... ... ... ... ... ... ... ... ... ... ... >>> >>>
+	: <__main__.Reverse object at 0x7f6883dd6e48>
+	: ... ... m
+	: a
+	: p
+	: s
 
 ******* Generators
 	#+BEGIN_SRC python :results output :session classes
@@ -7613,12 +7613,12 @@
 
 ******* Quality Control                                    :doctest:unittest:
 	#+BEGIN_QUOTE
-		The =doctest= module provides a tool for scanning a module and
-		validating tests embedded in a program's docstrings.  Test
-		construction is as simple as cutting-and-pasting a typical call along
-		with its results into the docstring. This improves the documentation
-		by providing the user with an example and it allows the doctest module
-		to make sure the code remains true to the documentation:
+	The =doctest= module provides a tool for scanning a module and
+	validating tests embedded in a program's docstrings.  Test
+	construction is as simple as cutting-and-pasting a typical call along
+	with its results into the docstring. This improves the documentation
+	by providing the user with an example and it allows the doctest module
+	to make sure the code remains true to the documentation:
 	#+END_QUOTE
 	
 	#+BEGIN_SRC python :results output :session stdlib
@@ -7997,7 +7997,7 @@
 ******* Introduction
 ******* Creating Virtual Environments
 ******* Managing Packages with pip                                :pip:shell:
-	 #+BEGIN_SRC shell :results output
+	#+BEGIN_SRC shell :results output
            echo
              echo "It's pip list there"
              pip list
@@ -8009,67 +8009,67 @@
 	     echo
 	     echo 'Git status there >>'
              git status
-	 #+END_SRC
+	#+END_SRC
 
-	 #+RESULTS:
-	 #+begin_example
+	#+RESULTS:
+	#+begin_example
 
-	 It's pip list there
-	 autopep8 (1.2.1)
-	 decorator (4.0.6)
-	 ipython (4.0.3)
-	 ipython-genutils (0.1.0)
-	 path.py (8.1.2)
-	 pep8 (1.7.0)
-	 pexpect (4.0.1)
-	 pickleshare (0.6)
-	 pip (8.0.2)
-	 ptyprocess (0.5)
-	 setuptools (12.0.5)
-	 simplegeneric (0.8.1)
-	 traitlets (4.1.0)
+	It's pip list there
+	autopep8 (1.2.1)
+	decorator (4.0.6)
+	ipython (4.0.3)
+	ipython-genutils (0.1.0)
+	path.py (8.1.2)
+	pep8 (1.7.0)
+	pexpect (4.0.1)
+	pickleshare (0.6)
+	pip (8.0.2)
+	ptyprocess (0.5)
+	setuptools (12.0.5)
+	simplegeneric (0.8.1)
+	traitlets (4.1.0)
 
-	 Autopep properties:
-	 ---
-	 Metadata-Version: 1.1
-	 Name: autopep8
-	 Version: 1.2.1
-	 Summary: A tool that automatically formats Python code to conform to the PEP 8 style guide
-	 Home-page: https://github.com/hhatto/autopep8
-	 Author: Hideo Hattori
-	 Author-email: hhatto.jp@gmail.com
-	 License: Expat License
-	 Location: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages
-	 Requires: pep8
-	 Entry-points:
-	   [console_scripts]
-	   autopep8 = autopep8:main
+	Autopep properties:
+	---
+	Metadata-Version: 1.1
+	Name: autopep8
+	Version: 1.2.1
+	Summary: A tool that automatically formats Python code to conform to the PEP 8 style guide
+	Home-page: https://github.com/hhatto/autopep8
+	Author: Hideo Hattori
+	Author-email: hhatto.jp@gmail.com
+	License: Expat License
+	Location: /home/antony/Desktop/DVCS/lib/Python/venv/lib/python3.4/site-packages
+	Requires: pep8
+	Entry-points:
+	  [console_scripts]
+	  autopep8 = autopep8:main
 
 
-	 Git status there >>
-	 On branch master
-	 Your branch is ahead of 'origin/master' by 6 commits.
-	   (use "git push" to publish your local commits)
-	 Changes not staged for commit:
-	   (use "git add <file>..." to update what will be committed)
-	   (use "git checkout -- <file>..." to discard changes in working directory)
+	Git status there >>
+	On branch master
+	Your branch is ahead of 'origin/master' by 6 commits.
+	  (use "git push" to publish your local commits)
+	Changes not staged for commit:
+	  (use "git add <file>..." to update what will be committed)
+	  (use "git checkout -- <file>..." to discard changes in working directory)
 
-		 modified:   motto.org
+		modified:   motto.org
 
-	 no changes added to commit (use "git add" and/or "git commit -a")
- #+end_example
+	no changes added to commit (use "git add" and/or "git commit -a")
+#+end_example
 
-	 #+BEGIN_EXAMPLE
-	 pip freeze > requirements.txt
-	 #+END_EXAMPLE
+	#+BEGIN_EXAMPLE
+	pip freeze > requirements.txt
+	#+END_EXAMPLE
 
-	 The "requirements.txt" can then be committed to version control and
-	 shipped as part of an application.  Users can then install all the
-	 necessary packages with "install -r":
+	The "requirements.txt" can then be committed to version control and
+	shipped as part of an application.  Users can then install all the
+	necessary packages with "install -r":
 
-	 #+BEGIN_EXAMPLE
-	 pip install -r requirements.txt
-	 #+END_EXAMPLE
+	#+BEGIN_EXAMPLE
+	pip install -r requirements.txt
+	#+END_EXAMPLE
 
 ****** Interactive Input Editing and History Substitution
 ******* Tab Completion and History Editing
@@ -8141,18 +8141,18 @@
 
        #+END_SRC
 
-	 #+BEGIN_SRC python :results output :session biult-in
+       #+BEGIN_SRC python :results output :session biult-in
            help('all')
-	 #+END_SRC
+       #+END_SRC
 
-	 #+RESULTS:
-	 : Help on built-in function all in module builtins:
-	 : 
-	 : all(...)
-	 :     all(iterable) -> bool
-	 :     
-	 :     Return True if bool(x) is True for all values x in the iterable.
-	 :     If the iterable is empty, return True.
+       #+RESULTS:
+       : Help on built-in function all in module builtins:
+       : 
+       : all(...)
+       :     all(iterable) -> bool
+       :     
+       :     Return True if bool(x) is True for all values x in the iterable.
+       :     If the iterable is empty, return True.
 
 
 ****** 3. Built-in Constants
@@ -8343,11 +8343,11 @@
 
 ******* 10.1. itertools — Functions creating iterators for efficient
 
-     looping 
+	looping 
 
 ******* 10.2. functools — Higher-order functions and operations on
 
-     callable objects 
+	callable objects 
 
 ******* 10.3. operator — Standard operators as functions 
 
@@ -8431,7 +8431,7 @@
 
 ******* 16.4. argparse — Parser for command-line options, arguments and
 
-     sub-commands 
+	sub-commands 
 
 ******* 16.5. getopt — C-style parser for command line options 
 
@@ -8453,7 +8453,7 @@
 
 ******* 16.14. platform — Access to underlying platform’s identifying
 
-     data 
+	data 
 
 ******* 16.15. errno — Standard errno system symbols 
 
@@ -8477,7 +8477,7 @@
 
 ******* 17.8. dummy_threading — Drop-in replacement for the threading
 
-     module 
+	module 
 
 ******* 17.9. _thread — Low-level threading API 
 
@@ -8495,7 +8495,7 @@
 
 ******* 18.5. asyncio – Asynchronous I/O, event loop, coroutines and
 
-     tasks 
+	tasks 
 
 ******* 18.6. asyncore — Asynchronous socket handler 
 
@@ -8713,7 +8713,7 @@
 
 ******* 29.2. sysconfig — Provide access to Python’s configuration
 
-     information 
+	information 
 
 ******* 29.3. builtins — Built-in objects 
 
@@ -8847,7 +8847,7 @@
 ******** Drop support for Python 2.6 and older
 
 ******** Make sure you specify the proper version support in your
-            "setup.py" file
+         "setup.py" file
 
 ******** Have good test coverage
 
@@ -9391,7 +9391,7 @@
 ******** Using LoggerAdapters to impart contextual information
 
 ********* Using objects other than dicts to pass contextual
-              information
+          information
 
 ******** Using Filters to impart contextual information
 
@@ -9700,14 +9700,14 @@
 ******** Symbolic default values
 
 ******** Renaming the C functions and variables generated by Argument
-            Clinic
+         Clinic
 
 ******** Converting functions using PyArg_UnpackTuple
 
 ******** Optional Groups
 
 ******** Using real Argument Clinic converters, instead of "legacy
-            converters"
+         converters"
 
 ******** Py_buffer
 
@@ -9854,7 +9854,7 @@
       : 0.30000000000000004
       : 0.7
 
- #+end_example
+      #+end_example
 
 **** Python for Data Analyse                                   :data:analyse:
 ***** Preliminaries
@@ -9953,7 +9953,7 @@
 ***** Beyond Basic Function
 ****** Function Review
 ****** Callable Instances                                     :socket:timeit:
-	#+BEGIN_SRC python :results output :session functions
+       #+BEGIN_SRC python :results output :session functions
           import socket
 
 
@@ -9973,19 +9973,19 @@
           print('=============')
           resolver('sixty-north.com')
           resolver._cache
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	: 
-	: >>> >>> >>> >>> >>> ... ... ... ... ... ... ... ... >>> >>> '208.73.211.70'
-	: =============
-	: {'north-west.com': '208.73.211.70'}
-	: =============
-	: '93.93.131.30'
-	: {'north-west.com': '208.73.211.70', 'sixty-north.com': '93.93.131.30'}
+       #+RESULTS:
+       : 
+       : >>> >>> >>> >>> >>> ... ... ... ... ... ... ... ... >>> >>> '208.73.211.70'
+       : =============
+       : {'north-west.com': '208.73.211.70'}
+       : =============
+       : '93.93.131.30'
+       : {'north-west.com': '208.73.211.70', 'sixty-north.com': '93.93.131.30'}
 
-	And check up how cache works:
-	#+BEGIN_SRC python :results output :session functions
+       And check up how cache works:
+       #+BEGIN_SRC python :results output :session functions
           from timeit import timeit
           timeit(setup="from __main__ import resolver", 
                  stmt="resolver('python.org')", number=1)
@@ -9995,15 +9995,15 @@
           print('=============')
           # normalize output
           print("{:f}".format(_))
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	: 
-	: ... 0.0024511199999324162
-	: =============
-	: ... 7.520000053773401e-06
-	: =============
-	: ... 0.000008
+       #+RESULTS:
+       : 
+       : ... 0.0024511199999324162
+       : =============
+       : ... 7.520000053773401e-06
+       : =============
+       : ... 0.000008
 
 ****** Classes Are Callable
        #+BEGIN_SRC python :results output :session functions
@@ -10083,7 +10083,7 @@
        : <class 'list'>
 
 ****** Lambdas                                                       :pprint:
-	#+BEGIN_SRC python :results output :session functions
+       #+BEGIN_SRC python :results output :session functions
           from pprint import pprint as pp
 
           scientists = ['Marie Curie', 'Albert Einstein', 'Niels Bohr', 'Isaac Newton',
@@ -10095,49 +10095,49 @@
           last_name
           print('=============')
           print(last_name("Nikola Tesla"))
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	>>> ... ... >>> ['Niels Bohr',
-	 'Marie Curie',
-	 'Charles Darwin',
-	 'Albert Einstein',
-	 'Antoine Lavoisier',
-	 'Carl Linnaeus',
-	 'Dmitri Mendeleev',
-	 'Isaac Newton',
-	 'Alfred Wegener']
-	=============
-	>>> <function <lambda> at 0x7fb1eab84730>
-	=============
-	Tesla
- #+end_example
+       >>> ... ... >>> ['Niels Bohr',
+	'Marie Curie',
+	'Charles Darwin',
+	'Albert Einstein',
+	'Antoine Lavoisier',
+	'Carl Linnaeus',
+	'Dmitri Mendeleev',
+	'Isaac Newton',
+	'Alfred Wegener']
+       =============
+       >>> <function <lambda> at 0x7fb1eab84730>
+       =============
+       Tesla
+#+end_example
 
-	| Function                              | Lambda                             |
-	|---------------------------------------+------------------------------------|
-	| statement which defines a function    | expression which evaluates to      |
-	| and binds it to a name                | a function                         |
-	|---------------------------------------+------------------------------------|
-	| Must have a name                      | Anonymous                          |
-	|---------------------------------------+------------------------------------|
-	| Arguments delimited by parentheses,   | Argument list terminated by colon  |
-	| separated by commas                   | separated by commas                |
-	|---------------------------------------+------------------------------------|
-	| Zero or more arguments supported -    | Zero or more arguments supported - |
-	| zero arguments => empty parentheses   | zero arguments => lambda:          |
-	|---------------------------------------+------------------------------------|
-	| Body is intended block of statements  | Body is a single expression        |
-	|---------------------------------------+------------------------------------|
-	| A return statement required to return | The return value is given by the   |
-	| anything other than None              | body expression. No return         |
-	|                                       | statement is permitted.            |
-	|---------------------------------------+------------------------------------|
-	| Regular functions can have docstrings | Lambdas cannot have docstrings     |
+       | Function                              | Lambda                             |
+       |---------------------------------------+------------------------------------|
+       | statement which defines a function    | expression which evaluates to      |
+       | and binds it to a name                | a function                         |
+       |---------------------------------------+------------------------------------|
+       | Must have a name                      | Anonymous                          |
+       |---------------------------------------+------------------------------------|
+       | Arguments delimited by parentheses,   | Argument list terminated by colon  |
+       | separated by commas                   | separated by commas                |
+       |---------------------------------------+------------------------------------|
+       | Zero or more arguments supported -    | Zero or more arguments supported - |
+       | zero arguments => empty parentheses   | zero arguments => lambda:          |
+       |---------------------------------------+------------------------------------|
+       | Body is intended block of statements  | Body is a single expression        |
+       |---------------------------------------+------------------------------------|
+       | A return statement required to return | The return value is given by the   |
+       | anything other than None              | body expression. No return         |
+       |                                       | statement is permitted.            |
+       |---------------------------------------+------------------------------------|
+       | Regular functions can have docstrings | Lambdas cannot have docstrings     |
      
 ****** Detecting Callable Objects
-	#+BEGIN_SRC python :results output :session functions
+       #+BEGIN_SRC python :results output :session functions
           def is_even(x):
               return x % 2 == 0
 
@@ -10157,25 +10157,25 @@
           callable(call_me)
           print('=============')
           callable("This is not callable")
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	... >>> >>> True
-	=============
-	>>> True
-	=============
-	True
-	True
-	... ... ... >>> >>> True
-	=============
-	False
- #+end_example
+       ... >>> >>> True
+       =============
+       >>> True
+       =============
+       True
+       True
+       ... ... ... >>> >>> True
+       =============
+       False
+#+end_example
 
 ****** Extended Formal Argument Syntax
-	Passing arbitrary number of arguments to particular function:
-	#+BEGIN_SRC python :results output :session functions
+       Passing arbitrary number of arguments to particular function:
+       #+BEGIN_SRC python :results output :session functions
           def hipervolume(*args):
               print(args)
               print(type(args))
@@ -10183,17 +10183,17 @@
           hipervolume(3, 4)
           print('=============')
           hipervolume(5, 6, 7)
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	: 
-	: >>> >>> ... ... ... >>> (3, 4)
-	: <class 'tuple'>
-	: =============
-	: (5, 6, 7)
-	: <class 'tuple'>
-	Iterate these arguments:
-	#+BEGIN_SRC python :results output :session functions
+       #+RESULTS:
+       : 
+       : >>> >>> ... ... ... >>> (3, 4)
+       : <class 'tuple'>
+       : =============
+       : (5, 6, 7)
+       : <class 'tuple'>
+       Iterate these arguments:
+       #+BEGIN_SRC python :results output :session functions
           def hypervolume(*lenghts):
               i = iter(lenghts)
               v = next(i)  # first arg
@@ -10207,24 +10207,24 @@
           print(hypervolume(1))
           print('=============')
           print(hypervolume())
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	... ... ... ... ... >>> 8
-	=============
-	384
-	1
-	=============
-	Traceback (most recent call last):
-	  File "<stdin>", line 1, in <module>
-	  File "<stdin>", line 3, in hypervolume
-	StopIteration
- #+end_example
+       ... ... ... ... ... >>> 8
+       =============
+       384
+       1
+       =============
+       Traceback (most recent call last):
+	 File "<stdin>", line 1, in <module>
+	 File "<stdin>", line 3, in hypervolume
+       StopIteration
+#+end_example
 
-	Passing dictionary as argument:
-	#+BEGIN_SRC python :results output :session functions
+       Passing dictionary as argument:
+       #+BEGIN_SRC python :results output :session functions
           def tag(name, **kwargs):
               print(name)
               print(kwargs)
@@ -10242,15 +10242,15 @@
               return result
 
           print(tag('img', src="monet.jpg", alt="Sunrise by Claude Monet", border=1))
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	: 
-	: ... ... ... >>> img
-	: {'border': 1, 'src': 'monet.jpg', 'alt': 'Sunrise by Claude Monet'}
-	: <class 'dict'>
-	: =============
-	: ... >>> ... ... ... ... ... ... >>> <img border="1" src="monet.jpg" alt="Sunrise by Claude Monet">
+       #+RESULTS:
+       : 
+       : ... ... ... >>> img
+       : {'border': 1, 'src': 'monet.jpg', 'alt': 'Sunrise by Claude Monet'}
+       : <class 'dict'>
+       : =============
+       : ... >>> ... ... ... ... ... ... >>> <img border="1" src="monet.jpg" alt="Sunrise by Claude Monet">
 
 ****** Extended Call Syntax
        Usually it is solved as:
@@ -10634,7 +10634,7 @@
        : >>> 2
 
 ****** Instances as Decorators
-	#+BEGIN_SRC python :results output :session deco
+       #+BEGIN_SRC python :results output :session deco
           class Trace:
               def __init__(self):
                   self.enabled = True
@@ -10666,25 +10666,25 @@
           l
           l = rotate_list(l)
           l
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	... ... ... ... ... ... ... ... >>> >>> >>> ... ... ... >>>
-	>>> Calling <function rotate_list at 0x7f8ec11c9c80>
-	[2, 3, 1]
-	Calling <function rotate_list at 0x7f8ec11c9c80>
-	[3, 1, 2]
-	Calling <function rotate_list at 0x7f8ec11c9c80>
-	[1, 2, 3]
-	>>> >>> [2, 3, 1]
-	>>> [3, 1, 2]
-	>>> [1, 2, 3]
- #+end_example
+       ... ... ... ... ... ... ... ... >>> >>> >>> ... ... ... >>>
+       >>> Calling <function rotate_list at 0x7f8ec11c9c80>
+       [2, 3, 1]
+       Calling <function rotate_list at 0x7f8ec11c9c80>
+       [3, 1, 2]
+       Calling <function rotate_list at 0x7f8ec11c9c80>
+       [1, 2, 3]
+       >>> >>> [2, 3, 1]
+       >>> [3, 1, 2]
+       >>> [1, 2, 3]
+#+end_example
 
 ****** Multiple Decorators
-	#+BEGIN_SRC python :results output :session deco
+       #+BEGIN_SRC python :results output :session deco
           def deco1(f):
               def new_f1():
                   print("Entering", f.__name__)
@@ -10716,24 +10716,24 @@
           func1()
           print(func1.__name__)
 
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... >>>
-	Entering new_f2
-	Entering new_f3
-	Entering func1
-	inside func1()
-	Exited func1
-	Exited new_f3
-	Exited new_f2
-	new_f1
- #+end_example
+       ... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... ... >>> ... ... ... ... ... >>>
+       Entering new_f2
+       Entering new_f3
+       Entering func1
+       inside func1()
+       Exited func1
+       Exited new_f3
+       Exited new_f2
+       new_f1
+#+end_example
 
-	Another approach:
-	#+BEGIN_SRC python :results output :session deco
+       Another approach:
+       #+BEGIN_SRC python :results output :session deco
           def p_decorate(func):
               def func_wrapper(name):
                   return "<p>{0}</p>".format(func(name))
@@ -10758,12 +10758,12 @@
           print('\n')
           print(get_text("Ahab"))
 
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	: 
-	: ... ... ... >>> ... ... ... ... >>> ... ... ... ... >>> ... ... ... ... ... >>>
-	: <div><p><strong>lorem ipsum, Ahab dolor sit amet</strong></p></div>
+       #+RESULTS:
+       : 
+       : ... ... ... >>> ... ... ... ... >>> ... ... ... ... >>> ... ... ... ... ... >>>
+       : <div><p><strong>lorem ipsum, Ahab dolor sit amet</strong></p></div>
 
 ****** Decorating Methods
        #+BEGIN_SRC python :results output :session deco
@@ -11243,7 +11243,7 @@
        : 100
 
 ****** Working With Class And Instance Data
-	#+BEGIN_SRC python :results output :session oop
+       #+BEGIN_SRC python :results output :session oop
           class YourClass(object):
               class_val = 'classy'
 
@@ -11266,99 +11266,99 @@
               print(dd.class_val)
           else:
               print('Class value was deleted successfully')
-	#+END_SRC
+       #+END_SRC
 
-	#+RESULTS:
-	#+begin_example
+       #+RESULTS:
+       #+begin_example
 
-	... >>> >>>
-	classy
-	>>>
-	re-assigned
+       ... >>> >>>
+       classy
+       >>>
+       re-assigned
 
-	classy
-	... ... ... Class attribute impossible to delete
+       classy
+       ... ... ... Class attribute impossible to delete
 
-	... ... ... ... classy
- #+end_example
+       ... ... ... ... classy
+#+end_example
 
-	#+BEGIN_QUOTE
-	Class attributes vs instance attributes
+       #+BEGIN_QUOTE
+       Class attributes vs instance attributes
 
-	- _Attributes_ / _variables_ in the class are accessible through the
-	  instance
-	- Instance attributes are also accessible by the instance
-	- When we use the syntax /object.attribute/, we're asking Python
-	  to look up the attribute:
-	  - first in the instance
-	  - Then in the class
-	- Method calls through the instance follow this look-up.
-	#+END_QUOTE
+       - _Attributes_ / _variables_ in the class are accessible through the
+	 instance
+       - Instance attributes are also accessible by the instance
+       - When we use the syntax /object.attribute/, we're asking Python
+	 to look up the attribute:
+	 - first in the instance
+	 - Then in the class
+       - Method calls through the instance follow this look-up.
+       #+END_QUOTE
 
-	6 points to understanding classes
+       6 points to understanding classes
 
-	- An instance of a class knows what class it's from
-	- Vars defined in the class are available to the instance
-	- A method on an instance passes /instance/ as the first
-	  argument to the method (named /self/ in method)
-	- Instances have their own data, called /instance attributes/
-	- Variables defined in the class are /class attributes/
-	- When we read an attribute, Python looks for it first in
-	  the instance, and then the class.
+       - An instance of a class knows what class it's from
+       - Vars defined in the class are available to the instance
+       - A method on an instance passes /instance/ as the first
+	 argument to the method (named /self/ in method)
+       - Instances have their own data, called /instance attributes/
+       - Variables defined in the class are /class attributes/
+       - When we read an attribute, Python looks for it first in
+	 the instance, and then the class.
 
-	  #+BEGIN_SRC python :results output :session oop
-            class InstanceCounter(object):
-		""" Example """
-		count = 0
-		def __init__(self, val):
-                    self.val = val
-                    InstanceCounter.count += 1
-		def set_val(self, newval):
-                    self.val = newval
-		def get_val(self):
-                    return self.val
-		def get_count(self):
-                    return InstanceCounter.count
+	 #+BEGIN_SRC python :results output :session oop
+	   class InstanceCounter(object):
+	       """ Example """
+	       count = 0
+	       def __init__(self, val):
+		   self.val = val
+		   InstanceCounter.count += 1
+	       def set_val(self, newval):
+		   self.val = newval
+	       def get_val(self):
+		   return self.val
+	       def get_count(self):
+		   return InstanceCounter.count
 
-            a = InstanceCounter(5)
-            b = InstanceCounter(13)
-            c = InstanceCounter(17)
+	   a = InstanceCounter(5)
+	   b = InstanceCounter(13)
+	   c = InstanceCounter(17)
 
-            for j in (a, b, c):
-		print('\n')
-		print("val of object: %s" % (j.get_val()))
-		print("count: %s" % (j.get_count()))
-		print("count from instance: %s" % (j.count))
-	  #+END_SRC
+	   for j in (a, b, c):
+	       print('\n')
+	       print("val of object: %s" % (j.get_val()))
+	       print("count: %s" % (j.get_count()))
+	       print("count from instance: %s" % (j.count))
+	 #+END_SRC
 
-	  #+RESULTS:
-	  #+begin_example
+	 #+RESULTS:
+	 #+begin_example
 
-	  ... ... ... ... ... ... ... ... ... ... ... >>> >>> >>> >>> >>> ... ... ... ... ... 
+	 ... ... ... ... ... ... ... ... ... ... ... >>> >>> >>> >>> >>> ... ... ... ... ... 
 
-	  val of object: 5
-	  count: 3
-	  count from instance: 3
-
-
-	  val of object: 13
-	  count: 3
-	  count from instance: 3
+	 val of object: 5
+	 count: 3
+	 count from instance: 3
 
 
-	  val of object: 17
-	  count: 3
-	  count from instance: 3
- #+end_example
+	 val of object: 13
+	 count: 3
+	 count from instance: 3
+
+
+	 val of object: 17
+	 count: 3
+	 count from instance: 3
+#+end_example
 
 ****** Assignment 1
 ****** Assignment 1 - Solution
 ***** Inheritance And Polymorphism
 ****** Inheriting Attributes
 ******* Object.attribute lookup hierarchy
-       - The instance
-       - The class
-       - Any class from which this class inherits
+	- The instance
+	- The class
+	- Any class from which this class inherits
 ******* Example
 	#+BEGIN_SRC python :results output
           class Date(object): # inherits from the 'object' class
@@ -11955,7 +11955,7 @@
 	#+RESULTS:
 	: Safe! No giant robots attacking
 ******* 1.1.2 Avoid repeating variable name in compound if statement
-       #+BEGIN_SRC python :results output
+	#+BEGIN_SRC python :results output
          is_generic_name = False
          name = 'Tom'
          if name == 'Tom' or name == 'Dick' or name == 'Harry':
@@ -11965,13 +11965,13 @@
          name = 'Tom'
          is_generic_name = name in ('Tom', 'Dick', 'Harry')
          print(is_generic_name)
-       #+END_SRC
+	#+END_SRC
 
-       #+RESULTS:
-       : True
+	#+RESULTS:
+	: True
 ******* 1.1.3 Avoid placing conditional branch code on the same line as
-       the colon
-       #+BEGIN_SRC python :results output
+	the colon
+	#+BEGIN_SRC python :results output
          name = 'Jeff'
          address = 'New York, NY'
          if name: print (name)
@@ -11980,13 +11980,13 @@
          if name:
              print (name)
          print (address)
-       #+END_SRC
+	#+END_SRC
 
-       #+RESULTS:
-       : Jeff
-       : New York, NY
-       : Jeff
-       : New York, NY
+	#+RESULTS:
+	: Jeff
+	: New York, NY
+	: Jeff
+	: New York, NY
 
 ****** 1.2 For loops       
 ******* 1.2.1 Use the enumerate function in loops instead of creating an “index” variable
@@ -12614,7 +12614,7 @@
 ******** Concrete product
 ******* Abstract factory examples
 ******** Pet shop
-           #+BEGIN_SRC python :results output
+         #+BEGIN_SRC python :results output
              class Dog(object):
                  """One of the objects to be returned"""
 
@@ -12664,12 +12664,12 @@
 
              # Invoke the utility method to show the details of our pet
              shop.show_pet()
-           #+END_SRC
+         #+END_SRC
 
-           #+RESULTS:
-           : Our pet is 'Dog'!
-           : Our pet says hello by 'Woof!'
-           : Its food is 'Dog Food!'!
+         #+RESULTS:
+         : Our pet is 'Dog'!
+         : Our pet says hello by 'Woof!'
+         : Its food is 'Dog Food!'!
 ******** Button
 	 #+BEGIN_SRC python :results output
            from __future__ import print_function
@@ -14684,10 +14684,10 @@
        insert A[i] into sorted array A[0:i-1]
        by pairwise swaps down to the correct position
 
-          _                   _                   _
+       _                   _                   _
        |5|2|4|6|1|3| ==> |2|5|4|6|1|3| ==> |2|4|5|6|1|3|
-         ^                   ^
-		_                      _
+       ^                   ^
+       _                      _
        |2|4|5|6|1|3| ==>  |1|2  |4|5|6|3| ==> |1|2|3|4|5|6|
        ^ ^ ^ ^ ^                ^ ^ ^ ^
 
@@ -14810,9 +14810,9 @@
 
       :-( actual insertion requires shifting --> O(n) time
 
-     #+CAPTION: Binary Search
-     #+ATTR_HTML: :alt Binary Search Tree :title A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn :align right
-     https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/200px-Binary_search_tree.svg.png
+      #+CAPTION: Binary Search
+      #+ATTR_HTML: :alt Binary Search Tree :title A binary search tree of size 9 and depth 3, with 8 at the root. The leaves are not drawn :align right
+      https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/200px-Binary_search_tree.svg.png
 
       _Binary Search Trees_
 
@@ -14825,24 +14825,24 @@
 
 ***** AVL trees, AVL sort
       From [[https://en.wikipedia.org/wiki/AVL_tree][Wikipedia]]
-     #+CAPTION: AVL Tree
-     #+ATTR_HTML: :alt AVL Tree :title AVL tree with balance factors (green) :align right
-     https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/AVL-tree-wBalance_K.svg/262px-AVL-tree-wBalance_K.svg.png
+      #+CAPTION: AVL Tree
+      #+ATTR_HTML: :alt AVL Tree :title AVL tree with balance factors (green) :align right
+      https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/AVL-tree-wBalance_K.svg/262px-AVL-tree-wBalance_K.svg.png
 
-     #+BEGIN_QUOTE
-     In computer science, an AVL tree is a self-balancing binary search tree.
-     It was the first such data structure to be invented. In an AVL tree,
-     the heights of the two child subtrees of any node differ by at most one;
-     if at any time they differ by more than one, rebalancing is done to
-     restore this property. Lookup, insertion, and deletion all take O(log n)
-     time in both the average and worst cases, where n is the number of nodes
-     in the tree prior to the operation. Insertions and deletions may require
-     the tree to be rebalanced by one or more tree rotations.
+      #+BEGIN_QUOTE
+      In computer science, an AVL tree is a self-balancing binary search tree.
+      It was the first such data structure to be invented. In an AVL tree,
+      the heights of the two child subtrees of any node differ by at most one;
+      if at any time they differ by more than one, rebalancing is done to
+      restore this property. Lookup, insertion, and deletion all take O(log n)
+      time in both the average and worst cases, where n is the number of nodes
+      in the tree prior to the operation. Insertions and deletions may require
+      the tree to be rebalanced by one or more tree rotations.
 
-     The AVL tree is named after its two Soviet inventors, Georgy
-     Adelson-Velsky and Evgenii Landis, who published it in their 1962 paper
-     "An algorithm for the organization of information".
-     #+END_QUOTE
+      The AVL tree is named after its two Soviet inventors, Georgy
+      Adelson-Velsky and Evgenii Landis, who published it in their 1962 paper
+      "An algorithm for the organization of information".
+      #+END_QUOTE
 
 
 ***** Counting sort, radix sort, lower bounds for sorting and searching
@@ -15002,26 +15002,26 @@
       *Test Suit*
       
 ****** Understand what to build
-	 + Collaborate with people in other roles to understand what's needed
-	   - Business analyst
-	   - Product owner
-	   - Tester
-	   - Integration designer
-	   - Lead developer
-       
+       + Collaborate with people in other roles to understand what's needed
+	 - Business analyst
+	 - Product owner
+	 - Tester
+	 - Integration designer
+	 - Lead developer
+
 ****** Document the units
-	 - /Executable specification/
-	   - Tests document the behavior of the code
-	   - How the unit is intended to be used
-       
+       - /Executable specification/
+	 - Tests document the behavior of the code
+	 - How the unit is intended to be used
+
 ****** Design the units
-	 - Decompose the problem into units that are independently testable
-	   - loose coupling
-	 - Design the ~interface~ separately from doing the ~implementation~
-       
+       - Decompose the problem into units that are independently testable
+	 - loose coupling
+       - Design the ~interface~ separately from doing the ~implementation~
+
 ****** Regression protection
-	 Regression - something worked before and doesn't any more
-	 - A Unit test should fail & point out which unit failed and why
+       Regression - something worked before and doesn't any more
+       - A Unit test should fail & point out which unit failed and why
 
 
 ****** Limitations of unit testing
@@ -15566,7 +15566,7 @@
 	average to use a 20-day period, then where are the places we need to
 	change? What is the possibility that we may miss one?
       - *Code duplication*: Both the conditionals seem almost the same, with a
-	 very minor difference.
+	very minor difference.
 
       All these problems are generally referred to as code smells. Code smells
       are simple patterns that can be easily spotted and refactored to make
