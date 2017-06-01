@@ -115,8 +115,11 @@
  '(Info-additional-directory-list
    (quote
     ("/usr/share/info/scrapy/" "/usr/share/info/python3.4/")))
- '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(org-confirm-babel-evaluate nil)
+ '(org-modules
+   (quote
+    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
  '(org-src-window-setup (quote other-frame))
  '(package-selected-packages
    (quote
