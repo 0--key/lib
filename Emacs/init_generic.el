@@ -34,6 +34,7 @@
 (require 'bookmark+)
 (require 'ereader)
 (require 'docker)
+(require 'org-drill)
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -53,6 +54,10 @@
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
 (define-key global-map "\C-cc" 'org-capture)
+
+(key-chord-define org-mode-map "DD"     'org-drill)
+(key-chord-define org-mode-map "AA"     'org-drill-again)
+(key-chord-define org-mode-map "RR"     'org-drill-resume)
 
  (setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
