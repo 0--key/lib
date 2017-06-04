@@ -1,166 +1,176 @@
 -*- coding: utf-8 -*-
-** Fri Apr 15 17:43:15 2016 (Title: What are the growth stages of a programmer?)
+* useful
 
-Title: What are the growth stages of a programmer?
-Date: Wed,  9 Dec 2015 04:24:55 UTC
-Feed: Top Answers About Computer Programmers on Quora
-Link: https://www.quora.com/Wha[...]mmer/answer/Nate-Waddoups
+** Fri Apr 15 17:43:15 2016
 
-Nate Waddoups
+   Title: What are the growth stages of a programmer?
+   Date: Wed,  9 Dec 2015 04:24:55 UTC
+   Feed: Top Answers About Computer Programmers on Quora
+   Link: https://www.quora.com/Wha[...]mmer/answer/Nate-Waddoups
 
-This first one is shamelessly stolen from a presentation I saw at
-Microsoft a few years ago:
+   Nate Waddoups
 
-1 Complex solutions to simple problems.
-2 Complex solutions to complex problems.
-3 Simple solutions to complex problems.
-4 Complex problems disappear
+   This first one is shamelessly stolen from a presentation I saw at
+   Microsoft a few years ago:
 
-Or, on another axis:
+   1 Complex solutions to simple problems.
+   2 Complex solutions to complex problems.
+   3 Simple solutions to complex problems.
+   4 Complex problems disappear
 
-1 You suck.
-2 You seek the advice of your teammates.
-3 Your teammates seek advice from you.
-4 People on other teams come to you for advice.
+   Or, on another axis:
 
-(Never forget that despite 3 and 4, item 1 is still true and item 2 is
-still a good idea.)
-Or, on another axis:
+   1 You suck.
+   2 You seek the advice of your teammates.
+   3 Your teammates seek advice from you.
+   4 People on other teams come to you for advice.
 
-1 Your can write code.
-2 You can understand your code.
-3 You can fix your code.
-4 You can understand other peoples' code.
-5 You can fix other peoples' code.
-6 You can understand and fix your own code even when you wrote it so
-  long ago that it might as well have been written by someone else.
+   (Never forget that despite 3 and 4, item 1 is still true and item 2 is
+   still a good idea.)
+   Or, on another axis:
 
-[Edited to add one more section...] 
-The following is all from a Wikipedia page about Four stages of
-competence. It is actually not about programming specifically, but it
-is a way to look at one's competence in any endeavor. I've found it
-interesting to look at all sorts of skills in these terms:
+   1 Your can write code.
+   2 You can understand your code.
+   3 You can fix your code.
+   4 You can understand other peoples' code.
+   5 You can fix other peoples' code.
+   6 You can understand and fix your own code even when you wrote it so
+   long ago that it might as well have been written by someone else.
 
-    1 Unconscious incompetence - The individual does not understand or
-      know how to do something and does not necessarily recognize the
-      deficit. They may deny the usefulness of the skill. The
-      individual must recognize their own incompetence, and the value
-      of the new skill, before moving on to the next stage. The length
-      of time an individual spends in this stage depends on the
-      strength of the stimulus to learn.
-    2 Conscious incompetence - Though the individual does not
-      understand or know how to do something, he or she does recognize
-      the deficit, as well as the value of a new skill in addressing
-      the deficit. The making of mistakes can be integral to the
-      learning process at this stage.
-    3 Conscious competence - The individual understands or knows how
-      to do something. However, demonstrating the skill or knowledge
-      requires concentration. It may be broken down into steps, and
-      there is heavy conscious involvement in executing the new skill.
-    4 Unconscious competence - The individual has had so much practice
-      with a skill that it has become "second nature" and can be
-      performed easily. As a result, the skill can be performed while
-      executing another task. The individual may be able to teach it
-      to others, depending upon how and when it was learned.
+   [Edited to add one more section...] 
+   The following is all from a Wikipedia page about Four stages of
+   competence. It is actually not about programming specifically, but it
+   is a way to look at one's competence in any endeavor. I've found it
+   interesting to look at all sorts of skills in these terms:
 
-See Questions On Quora
+   1 Unconscious incompetence - The individual does not understand or
+   know how to do something and does not necessarily recognize the
+   deficit. They may deny the usefulness of the skill. The
+   individual must recognize their own incompetence, and the value
+   of the new skill, before moving on to the next stage. The length
+   of time an individual spends in this stage depends on the
+   strength of the stimulus to learn.
+   2 Conscious incompetence - Though the individual does not
+   understand or know how to do something, he or she does recognize
+   the deficit, as well as the value of a new skill in addressing
+   the deficit. The making of mistakes can be integral to the
+   learning process at this stage.
+   3 Conscious competence - The individual understands or knows how
+   to do something. However, demonstrating the skill or knowledge
+   requires concentration. It may be broken down into steps, and
+   there is heavy conscious involvement in executing the new skill.
+   4 Unconscious competence - The individual has had so much practice
+   with a skill that it has become "second nature" and can be
+   performed easily. As a result, the skill can be performed while
+   executing another task. The individual may be able to teach it
+   to others, depending upon how and when it was learned.
 
-** reluctant, lameness, tatter, draught, faltering, barling, marline,
-   footsore, limp, hesitate, haggard, smear, plight, midst, attend,
-   detain, plausibility, noodle, adolescent, pallor, etiolate, arrears,
-   stratification, retard, ramification, aperture, shaft, obscene, flaxen,
-   masonry, vestige, hastily, cheerless, sombre, mingle, virtue, anemone,
-   slumber, apprehension, tumult, drove, expostulation, desolate, garland,
-   rubbing, mite, cramp, decadent, sepulture, exuberant, tether, vigil,
-   repugnance, hollow, sloth, groove, curb, begotten, stolid, cunning,
-   behoves, despair, desertion, misery, anguish, twig, frenzy, dismay,
-   mockery, leprous, faint, stirring, lash, lawn, birch, flit, cease, gibbous,
-   plausible, languor, hindrance, abundant, connubial, alliance, putrefaction,
-   spite, eddy, clumsy, tentative, weed, feeble, precocious, indolent,
-   interrogative, loath, merriment, edifice, startle, vain, stagger, preach,
-   spawn, contented, impetus, fret, toil, horticulture, wane, rotundity,
-   stinging, amidst, precipitous, queer, fatigue, indolent, staple, fracture,
-   dilapidated, stalk, fling, turf, merriment, bow, minikin, manikin, vengeance,
-   rage, disarm, venison, attune, ravage, sputter, compunction, distort, peculiar,
-   manifest, intertwine, apparel, influx, threshold, shabby, dilapidated,
-   contentious, subdue, virtue, conscience, qualm, ferocious, prowess,
-   sought, impediment, inept, ascribe, glib, lurch, anguish, vernacular,
-   overtly, counselor, delusion, unhinge, exasperation, irreconcilable,
-   fidget, affront, sincerity, compassion, congruous, dusk, drowsily,
-   silhouette, emerald, tremulous, desperate, fern, amble, respite,
-   conducive, earnest, seclude, indignant, vigilance, tamer, warble,
-   implacable, bargain, thoroughly, convinced, contemplate, pat, prance,
-   courtly, apparition, leek, hue, bogus, entirety, idiom, nominal, encompass,
-   futile, coupling, content, cram, impale, impel, hinge, supersede, expenditure,
-   inert, vomit, cohesive, longing, remnant, abomination, massacre, fogey,
-   dilemma, shed, scavenger, destine, stump, thrice, canopy, tatter, coil, fro,
-   elude, crippling, bewilderment, blundering, dazzle, fence, writhe, hawthorn,
-   scorch, tumulus, hillock, agape, incessant, stir, exultation, succulent,
-   thrust, cling, replenish, foliage, bonfire, carbuncle, scarcely, patter,
-   throb, folly, atrocious, insidious, irritable, feverish, calamity, embark,
-   upbringing, rig, grapple, proponent, avid, fervent, blaze, steatite, elate,
-   crowbar, sealed, wilderness, sombre, semblance, brute, slake, disinclination,
-   mace, whimper, aisle, abundant, hesitate, apprehension, diminution, startle,
-   attain, readjustment, desiccate, deliquesce, transverse, urchin, deaden,
-   vestige, dwelling, ram, contrivance, procure, contrive, scorn, rill, feeble,
-   pity, dainty, awaken, hazy, forthwith, sweep, unfathomable, splendid, yore,
-   acacia, caress, fatigue, preternatural, wither, fastness, villainy, foul,
-   wane, dread, malign, stagger, sustaining, thigh, gorge, ravine, persevere,
-   anguish, nausea, discordant, odour, frightful, faint, incontinently, abysmal,
-   aperture, slender, disconcerted, descent, shirk, tint, afield, pallid,
-   saliva, decent, deception, devastating, capsicum, wit, froth, broth, 
+   See Questions On Quora
+
+** reluctant,
+   lameness, tatter, draught, faltering, barling, marline, footsore,
+   limp, hesitate, haggard, smear, plight, midst, attend, detain,
+   plausibility, noodle, adolescent, pallor, etiolate, arrears,
+   stratification, retard, ramification, aperture, shaft, obscene,
+   flaxen, masonry, vestige, hastily, cheerless, sombre, mingle,
+   virtue, anemone, slumber, apprehension, tumult, drove,
+   expostulation, desolate, garland, rubbing, mite, cramp, decadent,
+   sepulture, exuberant, tether, vigil, repugnance, hollow, sloth,
+   groove, curb, begotten, stolid, cunning, behoves, despair,
+   desertion, misery, anguish, twig, frenzy, dismay, mockery, leprous,
+   faint, stirring, lash, lawn, birch, flit, cease, gibbous,
+   plausible, languor, hindrance, abundant, connubial, alliance,
+   putrefaction, spite, eddy, clumsy, tentative, weed, feeble,
+   precocious, indolent, interrogative, loath, merriment, edifice,
+   startle, vain, stagger, preach, spawn, contented, impetus, fret,
+   toil, horticulture, wane, rotundity, stinging, amidst, precipitous,
+   queer, fatigue, indolent, staple, fracture, dilapidated, stalk,
+   fling, turf, merriment, bow, minikin, manikin, vengeance, rage,
+   disarm, venison, attune, ravage, sputter, compunction, distort,
+   peculiar, manifest, intertwine, apparel, influx, threshold, shabby,
+   dilapidated, contentious, subdue, virtue, conscience, qualm,
+   ferocious, prowess, sought, impediment, inept, ascribe, glib,
+   lurch, anguish, vernacular, overtly, counselor, delusion, unhinge,
+   exasperation, irreconcilable, fidget, affront, sincerity,
+   compassion, congruous, dusk, drowsily, silhouette, emerald,
+   tremulous, desperate, fern, amble, respite, conducive, earnest,
+   seclude, indignant, vigilance, tamer, warble, implacable, bargain,
+   thoroughly, convinced, contemplate, pat, prance, courtly,
+   apparition, leek, hue, bogus, entirety, idiom, nominal, encompass,
+   futile, coupling, content, cram, impale, impel, hinge, supersede,
+   expenditure, inert, vomit, cohesive, longing, remnant, abomination,
+   massacre, fogey, dilemma, shed, scavenger, destine, stump, thrice,
+   canopy, tatter, coil, fro, elude, crippling, bewilderment,
+   blundering, dazzle, fence, writhe, hawthorn, scorch, tumulus,
+   hillock, agape, incessant, stir, exultation, succulent, thrust,
+   cling, replenish, foliage, bonfire, carbuncle, scarcely, patter,
+   throb, folly, atrocious, insidious, irritable, feverish, calamity,
+   embark, upbringing, rig, grapple, proponent, avid, fervent, blaze,
+   steatite, elate, crowbar, sealed, wilderness, sombre, semblance,
+   brute, slake, disinclination, mace, whimper, aisle, abundant,
+   hesitate, apprehension, diminution, startle, attain, readjustment,
+   desiccate, deliquesce, transverse, urchin, deaden, vestige,
+   dwelling, ram, contrivance, procure, contrive, scorn, rill, feeble,
+   pity, dainty, awaken, hazy, forthwith, sweep, unfathomable,
+   splendid, yore, acacia, caress, fatigue, preternatural, wither,
+   fastness, villainy, foul, wane, dread, malign, stagger, sustaining,
+   thigh, gorge, ravine, persevere, anguish, nausea, discordant,
+   odour, frightful, faint, incontinently, abysmal, aperture, slender,
+   disconcerted, descent, shirk, tint, afield, pallid, saliva, decent,
+   deception, devastating, capsicum, wit, froth, broth,
+
+** footsore,
+   limp, hesitate, haggard, smear, plight, midst, attend, detain,
+   plausibility, noodle, adolescent, pallor, etiolate, arrears,
+   stratification, retard, ramification, aperture, shaft, obscene,
+   flaxen, masonry, vestige, hastily, cheerless, sombre, mingle,
+   virtue, anemone, slumber, apprehension, tumult, drove,
+   expostulation, desolate, garland, rubbing, mite, cramp, decadent,
+   sepulture, exuberant, tether, vigil, repugnance, hollow, sloth,
+   groove, curb, begotten, stolid, cunning, behoves, despair,
+   desertion, misery, anguish, twig, frenzy, dismay, mockery, leprous,
+   faint, stirring, lash, lawn, birch, flit, cease, gibbous,
+   plausible, languor, hindrance, abundant, connubial, alliance,
+   putrefaction, spite, eddy, clumsy, tentative, weed, feeble,
+   precocious, indolent, interrogative, loath, merriment, edifice,
+   startle, vain, stagger, preach, spawn, contented, impetus, fret,
+   toil, horticulture, wane, rotundity, stinging, amidst, precipitous,
+   queer, fatigue, indolent, staple, fracture, dilapidated, stalk,
+   fling, turf, merriment, bow, minikin, manikin, vengeance, rage,
+   disarm, venison, attune, ravage, sputter, compunction, distort,
+   peculiar, manifest, intertwine, apparel, influx, threshold, shabby,
+   dilapidated, contentious, subdue, virtue, conscience, qualm,
+   ferocious, prowess, sought, impediment, inept, ascribe, glib,
+   lurch, anguish, vernacular, overtly, counselor, delusion, unhinge,
+   exasperation, irreconcilable, fidget, affront, sincerity,
+   compassion, congruous, dusk, drowsily, silhouette, emerald,
+   tremulous, desperate, fern, amble, respite, conducive, earnest,
+   seclude, indignant, vigilance, tamer, warble, implacable, bargain,
+   thoroughly, convinced, contemplate, pat, prance, courtly,
+   apparition, leek, hue, bogus, entirety, idiom, nominal, encompass,
+   futile, coupling, content, cram, impale, impel, hinge, supersede,
+   expenditure, inert, vomit, cohesive, longing, remnant, abomination,
+   massacre, fogey, dilemma, shed, scavenger, destine, stump, thrice,
+   canopy, tatter, coil, fro, elude, crippling, bewilderment,
+   blundering, dazzle, fence, writhe, hawthorn, scorch, tumulus,
+   hillock, agape, incessant, stir, exultation, succulent, thrust,
+   cling, replenish, foliage, bonfire, carbuncle, scarcely, patter,
+   throb, folly, atrocious, insidious, irritable, feverish, calamity,
+   embark, upbringing, rig, grapple, proponent, avid, fervent, blaze,
+   steatite, elate, crowbar, sealed, wilderness, sombre, semblance,
+   brute, slake, disinclination, mace, whimper, aisle, abundant,
+   hesitate, apprehension, diminution, startle, attain, readjustment,
+   desiccate, deliquesce, transverse, urchin, deaden, vestige,
+   dwelling, ram, contrivance, procure, contrive, scorn, rill, feeble,
+   pity, dainty, awaken, hazy, forthwith, sweep, unfathomable,
+   splendid, yore, acacia, caress, fatigue, preternatural, wither,
+   fastness, villainy, foul, wane, dread, malign, stagger, sustaining,
+   thigh, gorge, ravine, persevere, anguish, nausea, discordant,
+   odour, frightful, faint, incontinently, abysmal, aperture, slender,
+   disconcerted, descent, shirk, tint, afield, pallid, saliva, decent,
+   deception, devastating, capsicum, wit, froth, broth,
 
 
-
-**   footsore, limp, hesitate, haggard, smear, plight, midst, attend,
-  detain, plausibility, noodle, adolescent, pallor, etiolate, arrears,
-  stratification, retard, ramification, aperture, shaft, obscene,
-  flaxen, masonry, vestige, hastily, cheerless, sombre, mingle,
-  virtue, anemone, slumber, apprehension, tumult, drove,
-  expostulation, desolate, garland, rubbing, mite, cramp, decadent,
-  sepulture, exuberant, tether, vigil, repugnance, hollow, sloth,
-  groove, curb, begotten, stolid, cunning, behoves, despair,
-  desertion, misery, anguish, twig, frenzy, dismay, mockery, leprous,
-  faint, stirring, lash, lawn, birch, flit, cease, gibbous, plausible,
-  languor, hindrance, abundant, connubial, alliance, putrefaction,
-  spite, eddy, clumsy, tentative, weed, feeble, precocious, indolent,
-  interrogative, loath, merriment, edifice, startle, vain, stagger,
-  preach, spawn, contented, impetus, fret, toil, horticulture, wane,
-  rotundity, stinging, amidst, precipitous, queer, fatigue, indolent,
-  staple, fracture, dilapidated, stalk, fling, turf, merriment, bow,
-  minikin, manikin, vengeance, rage, disarm, venison, attune, ravage,
-  sputter, compunction, distort, peculiar, manifest, intertwine,
-  apparel, influx, threshold, shabby, dilapidated, contentious,
-  subdue, virtue, conscience, qualm, ferocious, prowess, sought,
-  impediment, inept, ascribe, glib, lurch, anguish, vernacular,
-  overtly, counselor, delusion, unhinge, exasperation, irreconcilable,
-  fidget, affront, sincerity, compassion, congruous, dusk, drowsily,
-  silhouette, emerald, tremulous, desperate, fern, amble, respite,
-  conducive, earnest, seclude, indignant, vigilance, tamer, warble,
-  implacable, bargain, thoroughly, convinced, contemplate, pat,
-  prance, courtly, apparition, leek, hue, bogus, entirety, idiom,
-  nominal, encompass, futile, coupling, content, cram, impale, impel,
-  hinge, supersede, expenditure, inert, vomit, cohesive, longing,
-  remnant, abomination, massacre, fogey, dilemma, shed, scavenger,
-  destine, stump, thrice, canopy, tatter, coil, fro, elude, crippling,
-  bewilderment, blundering, dazzle, fence, writhe, hawthorn, scorch,
-  tumulus, hillock, agape, incessant, stir, exultation, succulent,
-  thrust, cling, replenish, foliage, bonfire, carbuncle, scarcely,
-  patter, throb, folly, atrocious, insidious, irritable, feverish,
-  calamity, embark, upbringing, rig, grapple, proponent, avid,
-  fervent, blaze, steatite, elate, crowbar, sealed, wilderness,
-  sombre, semblance, brute, slake, disinclination, mace, whimper,
-  aisle, abundant, hesitate, apprehension, diminution, startle,
-  attain, readjustment, desiccate, deliquesce, transverse, urchin,
-  deaden, vestige, dwelling, ram, contrivance, procure, contrive,
-  scorn, rill, feeble, pity, dainty, awaken, hazy, forthwith, sweep,
-  unfathomable, splendid, yore, acacia, caress, fatigue,
-  preternatural, wither, fastness, villainy, foul, wane, dread,
-  malign, stagger, sustaining, thigh, gorge, ravine, persevere,
-  anguish, nausea, discordant, odour, frightful, faint, incontinently,
-  abysmal, aperture, slender, disconcerted, descent, shirk, tint,
-  afield, pallid, saliva, decent, deception, devastating, capsicum,
-  wit, froth, broth,
 
 * shirk                                                      :Demo:verb:noun:
   [2016-06-26 Sun 17:05]
