@@ -9,24 +9,54 @@
 
 
 ** Multiclosed card                                                   :drill:
+   SCHEDULED: <2017-06-08 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       39e8f240-7396-40f9-99d5-bcc80656ed73
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-06-04 Sun 16:47]
    :END:
 
    The capital city of [New Zealand] is [Wellington], which is located in
    the [North||North/South] Island and has a population of about [400,000].
 
 ** Beetle                                                             :drill:
+   SCHEDULED: <2017-06-08 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       104839d6-e7bb-4e5f-913c-eed5b2f8554e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2017-06-04 Sun 16:48]
    :END:
 
    It was a large, [clumsy], blue-black beetle, with a large round
    head, long [jointed] antennae, and a [bulbous] body.
 
 ** Multisided card                                                    :drill:
+   SCHEDULED: <2017-06-08 Thu>
     :PROPERTIES:
     :DRILL_CARD_TYPE: multisided
+    :ID:       bba13e15-63da-4f03-b97a-92bd83edb0aa
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2017-06-04 Sun 16:47]
     :END:
 
     Translate.
