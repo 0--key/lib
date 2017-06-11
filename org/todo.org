@@ -122,24 +122,134 @@
 **** Overview
 **** Contribution
 
-** Elisp
-   :LOGBOOK:
-   CLOCK: [2017-05-06 Sat 16:34]--[2017-05-06 Sat 16:59] =>  0:25
-   CLOCK: [2017-04-04 Tue 18:47]--[2017-04-04 Tue 19:12] =>  0:25
-   CLOCK: [2017-03-24 Fri 08:55]--[2017-03-24 Fri 09:20] =>  0:25
-   CLOCK: [2017-03-11 Sat 11:33]--[2017-03-11 Sat 11:58] =>  0:25
-   :END:
-*** UnitTest
-    https://www.emacswiki.org/emacs/UnitTesting
-    https://www.emacswiki.org/emacs/ErtTestLibrary
-*** An Introduction to Programming in Emacs Lisp
+*** NLTK
+*** AI
     :LOGBOOK:
-    CLOCK: [2017-03-20 Mon 17:47]--[2017-03-20 Mon 18:12] =>  0:25
-    CLOCK: [2017-03-11 Sat 12:03]--[2017-03-11 Sat 12:28] =>  0:25
+    CLOCK: [2017-03-23 Thu 13:59]--[2017-03-23 Thu 14:40] =>  0:41
+    CLOCK: [2017-03-22 Wed 09:57]--[2017-03-22 Wed 10:22] =>  0:25
+    CLOCK: [2017-03-20 Mon 17:12]--[2017-03-20 Mon 17:37] =>  0:25
     :END:
-    by Robert J. Chassell
+   
+    http://aima.cs.berkeley.edu/python/readme.html
+    https://people.eecs.berkeley.edu/~russell/code/doc/overview.html
+    https://people.eecs.berkeley.edu/~russell/code/doc/user.html
+**** ML
+
+***** Scikit
+      :LOGBOOK:
+      CLOCK: [2017-03-22 Wed 10:46]--[2017-03-22 Wed 11:11] =>  0:25
+      :END:
+
+***** Bayesian learning
+      :LOGBOOK:
+      CLOCK: [2017-04-15 Sat 08:25]--[2017-04-15 Sat 08:50] =>  0:25
+      :END:
+     
+***** Coursera
+****** Lecture 1: Introduction
+       :LOGBOOK:
+       CLOCK: [2017-05-02 Tue 16:21]--[2017-05-02 Tue 16:46] =>  0:25
+       :END:
+
+****** Lecture 2: The Perceptron learning procedure
+       :LOGBOOK:
+       CLOCK: [2017-04-27 Thu 16:44]--[2017-04-27 Thu 17:09] =>  0:25
+       CLOCK: [2017-04-27 Thu 16:03]--[2017-04-27 Thu 16:28] =>  0:25
+       CLOCK: [2017-04-06 Thu 09:27]--[2017-04-06 Thu 09:42] =>  0:15
+       CLOCK: [2017-04-04 Tue 14:39]--[2017-04-04 Tue 15:08] =>  0:29
+       CLOCK: [2017-04-04 Tue 14:08]--[2017-04-04 Tue 14:33] =>  0:25
+       CLOCK: [2017-04-02 Sun 08:40]--[2017-04-02 Sun 09:05] =>  0:25
+       :END:
+
+****** Lecture 3: The backpropagation learning procedure
+       :LOGBOOK:
+       CLOCK: [2017-04-11 Tue 10:38]--[2017-04-11 Tue 11:03] =>  0:25
+       CLOCK: [2017-04-07 Fri 17:12]--[2017-04-07 Fri 17:12] =>  0:00
+       CLOCK: [2017-04-07 Fri 16:37]--[2017-04-07 Fri 17:02] =>  0:25
+       :END:
+      
+****** Lecture 4: Learning feature vectors for words
+       :LOGBOOK:
+       CLOCK: [2017-04-16 Sun 12:24]--[2017-04-16 Sun 12:49] =>  0:25
+       CLOCK: [2017-04-15 Sat 18:00]--[2017-04-15 Sat 18:25] =>  0:25
+       :END:
+      
+
+****** Lecture 5: Object recognition with neural nets
+       :LOGBOOK:
+       CLOCK: [2017-04-29 Sat 17:02]--[2017-04-29 Sat 17:27] =>  0:25
+       CLOCK: [2017-04-25 Tue 10:34]--[2017-04-25 Tue 10:59] =>  0:25
+       :END:
+
+****** Lecture 6: Optimization: How to make the learning go faster
+
+****** Lecture 7: Recurrent neural networks
+       :LOGBOOK:
+       CLOCK: [2017-05-09 Tue 09:45]--[2017-05-09 Tue 10:10] =>  0:25
+       CLOCK: [2017-05-02 Tue 12:13]--[2017-05-02 Tue 12:38] =>  0:25
+       CLOCK: [2017-05-02 Tue 11:37]--[2017-05-02 Tue 12:02] =>  0:25
+       :END:
+
+****** Lecture 8: More recurrent neural networks
+
+****** Lecture 9: Ways to make neural networks generalize better
+
+****** Lecture 10: Combining multiple neural networks to improve generalization
+
+****** Lecture 11: Hopfield nets and Boltzmann machines
+
+****** Lecture 12: Restricted Boltzmann machines (RBMs)
+
+****** Lecture 13: Stacking RBMs to make Deep Belief Nets
+
+****** Lecture 14: Deep neural nets with generative pre-training
+
+****** Lecture 15: Modeling hierarchical structure with neural nets
+
+****** Lecture 16: Recent applications of deep neural nets (optional videos)
+
+
+***** Convolutional Neural Network
+
+***** Deep Belief Network
+
+***** Restricted Boltzman Machine
+
+***** Deep Reinforcement Learning
+
+***** Deep Q Learning
+
+***** Hierarchical Temporal Memory
+
+***** Stacked Denoising Autoencoders
+
+*** Matplotlib
+    :LOGBOOK:
+    CLOCK: [2017-05-10 Wed 10:11]--[2017-05-10 Wed 10:36] =>  0:25
+    CLOCK: [2017-05-10 Wed 09:33]--[2017-05-10 Wed 09:58] =>  0:25
+    CLOCK: [2017-05-09 Tue 10:34]--[2017-05-09 Tue 11:02] =>  0:28
+    CLOCK: [2017-05-07 Sun 09:27]--[2017-05-07 Sun 09:52] =>  0:25
+    CLOCK: [2017-05-07 Sun 08:50]--[2017-05-07 Sun 09:15] =>  0:25
+    CLOCK: [2017-05-02 Tue 17:10]--[2017-05-02 Tue 17:35] =>  0:25
+    :END:
 
 ** Emacs
+*** Elisp
+    :LOGBOOK:
+    CLOCK: [2017-05-06 Sat 16:34]--[2017-05-06 Sat 16:59] =>  0:25
+    CLOCK: [2017-04-04 Tue 18:47]--[2017-04-04 Tue 19:12] =>  0:25
+    CLOCK: [2017-03-24 Fri 08:55]--[2017-03-24 Fri 09:20] =>  0:25
+    CLOCK: [2017-03-11 Sat 11:33]--[2017-03-11 Sat 11:58] =>  0:25
+    :END:
+**** UnitTest
+     https://www.emacswiki.org/emacs/UnitTesting
+     https://www.emacswiki.org/emacs/ErtTestLibrary
+**** An Introduction to Programming in Emacs Lisp
+     :LOGBOOK:
+     CLOCK: [2017-03-20 Mon 17:47]--[2017-03-20 Mon 18:12] =>  0:25
+     CLOCK: [2017-03-11 Sat 12:03]--[2017-03-11 Sat 12:28] =>  0:25
+     :END:
+     by Robert J. Chassell
 
 *** ox-epub
     Export org mode projects to EPUB
@@ -235,116 +345,7 @@
 *** Img scaling
 *** MathJax
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'></script>
-** NLTK
-** AI
-   :LOGBOOK:
-   CLOCK: [2017-03-23 Thu 13:59]--[2017-03-23 Thu 14:40] =>  0:41
-   CLOCK: [2017-03-22 Wed 09:57]--[2017-03-22 Wed 10:22] =>  0:25
-   CLOCK: [2017-03-20 Mon 17:12]--[2017-03-20 Mon 17:37] =>  0:25
-   :END:
-   
-   http://aima.cs.berkeley.edu/python/readme.html
-   https://people.eecs.berkeley.edu/~russell/code/doc/overview.html
-   https://people.eecs.berkeley.edu/~russell/code/doc/user.html
-*** ML
 
-**** Scikit
-     :LOGBOOK:
-     CLOCK: [2017-03-22 Wed 10:46]--[2017-03-22 Wed 11:11] =>  0:25
-     :END:
-
-**** Bayesian learning
-     :LOGBOOK:
-     CLOCK: [2017-04-15 Sat 08:25]--[2017-04-15 Sat 08:50] =>  0:25
-     :END:
-     
-**** Coursera
-***** Lecture 1: Introduction
-      :LOGBOOK:
-      CLOCK: [2017-05-02 Tue 16:21]--[2017-05-02 Tue 16:46] =>  0:25
-      :END:
-
-***** Lecture 2: The Perceptron learning procedure
-      :LOGBOOK:
-      CLOCK: [2017-04-27 Thu 16:44]--[2017-04-27 Thu 17:09] =>  0:25
-      CLOCK: [2017-04-27 Thu 16:03]--[2017-04-27 Thu 16:28] =>  0:25
-      CLOCK: [2017-04-06 Thu 09:27]--[2017-04-06 Thu 09:42] =>  0:15
-      CLOCK: [2017-04-04 Tue 14:39]--[2017-04-04 Tue 15:08] =>  0:29
-      CLOCK: [2017-04-04 Tue 14:08]--[2017-04-04 Tue 14:33] =>  0:25
-      CLOCK: [2017-04-02 Sun 08:40]--[2017-04-02 Sun 09:05] =>  0:25
-      :END:
-
-***** Lecture 3: The backpropagation learning procedure
-      :LOGBOOK:
-      CLOCK: [2017-04-11 Tue 10:38]--[2017-04-11 Tue 11:03] =>  0:25
-      CLOCK: [2017-04-07 Fri 17:12]--[2017-04-07 Fri 17:12] =>  0:00
-      CLOCK: [2017-04-07 Fri 16:37]--[2017-04-07 Fri 17:02] =>  0:25
-      :END:
-      
-***** Lecture 4: Learning feature vectors for words
-      :LOGBOOK:
-      CLOCK: [2017-04-16 Sun 12:24]--[2017-04-16 Sun 12:49] =>  0:25
-      CLOCK: [2017-04-15 Sat 18:00]--[2017-04-15 Sat 18:25] =>  0:25
-      :END:
-      
-
-***** Lecture 5: Object recognition with neural nets
-      :LOGBOOK:
-      CLOCK: [2017-04-29 Sat 17:02]--[2017-04-29 Sat 17:27] =>  0:25
-      CLOCK: [2017-04-25 Tue 10:34]--[2017-04-25 Tue 10:59] =>  0:25
-      :END:
-
-***** Lecture 6: Optimization: How to make the learning go faster
-
-***** Lecture 7: Recurrent neural networks
-      :LOGBOOK:
-      CLOCK: [2017-05-09 Tue 09:45]--[2017-05-09 Tue 10:10] =>  0:25
-      CLOCK: [2017-05-02 Tue 12:13]--[2017-05-02 Tue 12:38] =>  0:25
-      CLOCK: [2017-05-02 Tue 11:37]--[2017-05-02 Tue 12:02] =>  0:25
-      :END:
-
-***** Lecture 8: More recurrent neural networks
-
-***** Lecture 9: Ways to make neural networks generalize better
-
-***** Lecture 10: Combining multiple neural networks to improve generalization
-
-***** Lecture 11: Hopfield nets and Boltzmann machines
-
-***** Lecture 12: Restricted Boltzmann machines (RBMs)
-
-***** Lecture 13: Stacking RBMs to make Deep Belief Nets
-
-***** Lecture 14: Deep neural nets with generative pre-training
-
-***** Lecture 15: Modeling hierarchical structure with neural nets
-
-***** Lecture 16: Recent applications of deep neural nets (optional videos)
-
-
-**** Convolutional Neural Network
-
-**** Deep Belief Network
-
-**** Restricted Boltzman Machine
-
-**** Deep Reinforcement Learning
-
-**** Deep Q Learning
-
-**** Hierarchical Temporal Memory
-
-**** Stacked Denoising Autoencoders
-
-** Matplotlib
-   :LOGBOOK:
-   CLOCK: [2017-05-10 Wed 10:11]--[2017-05-10 Wed 10:36] =>  0:25
-   CLOCK: [2017-05-10 Wed 09:33]--[2017-05-10 Wed 09:58] =>  0:25
-   CLOCK: [2017-05-09 Tue 10:34]--[2017-05-09 Tue 11:02] =>  0:28
-   CLOCK: [2017-05-07 Sun 09:27]--[2017-05-07 Sun 09:52] =>  0:25
-   CLOCK: [2017-05-07 Sun 08:50]--[2017-05-07 Sun 09:15] =>  0:25
-   CLOCK: [2017-05-02 Tue 17:10]--[2017-05-02 Tue 17:35] =>  0:25
-   :END:
 
 ** RDBMS
 
