@@ -346,6 +346,18 @@
    CLOCK: [2017-05-02 Tue 17:10]--[2017-05-02 Tue 17:35] =>  0:25
    :END:
 
+** RDBMS
+
+*** Theory
+
+*** Practice
+
+**** Postgres
+
+***** DONE SQL in Emacs
+
+***** TODO Python connector
+
 
 * Satellite
 ** DONE Porteus
