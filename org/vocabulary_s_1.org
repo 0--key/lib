@@ -145,17 +145,17 @@
   [2017-08-17 Thu 20:40]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-30 Mon>
+   SCHEDULED: <2018-02-13 Tue>
    :PROPERTIES:
    :ID:       cb4a5619-8151-42c1-a61e-5d600446e87b
-   :DRILL_LAST_INTERVAL: 28.7036
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 79.5951
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.75
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 21:47]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:09]
    :END:
    triumphant
 
@@ -224,17 +224,17 @@
    victorious general or admiral.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2018-01-10 Wed>
    :PROPERTIES:
    :ID:       37ed811d-34f5-47f5-b37c-7bfc85520d71
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 45.843
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.2
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:35]
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:23]
    :END:
    An outburst of passion or emotion can be angry words, a broken
    glass, or a [triumphant] whoop.
@@ -551,17 +551,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       ece2f8c3-f40a-4290-bcb6-bf9996d9e1cc
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.8
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:39]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:13]
    :END:
    A [villain] is a bad person — real or made up. In books, movies,
    current events, or history, the [villain] is the character who does
@@ -678,18 +678,18 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       48702a1f-601f-4879-8494-6dc9b5d481b4
-   :DRILL_LAST_INTERVAL: 10.3191
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.125
+   :DRILL_LAST_INTERVAL: 4.135
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.9
    :DRILL_EASE: 2.56
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:51]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
    [Fitting]ly, the root of [eradication] is the Latin word for "uproot,"
    ērādīcāre.
@@ -840,17 +840,17 @@
    issue is large or small, do yourself a favor and don't [complain] too
    often, or people might stop taking you seriously.
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-30 Mon>
+   SCHEDULED: <2018-02-10 Sat>
    :PROPERTIES:
    :ID:       673145b7-c5c9-439e-b626-19566fa85862
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.2
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-02 Mon 15:32]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:08]
    :END:
    That's what your grandma says when she wants to [complain] about
    [muggy] weather.
@@ -905,17 +905,17 @@
    forever and ever!" That would be a [curse]. As a verb, the act of
    [cursing] will lead to getting your mouth washed out with soap.
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       770711cd-f312-4e51-92a2-f9bef1aa2869
-   :DRILL_LAST_INTERVAL: 9.648
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.8
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.857
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:33]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:13]
    :END:
    You might be [cursing] the cold and the snow today, but mark my words,
    come August and the [muggy] dog days of summer, you'll be nostalgic
@@ -977,17 +977,17 @@
    the meal he's eating? He’s likely a [gourmet], someone who knows a lot
    about fine food.
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       3d084435-2428-4dfe-9739-f930239cc505
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.5
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:10]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:12]
    :END:
    There are [gourmet]s and then there are foodies. Both are food
    enthusiasts who live to eat. A [gourmet], pronounced like the French
@@ -1216,17 +1216,17 @@
   [2017-08-23 Wed 18:45]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       7331f9cb-0eb0-4a9f-95e8-a9106c2c4efe
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.6
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 13:00]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:35]
    :END:
    contempt
 
@@ -1277,17 +1277,17 @@
     1. скука (boredom, bore, tedium, ennui, weariness, monotony)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       3a974f45-bcc2-4bd4-ad2a-00d4306839aa
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.6
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:37]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
 
    noun
@@ -1297,17 +1297,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-30 Mon>
+   SCHEDULED: <2018-02-10 Sat>
    :PROPERTIES:
    :ID:       cf0bd6ff-4488-49b6-8875-46e528f0d866
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.2
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-02 Mon 15:34]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:09]
    :END:
    [Boredom] can make you do crazy things, like watching terrible old
    game shows on television or eating the bag of chocolate chips you
@@ -1339,17 +1339,17 @@
   [2017-08-23 Wed 19:04]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-29 Mon>
    :PROPERTIES:
    :ID:       d4e66a21-7cec-4c0f-b8f9-e3083dc6ac68
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 64.7
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:37]
+   :DRILL_AVERAGE_QUALITY: 3.8
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:04]
    :END:
    groan
 
@@ -1533,17 +1533,17 @@
   [2017-08-25 Fri 13:24]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       1dbae9a2-fea6-4f6a-9748-92129a889f43
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 3.333
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:37]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
    propped
 
@@ -1817,17 +1817,17 @@
     5. сторонник (supporter, advocate, proponent, adherent, believer, disciple)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-13 Wed>
    :PROPERTIES:
    :ID:       5ee4334d-79ff-4bc7-a539-56fae6f941cc
-   :DRILL_LAST_INTERVAL: 8.2681
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_LAST_INTERVAL: 18.3304
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 11
    :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:44]
+   :DRILL_AVERAGE_QUALITY: 2.636
+   :DRILL_EASE: 2.18
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:00]
    :END:
 
    noun
@@ -2074,17 +2074,17 @@
   [2017-08-31 Thu 14:16]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       8aa2f38f-55ff-49cb-b487-dceacb950098
-   :DRILL_LAST_INTERVAL: 24.0814
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 62.2023
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:39]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:01]
    :END:
    stanza
 
@@ -2096,17 +2096,17 @@
     2. станс (stanza)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-29 Sun>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       e607760a-4203-4d31-8d17-0f16e060c12b
-   :DRILL_LAST_INTERVAL: 26.702
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 71.3744
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
-   :DRILL_EASE: 2.56
+   :DRILL_AVERAGE_QUALITY: 4.5
+   :DRILL_EASE: 2.66
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-02 Mon 15:33]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:08]
    :END:
 
    noun
@@ -2273,17 +2273,17 @@
   [2017-08-31 Thu 16:32]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-29 Mon>
    :PROPERTIES:
    :ID:       de5ea4a6-f7e3-43a5-9d78-f60f6b0f2a3a
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 64.7
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:39]
+   :DRILL_AVERAGE_QUALITY: 3.8
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:04]
    :END:
    concealed
 
@@ -2295,17 +2295,17 @@
     2. припрятанный (concealed)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-14 Thu>
    :PROPERTIES:
    :ID:       6aec95b2-8b67-4785-9dd3-2125406632df
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_LAST_INTERVAL: 19.0033
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 9
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.624
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:45]
+   :DRILL_AVERAGE_QUALITY: 2.888
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:58]
    :END:
 
    adjective
@@ -2318,17 +2318,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-03 Sun>
    :PROPERTIES:
    :ID:       c8d8cbfc-400b-4f7b-82ae-11ff5f3a5738
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 7.979
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.22
+   :DRILL_AVERAGE_QUALITY: 2.428
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:59]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:09]
    :END:
    If something's [concealed], it's out of sight. People may have
    [concealed] motives for carrying [concealed] weapons.
@@ -3034,17 +3034,17 @@
   [2017-08-31 Thu 16:42]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-01-24 Wed>
    :PROPERTIES:
    :ID:       495b5457-b0b2-48e4-9aff-1fbad8d7df5a
-   :DRILL_LAST_INTERVAL: 24.12
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 60.2035
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:38]
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:02]
    :END:
    club
 
@@ -3070,17 +3070,17 @@
     5. собираться вместе (come together, club, club up, reunite)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-23 Mon>
+   SCHEDULED: <2018-01-18 Thu>
    :PROPERTIES:
    :ID:       653ce042-d3c3-4492-9102-e7df903ebe6a
-   :DRILL_LAST_INTERVAL: 22.4564
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 54.1648
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
+   :DRILL_AVERAGE_QUALITY: 3.75
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:37]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:54]
    :END:
 
    noun
@@ -3105,17 +3105,17 @@
    playing chess or hiding out in a tree house together.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-30 Mon>
+   SCHEDULED: <2018-02-10 Sat>
    :PROPERTIES:
    :ID:       2a0ffad9-fa3a-4cf0-927e-5ec4b1d2c144
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.75
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-02 Mon 15:33]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:08]
    :END:
    You might join a [club] if you love to play golf or discuss books with
    a friendly bunch of people. This kind of [club] is a formal group —
@@ -3158,17 +3158,17 @@
     4. идти легким шагом (amble)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       9b953829-f33f-4a57-a79b-ee20ef447b78
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.6
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 13:01]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:32]
    :END:
 
    noun
@@ -3326,17 +3326,17 @@
     5. раскатывать руками глину (wedge)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-23 Mon>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       3386a8a3-0527-4270-8b7f-0c3b08504774
-   :DRILL_LAST_INTERVAL: 22.4564
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.25
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.833
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:35]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
 
    noun
@@ -3407,17 +3407,17 @@
     1. неизменно (invariably, permanently, firmly, eternally, inalterably, abidingly)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       c35831f3-9a71-4d5a-95c4-67407f74061c
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.091
-   :DRILL_EASE: 1.8
+   :DRILL_TOTAL_REPEATS: 13
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.154
+   :DRILL_EASE: 1.66
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:53]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:31]
    :END:
 
    adverb
@@ -3426,17 +3426,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       25e5c0fd-6a3d-493a-9d0b-acd203b84dd7
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.6
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:50]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:34]
    :END:
    [Invariably] describes things that don't change and never vary —
    they're predictable. Many people [invariably] start each morning with
@@ -3521,17 +3521,17 @@
    inappropriate way.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       7b1fd574-fd65-410c-8fe3-80137386bf52
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:38]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
    [Accost] describes a confrontation — one that's often aggressive in
    nature. You're likely to be [accost]ed by angry picketers if you wear
@@ -3542,17 +3542,17 @@
    cocktail party is looking for more than conversation.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-29 Mon>
    :PROPERTIES:
    :ID:       b01402d0-3109-4bd7-94d1-c0f4bf0fc26f
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 64.7
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:40]
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:04]
    :END:
    Nor, indeed, was it invariably one of the warriors that got the
    lady, for on several occasions I saw a female wander away from a
@@ -3624,17 +3624,17 @@
     3. впрягать (harness)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-23 Mon>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       c9befab6-307b-4101-82fb-83ca3fd52315
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.2
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.143
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-14 Sat 07:43]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
 
    noun
@@ -3698,17 +3698,17 @@
     1. сочувствовать (sympathize, compassion, commiserate, compassionate, feel for, condole)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-23 Mon>
+   SCHEDULED: <2017-12-09 Sat>
    :PROPERTIES:
    :ID:       7e8f80b0-ff6a-4547-9f97-e16c0b93079c
-   :DRILL_LAST_INTERVAL: 7.2265
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_LAST_INTERVAL: 14.0194
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 9
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.375
+   :DRILL_AVERAGE_QUALITY: 2.556
    :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:39]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:52]
    :END:
 
    noun
@@ -3717,17 +3717,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       a91d6ad7-a277-4eff-9dbe-03236447c9cf
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:43]
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
    If someone shows kindness, caring, and a willingness to help others,
    they're showing [compassion].
@@ -3746,18 +3746,18 @@
    help out.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       21b1d196-5b5a-4d9f-9f8b-9a772544bf3b
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-14 Sat 07:38]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:55]
    :END:
    [Ruthless] means showing no [mercy] or [compassion].
 
@@ -4315,17 +4315,17 @@
     3. жиропот (yolk)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       532f087b-723f-45d1-88c7-5d90e002d4c8
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-14 Sat 07:43]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:00]
    :END:
 
    noun
@@ -4487,17 +4487,17 @@
     7. невероятный (incredible, improbable, fabulous, unbelievable, unlikely, prodigious)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       be3c185b-7780-4804-8773-4f4bc0a4c381
-   :DRILL_LAST_INTERVAL: 8.56
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.625
+   :DRILL_LAST_INTERVAL: 3.855
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:34]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
 
    adjective
@@ -4516,17 +4516,17 @@
    is one who can write a lot and do it well.
 
 ** ##                                                                 :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-12-17 Sun>
    :PROPERTIES:
    :ID:       3cb5f2d5-e505-42c2-a9f6-17b990b42225
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 22.4564
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_AVERAGE_QUALITY: 2.667
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:43]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:02]
    :END:
    [Prodigious] is a word for things that are impressive. If you have
    [prodigious] strength, you're very strong. If your cat had a
@@ -4668,17 +4668,17 @@
     11. сужение (constriction, contraction, waist, stenosis, stricture, pinch)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       87e59dd1-e57f-49be-a3d9-8fccb431173a
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.572
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 10:02]
+   :DRILL_LAST_INTERVAL: 3.855
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
 
    noun
@@ -4687,8 +4687,11 @@
    2. an arrest.
 
    verb
-   1. grip (something, typically someone's flesh) tightly and sharply between finger and thumb.
+   1. grip (something, typically someone's flesh) tightly and sharply
+      between finger and thumb.
+
       "she [pinch]ed his cheek"
+
    2. live in a frugal way.
       "if I [pinch] and scrape , I might manage"
    3. arrest (someone).
@@ -4732,17 +4735,17 @@
 
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       95b3871a-950e-4fa2-a9b3-5ad32b9bb273
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.5
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:52]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:50]
    :END:
    regal
 
@@ -4755,17 +4758,17 @@
     3. царский (royal, regal, kingly, purple)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       29e459a2-9776-4bba-9e5c-67969ac80aa6
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:08]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:09]
    :END:
 
    adjective
@@ -4776,17 +4779,17 @@
   [2017-09-05 Tue 12:49]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-12-21 Thu>
    :PROPERTIES:
    :ID:       45fe1bea-b696-495b-96d7-43c2dcdebf22
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 25.88
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:39]
+   :DRILL_AVERAGE_QUALITY: 3.333
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:06]
    :END:
    cockney
 
@@ -4997,21 +5000,21 @@
    Michael was a short, fat, [somnambulistic] little man who looked like
    a well-boiled prawn with a mop of dark, curly hair.
 
-* prawn :satellite:
+* prawn                                                           :satellite:
   [2017-09-05 Tue 12:50]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       f0fd7da3-aee4-4f5a-bec6-6736b6e06485
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 2.75
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:38]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:04]
    :END:
    prawn
 
@@ -5117,17 +5120,17 @@
 
 
 ** --                                                                 :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       7203311c-1f1c-4ee3-9fa0-59257096a96f
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.375
-   :DRILL_EASE: 2.46
+   :DRILL_LAST_INTERVAL: 4.135
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:13]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:35]
    :END:
    no, no, of course not,' said Mother [guiltily], as though she had
    been planning vast banquets among the myrtle bushes for Jonquil's
@@ -5137,17 +5140,17 @@
   [2017-09-05 Tue 12:52]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-29 Mon>
    :PROPERTIES:
    :ID:       fdaa91ac-bdc0-4d3a-8b2f-7379d7a46d3e
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 64.7
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-01 Sun 15:39]
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:03]
    :END:
    benefit
 
@@ -5298,17 +5301,17 @@
   [2017-09-05 Tue 12:53]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       7a298926-ee82-41bc-8e98-f1100bc8c292
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.5
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 10:04]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:23]
    :END:
    orchard
 
@@ -5565,17 +5568,17 @@
   [2017-09-05 Tue 12:56]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       a632e52e-6c1d-4908-a91b-bc023107982d
-   :DRILL_LAST_INTERVAL: 8.88
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.625
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:44]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
    vicinity
 
@@ -6012,17 +6015,17 @@
     3. холодный и влажный (clammy)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       7a2c9d9f-3722-46f4-80be-51affec63f7e
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.901
-   :DRILL_EASE: 1.8
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.917
+   :DRILL_EASE: 1.66
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:53]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:35]
    :END:
 
    adjective
@@ -6078,22 +6081,21 @@
 
 
 ** ~~+~~                                                              :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       e06dc626-bb67-4dcc-915e-5006b0d64353
-   :DRILL_CARD_TYPE: hide2cloze
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.8
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:16]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:31]
    :END:
-    If you're [interested] in something, you like it and want to know more.
-    If you're [snoring] through a movie, you're probably not that [interested]
-    in it.
+    If you're [interested] in something, you like it and want to know
+    more. If you're [snoring||extremely boring] through a movie,
+    you're probably not that [interested] in it.
 
 ** &&                                                                 :drill:
    :PROPERTIES:
@@ -6254,17 +6256,17 @@
   [2017-09-06 Wed 19:22]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-19 Tue>
    :PROPERTIES:
    :ID:       ade178f1-1adc-4d3f-9c12-baa9f7d27741
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 24.048
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 4.0
    :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:58]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:28]
    :END:
    departure
 
@@ -6292,17 +6294,17 @@
     2. исходный (original, initial, parent, departure, opening)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2017-12-24 Sun>
    :PROPERTIES:
    :ID:       d4cc02d0-deac-44a2-946d-f5de38fcacf8
-   :DRILL_LAST_INTERVAL: 10.7143
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 28.7036
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.8
-   :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:34]
+   :DRILL_AVERAGE_QUALITY: 3.167
+   :DRILL_EASE: 2.7
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:06]
    :END:
 
    noun
@@ -6338,17 +6340,17 @@
   [2017-09-08 Fri 17:47]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       c2b37b7d-d596-47fd-b3da-6276d17a69c9
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:59]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:34]
    :END:
    conviction
 
@@ -6364,22 +6366,26 @@
     6. сознание греховности (conviction)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       d0c8ef37-c3f6-47c8-88bc-653459995a16
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.751
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.801
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 13:00]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:33]
    :END:
 
    noun
-   1. a formal declaration that someone is guilty of a criminal offense, made by the verdict of a jury or the decision of a judge in a court of law.
+   1. a formal declaration that someone is guilty of a criminal
+      offense, made by the verdict of a jury or the decision of a
+      judge in a court of law.
+
       "she had a previous [conviction] for a similar offense"
+
    2. a firmly held belief or opinion.
       "his [conviction] that the death was no accident"
 
@@ -6452,17 +6458,17 @@
 
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       02b7a10b-3dc0-42ec-9bd6-fb6644db992d
-   :DRILL_LAST_INTERVAL: 9.648
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.8
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:52]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:36]
    :END:
    consider
 
@@ -6972,17 +6978,17 @@
   [2017-09-12 Tue 04:32]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       6b15d866-d98d-4964-b924-27d3ee7f79be
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.2
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.143
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:36]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
    ornate
 
@@ -7208,17 +7214,17 @@
   [2017-09-12 Tue 04:49]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       42450020-a1e0-4da8-9439-f0cc65b406f3
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.857
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:33]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
    valor
 
@@ -7522,17 +7528,17 @@
     3. открыто неповинующийся (defiant)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-21 Thu>
    :PROPERTIES:
    :ID:       ed7c2020-9502-429f-8ccb-97d387bccf22
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 25.88
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:50]
+   :DRILL_AVERAGE_QUALITY: 4.333
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:28]
    :END:
 
    adjective
@@ -7576,17 +7582,17 @@
     5. есть с жадностью (gorge, raven, tuck into, guzzle, devour, gobble)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       5d2b7fae-702d-43d9-bd24-fa3dc5698c2b
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
    :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:39]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:12]
    :END:
 
    noun
@@ -7893,17 +7899,17 @@
   [2017-09-13 Wed 17:40]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-13 Wed>
    :PROPERTIES:
    :ID:       9c4b33c4-dcd0-47bf-b765-f10a6c826f38
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 18.3583
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.286
+   :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:39]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:57]
    :END:
    ostentatious
 
@@ -8325,17 +8331,17 @@
   [2017-09-14 Thu 10:18]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       450dac45-907b-43b6-a1df-39a34ef7f7fa
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 3
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 4
    :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:36]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:11]
    :END:
    vague
 
@@ -8838,17 +8844,17 @@
 * rowdy :satellite:
   [2017-09-14 Thu 14:58]
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       ad04b6a8-afc2-4526-8630-6bd514d133bf
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.25
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:37]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:13]
    :END:
    rowdy
 *** --->
@@ -8864,17 +8870,17 @@
     2. буйный (exuberant, lush, wild, riotous, luxuriant, rowdy)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-14 Thu>
    :PROPERTIES:
    :ID:       1d257ba5-8699-4492-8ef9-cb082ed58d7d
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 19.0033
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.857
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:40]
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:59]
    :END:
 
    adjective
@@ -9633,17 +9639,17 @@
 
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       dc306efb-810b-4d0d-8b18-5a98bc118230
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 1.6
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 1.666
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:33]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:32]
    :END:
    ominous
 
@@ -10527,17 +10533,17 @@ Because of this, college has
   [2017-09-15 Fri 17:32]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       49660143-9343-4b58-9b57-a6616efebc21
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.5
-   :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:02]
+   :DRILL_LAST_INTERVAL: 3.995
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:32]
    :END:
    sake
 
@@ -10625,17 +10631,17 @@ Because of this, college has
   [2017-09-16 Sat 19:41]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-14 Thu>
    :PROPERTIES:
    :ID:       3335ccf0-7063-4fbf-8010-9c05215efd4d
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 19.0033
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:35]
+   :DRILL_AVERAGE_QUALITY: 2.429
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:55]
    :END:
    mischievous
 
@@ -10718,17 +10724,17 @@ Because of this, college has
 
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       4b948680-634c-4650-9df3-f91772b003bb
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.714
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:44]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:13]
    :END:
    relent
 
@@ -10994,17 +11000,17 @@ Because of this, college has
   [2017-09-19 Tue 10:24]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-17 Sun>
    :PROPERTIES:
    :ID:       a52099b7-d7cc-4479-876f-3b0bab5a0e92
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 21.6744
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 09:59]
+   :DRILL_AVERAGE_QUALITY: 3.333
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:21]
    :END:
    baffled
 
@@ -11297,17 +11303,17 @@ Because of this, college has
     6. доставлять наслаждение (delight)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2017-12-21 Thu>
    :PROPERTIES:
    :ID:       a1b6d99f-6024-473a-87ac-dd64c3f8fe46
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 25.88
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:40]
+   :DRILL_AVERAGE_QUALITY: 2.833
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:06]
    :END:
 
    noun
@@ -11699,17 +11705,17 @@ Because of this, college has
     2. досаждать (annoy, plague, molest, vex, torment, spite)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-03 Sun>
    :PROPERTIES:
    :ID:       48036a0e-5f9e-4e50-9db4-33610d8245f1
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_LAST_INTERVAL: 7.9786
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 13
    :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 1.666
-   :DRILL_EASE: 2.08
+   :DRILL_AVERAGE_QUALITY: 1.769
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:58]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:18]
    :END:
 
    verb
@@ -12138,17 +12144,17 @@ Because of this, college has
        snap)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       e603807a-5998-421d-a4b8-0707ca7abaa1
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.6
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:57]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:37]
    :END:
 
    noun
@@ -12433,17 +12439,17 @@ Because of this, college has
   [2017-09-21 Thu 17:43]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       9b2fbf4b-de96-4fe0-b4e5-34197bd0428d
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.833
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:54]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:31]
    :END:
    quaint
 
@@ -12786,17 +12792,17 @@ Because of this, college has
   [2017-09-21 Thu 17:56]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-21 Thu>
    :PROPERTIES:
    :ID:       cd36197a-bb99-4108-88b0-aea8b168c0ab
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 25.88
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 10:01]
+   :DRILL_AVERAGE_QUALITY: 3.25
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:29]
    :END:
    splendiferous
 
@@ -13183,17 +13189,17 @@ Because of this, college has
   [2017-09-21 Thu 20:45]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-23 Sat>
    :PROPERTIES:
    :ID:       95a76b36-c600-47b2-ba52-dca5ad8bde1d
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 27.733
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.5
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:08]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:09]
    :END:
    considerable
 
@@ -13320,22 +13326,23 @@ on."
     4. разводить (breed, dilute, raise, grow, cultivate, swindle)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       b4da6520-e91c-4e03-bcea-4e9e8935e739
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.833
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:59]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:31]
    :END:
 
    noun
-   1. a fraudulent scheme or action. "he is mixed up in a $10 million
-      insurance [swindle]"
+   1. a fraudulent scheme or action.
+
+      "he is mixed up in a 10 million insurance [swindle]"
 
    verb
    1. use deception to deprive (someone) of money or possessions. "a
@@ -13519,17 +13526,17 @@ on."
     4. насмешливо улыбаться (sneer)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-12-20 Wed>
    :PROPERTIES:
    :ID:       dbaa5527-acba-48fc-a072-71d975578d25
-   :DRILL_LAST_INTERVAL: 10.0
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 25.0
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_AVERAGE_QUALITY: 2.8
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-14 Sat 07:35]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:59]
    :END:
 
    noun
@@ -13593,17 +13600,17 @@ on."
     11. отливать в изложницы (chill)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-26 Tue>
    :PROPERTIES:
    :ID:       1af2a337-d0c1-48c2-aaf9-968d01a571f1
-   :DRILL_LAST_INTERVAL: 11.0911
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 30.7556
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-10 Tue 05:14]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:51]
    :END:
 
    verb
@@ -14055,17 +14062,17 @@ on."
     4. браниться (scold, abuse, quarrel, swear, rail, spat)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-24 Tue>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       e22ce596-8b58-4eaf-9b5f-91d28e83b840
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.286
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:37]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 11:10]
    :END:
 
    noun
@@ -14176,17 +14183,17 @@ on."
     4. способный заставить (compulsive)
 
 **     DEFINITION                                                     :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       978829d3-2031-49de-b9e0-8c2f31378c6b
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 13:01]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:36]
    :END:
 
    adjective
@@ -14227,17 +14234,17 @@ on."
 
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-21 Sat>
+   SCHEDULED: <2017-12-20 Wed>
    :PROPERTIES:
    :ID:       b854a869-4ee7-4837-aae5-c242a5e44ce3
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 24.8862
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-11 Wed 10:08]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:28]
    :END:
    mischievous
 
@@ -14678,17 +14685,17 @@ on."
   [2017-09-22 Fri 17:15]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-11-29 Wed>
    :PROPERTIES:
    :ID:       a6a8af41-33bf-44e5-820b-0eef292f4309
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.333
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 13:01]
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:36]
    :END:
    tripping
 
@@ -15997,17 +16004,17 @@ or gloomy," which most likely comes from the Old Norse drupr,
   [2017-09-28 Thu 16:06]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-20 Fri>
+   SCHEDULED: <2017-12-03 Sun>
    :PROPERTIES:
    :ID:       2f698957-e945-45f8-be0d-70216464cbe9
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 8.2681
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_AVERAGE_QUALITY: 2.25
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-16 Mon 12:55]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-25 Sat 10:22]
    :END:
    abound
 
