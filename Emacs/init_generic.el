@@ -33,6 +33,7 @@
    (emacs-lisp . t)
    (shell . t)
    (sqlite . t)
+   (sql . t)
    (octave . t)
    ))
 ;;
