@@ -13,6 +13,7 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
+(server-start)
 
 (elpy-enable)
 (pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
