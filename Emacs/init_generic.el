@@ -27,6 +27,18 @@
 (require 'docker)
 (require 'org-drill)
 
+(require 'langtool)
+(setq langtool-language-tool-jar "/usr/local/java/LanguageTool-3.6/languagetool-commandline.jar")
+
+(global-set-key "\C-x4w" 'langtool-check)
+(global-set-key "\C-x4W" 'langtool-check-done)
+(global-set-key "\C-x4l" 'langtool-switch-default-language)
+(global-set-key "\C-x44" 'langtool-show-message-at-point)
+(global-set-key "\C-x4c" 'langtool-correct-buffer)
+
+(setq langtool-default-language "en-US")
+;;(setq langtool-java-bin "/usr/bin/java") ;; perhaps
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)
