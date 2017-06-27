@@ -16,7 +16,8 @@
 (server-start)
 
 (elpy-enable)
-(pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
+(pyvenv-activate "/usr/local/share/DVCS/alioth/venv3/")
+
 
  (require 'org-bullets)
    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
