@@ -14630,7 +14630,95 @@
 ******* Chain of responsibility example
 ****** Consistency
 ****** Other qualities
+** RDBMS
+*** Theory
+**** The Relational Data Model
+***** Data and Its Structure                                          :drill:
+      :PROPERTIES:
+      :DRILL_CARD_TYPE: multisided
+      :ID:       e56e6573-7517-48cc-8568-ecf2ce2e0276
+      :DRILL_LAST_INTERVAL: 0.0
+      :DRILL_REPEATS_SINCE_FAIL: 1
+      :DRILL_TOTAL_REPEATS: 1
+      :DRILL_FAILURE_COUNT: 1
+      :DRILL_AVERAGE_QUALITY: 0.0
+      :DRILL_EASE: 2.5
+      :DRILL_LAST_QUALITY: 0
+      :DRILL_LAST_REVIEWED: [2017-09-29 Fri 15:40]
+      :END:
+****** Data is actually stored as bits,
+       but it is difficult to work with data at this level
+****** It is convenient to view data
+       at different /levels of abstraction/
+****** ~Schema:~ Description of data
+       at some abstraction level. Each level has its own schema
+****** We will be concerned with
+       three schemas:
+       - /physical/
+       - /conceptual/
+       - /external/
+******* Physical Data Level                                           :drill:
+	:PROPERTIES:
+	:DRILL_CARD_TYPE: multisided
+	:ID:       fc71e9ed-64f6-4b25-b6ca-b4d25e3f95a6
+	:DRILL_LAST_INTERVAL: 0.0
+	:DRILL_REPEATS_SINCE_FAIL: 1
+	:DRILL_TOTAL_REPEATS: 1
+	:DRILL_FAILURE_COUNT: 1
+	:DRILL_AVERAGE_QUALITY: 0.0
+	:DRILL_EASE: 2.5
+	:DRILL_LAST_QUALITY: 0
+	:DRILL_LAST_REVIEWED: [2017-09-29 Fri 15:41]
+	:END:
+******** Physical schema describes
+	 details of how data is stored:
+	 - tracks
+	 - cylinders
+	 - indices
+	 - etc
+******** Early applications
+	 worked at this level - explicitly dealt with details
+******** ~Problem:~ Routines were hard-coded
+	 to deal with physical representation.
+	 - Changes to data structure difficult to make;
+	 - Application code becomes complex since it must deal with
+           details;
+	 - Rapid implementation of new features impossible.
+******* Conceptual Data Level                                         :drill:
+	:PROPERTIES:
+	:DRILL_CARD_TYPE: multisided
+	:ID:       605e46bc-cf04-4a09-8054-5654f3cd6b54
+	:END:
+******** Hides details
+	 In the relational model, the conceptual schema presents data
+	 as a set of tables.
+******** DBMS maps
+	 from conceptual to physical schema automatically.
+******** Physical schema can be
+	 changed without changing application
+	 - DBMS would change mapping from conceptual to physical
+           transparently
+	 - This property is referred to as /physical data independence/
+******* External Data Level                                           :drill:
+	:PROPERTIES:
+	:DRILL_CARD_TYPE: multisided
+	:ID:       f980628d-bbe5-48ad-9f35-f43bd1700c9d
+	:END:
+******** In the relational model,
+	 the /external schema/ also presents data as a set of
+	 relations
+******** An external schema specifies
+	 a /view/ of the data in terms of the conceptual level. It is
+	 tailored to the needs of a particular category of users.
 
+	 - Portions of stored data should not be seen by some users
+	   + Students should not see their files in full;
+	   + Faculty should not see billing data.
+	 - Information that can be derived from stored data might be
+           viewed as if it were stored.
+	   - GPA not stored, but calculated when needed.
+
+*** Practice
 ** Problem solving skill
 *** Lynda's approach
 **** Read the problem completely twice
