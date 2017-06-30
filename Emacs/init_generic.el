@@ -1,5 +1,5 @@
-;;(setq custom-file "~/.emacs.d/init-custom.el")
-;;(load custom-file)
+(setq custom-file "~/.emacs.d/custom_func.el")
+(load custom-file)
 ;;
 (require 'package)
 (add-to-list 'package-archives '("org"
