@@ -14,16 +14,6 @@
 (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 
-;; packages autoinstallation snippet
-;; (setq packages-list '(docker ereader voca-builder travis pcache
-;;     org org-pomodoro org-bullets marshal magit key-chord howdoi
-;;     google-translate elpy elfeed color-theme bookmark+))
-;; (unless package-archive-contents
-;;   (package-refresh-contents))
-;; (dolist (package packages-list)
-;;   (unless (package-installed-p package)
-;;     (package-install package)))
-
 (elpy-enable)
 (pyvenv-activate "/usr/local/share/DVCS/venv3.5/")
 
