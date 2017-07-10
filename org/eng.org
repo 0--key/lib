@@ -334,43 +334,68 @@
 * stave							     :Demo:noun:verb:
   [2016-06-26 Sun 17:57]
 
-  палка
+** =>                                                                 :drill:
+   :PROPERTIES:
+   :ID:       d902bb52-8749-48d7-89fc-b1ece4b67c64
+   :END:
+   stave
 
-  noun
-  1. палка (stick, cane, staff, stave, bevel, discipline)
-  2. шест (pole, perch, stave)
-  3. бочарная клепка (lag, stave)
-  4. перекладина (crossbar, beam, horizontal bar, rail, slat, stave)
-  5. строфа (stanza, verse, strophe, stave)
+*** +++
+    палка
 
-  verb
-  1. снабжать бочарными клепками (stave)
+    noun
+    1. палка (stick, cane, staff, stave, bevel, discipline)
+    2. шест (pole, perch, stave)
+    3. бочарная клепка (lag, stave)
+    4. перекладина (crossbar, beam, horizontal bar, rail, slat, stave)
+    5. строфа (stanza, verse, strophe, stave)
 
-  DEFINITION
+    verb
+    1. снабжать бочарными клепками (stave)
 
-  noun
-  1. a vertical wooden post or plank in a building or other structure.
-     "It's like a workshop in Hades - you feel the heat from barrels
-     set over open fires in the floor and hear the piercing din of
-     hammers on steel as hoops are pounded onto staves ."
-  2. a verse or stanza of a poem.
+** DEFINITION                                                         :drill:
+   :PROPERTIES:
+   :ID:       be855f61-07dd-469a-9fe4-1a058f7d74e8
+   :END:
 
-  verb
-  1. break something by forcing it inward or piercing it roughly.
-     "the door was staved in"
-  2. avert or delay something bad or dangerous.
-     "a reassuring presence can stave off a panic attack"
+   noun
+   1. a vertical wooden post or plank in a building or other structure.
+      "It's like a workshop in Hades - you feel the heat from barrels
+      set over open fires in the floor and hear the piercing din of
+      hammers on steel as hoops are pounded onto [staves] ."
+   2. a verse or stanza of a poem.
 
 
-  A stave is the crosspiece between the legs of a chair or a wooden
-  slat forming the side of a barrel. In music, it's the five lines you
-  write notes on.
+** DEFINITION                                                         :drill:
+   :PROPERTIES:
+   :ID:       70e1a8c4-b007-47fd-b4d4-3ee79aa86e27
+   :END:
+   
+   verb
+   1. break something by forcing it inward or piercing it roughly.
+      "the door was [staved in]"
+   2. avert or delay something bad or dangerous.
+      "a reassuring presence can [stave off] a panic attack"
 
-  Stave comes from the word staff, as in a walking stick. You're most
-  likely to encounter the word stave if you're learning woodworking.
-  If someone "staves in" a door, they've broken a hole in it. You also
-  might hear the idiom "stave off," which means to hold off for a
-  short time.
+
+
+** Sample                                                             :drill:
+   :PROPERTIES:
+   :ID:       d9be64d8-be45-493c-85df-89520c98eafb
+   :END:
+   A [stave] is the crosspiece between the legs of a chair or a wooden
+   slat forming the side of a barrel. In music, it's the five lines you
+   write notes on.
+
+** Sample                                                             :drill:
+   :PROPERTIES:
+   :ID:       61a9eb4b-5db7-45f1-9522-84158c07bfbd
+   :END:
+   [Stave] comes from the word staff, as in a walking stick. You're most
+   likely to encounter the word [stave] if you're learning woodworking.
+   If someone "[staves in]" a door, they've broken a hole in it. You also
+   might hear the idiom "[stave off]," which means to hold off for a
+   short time.
 
 * stall							     :Demo:noun:verb:
   [2016-06-26 Sun 19:05]
