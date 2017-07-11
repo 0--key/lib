@@ -15,7 +15,7 @@
 (setq sentence-end-double-space nil)
 
 (elpy-enable)
-(pyvenv-activate "/usr/local/share/DVCS/alioth/venv3/")
+(pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv2Amazon/")
 
 
  (require 'org-bullets)
