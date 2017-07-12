@@ -6798,6 +6798,9 @@
      python -m pip install --upgrade pip
      #+END_SRC     
 
+     #+RESULTS:
+     : Requirement already up-to-date: pip in /usr/local/share/DVCS/venv3.5/lib/python3.5/site-packages
+
 **** numpy
      #+BEGIN_SRC shell :eval no :results output
        sudo apt-get install python3-dev
