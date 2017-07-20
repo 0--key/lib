@@ -52,16 +52,16 @@
  (setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
-  ("i" "Idiom" entry (file+datetree "/usr/local/share/DVCS/lib/org/idioms.org")
+  ("i" "Idiom" entry (file+datetree "/usr/local/git/0--key/lib/org/idioms.org")
    "* %i\n %U")
   ;;
-  ("t" "Thought" entry (file+datetree "/usr/local/share/DVCS/lib/org/thoughts.org")
+  ("t" "Thought" entry (file+datetree "/usr/local/git/0--key/lib/org/thoughts.org")
    "* %?%c\n%i\n %f")
   ;;
-  ("r" "Proverb riddle" entry (file+datetree "/usr/local/share/DVCS/lib/org/proverbs.org")
+  ("r" "Proverb riddle" entry (file+datetree "/usr/local/git/0--key/lib/org/proverbs.org")
    "* %c\n %? %i \n %f")
   ;;
-  ("o" "Proverb obvious" entry (file+datetree "/usr/local/share/DVCS/lib/org/proverbs.org")
+  ("o" "Proverb obvious" entry (file+datetree "/usr/local/git/0--key/lib/org/proverbs.org")
    "* %i \n %f")
   ;; 
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
@@ -69,10 +69,10 @@
 
 (setq org-publish-project-alist
 '(("jekyll-org"
-   :base-directory "/usr/local/share/DVCS/org-pub/"
+   :base-directory "/usr/local/git/0--key/org-pub/"
    :base-extension "org"
    ;; Path to your Jekyll project.
-   :publishing-directory "/usr/local/share/DVCS/0--key.github.io/_posts/"
+   :publishing-directory "/usr/local/git/0--key/0--key.github.io/_posts/"
    :recursive t
    :publishing-function org-html-publish-to-html
    :headline-levels 4
@@ -83,9 +83,9 @@
    ;; Only export section between <body> </body> (body-only)
    )
   ("jekyll-org-img"
-   :base-directory "/usr/local/share/DVCS/org-pub/img/"
+   :base-directory "/usr/local/git/0--key/org-pub/img/"
    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-   :publishing-directory "/usr/local/share/DVCS/0--key.io/assets/img/"
+   :publishing-directory "/usr/local/git/0--key/0--key.io/assets/img/"
    :recursive t
    :publishing-function org-publish-attachment)
 
@@ -93,9 +93,9 @@
   ))
 ;;
 (require 'voca-builder)
-  (setq voca-builder/voca-file "/usr/local/share/DVCS/lib/org/eng.org")
+  (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/eng_1.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
-  (setq voca-builder/current-tag "Durrell")
+  (setq voca-builder/current-tag "satellite")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -104,7 +104,7 @@
  ;; If there is more than one, they won't work right.
  '(Info-additional-directory-list
    (quote
-    ("/usr/share/info/scrapy/" "/usr/share/info/python3.4/")))
+    ("/usr/share/info/scrapy/" "/usr/share/info/python3.4/" "/usr/share/info/postgres/")))
  '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(org-confirm-babel-evaluate nil)
  '(org-modules
