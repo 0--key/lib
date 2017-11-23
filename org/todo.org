@@ -19,7 +19,16 @@
    CLOCK: [2017-02-18 Sat 17:58]--[2017-02-18 Sat 18:23] =>  0:25
    - [[https://apps.ankiweb.net/docs/manual.html][Anki]]
    - [[https://www.supermemo.com/en/frontpage][SuperMemo]]
-
+*** Org-drill
+    :LOGBOOK:
+    CLOCK: [2017-11-23 Thu 17:58]
+    :END:
+**** Closed deletion
+     - For idioms with new words
+**** Two-sided cards
+     - For vocabulary extension
+**** Multi-sided cards
+     - For grammar rules
 ** English
 *** DONE Vocabulary
     captured by voca-builder and [[file://usr/local/share/DVCS/lib/eng.org][stored into file]]
@@ -488,7 +497,12 @@
   - http://mnemosyne-proj.org/category/english
   - Time management
   - Empathy
-    - Two-step auth at Google requred
+    - Two-step auth at Google required
+  - Docker
+  - Jenkins
+  - Durrell
+  - htpc history in Firefox
+
 
 
 * Org-Babel test suite
