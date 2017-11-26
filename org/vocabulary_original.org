@@ -699,17 +699,17 @@
 
 
 ** ^^^                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-12-01 Fri>
    :PROPERTIES:
    :ID:       9d5af3fb-f5d3-420c-ab3e-0a1ab4effd31
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.75
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 3.5
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-29 Fri 05:59]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:16]
    :END:
    The word [virtue] comes from the Latin root vir, for man. At first
    [virtue] meant manliness or valor, but over time it settled into the
@@ -1306,17 +1306,17 @@
 * contemplation 						       :noun:
 
 ** =>                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       56f97ea3-b73a-4c53-b26a-e773c3bea9a6
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.75
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-28 Thu 17:26]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:04]
    :END:
    contemplation
 
@@ -2722,17 +2722,17 @@
    of meaning that anything — not just a word — can possess.
 
 ** =>                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-16 Tue>
    :PROPERTIES:
    :ID:       16c2daba-26a0-4790-bee9-81d467dd958c
-   :DRILL_LAST_INTERVAL: 20.6501
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 49.7667
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
+   :DRILL_AVERAGE_QUALITY: 3.75
    :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-05 Thu 12:28]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:06]
    :END:
    Even the word [nicety] has niceties. The emphasis on detail can also
    refer to a precision or accuracy of sorts; if someone has judged
@@ -3574,17 +3574,17 @@
 
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       c0dbd45a-a213-41c3-a5bc-fed8dff6e85f
-   :DRILL_LAST_INTERVAL: 24.12
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 60.2035
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.4
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:40]
+   :DRILL_AVERAGE_QUALITY: 3.667
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:14]
    :END:
 
    noun
@@ -5148,18 +5148,18 @@
    solid. Thus the aim is a total [eradication] them both at all.
 
 ** =>                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-15 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       3d2655ae-0273-4557-9fb6-c5e8f9cb875c
-   :DRILL_LAST_INTERVAL: 28.7036
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 79.5951
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.143
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:48]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:04]
    :END:
 
    Sophie, my secretary, who was responsible for the introduction of
@@ -5564,17 +5564,17 @@
 [2016-07-10 Sun 12:48]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       286838a9-2861-448c-b71a-e4d358bdf065
-   :DRILL_LAST_INTERVAL: 23.2385
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 60.025
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.333
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 3.571
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-04 Wed 17:33]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:10]
    :END:
    slapstick
 
@@ -5588,17 +5588,17 @@
     4. грубый фарс (slapstick comedy, knockabout, slapstick)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-01-21 Sun>
    :PROPERTIES:
    :ID:       cb03d56e-bace-4267-a6ab-85da2cc28abb
-   :DRILL_LAST_INTERVAL: 21.3401
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 55.0788
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.42
+   :DRILL_AVERAGE_QUALITY: 3.25
+   :DRILL_EASE: 2.52
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-04 Wed 17:42]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:58]
    :END:
 
    noun
@@ -5882,17 +5882,17 @@
 
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-28 Sun>
    :PROPERTIES:
    :ID:       cadd7799-843a-4417-8e8a-41baa5475a50
-   :DRILL_LAST_INTERVAL: 24.048
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 62.116
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:28]
+   :DRILL_AVERAGE_QUALITY: 3.8
+   :DRILL_EASE: 2.56
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:07]
    :END:
    To [reinforce||fortify] means to make stronger. You can
    [reinforce||harden] your roof by putting some extra supports under
@@ -6152,17 +6152,17 @@
   [2016-07-16 Sat 08:57]
 
 ** ==>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-09 Fri>
    :PROPERTIES:
    :ID:       151ac95d-87b6-47fe-92c0-ee44a27662e5
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 74.2967
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 4.0
    :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:56]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:00]
    :END:
    lure
 
@@ -6185,17 +6185,17 @@
     6. залучать (entice, decoy, lure)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-02 Fri>
    :PROPERTIES:
    :ID:       1c3e8103-2ae6-485d-95db-837fe00e57df
-   :DRILL_LAST_INTERVAL: 24.8862
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 66.5457
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.75
-   :DRILL_EASE: 2.56
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.66
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:39]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:58]
    :END:
 
    noun
@@ -20697,17 +20697,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     1. поганка (toadstool, grebe, fungus, amanita, dabchick, fairy-mushroom)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       5d4ab1e9-3d28-4ca8-a1ae-2f4810ed6006
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 69.3325
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 4.5
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:38]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:04]
    :END:
 
    noun
@@ -20773,17 +20773,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     3. изношенный (threadbare, battered, frazzled, decrepit, outworn, worn down with use)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-12-01 Fri>
    :PROPERTIES:
    :ID:       44f5d8e4-d2c0-49eb-b27b-5e8e976cf9bb
-   :DRILL_LAST_INTERVAL: 24.8862
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.4
-   :DRILL_EASE: 2.56
+   :DRILL_LAST_INTERVAL: 4.28
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 3.429
+   :DRILL_EASE: 2.66
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:37]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:15]
    :END:
 
    adjective
@@ -20828,17 +20828,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
    but not disastrously falling apart.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-24 Wed>
    :PROPERTIES:
    :ID:       cc08c21d-ab50-4831-83aa-ade9af67c925
-   :DRILL_LAST_INTERVAL: 23.2385
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 58.0033
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_AVERAGE_QUALITY: 3.6
    :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:31]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:07]
    :END:
    At the edge of the estate was a small cottage inhabited by the
    gardener and his wife, an elderly, rather [decrepit] pair who seemed
@@ -21228,17 +21228,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     1. колоть штыком (bayonet)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       67ea6028-dc8e-46a8-8bda-1521b2301448
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.2
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:53]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:59]
    :END:
 
    noun
@@ -21363,17 +21363,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-09 Fri 15:41]
 
 ** !!>                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       1a3514ee-3380-48d5-abc2-75a4823f2215
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.75
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-28 Thu 17:27]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:06]
    :END:
    caustic
 
@@ -21474,17 +21474,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-09 Fri 15:42]
 
 ** !!>                                                                :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-01-22 Mon>
    :PROPERTIES:
    :ID:       93208ee9-1105-46b7-be91-58d44bcaf480
-   :DRILL_LAST_INTERVAL: 22.4564
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 56.0512
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:28]
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:58]
    :END:
    hobble
 
@@ -21611,17 +21611,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     4. кладбищенский вор (ghoul)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       8860db83-4563-42dd-a86a-fb7a5225751c
-   :DRILL_LAST_INTERVAL: 28.7036
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.8969
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_AVERAGE_QUALITY: 4.5
    :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:55]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:01]
    :END:
 
    noun
@@ -21631,17 +21631,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
       frighteningly close, and werewolves paced from along the walls."
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       63cb9101-3067-4dd7-a7ec-8140a0f7d7b4
-   :DRILL_LAST_INTERVAL: 26.791
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 69.3351
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
+   :DRILL_AVERAGE_QUALITY: 4.25
    :DRILL_EASE: 2.6
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:42]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:14]
    :END:
    A [ghoul] is an evil demon, ghost, or fiend. On Halloween, the kids
    dressed as fairies and pumpkins look cute. The kids dressed as [ghoul]s,
@@ -21742,17 +21742,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
       "thorns [snag]ged his sweater"
 
 ** -->                                                                :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-02 Fri>
    :PROPERTIES:
    :ID:       350f72ff-c096-45e1-8348-7246d243e2a2
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 66.9774
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.75
+   :DRILL_AVERAGE_QUALITY: 3.8
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:40]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:00]
    :END:
    A [snag] is something sharp that sticks out, like a splinter or a dead
    tree branch. It’s also a hitch in a plan. If you develop a terrible
@@ -21872,17 +21872,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-09 Fri 11:21]
 
 ** !!>                                                                :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-18 Thu>
    :PROPERTIES:
    :ID:       9375adaf-e3e3-4c84-8e38-c79ab970d581
-   :DRILL_LAST_INTERVAL: 20.6501
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 51.5013
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.32
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.42
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-06 Fri 19:40]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:07]
    :END:
    boisterous
 
@@ -22106,17 +22106,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     28. развитие (development, growth, evolution, progress, extension, sweep)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       10249039-59ce-4ad4-a12f-5f3d2215b0f9
-   :DRILL_LAST_INTERVAL: 24.048
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 60.0238
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.25
+   :DRILL_AVERAGE_QUALITY: 3.4
    :DRILL_EASE: 2.46
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 11:36]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:09]
    :END:
 
    noun
@@ -24822,17 +24822,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     1. презирать (despise, scorn, look down, disdain, flout, contemn)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2017-12-01 Fri>
    :PROPERTIES:
    :ID:       5ab26bd1-aeaf-4ead-9f7d-5835587bd154
-   :DRILL_LAST_INTERVAL: 19.0663
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.455
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 13
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.539
    :DRILL_EASE: 2.28
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-08 Sun 16:48]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:17]
    :END:
 
    noun
@@ -25375,17 +25375,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-26 Mon 17:18]
 
 ** %%                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       c08d9a34-4107-481b-b997-ba57e2ed8993
-   :DRILL_LAST_INTERVAL: 23.2385
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 60.025
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:36]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:03]
    :END:
    forage
 
@@ -25667,17 +25667,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     2. идти кормой вперед (stern)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2017-12-01 Fri>
    :PROPERTIES:
    :ID:       7e8a8b43-c91a-4809-9aa5-b7281ec7728c
-   :DRILL_LAST_INTERVAL: 20.621
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.857
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-10-04 Wed 17:36]
+   :DRILL_LAST_INTERVAL: 3.99
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.42
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:16]
    :END:
 
    adjective
@@ -25798,17 +25798,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     7. горячий (hot, fervent, ardent, warm, heated, earnest)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       05ba3923-fba6-48b2-a1da-328abddc48ba
-   :DRILL_LAST_INTERVAL: 26.6542
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 68.8478
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.8
+   :DRILL_AVERAGE_QUALITY: 3.833
    :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:41]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:10]
    :END:
 
    adjective
@@ -25923,17 +25923,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
     9. хватать (seize, suffice, snatch, last, claw, pluck at)
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       e460806b-d7d1-47ab-955f-0a623017a4df
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 69.3325
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.6
+   :DRILL_AVERAGE_QUALITY: 3.714
+   :DRILL_EASE: 2.7
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:36]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:03]
    :END:
 
    verb
@@ -26219,17 +26219,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
    of your neighbors laughing through the wall of your apartment.
 
 ** &&                                                                 :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-28 Sun>
    :PROPERTIES:
    :ID:       c4ca9d09-47f1-43a9-8b0a-a0c74dbe2608
-   :DRILL_LAST_INTERVAL: 24.0814
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 62.2023
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 4.25
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-03 Tue 06:31]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:08]
    :END:
    If you don't want your brother to hear you cry after you finish a
    sad book, you might put your covers over your head, so all he'll
@@ -26592,17 +26592,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-09 Fri>
    :PROPERTIES:
    :ID:       6b0b04d4-4f22-4cd4-bdda-9575f4bec003
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 74.2967
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_AVERAGE_QUALITY: 4.5
    :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:55]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:57]
    :END:
 
    adjective
@@ -26611,17 +26611,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 
 
 ** -->                                                                :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-01-26 Fri>
    :PROPERTIES:
    :ID:       84f3dde9-145f-4dff-8006-e0d848a581f5
-   :DRILL_LAST_INTERVAL: 23.2385
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_LAST_INTERVAL: 60.025
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 9
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.875
-   :DRILL_EASE: 2.46
+   :DRILL_AVERAGE_QUALITY: 3.111
+   :DRILL_EASE: 2.56
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-10-04 Wed 17:40]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:10]
    :END:
    When something fails to deliver a useful result, you can call it
    [futile]. Hopefully all the time you're spending studying vocabulary
@@ -27399,17 +27399,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-30 Fri 17:52]
 
 ** ~~+~~                                                              :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-02-04 Sun>
    :PROPERTIES:
    :ID:       c8093433-2e41-45d1-8312-46cda7cc1ee2
-   :DRILL_LAST_INTERVAL: 26.791
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 69.3351
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
+   :DRILL_AVERAGE_QUALITY: 4.25
    :DRILL_EASE: 2.6
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:34]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:14]
    :END:
    spiky
 
@@ -27427,17 +27427,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 
 
 ** DEFINITION                                                         :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2017-12-01 Fri>
    :PROPERTIES:
    :ID:       c59b49d5-72b0-4041-a796-243f54a1cea8
-   :DRILL_LAST_INTERVAL: 26.791
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.8
    :DRILL_EASE: 2.6
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:39]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:15]
    :END:
 
    adjective
@@ -27550,17 +27550,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-06-30 Fri 17:56]
 
 ** ~~+~~                                                              :drill:
-   SCHEDULED: <2017-10-27 Fri>
+   SCHEDULED: <2018-02-06 Tue>
    :PROPERTIES:
    :ID:       98fd2da2-d738-42a8-b3f5-082f01a73339
-   :DRILL_LAST_INTERVAL: 26.702
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 71.3744
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.333
-   :DRILL_EASE: 2.56
+   :DRILL_AVERAGE_QUALITY: 4.5
+   :DRILL_EASE: 2.66
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-30 Sat 13:40]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:10]
    :END:
    hoist
 
@@ -27990,17 +27990,17 @@ truck would be an occlusion on the highway. Occlusions are in the way.
   [2017-07-01 Sat 18:47]
 
 ** ~~+~~                                                              :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       967d5ac9-9b6f-488c-b8d3-42615e4a75d7
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.9036
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
-   :DRILL_EASE: 2.7
+   :DRILL_AVERAGE_QUALITY: 4.75
+   :DRILL_EASE: 2.8
    :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:52]
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:56]
    :END:
    enchanting
 
@@ -28435,33 +28435,33 @@ truck would be an occlusion on the highway. Occlusions are in the way.
 
 
 ** >>                                                                 :drill:
-   SCHEDULED: <2017-10-25 Wed>
+   SCHEDULED: <2018-02-09 Fri>
    :PROPERTIES:
    :ID:       9552c4d0-bb91-47fc-b68d-d88587bcfcb9
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 74.2967
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 4.0
    :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:51]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 13:59]
    :END:
    [Decorum] is proper and polite behavior. If you let out a big belch at
    a fancy dinner party, you're not showing much [decorum].
 
 ** >>                                                                 :drill:
-   SCHEDULED: <2017-10-26 Thu>
+   SCHEDULED: <2018-02-12 Mon>
    :PROPERTIES:
    :ID:       2a80f292-0e59-4737-99a0-f4141b8301aa
-   :DRILL_LAST_INTERVAL: 28.7036
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 76.8969
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 4.667
+   :DRILL_AVERAGE_QUALITY: 4.5
    :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2017-09-27 Wed 04:55]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2017-11-27 Mon 14:04]
    :END:
    This noun is from Latin decōrus "proper, becoming, handsome," from
    décor "beauty, grace," which is also the source of English décor.
