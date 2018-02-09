@@ -1,0 +1,19 @@
+#+AUTHOR:    Anton S. Kosinov
+#+TITLE:     Mental Athlete ToDo List
+#+SUBTITLE:  Life in a plain text
+#+EMAIL:     a.s.kosinov@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall
+#+PROPERTY:header-args :results output :exports both
+# :session :cache yes :tangle yes :comments org 
+* English
+** Grammar
+** Vocabulary
+** Writing
+* Emacs
+** Org-mode
+*** TODO Calendar
+    SCHEDULED: <2018-02-09 Fri 08:20>
+** Python-mode
+* Programming
+
