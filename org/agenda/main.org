@@ -14,6 +14,15 @@
 ** Org-mode
 *** DONE Calendar
     SCHEDULED: <2018-02-09 Fri 08:20>
+*** TODO Agenda rigorous dissection
+    SCHEDULED: <2018-02-12 Mon 20:00>
+*** TODO Capture
+    SCHEDULED: <2018-02-13 Mon 10:00>
+    Make capture for org-drill items generation with minimal
+    interruption
 ** Python-mode
 * Programming
+** Formal Methods of Software Design
+*** TODO Introduction
+    SCHEDULED: <2018-02-13 Tue 08:30>
 
