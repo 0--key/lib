@@ -1,0 +1,48 @@
+#+AUTHOR:    Anton S. Kosinov
+#+TITLE:     Mental Athlete ToDo List
+#+SUBTITLE:  Life in a plain text
+#+EMAIL:     a.s.kosinov@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall
+
+
+* Past simple
+
+** Past simple definition                                             :drill:
+   SCHEDULED: <2018-02-19 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       eb948347-88ff-422d-84bd-8602015eccaa
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-02-15 Thu 11:00]
+   :END:
+
+  This is the basic past tense. We use it [whenever] we want to talk
+  about the past and we don't have any [special situation] that means
+  we should use the past perfect, present perfect or past continuous.
+
+
+** Past simple usage cases                                            :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       ed2d64d4-fc3a-44bb-95e7-b0243213c8e1
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 0.5
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [2018-02-15 Thu 11:00]
+   :END:
+
+   - [Finished actions, states or habits in the past];
+   - [Finished time period];
+   - [Details of news];
+   - [Actions in stories].
