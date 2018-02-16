@@ -8,6 +8,9 @@
 # :session :cache yes :tangle yes :comments org 
 * English
 ** Grammar
+*** TODO Past tenses
+    DEADLINE: <2018-02-15 Thu 13:00>
+    Elaborate an initial [[file:/usr/local/git/0--key/lib/org/eng_grammar.org::*Past%20simple][org-drill]]
 ** Vocabulary
 ** Writing
 * Emacs
@@ -15,9 +18,11 @@
 *** DONE Calendar
     SCHEDULED: <2018-02-09 Fri 08:20>
 *** TODO Agenda rigorous dissection
-    SCHEDULED: <2018-02-12 Mon 20:00>
+    SCHEDULED: <2018-02-16 Fri 16:00>
+    - Export int .ics
+    - Import into specific Google Calendar
 *** TODO Capture
-    SCHEDULED: <2018-02-13 Mon 10:00>
+    SCHEDULED: <2018-02-16 Fri 17:00>
     Make capture for org-drill items generation with minimal
     interruption
 ** Python-mode
