@@ -25,9 +25,13 @@
     SCHEDULED: <2018-02-16 Fri 17:00>
     Make capture for org-drill items generation with minimal
     interruption
+*** TODO Macros
+    SCHEDULED: <2018-02-17 Sat 12:30>
+    To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
 ** Formal Methods of Software Design
 *** TODO Introduction
     SCHEDULED: <2018-02-13 Tue 08:30>
-
+*** TODO Extract the binary terminology
+    SCHEDULED: <2018-02-17 Sat 13:30>
