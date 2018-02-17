@@ -1,0 +1,42 @@
+#+AUTHOR:    Anton S. Kosinov
+#+TITLE:     Programming Theory Dissection
+#+SUBTITLE:  Life in a plain text
+#+EMAIL:     a.s.kosinov@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall
+* Basic Theories
+** Binary Theory
+*** >>>                                                               :drill:
+    SCHEDULED: <2018-02-21 Wed>
+    :PROPERTIES:
+    :DRILL_CARD_TYPE: hide2cloze
+    :ID:       006ab9b4-2812-43b8-bafe-83f3ef305407
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-02-17 Sat 11:07]
+    :END:
+    Binary Theory, also known as [boolean algebra], or [logic], was
+    designed as an [aid] to reasoning, and we will use it to [reason]
+    about computation.
+*** >>>                                                               :drill:
+    SCHEDULED: <2018-02-21 Wed>
+    :PROPERTIES:
+    :DRILL_CARD_TYPE: hide2cloze
+    :ID:       8ffa33dc-5f91-4bb5-90d2-40809a52a369
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-02-17 Sat 11:08]
+    :END:
+    The expressions of Binary Theory are called [binary expressions].
+    We call some binary expressions [theorems], and others
+    [antitheorems].
