@@ -40,7 +40,18 @@
     The expressions of Binary Theory are called [binary expressions].
     We call some binary expressions [theorems], and others
     [antitheorems].
-
+*** Implication operator definition
+    #+BEGIN_QUOTE
+    The implication operator is reflexive a⇒a , antisymmetric (a⇒b) ∧
+    (b⇒a) = (a=b) , and transitive (a⇒b) ∧ (b⇒c) ⇒ (a⇒c) . It is
+    therefore an ordering (just like ≤ for numbers). We pronounce a⇒b
+    either as “ a implies b ”, or, to emphasize the ordering, as “ a
+    is stronger than or equal to b ”. Likewise a⇐b is pronounced
+    either as “ a is implied by b ”, or as “ a is weaker than or equal
+    to b ”. The words “stronger” and “weaker” may have come from a
+    philosophical origin, we ignore any meaning they may have other
+    than the binary order, in which ⊥ is stronger than T .
+    #+END_QUOTE
 
 * Vocabulary
 
