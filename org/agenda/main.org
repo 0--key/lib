@@ -30,8 +30,14 @@
     To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
-** Formal Methods of Software Design
-*** TODO Introduction
-    SCHEDULED: <2018-02-13 Tue 08:30>
-*** TODO Extract the binary terminology
-    SCHEDULED: <2018-02-17 Sat 13:30>
+** Theory
+*** Formal Methods of Software Design
+**** TODO Introduction
+     SCHEDULED: <2018-02-13 Tue 08:30>
+**** TODO Extract the binary terminology
+     SCHEDULED: <2018-02-17 Sat 13:30>
+** Practice
+*** Data Visualisation
+    SCHEDULED: <2018-02-20 Tue 18:00>
+*** Big data meta-analysis
+    SCHEDULED: <2018-02-20 Tue 17:00>
