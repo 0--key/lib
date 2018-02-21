@@ -18,15 +18,15 @@
 *** DONE Calendar
     SCHEDULED: <2018-02-09 Fri 08:20>
 *** TODO Agenda rigorous dissection
-    SCHEDULED: <2018-02-16 Fri 16:00>
+    SCHEDULED: <2018-02-22 Thu 16:00> DEADLINE: <2018-02-22 Thu 17:00>
     - Export int .ics
     - Import into specific Google Calendar
 *** TODO Capture
-    SCHEDULED: <2018-02-16 Fri 17:00>
+    DEADLINE: <2018-02-22 Thu 18:00> SCHEDULED: <2018-02-22 Thu 17:00>
     Make capture for org-drill items generation with minimal
     interruption
 *** TODO Macros
-    SCHEDULED: <2018-02-17 Sat 12:30>
+    DEADLINE: <2018-02-22 Thu 13:00> SCHEDULED: <2018-02-22 Thu 12:30>
     To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
