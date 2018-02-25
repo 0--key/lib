@@ -6,6 +6,15 @@
 #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
+* TODO [#A] Time Management
+
+** DONE General concepts overview
+   SCHEDULED: <2018-02-26 Mon 10:00>
+   DEADLINE: <2018-02-26 Mon 12:00>
+
+** TODO [#C] Implementation in Org-mode studying
+   SCHEDULED: <2018-02-26 Mon 10:00>
+   DEADLINE: <2018-02-26 Mon 12:00>
 * English
 ** Grammar
 *** TODO Past tenses
