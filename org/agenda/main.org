@@ -26,8 +26,8 @@
 ** Org-mode
 *** DONE Calendar
     SCHEDULED: <2018-02-09 Fri 08:20>
-*** TODO Agenda rigorous dissection
-    SCHEDULED: <2018-02-22 Thu 16:00> DEADLINE: <2018-02-22 Thu 17:00>
+*** TODO [#B] Agenda rigorous dissection
+    SCHEDULED: <2018-02-26 Mon 16:00> DEADLINE: <2018-02-26 Mon 17:00>
     - Export int .ics
     - Import into specific Google Calendar
 *** TODO Capture
