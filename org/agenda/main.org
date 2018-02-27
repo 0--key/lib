@@ -19,6 +19,9 @@
    DEADLINE: <2018-02-26 Mon 12:00>
 
 ** TODO Configuring Gnome3 desktops
+   :PROPERTIES:
+   :CATEGORY: Desktop
+   :END:
    DEADLINE: <2018-02-28 Wed 13:00> SCHEDULED: <2018-02-28 Wed 12:00>
    It might be convinient to allocate the particular window of each
    applicaton on several (appropriate 4) desktops to switch between
