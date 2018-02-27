@@ -6,6 +6,8 @@
 #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
+#+CATEGORY: Thesis
+
 * TODO [#A] Time Management
 
 ** DONE General concepts overview
