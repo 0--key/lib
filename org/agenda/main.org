@@ -44,10 +44,12 @@
     - Import into specific Google Calendar
 **** DONE Timestamps
     <2018-02-28 Wed 17:30-18:25> 
-**** TODO Creating timestamps
+**** DONE Creating timestamps
      <2018-02-28 Wed 18:30-18:55>
-**** TODO Deadlines and scheduling
+**** DONE Deadlines and scheduling
      <2018-02-28 Wed 19:00-19:25>
+**** DONE Additional state 'MayBe'
+     <2018-02-28 Wed 19:30-19:55>
 *** TODO Capture
     DEADLINE: <2018-02-22 Thu 18:00> SCHEDULED: <2018-02-22 Thu 17:00>
     Make capture for org-drill items generation with minimal
