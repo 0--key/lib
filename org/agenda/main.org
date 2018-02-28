@@ -42,6 +42,12 @@
     SCHEDULED: <2018-02-26 Mon 16:00> DEADLINE: <2018-02-26 Mon 17:00>
     - Export int .ics
     - Import into specific Google Calendar
+**** DONE Timestamps
+    <2018-02-28 Wed 17:30-18:25> 
+**** TODO Creating timestamps
+     <2018-02-28 Wed 18:30-18:55>
+**** TODO Deadlines and scheduling
+     <2018-02-28 Wed 19:00-19:25>
 *** TODO Capture
     DEADLINE: <2018-02-22 Thu 18:00> SCHEDULED: <2018-02-22 Thu 17:00>
     Make capture for org-drill items generation with minimal
