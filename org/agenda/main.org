@@ -7,6 +7,7 @@
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
 #+CATEGORY: Thesis
+#+TODO: TODO | MAYBE DONE
 
 * TODO [#A] Time Management
 
