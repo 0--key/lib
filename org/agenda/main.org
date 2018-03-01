@@ -26,6 +26,7 @@
    applicaton on several (appropriate 4) desktops to switch between
    tasks in a smooth manner, just by switching current desktop.
 
+
 * English
 ** Grammar
 *** TODO Past tenses
@@ -72,7 +73,11 @@
     Make capture for org-drill items generation with minimal
     interruption
 *** TODO Macros
+    :LOGBOOK:
+    CLOCK: [2018-03-01 Thu 18:23]--[2018-03-01 Thu 18:48] =>  0:25
+    :END:
     <2018-02-22 Thu 12:30-13:00>
+    <2018-03-01 Thu 18:23-18:48>
     To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
