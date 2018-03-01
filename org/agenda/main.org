@@ -12,19 +12,16 @@
 * TODO [#A] Time Management
 
 ** DONE General concepts overview
-   SCHEDULED: <2018-02-26 Mon 10:00>
-   DEADLINE: <2018-02-26 Mon 12:00>
+   <2018-02-26 Mon 10:00-12:00>
 
 ** TODO [#C] Implementation in Org-mode studying
-   SCHEDULED: <2018-02-26 Mon 10:00>
-   DEADLINE: <2018-02-26 Mon 12:00>
+   <2018-02-26 Mon 12:00-13:00>
 
 ** MAYBE Configuring Gnome3 desktops
    <2018-02-28 Wed 11:30-11:55>
    :PROPERTIES:
    :CATEGORY: Desktop
    :END:
-   DEADLINE: <2018-02-28 Wed 13:00> SCHEDULED: <2018-02-28 Wed 12:00>
    It might be convinient to allocate the particular window of each
    applicaton on several (appropriate 4) desktops to switch between
    tasks in a smooth manner, just by switching current desktop.
@@ -32,16 +29,16 @@
 * English
 ** Grammar
 *** TODO Past tenses
-    DEADLINE: <2018-02-15 Thu 13:00>
+    <2018-02-15 Thu 12:00-13:00>
     Elaborate an initial [[file:/usr/local/git/0--key/lib/org/eng_grammar.org::*Past%20simple][org-drill]]
 ** Vocabulary
 ** Writing
 * Emacs
 ** Org-mode
 *** DONE Calendar
-    SCHEDULED: <2018-02-09 Fri 08:20>
-*** TODO [#B] Agenda rigorous dissection
-    SCHEDULED: <2018-02-26 Mon 16:00> DEADLINE: <2018-02-26 Mon 17:00>
+    <2018-02-09 Fri 08:20-08:45>
+*** DONE [#B] Agenda rigorous dissection
+    <2018-02-26 Mon 16:00-17:00>
     - Export int .ics
     - Import into specific Google Calendar
 **** DONE Timestamps
@@ -70,23 +67,23 @@
      :END:
      <2018-03-01 Thu 10:30-10:55>
 *** TODO Capture
-    DEADLINE: <2018-02-22 Thu 18:00> SCHEDULED: <2018-02-22 Thu 17:00>
+    <2018-02-22 Thu 17:00-18:00>
     Make capture for org-drill items generation with minimal
     interruption
 *** TODO Macros
-    DEADLINE: <2018-02-22 Thu 13:00> SCHEDULED: <2018-02-22 Thu 12:30>
+    <2018-02-22 Thu 12:30-13:00>
     To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
 ** Theory
 *** Formal Methods of Software Design
 **** TODO Introduction
-     SCHEDULED: <2018-02-13 Tue 08:30>
+     <2018-02-13 Tue 08:30-08:55>
 **** TODO Extract the binary terminology
-     SCHEDULED: <2018-02-17 Sat 13:30>
+     <2018-02-17 Sat 13:30-13:55>
 ** Practice
 *** Data Visualisation
-    SCHEDULED: <2018-02-20 Tue 18:00>
+    <2018-02-20 Tue 18:00-19:00>
 *** Big data meta-analysis
-    SCHEDULED: <2018-02-27 Tue 17:00>
+    <2018-02-27 Tue 17:00-17:55>
 
