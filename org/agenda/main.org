@@ -38,9 +38,9 @@
 ** Org-mode
 *** ACTIVE Calendar
     <2018-02-09 Fri 08:20-08:45>
-    <2018-03-02 Fri 19:20-19:45>
-*** DONE [#B] Agenda rigorous dissection
-    <2018-02-26 Mon 16:00-17:00>
+    <2018-03-03 Sat 19:20-19:45>
+*** IN_PROGRESS [#B] Agenda rigorous dissection
+    <2018-03-03 Sat 16:00-17:00>
     - Export int .ics
     - Import into specific Google Calendar
 **** DONE Timestamps
@@ -49,7 +49,7 @@
      <2018-02-28 Wed 18:30-18:55>
 **** DONE Deadlines and scheduling
      <2018-02-28 Wed 19:00-19:25>
-**** EXTENDED Additional state 'MayBe'
+**** CLOSED EXTENDED Additional state 'MayBe'
      <2018-02-28 Wed 19:30-19:55>
 ***** ACTIVE Additional workflow states
       :LOGBOOK:
@@ -81,7 +81,7 @@
        CLOCK: [2018-03-02 Fri 18:25]--[2018-03-02 Fri 18:38] =>  0:13
        CLOCK: [2018-03-02 Fri 18:21]--[2018-03-02 Fri 18:22] =>  0:01
        :END:
-       <2018-03-02 Fri 18:20-18:45>
+       <2018-03-03 Sat 18:20-18:45>
 
        The main is an initial core for =TODO= tasks, and it should be
        extended by several satellite files in the =org= folder. So,
@@ -106,11 +106,12 @@
 **** DONE Clocking work time
      <2018-03-01 Thu 09:00-09:25>
      <2018-03-01 Thu 17:00-17:25>
-**** DONE Effort estimates
+**** IN_PROGRESS Effort estimates
      :LOGBOOK:
      CLOCK: [2018-03-01 Thu 09:39]--[2018-03-01 Thu 09:53] =>  0:14
      :END:
      <2018-03-01 Thu 09:30-09:55>
+     <2018-03-05 Mon 12:00-12:25>
 **** DONE Timers
      :LOGBOOK:
      CLOCK: [2018-03-01 Thu 09:59]--[2018-03-01 Thu 10:02] =>  0:03
@@ -132,7 +133,7 @@
     :END:
     <2018-02-22 Thu 12:30-13:00>
     <2018-03-01 Thu 18:23-18:48>
-    <2018-03-02 Fri 18:50-19:15>
+    <2018-03-03 Sat 18:50-19:15>
     To convert =voca-builder= item into =Drill=
 **** ACTIVE Vocabla items classification
      - Pristine
