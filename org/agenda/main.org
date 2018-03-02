@@ -66,17 +66,41 @@
       + COMMITTED
       + CLOSED
       + REMOVED
-****** ACTIVE New states classification
+****** CLOSED New states classification
        <2018-03-02 Fri 17:50-18:15>
 ******* Innate
 	- TODO - very initial state
 	- DONE - final and infinite for a week
-******* ACTIVE Additional for leaning stages
+******* CLOSED Additional for leaning stages
 	+ ACTIVE - after initial first pomodoro
 	+ IN PROGRESS - three <= pomodoro <=five
 	+ MAYBE - postponed
 	+ CLOSED - next Moon
-******* TODO Average workflow
+****** ACTIVE Average workflow
+       :LOGBOOK:
+       CLOCK: [2018-03-02 Fri 18:25]--[2018-03-02 Fri 18:38] =>  0:13
+       CLOCK: [2018-03-02 Fri 18:21]--[2018-03-02 Fri 18:22] =>  0:01
+       :END:
+       <2018-03-02 Fri 18:20-18:45>
+
+       The main is an initial core for =TODO= tasks, and it should be
+       extended by several satellite files in the =org= folder. So,
+       browsing somwhere it might be possible to assign any task and
+       include it into your agenda view by =TODO= state.
+
+       The initial dissection of some particular task would change its
+       state into =ACTIVE=, on a flip side - rejection of this task
+       changes its state into =MAYBE=. It's is just the second
+       preliminary classification and it is absolutely normal to
+       reject 80% of items previously choosen.
+
+       After the second sift you'll get a set of tasks in three
+       aggregate states:
+
+       - TODO - they all demand a secondary classification
+       - ACTIVE - processed and resolving
+       - MAYBE - postponed for a month or later
+****** 
 
 	
 **** DONE Clocking work time
