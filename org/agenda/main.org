@@ -36,8 +36,9 @@
 ** Writing
 * Emacs
 ** Org-mode
-*** DONE Calendar
+*** ACTIVE Calendar
     <2018-02-09 Fri 08:20-08:45>
+    <2018-03-02 Fri 19:20-19:45>
 *** DONE [#B] Agenda rigorous dissection
     <2018-02-26 Mon 16:00-17:00>
     - Export int .ics
@@ -52,7 +53,7 @@
      <2018-02-28 Wed 19:30-19:55>
 ***** ACTIVE Additional workflow states
       :LOGBOOK:
-      CLOCK: [2018-03-02 Fri 17:49]
+      CLOCK: [2018-03-02 Fri 17:49]--[2018-03-02 Fri 18:14] =>  0:25
       CLOCK: [2018-03-02 Fri 11:56]--[2018-03-02 Fri 12:09] =>  0:13
       :END:
       <2018-03-02 Fri 11:30-11:55>
@@ -96,16 +97,17 @@
      CLOCK: [2018-03-01 Thu 10:03]--[2018-03-01 Thu 10:12] =>  0:09
      :END:
      <2018-03-01 Thu 10:30-10:55>
-*** TODO Capture
+*** ACTIVE Capture
     <2018-02-22 Thu 17:00-18:00>
     Make capture for org-drill items generation with minimal
     interruption
-*** TODO Macros
+*** IN_PROGRESS Macros
     :LOGBOOK:
     CLOCK: [2018-03-01 Thu 18:23]--[2018-03-01 Thu 18:48] =>  0:25
     :END:
     <2018-02-22 Thu 12:30-13:00>
     <2018-03-01 Thu 18:23-18:48>
+    <2018-03-02 Fri 18:50-19:15>
     To convert =voca-builder= item into =Drill=
 ** Python-mode
 * Programming
