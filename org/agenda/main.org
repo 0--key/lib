@@ -127,12 +127,31 @@
     interruption
 *** IN_PROGRESS Macros
     :LOGBOOK:
+    CLOCK: [2018-03-02 Fri 18:55]--[2018-03-02 Fri 19:17] =>  0:22
     CLOCK: [2018-03-01 Thu 18:23]--[2018-03-01 Thu 18:48] =>  0:25
     :END:
     <2018-02-22 Thu 12:30-13:00>
     <2018-03-01 Thu 18:23-18:48>
     <2018-03-02 Fri 18:50-19:15>
     To convert =voca-builder= item into =Drill=
+**** ACTIVE Vocabla items classification
+     - Pristine
+       Three sections (most of them)
+
+     - Corrupted
+       + Rare words
+**** TODO Wrong mark-up in vocabulary
+     <2018-03-05 Mon 11:30-11:55>
+
+	 Should be fixed manually once a month, because
+         otherwise you don't have enough time to learn and rehearse
+         the set of already collected.
+**** CLOSED Additional combinations
+     - C-x () start/end macros definition
+     - C-x e execute it
+**** CLOSED Make a function and save it for future usage
+     - ‘C-x C-k n’ - assign a new name for ~hot~ macros
+     - ‘M-x insert-kbd-macro’ - spew ~hot~ macros into current buffer
 ** Python-mode
 * Programming
 ** Theory
