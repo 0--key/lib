@@ -42,9 +42,15 @@
 ** Writing
 * Emacs
 ** Org-mode
-*** ACTIVE Calendar
+*** IN_PROGRESS Calendar
+    :LOGBOOK:
+    CLOCK: [2018-03-03 Sat 12:29]--[2018-03-03 Sat 12:55] =>  0:26
+    :END:
     <2018-02-09 Fri 08:20-08:45>
     <2018-03-03 Sat 12:35-13:00>
+**** ACTIVE Sunrise
+     <2018-03-03 Sat 13:35-13:45>
+     Follow this [[info:Emacs#Sunrise/Sunset][link]] and set ~longitude and latitude~ in =default.el=
 *** IN_PROGRESS [#B] Agenda features dissection
     <2018-03-03 Sat 12:05-12:30>
     - Export int .ics
