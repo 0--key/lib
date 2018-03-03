@@ -118,12 +118,19 @@
 **** DONE Clocking work time
      <2018-03-01 Thu 09:00-09:25>
      <2018-03-01 Thu 17:00-17:25>
-**** IN_PROGRESS Effort estimates
+**** CLOSED Effort estimates
+     :PROPERTIES:
+     :Effort:   1:00
+     :END:
      :LOGBOOK:
+     CLOCK: [2018-03-03 Sat 13:49]--[2018-03-03 Sat 13:52] =>  0:03
+     CLOCK: [2018-03-03 Sat 13:34]--[2018-03-03 Sat 13:49] =>  0:15
      CLOCK: [2018-03-01 Thu 09:39]--[2018-03-01 Thu 09:53] =>  0:14
      :END:
      <2018-03-01 Thu 09:30-09:55>
      <2018-03-05 Mon 12:00-12:25>
+     <2018-03-03 Sat 13:35-14:00>
+     [[info:org#Effort%20estimates][info:org#Effort estimates]]
 **** DONE Timers
      :LOGBOOK:
      CLOCK: [2018-03-01 Thu 09:59]--[2018-03-01 Thu 10:02] =>  0:03
