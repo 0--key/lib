@@ -59,6 +59,7 @@
 
 (define-key global-map "\C-cc" 'org-capture)
 (global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cl" 'org-store-link)
 
 (key-chord-define org-mode-map "DD"     'org-drill)
 (key-chord-define org-mode-map "AA"     'org-drill-again)
