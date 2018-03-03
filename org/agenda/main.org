@@ -11,10 +11,16 @@
 
 * TODO [#A] Time Management
 
-** DONE General concepts overview
+** CLOSED General concepts overview
    <2018-02-26 Mon 10:00-12:00>
 
-** TODO [#C] Implementation in Org-mode studying
+** ACTIVE Daily agenda elaboration
+   :LOGBOOK:
+   CLOCK: [2018-03-03 Sat 11:43]--[2018-03-03 Sat 12:06] =>  0:23
+   :END:
+   <2018-03-03 Sat 11:40-12:05>
+   
+** TODO [#C] Implementation in Org-mode studying :ARCHIVE:
    <2018-02-26 Mon 12:00-13:00>
 
 ** MAYBE Configuring Gnome3 desktops
@@ -38,9 +44,9 @@
 ** Org-mode
 *** ACTIVE Calendar
     <2018-02-09 Fri 08:20-08:45>
-    <2018-03-03 Sat 19:20-19:45>
-*** IN_PROGRESS [#B] Agenda rigorous dissection
-    <2018-03-03 Sat 16:00-17:00>
+    <2018-03-03 Sat 12:35-13:00>
+*** IN_PROGRESS [#B] Agenda features dissection
+    <2018-03-03 Sat 12:05-12:30>
     - Export int .ics
     - Import into specific Google Calendar
 **** DONE Timestamps
@@ -133,7 +139,7 @@
     :END:
     <2018-02-22 Thu 12:30-13:00>
     <2018-03-01 Thu 18:23-18:48>
-    <2018-03-03 Sat 18:50-19:15>
+    <2018-03-03 Sat 13:05-13:30>
     To convert =voca-builder= item into =Drill=
 **** ACTIVE Vocabla items classification
      - Pristine
