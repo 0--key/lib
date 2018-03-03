@@ -173,6 +173,8 @@
 **** CLOSED Make a function and save it for future usage
      - ‘C-x C-k n’ - assign a new name for ~hot~ macros
      - ‘M-x insert-kbd-macro’ - spew ~hot~ macros into current buffer
+
+       [[info:emacs#Save%20Keyboard%20Macro][info:emacs#Save Keyboard Macro]]
 ** Python-mode
 * Programming
 ** Theory
