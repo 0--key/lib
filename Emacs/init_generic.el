@@ -58,6 +58,7 @@
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
 
 (define-key global-map "\C-cc" 'org-capture)
+(global-set-key "\C-ca" 'org-agenda)
 
 (key-chord-define org-mode-map "DD"     'org-drill)
 (key-chord-define org-mode-map "AA"     'org-drill-again)
