@@ -117,11 +117,12 @@
        - ACTIVE - processed and resolving
        - MAYBE - postponed for a month or later
 ****** 
-**** TODO Regular events scheduling
+**** IN_PROGRESS Regular events scheduling
      :LOGBOOK:
-     CLOCK: [2018-03-04 Sun 17:02]
+     CLOCK: [2018-03-04 Sun 17:02]--[2018-03-04 Sun 17:23] =>  0:21
      :END:
-     <2018-03-04 Sun 09:30-09:55>
+     <2018-03-06 Tue 09:30-09:55>
+     
 **** DONE Clocking work time
      <2018-03-01 Thu 09:00-09:25>
      <2018-03-01 Thu 17:00-17:25>
