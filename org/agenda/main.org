@@ -18,7 +18,7 @@
    :LOGBOOK:
    CLOCK: [2018-03-03 Sat 11:43]--[2018-03-03 Sat 12:06] =>  0:23
    :END:
-   <2018-03-03 Sat 11:40-12:05>
+   <2018-03-04 Sun 07:40-08:05>
    
 ** TODO [#C] Implementation in Org-mode studying :ARCHIVE:
    <2018-02-26 Mon 12:00-13:00>
@@ -52,7 +52,11 @@
      <2018-03-17 Sat 13:35-13:45>
      Follow this [[info:Emacs#Sunrise/Sunset][link]] and set ~longitude and latitude~ in =default.el=
 *** IN_PROGRESS [#B] Agenda features dissection
-    <2018-03-03 Sat 12:05-12:30>
+    :LOGBOOK:
+    CLOCK: [2018-03-04 Sun 10:16]--[2018-03-04 Sun 10:35] =>  0:19
+    CLOCK: [2018-03-04 Sun 10:16]--[2018-03-04 Sun 10:16] =>  0:00
+    :END:
+    <2018-03-04 Sun 12:05-12:30>
     - Export int .ics
     - Import into specific Google Calendar
 **** DONE Timestamps
@@ -61,14 +65,14 @@
      <2018-02-28 Wed 18:30-18:55>
 **** DONE Deadlines and scheduling
      <2018-02-28 Wed 19:00-19:25>
-**** CLOSED EXTENDED Additional state 'MayBe'
+**** CLOSED Additional state 'MayBe'
      <2018-02-28 Wed 19:30-19:55>
 ***** ACTIVE Additional workflow states
       :LOGBOOK:
       CLOCK: [2018-03-02 Fri 17:49]--[2018-03-02 Fri 18:14] =>  0:25
       CLOCK: [2018-03-02 Fri 11:56]--[2018-03-02 Fri 12:09] =>  0:13
       :END:
-      <2018-03-02 Fri 11:30-11:55>
+      <2018-03-04 Sun 11:30-11:55>
       + OPEN
       + ACTIVE
       + REOPENED
@@ -113,8 +117,11 @@
        - ACTIVE - processed and resolving
        - MAYBE - postponed for a month or later
 ****** 
-
-	
+**** TODO Regular events scheduling
+     :LOGBOOK:
+     CLOCK: [2018-03-04 Sun 17:02]
+     :END:
+     <2018-03-04 Sun 09:30-09:55>
 **** DONE Clocking work time
      <2018-03-01 Thu 09:00-09:25>
      <2018-03-01 Thu 17:00-17:25>
@@ -151,11 +158,16 @@
     CLOCK: [2018-03-02 Fri 18:55]--[2018-03-02 Fri 19:17] =>  0:22
     CLOCK: [2018-03-01 Thu 18:23]--[2018-03-01 Thu 18:48] =>  0:25
     :END:
-    <2018-02-22 Thu 12:30-13:00>
-    <2018-03-01 Thu 18:23-18:48>
-    <2018-03-03 Sat 13:05-13:30>
+    <2018-03-04 Sun 17:05-17:30>
     To convert =voca-builder= item into =Drill=
-**** ACTIVE Vocabla items classification
+**** ACTIVE [#A] Org-drill scrutiny
+     :LOGBOOK:
+     CLOCK: [2018-03-04 Sun 08:59]--[2018-03-04 Sun 10:16] =>  1:17
+     CLOCK: [2018-03-03 Sat 18:01]--[2018-03-03 Sat 18:21] => 0:20
+     :END:
+     <2018-03-04 Sun 09:00-09:20>
+     
+**** CLOSED Vocabla items classification
      - Pristine
        Three sections (most of them)
 
