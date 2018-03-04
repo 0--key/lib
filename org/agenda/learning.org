@@ -1,0 +1,10 @@
+#+AUTHOR:    Anton S. Kosinov
+#+TITLE:     Mental Athlete ToDo List
+#+SUBTITLE:  Life in a plain text
+#+EMAIL:     a.s.kosinov@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall
+#+PROPERTY:header-args :results output :exports both
+# :session :cache yes :tangle yes :comments org 
+#+CATEGORY: Thesis
+#+TODO: TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED

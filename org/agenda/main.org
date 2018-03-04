@@ -9,30 +9,6 @@
 #+CATEGORY: Thesis
 #+TODO: TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED
 
-* TODO [#A] Time Management
-
-** CLOSED General concepts overview
-   <2018-02-26 Mon 10:00-12:00>
-
-** ACTIVE Daily agenda elaboration
-   :LOGBOOK:
-   CLOCK: [2018-03-03 Sat 11:43]--[2018-03-03 Sat 12:06] =>  0:23
-   :END:
-   <2018-03-04 Sun 07:40-08:05 +1d>
-   
-** TODO [#C] Implementation in Org-mode studying :ARCHIVE:
-   <2018-02-26 Mon 12:00-13:00>
-
-** MAYBE Configuring Gnome3 desktops
-   <2018-02-28 Wed 11:30-11:55>
-   :PROPERTIES:
-   :CATEGORY: Desktop
-   :END:
-   It might be convinient to allocate the particular window of each
-   applicaton on several (appropriate 4) desktops to switch between
-   tasks in a smooth manner, just by switching current desktop.
-
-
 * English
 ** Grammar
 *** TODO Past tenses
