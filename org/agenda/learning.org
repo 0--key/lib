@@ -7,4 +7,4 @@
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
 #+CATEGORY: Thesis
-#+TODO: TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED
+#+TODO: TODO | MAYBE DONE CLOSED
