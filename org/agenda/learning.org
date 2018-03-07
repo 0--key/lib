@@ -6,5 +6,11 @@
 #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
-#+CATEGORY: Thesis
+#+CATEGORY: New Article
 #+TODO: TODO | MAYBE DONE CLOSED
+
+* TODO Time Management
+  <2018-03-07 Wed ++1w>
+* NoSQL
+* Emacs
+* Python
