@@ -6,23 +6,100 @@
 #+STARTUP: showall
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
-#+CATEGORY: Thesis
+#+CATEGORY: Routine
 #+TODO: TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED
+
+# A Pomodoro principal usage with the space repetition concept. Early
+# in the morning you'll restricted to learn a completley new material
+# which would rehearsed twice in the current day, next day and 3 days
+# later.
+
+# Naturally a Pomodoro cycle consists of 4 atomic pomodoros, and we
+# leave this structure unchanged
+
+* Active Learning
+   :PROPERTIES:
+   :CATEGORY: AL
+   :END:
+   
+** 1&1
+   <2018-03-05 Mon 07:00-07:30 ++1w>
+   <2018-03-06 Tue 07:00-07:30 ++1w>
+   <2018-03-07 Wed 07:00-07:30 ++1w>
+   <2018-03-08 Thu 07:00-07:30 ++1w>
+   <2018-03-09 Fri 07:00-07:30 ++1w>
+
+** 1&2
+   <2018-03-05 Mon 07:30-08:00 ++1w>
+   <2018-03-06 Tue 07:30-08:00 ++1w>
+   <2018-03-07 Wed 07:30-08:00 ++1w>
+   <2018-03-08 Thu 07:30-08:00 ++1w>
+   <2018-03-09 Fri 07:30-08:00 ++1w>
+
+** 1&3
+   <2018-03-05 Mon 08:00-08:30 ++1w>
+   <2018-03-05 Mon 08:00-08:30 ++1w>
+   <2018-03-05 Mon 08:00-08:30 ++1w>
+   <2018-03-05 Mon 08:00-08:30 ++1w>
+   <2018-03-05 Mon 08:00-08:30 ++1w>
+
+** 1&4
+   <2018-03-05 Mon 08:30-09:00 ++1w>
+   <2018-03-06 Tue 08:30-09:00 ++1w>
+   <2018-03-07 Wed 08:30-09:00 ++1w>
+   <2018-03-08 Thu 08:30-09:00 ++1w>
+   <2018-03-09 Fri 08:30-09:00 ++1w>
+
+
+* Learning/Rehearsal
+   :PROPERTIES:
+   :CATEGORY: L/R
+   :END:
+
+** 2&1
+   <2018-03-05 Mon 09:15-09:45>
+   <2018-03-06 Tue 09:15-09:45>
+   <2018-03-07 Wed 09:15-09:45>
+   <2018-03-08 Thu 09:15-09:45>
+   <2018-03-09 Fri 09:15-09:45>
+
+** 2
+
+** 3
+
+** 4
+
+
+* Entertainment/Rehearsal
+   :PROPERTIES:
+   :CATEGORY: E/R
+   :END:
+
+** 1
+
+** 2
+
+** 3
+
+** 4
+
 
 * TODO [#A] Time Management
 
 ** CLOSED General concepts overview
    <2018-02-26 Mon 10:00-12:00>
 
-** ACTIVE Daily agenda elaboration
+** TODO [#A] Daily agenda elaboration
    :LOGBOOK:
+   CLOCK: [2018-03-07 Wed 10:36]--[2018-03-07 Wed 10:40] =>  0:04
+   CLOCK: [2018-03-07 Wed 10:31]--[2018-03-07 Wed 10:31] =>  0:00
    CLOCK: [2018-03-03 Sat 11:43]--[2018-03-03 Sat 12:06] =>  0:23
    :END:
    <2018-03-04 Sun 07:40-08:05 +1d>
    
-** ACTIVE Weekly agenda composing
+** TODO Weekly agenda composing
    :LOGBOOK:
-   CLOCK: [2018-03-04 Sun 17:48]
+   CLOCK: [2018-03-04 Sun 17:48-18:48]--[2018-03-04 Sun 17:48] =>  0:00
    :END:
    <2018-03-04 Sun 17:00-20:00 +1w>
 
