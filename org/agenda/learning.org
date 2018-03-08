@@ -9,8 +9,15 @@
 #+CATEGORY: New Article
 #+TODO: TODO | MAYBE DONE CLOSED
 
-* TODO Time Management
-  <2018-03-07 Wed ++1w>
+* TODO [#A] Time Management
+  :PROPERTIES:
+  :LAST_REPEAT: [2018-03-07 Wed 12:39]
+  :END:
+  - State "DONE"       from "TODO"       [2018-03-07 Wed 12:39]
+  :LOGBOOK:
+  CLOCK: [2018-03-07 Wed 12:39]--[2018-03-07 Wed 12:39] =>  0:00
+  :END:
+  <2018-03-14 Wed ++1w>
 * NoSQL
 * Emacs
 * Python
