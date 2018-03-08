@@ -11,6 +11,7 @@
 
 * TODO [#A] Time Management
   :PROPERTIES:
+  :CATEGORY: MetaKnowledge
   :LAST_REPEAT: [2018-03-07 Wed 12:39]
   :END:
   - State "DONE"       from "TODO"       [2018-03-07 Wed 12:39]
@@ -18,6 +19,9 @@
   CLOCK: [2018-03-07 Wed 12:39]--[2018-03-07 Wed 12:39] =>  0:00
   :END:
   <2018-03-14 Wed ++1w>
+
+** TODO Daily Agenda Composing
+   <2018-03-08 Thu ++1d>
 * NoSQL
 * Emacs
 * Python
