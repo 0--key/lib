@@ -24,6 +24,13 @@
    <2018-03-08 Thu ++1d>
 
 ** TODO Agenda commands
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-03-08 Thu 13:03]
+   :END:
+   - State "DONE"       from "TODO"       [2018-03-08 Thu 13:03]
+   :LOGBOOK:
+   CLOCK: [2018-03-08 Thu 12:58]--[2018-03-08 Thu 13:02] =>  0:04
+   :END:
    [[info:org#Agenda%20commands][info:org#Agenda commands]]
    <2018-03-08 Thu ++1d>
 * NoSQL
