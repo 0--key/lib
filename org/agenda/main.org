@@ -93,15 +93,6 @@
        - ACTIVE - processed and resolving
        - MAYBE - postponed for a month or later
 ****** 
-**** TODO [#B] Regular events scheduling
-     :LOGBOOK:
-     CLOCK: [2018-03-08 Thu 13:05]--[2018-03-08 Thu 13:13] =>  0:08
-     CLOCK: [2018-03-04 Sun 17:02]--[2018-03-04 Sun 17:23] =>  0:21
-     :END:
-     <2018-03-06 Tue ++1d> Hardcore time-schedule isn't a silver
-     bullet and I'll follow for =Emacs= innate ~priority~ varying
-     approach. We'll just exclde the =natural.org= with all
-     bio-rthythms out from our Agenda by =C-x ]=
      
 **** DONE Clocking work time
      <2018-03-01 Thu 09:00-09:25>
