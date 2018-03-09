@@ -25,6 +25,7 @@
 
 ** Agenda commands
    :PROPERTIES:
+   :CATEGORY: Org-mode
    :LAST_REPEAT: [2018-03-08 Thu 13:03]
    :END:
    - State "DONE"       from "TODO"       [2018-03-08 Thu 13:03]
@@ -46,6 +47,9 @@
 
 
 * [#C] Writing
+  :PROPERTIES:
+  :CATEGORY: English
+  :END:
   <%%(memq (calendar-day-of-week date) '(1 2 3 4 5))>
 
 
