@@ -9,7 +9,7 @@
 #+CATEGORY: New Article
 #+TODO: TODO | MAYBE DONE CLOSED
 
-* TODO [#A] Time Management
+* [#A] Time Management
   :PROPERTIES:
   :CATEGORY: MetaKnowledge
   :LAST_REPEAT: [2018-03-07 Wed 12:39]
@@ -20,10 +20,10 @@
   :END:
   <2018-03-14 Wed ++1w>
 
-** TODO [#A] Daily Agenda Composing
+** [#A] Daily Agenda Composing
    <2018-03-08 Thu ++1d>
 
-** TODO Agenda commands
+** Agenda commands
    :PROPERTIES:
    :LAST_REPEAT: [2018-03-08 Thu 13:03]
    :END:
@@ -34,7 +34,7 @@
    [[info:org#Agenda%20commands][info:org#Agenda commands]]
    <2018-03-08 Thu ++1d>
 
-** TODO [#B] Regular events scheduling
+** [#B] Regular events scheduling
    :LOGBOOK:
    CLOCK: [2018-03-08 Thu 13:05]--[2018-03-08 Thu 13:13] =>  0:08
    CLOCK: [2018-03-04 Sun 17:02]--[2018-03-04 Sun 17:23] =>  0:21
