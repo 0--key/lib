@@ -44,6 +44,11 @@
    approach. We'll just exclde the =natural.org= with all
    bio-rthythms out from our Agenda by =C-x ]=
 
+
+* [#C] Writing
+  <%%(memq (calendar-day-of-week date) '(1 2 3 4 5))>
+
+
 * NoSQL
 * Emacs
 * Python
