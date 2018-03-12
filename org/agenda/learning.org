@@ -65,7 +65,18 @@
    :PROPERTIES:
    :CATEGORY: BitBucket
    :END:
+   :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 10:59]--[2018-03-12 Mon 11:28] =>  0:29
+   :END:
    <2018-03-12 Mon 11:00-11:30>
+
+   #+BEGIN_QUOTE
+   Running "hg push"...
+   pushing to https://Cosmic@bitbucket.org/Cosmic/stuff
+   abort: http authorization required for https://bitbucket.org/Cosmic/stuff
+   #+END_QUOTE
+   [[file:/usr/local/hg/stuff/toolset.txt::This%20is%20a%20test%20string][startPoint]]
+
 
 
 * NoSQL
@@ -74,7 +85,11 @@
   :END:
 
 ** Intro
+   :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 10:39]--[2018-03-12 Mon 10:59] =>  0:20
+   :END:
    <2018-03-12 Mon 10:30-11:00>
+   [[file:/usr/local/git/0--key/org-pub/2017-08-07-nosql.org::*The%20Main%20Purpose][The Main Purpose]]
 
 * Emacs
   :PROPERTIES:
@@ -82,7 +97,11 @@
   :END:
 
 ** Elpy
+   :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 10:14]--[2018-03-12 Mon 10:35] =>  0:21
+   :END:
    <2018-03-12 Mon 10:00-10:30>
+   [[file:/usr/local/git/0--key/org-pub/2017-08-03-elpy.org::*The%20Main%20Purpose][The Main Purpose]]
 
 
 * Python
