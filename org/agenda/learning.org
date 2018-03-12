@@ -57,21 +57,23 @@
 
 ** Vocabulary
    :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 16:09]--[2018-03-12 Mon 16:24] =>  0:15
    CLOCK: [2018-03-12 Mon 14:38]--[2018-03-12 Mon 15:05] =>  0:27
    :END:
-   <2018-03-12 Mon 14:30-15:00>
-   <2018-03-12 Mon 15:30-16:00>
+   <2018-03-13 Tue 14:30-15:00>
+   <2018-03-13 Tue 15:30-16:00>
 ** Social Networking
    :PROPERTIES:
    :CATEGORY: LinkedIn
    :END:
-   <2018-03-12 Mon 11:30-12:00>
+   <2018-03-13 Tue 11:30-12:00>
 
-*** Private repository
+*** DONE Private repository
     :PROPERTIES:
     :CATEGORY: BitBucket
     :END:
     :LOGBOOK:
+    CLOCK: [2018-03-12 Mon 15:40]--[2018-03-12 Mon 15:51] =>  0:11
     CLOCK: [2018-03-12 Mon 10:59]--[2018-03-12 Mon 11:28] =>  0:29
     :END:
     <2018-03-12 Mon 11:00-11:30>
@@ -89,7 +91,9 @@
      :END:
      <2018-03-12 Mon 14:00-14:30>
 
-
+** Development Story
+   <2018-03-13 Tue 11:00-11:30>
+   [[file:/usr/local/hg/stuff/dev_story.org][txt]]
 * NoSQL
   :PROPERTIES:
   :CATEGORY: NoSQL
@@ -97,11 +101,20 @@
 
 ** Intro
    :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 15:15]--[2018-03-12 Mon 15:39] =>  0:24
    CLOCK: [2018-03-12 Mon 10:39]--[2018-03-12 Mon 10:59] =>  0:20
    :END:
-   <2018-03-12 Mon 10:30-11:00>
-   <2018-03-12 Mon 15:00-15:30>
+   <2018-03-13 Tue 10:30-11:00>
+   <2018-03-13 Tue 15:00-15:30>
    [[file:/usr/local/git/0--key/org-pub/2017-08-07-nosql.org::*The%20Main%20Purpose][The Main Purpose]]
+
+* Postgres
+
+** Relational Algebra
+   :PROPERTIES:
+   :CATEGORY: Algebra
+   :END:
+   <2018-03-13 Tue 08:00-08:30>
 
 * Emacs
   :PROPERTIES:
@@ -112,7 +125,7 @@
    :LOGBOOK:
    CLOCK: [2018-03-12 Mon 10:14]--[2018-03-12 Mon 10:35] =>  0:21
    :END:
-   <2018-03-12 Mon 10:00-10:30>
+   <2018-03-13 Tue 10:00-10:30>
    [[file:/usr/local/git/0--key/org-pub/2017-08-03-elpy.org::*The%20Main%20Purpose][The Main Purpose]]
 
 * FMSD
@@ -126,13 +139,13 @@
    <2018-03-12 Mon 13:20-13:50>
 * Python
   :PROPERTIES:
-  :CATEGORY: Python
+  :CATEGORY: Linux
   :END:
 
 ** Concurrent Programming
 
 *** Intro
-    <2018-03-13 Tue 08:00-08:30>
+    <2018-03-13 Tue 08:30-09:00>
 
 *** Linux Processes Dissection
-    <2018-03-13 Tue 08:30-09:00>
+    <2018-03-13 Tue 09:00-09:30>
