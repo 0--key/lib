@@ -21,6 +21,9 @@
   <2018-03-14 Wed ++1w>
 
 ** [#A] Daily Agenda Composing
+   :LOGBOOK:
+   CLOCK: [2018-03-12 Mon 09:34]--[2018-03-12 Mon 09:55] =>  0:21
+   :END:
    <2018-03-08 Thu ++1d>
 
 ** Agenda commands
@@ -52,7 +55,45 @@
   :END:
   <%%(memq (calendar-day-of-week date) '(1 2 3 4 5))>
 
+** Social Networking
+   :PROPERTIES:
+   :CATEGORY: LinkedIn
+   :END:
+   <2018-03-12 Mon 11:30-12:00>
+
+** Private repository
+   :PROPERTIES:
+   :CATEGORY: BitBucket
+   :END:
+   <2018-03-12 Mon 11:00-11:30>
+
 
 * NoSQL
+  :PROPERTIES:
+  :CATEGORY: NoSQL
+  :END:
+
+** Intro
+   <2018-03-12 Mon 10:30-11:00>
+
 * Emacs
+  :PROPERTIES:
+  :CATEGORY: Emacs
+  :END:
+
+** Elpy
+   <2018-03-12 Mon 10:00-10:30>
+
+
 * Python
+  :PROPERTIES:
+  :CATEGORY: Python
+  :END:
+
+** Concurrent Programming
+
+*** Intro
+    <2018-03-13 Tue 08:00-08:30>
+
+*** Linux Processes Dissection
+    <2018-03-13 Tue 08:30-09:00>
