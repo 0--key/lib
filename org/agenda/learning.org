@@ -22,6 +22,8 @@
 
 ** [#A] Daily Agenda Composing
    :LOGBOOK:
+   CLOCK: [2018-03-16 Fri 09:33]--[2018-03-16 Fri 09:37] =>  0:04
+   CLOCK: [2018-03-15 Thu 08:03]--[2018-03-15 Thu 08:14] =>  0:11
    CLOCK: [2018-03-12 Mon 09:34]--[2018-03-12 Mon 09:55] =>  0:21
    :END:
    <2018-03-08 Thu ++1d>
@@ -57,10 +59,12 @@
 
 ** Vocabulary
    :LOGBOOK:
+   CLOCK: [2018-03-16 Fri 11:01]--[2018-03-16 Fri 11:21] =>  0:20
+   CLOCK: [2018-03-15 Thu 09:30]--[2018-03-15 Thu 09:50] =>  0:20
    CLOCK: [2018-03-12 Mon 16:09]--[2018-03-12 Mon 16:24] =>  0:15
    CLOCK: [2018-03-12 Mon 14:38]--[2018-03-12 Mon 15:05] =>  0:27
    :END:
-   <2018-03-13 Tue 14:30-15:00>
+   <2018-03-16 Fri 10:30-11:00>
    <2018-03-13 Tue 15:30-16:00>
    [[file:/usr/local/git/0--key/lib/org/vocabulary/201803.org::*credentials][March Vocabulary]]
 
@@ -71,7 +75,7 @@
    :LOGBOOK:
    CLOCK: [2018-03-13 Tue 11:14]--[2018-03-13 Tue 12:09] =>  0:55
    :END:
-   <2018-03-14 Wed 11:30-12:00>
+   <2018-03-17 Sat 11:30-12:00>
 
 *** DONE Private repository
     :PROPERTIES:
@@ -100,7 +104,7 @@
    :LOGBOOK:
    CLOCK: [2018-03-13 Tue 10:57]--[2018-03-13 Tue 11:13] =>  0:16
    :END:
-   <2018-03-14 Wed 11:00-11:30>
+   <2018-03-17 Sat 11:00-11:30>
    [[file:/usr/local/hg/stuff/dev_story.org][txt]]
 * NoSQL
   :PROPERTIES:
@@ -112,7 +116,7 @@
    CLOCK: [2018-03-12 Mon 15:15]--[2018-03-12 Mon 15:39] =>  0:24
    CLOCK: [2018-03-12 Mon 10:39]--[2018-03-12 Mon 10:59] =>  0:20
    :END:
-   <2018-03-14 Wed 10:30-11:00>
+   <2018-03-17 Sat 10:30-11:00>
    <2018-03-13 Tue 15:00-15:30>
    [[file:/usr/local/git/0--key/org-pub/2017-08-07-nosql.org::*The%20Main%20Purpose][The Main Purpose]]
 
@@ -123,10 +127,11 @@
    :CATEGORY: Algebra
    :END:
    :LOGBOOK:
+   CLOCK: [2018-03-15 Thu 08:27]--[2018-03-15 Thu 08:58] =>  0:31
    CLOCK: [2018-03-13 Tue 07:59]--[2018-03-13 Tue 08:26] =>  0:27
    :END:
-   <2018-03-14 Wed 08:00-08:30>
-   [[file:/usr/local/git/0--key/org-pub/2017-08-10-relational-algebra.org::*The%20Main%20Purpose][The Main Purpose]]
+   <2018-03-17 Sat 08:30-09:00>
+   [[file:/usr/local/git/0--key/org-pub/2017-08-10-relational-algebra.org::*Prerequisites][Prerequisites]]
 
 * Emacs
   :PROPERTIES:
@@ -138,12 +143,26 @@
    CLOCK: [2018-03-13 Tue 09:57]--[2018-03-13 Tue 10:43] =>  0:46
    CLOCK: [2018-03-12 Mon 10:14]--[2018-03-12 Mon 10:35] =>  0:21
    :END:
+
    <2018-03-13 Tue 10:00-10:30>
    [[file:/usr/local/git/0--key/org-pub/2017-08-03-elpy.org::*The%20Main%20Purpose][The Main Purpose]]
 
 *** New venvs deployment
+    :PROPERTIES:
+    :CATEGORY: Elpy
+    :END:
+    :LOGBOOK:
+    CLOCK: [2018-03-15 Thu 10:06]--[2018-03-15 Thu 10:18] =>  0:12
+    :END:
+
     only pure Elpy testing
-    <2018-03-14 Wed 10:00-10:30>
+    [[file:/usr/local/git/0--key/org-pub/2017-08-03-elpy.org::*An%20empty%20=venv=%20creation][An empty =venv= creation]]
+    [[file:/usr/local/share/pyVenvs/alioth/][Venv folder]]
+    <2018-03-17 Sat 10:00-10:30>
+
+** [#A] Custom functions
+   <2018-03-16 Fri 11:30-12:00>
+   [[file:/usr/local/share/emacs/site-lisp/default.el][file:/usr/local/share/emacs/site-lisp/default.el]]
 
 * FMSD
 ** Program Development
@@ -169,7 +188,9 @@
 
 *** Linux Processes Dissection
     :LOGBOOK:
+    CLOCK: [2018-03-16 Fri 09:38]--[2018-03-16 Fri 10:16] =>  0:38
+    CLOCK: [2018-03-15 Thu 09:18]--[2018-03-15 Thu 09:22] =>  0:04
     CLOCK: [2018-03-13 Tue 09:01]--[2018-03-13 Tue 09:14] =>  0:13
     :END:
-    <2018-03-14 Wed 09:00-09:30>
+    <2018-03-16 Fri 10:00-10:30>
     [[file:/usr/local/git/0--key/org-pub/2017-08-15-py-parallel.org::*Core%20features][Core features]]
