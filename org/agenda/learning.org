@@ -52,6 +52,23 @@
    approach. We'll just exclde the =natural.org= with all
    bio-rthythms out from our Agenda by =C-x ]=
 
+** TODO DevEnv Enhancement
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-03-23 Fri 09:30]
+   :END:
+   - State "MAYBE"      from "TODO"       [2018-03-23 Fri 09:30]
+   :LOGBOOK:
+   CLOCK: [2018-03-23 Fri 09:15]--[2018-03-23 Fri 09:29] =>  0:14
+   :END:
+   <2018-03-30 Fri 08:00-08:30 ++1w>
+   [[file:/usr/local/git/0--key/org-pub/2017-09-15-workspace.org::*Task%20switching][Task switching]]
+
+** TODO Effort analysis
+   :PROPERTIES:
+   :LAST_REPEAT: [2018-03-23 Fri 09:03]
+   :END:
+   - State "MAYBE"      from "TODO"       [2018-03-23 Fri 09:03]
+   <2018-03-30 Fri 07:30-08:00 ++1w>
 
 * [#C] Writing
   :PROPERTIES:
