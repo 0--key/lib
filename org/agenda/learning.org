@@ -181,8 +181,11 @@
     [[file:/usr/local/share/pyVenvs/alioth/][Venv folder]]
     <2018-03-24 Sat 10:00-10:30>
 
-** [#A] Custom functions
-   <2018-03-16 Fri 11:30-12:00>
+** Custom functions
+   :LOGBOOK:
+   CLOCK: [2018-03-23 Fri 11:00]--[2018-03-23 Fri 11:20] =>  0:20
+   :END:
+   <2018-03-23 Fri 11:00-11:30>
    [[file:/usr/local/share/emacs/site-lisp/default.el][file:/usr/local/share/emacs/site-lisp/default.el]]
 
 * FMSD
