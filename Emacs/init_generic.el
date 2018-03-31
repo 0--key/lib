@@ -26,6 +26,7 @@
 (require 'ereader)
 (require 'docker)
 (require 'org-drill)
+(require 'custom-macros)
 
 (require 'langtool)
 (setq langtool-language-tool-jar "/usr/local/java/LanguageTool-3.6/languagetool-commandline.jar")

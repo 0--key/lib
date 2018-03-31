@@ -185,9 +185,11 @@
    :LOGBOOK:
    CLOCK: [2018-03-23 Fri 11:00]--[2018-03-23 Fri 11:20] =>  0:20
    :END:
-   <2018-03-23 Fri 11:00-11:30>
+   <2018-03-31 Sat 11:00-11:30>
    [[file:/usr/local/share/emacs/site-lisp/default.el][file:/usr/local/share/emacs/site-lisp/default.el]]
 
+** Separate file for custom macros
+   <2018-03-31 Sat 10:00-10:30>
 * FMSD
 ** Program Development
   :PROPERTIES:
