@@ -110,7 +110,7 @@
   ))
 ;;
 (require 'voca-builder)
-  (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201803.org")
+  (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201804.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
   (setq voca-builder/current-tag "satellite")
 
