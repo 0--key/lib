@@ -4,13 +4,23 @@
 [2018-02-22 Thu 14:03]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       19629eb6-5b81-444b-b82e-d7462543108c
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:05]
    :END:
 
  tidy
 
 *** --->
+    [↗taɪdɪ]
   аккуратный
 
   adjective
@@ -148,8 +158,17 @@
 * chunky :satellite:
 [2018-03-10 Sat 11:47]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       f8d98ce8-3f5d-4a33-88d5-55bd9f287de7
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
    :END:
 
  chunky
@@ -187,8 +206,17 @@
 * soothe :satellite:
 [2018-03-10 Sat 11:49]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       946e6f55-96d6-4182-a813-95cd39da4a67
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
    :END:
 
  soothe
@@ -226,8 +254,17 @@
 * digression :satellite:
 [2018-03-11 Sun 11:18]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       98a10099-0623-486d-9c67-72c05b8f5325
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
    :END:
 
  digression
@@ -307,16 +344,17 @@
 * spurt :satellite:
 [2018-03-12 Mon 14:40]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       f7971373-7a24-44ae-a493-4914b39f9c26
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 0.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [2018-03-23 Fri 10:50]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
    :END:
 
  spurt
@@ -410,8 +448,17 @@
 * lank :satellite:
 [2018-03-12 Mon 14:43]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       7c561a5f-e76a-4e8d-b1db-505dc3a5928b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
    :END:
 
  lank
@@ -450,8 +497,17 @@
 * mauve :satellite:
 [2018-03-12 Mon 14:45]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       8991347d-ebe4-41fe-b924-bb5d868d0f80
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
    :END:
 
  mauve
@@ -492,8 +548,17 @@
 * gauze :satellite:
 [2018-03-12 Mon 14:46]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       78d4bdbe-2f5d-4172-87cb-5bf59a7cab5f
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
    :END:
 
  gauze
@@ -536,8 +601,17 @@
 * trifle :satellite:
 [2018-03-12 Mon 14:46]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       62fe811f-abeb-4fa1-934c-65cdc106a1bc
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
    :END:
 
  trifle
@@ -598,8 +672,17 @@
 * soot :satellite:
 [2018-03-12 Mon 14:48]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       1589f31b-b616-47f9-9bcb-f09b1ca9cca2
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
    :END:
 
  soot
@@ -641,8 +724,17 @@
 * interminable :satellite:
 [2018-03-12 Mon 14:50]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       f9180ac1-a079-4076-8e0d-52dc9c47a3b5
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
    :END:
 
  interminable
@@ -679,8 +771,17 @@
 * extricating :satellite:
 [2018-03-12 Mon 14:55]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       f346c250-0d70-4aef-a141-28764803a12d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
    :END:
 
  extricating
@@ -715,8 +816,17 @@
 * protruding :satellite:
 [2018-03-12 Mon 14:55]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       75cf51f6-4df6-449e-b1a9-472ae891671e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
    :END:
 
  protruding
@@ -757,12 +867,22 @@
 * conscience :satellite:
 [2018-03-12 Mon 14:56]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       0b8eeff2-eb7e-4ea8-8fd3-cd4fc66b1003
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
    :END:
 
  conscience
 *** --->
+    [↗kɘnʃɜns]
   совесть
 
   noun
@@ -794,12 +914,22 @@
 * relegated :satellite:
 [2018-03-12 Mon 14:57]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       6c826b85-08fc-48ba-b3a9-6f6919d75703
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
    :END:
 
  relegated
 *** --->
+     [↗rɛlɪgɛɪt]
   низведена
 
   verb
@@ -941,8 +1071,17 @@
 * slate :satellite:
 [2018-03-12 Mon 15:01]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       50a744d2-88b5-47db-90bb-6d3b79caca68
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
    :END:
 
  slate
@@ -1048,8 +1187,17 @@
 * weighed :satellite:
 [2018-03-15 Thu 09:34]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       e99a2f30-ab51-4d60-bb43-c69403f64ade
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
    :END:
 
  weighed
@@ -1124,16 +1272,17 @@
 [2018-03-15 Thu 09:39]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       687f4948-7f63-47b3-9201-96fc34cb3439
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 0.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [2018-03-23 Fri 10:50]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:04]
    :END:
 
  furtively
@@ -1169,8 +1318,17 @@
 [2018-03-16 Fri 11:21]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       dbadb960-f55d-424a-968a-eeef660b743d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
    :END:
 
  exuberance
@@ -1210,8 +1368,17 @@
 * menace :satellite:
 [2018-03-16 Fri 17:18]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
    :PROPERTIES:
    :ID:       c08682f6-7106-4fe9-a51b-fc5c0a06ae6e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:03]
    :END:
 
  menace
@@ -1255,336 +1422,139 @@
 * hideout :satellite:
 [2018-03-28 Wed 15:58]
 
-A hideout is a secret place where someone can take refuge. Criminals
-or outlaws often lie low in a hideout to avoid being found by the
-police.
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
+   :PROPERTIES:
+   :ID:       2f3dfcbb-8868-42dd-b4f6-169fc1004720
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:04]
+   :END:
 
-A car thief might use his grandmother's apartment as a hideout to
-avoid detection. A group of ten year-olds might also have a hideout, a
-place that's protected from parents, bullies, older siblings, and
-anyone else who might interfere. Before the first use of hideout, in
-the 1880s, came the verb phrase hide out, or "hide from authorities,"
-which was coined during the Civil War in reference to draft dodgers.
+ hideout
 
-So, I hunted
-laboriously through the olive-groves for their hideout, but it was a
-hopeless quest, for every gnarled and twisted trunk was hollow, and each
-contained half a dozen holes.
+*** --->
+  укрытие
+
+  noun
+   1. убежище (asylum, refuge, shelter, haven, sanctuary, hideout)
+   2. укрытие (shelter, cover, hideout, hideaway, hide, covering)
+
+  DEFINITION
+
+  noun
+   1. a hiding place, especially one used by someone who has broken the law.
+      "The pair then went on the run and were only discovered at a hideout in Leeds following a nationwide manhunt after the killing."
+
+
+  A hideout is a secret place where someone can take refuge. Criminals
+  or outlaws often lie low in a hideout to avoid being found by the
+  police.
+
+  A car thief might use his grandmother's apartment as a hideout to
+  avoid detection. A group of ten year-olds might also have a hideout, a
+  place that's protected from parents, bullies, older siblings, and
+  anyone else who might interfere. Before the first use of hideout, in
+  the 1880s, came the verb phrase hide out, or "hide from authorities,"
+  which was coined during the Civil War in reference to draft dodgers.
+
+  So, I hunted
+  laboriously through the olive-groves for their hideout, but it was a
+  hopeless quest, for every gnarled and twisted trunk was hollow, and each
+  contained half a dozen holes.
 * indignant :satellite:
 [2018-03-28 Wed 16:02]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       69e0b6b5-3e86-4c10-959a-daa13439b650
+   :END:
 
-When you're indignant, you're angry about an unfair situation. If you
-discovered that a teacher gave ten extra points on a test to all
-students who sat in the front row, you'd be indignant.
+ indignant
+*** --->
+  возмущенный
 
-Indignant is from Latin indignus "unworthy," and it refers to anger
-based on unworthy or unfair behavior rather than merely injury to
-one's own interests. You may be angry, even furious, if someone shoves
-you, but you are indignant if the shove is directed at someone weak or
-helpless. The related noun is indignation, and something that arouses
-indignation is an indignity.
+  adjective
+   1. возмущенный (indignant, resentful, scandalized)
+   2. негодующий (indignant)
 
-We regarded each other for a moment, and then the bird,
-apparently indignant at my ill-mannered laughter at his appearance, dug
-his tiny claws deeply into my thumb, and I lost my grip on the branch,
-so that we fell out of the tree together.
+  DEFINITION
+
+  adjective
+   1. feeling or showing anger or annoyance at what is perceived as unfair treatment.
+      "he was indignant at being the object of suspicion"
+
+
+  When you're indignant, you're angry about an unfair situation. If you
+  discovered that a teacher gave ten extra points on a test to all
+  students who sat in the front row, you'd be indignant.
+
+  Indignant is from Latin indignus "unworthy," and it refers to anger
+  based on unworthy or unfair behavior rather than merely injury to
+  one's own interests. You may be angry, even furious, if someone shoves
+  you, but you are indignant if the shove is directed at someone weak or
+  helpless. The related noun is indignation, and something that arouses
+  indignation is an indignity.
+
+  We regarded each other for a moment, and then the bird,
+  apparently indignant at my ill-mannered laughter at his appearance, dug
+  his tiny claws deeply into my thumb, and I lost my grip on the branch,
+  so that we fell out of the tree together.
 * gurgle :satellite:
 [2018-03-28 Wed 16:59]
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-04-20 Fri>
+   :PROPERTIES:
+   :ID:       02bab68c-3854-419d-9352-edfe6787e84e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:01]
+   :END:
 
-To gurgle is to make a sound like bubbling or splashing water. Not to
-be confusing, but when you gargle mouthwash, you probably gurgle.
+ gurgle
+*** --->
+  бульканье
 
-People gurgle when they say something (or make a noise) with an
-accompanying wet, gurgling sound. Your stomach might gurgle too,
-especially when you're hungry. And liquid itself gurgles, like a
-stream that gurgles over rocks or sweet iced tea that gurgles from a
-bottle into your glass. Experts aren't sure if gurgle is an imitative
-word, from the sound itself, or if it's rooted in Latin.
+  noun
+   1. бульканье (gurgling, gurgle, guggle, hubble-bubble)
+   2. булькающий звук (gurgle, hubble-bubble)
 
-Drifting there, relaxed, and dreamy, I was suddenly startled
-to hear, quite close to me, a clop and gurgle of water, followed by a
-long, deep sigh, and a series of gentle ripples rocked me up and down.
-* porpoise :satellite:
-[2018-03-28 Wed 17:00]
+  verb
+   1. булькать (gurgle, simper, simmer, guggle)
+   2. булькнуть (gurgle)
+   3. журчать (splatter, murmur, purl, babble, gurgle, bubble)
+   4. полоскать горло (gargle, gurgle)
 
-</p>
-		
-		<a role="button" class="signup button green"
-		href="/signup/">Get Started</a>
-		
-	</div> </div> </section>
+  DEFINITION
 
+  noun
+   1. a gurgling sound.
+      "Catherine gave a gurgle of laughter"
 
-<footer class="page-footer"> <nav class="sitelinks limited-width
-hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
-Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
-<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
-href="/dictionary/">Dictionary</a></li> <li><a
-href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
-</div>
-			
-		<div class="col2 "> <h3><a
-			href="/educator-edition/">For
-			Educators</a></h3> <ul> <li><a
-			href="/educator-edition/">Educator
-			Edition</a></li> <li><a
-			href="/educator-edition/pricing/">Plans &amp;
-			Pricing</a></li> <li><a
-			href="/educator-edition/sales/">Contact
-			Sales</a></li> <li><a
-			href="/educator-edition/success-stories/">Success
-			Stories</a></li> </ul> </div>
-		
-		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
-			<ul> <li><a href="/help/">Help Articles /
-			FAQ</a></li> <!-- <li><a
-			href="/help/videos/">How-to Videos</a></li>-->
-			<li><a href="/help/webinars">Training &amp;
-			Webinars</a></li> <li><a
-			href="/help/contactus">Contact
-			Support</a></li> <li><a>&nbsp;</a></li> </ul>
-			</div>
-					
-		<div class="col2 "> <h3><a
-			href="/leaderboards/">Leaderboards</a></h3>
-			<ul> <li><a href="/bowl/">Vocabulary
-			Bowl</a></li> <li><a
-			href="/leaderboards/bowl/">Bowl
-			Leaders</a></li> <li><a
-			href="/leaderboards/today/">Today's
-			Leaders</a></li> <li><a
-			href="/leaderboards/thisweek/">Weekly
-			Leaders</a></li> <li><a
-			href="/leaderboards/thismonth/">Monthly
-			Leaders</a></li> </ul> </div>
-				
-		<div class="col2 "> <h3><a
-			href="/blog/">Connect</a></h3> <ul> <li><a
-			href="/blog/">Vocabulary.com Blog</a></li>
-			<li><a
-			href="https://twitter.com/VocabularyCom">Twitter</a></li>
-			<li><a
-			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
-			
-			</ul> </div>
-		
-		<div class="col2 "> <h3><a href="/about/">Our
-			Story</a></h3> <ul> <li><a href="/about/">Our
-			Mission</a></li> <li><a
-			href="/about/team/">Team / Jobs</a></li>
-			<li><a href="/about/news/">News &amp;
-			Events</a></li> <li><a
-			href="/about/partnerships/">Partnerships</a></li>
-			</ul> </div>
-
-</nav> <nav class="legal limited-width clearfloat"> <a
-href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
-class="screen-only">Terms of Use</a> <a href="/privacy/"
-class="screen-only">Privacy Policy</a> <a href="/auth/admin"
-rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
-width:1px;height:1px"><img
-src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
-
-<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
-class="limited-width mobile-5050 pad2y">
-	
-	<div class="col9"> <div class="col4 pad1x"> <h3>For
-		Everyone</h3> <ul> <li><a href="/play/">Play the
-		Challenge</a></li> <li><a href="/lists/">Vocabulary
-		Lists</a></li> <li><a
-		href="/dictionary/">Dictionary</a></li> <li><a
-		href="/articles/chooseyourwords/">Choose Your
-		Words</a></li> </ul> </div>
-			
-		<div class="col4 pad1x"> <h3><a
-			href="/educator-edition/">For
-			Educators</a></h3> <ul> <li><a
-			href="/educator-edition/">Educator
-			Edition</a></li> <li><a
-			href="/educator-edition/pricing/">Plans &amp;
-			Pricing</a></li> <li><a
-			href="/educator-edition/sales/">Contact
-			Sales</a></li> <li><a
-			href="/educator-edition/success-stories/">Success
-			Stories</a></li> </ul> </div>
-		
-		<div class="col4 pad1x"> <h3><a
-			href="/help/">Help</a></h3> <ul> <li><a
-			href="/help/">Help Articles / FAQ</a></li>
-			<li><a href="/help/videos/">How-to
-			Videos</a></li> <li><a
-			href="/help/webinars">Training &amp;
-			Webinars</a></li> <li><a
-			href="/help/contactus">Contact
-			Support</a></li> <li><a>&nbsp;</a></li> </ul>
-			</div>
-					
-		<div class="col4 pad1x"> <h3><a
-			href="/leaderboards/">Leaderboards</a></h3>
-			<ul> <li><a href="/bowl/">Vocabulary
-			Bowl</a></li> <li><a
-			href="/leaderboards/bowl/">Bowl
-			Leaders</a></li> <li><a
-			href="/leaderboards/today/">Today's
-			Leaders</a></li> <li><a
-			href="/leaderboards/thisweek/">Weekly
-			Leaders</a></li> <li><a
-			href="/leaderboards/thismonth/">Monthly
-			Leaders</a></li> </ul> </div>
-		
-		
-
-		<div class="col4 pad1x"> <h3><a
-			href="/blog/">Connect</a></h3> <ul> <li><a
-			href="/blog/">Vocabulary.com Blog</a></li>
-			<li><a
-			href="https://twitter.com/VocabularyCom">Twitter</a></li>
-			<li><a
-			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
-			
-			</ul> </div>
-		
-		<div class="col4 pad1x"> <h3><a href="/about/">Our
-			Story</a></h3> <ul> <li><a href="/about/">Our
-			Mission</a></li> <li><a
-			href="/about/team/">Team / Jobs</a></li>
-			<li><a href="/about/news/">News &amp;
-			Events</a></li> <li><a
-			href="/about/partnerships/">Partnerships</a></li>
-			</ul> </div> </div> <div class="col3 pad1x">
-			<h3><a href="/account/">My Account</a></h3>
-			<div class="loggedout-only clearfloat
-			signinoptions"> <a role="button" class="google
-			button" href="/login/google">Sign in with
-			Google</a> <a role="button" class="facebook
-			button" href="/login/facebook">Sign in with
-			Facebook</a> <p>or, <a href="/login/">sign in
-			with email.</a></p> <p>Don't have an account
-			yet?<br> <a href="/signup">Sign up. It's free
-			and takes five seconds.</a> </p> </div> <ul
-			class="loggedin-only"> <li><a
-			href="/auth/logout"><i class="ss-logout">Log
-			Out</a></li> <li
-			class="perms-school-reports-only"><a
-			href="/account/schools"><i class="ss-school
-			ss-symbolicons-block">Schools &amp;
-			Teachers</a></li>
-			
-			<li class="nav-classes
-			perms-create-class-only"><a
-			href="/account/classes"><i class="ss-users">My
-			Classes</a></li>
-			
-			<li class="nav-assignments"><a
-			href="/account/activities/"><i
-			class="ss-attach">Assignments &amp;
-			Activities</a></li> <li ><a
-			href="/account/lists/"><i class="ss-list">My
-			Lists</a> <ul> <li><a href="/lists/"><i
-			class="ss-search">Find a List to
-			Learn...</a></li> <li><a href="/lists/new"><i
-			class="ss-hospital
-			ss-symbolicons-block">Create a New
-			List...</a></li> </ul> </li> <li><a
-			href="/progress/"><i class="ss-barchart">My
-			Progress</a> <ul> <li><a
-			href="/account/progress/words/learning"><i
-			class="ss-hiker ss-symbolicons-block">Words
-			I'm Learning</a></li> <li><a
-			href="/account/progress/words/trouble"><i
-			class="ss-bullseye ss-symbolicons-block">My
-			Trouble Words</a></li> <li><a
-			href="/account/progress/words/mastered"><i
-			class="ss-check ss-symbolicons-block">Words
-			I've Mastered</a></li> <li><a
-			href="/account/progress/achievements"><i
-			class="ss-award ss-symbolicons-block">My
-			Achievements</a></li> </ul> </li> <li
-			class="perms-user-admin-only"><a
-			href="/account/users"><i class="ss-usergroup
-			ss-symbolicons-block ">User
-			Administration</a></li> <li
-			class="perms-auth-admin-only"><a
-			href="/account/authentication"><i
-			class="ss-key">User Authentication</a></li>
-			<li> <a href="/account/"><i
-			class="ss-settings">My Account</a> </li> </ul>
-			</div> </div> <div class="copyright pad2y">
-			<div class="limited-width"> <span>&copy;
-			Vocabulary.com</span> <div class="terms"> <a
-			href="/terms/">Terms of Use</a> <a
-			href="/privacy/">Privacy Policy</a> </div>
-			</div> </div> </div></div> <div
-			class="nub"></div> </nav> </div>
+  verb
+   1. make a hollow bubbling sound like that made by water running out of a bottle.
+      "my stomach gurgled"
 
 
-</body>
+  To gurgle is to make a sound like bubbling or splashing water. Not to
+  be confusing, but when you gargle mouthwash, you probably gurgle.
 
-</html>
+  People gurgle when they say something (or make a noise) with an
+  accompanying wet, gurgling sound. Your stomach might gurgle too,
+  especially when you're hungry. And liquid itself gurgles, like a
+  stream that gurgles over rocks or sweet iced tea that gurgles from a
+  bottle into your glass. Experts aren't sure if gurgle is an imitative
+  word, from the sound itself, or if it's rooted in Latin.
 
-
-</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
-			free and takes five seconds.</a> </p> </div>
-			<ul class="loggedin-only"> <li><a
-			href="/auth/logout"><i class="ss-logout">Log
-			Out</a></li> <li
-			class="perms-school-reports-only"><a
-			href="/account/schools"><i class="ss-school
-			ss-symbolicons-block">Schools &amp;
-			Teachers</a></li>
-			
-			<li class="nav-classes
-			perms-create-class-only"><a
-			href="/account/classes"><i class="ss-users">My
-			Classes</a></li>
-			
-			<li class="nav-assignments"><a
-			href="/account/activities/"><i
-			class="ss-attach">Assignments &amp;
-			Activities</a></li> <li ><a
-			href="/account/lists/"><i class="ss-list">My
-			Lists</a> <ul> <li><a href="/lists/"><i
-			class="ss-search">Find a List to
-			Learn...</a></li> <li><a href="/lists/new"><i
-			class="ss-hospital
-			ss-symbolicons-block">Create a New
-			List...</a></li> </ul> </li> <li><a
-			href="/progress/"><i class="ss-barchart">My
-			Progress</a> <ul> <li><a
-			href="/account/progress/words/learning"><i
-			class="ss-hiker ss-symbolicons-block">Words
-			I'm Learning</a></li> <li><a
-			href="/account/progress/words/trouble"><i
-			class="ss-bullseye ss-symbolicons-block">My
-			Trouble Words</a></li> <li><a
-			href="/account/progress/words/mastered"><i
-			class="ss-check ss-symbolicons-block">Words
-			I've Mastered</a></li> <li><a
-			href="/account/progress/achievements"><i
-			class="ss-award ss-symbolicons-block">My
-			Achievements</a></li> </ul> </li> <li
-			class="perms-user-admin-only"><a
-			href="/account/users"><i class="ss-usergroup
-			ss-symbolicons-block ">User
-			Administration</a></li> <li
-			class="perms-auth-admin-only"><a
-			href="/account/authentication"><i
-			class="ss-key">User Authentication</a></li>
-			<li> <a href="/account/"><i
-			class="ss-settings">My Account</a> </li> </ul>
-			</div> </div> <div class="copyright pad2y">
-			<div class="limited-width"> <span>&copy;
-			Vocabulary.com</span> <div class="terms"> <a
-			href="/terms/">Terms of Use</a> <a
-			href="/privacy/">Privacy Policy</a> </div>
-			</div> </div> </div></div> <div
-			class="nub"></div> </nav> </div>
-
-
-</body>
-
-</html>
-
-
-I had hardly time to recognize it as a porpoise before I found I was
-right in the midst of them.
+  Drifting there, relaxed, and dreamy, I was suddenly startled
+  to hear, quite close to me, a clop and gurgle of water, followed by a
+  long, deep sigh, and a series of gentle ripples rocked me up and down.
