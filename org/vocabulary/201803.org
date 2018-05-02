@@ -4,17 +4,17 @@
 [2018-02-22 Thu 14:03]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-08 Tue>
    :PROPERTIES:
    :ID:       19629eb6-5b81-444b-b82e-d7462543108c
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 10.0
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_AVERAGE_QUALITY: 2.667
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:05]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:38]
    :END:
 
  tidy
@@ -58,32 +58,32 @@
       "the boys have finally tidied their bedroom"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       b04a6b47-5df1-45d3-8e99-6cdb70e4aa94
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:29]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:04]
     :END:
   Use the adjective [tidy] for something that is neat and clean. If your
   desk were more [tidy], you would be able to find your computer.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       258aaca3-a7f5-401c-9ffe-574aaf4b6601
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:14]
     :END:
   [Tidy] (or [tidy] up) also means “to clean up” and is also a noun for a
   container for small objects, like scraps or sewing materials. These
@@ -93,17 +93,17 @@
   put the word [tidy] before your profit or the sum in your bank
   account, it’s a good thing.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-13 Sun>
     :PROPERTIES:
     :ID:       b0a8804b-5439-464a-aff3-4c6ad690230d
-    :DRILL_LAST_INTERVAL: 4.14
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.7143
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_AVERAGE_QUALITY: 4.5
     :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:46]
     :END:
   on creating an environment for effectiveness refer to such matters
   as having a [tidy] office or home for unleashing creativity, and the
@@ -113,17 +113,17 @@
 [2018-03-10 Sat 11:41]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-21 Sat>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       ab60178b-fb13-4e3b-9bc3-68466536eefd
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.5
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:14]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:53]
    :END:
 
  credentials
@@ -140,33 +140,33 @@
       "recruitment is based mainly on academic credentials"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       09f3dadb-7854-4675-bc6f-53e64c72ceca
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:33]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:16]
     :END:
   [Credentials] offer proof of a fact, or of qualifications. A driver’s
   license, a doctor’s badge, or a diploma all count as [credentials] —
   as long as they’re real!
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       9d2c6a8d-7e32-4730-8baf-ffbfd7fdb387
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:28]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:12]
     :END:
   One document can be a credential, but the word usually still gets
   pluralized. [Credentials] prove that the bearer has gotten credit for
@@ -176,17 +176,17 @@
   job. [Credentials] can also prove that you are allowed to do something
   or go somewhere, like a badge that gets you past security.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       1c1a5d4a-b44f-468d-bd98-3973357bacb1
-    :DRILL_LAST_INTERVAL: 4.14
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 11.0911
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.6
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.7
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:39]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 13:59]
     :END:
   Before having her tonsils removed, Jahi McMath, a thirteen-year-old
   African-American girl from Oakland, California, asked her doctor,
@@ -194,17 +194,17 @@
 * slumber :satellite:
 [2018-03-10 Sat 11:43]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       1a779e26-da56-4ff0-b8a9-adae1ff3305b
-   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:42]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:54]
    :END:
 
  slumber
@@ -230,33 +230,33 @@
       "Sleeping Beauty slumbered in her forest castle"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-02 Wed>
     :PROPERTIES:
     :ID:       cc770210-8437-4881-9270-fb019998cfbf
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 1.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:34]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:57]
     :END:
   [Slumber] means "sleep" — as a verb or noun. If you're a sound
   sleeper, you might [slumber] peacefully right through a thunderstorm,
   your [slumber] undisturbed.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-04-30 Mon>
     :PROPERTIES:
     :ID:       90faf134-da81-48b1-a08b-0bed07b8cd2e
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:34]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:18]
     :END:
   To [slumber] is to sleep, sometimes specifically to sleep lightly or
   doze. You can [slumber] in your bed, in your airplane seat, or through
@@ -266,34 +266,34 @@
   gathering held at night, that usually involves very little
   [slumber]ing.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       4da642de-a7dd-400c-93f9-956b946387cc
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.2
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 6
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:34]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:58]
     :END:
   She snored so loudly that she was too embarrassed to go to [slumber]
   parties.
 * chunky :satellite:
 [2018-03-10 Sat 11:47]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       f8d98ce8-3f5d-4a33-88d5-55bd9f287de7
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:55]
    :END:
 
  chunky
@@ -314,33 +314,33 @@
       "fresh chunky salsa"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-02 Wed>
     :PROPERTIES:
     :ID:       a2292703-305e-493a-9d4a-0acb18c17ff5
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:38]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:55]
     :END:
   Something that's full of little lumps and bits is [chunky]. Some
   people are crazy about [chunky] peanut butter, while others prefer it
   to be smooth and creamy.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-04-30 Mon>
     :PROPERTIES:
     :ID:       ccf5bc40-9998-4c35-b5ae-785fde6bd5c4
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.75
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:39]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:19]
     :END:
   Some kinds of soup are [chunky], with hunks of potato and pieces of
   broccoli, and you can also make a [chunky] spaghetti sauce that's full
@@ -349,34 +349,34 @@
   is an American English word, from the sense of chunk as "a thick
   piece of something,"
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       f599ec7b-46e8-45b1-8cf9-41d9e622d615
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:28]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:48]
     :END:
   Her classmates made fun of her for being “[chunky],” and she absorbed
   the insults without protest.
 * soothe :satellite:
 [2018-03-10 Sat 11:49]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-06 Sun>
    :PROPERTIES:
    :ID:       946e6f55-96d6-4182-a813-95cd39da4a67
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 10.0
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_AVERAGE_QUALITY: 2.667
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:11]
    :END:
 
  soothe
@@ -398,33 +398,33 @@
       "a shot of brandy might soothe his nerves"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       b155fac6-42f7-48cf-b487-16151c4a05b6
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:19]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:05]
     :END:
   To [soothe] is to relieve or to bring comfort. If the pounding in your
   head is driving you mad, it sounds like you might need an aspirin or
   two to [soothe] your headache.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       ecdf74cb-537f-4278-96a1-738a15f324c8
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:38]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 13:58]
     :END:
   [Sooth]ing is meant to make you feel better, both physically and
   emotionally. Spend too many hours on the beach without sunblock?
@@ -433,34 +433,34 @@
   stronger — chocolates, a gabfest with good friends, and sappy movies
   are usually just what the doctor ordered.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       1222e22c-106d-419e-92aa-f055b4fb4527
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:42]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:15]
     :END:
   on December 9, 2013, the nurses gave her a grape Popsicle to [soothe]
   her throat.
 * digression :satellite:
 [2018-03-11 Sun 11:18]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       98a10099-0623-486d-9c67-72c05b8f5325
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.75
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:07]
    :END:
 
  digression
@@ -479,33 +479,33 @@
       "let's return to the main topic after that brief digression"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       0d5a3702-f1f0-4eaa-8244-09333cee05cc
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:35]
     :END:
   When your essay about French cooking starts describing a childhood
   trip to Disneyland, it's taken a [digression] — it's strayed from the
   main topic.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       eb384eeb-7a68-4dad-8ffb-d5449828221c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:19]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:51]
     :END:
   "But I digress" is a phrase often used by people when they realize
   they're no longer "on-topic." A [digression] is like a tangent, only
@@ -516,34 +516,34 @@
   direction; a [digression], logically enough, is an idea that goes off
   in another direction.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-08 Tue>
     :PROPERTIES:
     :ID:       360b0975-fa0f-43b5-9ef3-5ced35f20d6a
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.5
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:44]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:41]
     :END:
   I apologize for this [digression] but let's take a moment to talk
   about one of your past sponsors, namely Datadog.
 * pageant                                                         :satellite:
 [2018-03-12 Mon 14:37]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-04-30 Mon>
    :PROPERTIES:
    :ID:       186a285f-07f4-4b0e-8c26-83302ed13b74
-   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:38]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:20]
    :END:
 
  pageant
@@ -571,33 +571,33 @@
       "Street pageants , parades and outdoor concerts have been lined-up to entertain locals and visitors and the street spectacular should not be missed for those who enjoy the magic of performance arts."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       e714107e-e5be-4065-acc2-d5d5a408aaff
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:26]
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:38]
     :END:
   A [pageant] is an elaborate show or parade that usually depicts a
   historical or religious event, although these days more people know
   them as Miss America-type beauty contests.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-04-30 Mon>
     :PROPERTIES:
     :ID:       9a13cb56-d815-4bbf-af4d-6c32059cf4e3
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:43]
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.6
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:20]
     :END:
   [Pageant]s aren't just for beauty queens — any richly decorated
   spectacle or ceremony could be considered a [pageant]. Around
@@ -607,33 +607,33 @@
   had to act out famous moments in history? That would be a [pageant],
   too.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       2c4d8773-b0ca-4093-8ddf-ca5e363af5ef
-    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_LAST_INTERVAL: 3.995
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:33]
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:58]
     :END:
   The [Pageant] of Fireflies
 * spurt :satellite:
 [2018-03-12 Mon 14:40]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       f7971373-7a24-44ae-a493-4914b39f9c26
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.6
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:55]
    :END:
 
  spurt
@@ -667,32 +667,32 @@
       "he cut his finger, and blood spurted over the sliced potatoes"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       19f299b8-415a-4fe2-8b77-f0a8448a5e92
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:22]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:57]
     :END:
   Things that [spurt] gush, stream, or flow rapidly. If you laugh too
   hard while drinking a Coke, soda might [spurt] out of your nose. Ouch!
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       6eec50ae-8969-4e0b-96b7-ee678c1c7e6a
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:20]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:49]
     :END:
   [Spurt] is also a noun: "A [spurt] of water erupted from the hole in the
   water balloon before she had a chance to throw it." Though a jet of
@@ -702,17 +702,17 @@
   it may be related to the German spürzen, "to spit" and sprützen, "to
   squirt."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-04-30 Mon>
     :PROPERTIES:
     :ID:       a11c07e6-938a-4bf4-96a6-28a429b49eda
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:43]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:20]
     :END:
   In the fields the maize was starting to fill out, the silken tassels
   turning from brown to butter-blond; when you tore off the wrapping
@@ -721,17 +721,17 @@
 * salvo :satellite:
 [2018-03-12 Mon 14:42]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-21 Sat>
+   SCHEDULED: <2018-05-12 Sat>
    :PROPERTIES:
    :ID:       bdcbeb87-80c6-4088-baaa-be7514d41a38
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.648
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:33]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:52]
    :END:
 
  salvo
@@ -757,32 +757,32 @@
       "Three days later, after the Leningrad - Moscow railway had been cleared, Stalin declared the blockade broken, and that night the city's anti-aircraft batteries fired victory salvos while the battle rumbled on the western horizon."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       b74d8911-0610-4863-843c-07f08a82d594
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:33]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:15]
     :END:
   A [salvo] is when troops fire their guns all at the same time. A [salvo]
   of shots might signal the beginning of a military battle.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       f90497d3-2cd1-4716-a8b3-c3fcf48d0938
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:42]
     :END:
   Another word for the gunfire kind of [salvo] is a "volley." Military
   planners have used [salvo]s as a way to overwhelm an opposing army,
@@ -791,17 +791,17 @@
   or attack: "Her direct, almost rude questions were seen as the
   opening [salvo] in the battle between the two political candidates."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-08 Tue>
     :PROPERTIES:
     :ID:       ecca5343-a690-43af-a468-81b7f65ed985
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:43]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:36]
     :END:
   Up on the hills, among the dark cypress and the heather, shoals of
   butterflies danced and twisted like wind-blown confetti, pausing now
@@ -809,17 +809,17 @@
 * lank :satellite:
 [2018-03-12 Mon 14:43]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-07 Mon>
    :PROPERTIES:
    :ID:       7c561a5f-e76a-4e8d-b1db-505dc3a5928b
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_AVERAGE_QUALITY: 2.333
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:44]
    :END:
 
  lank
@@ -838,36 +838,37 @@
   DEFINITION
 
   adjective
-   1. (of hair) long, limp, and straight.
-      "My hair was lank and dull, I was very thin, brown pigmentation began to spread up my arms and on my cheeks; I was depressingly unattractive."
+   1. (of hair) long, limp, and straight. "My hair was lank and dull,
+      I was very thin, brown pigmentation began to spread up my arms
+      and on my cheeks; I was depressingly unattractive."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       06e15bd2-f4ad-461c-bcfe-977830bf72ff
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:25]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:41]
     :END:
   [Lank] can describe grass that is long, hair that is limp, and people
   who are tall and thin.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       e056ddab-b35f-476c-a83f-181c67d89731
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:36]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:06]
     :END:
   From the Old English hlanc (which is fun to say out loud), meaning
   loose and empty, [lank] is an adjective used to describe plant life
@@ -876,17 +877,17 @@
   with [lank] hair to cut the grass when it’s [lank]. Or you might cut it
   yourself.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       19224101-a605-463f-b6ca-b73d87e80c63
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:49]
     :END:
   They were [lank] and green, with chinless faces and monstrous globular
   eyes, frosty gold, with an expression of intense, predatory madness
@@ -894,17 +895,17 @@
 * mauve :satellite:
 [2018-03-12 Mon 14:45]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       8991347d-ebe4-41fe-b924-bb5d868d0f80
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:01]
    :END:
 
  mauve
@@ -972,17 +973,17 @@
 * gauze :satellite:
 [2018-03-12 Mon 14:46]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-07 Mon>
    :PROPERTIES:
    :ID:       78d4bdbe-2f5d-4172-87cb-5bf59a7cab5f
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:40]
    :END:
 
  gauze
@@ -1052,17 +1053,17 @@
 * trifle :satellite:
 [2018-03-12 Mon 14:46]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       62fe811f-abeb-4fa1-934c-65cdc106a1bc
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_AVERAGE_QUALITY: 2.333
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:08]
    :END:
 
  trifle
@@ -1151,17 +1152,17 @@
 * soot :satellite:
 [2018-03-12 Mon 14:48]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       1589f31b-b616-47f9-9bcb-f09b1ca9cca2
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:03]
    :END:
 
  soot
@@ -1222,17 +1223,17 @@
 * interminable :satellite:
 [2018-03-12 Mon 14:50]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-04-30 Mon>
    :PROPERTIES:
    :ID:       f9180ac1-a079-4076-8e0d-52dc9c47a3b5
    :DRILL_LAST_INTERVAL: 4.0
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:19]
    :END:
 
  interminable
@@ -1305,17 +1306,17 @@
 * extricating :satellite:
 [2018-03-12 Mon 14:55]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       f346c250-0d70-4aef-a141-28764803a12d
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.6
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:57]
    :END:
 
  extricating
@@ -1368,17 +1369,17 @@
 * protruding :satellite:
 [2018-03-12 Mon 14:55]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-06 Sun>
    :PROPERTIES:
    :ID:       75cf51f6-4df6-449e-b1a9-472ae891671e
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.6346
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:08]
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:02]
    :END:
 
  protruding
@@ -1456,17 +1457,17 @@
 * conscience :satellite:
 [2018-03-12 Mon 14:56]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-08 Tue>
    :PROPERTIES:
    :ID:       0b8eeff2-eb7e-4ea8-8fd3-cd4fc66b1003
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.648
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:07]
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:48]
    :END:
 
  conscience
@@ -1476,13 +1477,15 @@
 
   noun
    1. совесть (conscience, breast)
-   2. сознание (consciousness, conscious, conscience, sense, feeling, recognition)
+   2. сознание (consciousness, conscious, conscience, sense, feeling,
+      recognition)
 
   DEFINITION
 
   noun
-   1. an inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one's behavior.
-      "he had a guilty conscience about his desires"
+   1. an inner feeling or voice viewed as acting as a guide to the
+      rightness or wrongness of one's behavior. "he had a guilty
+      conscience about his desires"
 
 *** --->                                                              :drill:
     :PROPERTIES:
@@ -1531,17 +1534,17 @@
 * relegated :satellite:
 [2018-03-12 Mon 14:57]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       6c826b85-08fc-48ba-b3a9-6f6919d75703
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:09]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:53]
    :END:
 
  relegated
@@ -1625,17 +1628,17 @@
 * pore :satellite:
 [2018-03-12 Mon 14:57]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-04-30 Mon>
    :PROPERTIES:
    :ID:       3b6716c4-4ce7-4025-9ab4-ae6fa357079a
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 3.0
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:29]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:20]
    :END:
 
  pore
@@ -1664,17 +1667,17 @@
       "Heather spent hours poring over cookbooks"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       8b35e7ef-e517-41e1-869b-e139e4accaab
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:33]
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:37]
     :END:
   That trickle of sweat didn't just miraculously appear — it was
   secreted out of a [pore], a really tiny opening on the surface of your
@@ -1699,17 +1702,17 @@
   on or devote hours of focus to something: like [por]ing over the
   overwhelming choices in the antiperspirant aisle.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       4300d14b-3087-47dc-a578-d27667027a22
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:47]
     :END:
   Occasionally, in the early days, Peter suffered from sudden spasms
   of conscience, my epic would be relegated to a drawer, and we would
@@ -1808,17 +1811,17 @@
 * slate :satellite:
 [2018-03-12 Mon 15:01]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-02 Wed>
    :PROPERTIES:
    :ID:       50a744d2-88b5-47db-90bb-6d3b79caca68
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
+   :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:56]
    :END:
 
  slate
@@ -1916,17 +1919,17 @@
 [2018-03-15 Thu 09:33]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-21 Sat>
+   SCHEDULED: <2018-05-12 Sat>
    :PROPERTIES:
    :ID:       eac7c217-a948-46b5-99ed-ecfc8aa34adc
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.6346
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:31]
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:52]
    :END:
 
  freckled
@@ -1977,17 +1980,17 @@
 * weighed :satellite:
 [2018-03-15 Thu 09:34]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       e99a2f30-ab51-4d60-bb43-c69403f64ade
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_AVERAGE_QUALITY: 2.333
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:10]
    :END:
 
  weighed
@@ -2006,34 +2009,34 @@
       "the consequences of the move would need to be very carefully weighed"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       a6d96d36-eb13-4c54-923e-8d523adddb88
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:14]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:38]
     :END:
   To [weigh] is all about judging; you could be seeing how heavy
   something is or if it is a good choice. You could [weigh] the
   tomatoes you're buying or [weigh] your options when applying to
   college.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       79e41dde-9beb-40c1-8178-11ab919508b2
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:43]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:02]
     :END:
   To [weigh] something can mean to physically assess its weight — is it
   3 pounds? 40 kilos? 22 grams? But it's no accident that the symbol
@@ -2041,17 +2044,17 @@
   case need to be [weighed] or evaluated for justice to be served. And
   hopefully the decision will be balanced and fair.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       ea15831d-afaf-4b35-a436-ffa71b01f600
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:18]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:35]
     :END:
   The olives seemed [weighed] down under the weight of their fruit,
   smooth drops of green jade among which the choirs of cicadas
@@ -2059,17 +2062,17 @@
 * supplication :satellite:
 [2018-03-15 Thu 09:37]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-21 Sat>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       5fbfe34e-c8c6-45da-903d-2af295e4e384
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:17]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:56]
    :END:
 
  supplication
@@ -2087,22 +2090,22 @@
       "he fell to his knees in supplication"
 
 
-  Think of a [supplication] as sort of a prayer, a request for help from
-  a deity. The word carries a sense of awe and adoration with it,
+  Think of a [supplication] as sort of a prayer, a request for help
+  from a deity. The word carries a sense of awe and adoration with it,
   suggesting something tentative, even servile, a respectful appeal to
   a higher power.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       dd6c7edd-6381-4cc8-b55d-9231f179468d
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:11]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:46]
     :END:
   Although it is a noun, [supplication] comes from the Latin verb
   supplicare, which means "to plead humbly." While a [supplication] is
@@ -2112,17 +2115,17 @@
   with it an aura of religiosity and deep entreaty, and should not be
   used to describe just any simple request.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-02 Wed>
     :PROPERTIES:
     :ID:       6ffb682d-fa9f-4193-88d0-e31ad1d83621
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 1.667
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:36]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:57]
     :END:
   The crooked arms, with their fringes of sharp teeth, would be raised
   in mock [supplication] to the insect world, so humble, so fervent,
@@ -2132,17 +2135,17 @@
 [2018-03-15 Thu 09:39]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-06 Sun>
    :PROPERTIES:
    :ID:       687f4948-7f63-47b3-9201-96fc34cb3439
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 9.6346
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:04]
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:01]
    :END:
 
  furtively
@@ -2156,34 +2159,34 @@
    4. воровски (furtively, thievishly)
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       b9ad1fbf-722b-4b8d-b735-9e0a137b0ebe
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:39]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:14]
     :END:
   The adverb [furtively] is great for describing the movements or
   behavior of someone who's being sneaky or sly. Kids decorating their
   neighbor's trees with toilet paper on Halloween tend to sneak
   [furtively] around the yard.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       27a70336-9d23-420d-83a9-0cfb56bccc64
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:33]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:53]
     :END:
   If you do something [furtively], you don't want anyone to notice you;
   you're keeping a low profile. Usually, a person acting [furtively]
@@ -2213,17 +2216,17 @@
 [2018-03-16 Fri 11:21]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       dbadb960-f55d-424a-968a-eeef660b743d
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_AVERAGE_QUALITY: 2.333
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:06]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:10]
    :END:
 
  exuberance
@@ -2242,33 +2245,33 @@
       "a sense of youthful exuberance"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       89a41b52-3774-4377-9537-8f3724191322
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:43]
+    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:15]
     :END:
   Use [exuberance] to describe joyful enthusiasm and liveliness. You
   appreciate the natural [exuberance] of small children, but you prefer
   to enjoy it from a distance.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-07 Mon>
     :PROPERTIES:
     :ID:       5541c760-0311-4cbe-9e99-ff0ef23b8d41
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:34]
     :END:
   The noun [exuberance] comes from the adjective exuberant, which itself
   came from a Latin word that originally described an overflowing
@@ -2278,17 +2281,17 @@
   [exuberance], carried you off on their shoulders . . . before you
   touched home plate.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-09 Wed>
     :PROPERTIES:
     :ID:       f874ae42-911e-439c-8eb8-9331337ef5d0
-    :DRILL_LAST_INTERVAL: 4.14
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.7143
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:42]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:46]
     :END:
   One night a pair of squirrel dormice appeared in the tree above me,
   and chased each other in wild [exuberance] up and down the grove,
@@ -2298,17 +2301,17 @@
 * menace :satellite:
 [2018-03-16 Fri 17:18]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       c08682f6-7106-4fe9-a51b-fc5c0a06ae6e
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.5
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:03]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:04]
    :END:
 
  menace
@@ -2337,33 +2340,33 @@
       elephants are still [menace]d by poaching"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-08 Tue>
     :PROPERTIES:
     :ID:       9878003d-9086-4b8e-b736-689c5a30537d
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:42]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:35]
     :END:
   If it's threatening you or otherwise posing some sort of danger,
   then it's a [menace]. Angry rabid dogs, smog clouds, and annoying
   little brothers are all probable [menace]s.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-02 Wed>
     :PROPERTIES:
     :ID:       ba9b5426-0f91-4efd-a22c-cb774b9fc119
     :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:34]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:54]
     :END:
   The word [menace] works as both a noun and a verb, but it wasn't used
   to describe threatening or bothersome people until 1936. Before
@@ -2377,17 +2380,17 @@
 [2018-03-28 Wed 15:58]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-05-05 Sat>
    :PROPERTIES:
    :ID:       2f3dfcbb-8868-42dd-b4f6-169fc1004720
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.5
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:04]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:11]
    :END:
 
  hideout
@@ -2405,33 +2408,33 @@
       "The pair then went on the run and were only discovered at a hideout in Leeds following a nationwide manhunt after the killing."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-08 Tue>
     :PROPERTIES:
     :ID:       7d636767-6b82-4b3c-b6f9-eeba46f1f59c
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:16]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:50]
     :END:
   A [hideout] is a secret place where someone can take refuge. Criminals
   or outlaws often lie low in a [hideout] to avoid being found by the
   police.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       2fffceef-e929-4767-b213-2243710e1f49
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:29]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:47]
     :END:
   A car thief might use his grandmother's apartment as a [hideout] to
   avoid detection. A group of ten year-olds might also have a [hideout],
@@ -2441,17 +2444,17 @@
   authorities," which was coined during the Civil War in reference to
   draft dodgers.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       d5da86f0-f85f-4c77-884e-476926b8b919
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:31]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:39]
     :END:
   So, I hunted laboriously through the olive-groves for their [hideout],
   but it was a hopeless quest, for every gnarled and twisted trunk was
@@ -2459,17 +2462,17 @@
 * indignant :satellite:
 [2018-03-28 Wed 16:02]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-21 Sat>
+   SCHEDULED: <2018-05-06 Sun>
    :PROPERTIES:
    :ID:       69e0b6b5-3e86-4c10-959a-daa13439b650
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:26]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:57]
    :END:
 
  indignant
@@ -2504,17 +2507,17 @@
   you discovered that a teacher gave ten extra points on a test to all
   students who sat in the front row, you'd be [indignant].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-05 Sat>
     :PROPERTIES:
     :ID:       bf080765-b5ad-455f-9efe-a94e6e5cf192
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:41]
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:01]
     :END:
   [Indignant] is from Latin indignus "unworthy," and it refers to anger
   based on unworthy or unfair behavior rather than merely injury to
@@ -2542,17 +2545,17 @@
 * gurgle :satellite:
 [2018-03-28 Wed 16:59]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-20 Fri>
+   SCHEDULED: <2018-04-30 Mon>
    :PROPERTIES:
    :ID:       02bab68c-3854-419d-9352-edfe6787e84e
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 3.0
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-16 Mon 13:01]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:19]
    :END:
 
  gurgle
@@ -2580,32 +2583,32 @@
       "my stomach gurgled"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-08 Tue>
     :PROPERTIES:
     :ID:       cf46cef1-e9ad-435f-b6f4-59b0585bd7f4
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:37]
+    :DRILL_LAST_REVIEWED: [2018-04-28 Sat 09:42]
     :END:
   To [gurgle] is to make a sound like bubbling or splashing water. Not
   to be confusing, but when you gargle mouthwash, you probably [gurgle].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-20 Fri>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       5b3a7331-4e42-49bc-9d86-b72c1c2cf59d
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.352
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-16 Mon 18:17]
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 14:09]
     :END:
   People [gurgle] when they say something (or make a noise) with an
   accompanying wet, [gurgl]ing sound. Your stomach might [gurgle] too,
@@ -2614,17 +2617,17 @@
   bottle into your glass. Experts aren't sure if [gurgle] is an
   imitative word, from the sound itself, or if it's rooted in Latin.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       6de04bce-1e6b-45e1-8aeb-2aed7fa6146b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:21]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 08:37]
     :END:
   Drifting there, relaxed, and dreamy, I was suddenly startled to
   hear, quite close to me, a clop and [gurgle] of water, followed by a
