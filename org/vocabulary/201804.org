@@ -183,17 +183,17 @@
       "quaint country cottages"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       a45eb106-5d7a-4b01-81a0-f514a82ae87c
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:29]
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:27]
     :END:
   [Quaint] means strange and unusual in an old-fashioned and charming
   way. It's a word you'd use to describe a little store that sells tea
@@ -271,17 +271,17 @@
   maladies, such as never having any money — the [malady] of people who
   spend freely, not thinking of the future.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       61b81f95-cbcd-4231-b9b9-2c307e46dc24
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:37]
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:24]
     :END:
   I presumed that the application of business knowledge developed over
   the last forty years would have stamped out many [maladi]es described
@@ -289,17 +289,17 @@
 * engaging :satellite:
 [2018-04-17 Tue 10:45]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       39596c21-a77e-41d9-8d25-9e7a26b69617
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:22]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:14]
    :END:
 
  engaging
@@ -325,17 +325,17 @@
       "organizations engage in a variety of activities"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       9dcf21af-2ebe-4082-93a0-b1f0d6cba4be
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.648
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:37]
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:18]
     :END:
   A story, song, or person that is [engaging] is entertaining, fun, and
   interesting — you want to see or hear more.
@@ -392,17 +392,17 @@
       "the notion that the camera never lies is a fallacy"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       75e7d057-2959-495d-a7ca-30d2a5b8d846
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:32]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
     :END:
   A [fallacy] is a misleading argument or belief based on a falsehood.
   If you oppose state testing in schools, you think it is a [fallacy]
@@ -449,6 +449,7 @@
 
  incisive
 *** --->
+    [ɪn↗saɪsɪv]
   язвительный
 
   adjective
@@ -481,17 +482,17 @@
   and direct. A comment that cuts right to the bone can be just as
   [incisive] as an actual knife.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       719b71d8-4294-49b1-a911-4ede4fdf332b
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 1.75
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:39]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
     :END:
   The word [incisive] is rooted in a Latin word that literally means "to
   cut with a sharp edge." To help you remember the meaning, you can
@@ -500,17 +501,17 @@
   something that is mentally sharp first appeared in the 1850s. Keen
   criticism and cutting remarks have been called [incisive] ever since.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       f1df9a72-4b9e-4fd3-b3c9-ee76d78bc399
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.333
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.2
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:39]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
     :END:
   Peter was not only an [incisive] thinker but masterfully creative with
   words.
@@ -566,17 +567,17 @@
   The adjective [stilted] describes something—usually a style of writing
   or speaking—that is unnaturally formal.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       5c3eab1d-814f-4bfc-a98f-d99876663531
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:25]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:21]
     :END:
   Imagine someone walking awkwardly on a pair of stilts and you have a
   good impression of the word [stilted] — wooden and stiff. Stilt is
@@ -586,17 +587,17 @@
   that the word was used as we use it now, to describe writing or
   speaking that does not flow smoothly.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       b6c85b7b-8692-414b-848a-4428dd8bfbcb
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:32]
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
     :END:
   Peter invented dozens of strange, [stilted], and pseudoscientific
   phrases and words.
@@ -717,17 +718,17 @@
       "he detoured around the walls"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       d110baf3-9c4d-4826-9e99-60929071f999
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:30]
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
     :END:
   A [detour] is a longer, less direct way to get where you're going. A
   traffic accident sometimes means you have to take a [detour] to get
@@ -762,17 +763,17 @@
 * mock                                                            :satellite:
 [2018-04-17 Tue 11:00]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       daac4755-1d57-45c0-ac6a-096b1c47151a
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:14]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:15]
    :END:
 
  mock
@@ -830,17 +831,17 @@
   "Louise’s favorite pastime was to [mock] her brother’s inability to
   sing on key."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       8bc457bd-529c-472d-9c9e-cab517514142
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:13]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:05]
     :END:
   The verb [mock] — as in the use that inspired the name of the
   [mock]ingbird — can be simple imitation but, more often, to [mock]
@@ -978,17 +979,17 @@
       "a restaurant renowned for its Southwestern-style food"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       693802ce-4a09-4fde-9ce1-8cc6045ce1e4
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:38]
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:28]
     :END:
   Celebrated, gushed over, and even legendary, something that's
   [renowned] is really famous. If you not only find a cure for cancer,
@@ -1006,17 +1007,17 @@
   because you make the cover of a trashy tabloid magazine doesn't mean
   you're a [renowned] actress. But if you win an Oscar, you are.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       cb253750-30e8-445d-bea7-0a5d24822aa4
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:31]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:17]
     :END:
   Stanford Professor and [renowned] economist Edward P.
 * incomprehensible :satellite:
@@ -1255,17 +1256,17 @@
   When things are [ripe], it's a good thing — the time for action is
   now.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       2194dc7a-d5d3-4bce-9a64-4954f456e502
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 1.667
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 1.8
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:35]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
     :END:
   Creative incompetence is another idea from The Peter Principle [ripe]
   for development.
@@ -1302,17 +1303,17 @@
       "officials were dismissed or reprimanded for poor work"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       2ff67d52-58cc-4331-bab7-680b113b8565
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:36]
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:27]
     :END:
   If you're [reprimand]ed, someone in authority speaks to you in an
   angry way because you've done something wrong. Or you might
@@ -1337,17 +1338,17 @@
   the halls of Congress, this is considered "unparliamentary
   language," but if you yell at your congressman, that's okay.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       6aa8a1f7-8335-42fa-900f-6313a482be25
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:36]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:07]
     :END:
   Greene” intentionally loses numerous receipts and packing slips,
   which leads to [reprimand]s from the accounting department and causes
@@ -1567,17 +1568,17 @@
 * clot                                                            :satellite:
 [2018-04-18 Wed 11:54]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-12 Sat>
    :PROPERTIES:
    :ID:       8b57b012-29ec-4ac9-b3d6-85c45eb10371
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 10.0
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 4.0
    :DRILL_EASE: 2.5
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:21]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:03]
    :END:
 
  clot
@@ -1629,17 +1630,17 @@
   repairing itself, stopping blood from flowing and beginning to heal
   a wound.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-12 Sat>
     :PROPERTIES:
     :ID:       8ec605c4-50f7-4ad6-b810-acea2ca44207
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:37]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:19]
     :END:
   You can use the noun [clot] for any liquid that forms a solid lump or
   mass, though it's usually a medical term specifically related to
@@ -1758,17 +1759,17 @@
   used among the witty international set when someone does something
   gauche (French for "clumsy").
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       817154a4-9f58-4711-89f7-17d9e473f906
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:38]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:20]
     :END:
   I was not concerned with the oversight, the slip of the tongue, the
   [faux] pas, the occasional error which can be an embarrassment to any
@@ -1776,17 +1777,17 @@
 * lapse                                                           :satellite:
 [2018-04-18 Wed 11:56]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       c5d844c7-0b0c-45e7-b6cb-fd18aefe97d6
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:29]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:17]
    :END:
 
  lapse
@@ -1907,17 +1908,17 @@
       "the inept handling of the threat"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       8385c590-7529-4335-ab48-34c917204f35
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:29]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
     :END:
   A clumsy, incompetent person — or an ineffective action — is [inept].
   When you're [inept], you don't know what you're doing or just can't
@@ -1942,17 +1943,17 @@
   worker loses mail and puts it in the wrong box. An [inept] person is
   downright bad at something. The opposite of [inept] is competent.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       a3ee7248-245b-4be4-b53b-01982ba60151
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 1.75
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:36]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
     :END:
   Many others were [inept] at research design and, in desperation, were
   simply intending to replicate some oft-repeated statistical
@@ -1984,17 +1985,17 @@
       place, time, posture, having or possession, action, and passion.
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       a8cfd975-5ebd-4cd2-8766-0a52f05235ad
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:33]
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
     :END:
   If you're engaged to get married but suddenly fall in love with
   someone else, you have gotten yourself into quite a [predicament]. A
@@ -2037,17 +2038,17 @@
 * confide                                                         :satellite:
 [2018-04-18 Wed 11:59]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       a156a869-e6e9-42b7-ae5c-1fab1e01b4af
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:31]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:19]
    :END:
 
  confide
@@ -2106,17 +2107,17 @@
 * ensue                                                           :satellite:
 [2018-04-18 Wed 12:01]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-06 Sun>
    :PROPERTIES:
    :ID:       9d2d7453-536e-4121-a308-102e1b140c70
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:26]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
    :END:
 
  ensue
@@ -2137,17 +2138,17 @@
       "the difficulties that ensued from their commitment to Cuba"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       63878b19-4ee0-4fc9-bf3e-9625270034ac
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:22]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:10]
     :END:
   If something happens after something else, it will [ensue], meaning it
   will follow after or be the result. When a sneeze comes out, and he
@@ -2288,17 +2289,17 @@
       "the incessant beat of the music"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       91fa87a5-0c25-4489-9bf9-f30475456144
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 4
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 7
     :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:38]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:28]
     :END:
   Something [incessant] continues without interruption. When you're on a
   cross-country flight, it's tough to tolerate the [incessant] crying of
@@ -2321,17 +2322,17 @@
 * bland :satellite:
 [2018-04-18 Wed 17:13]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-23 Mon>
+   SCHEDULED: <2018-05-11 Fri>
    :PROPERTIES:
    :ID:       d22ce709-cfa8-416f-a507-e29f80da30ce
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:31]
+   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:04]
    :END:
 
  bland
@@ -2505,17 +2506,17 @@
   might [slather] your hamburger with ketchup, or [slather] shampoo on
   your damp head.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-11 Fri>
     :PROPERTIES:
     :ID:       1da76ab5-d80e-46c3-a6cd-1428c94dbc06
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:37]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:16]
     :END:
   Before it came to mean "spread liberally" in the nineteenth century,
   people in parts of England used [slather] to mean "slip or slide."
@@ -2523,17 +2524,17 @@
   we [slather] paint on a fence to cover up graffiti, [slather] aloe on
   our sunburnt skin, and [slather] peanut butter and jelly on bread.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-23 Mon>
+    SCHEDULED: <2018-05-06 Sun>
     :PROPERTIES:
     :ID:       987768ca-d2f9-4f8f-acbc-96f16daa00c9
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.2
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-19 Thu 10:35]
+    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
     :END:
   Even your lunch might be a [slab], if it's a thick hunk of cheesy
     pizza or a huge [slab] of bread [slathered] with peanut butter.
@@ -2541,575 +2542,988 @@
 * wacky :satellite:
 [2018-04-25 Wed 15:24]
 
-Something that's wacky is weird or nutty or silly. Your goofy uncle
-who wears a funny hat and does magic tricks at the dinner table is
-wacky.
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       4ba9b9b5-5e86-4900-8aa8-0c5460538910
+   :END:
 
-Use the adjective wacky when you're talking about someone with a
-ridiculous sense of humor. Clowns are, by definition, wacky, for
-example. Most people have at least one wacky relative, and some are
-lucky enough to have entire wacky families. Wacky comes from the
-nineteenth century British slang term whacky, which arose from whack,
-specifically the idea of getting whacked on the head so hard that it
-turns you wacky.
+ wacky
+*** --->
+  чокнутый
 
-EDIT: People ask all kinds of wacky hypothetical question in interviews such as asking candidates to hand-construct routine algorithms that can
-easily be picked out of a textbook.
+  adjective
+   1. чокнутый (nuts, crazy, loony, bonkers, mad, wacky)
+   2. психованный (wacky)
+
+  noun
+   1. псих (psycho, crazy, loony, nut, nutcase, wacky)
+
+  DEFINITION
+
+  adjective
+   1. funny or amusing in a slightly odd or peculiar way.
+      "a wacky chase movie"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       16740361-0621-46ac-9c56-b65007e13dda
+    :END:
+  Something that's [wacky] is weird or nutty or silly. Your goofy uncle
+  who wears a funny hat and does magic tricks at the dinner table is
+  [wacky].
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       7fec80e3-e4e3-4fce-be0e-98e4bb638c5a
+    :END:
+  Use the adjective [wacky] when you're talking about someone with a
+  ridiculous sense of humor. Clowns are, by definition, [wacky], for
+  example. Most people have at least one [wacky] relative, and some are
+  lucky enough to have entire [wacky] families. [Wacky] comes from the
+  nineteenth century British slang term whacky, which arose from
+  whack, specifically the idea of getting whacked on the head so hard
+  that it turns you [wacky].
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       868c8937-eea5-4fe2-b69e-f62e19276338
+    :END:
+  EDIT: People ask all kinds of [wacky] hypothetical question in
+  interviews such as asking candidates to hand-construct routine
+  algorithms that can easily be picked out of a textbook.
 * prickly :satellite:
 [2018-04-25 Wed 15:27]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       901f876b-4e3c-4dc2-87ca-54bf5f1890c7
+   :END:
 
-Prickly things are sharp and spiky, while prickly people are quick to
-be offended or irritated. Ouch!
+ prickly
+*** --->
+  колючий
 
-A prickly tag in the collar of your new shirt can make you
-uncomfortable all day, and so can a prickly co-worker whose feelings
-seem to get hurt by everything you say. Porcupines and cactuses are
-prickly, and so is the next-door neighbor who is constantly irritated
-with you. The first thing that was described as prickly, in the 1570s,
-was a holly leaf.
+  adjective
+   1. колючий (barbed, prickly, spiny, scratchy, thorny, spiky)
+   2. с шипами (spiked, prickly)
+   3. колкий (caustic, poignant, prickly, barbed, sharp, pointed)
+   4. с колючками (barbed, prickly)
 
-Those folks would be no fun to work with – too defensive and prickly.
+  DEFINITION
+
+  adjective
+   1. covered in prickles.
+      "masses of prickly brambles"
+   2. (of a person) ready to take offense.
+      "I have learnt how to establish a healthy working rapport with difficult, prickly people with whom I have precious little in common."
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       86f8287c-ae94-46be-99a4-0a79734d1f89
+    :END:
+  [Prickly] things are sharp and spiky, while [prickly] people are quick
+  to be offended or irritated. Ouch!
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       9eda6158-440d-4380-8c6e-e5b139ec6c7b
+    :END:
+  A [prickly] tag in the collar of your new shirt can make you
+  uncomfortable all day, and so can a [prickly] co-worker whose feelings
+  seem to get hurt by everything you say. Porcupines and cactuses are
+  [prickly], and so is the next-door neighbor who is constantly
+  irritated with you. The first thing that was described as [prickly],
+  in the 1570s, was a holly leaf.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       52f4ff8f-edac-43be-90dd-2b1a592ebad9
+    :END:
+  Those folks would be no fun to work with – too defensive and
+  [prickly].
 * churn :satellite:
 [2018-04-25 Wed 15:41]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       445cfdf9-2d43-49e1-8eb7-83e270226887
+   :END:
 
-A churn is a container that you fill with cream and then agitate until
-the cream becomes butter. You may have only bought butter at the
-store, but your ancestors probably used a traditional plunger-type
-churn to make their own.
+ churn
+*** --->
+  маслобойка
 
-The verb churn means to mix cream until it turns into butter,
-separating out the buttermilk. You can make your own butter by
-churning it in a jar if you don't have a churn, shaking heavy cream
-until it becomes solid. To churn can also simply mean to agitate, like
-a boat might churn in a turbulent ocean, or your stomach might churn
-with anxiety about your big test the next day.
+  verb
+   1. сбивать (bring down, shoot down, knock, down, churn, beat down)
+   2. взбалтывать (stir, shake up, agitate, churn, roil)
+   3. сбивать масло (churn, turn milk into butter)
+   4. размешивать (stir, mix up, churn, poach)
+   5. вспенивать (churn)
 
-You can get me drunk, make me tired, distract me,
-give me a bad boss, and I’ll still churn code out at an even pace…
+  noun
+   1. маслобойка (churn)
+   2. мешалка (mixer, agitator, blender, churn)
+
+  DEFINITION
+
+  noun
+   1. a machine or container in which butter is made by agitating milk or cream.
+      "Mothers made butter from milk, they mixed the milk in a butter churn ."
+
+  verb
+   1. agitate or turn (milk or cream) in a machine in order to produce butter.
+      "the cream is ripened before it is churned"
+   2. (of liquid) move about vigorously.
+      "the seas churned"
+   3. (of a broker) encourage frequent turnover of (investments) in order to generate commission.
+      "Managers may churn their accounts to generate more soft dollars in order to buy services such as stock research."
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       f1142f4b-9c27-431d-9010-587d73369255
+    :END:
+  A [churn] is a container that you fill with cream and then agitate
+  until the cream becomes butter. You may have only bought butter at
+  the store, but your ancestors probably used a traditional
+  plunger-type [churn] to make their own.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       124138bd-c765-4658-ac2f-62683d5a9212
+    :END:
+  The verb [churn] means to mix cream until it turns into butter,
+  separating out the buttermilk. You can make your own butter by
+  [churn]ing it in a jar if you don't have a [churn], shaking heavy cream
+  until it becomes solid. To [churn] can also simply mean to agitate,
+  like a boat might [churn] in a turbulent ocean, or your stomach might
+  [churn] with anxiety about your big test the next day.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       32f7c3af-a9dc-4388-a036-9553b81b07fc
+    :END:
+  You can get me drunk, make me tired, distract me, give me a bad
+  boss, and I’ll still [churn] code out at an even pace…
 * stride :satellite:
 [2018-04-25 Wed 15:42]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       b6473ab5-7231-49b1-8c8a-686c1c96eb47
+   :END:
 
-The noun stride means "significant progress." You might make a huge
-stride towards making peace with the rival school by hosting a block
-party and inviting their students.
+ stride
+*** --->
+  шагать
 
-The noun stride also means "a step made while running or walking." If
-you are bored, you can count your strides between home and the bus
-stop. As a verb, stride means "to walk or run by taking long steps."
-Elite runners stride, making it look easy. But even if you are a slow
-jogger, don't give up — you make great strides to improve your health
-when you exercise regularly.
+  noun
+   1. шаг (step, move, stride, pace, increment, walk)
+   2. большой шаг (stride)
+   3. брюки (trousers, pants, breeches, pantaloons, unmentionables, stride)
 
-Experienced guys take
-that stuff in stride.
+  verb
+   1. шагать (step, tread, pace, stride, leg, foot-slog)
+   2. перешагнуть (overstep, walk over, stride, stride over, stride across)
+   3. шагать большими шагами (step out, stride)
+   4. сидеть верхом (ride, bestride, straddle, stride)
+
+  DEFINITION
+
+  noun
+   1. a long, decisive step.
+      "he crossed the room in a couple of strides"
+   2. a step or stage in progress toward an aim.
+      "great strides have been made toward equality"
+   3. denoting or relating to a rhythmic style of jazz piano playing in which the left hand alternately plays single bass notes on the downbeat and chords an octave higher on the upbeat.
+      "a stride pianist"
+
+  verb
+   1. walk with long, decisive steps in a specified direction.
+      "he strode across the road"
+   2. cross (an obstacle) with one long step.
+      "by giving a little leap she could stride across like a grown-up"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       9fbb3a0b-0379-45d6-bce3-eab08346185a
+    :END:
+  The noun [stride] means "significant progress." You might make a huge
+  [stride] towards making peace with the rival school by hosting a block
+  party and inviting their students.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       b1263bdf-3a93-4072-9edc-949de04d4b52
+    :END:
+  The noun [stride] also means "a step made while running or walking."
+  If you are bored, you can count your [stride]s between home and the
+  bus stop. As a verb, [stride] means "to walk or run by taking long
+  steps." Elite runners [stride], making it look easy. But even if you
+  are a slow jogger, don't give up — you make great [stride]s to improve
+  your health when you exercise regularly.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       35da3502-1a6f-42c9-8cb4-176881b7006a
+    :END:
+  Experienced guys take that stuff in [stride].
 * thorough :satellite:
 [2018-04-25 Wed 15:43]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       1f827f89-f461-4e34-a75e-fe7b9d322134
+   :END:
 
-Thorough describes something that is painstakingly complete, like a
-thorough search for your missing keys in which you look for them in
-coat pockets, under the table, in the refrigerator — in every single
-place you can think of.
+ thorough
+*** --->
+  тщательный
 
-Thorough rhymes with "burrow": "THUR-oh." It looks a lot like through
-but remember thorough is an adjective, so you might use it to describe
-a thorough investigation or a thorough review. In contrast through is
-used most often as a preposition — you might look through every
-drawer, for example, in a search — or as an adverb — you might see a
-hole in your pocket where coins fall through.
+  adjective
+   1. тщательный (thorough, meticulous, rigorous, close, accurate, precise)
+   2. полный (full, complete, utter, total, absolute, thorough)
+   3. подробный (detailed, detail, thorough, particular, itemized, explicit)
+   4. основательный (thorough, solid, profound, staunch, intimate, stanch)
+   5. глубокий (deep, profound, thorough, rich, keen, sound)
+   6. доскональный (thorough, searching)
+   7. совершенный (perfect, complete, accomplished, ideal, perfective, thorough)
+   8. законченный (finished, complete, completed, ended, consummate, thorough)
 
-Beginners severely underestimate the importance of testing, test cases, how to be
-thorough when testing etc.
+  DEFINITION
+
+  adjective
+   1. complete with regard to every detail; not superficial or partial.
+      "planners need a thorough understanding of the subject"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       0facf868-f9f0-4540-864a-35dd22488fa8
+    :END:
+  [Thorough] describes something that is painstakingly complete, like a
+  [thorough] search for your missing keys in which you look for them in
+  coat pockets, under the table, in the refrigerator — in every single
+  place you can think of.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3e16d7f8-4905-4077-8719-77dc311f4847
+    :END:
+  [Thorough] rhymes with "burrow": "THUR-oh." It looks a lot like
+  through but remember [thorough] is an adjective, so you might use it
+  to describe a [thorough] investigation or a [thorough] review. In
+  contrast through is used most often as a preposition — you might
+  look through every drawer, for example, in a search — or as an
+  adverb — you might see a hole in your pocket where coins fall
+  through.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3701cd96-a89f-4857-81ee-ad9c14d5056d
+    :END:
+  Beginners severely underestimate the importance of testing, test
+  cases, how to be [thorough] when testing etc.
 * genuine :satellite:
 [2018-04-25 Wed 17:25]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       35fda7bd-26dc-4569-bb68-f4849c6d484c
+   :END:
 
-Genuine things are true or authentic. When you're talking about
-people, being genuine has to do with being sincere.
+ genuine
+*** --->
+  подлинный
 
-This word has to do with things and people that are true. A genuine
-blonde is a real blonde — no hair dye involved. A genuine friend is a
-real friend you can trust when the chips are down. Genuine feelings
-are real feelings — not fake feelings put on as a show. A genuine
-hundred dollar bill is the real McCoy, not a counterfeit bill. When
-something is the real thing, it's genuine.
+  adjective
+   1. подлинный (authentic, genuine, true, original, honest, actual)
+   2. неподдельный (genuine, unfeigned, inartificial, unaffected, native)
+   3. настоящий (present, real, true, actual, genuine, veritable)
+   4. истинный (true, genuine, veritable, very, proper, perfect)
+   5. искренний (sincere, genuine, candid, heartfelt, honest, earnest)
+   6. чистопородный (genuine, clean-bred)
 
-The students
-were then asked to distinguish between the genuine notes and the fake ones.
+  DEFINITION
+
+  adjective
+   1. truly what something is said to be; authentic.
+      "each book is bound in genuine leather"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       7114826b-83d1-4f7b-9987-47c817830b6e
+    :END:
+  [Genuine] things are true or authentic. When you're talking about
+  people, being [genuine] has to do with being sincere.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       16c49f86-fec9-4b46-8f3f-f58d23002c49
+    :END:
+  This word has to do with things and people that are true. A [genuine]
+  blonde is a real blonde — no hair dye involved. A [genuine] friend is
+  a real friend you can trust when the chips are down. [Genuine]
+  feelings are real feelings — not fake feelings put on as a show. A
+  [genuine] hundred dollar bill is the real McCoy, not a counterfeit
+  bill. When something is the real thing, it's [genuine].
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       4d645d6c-9980-46fd-bd0a-8ccb4474256b
+    :END:
+  The students were then asked to distinguish between the [genuine]
+  notes and the fake ones.
 * fictitious :satellite:
 [2018-04-25 Wed 17:26]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       2d980208-d032-4a85-a413-6d8d4ff137fa
+   :END:
 
-Fictitious means made up, or imaginary. No matter how real Scarlett
-O'Hara might seem in "Gone With the Wind," she's a fictitious
-character invented by author Margaret Mitchell.
+ fictitious
+*** --->
+  фиктивный
 
-When you look at the word fictitious, you'll probably notice that it
-bears a striking resemblance to fiction — which is an imaginary story
-about people and events that are made up for the purpose of
-entertaining readers. Fictitious can also be used to mean "trick or
-deceive." A thief assumes a fictitious name to hide his real identity
-and evade capture.
+  adjective
+   1. фиктивный (fictitious, dummy, bogus, mock, null)
+   2. вымышленный (fictional, fictitious, assumed, mythical, fictive, romantic)
+   3. воображаемый (imaginary, fancied, visionary, notional, imaginable, fictitious)
+   4. взятый из романа (fictitious)
 
-Though
-half the notes were indeed genuine—they’d been obtained from the Los Angeles County
-coroner’s office—the scores were fictitious.
+  DEFINITION
+
+  adjective
+   1. not real or true, being imaginary or having been fabricated.
+      "she pleaded guilty to stealing thousands in taxpayer dollars by having a fictitious employee on her payroll"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       6379d514-39f2-4c11-8ef3-e2fc9d7926e3
+    :END:
+  [Fictitious] means made up, or imaginary. No matter how real Scarlett
+  O'Hara might seem in "Gone With the Wind," she's a [fictitious]
+  character invented by author Margaret Mitchell.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3b832c79-a403-4354-a240-a56360cf50da
+    :END:
+  When you look at the word [fictitious], you'll probably notice that it
+  bears a striking resemblance to fiction — which is an imaginary
+  story about people and events that are made up for the purpose of
+  entertaining readers. [Fictitious] can also be used to mean "trick or
+  deceive." A thief assumes a [fictitious] name to hide his real
+  identity and evade capture.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       6b93e935-70ee-4d8e-a4e9-27e08b0d0570
+    :END:
+  Though half the notes were indeed genuine—they’d been obtained from
+  the Los Angeles County coroner’s office—the scores were [fictitious].
 * deception :satellite:
 [2018-04-25 Wed 17:27]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       41964b78-b2f4-48e4-b9ca-81d08387c11c
+   :END:
 
-Deception is a trick or scheme used to get what you want, like the
-deception you used to get your sister to agree to do all your chores
-for a month.
+ deception
+*** --->
+  обман
 
-Deception occurs when you deceive, a word that comes from the Latin
-de- meaning "from" and capere, meaning "to take." When you deceive
-someone, the result may be taking — like items you don't really need
-from people willing to give them, believing they are helping you. You
-may have heard the phrase "take someone for a ride." That's a way of
-describing deception.
+  noun
+   1. обман (deception, deceit, fraud, trick, hype, hoax)
+   2. ложь (lie, falsehood, lying, deception, untruth, mendacity)
+   3. хитрость (cunning, trick, stealth, trickery, guile, deception)
+   4. жульничество (fraud, deception, imposture, hokum, con, roguery)
 
-In the second phase of the study, the deception was revealed.
+  DEFINITION
+
+  noun
+   1. the action of deceiving someone.
+      "obtaining property by deception"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       52e9efc4-923a-4a04-b63b-1f6b7b3a2dff
+    :END:
+  [Deception] is a trick or scheme used to get what you want, like the
+  [deception] you used to get your sister to agree to do all your chores
+  for a month.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       d3f805e5-50d8-487d-be5c-d29c8daaa255
+    :END:
+  [Deception] occurs when you deceive, a word that comes from the Latin
+  de- meaning "from" and capere, meaning "to take." When you deceive
+  someone, the result may be taking — like items you don't really need
+  from people willing to give them, believing they are helping you.
+  You may have heard the phrase "take someone for a ride." That's a
+  way of describing [deception].
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       1a6ee4cb-b175-45a8-8481-ff3230bb424b
+    :END:
+  In the second phase of the study, the [deception] was revealed.
 * gauge :satellite:
 [2018-04-25 Wed 17:27]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       fa8b4f4a-c6fd-4477-91c9-8ce99a16ece4
+   :END:
 
-If you ask your friend, "How do you feel, generally, about loaning
-your car to people?" your intention might be to gauge his reaction
-before you flat-out ask if you can borrow his car. To gauge is to
-measure or test.
+ gauge
+*** --->
+  калибр
 
-The verb gauge means to estimate or measure, while the noun gauge is a
-tool you can use to make such a measurement. If you've ever seen
-someone check the air pressure in a tire, the instrument she used was
-called a tire gauge. The thickness, or diameter, of an item like wire
-(or the barrel of a gun) is another meaning of gauge.
+  verb
+   1. калибровать (calibrate, gauge, size, gage, standardize, graduate)
+   2. оценивать (evaluate, appreciate, estimate, assess, rate, gauge)
+   3. измерять (measure, gauge, meter, determine, mete, mensurate)
+   4. выверять (adjust, calibrate, regulate, true, gauge, gage)
+   5. проверять (check, verify, check out, test, examine, gauge)
+   6. градуировать (graduate, calibrate, divide, gauge, gage)
+   7. клеймить (brand, stigmatize, stamp, cauterize, blaze, gauge)
 
-The students were told
-that the real point of the experiment was to gauge their responses to thinking they
-were right or wrong.
+  noun
+   1. калибр (caliber, gauge, gage, size, pass, bore)
+   2. мера (measure, gauge, step, arrangement, extent, remedy)
+   3. шаблон (template, pattern, routine, stereotype, gauge, mold)
+   4. колея (track, gauge, rut, tread, furrow)
+   5. измерительный прибор (meter, gauge, gage, measurer)
+   6. толщина (thickness, depth, gauge, gage, fatness)
+   7. размер (size, rate, scale, extent, dimension, gauge)
+   8. сортамент (gauge, gage)
+   9. ширина колеи (gauge, gage)
+  10. эталон (reference, standard, model, gauge, gage)
+  11. критерий (criterion, test, measure, yardstick, touchstone, gauge)
+  12. масштаб (scale, scope, measure, caliber, gauge, gage)
+  13. способ оценки (gauge, gage)
+  14. лекало (pattern, curve, template, mold, templet, gauge)
+  15. ширина пути (gauge)
+  16. положение относительно ветра (gage, gauge)
+  17. номер (room, number, item, size, gauge, gage)
+
+  DEFINITION
+
+  noun
+   1. an instrument or device for measuring the magnitude, amount, or contents of something, typically with a visual display of such information.
+      "On some equipment, a visual sight glass or gauge shows fluid levels without opening the system, while on others a dipstick or other manual measuring device is used."
+   2. the thickness, size, or capacity of something, especially as a standard measure, in particular.
+      "If you get a good tent, it's 60 gauges , about 130 pounds, it can take care of a family of five to seven throughout the winter, and you can have some items inside the tent that will keep the family warm."
+   3. the position of a sailing vessel to windward ( weather gage ) or leeward ( lee gage ) of another.
+      "A ship sought weather gage of its enemy, so that it had freedom of maneuver, and could close if it wished."
+
+  verb
+   1. estimate or determine the magnitude, amount, or volume of.
+      "astronomers can gauge the star's intrinsic brightness"
+   2. measure the dimensions of (an object) with a gauge.
+      "when dry, the assemblies can be gauged exactly and planed to width"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       c0452d76-0f54-49e7-b8b3-4e76fd80bec2
+    :END:
+  If you ask your friend, "How do you feel, generally, about loaning
+  your car to people?" your intention might be to [gauge] his reaction
+  before you flat-out ask if you can borrow his car. To [gauge] is to
+  measure or test.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       27e12c13-48ea-4c7c-8b01-69e9cef2d7d0
+    :END:
+  The verb [gauge] means to estimate or measure, while the noun [gauge] is
+  a tool you can use to make such a measurement. If you've ever seen
+  someone check the air pressure in a tire, the instrument she used
+  was called a tire [gauge]. The thickness, or diameter, of an item like
+  wire (or the barrel of a gun) is another meaning of [gauge].
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3b1301ce-6b16-4700-af1a-c1b82a04c99f
+    :END:
+  The students were told that the real point of the experiment was to
+  [gauge] their responses to thinking they were right or wrong.
 
 * bogged :satellite:
 [2018-04-26 Thu 14:00]
 
-You'd be pretty soggy by morning if you accidentally set your tent up
-in a bog. A bog is a swampy kind of ground made up mostly of
-decomposing plants and mosses.
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       929a32ef-55b6-4497-a762-3f846d14e833
+   :END:
 
-Nothing can be built on a bog because the ground is so spongy and
-damp, and no crops can be grown there. The dried soil from a bog can,
-however, be dried and burned for fuel. A figurative bog is anything
-that you tend to get stuck in, like a bog of health problems. Things
-can also "bog you down", or slow you down literally or figuratively,
-like when your homework bogs you down so you can't enjoy the weekend.
+ bogged
+*** --->
+  затянутый
 
-"we got bogged down in interminable discussions"
+  DEFINITION
+
+  verb
+   1. cause (a vehicle, person, or animal) to become stuck in mud or wet ground.
+      "the car became bogged down on the beach road"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       fffe0b0e-be33-4d2f-9267-cf5a4dece875
+    :END:
+  You'd be pretty soggy by morning if you accidentally set your tent
+  up in a bog. A bog is a swampy kind of ground made up mostly of
+  decomposing plants and mosses.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       7d89744e-9f3c-4cca-8ac9-fd0c4f3a4729
+    :END:
+  Nothing can be built on a bog because the ground is so spongy and
+  damp, and no crops can be grown there. The dried soil from a bog
+  can, however, be dried and burned for fuel. A figurative bog is
+  anything that you tend to get stuck in, like a bog of health
+  problems. Things can also "bog you down", or slow you down literally
+  or figuratively, like when your homework bogs you down so you can't
+  enjoy the weekend.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       a2bdcf81-63a8-4786-a694-4cbdfb5b3e96
+    :END:
+  "we got [bogged] down in interminable discussions"
 * rabid :satellite:
 [2018-04-28 Sat 09:34]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       cd78c8ec-980e-42d6-ae76-796e8f03ffa8
+   :END:
 
-Chances are that if the tail-wagging dog that just appeared on your
-doorstep is also foaming at the mouth and chewing on your welcome mat,
-it's rabid and you should back away slowly; no petting for this
-infectious pup.
+ rabid
+*** --->
+  бешеный
 
-While you've likely heard it used to describe an animal infected by
-rabies, rabid (derived from the Latin verb rabere "be mad, rave") can
-also dramatically describe a person exhibiting fanatical, extremely
-enthusiastic, or raging behavior. That guy who nearly knocked you off
-the stands at the football game with his energetic fist-pumping and
-then was later kicked out for getting into a fight with another fan?
-Rabid on both counts.
+  adjective
+   1. бешеный (mad, rabid, frantic, furious, frenzied, wild)
+   2. неистовый (violent, outrageous, frantic, frenetic, berserk, rabid)
+   3. яростный (furious, violent, raging, rabid, stormy, rageful)
+   4. взбесившийся (rabid)
+   5. фанатичный (rabid, partisan, phrenetic, frenetic)
 
-Angry rabid dogs, smog clouds, and annoying
-  little brothers are all probable [menace]s.
+  DEFINITION
+
+  adjective
+   1. having or proceeding from an extreme or fanatical support of or belief in something.
+      "a rabid feminist"
+   2. (of an animal) affected with rabies.
+      "As a result of haphazard and inadequate culling, there is now a plague of rabid foxes affecting villages and cities in an arc across the Alps from Austria, through Hungary, Slovenia and Slovakia to Poland."
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3e2a55c4-d868-4604-981f-d97153432148
+    :END:
+  Chances are that if the tail-wagging dog that just appeared on your
+  doorstep is also foaming at the mouth and chewing on your welcome
+  mat, it's [rabid] and you should back away slowly; no petting for this
+  infectious pup.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       33c1e50c-a2b4-4668-88b2-aca84e30de94
+    :END:
+  While you've likely heard it used to describe an animal infected by
+  rabies, [rabid] (derived from the Latin verb rabere "be mad, rave")
+  can also dramatically describe a person exhibiting fanatical,
+  extremely enthusiastic, or raging behavior. That guy who nearly
+  knocked you off the stands at the football game with his energetic
+  fist-pumping and then was later kicked out for getting into a fight
+  with another fan? [Rabid] on both counts.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       03e3cf10-0e23-4e0c-bb93-81c4805c2a1f
+    :END:
+  Angry [rabid] dogs, smog clouds, and annoying little brothers are all
+    probable [menace]s.
 * translucent :satellite:
 [2018-04-28 Sat 09:40]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       c5ca7018-fdf5-428f-be82-6ccce7dde7fb
+   :END:
 
-A translucent material lets light pass through, but objects on the
-other side can't be seen clearly. Think Shrinky Dinks or stained
-glass.
+ translucent
+*** --->
+  полупрозрачный
 
-In contrast, a transparent material allows you to clearly see the
-objects on the other side. Frosted glass is translucent, and regular
-glass is transparent. But opaque glass doesn't let any light through
-at all, and so you can't see through it. The adjective translucent is
-from Latin translucens, from translucere "to shine through."
+  adjective
+   1. полупрозрачный (translucent, semitransparent)
+   2. просвечивающий (translucent, transparent, diaphanous, transpicuous, gauzy)
 
-a thin translucent fabric of silk, linen, or cotton.
+  DEFINITION
+
+  adjective
+   1. (of a substance) allowing light, but not detailed images, to pass through; semitransparent.
+      "fry until the onions become translucent"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       b28f4feb-0c9c-4d07-9d9c-d9aa7ee42f5a
+    :END:
+  A [translucent] material lets light pass through, but objects on the
+  other side can't be seen clearly. Think Shrinky Dinks or stained
+  glass.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       353ec22f-41df-4e8c-a04a-fd56ca274299
+    :END:
+  In contrast, a transparent material allows you to clearly see the
+  objects on the other side. Frosted glass is [translucent], and regular
+  glass is transparent. But opaque glass doesn't let any light through
+  at all, and so you can't see through it. The adjective [translucent]
+  is from Latin translucens, from translucere "to shine through."
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       cad510a4-96c8-45c2-85f7-176f9adce96f
+    :END:
+  a thin [translucent] fabric of silk, linen, or cotton.
 * trickle :satellite:
 [2018-05-02 Wed 08:36]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       d6b5a816-ac82-4c5c-be5c-686854978bf3
+   :END:
 
-To trickle is to weakly flow out of something, like a faucet. A
-trickle is like a drip.
+ trickle
+*** --->
+  струйка
 
-There are a lot of ways water can flow, but one type of slow dripping
-is called trickling. If your shower is only releasing a trickle of
-water, you're not going to get much of a shower. If it's raining — but
-only a trickle — you might not need an umbrella. A slightly leaky roof
-is trickling. A trickle is the opposite of a downpour or flood.
-Trickling can also be called dribbling.
+  noun
+   1. струйка (trickle, plume)
 
-That trickle of sweat didn't just miraculously appear — it was
-  secreted out of a [pore], a really tiny opening on the surface of your
-  skin.
-* miraculously :satellite:
-[2018-05-02 Wed 08:36]
+  verb
+   1. сочиться (trickle, ooze, trickle out, trickle down, bleed, trickle through)
+   2. течь тонкой струйкой (trickle, trickle down, trickle along, trickle out, trickle through)
+   3. капать (drip, dribble, drop, trickle, distil, distill)
+   4. лить тонкой струйкой (trickle)
 
-</p>
-		
-		<a role="button" class="signup button green"
-		href="/signup/">Get Started</a>
-		
-	</div> </div> </section>
+  DEFINITION
 
+  noun
+   1. a small flow of liquid.
+      "a trickle of blood"
 
-<footer class="page-footer"> <nav class="sitelinks limited-width
-hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
-Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
-<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
-href="/dictionary/">Dictionary</a></li> <li><a
-href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
-</div>
-			
-		<div class="col2 "> <h3><a
-			href="/educator-edition/">For
-			Educators</a></h3> <ul> <li><a
-			href="/educator-edition/">Educator
-			Edition</a></li> <li><a
-			href="/educator-edition/pricing/">Plans &amp;
-			Pricing</a></li> <li><a
-			href="/educator-edition/sales/">Contact
-			Sales</a></li> <li><a
-			href="/educator-edition/success-stories/">Success
-			Stories</a></li> </ul> </div>
-		
-		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
-			<ul> <li><a href="/help/">Help Articles /
-			FAQ</a></li> <!-- <li><a
-			href="/help/videos/">How-to Videos</a></li>-->
-			<li><a href="/help/webinars">Training &amp;
-			Webinars</a></li> <li><a
-			href="/help/contactus">Contact
-			Support</a></li> <li><a>&nbsp;</a></li> </ul>
-			</div>
-					
-		<div class="col2 "> <h3><a
-			href="/leaderboards/">Leaderboards</a></h3>
-			<ul> <li><a href="/bowl/">Vocabulary
-			Bowl</a></li> <li><a
-			href="/leaderboards/bowl/">Bowl
-			Leaders</a></li> <li><a
-			href="/leaderboards/today/">Today's
-			Leaders</a></li> <li><a
-			href="/leaderboards/thisweek/">Weekly
-			Leaders</a></li> <li><a
-			href="/leaderboards/thismonth/">Monthly
-			Leaders</a></li> </ul> </div>
-				
-		<div class="col2 "> <h3><a
-			href="/blog/">Connect</a></h3> <ul> <li><a
-			href="/blog/">Vocabulary.com Blog</a></li>
-			<li><a
-			href="https://twitter.com/VocabularyCom">Twitter</a></li>
-			<li><a
-			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
-			
-			</ul> </div>
-		
-		<div class="col2 "> <h3><a href="/about/">Our
-			Story</a></h3> <ul> <li><a href="/about/">Our
-			Mission</a></li> <li><a
-			href="/about/team/">Team / Jobs</a></li>
-			<li><a href="/about/news/">News &amp;
-			Events</a></li> <li><a
-			href="/about/partnerships/">Partnerships</a></li>
-			</ul> </div>
+  verb
+   1. (of a liquid) flow in a small stream.
+      "a solitary tear trickled down her cheek"
 
-</nav> <nav class="legal limited-width clearfloat"> <a
-href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
-class="screen-only">Terms of Use</a> <a href="/privacy/"
-class="screen-only">Privacy Policy</a> <a href="/auth/admin"
-rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
-width:1px;height:1px"><img
-src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
-
-<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
-class="limited-width mobile-5050 pad2y">
-	
-	<div class="col9"> <div class="col4 pad1x"> <h3>For
-		Everyone</h3> <ul> <li><a href="/play/">Play the
-		Challenge</a></li> <li><a href="/lists/">Vocabulary
-		Lists</a></li> <li><a
-		href="/dictionary/">Dictionary</a></li> <li><a
-		href="/articles/chooseyourwords/">Choose Your
-		Words</a></li> </ul> </div>
-			
-		<div class="col4 pad1x"> <h3><a
-			href="/educator-edition/">For
-			Educators</a></h3> <ul> <li><a
-			href="/educator-edition/">Educator
-			Edition</a></li> <li><a
-			href="/educator-edition/pricing/">Plans &amp;
-			Pricing</a></li> <li><a
-			href="/educator-edition/sales/">Contact
-			Sales</a></li> <li><a
-			href="/educator-edition/success-stories/">Success
-			Stories</a></li> </ul> </div>
-		
-		<div class="col4 pad1x"> <h3><a
-			href="/help/">Help</a></h3> <ul> <li><a
-			href="/help/">Help Articles / FAQ</a></li>
-			<li><a href="/help/videos/">How-to
-			Videos</a></li> <li><a
-			href="/help/webinars">Training &amp;
-			Webinars</a></li> <li><a
-			href="/help/contactus">Contact
-			Support</a></li> <li><a>&nbsp;</a></li> </ul>
-			</div>
-					
-		<div class="col4 pad1x"> <h3><a
-			href="/leaderboards/">Leaderboards</a></h3>
-			<ul> <li><a href="/bowl/">Vocabulary
-			Bowl</a></li> <li><a
-			href="/leaderboards/bowl/">Bowl
-			Leaders</a></li> <li><a
-			href="/leaderboards/today/">Today's
-			Leaders</a></li> <li><a
-			href="/leaderboards/thisweek/">Weekly
-			Leaders</a></li> <li><a
-			href="/leaderboards/thismonth/">Monthly
-			Leaders</a></li> </ul> </div>
-		
-		
-
-		<div class="col4 pad1x"> <h3><a
-			href="/blog/">Connect</a></h3> <ul> <li><a
-			href="/blog/">Vocabulary.com Blog</a></li>
-			<li><a
-			href="https://twitter.com/VocabularyCom">Twitter</a></li>
-			<li><a
-			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
-			
-			</ul> </div>
-		
-		<div class="col4 pad1x"> <h3><a href="/about/">Our
-			Story</a></h3> <ul> <li><a href="/about/">Our
-			Mission</a></li> <li><a
-			href="/about/team/">Team / Jobs</a></li>
-			<li><a href="/about/news/">News &amp;
-			Events</a></li> <li><a
-			href="/about/partnerships/">Partnerships</a></li>
-			</ul> </div> </div> <div class="col3 pad1x">
-			<h3><a href="/account/">My Account</a></h3>
-			<div class="loggedout-only clearfloat
-			signinoptions"> <a role="button" class="google
-			button" href="/login/google">Sign in with
-			Google</a> <a role="button" class="facebook
-			button" href="/login/facebook">Sign in with
-			Facebook</a> <p>or, <a href="/login/">sign in
-			with email.</a></p> <p>Don't have an account
-			yet?<br> <a href="/signup">Sign up. It's free
-			and takes five seconds.</a> </p> </div> <ul
-			class="loggedin-only"> <li><a
-			href="/auth/logout"><i class="ss-logout">Log
-			Out</a></li> <li
-			class="perms-school-reports-only"><a
-			href="/account/schools"><i class="ss-school
-			ss-symbolicons-block">Schools &amp;
-			Teachers</a></li>
-			
-			<li class="nav-classes
-			perms-create-class-only"><a
-			href="/account/classes"><i class="ss-users">My
-			Classes</a></li>
-			
-			<li class="nav-assignments"><a
-			href="/account/activities/"><i
-			class="ss-attach">Assignments &amp;
-			Activities</a></li> <li ><a
-			href="/account/lists/"><i class="ss-list">My
-			Lists</a> <ul> <li><a href="/lists/"><i
-			class="ss-search">Find a List to
-			Learn...</a></li> <li><a href="/lists/new"><i
-			class="ss-hospital
-			ss-symbolicons-block">Create a New
-			List...</a></li> </ul> </li> <li><a
-			href="/progress/"><i class="ss-barchart">My
-			Progress</a> <ul> <li><a
-			href="/account/progress/words/learning"><i
-			class="ss-hiker ss-symbolicons-block">Words
-			I'm Learning</a></li> <li><a
-			href="/account/progress/words/trouble"><i
-			class="ss-bullseye ss-symbolicons-block">My
-			Trouble Words</a></li> <li><a
-			href="/account/progress/words/mastered"><i
-			class="ss-check ss-symbolicons-block">Words
-			I've Mastered</a></li> <li><a
-			href="/account/progress/achievements"><i
-			class="ss-award ss-symbolicons-block">My
-			Achievements</a></li> </ul> </li> <li
-			class="perms-user-admin-only"><a
-			href="/account/users"><i class="ss-usergroup
-			ss-symbolicons-block ">User
-			Administration</a></li> <li
-			class="perms-auth-admin-only"><a
-			href="/account/authentication"><i
-			class="ss-key">User Authentication</a></li>
-			<li> <a href="/account/"><i
-			class="ss-settings">My Account</a> </li> </ul>
-			</div> </div> <div class="copyright pad2y">
-			<div class="limited-width"> <span>&copy;
-			Vocabulary.com</span> <div class="terms"> <a
-			href="/terms/">Terms of Use</a> <a
-			href="/privacy/">Privacy Policy</a> </div>
-			</div> </div> </div></div> <div
-			class="nub"></div> </nav> </div>
-
-
-</body>
-
-</html>
-
-
-</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
-			free and takes five seconds.</a> </p> </div>
-			<ul class="loggedin-only"> <li><a
-			href="/auth/logout"><i class="ss-logout">Log
-			Out</a></li> <li
-			class="perms-school-reports-only"><a
-			href="/account/schools"><i class="ss-school
-			ss-symbolicons-block">Schools &amp;
-			Teachers</a></li>
-			
-			<li class="nav-classes
-			perms-create-class-only"><a
-			href="/account/classes"><i class="ss-users">My
-			Classes</a></li>
-			
-			<li class="nav-assignments"><a
-			href="/account/activities/"><i
-			class="ss-attach">Assignments &amp;
-			Activities</a></li> <li ><a
-			href="/account/lists/"><i class="ss-list">My
-			Lists</a> <ul> <li><a href="/lists/"><i
-			class="ss-search">Find a List to
-			Learn...</a></li> <li><a href="/lists/new"><i
-			class="ss-hospital
-			ss-symbolicons-block">Create a New
-			List...</a></li> </ul> </li> <li><a
-			href="/progress/"><i class="ss-barchart">My
-			Progress</a> <ul> <li><a
-			href="/account/progress/words/learning"><i
-			class="ss-hiker ss-symbolicons-block">Words
-			I'm Learning</a></li> <li><a
-			href="/account/progress/words/trouble"><i
-			class="ss-bullseye ss-symbolicons-block">My
-			Trouble Words</a></li> <li><a
-			href="/account/progress/words/mastered"><i
-			class="ss-check ss-symbolicons-block">Words
-			I've Mastered</a></li> <li><a
-			href="/account/progress/achievements"><i
-			class="ss-award ss-symbolicons-block">My
-			Achievements</a></li> </ul> </li> <li
-			class="perms-user-admin-only"><a
-			href="/account/users"><i class="ss-usergroup
-			ss-symbolicons-block ">User
-			Administration</a></li> <li
-			class="perms-auth-admin-only"><a
-			href="/account/authentication"><i
-			class="ss-key">User Authentication</a></li>
-			<li> <a href="/account/"><i
-			class="ss-settings">My Account</a> </li> </ul>
-			</div> </div> <div class="copyright pad2y">
-			<div class="limited-width"> <span>&copy;
-			Vocabulary.com</span> <div class="terms"> <a
-			href="/terms/">Terms of Use</a> <a
-			href="/privacy/">Privacy Policy</a> </div>
-			</div> </div> </div></div> <div
-			class="nub"></div> </nav> </div>
-
-
-</body>
-
-</html>
-
-
-That trickle of sweat didn't just miraculously appear — it was
-  secreted out of a [pore], a really tiny opening on the surface of your
-  skin.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       3311e91b-b5c3-41d3-a815-9caa2c8399e7
+    :END:
+  To [trickle] is to weakly flow out of something, like a faucet. A
+  [trickle] is like a drip.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       6b0362f8-432f-444f-aebf-7aa7a99e030d
+    :END:
+  There are a lot of ways water can flow, but one type of slow
+  dripping is called trickling. If your shower is only releasing a
+  [trickle] of water, you're not going to get much of a shower. If it's
+  raining — but only a [trickle] — you might not need an umbrella. A
+  slightly leaky roof is trickling. A [trickle] is the opposite of a
+  downpour or flood. Trickling can also be called dribbling.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       c869c789-3f30-4795-a887-cc8b2610c9d4
+    :END:
+  That [trickle] of sweat didn't just miraculously appear — it was
+    secreted out of a [pore], a really tiny opening on the surface of
+    your skin.
 * deity :satellite:
 [2018-05-02 Wed 08:54]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       9e86ed78-c14a-4e5a-98e9-88aa2002cfaa
+   :END:
 
-A deity is a supernatural being, like a god or goddess, that is
-worshipped by people who believe it controls or exerts force over some
-aspect of the world.
+ deity
+*** --->
+  божество
 
-The word deity means "divine nature." It was coined by Saint
-Augustine, a theologian whose writings were very influential in the
-shaping of Western Christianity. Deity comes from the Latin word for
-"god": deus. The divine nature of deities is believed to be immortal
-goodness and powerfulness.
+  noun
+   1. божество (deity, divinity, god, godhead, idol, demigod)
+   2. божественность (divinity, deity, godhead)
+   3. бог (god, deity, heaven, divinity, almighty, king)
+   4. создатель (creator, maker, author, originator, architect, deity)
 
-Think of a [supplication] as sort of a prayer, a request for help
-  from a deity.
+  DEFINITION
+
+  noun
+   1. a god or goddess (in a polytheistic religion).
+      "a deity of ancient Greece"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       a462c2e1-2978-412e-9d33-63b947b9e4df
+    :END:
+  A [deity] is a supernatural being, like a god or goddess, that is
+  worshipped by people who believe it controls or exerts force over
+  some aspect of the world.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       fea55f62-b975-4fdb-83ad-c44f68b1b54b
+    :END:
+  The word [deity] means "divine nature." It was coined by Saint
+  Augustine, a theologian whose writings were very influential in the
+  shaping of Western Christianity. [Deity] comes from the Latin word for
+  "god": deus. The divine nature of deities is believed to be immortal
+  goodness and powerfulness.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       7d829d41-b32c-48a0-a6cf-20479156274c
+    :END:
+  Think of a [supplication] as sort of a prayer, a request for help
+    from a [deity].
 * adoration :satellite:
 [2018-05-02 Wed 08:54]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       e2530fdf-040d-4acc-9fce-a36a550eab30
+   :END:
 
-Adoration is a feeling of deep love. Some people may say animals don't
-have emotions, but you know from the adoration in your dog's eyes that
-it's just not true.
+ adoration
+*** --->
+  обожание
 
-The noun adoration comes from the Latin word adorationem, which means
-"worship," particularly in a religious way. Adoration is still used
-today in a religious context, in phrases like "the adoration of God."
-If you adore or deeply love someone, you can describe that feeling as
-adoration. It's the kind of feeling Romeo had for Juliet, devoted fans
-have for a pop star, and you have for your beloved cat.
+  noun
+   1. обожание (adoration, idolatry, dotage, worshipping)
+   2. поклонение (worship, adoration, cult, idolatry)
+   3. восхищение (admiration, rapture, delight, adoration, applause, ravishment)
 
-The word carries a sense of awe and adoration with it,
-  suggesting something tentative, even servile, a respectful appeal to
-  a higher power.
+  DEFINITION
+
+  noun
+   1. deep love and respect.
+      "he gave her a look of adoration"
+   2. worship; veneration.
+      "the Adoration of the Magi"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       5072bd3f-bd47-410e-b685-f233a5145584
+    :END:
+  [Adoration] is a feeling of deep love. Some people may say animals
+  don't have emotions, but you know from the [adoration] in your dog's
+  eyes that it's just not true.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       2357cef4-2451-42ca-9014-9fc1893cb49b
+    :END:
+  The noun [adoration] comes from the Latin word [adoration]em, which
+  means "worship," particularly in a religious way. [Adoration] is still
+  used today in a religious context, in phrases like "the [adoration] of
+  God." If you adore or deeply love someone, you can describe that
+  feeling as [adoration]. It's the kind of feeling Romeo had for Juliet,
+  devoted fans have for a pop star, and you have for your beloved cat.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       4f1b0d01-958a-4a1b-ae9b-949059a22231
+    :END:
+  The word carries a sense of awe and [adoration] with it, suggesting
+    something tentative, even servile, a respectful appeal to a higher
+    power.
 * tentative :satellite:
 [2018-05-02 Wed 08:54]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       c8b89f1e-08b8-4ecc-8640-355730c4c45a
+   :END:
 
-Choose the adjective tentative to describe something you are unsure or
-hesitant about. On Monday, you can make tentative plans for the
-weekend, but it's too early to commit to one party or another.
+ tentative
+*** --->
+  предварительный
 
-Tentative, from the Latin tentātīvus "testing, trying," always
-describes something that is uncertain. If you make a tentative
-appointment, write it down in pencil, not pen, because it might have
-to be changed. Here the opposite of tentative is definite or set. If
-someone gives you a tentative smile or nod, the person feels hesitant
-or unsure about something. In this case, its opposite is confident.
+  adjective
+   1. пробный (trial, test, pilot, tentative, experimental, specimen)
+   2. экспериментальный (experimental, tentative)
+   3. неуверенный (uncertain, unsure, tentative, insecure of, erratic, unassured)
+   4. опытный (experienced, experimental, skilled, proficient, expert, tentative)
+   5. неопределенный (uncertain, vague, indefinite, ambiguous, indeterminate, tentative)
+   6. колеблющийся (oscillating, hesitant, vibrating, vacillating, wavering, tentative)
 
-The word carries a sense of awe and adoration with it,
-  suggesting something tentative, even servile, a respectful appeal to
-  a higher power.
+  DEFINITION
+
+  adjective
+   1. not certain or fixed; provisional.
+      "a tentative conclusion"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       4a3acc2d-79dc-4ab5-80dd-2d02aeb47313
+    :END:
+  Choose the adjective [tentative] to describe something you are unsure
+  or hesitant about. On Monday, you can make [tentative] plans for the
+  weekend, but it's too early to commit to one party or another.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       60445305-cdcc-4659-b7eb-771f9d3c21d3
+    :END:
+  [Tentative], from the Latin tentātīvus "testing, trying," always
+  describes something that is uncertain. If you make a [tentative]
+  appointment, write it down in pencil, not pen, because it might have
+  to be changed. Here the opposite of [tentative] is definite or set. If
+  someone gives you a [tentative] smile or nod, the person feels
+  hesitant or unsure about something. In this case, its opposite is
+  confident.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       dd1d1b65-594d-4e71-afca-686b241781b9
+    :END:
+  The word carries a sense of awe and adoration with it, suggesting
+    something [tentative], even servile, a respectful appeal to a higher
+    power.
 * servile :satellite:
 [2018-05-02 Wed 08:55]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       b9457f9b-2847-426d-8f95-2c4dbde082c1
+   :END:
 
-If you want to get someone to like you, don't offer to fetch them a
-Coke, rub their feet, or do their homework. They won't like you any
-better, and your servile attitude will only cost you their respect.
+ servile
+*** --->
+  холопский
 
-To remember servile, just think of the word servant––they both derive
-from the Latin servus "slave." In fact, servile also means anything
-characteristic of a slave. "After winning the lottery, the ex-slave
-shed first his servile clothes, later his servile manner. The
-transformation was complete."
+  adjective
+   1. рабский (slave, slavish, servile, thrall)
+   2. холопский (servile)
+   3. подобострастный (servile, slimy, obsequious, obsequies)
+   4. раболепный (servile, fawning, subservient, obsequious, creeping, menial)
+   5. лакейский (servile, menial)
 
-The word carries a sense of awe and adoration with it,
-  suggesting something tentative, even servile, a respectful appeal to
-  a higher power.
+  DEFINITION
+
+  adjective
+   1. having or showing an excessive willingness to serve or please others.
+      "bowing his head in a servile manner"
+   2. of or characteristic of a slave or slaves.
+      "Even after having spent so many years in the servile conditions of the workhouse, and then the brothel, I still had the urge to say my piece, but I'd learnt that sometimes it was wiser not to."
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       a1336a8a-6d25-4c78-a1b2-0d03cc37b0ae
+    :END:
+  If you want to get someone to like you, don't offer to fetch them a
+  Coke, rub their feet, or do their homework. They won't like you any
+  better, and your [servile] attitude will only cost you their respect.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       82df5080-3b37-4008-b360-594bff5cf109
+    :END:
+  To remember [servile], just think of the word servant––they both
+  derive from the Latin servus "slave." In fact, [servile] also means
+  anything characteristic of a slave. "After winning the lottery, the
+  ex-slave shed first his [servile] clothes, later his [servile] manner.
+  The transformation was complete."
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       99966d5c-c2e7-4b93-9b8b-aeeb6897a5b3
+    :END:
+  The word carries a sense of awe and adoration with it, suggesting
+  something tentative, even [servile], a respectful appeal to a higher
+  power.
 * appeal :satellite:
 [2018-05-02 Wed 08:56]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       0f5ebd8c-5294-4fcd-80d3-690e4206f69f
+   :END:
 
-Appeal means to ask, or address. If you appeal to someone's better
-nature, you're asking them for mercy. If a shirt doesn't appeal to
-you, you could also say it doesn't "speak" to you, or more simply, you
-don't like it.
+ appeal
+*** --->
+  обращение
 
-Appeal also means to call upon a higher court to review a lower
-court's decision. If you appeal a court's conviction of you for shop
-lifting, you're asking a higher court to throw the decision out.
-Appeal descends from the Latin appellare "to address, call upon."
+  noun
+   1. обращение (treatment, handling, circulation, appeal, address, conversion)
+   2. призыв (call, appeal, plea, exhortation, draft, slogan)
+   3. обжалование (appeal)
+   4. привлекательность (attractiveness, attraction, appeal, allure, grace, prettiness)
+   5. апелляция (appeal)
+   6. воззвание (appeal, proclamation, pronunciamento)
+   7. жалоба (complaint, appeal, claim, grievance, plaint, plea)
+   8. просьба (request, application, plea, petition, wish, appeal)
+   9. мольба (pleading, plea, supplication, prayer, entreaty, appeal)
+  10. влечение (appetence, inclination, affection, affinity, appeal, bent)
+  11. право апелляции (appeal)
 
-The word carries a sense of awe and adoration with it,
-  suggesting something tentative, even servile, a respectful appeal to
-  a higher power.
+  verb
+   1. обращаться (appeal, address, treat, turn, handle, refer)
+   2. апеллировать (appeal, call on)
+   3. взывать (cry, appeal, invoke, call on)
+   4. привлекать (attract, engage, draw, invite, appeal, draw on)
+   5. нравиться (like, please, appeal, fancy, fetch, take)
+   6. подавать апелляционную жалобу (appeal)
+   7. прибегать к (use, resort, fall back on, take to, fall back upon, appeal)
+   8. молить (supplicate, appeal, adjure)
+   9. умолять (beg, implore, plead, beseech, entreat, appeal)
+  10. притягивать (attract, draw, pull, appeal)
+
+  DEFINITION
+
+  noun
+   1. a serious or urgent request, typically one made to the public.
+      "his mother made an appeal for the return of the ring"
+   2. an application to a higher court for a decision to be reversed.
+      "he has 28 days in which to lodge an appeal"
+   3. the quality of being attractive or interesting.
+      "the popular appeal of football"
+
+  verb
+   1. make a serious or urgent request, typically to the public.
+      "police are appealing for information about the incident"
+   2. apply to a higher court for a reversal of the decision of a lower court.
+      "he said he would appeal against the conviction"
+   3. be attractive or interesting.
+      "the range of topics will appeal to youngsters"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       5eded0f9-7e3d-4096-bf37-7440298a8a6e
+    :END:
+  [Appeal] means to ask, or address. If you [appeal] to someone's better
+  nature, you're asking them for mercy. If a shirt doesn't [appeal] to
+  you, you could also say it doesn't "speak" to you, or more simply,
+  you don't like it.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       7ae2c6ea-84c7-4635-9bc8-ecff5471c636
+    :END:
+  [Appeal] also means to call upon a higher court to review a lower
+  court's decision. If you [appeal] a court's conviction of you for shop
+  lifting, you're asking a higher court to throw the decision out.
+  [Appeal] descends from the Latin appellare "to address, call upon."
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       25c948f2-3226-4790-8fe1-864c6dd903b6
+    :END:
+  The word carries a sense of awe and adoration with it, suggesting
+  something tentative, even servile, a respectful [appeal] to a higher
+  power.
+* miraculous :satellite:
+[2018-05-02 Wed 10:27]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       5d3cbd34-bc96-4b3d-9de9-c356a0860d57
+   :END:
+
+ miraculous
+*** --->
+  чудотворный
+
+  adjective
+   1. чудотворный (miraculous, thaumaturgic)
+   2. удивительный (astonishing, amazing, surprising, wonderful, remarkable, miraculous)
+   3. чудодейственный (miraculous)
+   4. сверхъестественный (supernatural, uncanny, weird, preternatural, eerie, miraculous)
+
+  DEFINITION
+
+  adjective
+   1. occurring through divine or supernatural intervention, or manifesting such power.
+      "a miraculous cure"
+
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       42d0e5d6-5f0d-4eb1-924b-b8841973d4fb
+    :END:
+  A [miraculous] occurrence can be providential or heaven-sent, or just
+  peculiarly fortunate and appropriate. In any event, as the word
+  suggests, it has the character of a miracle.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       f7a7ed42-a616-44de-ac42-f45499408513
+    :END:
+  The adjective [miraculous] has origins in the Latin word miraculum,
+  meaning "object of wonder." It's often used to describe religious
+  happenings, such as a direct answer to one's prayer. In a more
+  secular context, a "[miraculous] comeback" is when a football team
+  that's down by 30 points at halftime ends up winning the Super Bowl.
+*** --->                                                              :drill:
+    :PROPERTIES:
+    :ID:       1da94cff-4a85-4177-810e-1caa8d34c23f
+    :END:
+  That trickle of sweat didn't just [miraculous] appear — it was
+  secreted out of a [pore], a really tiny opening on the surface of
+  your skin.
