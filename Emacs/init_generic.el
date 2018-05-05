@@ -82,7 +82,10 @@
    "* %i \n %f")
   ;; 
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
-   "* %?\nEntered on %U\n  %i\n  %a")))
+   "* %?\nEntered on %U\n  %i\n  %a")
+;;
+  ("d" "Drill-item" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Microservices")
+   "* >->-> :drill:\n%i")))
 
 (setq org-publish-project-alist
 '(("jekyll-org"
