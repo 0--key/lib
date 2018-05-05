@@ -318,3 +318,2610 @@ class="limited-width mobile-5050 pad2y">
 
 
 "he plowed on, trying to outline his plans and engage Sutton's attention"
+* tiered :satellite:
+[2018-05-03 Thu 11:05]
+
+Something that is arranged in a series of levels or layers is tiered.
+Towering wedding cakes are often tiered, with the smallest layer at
+the very top.
+
+Stadium or theater seating is tiered — each row of seats is placed
+slightly above the row in front of it, so that people sitting in the
+back can see over the heads of the audience members in front. Skirts
+and dresses sometimes have tiered ruffles, each layer a bit higher
+than the one beneath it. The adjective tiered comes from tier, or
+"row," from the Old French tire, "rank or sequence."
+
+Because
+microservices are primarily modeled around business
+domains, they avoid the problems of traditional tiered
+architectures.
+* pitfalls :satellite:
+[2018-05-03 Thu 11:06]
+
+A pitfall is a trap or difficulty you didn't see. A possible pitfall
+for high school seniors is not working hard after they know they've
+already been accepted into college.
+
+In 1300, pitfall referred to an animal trap, such as branches laid
+across a deep hole offering no escape. Since the 1580s, pitfall has
+come to describe any hidden or unexpected difficulty, and its meaning
+has expanded to apply to humans. You might encounter a pitfall when
+trying to use a brand new computer program that's unexpectedly
+precise. It can even be a habit you don't want to address, like the
+pitfalls of snacking in front of the television every night.
+
+Microservices also integrate new
+technologies and techniques that have emerged over the
+last decade, which helps them avoid the pitfalls of many
+service-oriented architecture implementations.
+* profound :satellite:
+[2018-05-03 Thu 11:31]
+
+When you need a word that's deeper than "deep," consider profound.
+
+Profundus meant literally "deep" in Latin, and profound had the same
+meaning when it entered English in the 14th century. But even then, it
+also meant "figuratively deep" — that is, very great or intense: "The
+new laws have had a profound impact." Of people, it means "very
+knowledgeable or insightful," but sometimes if a person tries to sound
+profound they're really just giving you superficial knowledge dressed
+up with big words.
+
+Although the idea is not new
+(even if the term itself is), experiences from people all over the
+world, along with the emergence of new technologies, are having a
+profound effect on how they are used.
+* implications :satellite:
+[2018-05-03 Thu 11:35]
+
+An implication is something that is suggested, or happens, indirectly.
+When you left the gate open and the dog escaped, you were guilty by
+implication.
+
+Implication has many different senses: Usually used in the plural,
+implications are effects or consequences that may happen in the
+future. You might ask, "What are the implications of our decision?"
+Implication is also the state of being implicated, or connected to
+something bad: "Are you surprised by their implication that you were
+involved in the crime?"
+
+This is where we start getting a bit deeper into specific
+ technology implications, as we discuss what sorts of service
+ collaboration techniques will help us most.
+* delve :satellite:
+[2018-05-03 Thu 11:35]
+
+The verb delve means to dig into, loosen, or investigate. She delved
+into her family's history and discovered an inventor, a checkers
+champion, and a circus equestrian in her ancestry.
+
+Delve has a literal meaning of to dig into the earth ("to delve the
+soil," as in preparing a garden, for example), but this sense is rare
+now. The verb is most often used in the more figurative sense — like
+to delve into a problem or into someone's personal life.
+
+We’ll also delve into
+ the topic of user interfaces and integrating with legacy and
+ commercial off-the-shelf (COTS) products.
+* legacy :satellite:
+[2018-05-03 Thu 11:36]
+
+Use the word, legacy, for something handed down from one generation to
+the next. A retiring company president might leave a legacy of honesty
+and integrity.
+
+Legacy comes from the Latin verb, legare "to appoint by a last will,
+send as an ambassador." Originally, the noun meant "ambassador" or
+"envoy" but soon shifted to mean the money and property a person
+leaves behind in his will. Many university scholarships are funded by
+the legacies of former students. In recent usage, political leaders
+are said to be concerned with their legacies, the historically
+significant achievements of their tenure in office.
+
+We’ll also delve into
+ the topic of user interfaces and integrating with legacy and
+ commercial off-the-shelf (COTS) products.
+* impacted :satellite:
+[2018-05-03 Thu 11:37]
+
+If your doctor tells you that something is impacted, that's not a good
+thing. It means wedged together and unable to move.
+
+Wisdom teeth are often impacted, which makes one question how wise
+they actually are. A fractured bone can be impacted as well, which
+means the two broken ends are wedged together. Perhaps you could say
+that your Christmas stocking is so jam packed and impacted with
+goodies that you can barely pull anything out — but that's about the
+only non-painful association with the word imaginable.
+
+Although this book is primarily theoretical, few topics in the
+ book have been as impacted by recent changes in technology as
+ deployment, which we’ll explore here.
+* discrete :satellite:
+[2018-05-03 Thu 11:38]
+
+Discrete means separate or divided. A discrete unit is a separate part
+of something larger. A room is a discrete space within a house, just
+as the crankshaft is a discrete part of a car engine.
+
+If something is discrete, it has its own space. An ice cube comes from
+an ice tray, but it has its own discrete compartment. A student
+government might have discrete committees for different projects.
+Don't confuse discrete with its close cousin discreet, which means
+“appropriately private.” Billionaire Bruce Wayne, for example, is very
+discreet about his secret life as Batman. You could say Batman is a
+discrete, or separate, part of Bruce Wayne’s identity. Anything
+distinct and separated is discrete.
+
+This chapter goes deep into the topic of testing, an area of
+ particular concern when handling the deployment of multiple
+ discrete services.
+* align :satellite:
+[2018-05-03 Thu 11:40]
+
+To align means to bring something into a straight line, or an easy
+agreement. If you always park on an angle and people are leaving mean
+notes on your windshield, learn to align the car with the parking
+space.
+
+Align comes from the French a, meaning "to" and ligne meaning "line,"
+and it means to bring something into line with something else. This
+can be literal. If you are hanging a painting, you'll want to align it
+with the window frame. The line can also be metaphorical. If you run
+for office, your political opinions will need to be aligned with those
+of your supporters.
+
+We’ll attempt to
+ get to the bottom of this dilemma, and consider some different
+ ways to align system design with the structure of your teams.
+* instilling :satellite:
+[2018-05-03 Thu 11:45]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+The concept of
+continuous delivery showed how we can more effectively and
+efficiently get our software into production, instilling in us the
+idea that we should treat every check-in as a release candidate.
+* espoused :satellite:
+[2018-05-03 Thu 11:52]
+
+Use the verb espouse to describe the actions of someone who lives
+according to specific beliefs, such as your friends who espouse
+environmentalism and as a result walk whenever possible instead of
+taking the car.
+
+You can see the word spouse in espouse, so you may be wondering what
+husbands and wives have to do with it. Originally espouse did mean "to
+marry," but its meaning has evolved to include other long-term
+commitments as well, such as support for a principle or a cause.
+Similar to marriage, if you espouse a belief system, the idea is that
+you've chosen to wed yourself to it.
+
+Some large, successful organizations like Amazon
+and Google espoused the view of small teams owning the full lifecycle
+of their services.
+* intently :Holmes:
+[2018-05-04 Fri 15:29]
+
+If you're studying something intently, you're probably leaning forward
+and you're oblivious to whatever is going on around you. Your
+attention is focused like a laser.
+
+If you're gazing intently into someone's eyes, you're hanging on to
+every blink of the eye, every nuance of expression. Maybe you're in
+love. When you do something intently, you do it with intensity. It's
+not a coincidence that intently sounds a lot like intensity, as they
+both come from the Latin intendere, made up of in- ("toward") and
+tendere ("stretch"). So when you're listening intently to a Bartók
+string quartet, you're stretching and straining to hear every note.
+
+While my brother often took the opportunity to fall
+promptly asleep on his corner of the couch, the rest of us listened
+intently.
+* suspense :Holmes:
+[2018-05-04 Fri 15:30]
+
+Suspense is a feeling of excited waiting. If you have been waiting for
+weeks to get an answer to your proposal of marriage, you are being
+kept in suspense.
+
+The verb form, suspend, literally means to keep hanging. Suspense can
+be used in all sorts of ways. Movies that keep you on the edge of your
+seat in fear use suspense to draw you in. Suspense doesn’t always have
+to be scary, but it is usually agitating. If you are in suspense,
+you’re waiting on something that you really have to know.
+
+I remember
+the rise and fall of his voice as the suspense mounted beyond all
+breaking points, and finally, finally, at long last the awaited
+solution, when it all made sense and I’d shake my head, just like Dr.
+* slam :Holmes:
+[2018-05-04 Fri 15:31]
+
+
+
+nil
+
+And I remember that final slam of the
+book, the thick pages coming together between the crimson covers,
+when he’d announce, “That’s it for tonight.”
+* crimson :Holmes:
+[2018-05-04 Fri 15:32]
+
+Crimson is a deep, vivid shade of red. You could describe flowers,
+blood, or blushing cheeks as crimson.
+
+The ruby red color crimson shows up brilliantly in nature, in the form
+of flowers, birds, and insects. In fact, it was an insect that led to
+the word crimson in the first place; an insect called kermes was used
+for centuries to make a deep red dye, which was called cremesin in Old
+Spanish and eventually became crimson.
+
+And I remember that final slam of the
+book, the thick pages coming together between the crimson covers,
+when he’d announce, “That’s it for tonight.”
+* taunting :Holmes:
+[2018-05-04 Fri 15:32]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+And then there’s the one thing that wedged its way so deeply into my
+brain that it remained there, taunting me, for years to come, when
+the rest of the stories had long since faded into some indeterminate
+background and the adventures of Holmes and his faithful Boswell were
+all but forgotten: the steps.
+* faculty :Holmes:
+[2018-05-04 Fri 15:39]
+
+A faculty refers to any of your mental or physical abilities. If you
+lose your faculties, you are powerless. The faculty of a school is
+comprised of the people who work there. Lose them, and you have a
+different kind of problem.
+
+Faculty comes from the Old French word faculté, which means “skill,
+accomplishment, or learning.” You may have great faculties of memory,
+sight, mobility, charm, math, and musicality, but, as Beethoven was in
+the end, be robbed of your faculty of hearing. Any aptitude or ability
+— inborn or learned — that you have is a faculty. Also, if you go to
+school, your teachers make up the faculty of that school.
+
+An education which should
+improve this faculty would be the education par excellence.”
+* voluntarily :Holmes:
+[2018-05-04 Fri 15:41]
+
+Use the adverb voluntarily to describe something you do willingly. For
+example, you might voluntarily stay home and babysit your little
+brother if the alternative is a trip to the grocery store.
+
+People do things voluntarily when they are completely willing to do
+them, not forced or enticed by anyone else. Kids tend to eat candy
+voluntarily, ride their bikes with their friends voluntarily, and
+watch their favorite shows on TV voluntarily. It's easy to see the
+connection with the verb to volunteer, and both words are rooted in
+the Latin root voluntarius, "of one's free will."
+
+As early as
+the end of the nineteenth century, William James, the father of
+modern psychology, wrote that “the faculty of voluntarily bringing
+back a wandering attention, over and over again, is the very root of
+judgment, character, and will.
+* palpable :Holmes:
+[2018-05-04 Fri 15:43]
+
+When something is palpable, you can touch or handle it, even though
+the word is often used to describe things that usually can't be
+handled or touched, such as emotions or sensations.
+
+You probably won't see palpable used to describe, say, an egg or a
+doorknob or a motorcycle. Palpable is usually reserved for situations
+in which something invisible becomes so intense that it feels as
+though it has substance or weight. When the towers came down, the
+sense of sadness was so great, it was palpable.
+
+When we
+are forced to do multiple things at once, not only do we perform
+worse on all of them but our memory decreases and our general
+well-being suffers a palpable hit.
+* awareness :Holmes:
+[2018-05-04 Fri 15:45]
+
+Awareness is the state of knowing something, such as the awareness
+that the sun comes up every morning.
+
+The adjective aware gets turned into a noun when the suffix -ness is
+added, so awareness is the state of being aware, or having knowledge
+of something. Its roots are Germanic, and come from the Old English
+wær meaning "wary, cautious." Awareness can be something you notice,
+want to tell others about, or already know. You could "raise
+awareness" of a cause, like fighting breast cancer. Yet, your
+awareness of the baby sleeping next door might prevent you from having
+band practice in the garage. Smart move.
+
+We have to move from passive absorption to active
+awareness.
+* blithely :Holmes:
+[2018-05-04 Fri 15:46]
+
+The adverb blithely describes something you do in a casually cheerful,
+somewhat neglectful way, like when you blithely ride your bike down
+the street, not even thinking about all the homework you have to do.
+
+Something that's done blithely is careless, like a group of kids
+blithely dashing off across a frozen pond on their ice skates,
+forgetting about their slower friend. You could talk blithely about
+your brand new laptop, forgetting that your friend can't afford a new
+computer. Blithely also means "happily," without implying that
+anything is being overlooked or ignored, like a winning team blithely
+celebrating their victory.
+
+We sail on, blithely unaware of how much we are missing, of
+how little we grasp of our own thought process—and how much better we
+could be if only we’d taken the time to understand and to reflect.
+* plod :Holmes:
+[2018-05-04 Fri 15:46]
+
+When you plod, you walk slowly, heavily, and deliberately. You might
+need to plod through the snow to get to the bus stop on time.
+
+Plod evokes a difficulty in walking — like when you trudge through mud
+or walk slowly up a steep hill. You might plod home at the end of a
+long day, or plod through an overgrown field on a hot afternoon. You
+can also use plod figuratively, to mean "work on something boring or
+monotonous." The origin of plod is unknown, but it may have come from
+the sound of feet on the ground — the sound you make when you plod.
+
+Like Watson, we plod along the same staircase tens, hundreds,
+thousands of times, multiple times a day, and we can’t begin to
+recall the most mundane of details about them (I wouldn’t be
+surprised if Holmes had asked about color instead of number of steps
+and had found Watson equally ignorant).
+* engenders :Holmes:
+[2018-05-04 Fri 15:49]
+
+Engender is a fancy way of saying "to make happen," like when you
+engender the spirit of teamwork and cooperation by encouraging others
+and doing your share of the group's work.
+
+The verb engender has nothing to do with being male or female, though
+originally, it did mean "beget, procreate." Today, engender means "to
+produce or bring about." When students come to class prepared, meaning
+they've read their assignment, this engenders better class
+discussions, just as mutual trust and the desire to help each other
+engenders a meaningful friendship.
+
+Everything is new, everything is exciting, everything
+engenders curiosity.
+* exquisitely :Holmes:
+[2018-05-04 Fri 15:49]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+And because of the inherent newness of our
+surroundings, we are exquisitely alert; we are absorbed; we take it
+all in.
+* attend :Holmes:
+[2018-05-05 Sat 08:49]
+
+The verb attend means to be present, to listen, or give care or
+attention to. You can attend your family reunion, attend to a project
+you've been ignoring, or attend to your teacher's voice.
+
+When you use attend as "pay attention" or "take care of," it's
+followed by "to." When you use attend as in "attend a party," you
+don't. If you attend a political rally, you'll want to attend to what
+the politicians have to say. When you take attendance, you are
+checking which students have chosen to attend class, i.e. who is in
+attendance.
+
+Gone are the days where our
+main job was to learn, to absorb, to interact; we now have other,
+more pressing (or so we think) responsibilities to attend to and
+demands on our minds to address.
+* mindlessness :Holmes:
+[2018-05-05 Sat 08:51]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+And while that’s not inherently a bad thing—in fact,
+we’ll be talking repeatedly about the need to automate certain
+processes that are at first difficult and cognitively costly—it is
+dangerously close to mindlessness.
+* thoughtlessness :Holmes:
+[2018-05-05 Sat 08:51]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+It’s a fine line between
+efficiency and thoughtlessness—and one that we need to take care not
+to cross.
+* deviate :Holmes:
+[2018-05-05 Sat 08:51]
+
+If something turns off course or is diverted, it deviates from the
+expected or the norm. Deviating from explicit recipe directions is
+never a good idea, unless you want inedible food or a kitchen fire.
+
+The verb deviate can refer to divergence from a predicted path or road
+("the airplane's route deviated from the flight plan"), but it can
+also refer to a divergence from normal behavior or expectations. When
+women demanded the right to vote, their behavior was considered
+shocking and deviated from the expectations of the time.
+
+You’ve likely had the experience where you need to deviate from a
+stable routine only to find that you’ve somehow forgotten to do so.
+* daze :Holmes:
+[2018-05-05 Sat 08:53]
+
+A daze is a type of confusion, when you have a lack of clarity. When
+you first wake up, you might be in a bit of a daze, shuffling about
+the house before your brain really starts working.
+
+Daze can also mean the feeling of distress and disbelief that you have
+when something bad happens to you accidentally: "After getting hit in
+the head by a football, you were in such a daze you couldn't remember
+where you were." As a verb, daze means to stun. You will definitely
+daze your father when you tell him that you eloped.
+
+You get so set in a specific pattern that
+you go through entire chunks of your day in a mindless daze (and if
+you are still thinking about work?
+* dazzle :Holmes:
+[2018-05-05 Sat 08:57]
+
+To dazzle is to blind someone for a moment with light, like a deer in
+the headlights. You can also dazzle by impressing people, and not just
+by wearing a sparkly sequined shirt.
+
+Have you ever had a light shine in your face so you couldn't see for a
+second? You were dazzled. To dazzle is to blind someone in this way. A
+car's high-beam lights can dazzle other drivers. Looking directly at
+the sun is a way to dazzle yourself. Dazzling puts you in a daze for a
+second. Also, anything impressive can dazzle. A great writer dazzles
+readers. An impressive speaker dazzles listeners. It's like you're
+blinded by their brilliance.
+
+So that you, too, can offhandedly mention that
+number of steps to dazzle a less-with-it companion.
+* mutilations :Holmes:
+[2018-05-05 Sat 08:59]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+In 1903, twenty-seven-year-old
+Edalji was sentenced to seven years of hard labor for one of the
+sixteen mutilations, that of a pony whose body had been found in a
+pit near the vicar’s residence.
+* dispelled :Holmes:
+[2018-05-05 Sat 09:02]
+
+To dispel is to get rid of something that's bothering or threatening
+you, regardless of whether that's warts, worries, or wild dogs.
+
+The nifty thing about dispel is that you can use it when talking about
+emotional problems (such as worries and fears) as well as physical
+ones (such as wild dogs). Note, however, that when dispel is used in
+reference to physical foes, it often has the added meaning of
+scattering your opponents in all directions. So, while you can dispel
+a pack of wild dogs, you should just chase off or drive away a lone
+wolf. Good luck with that, by the way.
+
+And there, across the lobby, any lingering doubts Sir
+Arthur may have had about the young man’s innocence were dispelled.
+* hostile :Holmes:
+[2018-05-05 Sat 09:04]
+
+If something is hostile, it's unfriendly. If you are zealous about the
+political causes you believe in, you will be hostile to any suggestion
+that the other side of the argument is reasonable.
+
+Hostile comes from the Latin word hostis, for enemy, and you can hear
+its relation to the word hostage. But you don't have to be from a
+warring nation to be hostile. You can talk about a hostile nation, a
+hostile takeover, a hostile remark, or a hostile attitude. Some
+synonyms are inimical, antagonistic, unfavorable, unfriendly.
+
+He met with the increasingly hostile Captain Anson.
+* missives :Holmes:
+[2018-05-05 Sat 09:05]
+
+A missive usually refers to the old-school style of hand-written
+communication on paper (remember that?), but these days you also might
+hear an email called a missive. No matter how you deliver it, a
+missive is a message.
+
+The noun missive comes from the Latin word missus, meaning "to send."
+You may have heard the phrase, "fire off a missive," meaning a note,
+memo or dispatch that was written and sent with urgency and conveyed
+an important message. It might have been a missive sent from a
+commander to the troops, telling them of a change in the battle plan.
+Or, maybe it was an urgent love letter to the commander's wife back
+home, telling her to tie a yellow ribbon round the ole oak tree...
+
+He traced the handwriting
+expert who had proclaimed that Edalji’s hand matched that of the
+anonymous missives.
+* nocturnal :Holmes:
+[2018-05-05 Sat 09:07]
+
+If something is nocturnal, it belongs to or is active at night. That
+includes vampires, owls that like to hunt by moonlight, and that
+roommate who stays up playing video games until the wee hours of the
+morning.
+
+The adjective nocturnal comes from the Late Latin nocturnalis, which
+means “belonging to the night." You've probably heard of nocturnal
+animals, like bats and fireflies, who sleep during the day and come
+out to play when the sun goes down. The opposite of nocturnal is
+diurnal, meaning active during the daytime — but you probably won't be
+using that word much unless you're a zoologist.
+
+And, of course, there was the question of the eyesight:
+could someone with such astigmatism and severe myopia really navigate
+nocturnal fields in order to maim animals?
+* maim :Holmes:
+[2018-05-05 Sat 09:07]
+
+To maim something is to disfigure it through force or violence.
+Wartime battles have a tendency to maim soldiers.
+
+The verb maim is related to mayhem, which, historically, was the act
+of hurting another person so badly that they couldn’t defend
+themselves. To maim a person or animal, even if it’s an accident, is
+to render them defenseless or disfigured, and it frequently includes
+the loss of a limb. The goal of driving defensively is to avoid an
+accident that could maim you, your passengers, or other people on the
+road.
+
+And, of course, there was the question of the eyesight:
+could someone with such astigmatism and severe myopia really navigate
+nocturnal fields in order to maim animals?
+* slaughter :Holmes:
+[2018-05-05 Sat 09:08]
+
+Slaughter refers to the killing of large numbers of animals or people.
+When cattle are old enough, they're sent to slaughter and their meat
+is processed and shipped to stores.
+
+The noun slaughter was first used in the 1300s and comes from the Old
+Norse word slahtr, which also described the mass killing of animals or
+people. A verb form came along later, in the 1530s. You might hear
+slaughter used to describe the killing of large numbers of people in a
+war, a genocide, or a massacre. It also can be used figuratively to
+describe a crushing defeat, like the slaughter of your basketball team
+by your bitter rivals.
+
+In the spring of 1907, Edalji was finally cleared of the charge of
+animal slaughter.
+* commenced :Holmes:
+[2018-05-05 Sat 09:09]
+
+Commence is a fancy way of saying "begin." Your invitation to a formal
+wedding might note, "The ceremony will commence at noon."
+
+If a congressman wants to start a meeting to vote on an important
+bill, he might say, "This meeting will begin immediately." Or, he
+could make the same statement in a more formal way by saying, "This
+meeting will commence immediately." Interestingly enough, while the
+word commence means to start, a commencement ceremony marks the end of
+a college career.
+
+The Committee of Inquiry found, as summarized
+by Conan Doyle, that “the police commenced and carried on their
+investigations, not for the purpose of finding out who was the guilty
+party, but for the purpose of finding evidence against Edalji, who
+they were already sure was the guilty man.”
+* miscarriages :Holmes:
+[2018-05-05 Sat 09:10]
+
+A miscarriage, in medical terms, is the birth of a fetus before it's
+able to live independently of its mother. In other words, a
+miscarriage is the abrupt, early end of a pregnancy.
+
+The medical sense of miscarriage, which usually describes the very
+early loss of a pregnancy (later losses are often called stillbirths),
+is actually among the newer uses of the word. In the sixteenth
+century, a miscarriage was almost always a "mistake or error" or
+sometimes "misbehavior." Today, when something doesn't go the way it
+was supposed to, you might call it a miscarriage.
+
+And in August of that
+year, England saw the creation of its first court of appeals, to deal
+with future miscarriages of justice in a more systematic fashion.
+* impetuses :Holmes:
+[2018-05-05 Sat 09:13]
+
+An impetus is the force behind something, whether it's a boulder
+rolling down a hill or a person making a decision.
+
+Very little would get done if there were no such thing as an impetus:
+an impetus is some kind of force that gets something or somebody
+moving. If you push a car that's out of gas, you're the impetus that's
+getting it moving. An impetus doesn't have to be physical. Advertisers
+hope their commercials will be an impetus to buy the product.
+
+The
+Edalji case was widely considered one of the main impetuses behind
+its creation.
+* wearisome :Holmes:
+[2018-05-05 Sat 09:13]
+
+Anything that's boring, tedious, or so dull that it puts you to sleep
+can be described as wearisome. Long bus rides and long classroom
+lectures can both be wearisome.
+
+The adjective wearisome is good for describing things that seem to
+last forever, that require repetition, or that are otherwise both
+boring and mentally exhausting. Always being told "Be careful!" by
+your parents can be wearisome, and typing data into a computer all day
+is also wearisome. The original, fifteenth century meaning of
+wearisome was "weary" or "tired," but it quickly came to mean "making
+one weary," from the Old English root werig, "tired."
+
+“I shall not
+mention the name which must have become wearisome to your ears,”
+Meredith told Conan Doyle, “but the creator of the marvellous Amateur
+Detective has shown what he can do in the life of breath.”
+* legitimately :Docker:
+[2018-05-05 Sat 10:13]
+
+</p>
+		
+		<a role="button" class="signup button green"
+		href="/signup/">Get Started</a>
+		
+	</div> </div> </section>
+
+
+<footer class="page-footer"> <nav class="sitelinks limited-width
+hide-mobile clearfloat screen-only"> <div class="col2 "> <h3>For
+Everyone</h3> <ul> <li><a href="/play/">Play the Challenge</a></li>
+<li><a href="/lists/">Vocabulary Lists</a></li> <li><a
+href="/dictionary/">Dictionary</a></li> <li><a
+href="/articles/chooseyourwords/">Choose Your Words</a></li> </ul>
+</div>
+			
+		<div class="col2 "> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col2 "> <h3><a href="/help/">Help</a></h3>
+			<ul> <li><a href="/help/">Help Articles /
+			FAQ</a></li> <!-- <li><a
+			href="/help/videos/">How-to Videos</a></li>-->
+			<li><a href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col2 "> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+				
+		<div class="col2 "> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col2 "> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div>
+
+</nav> <nav class="legal limited-width clearfloat"> <a
+href="/terms/">&copy; Vocabulary.com</a> <a href="/terms/"
+class="screen-only">Terms of Use</a> <a href="/privacy/"
+class="screen-only">Privacy Policy</a> <a href="/auth/admin"
+rel="nofollow" style="position: absolute; top: 0px; left: -1000px;
+width:1px;height:1px"><img
+src="//cdn.vocab.com/images/clear-16y9b5d.gif" ></a> </nav></footer>
+
+<nav class="sitemap screen-only"> <div class="scrollable"> <div> <div
+class="limited-width mobile-5050 pad2y">
+	
+	<div class="col9"> <div class="col4 pad1x"> <h3>For
+		Everyone</h3> <ul> <li><a href="/play/">Play the
+		Challenge</a></li> <li><a href="/lists/">Vocabulary
+		Lists</a></li> <li><a
+		href="/dictionary/">Dictionary</a></li> <li><a
+		href="/articles/chooseyourwords/">Choose Your
+		Words</a></li> </ul> </div>
+			
+		<div class="col4 pad1x"> <h3><a
+			href="/educator-edition/">For
+			Educators</a></h3> <ul> <li><a
+			href="/educator-edition/">Educator
+			Edition</a></li> <li><a
+			href="/educator-edition/pricing/">Plans &amp;
+			Pricing</a></li> <li><a
+			href="/educator-edition/sales/">Contact
+			Sales</a></li> <li><a
+			href="/educator-edition/success-stories/">Success
+			Stories</a></li> </ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a
+			href="/help/">Help</a></h3> <ul> <li><a
+			href="/help/">Help Articles / FAQ</a></li>
+			<li><a href="/help/videos/">How-to
+			Videos</a></li> <li><a
+			href="/help/webinars">Training &amp;
+			Webinars</a></li> <li><a
+			href="/help/contactus">Contact
+			Support</a></li> <li><a>&nbsp;</a></li> </ul>
+			</div>
+					
+		<div class="col4 pad1x"> <h3><a
+			href="/leaderboards/">Leaderboards</a></h3>
+			<ul> <li><a href="/bowl/">Vocabulary
+			Bowl</a></li> <li><a
+			href="/leaderboards/bowl/">Bowl
+			Leaders</a></li> <li><a
+			href="/leaderboards/today/">Today's
+			Leaders</a></li> <li><a
+			href="/leaderboards/thisweek/">Weekly
+			Leaders</a></li> <li><a
+			href="/leaderboards/thismonth/">Monthly
+			Leaders</a></li> </ul> </div>
+		
+		
+
+		<div class="col4 pad1x"> <h3><a
+			href="/blog/">Connect</a></h3> <ul> <li><a
+			href="/blog/">Vocabulary.com Blog</a></li>
+			<li><a
+			href="https://twitter.com/VocabularyCom">Twitter</a></li>
+			<li><a
+			href="https://www.facebook.com/vocabularycom">Facebook</a></li>
+			
+			</ul> </div>
+		
+		<div class="col4 pad1x"> <h3><a href="/about/">Our
+			Story</a></h3> <ul> <li><a href="/about/">Our
+			Mission</a></li> <li><a
+			href="/about/team/">Team / Jobs</a></li>
+			<li><a href="/about/news/">News &amp;
+			Events</a></li> <li><a
+			href="/about/partnerships/">Partnerships</a></li>
+			</ul> </div> </div> <div class="col3 pad1x">
+			<h3><a href="/account/">My Account</a></h3>
+			<div class="loggedout-only clearfloat
+			signinoptions"> <a role="button" class="google
+			button" href="/login/google">Sign in with
+			Google</a> <a role="button" class="facebook
+			button" href="/login/facebook">Sign in with
+			Facebook</a> <p>or, <a href="/login/">sign in
+			with email.</a></p> <p>Don't have an account
+			yet?<br> <a href="/signup">Sign up. It's free
+			and takes five seconds.</a> </p> </div> <ul
+			class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+</p> <p>Don't have an account yet?<br> <a href="/signup">Sign up. It's
+			free and takes five seconds.</a> </p> </div>
+			<ul class="loggedin-only"> <li><a
+			href="/auth/logout"><i class="ss-logout">Log
+			Out</a></li> <li
+			class="perms-school-reports-only"><a
+			href="/account/schools"><i class="ss-school
+			ss-symbolicons-block">Schools &amp;
+			Teachers</a></li>
+			
+			<li class="nav-classes
+			perms-create-class-only"><a
+			href="/account/classes"><i class="ss-users">My
+			Classes</a></li>
+			
+			<li class="nav-assignments"><a
+			href="/account/activities/"><i
+			class="ss-attach">Assignments &amp;
+			Activities</a></li> <li ><a
+			href="/account/lists/"><i class="ss-list">My
+			Lists</a> <ul> <li><a href="/lists/"><i
+			class="ss-search">Find a List to
+			Learn...</a></li> <li><a href="/lists/new"><i
+			class="ss-hospital
+			ss-symbolicons-block">Create a New
+			List...</a></li> </ul> </li> <li><a
+			href="/progress/"><i class="ss-barchart">My
+			Progress</a> <ul> <li><a
+			href="/account/progress/words/learning"><i
+			class="ss-hiker ss-symbolicons-block">Words
+			I'm Learning</a></li> <li><a
+			href="/account/progress/words/trouble"><i
+			class="ss-bullseye ss-symbolicons-block">My
+			Trouble Words</a></li> <li><a
+			href="/account/progress/words/mastered"><i
+			class="ss-check ss-symbolicons-block">Words
+			I've Mastered</a></li> <li><a
+			href="/account/progress/achievements"><i
+			class="ss-award ss-symbolicons-block">My
+			Achievements</a></li> </ul> </li> <li
+			class="perms-user-admin-only"><a
+			href="/account/users"><i class="ss-usergroup
+			ss-symbolicons-block ">User
+			Administration</a></li> <li
+			class="perms-auth-admin-only"><a
+			href="/account/authentication"><i
+			class="ss-key">User Authentication</a></li>
+			<li> <a href="/account/"><i
+			class="ss-settings">My Account</a> </li> </ul>
+			</div> </div> <div class="copyright pad2y">
+			<div class="limited-width"> <span>&copy;
+			Vocabulary.com</span> <div class="terms"> <a
+			href="/terms/">Terms of Use</a> <a
+			href="/privacy/">Privacy Policy</a> </div>
+			</div> </div> </div></div> <div
+			class="nub"></div> </nav> </div>
+
+
+</body>
+
+</html>
+
+
+In addition, some part of your domain may be legitimately complex,
+requiring more code.
+* trite :Docker:
+[2018-05-05 Sat 10:17]
+
+When you want to indicate that something is silly or overused, you
+would call it trite. A love song with lyrics about holding hands in
+the sunshine? Totally trite.
+
+Trite has a Latin root, the past participle of terere, meaning "wear
+out." An old-fashioned or outdated definition of the word is "frayed
+or worn out by use," and you can see how the meaning for an object
+that is worn out can be applied to an idea that has been used to the
+point of being meaningless. The antonym of this word is original.
+
+Another somewhat trite answer I can give is small enough and no
+smaller.
