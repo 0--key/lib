@@ -1,0 +1,38 @@
+-*- coding: utf-8 -*-
+
+* Proverbs
+
+* Quotes
+
+* Idioms
+
+* Microservices
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-09 Wed>
+   :PROPERTIES:
+   :ID:       298d313a-3653-4ff5-89b2-dbde915f7600
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-05 Sat 10:16]
+   :END:
+ Microservices are [small, autonomous] services that work together.
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-09 Wed>
+   :PROPERTIES:
+   :ID:       059702b0-014a-4cfa-87a8-e40fe24c4ee4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-05 Sat 10:16]
+   :END:
+ Another somewhat [trite] answer I can give is [small enough and no
+ smaller].
