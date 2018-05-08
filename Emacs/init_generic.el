@@ -72,8 +72,8 @@
   ("i" "Idiom" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Idioms")
    "* >->-> :drill:\n%i")
   ;;
-  ("t" "Thought" entry (file+datetree "/usr/local/git/0--key/lib/org/thoughts.org")
-   "* %?%c\n%i\n %f")
+  ("t" "Thought" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Thoughts")
+   "* >->-> :drill:\n%i")
   ;;
   ("r" "Proverb riddle" entry (file+datetree "/usr/local/git/0--key/lib/org/proverbs.org")
    "* %c\n %? %i \n %f")
