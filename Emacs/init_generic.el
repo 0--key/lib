@@ -69,8 +69,8 @@
  (setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
-  ("i" "Idiom" entry (file+datetree "/usr/local/git/0--key/lib/org/idioms.org")
-   "* %i\n %U")
+  ("i" "Idiom" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Idioms")
+   "* >->-> :drill:\n%i")
   ;;
   ("t" "Thought" entry (file+datetree "/usr/local/git/0--key/lib/org/thoughts.org")
    "* %?%c\n%i\n %f")
