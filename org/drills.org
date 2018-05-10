@@ -6,6 +6,18 @@
 
 * Thoughts
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :ID:       c987cc64-bf48-4537-bb27-9bbfd576eb81
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:35]
+   :END:
  - make some [observations] about a [phenomenon];
  - create a [hypothesis] to explain those [observations];
  - design an [experiment] to test the [hypothesis];
@@ -14,53 +26,158 @@
  - [rework your hypothesis] if you must;
  - lather, [rinse], and repeat
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       ac81a4b6-368f-4167-83a7-093a7d3a02b7
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:33]
+   :END:
  From a drop of water, a logician [could infer] the possibility of an
  Atlantic or a Niagara without [having seen or heard] of one or the
  other.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       b26d3834-087c-44e4-b6fe-455f27b6c956
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :END:
  In other words, given our [existing knowledge base], we can use
  observation to [deduce meaning] from an [otherwise meaningless] fact.
 * Idioms
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :ID:       75539aaa-35c6-4549-b3de-ad743394064b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:33]
+   :END:
  The simplicity is [deceptive], as you will learn in the next two
  chapters.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       421968c6-1b39-4b96-a582-37c14ee514fa
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :END:
  [There is nothing new] under the sun. [It has all been done] before.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       290e4b31-6f30-45d9-9bbb-71e4ed3c514a
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:37]
+   :END:
  As our [environment changes], we must never forget to [revise and
  retest] out hypotheses.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8abab197-6715-4ad0-b862-e341fc40f12c
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:37]
+   :END:
  When Holmes first lays out the theoretical principles [behind his
  approach], he [boils it down] to one main idea: “How much an
  observant man [might learn] by an [accurate and systematic
  examination] of all that came his way.”
-* Microservices
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-09 Wed>
+   SCHEDULED: <2018-05-14 Mon>
    :PROPERTIES:
-   :ID:       298d313a-3653-4ff5-89b2-dbde915f7600
+   :ID:       180bea76-6e93-457d-a3ef-af03ac8b27a6
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
    :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:36]
+   :END:
+ You can guess [which is which].
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-14 Mon>
+   :PROPERTIES:
+   :ID:       4a35277d-7cbb-4577-b68b-391b3e548102
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-05 Sat 10:16]
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :END:
+ We understand and believe in [the same instant]
+* Microservices
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-19 Sat>
+   :PROPERTIES:
+   :ID:       298d313a-3653-4ff5-89b2-dbde915f7600
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:25]
    :END:
  Microservices are [small, autonomous] services that work together.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-09 Wed>
+   SCHEDULED: <2018-05-14 Mon>
    :PROPERTIES:
    :ID:       059702b0-014a-4cfa-87a8-e40fe24c4ee4
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.167
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-05 Sat 10:16]
+   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:36]
    :END:
  Another somewhat [trite] answer I can give is [small enough and no
  smaller].
