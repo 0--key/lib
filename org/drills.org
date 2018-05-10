@@ -151,6 +151,21 @@
    :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
    :END:
  We understand and believe in [the same instant]
+** >->->                                                              :drill:
+ But [neither] Twitter [nor] Netflix use only one technology stack for all
+ jobs, [either].
+** >->->                                                              :drill:
+ Adventure into the [deepest crevices] of the [human mind].
+** >->->                                                              :drill:
+ The scientific method begins with a [broad base of knowledge], an
+ understanding of the [facts and contours] of the problem you are trying
+ to [tackle].
+** >->->                                                              :drill:
+ That, [in a nutshell], is the scientific method: understand and
+ [frame] the problem; observe; [hypothesize] (or imagine); test and
+ [deduce]; and repeat.
+** >->->                                                              :drill:
+ It’s awfully easy to [get tripped] up.
 * Microservices
 ** >->->                                                              :drill:
    SCHEDULED: <2018-05-19 Sat>
@@ -181,3 +196,6 @@
    :END:
  Another somewhat [trite] answer I can give is [small enough and no
  smaller].
+** >->->                                                              :drill:
+ The golden rule: can you [make a change] to a service and [deploy it by
+ itself] without changing anything else?
