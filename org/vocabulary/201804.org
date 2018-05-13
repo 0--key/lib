@@ -183,17 +183,17 @@
       "quaint country cottages"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       a45eb106-5d7a-4b01-81a0-f514a82ae87c
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.4
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:50]
     :END:
   [Quaint] means strange and unusual in an old-fashioned and charming
   way. It's a word you'd use to describe a little store that sells tea
@@ -219,17 +219,17 @@
   is Old French queinte, cointe, from Latin cognitus "known," from
   cognōscere "to learn."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       4bbbee25-86b4-4ede-a59a-22c6f51118e2
     :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.6
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:51]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
     :END:
   I expected it would be a [quaint] curiosity, that Dr.
 * malady                                                          :satellite:
@@ -271,17 +271,17 @@
   maladies, such as never having any money — the [malady] of people who
   spend freely, not thinking of the future.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-23 Wed>
     :PROPERTIES:
     :ID:       61b81f95-cbcd-4231-b9b9-2c307e46dc24
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 9.6346
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.333
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:24]
+    :DRILL_AVERAGE_QUALITY: 2.714
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:51]
     :END:
   I presumed that the application of business knowledge developed over
   the last forty years would have stamped out many [maladi]es described
@@ -289,17 +289,17 @@
 * engaging :satellite:
 [2018-04-17 Tue 10:45]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-11 Fri>
+   SCHEDULED: <2018-06-02 Sat>
    :PROPERTIES:
    :ID:       39596c21-a77e-41d9-8d25-9e7a26b69617
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 19.9491
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.333
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:14]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:57]
    :END:
 
  engaging
@@ -392,17 +392,17 @@
       "the notion that the camera never lies is a fallacy"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       75e7d057-2959-495d-a7ca-30d2a5b8d846
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 8.56
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.25
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:51]
     :END:
   A [fallacy] is a misleading argument or belief based on a falsehood.
   If you oppose state testing in schools, you think it is a [fallacy]
@@ -466,33 +466,33 @@
       "she was an incisive critic"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       1bf0fac8-7bb8-4ae0-90e2-84b33ec96104
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:45]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:47]
     :END:
   The adjective [incisive] describes something that is sharp, decisive,
   and direct. A comment that cuts right to the bone can be just as
   [incisive] as an actual knife.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-21 Mon>
     :PROPERTIES:
     :ID:       719b71d8-4294-49b1-a911-4ede4fdf332b
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 5
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.25
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:53]
     :END:
   The word [incisive] is rooted in a Latin word that literally means "to
   cut with a sharp edge." To help you remember the meaning, you can
@@ -501,34 +501,34 @@
   something that is mentally sharp first appeared in the 1850s. Keen
   criticism and cutting remarks have been called [incisive] ever since.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-21 Mon>
     :PROPERTIES:
     :ID:       f1df9a72-4b9e-4fd3-b3c9-ee76d78bc399
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.2
+    :DRILL_AVERAGE_QUALITY: 2.5
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:54]
     :END:
   Peter was not only an [incisive] thinker but masterfully creative with
   words.
 * stilted :satellite:
 [2018-04-17 Tue 10:54]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-30 Mon>
+   SCHEDULED: <2018-05-22 Tue>
    :PROPERTIES:
    :ID:       2a530cc7-a7f7-43cf-859d-79b9357f056a
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 9.3103
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.5
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:40]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:47]
    :END:
 
  stilted
@@ -567,17 +567,17 @@
   The adjective [stilted] describes something—usually a style of writing
   or speaking—that is unnaturally formal.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-11 Fri>
+    SCHEDULED: <2018-06-04 Mon>
     :PROPERTIES:
     :ID:       5c3eab1d-814f-4bfc-a98f-d99876663531
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 22.4564
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.667
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:21]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:56]
     :END:
   Imagine someone walking awkwardly on a pair of stilts and you have a
   good impression of the word [stilted] — wooden and stiff. Stilt is
@@ -587,34 +587,34 @@
   that the word was used as we use it now, to describe writing or
   speaking that does not flow smoothly.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-23 Wed>
     :PROPERTIES:
     :ID:       b6c85b7b-8692-414b-848a-4428dd8bfbcb
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 9.6346
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.25
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
+    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:50]
     :END:
   Peter invented dozens of strange, [stilted], and pseudoscientific
   phrases and words.
 * incumbent :satellite:
 [2018-04-17 Tue 10:58]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-30 Mon>
+   SCHEDULED: <2018-05-17 Thu>
    :PROPERTIES:
    :ID:       9dce1daf-24d9-4be9-982c-6b347a71d5bc
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:49]
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
    :END:
 
  incumbent
@@ -718,17 +718,17 @@
       "he detoured around the walls"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       d110baf3-9c4d-4826-9e99-60929071f999
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:52]
     :END:
   A [detour] is a longer, less direct way to get where you're going. A
   traffic accident sometimes means you have to take a [detour] to get
@@ -763,17 +763,17 @@
 * mock                                                            :satellite:
 [2018-04-17 Tue 11:00]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-11 Fri>
+   SCHEDULED: <2018-06-02 Sat>
    :PROPERTIES:
    :ID:       daac4755-1d57-45c0-ac6a-096b1c47151a
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 19.9491
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.333
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:15]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:56]
    :END:
 
  mock
@@ -831,17 +831,17 @@
   "Louise’s favorite pastime was to [mock] her brother’s inability to
   sing on key."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-11 Fri>
+    SCHEDULED: <2018-06-02 Sat>
     :PROPERTIES:
     :ID:       8bc457bd-529c-472d-9c9e-cab517514142
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:05]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:55]
     :END:
   The verb [mock] — as in the use that inspired the name of the
   [mock]ingbird — can be simple imitation but, more often, to [mock]
@@ -979,17 +979,17 @@
       "a restaurant renowned for its Southwestern-style food"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       693802ce-4a09-4fde-9ce1-8cc6045ce1e4
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.428
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:28]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 16:00]
     :END:
   Celebrated, gushed over, and even legendary, something that's
   [renowned] is really famous. If you not only find a cure for cancer,
@@ -1128,17 +1128,17 @@
   and the word itself is related to blīthe, the source of modern
   English blithe, which means happy.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       8ab78f9b-77c7-466d-b018-a04b12fe0b47
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.5
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:46]
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
     :END:
   Peter’s assertion that ignorance is [bliss].
 * exhort :satellite:
@@ -1256,17 +1256,17 @@
   When things are [ripe], it's a good thing — the time for action is
   now.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       2194dc7a-d5d3-4bce-9a64-4954f456e502
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 8.56
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 1.8
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:25]
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:51]
     :END:
   Creative incompetence is another idea from The Peter Principle [ripe]
   for development.
@@ -1303,17 +1303,17 @@
       "officials were dismissed or reprimanded for poor work"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       2ff67d52-58cc-4331-bab7-680b113b8565
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_AVERAGE_QUALITY: 2.571
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:27]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:54]
     :END:
   If you're [reprimand]ed, someone in authority speaks to you in an
   angry way because you've done something wrong. Or you might
@@ -1406,17 +1406,17 @@
   quickly sees there's nothing unusual up in the sky, catches up with
   those who [deflect].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       c7c0ae92-ed54-4614-b307-eb305ec9b27b
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:50]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:59]
     :END:
   It almost always works to [deflect] work one doesn’t want to
   do—without ever having to admit it.”
@@ -1458,33 +1458,33 @@
       "she cloaked herself in black"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       ce7cecab-a171-4fa9-bc3c-215d7cea201a
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:46]
     :END:
   A [cloak] is anything that conceals or hides something, like an
   over-sized, dark raincoat you wear when you don't want your friends
   to see you're going to the movies without them.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-23 Wed>
     :PROPERTIES:
     :ID:       b5ac93c9-4d55-437e-ac77-129c533cefaa
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:37]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:49]
     :END:
   As a noun, a [cloak] is usually a loose piece of clothing that you
   wear over your other clothes, like a cape or a gown. It especially
@@ -1541,17 +1541,17 @@
   [Somber] is used to describe situations, facial expressions, or moods
   that are dark, gloomy, or depressing.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       1ae538aa-ed2e-4d8c-9373-dc9b79f14fd4
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.4
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:47]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:59]
     :END:
   Something that is [somber] is often thought of as "in shadow," as in
   "the shadow of grief," or "the shadow of a bad mood." This is not
@@ -1777,17 +1777,17 @@
 * lapse                                                           :satellite:
 [2018-04-18 Wed 11:56]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-11 Fri>
+   SCHEDULED: <2018-06-03 Sun>
    :PROPERTIES:
    :ID:       c5d844c7-0b0c-45e7-b6cb-fd18aefe97d6
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 20.6501
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:17]
+   :DRILL_AVERAGE_QUALITY: 3.667
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:56]
    :END:
 
  lapse
@@ -1840,17 +1840,17 @@
       "the country has lapsed into chaos"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       a3c31fb3-98ff-477e-8087-c9fc2f4f9639
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:50]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:48]
     :END:
   A [lapse] is a temporary slip, failure or break in continuity. Eating
   a second helping of cake when you're otherwise doing well on your
@@ -1908,17 +1908,17 @@
       "the inept handling of the threat"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-21 Mon>
     :PROPERTIES:
     :ID:       8385c590-7529-4335-ab48-34c917204f35
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_AVERAGE_QUALITY: 2.75
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:54]
     :END:
   A clumsy, incompetent person — or an ineffective action — is [inept].
   When you're [inept], you don't know what you're doing or just can't
@@ -1943,17 +1943,17 @@
   worker loses mail and puts it in the wrong box. An [inept] person is
   downright bad at something. The opposite of [inept] is competent.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-21 Mon>
     :PROPERTIES:
     :ID:       a3ee7248-245b-4be4-b53b-01982ba60151
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 1.75
+    :DRILL_AVERAGE_QUALITY: 2.2
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:55]
     :END:
   Many others were [inept] at research design and, in desperation, were
   simply intending to replicate some oft-repeated statistical
@@ -1985,17 +1985,17 @@
       place, time, posture, having or possession, action, and passion.
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       a8cfd975-5ebd-4cd2-8766-0a52f05235ad
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_AVERAGE_QUALITY: 2.6
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:53]
     :END:
   If you're engaged to get married but suddenly fall in love with
   someone else, you have gotten yourself into quite a [predicament]. A
@@ -2038,17 +2038,17 @@
 * confide                                                         :satellite:
 [2018-04-18 Wed 11:59]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-11 Fri>
+   SCHEDULED: <2018-06-03 Sun>
    :PROPERTIES:
    :ID:       a156a869-e6e9-42b7-ae5c-1fab1e01b4af
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 20.6501
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:19]
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:56]
    :END:
 
  confide
@@ -2071,17 +2071,17 @@
       "he confided his fears to his mother"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       febae7cc-583f-4679-be34-92fd6af79a64
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:48]
     :END:
   To [confide] in someone is to tell them something privately. We
   [confide] in people we trust.
@@ -2107,17 +2107,17 @@
 * ensue                                                           :satellite:
 [2018-04-18 Wed 12:01]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-06 Sun>
+   SCHEDULED: <2018-05-22 Tue>
    :PROPERTIES:
    :ID:       9d2d7453-536e-4121-a308-102e1b140c70
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 8.56
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:22]
+   :DRILL_AVERAGE_QUALITY: 3.25
+   :DRILL_EASE: 2.32
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:52]
    :END:
 
  ensue
@@ -2138,17 +2138,17 @@
       "the difficulties that ensued from their commitment to Cuba"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-11 Fri>
+    SCHEDULED: <2018-06-02 Sat>
     :PROPERTIES:
     :ID:       63878b19-4ee0-4fc9-bf3e-9625270034ac
-    :DRILL_LAST_INTERVAL: 8.9861
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 19.9491
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_AVERAGE_QUALITY: 3.333
     :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:10]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:57]
     :END:
   If something happens after something else, it will [ensue], meaning it
   will follow after or be the result. When a sneeze comes out, and he
@@ -2214,17 +2214,17 @@
       "the task of political sociology is to inquire into the causes of political events"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-23 Wed>
     :PROPERTIES:
     :ID:       12bfad56-e714-4bf3-9c60-896c68a55aba
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_LAST_INTERVAL: 10.0
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
     :DRILL_FAILURE_COUNT: 0
     :DRILL_AVERAGE_QUALITY: 4.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:31]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:46]
     :END:
   The verb [inquire] means "to ask for information." If you wonder about
   how the world began, you [inquire] about its origin.
@@ -2248,17 +2248,17 @@
   investigation." No matter how you do it, when you [inquire], you seek
   answers.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       bb3fb9fe-71a0-4a24-80d5-4896e16c81c5
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:48]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
     :END:
   In March, 1968, the President of William Morrow [inquire]d about the
   possibility of a book about the Peter Principle.
@@ -2289,17 +2289,17 @@
       "the incessant beat of the music"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       91fa87a5-0c25-4489-9bf9-f30475456144
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 9
-    :DRILL_FAILURE_COUNT: 7
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_FAILURE_COUNT: 10
+    :DRILL_AVERAGE_QUALITY: 2.077
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:28]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 16:00]
     :END:
   Something [incessant] continues without interruption. When you're on a
   cross-country flight, it's tough to tolerate the [incessant] crying of
@@ -2322,17 +2322,17 @@
 * bland :satellite:
 [2018-04-18 Wed 17:13]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-05-11 Fri>
+   SCHEDULED: <2018-06-01 Fri>
    :PROPERTIES:
    :ID:       d22ce709-cfa8-416f-a507-e29f80da30ce
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 19.2482
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
+   :DRILL_AVERAGE_QUALITY: 2.75
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:04]
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:57]
    :END:
 
  bland
@@ -2445,34 +2445,34 @@
   some historical evidence that Ancient Greece had [sidewalk]s, though
   the word itself dates from about 1740.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       9933ac9a-2ae5-47a4-8941-d1b82274cf89
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:44]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
     :END:
   A [sidewalk] is often composed of one cement [slab] after another —
     these are sometimes called paving [slab]s.
 * slathered :satellite:
 [2018-04-18 Wed 17:29]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-04-30 Mon>
+   SCHEDULED: <2018-05-23 Wed>
    :PROPERTIES:
    :ID:       57c48a1a-6f2a-4fe1-89ef-fb8648b4b414
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 9.6346
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:38]
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.46
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:49]
    :END:
 
  slathered
@@ -2490,17 +2490,17 @@
       "slather on some tanning lotion"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-30 Mon>
+    SCHEDULED: <2018-05-22 Tue>
     :PROPERTIES:
     :ID:       03f056a2-3ffb-4ec8-838b-0a587096c796
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_LAST_INTERVAL: 9.3103
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-26 Thu 08:47]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:44]
     :END:
   When you [slather] something, you apply or spread a lot of it. So you
   might [slather] your hamburger with ketchup, or [slather] shampoo on
@@ -2524,17 +2524,17 @@
   we [slather] paint on a fence to cover up graffiti, [slather] aloe on
   our sunburnt skin, and [slather] peanut butter and jelly on bread.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-05-06 Sun>
+    SCHEDULED: <2018-05-17 Thu>
     :PROPERTIES:
     :ID:       987768ca-d2f9-4f8f-acbc-96f16daa00c9
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.2
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.286
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-02 Wed 11:26]
+    :DRILL_LAST_REVIEWED: [2018-05-13 Sun 15:58]
     :END:
   Even your lunch might be a [slab], if it's a thick hunk of cheesy
     pizza or a huge [slab] of bread [slathered] with peanut butter.
