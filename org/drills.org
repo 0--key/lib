@@ -6,17 +6,17 @@
 
 * Thoughts
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :ID:       c987cc64-bf48-4537-bb27-9bbfd576eb81
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:35]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:22]
    :END:
  - make some [observations] about a [phenomenon];
  - create a [hypothesis] to explain those [observations];
@@ -24,123 +24,216 @@
  - run the [experiment];
  - see if the results [match your expectations];
  - [rework your hypothesis] if you must;
- - lather, [rinse], and repeat
+ - [lather], [rinse], and repeat
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ac81a4b6-368f-4167-83a7-093a7d3a02b7
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:33]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:17]
    :END:
  From a drop of water, a logician [could infer] the possibility of an
  Atlantic or a Niagara without [having seen or heard] of one or the
  other.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-23 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       b26d3834-087c-44e4-b6fe-455f27b6c956
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.167
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:03]
    :END:
  In other words, given our [existing knowledge base], we can use
  observation to [deduce meaning] from an [otherwise meaningless] fact.
 * Idioms
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :ID:       75539aaa-35c6-4549-b3de-ad743394064b
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:33]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:16]
    :END:
  The simplicity is [deceptive], as you will learn in the next two
  chapters.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       421968c6-1b39-4b96-a582-37c14ee514fa
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:20]
    :END:
  [There is nothing new] under the sun. [It has all been done] before.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       290e4b31-6f30-45d9-9bbb-71e4ed3c514a
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.2
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:37]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:16]
    :END:
  As our [environment changes], we must never forget to [revise and
  retest] out hypotheses.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8abab197-6715-4ad0-b862-e341fc40f12c
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:37]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:20]
    :END:
  When Holmes first lays out the theoretical principles [behind his
  approach], he [boils it down] to one main idea: “How much an
  observant man [might learn] by an [accurate and systematic
  examination] of all that came his way.”
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :ID:       180bea76-6e93-457d-a3ef-af03ac8b27a6
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:36]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:20]
    :END:
  You can guess [which is which].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :ID:       4a35277d-7cbb-4577-b68b-391b3e548102
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:23]
+   :END:
+ We understand and believe in [the same instant]
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :ID:       6a8ca63b-3b6b-4e92-9f6c-9616b353f27b
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:10]
+   :END:
+ But [neither] Twitter [nor] Netflix use only one technology stack for all
+ jobs, [either].
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       974ee741-e0d9-4896-998e-b156bec9b968
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:24]
+   :END:
+ Adventure into the [deepest crevices] of the [human mind].
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       d25cfd98-8880-4bee-9fcf-1a65902e69e0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:29]
+   :END:
+ The scientific method begins with a [broad base of knowledge], an
+ understanding of the [facts and contours] of the problem you are
+ trying to [tackle].
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       8a5c66f6-cc09-4355-9cf8-2c147699fb93
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:23]
+   :END:
+ That, [in a nutshell], is the scientific method: understand and
+ [frame] the problem; observe; [hypothesize] (or imagine); test and
+ [deduce]; and repeat.
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :ID:       fe10406b-9f91-42db-b3a1-86434b091e24
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:24]
+   :END:
+ It’s awfully easy to [get tripped] up.
+** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       9e607b01-4bd6-4e02-b4da-6a86043cdc50
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
    :DRILL_TOTAL_REPEATS: 3
@@ -148,32 +241,40 @@
    :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:38]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:29]
    :END:
- We understand and believe in [the same instant]
-** >->->                                                              :drill:
- But [neither] Twitter [nor] Netflix use only one technology stack for all
- jobs, [either].
-** >->->                                                              :drill:
- Adventure into the [deepest crevices] of the [human mind].
-** >->->                                                              :drill:
- The scientific method begins with a [broad base of knowledge], an
- understanding of the [facts and contours] of the problem you are trying
- to [tackle].
-** >->->                                                              :drill:
- That, [in a nutshell], is the scientific method: understand and
- [frame] the problem; observe; [hypothesize] (or imagine); test and
- [deduce]; and repeat.
-** >->->                                                              :drill:
- It’s awfully easy to [get tripped] up.
-** >->->                                                              :drill:
  A chess player often [holds] hundreds of games, with [all of their
  moves], in his head, ready for [swift access].
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :ID:       2e3ef049-3d1a-45e7-b951-79db3937b94f
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:25]
+   :END:
  Guessing at the contents of a person’s attic from his [outward
  appearance] becomes one of Sherlock’s [surest ways] of determining who
  that person is and what he is capable of.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       de60b6c4-36e5-4a31-b47b-933259bcb6ed
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:28]
+   :END:
  We can, however, [learn to master] many aspects of our attic’s
  structure, [throwing out] junk that [got in] by mistake (as Holmes
  promises to forget Copernicus at the [earliest opportunity]),
@@ -197,20 +298,33 @@
    :END:
  Microservices are [small, autonomous] services that work together.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-14 Mon>
+   SCHEDULED: <2018-05-18 Fri>
    :PROPERTIES:
    :ID:       059702b0-014a-4cfa-87a8-e40fe24c4ee4
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.167
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.111
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-10 Thu 10:36]
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:26]
    :END:
  Another somewhat [trite] answer I can give is [small enough and no
  smaller].
 ** >->->                                                              :drill:
- The golden rule: can you [make a change] to a service and [deploy it by
- itself] without changing anything else?
+   SCHEDULED: <2018-05-18 Fri>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       449a1eac-462c-4749-9010-7b403ca26502
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-14 Mon 17:17]
+   :END:
+ The golden rule: can you [make a change] to a service and [deploy it
+ by itself] without changing anything else?
