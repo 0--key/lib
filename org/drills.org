@@ -101,18 +101,18 @@
  - [rework your hypothesis] if you must;
  - [lather], [rinse], and repeat
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-27 Sun>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ac81a4b6-368f-4167-83a7-093a7d3a02b7
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 17.091
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_AVERAGE_QUALITY: 2.667
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-19 Sat 11:14]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:50]
    :END:
  From a drop of water, a logician [could infer] the possibility of an
  Atlantic or a Niagara without [having seen or heard] of one or the
@@ -190,48 +190,48 @@
  [where] you do it, and [with whom] you do it.
 * Idioms
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-27 Sun>
+   SCHEDULED: <2018-05-31 Thu>
    :PROPERTIES:
    :ID:       75539aaa-35c6-4549-b3de-ad743394064b
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-05-19 Sat 11:07]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.428
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:52]
    :END:
  The simplicity is [deceptive], as you will learn in the next two
  chapters.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-27 Sun>
+   SCHEDULED: <2018-06-14 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       421968c6-1b39-4b96-a582-37c14ee514fa
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 18.3583
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.571
+   :DRILL_AVERAGE_QUALITY: 2.75
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-05-19 Sat 11:11]
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:32]
    :END:
  [There is nothing new] under the sun. [It has all been done] before.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-27 Sun>
+   SCHEDULED: <2018-06-14 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       290e4b31-6f30-45d9-9bbb-71e4ed3c514a
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 17.7133
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-05-19 Sat 11:12]
+   :DRILL_AVERAGE_QUALITY: 2.571
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:50]
    :END:
  As our [environment changes], we must never forget to [revise and
  retest] out hypotheses.
@@ -649,8 +649,17 @@
  imagine he’d been [instead] married, successful, [the toast of the
  town].
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-31 Thu>
    :PROPERTIES:
    :ID:       fedc6fd1-1684-4bee-9bb8-3bb23616469c
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:52]
    :END:
  Fair [assertion] that ignorance is [bliss].
 ** >->->                                                              :drill:
@@ -691,8 +700,17 @@
    :END:
  No longer [as good], right?
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-05-31 Thu>
    :PROPERTIES:
    :ID:       1c3a25b5-7751-41bc-a3a9-1e8622c2dc72
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:53]
    :END:
  If you look at [the two] lists, you [might notice] that they are
  identical, [save for] one word: warm or cold.
@@ -819,17 +837,17 @@
    :END:
  Microservices are [small, autonomous] services that work together.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-05-27 Sun>
+   SCHEDULED: <2018-05-31 Thu>
    :PROPERTIES:
    :ID:       059702b0-014a-4cfa-87a8-e40fe24c4ee4
-   :DRILL_LAST_INTERVAL: 8.2681
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.3
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-05-19 Sat 11:16]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.334
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-05-27 Sun 20:52]
    :END:
  Another somewhat [trite] answer I can give is [small enough and no
  smaller].
