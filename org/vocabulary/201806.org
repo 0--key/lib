@@ -94,8 +94,17 @@
 * scarcely :satellite:
 [2018-05-29 Tue 17:08]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-08 Fri>
    :PROPERTIES:
    :ID:       bed0ceb1-6894-4ac8-a046-fa10bfa60a2b
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:12]
    :END:
 
  scarcely
@@ -136,8 +145,17 @@
 * feat                                                            :satellite:
 [2018-05-29 Tue 19:28]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-08 Fri>
    :PROPERTIES:
    :ID:       d574d4f1-6fa4-4313-a50e-884284264377
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:11]
    :END:
 
  feat
@@ -235,8 +253,17 @@
 * potent :Holmes:
 [2018-06-02 Sat 10:20]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-08 Fri>
    :PROPERTIES:
    :ID:       74adc8f1-7782-44a7-9b3c-5e9ace7002fe
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:12]
    :END:
 
  potent
@@ -1499,8 +1526,17 @@
 * exacerbate                                                         :Docker:
 [2018-06-03 Sun 19:31]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-08 Fri>
    :PROPERTIES:
    :ID:       608239ce-d4f6-4b0f-9432-d071f154482a
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 19:47]
    :END:
 
  exacerbate
@@ -1886,3 +1922,23 @@
   Utterly devoid of any understanding as to how hard it will be to
   implement, or whether or not it will actually work, let alone having
   any ability to change as we learn more.
+
+* accuse :satellite:
+[2018-06-04 Mon 16:04]
+
+If you charge someone with misdeeds or misconduct, you accuse that
+person. If the last piece of devil's food cake is missing, your sister
+may accuse you of eating it — especially if you have chocolate on your
+mouth.
+
+The verb accuse comes from the Latin word accusare, which itself is
+formed from the roots ad, meaning toward, and causa, reason or
+lawsuit. "Cause," "excuse," and even "ruse" are all from that same
+root word. Today, if you're accused of a crime, you may still be
+headed toward a lawsuit. However, to accuse someone of a crime doesn't
+necessarily make them guilty — plenty of people have been falsely
+accused.
+
+Scarcely may have just made it in the nick of time and by the skin of
+  its teeth, but it’s here now, even if it is just barely hanging on —-
+  which means you can scarcely accuse it of not showing up.
