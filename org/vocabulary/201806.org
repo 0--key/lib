@@ -5,8 +5,17 @@
 [2018-05-29 Tue 16:58]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       0719a10e-91cc-4190-b4dc-360e28516572
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
    :END:
 
  floss
@@ -47,17 +56,17 @@
 [2018-05-29 Tue 17:00]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       da03011c-4970-4085-b5e6-434be0c04a47
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:57]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
    :END:
 
  harmful
@@ -94,17 +103,17 @@
 * scarcely :satellite:
 [2018-05-29 Tue 17:08]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-19 Tue>
    :PROPERTIES:
    :ID:       bed0ceb1-6894-4ac8-a046-fa10bfa60a2b
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 9.648
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:12]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:22]
    :END:
 
  scarcely
@@ -140,22 +149,22 @@
   its root adjective as a synonym of the adverb form scarce. If you
   scarcely believe me, look it up for yourself!
 
-  "he could [scarcely fathom] the idea that people actually
-     lived in Las Vegas"
+  "he could [scarcely fathom] the idea that people actually lived in
+  Las Vegas"
 * feat                                                            :satellite:
 [2018-05-29 Tue 19:28]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       d574d4f1-6fa4-4313-a50e-884284264377
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:11]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
    :END:
 
  feat
@@ -194,8 +203,17 @@
 * instant :satellite:
 [2018-06-01 Fri 16:28]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       29697b78-3950-4cd8-8d62-1eb7d95441ed
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
    :END:
 
  instant
@@ -253,17 +271,17 @@
 * potent :Holmes:
 [2018-06-02 Sat 10:20]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       74adc8f1-7782-44a7-9b3c-5e9ace7002fe
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 16:12]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
    :END:
 
  potent
@@ -359,17 +377,17 @@
 * ensnare                                                            :Holmes:
 [2018-06-02 Sat 10:26]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       7e5ae563-6986-4226-bdfc-3c1c8f86c90d
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:57]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
    :END:
 
  ensnare
@@ -405,17 +423,17 @@
 * cadence :Holmes:
 [2018-06-02 Sat 10:27]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       dabf2a89-4d11-477d-8532-55a00626175b
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:58]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:23]
    :END:
 
  cadence
@@ -457,17 +475,17 @@
 * odds :Holmes:
 [2018-06-02 Sat 10:29]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       ab50a90e-1fbc-439d-a76d-c298956a0e29
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:08]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:24]
    :END:
 
    odds
@@ -510,17 +528,17 @@
 * nagging :Holmes:
 [2018-06-02 Sat 10:30]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       f7db72a8-07ea-41e6-a212-a3db9d0221ba
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:56]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:24]
    :END:
 
  nagging
@@ -657,17 +675,17 @@
 * adversary                                                          :Holmes:
 [2018-06-02 Sat 10:39]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       562148d9-de52-45c5-99d3-e4d2dc5a66b0
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:50]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:21]
    :END:
 
  adversary
@@ -751,17 +769,17 @@
 * excess :Ferris:
 [2018-06-02 Sat 15:52]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       c2b64395-84f1-40b8-93c7-5af1d910ad95
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:58]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:25]
    :END:
 
  excess
@@ -820,17 +838,17 @@
 * scapegoat :Ferris:
 [2018-06-02 Sat 15:56]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       6d5deddd-847c-481a-b306-6b698ac97ec2
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 10:59]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:21]
    :END:
 
  scapegoat
@@ -873,17 +891,17 @@
 * almighty :Ferris:
 [2018-06-02 Sat 16:01]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-20 Wed>
    :PROPERTIES:
    :ID:       bfda8150-0675-440f-82d6-0ef2172359a9
-   :DRILL_LAST_INTERVAL: 4.14
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 10.7143
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_AVERAGE_QUALITY: 4.5
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:40]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:22]
    :END:
 
  almighty
@@ -924,17 +942,17 @@
 * amuck :Ferris:
 [2018-06-02 Sat 16:03]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       26d276ef-a0e0-4058-af13-f023c1c53961
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 10:51]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:20]
    :END:
 
  amuck
@@ -973,17 +991,17 @@
 [2018-06-02 Sat 16:06]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       0548d816-5db7-48c1-8d96-bbf0166733a5
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:08]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
    :END:
 
  unbeknownst
@@ -1054,17 +1072,17 @@
 * posh :Ferris:
 [2018-06-02 Sat 16:14]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-20 Wed>
    :PROPERTIES:
    :ID:       d04bbc54-cb31-4c0d-99c8-fb3b495065ed
-   :DRILL_LAST_INTERVAL: 4.14
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 10.7143
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_AVERAGE_QUALITY: 4.5
    :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:38]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:18]
    :END:
 
  posh
@@ -1109,17 +1127,17 @@
 * expletive :Ferris:
 [2018-06-03 Sun 10:16]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       b6c786b6-73ec-4499-9590-c89b73e59d66
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:09]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
    :END:
 
  expletive
@@ -1168,17 +1186,17 @@
 * pry :Ferris:
 [2018-06-03 Sun 10:20]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       26458721-886c-47fe-b0f6-b1c79c59fc45
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:57]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
    :END:
 
  pry
@@ -1264,17 +1282,17 @@
 * scantiest :Ferris:
 [2018-06-03 Sun 10:31]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       51fd7e65-fa54-4728-91a3-fd55bef1b9d4
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:08]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
    :END:
 
  scantiest
@@ -1370,8 +1388,17 @@
 * salvage :Ferris:
 [2018-06-03 Sun 10:34]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       9abe25f8-dd61-40ee-a444-f300c2477f23
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:32]
    :END:
 
  salvage
@@ -1461,17 +1488,17 @@
 * fondest :Ferris:
 [2018-06-03 Sun 11:02]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       ceee3481-80a2-4c5c-a047-09125fc04820
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 10:57]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:30]
    :END:
 
  fondest
@@ -1507,17 +1534,17 @@
 * ingenuity :Ferris:
 [2018-06-03 Sun 15:17]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       bde46ac9-3b38-45f9-9c0c-519229a71f56
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:02]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:23]
    :END:
 
  ingenuity
@@ -1596,17 +1623,17 @@
 * exacerbate                                                         :Docker:
 [2018-06-03 Sun 19:31]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-08 Fri>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       608239ce-d4f6-4b0f-9432-d071f154482a
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-04 Mon 19:47]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
    :END:
 
  exacerbate
@@ -1737,8 +1764,17 @@
 * surrendering :Docker:
 [2018-06-03 Sun 19:49]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       9d284b51-cd3f-46bd-8acd-5a61c61fe2c4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:33]
    :END:
 
  surrendering
@@ -1779,17 +1815,17 @@
 * opinionated :Docker:
 [2018-06-03 Sun 19:54]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       0bad117d-3340-43fb-9108-64b7f2c804be
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 10:49]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
    :END:
 
  opinionated
@@ -1926,17 +1962,17 @@
 * subservient :Docker:
 [2018-06-03 Sun 20:33]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-09 Sat>
+   SCHEDULED: <2018-06-18 Mon>
    :PROPERTIES:
    :ID:       4be3a76b-69cb-4096-98a9-d29be99a000a
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 11:09]
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:25]
    :END:
 
  subservient
@@ -1974,8 +2010,17 @@
 * utterly                                                            :Docker:
 [2018-06-03 Sun 20:34]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
    :PROPERTIES:
    :ID:       f0b32f89-5874-4aac-9e1f-ddafc847e527
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
    :END:
 
  utterly
@@ -2016,163 +2061,527 @@
 * accuse :satellite:
 [2018-06-04 Mon 16:04]
 
-If you charge someone with misdeeds or misconduct, you accuse that
-person. If the last piece of devil's food cake is missing, your sister
-may accuse you of eating it — especially if you have chocolate on your
-mouth.
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       f800fbd2-92df-4175-a48d-383ef7cb549d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :END:
 
-The verb accuse comes from the Latin word accusare, which itself is
-formed from the roots ad, meaning toward, and causa, reason or
-lawsuit. "Cause," "excuse," and even "ruse" are all from that same
-root word. Today, if you're accused of a crime, you may still be
-headed toward a lawsuit. However, to accuse someone of a crime doesn't
-necessarily make them guilty — plenty of people have been falsely
-accused.
+ accuse
 
-Scarcely may have just made it in the nick of time and by the skin of
-its teeth, but it’s here now, even if it is just barely hanging on —-
-which means you can scarcely accuse it of not showing up.
+*** --->
+  обвинять
+
+  verb
+   1. обвинять (blame, accuse, indict, charge, prosecute, denounce)
+   2. винить (accuse, rebuke)
+   3. предъявлять обвинение (indict, accuse, panel, lodge, assert, pursue)
+
+  DEFINITION
+
+  verb
+   1. charge (someone) with an offense or crime.
+      "he was accused of murdering his wife's lover"
+
+
+  If you charge someone with misdeeds or misconduct, you accuse that
+  person. If the last piece of devil's food cake is missing, your sister
+  may accuse you of eating it — especially if you have chocolate on your
+  mouth.
+
+  The verb accuse comes from the Latin word accusare, which itself is
+  formed from the roots ad, meaning toward, and causa, reason or
+  lawsuit. "Cause," "excuse," and even "ruse" are all from that same
+  root word. Today, if you're accused of a crime, you may still be
+  headed toward a lawsuit. However, to accuse someone of a crime doesn't
+  necessarily make them guilty — plenty of people have been falsely
+  accused.
+
+  Scarcely may have just made it in the nick of time and by the skin of
+  its teeth, but it’s here now, even if it is just barely hanging on —-
+  which means you can scarcely accuse it of not showing up.
 
 * devoid :satellite:
 [2018-06-05 Tue 10:41]
 
-You're stranded in the ocean, miles from shore, clinging to a sinking
-boat, and you can't swim? Sorry to say, your situation is devoid of
-all hope.
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       2f1a10ea-f325-40e5-8ab9-f14c6f811c7b
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
+   :END:
 
-When you fall off a cliff, you fall into the void. Void means empty.
-Devoid means empty of. When you use it, always answer the question "Of
-what?" "My wallet is devoid of cash. My teacher is devoid of pity. My
-cookie jar is devoid of cookies." These examples are devoid of
-anything not totally depressing!
+ devoid
 
-Utterly [devoid] of any understanding as to how hard it [will be]
-   to implement, or whether or not it will actually work, let alone
-   having any ability to change as we learn more.
+*** --->
+  лишенный
+
+  adjective
+   1. лишенный (devoid, bereft, void, free, destitute, deficient)
+   2. свободный (free, spare, leisure, loose, easy, devoid)
+
+  DEFINITION
+
+  adjective
+   1. entirely lacking or free from.
+      "Lisa kept her voice devoid of emotion"
+
+
+  You're stranded in the ocean, miles from shore, clinging to a sinking
+  boat, and you can't swim? Sorry to say, your situation is devoid of
+  all hope.
+
+  When you fall off a cliff, you fall into the void. Void means empty.
+  Devoid means empty of. When you use it, always answer the question "Of
+  what?" "My wallet is devoid of cash. My teacher is devoid of pity. My
+  cookie jar is devoid of cookies." These examples are devoid of
+  anything not totally depressing!
+
+  Utterly [devoid] of any understanding as to how hard it [will be] to
+  implement, or whether or not it will actually work, let alone having
+  any ability to change as we learn more.
 
 * atrocious :Ferris:
 [2018-06-05 Tue 17:51]
 
-Atrocious is a great word, but there's nothing good about its meaning
-or its synonyms: horrible, ugly, abominable, dreadful, unspeakable,
-and monstrous, to name just a few.
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       6e373b00-7f18-494d-9091-0a2e21c8f1bf
+   :END:
 
-The adjective atrocious is descended from the Latin atrox, which means
-"fierce" and "cruel." We hear this word all the time when something
-provokes horror (like a massive earthquake), when something is
-exceptionally bad or displeasing (like the worst movie we've ever
-seen, and the worse acting), or when we see something shockingly
-brutal or cruel (like an act of terrorism).
+ atrocious
 
-It is equally important to measure the atrocious cost of inaction.
+*** --->
+  отвратительный
+
+  adjective
+   1. отвратительный (disgusting, hideous, heinous, abominable, revolting, atrocious)
+   2. зверский (brutal, atrocious, beastly, brutish, wolfish, monstrous)
+   3. ужасный (terrible, horrible, awful, appalling, dreadful, atrocious)
+   4. жестокий (cruel, brutal, fierce, severe, ruthless, atrocious)
+   5. свирепый (ferocious, fierce, savage, furious, truculent, atrocious)
+
+  DEFINITION
+
+  adjective
+   1. horrifyingly wicked.
+      "atrocious cruelties"
+
+
+  Atrocious is a great word, but there's nothing good about its meaning
+  or its synonyms: horrible, ugly, abominable, dreadful, unspeakable,
+  and monstrous, to name just a few.
+
+  The adjective atrocious is descended from the Latin atrox, which means
+  "fierce" and "cruel." We hear this word all the time when something
+  provokes horror (like a massive earthquake), when something is
+  exceptionally bad or displeasing (like the worst movie we've ever
+  seen, and the worse acting), or when we see something shockingly
+  brutal or cruel (like an act of terrorism).
+
+  It is equally important to measure the atrocious cost of inaction.
 * impose :Ferris:
 [2018-06-05 Tue 17:52]
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       0a86d2cf-aa83-480f-978f-5c28c443ac1c
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
+   :END:
 
-To impose means to force or inflict something on someone else. If you
-want to impose your musical taste on your parents, play your tunes all
-day at top volume.
+ impose
+*** --->
+  облагать
 
-The verb impose emerged in the 1580s, meaning "to lay on as a burden,"
-which is very similar to the modern meaning. Governments often impose
-taxes, legal restrictions, and other burdensome things on citizens,
-for example. But you should remember what Confucius once wisely said:
-"Do not impose on others what you yourself do not desire."
+  verb
+   1. навязать (impose, stick, wish on)
+   2. навязывать (impose, force, intrude, enforce, thrust, obtrude)
+   3. налагать (impose, inflict, give, administer, clap, put on)
+   4. облагать (impose, levy, lay on, put on)
+   5. верстать (impose, make up, make up in pages)
+   6. обманывать (deceive, cheat, kid, fool, spoof, impose)
+   7. навязаться (impose, thrust oneself, inflict oneself upon, inflict one's company upon)
+   8. всучить (foist, shove, impose, stick)
+   9. облагаться (impose, assess)
+  10. спускать (let down, down, lower, discharge, bleed, impose)
+  11. заключать (conclude, enclose, infer, include, establish, impose)
+  12. обманом продать (impose)
+  13. впечатлять (impress, make an impression, impose)
 
-How will you feel having allowed
-circumstance to impose itself upon you and having allowed ten more years
-of your finite life to pass doing what you know will not fulfill you?
+  DEFINITION
+
+  verb
+   1. force (something unwelcome or unfamiliar) to be accepted or put in place.
+      "the decision was theirs and was not imposed on them by others"
+   2. take advantage of someone by demanding their attention or commitment.
+      "she realized that she had imposed on Miss Hatherby's kindness"
+   3. arrange (pages of type) so that they will be in the correct order after printing and folding.
+
+
+  To impose means to force or inflict something on someone else. If you
+  want to impose your musical taste on your parents, play your tunes all
+  day at top volume.
+
+  The verb impose emerged in the 1580s, meaning "to lay on as a burden,"
+  which is very similar to the modern meaning. Governments often impose
+  taxes, legal restrictions, and other burdensome things on citizens,
+  for example. But you should remember what Confucius once wisely said:
+  "Do not impose on others what you yourself do not desire."
+
+  How will you feel having allowed circumstance to impose itself upon
+  you and having allowed ten more years of your finite life to pass
+  doing what you know will not fulfill you?
 * requisite :Ferris:
 [2018-06-05 Tue 21:25]
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       ece73161-d588-488c-9fe9-271e99d5e527
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
+   :END:
 
-Requisite is a formal or fancy word for indispensable. During your
-punk phase, you refused to leave the house without the requisite
-leather jacket, black boots, and mohawk.
+ requisite
+*** --->
+  реквизит
 
-To remember this word, notice how similar it is to required. College
-students looking to sign up for classes they find interesting often
-bump up against the word prerequisite, which refers to a list of
-classes they will need to take before the one they're interested in.
+  noun
+   1. реквизит (props, requisite, property)
+   2. необходимая принадлежность (requisite)
+   3. все необходимое (needments, requisite)
+   4. необходимая вещь (requisite)
 
-If you look at my chronology, it is obvious that this didn’t
-happen until a meltdown forced it, despite the requisite income.
+  adjective
+   1. необходимый (necessary, required, needed, essential, indispensable, requisite)
+   2. требуемый (required, demanded, requisite, demandable, bounden)
+
+  DEFINITION
+
+  adjective
+   1. made necessary by particular circumstances or regulations.
+      "the application will not be processed until the requisite fee is paid"
+
+  noun
+   1. a thing that is necessary for the achievement of a specified end.
+      "she believed privacy to be a requisite for a peaceful life"
+
+
+  Requisite is a formal or fancy word for indispensable. During your
+  punk phase, you refused to leave the house without the requisite
+  leather jacket, black boots, and mohawk.
+
+  To remember this word, notice how similar it is to required. College
+  students looking to sign up for classes they find interesting often
+  bump up against the word prerequisite, which refers to a list of
+  classes they will need to take before the one they're interested in.
+
+  If you look at my chronology, it is obvious that this didn’t
+  happen until a meltdown forced it, despite the requisite income.
 * enviable :Ferris:
 [2018-06-05 Tue 21:32]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       ec88a82b-7300-4cc1-8bf0-0e3d274a7473
+   :END:
 
-Things that are enviable are so good that other people want them.
-People desire enviable things.
+ enviable
+*** --->
+  завидный
 
-Enviable things are so desirable that everybody wants them. A
-high-paying job is enviable. A vacation in the Caribbean is enviable.
-Winning the lottery is very enviable. Anytime someone does something
-impressive or buys something cool, it's likely to be described with
-the word enviable. Also, a sports team with a big lead could be
-described as being in an enviable position: other teams would like to
-be in their position.
+  adjective
+   1. завидный (enviable, plummy, invidious)
 
-Living like a millionaire requires doing interesting things
-and not just owning enviable things.
+  DEFINITION
+
+  adjective
+   1. arousing or likely to arouse envy.
+      "an enviable reputation for academic achievement"
+
+
+  Things that are enviable are so good that other people want them.
+  People desire enviable things.
+
+  Enviable things are so desirable that everybody wants them. A
+  high-paying job is enviable. A vacation in the Caribbean is enviable.
+  Winning the lottery is very enviable. Anytime someone does something
+  impressive or buys something cool, it's likely to be described with
+  the word enviable. Also, a sports team with a big lead could be
+  described as being in an enviable position: other teams would like to
+  be in their position.
+
+  Living like a millionaire requires doing interesting things
+  and not just owning enviable things.
 * disposal :Docker:
 [2018-06-06 Wed 10:51]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       a3273bd8-c46a-4c4f-9fc1-809b68bb9f03
+   :END:
 
-Disposal means getting rid of something, or throwing it away. When you
-go on a picnic, be sure to have a bag for the disposal of your trash
-afterward, or you will be a terrible litterbug.
+ disposal
+*** --->
+  удаление
 
-You can use a garbage disposal, a grinder in your sink drain that
-allows you to wash down certain waste items without causing clogs, for
-the disposal of vegetable scraps. In addition to meaning "getting rid
-of something," disposal can also mean "the power or means to
-accomplish something." If you have a fleet of limousines at your
-disposal, it's easy to get a large number of guests to a wedding.
+  noun
+   1. удаление (remove, removal, deletion, disposal, excision, ablation)
+   2. распоряжение (disposal, order, disposition, command, direction, writ)
+   3. размещение (placement, placing, deployment, allocation, layout, disposal)
+   4. избавление (deliverance, disposal, release, escape, riddance, rescue)
+   5. продажа (sale, selling, disposal, realization, disposition)
+   6. устранение (elimination, removal, disposal, ablation, resection, riddance)
+   7. передача (broadcast, transfer, transmission, gear, pass, disposal)
+   8. расположение (disposition, arrangement, position, layout, propensity, disposal)
+   9. расстановка (arrangement, ranking, disposal, collocation)
+  10. возможность распорядиться (disposal, disposition)
+  11. контроль (control, monitoring, inspection, check, verification, disposal)
+  12. управление (control, management, administration, governance, operation, disposal)
+  13. диспозиция (disposition, disposal)
 
-Our requirements shift more rapidly than they do for people who
-design and build buildings — as do the tools and techniques at our
-disposal.
+  DEFINITION
+
+  noun
+   1. the action or process of throwing away or getting rid of something.
+      "the disposal of radioactive waste"
+   2. the sale of shares, property, or other assets.
+      "the disposal of his shares in the company"
+   3. the arrangement or positioning of something.
+      "she brushed her hair carefully, as if her success lay in the sleek disposal of each gleaming black thread"
+
+
+  Disposal means getting rid of something, or throwing it away. When you
+  go on a picnic, be sure to have a bag for the disposal of your trash
+  afterward, or you will be a terrible litterbug.
+
+  You can use a garbage disposal, a grinder in your sink drain that
+  allows you to wash down certain waste items without causing clogs, for
+  the disposal of vegetable scraps. In addition to meaning "getting rid
+  of something," disposal can also mean "the power or means to
+  accomplish something." If you have a fleet of limousines at your
+  disposal, it's easy to get a large number of guests to a wedding.
+
+  Our requirements shift more rapidly than they do for people who
+  design and build buildings — as do the tools and techniques at our
+  disposal.
 * metaphor :Docker:
 [2018-06-06 Wed 11:03]
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       5757a6e0-912d-4efd-ba4c-27d1b7b6cd3c
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:31]
+   :END:
 
-If you brag that "the world's your oyster," you're using a metaphor
-from Shakespeare, who knew a thing or two about figures of speech.
+ metaphor
+*** --->
+  метафора
 
-Good writers know their way around a metaphor, where you make an
-analogy between two things to show how one resembles the other in some
-way. When a character from Shakespeare calls the world his oyster,
-that's his boastful way of saying that all the riches of the world are
-his for the taking, like plucking a pearl from an oyster shell.
-Shakespeare also wrote, "All the world's a stage." Oyster? Stage? Come
-on, Will, get your metaphors straight!
+  noun
+   1. метафора (metaphor, image)
 
-So, to continue the metaphor of the architect as town planner for a
-moment, what are our zones?
+  DEFINITION
+
+  noun
+   1. a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.
+      "“I had fallen through a trapdoor of depression,” said Mark, who was fond of theatrical metaphors"
+
+
+  If you brag that "the world's your oyster," you're using a metaphor
+  from Shakespeare, who knew a thing or two about figures of speech.
+
+  Good writers know their way around a metaphor, where you make an
+  analogy between two things to show how one resembles the other in some
+  way. When a character from Shakespeare calls the world his oyster,
+  that's his boastful way of saying that all the riches of the world are
+  his for the taking, like plucking a pearl from an oyster shell.
+  Shakespeare also wrote, "All the world's a stage." Oyster? Stage? Come
+  on, Will, get your metaphors straight!
+
+  So, to continue the metaphor of the architect as town planner for a
+  moment, what are our zones?
+
 * coarse :Docker:
 [2018-06-06 Wed 11:04]
+** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       3e7758b6-85f5-4b53-b04a-21d7c0eb882c
+   :END:
 
-Coarse can mean rough to the touch or vulgar. It's good to have coarse
-sand paper, but not good to have coarse manners.
+ coarse
+*** --->
+  грубый
 
-Do you lick your dinner plate, wipe your nose on your sleeve, and
-generally behave like an oaf? No, of course not. You're the kind of
-person who reads online dictionaries. But if you did do any of things,
-you'd be coarse — that is, unrefined, boorish, and downright vulgar.
-Coarse can apply to a wide variety of things other than behavior. If
-something is of poor quality, cheap and inferior, it's considered
-coarse.
+  adjective
+   1. грубый (rude, rough, gross, coarse, crude, tough)
+   2. крупный (large, major, big, coarse, massive, heavy)
+   3. грубошерстный (coarse)
+   4. необработанный (raw, rough, undressed, unmanufactured, crude, coarse)
+   5. шероховатый (rough, scabrous, uneven, coarse, rugged, harsh)
+   6. низкого сорта (coarse, shagback)
+   7. вульгарный (vulgar, blatant, low, common, gross, coarse)
+   8. неотделанный (rough, inelegant, coarse, incondite, unhewn, ragged)
+   9. дубоватый (coarse, stupid)
+  10. невежливый (rude, impolite, discourteous, uncivil, disrespectful, coarse)
+  11. заборный (coarse)
+  12. непристойный (obscene, indecent, lewd, unseemly, salacious, coarse)
 
-These are our service boundaries, or
-perhaps coarse-grained groups of services.
+  DEFINITION
+
+  adjective
+   1. rough or loose in texture or grain.
+      "a coarse woolen cloth"
+   2. (of a person or their speech) rude, crude, or vulgar.
+      "You are never coarse or vulgar, and people who display such traits offend you."
+
+
+  Coarse can mean rough to the touch or vulgar. It's good to have coarse
+  sand paper, but not good to have coarse manners.
+
+  Do you lick your dinner plate, wipe your nose on your sleeve, and
+  generally behave like an oaf? No, of course not. You're the kind of
+  person who reads online dictionaries. But if you did do any of things,
+  you'd be coarse — that is, unrefined, boorish, and downright vulgar.
+  Coarse can apply to a wide variety of things other than behavior. If
+  something is of poor quality, cheap and inferior, it's considered
+  coarse.
+
+  These are our service boundaries, or perhaps coarse-grained groups
+  of services.
 * daunting :Docker:
 [2018-06-06 Wed 11:15]
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       e8b0acf3-1c88-47b5-89a8-761c52a1e130
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:33]
+   :END:
 
-Something daunting can scare you off. If you have a lot of studying to
-do, it may seem like a daunting task. Good news is you can get through
-it by working hard. Or weasel out of it by playing sick.
+ daunting
+*** --->
+  пугающим
 
-Often used in the phrases “daunting prospect” and “daunting task,”
-daunting describes something that you are not looking forward to
-doing. Having to fill out complicated tax forms every year is a
-daunting task for many people. Once a daunting task is complete, you
-no longer describe it as daunting, but instead can call it a job well
-done, or at least another life experience survived.
+  verb
+   1. обескураживать (discourage, daunt, discountenance, damp, dash, wet-blanket)
+   2. запугивать (intimidate, bully, cow, browbeat, bluff, daunt)
+   3. устрашать (intimidate, daunt, appal, appall)
 
-The role of the architect is already daunting enough, so luckily we
-usually don’t have to also define strategic goals!
+  DEFINITION
+
+  adjective
+   1. seeming difficult to deal with in anticipation; intimidating.
+      "a daunting task"
+
+  verb
+   1. make (someone) feel intimidated or apprehensive.
+      "some people are daunted by technology"
+
+
+  Something daunting can scare you off. If you have a lot of studying to
+  do, it may seem like a daunting task. Good news is you can get through
+  it by working hard. Or weasel out of it by playing sick.
+
+  Often used in the phrases “daunting prospect” and “daunting task,”
+  daunting describes something that you are not looking forward to
+  doing. Having to fill out complicated tax forms every year is a
+  daunting task for many people. Once a daunting task is complete, you
+  no longer describe it as daunting, but instead can call it a job well
+  done, or at least another life experience survived.
+
+  The role of the architect is already daunting enough, so luckily we
+  usually don’t have to also define strategic goals!
+
+* hinder :Docker:
+[2018-06-06 Wed 15:33]
+
+** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-13 Wed>
+   :PROPERTIES:
+   :ID:       c54893e4-2edb-4856-af2f-04bf1f7747e0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
+   :END:
+
+ hinder
+
+*** --->
+  препятствовать
+
+  verb
+   1. препятствовать (let, prevent, hinder, impede, inhibit, hamper)
+   2. мешать (interfere, disturb, prevent, stir, interrupt, hinder)
+   3. быть помехой (interfere, hinder, handicap)
+
+  adjective
+   1. задний (rear, back, posterior, hind, tail, hinder)
+
+  DEFINITION
+
+  adjective
+   1. (especially of a bodily part) rear; hind.
+      "the hinder end of its body"
+
+  verb
+   1. create difficulties for (someone or something), resulting in delay or obstruction.
+      "various family stalemates were hindering communication"
+
+
+  The verb hinder means to block or put something in the way of, so if
+  you’re in a high-speed car chase with the police, they might put up a
+  blockade to hinder your progress.
+
+  The word hinder came from the Old English hindrian, which means to
+  "injure or damage." That's a little more extreme than what it means
+  today, because, now it just means to get in the way of something or
+  someone. People might not like you too much if you make it a practice
+  to hinder their progress or get in the way of things they want, even
+  if it's a small hindrance like blocking someone from getting to the
+  cookie jar.
+
+  It's the noun form of the verb hinder, which is "to get in the way."
