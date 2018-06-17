@@ -69,24 +69,33 @@
   sense of pure, uncomplicated pleasure.
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       4818b332-7e53-4d50-ae92-50ff336b9126
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:47]
     :END:
   My dad took special [delight] in the pseudoscientific jargon that Dr.
 * afflicted :satellite:
 [2018-04-17 Tue 10:23]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-14 Thu>
+   SCHEDULED: <2018-07-28 Sat>
    :PROPERTIES:
    :ID:       db1f9ff9-61d2-4ef5-9a45-2d44dc5cddc6
-   :DRILL_LAST_INTERVAL: 19.2482
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 41.2296
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.25
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:15]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:30]
    :END:
 
  afflicted
@@ -121,17 +130,17 @@
   person who is mentally or physically unfit, or has been grievously
   affected by disease.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-14 Thu>
+    SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
     :ID:       54437ac3-8889-4874-8b90-696df3da8507
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 41.2296
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:16]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:31]
     :END:
   This adjective's Latin root, afflictare, means "to damage, harass,
   or torment," which may sometimes be a good description of how an
@@ -446,24 +455,33 @@
   used more generally for any false statement or idea. Some synonyms
   are misconception and error.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       7b7f0c74-8955-4c07-b7e2-541b22d13dd6
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.833
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:10]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:47]
     :END:
   Satire works when it exposes the truth and upends [fallacy].
 * incisive :satellite:
 [2018-04-17 Tue 10:53]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       b3490aa5-5c81-4db9-bc7a-079ece0ddbab
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:38]
    :END:
 
  incisive
@@ -501,17 +519,17 @@
   and direct. A comment that cuts right to the bone can be just as
   [incisive] as an actual knife.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-13 Wed>
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       719b71d8-4294-49b1-a911-4ede4fdf332b
-    :DRILL_LAST_INTERVAL: 8.2681
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 11
-    :DRILL_FAILURE_COUNT: 6
-    :DRILL_AVERAGE_QUALITY: 2.455
-    :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:52]
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_FAILURE_COUNT: 7
+    :DRILL_AVERAGE_QUALITY: 2.462
+    :DRILL_EASE: 1.94
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
   The word [incisive] is rooted in a Latin word that literally means "to
   cut with a sharp edge." To help you remember the meaning, you can
@@ -520,17 +538,17 @@
   something that is mentally sharp first appeared in the 1850s. Keen
   criticism and cutting remarks have been called [incisive] ever since.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-14 Thu>
+    SCHEDULED: <2018-07-10 Tue>
     :PROPERTIES:
     :ID:       f1df9a72-4b9e-4fd3-b3c9-ee76d78bc399
-    :DRILL_LAST_INTERVAL: 9.192
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 22.9157
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 2.42
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:48]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:30]
     :END:
   Peter was not only an [incisive] thinker but masterfully creative with
   words.
@@ -664,8 +682,17 @@
       "Voters may look back on an incumbent 's performance in office, and cast a retrospective vote, or may compare what the candidates promise to do if elected to office, and vote prospectively."
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       7f81bfc7-7865-40e7-93cb-097316274a5e
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:35]
     :END:
   An [incumbent] is an official who holds an office. If you want to run
   for congress, you're going to have to beat the [incumbent].
@@ -690,17 +717,17 @@
   a challenger. [Incumbent] also means obligation. It is [incumbent] upon
   you to do the dishes.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-30 Mon>
     :PROPERTIES:
     :ID:       e5962c7a-51cd-46fc-a2a2-12e96efdb335
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 42.731
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:12]
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:46]
     :END:
   And I can’t find any behavioral science research on terms such as
   “Percussive Sublimation” (“being kicked upstairs: a pseudo promotion
@@ -762,17 +789,17 @@
   stopping at your favorite bakery for a cookie before you continue
   on. The French détour comes from the verb destorner, "turn aside."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-12 Tue>
+    SCHEDULED: <2018-08-12 Sun>
     :PROPERTIES:
     :ID:       afb4ed54-d312-40a6-9288-0e9d86cc595b
-    :DRILL_LAST_INTERVAL: 23.271
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 56.1297
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-20 Sun 10:56]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:28]
     :END:
   And I can’t find any behavioral science research on terms such as
   “Percussive Sublimation” (“being kicked upstairs: a pseudo promotion
@@ -972,8 +999,17 @@
   they also grow. Get it? Good for you! Imagine a cheerleader shouting
   out your name, [flourish]ing her pom-poms.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       4a4759c5-46da-4783-a6da-efcea594b4c8
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:50]
     :END:
   Peter’s rhetorical [flourish] and keen eye.
 * renowned :satellite:
@@ -1015,16 +1051,26 @@
   but you also go on lots of talk shows so everyone knows who you are,
   then you'll be a [renowned||celebrated] scientist.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       62d0b8cb-661e-4c84-bff2-ac2dde2d1359
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:41]
     :END:
-  Renown comes from the Anglo-Norman for "re-name," as in repeatedly
-  name, so something is [renowned] is something that people are talking
-  about, or naming, over and over. If you are a huge celebrity, people
-  from your home town might boast, "The [renowned] Madame X was born
-  here." Something [renowned] is really good, not just famous. Just
-  because you make the cover of a trashy tabloid magazine doesn't mean
-  you're a [renowned] actress. But if you win an Oscar, you are.
+    [Renown] comes from the Anglo-Norman for "re-name," as in
+    repeatedly name, so something is [renowned] is something that
+    people are talking about, or naming, over and over. If you are a
+    huge celebrity, people from your home town might boast, "The
+    [renowned] Madame X was born here." Something [renowned] is really
+    good, not just famous. Just because you make the cover of a trashy
+    tabloid magazine doesn't mean you're a [renowned] actress. But if
+    you win an Oscar, you are.
 *** --->                                                              :drill:
     SCHEDULED: <2018-07-29 Sun>
     :PROPERTIES:
@@ -1070,24 +1116,43 @@
       "a language that is incomprehensible to anyone outside the office"
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       d1895f03-7a42-4e4a-937f-ec46d8652585
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
   If your poetry is [incomprehensible], it's difficult to understand,
   and it might be impossible to explain. Could be you're a genius!
   Could be you're just not very good at poetry.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       3ec323c8-c4cd-404a-b360-6a69c53eb08f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:45]
     :END:
-  [Incomprehensible] originates from the Latin incomprehensibilis: in-
-  ("not") and comprehensibilis ("perceptible, evident, intelligible").
-  Many unfamiliar customs or rituals seem [incomprehensible] from a
-  distance, for example, the early Chinese practice of foot binding,
-  in which girls tightly bandaged their feet to prevent them from
-  getting bigger. Similarly, future generations may find today's
-  Western high-heeled shoes [incomprehensible], leading them to ask,
-  "What in the world were they thinking?!"
+    [Incomprehensible] originates from the Latin incomprehensibilis:
+    in- ("not") and comprehensibilis ("perceptible, evident,
+    intelligible"). Many unfamiliar customs or rituals seem
+    [incomprehensible] from a distance, for example, the early Chinese
+    practice of foot binding, in which girls tightly bandaged their
+    feet to prevent them from getting bigger. Similarly, future
+    generations may find today's Western high-heeled shoes
+    [incomprehensible], leading them to ask, "What in the world were
+    they thinking?!"
 *** --->                                                              :drill:
     SCHEDULED: <2018-06-25 Mon>
     :PROPERTIES:
@@ -1214,17 +1279,17 @@
   defeat just as a dad can [exhort] his daughter after a missed note
   during a piano recital.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-26 Thu>
     :PROPERTIES:
     :ID:       b4c5ba8a-0c3b-4f40-aa00-ecc787600f0e
-    :DRILL_LAST_INTERVAL: 18.3583
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 39.3235
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.571
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:59]
+    :DRILL_AVERAGE_QUALITY: 2.625
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:42]
     :END:
   This conclusion clashes with numerous experts who [exhort]
   employees—especially managers—to face “brutal truths” and “hard
@@ -1265,17 +1330,17 @@
   When a fruit is [ripe], it is time to pick it and eat it. If you say
   the time is [ripe], then now is the time for action. [Ripe] means ready.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-11 Wed>
     :PROPERTIES:
     :ID:       7b2d626e-c867-4ea1-b7de-1360cee94424
-    :DRILL_LAST_INTERVAL: 9.6346
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 24.048
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_AVERAGE_QUALITY: 3.6
     :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:48]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:32]
     :END:
   [Ripe] can also describe something that is not only ready to happen
   but well-suited for whatever is happening. A company can expect
@@ -1301,8 +1366,17 @@
 * reprimand                                                       :satellite:
 [2018-04-18 Wed 11:48]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       4a001f40-0699-40fd-b61b-152648b69fe6
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:46]
    :END:
 
  reprimand
@@ -1323,8 +1397,10 @@
   DEFINITION
 
   noun
-   1. a rebuke, especially an official one.
-      "The destruction of the Afghan Buddhas was met with reprimands from our officials, while ancient religious sites in our own country are being turned into quarries."
+   1. a rebuke, especially an official one. "The destruction of the
+      Afghan Buddhas was met with reprimands from our officials, while
+      ancient religious sites in our own country are being turned into
+      quarries."
 
   verb
    1. rebuke (someone), especially officially.
@@ -1347,17 +1423,17 @@
   angry way because you've done something wrong. Or you might
   [reprimand] your dog if he steals your hot dog.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-08-02 Thu>
     :PROPERTIES:
     :ID:       48919ddb-96ea-4272-8959-0ae8dbbe386b
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 45.843
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:13]
+    :DRILL_AVERAGE_QUALITY: 3.4
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:35]
     :END:
   The House of Representatives has a couple of ways to punish naughty
   members. One way is to [reprimand] them by voting to express
@@ -1435,17 +1511,17 @@
   quickly sees there's nothing unusual up in the sky, catches up with
   those who [deflect].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-14 Thu>
+    SCHEDULED: <2018-07-10 Tue>
     :PROPERTIES:
     :ID:       c7c0ae92-ed54-4614-b307-eb305ec9b27b
-    :DRILL_LAST_INTERVAL: 9.192
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 22.9157
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.889
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 3.1
+    :DRILL_EASE: 2.42
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:53]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:30]
     :END:
   It almost always works to [deflect||dismiss] work one doesn’t want
   to do—without ever having to admit it.”
@@ -1523,17 +1599,17 @@
   person who wanted to go out alone, you might [cloak] your identity
   with a [cloak].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-15 Sun>
     :PROPERTIES:
     :ID:       d0b6be0b-cd85-42a6-9159-a91bbd3e46e2
-    :DRILL_LAST_INTERVAL: 10.352
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 27.733
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.5
-    :DRILL_EASE: 2.6
+    :DRILL_AVERAGE_QUALITY: 3.714
+    :DRILL_EASE: 2.7
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:51]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:31]
     :END:
   Peter (and coauthor Raymond Hull) decided to [cloak] these ideas in
   such a delightfully weird and perversely funny package.
@@ -1688,8 +1764,17 @@
   coagulate. The root is the German word Klotz, which means "lump or
   block."
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       923422ff-5d72-414b-b819-38c7756fcc7c
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
   A [Clot] for Every Slot
 * oversight :satellite:
@@ -1718,34 +1803,43 @@
       "effective oversight of the financial reporting process"
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       0a909786-748b-45aa-8fc9-a3e9f2fa64cf
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:38]
     :END:
   An [oversight] is a mistake you make when you're not paying full
   attention. Your failure to add the sugar to the cookies was an
   unfortunate [oversight] — you were so engrossed in texting that you
   forgot it.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-25 Wed>
     :PROPERTIES:
     :ID:       e8421147-fccc-4ae1-a0c9-d04c3f275b44
-    :DRILL_LAST_INTERVAL: 17.7133
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 37.9419
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_AVERAGE_QUALITY: 2.571
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-28 Mon 17:57]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:44]
     :END:
-  [Oversight]s are not intentional mistakes. Usually they're just the
-  result of inattention. If you make an [oversight] in your inspection
-  of a nuclear power plant and it later goes into meltdown, you'll get
-  fired. An inspector is supposed to pay attention. But if you forgot
-  your cousin's birthday because you're busy taking care of Grandma,
-  that's a forgivable [oversight]. [Oversight] is also the act of
-  supervising something, like the construction of a dam, or a high
-  school prom.
+    [Oversight]s are not intentional mistakes. Usually they're just
+    the result of inattention. If you make an [oversight] in your
+    inspection of a nuclear power plant and it later goes into
+    meltdown, you'll get fired. An inspector is supposed to pay
+    attention. But if you forgot your cousin's birthday because you're
+    busy taking care of Grandma, that's a forgivable [oversight].
+    [Oversight] is also the act of supervising something, like the
+    construction of a dam, or a high school prom.
 *** --->                                                              :drill:
     SCHEDULED: <2018-06-24 Sun>
     :PROPERTIES:
@@ -1780,17 +1874,17 @@
       "a string of faux pearls"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-15 Sun>
     :PROPERTIES:
     :ID:       0c551221-397d-4741-8e30-ea2bd7d2ea56
-    :DRILL_LAST_INTERVAL: 10.352
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 27.733
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 2.6
+    :DRILL_AVERAGE_QUALITY: 3.5
+    :DRILL_EASE: 2.7
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:47]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:31]
     :END:
   [Faux] means fake, or imitation. If you love the look of diamonds but
   can't afford one, get a [faux] diamond ring.
@@ -1965,33 +2059,33 @@
       "the inept handling of the threat"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-13 Wed>
+    SCHEDULED: <2018-07-25 Wed>
     :PROPERTIES:
     :ID:       8385c590-7529-4335-ab48-34c917204f35
-    :DRILL_LAST_INTERVAL: 17.7133
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 37.9419
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.8
+    :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:18]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:29]
     :END:
   A clumsy, incompetent person — or an ineffective action — is [inept].
   When you're [inept], you don't know what you're doing or just can't
   get it done.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-17 Sun>
+    SCHEDULED: <2018-08-12 Sun>
     :PROPERTIES:
     :ID:       eae38d2f-3397-4cb2-9f58-b861975af1a6
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 56.0512
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:02]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:37]
     :END:
   Someone [inept] is bumbling, clueless, and ineffective. [Inept] people
   are dumb or clueless; they don't understand things. More than that,
@@ -2000,17 +2094,17 @@
   worker loses mail and puts it in the wrong box. An [inept] person is
   downright bad at something. The opposite of [inept] is competent.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-13 Wed>
+    SCHEDULED: <2018-07-28 Sat>
     :PROPERTIES:
     :ID:       a3ee7248-245b-4be4-b53b-01982ba60151
-    :DRILL_LAST_INTERVAL: 18.3583
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 40.7554
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_AVERAGE_QUALITY: 2.714
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-05-26 Sat 15:18]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:28]
     :END:
   Many others were [inept] at research design and, in desperation, were
   simply intending to replicate some oft-repeated statistical
@@ -2042,17 +2136,17 @@
       place, time, posture, having or possession, action, and passion.
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-14 Thu>
+    SCHEDULED: <2018-07-08 Sun>
     :PROPERTIES:
     :ID:       a8cfd975-5ebd-4cd2-8766-0a52f05235ad
-    :DRILL_LAST_INTERVAL: 8.56
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_LAST_INTERVAL: 21.3401
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 9
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.875
-    :DRILL_EASE: 2.32
+    :DRILL_AVERAGE_QUALITY: 3.111
+    :DRILL_EASE: 2.42
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:52]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:30]
     :END:
   If you're engaged to get married but suddenly fall in love with
   someone else, you have gotten yourself into quite a [predicament]. A
@@ -2129,17 +2223,17 @@
       "he confided his fears to his mother"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-12 Thu>
     :PROPERTIES:
     :ID:       febae7cc-583f-4679-be34-92fd6af79a64
-    :DRILL_LAST_INTERVAL: 9.6346
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 24.8862
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.333
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.571
+    :DRILL_EASE: 2.56
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:52]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:32]
     :END:
   To [confide] in someone is to tell them something privately. We
   [confide] in people we trust.
@@ -2660,12 +2754,21 @@
   whack, specifically the idea of getting whacked on the head so hard
   that it turns you [wacky].
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       868c8937-eea5-4fe2-b69e-f62e19276338
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:47]
     :END:
-  EDIT: People ask all kinds of [wacky] hypothetical question in
-  interviews such as asking candidates to hand-construct routine
-  algorithms that can easily be picked out of a textbook.
+    EDIT: People ask all kinds of [wacky] hypothetical question in
+    interviews such as asking candidates to hand-construct routine
+    algorithms that can easily be picked out of a textbook.
 * prickly :satellite:
 [2018-04-25 Wed 15:27]
 ** Translate from English to Russian:                                 :drill:
@@ -2725,17 +2828,17 @@
 * churn :satellite:
 [2018-04-25 Wed 15:41]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-04 Wed>
    :PROPERTIES:
    :ID:       445cfdf9-2d43-49e1-8eb7-83e270226887
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 17.091
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_AVERAGE_QUALITY: 2.571
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:49]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:29]
    :END:
 
  churn
@@ -2776,8 +2879,17 @@
   the store, but your ancestors probably used a traditional
   plunger-type [churn] to make their own.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       124138bd-c765-4658-ac2f-62683d5a9212
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:36]
     :END:
   The verb [churn] means to mix cream until it turns into butter,
   separating out the buttermilk. You can make your own butter by
@@ -2786,17 +2898,17 @@
   like a boat might [churn] in a turbulent ocean, or your stomach might
   [churn] with anxiety about your big test the next day.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-15 Fri>
+    SCHEDULED: <2018-07-12 Thu>
     :PROPERTIES:
     :ID:       32f7c3af-a9dc-4388-a036-9553b81b07fc
-    :DRILL_LAST_INTERVAL: 9.6346
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 24.8862
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.8
-    :DRILL_EASE: 2.46
+    :DRILL_AVERAGE_QUALITY: 3.167
+    :DRILL_EASE: 2.56
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-05 Tue 16:51]
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:31]
     :END:
   You can get me drunk, make me tired, distract me, give me a bad
   boss, and I’ll still [churn] code out at an even pace…
@@ -2963,16 +3075,34 @@
   [genuine] hundred dollar bill is the real McCoy, not a counterfeit
   bill. When something is the real thing, it's [genuine].
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       4d645d6c-9980-46fd-bd0a-8ccb4474256b
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:35]
     :END:
   The students were then asked to distinguish between the [genuine]
   notes and the fake ones.
 * fictitious :satellite:
 [2018-04-25 Wed 17:26]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       2d980208-d032-4a85-a413-6d8d4ff137fa
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:34]
    :END:
 
  fictitious
@@ -2989,11 +3119,21 @@
 
   adjective
    1. not real or true, being imaginary or having been fabricated.
-      "she pleaded guilty to stealing thousands in taxpayer dollars by having a fictitious employee on her payroll"
+      "she pleaded guilty to stealing thousands in taxpayer dollars by
+      having a fictitious employee on her payroll"
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       6379d514-39f2-4c11-8ef3-e2fc9d7926e3
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:51]
     :END:
   [Fictitious] means made up, or imaginary. No matter how real Scarlett
   O'Hara might seem in "Gone With the Wind," she's a [fictitious]
@@ -3047,8 +3187,17 @@
       "obtaining property by deception"
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       52e9efc4-923a-4a04-b63b-1f6b7b3a2dff
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:51]
     :END:
   [Deception] is a trick or scheme used to get what you want, like the
   [deception] you used to get your sister to agree to do all your chores
@@ -3080,8 +3229,17 @@
 * gauge :satellite:
 [2018-04-25 Wed 17:27]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       fa8b4f4a-c6fd-4477-91c9-8ce99a16ece4
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:33]
    :END:
 
  gauge
@@ -3242,16 +3400,34 @@
       "As a result of haphazard and inadequate culling, there is now a plague of rabid foxes affecting villages and cities in an arc across the Alps from Austria, through Hungary, Slovenia and Slovakia to Poland."
 
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       3e2a55c4-d868-4604-981f-d97153432148
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 1.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:48]
     :END:
   Chances are that if the tail-wagging dog that just appeared on your
   doorstep is also foaming at the mouth and chewing on your welcome
   mat, it's [rabid] and you should back away slowly; no petting for this
   infectious pup.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       33c1e50c-a2b4-4668-88b2-aca84e30de94
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:50]
     :END:
   While you've likely heard it used to describe an animal infected by
   rabies, [rabid] (derived from the Latin verb rabere "be mad, rave")
@@ -3305,8 +3481,17 @@
   other side can't be seen clearly. Think Shrinky Dinks or stained
   glass.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       353ec22f-41df-4e8c-a04a-fd56ca274299
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
   In contrast, a transparent material allows you to clearly see the
   objects on the other side. Frosted glass is [translucent], and regular
@@ -3420,8 +3605,17 @@
   worshipped by people who believe it controls or exerts force over
   some aspect of the world.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       fea55f62-b975-4fdb-83ad-c44f68b1b54b
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:50]
     :END:
   The word [deity] means "divine nature." It was coined by Saint
   Augustine, a theologian whose writings were very influential in the
@@ -3485,8 +3679,17 @@
 * tentative :satellite:
 [2018-05-02 Wed 08:54]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       c8b89f1e-08b8-4ecc-8640-355730c4c45a
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:50]
    :END:
 
  tentative
@@ -3526,12 +3729,21 @@
   hesitant or unsure about something. In this case, its opposite is
   confident.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       dd1d1b65-594d-4e71-afca-686b241781b9
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
-  The word carries a sense of awe and adoration with it, suggesting
-    something [tentative], even servile, a respectful appeal to a higher
-    power.
+    The word carries a sense of awe and adoration with it, suggesting
+    something [tentative], even servile, a respectful appeal to a
+    higher power.
 * servile :satellite:
 [2018-05-02 Wed 08:55]
 ** Translate from English to Russian:                                 :drill:
@@ -3555,8 +3767,10 @@
   adjective
    1. having or showing an excessive willingness to serve or please others.
       "bowing his head in a servile manner"
-   2. of or characteristic of a slave or slaves.
-      "Even after having spent so many years in the servile conditions of the workhouse, and then the brothel, I still had the urge to say my piece, but I'd learnt that sometimes it was wiser not to."
+   2. of or characteristic of a slave or slaves. "Even after having
+      spent so many years in the servile conditions of the workhouse,
+      and then the brothel, I still had the urge to say my piece, but
+      I'd learnt that sometimes it was wiser not to."
 
 *** --->                                                              :drill:
     :PROPERTIES:
@@ -3566,8 +3780,17 @@
   Coke, rub their feet, or do their homework. They won't like you any
   better, and your [servile] attitude will only cost you their respect.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       82df5080-3b37-4008-b360-594bff5cf109
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:49]
     :END:
   To remember [servile], just think of the word servant––they both
   derive from the Latin servus "slave." In fact, [servile] also means
@@ -3575,8 +3798,17 @@
   ex-slave shed first his [servile] clothes, later his [servile] manner.
   The transformation was complete."
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       99966d5c-c2e7-4b93-9b8b-aeeb6897a5b3
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:51]
     :END:
   The word carries a sense of awe and adoration with it, suggesting
   something tentative, even [servile], a respectful appeal to a higher
@@ -3584,8 +3816,17 @@
 * appeal :satellite:
 [2018-05-02 Wed 08:56]
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-06-21 Thu>
    :PROPERTIES:
    :ID:       0f5ebd8c-5294-4fcd-80d3-690e4206f69f
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:38]
    :END:
 
  appeal
@@ -3725,8 +3966,17 @@
   secular context, a "[miraculous] comeback" is when a football team
   that's down by 30 points at halftime ends up winning the Super Bowl.
 *** --->                                                              :drill:
+    SCHEDULED: <2018-06-21 Thu>
     :PROPERTIES:
     :ID:       1da94cff-4a85-4177-810e-1caa8d34c23f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-06-17 Sun 20:46]
     :END:
   That trickle of sweat didn't just [miraculous] appear — it was
   secreted out of a [pore], a really tiny opening on the surface of
