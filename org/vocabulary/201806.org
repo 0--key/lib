@@ -154,17 +154,17 @@
 * feat                                                            :satellite:
 [2018-05-29 Tue 19:28]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       d574d4f1-6fa4-4313-a50e-884284264377
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 07:16]
    :END:
 
  feat
@@ -1127,17 +1127,17 @@
 * expletive :Ferris:
 [2018-06-03 Sun 10:16]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       b6c786b6-73ec-4499-9590-c89b73e59d66
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.143
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 07:12]
    :END:
 
  expletive
@@ -1388,17 +1388,17 @@
 * salvage :Ferris:
 [2018-06-03 Sun 10:34]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       9abe25f8-dd61-40ee-a444-f300c2477f23
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:32]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 07:13]
    :END:
 
  salvage
@@ -2113,17 +2113,17 @@
 [2018-06-05 Tue 10:41]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       2f1a10ea-f325-40e5-8ab9-f14c6f811c7b
-   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.167
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 07:16]
    :END:
 
  devoid
@@ -2590,6 +2590,9 @@
 [2018-06-11 Mon 16:47]
 
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       525c74ef-9dfc-40b3-a0eb-51ff59344def
+   :END:
 
  dean
 
@@ -2630,6 +2633,9 @@
 * vice                                                               :Docker:
 [2018-06-11 Mon 16:56]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       d0023372-6210-45ea-b6d5-d136498d8fa4
+   :END:
 
  vice
 *** --->
@@ -2687,6 +2693,9 @@
 * entail :Docker:
 [2018-06-11 Mon 16:58]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       f0776189-4b30-4bbe-ae69-6ed014b9da61
+   :END:
 
  entail
 *** --->
@@ -2729,6 +2738,9 @@
 * permeate :Docker:
 [2018-06-12 Tue 14:06]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       aa6d3c80-140f-4d55-bc96-c409ad6ee62e
+   :END:
 
  permeate
 *** --->
@@ -2764,6 +2776,9 @@
 * elan :Docker:
 [2018-06-12 Tue 14:07]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       82572c54-d20e-4e65-bc91-60244cd34fdb
+   :END:
 
  elan
 *** --->
@@ -2796,6 +2811,9 @@
 * dusk                                                               :Coelho:
 [2018-06-13 Wed 13:58]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       377338b7-7e0a-473c-9b4f-30a8f4d061d9
+   :END:
 
  dusk
 *** --->
@@ -2844,6 +2862,9 @@
 * prod                                                               :Coelho:
 [2018-06-13 Wed 14:02]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       0fc9dce8-df42-4041-8ffc-74fd17676d19
+   :END:
 
  prod
 *** --->
@@ -2895,6 +2916,9 @@
 * raven :Coelho:
 [2018-06-13 Wed 14:06]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       dffb86e3-0ebc-4cc5-8141-5e5c5d806371
+   :END:
 
  raven
 *** --->
@@ -2951,6 +2975,9 @@
 * content :Coelho:
 [2018-06-13 Wed 14:09]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       546a4dab-3f63-42e4-b941-029ae66cb136
+   :END:
 
  content
 *** --->
@@ -3017,6 +3044,9 @@
 * flock :Coelho:
 [2018-06-13 Wed 14:12]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       69c45afe-ff00-4d5a-a978-1a432ea589d3
+   :END:
 
  flock
 *** --->
@@ -3068,6 +3098,9 @@
 * summon                                                             :Coelho:
 [2018-06-13 Wed 14:15]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       011a698d-cc95-41ab-823c-8f2b0e866715
+   :END:
 
  summon
 *** --->
@@ -3104,6 +3137,9 @@
 * tinge                                                              :Coelho:
 [2018-06-14 Thu 17:47]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       4d649636-1292-470a-b392-1918136a6bc2
+   :END:
 
  tinge
 *** --->
@@ -3145,6 +3181,9 @@
 * pace :Coelho:
 [2018-06-14 Thu 17:51]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       812bf6f5-823b-4d36-8dd1-2ecd55b1c905
+   :END:
 
  pace
 *** --->
@@ -3212,6 +3251,9 @@
 * repair                                                             :Coelho:
 [2018-06-15 Fri 17:45]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       4e90d66e-0ebb-47c0-97ac-9427fec825c1
+   :END:
 
  repair
 *** --->
@@ -3271,6 +3313,9 @@
 * yearn :Coelho:
 [2018-06-17 Sun 09:36]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       0b6b752e-2fbf-4904-98a0-fb872efbc29e
+   :END:
 
  yearn
 *** --->
@@ -3304,6 +3349,9 @@
 * pang :Coelho:
 [2018-06-17 Sun 09:41]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       8df89801-2caf-4b5e-96bc-9aa5c91b42e9
+   :END:
 
  pang
 *** --->
@@ -3343,6 +3391,9 @@
 [2018-06-24 Sun 08:47]
 
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       45fc6584-bc24-4df4-ae6f-5beacaf295ff
+   :END:
 
  impeccable
 
@@ -3378,6 +3429,9 @@
 * surreptitiously :Durrell:
 [2018-06-24 Sun 08:51]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       d6afefcc-7799-4f23-8b31-360a15d09c9f
+   :END:
 
  surreptitiously
 *** --->
@@ -3401,6 +3455,9 @@
 * napkin :Durrell:
 [2018-06-24 Sun 08:59]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       e85bcb22-0d98-47c0-a8b2-810256a31221
+   :END:
 
  napkin
 *** --->
@@ -3437,6 +3494,9 @@
 * vain :Durrell:
 [2018-06-24 Sun 09:00]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       eb9af58c-f1f4-42b8-aa10-f3ed4b8f531d
+   :END:
 
  vain
 *** --->
@@ -3486,6 +3546,9 @@
 * hurled :Durrell:
 [2018-06-24 Sun 09:01]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       b4d16f3f-a153-4c47-a2ce-afe997870e16
+   :END:
 
  hurled
 *** --->
@@ -3525,6 +3588,9 @@
 * bellow                                                            :Durrell:
 [2018-06-24 Sun 09:02]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       c9464ce5-f038-4774-b5b0-5f06a81c8cee
+   :END:
 
  bellowed
 *** --->
@@ -3561,6 +3627,9 @@
 * trim :Durrell:
 [2018-06-24 Sun 09:11]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       6cd10389-7b3c-4294-880c-a3596fce6e58
+   :END:
 
  trim
 *** --->
@@ -3655,6 +3724,9 @@
 * rickety :Durrell:
 [2018-06-24 Sun 09:13]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       b8aabe51-3c67-452e-a39c-c2cb291402e1
+   :END:
 
  rickety
 *** --->
@@ -3691,6 +3763,9 @@
 * amicably :Durrell:
 [2018-06-24 Sun 09:18]
 ** Translate from English to Russian:                                 :drill:
+   :PROPERTIES:
+   :ID:       fccadd62-1ed1-4c87-a0ce-ba804513236b
+   :END:
 
  amicably
 *** --->
