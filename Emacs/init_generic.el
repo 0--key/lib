@@ -118,7 +118,13 @@
 (require 'voca-builder)
   (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201807.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
-  (setq voca-builder/current-tag "satellite")
+(setq voca-builder/current-tag "Docker")
+(setq voca-builder/current-tag "Ferris")
+(setq voca-builder/current-tag "Clarke")
+(setq voca-builder/current-tag "Holmes")
+(setq voca-builder/current-tag "Durrell")
+(setq voca-builder/current-tag "Coelho")
+(setq voca-builder/current-tag "satellite")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
