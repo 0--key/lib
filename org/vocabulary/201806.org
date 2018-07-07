@@ -5,17 +5,17 @@
 [2018-05-29 Tue 16:58]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       0719a10e-91cc-4190-b4dc-360e28516572
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:44]
    :END:
 
  floss
@@ -31,8 +31,9 @@
   DEFINITION
 
   noun
-   1. the rough silk enveloping a silkworm's cocoon.
-      "Since mankind discovered the wonder of the silkworm's floss , it has been used for the costliest of garments."
+   1. the rough silk enveloping a silkworm's cocoon. "Since mankind
+      discovered the wonder of the silkworm's floss , it has been used
+      for the costliest of garments."
 
   verb
    1. clean between (one's teeth) with dental floss.
@@ -203,17 +204,17 @@
 * instant :satellite:
 [2018-06-01 Fri 16:28]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-16 Mon>
    :PROPERTIES:
    :ID:       29697b78-3950-4cd8-8d62-1eb7d95441ed
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:25]
    :END:
 
  instant
@@ -377,17 +378,17 @@
 * ensnare                                                            :Holmes:
 [2018-06-02 Sat 10:26]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       7e5ae563-6986-4226-bdfc-3c1c8f86c90d
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:45]
    :END:
 
  ensnare
@@ -1282,17 +1283,17 @@
 * scantiest :Ferris:
 [2018-06-03 Sun 10:31]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       51fd7e65-fa54-4728-91a3-fd55bef1b9d4
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.143
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:43]
    :END:
 
  scantiest
@@ -1815,17 +1816,17 @@
 * opinionated :Docker:
 [2018-06-03 Sun 19:54]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       0bad117d-3340-43fb-9108-64b7f2c804be
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:46]
    :END:
 
  opinionated
@@ -2062,17 +2063,17 @@
 [2018-06-04 Mon 16:04]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       f800fbd2-92df-4175-a48d-383ef7cb549d
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:46]
    :END:
 
  accuse
@@ -2256,17 +2257,17 @@
 * requisite :Ferris:
 [2018-06-05 Tue 21:25]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-11 Wed>
    :PROPERTIES:
    :ID:       ece73161-d588-488c-9fe9-271e99d5e527
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
+   :DRILL_LAST_REVIEWED: [2018-07-07 Sat 09:45]
    :END:
 
  requisite
