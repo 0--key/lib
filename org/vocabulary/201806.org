@@ -57,17 +57,17 @@
 [2018-05-29 Tue 17:00]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       da03011c-4970-4085-b5e6-434be0c04a47
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:59]
    :END:
 
  harmful
@@ -992,17 +992,17 @@
 [2018-06-02 Sat 16:06]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       0548d816-5db7-48c1-8d96-bbf0166733a5
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.167
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:40]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:56]
    :END:
 
  unbeknownst
@@ -1187,17 +1187,17 @@
 * pry :Ferris:
 [2018-06-03 Sun 10:20]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       26458721-886c-47fe-b0f6-b1c79c59fc45
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:58]
    :END:
 
  pry
@@ -1624,17 +1624,17 @@
 * exacerbate                                                         :Docker:
 [2018-06-03 Sun 19:31]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       608239ce-d4f6-4b0f-9432-d071f154482a
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.857
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:39]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 13:00]
    :END:
 
  exacerbate
@@ -1765,17 +1765,17 @@
 * surrendering :Docker:
 [2018-06-03 Sun 19:49]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       9d284b51-cd3f-46bd-8acd-5a61c61fe2c4
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:33]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:55]
    :END:
 
  surrendering
@@ -2199,17 +2199,17 @@
 * impose :Ferris:
 [2018-06-05 Tue 17:52]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       0a86d2cf-aa83-480f-978f-5c28c443ac1c
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:38]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:56]
    :END:
 
  impose
@@ -2394,17 +2394,17 @@
 * metaphor :Docker:
 [2018-06-06 Wed 11:03]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-17 Tue>
    :PROPERTIES:
    :ID:       5757a6e0-912d-4efd-ba4c-27d1b7b6cd3c
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_LAST_INTERVAL: 8.9861
+   :DRILL_REPEATS_SINCE_FAIL: 3
+   :DRILL_TOTAL_REPEATS: 2
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:31]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:42]
    :END:
 
  metaphor
@@ -2417,8 +2417,10 @@
   DEFINITION
 
   noun
-   1. a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.
-      "“I had fallen through a trapdoor of depression,” said Mark, who was fond of theatrical metaphors"
+   1. a figure of speech in which a word or phrase is applied to an
+      object or action to which it is not literally applicable. "“I
+      had fallen through a trapdoor of depression,” said Mark, who was
+      fond of theatrical metaphors"
 
 
   If you brag that "the world's your oyster," you're using a metaphor
@@ -2485,17 +2487,17 @@
 * daunting :Docker:
 [2018-06-06 Wed 11:15]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       e8b0acf3-1c88-47b5-89a8-761c52a1e130
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:33]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:59]
    :END:
 
  daunting
@@ -2536,17 +2538,17 @@
 [2018-06-06 Wed 15:33]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-13 Wed>
+   SCHEDULED: <2018-07-12 Thu>
    :PROPERTIES:
    :ID:       c54893e4-2edb-4856-af2f-04bf1f7747e0
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 1
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-09 Sat 08:37]
+   :DRILL_LAST_REVIEWED: [2018-07-08 Sun 12:59]
    :END:
 
  hinder
