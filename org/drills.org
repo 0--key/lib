@@ -346,15 +346,33 @@
    :END:
    Do not [impose] on others what you [yourself] do not [desire].
 ** >->-> Reinhold Niebuhr                                             :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       e179efa8-e3b4-4777-b3ae-4194a44c38e5
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:11]
    :END:
    God grant me the [serenity] to accept the things I cannot change,
    the [courage] to change the things I can, and the wisdom to [know]
    the difference.
 ** >->-> Horace                                                       :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       08f7a860-4150-46d9-a62f-1d4b755c7841
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:13]
    :END:
    I hate the [irreverent||disrespectful] [rabble||canaille] and keep
    [them] far from me.
@@ -591,11 +609,21 @@
    Everyone seems [to have] a clear idea [of how] other people should
    [lead] their lives, but [none] about his or her own.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
    :ID:       d10ac266-086f-4447-a218-015fe884ed86
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.333
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:12]
    :END:
-   Being busy is most often [used] as a [guise] for avoiding the few
-   critically important but [uncomfortable] actions.
+   Being busy is most often used as a [guise||mask] for avoiding the
+   few critically important but [uncomfortable] actions.
 ** >->->                                                              :drill:
    SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
@@ -1682,14 +1710,32 @@
    :END:
  I’d love [to talk about] the [gaping] void I feel in my life
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       390fa985-91a2-4693-b3a7-35c5f2afbb8b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:10]
    :END:
- If you want to build a boat [out of toothpicks] and yarn, you’ll need
+ If you want to build a boat [out of] toothpicks and yarn, you’ll need
  a lot of [ingenuity]
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       f1652d3a-a430-4a8c-9f2f-e634f4711b6b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:11]
    :END:
  She [let out] a long string of [oaths and expletives], carefully
  [picking] herself up from the floor.
@@ -1724,17 +1770,36 @@
    :END:
    The shepherd swore [that] he [would].
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
    :ID:       6684d433-06dc-4b6d-8f0b-083325d04754
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:13]
    :END:
    A [miraculous] occurrence can be [providential] or heaven-sent, or
    just [peculiarly] fortunate and appropriate.
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       ece168e4-1b9f-443a-bfbe-55ccb74d620d
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:11]
    :END:
-   [Oblivious] of my impending [doom] I watched him interestedly as,
-   still talking [glibly], he opened the matchbox.
+   [Oblivious||regardless] of my impending [doom] I watched him
+   interestedly as, still talking [glibly||volubly], he opened the matchbox.
 ** >->->                                                              :drill:
    :PROPERTIES:
    :ID:       a921f23d-acd9-408b-9fa3-9d9e81e0434c
@@ -1793,8 +1858,17 @@
    :END:
    Be [ruthless] and cut the [fat].
 ** >->->                                                              :drill:
+   SCHEDULED: <2018-07-21 Sat>
    :PROPERTIES:
    :ID:       26d0f8cb-e25c-4b65-85f4-482a0a9b80cf
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.333
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-07-17 Tue 22:11]
    :END:
    we’ll discuss the [nuts] and bolts of how to [escape] in later
    chapters.
