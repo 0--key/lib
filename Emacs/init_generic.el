@@ -1,4 +1,6 @@
-(setq custom-file "~/.emacs.d/custom_func.el")
+;; ~/.emacs.d/init.el
+
+(setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 ;;
 (require 'package)
@@ -26,7 +28,7 @@
 (require 'ereader)
 (require 'docker)
 (require 'org-drill)
-(require 'custom-macros)
+(require 'macro-commands) ;; /usr/local/git/0--key/lib/Emacs/macros.el
 
 (require 'langtool)
 (setq langtool-language-tool-jar "/usr/local/java/LanguageTool-3.6/languagetool-commandline.jar")
