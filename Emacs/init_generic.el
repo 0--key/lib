@@ -18,6 +18,7 @@
 
 (elpy-enable)
 (pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv2Amazon/")
+(pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv3/")
 
 
  (require 'org-bullets)
