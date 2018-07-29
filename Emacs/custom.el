@@ -8,7 +8,6 @@
  '(Info-additional-directory-list
    (quote
     ("/usr/share/info/scrapy/" "/usr/share/info/python3.4/" "/usr/share/info/postgres/")))
-;; '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(org-agenda-files
    (quote
     ("/usr/local/git/0--key/lib/org/agenda/learning.org" "/usr/local/git/0--key/lib/org/agenda/main.org")))
