@@ -119,7 +119,7 @@
   ))
 ;;
 (require 'voca-builder)
-  (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201807.org")
+  (setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201808.org")
   (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "Docker")
 (setq voca-builder/current-tag "Ferris")
