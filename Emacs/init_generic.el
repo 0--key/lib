@@ -24,6 +24,9 @@
    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 ;;
 
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/bookmark-plus/")
+
+
 (require 'bookmark+)
 (require 'ereader)
 (require 'docker)
