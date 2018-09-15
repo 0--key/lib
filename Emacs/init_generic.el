@@ -45,6 +45,9 @@
 (setq langtool-default-language "en-US")
 ;;(setq langtool-java-bin "/usr/bin/java") ;; perhaps
 
+(require 'engine-mode)
+(engine-mode t)
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((python . t)
