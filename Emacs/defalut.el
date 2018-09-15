@@ -27,7 +27,7 @@
 (global-set-key (kbd "C-c t") 'google-translate-at-point)
 (global-set-key (kbd "C-c T") 'google-translate-query-translate)
 ;;
-
+(global-set-key (kbd "C-c v") 'voca-builder/search-popup)
 (require 'key-chord)
     (key-chord-mode 1)
     (key-chord-define-global "ww"     'google-translate-at-point)
