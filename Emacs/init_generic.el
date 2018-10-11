@@ -74,6 +74,9 @@
 (key-chord-define org-mode-map "AA"     'org-drill-again)
 (key-chord-define org-mode-map "RR"     'org-drill-resume)
 
+(key-chord-define-global "bv" 'scroll-other-window)
+(key-chord-define-global "rt" 'scroll-other-window-down)
+
  (setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
