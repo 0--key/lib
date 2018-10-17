@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("The 7 Habits of Highly Effective People.epub" 0 44
+(#1=(#("vocabulary" 0 10
+      (bmkp-full-record #1#))
+    (buffer-name . "vocabulary")
+    (visits . 0)
+    (time . #2=(23489 38285 516776 845000))
+    (created . #2#)
+    (position . 421)
+    (filename . "   - no file -")
+    (desktop-file . "/usr/local/git/0--key/lib/org/vocabulary/vocabulary.desktop")
+    (handler . bmkp-jump-desktop))
+#1=(#("The 7 Habits of Highly Effective People.epub" 0 44
       (bmkp-full-record #1#))
     (filename . "~/Desktop/Books/The 7 Habits of Highly Effective People.epub")
     (buffer-name . "The 7 Habits of Highly Effective People.epub")
@@ -19,9 +29,9 @@
     (annotation)
     (tags)
     (buffer-name . "lib")
-    (visits . 0)
-    (time . #2=(23475 40132 932834 777000))
-    (created . #2#)
+    (visits . 1)
+    (time 23487 19293 277862 780000)
+    (created 23475 40132 932834 777000)
     (position . 792)
     (filename . "   - no file -")
     (desktop-file . "/usr/local/git/0--key/lib/git.desktop")
