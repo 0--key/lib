@@ -32,17 +32,17 @@
       "the smoke made her sneeze"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-09 Mon>
+    SCHEDULED: <2018-11-28 Wed>
     :PROPERTIES:
     :ID:       5098c274-3d6a-4271-8bf0-1ec259379dff
-    :DRILL_LAST_INTERVAL: 20.6501
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 48.0321
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
     :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:15]
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:31]
     :END:
   When you [sneeze], you blow air forcefully (and involuntarily) out of
   your nose and mouth, possibly while making a sound that might be
@@ -308,17 +308,17 @@
   connected to something bad: "Are you surprised by their
   [implication] that you were involved in the crime?"
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       a859c8a6-e0b4-46c5-940b-96465b308b2d
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.08
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.889
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:35]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:53]
     :END:
     This is where we start getting a bit deeper into specific technology
     [implication]s, as we discuss what sorts of service collaboration
@@ -360,17 +360,17 @@
   into her family's history and discovered an inventor, a checkers
   champion, and a circus equestrian in her ancestry.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-12-08 Sat>
     :PROPERTIES:
     :ID:       e6c8880d-369b-4d07-a421-ee88db3a721c
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:35]
     :END:
   [Delve] has a literal meaning of to dig into the earth ("to [delve] the
   soil," as in preparing a garden, for example), but this sense is
@@ -635,17 +635,17 @@
   Similar to marriage, if you [espouse] a belief system, the idea is
   that you've chosen to wed yourself to it.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       1989bf60-50a5-43df-8d0e-a3eb082cd3c5
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.876
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:32]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:56]
     :END:
   Some large, successful organizations like Amazon and Google [espouse]d
   the view of small teams owning the full lifecycle of their services.
@@ -818,17 +818,17 @@ for tonight.”
 * faculty :Holmes:
 [2018-05-04 Fri 15:39]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-07-24 Tue>
+   SCHEDULED: <2018-11-01 Thu>
    :PROPERTIES:
    :ID:       d20e48ac-7409-4976-b0db-f92bc3981233
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 19.2482
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:14]
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 10:49]
    :END:
 
  faculty
@@ -951,17 +951,17 @@ for tonight.”
       "the palpable bump at the bridge of the nose"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-11 Sat>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       3e2c16b9-6cc3-4742-9423-5f3223ef92c8
-    :DRILL_LAST_INTERVAL: 26.791
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 66.8971
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
-    :DRILL_EASE: 2.6
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:28]
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:35]
     :END:
   When something is [palpable], you can touch or handle it, even though
   the word is often used to describe things that usually can't be
@@ -1038,17 +1038,17 @@ for tonight.”
   беспечно
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       4e2e9980-0290-4b0f-b436-005d9384c48a
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 1.667
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:33]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:52]
     :END:
   The adverb [blithely] describes something you do in a casually
   cheerful, somewhat neglectful way, like when you [blithely] ride your
@@ -1112,17 +1112,17 @@ for tonight.”
   When you [plod], you walk slowly, heavily, and deliberately. You might
   need to [plod] through the snow to get to the bus stop on time.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       c902e9fb-5f09-4ab1-864c-f865ef075cc6
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.333
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:32]
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 2.374
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:42]
     :END:
   [Plod] evokes a difficulty in walking — like when you trudge through
   mud or walk slowly up a steep hill. You might [plod] home at the end
@@ -1226,17 +1226,17 @@ for tonight.”
       "people feared that the switch to a peacetime economy would be attended by a severe slump"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-10 Tue>
+    SCHEDULED: <2018-12-04 Tue>
     :PROPERTIES:
     :ID:       69b53e21-ba53-45ca-a248-531095dd063b
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.667
+    :DRILL_AVERAGE_QUALITY: 3.75
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:14]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:31]
     :END:
   The verb [attend] means to be present, to listen, or give care or
   attention to. You can [attend] your family reunion, [attend] to a
@@ -1282,17 +1282,17 @@ for tonight.”
       "you must not deviate from the agreed route"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-23 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       745452ee-0165-4781-940c-77bb4f6333b9
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.333
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:18]
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 6
+    :DRILL_AVERAGE_QUALITY: 2.111
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:57]
     :END:
   If something turns off course or is diverted, it [deviate]s from the
   expected or the norm. [Deviat]ing from explicit recipe directions is
@@ -1500,17 +1500,17 @@ for tonight.”
       "a hostile audience"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-20 Sat>
     :PROPERTIES:
     :ID:       d6fa4453-3919-4127-b6b3-e637758cdc49
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_LAST_INTERVAL: 8.9861
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.6
-    :DRILL_EASE: 2.36
+    :DRILL_AVERAGE_QUALITY: 2.667
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:36]
     :END:
   If something is [hostile], it's unfriendly. If you are zealous about
   the political causes you believe in, you will be [hostile] to any
@@ -1615,17 +1615,17 @@ for tonight.”
   roommate who stays up playing video games until the wee hours of the
   morning.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-08 Sun>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       4e81d30b-e7dc-4d20-bf0d-155c5247c2a2
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:16]
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:47]
     :END:
   The adjective [nocturnal] comes from the Late Latin [nocturnal]is, which
   means “belonging to the night." You've probably heard of [nocturnal]
@@ -1776,17 +1776,17 @@ for tonight.”
       "his design team commenced work"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-23 Thu>
+    SCHEDULED: <2018-11-05 Mon>
     :PROPERTIES:
     :ID:       598ef5c2-8a19-4df3-9576-0f7dffcebf5d
-    :DRILL_LAST_INTERVAL: 9.192
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 21.3714
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.714
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:11]
+    :DRILL_AVERAGE_QUALITY: 2.75
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:43]
     :END:
   [Commence] is a fancy way of saying "begin." Your invitation to a
   formal wedding might note, "The ceremony will [commence] at noon."
@@ -1812,17 +1812,17 @@ for tonight.”
 * miscarriage                                                        :Holmes:
 [2018-05-05 Sat 09:10]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-25 Sat>
+   SCHEDULED: <2018-11-12 Mon>
    :PROPERTIES:
    :ID:       bf22e832-23e9-44b6-9f83-dc3822f0596b
-   :DRILL_LAST_INTERVAL: 10.7143
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 27.7286
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_AVERAGE_QUALITY: 3.25
    :DRILL_EASE: 2.6
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:16]
+   :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:46]
    :END:
 
  miscarriage
@@ -1910,17 +1910,17 @@ for tonight.”
   physical. Advertisers hope their commercials will be an [impetus] to
   buy the product.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       00482e77-f5cb-4c91-9ebc-85bfa7b1722c
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.167
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:29]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:53]
     :END:
   The Edalji case was widely considered one of the main [impetus]es
   behind its creation.
@@ -1950,17 +1950,17 @@ for tonight.”
       "It would be wearisome to go into any more detail."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       47435cdf-bf43-43c2-bdc7-ee53d029d6df
     :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 12
-    :DRILL_FAILURE_COUNT: 8
-    :DRILL_AVERAGE_QUALITY: 1.916
-    :DRILL_EASE: 1.94
+    :DRILL_TOTAL_REPEATS: 17
+    :DRILL_FAILURE_COUNT: 11
+    :DRILL_AVERAGE_QUALITY: 1.882
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:56]
     :END:
   Anything that's boring, tedious, or so dull that it puts you to
   sleep can be described as [wearisome]. Long bus rides and long
@@ -2190,17 +2190,17 @@ for tonight.”
   and something that is said to be “without [rival]” is unmatched, or
   better than everything else.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       85e84147-d70d-4111-bf64-9c8202676e12
     :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.125
-    :DRILL_EASE: 1.94
+    :DRILL_TOTAL_REPEATS: 13
+    :DRILL_FAILURE_COUNT: 7
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 1.66
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:30]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:57]
     :END:
     But his [insights||cognition] into the human mind [rival||compete]
     his greatest feats of criminal justice.
@@ -2455,17 +2455,17 @@ for tonight.”
 * deem                                                               :Holmes:
 [2018-05-05 Sat 16:32]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-22 Wed>
+   SCHEDULED: <2018-10-19 Fri>
    :PROPERTIES:
    :ID:       a9ca337d-5753-4b8b-a60f-97a79e79955e
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.715
-   :DRILL_EASE: 2.08
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.556
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:18]
+   :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:53]
    :END:
 
  deem
@@ -2511,17 +2511,17 @@ for tonight.”
 * extraneous :Holmes:
 [2018-05-05 Sat 16:32]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-26 Tue>
+   SCHEDULED: <2018-10-23 Tue>
    :PROPERTIES:
    :ID:       41f8b9a3-ca20-4b53-936f-14c13e623ad2
-   :DRILL_LAST_INTERVAL: 8.2695
+   :DRILL_LAST_INTERVAL: 8.2681
    :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.8
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.876
+   :DRILL_EASE: 2.08
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:18]
+   :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:49]
    :END:
 
  extraneous
@@ -2559,17 +2559,17 @@ for tonight.”
   come from the outside: [extraneous] details are ones that don't
   matter.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       be87c5ed-8297-4319-a3db-940dedc9efbe
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 1.75
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:28]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:54]
     :END:
   Less, in that it is stripped of any accompanying emotion and
   conjecture—all elements that are deemed [extraneous] to clarity of
@@ -2670,17 +2670,17 @@ for tonight.”
   you go on a picnic, be sure to have a bag for the [disposal] of your
   trash afterward, or you will be a terrible litterbug.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-03 Fri>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       cec11318-c472-4dc4-91a7-aa575887ef1f
-    :DRILL_LAST_INTERVAL: 19.2482
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.6
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.571
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:11]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:07]
     :END:
   You can use a garbage [disposal], a grinder in your sink drain that
   allows you to wash down certain waste items without causing clogs,
@@ -2889,17 +2889,17 @@ for tonight.”
 * painstaking :Holmes:
 [2018-05-08 Tue 08:22]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-22 Fri>
+   SCHEDULED: <2018-10-15 Mon>
    :PROPERTIES:
    :ID:       0ac21a31-9a2b-4bcb-b222-f3aa7de8770c
-   :DRILL_LAST_INTERVAL: 9.648
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-12 Tue 14:03]
+   :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:49]
    :END:
 
  painstaking
@@ -3233,17 +3233,17 @@ for tonight.”
   "insomnia." A prison guard might be required to maintain [vigilance]
   the whole time she's working, always being alert and watchful.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       6f5cda62-cd33-4e37-8682-24849096acc1
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.08
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.889
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:33]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:51]
     :END:
   One system is fast, intuitive, reactionary—a kind of constant
   fight-or-flight [vigilance] of the mind.
@@ -3286,17 +3286,17 @@ for tonight.”
   Chicago Bears (William Perry) whose [moniker] was "The Refrigerator."
   That's a lot nicer [moniker] than "Ivan the Terrible."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-23 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       d4149dac-b9b7-47a6-9d7b-9d146a358f43
-    :DRILL_LAST_INTERVAL: 8.88
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 8
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.125
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:11]
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 2.1
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:54]
     :END:
   I’m going to give the systems [moniker]s of my own: the Watson system
   and the Holmes system.
@@ -3926,17 +3926,17 @@ for tonight.”
   To [jolt] someone is to disturb them or make them jump. A [jolt] is
   sudden and jarring.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       f5f06c68-5208-400a-9755-fe1d6f82b00a
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.25
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:31]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:50]
     :END:
   [Jolt]ing disturbs or surprises people. If you surprise someone and
   they jump up a little, you [jolt]ed them. Alarm clocks [jolt] people out
@@ -3954,17 +3954,17 @@ for tonight.”
 * tripped :Holmes:
 [2018-05-12 Sat 10:52]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-03 Fri>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       e656cb3e-1fd4-4b2f-b3fd-33f1d97e2142
-   :DRILL_LAST_INTERVAL: 19.2482
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.75
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.667
    :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:08]
    :END:
 
  tripped
@@ -4010,17 +4010,17 @@ for tonight.”
       "when tripping through the Yukon, take some time to explore our museums"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       6c5a2285-dd6c-4f49-bb63-0b53f79a2c90
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:10]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:03]
     :END:
   When you [trip], you stumble or lose your footing. As a noun, a [trip]
   is a journey or outing, like your [trip] to the library yesterday or
@@ -4433,17 +4433,17 @@ for tonight.”
       "I'm sure the jewelry has just been misplaced, and not stolen"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       3b2ec3bf-3fb8-4c2d-8078-199c583098a0
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 8.2681
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_AVERAGE_QUALITY: 2.571
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:37]
     :END:
   When you [misplace] your car keys, you can't remember where you put
   them. In other words, you temporarily lose them.
@@ -4612,18 +4612,18 @@ for tonight.”
   ideas." [Novice] can also mean a member of a Christian order who has
   not yet taken their vows.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :DRILL_CARD_TYPE: hide2cloze
     :ID:       0584ae9e-a691-4339-8a43-ff5556498268
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 1.857
-    :DRILL_EASE: 2.08
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.889
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:35]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:51]
     :END:
   Anders Ericsson argues that experts even see the world differently
   within their area of [expertise]: they see things that are invisible
@@ -4634,17 +4634,17 @@ for tonight.”
 * incongruity :Holmes:
 [2018-05-14 Mon 14:40]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-26 Tue>
+   SCHEDULED: <2018-10-15 Mon>
    :PROPERTIES:
    :ID:       b764c20c-0415-4632-b2d9-0bf73974b50d
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.167
-   :DRILL_EASE: 2.08
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:13]
+   :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:41]
    :END:
 
  incongruity
@@ -4690,17 +4690,17 @@ for tonight.”
 * rudimentary :Holmes:
 [2018-05-14 Mon 14:44]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-06 Mon>
+   SCHEDULED: <2018-12-04 Tue>
    :PROPERTIES:
    :ID:       c2aea605-232c-4de1-95fd-30d73c471977
-   :DRILL_LAST_INTERVAL: 22.4564
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 52.2785
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:13]
+   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:04]
    :END:
 
  rudimentary
@@ -4839,17 +4839,17 @@ for tonight.”
   vague, especially to fool or deceive someone. The [obliquity] of many
   politicians makes it hard to get a straight answer from them.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       0a3e1618-da89-43b7-921f-be434ec80cd2
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 1.876
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:29]
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 1.901
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:55]
     :END:
   If your teacher comments on the [obliquity] of your poem, it may be a
   compliment, or it may mean your writing is just hard to understand.
@@ -5828,7 +5828,8 @@ for tonight.”
 
  directive
 *** --->
-  директива
+    [dɪ↗rɛktɪv]
+    директива
 
   noun
    1. директива (directive, guideline, instruction, direction, leading, lead)
@@ -5850,17 +5851,17 @@ for tonight.”
       "moral and ethical directives"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-23 Tue>
     :PROPERTIES:
     :ID:       1bf0516f-8d8d-4bd1-a41c-246dabd3911b
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.75
-    :DRILL_EASE: 2.36
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.714
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:30]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:47]
     :END:
   A [directive] is an order or official notice that comes from an
   authority. The [directive] from your boss instructing all employees to
@@ -6385,17 +6386,17 @@ for tonight.”
       "audiocassettes are an interesting alternative to reading"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-28 Thu>
+    SCHEDULED: <2018-10-24 Wed>
     :PROPERTIES:
     :ID:       e61340c6-da96-4387-b1fc-f9b4034cc382
-    :DRILL_LAST_INTERVAL: 9.6346
+    :DRILL_LAST_INTERVAL: 9.2867
     :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.2
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:16]
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 3.125
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:46]
     :END:
   When you're facing a fork in the road, you have two possibilities,
   or [alternative]s. You could take the left fork and see where it
@@ -6684,17 +6685,17 @@ for tonight.”
   could [reflect] the buying trends in an economic cycle. [Reflect]ing can
   mean seeing something original in another form or image.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-09 Thu>
+    SCHEDULED: <2018-12-21 Fri>
     :PROPERTIES:
     :ID:       b76cc4c0-3eb9-4739-b27e-90bac736924f
-    :DRILL_LAST_INTERVAL: 24.8862
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_LAST_INTERVAL: 66.5706
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 4
     :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 4.333
-    :DRILL_EASE: 2.56
+    :DRILL_AVERAGE_QUALITY: 4.5
+    :DRILL_EASE: 2.66
     :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:28]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:35]
     :END:
   Whenever you find yourself on the side of the majority, it is time
   to pause and [reflect].
@@ -6787,17 +6788,17 @@ for tonight.”
   on things. A [chaperone] is someone who looks after and supervises
   another person or a group of people.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       0d146f3b-7896-4b2f-8735-2ace22e28af6
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 9
-    :DRILL_FAILURE_COUNT: 5
-    :DRILL_AVERAGE_QUALITY: 2.111
-    :DRILL_EASE: 1.94
+    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_FAILURE_COUNT: 7
+    :DRILL_AVERAGE_QUALITY: 2.083
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:32]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:53]
     :END:
   [Chaperone] can also be spelled [chaperon], without the e. It
   originally meant a woman whose duty was to accompany a younger woman
@@ -6869,17 +6870,17 @@ for tonight.”
 * fathom :Ferris:
 [2018-05-18 Fri 20:22]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-06 Mon>
+   SCHEDULED: <2018-12-04 Tue>
    :PROPERTIES:
    :ID:       f08108e6-a706-49e1-9f8b-1089bf9fdfc1
-   :DRILL_LAST_INTERVAL: 22.4564
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 52.2785
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.714
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+   :DRILL_AVERAGE_QUALITY: 2.75
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:04]
    :END:
 
  fathom
@@ -6910,17 +6911,17 @@ for tonight.”
       "an attempt to fathom the ocean"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       b0fd1d2f-4c60-43c8-8e5c-6bb3b13304d0
-    :DRILL_LAST_INTERVAL: 9.648
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 3.0
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:25]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:08]
     :END:
   To [fathom] something is to understand it thoroughly, and is usually
   used in the negative, as in "I can't [fathom] why he doesn't want to
@@ -6961,34 +6962,34 @@ for tonight.”
       "domestic drudgery"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       20def387-ae37-4ac4-8405-a9f07df3f9d9
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 1.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 1.75
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:31]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:51]
     :END:
   If you’ve ever had to do the laundry, wash the dishes, make the
   meals, change the bedding, vacuum the house, and clean the bathrooms
   day after day, you’ve experienced [drudgery]. [Drudgery] is hard,
   mindless, backbreaking work.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       2e8266af-d881-4525-95d0-e196f4b64dd4
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 1.8
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:32]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:53]
     :END:
   When you say the word [drudgery], you can almost feel the hard,
   plodding work that it describes. You have to put some effort into
@@ -7096,17 +7097,17 @@ for tonight.”
    4. fasten or attach (someone or something) to something by binding with turns of rope.
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       8d0c77eb-9318-4043-aee9-b3ef2c1a34b0
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 3
     :DRILL_AVERAGE_QUALITY: 1.5
-    :DRILL_EASE: 2.22
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:29]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:53]
     :END:
   Infomercial salesmen constantly tell you to [seize] the opportunity to
   buy their product while you still can. Supplies are limited! After
@@ -7265,17 +7266,17 @@ for tonight.”
 * lateral :Ferris:
 [2018-05-18 Fri 20:55]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-06-26 Tue>
+   SCHEDULED: <2018-10-15 Mon>
    :PROPERTIES:
    :ID:       256c9942-d98a-4d43-a32c-24058c097420
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.6
-   :DRILL_EASE: 2.08
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.571
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:17]
+   :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:43]
    :END:
 
  lateral
@@ -7321,17 +7322,17 @@ for tonight.”
   [lateral]. "All of the [lateral] movement in tennis hurt her knees and
   she had to quit playing."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-23 Tue>
     :PROPERTIES:
     :ID:       1289f132-96f9-48a4-8c05-22d1504b4192
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.36
+    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.833
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:32]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:51]
     :END:
   The adjective [lateral] comes from the Latin word [lateral]is, which
   means “belonging to the side” and the modern meaning is basically
@@ -7373,17 +7374,17 @@ for tonight.”
       "he'd been committed to an asylum"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-23 Mon>
+    SCHEDULED: <2018-10-28 Sun>
     :PROPERTIES:
     :ID:       eedc1fcb-9c8c-4947-9f23-c9d461918cfa
-    :DRILL_LAST_INTERVAL: 7.9786
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_LAST_INTERVAL: 14.9359
+    :DRILL_REPEATS_SINCE_FAIL: 4
+    :DRILL_TOTAL_REPEATS: 8
     :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.143
-    :DRILL_EASE: 1.94
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:16]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 10:49]
     :END:
   When someone needs a refuge from a difficult or dangerous situation,
   they need [asylum]. If a government offers to protect people who have
@@ -7456,17 +7457,17 @@ for tonight.”
   conversations." The "conversations" part stems from parler, "to
   speak" in French.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       dc73e3a8-b867-4bb0-9af4-dcb3c12c3ead
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 9
-    :DRILL_FAILURE_COUNT: 5
+    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_FAILURE_COUNT: 6
     :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 1.94
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:29]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:42]
     :END:
   I’m hired for minimum wage as the cleaner at an ice cream [parlor] and
   quickly realize that the big boss’s methods duplicate effort.
@@ -7663,34 +7664,34 @@ for tonight.”
   can lead to thunder-snow, and a [freak] accident can lead to, well, a
   missing ear or toe.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-28 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       8145079d-ccd7-401d-8867-0c58b20d13ac
-    :DRILL_LAST_INTERVAL: 9.6346
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:17]
+    :DRILL_LAST_INTERVAL: 3.855
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.715
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:40]
     :END:
   I take a one-week “vacation” to Florence, Italy, with my family and
   spend 10 hours a day in an Internet café [freak]ing out.
 * implode                                                            :Ferris:
 [2018-05-19 Sat 15:22]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-05 Sun>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       481a3494-66ce-4226-8328-1e0423d51469
-   :DRILL_LAST_INTERVAL: 20.6501
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.25
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:09]
+   :DRILL_LAST_INTERVAL: 3.72
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.18
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:08]
    :END:
 
  implode
@@ -7766,17 +7767,17 @@ for tonight.”
   [impoverished], and a country may become [impoverished] after a
   devastating war.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       59aa5be4-a73b-4783-b353-f1978d00d23e
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
     :DRILL_AVERAGE_QUALITY: 1.5
-    :DRILL_EASE: 2.36
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:37]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:41]
     :END:
   [Impoverished] comes from the Old French word povre, which means
   “poor,” and you can almost see the word poverty inside [impoverished].
@@ -7819,17 +7820,17 @@ for tonight.”
       "there are bargains if you have the patience to sift through the dross"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       356d9cc7-5452-4106-8754-b83d86954b8e
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 3
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 5
     :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:31]
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:52]
     :END:
   Things that are a total loss — really worthless or damaging — are
   [dross]. That gunk between your teeth that comes out when you floss?
@@ -7995,17 +7996,17 @@ for tonight.”
       "she asked Tim to run an errand for her"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       adbf9485-a7b8-4ede-98b2-b1a289fc00f9
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 4
     :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:33]
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:55]
     :END:
   An [errand] is a short trip to fulfill some small business. When
   you’re running [errand]s, you’re making a bunch of these all at once.
@@ -8257,17 +8258,17 @@ for tonight.”
 * cue                                                                :Holmes:
 [2018-05-19 Sat 20:54]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-07-19 Thu>
+   SCHEDULED: <2018-10-19 Fri>
    :PROPERTIES:
    :ID:       63b9005c-ebe0-4972-a4fd-2c5b47b4f507
    :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.22
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.143
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:29]
+   :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:54]
    :END:
 
  cue
@@ -8475,17 +8476,17 @@ for tonight.”
   When someone calls out "rise and shine," they are trying to [rouse]
   you, to make you wake up.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-25 Wed>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       348b5124-ba42-457f-be07-ee5f5d641874
-    :DRILL_LAST_INTERVAL: 9.6255
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.18
+    :DRILL_LAST_INTERVAL: 3.855
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.04
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:17]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
     :END:
   It's thought that the word [rouse] was originally a 15th-century term
   used by hawkers for the way the birds shook out their feathers when
@@ -8504,17 +8505,17 @@ for tonight.”
 * morbid :Holmes:
 [2018-05-19 Sat 20:59]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-07-24 Tue>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       8f9deee3-4958-4d44-976d-602ceaa835eb
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:25]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
    :END:
 
  morbid
@@ -8559,17 +8560,17 @@ for tonight.”
   tombstones on your walls, your taste in art could also be described
   as [morbid].
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-23 Tue>
     :PROPERTIES:
     :ID:       1008dd1d-a5c8-48c7-b5b1-1568caae5dfe
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 7.979
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.25
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 2.4
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:28]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:35]
     :END:
   “Your brain may, as you say, be roused and excited, but it is a
   pathological and [morbid] process which involves increased
@@ -8854,17 +8855,17 @@ for tonight.”
   when I barely brushed against you. I didn't realize you were so
   [dainty]."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-05 Sun>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       55a50cbe-8f47-42cf-9a91-feceaad2d115
-    :DRILL_LAST_INTERVAL: 20.621
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.667
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+    :DRILL_LAST_INTERVAL: 3.72
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.626
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
     :END:
   She was a blonde young lady, small, [dainty], well gloved, and
   dressed in the most perfect taste.
@@ -8938,33 +8939,33 @@ for tonight.”
       "a quiet, somber demeanor"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-12-06 Thu>
     :PROPERTIES:
     :ID:       1710eb00-00f6-49d7-9d47-13510d7bafc2
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_LAST_INTERVAL: 54.1648
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 5
     :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_AVERAGE_QUALITY: 3.4
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:10]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:03]
     :END:
   Your [demeanor] is defined as being either your facial appearance or
   your behavior. When playing poker, don't let your [demeanor] give away
   how good your cards are.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-26 Tue>
+    SCHEDULED: <2018-10-23 Tue>
     :PROPERTIES:
     :ID:       a66cee6c-152d-437d-90af-d2aba291ba91
-    :DRILL_LAST_INTERVAL: 8.2695
+    :DRILL_LAST_INTERVAL: 8.2681
     :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.2
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:11]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:52]
     :END:
   [Demeanor] in English today has evolved from Middle English and Old
   French to refer to the way one manages or presents oneself, and this
@@ -9000,17 +9001,17 @@ for tonight.”
       "my impending departure"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       8f641897-c329-4637-8b5c-bf9095602858
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
-    :DRILL_FAILURE_COUNT: 6
-    :DRILL_AVERAGE_QUALITY: 2.125
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_FAILURE_COUNT: 8
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:32]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:56]
     :END:
   If something is [impending], it is about to happen. If you hear
   thunder in the distance, you might go inside to escape the [impending]
@@ -9060,17 +9061,17 @@ for tonight.”
       "that same lady errant"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       7fcdd36f-b813-40b2-bca6-40a5d386fa45
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 1.8
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 1.857
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:31]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:41]
     :END:
   Something or someone described as [errant] has gone astray or done
   wrong by going in an unexpected direction. An [errant] bird might end
@@ -9096,17 +9097,17 @@ for tonight.”
 * immune :Holmes:
 [2018-05-19 Sat 21:29]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-03 Fri>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       6021c757-78b9-461c-8620-2ef3c808dfe3
-   :DRILL_LAST_INTERVAL: 19.2482
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.08
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.6
+   :DRILL_EASE: 1.94
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:11]
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:05]
    :END:
 
  immune
@@ -9152,17 +9153,17 @@ for tonight.”
 * cast :Holmes:
 [2018-05-19 Sat 21:41]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-04 Sat>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       999676bf-7682-4ac7-813f-5a95e96d393d
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
    :END:
 
  cast
@@ -9358,17 +9359,17 @@ for tonight.”
       "Had the wall run due north from this point on the upper terrace, the area enclosed would have been overlooked by a salient of the terrace to the east, creating a point of great vulnerability."
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       573b07d4-b022-4d0c-a28d-caf2a926ada0
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 13
-    :DRILL_FAILURE_COUNT: 9
-    :DRILL_AVERAGE_QUALITY: 2.077
-    :DRILL_EASE: 2.08
+    :DRILL_TOTAL_REPEATS: 16
+    :DRILL_FAILURE_COUNT: 11
+    :DRILL_AVERAGE_QUALITY: 2.001
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:53]
     :END:
   If something stands out in a very obvious way, it can be called
   [salient]. It's time to find new friends if the differences between
@@ -9428,17 +9429,17 @@ for tonight.”
   [Fleeting] is an adjective that describes something that happens
   really fast, or something that doesn’t last as long as you’d like.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-02 Thu>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       a8113d75-a669-4dc2-86d0-656a159a94bb
-    :DRILL_LAST_INTERVAL: 17.7133
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 7
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.428
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:09]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:07]
     :END:
   Driving in a car on the highway, you see a unicorn in the woods, but
   you only get a [fleeting] glimpse of it because you’re driving too
@@ -9587,17 +9588,17 @@ for tonight.”
   evening to yourself if you're [industrious] enough during the
   afternoon to get your homework and chores done.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       dfafd575-d2d2-4395-9f8f-2e3474f3197d
     :DRILL_LAST_INTERVAL: 4.0
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.75
     :DRILL_EASE: 2.5
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:32]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:49]
     :END:
   The word [industrious] is closely related to the word industry, used
   for both the quality of being hardworking, “He is a model of
@@ -9725,17 +9726,17 @@ for tonight.”
       "making imaginative use of computer software"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       13a1fb6f-bb32-4289-9de4-8d73dd9adcb7
-    :DRILL_LAST_INTERVAL: 3.995
+    :DRILL_LAST_INTERVAL: 3.855
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 5
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.46
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:29]
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.571
+    :DRILL_EASE: 2.32
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:08]
     :END:
   To be [imaginative] is to be inventive and original. If you enjoy
   coming up with stories, writing songs, or just thinking about things
@@ -9762,17 +9763,17 @@ for tonight.”
 * admonition :Holmes:
 [2018-05-21 Mon 12:00]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-07-19 Thu>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       133fc1d0-88d5-4a98-bf2c-34bf0332f02d
-   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_LAST_INTERVAL: 4.0
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 1.699
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 1.75
    :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:33]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
    :END:
 
  admonition
@@ -9822,17 +9823,17 @@ for tonight.”
 * imbuing :Holmes:
 [2018-05-21 Mon 12:01]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-04 Sat>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       f229421f-8b56-40b8-aecd-1b1c943d2420
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:13]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.833
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:09]
    :END:
 
  imbuing
@@ -10004,17 +10005,17 @@ for tonight.”
 * loner :Holmes:
 [2018-05-21 Mon 12:04]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-07-24 Tue>
+   SCHEDULED: <2018-11-04 Sun>
    :PROPERTIES:
    :ID:       53cb04d1-f2a4-4bfd-8bd3-3707f25abcf6
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 22.4564
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.5
+   :DRILL_AVERAGE_QUALITY: 3.667
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:15]
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 10:50]
    :END:
 
  loner
@@ -10125,17 +10126,17 @@ for tonight.”
       "rival mobs vying for control of the liquor business"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       f21a3464-a5c8-434d-9b8e-10a963779d26
-    :DRILL_LAST_INTERVAL: 3.725
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_LAST_INTERVAL: 7.979
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 7
     :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.22
+    :DRILL_AVERAGE_QUALITY: 2.143
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:37]
     :END:
   To [vie] for something means to compete for it. Two teams may [vie]
   for the gold medal, but one will have to go home with silver.
@@ -10150,17 +10151,17 @@ for tonight.”
   which includes an ie to y shift. “He intends to vie for the top
   prize,” but “He is [vying] for the top prize.”
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       fb2a458f-72c4-4cff-9c1c-e2472a3cb702
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 10
-    :DRILL_FAILURE_COUNT: 6
-    :DRILL_AVERAGE_QUALITY: 2.001
-    :DRILL_EASE: 1.94
+    :DRILL_TOTAL_REPEATS: 12
+    :DRILL_FAILURE_COUNT: 7
+    :DRILL_AVERAGE_QUALITY: 1.917
+    :DRILL_EASE: 1.8
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:29]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:44]
     :END:
   That means with both the furniture that exists already and the
   potential furniture that is [vying] to get past the hippocampal
@@ -10226,17 +10227,17 @@ for tonight.”
 * formidable :Holmes:
 [2018-05-21 Mon 12:13]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-05 Sun>
+   SCHEDULED: <2018-12-02 Sun>
    :PROPERTIES:
    :ID:       8de6cd91-6693-4688-8746-9ae042fedf81
-   :DRILL_LAST_INTERVAL: 20.6501
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 49.7667
+   :DRILL_REPEATS_SINCE_FAIL: 5
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.667
+   :DRILL_AVERAGE_QUALITY: 3.75
    :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:10]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:01]
    :END:
 
  formidable
@@ -10383,17 +10384,17 @@ for tonight.”
   Italian style of painting known for its artificial (as opposed to
   naturalistic) effects.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       0be3c644-6912-4584-bdee-ccb352b4085b
-    :DRILL_LAST_INTERVAL: 9.192
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 9
-    :DRILL_FAILURE_COUNT: 5
-    :DRILL_AVERAGE_QUALITY: 2.444
-    :DRILL_EASE: 2.32
-    :DRILL_LAST_QUALITY: 5
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:28]
+    :DRILL_LAST_INTERVAL: 3.72
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 11
+    :DRILL_FAILURE_COUNT: 6
+    :DRILL_AVERAGE_QUALITY: 2.273
+    :DRILL_EASE: 2.18
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:09]
     :END:
   Now you can use the conversation to actually observe—physical
   details, [mannerism]s, words.
@@ -10473,17 +10474,17 @@ for tonight.”
   [Wholly] is an adverb that means "entirely." If a story is [wholly]
   inaccurate, no part of it is true.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       d12dfd1a-55ec-4979-84b9-a4e5a4368187
-    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_LAST_INTERVAL: 3.725
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 2
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
-    :DRILL_EASE: 2.36
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.25
+    :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:36]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:47]
     :END:
   Do you like to do things the whole way or whole hog, refusing any
   halfhearted attempts? Then [wholly] is your kind of word — it means
@@ -10975,17 +10976,17 @@ for tonight.”
   from math class. [Engrossed] is often used with “in” — so you’d say
   you were “[engrossed] in” a book or “[engrossed] in” your homework.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-24 Tue>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       0a829c1f-bb7e-43d7-8bae-772fbf423e93
-    :DRILL_LAST_INTERVAL: 9.3103
-    :DRILL_REPEATS_SINCE_FAIL: 3
-    :DRILL_TOTAL_REPEATS: 3
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 5
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.8
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:28]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
     :END:
   Holmes, on the other hand, is oblivious to the weather—he has been
   [engrossed] in his newspaper for the entire train ride.
@@ -11416,17 +11417,17 @@ for tonight.”
       "Robert's expression had obviously convinced her of his innocence"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       cb81397f-a2e3-4512-907e-cf75065105bf
-    :DRILL_LAST_INTERVAL: 21.6744
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.0
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 7
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.715
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:09]
     :END:
   "How again was it that you [convince]d me to do this?" the boy said to
   his friend before they jumped out of the plane on their first sky
@@ -11450,17 +11451,17 @@ for tonight.”
 * forbid :Ferris:
 [2018-05-28 Mon 14:19]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-04 Sat>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       35197b8d-7332-4d6e-98dd-654a3775d023
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.333
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.2
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:13]
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:07]
    :END:
 
  forbid
@@ -11720,18 +11721,18 @@ for tonight.”
   all-powerful being can save your soul. [Redemption] can also refer to
   the repayment of a debt.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-02 Thu>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :DRILL_CARD_TYPE: hide1cloze
     :ID:       4ccc27ac-27bf-466a-8a31-678426bc48f1
-    :DRILL_LAST_INTERVAL: 17.7133
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.333
-    :DRILL_EASE: 2.08
+    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.374
+    :DRILL_EASE: 1.94
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:09]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:08]
     :END:
     Retirement as a goal or final [redemption] is [flawed||imperfect]
     for at least three solid reasons:
@@ -11794,17 +11795,17 @@ for tonight.”
 * defeat                                                             :Ferris:
 [2018-05-28 Mon 15:04]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-23 Thu>
+   SCHEDULED: <2018-11-06 Tue>
    :PROPERTIES:
    :ID:       76d77054-9e39-4b73-9e05-ba6f937eb584
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 21.6744
+   :DRILL_REPEATS_SINCE_FAIL: 4
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:17]
+   :DRILL_AVERAGE_QUALITY: 3.333
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:45]
    :END:
 
  defeat
@@ -11897,17 +11898,17 @@ for tonight.”
   business [thrive]s, you'll be rolling in dough — not literally, of
   course.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       f68e6165-cdfa-4a9c-b04a-3ce40cce8bd4
     :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 8
-    :DRILL_FAILURE_COUNT: 4
-    :DRILL_AVERAGE_QUALITY: 2.374
+    :DRILL_TOTAL_REPEATS: 10
+    :DRILL_FAILURE_COUNT: 5
+    :DRILL_AVERAGE_QUALITY: 2.299
     :DRILL_EASE: 2.08
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:35]
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:42]
     :END:
   The verb [thrive] means to flourish or grow vigorously, and it can be
   applied to something like a business or to something or someone's
@@ -11957,17 +11958,17 @@ for tonight.”
   decide to run a marathon, you will need lots of [endurance] to run
   over 26 miles.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-18 Sat>
+    SCHEDULED: <2018-10-19 Fri>
     :PROPERTIES:
     :ID:       e2140dd1-8c00-456d-8e4e-6f0f1168bec7
-    :DRILL_LAST_INTERVAL: 3.725
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 2
-    :DRILL_AVERAGE_QUALITY: 2.0
-    :DRILL_EASE: 2.22
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 3
+    :DRILL_AVERAGE_QUALITY: 2.167
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-08-14 Tue 17:29]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:53]
     :END:
   The noun [endurance] contains endure, which means "to suffer or
   undergo" and the suffix -ance means "the state of." It can be used
@@ -12281,17 +12282,17 @@ for tonight.”
   is a [hindrance] to walking, and tripping in the lunchroom might be a
   [hindrance] to getting a seat at the cool table.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-08 Sun>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :ID:       b50a5484-0459-434e-88fb-1e2d1378110d
-    :DRILL_LAST_INTERVAL: 19.9491
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.667
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:15]
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:50]
     :END:
   You might hear the phrase, "more of a [hindrance] than a help." It
   means that something intended to be a positive force has the
@@ -12348,17 +12349,17 @@ for tonight.”
   hurt someone's feelings. The word comes from the Latin roots in-,
   "not," and nocere, "to injure or harm."
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-02 Thu>
+    SCHEDULED: <2018-11-23 Fri>
     :PROPERTIES:
     :ID:       215d8d22-d7d4-4d5a-9af3-9432b70f5d37
-    :DRILL_LAST_INTERVAL: 18.3583
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 9
+    :DRILL_LAST_INTERVAL: 40.7554
+    :DRILL_REPEATS_SINCE_FAIL: 5
+    :DRILL_TOTAL_REPEATS: 10
     :DRILL_FAILURE_COUNT: 5
-    :DRILL_AVERAGE_QUALITY: 2.333
+    :DRILL_AVERAGE_QUALITY: 2.5
     :DRILL_EASE: 2.22
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:09]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 10:54]
     :END:
   The words may seem [innocuous] enough, but hidden among them are the
   so-called target stimuli: words like lonely, careful, Florida,
@@ -12395,17 +12396,17 @@ for tonight.”
   A [stimulus] causes an action or response, like the ringing of your
   alarm clock if you didn't sleep through it.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-08-06 Mon>
+    SCHEDULED: <2018-10-17 Wed>
     :PROPERTIES:
     :ID:       2646bac8-2021-4e59-80dc-d9e2fa3bd238
-    :DRILL_LAST_INTERVAL: 22.4564
-    :DRILL_REPEATS_SINCE_FAIL: 4
-    :DRILL_TOTAL_REPEATS: 4
-    :DRILL_FAILURE_COUNT: 1
-    :DRILL_AVERAGE_QUALITY: 3.25
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 6
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 3.167
     :DRILL_EASE: 2.36
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:13]
+    :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:09]
     :END:
   [Stimulus] is a word often used in biology — something that causes a
   reaction in an organ or cell, for example. In financial and economic
@@ -12460,18 +12461,18 @@ for tonight.”
   be such a gull!" or as a verb "you can't gull me into believing
   that!"
 *** --->                                                              :drill:
-    SCHEDULED: <2018-06-22 Fri>
+    SCHEDULED: <2018-10-15 Mon>
     :PROPERTIES:
     :DRILL_CARD_TYPE: hide2cloze
     :ID:       1cbb7bae-f60f-4679-a0c2-4b54e5c5943d
-    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_LAST_INTERVAL: 3.86
     :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 6
-    :DRILL_FAILURE_COUNT: 3
-    :DRILL_AVERAGE_QUALITY: 2.167
-    :DRILL_EASE: 2.22
-    :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-06-18 Mon 17:30]
+    :DRILL_TOTAL_REPEATS: 8
+    :DRILL_FAILURE_COUNT: 4
+    :DRILL_AVERAGE_QUALITY: 2.125
+    :DRILL_EASE: 2.08
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2018-10-11 Thu 16:43]
     :END:
   The words may seem [innocuous] enough, but hidden among them are the
   so-called target [stimuli]: words like lonely, careful, Florida,
@@ -12739,17 +12740,17 @@ for tonight.”
 * superfluous :Holmes:
 [2018-05-28 Mon 15:57]
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-04 Sat>
+   SCHEDULED: <2018-10-17 Wed>
    :PROPERTIES:
    :ID:       42bb9b70-0b51-40f9-a3fc-121d01e7965e
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.8
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.857
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:12]
+   :DRILL_LAST_REVIEWED: [2018-10-13 Sat 11:06]
    :END:
 
  superfluous
@@ -12820,17 +12821,17 @@ for tonight.”
       "the problem is not susceptible of a simple solution"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-07-19 Thu>
+    SCHEDULED: <2018-10-23 Tue>
     :PROPERTIES:
     :ID:       64c5983a-1145-4fb6-bb8d-cec4d717c677
-    :DRILL_LAST_INTERVAL: 4.0
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 10
-    :DRILL_FAILURE_COUNT: 6
-    :DRILL_AVERAGE_QUALITY: 1.999
-    :DRILL_EASE: 2.22
+    :DRILL_LAST_INTERVAL: 8.2681
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 14
+    :DRILL_FAILURE_COUNT: 8
+    :DRILL_AVERAGE_QUALITY: 2.142
+    :DRILL_EASE: 2.08
     :DRILL_LAST_QUALITY: 4
-    :DRILL_LAST_REVIEWED: [2018-07-15 Sun 16:33]
+    :DRILL_LAST_REVIEWED: [2018-10-15 Mon 17:50]
     :END:
   If you are [susceptible] to something such as infections or earaches,
   it means you are likely to become sick with these things.
