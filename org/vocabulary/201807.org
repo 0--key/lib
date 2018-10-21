@@ -55,8 +55,17 @@
 [2018-07-07 Sat 13:32]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       7ee99bda-73fe-4f51-991d-456413147b75
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:05]
    :END:
 
  fuss
@@ -113,8 +122,17 @@
 [2018-07-07 Sat 13:40]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       93385a90-b063-4747-b358-432ee979ca96
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:04]
    :END:
 
  fart
@@ -159,8 +177,17 @@
 [2018-07-07 Sat 13:41]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       f6a93fa0-59d6-4e5f-abd3-fea9613d62e2
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:04]
    :END:
 
  truism
@@ -277,17 +304,17 @@
 [2018-07-07 Sat 13:48]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-20 Mon>
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       b06bf73e-050d-4471-a61f-564d3a6c620e
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:06]
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  seminal
@@ -520,8 +547,17 @@
 [2018-07-16 Mon 10:29]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       92c5e35c-b550-4cf3-b59a-14296cb8876a
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  servitude
@@ -562,8 +598,17 @@
 [2018-07-16 Mon 10:30]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       86722656-8864-4bed-9bc9-8c365fe1bfa6
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:05]
    :END:
 
  compel
@@ -603,17 +648,17 @@
 [2018-07-16 Mon 10:38]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-20 Mon>
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       524ef909-0c5a-4779-be08-9a131bf34383
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:08]
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  imminent
@@ -703,17 +748,17 @@
 [2018-07-16 Mon 17:00]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-20 Mon>
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       4300255f-425c-4e89-bb20-44fe077bd077
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:09]
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  plop
@@ -766,17 +811,17 @@
 [2018-07-07 Sat 13:29]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-20 Mon>
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       94ba8e8f-32e0-45e8-bb0b-d460b1324bc0
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.75
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:05]
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  guise
@@ -823,8 +868,17 @@
 [2018-07-16 Mon 17:06]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       45d43161-b7c5-4802-ab72-69491b0f58f5
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:05]
    :END:
 
  disguise
@@ -877,8 +931,17 @@
 [2018-07-16 Mon 17:12]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       f58f68be-9547-4888-a8f9-1ceb49dc430e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:04]
    :END:
 
  sane
@@ -962,17 +1025,17 @@
 [2018-07-17 Tue 20:42]
 
 ** Translate from English to Russian:                                 :drill:
-   SCHEDULED: <2018-08-20 Mon>
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       6daa912c-749c-4e69-8f74-609d4fffcdfa
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.833
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-08-16 Thu 11:09]
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:18]
    :END:
 
  uncanny
@@ -1009,8 +1072,17 @@
 [2018-07-17 Tue 20:45]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       d1c69c0f-5d17-4220-831d-1c8b8d35a24d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:18]
    :END:
 
  lieu
@@ -1045,8 +1117,17 @@
 [2018-07-17 Tue 20:46]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       beec494d-695c-4bc5-b64d-2b52dd7d523b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:05]
    :END:
 
  crib
@@ -1119,8 +1200,17 @@
 [2018-07-18 Wed 20:10]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       2fcf006a-d43f-4818-b5d2-e3982af2eec7
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:18]
    :END:
 
  eschew
@@ -1201,8 +1291,17 @@
 [2018-07-18 Wed 20:38]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       3e2c3fd6-d422-44b7-9105-866c588c0231
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 09:17]
    :END:
 
  meander
@@ -1327,8 +1426,17 @@
 [2018-07-19 Thu 20:52]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       ee770dfd-a162-4a90-b51a-a1da9532e7aa
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:04]
    :END:
 
  seldom
@@ -1367,8 +1475,17 @@
 [2018-07-19 Thu 20:56]
 
 ** Translate from English to Russian:                                 :drill:
+   SCHEDULED: <2018-10-24 Wed>
    :PROPERTIES:
    :ID:       2b4ef1f6-48ba-4fd5-952a-ef60a08f2633
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2018-10-20 Sat 14:04]
    :END:
 
  falter
