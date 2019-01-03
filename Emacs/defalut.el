@@ -30,8 +30,8 @@
 (global-set-key (kbd "C-c v") 'voca-builder/search-popup)
 (require 'key-chord)
     (key-chord-mode 1)
-    (key-chord-define-global "ww"     'google-translate-at-point)
-    (key-chord-define-global "qq"     'voca-builder/search-popup)
+    (key-chord-define-global "ws"     'smart-translate);; requres macros for n900
+    (key-chord-define-global "xs"     'voca-builder/search-popup)
     (key-chord-define-global "wq"     'org-set-tags-command)
     (key-chord-define-global "]\\"     'other-frame)
 ;; for n900 interaction
