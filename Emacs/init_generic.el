@@ -15,6 +15,11 @@
 (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
 
+     (setq calendar-latitude 47.5)
+     (setq calendar-longitude 34.65)
+     (setq calendar-location-name "Energodar, ZP")
+
+
 (elpy-enable)
 (pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv2Amazon/")
 (pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv3/")
