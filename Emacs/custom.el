@@ -11,9 +11,7 @@
  '(bmkp-desktop-jump-save-before-flag t)
  '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(desktop-save-mode nil)
- '(org-agenda-files
-   (quote
-    ("/usr/local/git/0--key/lib/org/agenda/learning.org" "/usr/local/git/0--key/lib/org/agenda/main.org")))
+ '(org-agenda-files nil)
  '(org-confirm-babel-evaluate nil)
  '(org-icalendar-include-todo (quote unblocked))
  '(org-icalendar-use-deadline (quote (todo-due)))
