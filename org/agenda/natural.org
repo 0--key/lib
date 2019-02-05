@@ -7,7 +7,7 @@
 #+PROPERTY:header-args :results output :exports both
 # :session :cache yes :tangle yes :comments org 
 #+CATEGORY: Routine
-#+TODO: TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED
+#+TODO: TODO ACTIVE EXT EXP MAYBE | DONE CLOSED
 
 # A Pomodoro principal usage with the space repetition concept. Early
 # in the morning you'll restricted to learn a completley new material
@@ -84,3 +84,56 @@
 ** 4
 
 
+* Test Section
+  :PROPERTIES:
+  :CATEGORY: Default
+  :END:
+
+** ACTIVE [#A] How to focus Agenda?
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2019-02-05 Tue 09:47]
+| Headline                 | Time   |      |
+|--------------------------+--------+------|
+| *Total time*             | *0:14* |      |
+|--------------------------+--------+------|
+| Test Section             | 0:14   |      |
+| \_  How to focus Agenda? |        | 0:14 |
+#+END:
+
+   :PROPERTIES:
+   :CATEGORY: Agenda
+   :END:
+   :LOGBOOK:
+   CLOCK: [2019-02-05 Tue 09:48]
+   CLOCK: [2019-02-05 Tue 09:38]--[2019-02-05 Tue 09:46] =>  0:08
+   CLOCK: [2019-01-30 Wed 08:12]--[2019-01-30 Wed 08:18] =>  0:06
+   :END:
+
+
+*** Subtree
+    And additional info
+
+**** MAYBE Sub-subtree?
+     :LOGBOOK:
+     CLOCK: [2019-01-30 Wed 08:12]--[2019-01-30 Wed 08:12] =>  0:00
+     :END:
+
+** DONE Activation
+   :PROPERTIES:
+   :CATEGORY: XP
+   :END:
+
+
+*** DONE Backup to WD Passport
+
+**** MAYBE Books/How to Speak, How to Listen
+     :PROPERTIES:
+     :CATEGORY: AudioBook
+     :END:
+
+*** TODO Test that copy on Acer x64
+
+** TODO Notary Letter
+   :PROPERTIES:
+   :CATEGORY: Heritage
+   :END:
