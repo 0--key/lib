@@ -14,6 +14,7 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (setq sentence-end-double-space nil)
+(set-face-attribute 'default nil :height 130)
 
      (setq calendar-latitude 47.5)
      (setq calendar-longitude 34.65)

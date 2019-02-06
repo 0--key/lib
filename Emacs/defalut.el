@@ -34,6 +34,7 @@
     (key-chord-define-global "xs"     'voca-builder/search-popup)
     (key-chord-define-global "wq"     'org-set-tags-command)
     (key-chord-define-global "]\\"     'other-frame)
+    (key-chord-define-global "bn"     'switch-to-buffers-list)
 (key-chord-define-global "wx"     'simpleclip-cut)
 (key-chord-define-global "wv"     'simpleclip-paste)
 (key-chord-define-global "wc"     'simpleclip-copy)
