@@ -89,22 +89,23 @@
   :CATEGORY: Default
   :END:
 
-** ACTIVE [#A] How to focus Agenda?
+** EXT [#A] How to focus Agenda?
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2019-02-05 Tue 09:47]
+    #+CAPTION: Clock summary at [2019-02-05 Tue 11:15]
 | Headline                 | Time   |      |
 |--------------------------+--------+------|
-| *Total time*             | *0:14* |      |
+| *Total time*             | *1:12* |      |
 |--------------------------+--------+------|
-| Test Section             | 0:14   |      |
-| \_  How to focus Agenda? |        | 0:14 |
+| Test Section             | 1:12   |      |
+| \_  How to focus Agenda? |        | 1:12 |
 #+END:
 
    :PROPERTIES:
    :CATEGORY: Agenda
    :END:
    :LOGBOOK:
-   CLOCK: [2019-02-05 Tue 09:48]
+   CLOCK: [2019-02-05 Tue 10:45]--[2019-02-05 Tue 11:15] =>  0:30
+   CLOCK: [2019-02-05 Tue 09:48]--[2019-02-05 Tue 10:16] =>  0:28
    CLOCK: [2019-02-05 Tue 09:38]--[2019-02-05 Tue 09:46] =>  0:08
    CLOCK: [2019-01-30 Wed 08:12]--[2019-01-30 Wed 08:18] =>  0:06
    :END:
@@ -113,12 +114,13 @@
 *** Subtree
     And additional info
 
-**** MAYBE Sub-subtree?
-     :LOGBOOK:
-     CLOCK: [2019-01-30 Wed 08:12]--[2019-01-30 Wed 08:12] =>  0:00
-     :END:
-
+*** ACTIVE Diary integration
+    :LOGBOOK:
+    CLOCK: [2019-02-05 Tue 17:19]--[2019-02-05 Tue 17:59] =>  0:40
+    :END:
 ** DONE Activation
+
+** 
    :PROPERTIES:
    :CATEGORY: XP
    :END:
@@ -132,6 +134,20 @@
      :END:
 
 *** TODO Test that copy on Acer x64
+
+
+** Shift work time-schedule
+   :PROPERTIES:
+   :CATEGORY: ZNPP
+   :END:
+
+*** TODO Evening
+    <2019-02-06 Wed 14:10>--<2019-02-06 Wed 23:35>
+    <2019-02-07 Thu 14:10>--<2019-02-07 Thu 23:35>
+    <2019-02-08 Fri 14:10>--<2019-02-08 Fri 23:35>
+*** Morning
+
+*** Night
 
 ** TODO Notary Letter
    :PROPERTIES:
