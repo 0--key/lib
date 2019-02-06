@@ -16448,11 +16448,15 @@
      Just by pushing the button on useful project
      page. It's enough to get its fork in your
      repo.
+**** #+BEGIN_SRC sh
+     git clone https://github.com/0--key/spynner.git
+     #+END_SRC
 **** Sync your fork
      Sometimes in fork's ancestor occure changes.
      Exactly to pull it on your local version of
      repo do [[https://help.github.com/articles/syncing-a-fork/][this]] or something like this:
      #+BEGIN_SRC sh
+     # cd into/just/cloned/folder
      git remote -v # check up does upstream configured ever
      # add it
      git remote add upstream https://github.com/mikeckennedy/talk-python-transcripts.git
