@@ -47,7 +47,8 @@
     (key-chord-define-global "KK"     'kill-ring-save)
     (key-chord-define-global ",,"     'org-capture)
     (key-chord-define-global "HY"     'delete-frame)
-    (key-chord-define-global "hy"     'switch-to-buffer-other-frame)
+    (key-chord-define-global "ju"     'scroll-down-command)
+(key-chord-define-global "hy"     'switch-to-buffer-other-frame)
 
 ;; for full-fledged keyboard
     (key-chord-define-global "'\\"     'other-frame)
