@@ -1,22 +1,15 @@
 ;; all customization processed after init.el are there
 ;; it is a symlink from /usr/local/share/emacs/site-lisp/default.el
 ;; colorization
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-ld-dark)))
-     ;(color-theme-lawrence)
-     ;(color-theme-euphoria)))
 
-(global-set-key (kbd "C-c 1") 'color-theme-clarity)
-(global-set-key (kbd "C-c 2") 'color-theme-ld-dark)
-(global-set-key (kbd "C-c 3") 'color-theme-hober)
-(global-set-key (kbd "C-c 4") 'color-theme-oswald)
-(global-set-key (kbd "C-c 5") 'color-theme-tty-dark)
-(global-set-key (kbd "C-c 6") 'color-theme-taming-mr-arneson)
-(global-set-key (kbd "C-c 7") 'color-theme-euphoria)
-(global-set-key (kbd "C-c 8") 'color-theme-lawrence)
+;; (global-set-key (kbd "C-c 1") lambda (enable-theme 'tailor)) ;; not working yet
+;; (global-set-key (kbd "C-c 2") (enable-theme 'desert))
+;; (global-set-key (kbd "C-c 3") (enable-theme 'euphoria))
+;; (global-set-key (kbd "C-c 4") (enable-theme 'dark-laptop))
+;; (global-set-key (kbd "C-c 5") (enable-theme 'goldenrod))
+;; (global-set-key (kbd "C-c 6") (enable-theme 'midnight))
+;; (global-set-key (kbd "C-c 7") (enable-theme 'retro-green))
+
 ;;
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-x M-g") 'magit-dispatch-popup)
