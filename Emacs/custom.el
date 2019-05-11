@@ -47,4 +47,4 @@
 (load-theme 'midnight t t)
 (load-theme 'retro-green t t)
 (load-theme 'taylor t t)
-(enable-theme 'desert)
+(enable-theme 'taylor)
