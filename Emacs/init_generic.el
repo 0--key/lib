@@ -79,6 +79,7 @@
 (key-chord-define org-mode-map "DD"     'org-drill)
 (key-chord-define org-mode-map "AA"     'org-drill-again)
 (key-chord-define org-mode-map "RR"     'org-drill-resume)
+(key-chord-define org-mode-map "io"     'eng-init-drill)
 
 (key-chord-define-global "bv" 'scroll-other-window)
 (key-chord-define-global "rt" 'scroll-other-window-down)
