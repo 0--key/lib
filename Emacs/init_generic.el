@@ -106,7 +106,10 @@
    "* %?\nEntered on %U\n  %i\n  %a")
 ;;
   ("d" "Drill-item" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Microservices")
-   "* >->-> :drill:\n%i")))
+   "* >->-> :drill:\n%i")
+  ;;
+  ("s" "SRE" entry (file+headline "/usr/local/git/0--key/lib/org/drills.org" "Site Reliability Engineering")
+   "* >->-> %c :drill:\n%i")))
 
 (setq org-publish-project-alist
 '(("jekyll-org"
