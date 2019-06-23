@@ -2919,3 +2919,17 @@
    The golden rule: can you [make] a change to a service and deploy
    it [by itself] without changing anything else?
 * Site Reliability Engineering
+** >->-> Site Reliability Engineering (SRE)                           :drill:
+   is a [discipline] that incorporates aspects of software engineering and applies them to
+   [infrastructure] and [operations] problems.
+** >->-> The main goals are                                           :drill:
+   to create [ultra-scalable] and highly [reliable] software systems.
+** >->-> According to Ben Treynor, founder of Google's Site Reliability Team :drill:
+   SRE is "what happens when a software engineer is [tasked]
+   with [what used to be called] operations."
+** >->-> The team was tasked                                          :drill:
+   to make Google's sites run [smoothly], efficiently, and more
+   [reliably].
+** >->-> A site reliability engineer (SRE)                            :drill:
+   will [spend up] to 50% of their time doing "ops" related work such
+   as [issues], on-call, and manual [intervention].
