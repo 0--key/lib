@@ -4,3 +4,11 @@
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
 #+STARTUP: showall
+* Scripting and Automaton
+** Web Scrapping
+*** Scrapy
+**** Python3 virtual environment
+**** TODO Docker
+*** Spynner
+* Data Extracton
+* Data Mining
