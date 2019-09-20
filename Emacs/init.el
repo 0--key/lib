@@ -50,20 +50,8 @@
 (key-chord-define org-mode-map "''"     'org-edit-special)
 (key-chord-define org-src-mode-map "''"     'org-edit-src-exit)
 ;;
-(pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/")
-;;(split-window-right)
+;; (pyvenv-activate "/usr/local/share/DVCS/lib/Python/venv/") ;; Virtual Environment activation
 ;;
-;; (setq default-directory "/usr/local/share/DVCS/lib/Python/edu/effectivepython/")
-;; (shell "ge")
-;;
-;; (setq default-directory "/usr/local/share/DVCS/lib/Python/edu/python-patterns/")
-;; (shell "gp")
-;;
-;;(setq default-directory "/usr/local/share/DVCS/lib/")
-;;(shell "git")
-;;(switch-to-buffer "git")
-;;(buffer-menu-other-window)
-;;(other-window 1)
 ;;
 (org-babel-do-load-languages
  'org-babel-load-languages
