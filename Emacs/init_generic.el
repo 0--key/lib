@@ -143,5 +143,6 @@
 (setq voca-builder/current-tag "Goleman")
 (setq voca-builder/current-tag "Titans")
 (setq voca-builder/current-tag "Keller")
-(setq voca-builder/current-tag "eww")
 (setq voca-builder/current-tag "Duke")
+(setq voca-builder/current-tag "misc")
+
