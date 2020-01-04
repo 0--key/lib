@@ -10,6 +10,9 @@
     ("/usr/share/info/scrapy/" "/usr/share/info/python3.4/" "/usr/share/info/postgres/")))
  '(bmkp-desktop-jump-save-before-flag t)
  '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
+ '(custom-safe-themes
+   (quote
+    ("1f126eb4a1e5d6b96b3faf494c8c490f1d1e5ad4fc5a1ce120034fe140e77b88" "fe349b21bb978bb1f1f2db05bc87b2c6d02f1a7fe3f27584cd7b6fbf8e53391a" default)))
  '(desktop-save-mode nil)
  '(org-agenda-files nil)
  '(org-confirm-babel-evaluate nil)
@@ -47,4 +50,4 @@
 (load-theme 'midnight t t)
 (load-theme 'retro-green t t)
 (load-theme 'taylor t t)
-(enable-theme 'taylor)
+(enable-theme 'desert)
