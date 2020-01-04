@@ -137,9 +137,9 @@
   ))
 ;;
 (require 'voca-builder)
-(setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/201912.org")
+(setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/202001.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
-(setq voca-builder/current-tag "Harris")
+(setq voca-builder/current-tag "Harari")
 (setq voca-builder/current-tag "Goleman")
 (setq voca-builder/current-tag "Titans")
 (setq voca-builder/current-tag "Keller")
