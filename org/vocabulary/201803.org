@@ -1683,17 +1683,16 @@
   secreted out of a [pore], a really tiny opening on the surface of your
   skin.
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
     :PROPERTIES:
     :ID:       c60cb34a-3cdc-4271-a5c5-91ec655b63ce
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_LAST_INTERVAL: 0.0
+    :DRILL_REPEATS_SINCE_FAIL: 1
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:24]
+    :DRILL_LAST_QUALITY: 2
+    :DRILL_LAST_REVIEWED: [2020-07-29 Wed 17:57]
     :END:
   When used as a noun, [pore] means any tiny hole or opening that allows
   the passage of liquid. In humans, [pore]s are the little holes that
@@ -2491,17 +2490,16 @@
       "he was indignant at being the object of suspicion"
 
 *** --->                                                              :drill:
-    SCHEDULED: <2018-04-21 Sat>
     :PROPERTIES:
     :ID:       009d3699-a087-4a47-bb76-590d908bff4f
-    :DRILL_LAST_INTERVAL: 3.86
-    :DRILL_REPEATS_SINCE_FAIL: 2
-    :DRILL_TOTAL_REPEATS: 1
-    :DRILL_FAILURE_COUNT: 0
-    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_LAST_INTERVAL: 0.0
+    :DRILL_REPEATS_SINCE_FAIL: 1
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 1.5
     :DRILL_EASE: 2.36
-    :DRILL_LAST_QUALITY: 3
-    :DRILL_LAST_REVIEWED: [2018-04-17 Tue 08:28]
+    :DRILL_LAST_QUALITY: 0
+    :DRILL_LAST_REVIEWED: [2020-07-29 Wed 17:57]
     :END:
   When you're [indignant], you're angry about an unfair situation. If
   you discovered that a teacher gave ten extra points on a test to all
