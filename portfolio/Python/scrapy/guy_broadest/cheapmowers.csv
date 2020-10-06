@@ -1,0 +1,816 @@
+sku,url,price,identifier,name
+,http://www.cheapmowers.com/acatalog/Sanli_HSS2660_Single_Sided_60cm_Petrol_Hedge_Trimmer_Cutter.html,99.95,,Sanli HSS2660 Single Sided 60cm Petrol Hedge Trimmer Cutter
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Border_Edger_Attachment_3222-00-14.html,37.75,,Mantis Tiller Border Edger Attachment 3222-00-14
+,http://www.cheapmowers.com/acatalog/RYOBIRBL_30_BPT_30cc_Back_Pack_Blower_with_TouchStart.html,172.50,,Ryobi RBL30BPT 30cc Back Pack Blower with TouchStart
+,http://www.cheapmowers.com/acatalog/Rally_RE20H107RB_Lawn_Tractor_17.5HP_42in_with_Collection.html,2399.95,,Rally R20H107RB Lawn Tractor 20HP 42in with Collection
+,http://www.cheapmowers.com/acatalog/Mountfield_Princess_38Li_Cordless_Rotary_Lawnmower_.html,299.00,,Mountfield Princess 38Li Cordless Rotary Lawnmower 
+,http://www.cheapmowers.com/acatalog/McCulloch_Windy_Vac_Wheeled_Petrol_Garden_Vacuum.html,379.99,,McCulloch Windy Vac Wheeled Petrol Garden Vacuum
+,http://www.cheapmowers.com/acatalog/McCulloch_Mac_GBV_345_25cc_Petrol_Blower___Vacuum.html,134.95,,McCulloch Mac GBV 345 25cc Petrol Blower & Vacuum
+,http://www.cheapmowers.com/acatalog/Kawasaki_KRB750A_Backpack_Garden_Blower.html,514.99,,Kawasaki KRB750B Backpack Garden Blower
+,http://www.cheapmowers.com/acatalog/John_Deere_D45C_Petrol_Scarifier.html,887.95,,John Deere D45C Petrol Scarifier
+,http://www.cheapmowers.com/acatalog/Honda_FF500_Garden_Tiller_Cultivator_Rotavator_.html,1939.99,,Honda FF500 Garden Tiller Cultivator Rotavator 
+,http://www.cheapmowers.com/acatalog/Hayter_SP36_Scarifier_Petrol_.html,435.00,,Hayter SP36 Scarifier 
+,http://www.cheapmowers.com/acatalog/Honda_FF300_Garden_Tiller_Cultivator_Rotavator_.html,1519.99,,Honda FF300 Garden Tiller Cultivator Rotavator 
+,http://www.cheapmowers.com/acatalog/Gardena_High_Cut_Long_Reach__Hedge_Trimmer_48cm_Cut.html,144.95,,Gardena High Cut Long Reach  Hedge Trimmer 48cm Cut
+,http://www.cheapmowers.com/acatalog/Honda_FG500_Cultivator_Rotovator_.html,814.99,,Honda FE500 Cultivator Rotovator 5HP Honda 
+,http://www.cheapmowers.com/acatalog/Flymo_Contour_Cordless_500XT_Strimmer_and_Edger.html,74.95,,Flymo Contour Cordless 500XT Strimmer and Edger
+,http://www.cheapmowers.com/acatalog/Flymo_Sabre_Cut_.html,88.90,,Flymo Sabre Cut Cordless Hedgetrimmer Pack 
+,http://www.cheapmowers.com/acatalog/Flymo_Easicut_6000XT_Hedge_Trimmer_Cutter.html,79.99,,Flymo Easicut 6000 XT Hedge Trimmer Cutter
+,http://www.cheapmowers.com/acatalog/Flymo_Easicut_500CL_Cordless_Hedge_Trimmer_.html,72.95,,Flymo Easicut 500 Cordless Hedge Trimmer 
+,http://www.cheapmowers.com/acatalog/Flymo_Easicut_420CL_Cordless_Hedge_Trimmer_.html,64.99,,Flymo Easicut 420 Cordless Hedge Trimmer 
+,http://www.cheapmowers.com/acatalog/Flymo_Easicut_500CT_Cordless_Battery_Hedge_Trimmer_.html,56.50,,Flymo Easicut 500CT Cordless Battery Hedge Trimmer 
+,http://www.cheapmowers.com/acatalog/Flymo_Easicut_600XT_Hedge_Trimmer.html,64.99,,Flymo Easicut 600 XT Hedge Trimmer Cutter
+,http://www.cheapmowers.com/acatalog/Flymo_EASICUT_500_Electric_Hedge_Trimmer_510mm_Blade_Length.html,56.99,,Flymo EASICUT 500 Electric Hedge Trimmer 510mm Blade Length
+,http://www.cheapmowers.com/acatalog/A_Flymo_Freestyler.html,57.95,,Flymo FreeStyler Battery Cordless Trimmer and Shear Set 
+,http://www.cheapmowers.com/acatalog/Flymo_Lawnrake_Compact_340_Scaifier_.html,80.95,,Flymo Lawnrake Compact 3400 Scaifier 
+,http://www.cheapmowers.com/acatalog/Flymo_Pac_a_Shred_Electric_Shredder_.html,198.95,,Flymo Pac a Shred Electric Shredder 
+,http://www.cheapmowers.com/acatalog/Flymo_Scirocco_Garden_Vac.html,65.95,,Flymo Scirocco 3000 Garden Vacuum
+,http://www.cheapmowers.com/acatalog/Flymo_Garden_Vac_2700_Leaf_Vac_n_Blower_.html,61.99,,Flymo Garden Vac 2700 Leaf Vac & Blower 
+,http://www.cheapmowers.com/acatalog/Flymo_Twister_Blower_Vac_2000W_Electric.html,53.95,,Flymo Twister Blower Vac 2500W Electric
+,http://www.cheapmowers.com/acatalog/Flymo_Contour_Cordless_XT_Strimmer.html,61.99,,Flymo Contour Cordless XT Strimmer
+,http://www.cheapmowers.com/acatalog/Flymo_Contour_600_HD_600w_Electric_Strimmer_and_Edger.html,62.99,,Flymo Contour 600 HD 600w Electric Strimmer and Edger
+,http://www.cheapmowers.com/acatalog/Flymo_Power_Trim_500XT_Electric_Strimmer.html,49.99,,Flymo Power Trim 500XT Electric Strimmer
+,http://www.cheapmowers.com/acatalog/Flymo_Power_Trim_300_Trimmer_300w_Strimmer.html,39.50,,Flymo Power Trim 300 Trimmer 300w Strimmer
+,http://www.cheapmowers.com/acatalog/Honda_F220_Cultivator_Tiller_.html,634.99,,Honda F220 Cultivator Tiller 
+,http://www.cheapmowers.com/acatalog/Honda_FG315_Cultivator_Tiller_.html,599.99,,Honda FG315 Cultivator Tiller 
+,http://www.cheapmowers.com/acatalog/Honda_FG201_Cultivator_Mini_Tiller_Cultivator_.html,454.99,,Honda FG201 Cultivator Mini Tiller
+,http://www.cheapmowers.com/acatalog/Honda_FG110_Mini_Tiller_Cultivator_.html,372.95,,Honda FG110 Mini Tiller 
+,http://www.cheapmowers.com/acatalog/John_Deere_D38R_Scarifier_Lawn_and_Garden_.html,699.95,,John Deere D38R Petrol Scarifier
+,http://www.cheapmowers.com/acatalog/John_Deere_D35RE_Electric_Scarifier_.html,269.95,,John Deere D35RE Electric Scarifier 
+,http://www.cheapmowers.com/acatalog/John_Deere_D31RE_Electric_Scarifier_.html,224.95,,John Deere D31RE Electric Scarifier 
+,http://www.cheapmowers.com/acatalog/Kawasaki_KRH300A_26cc_Handheld_Garden_Blower.html,289.99,,Kawasaki KRH300A 26cc Handheld Garden Blower
+,http://www.cheapmowers.com/acatalog/Partner_GBV_325__By_Husquvarna__25cc_Petrol_Blower___Vacuum.html,114.50,,Partner (By Husqvarna) GBV 325 25cc Petrol Blower & Vacuum
+,http://www.cheapmowers.com/acatalog/Mountfield_Princess_14_Lawnmower_.html,209.95,,Mountfield Princess 14 
+,http://www.cheapmowers.com/acatalog/Mountfield_Princess_42_Electric_Rotary_Lawnmower_.html,139.00,,Mountfield Princess 42 Electric Rotary Lawnmower 
+,http://www.cheapmowers.com/acatalog/Mountfield_Princess_38_Electric_Rotary_Lawnmower_.html,119.00,,Mountfield Princess 38 Electric Rotary Lawnmower 
+,http://www.cheapmowers.com/acatalog/Mountfield_Princess_34_Electric_Rotary_Lawnmower_.html,88.99,,Mountfield Princess 34 Electric Rotary Lawnmower 
+,http://www.cheapmowers.com/acatalog/Ryobi__RBL30MVB_Petrol_Blower_Garden_Vacuum._.html,138.95,,Ryobi  RBL30MVB Petrol  Blower Vacuum. 
+,http://www.cheapmowers.com/acatalog/Ryobi_RBV_26BV_Blower_Sweeper_Petrol_Vac_.html,138.95,,Ryobi RBV26 Blower Sweeper Petrol Vac 
+,http://www.cheapmowers.com/acatalog/Ryobi_RBV-3000VP__Variable_Speed_Garden_Blower__Vacuum__Shredder.html,85.99,,Ryobi RBV-3000VP  Variable Speed Garden Blower  Vacuum  Shredder
+,http://www.cheapmowers.com/acatalog/Ryobi_RBV-2800S_Garden_Blower_Vacuum_.html,77.95,,Ryobi RBV-2800S Garden Blower Vacuum 
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Plough_Attachment_3222-00-14.html,55.96,,Mantis Tiller Plough Attachment 3333-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Aerator_Attachment_4222-00-14.html,53.95,,Mantis Tiller Aerator Attachment 4222-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Aerator___Dethatcher_Combo__7321-00-14.html,132.95,,Mantis Tiller  Aerator / Dethatcher Combo  7321-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Dethatcher_Attachment_5222-00-14.html,117.50,,Mantis Tiller Dethatcher Attachment 5222-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Planter_Attachment_6222-00-14.html,59.95,,Mantis Tiller Planter Attachment 6222-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Crevice_Cleaner_Attachment_8222-00-14.html,58.99,,Mantis Tiller Crevice Cleaner Attachment 8222-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Wheel_Set_Attachment_9222-00-14.html,58.99,,Mantis Tiller Wheel Set Attachment 9222-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Tilling_Tine_Attachment_1622-00-14.html,55.99,,Mantis Tiller Tilling Tine Attachment 1622-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Weed_Reducer_Accessory__1722-00-14.html,20.50,,Mantis Tiller Weed Reducer Accessory 1722-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_HIK_for_Honda_25cc_engine_.html,28.96,,Mantis Tiller Service Kit GX25 4-Stroke 3777-00-14
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_Storage_Rack_811005.html,40.00,,Mantis Tiller Storage Rack 811005
+,http://www.cheapmowers.com/acatalog/Mantis_Petrol_4_stroke_Tiller___Cultivator_Garden_Care__Package_.html,392.95,,Mantis Petrol 4 stroke Tiller / Cultivator Garden Package 
+,http://www.cheapmowers.com/acatalog/Mantis_Electric_Tiller_Garden_Care_Package_.html,348.95,,Mantis Electric Tiller Garden Care Package 
+,http://www.cheapmowers.com/acatalog/Mantis_Petrol_4_stroke_Tiller___Cultivator_Lawn_Care__Package_.html,392.95,,Mantis Petrol 4 stroke Tiller / Cultivator Lawn Care Package 
+,http://www.cheapmowers.com/acatalog/Mantis_Electric_Tiller_Lawn_Care_Package_.html,348.95,,Mantis Electric Tiller / Cultivator Lawn Care Package 
+,http://www.cheapmowers.com/acatalog/Mantis_Tiller_4_Stroke__Honda__With_Kickstand_7263-15-14.html,329.95,,Mantis Tiller / Cultivator  Petrol 4 Stroke With Kickstand & Edger
+,http://www.cheapmowers.com/acatalog/Mantis_Electric_Tiller__Cultivator__with_Kickstand___Border_Edger.html,268.99,,Mantis Electric Tiller / Cultivator  With Kickstand &  Edger 
+,http://www.cheapmowers.com/acatalog/Flymo_XL550_Hover_Lawnmower_.html,487.99,,Flymo XL550 Hover Lawnmower Inc Wheelkit
+,http://www.cheapmowers.com/acatalog/Flymo_Multimo_420_XC.html,159.95,,Flymo Multimo 420 XC 3 in 1 Lawnmower 
+,http://www.cheapmowers.com/acatalog/Gardena_Powermax_PM42_ALI_36v_Cordless_Lawn_Mower.html,374.95,,Gardena Powermax PM42 ALI 36v Cordless Lawn Mower
+,http://www.cheapmowers.com/acatalog/Gardena_CST_3518_Electric_Chainsaw.html,93.95,,Gardena CST 3518 Electric Chainsaw
+,http://www.cheapmowers.com/acatalog/Gardena_Powermax_PM36_ALI_36v_Cordless_Lawn_Mower.html,297.95,,Gardena Powermax PM36 ALI 36v Cordless Lawn Mower
+,http://www.cheapmowers.com/acatalog/The_Handy_Folding_Sack_Truck_.html,42.95,,The Handy Folding Sack Truck 
+,http://www.cheapmowers.com/acatalog/Handy2_Log_Saw_Horse_with_Chainsaw_Support.html,64.99,,Handy Log Safety Saw Horse with Chainsaw Support
+,http://www.cheapmowers.com/acatalog/Handy_Towed_Roller_Garden___Paddock___Field_.html,95.40,,Handy Towed Roller  - Garden Tractor attatchment. 
+,http://www.cheapmowers.com/acatalog/The_Handy_Poly_Dump_Cart_650lb_THTPDC.html,119.95,,The Handy Poly Dump Cart 650lb THTPDC
+,http://www.cheapmowers.com/acatalog/Handy_Pro_Self-Propelled_Petrol_Shredder_Vacuum__.html,679.99,,Handy Pro Self-Propelled Petrol Shredder Vacuum  
+,http://www.cheapmowers.com/acatalog/Handy_Pro_7_Ton_Petrol_Log_Splitter.html,688.50,,Handy Pro 7 Ton Petrol Log Splitter THPLS7TP
+,http://www.cheapmowers.com/acatalog/Handy_THCS-65_Petrol_Chipper_Shredder_.html,574.99,,Handy Petrol Chipper Shredder THCS 65
+,http://www.cheapmowers.com/acatalog/Handy_Cut_and_Rake_THC_R_Lawnmower__Scarifier__Raker_Combination.html,127.99,,"Handy Cut and  Rake THCR Lawnmower, Scarifier, Raker Combination"
+,http://www.cheapmowers.com/acatalog/The_Handy_THPCS16_38cc_16in_Cut_Chainsaw.html,112.99,,The Handy THPCS16 38cc 16in Cut Chainsaw
+,http://www.cheapmowers.com/acatalog/Mowerland_MLLRT2600_Long_Reach_Hedge_Cutter.html,189.95,,Handy THLRT2600 Long  Reach Hedgecutter (Petrol) 
+,http://www.cheapmowers.com/acatalog/Handy_Pro_33cc_Petrol_Multi_Cutter_Set_THPPS.html,268.50,,Handy Pro 33cc Petrol Multi Cutter Set THPPS
+,http://www.cheapmowers.com/acatalog/The_Handy_Multi_Cutter_Multi-Tool_Set.html,179.99,,The Handy Multi Cutter  Strimmer Brushcutter Pruner  Hedgecutter 
+,http://www.cheapmowers.com/acatalog/MowerLand_MLBC43_Brushcutter.html,129.95,,The Handy  THBC43 Brushcutter / Strimmer Big Power 43cc
+,http://www.cheapmowers.com/acatalog/Mowerland_MLBC26_Strimmer_Brushcutter_Multi_Tool_.html,113.95,,The Handy  THBC26 Strimmer Brushcutter (Multi Tool) 
+,http://www.cheapmowers.com/acatalog/Handy_THPLT-A_26cc_Bent_Shaft_Loop_Handle_Grass_Trimmer.html,109.99,,Handy THPLT-A 26cc Bent Shaft Loop Handle Grass Trimmer
+,http://www.cheapmowers.com/acatalog/Mowerland___MLHC30SS_Single_sided_30__Petrol_Hedge_Trimmer.html,126.95,,Handy  THHC30SS Single sided 30in Petrol Hedge Trimmer
+,http://www.cheapmowers.com/acatalog/Mowerland_HC22DS_Petrol_Hedgecutter_Trimmer.html,118.96,,Handy THHC22DS Petrol Hedgecutter Trimmer 
+,http://www.cheapmowers.com/acatalog/The_Handy_Electric_Long_Reach_HedgeTrimmer_THEPT.html,94.99,,The Handy Electric Long Reach HedgeTrimmer THEPT
+,http://www.cheapmowers.com/acatalog/The_Handy_Long_Reach_Cordless_Hedge_Trimmer_THCLRT.html,49.99,,The Handy Long Reach Cordless Hedge Trimmer THCLRT
+,http://www.cheapmowers.com/acatalog/Handy_THECS16_Electric_Chainsaw_16_in_Cut.html,66.95,,Handy THECS16 Electric Chainsaw 16 in Cut
+,http://www.cheapmowers.com/acatalog/Handy_Push_Traditional_Large_Rear_Roller_Lawnmower_.html,64.99,,Handy Push Lawnmower - Traditional Large Rear Roller
+,http://www.cheapmowers.com/acatalog/Handy_Hand_Push_Lawnmower_12_inch_Cut_.html,39.95,,Handy Hand Push Lawnmower THHM 12in Cut 
+,http://www.cheapmowers.com/acatalog/Handy_THSS_Quiet_Garden_Shredder_2200W_.html,125.95,,Handy THSS Quiet Garden Shredder 2500W 
+,http://www.cheapmowers.com/acatalog/Handy_THIS_Electric_Garden_Shredder_2500W.html,93.95,,Handy THIS Electric Garden Shredder 2500W
+,http://www.cheapmowers.com/acatalog/Handy_Pro_7_Ton__Electric_Log_Splitter.html,464.99,,Handy Pro 7 Ton  Electric Vertical Log Splitter 
+,http://www.cheapmowers.com/acatalog/Handy_THLSS_Log_Splitter_Electric_6t_With_Stand.html,208.50,,The Handy THLSB Plus  Electric Log Splitter 6 Ton with Stand
+,http://www.cheapmowers.com/acatalog/Handy_Log_Splitter_Electric.html,194.95,,The Handy THLS-B Electric Log Splitter 6 Ton
+,http://www.cheapmowers.com/acatalog/Handy_THLS-C_Log_Splitter_Electric.html,172.99,,The Handy THLS-C Electric 4 Ton Eco-Log Splitter 
+,http://www.cheapmowers.com/acatalog/Handy_THEBV260BN_Petrol_Leaf_Blower_Vacuum_.html,148.99,,Handy THEBV260BN Petrol Leaf Blower Vacuum 
+,http://www.cheapmowers.com/acatalog/Handy_THEV3000_Blower_-_Vacuum__3000w__.html,53.95,,Handy THEV3000 Blower Vacuum 3000W 
+,http://www.cheapmowers.com/acatalog/Handy_THEV2600__-_Leaf_Blower_Vacuum__2600w__.html,41.99,,Handy THEV2600 Leaf  Blower Vacuum 2600W 
+,http://www.cheapmowers.com/acatalog/Handy_Tower_Trailer_295kg_THGT500.html,114.95,,Handy Towed Trailer - Tipper 295kg for Lawn Garden Tractor THGT500
+,http://www.cheapmowers.com/acatalog/Handy_Garden_Trolley_Large_.html,89.95,,Handy Garden Trolley Large 
+,http://www.cheapmowers.com/acatalog/Handy_Poly_Dump_Cart_.html,94.99,,Handy Poly Dump Cart / Trailer
+,http://www.cheapmowers.com/acatalog/Handy_Garden_Trolley_Small.html,74.95,,Handy Garden Trolley Cart Small
+,http://www.cheapmowers.com/acatalog/Handy_Eco_Wheelbarrow.html,43.99,,Handy Eco Wheelbarrow
+,http://www.cheapmowers.com/acatalog/Handy_Garden_Roller_.html,58.99,,Handy Garden Roller 
+,http://www.cheapmowers.com/acatalog/The_Handy_Log_Saw_Horse_.html,26.99,,The Handy Log Saw Horse 
+,http://www.cheapmowers.com/acatalog/Gardena_Powermax_36E_Electric_Lawnmower_.html,130.99,,Gardena Powermax PM36E Electric Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_Multimo_360_XC.html,129.95,,Flymo Multimo 360 XC 3 in 1 Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_Glidemaster_380_Electric_Hover_Lawnmower.html,131.95,,Flymo Glidemaster 380 Electric Hover Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_Chevron_37VC_Electric_Rotary_Lawnmower.html,128.95,,Flymo Chevron 37VC Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_Multimo_340_XC.html,118.99,,Flymo Multimo 340 XC 3 in 1 Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_Glidemaster_360_Electric_Hover_Lawnmower.html,118.99,,Flymo Glidemaster 340 Electric Hover Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_Glider_330_Electric_Hove_Mower_.html,98.95,,Flymo Glider 330 Electric Hove Mower 
+,http://www.cheapmowers.com/acatalog/Flymo_Chevron_34VC_Electric_Rotary_Lawnmower.html,99.95,,Flymo Chevron 34VC Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_Pac_a_Mow_Lawnmower_.html,89.99,,Flymo Pac a Mow Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_EASIGLIDE_300VX_Electric_Hover_Mower.html,85.99,,Flymo EASIGLIDE 330VX Electric Hover Mower
+,http://www.cheapmowers.com/acatalog/Flymo_Turbolite_400_Hover_Mower_.html,80.95,,Flymo Turbolite 400 Hover Mower 
+,http://www.cheapmowers.com/acatalog/Flymo_Chevron_32VC_Electric_Rotary_Lawnmower.html,78.95,,Flymo Chevron 32VC Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Chevron_32V_Electric_Rotary_Lawnmower.html,70.99,,Flymo Chevron 32V Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_EASIGLIDE_300_Electric_Hover_Mower.html,77.95,,Flymo EASIGLIDE 300 Electric Hover Mower
+,http://www.cheapmowers.com/acatalog/Flymo_Rollermo_Lawnmower_.html,64.99,,Flymo Rollermow Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_Turbolite_330_Lawnmower.html,68.95,,Flymo Turbolite 330 Lawnmower 
+,http://www.cheapmowers.com/acatalog/Flymo_Mow_N_Vac_Hovermower.html,58.99,,Flymo Mow N Vac Hovermower
+,http://www.cheapmowers.com/acatalog/Flymo_Micro_Lite_Electric_Lawnmower.html,47.95,,The Flymo Microlite Electric Hover Lawnmower
+,http://www.cheapmowers.com/acatalog/Flymo_XL500_Plus_Lawnmower_.html,380.00,,FLYMO XL500P Plus  Petrol Hover Lawnmower
+,http://www.cheapmowers.com/acatalog/Handy_Dethatcher___Scarifier_Lawn_Paddock.html,68.95,,Handy Towed Dethatcher Scarifier - Lawn Tractor Attatchment
+,http://www.cheapmowers.com/acatalog/Handy_Salt_Grit_and_Fertiliser_Spreader_THSS100.html,161.95,,Handy Salt Grit and Fertiliser Spreader THSS100
+,http://www.cheapmowers.com/acatalog/Handy_Cordless_Garden_Sprayer_THCGS.html,49.99,,Handy Cordless Garden Sprayer THCGS
+,http://www.cheapmowers.com/acatalog/The_Handy_THTILL_6.5HP_Cultivator__Tiller__Rotovator.html,394.99,,"The Handy THTILL 6.5HP Cultivator, Tiller, Rotovator "
+,http://www.cheapmowers.com/acatalog/Hayter_Powertrim_-_Wheeled_Trimmer_407.html,435.00,,Hayter Powertrim - Wheeled Trimmer 407
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_56_PRO_Lawnmower.html,982.99,,Hayter Harrier 56 PRO Lawnmower 566 
+,http://www.cheapmowers.com/acatalog/Hayter_R53A_Lawnmower_Recycling_Mower_.html,573.00,,"Hayter R53A Lawnmower Recycling Mower 21"" Alloy (449)"
+,http://www.cheapmowers.com/acatalog/Hayter_Heritage_M_10_30_Ride_On_Lawn_Mower.html,1529.95,,Hayter Heritage M 10/30 Ride On Lawn Mower HYDRO
+,http://www.cheapmowers.com/acatalog/Hayter_Spirit_41_Electric_Lawnmower.html,223.00,,Hayter Spirit 41 Electric Lawnmower (615) Rear Roller 
+,http://www.cheapmowers.com/acatalog/Honda_UMK435_UE_Strimmer___Brushcutter_.html,374.95,,Honda UMK435UE Strimmer / Brushcutter 
+,http://www.cheapmowers.com/acatalog/Honda_HHB_25_E_4_Stroke_Petrol__Blower__Hand_Held.html,249.95,,Honda HHB 25 E Petrol Blower  4 Stroke 
+,http://www.cheapmowers.com/acatalog/Honda_HF2620HTE_Ride_on_Lawn_Mower_Tractor_.html,3979.99,,Honda HF2620HTE Ride on Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R54RKB_Lawnmower_Rear_Roller_Blade_Clutch_.html,969.95,,John Deere R54RKB Lawnmower Rear Roller Blade Clutch 
+,http://www.cheapmowers.com/acatalog/Kawasaki_KHT600D_Petrol_Hedgecutter.html,367.99,,Kawasaki KHT600D Petrol Hedgecutter
+,http://www.cheapmowers.com/acatalog/MASPORT_ROTAROLA_22_SPH_Lawnmower.html,719.95,,MASPORT ROTAROLA 22 SPH Honda Powered Lawnmower
+,http://www.cheapmowers.com/acatalog/MASPORT_ROTAROLA_Self_Propelled_Mower_22in_Cut.html,648.95,,"MASPORT ROTAROLA 22 SP Self Propelled Mower 22"" Cut"
+,http://www.cheapmowers.com/acatalog/MASPORT_ROTAROLA_18_SPH_Lawnmower.html,639.95,,MASPORT ROTAROLA 18 SPH Honda Powered Lawnmower
+,http://www.cheapmowers.com/acatalog/MASPORT_ROTAROLA_Self_Propelled_Mower.html,564.95,,MASPORT ROTAROLA 18 SP Self Propelled Mower
+,http://www.cheapmowers.com/acatalog/MASPORT_ROTAROLA_PUSH__Lawn_Mower.html,437.95,,MASPORT ROTAROLA PUSH  Lawn Mower
+,http://www.cheapmowers.com/acatalog/Kawasaki_KHT600S_Petrol_Hedgecutter.html,308.95,,Kawasaki KHT600S Petrol Hedgecutter
+,http://www.cheapmowers.com/acatalog/John_Deere_JX90_Petrol_Lawnmower.html,884.95,,John Deere JX90 Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R54VE_Petrol_Lawnmower.html,884.95,,John Deere R54VE Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R54S_Petrol_Lawnmower.html,804.95,,John Deere R54S Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/Hayter_Motif_53__Autodrive_Lawnmower__435_.html,466.00,,Hayter Motif 53  Autodrive Lawnmower (435)
+,http://www.cheapmowers.com/acatalog/Hayter_Motif_48_Lawnmower_434__Self_Propelled__.html,399.00,,Hayter Motif 48 (Self Propelled) Lawnmower 434G
+,http://www.cheapmowers.com/acatalog/Hayter_Motif_48_Lawnmower_433__PUSH__.html,319.00,,Hayter Motif 48 (Push) Lawnmower (433) 
+,http://www.cheapmowers.com/acatalog/Hayter_Motif_41_Lawn_Mower__432___PUSH_.html,294.00,,Hayter Motif 41 (Push) Lawn Mower (432)
+,http://www.cheapmowers.com/acatalog/Honda_UM_616_EBE.html,1721.00,,Honda UM 616 EBE Rough Cutter Mower 
+,http://www.cheapmowers.com/acatalog/Honda_UM_536EBE_Rough_Cutter_Mower_.html,1409.95,,Honda Rough Grass Cutter UM 536 EBE Mower 
+,http://www.cheapmowers.com/acatalog/Hayter_Spirit_41Lawnmower_616_.html,234.95,,Hayter Spirit 41 Lawnmower 4 Wheeled (Push) 616 
+,http://www.cheapmowers.com/acatalog/John_Deere_R47RKB_Lawnmower_Rear_Roller_Blade_Clutch_.html,789.95,,John Deere R47RKB Lawnmower Rear Roller Blade Clutch 
+,http://www.cheapmowers.com/acatalog/John_Deere_R47KB_Petrol_Lawnmower.html,784.99,,John Deere R47KB Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R47VE_Petrol_Lawnmower.html,774.95,,John Deere R47VE Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R43VEC_Lawnmower.html,698.95,,John Deere R43VEC Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_JS63VC_Petrol_Lawnmower.html,694.99,,John Deere JS63VC Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_C43_Commercial_Petrol_Lawnmower.html,658.99,,John Deere C43 Commercial Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R43RVE_Lawnmower_Rear_Roller_Key_Start_.html,678.95,,John Deere R43RVE Lawnmower Rear Roller Key Start 
+,http://www.cheapmowers.com/acatalog/John_Deere_JS63V_Petrol_Lawnmower.html,634.99,,John Deere JS63V Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R47S_Petrol_Lawnmower.html,644.95,,John Deere R47S Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_JM46_Petrol_Lawnmower.html,594.95,,John Deere JM46 Petrol Lawnmower Key Start
+,http://www.cheapmowers.com/acatalog/John_Deere_R43S_Petrol_Lawnmower.html,529.99,,John Deere R43S Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_JM36_Petrol_Lawnmower.html,497.95,,John Deere JM36 Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R43_17__Petrol_4-Wheel_Push_Rotary_Lawnmower.html,409.99,,John Deere R43 17in Petrol 4-Wheel Push Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R43EL_Electric_Lawnmower.html,409.99,,John Deere R43EL Electric Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R40_Petrol_Push_4_Wheel_Rotary_Lawnmower.html,299.95,,John Deere R40 Petrol Push 4 Wheel Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/John_Deere_R40EL_4_Wheel_electric_Lawnmower.html,238.99,,John Deere R40EL 4 Wheel electric Lawnmower
+,http://www.cheapmowers.com/acatalog/Honda_HF2417HTE_Ride_on_Lawn_Mower__Tractor_.html,3359.95,,Honda HF2417HTE Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Honda_HF2417HME_Ride_on_Lawn_Mower_Tractor_.html,3099.95,,Honda HF2417HME Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Honda_HF2315HME_Ride_on_Lawn_Mower_Tractor__.html,2834.95,,Honda HF2315HME Ride on Lawn Mower Tractor (Hydrostatic) 
+,http://www.cheapmowers.com/acatalog/Honda_HF2315SBE_Ride_on_Lawn_Mower_Tractor__.html,2519.95,,Honda HF2315SBE Ride on Lawnmower (Manual)  
+,http://www.cheapmowers.com/acatalog/Honda_HF1211H_Ride_on_Lawnmower__Hydrostatic_.html,2229.95,,Honda HF1211H Ride on Lawnmower (Hydrostatic)
+,http://www.cheapmowers.com/acatalog/Honda_HF1211S_Ride_on_Lawnmower.html,2089.99,,Honda HF1211S Ride on Lawnmower (Manual) 
+,http://www.cheapmowers.com/acatalog/Honda_UMK435_LE_Strimmer___Brushcutter.html,367.99,,Honda UMK435LE Strimmer / Brushcutter
+,http://www.cheapmowers.com/acatalog/Honda_UMK425_UE_Strimmer_.html,307.99,,Honda UMK425UE 4 Stroke Strimmer Strimmer 
+,http://www.cheapmowers.com/acatalog/Honda_UMK_425_LE_Strimmer_.html,294.95,,Honda UMK 425 LE 4 Stroke Strimmer 
+,http://www.cheapmowers.com/acatalog/Honda_UMS_425_LE_Petrol_Strimmer.html,239.95,,Honda UMS 425 LE Petrol Strimmer
+,http://www.cheapmowers.com/acatalog/Hayter_Envoy__Lawnmower_.html,146.00,,Hayter Envoy 36 Lawnmower (100) 
+,http://www.cheapmowers.com/acatalog/Hayter_R53S_Lawnmower_Recycling_Mower_.html,491.00,,Hayter R53S Lawnmower Recycling Mower 21in  Steel (448E)
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_48_PRO_Lawnmower.html,819.00,,Hayter Harrier 48 PRO Lawnmower 496 NEW  MODEL
+,http://www.cheapmowers.com/acatalog/Honda_HRH_536_HX_Professional_Lawnmwower.html,1298.95,,Honda HRH 536 HX Professional Lawnmwower
+,http://www.cheapmowers.com/acatalog/Honda_HRH_536_QX_21___Self_Propelled_Professional_Lawnmower_.html,1299.95,,Honda HRH 536 QX 21in  Self Propelled Professional Lawnmower 
+,http://www.cheapmowers.com/acatalog/Honda_HRE_370_1300w_37cm_Electric_Rotary_Lawnmower.html,138.95,,Honda HRE 370 1300w 37cm Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Honda_HRE_330_1100w_33cm_Electric_Rotary_Lawnmower.html,126.95,,Honda HRE 330 1100w 33cm Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Honda_HRD_536_QX_Lawnmower__Self_Propelled_.html,1039.99,,Honda HRD 536 QX Lawnmower (Self Propelled)
+,http://www.cheapmowers.com/acatalog/HONDA_HRX_476_QX_Lawn_Mower__Slef_Propelled__.html,777.95,,HONDA HRX 476 QX Lawn Mower (SELF Propelled) 
+,http://www.cheapmowers.com/acatalog/Honda_HRX_426_QX_Lawnmower__Self_Propelled__.html,644.95,,Honda HRX 426 QX Lawnmower (Self Propelled) 
+,http://www.cheapmowers.com/acatalog/Honda_HRX_537_HM_Lawnmower_21__Variable_Speed__Electric_Start_-_VersaMow.html,1119.95,,"Honda HRX 537 HZ  21in  Variable Speed, Electric Start - VersaMow"
+,http://www.cheapmowers.com/acatalog/Honda_HRX_537_HX_Lawnmower_21__Variable_Speed_VersaMow.html,969.95,,Honda HRX 537 HY  21in  Variable Speed VersaMow
+,http://www.cheapmowers.com/acatalog/Honda_HRX537VYE_Lawnmower_.html,969.95,,Honda HRX537 VY Lawnmower  Smart Drive 
+,http://www.cheapmowers.com/acatalog/Honda_HRX_476_VYE_19_inch_Self_Propelled_Petrol_Lawn_mower.html,810.95,,Honda HRX 476 VYE 19 inch Self Propelled Petrol Lawn mower
+,http://www.cheapmowers.com/acatalog/Honda_HRX_476_HYE_19_inch_Self_Propelled_Petrol_Lawn_mower.html,810.95,,Honda HRX 476 HYE 19 inch Self Propelled Petrol Lawn mower
+,http://www.cheapmowers.com/acatalog/Honda_HRX_476_HX__Lawnmower___variable_speed_self_propelled__.html,804.95,,Honda HRX 476 HX  Variable Speed 4-Wheel Lawnmower
+,http://www.cheapmowers.com/acatalog/HONDA_HRX476_SX__Lawnmower_.html,768.95,,HONDA HRX476 SX  Lawnmower 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_56_BBC_Lawnmower__563.html,966.00,,Hayter Harrier 56BBC (Self Propelled Blade Clutch) 563 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_56_ES_Lawnmower__561.html,983.00,,Hayter Harrier 56ES (Self Propelled Key Start) 561
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_56_Lawnmower_560_.html,899.00,,Hayter Harrier 56 (Self Propelled) 560 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_48_ES_Lawnmower_491_.html,802.00,,Hayter Harrier 48 ES Lawnmower Key Start 491 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_48_BBC_Lawnmower_493.html,788.00,,Hayter Harrier 48 BBC ( Blade Clutch) Lawnmower 493 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_48_Lawnmower_490_.html,729.00,,Hayter Harrier 48 Lawnmower (Roller Self Propelled) 490 
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_41_Lawnmower_412_Key_Start_.html,614.00,,Hayter Harrier 41 Lawnmower (Self Propelled Key Start)  412
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_41_Lawnmower.html,532.00,,Hayter Harrier 41 Lawnmower  Rear Roller (Self Propelled)  413
+,http://www.cheapmowers.com/acatalog/Hayter_Harrier_41_Lawnmower_.html,409.00,,Hayter Harrier 41 Lawnmower 410 (Push)  
+,http://www.cheapmowers.com/acatalog/Hayter_Spirit_41_Lawnmower_Petrol_Rear_Roller__619__Self_Propelled__.html,348.00,,Hayter Spirit 41 Autodrive Petrol Rear Roller Mower 619 
+,http://www.cheapmowers.com/acatalog/Hayter_Spirit_41_Lawnmower_Rear_Roller_Lawnmower__PUSH_.html,269.00,,Hayter Spirit 41 Push Petrol Roller Lawnmower (617)  
+,http://www.cheapmowers.com/acatalog/Honda_Izy_HRG_536_SD_Lawnmower__Self_Propelled_21__.html,568.99,,Honda Izy 21 SD  Lawnmower (HRG 536 SD)  (Self Propelled)
+,http://www.cheapmowers.com/acatalog/Honda_HRX426_SX_Lawnmower_17___Self-Propelled_4-Wheel_.html,629.95,,Honda HRX 426 SX 17in Self-Propelled 4-Wheel Lawn Mower 
+,http://www.cheapmowers.com/acatalog/Honda_HRS536_SDE_Mulching___Side_discharge_Lawnmower_.html,448.99,,Honda HRS536 SDE Mulching / Side discharge Lawnmower 
+,http://www.cheapmowers.com/acatalog/Honda_Izy_18_46_SD_Lawnmower__Self_Propelled_.html,414.95,,Honda Izy 18 46SD - HRG465 SD Lawnmower (Self Propelled)
+,http://www.cheapmowers.com/acatalog/Honda_Izy_18_46_PD_Lawnmower__Push_.html,324.95,,Honda Izy 18 46 PD (HRG 465 PD) Lawnmower (Push)
+,http://www.cheapmowers.com/acatalog/Honda_Izy_16_41_SD_Lawnmower__Self_Propelled_.html,359.95,,Honda Izy 16 41 SD Lawnmower HRG 415 SD (Self Propelled)
+,http://www.cheapmowers.com/acatalog/Honda_Izy_16_41_PD_Lawnmower__Push_.html,279.95,,Honda Izy 16 PD (HRG 415 PD) Lawnmower (Push)
+,http://www.cheapmowers.com/acatalog/Hayterette_Lawnmower_18___Push__.html,532.00,,Hayterette (Push) Lawnmower 
+,http://www.cheapmowers.com/acatalog/Handy_Garden_Tiller___Cultivator_Petrol_Rotavator_3.5HP.html,259.99,,Handy Garden Tiller / Cultivator Petrol Rotavator 3.5HP
+,http://www.cheapmowers.com/acatalog/__The_Handy_Petrol_Mini_Tiller____2_Stroke_THPMT.html,164.95,, The Handy Mini Tiller   2 Stroke THPMT
+,http://www.cheapmowers.com/acatalog/The_Handy_Electric_Mini_Tiller_.html,65.95,,The Handy  Electric Mini Tiller THET
+,http://www.cheapmowers.com/acatalog/The_handy_Knapsack_Sprayer.html,35.95,,The Handy  Knapsack Sprayer 16 Litre THKS16LTR
+,http://www.cheapmowers.com/acatalog/The_Handy_5_Litre_Pressure_Sprayer_THS5LTR.html,22.99,,The Handy 5 Litre Pressure Sprayer THS5LTR
+,http://www.cheapmowers.com/acatalog/Handy_Salt_Grit_and_Fertiliser_Spreader_THSS80__.html,139.99,,Handy Salt Grit and Fertiliser Spreader THSS80 
+,http://www.cheapmowers.com/acatalog/Handy_THS125_Push_Spreader_125lb_.html,129.95,,Handy THS125 Push Spreader 125lb 
+,http://www.cheapmowers.com/acatalog/Handy_Towerd_80lb_Lawn_Spreader_for_Garden_Tractor_.html,94.99,,Handy Towerd 80lb Spreader for Garden Tractor 
+,http://www.cheapmowers.com/acatalog/Handy_80lb__36.5kg__Wheeled_Lawn_Spreader_THS80.html,85.49,,Handy 80lb (36.5kg) Wheeled Lawn Spreader THS80
+,http://www.cheapmowers.com/acatalog/Handy_THS50_Spreader_Lawn_Fertilizer__Seed__Salt_Spreader.html,75.95,,"The Handy THS50 Spreader Lawn Fertilizer, Seed, Sand, Grit, Salt 23kg"
+,http://www.cheapmowers.com/acatalog/Handy_THDS_Drop_Spreader_Lawn_Spreader_.html,41.95,,Handy THDS Drop Spreader Lawn Spreader 
+,http://www.cheapmowers.com/acatalog/Handy_Hollow_Tine_Aerator.html,34.99,,Handy Hollow Tine Aerator - Lawn and Garden 
+,http://www.cheapmowers.com/acatalog/McCulloch_CS450_Elite_Petrol_Chain_Saw.html,298.99,,McCulloch CS450 Elite Petrol Chain Saw 
+,http://www.cheapmowers.com/acatalog/McCulloch_Ergolite_6028_Hedge_Trimmer.html,179.50,,McCulloch Ergolite EL6028 Hedge Trimmer
+,http://www.cheapmowers.com/acatalog/McCULLOCH_Multi-Tool_Cultivator_Attachment.html,72.95,,McCulloch  Multi-Tool Cultivator Attachment
+,http://www.cheapmowers.com/acatalog/McCulloch_MRT6_Rear_Tine_Tiller_Rotovator.html,748.99,,McCulloch MRT6 Rear Tine Tiller Rotovator
+,http://www.cheapmowers.com/acatalog/McCulloch_MWT420_Petrol_Wheeled_Trimmer.html,379.99,,McCulloch MWT420 Petrol Wheeled Trimmer
+,http://www.cheapmowers.com/acatalog/McCulloch__155HRB_Lawn_Tractor_42__Cut_with_Collector_.html,2075.00,,McCulloch  M155107HRB Lawn Tractor 42 
+,http://www.cheapmowers.com/acatalog/McCulloch_M56-875DWA_Petrol_3_in_1_Lawnmower_22in_Cut_.html,428.95,,McCulloch M56-875DWA Petrol 3 in 1 Lawnmower 22in Cut 
+,http://www.cheapmowers.com/acatalog/McCulloch_Two_Stage_Snow_Blower_PM55___.html,1089.95,,McCulloch PM55 Two Stage Snow Blower   
+,http://www.cheapmowers.com/acatalog/Ryobi_RPP_720_Pole_Pruner_Electric_.html,99.95,,Ryobi RPP 720 Pole Pruner Electric 
+,http://www.cheapmowers.com/acatalog/Ryobi_RSH2455_2400_Quiet_Shredder.html,209.95,,Ryobi RSH2455 2400 Watt Quiet Shredder
+,http://www.cheapmowers.com/acatalog/RYOBI_ELS52_1500_W_ELECTRIC_LOG_SPLITTER_.html,274.99,,RYOBI  ELS-52 1500 W Electric Log Splitter
+,http://www.cheapmowers.com/acatalog/Ryobi_RCS3535CB___35cc_Petrol_Chainsaw__.html,174.95,,Ryobi RCS3535CB  35cc Petrol Chainsaw 
+,http://www.cheapmowers.com/acatalog/RYOBI_RPW150HS_Hydrosurge_Electric_Pressure_Washer__.html,288.95,,RYOBI RPW150HS Hydrosurge Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Ryobi_ABE-03_Expandit_Blower.html,39.95,,Ryobi ABE-04 Expandit Blower
+,http://www.cheapmowers.com/acatalog/Ryobi_AQTT-03_Expand-it_Cultivator_Attatchment.html,79.99,,Ryobi AQTT-03 Expandit Cultivator
+,http://www.cheapmowers.com/acatalog/Ryobi_AED-03_Expand-it_Edger.html,46.99,,Ryobi AED-04 Expand-it Edger
+,http://www.cheapmowers.com/acatalog/Ryobi_ABC-03_Expand_It_Brush_Cutter_Attachment_.html,58.99,,Ryobi ABC-03 Expand It Brush Cutter Attachment 
+,http://www.cheapmowers.com/acatalog/Ryobi_AEX-03_Extension_Tube_for_Expandit_Range.html,25.99,,Ryobi AEX-03 Extension Tube for Expandit Range
+,http://www.cheapmowers.com/acatalog/Ryobi_Apr-02_Expandit_Pruner_Attatchment.html,75.50,,Ryobi Apr-04 Expandit Pruner Attatchment
+,http://www.cheapmowers.com/acatalog/Ryobi_AHF-04_Expand_It_Articulating_Hedge_Trimmer_Attachment__-_DUE_Spring_2009.html,72.95,,Ryobi AHF04 Expand It Articulating Hedge Trimmer Attachment
+,http://www.cheapmowers.com/acatalog/Ryobi__AHF-03_Expand-It_Hedge_Trimmer_Attatchment.html,54.95,,Ryobi  AHF-03 Expand-It Hedge Trimmer Attatchment
+,http://www.cheapmowers.com/acatalog/Ryobi_RLT1038_Line_Trimmer___Strimmer_1000w.html,92.95,,Ryobi RLT1038 Line Trimmer / Strimmer 1000w
+,http://www.cheapmowers.com/acatalog/Ryobi__RBC_1000EX__Heavy_Duty_Electric_Strimmer_Trimmer.html,94.99,,Ryobi  RBC 1000EX  Heavy Duty Electric Strimmer
+,http://www.cheapmowers.com/acatalog/Ryobi_RLT5030S_500_W_EasyEdge__Line_Trimmer.html,57.95,,Ryobi RLT5030S 500 W EasyEdge Line Trimmer
+,http://www.cheapmowers.com/acatalog/RYOBI_RLT_4025_400w_Electric_Edging_Auto_Feed_Line_Trimmer.html,49.99,,RYOBI RLT 4025 Electric Strimmer / Line trimmer
+,http://www.cheapmowers.com/acatalog/RYOBI_RPW130HS_Hydrosurge_Electric_Pressure_Washer__.html,226.99,,RYOBI RPW130HS Hydrosurge Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/RYOBI_Deck_Mate_RPW105DM_Electric_Pressure_Washer__.html,149.99,,RYOBI Deck Mate RPW105DM Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/RYOBI_RPW120E_1600w_Pressure_Washer.html,81.50,,Ryobi  RPW120E  Pressure Washer -
+,http://www.cheapmowers.com/acatalog/Wolf_Garten_Ambition_A34E_34cm_Lawn_Mower.html,129.95,,Wolf Garten Ambition A34E 34cm Lawn Mower
+,http://www.cheapmowers.com/acatalog/WOLF_Garten_Select_3800E_Power_Lawn_Mower_38cm_1400W.html,117.95,,WOLF Garten Select 3800E Power Lawn Mower 38cm 1400W
+,http://www.cheapmowers.com/acatalog/WOLF_Garten_Select_3200E_Power_Lawn_Mower_32cm_1000W.html,87.95,,WOLF Garten Select 3200E Power Lawn Mower 32cm 1000W
+,http://www.cheapmowers.com/acatalog/Ryobi_RPW100E_1400W_Pressure_Washer.html,71.50,,Ryobi RPW100E 1400W Pressure Washer
+,http://www.cheapmowers.com/acatalog/RYOBI_RCS-4040CA_16inch_40cc_Petrol_Chainsaw.html,174.95,,RYOBI RCS-4040CA 16inch 40cc Petrol Chainsaw 
+,http://www.cheapmowers.com/acatalog/RYOBI_RCS_3535_CA_35cc_14in_35cm_Petrol_Chainsaw.html,148.99,,RYOBI RCS 3535 CA 35cc 14in/35cm Petrol Chainsaw
+,http://www.cheapmowers.com/acatalog/Ryobi_RCS2040._Electric_Chainsaw_2000w_16_inch_.html,118.50,,Ryobi RCS2040. Electric Chainsaw 2000w 16in 
+,http://www.cheapmowers.com/acatalog/Ryobi_RCS1835_Electric_Chainsaw.html,99.95,,Ryobi RCS1835 Electric Chainsaw 1800W 14IN CUT
+,http://www.cheapmowers.com/acatalog/Ryobi_RSH_2400R_Shredder_-_2400w_Electric_Impact_Shredder_.html,119.95,,Ryobi RSH 2400R Shredder
+,http://www.cheapmowers.com/acatalog/Ryobi_Rht-2660D_Petrol_Hedge_Trimmer_.html,149.95,,Ryobi RHT-2660DA Petrol Hedge Trimmer 600mm Blade - ON OFFER
+,http://www.cheapmowers.com/acatalog/Ryobi_RPT_400Telescopic_Hedge_Trimmer_.html,99.95,,Ryobi RPT 400 Telescopic Hedge Trimmer 2.3m
+,http://www.cheapmowers.com/acatalog/Ryobi_CHT1850LC_18v_One__Hedge_Trimmer_Li-ion_Starter_Kit__1_slim_battery_.html,89.99,,Ryobi CHT1850LC 18v One+ Hedge Trimmer Li-ion Starter Kit (1battery)
+,http://www.cheapmowers.com/acatalog/Ryobi_RHT600RL_Electric_Hedge_Trimmer.html,76.99,,Ryobi RHT600RL Electric Hedge Trimmer
+,http://www.cheapmowers.com/acatalog/Ryobi_CHT1850P_18v_One__Hedge_Trimmer_NI-Cad_Starter_Kit__1_battery__.html,74.50,,Ryobi CHT1850P 18v One+ Hedge Trimmer NI-Cad Starter Kit (1 battery) 
+,http://www.cheapmowers.com/acatalog/Ryobi_RHT400_Hedgetrimmer_45cm_400W_Motor.html,53.95,,Ryobi RHT400 Hedgetrimmer 45cm 400W Motor
+,http://www.cheapmowers.com/acatalog/Qualcast_Concorde_32_Electric_Lawnmower_.html,99.95,,Qualcast Concorde 32 Electric Lawnmower 
+,http://www.cheapmowers.com/acatalog/Qualcast_Panther_380_Hand_Push_Lawnmower_.html,57.95,,Qualcast Panther 380 Hand Push Lawnmower 
+,http://www.cheapmowers.com/acatalog/McCulloch_SB121_Single-Stage_Petrol_Snow_Blower_.html,364.99,,McCulloch SB121 Single-Stage Petrol Snow Blower 
+,http://www.cheapmowers.com/acatalog/McCulloch_M53-675_CMDWA_3_in_1_Lawnmower_.html,374.95,,McCulloch M53-675 CDWA 3 in 1 Lawnmower 21in Cut 
+,http://www.cheapmowers.com/acatalog/McCulloch_M51-550CMD_Lawnmower_51cm_Cut_Self_Propelled.html,294.95,,McCulloch M51-550CMD Lawnmower 51cm Cut Self Propelled
+,http://www.cheapmowers.com/acatalog/McCulloch_M53-625CMDW.html,289.99,,McCulloch M53-625CMDW 21in  Cut Lawnmower (Self propelled) 
+,http://www.cheapmowers.com/acatalog/McCulloch_Titanium_46RSD_-_46cm_18__Self_Propelled_Rear_Roller_Lawnmower.html,289.99,,McCulloch Titanium M46-500CDR - 46cm Self Drive Rear Roller Lawnmower 
+,http://www.cheapmowers.com/acatalog/Yard_Pro_46-500CDR_-_46cm_18__Self_Propelled_Rear_Roller_Lawnmower.html,269.95,,Yard Pro YP46-500CDR - 46cm Self Drive Rear Roller Lawnmower 
+,http://www.cheapmowers.com/acatalog/McCulloch__M46-500CD_Lawnmower.html,238.99,,McCulloch MC46-500CD 18in Lawnmower ( 
+,http://www.cheapmowers.com/acatalog/McCulloch_18__M46-450CN_Lawnmower.html,183.95,,McCulloch MC46-450C  Lawnmower 2012M ( Push ) 
+,http://www.cheapmowers.com/acatalog/McCulloch_16__M40-450CN_Lawnmower.html,169.99,,McCulloch MC40-450C  Lawnmower  ( Push ) 
+,http://www.cheapmowers.com/acatalog/McCulloch_M40-450CDPB_-_Petrol_Lawn_Mower_16__Push_.html,158.95,,McCulloch M40-450CDP - Lawnmower  Self Propelled 
+,http://www.cheapmowers.com/acatalog/McCulloch__12597RBH_Lawn_Tractor_97cm_Cut_with_Collector_.html,1974.95,,McCulloch  12597RBH Lawn Tractor 36in 
+,http://www.cheapmowers.com/acatalog/McCulloch__1392RB_Lawn_Tractor_36__Cut_with_Collector_.html,1719.95,,McCulloch  12597RB Lawn Tractor 36in 
+,http://www.cheapmowers.com/acatalog/McCulloch_M11576_Lawn_Tractor_Ride_On.html,1529.95,,McCulloch M11577RB Lawn Tractor 
+,http://www.cheapmowers.com/acatalog/Ryobi_RBC-30SES_PACKAGE_2_Offer.html,288.95,,Ryobi RBC-30SES Brushcutter + AHF04 Hedge Cutter +  Extension + Pruner
+,http://www.cheapmowers.com/acatalog/RYOBI_RBC_52SB__Brushcutter_.html,244.99,,RYOBI RBC52SB 52cc Brushcutter  Cowhorn Handles
+,http://www.cheapmowers.com/acatalog/RYOBI_RBC40SB_40cc_Brushcutter.html,235.99,,RYOBI RBC 40SB 40cc Brushcutter  Cowhorn Handles
+,http://www.cheapmowers.com/acatalog/Ryobi_RBC-430SBS_4-Stroke_Petrol__Brushcutter_.html,219.95,,Ryobi RBC-430SBS 4-Stroke Petrol  Brushcutter 
+,http://www.cheapmowers.com/acatalog/Ryobi_RBC_430SES_30cc_4_Stroke_Brushcutter_Strimmer.html,204.95,,Ryobi RBC 430SES 30cc 4 Stroke Brushcutter Strimmer
+,http://www.cheapmowers.com/acatalog/Ryobi_RLT430CES_30cc_4_Stroke_Brushcutter_Strimmer.html,184.99,,Ryobi RLT 430CES 30cc 4 Stroke Strimmer Trimmer 
+,http://www.cheapmowers.com/acatalog/Ryobi_RBC-30SESA_Brush_Cutter_.html,158.95,,Ryobi RBC-30SESA Brushcutter Strimmer
+,http://www.cheapmowers.com/acatalog/Ryobi_RLT-30CES_30cc_Line_Trimmer.html,132.95,,Ryobi RLT-30CESA 30cc Line Trimmer
+,http://www.cheapmowers.com/acatalog/Ryobi_RLT26CDS_StartEasy_Line_Trimmer_.html,109.99,,Ryobi RLT26CDS StartEasy Line Trimmer .
+,http://www.cheapmowers.com/acatalog/McCulloch_MC1397_Lawn_Tractor.html,1489.99,,McCulloch MC12597 Lawn Tractor  38in 
+,http://www.cheapmowers.com/acatalog/McCulloch_MC12597SD_Lawn_Tractor.html,1335.00,,McCulloch MC12597SD Lawn Tractor  38in 
+,http://www.cheapmowers.com/acatalog/McCulloch_T22_LS_Strimmer_Brushcutter.html,139.99,,McCulloch T22 LS Strimmer Linetrimmer
+,http://www.cheapmowers.com/acatalog/McCulloch_T22_LCS_Petrol_Strimmer_Line_Trimmer_.html,109.99,,McCulloch T22 LCS Petrol Strimmer Line Trimmer 
+,http://www.cheapmowers.com/acatalog/McCulloch_MFT85-106R_Petrol_Tiller_83cm.html,579.95,,McCulloch MFT85-106R Petrol Tiller 83cm
+,http://www.cheapmowers.com/acatalog/McCulloch_MFT55-170R_Petrol_Tiller_55cm.html,399.95,,McCulloch MFT55-170R Petrol Tiller 55cm
+,http://www.cheapmowers.com/acatalog/McCulloch_MFT44-154_Petrol_Tiller_44cm.html,323.95,,McCulloch MFT44-154 Petrol Tiller 44cm
+,http://www.cheapmowers.com/acatalog/McCulloch_Multi-Tool_Leaf_Blower_Attachment.html,42.95,,McCulloch Multi-Tool Leaf Blower Attachment
+,http://www.cheapmowers.com/acatalog/McCulloch__Multi-Tool_Lawn_Edger_Attachment_.html,49.99,,McCulloch  Multi-Tool Lawn Edger Attachment 
+,http://www.cheapmowers.com/acatalog/McCulloch__Multi-Tool_39cm_Hedge_Trimmer_Attachment_.html,69.95,,McCulloch  Multi-Tool 39cm Hedge Trimmer Attachment 
+,http://www.cheapmowers.com/acatalog/McCulloch__Multi-Tool_Pole_Pruner_Attachment_.html,73.99,,McCulloch  Multi-Tool Pole Pruner Attachment 
+,http://www.cheapmowers.com/acatalog/Multi-Tool_62cm_Extension_Shaft.html,24.95,,Multi-Tool 62cm Extension Shaft
+,http://www.cheapmowers.com/acatalog/McCulloch_Superlite_4528_Petrol_Hedge_Trimmer.html,147.95,,McCulloch Superlite 4528 Petrol Hedge Trimmer
+,http://www.cheapmowers.com/acatalog/Mcculloch_DAT25_Petrol_Hedge_Trimmer.html,123.95,,McCulloch DAHT25 Petrol Hedge Trimmer
+,http://www.cheapmowers.com/acatalog/McCulloch_CS410_Petrol_Chain_Saw.html,219.95,,McCulloch CS410 Elite Petrol Chain Saw 
+,http://www.cheapmowers.com/acatalog/McCulloch_CS380_Petrol_Chain_Saw.html,164.95,,McCulloch CS380 Petrol Chain Saw 
+,http://www.cheapmowers.com/acatalog/McCulloch_Mac_842_16in__Petrol_Chainsaw.html,159.95,,"McCulloch Partner Mac 842 16"" Petrol Chainsaw"
+,http://www.cheapmowers.com/acatalog/McCulloch_CS340_Petrol_Chain_Saw.html,134.95,,McCulloch CS340 Petrol Chain Saw
+,http://www.cheapmowers.com/acatalog/McCulloch_Mac_Cat_738_14in_petrol_chainsaw.html,127.99,,McCulloch Partner 738 14in Petrol Chainsaw
+,http://www.cheapmowers.com/acatalog/Sanli_LSP42_Premium_Self_Propelled_Petrol_Lawnmower_42cm_Cut_.html,194.95,,Sanli LSP42 Premium Self Propelled Lawnmower 
+,http://www.cheapmowers.com/acatalog/Castel_XE80VD_Ride_On_Lawn_Mower_.html,1299.95,,Castelgarden  XE80VD Ride On Mower - SPRING OFFER
+,http://www.cheapmowers.com/acatalog/Lawn-King_SG1046CSP_Lawnmower_by_Sandrigarden_46cm_Cut_.html,194.95,,Lawn-King SG1046CSP Lawnmower by Sandrigarden 46cm Cut 
+,http://www.cheapmowers.com/acatalog/Lawnking_EP414G_Petrol_Lawnmower_15in_Cut_.html,136.99,,Lawnking EP414G Petrol Lawnmower Powered by Castelgarden 
+,http://www.cheapmowers.com/acatalog/Sanli_LSP46_Premium_Self_Propelled_Petrol_Lawnmower_46cm_Cut_.html,239.95,,Sanli LSP46 Premium Self Propelled Lawnmower 46cm Cut 
+,http://www.cheapmowers.com/acatalog/Lawn-King_SG1046C_Lawnmower_by_Sandrigarden_46cm_Cut_.html,168.95,,Lawn-King SG1046C Lawnmower by Sandrigarden 46cm Cut 
+,http://www.cheapmowers.com/acatalog/Asuka_TN2160SXAH-HST-PRO_Lawn_Mower.html,1149.95,,Asuka TN2160SXAH-HST-PRO Lawn Mower
+,http://www.cheapmowers.com/acatalog/Echo_GT220ES_Petrol_Line_Trimmer_.html,180.95,,Echo GT220ES Petrol Line Trimmer 
+,http://www.cheapmowers.com/acatalog/Castel_Garden_Tellus__95_H_Multipurpose_Petrol_Cultivator_Unit.html,817.00,,Castel Garden Tellus  95 H Multipurpose Petrol Cultivator Unit
+,http://www.cheapmowers.com/acatalog/Briggs_and__Stratton_Handy_Gen_2500_Petrol_Generator.html,306.50,,Briggs & Stratton Handy Gen 2500 Petrol Generator 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_160_Pro_X_Electric_Pressure_Washer_.html,375.95,,Bosch Aquatak 160 Pro X Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/BILLY_GOAT_F601S__FORCE_6HP_SUBARU_WHEELED_BLOWER.html,839.95,,Billy Goat Force  F601S - 6HP Wheeled Blower - Subaru Powered
+,http://www.cheapmowers.com/acatalog/ATCO_Club_B20_Wheel_Kit.html,185.95,,ATCO Club B20 Wheel Kit
+,http://www.cheapmowers.com/acatalog/Apache_AR601_Lawn_Scarifier_Professional__AR_601.html,824.95,,Apache AR601 Lawn Scarifier Professional  - AR 601
+,http://www.cheapmowers.com/acatalog/Allett_Buckingham_30H_Self_Propelled_Petrol_Cylinder_Lawnmower.html,2909.00,,Allett Buckingham 30H Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Chainsaw_Safety_Helmet_CH011.html,24.50,,Chainsaw Safety Helmet with Visor & Earmuffs
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0269_Towed_36inch_Roller_.html,189.95,,Agri-Fab 45-0269 Towed 48inch Roller 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0268_Towed_36inch_Roller_.html,157.99,,Agri-Fab 45-0268 Towed 36inch Roller 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0267_24in_Towed_Roller_.html,124.99,,Agri-Fab 45-0267 24in Towed Roller 
+,http://www.cheapmowers.com/acatalog/Husqvarna_GTH260_Twin_Lawn_Tractor_.html,3696.00,,Husqvarna GTH260 Twin Lawn Tractor 26HP 54in Cut 
+,http://www.cheapmowers.com/acatalog/Husqvarna_CTH220_Lawn_Tractor.html,3313.99,,Husqvarna CTH220 Twin Lawn Tractor 42in cut 22HP
+,http://www.cheapmowers.com/acatalog/Alpina_HT60M_Hedgetrimmer.html,249.95,,Alpina HT60M Hedgetrimmer Petrol 60cm Cut 
+,http://www.cheapmowers.com/acatalog/Alpina_ONE_63Y_Ride_On_Lawnower_.html,1169.00,,Alpina ONE 63YV Ride On Lawn Mower 
+,http://www.cheapmowers.com/acatalog/Husqvarna_YTH220_Twin_Lawn_Tractor_.html,3073.00,,Husqvarna YTH220 Twin Lawn Tractor 22HP 48in Cut 
+,http://www.cheapmowers.com/acatalog/Husqvarna_CTH200_Lawn_Tractor.html,3073.00,,Husqvarna CTH200 Twin Lawn Tractor 42in cut 20HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_YTH200_Twin_Lawn_Tractor_.html,2869.00,,Husqvarna YTH200 Twin Lawn Tractor 20HP 46in Cut 
+,http://www.cheapmowers.com/acatalog/Husqvarna_CTH150_Lawn_Tractor.html,2827.99,,Husqvarna CTH150 Twin Lawn Tractor 42in cut 15HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_CTH140_Lawn_Tractor.html,2589.00,,Husqvarna CTH140 Twin Lawn Tractor 36in cut 15HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_YTH150_Lawn_Tractor__.html,2507.00,,"Husqvarna YTH150 Twin Lawn Tractor 15HP  42"" Cut"
+,http://www.cheapmowers.com/acatalog/Husqvarna_CTH171_Lawn_Tractor.html,2384.75,,Husqvarna CTH171 Lawn Tractor 36in cut 17HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_CT151_Lawn_Tractor.html,2101.99,,Husqvarna CT151 Lawn Tractor 36in cut 15HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_LT151_Lawn_Tractor.html,1775.99,,"Husqvarna LT151 Lawn Tractor 38"" Cut 15HP With Grass Collector"
+,http://www.cheapmowers.com/acatalog/Husqvarna_CT126_Lawn_Tractor.html,1735.00,,Husqvarna CT126 Lawn Tractor 30in cut 12.5HP
+,http://www.cheapmowers.com/acatalog/Husqvarna_LT151M_Lawn_Tractor.html,1499.95,,"Husqvarna LT151M Lawn Tractor 38"" Cut 15HP"
+,http://www.cheapmowers.com/acatalog/Husqvarna_LT126_Lawn_Tractor_30inch_Cut_12.5HP.html,1448.99,,Husqvarna LT126 Lawn Tractor 30inch Cut 12.5HP
+,http://www.cheapmowers.com/acatalog/ALM_Chainsaw_Safety_Chaps_Adjustable_CH016.html,81.76,,ALM Chainsaw Safety Chaps Adjustable CH016
+,http://www.cheapmowers.com/acatalog/Chainsaw_Safety_Gloves_by_ALM_CH025.html,19.49,,Premium Chainsaw Safety Gloves ALM
+,http://www.cheapmowers.com/acatalog/Chainsaw_Safety_Gloves_by_ALM_CH015.html,16.50,,Chainsaw Safety Gloves ALM
+,http://www.cheapmowers.com/acatalog/Grass___Hedge_Trimmer___Strimmer_Safety_Kit_ALMCH012.html,17.50,,Grass & Hedge Trimmer / Strimmer Safety Kit ALMCH012
+,http://www.cheapmowers.com/acatalog/Allett_Westminster_20H_Professional_Petrol_Cylinder_Lawnmower.html,2719.00,,Allett Westminster 20H Professional Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Buckingham_24H_Self_Propelled_Petrol_Cylinder_Lawnmower.html,2729.00,,Allett Buckingham 24H Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Expert_Kensington_20K_Self_Propelled_Petrol_Cylinder_Lawnmower.html,999.00,,Allett Kensington 20K Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Expert_Kensington_17K_Self_Propelled_Petrol_Cylinder_Lawnmower.html,899.00,,Allett  Kensington 17K Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Expert_Kensington_14K_Self_Propelled_Petrol_Cylinder_Lawnmower.html,769.00,,Allett Kensington 14K Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Classic_17L_Petrol_Cylinder_Mower.html,578.00,,Allett Classic 17L Petrol Cylinder Mower 43cm Cut
+,http://www.cheapmowers.com/acatalog/Allett_Classic_14L_Petrol_Cylinder_Mower.html,509.00,,Allett Classic 14L Petrol Cylinder Mower 35cm Cut
+,http://www.cheapmowers.com/acatalog/Allett_Buckingham_20H_Self_Propelled_Petrol_Cylinder_Lawnmower.html,2539.00,,Allett Buckingham 20H Self Propelled Petrol Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Apache_VT40_Petrol_Scarifier_.html,499.99,,Apache Petrol Scarifier VT40 Honda Engine 
+,http://www.cheapmowers.com/acatalog/Apache_VT35_Petrol_Scarifier_.html,434.95,,Apache Petrol Scarifier VT35 
+,http://www.cheapmowers.com/acatalog/Atco_Royale_30E_Autosteer_Seat.html,437.99,,Atco Royale 30E Autosteer Seat
+,http://www.cheapmowers.com/acatalog/Atco_Royale_24E_Autosteer_Seat.html,439.00,,Atco Royale 24E Autosteer Seat
+,http://www.cheapmowers.com/acatalog/Atco_Royale_20E_Autosteer_Seat.html,439.00,,Atco Royale 20E Autosteer Seat
+,http://www.cheapmowers.com/acatalog/Atco_Club_20_I_C_Professional_Cylinder_Lawnmower_.html,2294.95,,Atco Club 20 I/C Professional Cylinder Lawnmower 
+,http://www.cheapmowers.com/acatalog/Atco_Royale_24E_I_C_Cylinder_Lawnmower_.html,2274.95,,Atco Royale 24E I/C Cylinder Lawn Mower 
+,http://www.cheapmowers.com/acatalog/Atco_Royale_20E_I_C_Lawn_Mower_.html,2149.00,,Atco Royale 20E I/C Lawn Mower 
+,http://www.cheapmowers.com/acatalog/BILLY_GOAT_F900H__FORCE_9HP_HONDA_WHEELED_BLOWER.html,1349.95,,Billy Goat Force  F902H - 9HP Wheeled Blower - HONDA Powered
+,http://www.cheapmowers.com/acatalog/BILLY_GOAT_F1300H__FORCE_13HP_HONDA_WHEELED_BLOWER.html,1609.99,,Billy Goat Force  F1302H - 13HP Wheeled Blower - HONDA Powered
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_150_Pro_Electric_Pressure_Washer_.html,319.99,,Bosch Aquatak 150 Pro Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_Clic_140_Electric_Pressure_Washer.html,269.99,,Bosch Aquatak Clic 140 Electric Pressure Washer
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_Clic_135_Electric_Pressure_Washer.html,273.95,,Bosch Aquatak Clic 135 Electric Pressure Washer
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_Clic_130_Electric_Pressure_Washer.html,222.95,,Bosch Aquatak Clic 130 Electric Pressure Washer
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_Clic_125_Electric_Pressure_Washer.html,195.95,,Bosch Aquatak Clic 125 Electric Pressure Washer
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_1200_Plus_Electric_Pressure_Washer_.html,149.99,,Bosch Aquatak 1200 Plus Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_115_Plus_Electric_Pressure_Washer_.html,124.99,,Bosch Aquatak 115 Plus Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_110_Plus_Electric_Pressure_Washer_.html,119.99,,Bosch Aquatak 110 Plus Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_110_Pressure_Washer_.html,104.95,,Bosch Aquatak 110 Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Bosch_Aquatak_Go_Pressure_Washer_.html,71.95,,Bosch Aquatak GO Pressure Washer
+,http://www.cheapmowers.com/acatalog/Briggs___Stratton_Handy_Gen_1400_Petrol_Generator.html,199.00,,Briggs & Stratton Handy Gen 1400 Petrol Generator
+,http://www.cheapmowers.com/acatalog/Castel_Garden_Tellus_40RG_Petrol_Cultivator_.html,326.95,,Castel Garden Tellus 40RG Petrol Cultivator 
+,http://www.cheapmowers.com/acatalog/Castel_Garden_TELLUS_360G_Petrol_Cultivator_Tiller.html,224.95,,Castel Garden TELLUS 360G Petrol Cultivator Tiller
+,http://www.cheapmowers.com/acatalog/Castel_Tellus_95H_Snow_Plough.html,999.95,,Castel Tellus 95H Snow Plough Petrol 85cm Blade
+,http://www.cheapmowers.com/acatalog/Alpina_Pro_55_ASK3_21__Self_Propelled_Lawnmower__With_Mulching__.html,533.99,,Alpina Pro 55 ASK3 21in Self Propelled Lawnmower (With Mulching) 
+,http://www.cheapmowers.com/acatalog/Mowerland_Electric_Mini_Tiller_.html,82.50,,Mowerland Electric Mini Tiller 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_45-0329_ATV_Towed_Broadcast_Spreader.html,238.99,,AGRI-FAB 45-0329 ATV Towed Broadcast Spreader
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_SPRAYER_45-0293_Pro_Sprayer_25Gal.html,378.95,,AGRI-FAB SPRAYER 45-0293 Pro Sprayer 25Gal
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_Towed_40_inch_Plug_Aerator_45-0299.html,216.95,,AGRI-FAB Towed 40 inch Plug Aerator (45-0299) 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_48_inch__SPRING_TINE_DETHATCHER_45-02951.html,114.95,,AGRI-FAB 48 inch SPRING TINE DETHATCHER (45-0295) 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_Towed_44in_Smart_Sweeper_45-0456.html,324.95,,Agri-Fab Towed 44in Smart Sweeper 45-0456
+,http://www.cheapmowers.com/acatalog/Agri-Fab_ATV_Tandem_Axle_Trailer_45-0350.html,659.95,,Agri-Fab ATV Tandem Axle Trailer 45-0350
+,http://www.cheapmowers.com/acatalog/Agri_Fab_45-0474_Smartlink_Lawncare_Core_Aerator_Unit_.html,113.95,,Agri Fab 45-0474 Smartlink Lawncare Core Aerator Unit 
+,http://www.cheapmowers.com/acatalog/ALM_4_Stroke_Start_Up_Kit_MS001_.html,15.50,,ALM 4 Stroke Start Up Kit MS001 
+,http://www.cheapmowers.com/acatalog/Allett_Expert_Kensington_14E_Self_Propelled_Electric_Cylinder_Lawnmower.html,438.00,,Allett  Kensington 14E Self Propelled Electric Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Allett_Expert_Kensington_12E_Self_Propelled_Electric_Cylinder_Lawnmower.html,389.00,,Allett  Kensington 12E Self Propelled Electric Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Apache_RTT3_Rear_Tine_Tiller_Rotavator_Cultivator.html,999.95,,Apache RTT3 Rear Tine Tiller Cultivator Rotavator
+,http://www.cheapmowers.com/acatalog/BILLY_GOAT_MV650SPH_Professional_Vacuum.html,2154.95,,BILLY GOAT MV650SPH Professional Self Propelled Vacuum.
+,http://www.cheapmowers.com/acatalog/Bosch_AKE_30_LI_Cordless_Chainsaw.html,324.95,,Bosch AKE 30 LI Cordless Chainsaw
+,http://www.cheapmowers.com/acatalog/Bosch_AXT_25_TC_Garden_Shredder_2500W.html,347.95,,Bosch AXT 25 TC Garden Shredder 2500W 
+,http://www.cheapmowers.com/acatalog/Bosch_AXT_23_TC_Garden_Shredder_2300W.html,323.95,,Bosch AXT 23 TC Garden Shredder 2300W 
+,http://www.cheapmowers.com/acatalog/Bosch_AXT_25D_Garden_Shredder_-_2200W_Quiet_Shredder_.html,244.99,,Bosch AXT 25D Quiet Garden Shredder - 2500W  
+,http://www.cheapmowers.com/acatalog/Bosch_AXT_22D_Garden_Shredder_-_2200W_Quiet_Shredder_.html,228.95,,Bosch AXT 22D Quiet Garden Shredder - 2200W  
+,http://www.cheapmowers.com/acatalog/Bosch_AXT_Rapid_2200_Electric_Garden_Shredder.html,148.99,,Bosch AXT Rapid 2200 Electric Garden Shredder
+,http://www.cheapmowers.com/acatalog/Bosch_Rapid_2000_Electric_Garden_Shredder.html,134.95,,Bosch AXT Rapid 2000 Electric Garden Shredder
+,http://www.cheapmowers.com/acatalog/Bosch_AKE_40-19_S_Electric_Chainsaw.html,113.95,,Bosch AKE 40-19 S Electric Chainsaw
+,http://www.cheapmowers.com/acatalog/Bosch_AKE_35-19_S_Electric_Chainsaw.html,104.99,,Bosch AKE 35-19 S Electric Chainsaw
+,http://www.cheapmowers.com/acatalog/BOSCH_CHAINSAW_AKE_40_Electric_Chain_Saw.html,89.99,,BOSCH CHAINSAW - AKE 40 Electric Chain Saw
+,http://www.cheapmowers.com/acatalog/BOSCH_CHAINSAW_AKE_35S_Electric_Chain_Saw.html,89.99,,BOSCH CHAINSAW - AKE 35SS Electric Chain Saw
+,http://www.cheapmowers.com/acatalog/BILLY_GOAT_MV650H_Professional_push_Vacuum.html,1894.99,,BILLY GOAT MV650H Professional Push Vacuum.
+,http://www.cheapmowers.com/acatalog/Billy_Goat_TKV650SPH_-_Self_Proplled__Vacuum_Chipper__Honda__.html,1479.95,,Billy Goat TKV650SPH - Self Propelled Petrol Vacuum Chipper (HONDA)
+,http://www.cheapmowers.com/acatalog/Billy_Goat_KV650SPH__Self_Propelled_Vacuum_.html,1319.95,,Billy Goat KV650SPH - Self Propelled Petrol Vacuum (HONDA)
+,http://www.cheapmowers.com/acatalog/Billy_Goat_KV600SP__Self_Propelled_Vacuum_.html,1198.99,,Billy Goat KV600SP - Self Propelled Petrol Vacuum 
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS_54-20_LI_Cordless_Hedgecutter_.html,189.95,,BOSCH AHS 54-20 LI Cordless Hedgecutter 
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_52_LI_Cordless_Hedgetrimmer_Cutter.html,94.99,,Bosch AHS 52 LI Cordless Hedgetrimmer
+,http://www.cheapmowers.com/acatalog/Bosch_Cordless_Hedgecutter_AHS_52_ACCU_.html,78.95,,Bosch Cordless Hedgecutter AHS 52 ACCU 
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_48_LI_Cordless_Hedgetrimmer.html,86.95,,Bosch AHS 48 LI Cordless Hedgetrimmer
+,http://www.cheapmowers.com/acatalog/Bosch_Cordless_Hedgecutter_AHS_41_ACCU_.html,63.95,,Bosch Cordless Hedgecutter AHS 41 ACCU
+,http://www.cheapmowers.com/acatalog/Billy_Goat_KV650H_Push_Wheeled_Vacuum_27inch.html,1039.99,,Billy Goat KV650H - Honda Powered Wheeled Vacuum 
+,http://www.cheapmowers.com/acatalog/Billy_Goat_KV600_Push_Wheeled_Vacuum_27.html,914.95,,Billy Goat KV600 Push Wheeled Vacuum 27in 
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS7000_Pro_T_Hedge_Trimmer_.html,128.95,,BOSCH AHS7000 Pro T Hedge Trimmer 
+,http://www.cheapmowers.com/acatalog/BOSCH_ASB_10.8_LI_Battery_Cordless_Shrub_Shear.html,78.95,,BOSCH ASB 10.8 LI Battery Cordless Shrub Shear
+,http://www.cheapmowers.com/acatalog/Bosch_Ciso_Cordless_Secateur_Li_Ion.html,54.95,,Bosch Ciso Cordless Secateur Li Ion
+,http://www.cheapmowers.com/acatalog/Bosch_Isio_Telescopic_Edging_Shears_Li_Ion_Cordless.html,64.99,,Bosch Isio Telescopic Edging Shears Li Ion Cordless
+,http://www.cheapmowers.com/acatalog/Bosch_Isio__Shape_and__Edge_combination_Cordless_Powered.html,59.95,,Bosch Isio Cordless Shape & Edge Combination
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS6000_Pro_T_Hedge_Trimmer_Cutter.html,119.95,,BOSCH AHS6000 Pro T Hedge Trimmer 
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS600-24ST_Electric_Hedgecutter_Trimmer.html,102.95,,BOSCH AHS600-24ST Electric Hedgecutter Trimmer
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS550-24ST_Electric_Hedgecutter.html,94.99,,BOSCH AHS550-24ST Electric Hedgecutter
+,http://www.cheapmowers.com/acatalog/BOSCH_AHS480-24T_Electric_Hedgecutter.html,86.95,,BOSCH AHS480-24T Electric Hedgecutter
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_60-16_Hedge_Cutter.html,63.95,,Bosch AHS 60-16 Hedge Cutter
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_55-16_Hedge_Cutter.html,59.95,,Bosch AHS 55-16 Hedge Cutter
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_50-16_Hedge_Cutter.html,55.99,,Bosch AHS 50-16 Hedge Cutter
+,http://www.cheapmowers.com/acatalog/Bosch_AHS_45-16_Hedge_Cutter.html,52.99,,Bosch AHS 45-16 Hedge Cutter
+,http://www.cheapmowers.com/acatalog/Billy_Goat_LB61_-_Little_Billy_6HP_Push_Wheeled_Vacuum_.html,563.95,,Billy Goat LB351 - Little Billy 6HP Push Wheeled Vacuum 
+,http://www.cheapmowers.com/acatalog/Apache_Euro_5H_Tiller_Cultivator_Rotavator.html,574.99,,Apache Euro 5H Tiller Cultivator Rotavator Honda 5.5HP with Reverse
+,http://www.cheapmowers.com/acatalog/Apache_Euro_5_Tiller_Cultivator_Rotavator.html,547.99,,Apache Euro 5 Tiller Cultivator Rotavator B&S 5HP with Reverse
+,http://www.cheapmowers.com/acatalog/Apache_Z2__Hobby_Cultivator_Tiller_.html,349.99,,Apache Z2  Hobby Cultivator Tiller 3.5HP
+,http://www.cheapmowers.com/acatalog/Apache_Euro_1_Cultivator_Tiller_.html,294.95,,Apache Cultivator - Euro 1
+,http://www.cheapmowers.com/acatalog/Allett_Classic_12E_Electric_Cylinder_Lawnmower.html,299.00,,Allett Classic 12E Electric Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Agri_Fab_45-0458_Smartlink_Lawncare_Curved_Turf_Shark_Unit_.html,104.95,,Agri Fab 45-0458 Smartlink Lawncare Curved Turf Shark Unit 
+,http://www.cheapmowers.com/acatalog/Agri_Fab_45-0459_Smartlink_Lawncare_Poly_Roller__Unit_.html,159.95,,Agri Fab 45-0459 Smartlink Lawncare Poly Roller  Unit 
+,http://www.cheapmowers.com/acatalog/Agri_Fab_45-0454_Smartlink_Lawncare_Dethatcher_Unit_.html,86.95,,Agri Fab 45-0457 Smartlink Lawncare Dethatcher Unit 
+,http://www.cheapmowers.com/acatalog/Agri_Fab_45-0473_Smartlink_Lawncare_Base_Unit_.html,144.95,,Agri Fab 45-0473 Smartlink Lawncare Base Unit 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_HEAVY_DUTY_DUMP_CART_45-0184.html,299.95,,AGRI-FAB HEAVY DUTY DUMP CART 45-0184
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_ATV_Trailer_Cart_45-0175_.html,288.95,,AGRI-FAB ATV Trailer Cart 45-0175 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_TOWED_TIPPING_SMART_CART_800_lbs__45-0464-LF__.html,284.95,,AGRI-FAB TOWED TIPPING Smart-Cart 650 lbs (45-0464) 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_Towed_Push_Cart_500lbs__45-0345__.html,148.99,,AGRI-FAB Towed/Push Cart 500lbs (45-0345) 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0101_Tipping_Tractor_Trailer_.html,149.95,,Agri-Fab 45-0101 Tipping Tractor Trailer 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_Economy_Steel_Tipping_Trailer_25-0100.html,134.95,,Agri-Fab Economy Steel Tipping Trailer 25-0100
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0261_High-Speed_Leaf-Sweeper.html,324.95,,Agri-Fab 45-0261 High-Speed Leaf-Sweeper
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_38_inch__TOWED_LAWN_SWEEPER_45-0331.html,228.95,,AGRI-FAB 38inch TOWED LAWN SWEEPER (45-0331) 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_26__PUSH_LAWN_SWEEPER__45-0218__.html,137.99,,AGRI-FAB 26 inch PUSH LAWN SWEEPER (45-0218) 
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_40_SPRING_TINE_DETHATCHER_45-0294.html,83.95,,AGRI-FAB 40 in SPRING TINE DETHATCHER (45-0294) 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_40inch_Towed_Curved_Spike_Aerator_45-0369.html,137.95,,Agri-Fab 40inch Towed Curved Spike Aerator 45-0369
+,http://www.cheapmowers.com/acatalog/Agri-Fab_Towed_Sprayer_15gal_45-0292.html,328.99,,AGRI-FAB SPRAYER 15  PRO. SPRAYER 45-0292 
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0288_Tow-Behind_Drop-Spreader.html,238.50,,Agri-Fab 45-0288 Tow-Behind Drop-Spreader
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0463_Smart_Spreader_56kg_Towed.html,199.99,,Agri-Fab 45-0463 Smart Spreader 56kg Towed
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0462_Smart_Spreader_56kg_Push.html,199.99,,Agri-Fab 45-0462 Smart Spreader 56kg Push
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-02142_Push_100lb_Spreader.html,138.95,,Agri-Fab 45-0214 Push 100lb Spreader
+,http://www.cheapmowers.com/acatalog/AGRI-FAB_Towed_Broadcast_Spreader_100_lbs__45-02152___.html,145.99,,AGRI-FAB Towed Broadcast Spreader 100 lbs (45-0215)  
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0388_Push_Broadcast_Spreader_85lb.html,84.95,,Agri-Fab 45-0388 Push Broadcast Spreader 85lb
+,http://www.cheapmowers.com/acatalog/Agri-Fab_45-0315_Towed_85lb_Spreader.html,79.99,,Agri-Fab 45-0315 Towed 85lb Spreader
+,http://www.cheapmowers.com/acatalog/Alpina_Power_53LSQBW_Petrol_Lawnmower_53cm_Self_Propelled.html,364.99,,Alpina Power 53LSQBW Petrol Lawnmower 53cm Self Propelled
+,http://www.cheapmowers.com/acatalog/Alpina_Junior_53_LSK_Lawnmower_.html,356.95,,Alpina Junior 53 LSK Lawnmower 
+,http://www.cheapmowers.com/acatalog/Lawn-King_SG940C_Lawnmower_by_Sandrigarden_40cm_Cut_.html,159.95,,Lawn-King SG940C Lawnmower by Sandrigarden 40cm Cut 
+,http://www.cheapmowers.com/acatalog/Bosch__ART26_LI_Cordless_Grass_Trimmer.html,93.95,,"BOSCH ART 26 LI Cordless Grass Trimmer, Strimmer"
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_43_Li_Ergoflex_Cordless_Lawnmower_43cm_.html,385.99,,Bosch Rotak 43 Li Ergoflex Cordless Lawnmower 43cm 
+,http://www.cheapmowers.com/acatalog/Bosch__AVR_1100_Verticutter.html,142.99,,Bosch AVR 1100 Lawnrake Scarifier - Metal Blades 1100w Motor 32cm 
+,http://www.cheapmowers.com/acatalog/Bosch_ALB_18_LI_18v_Cordless_Garden_Leaf_Blower.html,82.96,,Bosch ALB 18 LI 18v Cordless Garden Leaf Blower
+,http://www.cheapmowers.com/acatalog/Briggs_and__Stratton_Pro_Wash_BPW_2700_Professional_Pressure_Washer.html,868.00,,Briggs & Stratton Pro Wash BPW 2700 Professional Petrol Pressure Washer
+,http://www.cheapmowers.com/acatalog/Castel_XM160_HD_Articulated_4WD_Front_Cut_Ride_on_Lawn_Tractor_.html,3349.00,,Castel XK4160 HD Articulated 4WD Front Cut ride on Lawn Tractor Mower 
+,http://www.cheapmowers.com/acatalog/Lawnmaster_TD_500_GOLF_Cylinder_Mower.html,1314.95,,Lawnmaster TD 500 GOLF 10 Bladed Cylinder Mower.
+,http://www.cheapmowers.com/acatalog/Lawnking_XP41ELR_Electric_Lawn_Mower_.html,98.99,,Lawnking XP41EL Electric Lawn Mower 
+,http://www.cheapmowers.com/acatalog/LAWN_MASTER_TD660_Petrol_Cylinder_Lawn_Mower.html,1034.95,,LAWN MASTER TD660C Petrol Cylinder Mower. 
+,http://www.cheapmowers.com/acatalog/Castel_Garden_Tellus_87_B_Scythe_Sickle_Bar_Petrol_Mower_.html,694.50,,Castel Garden Tellus 87 B Scythe Sickle Bar Petrol Mower 
+,http://www.cheapmowers.com/acatalog/ECHO_HCA-265ES_Long_Reach_Articulating_Hedge.html,449.50,,ECHO HCA-265ES Long Reach Articulating Hedge
+,http://www.cheapmowers.com/acatalog/ECHO_HC341ES_Hedgecutter_.html,422.95,,ECHO HC341ES 23.6cc Easy Start Hedgetrimmer
+,http://www.cheapmowers.com/acatalog/ECHO_CS-600_Petrol_Professional_Chainsaw_60cm.html,551.50,,Echo CS600 Professional Chain Saw 45cm 59.8cc
+,http://www.cheapmowers.com/acatalog/ECHO_PB770_63.3cc_2_Stroke_Backpack_Blower_.html,438.95,,ECHO PB770 63.3cc 2 Stroke Backpack Blower 
+,http://www.cheapmowers.com/acatalog/Echo_PB500_Backpack_Petrol_Blower__.html,356.95,,Echo PB500 Backpack Petrol Blower 
+,http://www.cheapmowers.com/acatalog/Echo_PB265ESL_Backpack_Petrol_Garden_Blower.html,314.95,,Echo PB265ESL Backpack Petrol Garden Blower
+,http://www.cheapmowers.com/acatalog/Echo_ES-255ES_Handheld_Garden_Blower_Vac.html,245.95,,Echo ES-255ES Petrol Blower Vac 
+,http://www.cheapmowers.com/acatalog/ECHO_PB251_2_Stroke_Petrol_Garden_Leaf_Blower_.html,209.95,,ECHO PB250 2 Stroke Petrol Garden Leaf Blower 
+,http://www.cheapmowers.com/acatalog/ECHO_Petrol_Handheld_Petrol_Blower_PB2255.html,188.99,,Echo PB2255 Handheld Petrol Blower 
+,http://www.cheapmowers.com/acatalog/Echo_CS-510_Pro_Chainsaw__49cc_45cm_.html,488.99,,Echo CS-510 Pro Chainsaw [49cc/45cm]
+,http://www.cheapmowers.com/acatalog/ECHO_CS-450_Petrol_Chainsaw_Professional_40cm_Cut_.html,427.96,,ECHO CS-450 Petrol Chainsaw Professional 40cm Cut 
+,http://www.cheapmowers.com/acatalog/Echo_CS-420ES_Pro_Chainsaw__40cc_38cm_.html,343.99,,Echo CS-420ES Pro Chainsaw [40cc/38cm]
+,http://www.cheapmowers.com/acatalog/ECHO_CS370_ES_13_inch_Chain_Saw.html,306.50,,Echo CS370 ES 13in Chain Saw 
+,http://www.cheapmowers.com/acatalog/ECHO_CS351_WES_Chain_saw.html,275.75,,"Echo CS351 WES 14"" 35cm Chain Saw"
+,http://www.cheapmowers.com/acatalog/ECHO_CS-270WES_Petrol_Chainsaw_12_inch_30cm__Cut_.html,253.99,,ECHO CS-270WES Petrol Chainsaw 12in 30cm Cut 
+,http://www.cheapmowers.com/acatalog/ECHO_HC331ES_Hedgecutter_.html,412.50,,ECHO HC331ES 23.6cc Easy Start Hedgetrimmer
+,http://www.cheapmowers.com/acatalog/Echo_HCR171ES_Hedgetrimmer____Cutter.html,362.50,,Echo HCR171ES Hedgetrimmer   
+,http://www.cheapmowers.com/acatalog/Echo_HCR161ES_Hedgetrimmer____Cutter.html,350.99,,Echo HCR161ES Hedgetrimmer   
+,http://www.cheapmowers.com/acatalog/Echo_HC-1500_Pro_Hedge_Trimmer_.html,232.99,,Echo HC-1500 Pro Hedge Trimmer 23
+,http://www.cheapmowers.com/acatalog/Dori__460EP_Rough_Cutter_Mower_.html,609.95,,Dori EP50 Rough Cutter Mower 
+,http://www.cheapmowers.com/acatalog/Dori_MD50R_Cutlivator_6HP_83cm___Reverse.html,519.95,,Dori MD50R Cutlivator 6HP 83cm & Reverse
+,http://www.cheapmowers.com/acatalog/Dori_SC520_Pro_Scarifier.html,698.95,,Dori SC520 Pro Scarifier 20in 
+,http://www.cheapmowers.com/acatalog/Dori_SC45BS_Petrol_Lawn_Scarifier_.html,481.99,,Dori SC45BS Petrol Lawn Scarifier 
+,http://www.cheapmowers.com/acatalog/Dori_SC38BS_Petrol_Lawn_Scarifier_.html,394.99,,Dori SC38BS Petrol Lawn Scarifier 
+,http://www.cheapmowers.com/acatalog/Dori_SC38T_Petrol_Lawn_Scarifier_.html,363.95,,Dori SC38T Petrol Lawn Scarifier 
+,http://www.cheapmowers.com/acatalog/Dori_MD40R_Cultivator_60CM_Trinfo_.html,418.99,,Dori MD40R Cultivator 60CM Subaru Engine
+,http://www.cheapmowers.com/acatalog/Dori_MD40M_Cultivator_60CM_Trinfo_.html,394.99,,Dori MD40M Cultivator 60CM Mitsubishi Engine 
+,http://www.cheapmowers.com/acatalog/Dori_MD40T_Cultivator_Rotovator.html,317.95,,Dori MD40T Cultivator 60CM Trinfo 
+,http://www.cheapmowers.com/acatalog/Rally_RWT_42014__Wheeled_Trimmer_Strimmer.html,368.95,,Rally RWT 42014  Wheeled Trimmer Strimmer
+,http://www.cheapmowers.com/acatalog/Castel__XAP55MBSE_Petrol_Lawnmower_Key_Start_51cm_Cut_.html,647.99,,Castel  XAP55MBSE Petrol Lawnmower Key Start 51cm Cut 
+,http://www.cheapmowers.com/acatalog/Castel__XS55MHS3_Lawnmower.html,594.95,,Castel  XA55MHS3 Lawnmower (Self Propelled) (MULCHING OPTION INCLUDED)
+,http://www.cheapmowers.com/acatalog/Castel__XS50RBSE_Lawnmower_.html,409.99,,Castel  XS50RBSE Roller Rotary Lawnmower ( Key Start} 
+,http://www.cheapmowers.com/acatalog/Castel__XS50RHS_Lawnmower_.html,399.95,,Castel  Lawnking XS50RHS Honda Powered  Roller Lawnmower 
+,http://www.cheapmowers.com/acatalog/Castel_Garden_XSEW_55_BSQ_4_in_1Lawnmower__Mower_Self_Propelled_.html,367.99,,Castel XSEW 55 BSQ 4 in 1Lawnmower  Mower Self Propelled 
+,http://www.cheapmowers.com/acatalog/Castel__XS50RGGPS_Lawnmower_.html,299.95,,Castel  Lawnking XS50 RGS Rear Roller Lawnmower (Self Propelled) 
+,http://www.cheapmowers.com/acatalog/LAWN_MASTER_TD500B_Petrol_Cylinder_Lawn_Mower.html,875.95,,LAWN MASTER TD500B Petrol Cylinder Mower.
+,http://www.cheapmowers.com/acatalog/Lawn_King_CR534TRH_Self_Propelled_Petrol_Lawnmower.html,324.95,,Lawn-King CR534TRH Self Propelled Petrol Lawnmower
+,http://www.cheapmowers.com/acatalog/Lawn-King_NR484_WTRB_Self-propelled_Lawnmower.html,287.95,,Lawn-King NR484WTRB Self-propelled Lawnmower
+,http://www.cheapmowers.com/acatalog/Lawn_King_R484TRB_Lawnmower_.html,249.95,,Lawn-King R484TRB Petrol  Lawnmower Self Propelled
+,http://www.cheapmowers.com/acatalog/Lawnking_EP414TRB_Petrol_Lawnmower_39cm_Cut_Self_Propelled_.html,187.99,,Lawnking EP414TRB Petrol Lawnmower 39cm Cut Self Propelled 
+,http://www.cheapmowers.com/acatalog/Lawnking_EP414B_Petrol_Lawnmower_15in_Cut_.html,146.50,,Lawnking EP414B Petrol Lawnmower 15in Cut 
+,http://www.cheapmowers.com/acatalog/Castel_Lawnking_XX220HDE_Lawntractor_.html,3399.00,,Castel Lawnking XX220HDE Lawntractor 
+,http://www.cheapmowers.com/acatalog/Castel_XM160_HD_Articulated_Front_Cut_Ride_on_Lawn_Tractor_.html,2819.00,,Castel XK160 HD Articulated Front Cut ride on Lawn Tractor Mower 
+,http://www.cheapmowers.com/acatalog/Lawn-King_Venturer_Multicut_Ride_on_Lawnmower_.html,2789.95,,Lawn-King Venturer Multicut Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Castel_XM160_HD_Front_Cut_Ride_on_Lawn_Tractor_.html,2619.95,,Castel XM160 HD Front Cut ride on Lawn Tractor Mower 
+,http://www.cheapmowers.com/acatalog/Lawn-King_PT170HD_Lawntractor_Cut.html,2399.99,,Lawn-King PT170HD Lawntractor 40in Cut  
+,http://www.cheapmowers.com/acatalog/Castel_XM140_HD_Front_Cut_Ride_on_Lawn_Tractor_.html,2384.95,,Castel XM140HD Front Cut ride on Lawn  Mower 105cm Cut
+,http://www.cheapmowers.com/acatalog/Castel_XG140HD_Lawn_Tractor_92cm_Cut_Hydro_HONDA_Powered.html,2319.95,,Castel XG145HD Lawn Tractor 92cm Cut Hydro HONDA Powered
+,http://www.cheapmowers.com/acatalog/Lawn-King_PT135HD_Lawntractor_Honda_Powered_40cm_Cut.html,2249.95,,Lawn-King PT135HD Lawntractor Honda Powered 40in Cut
+,http://www.cheapmowers.com/acatalog/Castel_PG140HD_Lawntractor_92cm_Cut_Hydro.html,1889.95,,Castel PG140HD Lawntractor 92cm Cut Hydro
+,http://www.cheapmowers.com/acatalog/CACG12.5_90.html,1599.95,,Castelgarden  CG12.5/90G 36in  Cut Lawn Tractor  
+,http://www.cheapmowers.com/acatalog/Castel_Primo_X1_Front_Cut_Ride_on_Lawntractor.html,1429.99,,Castel Primo X1 Front Cut Ride On Lawnmower 
+,http://www.cheapmowers.com/acatalog/XD_140_Castlegarden_Ride_on_Tractor_Mower_.html,1349.95,,XD 140HD Castlegarden Ride on Lawntractor 38in Cut 
+,http://www.cheapmowers.com/acatalog/Lawn-King_BT84_Lawn_Tractor_by_Castelgarden_33in_Cut_.html,1374.95,,Lawn-King BT84 Lawn Tractor by Castelgarden 33in Cut 
+,http://www.cheapmowers.com/acatalog/Castel_XE75VD_Ride_On_Lawn_Mower_.html,1339.00,,Castel XE75VD Ride On Mower 
+,http://www.cheapmowers.com/acatalog/Castel_C98G_Ride_on_Lawnmower_Tractor.html,1264.99,,Lawn-King C98G Ride Lawntractor by Castelgarden 
+,http://www.cheapmowers.com/acatalog/lawnking_A63MG_Ride_on_Lawnmower_24in_Cut_.html,1189.00,,Lawnking A163MG Ride on Lawnmower 24in Cut 
+,http://www.cheapmowers.com/acatalog/Lawn-King_BT98_Ride_on_Lawn_Tractor_by_Castelgarden.html,1169.95,,Lawn-King BT98 Ride Lawntractor by Castelgarden 
+,http://www.cheapmowers.com/acatalog/Briggs_and__Stratton_Easy_Wash_BPW_2400_Petrol_Pressure_Washer.html,546.50,,Briggs & Stratton Easy Wash BPW 2400 Petrol Pressure Washer
+,http://www.cheapmowers.com/acatalog/Briggs___Stratton_BPW_1950_Petrol_Pressure_Washer.html,229.96,,Briggs & Stratton BPW 1950 Petrol Pressure Washer
+,http://www.cheapmowers.com/acatalog/Bosch_ALR_900_Lawn_Raker_.html,101.95,,Bosch ALR 900 Lawn Raker 900W 32Cm 
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_37_Li_Ergoflex_Cordless_Lawnmower_34cm_.html,323.95,,Bosch Rotak 37 Li Ergoflex Cordless Lawnmower 37cm 
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_34_Li_Ergoflex_Cordless_Lawnmower_34cm_.html,259.99,,Bosch Rotak 34 Li Ergoflex Cordless Lawnmower 34cm 
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_43_Ergoflex__Lawnmower__43cm.html,166.99,,Bosch Rotak 43 Ergoflex  Lawnmower  43cm
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_40_Ergoflex__Lawnmower__40cm.html,149.95,,Bosch Rotak 40 Ergoflex  Lawnmower  40cm
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_34_Ergoflex__Lawnmower__34cm.html,109.99,,Bosch Rotak 34 Ergoflex  Lawnmower  34cm
+,http://www.cheapmowers.com/acatalog/Bosch_ASM32F_Lawnmower_.html,104.95,,Bosch ASM32F Electric Cylinder Lawnmower 
+,http://www.cheapmowers.com/acatalog/Bosch_Rotak_32_Electric_Rotary_Lawnmower__32cm_.html,79.99,,Bosch Rotak 32 Electric Rotary Lawnmower  32cm 
+,http://www.cheapmowers.com/acatalog/bosch_ahm38g_push_mower.html,56.95,,Bosch AHM38G Hand Push Lawnmower 
+,http://www.cheapmowers.com/acatalog/Bosch__ART23_LI_Cordless_Grass_Trimmer.html,86.99,,"BOSCH ART 23 LI Cordless Grass Trimmer, Strimmer"
+,http://www.cheapmowers.com/acatalog/Bosch_ART26_Accutrim_Strimmer_Cordless.html,74.99,,Bosch Cordless Grass Trimmer ART 26 ACCUTRIM
+,http://www.cheapmowers.com/acatalog/Bosch_Art_23_Easytrim_Accu_Battery_Cordless_Grass_Trimmer_.html,52.99,,Bosch Art 23 Easytrim Accu Battery Cordless Grass Trimmer 
+,http://www.cheapmowers.com/acatalog/Bosch_ART23_Accutrim_Trimmer_Strimmer.html,67.99,,Bosch ART23 Accutrim Trimmer Strimmer
+,http://www.cheapmowers.com/acatalog/Bosch_ART30_Combitrim_Trimmer_Strimmer.html,55.99,,Bosch ART30 Combitrim Trimmer Strimmer
+,http://www.cheapmowers.com/acatalog/Bosch_ART_26_COMBITRIM_Strimmer.html,46.99,,Bosch ART26 Combitrim Grass Trimmer
+,http://www.cheapmowers.com/acatalog/Karcher_S650_Outdoor_Sweeper_.html,99.95,,Karcher S650 Outdoor Sweeper 
+,http://www.cheapmowers.com/acatalog/Sheen_Hollow_Tine_Aerator.html,56.89,,Sheen Hollow Tine Aerator
+,http://www.cheapmowers.com/acatalog/Garden_Groom_Versa_Trim_Collecting_3-in-1_Trimmer.html,87.95,,Garden Groom Versa Trim Collecting 3-in-1 Trimmer
+,http://www.cheapmowers.com/acatalog/Gloria_Streuboy_SL_Drop_Spreader_15L_45cm_Working_Width_.html,44.99,,Gloria Streuboy SL Drop Spreader 15L 45cm Working Width 
+,http://www.cheapmowers.com/acatalog/IBEA_50048HM_19_inch_KEY_START_Roller_Rotary_Lawn_Mower.html,689.95,,IBEA 50058BM 19in Key Start  Rear Roller Rotary Lawn Mower
+,http://www.cheapmowers.com/acatalog/Ibea_Idea_47P_47cm__Petrol_Lawnmower_Push_.html,229.99,,Ibea Idea 47P 47cm  Petrol Lawnmower Push 
+,http://www.cheapmowers.com/acatalog/Makita_Garden_PTR-2500_Pole_Petrol_Hedge_.html,456.95,,Makita Garden PTR-2500 Pole Petrol Hedge 
+,http://www.cheapmowers.com/acatalog/Makita_HTB7600_Hedgetrimmer_28.3cc_76cm_Double_Bladed.html,349.99,,Makita HTB7600 Hedgetrimmer 28.3cc 76cm Double Bladed
+,http://www.cheapmowers.com/acatalog/TORO_Blower_Vac__51594.html,109.99,,TORO Electric Blower Vac  51594 Ultra 1450W Variable Speed
+,http://www.cheapmowers.com/acatalog/Merry_Tiller_Super_Major_Pro__Cultivator_Rotavator_Tiller_6HP.html,842.50,,Merry Tiller Super Major PRO Cultivator Rotavator Tiller 6.5HP 
+,http://www.cheapmowers.com/acatalog/Eliet_501HC_Lawn_Scarifier.html,1744.99,,Eliet 501HC Petrol Lawn Scarifier Honda Powered 
+,http://www.cheapmowers.com/acatalog/Hitachi_CSEX___Petrol_Pole_Hedgetrimmer_60cm_Extension__.html,53.99,,Hitachi CSEX   Petrol Pole Hedgetrimmer 60cm Extension  
+,http://www.cheapmowers.com/acatalog/Hitachi_RB160EF_Petrol_Back_Pack_Blower_64.9cc_.html,479.99,,Hitachi RB160EF Petrol Back Pack Blower 64.9cc 
+,http://www.cheapmowers.com/acatalog/Solo__402_Sprayer_2L_.html,22.50,,Solo  402 Sprayer 2L 
+,http://www.cheapmowers.com/acatalog/Solo__461_Sprayer_5L_.html,31.99,,Solo  461 Sprayer 5L 
+,http://www.cheapmowers.com/acatalog/Grillo_G131_Heavy_Duty_Rear_Tine_Tiller_11HP_Lombardini_Diesel_.html,4063.00,,Grillo G131 Heavy Duty Rear Tine Tiller 11HP Lombardini Diesel 
+,http://www.cheapmowers.com/acatalog/Ryetec_Eco_80B6_Petrol_Log_Splitter.html,944.95,,Ryetec Eco 80B6 Petrol Log Splitter
+,http://www.cheapmowers.com/acatalog/copy_of_Sanli_GTS33_Petrol_Brush_Cutter___Strimmer.html,179.99,,Sanli GTS43 Petrol Brush Cutter / Strimmer
+,http://www.cheapmowers.com/acatalog/Sanli_GTS33_Petrol_Brush_Cutter___Strimmer.html,162.95,,Sanli GTS33 Petrol Brush Cutter / Strimmer
+,http://www.cheapmowers.com/acatalog/Sanli_GTS26_Petrol_Brush_Cutter___Strimmer.html,134.95,,Sanli GTS26 Petrol Brush Cutter / Strimmer
+,http://www.cheapmowers.com/acatalog/Sanli_GTE1000_Electric_Grass_Trimmer__35cm.html,94.99,,Sanli GTE1000 Electric Grass Trimmer  35cm
+,http://www.cheapmowers.com/acatalog/Ryetec_Eco_85_Electric_Log_Splitter.html,784.99,,Ryetec Eco 85 Electric Log Splitter
+,http://www.cheapmowers.com/acatalog/Ryetec_Eco_60_Electric_Log_Splitter.html,639.95,,Ryetec Eco 60 Electric Log Splitter
+,http://www.cheapmowers.com/acatalog/Ryetec_Eco_50_Log_Splitter.html,289.99,,Ryetec 50 Log Splitter
+,http://www.cheapmowers.com/acatalog/Grillo_G55_Heavy_Duty_Rear_Tine_Tiller_5HP_Subaru_.html,1725.00,,Grillo G55 Heavy Duty Rear Tine Tiller 5HP 
+,http://www.cheapmowers.com/acatalog/Solo__462_Sprayer__7.5L_.html,38.99,,Solo  462 Sprayer  7.5L 
+,http://www.cheapmowers.com/acatalog/Solo__456_Sprayer__5L_.html,42.95,,Solo  456 Sprayer  5L 
+,http://www.cheapmowers.com/acatalog/Solo__457_Sprayer__7.5L_.html,48.95,,Solo  457 Sprayer  7.5L 
+,http://www.cheapmowers.com/acatalog/Solo__425_P_Sprayer__15L_.html,105.95,,Solo  425/P Sprayer  15L 
+,http://www.cheapmowers.com/acatalog/Solo__475_D_Sprayer__15L_.html,105.95,,Solo  475/D Sprayer  15L 
+,http://www.cheapmowers.com/acatalog/Solo__485_D_Sprayer__20L_.html,113.99,,Solo  485/D Sprayer  20L 
+,http://www.cheapmowers.com/acatalog/Hitachi_RB100EF_Petrol_Back_Pack_Blower_43.1cc_.html,374.99,,Hitachi RB100EF Petrol Back Pack Blower 43.1cc 
+,http://www.cheapmowers.com/acatalog/Hitachi_RB24E_24cc_Handheld_Garden_Blower_With_Optional_Vacuum_Kit.html,219.95,,Hitachi RB24E 24cc Handheld  Blower Vac 
+,http://www.cheapmowers.com/acatalog/Hitachi_RB24EAP_23.9cc_Petrol_Leaf_Blower__.html,178.99,,Hitachi RB24EAP 23.9cc Petrol Leaf Blower 
+,http://www.cheapmowers.com/acatalog/Hitachi_CH55EPC__S___Petrol_Pole_Hedgetrimmer_26.9cc_.html,414.95,,Hitachi CH55EPC (S)  Petrol Pole Hedgetrimmer 26.9cc 
+,http://www.cheapmowers.com/acatalog/Hitachi_CH55EPA__S___Petrol_Pole_Hedgetrimmer_21.1cc_.html,369.95,,Hitachi CH55EPA (S)  Petrol Pole Hedgetrimmer 21.1cc 
+,http://www.cheapmowers.com/acatalog/Hitachi_CH78EC_SC___Petrol_Hedgetrimmer_23.9cc_Single_Sided.html,309.95,,Hitachi CH78EC(SC)  Petrol Hedgetrimmer 23.9cc Single Sided
+,http://www.cheapmowers.com/acatalog/Hitachi_CH66EB_ST__Petrol_Hedgetrimmer_21.1cc_Double_Sided.html,281.99,,Hitachi CH66EB(ST) Petrol Hedgetrimmer 21.1cc Double Sided
+,http://www.cheapmowers.com/acatalog/Hitachi_CH55EB_ST___Petrol_Hedgetrimmer_21.1cc_Double_Sided.html,224.95,,Hitachi CH55EB(ST)  Petrol Hedgetrimmer 21.1cc Double Sided
+,http://www.cheapmowers.com/acatalog/Hitachi_CH62EA3__Petrol_Hedgetrimmer_21.1cc_Double_Sided.html,182.95,,Hitachi CH62EA3  Petrol Hedgetrimmer 21.1cc Double Sided
+,http://www.cheapmowers.com/acatalog/Eliet_EL401HC_Scarifier___Petrol_Lawn_.html,879.95,,Eliet EL401HC Petrol Scarifier   
+,http://www.cheapmowers.com/acatalog/Merry_Tiller_Super_Major_Cultivator_Rotavator_Tiller_6HP.html,761.95,,Merry Tiller Super Major Cultivator Rotavator Tiller 6HP
+,http://www.cheapmowers.com/acatalog/Merry_Tiller_Major_Cultivator_Tiller_Rotavator_4HP_.html,597.50,,Merry Tiller Major Cultivator Tiller Rotavator 4HP 
+,http://www.cheapmowers.com/acatalog/TORO_Blower_Vac__51593_.html,92.95,,TORO Electric Blower Vac  51593 1450W 2 Speed
+,http://www.cheapmowers.com/acatalog/Makita_HTR7610_Single_Sided_Hedge_Cutter_.html,377.95,,Makita HTR7610 Single Sided Hedge Cutter 
+,http://www.cheapmowers.com/acatalog/Makita_HTR5600_Petrol_Hedge_Trimmer_Cutter_.html,334.99,,Makita HTR5600 Petrol Hedge Trimmer Cutter 
+,http://www.cheapmowers.com/acatalog/Makita_HTR4900_Petrol_Hedge_Trimmer_Cutter_.html,314.95,,Makita HTR4901 Petrol Hedge Trimmer Cutter 
+,http://www.cheapmowers.com/acatalog/Makita_UH5540_2_Hedgetrimmer_600W_55cm_Double_Bladed.html,161.99,,Makita UH5540/2 Hedgetrimmer 600W 55cm Double Bladed
+,http://www.cheapmowers.com/acatalog/Makita_UH4570_2_Hedgetrimmer_550W_45cm_Double_Bladed.html,117.95,,Makita UH4570/2 Hedgetrimmer 550W 45cm Double Bladed
+,http://www.cheapmowers.com/acatalog/Ibea_Idea_42P_42cm__Petrol_Lawnmower_Push_.html,217.99,,Ibea Idea 42P 42cm  Petrol Lawnmower Push 
+,http://www.cheapmowers.com/acatalog/Gloria__Heavy_Duty_Sprayer__10L_Type_410_T.html,189.95,,Gloria  Heavy Duty Sprayer  10L Type 410 T
+,http://www.cheapmowers.com/acatalog/Gloria__Heavy_Duty_Sprayer__5L_Type_405_T.html,164.99,,Gloria  Heavy Duty Sprayer  5L Type 405 T
+,http://www.cheapmowers.com/acatalog/Gloria__Piston_Knapsack_Sprayer__16L_Type_2016.html,152.99,,Gloria  Piston Knapsack Sprayer  16L Type 2016
+,http://www.cheapmowers.com/acatalog/Gloria__Piston_Knapsack_Sprayer__18L_Type_2018.html,119.95,,Gloria  Piston Knapsack Sprayer  18L Type 2018
+,http://www.cheapmowers.com/acatalog/Gloria__Piston_Knapsack_Sprayer__12L_Type_2012.html,84.95,,Gloria  Piston Knapsack Sprayer  12L Type 2012
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer__Hobby_Exclusive__5L_Type_262.html,69.95,,Gloria  Pressure  Sprayer  Hobby Exclusive  5L Type 262
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer__Hobby_Universal__5L_Type_261.html,59.99,,Gloria  Pressure  Sprayer  Hobby Universal  5L Type 261
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer__Prima_5L__Type_81.html,49.00,,Gloria  Pressure  Sprayer  Prima 5L  Type 81
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer__Spray_N_Paint_5L_Type_101.html,39.95,,Gloria  Pressure  Sprayer  Spray N Paint 5L Type 101
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer__Hobby_125_1.25L__Type_25.html,29.99,,Gloria  Pressure  Sprayer  Hobby 125 1.25L  Type 25
+,http://www.cheapmowers.com/acatalog/Gloria__Pressure__Sprayer_1L__Type_133.html,20.50,,Gloria  Pressure  Sprayer 1L  Type 133
+,http://www.cheapmowers.com/acatalog/Sanli_CS45-45_38cc_Petrol_Chainsaw.html,149.95,,Sanli CS45-45 45cc Petrol Chainsaw
+,http://www.cheapmowers.com/acatalog/Sanli_BSB60_Petrol_BackPack_Blower.html,218.95,,Sanli BSB60 Petrol BackPack Blower
+,http://www.cheapmowers.com/acatalog/Sanli_GS2400_Generator_Petrol_.html,264.95,,Sanli GS2400 Generator Petrol 
+,http://www.cheapmowers.com/acatalog/Sanli_LSPR48__Roller_Rotary_Lawn_Mower_19in_Cut.html,378.95,,Sanli LSPR48  Roller Rotary Lawn Mower 
+,http://www.cheapmowers.com/acatalog/Sanli_LSPR42__Roller_Rotary_Lawn_Mower_19in_Cut.html,299.00,,Sanli LSPR42  Roller Rotary Lawn Mower 42cm Cut
+,http://www.cheapmowers.com/acatalog/Grillo_HWT600_Wheeled_Trimmer___Strimmer_5HP_Honda_Powered.html,785.99,,Grillo HWT600 Wheeled Trimmer / Strimmer 5HP Honda Powered
+,http://www.cheapmowers.com/acatalog/Grillo_HWT550_Wheeled_Trimmer___Strimmer_5HP_Honda_Powered.html,586.99,,Grillo HWT550 Wheeled Trimmer / Strimmer 5HP Honda Powered
+,http://www.cheapmowers.com/acatalog/LSP513_3_in_1_Rotary_Mower_5.5hp_51cm_20in_Cutting_Width.html,299.95,,LSP513 3 in 1 Rotary Mower 5.5hp 51cm 20in Cutting Width
+,http://www.cheapmowers.com/acatalog/Sanli_LS42_Premium_Push_Petrol_Lawnmower_42cm_Cut_.html,164.95,,Sanli LS42 Premium Push Petrol Lawnmower 42cm Cut 
+,http://www.cheapmowers.com/acatalog/Sanli_LS40_40cm_Petrol_Lawn_Mower.html,144.95,,Sanli LS40 40cm Petrol Lawn Mower
+,http://www.cheapmowers.com/acatalog/Sanli_GS720_2-Stroke_720w_Generator.html,149.99,,Sanli GS720 2-Stroke 720w Generator
+,http://www.cheapmowers.com/acatalog/Sanli_BSB33_Petrol_BackPack_Blower.html,157.99,,Sanli BSB33 Petrol BackPack Blower
+,http://www.cheapmowers.com/acatalog/Sanli_EBV260BN_Petrol_Blower____Vac.html,129.95,,Sanli EBV260BN Petrol Blower   Vac
+,http://www.cheapmowers.com/acatalog/Sanli_CS37-40_38cc_Petrol_Chainsaw.html,119.95,,Sanli CS37-40 38cc Petrol Chainsaw
+,http://www.cheapmowers.com/acatalog/SANLI_CE2200_Electric_Chainsaw.html,94.99,,SANLI CE2200 Electric Chainsaw
+,http://www.cheapmowers.com/acatalog/SANLI_CE1800_Electric_Chainsaw.html,87.95,,SANLI CE1800 Electric Chainsaw
+,http://www.cheapmowers.com/acatalog/Gloria__Sprayer_1L__Type_138.html,17.50,,Gloria  Sprayer 1L  Type 138
+,http://www.cheapmowers.com/acatalog/Gloria_Fine_Sprayer_0.5L__Type_137.html,16.50,,Gloria Fine Sprayer 0.5L  Type 137
+,http://www.cheapmowers.com/acatalog/Gloria_Fine_Atomiser_Sprayer_0.3l__Type_208.html,16.50,,Gloria Fine Atomiser Sprayer 0.3l  Type 208
+,http://www.cheapmowers.com/acatalog/Garden_Groom_Pro_Hedge_Trimmer_Cutter.html,86.95,,Garden Groom Pro Hedge Trimmer Cutter Free Volume Bag
+,http://www.cheapmowers.com/acatalog/Garden_Groom_Midi_-_Safety_Hedge_Trimmer_-_includes_FREE_Volume_Bag.html,71.50,,Garden Groom Midi - Safety Hedge Trimmer - includes FREE Volume Bag
+,http://www.cheapmowers.com/acatalog/Garden_Groom_Garden_Barber_Hedge_Trimmer_and_Shaper.html,71.50,,Garden Groom Garden Barber Hedge and Shrub Shaper 
+,http://www.cheapmowers.com/acatalog/Solo_64618_Semi_Professional__Chainsaw_18in__45.1cc_.html,390.95,,Solo 64618 Semi Professional  Chainsaw 18in 47cm 45.1cc 
+,http://www.cheapmowers.com/acatalog/copy_of_Hitachi_CSEXB__Pole_saw_90cm_extension_bar._.html,58.50,,Hitachi CSEXB  Pole saw 90cm extension bar. 
+,http://www.cheapmowers.com/acatalog/Hitachi_CG40EF__L__Backpack_Brushcutter_39.3cc.html,424.99,,Hitachi CG40EF (L) Backpack Brushcutter 39.3cc
+,http://www.cheapmowers.com/acatalog/Multi_Purpose_Sieve_Screen_for_Eliet_Minor_Pro_Shredders.html,144.95,,Multi Purpose Sieve Screen for Eliet Minor Pro Shredders
+,http://www.cheapmowers.com/acatalog/Brill_2300ESK_Electric_Garden_Shredder.html,384.95,,Brill 2300ESK Electric Garden Shredder
+,http://www.cheapmowers.com/acatalog/Mulching_Plug_-_Fits_92cm_Brill_Crossover_Tractors.html,58.00,,Mulching Plug - Fits Brill Crossover 92CM Tractors
+,http://www.cheapmowers.com/acatalog/Brill_40VB_Petrol_Lawn_Scarifier.html,434.95,,Brill 40 VB Petrol Lawn Scarifier
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_Vacuum_Chipper_Bagger_11HP.html,1184.00,,Mighty Mac Vacuum Chipper Bagger 11HP 
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_Woodsman_Pro_10HP_Chipper_Shredder.html,1689.95,,WOODSMAN PRO (Mighty Mac) 10HP Chipper Shredder 
+,http://www.cheapmowers.com/acatalog/Toro_Titan_ZX5420_Zero_Turn_Ride_on_Mower.html,4949.00,,Toro Titan ZX5420 Zero Turn Ride on Lawnmower
+,http://www.cheapmowers.com/acatalog/Toro_Power_Throw_722E_Snow_Blower_Thrower.html,899.95,,Toro Power Throw 722E Snow Blower Thrower
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro_Anti-Vibration_Handlebar_Kit__450_500_550.html,64.99,,"Toro HoverPro Anti-Vibration Handlebar Kit, 450,500,550"
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro_Extension_Handlebars_fits_450_500_550.html,56.99,,"Toro HoverPro Extension Handlebars fits 450,500,550"
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro_550_Lawnmower_-_Honda_Powered__02606_.html,449.95,,Toro HoverPro 550 Lawnmower - Honda Powered (02606)
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro_500_Lawnmower_-_Honda_Powered__02604_.html,434.50,,Toro HoverPro 500 Lawnmower - Honda Powered (02604)
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro450_Lawnmower_.html,394.99,,Toro HoverPro 450 Lawnmower - Honda Powered (02602) 
+,http://www.cheapmowers.com/acatalog/Toro_HoverPro_400_Lawnmower_.html,378.95,,Toro HoverPro 400 Lawnmower - Honda Powered (02600)
+,http://www.cheapmowers.com/acatalog/Toro_Quick_Clear_CCR_6053R_Snow_Blower_Thrower.html,599.95,,Toro Quick Clear CCR 6053R Snow Blower Thrower
+,http://www.cheapmowers.com/acatalog/Toro_Titan_ZX4820_Zero_Turn_Ride_on_Mower.html,4595.00,,Toro Titan ZX4820 Zero Turn Ride on Lawnmower
+,http://www.cheapmowers.com/acatalog/Toro_ZS_5000_Timecutter_Zero_Turn_Ride_on_Lawnmower_.html,3549.00,,Toro ZS 5000 Timecutter Zero Turn Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Toro_DH220_Lawn_Tractor_.html,3449.95,,Toro DH220 Lawn Tractor 40in Cut 
+,http://www.cheapmowers.com/acatalog/Toro_DH210_Lawn_Tractor_.html,2999.00,,Toro DH210 Lawn Tractor 40in Cut Hydrostatic
+,http://www.cheapmowers.com/acatalog/Mulch_Plug_Accessory_-_Brill_41_EM_Lawnmower_.html,16.00,,Mulch Plug Accessory - Brill 41 EM Evolution Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Hattrick_Electric_Lawnmower_and_Aerator.html,209.95,,Brill Hattrick 36 EH Electric Rotary Lawnmower & Aerator
+,http://www.cheapmowers.com/acatalog/Brill_Evolution_41_EM_Electric_Lawnmower.html,184.99,,Brill Evolution 41 EM Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Evolution_36_EM_Electric_Lawnmower.html,164.50,,Brill Evolution 36 EM Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Basic_40E_Electric_Lawnmower.html,136.96,,Brill Basic 40E Electric Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Evolution_33_EM_Electric_Lawnmower.html,136.99,,Brill Evolution 33 EM Electric Rotary Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Basic_34E_Electric_Lawnmower.html,108.95,,Brill Basic 34E Electric Lawnmower
+,http://www.cheapmowers.com/acatalog/Toro_ZS_4200_Timecutter_Zero_Turn_Ride_on_Lawnmower_.html,2899.00,,Toro ZS 4200 Timecutter Zero Turn Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Toro_ZS_3200_Timecutter_Zero_Turn_Ride_on_Lawnmower_.html,2399.00,,Toro ZS 3200 Timecutter Zero Turn Ride on Lawnmower 
+,http://www.cheapmowers.com/acatalog/Toro_XLS-420T_Ride_on_Lawn_Tractor_Mower.html,2349.00,,Toro XLS-420T Ride on Lawn Tractor Mower
+,http://www.cheapmowers.com/acatalog/Toro_XLS-380_Ride_on_Lawn_Tractor_Mower.html,1995.00,,Toro XLS-380 Ride on Lawn Tractor Mower
+,http://www.cheapmowers.com/acatalog/Toro_H132_Ride_on_Lawn_Mower_13HP_32in_Cut.html,1799.95,,Toro H132 Ride on Lawn Mower 13HP 32in Cut
+,http://www.cheapmowers.com/acatalog/Toro_DH140_Lawn_Tractor_.html,1999.00,,Toro DH140 Lawn Tractor 
+,http://www.cheapmowers.com/acatalog/Toro_22188_TE_53cm_Commercial_Lawn_Mower_BBC_Clutch_.html,902.00,,Toro 22188 TE 53cm Commercial Lawn Mower BBC Clutch 
+,http://www.cheapmowers.com/acatalog/Toro_22189TE_53cm_Petrol_Lawnmower_BBC_Clutch_.html,902.00,,Toro 22189TE 53cm Petrol Lawnmower BBC Clutch 
+,http://www.cheapmowers.com/acatalog/Toro_22187_TE_53cm_Commercial_Lawn_Mower.html,819.18,,Toro 22187 TE 53cm Commercial Lawn Mower
+,http://www.cheapmowers.com/acatalog/Toro_22186TE_Lawnmower_Heavy_Duty_53cm_Cut.html,738.00,,Toro 22186TE Lawnmower Heavy Duty 53cm Cut
+,http://www.cheapmowers.com/acatalog/Toro_20897_53cm_Petrol_Lawnmower_.html,639.00,,Toro 20897 53cm Petrol Lawnmower BBC Clutch 
+,http://www.cheapmowers.com/acatalog/Toro_20797_Recycler_Key_Start_Auto_Drive_Mower_21in_Cut.html,565.00,,Toro 20797 Recycler Key Start Auto Drive Mower 21in Cut
+,http://www.cheapmowers.com/acatalog/Toro_20899_Lawnmower_53cm_Super_Bagger.html,539.95,,Toro 20899 Lawnmower 53cm Super Bagger Honda Powered
+,http://www.cheapmowers.com/acatalog/Toro_20837_ADS_3-in-1_Self_Propelled_Petrol_Rotary_Lawn_mower.html,556.00,,Toro 20837 ADS 3-in-1 Self Propelled Petrol Rotary Lawn mower
+,http://www.cheapmowers.com/acatalog/Toro_20792_Lawnmower_53cm_Recycler_Petrol_.html,491.00,,Toro 20792 Lawnmower 53cm Recycler Petrol 
+,http://www.cheapmowers.com/acatalog/Toro_20958_Lawnmower_55cm_Recycler_Petrol_.html,474.00,,Toro 20958 Lawnmower 55cm Recycler Petrol 
+,http://www.cheapmowers.com/acatalog/Toro_20956_Lawnmower_55cm_Recycler_Petrol_.html,474.00,,Toro 20956 Lawnmower 55cm Recycler Petrol Key Start
+,http://www.cheapmowers.com/acatalog/Toro_20836_ADS_3-in-1_Self_Propelled_Petrol_Rotary_Lawn_mower.html,450.00,,Toro 20836 ADS 3-in-1 Self Propelled Petrol Rotary Lawn mower
+,http://www.cheapmowers.com/acatalog/Toro_20951_48_cm_AD_Steel_Deck_Recycler__Lawnmower.html,451.00,,Toro 20951 48 cm AD  Recycler Lawnmower Key Start 
+,http://www.cheapmowers.com/acatalog/Toro_20835_Lawnmower_48cm_Super_Bagger.html,405.00,,Toro 20835 Lawnmower 48cm Super Bagger
+,http://www.cheapmowers.com/acatalog/Toro_20955_Lawnmower_55cm_Recycler_Petrol_.html,409.00,,Toro 20955 Lawnmower 55cm Recycler Petrol 
+,http://www.cheapmowers.com/acatalog/Toro_20950_48_cm_AD_Steel_Deck_Recycler__Lawnmower.html,368.00,,Toro 20950 48 cm AD Steel Deck Recycler Lawnmower
+,http://www.cheapmowers.com/acatalog/Toro_29639_50_cm_Steel_Deck_Recycler__Lawnmower.html,327.00,,Toro 29639 50 cm Steel Deck  Lawnmower Self Propelled
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_Woodsman_10_Chipper_Shredder.html,964.99,,Mighty Mac Woodsman 10HP Petrol Shredder/Chipper 
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_Woodsman_6_.html,796.00,,Mighty Mac Woodsman 6 HP Petrol Shredder/Chipper 506
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_LB8EZ_Petrol_Leaf_Blower.html,489.95,,Mighty Mac LB8EZ Petrol Leaf Blower 8HP
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_LB8_Leaf_Blower.html,474.95,,Mighty Mac LB8 Petrol Leaf Blower 8HP
+,http://www.cheapmowers.com/acatalog/Mighty_Mac_LB5_Leaf_Blower.html,352.00,,Mighty Mac LB5 Petrol Leaf Blower 5HP
+,http://www.cheapmowers.com/acatalog/Brill_36VE_Electric_Lawn_Scarifier.html,294.95,,Brill 36VE Electirc Lawn Scarifier
+,http://www.cheapmowers.com/acatalog/Brill__38_VLB_Combi-Care_Petrol_Lawn_Scarifier___Aerator.html,283.99,,Brill  38 VB RL  Combi-Care Petrol Lawn Scarifier + Aerator
+,http://www.cheapmowers.com/acatalog/Brill_38_VE_RL_2-in-1_Scarifier_Aerator_.html,140.50,,Brill 38 VE RL 2-in-1 Scarifier/Aerator 
+,http://www.cheapmowers.com/acatalog/Brill_30VE_Electric_Lawn_Scarifier.html,142.99,,Brill 30VE Electric Lawn Scarifier
+,http://www.cheapmowers.com/acatalog/Brill_Crossover_102_116_H_OHV_Ride_On_Lawn_Tractor_Mower.html,2639.00,,Brill Crossover 102/16H Ride On  Lawn Tractor Mower (Hydrostatic) 
+,http://www.cheapmowers.com/acatalog/Brill_Crossover_92_13_H_Ride_On_Lawn_Tractor_Mower.html,2189.00,,Brill Crossover 92/13H Ride On  Lawn Tractor Mower (Hydrostatic) 
+,http://www.cheapmowers.com/acatalog/Brill_2300LH_Electric_Garden_Shredder.html,346.99,,Brill 2300 LH Electric Garden Shredder
+,http://www.cheapmowers.com/acatalog/Multi_Purpose_Sieve_Screen_for_the_Eliet_Maestro_Shredder.html,142.99,,Multi Purpose Sieve Screen for the Eliet Maestro Shredder
+,http://www.cheapmowers.com/acatalog/Multi_Purpose_Sieve_Screen_for_the_Eliet_Primo_Shredder___.html,124.99,,Multi Purpose Sieve Screen for the Eliet Primo Shredder  
+,http://www.cheapmowers.com/acatalog/Eliet_Minor_Chipper_Shredder_HONDA_Engine_.html,1744.99,,Elite Minor Pro - Shredder Chipper Honda Powered
+,http://www.cheapmowers.com/acatalog/Eliet_Minor_Chipper_Shredder_Briggs_and_Stratton.html,1645.99,,Eliet Minor Pro - Shredder Chipper (Briggs)
+,http://www.cheapmowers.com/acatalog/Eliet_Maestro_Chipper_Shredder_Petrol.html,1054.99,,Eliet Maestro - Chipper Shredder
+,http://www.cheapmowers.com/acatalog/Elite_Primo__Chipper_Shredder_Petrol.html,799.99,,Elite Primo - Shredder Petrol Honda Powered
+,http://www.cheapmowers.com/acatalog/ELIET_Major_Petrol_Shredder_Chipper.html,2599.99,,ELIET Major Petrol Shredder Chipper
+,http://www.cheapmowers.com/acatalog/ELIET_NEO2_Garden_Shredder_.html,584.95,,Eliet Neo2 Garden Shredder 35mm 
+,http://www.cheapmowers.com/acatalog/Brill_Brillencio_43BR_OHC_Petrol_Rotary_Lawnmower.html,524.99,,Brill Brillencio 43BR OHC Petrol  Lawnmower - Magnesium 
+,http://www.cheapmowers.com/acatalog/Brill_RazorCut_Premium_38_Hand_Push_Cylinder_Lawnmower.html,99.95,,Brill RazorCut Premium 38 Hand Push Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_RazorCut_Premium_33_Hand_Push_Cylinder_Lawnmower.html,94.99,,Brill RazorCut Premium 33 Hand Push Cylinder Lawnmower
+,http://www.cheapmowers.com/acatalog/Brill_Brillencio_48BRX_Petrol_Rotary_Lawnmower.html,479.95,,"Brill Brillencio 48BRX 19"" Petrol Rotary Lawnmower Self Propelled"
+,http://www.cheapmowers.com/acatalog/Brill_Brillencio_43B_OHC_Petrol_Rotary_Lawnmower.html,429.95,,Brill Brillencio 43B OHC Petrol  Lawnmower - Magnesium (PUSH)
+,http://www.cheapmowers.com/acatalog/Brill_Steelline_46_XL_R_6.0HP_Lawnmower__Self_Propelled__.html,339.95,,Brill Steelline 46 XL R 6.0HP Lawnmower (Self Propelled) 
+,http://www.cheapmowers.com/acatalog/Mulching_Plug_-_Fits_Brill_42_BM_42_BFR.html,16.00,,Mulching Plug - Fits Brill 42 BM 42 BFR
+,http://www.cheapmowers.com/acatalog/Brill_Steelline_46_XL_6.0HP_Lawnmower__PUSH__.html,319.96,,Brill Steelline 46 XL 6.0HP Lawnmower (Push) 
+,http://www.cheapmowers.com/acatalog/Brill_Steelline_42_XL_6.0HP_Lawnmower__PUSH__.html,287.50,,Brill Steelline 42 XL 6.0HP Lawnmower (Push) 
+,http://www.cheapmowers.com/acatalog/Brill_Evoution_42_BM_16in_Petrol_Rotary_Lawnmower_.html,259.00,,Brill 42 BM 16in Petrol Lawnmower ( Push) 
+,http://www.cheapmowers.com/acatalog/Brill_Steelline_42_XL_4.0HP_Lawnmower_.html,259.99,,Brill Steelline 42 XL 4.0HP Lawnmower (Push) 
+,http://www.cheapmowers.com/acatalog/ELIET_NEO_Garden_Shredder_.html,549.95,,Eliet Neo Garden Shredder 
+,http://www.cheapmowers.com/acatalog/Hitachi_CG47EJ__T__Petrol_Brushcutter_46.5cc.html,382.99,,Hitachi CG47EJ (T) Petrol Brushcutter 46.5cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG40EJ__T__Petrol_Brushcutter_39.8cc.html,362.95,,Hitachi CG40EJ (T) Petrol Brushcutter 39.8cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG25EUS_Petrol_Brush_Cutter.html,359.95,,Hitachi CG25EUS Petrol Brush Cutter
+,http://www.cheapmowers.com/acatalog/Hitachi_CG25EUS_L__Petrol_Brush_Cutter.html,339.95,,Hitachi CG25EUS(L) Petrol Brush Cutter
+,http://www.cheapmowers.com/acatalog/Hitachi_CG27EASP_SL__Petrol_Brush_Cutter.html,314.95,,Hitachi CG27EASP(SL) Petrol Brush Cutter
+,http://www.cheapmowers.com/acatalog/Hitachi_CG33EJ__L__Petrol_Strimmer_32.2cc.html,324.95,,Hitachi CG33EJ (L) Petrol Strimmer 32.2cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG27EJ__SL__Petrol_Strimmer_26.9cc.html,278.95,,Hitachi CG27EJ (SL) Petrol Strimmer 26.9cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG24EKD__SL__Petrol_Strimmer_23.9cc.html,257.99,,Hitachi CG24EKD (SL) Petrol Strimmer 23.9cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG24EASP_SL__Petrol_Brush_Cutter.html,244.99,,Hitachi CG24EASP(SL) Petrol Brush Cutter
+,http://www.cheapmowers.com/acatalog/Hitachi_CG24EKS_SL__Petrol_Brush_Cutter.html,234.95,,Hitachi CG24EKS(SL) Petrol Brush Cutter 
+,http://www.cheapmowers.com/acatalog/Hitachi_CG22EAS_Petrol_Strimmer_21.1cc.html,189.95,,Hitachi CG22EAS SLP Petrol Strimmer / Brushcutter 21.1cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CG22EAB_Petrol_Strimmer_21.1cc.html,146.95,,Hitachi CG22EAB Petrol Strimmer 21.1cc
+,http://www.cheapmowers.com/acatalog/Hitachi_CS25EPB_S___Petrol_Pole_saw_26.9cc_180cm_length.html,376.99,,Hitachi CS25EPB(S)  Petrol Pole saw 26.9cc 180cm length
+,http://www.cheapmowers.com/acatalog/Hitachi_CS45EL_Petrol_Chainsaw_43cc_45cm_Cut.html,326.99,,Hitachi CS45EL Petrol Chainsaw 43cc 45cm Cut
+,http://www.cheapmowers.com/acatalog/Hitachi_CS38EK_Petrol_Chainsaw_38.2cc_38cm_Cut.html,316.99,,Hitachi CS38EK Petrol Chainsaw 38.2cc 38cm Cut
+,http://www.cheapmowers.com/acatalog/_Hitachi_CS35EJ_Chain_Saw_35CM__32.3cc_.html,197.99,, Hitachi CS35EJ Chain Saw 35CM  32.3cc 
+,http://www.cheapmowers.com/acatalog/Hitachi_CS33EB__35__Petrol_Chainsaw_32.3cc_35cm_Cut.html,184.99,,Hitachi CS33EB  Petrol Chainsaw 32.3cc 35cm Cut
+,http://www.cheapmowers.com/acatalog/Solo_64615_Semi_Professional__Chainsaw_15in__45.1cc_.html,384.95,,Solo 64615 Semi Professional  Chainsaw 15in 38cm 45.1cc 
+,http://www.cheapmowers.com/acatalog/Solo_631P_Semi_Professional__Chainsaw_15in_35cm_40.2cc_.html,328.96,,Solo 631P Semi Professional  Chainsaw 15in 48cm 40.2cc 
+,http://www.cheapmowers.com/acatalog/Solo_642_Compact_Chainsaw_14in_35cm_40.2cc_.html,278.95,,Solo 642 Compact Chainsaw 14in 35cm 40.2cc 
+,http://www.cheapmowers.com/acatalog/Solo_635_Compact_Chainsaw_14in_35cm_36.3cc_.html,234.95,,Solo 635 Compact Chainsaw 14in 35cm 36.3cc 
+,http://www.cheapmowers.com/acatalog/Sheen_X500_Flame_Gun_Inc_Trolley___Hood_.html,204.95,,Sheen X500 Flame Gun Inc Trolley & Hood 
+,http://www.cheapmowers.com/acatalog/Sheen_X300_Flame_Gun_.html,144.95,,Sheen X300 Flame Gun 
+,http://www.cheapmowers.com/acatalog/Karcher_G410_Pressure_Washer_Petrol_Powered.html,349.99,,Karcher G410 Pressure Washer Petrol Powered
+,http://www.cheapmowers.com/acatalog/Karcher_K5700_T300_TOP__Pressure_Washer_.html,327.95,,Karcher K5700 T300 TOP  Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K5600T200__Pressure_Washer_.html,279.95,,Karcher K5600T200  Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K4600_T200__Pressure_Washer_.html,229.90,,Karcher K4600 T200  Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K3550_T200__Pressure_Washer_.html,222.95,,Karcher K3550 T200  Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K3575_Jubilee_Pressure_Washer.html,185.95,,Karcher K3575 Jubilee Pressure Washer
+,http://www.cheapmowers.com/acatalog/Karcher_K3150MT200__Pressure_Washer_.html,184.99,,Karcher K3150MT200  Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K2400T50_Pessure_Washer_.html,142.99,,Karcher K2400T50 Pessure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K2310_T50_Electric_Pressure_Washer_.html,114.95,,Karcher K2310+T50 Electric Pressure Washer 
+,http://www.cheapmowers.com/acatalog/Karcher_K2140_T50_Electric_Pressure_Washer__K2140T50_.html,89.95,,Karcher K2140+T50 Electric Pressure Washer (K2140T50)
+,http://www.cheapmowers.com/acatalog/MAKITA_BBX7600_Professional_Petrol_back_Pack_Blower.html,469.99,,MAKITA BBX7600 Professional Petrol back Pack Blower
+,http://www.cheapmowers.com/acatalog/Makita_EM4340L_Brushcutter_4_Stroke_33.5cc_.html,428.95,,Makita EM4340L Brushcutter 4 Stroke 33.5cc 
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_DCS500-45_Petrol_50cc_45cm_Cut.html,399.95,,Makita Chainsaw DCS500-45 Petrol 50cc 45cm Cut
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_DCS460_Petrol_46cc_38cm_Cut.html,359.99,,Makita Chainsaw DCS460 Petrol 46cc 38cm Cut
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_DCS4301-45_Petrol_43.1cc_45cm_Cut.html,338.99,,Makita Chainsaw DCS4301-45 Petrol 43.1cc 45cm Cut
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_DCS4301-35_Petrol_43.1cc_35cm_Cut.html,335.99,,Makita Chainsaw DCS4301-35 Petrol 43.1cc 35cm Cut
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_DCS4610-35_Petrol_45.1cc_35cm_Cut.html,190.96,,Makita Chainsaw DCS4610-35 Petrol 45.1cc 35cm Cut
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_UC4020A_Electric_1800W_40cm_Cut_.html,105.95,,Makita Chainsaw UC4020A Electric 1800W 40cm Cut 
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_UC3520A_Electric_1800W_35cm_Cut_.html,99.95,,Makita Chainsaw UC3520A Electric 1800W 35cm Cut 
+,http://www.cheapmowers.com/acatalog/Makita_BCX2510_Brushcutter_4_Stroke_24.5cc.html,304.99,,Makita BCX2510 Brushcutter 4 Stroke 24.5cc
+,http://www.cheapmowers.com/acatalog/Makita_RBC2110_2__Stroke_Brushcutter___Strimmer.html,196.99,,Makita RBC2110 2  Stroke Brushcutter / Strimmer
+,http://www.cheapmowers.com/acatalog/Makita_RST210_2_Stroke_Petrol_Strimmer___Line_Trimmer.html,144.95,,Makita RST210 2 Stroke Petrol Strimmer / Line Trimmer
+,http://www.cheapmowers.com/acatalog/Makita_BHX2500_Petrol_Leaf_Blower_24.4cc_4_Stroke_Engine.html,193.99,,Makita BHX2501 Petrol Leaf Blower 24.4cc 4 Stroke Engine
+,http://www.cheapmowers.com/acatalog/Karcher_K2120_Electric_Pressure_Washer.html,73.99,,Karcher K2120 Electric Pressure Washer
+,http://www.cheapmowers.com/acatalog/Makita_Chainsaw_UC4030A_2_Electric_2000W_40cm_Cut.html,164.99,,Makita Chainsaw UC4030A/2 Electric 2000W 40cm Cut
+,http://www.cheapmowers.com/acatalog/MTD_M53_Snow_Blower___Snow_Thrower_-_Petrol_Pushed,474.95,,MTD M53 Snow Blower / Thrower - Petrol 
+,http://www.cheapmowers.com/acatalog/BCS_740_Power_Unit_Snow_Clearing_Machinery_.html,2799.00,,BCS 740 Power Unit Snow Clearing Machinery 
+,http://www.cheapmowers.com/acatalog/BCS_630_Power_Unit_Snow_Clearing_Machinery_.html,2339.00,,BCS 630 Power Unit Snow Clearing Machinery 
+,http://www.cheapmowers.com/acatalog/BCS_615L_Power_Unit___100cm_Snow_Plough_.html,1349.00,,BCS 615L Snow Clearing Honda Powered
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-5020_Petrol_Chainsaw.html,199.99,,Gardencare GC-5020 Petrol Chainsaw 50cc 20in Cut
+,http://www.cheapmowers.com/acatalog/Gardencare_LM53_SPA_Lawnmower_21in_Cut_Alloy_Deck.html,473.00,,Gardencare LM53 SPA Lawnmower 21in Cut Alloy Deck
+,http://www.cheapmowers.com/acatalog/Gardencare_GCBV650_Petrol_back_Pack_Blower.html,299.95,,Gardencare GCB650 Petrol back Pack Blower
+,http://www.cheapmowers.com/acatalog/GCPPA_Pruner_Attachment.html,79.99,,Gardencare GCPPA Pruner Attachment
+,http://www.cheapmowers.com/acatalog/Gardencare_Multitool_GC-MT262.html,296.39,,Gardencare MT262 Multitool  4 in 1 with Attachments
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-TG2000i_Generator.html,539.35,,Gardencare GC-TG2000i Generator
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-WBBS40_Petrol_Tiller_Cultivator.html,241.75,,Gardencare GC-WBBS40 Petrol Tiller Cultivator
+,http://www.cheapmowers.com/acatalog/Gardencare_GCPP262_Petrol_Power_Pruner.html,197.59,,Gardencare PP262 Petrol Power Pruner 26cc 25cm Cut
+,http://www.cheapmowers.com/acatalog/Jonsered_LT2213_Lawn_Tractor_77cm_Cut_.html,1249.00,,Jonsered LT2213 Lawn Tractor 77cm Cut 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_2420_Hedgetrimmer_Cutter_.html,234.95,,Little Wonder 2420 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Homelite_HBL26BV_Petrol_Blower_Vacuum_.html,108.95,,Homelite HBL26BV Petrol Leaf Blower Vacuum
+,http://www.cheapmowers.com/acatalog/Little_Wonder_3020_Hedgetrimmer_Cutter_.html,233.95,,Little Wonder 3020 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_3010_Hedgetrimmer_Cutter_.html,229.99,,Little Wonder 3010 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_3022_Hedgetrimmer_Cutter_.html,229.99,,Little Wonder 3022 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_2422_Hedgetrimmer_Cutter_.html,226.99,,Little Wonder 2422 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_3012_Hedgetrimmer_Cutter_.html,224.95,,Little Wonder 3012 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_2410_Hedgetrimmer_Cutter_.html,219.95,,Little Wonder 2410 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Little_Wonder_2412_Hedgetrimmer_Cutter_.html,217.99,,Little Wonder 2412 Hedgetrimmer Cutter Professional  Model 
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-LR262_Long_Reach_Hedgecutter.html,217.80,,Gardencare LR262 Long Reach Petrol Hedgecutter
+,http://www.cheapmowers.com/acatalog/Gardencare_GJB25S_Petrol_Hedgecutter_26cc_75cm_cut.html,194.95,,Gardencare GCGJB25S Petrol Hedgecutter 26cc 75cm cut
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-GJB-25D_Petrol_Hedgecutter_26cc_61cm_cut.html,194.95,,Gardencare GJB25D Petrol Hedgecutter 26cc 60cm cut
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-TG1000i_Generator.html,335.99,,Gardencare GC-TG1000i  Generator
+,http://www.cheapmowers.com/acatalog/CGAHT260_Hedgecutter_Attachment_.html,129.95,,Gardencare CGAHT260 Hedgecutter Attachment 
+,http://www.cheapmowers.com/acatalog/Gardencare_GC430UH_Petrol_Strimmer___Brushcutter.html,217.36,,Gardencare GC430UH Petrol Strimmer & Brushcutter 43cc
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-332L_Petrol_Strimmer___Brushcutter.html,170.00,,Gardencare GC332L Petrol Strimmer / Brushcutter 33cc
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-262LH_Petrol_Strimmer.html,139.98,,Gardencare 262LH Petrol Strimmer & Bruchcutter 26cc
+,http://www.cheapmowers.com/acatalog/Webb_C17L_Petrol_Cylinder_Mower.html,565.00,,Webb C17L Petrol Cylinder Mower 35cm Cut
+,http://www.cheapmowers.com/acatalog/Webb_C14L_Petrol_Cylinder_Mower.html,509.00,,Webb C14L Petrol Cylinder Mower 35cm Cut
+,http://www.cheapmowers.com/acatalog/Webb_R20ES_Self_Propelled_Electric_Start_Mower_.html,349.00,,Webb R20ES Self Propelled Electric Start Mower 
+,http://www.cheapmowers.com/acatalog/Webb_R18HW_Petrol_Self_Propelled_3_in_1_Rotary_Lawn_Mower.html,281.95,,Webb R18HW Petrol Self Propelled 3 in 1 Rotary Lawn Mower
+,http://www.cheapmowers.com/acatalog/Webb_R18SP_Petrol_Self_Propelled_3_in_1_Rotary_Lawn_Mower_.html,255.00,,Webb R18SP Petrol Self Propelled 3 in 1 Rotary Lawn Mower 
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-262CH_Petrol_Trimmer.html,118.55,,Gardencare 262CH Petrol Trimmer
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-BV26_Blower_Vac_26cc_Petrol_.html,159.95,,Gardencare BV26 Blower Vac 26cc Petrol 
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-LM56SP_Lawnmower.html,395.20,,Gardencare LM56SP 22 in Cut 3 in 1Lawnmower
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-LM51SP_Lawnmower.html,379.00,,Gardencare LM51SP  3 in 1 Lawnmower
+,http://www.cheapmowers.com/acatalog/Gardencare_LM46SP_Lawnmower_46cm_Cut_.html,269.00,,Gardencare LM46SP Lawnmower 46cm Cut 
+,http://www.cheapmowers.com/acatalog/Gardencare_LM46P_Lawnmower_46cm_Cut_.html,209.00,,Gardencare LM46P Lawnmower 46cm Cut 
+,http://www.cheapmowers.com/acatalog/Gardencare_LM43P_Lawnmower_43cm_Cut_.html,186.74,,Gardencare LM43P Lawnmower 43cm Cut 
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-4518_Petrol_Chainsaw.html,179.99,,Gardencare GC-4518 Chainsaw Petrol 45cc 18in Cut
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-4016_Petrol_Chainsaw.html,159.95,,Gardencare GC-4016 Chainsaw Petrol 40cc 16in Cut
+,http://www.cheapmowers.com/acatalog/Gardencare_GC-3814_Petrol_Chainsaw.html,139.99,,Gardencare GC-3814 Chainsaw Petrol 38cc 14in Cut

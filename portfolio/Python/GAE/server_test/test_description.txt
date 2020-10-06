@@ -1,0 +1,29 @@
+python server test
+
+question 1
+naming convention in english  dividend ÷ divisor = quotient
+the following is an api for division 
+http://server:port/divide/divisor/?dividend=dividend
+returns json
+{
+ "quotient" :  quotient ,
+ "result" : int(quotient) ,
+ "modulus": modulus
+}
+for example  http://server:port/divide/4/?dividend=10 will return
+{
+ "quotient" :  2.5 ,
+ "result" : 2 ,
+ "modulus": 2
+}
+build a tests that will test this api and assert on bugs. the test must be complete enough that running them will give us high certainty that the api is working properly. 
+
+question 2.
+Build said api with GAE and test it with test built in question no 1.
+
+question 3
+keep results in memcache and take the result from memcache if available
+
+question 4 (continue with the code from question 3)
+keep results in datastore and take the result from datastore if available.
+

@@ -1,0 +1,1 @@
+ACCOUNT_NAME = 'Tec 7'
