@@ -46,15 +46,16 @@
    and open-sourced the React.js framework. Google maintains the
    Angular.js framework.
 **** Risk and failure don’t necessarily equate
-   You could be a high failure and low risk person.
-   Being an entrepreneur in Silicon Valley is way lower
-   risk than working at a big company. Your downside scenario is you learn a
-   lot, you grow a ton…your worst case scenario at a larger company is you
-   get stuck, you might not be growing much, you might be unhappy.
+   You could be a high failure and low risk person. Being an
+   entrepreneur in Silicon Valley is way lower risk than working at a
+   big company. Your downside scenario is you learn a lot, you grow a
+   ton…your worst case scenario at a larger company is you get stuck,
+   you might not be growing much, you might be unhappy.
 *** 2016-08-02 Tuesday
 **** being a good programmer
-     keep improving yourself and updating with the current developments
-     of languages, tools, libraries, application design trends
+     keep improving yourself and updating with the current
+     developments of languages, tools, libraries, application design
+     trends
 *** 2016-08-03 Wednesday
 **** information sponge
      An aggressive little yellow one that chases people and data around
@@ -315,7 +316,9 @@
 ** 2016-10 October
 *** 2016-10-02 Sunday
 **** Heisenberg uncertainty
-   ...that it's a little bit like the Heisenberg uncertainty principle. If you observe a thing, by the fact that you've observed it, you've altered it.
+   ...that it's a little bit like the Heisenberg uncertainty
+    principle. If you observe a thing, by the fact that you've
+    observed it, you've altered it.
     file:/usr/local/share/DVCS/talk-python-transcripts/transcripts/028.txt::that%20it's%20a%20little%20bit%20like%20the%20Heisenberg%20uncertainty%20principle.%20If%20you%20observe%20a%20thing,%20by%20the%20fact%20that%20you've%20observed%20it,%20you've%20altered%20it.
 **** PyCallGraph
    I was searching around more and I found PyCallGraph, which is amazing at showing you the flow of your program and it gives you great graphical representation of what cProfile is also showing you

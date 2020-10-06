@@ -1,15 +1,15 @@
 ;;
 %%(diary-lunar-phases)
-%%(diary-cyclic 15 06 02 2019) The first evening shift work at ZNPP
-%%(diary-cyclic 15 07 02 2019) The second evening shift work at ZNPP
-%%(diary-cyclic 15 08 02 2019) The third evening shift work at ZNPP
-;;
-;;
-%%(diary-cyclic 15 11 02 2019) The first daytime work at ZNPP
-%%(diary-cyclic 15 12 02 2019) The second daytime work at ZNPP
-%%(diary-cyclic 15 13 02 2019) The third daytime work at ZNPP
-;;
-;;
-%%(diary-cyclic 15 16 02 2019) The first night shift work at ZNPP
-%%(diary-cyclic 15 17 02 2019) The second night shift work at ZNPP
-%%(diary-cyclic 15 18 02 2019) The third night shift work at ZNPP
+;; %%(diary-cyclic 15 06 02 2019) The first evening shift work at ZNPP
+;; %%(diary-cyclic 15 07 02 2019) The second evening shift work at ZNPP
+;; %%(diary-cyclic 15 08 02 2019) The third evening shift work at ZNPP
+;; ;;
+;; ;;
+;; %%(diary-cyclic 15 11 02 2019) The first daytime work at ZNPP
+;; %%(diary-cyclic 15 12 02 2019) The second daytime work at ZNPP
+;; %%(diary-cyclic 15 13 02 2019) The third daytime work at ZNPP
+;; ;;
+;; ;;
+;; %%(diary-cyclic 15 16 02 2019) The first night shift work at ZNPP
+;; %%(diary-cyclic 15 17 02 2019) The second night shift work at ZNPP
+;; %%(diary-cyclic 15 18 02 2019) The third night shift work at ZNPP
