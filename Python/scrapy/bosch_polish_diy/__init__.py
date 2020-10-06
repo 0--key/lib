@@ -1,1 +1,0 @@
-ACCOUNT_NAME = 'Bosch Polish DIY'
