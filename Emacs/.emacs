@@ -64,7 +64,7 @@ replace-colorthemes"))
 (key-chord-mode 1)
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/202012.org")
+(setq voca-builder/voca-file "/usr/local/git/0--key/lib/org/vocabulary/202101.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "Vanessa")
 (setq voca-builder/current-tag "Auster")
