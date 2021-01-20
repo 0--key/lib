@@ -104,6 +104,8 @@ replace-colorthemes"))
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
+;; Minor correction for translator
+(defun google-translate--search-tkk () "Search TKK." (list 430675 2721866130))
 ;;
 ;;
 ;; This is Pytonic section
@@ -209,5 +211,4 @@ replace-colorthemes"))
 
   ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
   ))
-;;
 ;;
