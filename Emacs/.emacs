@@ -34,8 +34,8 @@
 (file-name-as-directory "/usr/local/share/emacs/site-lisp/
 replace-colorthemes"))
 
-(load-theme 'dark-laptop t t) ;; Black background id too dark
-(load-theme 'desert t t)
+(load-theme 'dark-laptop t t) ;; Black background is ideal for
+(load-theme 'desert t t) ;; sunny day
 (load-theme 'euphoria t t) ;; For  deep night work in darkness
 (load-theme 'goldenrod t t)
 (load-theme 'midnight t t)
