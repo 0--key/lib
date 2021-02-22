@@ -101,6 +101,7 @@ replace-colorthemes"))
 (setq langtool-default-language "en-US")
 ;;(setq langtool-java-bin "/usr/bin/java") ;; perhaps
 ;;
+(require 'google-translate)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
