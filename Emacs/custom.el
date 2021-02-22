@@ -12,8 +12,8 @@
    '(python-info org-drill engine-mode ereader google-translate howdoi htmlize key-chord langtool magit marshal org-pomodoro pcache simpleclip travis voca-builder color-theme-modern elpy org-bullets pyvenv))
  '(python-shell-interpreter "python3")
  '(send-mail-function 'smtpmail-send-it)
- '(smtpmail-smtp-server "smtp.gmail.com")
- '(smtpmail-smtp-service 587))
+ '(smtpmail-smtp-server "smtp.gmail.com" t)
+ '(smtpmail-smtp-service 587 t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
