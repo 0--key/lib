@@ -86,6 +86,7 @@
      
 ** Learn to teach and collaborate
 
+
 * Enhance English			        :English:
 ** Grammar [85%]
    [[http://learnenglish.britishcouncil.org/en/book-english-grammar][British Council]]
@@ -4893,11 +4894,11 @@
 
 *** Pay attention to details
 
+
 * Jargon & definition 		                :corpora:
 ** PP4E
-*** Let’s step back for a moment and consider how far ’ve come.
 
-**** 
+*** Let’s step back for a moment and consider how far ’ve come.
 
 *** If you’ve already studied Python in any sort of depth,
     you probably already know that this is where its OOP support begins
@@ -16441,6 +16442,7 @@
 ** MaGit plugin					:efficiency:
    Git-Flow [[https://github.com/jtatarik/magit-gitflow][plugin]] for magit.el
 
+
 * Open-Source contributing			:OpenSource:
 ** Fork useful projects				:forks:
 *** Manual how to fork
@@ -16477,6 +16479,7 @@
 ** Open pull request
 
   https://github.com/milkypostman/melpa
+
 
 * Publish your posts out from org-mode
 ** at Github pages at [[http://0--key.github.io/][this address]]
