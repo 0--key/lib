@@ -111,7 +111,7 @@ replace-colorthemes"))
 ;;
 ;; This is Pytonic section
 (elpy-enable)
-;;(pyvenv-activate "/usr/local/share/pyVenvs/alioth/venv3/")
+(pyvenv-activate "/usr/local/share/pyVenvs/py3.8.5venv/")
 ;;
 ;;
 ;; Plain keys for function direct access
