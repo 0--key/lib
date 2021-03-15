@@ -16610,3 +16610,41 @@
 
 ** Make a separate repo for blog's org-sources
 
+* ChromeBook as PyDevEnv with Emacs
+
+** TODO ~Emacs~ Info installation
+
+** TODO Install neccessary packages:
+
+   installing the same package from apt and from MELPA can trigger
+   obscure bugs
+
+*** TODO Java and LangTools
+
+*** TODO autopep8
+
+    #+BEGIN_SRC sh
+      python -m pip install --upgrade pip
+    #+END_SRC     
+
+    #+RESULTS:
+    : Requirement already satisfied: pip in /home/alioth/.emacs.d/py3.7.3/lib/python3.7/site-packages (21.0.1)
+
+    #+BEGIN_SRC sh 
+      pip install autopep8
+    #+END_SRC
+
+    #+RESULTS:
+    | Collecting   | autopep8                               |                |                   |              |          |
+    | Downloading  | autopep8-1.5.6-py2.py3-none-any.whl    | (44            | kB)               |              |          |
+    | Collecting   | toml                                   |                |                   |              |          |
+    | Downloading  | toml-0.10.2-py2.py3-none-any.whl       | (16            | kB)               |              |          |
+    | Collecting   | pycodestyle>=2.7.0                     |                |                   |              |          |
+    | Downloading  | pycodestyle-2.7.0-py2.py3-none-any.whl | (41            | kB)               |              |          |
+    | Installing   | collected                              | packages:      | toml,             | pycodestyle, | autopep8 |
+    | Successfully | installed                              | autopep8-1.5.6 | pycodestyle-2.7.0 | toml-0.10.2  |          |
+
+      (add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+
+
+*** TODO Jekyll
