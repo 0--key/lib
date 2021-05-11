@@ -17,7 +17,7 @@
  '(key-chord-mode t)
  '(package-selected-packages
    (quote
-    (speed-type elpy dash py-autopep8 ereader howdoi org-drill popup voca-builder org-bullets google-translate magit key-chord))))
+    (langtool speed-type elpy dash py-autopep8 ereader howdoi org-drill popup voca-builder org-bullets google-translate magit key-chord))))
 
 
 (custom-set-faces

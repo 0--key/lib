@@ -130,6 +130,18 @@
   ("s" "SRE" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Site Reliability Engineering")
    "* >->-> %c :drill:\n%i")))
 
+;; LangTool
+(require 'langtool)
+(setq langtool-language-tool-jar "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")
+(setq langtool-default-language "en-US")
+    (global-set-key "\C-x4w" 'langtool-check)
+    (global-set-key "\C-x4W" 'langtool-check-done)
+    (global-set-key "\C-x4l" 'langtool-switch-default-language)
+    (global-set-key "\C-x44" 'langtool-show-message-at-point)
+    (global-set-key "\C-x4c" 'langtool-correct-buffer)
+;;
+;; <-- Elaboration required
+
 
 ;; Out of the box section
 ;; Set the default mail server and news server as specified by Debian
