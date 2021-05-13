@@ -100,7 +100,10 @@
    (emacs-lisp . t)
    (shell . t)
    (sqlite . t)
-   ))
+   (go . t)
+   (C . t)
+   )) ;; perhaps this hunk is redundant because init.el contains the
+      ;; similar one in the =custom= section
 ;;
 (global-set-key (kbd "C-c c") 'org-capture)
  (setq org-capture-templates
