@@ -133,6 +133,35 @@
   ("s" "SRE" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Site Reliability Engineering")
    "* >->-> %c :drill:\n%i")))
 
+;; Jekyll settings there -->
+;;
+(setq org-publish-project-alist
+'(("jekyll-org"
+   :base-directory "/home/alioth/git/org-pub/"
+   :base-extension "org"
+   ;; Path to your Jekyll project.
+   :publishing-directory "/home/alioth/git/0--key.github.io/_posts/"
+   :recursive t
+   :publishing-function org-html-publish-to-html
+   :headline-levels 4
+   :html-extension "html"
+   :section-numbers nil
+   :with-toc nil
+   :body-only t
+   ;; Only export section between <body> </body> (body-only)
+   )
+  ("jekyll-org-img"
+   :base-directory "/home/alioth/git/org-pub/img/"
+   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
+   :publishing-directory "/home/alioth/git/0--key.io/assets/img/"
+   :recursive t
+   :publishing-function org-publish-attachment)
+
+  ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
+  ))
+;;
+
+
 ;; LangTool
 (require 'langtool)
 (setq langtool-language-tool-jar "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")
