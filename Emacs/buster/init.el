@@ -15,6 +15,13 @@
    (quote
     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(key-chord-mode t)
+ '(org-babel-load-languages
+   (quote
+    ((python . t)
+     (emacs-lisp . t)
+     (shell . t)
+     (sqlite . t)
+     (C . t))))
  '(package-selected-packages
    (quote
     (ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi org-drill popup voca-builder org-bullets google-translate magit key-chord))))

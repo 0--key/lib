@@ -62,6 +62,7 @@
 (setq voca-builder/current-tag "Elephant")
 (setq voca-builder/current-tag "Zen")
 (setq voca-builder/current-tag "Money")
+(setq voca-builder/current-tag "Gideon")
 
 (key-chord-define-global "tr"     'google-translate-at-point)
 (key-chord-define-global "ty"     'voca-builder/search-popup)
