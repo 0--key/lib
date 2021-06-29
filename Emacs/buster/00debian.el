@@ -18,7 +18,12 @@
 
 (load-theme 'wombat)
 
-(require 'org-bullets)                                                                                                                             
+(require 'org)
+(require 'org-tempo)
+(require 'org-bullets)
+;;(require 'go-mode)
+(require 'ob-go)
+
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 
 (require 'key-chord)
