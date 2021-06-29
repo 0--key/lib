@@ -1090,3 +1090,29 @@ less like an autocrat and more like a press secretary. In many ways, its
 job—our job—isn’t to make decisions, but simply to defend them. “You are not
 the king of your brain,” says Steven Kaas. “You are the creepy guy standing
 next to the king going, ‘A most judicious choice, sire.’ “
+
+* versatile :GoLang:
+[2021-05-20 Thu 11:39]
+
+To describe a person or thing that can adapt to do many things or
+serve many functions, consider the adjective versatile.
+
+In E.B. White's classic children's book Charlotte's Web, Charlotte the
+spider tells Wilbur the pig that she is versatile. "What does
+'versatile' mean — full of eggs?" Wilbur asks. "Certainly not,"
+Charlotte replies. "'Versatile' means I can turn with ease from one
+thing to another." Charlotte knew her etymology, because the word
+reflects its Latin root, versatilis, "turning around; revolving." It
+eventually came to describe someone who is multi-talented: a
+singer-songwriter-actress-model would be a versatile figure in the
+entertainment world.
+
+While Go is a versatile programming language that can be used for many
+different programming projects, it’s particularly well suited for
+networking/distributed systems programs, and has earned a reputation as “the
+language of the cloud”. It focuses on helping the modern programmer do more
+with a strong set of tooling, removing debates over formatting by making the
+format part of the language specification, as well as making deployment easy
+by compiling to a single binary. Go is easy to learn, with a very small set
+of keywords, which makes it a great choice for beginners and experienced
+developers alike.
