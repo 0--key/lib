@@ -15,7 +15,9 @@
 (add-to-list 'package-archives '("elpa" . "https://elpa.gnu.org/packages/") t)
 ;; and MELPA
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+
 (package-initialize)
+
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3") ;; Bad request fix
 
 (load-theme 'wombat)

@@ -17,7 +17,7 @@
      (C . t))))
  '(package-selected-packages
    (quote
-    (org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi org-drill popup voca-builder org-bullets google-translate magit key-chord))))
+    (org-drill org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord))))
 
 
 (custom-set-faces
