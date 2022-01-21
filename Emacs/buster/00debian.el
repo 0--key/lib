@@ -68,7 +68,7 @@
 (setq voca-builder/voca-file "~/git/lib/org/vocabulary/202201.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "misc")
-(setq voca-builder/current-tag "GoLang")
+(setq voca-builder/current-tag "DarkPersuasion")
 (setq voca-builder/current-tag "Elephant")
 (setq voca-builder/current-tag "Zen")
 (setq voca-builder/current-tag "Money")
