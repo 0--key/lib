@@ -5,8 +5,6 @@
 #+LANGUAGE: en
 #+STARTUP: showall
 
-* Test string from Termux
-
 * Knowledge is power © 				:True:InitialPostulate:
 ** it is product of education;        :True:
 
@@ -16612,18 +16610,19 @@
 
 ** Make a separate repo for blog's org-sources
 
+
 * ChromeBook as PyDevEnv with Emacs
 
-** TODO ~Emacs~ Info installation
+** DONE ~Emacs~ Info installation
 
-** TODO Install neccessary packages:
+** DONE Install neccessary packages:
 
-   installing the same package from apt and from MELPA can trigger
-   obscure bugs
+   *installing the same package from apt and from MELPA can trigger
+   obscure bugs!*
 
-*** TODO Java and LangTools
+*** DONE Java and LangTools
 
-*** TODO autopep8
+*** DONE autopep8
 
     #+BEGIN_SRC sh
       python -m pip install --upgrade pip
@@ -16648,5 +16647,8 @@
 
       (add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
+*** DONE Jekyll
 
-*** TODO Jekyll
+
+* Test string from Termux
+
