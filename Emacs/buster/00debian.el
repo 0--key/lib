@@ -72,6 +72,7 @@
 (setq voca-builder/current-tag "Elephant")
 (setq voca-builder/current-tag "Zen")
 (setq voca-builder/current-tag "Money")
+(setq voca-builder/current-tag "Stupidity")
 (setq voca-builder/current-tag "Dahl")
 
 (key-chord-define-global "tr"     'google-translate-at-point)
