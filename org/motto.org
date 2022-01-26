@@ -16657,7 +16657,17 @@
 * Test string from Termux
 
 
-* Ideas
+* TODO Ideas
+
+** How to archive org-mode branches
+and how to retrieve their data later?
+** Arrange quotes of great men
+
+into the ~chronological sequence~
+
+** Compose and elaborate the list
+
+of cognitive biases
 
 ** motto elaboration with sparse tree features
 
@@ -16668,3 +16678,9 @@
  - list items are siblings;
  - deduction is a parent and child couple;
  - induction is a child of multiply parents;
+ - ~Org-capture~ as a trap for the fleeting notes;
+
+** Stupidity as an antithesis
+
+*** 5 laws of stupidity
+
