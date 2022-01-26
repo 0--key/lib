@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Org-roam User Manual" 0 20
+(#1=(#("Stupidity" 0 9
+(bmkp-full-record #1#))
+(filename . "~/books/The Basic Laws of Human Stupidity by Carlo M. Cipolla.epub")
+(buffer-name . "The Basic Laws of Human Stupidity by Carlo M. Cipolla.epub")
+(front-context-string . ",” but\nthey indu")
+(rear-context-string . "itus est numerus")
+(front-context-region-string)
+(rear-context-region-string)
+(visits . 0)
+(time . #2=(25071 56462 518210 111000))
+(created . #2#)
+(position . 10998))
+#1=(#("Org-roam User Manual" 0 20
 (bmkp-full-record #1#))
 (buffer-name . "*eww*")
 (buffer-name . "*eww*")
@@ -47,14 +59,14 @@
 (tags)
 (filename . "~/books/The Elephant in the Brain - Hidden Motives in Everyday Life by Kevin Simler, Robin Hanson.epub")
 (buffer-name . "The Elephant in the Brain - Hidden Motives in Everyday Life by Kevin Simler, Robin Hanson.epub")
-(front-context-string . "In order to expl")
-(rear-context-string . "ile of leaves.\n\n")
+(front-context-string . "Gregory Bateson,")
+(rear-context-string . "ntext of play?\n\n")
 (front-context-region-string)
 (rear-context-region-string)
 (visits . 0)
-(time . #2=(25070 35900 775962 459000))
+(time . #2=(25072 7898 296100 507000))
 (created . #2#)
-(position . 253157))
+(position . 259646))
 #1=(#("DarkPersuasion" 0 14
 (bmkp-full-record #1#))
 (annotation)
@@ -319,9 +331,9 @@
 (rear-context-string . " the punchline.\n")
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 0)
-(time . #2=(25070 35637 540898 242000))
-(created . #2#)
+(visits . 1)
+(time 25070 36001 575966 298000)
+(created 25070 35637 540898 242000)
 (position . 51087))
 #1=(#("quotes" 0 6
 (bmkp-full-record #1#))
@@ -512,8 +524,8 @@
 (rear-context-string . "s as possible. \n")
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 1)
-(time 25057 9851 119925 652000)
+(visits . 2)
+(time 25071 56508 180214 855000)
 (created 24667 21828 830334 984000)
 (position . 4815)
 (location . "https://fortelabs.co/blog/how-to-take-smart-notes/")
