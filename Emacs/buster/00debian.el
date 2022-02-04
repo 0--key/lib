@@ -145,7 +145,14 @@
    "* >->-> :drill:\n%i")
   ;;
   ("s" "SRE" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Site Reliability Engineering")
-   "* >->-> %c :drill:\n%i")))
+   "* >->-> :drill:\n%i")
+   ;;
+   ("z" "Zettelkasten"
+    plain
+    (file+headline "~/git/org-pub/2022-01-26-zettelkasten.org"
+		   "Notes")
+    "\n \n \t%i\n")
+   ))
 
 ;; Jekyll settings there -->
 ;;

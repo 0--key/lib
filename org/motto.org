@@ -16691,6 +16691,15 @@ of cognitive biases
 + Branches archiving
 
 
+
+** Make a separate org-capture
+for a current articles ~Notes:noexport:~ section. It allows to
+
+- gather initial content for the each article with no disruption at
+  all;
+- store that information for further /drilling and indexing/;
+
+
 ** Synonyms
 
 
