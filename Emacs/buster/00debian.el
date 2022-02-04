@@ -118,7 +118,9 @@
       ;; similar one in the =custom= section
 ;;
 (global-set-key (kbd "C-c c") 'org-capture)
- (setq org-capture-templates
+;;
+
+(setq org-capture-templates
 '(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
    "* TODO %?\n  %i\n  %a")
   ("i" "Idiom" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Idioms")
