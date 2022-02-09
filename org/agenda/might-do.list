@@ -8,3 +8,14 @@ Advanced to-do list    -*- mode: org; -*-
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Thesis
 #+TODO: RAW INIT TODO ACTIVE | MAYBE DONE CLOSED
+* Emacs
+** ACTIVE Agenda
+** Key-chords
+*** Extend
+Regularly --> list of appropriate commands
+*** Declutter
+Optionally, seldom
+** Org-capture
+*** RAW Elaborate two-letters dispatcher
+
+
