@@ -4,7 +4,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+SUBTITLE:  Life in a plain text
 #+EMAIL:     a.s.kosinov@gmail.com
 #+LANGUAGE: en
-#+STARTUP: showall
+#+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Thesis
-#+TODO: RAW INIT TODO ACTIVE IN_PROGRESS | MAYBE DONE CLOSED
+#+TODO: RAW INIT TODO ACTIVE | MAYBE DONE CLOSED
