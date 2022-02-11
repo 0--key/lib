@@ -159,7 +159,13 @@
     plain
     (file+headline "~/git/org-pub/2022-01-26-zettelkasten.org"
 		   "Notes")
-    "\n \n \t%i\n")
+    "%i\n  %a \n")
+   ;;
+   ("n" "Notes");; <-- prefix key for notes
+   ("nf" "Fleeting" entry (file+headline
+			   "~/git/lib/org/agenda/might-do.list"
+			   "Fleeting Notes") "* %?\n%i\n%l")
+   ;; ‘%k’ Title of the currently clocked task.
    ))
 
 ;; Jekyll settings there -->
