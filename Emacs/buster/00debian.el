@@ -97,6 +97,14 @@
 ;; version-control section
 (key-chord-define-global "vl"     'vc-print-log)
 ;;
+
+(key-chord-define-global "hg"     'keyboard-quit)
+(key-chord-define org-mode-map "km"     'org-meta-return)
+(key-chord-define-global "ga"     'org-agenda)
+(key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
+(key-chord-define org-mode-map "a]"     'org-remove-file)
+(key-chord-define-global "ol"     'org-store-link)
+
 (require 'ereader)
 (require 'howdoi)
 (require 'org-drill)
