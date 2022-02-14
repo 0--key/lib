@@ -26,8 +26,9 @@ Regularly --> list of appropriate commands
 *** Declutter
 Optionally, seldom
 ** Org-capture
-*** RAW Elaborate two-letters dispatcher
-
+*** CLOSED Elaborate two-letters dispatcher
+** CLOSED ToDos inside /org-pub/ files
+noexport for it and properties like ~category~
 
 * Fleeting Notes
 
