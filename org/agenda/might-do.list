@@ -8,6 +8,16 @@ Advanced to-do list    -*- mode: org; -*-
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Thesis
 #+TODO: RAW INIT TODO ACTIVE | MAYBE DONE CLOSED
+
+* Personal Development
+:PROPERTIES:
+:CATEGORY: PersDev
+:END:
+
+** YouTube
+
+*** ACTIVE Ali Abdaal transcript
+SCHEDULED: <2022-02-14 Mon +2d>
 * Emacs
 ** ACTIVE Agenda
 ** Key-chords
