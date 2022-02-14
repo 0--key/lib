@@ -8,6 +8,11 @@
    (quote
     ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(key-chord-mode t)
+ '(org-agenda-files
+   (quote
+    ("~/git/org-pub/2022-02-11-making-money.org"
+     "~/git/org-pub/2022-02-07-the-average-workflow.org"
+     "~/git/lib/org/agenda/might-do.list")))
  '(org-babel-load-languages
    (quote
     ((python . t)
