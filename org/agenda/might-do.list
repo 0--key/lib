@@ -31,8 +31,13 @@ Optionally, seldom
 noexport for it and properties like ~category~
 
 * Fleeting Notes
+:PROPERTIES:
+:CATEGORY: Notes
+:END:
 
-** RAW [[info:org#Activation][org-store-link]]
+
+** CLOSED [[info:org#Activation][org-store-link]]
+
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
