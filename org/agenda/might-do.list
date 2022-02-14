@@ -53,3 +53,86 @@ For notes linkage in Zettelkasten
 ** RAW Archive non-actual tasks
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
+
+** TODO brainmachin@yandex.ru
+DEADLINE: <2022-02-21 Mon -5d>
+
+** RAW Richard Shepherd
+DEADLINE: <2022-02-28 Mon +1m -1d>
+
+Seven Ages of Death
+
+** RAW BBDB
+DEADLINE: <2022-02-23 Wed +2w -1d>
+https://www.jwz.org/bbdb/
+
+** RAW Handling Links
+DEADLINE: <2022-02-16 Wed>
+
+** RAW Custom ID property
+:PROPERTIES:
+:CATEGORY: Zettelkasten
+:END:
+DEADLINE: <2022-02-17 Thu>
+
+** TODO Capture for Notes:
+
++ Fleeting (uncategorized yet);
++ Books;
+
+** RAW Paretto law
+for time ratio on gathering and digesting
+
+** RAW Customize category for each task
+DEADLINE: <2022-02-18 Fri>
+as a [[info:org#Template expansion][clocked task]]
+
+** RAW Clocking tasks
+DEADLINE: <2022-02-18 Fri>
+** RAW Text search in additional files
+DEADLINE: <2022-02-24 Thu +2m>
+org-agenda-text-search-extra-files
+[[info:org#Agenda Dispatcher]]
+** TODO Switch from DeadLine
+SCHEDULED: <2022-02-15 Tue>
+on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
+** TODO Make it a chore
+DEADLINE: <2022-02-15 Tue>
+Repeated tasks
+--------------------
+[[info:org#Repeated tasks]]
+** ACTIVE Inserting deadlines or schedules
+SCHEDULED: <2022-02-15 Tue>
+--------------------------------------
+[[info:org#Inserting deadline/schedule]]
+** INIT Deadlines and Scheduling
+SCHEDULED: <2022-02-15 Tue>
+============================
+[[info:org#Deadlines and Scheduling]]
+** INIT Inserting deadlines or schedules
+SCHEDULED: <2022-02-16 Wed>
+--------------------------------------
+[[info:org#Inserting deadline/schedule]]
+** RAW x to reset to origin/master
+SCHEDULED: <2022-02-18 Fri>
+** TODO Capture for Books, Thoughts,
+SCHEDULED: <2022-02-15 Tue>
+sayings, proverbs (Kazakh by Abay), idioms.
+
+To capture /a gist/ out of any material with minimal distractions and
+interruptions.
+** INIT ToDo export fix
+SCHEDULED: <2022-02-16 Wed>
+** RAW Slow Lane is illusion of safety
+SCHEDULED: <2022-02-23 Wed>
+:PROPERTIES:
+:CATEGORY: ZKNote
+:END:
+The first one note. To elaborate capture out of it.
+** RAW It is still, ultimately,
+SCHEDULED: <2022-02-23 Wed>
+trading your time for money.
+
+It's been captured.
+[[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
+trading your time for money.][Avoid the slow lane]]
