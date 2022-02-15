@@ -25,14 +25,14 @@ SCHEDULED: <2022-02-14 Mon +2d>
 :CATEGORY: Key-chords
 :END:
 *** ACTIVE Extend
-DEADLINE: <2022-02-17 Thu +1w>
+SCHEDULED: <2022-02-17 Thu +1w>
 Regularly --> list of appropriate commands
 **** TODO Backward to " in shell
 SCHEDULED: <2022-02-17 Thu>
 **** TODO Specific for *Org-mode*
 SCHEDULED: <2022-02-24 Thu>
 *** TODO Declutter
-DEADLINE: <2022-02-21 Mon +3w>
+SCHEDULED: <2022-02-21 Mon +3w>
 Optionally, seldom
 ** Org-capture
 *** CLOSED Elaborate two-letters dispatcher
@@ -55,25 +55,25 @@ for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
 ** TODO brainmachin@yandex.ru
-DEADLINE: <2022-02-21 Mon -5d>
+SCHEDULED: <2022-02-21 Mon -5d>
 
 ** RAW Richard Shepherd
-DEADLINE: <2022-02-28 Mon +1m -1d>
+SCHEDULED: <2022-02-28 Mon +1m -1d>
 
 Seven Ages of Death
 
 ** RAW BBDB
-DEADLINE: <2022-02-23 Wed +2w -1d>
+SCHEDULED: <2022-02-23 Wed +2w -1d>
 https://www.jwz.org/bbdb/
 
 ** RAW Handling Links
-DEADLINE: <2022-02-16 Wed>
+SCHEDULED: <2022-02-16 Wed>
 
 ** RAW Custom ID property
 :PROPERTIES:
 :CATEGORY: Zettelkasten
 :END:
-DEADLINE: <2022-02-17 Thu>
+SCHEDULED: <2022-02-17 Thu>
 
 ** TODO Capture for Notes:
 
@@ -84,20 +84,20 @@ DEADLINE: <2022-02-17 Thu>
 for time ratio on gathering and digesting
 
 ** RAW Customize category for each task
-DEADLINE: <2022-02-18 Fri>
+SCHEDULED: <2022-02-18 Fri>
 as a [[info:org#Template expansion][clocked task]]
 
 ** RAW Clocking tasks
-DEADLINE: <2022-02-18 Fri>
+SCHEDULED: <2022-02-18 Fri>
 ** RAW Text search in additional files
-DEADLINE: <2022-02-24 Thu +2m>
+SCHEDULED: <2022-02-24 Thu +2m>
 org-agenda-text-search-extra-files
 [[info:org#Agenda Dispatcher]]
-** TODO Switch from DeadLine
+** DONE Switch from DeadLine
 SCHEDULED: <2022-02-15 Tue>
 on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
 ** TODO Make it a chore
-DEADLINE: <2022-02-15 Tue>
+SCHEDULED: <2022-02-15 Tue>
 Repeated tasks
 --------------------
 [[info:org#Repeated tasks]]
