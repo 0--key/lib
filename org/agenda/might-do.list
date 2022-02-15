@@ -136,3 +136,7 @@ trading your time for money.
 It's been captured.
 [[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
 trading your time for money.][Avoid the slow lane]]
+** Lisp directory re-compilation                                :Emacs:lisp:
+SCHEDULED: <2022-03-02 Wed>
+find . -name "*.elc" -type f | xargs rm -f
+C-u 0 M-x byte-recompile-directory
