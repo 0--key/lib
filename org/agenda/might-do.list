@@ -32,8 +32,9 @@ SCHEDULED: <2022-02-18 Fri +2d>
 *** ACTIVE Extend
 SCHEDULED: <2022-02-17 Thu +1w>
 Regularly --> list of appropriate commands
-**** TODO Backward to " in shell
+**** ACTIVE Backward to " in shell
 SCHEDULED: <2022-02-17 Thu>
+[[help:insert-register][link]]
 **** TODO Specific for *Org-mode*
 SCHEDULED: <2022-02-24 Thu>
 *** TODO Declutter
@@ -71,22 +72,24 @@ Seven Ages of Death
 SCHEDULED: <2022-02-23 Wed +2w -1d>
 https://www.jwz.org/bbdb/
 
-** RAW Handling Links
-SCHEDULED: <2022-02-16 Wed>
-
-** RAW Custom ID property
+** INIT Custom ID property
 :PROPERTIES:
 :CATEGORY: Zettelkasten
 :END:
 SCHEDULED: <2022-02-17 Thu>
 
-** TODO Capture for Notes:
+** INIT Capture for Notes:
+SCHEDULED: <2022-02-24 Thu>
 
 + Fleeting (uncategorized yet);
 + Books;
+[[info:org#Template expansion][Link]]
 
 ** RAW Paretto law
 for time ratio on gathering and digesting
+
+** RAW Org-attach
+What is it?
 
 ** RAW Customize category for each task
 SCHEDULED: <2022-02-18 Fri>
@@ -101,20 +104,20 @@ org-agenda-text-search-extra-files
 ** DONE Switch from DeadLine
 SCHEDULED: <2022-02-15 Tue>
 on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
-** TODO Make it a chore
+** DONE Make it a chore
 SCHEDULED: <2022-02-15 Tue>
 Repeated tasks
 --------------------
 [[info:org#Repeated tasks]]
-** ACTIVE Inserting deadlines or schedules
+** DONE Inserting deadlines or schedules
 SCHEDULED: <2022-02-15 Tue>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
-** INIT Deadlines and Scheduling
-SCHEDULED: <2022-02-15 Tue>
+** ACTIVE Deadlines and Scheduling
+SCHEDULED: <2022-02-22 Tue>
 ============================
 [[info:org#Deadlines and Scheduling]]
-** INIT Inserting deadlines or schedules
+** DONE Inserting deadlines or schedules
 SCHEDULED: <2022-02-16 Wed>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
@@ -126,7 +129,7 @@ sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** INIT ToDo export fix
+** CLOSED ToDo export fix
 SCHEDULED: <2022-02-16 Wed>
 ** RAW Slow Lane is illusion of safety
 SCHEDULED: <2022-02-23 Wed>
@@ -141,7 +144,11 @@ trading your time for money.
 It's been captured.
 [[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
 trading your time for money.][Avoid the slow lane]]
-** Lisp directory re-compilation                                :Emacs:lisp:
+** RAW Lisp directory re-compilation                            :Emacs:lisp:
 SCHEDULED: <2022-03-02 Wed>
 find . -name "*.elc" -type f | xargs rm -f
 C-u 0 M-x byte-recompile-directory
+** RAW Include Files                                          :zettelkasten:
+[[info:org#Include Files]]
+** TODO Append new files with quotations                            :quotes:
+SCHEDULED: <2022-02-18 Fri>
