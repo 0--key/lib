@@ -16,8 +16,13 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** YouTube
 
-*** ACTIVE Ali Abdaal transcript
-SCHEDULED: <2022-02-14 Mon +2d>
+*** RAW Ali Abdaal transcript
+SCHEDULED: <2022-02-18 Fri +2d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-02-16 Wed 09:41]
+:END:
+- State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:41]
+- State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 * Emacs
 ** ACTIVE Agenda
 ** Key-chords
