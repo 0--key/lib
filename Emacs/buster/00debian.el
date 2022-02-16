@@ -103,7 +103,11 @@
 (key-chord-define-global "ga"     'org-agenda)
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
 (key-chord-define org-mode-map "a]"     'org-remove-file)
+(key-chord-define org-mode-map "od"     'org-deadline)
+(key-chord-define org-mode-map "so"     'org-schedule)
 (key-chord-define-global "ol"     'org-store-link)
+
+
 
 (require 'ereader)
 (require 'howdoi)
