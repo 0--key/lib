@@ -165,10 +165,13 @@
 		   "Notes")
     "%i\n  %a \n")
    ;;
-   ("n" "Notes");; <-- prefix key for notes
-   ("nf" "Fleeting" entry (file+headline
-			   "~/git/lib/org/agenda/might-do.list"
-			   "Fleeting Notes") "* %?\n%i\n%l")
+("n" "Notes");; <-- prefix key for notes
+("nf" "Fleeting" entry (file+headline
+			"~/git/lib/org/agenda/might-do.list" "Notes")
+ "* RAW %?%i")
+("ni" "Initial" entry (file+headline
+		       "~/git/lib/org/agenda/might-do.list" "Notes")
+ "* INIT %?\n%i\n%l")
    ;; ‘%k’ Title of the currently clocked task.
    ))
 
