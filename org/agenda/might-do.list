@@ -29,10 +29,14 @@ SCHEDULED: <2022-02-18 Fri +2d>
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** ACTIVE Extend
-SCHEDULED: <2022-02-17 Thu +1w>
+*** RAW Extend
+SCHEDULED: <2022-02-24 Thu +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-02-18 Fri 12:13]
+:END:
+- State "MAYBE"      from "ACTIVE"     [2022-02-18 Fri 12:13]
 Regularly --> list of appropriate commands
-**** ACTIVE Backward to " in shell
+**** DONE Backward to " in shell
 SCHEDULED: <2022-02-17 Thu>
 [[help:insert-register][link]]
 **** TODO Specific for *Org-mode*
@@ -124,7 +128,7 @@ SCHEDULED: <2022-02-16 Wed>
 ** RAW x to reset to origin/master
 SCHEDULED: <2022-02-18 Fri>
 ** TODO [#A] Capture for Books, Thoughts,
-SCHEDULED: <2022-02-15 Tue>
+SCHEDULED: <2022-02-22 Tue>
 sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
@@ -151,7 +155,7 @@ C-u 0 M-x byte-recompile-directory
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** TODO Append new files with quotations                            :quotes:
-SCHEDULED: <2022-02-18 Fri>
+SCHEDULED: <2022-02-17 Thu>
 ** RAW Punished by Rewards by Alfie Kohn
 ** RAW Distraction Epidemic
 ** RAW Indistractable by Nir Eyal
