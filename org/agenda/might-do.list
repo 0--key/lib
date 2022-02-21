@@ -220,3 +220,8 @@ their own, creating a surrogate for your time for money trade.][Build money tree
 ** INIT Create the content once.
 But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
+** INIT Archive Day Monthly
+SCHEDULED: <2022-03-01 Tue +1m>
+Toggle Archives mode
+[[info:org#Agenda Commands]]
+[[info:org#Internal archiving][info:org#Internal archiving]]
