@@ -16,10 +16,13 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** YouTube
 
-*** RAW Ali Abdaal transcript
+*** INIT Ali Abdaal transcript
 SCHEDULED: <2022-02-18 Fri +2d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-16 Wed 09:41]
+:END:
+:LOGBOOK:
+CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :END:
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
@@ -42,7 +45,7 @@ SCHEDULED: <2022-02-17 Thu>
 **** TODO Specific for *Org-mode*
 SCHEDULED: <2022-02-24 Thu>
 *** TODO Declutter
-SCHEDULED: <2022-02-21 Mon +3w>
+SCHEDULED: <2022-02-22 Tue +3w>
 Optionally, seldom
 ** Org-capture
 *** CLOSED Elaborate two-letters dispatcher
@@ -101,6 +104,9 @@ as a [[info:org#Template expansion][clocked task]]
 
 ** RAW Clocking tasks
 SCHEDULED: <2022-02-18 Fri>
+:LOGBOOK:
+CLOCK: [2022-02-21 Mon 08:36]--[2022-02-21 Mon 08:38] =>  0:02
+:END:
 ** RAW Text search in additional files
 SCHEDULED: <2022-02-24 Thu +2m>
 org-agenda-text-search-extra-files
@@ -154,8 +160,16 @@ find . -name "*.elc" -type f | xargs rm -f
 C-u 0 M-x byte-recompile-directory
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
-** TODO Append new files with quotations                            :quotes:
-SCHEDULED: <2022-02-17 Thu>
+** INIT Append new files with quotations                            :quotes:
+SCHEDULED: <2022-02-18 Fri +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-02-21 Mon 09:59]
+:END:
+- State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 09:59]
+:LOGBOOK:
+CLOCK: [2022-02-21 Mon 09:19]--[2022-02-21 Mon 09:46] =>  0:27
+CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
+:END:
 ** RAW Punished by Rewards by Alfie Kohn
 ** RAW Distraction Epidemic
 ** RAW Indistractable by Nir Eyal
@@ -165,3 +179,21 @@ SCHEDULED: <2022-02-17 Thu>
 ** RAW How We Learn by Benedict Carey
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
+** INIT Clocking tasks execution
+SCHEDULED: <2022-02-21 Mon>
+org-clock-out Global
+org-clock-in & with C-u
+org-clock-in-last Global
+org-clock-cancel
+[[info:org#Clocking commands]]
+** INIT Matching tags and properties
+SCHEDULED: <2022-02-21 Mon>
+-----------------------------------
+[[info:org#Matching tags and properties]]
+** INIT System like David Allen’s GTD
+SCHEDULED: <2022-02-22 Tue>
+[[info:org#Stuck projects]]
+** INIT Commands in the Agenda Buffer
+SCHEDULED: <2022-02-21 Mon>
+==================================
+[[info:org#Agenda Commands]]
