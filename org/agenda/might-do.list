@@ -29,6 +29,14 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :END:
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
+
+
+*** INIT Daily task set decluttering
+SCHEDULED: <2022-02-22 Tue +1d>
+:LOGBOOK:
+CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
+:END:
+Daily shore to order, prioritize and schedule tasks.
 * Emacs
 ** ACTIVE Agenda
 ** Key-chords
