@@ -16,8 +16,8 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** YouTube
 
-*** INIT Ali Abdaal transcript
-SCHEDULED: <2022-02-22 Tue +2d>
+*** TODO Ali Abdaal transcript
+SCHEDULED: <2022-11-05 Sat +2d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-22 Tue 10:02]
 :END:
@@ -31,9 +31,13 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-*** INIT Daily task set decluttering
+*** TODO Daily task pile decluttering
 SCHEDULED: <2022-02-22 Tue +1d>
 :LOGBOOK:
+CLOCK: [2022-11-04 Fri 19:49]--[2022-11-04 Fri 20:03] =>  0:14
+CLOCK: [2022-11-04 Fri 10:58]--[2022-11-04 Fri 11:22] =>  0:24
+CLOCK: [2022-11-04 Fri 10:19]--[2022-11-04 Fri 10:50] =>  0:31
+CLOCK: [2022-11-04 Fri 09:53]--[2022-11-04 Fri 09:59] =>  0:06
 CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 :END:
 Daily shore to order, prioritize and schedule tasks.
@@ -44,7 +48,7 @@ Daily shore to order, prioritize and schedule tasks.
 :CATEGORY: Key-chords
 :END:
 *** RAW Extend
-SCHEDULED: <2022-02-24 Thu +1w>
+SCHEDULED: <2022-11-04 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-18 Fri 12:13]
 :END:
@@ -54,9 +58,9 @@ Regularly --> list of appropriate commands
 SCHEDULED: <2022-02-17 Thu>
 [[help:insert-register][link]]
 **** TODO Specific for *Org-mode*
-SCHEDULED: <2022-02-24 Thu>
+SCHEDULED: <2022-11-04 Fri>
 *** TODO Declutter
-SCHEDULED: <2022-02-22 Tue +3w>
+SCHEDULED: <2022-11-07 Mon +3w>
 Optionally, seldom
 ** Org-capture
 *** CLOSED Elaborate two-letters dispatcher
@@ -223,7 +227,8 @@ But then you can sell it to multiple people further down the line.
 ** RAW Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Monthly
-SCHEDULED: <2022-03-01 Tue +1m>
+SCHEDULED: <2022-11-04 Fri +1w>
 Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
+
