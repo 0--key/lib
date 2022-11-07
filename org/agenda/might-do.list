@@ -7,7 +7,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Thesis
-#+TODO: RAW INIT TODO ACTIVE | MAYBE DONE CLOSED
+#+TODO: RAW INIT TODO ACTIVE | DONE
 
 * Personal Development
 :PROPERTIES:
