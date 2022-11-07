@@ -5,24 +5,18 @@
  ;; If there is more than one, they won't work right.
  '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(custom-safe-themes
-   (quote
-    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+   '("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))
  '(key-chord-mode t)
  '(org-agenda-files
-   (quote
-    ("~/git/org-pub/2022-02-11-making-money.org"
-     "~/git/org-pub/2022-02-07-the-average-workflow.org"
-     "~/git/lib/org/agenda/might-do.list")))
+   '("/home/alioth/git/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/git/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/git/lib/org/agenda/might-do.list"))
  '(org-babel-load-languages
-   (quote
-    ((python . t)
+   '((python . t)
      (emacs-lisp . t)
      (shell . t)
      (sqlite . t)
-     (C . t))))
+     (C . t)))
  '(package-selected-packages
-   (quote
-    (org-drill org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord))))
+   '(dictionary org-drill org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord)))
 
 
 (custom-set-faces
