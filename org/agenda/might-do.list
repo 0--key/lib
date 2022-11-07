@@ -31,9 +31,17 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-*** TODO Daily task pile decluttering
-SCHEDULED: <2022-02-22 Tue +1d>
+** INIT [#A] Daily task pile decluttering
+DEADLINE: <2022-11-07 Mon +1d>
+:PROPERTIES:
+:CATEGORY: Dispatch It!
+:LAST_REPEAT: [2022-11-06 Sun 19:31]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
+- State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-07 Mon 13:04]
+CLOCK: [2022-11-06 Sun 09:16]--[2022-11-06 Sun 09:51] =>  0:35
 CLOCK: [2022-11-04 Fri 19:49]--[2022-11-04 Fri 20:03] =>  0:14
 CLOCK: [2022-11-04 Fri 10:58]--[2022-11-04 Fri 11:22] =>  0:24
 CLOCK: [2022-11-04 Fri 10:19]--[2022-11-04 Fri 10:50] =>  0:31
@@ -205,8 +213,10 @@ org-clock-cancel
 SCHEDULED: <2022-11-08 Tue>
 [[info:org#Stuck projects]]
 ** ACTIVE Commands in the Agenda Buffer
-SCHEDULED: <2022-02-23 Wed>
+SCHEDULED: <2022-11-07 Mon>
 :LOGBOOK:
+CLOCK: [2022-11-06 Sun 10:16]--[2022-11-06 Sun 10:41] =>  0:25
+CLOCK: [2022-11-06 Sun 09:51]--[2022-11-06 Sun 10:10] =>  0:19
 CLOCK: [2022-02-22 Tue 10:04]--[2022-02-22 Tue 10:19] =>  0:15
 :END:
 ==================================
@@ -221,8 +231,12 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
-** INIT Archive Day Monthly
-SCHEDULED: <2022-11-04 Fri +1w>
+** ACTIVE Archive Day Weekly
+SCHEDULED: <2022-11-11 Fri +1w>
+:LOGBOOK:
+CLOCK: [2022-11-06 Sun 12:06]--[2022-11-06 Sun 12:31] =>  0:25
+CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
+:END:
 Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
