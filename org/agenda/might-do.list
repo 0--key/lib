@@ -201,10 +201,6 @@ org-clock-in & with C-u
 org-clock-in-last Global
 org-clock-cancel
 [[info:org#Clocking commands]]
-** INIT Matching tags and properties
-SCHEDULED: <2022-02-28 Mon>
------------------------------------
-[[info:org#Matching tags and properties]]
 ** INIT System like David Allen’s GTD
 SCHEDULED: <2022-11-08 Tue>
 [[info:org#Stuck projects]]
