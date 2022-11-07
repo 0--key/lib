@@ -17,7 +17,7 @@ Advanced to-do list    -*- mode: org; -*-
 ** YouTube
 
 *** TODO Ali Abdaal transcript
-SCHEDULED: <2022-11-05 Sat +2d>
+SCHEDULED: <2022-11-09 Wed +2d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-22 Tue 10:02]
 :END:
@@ -48,17 +48,18 @@ Daily shore to order, prioritize and schedule tasks.
 :CATEGORY: Key-chords
 :END:
 *** RAW Extend
-SCHEDULED: <2022-11-04 Fri +1w>
+SCHEDULED: <2022-11-11 Fri +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-02-18 Fri 12:13]
+:LAST_REPEAT: [2022-11-06 Sun 12:41]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-06 Sun 12:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-18 Fri 12:13]
 Regularly --> list of appropriate commands
 **** DONE Backward to " in shell
 SCHEDULED: <2022-02-17 Thu>
 [[help:insert-register][link]]
 **** TODO Specific for *Org-mode*
-SCHEDULED: <2022-11-04 Fri>
+SCHEDULED: <2022-11-10 Thu>
 *** TODO Declutter
 SCHEDULED: <2022-11-07 Mon +3w>
 Optionally, seldom
@@ -101,7 +102,7 @@ https://www.jwz.org/bbdb/
 SCHEDULED: <2022-02-17 Thu>
 
 ** INIT Capture for Notes:
-SCHEDULED: <2022-02-24 Thu>
+SCHEDULED: <2022-11-07 Mon>
 
 + Fleeting (uncategorized yet);
 + Books;
@@ -114,24 +115,24 @@ for time ratio on gathering and digesting
 What is it?
 
 ** RAW Customize category for each task
-SCHEDULED: <2022-03-03 Thu>
+SCHEDULED: <2022-11-07 Mon>
 as a [[info:org#Template expansion][clocked task]]
 
-** RAW Clocking tasks
-SCHEDULED: <2022-03-03 Thu>
+** ACTIVE Clocking tasks
+SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-02-22 Tue 09:55]--[2022-02-22 Tue 10:00] =>  0:05
 CLOCK: [2022-02-21 Mon 08:36]--[2022-02-21 Mon 08:38] =>  0:02
 :END:
 ** RAW Text search in additional files
-SCHEDULED: <2022-02-24 Thu +2m>
+SCHEDULED: <2022-11-07 Mon +2m>
 org-agenda-text-search-extra-files
 [[info:org#Agenda Dispatcher]]
 ** DONE Switch from DeadLine
 SCHEDULED: <2022-02-15 Tue>
 on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
-** DONE Make it a chore
-SCHEDULED: <2022-02-15 Tue>
+** TODO Make repeated tasks a chore
+SCHEDULED: <2022-11-08 Tue>
 Repeated tasks
 --------------------
 [[info:org#Repeated tasks]]
@@ -140,44 +141,42 @@ SCHEDULED: <2022-02-15 Tue>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
 ** ACTIVE Deadlines and Scheduling
-SCHEDULED: <2022-02-22 Tue>
+SCHEDULED: <2022-11-07 Mon>
 ============================
 [[info:org#Deadlines and Scheduling]]
-** MAYBE Inserting deadlines or schedules
-SCHEDULED: <2022-02-16 Wed>
+** TODO Inserting deadlines or schedules
+SCHEDULED: <2022-11-07 Mon>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
 ** RAW x to reset to origin/master
-SCHEDULED: <2022-03-08 Tue>
-** TODO [#A] Capture for Books, Thoughts,
-SCHEDULED: <2022-02-22 Tue>
+SCHEDULED: <2022-11-09 Wed>
+** TODO [#B] Capture for Books, Thoughts,
+SCHEDULED: <2022-11-09 Wed>
 sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** CLOSED ToDo export fix
-SCHEDULED: <2022-02-16 Wed>
 ** RAW Slow Lane is illusion of safety
-SCHEDULED: <2022-02-23 Wed>
+SCHEDULED: <2022-11-09 Wed>
 :PROPERTIES:
 :CATEGORY: ZKNote
 :END:
 The first one note. To elaborate capture out of it.
 ** RAW It is still, ultimately,
-SCHEDULED: <2022-02-23 Wed>
+SCHEDULED: <2022-11-10 Thu>
 trading your time for money.
 
 It's been captured.
 [[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
 trading your time for money.][Avoid the slow lane]]
 ** RAW Lisp directory re-compilation                            :Emacs:lisp:
-SCHEDULED: <2022-03-02 Wed>
+SCHEDULED: <2022-11-08 Tue>
 find . -name "*.elc" -type f | xargs rm -f
 C-u 0 M-x byte-recompile-directory
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
-** INIT Append new files with quotations                            :quotes:
-SCHEDULED: <2022-02-25 Fri +1d>
+** INIT Append new files with quotations and proverbs               :quotes:
+SCHEDULED: <2022-11-07 Mon +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
@@ -195,8 +194,8 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW How We Learn by Benedict Carey
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
-** INIT Clocking tasks execution
-SCHEDULED: <2022-02-22 Tue>
+** TODO Clocking tasks execution
+SCHEDULED: <2022-11-08 Tue>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -207,7 +206,7 @@ SCHEDULED: <2022-02-28 Mon>
 -----------------------------------
 [[info:org#Matching tags and properties]]
 ** INIT System like David Allen’s GTD
-SCHEDULED: <2022-02-22 Tue>
+SCHEDULED: <2022-11-08 Tue>
 [[info:org#Stuck projects]]
 ** ACTIVE Commands in the Agenda Buffer
 SCHEDULED: <2022-02-23 Wed>
