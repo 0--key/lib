@@ -106,6 +106,8 @@
 (key-chord-define org-mode-map "od"     'org-deadline)
 (key-chord-define org-mode-map "so"     'org-schedule)
 (key-chord-define-global "ol"     'org-store-link)
+(require 'dictionary)
+(key-chord-define-global "wt"     'dictionary-lookup-definition)
 
 
 
