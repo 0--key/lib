@@ -32,15 +32,17 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** INIT [#A] Daily task pile decluttering
-DEADLINE: <2022-11-07 Mon +1d>
+SCHEDULED: <2022-11-08 Tue +1d>
 :PROPERTIES:
-:CATEGORY: Dispatch It!
-:LAST_REPEAT: [2022-11-06 Sun 19:31]
+:CATEGORY: Rid It!
+:LAST_REPEAT: [2022-11-07 Mon 13:42]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-07 Mon 13:42]
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
-CLOCK: [2022-11-07 Mon 13:04]
+CLOCK: [2022-11-08 Tue 14:42]--[2022-11-08 Tue 15:11] =>  0:29
+CLOCK: [2022-11-07 Mon 13:04]--[2022-11-07 Mon 13:31] =>  0:27
 CLOCK: [2022-11-06 Sun 09:16]--[2022-11-06 Sun 09:51] =>  0:35
 CLOCK: [2022-11-04 Fri 19:49]--[2022-11-04 Fri 20:03] =>  0:14
 CLOCK: [2022-11-04 Fri 10:58]--[2022-11-04 Fri 11:22] =>  0:24
@@ -130,7 +132,11 @@ CLOCK: [2022-02-22 Tue 09:55]--[2022-02-22 Tue 10:00] =>  0:05
 CLOCK: [2022-02-21 Mon 08:36]--[2022-02-21 Mon 08:38] =>  0:02
 :END:
 ** RAW Text search in additional files
-SCHEDULED: <2022-11-07 Mon +2m>
+SCHEDULED: <2022-11-21 Mon +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-07 Mon 14:15]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:15]
 org-agenda-text-search-extra-files
 [[info:org#Agenda Dispatcher]]
 ** DONE Switch from DeadLine
@@ -145,11 +151,14 @@ Repeated tasks
 SCHEDULED: <2022-02-15 Tue>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
-** ACTIVE Deadlines and Scheduling
+** DONE Deadlines and Scheduling
 SCHEDULED: <2022-11-07 Mon>
+:LOGBOOK:
+CLOCK: [2022-11-07 Mon 13:31]--[2022-11-07 Mon 13:53] =>  0:22
+:END:
 ============================
 [[info:org#Deadlines and Scheduling]]
-** TODO Inserting deadlines or schedules
+** DONE Inserting deadlines or schedules
 SCHEDULED: <2022-11-07 Mon>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
