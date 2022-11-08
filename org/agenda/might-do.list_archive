@@ -15,3 +15,33 @@ SCHEDULED: <2022-11-04 Fri>
 :END:
 -----------------------------------
 [[info:org#Matching tags and properties]]
+
+* DONE Lisp directory re-compilation                             :Emacs:lisp:
+SCHEDULED: <2022-11-08 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-08 Tue 14:44
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: RawNotes
+:ARCHIVE_TODO: DONE
+:END:
+find . -name "*.elc" -type f | xargs rm -f
+C-u 0 M-x byte-recompile-directory
+
+* TODO Capture for Notes:
+SCHEDULED: <2022-11-08 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-08 Tue 14:56
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: RawNotes
+:ARCHIVE_TODO: TODO
+:END:
+:LOGBOOK:
+CLOCK: [2022-11-07 Mon 13:55]--[2022-11-07 Mon 14:03] =>  0:08
+:END:
+
++ Fleeting (uncategorized yet);
++ Books;
+[[info:org#Template expansion][Link]]
+

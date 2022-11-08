@@ -112,13 +112,6 @@ https://www.jwz.org/bbdb/
 :END:
 SCHEDULED: <2022-02-17 Thu>
 
-** INIT Capture for Notes:
-SCHEDULED: <2022-11-07 Mon>
-
-+ Fleeting (uncategorized yet);
-+ Books;
-[[info:org#Template expansion][Link]]
-
 ** RAW Paretto law
 for time ratio on gathering and digesting
 
@@ -187,10 +180,6 @@ trading your time for money.
 It's been captured.
 [[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
 trading your time for money.][Avoid the slow lane]]
-** RAW Lisp directory re-compilation                            :Emacs:lisp:
-SCHEDULED: <2022-11-08 Tue>
-find . -name "*.elc" -type f | xargs rm -f
-C-u 0 M-x byte-recompile-directory
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** INIT Append new files with quotations and proverbs               :quotes:
