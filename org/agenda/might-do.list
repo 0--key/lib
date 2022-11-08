@@ -211,8 +211,8 @@ org-clock-cancel
 ** INIT System like David Allen’s GTD
 SCHEDULED: <2022-11-08 Tue>
 [[info:org#Stuck projects]]
-** ACTIVE Commands in the Agenda Buffer
-SCHEDULED: <2022-11-07 Mon>
+** DONE Commands in the Agenda Buffer                              :ARCHIVE:
+SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-06 Sun 10:16]--[2022-11-06 Sun 10:41] =>  0:25
 CLOCK: [2022-11-06 Sun 09:51]--[2022-11-06 Sun 10:10] =>  0:19
