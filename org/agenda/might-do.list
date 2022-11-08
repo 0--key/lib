@@ -119,11 +119,11 @@ for time ratio on gathering and digesting
 What is it?
 
 ** RAW Customize category for each task
-SCHEDULED: <2022-11-07 Mon>
+SCHEDULED: <2022-11-10 Thu>
 as a [[info:org#Template expansion][clocked task]]
 
 ** ACTIVE Clocking tasks
-SCHEDULED: <2022-11-08 Tue>
+SCHEDULED: <2022-11-11 Fri>
 :LOGBOOK:
 CLOCK: [2022-02-22 Tue 09:55]--[2022-02-22 Tue 10:00] =>  0:05
 CLOCK: [2022-02-21 Mon 08:36]--[2022-02-21 Mon 08:38] =>  0:02
@@ -183,7 +183,7 @@ trading your time for money.][Avoid the slow lane]]
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** INIT Append new files with quotations and proverbs               :quotes:
-SCHEDULED: <2022-11-07 Mon +1d>
+SCHEDULED: <2022-11-11 Fri +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
@@ -201,8 +201,8 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW How We Learn by Benedict Carey
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
-** TODO Clocking tasks execution
-SCHEDULED: <2022-11-08 Tue>
+** ACTIVE Clocking tasks execution
+SCHEDULED: <2022-11-11 Fri>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
