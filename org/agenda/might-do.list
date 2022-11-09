@@ -32,15 +32,19 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** INIT [#A] Daily task pile decluttering
-SCHEDULED: <2022-11-08 Tue +1d>
+SCHEDULED: <2022-11-09 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
-:LAST_REPEAT: [2022-11-07 Mon 13:42]
+:LAST_REPEAT: [2022-11-08 Tue 20:41]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:41]
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 13:42]
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-09 Wed 17:25]
+CLOCK: [2022-11-09 Wed 17:25]--[2022-11-09 Wed 17:25] =>  0:00
+CLOCK: [2022-11-09 Wed 17:24]--[2022-11-09 Wed 17:25] =>  0:01
 CLOCK: [2022-11-08 Tue 14:42]--[2022-11-08 Tue 15:11] =>  0:29
 CLOCK: [2022-11-07 Mon 13:04]--[2022-11-07 Mon 13:31] =>  0:27
 CLOCK: [2022-11-06 Sun 09:16]--[2022-11-06 Sun 09:51] =>  0:35
@@ -139,8 +143,11 @@ org-agenda-text-search-extra-files
 ** DONE Switch from DeadLine
 SCHEDULED: <2022-02-15 Tue>
 on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
-** TODO Make repeated tasks a chore
+** DONE Make repeated tasks a chore
 SCHEDULED: <2022-11-08 Tue>
+:LOGBOOK:
+CLOCK: [2022-11-08 Tue 16:25]--[2022-11-08 Tue 16:32] =>  0:07
+:END:
 Repeated tasks
 --------------------
 [[info:org#Repeated tasks]]
@@ -209,7 +216,7 @@ org-clock-in-last Global
 org-clock-cancel
 [[info:org#Clocking commands]]
 ** INIT System like David Allen’s GTD
-SCHEDULED: <2022-11-08 Tue>
+SCHEDULED: <2022-11-10 Thu>
 [[info:org#Stuck projects]]
 ** DONE Commands in the Agenda Buffer                              :ARCHIVE:
 SCHEDULED: <2022-11-08 Tue>
@@ -243,8 +250,15 @@ Toggle Archives mode
 SCHEDULED: <2022-11-15 Tue>
 ** DONE Thesaurus from Mariam-Webster
 SCHEDULED: <2022-11-08 Tue>
-** INIT [#B] >Git<
-SCHEDULED: <2022-11-08 Tue .+1d>
 :LOGBOOK:
-CLOCK: [2022-11-08 Tue 16:10]
+CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
+:END:
+** RAW [#B] >Git<
+SCHEDULED: <2022-11-09 Wed .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-08 Tue 20:40]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
+:LOGBOOK:
+CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
