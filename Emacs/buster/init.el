@@ -16,7 +16,7 @@
      (sqlite . t)
      (C . t)))
  '(package-selected-packages
-   '(dictionary org-drill org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord)))
+   '(mw-thesaurus dictionary org-drill org go-mode ob-go langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord)))
 
 
 (custom-set-faces
