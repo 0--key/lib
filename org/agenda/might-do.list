@@ -16,14 +16,16 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** YouTube
 
-*** TODO Ali Abdaal transcript
-SCHEDULED: <2022-11-09 Wed +2d>
+*** RAW Ali Abdaal's *new* transcript
+SCHEDULED: <2022-11-23 Wed +2w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-02-22 Tue 10:02]
+:LAST_REPEAT: [2022-11-09 Wed 18:25]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-09 Wed 18:25]
 - State "MAYBE"      from "ACTIVE"     [2022-02-22 Tue 10:02]
 - State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 17:02]
 :LOGBOOK:
+CLOCK: [2022-11-09 Wed 18:23]--[2022-11-09 Wed 18:25] =>  0:02
 CLOCK: [2022-02-21 Mon 16:30]--[2022-02-21 Mon 17:02] =>  0:32
 CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :END:
@@ -31,18 +33,22 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** INIT [#A] Daily task pile decluttering
-SCHEDULED: <2022-11-09 Wed .+1d>
+** RAW [#A] Daily task pile decluttering
+SCHEDULED: <2022-11-10 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
-:LAST_REPEAT: [2022-11-08 Tue 20:41]
+:LAST_REPEAT: [2022-11-09 Wed 19:01]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:01]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:41]
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 13:42]
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
-CLOCK: [2022-11-09 Wed 17:25]
+CLOCK: [2022-11-10 Thu 08:17]--[2022-11-10 Thu 08:43] =>  0:26
+CLOCK: [2022-11-10 Thu 07:39]--[2022-11-10 Thu 08:06] =>  0:27
+CLOCK: [2022-11-09 Wed 18:28]--[2022-11-09 Wed 18:30] =>  0:02
+CLOCK: [2022-11-09 Wed 17:25]--[2022-11-09 Wed 17:42] =>  0:17
 CLOCK: [2022-11-09 Wed 17:25]--[2022-11-09 Wed 17:25] =>  0:00
 CLOCK: [2022-11-09 Wed 17:24]--[2022-11-09 Wed 17:25] =>  0:01
 CLOCK: [2022-11-08 Tue 14:42]--[2022-11-08 Tue 15:11] =>  0:29
@@ -72,8 +78,12 @@ Regularly --> list of appropriate commands
 **** DONE Backward to " in shell
 SCHEDULED: <2022-02-17 Thu>
 [[help:insert-register][link]]
-**** TODO Specific for *Org-mode*
-SCHEDULED: <2022-11-10 Thu>
+**** RAW Specific for *Org-mode*
+SCHEDULED: <2022-11-24 Thu .+2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-10 Thu 07:54]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** RAW Declutter
 SCHEDULED: <2022-11-28 Mon +3w>
 :PROPERTIES:
@@ -166,17 +176,12 @@ CLOCK: [2022-11-07 Mon 13:31]--[2022-11-07 Mon 13:53] =>  0:22
 SCHEDULED: <2022-11-07 Mon>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
+** ACTIVE [#B] Capture for Books, Thoughts,
+SCHEDULED: <2022-11-23 Wed>
 sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** RAW It is still, ultimately,
-SCHEDULED: <2022-11-10 Thu>
-trading your time for money.
-
-It's been captured.
-[[file:~/git/org-pub/2022-02-11-making-money.org::It is still, ultimately,
-trading your time for money.][Avoid the slow lane]]
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** INIT Append new files with quotations and proverbs               :quotes:
@@ -244,11 +249,15 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** RAW [#B] >Git<
-SCHEDULED: <2022-11-09 Wed .+1d>
+SCHEDULED: <2022-11-10 Thu .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-08 Tue 20:40]
+:LAST_REPEAT: [2022-11-09 Wed 19:20]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-11-11 Fri 08:26]
+CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
+CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
