@@ -270,3 +270,7 @@ SCHEDULED: <2022-11-10 Thu .+1d>
 ** RAW Another Smart Note                                          :ARCHIVE:
 SCHEDULED: <2022-11-10 Thu .+1d>
 [[file:~/books/How to Take Smart Notes.epub::it is the opposite. Once we get into the workflow, it is as if the work][Another Sonke]]
+** INIT Store and insert precise links
+SCHEDULED: <2022-11-11 Fri>
+bmkp-store-org-link
+[[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
