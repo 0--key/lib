@@ -4,9 +4,14 @@
 (scroll-bar-mode -1)
 ;; (desktop-save-mode 1) ;; temporary !!
 
-   (setq calendar-latitude 47.5)
-   (setq calendar-longitude 34.65)
-   (setq calendar-location-name "Energodar, ZP")
+;; 55.04665127097639, -7.565092591636581
+;; Baile Uí Fhloinn
+(setq calendar-latitude 55.0466)
+   (setq calendar-longitude -7.5651)
+   (setq calendar-location-name "Baile Uí Fhloinn, Co. Donegal")
+;; (setq calendar-latitude 47.5)
+;;    (setq calendar-longitude 34.65)
+;;    (setq calendar-location-name "Energodar, ZP")
 
 
 (require 'package)
