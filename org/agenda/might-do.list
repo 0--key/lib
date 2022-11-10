@@ -98,7 +98,7 @@ noexport for it and properties like ~category~
 
 * Notes
 :PROPERTIES:
-:CATEGORY: Notes
+:CATEGORY: RawNotes
 :END:
 
 
@@ -131,10 +131,6 @@ for time ratio on gathering and digesting
 
 ** RAW Org-attach
 What is it?
-
-** RAW Customize category for each task
-SCHEDULED: <2022-11-10 Thu>
-as a [[info:org#Template expansion][clocked task]]
 
 ** ACTIVE Clocking tasks
 SCHEDULED: <2022-11-11 Fri>
