@@ -83,9 +83,11 @@
 (key-chord-define-global "tr"     'google-translate-at-point)
 (key-chord-define-global "ty"     'voca-builder/search-popup)
 
+
 (add-to-list 'load-path "~/git/bookmark-plus/")
 (require 'bookmark+)
 ;;
+(key-chord-define-global "sb"     'bmkp-store-org-link)
 (key-chord-define-global "bm"     'bmkp-bookmark-set-confirm-overwrite)
 (key-chord-define-global "lb"     'bookmark-bmenu-list)
 (key-chord-define-global "jb"     'bookmark-jump)
