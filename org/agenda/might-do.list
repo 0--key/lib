@@ -33,8 +33,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** RAW [#A] Daily task pile decluttering
-SCHEDULED: <2022-11-10 Thu .+1d>
+** ACTIVE [#A] Daily task pile decluttering
+SCHEDULED: <2022-11-11 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
 :LAST_REPEAT: [2022-11-09 Wed 19:01]
@@ -102,7 +102,7 @@ noexport for it and properties like ~category~
 :END:
 
 
-** CLOSED [[info:org#Activation][org-store-link]]
+** RAW  [[info:org#Activation][org-store-link]]
 
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
@@ -244,8 +244,8 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** RAW [#B] >Git<
-SCHEDULED: <2022-11-10 Thu .+1d>
+** ACTIVE [#B] >Git<
+SCHEDULED: <2022-11-11 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 19:20]
 :END:
@@ -262,7 +262,7 @@ SCHEDULED: <2022-11-17 Thu>
 which serves to promote discovery or /learning by encouraging
 experimentation/.
 ** INIT Org Mode Links that Jump To Bookmarks                      :ARCHIVE:
-SCHEDULED: <2022-11-10 Thu>
+SCHEDULED: <2022-11-11 Fri>
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** RAW Smart Notes Cooking                                         :ARCHIVE:
 SCHEDULED: <2022-11-10 Thu .+1d>
