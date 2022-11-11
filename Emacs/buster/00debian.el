@@ -119,6 +119,8 @@
 
 (require 'dictionary)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
+(require 'mw-thesaurus)
+(key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
 
 
 
