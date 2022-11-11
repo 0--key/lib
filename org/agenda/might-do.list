@@ -115,13 +115,17 @@ For notes linkage in Zettelkasten
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
-** RAW Richard Shepherd
+** RAW Richard Shepherd                                            :ARCHIVE:
 SCHEDULED: <2022-11-11 Fri +1m -1d>
 
 Seven Ages of Death
 
 ** RAW BBDB
-SCHEDULED: <2022-11-11 Fri +2w -1d>
+SCHEDULED: <2022-11-25 Fri +2w -1d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-13 Sun 10:40]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-11 Fri 10:40]
 https://www.jwz.org/bbdb/
 
 ** INIT Custom ID property
@@ -136,12 +140,6 @@ for time ratio on gathering and digesting
 ** RAW Org-attach
 What is it?
 
-** ACTIVE Clocking tasks
-SCHEDULED: <2022-11-11 Fri>
-:LOGBOOK:
-CLOCK: [2022-02-22 Tue 09:55]--[2022-02-22 Tue 10:00] =>  0:05
-CLOCK: [2022-02-21 Mon 08:36]--[2022-02-21 Mon 08:38] =>  0:02
-:END:
 ** RAW Text search in additional files
 SCHEDULED: <2022-11-21 Mon +2w>
 :PROPERTIES:
@@ -185,7 +183,7 @@ interruptions.
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** INIT Append new files with quotations and proverbs               :quotes:
-SCHEDULED: <2022-11-11 Fri +1d>
+SCHEDULED: <2022-11-15 Tue +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
