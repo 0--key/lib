@@ -45,6 +45,7 @@ SCHEDULED: <2022-11-11 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-11 Fri 10:18]--[2022-11-11 Fri 10:22] =>  0:04
 CLOCK: [2022-11-10 Thu 08:17]--[2022-11-10 Thu 08:43] =>  0:26
 CLOCK: [2022-11-10 Thu 07:39]--[2022-11-10 Thu 08:06] =>  0:27
 CLOCK: [2022-11-09 Wed 18:28]--[2022-11-09 Wed 18:30] =>  0:02
@@ -71,6 +72,9 @@ Daily shore to order, prioritize and schedule tasks.
 SCHEDULED: <2022-11-11 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-06 Sun 12:41]
+:END:
+:LOGBOOK:
+CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 12:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-18 Fri 12:13]
@@ -206,7 +210,7 @@ org-clock-in & with C-u
 org-clock-in-last Global
 org-clock-cancel
 [[info:org#Clocking commands]]
-** INIT System like David Allen’s GTD
+** TODO System like David Allen’s GTD                              :ARCHIVE:
 SCHEDULED: <2022-11-10 Thu>
 [[info:org#Stuck projects]]
 ** DONE Commands in the Agenda Buffer                              :ARCHIVE:
@@ -252,7 +256,8 @@ SCHEDULED: <2022-11-11 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-11-11 Fri 08:26]
+CLOCK: [2022-11-11 Fri 10:03]--[2022-11-11 Fri 10:12] =>  0:09
+CLOCK: [2022-11-11 Fri 08:26]--[2022-11-11 Fri 09:03] =>  0:37
 CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
