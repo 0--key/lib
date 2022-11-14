@@ -71,11 +71,12 @@ Daily shore to order, prioritize and schedule tasks.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** ACTIVE Extend
-SCHEDULED: <2022-11-11 Fri +1w>
+*** RAW Extend
+SCHEDULED: <2022-11-18 Fri +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-06 Sun 12:41]
+:LAST_REPEAT: [2022-11-14 Mon 08:42]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
 CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 :END:
@@ -233,8 +234,12 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
-** ACTIVE Archive Day Weekly
-SCHEDULED: <2022-11-11 Fri +1w>
+** RAW Archive Day Weekly
+SCHEDULED: <2022-11-18 Fri +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-14 Mon 08:40]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:40]
 :LOGBOOK:
 CLOCK: [2022-11-06 Sun 12:06]--[2022-11-06 Sun 12:31] =>  0:25
 CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
@@ -282,6 +287,9 @@ bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
 SCHEDULED: <2022-11-14 Mon>
+:LOGBOOK:
+CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
+:END:
 [[info:org#Progress Logging]]
 ** RAW Brendan Kelly
 DEADLINE: <2022-12-06 Tue>
