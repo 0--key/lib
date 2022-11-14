@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** ACTIVE [#A] Daily task pile decluttering
-SCHEDULED: <2022-11-11 Fri .+1d>
+SCHEDULED: <2022-11-14 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
 :LAST_REPEAT: [2022-11-09 Wed 19:01]
@@ -45,6 +45,9 @@ SCHEDULED: <2022-11-11 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-14 Mon 10:15]--[2022-11-14 Mon 10:31] =>  0:16
+CLOCK: [2022-11-14 Mon 08:39]--[2022-11-14 Mon 09:00] =>  0:21
+CLOCK: [2022-11-14 Mon 08:07]--[2022-11-14 Mon 08:31] =>  0:24
 CLOCK: [2022-11-11 Fri 10:18]--[2022-11-11 Fri 10:22] =>  0:04
 CLOCK: [2022-11-10 Thu 08:17]--[2022-11-10 Thu 08:43] =>  0:26
 CLOCK: [2022-11-10 Thu 07:39]--[2022-11-10 Thu 08:06] =>  0:27
@@ -202,7 +205,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2022-11-11 Fri>
+SCHEDULED: <2022-11-17 Thu>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -247,7 +250,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** ACTIVE [#B] >Git<
-SCHEDULED: <2022-11-11 Fri .+1d>
+SCHEDULED: <2022-11-14 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 19:20]
 :END:
@@ -273,7 +276,7 @@ SCHEDULED: <2022-11-10 Thu .+1d>
 ** RAW Another Smart Note                                          :ARCHIVE:
 SCHEDULED: <2022-11-10 Thu .+1d>
 [[file:~/books/How to Take Smart Notes.epub::it is the opposite. Once we get into the workflow, it is as if the work][Another Sonke]]
-** ACTIVE Store and insert precise links
+** DONE Store and insert precise links
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
