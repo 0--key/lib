@@ -112,6 +112,7 @@
 (key-chord-define org-mode-map "od"     'org-deadline)
 (key-chord-define org-mode-map "so"     'org-schedule)
 (key-chord-define-global "ol"     'org-store-link)
+(require 'org-agenda)
 (key-chord-define org-agenda-mode-map "lo"     'org-agenda-open-link)
 (key-chord-define org-agenda-mode-map "-p"     'org-agenda-drag-line-forward)
 (key-chord-define org-agenda-mode-map "=["     'org-agenda-drag-line-backward)
