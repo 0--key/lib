@@ -30,7 +30,6 @@
 (require 'org)
 (require 'org-tempo)
 (require 'org-bullets)
-;;(require 'go-mode)
 (require 'ob-go)
 
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
@@ -106,8 +105,8 @@
 ;;
 
 (key-chord-define-global "hg"     'keyboard-quit)
-(key-chord-define org-mode-map "km"     'org-meta-return)
 (key-chord-define-global "ga"     'org-agenda)
+(key-chord-define org-mode-map "km"     'org-meta-return)
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
 (key-chord-define org-mode-map "a]"     'org-remove-file)
 (key-chord-define org-mode-map "od"     'org-deadline)
@@ -118,6 +117,8 @@
 (key-chord-define org-agenda-mode-map "=["     'org-agenda-drag-line-backward)
 
 (key-chord-define org-agenda-mode-map "za"     'org-agenda-toggle-archive-tag)
+
+
 
 (require 'dictionary)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
