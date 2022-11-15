@@ -193,12 +193,18 @@ SCHEDULED: <2022-11-16 Wed>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
+- Note taken on [2022-11-15 Tue 18:57] \\
+  Naturally it would be handy to switch to drilling node directly from
+  the *Org-Agenda* buffer. So, just include file with drills into
+  *Org-Agenda* list and all nodes become accessible in the appropriate
+  buffer.
 - State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 09:59]
 :LOGBOOK:
 CLOCK: [2022-11-15 Tue 10:50]--[2022-11-15 Tue 11:03] =>  0:13
 CLOCK: [2022-02-21 Mon 09:19]--[2022-02-21 Mon 09:46] =>  0:27
 CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 :END:
+[[file:~/git/lib/org/proverbs.org::*A drowning man will clutch at a straw][Proverbs in a moist form]]
 ** RAW Punished by Rewards by Alfie Kohn
 ** RAW Distraction Epidemic
 ** RAW Indistractable by Nir Eyal
