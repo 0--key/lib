@@ -34,11 +34,12 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** RAW [#A] Daily task pile decluttering
-SCHEDULED: <2022-11-16 Wed .+1d>
+SCHEDULED: <2022-11-17 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
-:LAST_REPEAT: [2022-11-15 Tue 09:29]
+:LAST_REPEAT: [2022-11-16 Wed 17:30]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-16 Wed 17:30]
 - State "DONE"       from "ACTIVE"     [2022-11-15 Tue 09:29]
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:01]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:41]
@@ -46,6 +47,7 @@ SCHEDULED: <2022-11-16 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-16 Wed 17:29]--[2022-11-16 Wed 17:30] =>  0:01
 CLOCK: [2022-11-15 Tue 09:24]--[2022-11-15 Tue 09:29] =>  0:05
 CLOCK: [2022-11-14 Mon 10:15]--[2022-11-14 Mon 10:31] =>  0:16
 CLOCK: [2022-11-14 Mon 08:39]--[2022-11-14 Mon 09:00] =>  0:21
@@ -189,7 +191,7 @@ interruptions.
 ** RAW Include Files                                          :zettelkasten:
 [[info:org#Include Files]]
 ** TODO Append new files with quotations and proverbs               :quotes:
-SCHEDULED: <2022-11-16 Wed>
+SCHEDULED: <2022-11-18 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
@@ -257,13 +259,13 @@ Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
 ** RAW SRE vs DevOPs vs SE vs SD
-SCHEDULED: <2022-11-16 Wed>
+SCHEDULED: <2022-11-22 Tue>
 ** DONE Thesaurus from Mariam-Webster
 SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** RAW [#B] >Git<
+** TODO [#B] >Git<
 SCHEDULED: <2022-11-16 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 11:36]
@@ -273,6 +275,7 @@ SCHEDULED: <2022-11-16 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-11-16 Wed 17:30]
 CLOCK: [2022-11-15 Tue 09:29]--[2022-11-15 Tue 09:45] =>  0:16
 CLOCK: [2022-11-11 Fri 10:03]--[2022-11-11 Fri 10:12] =>  0:09
 CLOCK: [2022-11-11 Fri 08:26]--[2022-11-11 Fri 09:03] =>  0:37
@@ -312,7 +315,7 @@ DEADLINE: <2022-12-06 Tue>
 ** RAW Monthly archive day .+4w
 SCHEDULED: <2022-11-18 Fri .+4w>
 ** RAW How to review all TODOs even not scheduled yet?
-SCHEDULED: <2022-11-16 Wed>
+SCHEDULED: <2022-11-21 Mon>
 ** RAW Thriades for key-chords
 SCHEDULED: <2022-11-22 Tue>
 ** INIT Fleeting Notes templates elaboration
