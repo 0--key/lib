@@ -28,20 +28,40 @@ SCHEDULED: <2022-11-08 Tue>
 find . -name "*.elc" -type f | xargs rm -f
 C-u 0 M-x byte-recompile-directory
 
-* TODO Capture for Notes:
-SCHEDULED: <2022-11-08 Tue>
+
+* TODO System like David Allen’s GTD                                :ARCHIVE:
+SCHEDULED: <2022-11-10 Thu>
 :PROPERTIES:
-:ARCHIVE_TIME: 2022-11-08 Tue 14:56
+:ARCHIVE_TIME: 2022-11-18 Fri 18:41
 :ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
 :ARCHIVE_OLPATH: Notes
 :ARCHIVE_CATEGORY: RawNotes
 :ARCHIVE_TODO: TODO
 :END:
-:LOGBOOK:
-CLOCK: [2022-11-07 Mon 13:55]--[2022-11-07 Mon 14:03] =>  0:08
+[[info:org#Stuck projects]]
+
+* RAW Richard Shepherd                                              :ARCHIVE:
+SCHEDULED: <2022-11-11 Fri +1m -1d>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-18 Fri 18:41
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: RawNotes
+:ARCHIVE_TODO: RAW
 :END:
 
-+ Fleeting (uncategorized yet);
-+ Books;
-[[info:org#Template expansion][Link]]
+Seven Ages of Death
 
+
+* INIT Org Mode Links that Jump To Bookmarks                        :ARCHIVE:
+SCHEDULED: <2022-11-11 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2022-11-18 Fri 18:41
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: RawNotes
+:ARCHIVE_TODO: INIT
+:END:
+- Note taken on [2022-11-18 Fri 18:37] \\
+  ~'org-save-link~ not works properly at =Bookmarks List= buffer
+[[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]

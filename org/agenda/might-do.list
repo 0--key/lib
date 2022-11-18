@@ -33,7 +33,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** RAW [#A] Daily task pile decluttering
+** TODO [#A] Daily tasks pile assay
 SCHEDULED: <2022-11-18 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: Rid It!
@@ -48,6 +48,7 @@ SCHEDULED: <2022-11-18 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-18 Fri 18:18]--[2022-11-18 Fri 18:30] =>  0:12
 CLOCK: [2022-11-18 Fri 07:23]--[2022-11-18 Fri 07:35] =>  0:12
 CLOCK: [2022-11-17 Thu 08:18]--[2022-11-17 Thu 08:38] =>  0:30
 CLOCK: [2022-11-16 Wed 17:29]--[2022-11-16 Wed 17:30] =>  0:01
@@ -71,7 +72,9 @@ CLOCK: [2022-11-04 Fri 10:19]--[2022-11-04 Fri 10:50] =>  0:31
 CLOCK: [2022-11-04 Fri 09:53]--[2022-11-04 Fri 09:59] =>  0:06
 CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 :END:
-Daily shore to order, prioritize and schedule tasks.
+Daily shore to order, prioritize and schedule tasks. First of all it
+is neccessary to re-arrange today's tasks, /after that - tasks for
+tomorrow/.
 * Emacs
 ** ACTIVE Agenda
 ** Key-chords
@@ -79,12 +82,17 @@ Daily shore to order, prioritize and schedule tasks.
 :CATEGORY: Key-chords
 :END:
 *** RAW Extend
-SCHEDULED: <2022-11-18 Fri +1w>
+SCHEDULED: <2022-11-25 Fri +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-14 Mon 08:42]
+:LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:36]
+- Note taken on [2022-11-18 Fri 18:35] \\
+  * 'insert-register
+  * 'copy-to-register
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
+CLOCK: [2022-11-18 Fri 18:30]--[2022-11-18 Fri 18:36] =>  0:06
 CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 12:41]
@@ -125,11 +133,6 @@ For notes linkage in Zettelkasten
 ** RAW Archive non-actual tasks
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
-
-** RAW Richard Shepherd                                            :ARCHIVE:
-SCHEDULED: <2022-11-11 Fri +1m -1d>
-
-Seven Ages of Death
 
 ** RAW BBDB
 SCHEDULED: <2022-11-25 Fri +2w -1d>
@@ -226,9 +229,6 @@ org-clock-in & with C-u
 org-clock-in-last Global
 org-clock-cancel
 [[info:org#Clocking commands]]
-** TODO System like David Allen’s GTD                              :ARCHIVE:
-SCHEDULED: <2022-11-10 Thu>
-[[info:org#Stuck projects]]
 ** DONE Commands in the Agenda Buffer                              :ARCHIVE:
 SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
@@ -255,6 +255,8 @@ SCHEDULED: <2022-11-18 Fri +1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:40]
 :LOGBOOK:
+CLOCK: [2022-11-18 Fri 18:41]--[2022-11-18 Fri 18:42] =>  0:01
+CLOCK: [2022-11-18 Fri 18:36]--[2022-11-18 Fri 18:40] =>  0:04
 CLOCK: [2022-11-06 Sun 12:06]--[2022-11-06 Sun 12:31] =>  0:25
 CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
 :END:
@@ -279,7 +281,8 @@ SCHEDULED: <2022-11-18 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-11-18 Fri 07:35]
+CLOCK: [2022-11-18 Fri 18:42]
+CLOCK: [2022-11-18 Fri 07:35]--[2022-11-18 Fri 07:39] =>  0:04
 CLOCK: [2022-11-16 Wed 17:30]--[2022-11-16 Wed 18:01] =>  0:31
 CLOCK: [2022-11-15 Tue 09:29]--[2022-11-15 Tue 09:45] =>  0:16
 CLOCK: [2022-11-11 Fri 10:03]--[2022-11-11 Fri 10:12] =>  0:09
@@ -292,15 +295,6 @@ CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 SCHEDULED: <2022-11-18 Fri>
 which serves to promote discovery or /learning by encouraging
 experimentation/.
-** INIT Org Mode Links that Jump To Bookmarks                      :ARCHIVE:
-SCHEDULED: <2022-11-11 Fri>
-[[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
-** RAW Smart Notes Cooking                                         :ARCHIVE:
-SCHEDULED: <2022-11-10 Thu .+1d>
-[[file:~/books/How to Take Smart Notes.epub::8 Let the Work Carry You Forward][Sonke]]
-** RAW Another Smart Note                                          :ARCHIVE:
-SCHEDULED: <2022-11-10 Thu .+1d>
-[[file:~/books/How to Take Smart Notes.epub::it is the opposite. Once we get into the workflow, it is as if the work][Another Sonke]]
 ** DONE Store and insert precise links
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
