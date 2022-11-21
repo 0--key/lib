@@ -162,7 +162,25 @@ SCHEDULED: <2022-11-21 Mon +2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:15]
 org-agenda-text-search-extra-files
-[[info:org#Agenda Dispatcher]]
+M-x customize-apropos org-agenda
+
+Org Agenda Text Search Extra Files:
+[ ] Agenda Archives
+[ ] Repeat:
+    [INS]
+   [ State ]: STANDARD.
+   List of extra files to be searched by text search commands.
+
+   These files will be searched in addition to the agenda files by the
+   commands ‘org-search-view’ (‘<key-chord> a g s’) and ‘org-occur-in-agenda-files’.
+   Note that these files will only be searched for text search commands,
+   not for the other agenda views like todo lists, tag searches or the weekly
+   agenda.  This variable is intended to list notes and possibly archive files
+   that should also be searched by these two commands.
+   In fact, if the first element in the list is the symbol ‘agenda-archives’,
+   then all archive files of all agenda files will be added to the search
+   scope.
+
 ** DONE Switch from DeadLine
 SCHEDULED: <2022-02-15 Tue>
 on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
