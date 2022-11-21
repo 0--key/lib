@@ -34,11 +34,12 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** RAW [#A] Daily tasks pile assay
-SCHEDULED: <2022-11-19 Sat .+1d>
+SCHEDULED: <2022-11-22 Tue .+1d>
 :PROPERTIES:
-:CATEGORY: Rid It!
-:LAST_REPEAT: [2022-11-18 Fri 18:52]
+:CATEGORY: MeTa
+:LAST_REPEAT: [2022-11-21 Mon 16:20]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-21 Mon 16:20]
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:52]
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 07:21]
 - State "DONE"       from "ACTIVE"     [2022-11-16 Wed 17:30]
@@ -149,7 +150,11 @@ https://www.jwz.org/bbdb/
 :END:
 SCHEDULED: <2022-02-17 Thu>
 
-** RAW Paretto law
+** INIT Paretto law
+SCHEDULED: <2022-11-28 Mon>
+:PROPERTIES:
+:CATEGORY: Meta
+:END:
 for time ratio on gathering and digesting
 
 ** RAW Org-attach
@@ -352,6 +357,17 @@ SCHEDULED: <2022-11-21 Mon>
 SCHEDULED: <2022-11-22 Tue>
 [[info:org#TODO types][org#TODO types]]
 ** INIT Several sets of keywords
-SCHEDULED: <2022-11-21 Mon>
+** RAW [#A] Whole week scheduling
+SCHEDULED: <2022-11-27 Sun .+1w>
+:PROPERTIES:
+:CATEGORY: Meta
+:LAST_REPEAT: [2022-11-22 Tue 10:32]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
+:LOGBOOK:
+CLOCK: [2022-11-21 Mon 16:19]--[2022-11-21 Mon 16:37] =>  0:18
+:END:
+** INIT Several sets of keywords                                   :ARCHIVE:
+SCHEDULED: <2022-11-22 Tue>
 Setting up keywords for individual files
 [[info:org#Per-file keywords]]
