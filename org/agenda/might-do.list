@@ -17,7 +17,7 @@ Advanced to-do list    -*- mode: org; -*-
 ** YouTube
 
 *** RAW Ali Abdaal's *new* transcript
-SCHEDULED: <2022-11-23 Wed +2w>
+SCHEDULED: <2022-11-30 Wed +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 18:25]
 :END:
@@ -50,6 +50,9 @@ SCHEDULED: <2022-11-22 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-22 Tue 10:32]--[2022-11-22 Tue 10:42] =>  0:10
+CLOCK: [2022-11-21 Mon 08:44]--[2022-11-21 Mon 08:51] =>  0:07
+CLOCK: [2022-11-21 Mon 08:05]--[2022-11-21 Mon 08:37] =>  0:32
 CLOCK: [2022-11-18 Fri 18:18]--[2022-11-18 Fri 18:30] =>  0:12
 CLOCK: [2022-11-18 Fri 07:23]--[2022-11-18 Fri 07:35] =>  0:12
 CLOCK: [2022-11-17 Thu 08:18]--[2022-11-17 Thu 08:38] =>  0:30
@@ -83,7 +86,7 @@ tomorrow/.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** RAW Extend
+*** INIT Extend
 SCHEDULED: <2022-11-25 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
@@ -100,17 +103,17 @@ CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 12:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-18 Fri 12:13]
 Regularly --> list of appropriate commands
-**** DONE Backward to " in shell
-SCHEDULED: <2022-02-17 Thu>
+**** INIT Backward to " in shell
+SCHEDULED: <2022-12-05 Mon>
 [[help:insert-register][link]]
-**** RAW Specific for *Org-mode*
+**** INIT Specific for *Org-mode*
 SCHEDULED: <2022-11-24 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** RAW Declutter
-SCHEDULED: <2022-11-28 Mon +3w>
+*** INIT Declutter
+SCHEDULED: <2022-12-02 Fri +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:05]
 :END:
@@ -127,16 +130,18 @@ noexport for it and properties like ~category~
 :END:
 
 
-** RAW  [[info:org#Activation][org-store-link]]
+** INIT [[info:org#Activation][org-store-link]]
+SCHEDULED: <2022-11-29 Tue>
 
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
-** RAW Archive non-actual tasks
+** INIT Archive non-actual tasks
+SCHEDULED: <2022-11-30 Wed>
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
-** RAW BBDB
+** INIT BBDB
 SCHEDULED: <2022-11-25 Fri +2w -1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-13 Sun 10:40]
@@ -157,16 +162,19 @@ SCHEDULED: <2022-11-28 Mon>
 :END:
 for time ratio on gathering and digesting
 
-** RAW Org-attach
+** INIT Org-attach
+SCHEDULED: <2022-12-01 Thu>
 What is it?
 
-** RAW Text search in additional files
-SCHEDULED: <2022-11-21 Mon +2w>
+** ACTIVE Text search in additional files
+SCHEDULED: <2023-01-09 Mon +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:15]
 :END:
+:LOGBOOK:
+CLOCK: [2022-11-21 Mon 19:44]--[2022-11-21 Mon 19:56] =>  0:12
+:END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:15]
-org-agenda-text-search-extra-files
 M-x customize-apropos org-agenda
 
 Org Agenda Text Search Extra Files:
@@ -218,10 +226,11 @@ sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** RAW Include Files                                          :zettelkasten:
+** INIT Include Files                                         :zettelkasten:
+SCHEDULED: <2022-11-23 Wed>
 [[info:org#Include Files]]
-** TODO Append new files with quotations and proverbs               :quotes:
-SCHEDULED: <2022-11-20 Sun>
+** TODO Append ~drill files~ to *Agenda*
+SCHEDULED: <2022-11-22 Tue>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
 :END:
@@ -247,7 +256,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2022-11-19 Sat>
+SCHEDULED: <2022-11-24 Thu>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -270,7 +279,7 @@ their own, creating a surrogate for your time for money trade.][Build money tree
 ** INIT Create the content once.
 But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
-** RAW Establishing Habits
+** INIT Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
 ** RAW Archive Day Weekly
 SCHEDULED: <2022-11-25 Fri +1w>
@@ -288,7 +297,7 @@ CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
 Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
-** RAW SRE vs DevOPs vs SE vs SD
+** INIT SRE vs DevOPs vs SE vs SD                                  :ARCHIVE:
 SCHEDULED: <2022-11-22 Tue>
 ** DONE Thesaurus from Mariam-Webster
 SCHEDULED: <2022-11-08 Tue>
@@ -296,11 +305,12 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** RAW [#B] >Git<
-SCHEDULED: <2022-11-19 Sat .+1d>
+SCHEDULED: <2022-11-22 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-22 Tue 10:32]
 :CATEGORY: Chore
 :END:
+- State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:52]
 - State "DONE"       from "ACTIVE"     [2022-11-17 Thu 08:17]
 - State "DONE"       from "ACTIVE"     [2022-11-15 Tue 11:36]
@@ -308,6 +318,7 @@ SCHEDULED: <2022-11-19 Sat .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-11-22 Tue 10:42]
 CLOCK: [2022-11-18 Fri 18:42]--[2022-11-18 Fri 18:52] =>  0:10
 CLOCK: [2022-11-18 Fri 07:35]--[2022-11-18 Fri 07:39] =>  0:04
 CLOCK: [2022-11-16 Wed 17:30]--[2022-11-16 Wed 18:01] =>  0:31
@@ -326,7 +337,7 @@ experimentation/.
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
-** RAW Tracking your habits
+** INIT Tracking your habits
 SCHEDULED: <2022-11-29 Tue .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
@@ -336,28 +347,34 @@ SCHEDULED: <2022-11-29 Tue .+2w>
 CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 :END:
 [[info:org#Progress Logging]]
-** RAW Brendan Kelly
-DEADLINE: <2022-12-06 Tue>
-** RAW Monthly archive day .+4w
+** INIT Brendan Kelly
+DEADLINE: <2022-12-06 Tue -3d>
+** INIT Monthly archive day .+4w
 SCHEDULED: <2022-12-16 Fri .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 07:26]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 07:26]
 ** RAW How to review all TODOs even not scheduled yet?
-SCHEDULED: <2022-11-21 Mon>
-** RAW Thriades for key-chords
-SCHEDULED: <2022-11-22 Tue>
+SCHEDULED: <2022-11-28 Mon .+1w/2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-21 Mon 09:16]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-21 Mon 09:16]
+:LOGBOOK:
+CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
+:END:
+** INIT Thriades for key-chords
+SCHEDULED: <2022-12-20 Tue>
 ** INIT Fleeting Notes templates elaboration
-SCHEDULED: <2022-11-18 Fri .+3d/4d>
+SCHEDULED: <2022-11-24 Thu .+3d/4d>
 [[info:org#Capture templates][org#Capture templates]]
-** RAW Distributed rehearsal system
-SCHEDULED: <2022-11-21 Mon>
+** INIT Distributed rehearsal system
+SCHEDULED: <2022-11-24 Thu>
 =1h/8h/1d/3d/10d/=
-** RAW TODO keywords as types
+** RAW TODO keywords as types                                      :ARCHIVE:
 SCHEDULED: <2022-11-22 Tue>
 [[info:org#TODO types][org#TODO types]]
-** INIT Several sets of keywords
 ** RAW [#A] Whole week scheduling
 SCHEDULED: <2022-11-27 Sun .+1w>
 :PROPERTIES:
