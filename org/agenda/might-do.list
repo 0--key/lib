@@ -371,3 +371,21 @@ CLOCK: [2022-11-21 Mon 16:19]--[2022-11-21 Mon 16:37] =>  0:18
 SCHEDULED: <2022-11-22 Tue>
 Setting up keywords for individual files
 [[info:org#Per-file keywords]]
+** INIT [#A] Agenda for next 4 months                              :ARCHIVE:
+SCHEDULED: <2022-11-22 Tue .+1d>
+:PROPERTIES:
+:CATEGORY: MetaFuture
+:END:
+
+- Note taken on [2022-11-21 Mon 08:16] \\
+  Compose the ~LongRunAgenda~ for next 4 months with inclination on
+  
+  - English:
+  + Grammar;
+  + Vocabulary;
+  + Pronounciation;
+  
+  = Python
+  ...
+  
+  ++ Mental Health
