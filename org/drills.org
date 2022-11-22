@@ -25,17 +25,35 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :END:
    Anyone who lives [within their means] suffers from [a lack of
    imagination].
-** >->-> NIELS BOHR                                                   :drill:
+** >->-> NIELS BOHR                                  :drill:expert:mistakes:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       4c88a2df-1c45-45c8-8d47-85c3c8042fd3
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:03]
    :END:
    An expert is a person who [has made all the mistakes] that [can be
    made] in a [very narrow field].
-** >->-> RICHARD P. FEYNMAN                                           :drill:
+** >->-> RICHARD P. FEYNMAN                            :drill:full:yourself:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       7925aa06-b9f4-4cad-80e0-af4d68733ae5
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:45]
    :END:
    The first principle is [that] you [must] not fool yourself, and you
    are the [easiest] person to fool.
@@ -59,23 +77,50 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :ID:       74a5f9f4-ec71-4c84-b296-16e55d9f1933
    :END:
  Everything [popular] is wrong.
-** >->-> Albert Einstein                                              :drill:
+** >->-> Albert Einstein                         :drill:intellectual:growth:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       3381f1ed-2f77-482e-84c4-0f9eeea3d4b5
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 1.667
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:54]
    :END:
  [Intellectual||noetic] growth should [commence||begin] at birth and
  [cease||stop] only at death
-** >->-> Elon Musk                                                    :drill:
+** >->-> Elon Musk                           :drill:embrace:change:disaster:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       84c4e5ce-f79c-4d64-874d-5c5fb912f843
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.667
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:00]
    :END:
  Some people don't like change, but you need [to embrace] change if
  the [alternative] is disaster
-** >->-> BENJAMIN DISRAELI                                            :drill:
+** >->-> BENJAMIN DISRAELI                         :drill:actions:happiness:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       8f6a1f96-abd3-43d3-bea4-f3ba458dad76
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:57]
    :END:
    Action [may not always] bring happiness, but there is [no
    happiness] without action.
@@ -85,9 +130,18 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :END:
    I am an old man and [have known] a [great many] troubles, but most of
    them never happened.
-** >->-> GEORGE BERNARD SHAW                                          :drill:
+** >->-> GEORGE BERNARD SHAW                          :drill:rules:guidance:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       cb502dad-54dd-4ac2-bd63-9d582dea4e9c
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:54]
    :END:
    Rules are for the [obedience] of fools and the [guidance] of wise
    men.
@@ -98,9 +152,18 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :END:
    Ever tried. Ever failed. No matter. Try again. Fail [again]. Fail
    [better].
-** >->->  ANTOINE DE SAINT-EXUPÉRY :drill:
+** >->->  ANTOINE DE SAINT-EXUPÉRY                        :drill:perfection:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       32f87037-53ae-4d3f-88c8-2179d4592223
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:03]
    :END:
    Perfection is not when there is [no more] to add, but [no more] to
    take [away].
@@ -111,8 +174,17 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :END:
    It is [vain] to do with [more] what can [be done] with less.
 ** >->-> PETER DRUCKER                                                :drill:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       cfca9fb0-538b-4ce9-b71b-dcf0150ed42f
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:23]
    :END:
    What gets [measured] gets managed.
 ** >->-> Confucius                                                    :drill:
@@ -151,13 +223,31 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    There are three classes of people: [those] who see, those who see
    when [shown], and those [that] do not see.
 ** >->-> Albert Einstein                                              :drill:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       f139a247-d0eb-4b24-aa8c-3339beb4887d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:22]
    :END:
    Once you stop [learning], you start [dying]
-** >->-> James Clerk Maxwell                                          :drill:
+** >->-> James Clerk Maxwell                     :drill:conscious:ignorance:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       d2a7e41f-020f-425d-8745-e72f1bf30d7e
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.4
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:00]
    :END:
    [Thoroughly] conscious [ignorance] is the [prelude] to every real
    [advance] in science.
@@ -166,9 +256,18 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :ID:       c221f335-9cb4-4144-81db-d64cace458d4
    :END:
    The limits of my [language] are the limits of my world
-** >->-> ARISTOTLE                                                    :drill:
+** >->-> ARISTOTLE                                  :drill:excellence:habit:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       0ac036e0-1a3c-4b48-96ee-b055eca3c5be
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:02]
    :END:
    We are what we [repeatedly] do. Excellence, then, is not an [act],
    but a habit.
@@ -177,15 +276,33 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :ID:       162d5ec4-e342-40b1-8414-a2a7f5ad4c39
    :END:
    Success is [on] the [far] side of failure.
-** >->-> Peter Drucker and Warren Bennis                              :drill:
+** >->-> Peter Drucker and Warren Bennis       :drill:management:leadership:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       15721066-77cc-429b-96e8-8778fa5bac8a
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:51]
    :END:
    “Management is doing [things] right; [leadership] is doing the
    right things.”
 ** >->-> Rudyard Kipling                                              :drill:
+SCHEDULED: <2022-11-26 Sat>
    :PROPERTIES:
    :ID:       13f60187-a7b2-4005-a97c-a0a150b7eb4f
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:55]
    :END:
    If you did not get [what] you want, it’s a sign [either] that you
    did not seriously want it or you tried to [bargain] over the price.
@@ -201,9 +318,18 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    :END:
    The two most important days in your life are the day [you’re] born
    and the day you [discover] why.
-** >->-> Mark Twain                                                   :drill:
+** >->-> Mark Twain                                       :drill:good:books:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       efe793bb-f025-4e85-a2d3-d1183a50d980
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:55]
 :END:
    A person who [does] not read good books has no [advantage] over a
    person who cannot read.
@@ -224,14 +350,32 @@ SCHEDULED: <2022-11-23 Wed .+1d>
 :END:
    “Be like a [postage] stamp — stick to one thing until you
    [get] there.”
-** >->-> Pierre-Marc-Gaston                                           :drill:
+** >->-> Pierre-Marc-Gaston                       :drill:judge:man:question:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       73d40112-b207-4017-be32-1aa993cdcf8a
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:01]
 :END:
    “Judge a man by his questions [rather] than his answers.”
 ** >->-> Ben Franklin                                                 :drill:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       3bfbab77-815f-427a-a0b7-1acc65cbbb3e
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:33]
 :END:
    Early to bed and early to [rise], makes a man healthy, [wealthy],
    and wise.
@@ -246,9 +390,18 @@ SCHEDULED: <2022-11-23 Wed .+1d>
 :ID:       a29e2c3e-48d9-4293-9cda-6f6b46dd87f3
 :END:
    “We [suffer] more in imagination than in reality.”
-** >->-> Thomas Jefferson                                             :drill:
+** >->-> Thomas Jefferson                                    :drill:actions:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       3045907a-f340-4435-a525-0d5fd01dbd0f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:59]
 :END:
    “Action will [delineate] and define you.”
 ** >->-> Michelangelo                                                 :drill:
@@ -258,27 +411,63 @@ SCHEDULED: <2022-11-23 Wed .+1d>
    “The greatest danger for most of us is not [that] our aim is too
    high and we miss it, but [that] it is too low and we reach it.”
 ** >->-> Einstein                                                     :drill:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       89cb8821-811f-4445-8895-2b243746a718
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:01]
 :END:
    “If A [equals] success, then the formula is: A = X + Y + Z, where X
    is work, Y is [play], & Z is [keep] your mouth shut.”
 ** >->-> Lao Tzu                                                      :drill:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       d2718a05-4284-49ec-bc4b-fcc9b2c9bd3b
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:35]
 :END:
    "[Those] who know don’t talk, those who talk don’t know"
-** >->-> Bertrand Russell                                             :drill:
+** >->-> Bertrand Russell                       :drill:stupid:man:translate:
+SCHEDULED: <2022-11-26 Sat>
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
   :ID:       abda7938-d5f8-432f-b375-ce0d1833cf58
+  :DRILL_LAST_INTERVAL: 3.86
+  :DRILL_REPEATS_SINCE_FAIL: 2
+  :DRILL_TOTAL_REPEATS: 3
+  :DRILL_FAILURE_COUNT: 2
+  :DRILL_AVERAGE_QUALITY: 1.333
+  :DRILL_EASE: 2.36
+  :DRILL_LAST_QUALITY: 3
+  :DRILL_LAST_REVIEWED: [2022-11-22 Tue 15:57]
   :END:
    “A [stupid] man's report of what a clever man says can never be
    accurate, because he [unconsciously] translates what he [hears]
    into something he can understand.”
-** >->-> Earle Hitchner                                               :drill:
+** >->-> Earle Hitchner                   :drill:america:england:difference:
+SCHEDULED: <2022-11-26 Sat>
 :PROPERTIES:
 :ID:       491258f4-f04b-48a1-b767-860856f88dea
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2022-11-22 Tue 16:00]
 :END:
    “The difference between America and England is [that] Americans
    think 100 years is a [long] time, [while] the English think 100
