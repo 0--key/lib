@@ -7,160 +7,70 @@
 
 * Quotes
 ** >->-> MARK TWAIN                                                   :drill:
-   SCHEDULED: <2019-03-13 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       c4c69b09-29d7-447d-af5f-6018ddf6f5e6
-   :DRILL_LAST_INTERVAL: 121.381
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.42
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:41]
    :END:
- [Whenever] you find yourself [on the side] of the majority, it is time
+[Whenever] you find yourself [on the side] of the majority, it is time
  to [pause and reflect].
 ** >->-> OSCAR WILDE                                                  :drill:
-   SCHEDULED: <2018-12-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       2f89cd31-9590-499a-b0c4-3aaaca740069
-   :DRILL_LAST_INTERVAL: 3.464
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.713
-   :DRILL_EASE: 1.9
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:02]
    :END:
    Anyone who lives [within their means] suffers from [a lack of
    imagination].
 ** >->-> NIELS BOHR                                                   :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       4c88a2df-1c45-45c8-8d47-85c3c8042fd3
-   :DRILL_LAST_INTERVAL: 10.2646
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.563
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:31]
    :END:
    An expert is a person who [has made all the mistakes] that [can be
    made] in a [very narrow field].
 ** >->-> RICHARD P. FEYNMAN                                           :drill:
-   SCHEDULED: <2018-11-22 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       7925aa06-b9f4-4cad-80e0-af4d68733ae5
-   :DRILL_LAST_INTERVAL: 9.2867
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:58]
    :END:
    The first principle is [that] you [must] not fool yourself, and you
    are the [easiest] person to fool.
 ** >->-> William James                                                :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       4b47799c-e6cf-4e90-8d68-db0c3f855d49
-   :DRILL_LAST_INTERVAL: 8.2681
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 13
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.386
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:43]
    :END:
  If we [remembered] everything, we [should] on most [occasions] be [as
  ill off] as if we remembered nothing.
 ** >->-> HERBERT BAYARD SWOPE                                         :drill:
-   SCHEDULED: <2018-11-22 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       6e786ee8-8a91-4aae-b978-42dbab4ca12d
-   :DRILL_LAST_INTERVAL: 8.568
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.545
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:53]
    :END:
    I can’t give you a [surefire||faithful] formula for success, but I
    can give you a formula for [failure]: try to [please||cater]
    everybody all the time.
 ** >->-> OSCAR WILDE                                                  :drill:
-   SCHEDULED: <2019-02-09 Sat>
    :PROPERTIES:
    :ID:       74a5f9f4-ec71-4c84-b296-16e55d9f1933
-   :DRILL_LAST_INTERVAL: 89.1297
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 5.0
-   :DRILL_EASE: 2.9
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:39]
    :END:
  Everything [popular] is wrong.
 ** >->-> Albert Einstein                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       3381f1ed-2f77-482e-84c4-0f9eeea3d4b5
-   :DRILL_LAST_INTERVAL: 8.2472
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.636
-   :DRILL_EASE: 2.18
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:45]
    :END:
  [Intellectual||noetic] growth should [commence||begin] at birth and
  [cease||stop] only at death
 ** >->-> Elon Musk                                                    :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       84c4e5ce-f79c-4d64-874d-5c5fb912f843
-   :DRILL_LAST_INTERVAL: 9.2867
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.6
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:42]
    :END:
  Some people don't like change, but you need [to embrace] change if
  the [alternative] is disaster
 ** >->-> BENJAMIN DISRAELI                                            :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       8f6a1f96-abd3-43d3-bea4-f3ba458dad76
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:38]
    :END:
    Action [may not always] bring happiness, but there is [no
    happiness] without action.
@@ -177,107 +87,44 @@
    Rules are for the [obedience] of fools and the [guidance] of wise
    men.
 ** >->-> Samuel Beckett                                               :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c2b503e9-2106-4ed3-9337-e5f281cdcad9
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.75
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:22]
    :END:
    Ever tried. Ever failed. No matter. Try again. Fail [again]. Fail
    [better].
 ** >->->  ANTOINE DE SAINT-EXUPÉRY :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :ID:       32f87037-53ae-4d3f-88c8-2179d4592223
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:13]
    :END:
    Perfection is not when there is [no more] to add, but [no more] to
    take [away].
 ** >->-> WILLIAM OF OCCAM                                             :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c1506309-599a-43f0-84eb-f78f82f2da32
-   :DRILL_LAST_INTERVAL: 9.6105
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.42
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:49]
    :END:
    It is [vain] to do with [more] what can [be done] with less.
 ** >->-> PETER DRUCKER                                                :drill:
-   SCHEDULED: <2018-11-22 Thu>
    :PROPERTIES:
    :ID:       cfca9fb0-538b-4ce9-b71b-dcf0150ed42f
-   :DRILL_LAST_INTERVAL: 8.56
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.625
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:54]
    :END:
    What gets [measured] gets managed.
 ** >->-> Confucius                                                    :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       1cb11d89-871a-4efb-866d-394c0b12c1b4
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:37]
    :END:
    Do not [impose] on others what you [yourself] do not [desire].
 ** >->-> Reinhold Niebuhr                                             :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :ID:       e179efa8-e3b4-4777-b3ae-4194a44c38e5
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.167
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:46]
    :END:
    God grant me the [serenity] to accept the things I cannot change,
    the [courage] to change the things I can, and the wisdom to [know]
    the difference.
 ** >->-> Horace                                                       :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :ID:       08f7a860-4150-46d9-a62f-1d4b755c7841
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 11:02]
    :END:
    I hate the [irreverent||disrespectful] [rabble||canaille] and keep
    [them] far from me.
@@ -287,17 +134,8 @@
    :END:
    Love of [bustle] is not industry.
 ** >->-> RALPH WALDO EMERSO                                           :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :ID:       10c1741f-6b92-4992-9bee-f6b7cb44c444
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.715
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:53]
    :END:
    There are many things of [which] a wise man [might wish] to be
    ignorant.
@@ -324,17 +162,8 @@
    :END:
    The limits of my [language] are the limits of my world
 ** >->-> ARISTOTLE                                                    :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       0ac036e0-1a3c-4b48-96ee-b055eca3c5be
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:37]
    :END:
    We are what we [repeatedly] do. Excellence, then, is not an [act],
    but a habit.
@@ -344,17 +173,8 @@
    :END:
    Success is [on] the [far] side of failure.
 ** >->-> Peter Drucker and Warren Bennis                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       15721066-77cc-429b-96e8-8778fa5bac8a
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    “Management is doing [things] right; [leadership] is doing the
    right things.”
@@ -377,48 +197,91 @@
    The two most important days in your life are the day [you’re] born
    and the day you [discover] why.
 ** >->-> Mark Twain                                                   :drill:
+:PROPERTIES:
+:ID:       efe793bb-f025-4e85-a2d3-d1183a50d980
+:END:
    A person who [does] not read good books has no [advantage] over a
    person who cannot read.
 ** >->-> Winston Churchill                                            :drill:
+:PROPERTIES:
+:ID:       e602abed-f1e0-4725-9894-3a69cde2baf4
+:END:
    “Nothing in life is so [exhilarating] as to be [shot] at without
    result.”
 ** >->-> Russian proverb                                              :drill:
+:PROPERTIES:
+:ID:       d9dd8838-a3fd-4bfa-a039-6b7e6c232889
+:END:
    If you [chase] two rabbits you will not catch [eitherone].
 ** >->-> Josh Billings                                                :drill:
+:PROPERTIES:
+:ID:       36c900a3-4cc9-4967-ba92-7730db34e4d3
+:END:
    “Be like a [postage] stamp — stick to one thing until you
    [get] there.”
 ** >->-> Pierre-Marc-Gaston                                           :drill:
+:PROPERTIES:
+:ID:       73d40112-b207-4017-be32-1aa993cdcf8a
+:END:
    “Judge a man by his questions [rather] than his answers.”
 ** >->-> Ben Franklin                                                 :drill:
+:PROPERTIES:
+:ID:       3bfbab77-815f-427a-a0b7-1acc65cbbb3e
+:END:
    Early to bed and early to [rise], makes a man healthy, [wealthy],
    and wise.
 ** >->-> Benjamin Franklin                                            :drill:
+:PROPERTIES:
+:ID:       2a929071-61da-4801-8624-c1588ea35e94
+:END:
    "There are three [kinds] of people: [those] that are [immovable],
    those that are movable, and those who move."
 ** >->-> Seneca                                                       :drill:
+:PROPERTIES:
+:ID:       a29e2c3e-48d9-4293-9cda-6f6b46dd87f3
+:END:
    “We [suffer] more in imagination than in reality.”
 ** >->-> Thomas Jefferson                                             :drill:
+:PROPERTIES:
+:ID:       3045907a-f340-4435-a525-0d5fd01dbd0f
+:END:
    “Action will [delineate] and define you.”
 ** >->-> Michelangelo                                                 :drill:
+:PROPERTIES:
+:ID:       55d800a3-593c-4139-82d7-0f8c118d1c83
+:END:
    “The greatest danger for most of us is not [that] our aim is too
    high and we miss it, but [that] it is too low and we reach it.”
 ** >->-> Einstein                                                     :drill:
+:PROPERTIES:
+:ID:       89cb8821-811f-4445-8895-2b243746a718
+:END:
    “If A [equals] success, then the formula is: A = X + Y + Z, where X
    is work, Y is [play], & Z is [keep] your mouth shut.”
 ** >->-> Lao Tzu                                                      :drill:
+:PROPERTIES:
+:ID:       d2718a05-4284-49ec-bc4b-fcc9b2c9bd3b
+:END:
    "[Those] who know don’t talk, those who talk don’t know"
 ** >->-> Bertrand Russell                                             :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
+  :ID:       abda7938-d5f8-432f-b375-ce0d1833cf58
   :END:
    “A [stupid] man's report of what a clever man says can never be
    accurate, because he [unconsciously] translates what he [hears]
    into something he can understand.”
 ** >->-> Earle Hitchner                                               :drill:
+:PROPERTIES:
+:ID:       491258f4-f04b-48a1-b767-860856f88dea
+:END:
    “The difference between America and England is [that] Americans
    think 100 years is a [long] time, [while] the English think 100
    miles is a long way.”
 ** >->-> Claude Helvetius                                             :drill:
+:PROPERTIES:
+:ID:       14742d87-6a88-4583-aa4d-6fc7a40b1be1
+:END:
    Knowledge of some [principles] easily compensates the lack of
    knowledge of some facts.
 ** >->-> Claude Helvetius
@@ -428,17 +291,8 @@
 
 * Thoughts
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :ID:       c987cc64-bf48-4537-bb27-9bbfd576eb81
-   :DRILL_LAST_INTERVAL: 7.4189
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 17
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.823
-   :DRILL_EASE: 1.62
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:52]
    :END:
  - make some [observations] about a [phenomenon];
  - create a [hypothesis] to explain those [observations];
@@ -448,150 +302,69 @@
  - [rework your hypothesis] if you must;
  - [lather], [rinse], and repeat
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-27 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ac81a4b6-368f-4167-83a7-093a7d3a02b7
-   :DRILL_LAST_INTERVAL: 76.1465
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:39]
    :END:
  From a drop of water, a logician [could infer] the possibility of an
  Atlantic or a Niagara without [having seen or heard] of one or the
  other.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       b26d3834-087c-44e4-b6fe-455f27b6c956
-   :DRILL_LAST_INTERVAL: 7.2259
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.625
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:43]
    :END:
  In other words, given our existing [knowledge] base, we can use
  observation to [deduce] meaning from an [otherwise] meaningless fact.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       fa561d1a-d6c7-4f14-9d4c-0f27e23b8b8d
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 11
-   :DRILL_AVERAGE_QUALITY: 2.65
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:02]
    :END:
  Unprepared, he never [stands] a chance at that “true cold reason” that
  Holmes seems to [hold] in the tips of his fingers.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       1c7c40d7-b1f4-4500-99a9-6f816e88ac58
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 15
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.334
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:04]
    :END:
  His judgments from [here] on out will be [influenced] strongly by the
  effects of primacy—the [persistent] strength of first impressions.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-28 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       9e717a4f-2d67-488f-a305-c6a55f775ccc
-   :DRILL_LAST_INTERVAL: 14.5117
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 11
-   :DRILL_AVERAGE_QUALITY: 2.699
-   :DRILL_EASE: 1.9
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:28]
    :END:
  If you [can] free your time and location, your money is automatically
  [worth] 3–10 times [as] much.
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-09 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       fe2581bd-a722-4770-a5b4-712a1967a8f6
-   :DRILL_LAST_INTERVAL: 57.9557
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.285
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:32]
    :END:
  Money is [multiplied] in practical value [depending] on the number of
  W’s you control in your life: [what] you do, [when] you do it,
  [where] you do it, and [with whom] you do it.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-18 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       b0521a6f-7fb5-46db-8aa1-05b8145687d5
-   :DRILL_LAST_INTERVAL: 6.1835
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:43]
    :END:
  Doing less [meaningless||senseless] work, so that you can focus on
  things of greater personal [importance||value], is NOT laziness. This
  is hard for most to [accept||confess], because our culture tends to
  [reward||bestow] personal sacrifice instead of personal productivity.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-24 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       5c08154a-bed6-4a49-a90d-795ebff81d05
-   :DRILL_LAST_INTERVAL: 16.4926
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.444
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:49]
    :END:
    Too much, too many, and too often of what you [want] becomes what
    you [don’t] want.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       9c34707e-c572-4fdd-b73f-ed2510c2243e
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 13
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.385
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:02]
    :END:
    Don’t [save] it all for the end. There is [every] reason not to.
 ** >->->                                                              :drill:
@@ -602,17 +375,8 @@
    to implement, or whether or not it will actually work, let alone
    having any ability to change as we learn more.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       7a253b34-052b-4b42-b54a-fb4df4001ba3
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.7
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:04]
    :END:
    Ninety-nine percent of people in the world are
    [convinced||persuaded] they are [incapable||inept] of achieving
@@ -633,92 +397,38 @@
  [accepts] that trying to [exert] direct control [over all aspects] of
  what happens is futile.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :ID:       b656e440-8046-423d-a88a-51973a0b507e
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:00]
    :END:
    Everyone seems [to have] a clear idea [of how] other people should
    [lead] their lives, but [none] about his or her own.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-31 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       d10ac266-086f-4447-a218-015fe884ed86
-   :DRILL_LAST_INTERVAL: 19.2482
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.286
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:00]
    :END:
    Being busy is most often used as a [guise||mask] for avoiding the
    few critically important but [uncomfortable] actions.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       c8987b7a-bb22-49e5-99bb-9d2209624ddf
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.571
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:01]
    :END:
    Doing something [unimportant||inconsiderable] well [does not] make
    it important.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       9a1c9d3f-535b-42c6-9e0d-4fd1397938c4
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.571
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    Requiring [a lot of] time does not [make] a task important.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       18fed74c-928d-44a0-94ca-4a9540b599b4
-   :DRILL_LAST_INTERVAL: 3.855
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:37]
    :END:
    Pareto’s Law can be [summarized] as follows: 80% of the outputs
    result from 20% of the inputs.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       91343d1a-2b09-4a38-a8be-aca6a8615345
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:33]
    :END:
    80% of the [results] come from 20% of the [effort] and time.
 ** >->->                                                              :drill:
@@ -729,45 +439,18 @@
    [importance] and complexity in [relation] to the time [allotted]
    for its completion.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :ID:       e8753ef8-ca9d-4897-a982-c8d806f57ec5
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:47]
    :END:
    Am I being [productive] or just active?
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :ID:       d212914a-922d-4a68-b2c9-d6a999afeaf2
-   :DRILL_LAST_INTERVAL: 9.9755
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.167
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:57]
    :END:
    Am I [inventing] things to do to avoid the important?
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       30af33ff-7bad-4b93-8110-990ece6025c4
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.333
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:16]
    :END:
    If [someone] isn’t making you stronger, they’re making you
    [weaker].
@@ -779,18 +462,9 @@
    [lapses] in concentration, [poorer] net results, and less
    [gratification].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       3414b8b3-d55d-4abb-bdb8-d413a71d6507
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:27]
    :END:
    The world [doesn’t] even hiccup, much [less] end, when you cut the
    information [umbilical] cord.
@@ -801,17 +475,8 @@
    The smarter the person [is], the [faster] he thinks, and the
    [sloppier] his handwriting is.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       23b82975-a907-42a9-a259-908205b7c8d8
-   :DRILL_LAST_INTERVAL: 10.352
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:16]
    :END:
    Even a broken clock is [right] two times a day.
 ** >->->                                                              :drill:
@@ -825,78 +490,33 @@
    :END:
    Every [failure] brings with it the [seed] of an equivalent success.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :ID:       b3c82fcc-b477-4ee5-bf29-223de8b21ce8
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:13]
    :END:
    every [adversity] brings with it the [seed] of an equivalent [advantage]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       33ed3aa1-e1c5-4b34-a55d-cd06c64fc1f4
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:29]
    :END:
    [Admitting] that we don’t know [has] an [undeservedly] bad
    reputation.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       849e0a3f-eb8b-4602-928f-ab32e9dacbf3
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.2
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:38]
    :END:
    Maths is a mix of [abstruse] theory and [detailed] calculations.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0de2296b-3bb6-4052-ae61-6c880154e241
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:33]
    :END:
    To most people, this will [seem] pretty [abstruse]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       b1bf9cfb-d984-4b73-b3dd-bc66acdc9092
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.75
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:34]
    :END:
    [Alas], history [was] to repeat itself.
 ** >->->                                                              :drill:
@@ -910,48 +530,21 @@
    :END:
    The [haze] in the hangar was exhaust gas [expelled] during docking.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       0710d7bd-0169-40b5-bd12-49468e4eb411
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:37]
    :END:
    Smoke and [haze] made driving difficult and sometimes [even]
     dangerous.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       6dd21ca0-8460-44ef-8b07-643be977535a
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:32]
    :END:
    All payments are [deferred||adjourned] until 6 months after
    graduation.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       54d70d51-171e-4767-acdb-43107002d157
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 1.75
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:31]
    :END:
    She is [inclined] to [defer] her decision.
 ** >->->                                                              :drill:
@@ -960,33 +553,15 @@
    :END:
    The effect is almost [invariably] [puerile] and tasteless.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0dd313b3-460c-4e8b-bc74-4cc123b1342b
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.286
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    It's [puerile], [derogatory], and adds nothing constructive to an
     argument.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       2331008c-50d1-4e98-bc1c-8bd2d36e7a81
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:38]
    :END:
    There is [value] in wise human [counsel]
 ** >->->                                                              :drill:
@@ -995,31 +570,13 @@
    :END:
    The second thing he needs is elder [counsel]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       9888b9e9-68a0-4584-aeee-77c75682bee0
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.2
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    Some are religious while others are [secular]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       c3016df3-c040-4b73-bbe6-43d7d68d1441
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.8
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:32]
    :END:
    An effective strategy also incorporates [secular]  
    arguments.
@@ -1029,277 +586,198 @@
    :END:
    The carpenter’s rule is “[measure] twice, cut [once].”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       6cee1d8c-8126-4701-9213-f3c92a5bcf04
+:END:
    My modus [operandi] was inherited from my father, [whose] motto
    was: “The price of security is insecurity.”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       806daf5f-14fe-45fb-94b2-182065915ebb
+:END:
    At its core, meditation is “…A state of [profound], deep peace that
    occurs when the mind is calm and silent, yet completely [alert].”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       70dfecd7-79a5-44cc-9e6d-9017ecb46d04
+:END:
    Something called N-acetylcysteine (NAC) and lithium [orotate] in
    very low doses
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       4d35783c-26a6-46c9-a725-ad2b8a42df87
+:END:
    How can I be [of service] to other people?
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       f13f2e81-46f4-40c0-99a1-4bf94b53a94f
+:END:
    Pain + [Reflection] = Progress
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       fd3c94c5-5716-4396-be1f-dcff6895c881
+:END:
    “[rehearsing] the worst-case scenario”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       2939d350-739a-4f0a-ac74-216595cb9f1e
+:END:
    In a [pinch] a good use of our [wits] may help us out.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       fc873bd1-583f-45b0-a993-7bb8fcb842c7
+:END:
    It is better to [yield] than to come to [misfortune] through
    stubbornness.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       0a870c41-581a-4a9c-b697-1fa1ed633dd9
+:END:
    [Preparedness] for war is the best [guarantee] of peace.
 ** >->->                                                              :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
+  :ID:       ff2802e5-ff67-4535-91d8-ebd1bff6ea59
   :END:
    We, human beings, are a species that’s not only [capable] of acting
    on hidden motives — we’re [designed] to do it.
 ** >->->                                                              :drill:
   :PROPERTIES:
   :DRILL_CARD_TYPE: hide1cloze
+  :ID:       208d583f-4884-4b77-a5d7-73dac263f8bf
   :END:
    The [ability] to do what you want, when you want, with [who] you want, for [as
    long] as you want, is [priceless].
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       7cd1eac5-be71-4a7c-bad1-aa5c8ea758ff
+:END:
    A wise old owl lived in an oak,
    The more he saw the less he spoke,
    The less he spoke, the more he heard,
    Why aren’t we all like that wise old bird?
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       24b5d2b2-77d9-4a07-806b-90d6d9be69bf
+:END:
 Incongruity explains why most jokes take the form of a setup followed
 by a punchline: the setup creates an expectation, which is then
 violated by the punchline.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       4f1cc2a5-7322-4940-88e6-750c1e0e583f
+:END:
 But from earlier chapters, we know that ignorance often serves a
 deceptive purpose; our brains hide certain things from us in order to
 hide them more effectively from others.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       00053328-16bc-4bb6-8df3-db7e5017aa82
+:END:
 In this way, humor is like opening a safe. There’s a sequence of steps
 that have to be performed in the right order and with a good deal of
 precision.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       0bcfef25-3bbf-480e-beec-8fce9e921672
+:END:
 It’s worth reiterating that our brains do most of this on autopilot.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       65f2b242-a591-465f-b45c-cfd3a0fa3e19
+:END:
 an archive is the ~bin for the indecisive~
 * Idioms
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :ID:       75539aaa-35c6-4549-b3de-ad743394064b
-   :DRILL_LAST_INTERVAL: 7.3135
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 18
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.832
-   :DRILL_EASE: 2.0
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:49]
    :END:
  The simplicity is [deceptive||misleading], as you will learn in the
  next two chapters.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       421968c6-1b39-4b96-a582-37c14ee514fa
-   :DRILL_LAST_INTERVAL: 7.4807
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 17
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.823
-   :DRILL_EASE: 1.9
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:57]
    :END:
    [There is] nothing new under the sun. It [has] all been [done]
    before.
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-27 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       290e4b31-6f30-45d9-9bbb-71e4ed3c514a
-   :DRILL_LAST_INTERVAL: 76.1494
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.778
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:39]
    :END:
  As our [environment changes], we must never forget to [revise and
  retest] out hypotheses.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8abab197-6715-4ad0-b862-e341fc40f12c
-   :DRILL_LAST_INTERVAL: 7.3406
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 24
-   :DRILL_FAILURE_COUNT: 13
-   :DRILL_AVERAGE_QUALITY: 2.458
-   :DRILL_EASE: 1.48
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:14]
    :END:
  When Holmes first lays out the theoretical principles [behind] his
  approach, he [boils it down] to one main idea: “How much an
  observant man [might] learn by an [accurate] and systematic
  examination of all that came his way.”
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-05-05 Sun>
    :PROPERTIES:
    :ID:       180bea76-6e93-457d-a3ef-af03ac8b27a6
-   :DRILL_LAST_INTERVAL: 174.2818
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.625
-   :DRILL_EASE: 2.66
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:42]
    :END:
  You can guess [which is which].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-05 Wed>
    :PROPERTIES:
    :ID:       4a35277d-7cbb-4577-b68b-391b3e548102
-   :DRILL_LAST_INTERVAL: 23.4119
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.688
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:33]
    :END:
    We understand and believe in [the same instant]
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-02-27 Wed>
    :PROPERTIES:
    :ID:       6a8ca63b-3b6b-4e92-9f6c-9616b353f27b
-   :DRILL_LAST_INTERVAL: 106.805
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.4
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:41]
    :END:
  But [neither] Twitter [nor] Netflix use only one technology stack for all
  jobs, [either].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-29 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       974ee741-e0d9-4896-998e-b156bec9b968
-   :DRILL_LAST_INTERVAL: 20.621
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.909
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:52]
    :END:
  Adventure into the [deepest crevices] of the [human mind].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-01 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       d25cfd98-8880-4bee-9fcf-1a65902e69e0
-   :DRILL_LAST_INTERVAL: 18.5387
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.187
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:33]
    :END:
  The scientific method begins with a [broad base] of knowledge, an
  understanding of the facts and [contours] of the problem you are
  trying to [tackle].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       8a5c66f6-cc09-4355-9cf8-2c147699fb93
-   :DRILL_LAST_INTERVAL: 7.068
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 19
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.737
-   :DRILL_EASE: 1.9
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:16]
    :END:
  That, [in a nutshell], is the scientific method: understand and
  [frame] the problem; observe; [hypothesize] (or imagine); test and
  [deduce]; and repeat.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       fe10406b-9f91-42db-b3a1-86434b091e24
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 21
-   :DRILL_FAILURE_COUNT: 12
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 1.38
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:33]
    :END:
  It’s awfully easy to [get tripped] up.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       9e607b01-4bd6-4e02-b4da-6a86043cdc50
-   :DRILL_LAST_INTERVAL: 6.1837
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 18
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.444
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:12]
    :END:
  A chess player often [holds] hundreds of games, with all of their
  [moves], in his head, ready for [swift] access.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-26 Wed>
    :PROPERTIES:
    :ID:       2e3ef049-3d1a-45e7-b951-79db3937b94f
-   :DRILL_LAST_INTERVAL: 12.8126
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 11
-   :DRILL_AVERAGE_QUALITY: 2.401
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:18]
    :END:
  Guessing at the contents of a person’s attic from his [outward
  appearance] becomes one of Sherlock’s [surest ways] of determining who
  that person is and what he is [capable of].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-05 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       de60b6c4-36e5-4a31-b47b-933259bcb6ed
-   :DRILL_LAST_INTERVAL: 22.5925
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 18
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.39
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:31]
    :END:
  We can, however, [learn] to master many aspects of our attic’s
  structure, [throwing] out junk that [got] in by mistake (as Holmes
@@ -1309,842 +787,356 @@ an archive is the ~bin for the indecisive~
  account so that they don’t [unduly] influence us as they [otherwise]
  might.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-30 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       a88dfefb-832c-43bc-94b4-b93a81195e44
-   :DRILL_LAST_INTERVAL: 21.5916
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.833
-   :DRILL_EASE: 2.18
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:51]
    :END:
  Without [getting] too [far] in the [weeds]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       00bc2050-43cf-4398-8f79-7741ead866e5
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.55
-   :DRILL_EASE: 1.38
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:03]
    :END:
  Neither Derek nor I knew [jack squat] about how the calculations
  [were] supposed to work.
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-03-15 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       719b69d4-6ab5-421f-8a3e-56ad8590b86b
-   :DRILL_LAST_INTERVAL: 123.3332
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:41]
    :END:
  while for the other they [have evaporated] into [nonexistence].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-18 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       6d71147d-5fd9-4816-99f1-061abb872862
-   :DRILL_LAST_INTERVAL: 5.9676
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 21
-   :DRILL_FAILURE_COUNT: 12
-   :DRILL_AVERAGE_QUALITY: 2.477
-   :DRILL_EASE: 1.38
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:56]
    :END:
  Holmes, however, makes a [conscious], [motivated] choice to remember
  cases [past]; [one] never knows when they might come in [handy].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-27 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       bc5a00da-ca6b-409f-9b2a-cc1b2dbf176c
-   :DRILL_LAST_INTERVAL: 14.0175
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 22
-   :DRILL_FAILURE_COUNT: 13
-   :DRILL_AVERAGE_QUALITY: 2.546
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:21]
    :END:
  When you need to [recall] a specific memory that [has] been stored,
  your mind [goes] to the proper file and [pulls] it out.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-22 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       aaca685a-6577-4341-90d4-29a5ce500496
-   :DRILL_LAST_INTERVAL: 13.7196
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.818
-   :DRILL_EASE: 1.76
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:54]
    :END:
    [Reach] for an object [more] often, and it [doesn’t] gather dust.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-25 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       01640168-a73d-4c71-8f99-d4af263f53c0
-   :DRILL_LAST_INTERVAL: 11.929
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.562
-   :DRILL_EASE: 1.38
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:20]
    :END:
  Leave it [untouched], and it [retreats] further and further into a
  [heap]—but it [can be dislodged] by a [sudden] movement in its
  [vicinity].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-08 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0c93d868-4d0a-45db-ab33-ac05f560fbfd
-   :DRILL_LAST_INTERVAL: 25.813
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 11:26]
    :END:
  [No] on all three [counts].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       81b98674-c06c-4f98-9cd9-24e7b1f04728
-   :DRILL_LAST_INTERVAL: 6.353
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 11
-   :DRILL_AVERAGE_QUALITY: 2.6
-   :DRILL_EASE: 1.76
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-15 Thu 21:27]
    :END:
  The [objective] is [to create] freedom of time and place and use both
  [however] you want.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       8c466ff4-b972-4b66-9fea-d79bd23c9882
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:06]
    :END:
    I’m [no] Rockefeller and you [needn’t be either].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       aef62006-3751-45d5-956a-75b965590c6f
-   :DRILL_LAST_INTERVAL: 7.2259
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.917
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:42]
    :END:
  How do I know? I’ve [been] there and [seen] the
  [destruction||collapse]. This book [reverses] it.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       5a36bb11-9751-4e80-852a-90f7ede3afcd
-   :DRILL_LAST_INTERVAL: 11.0529
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.556
-   :DRILL_EASE: 2.66
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:51]
    :END:
  Gold is [getting old].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-05 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       277d9c95-01ab-4609-9716-b99d346fe915
-   :DRILL_LAST_INTERVAL: 26.7536
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.857
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:50]
    :END:
  Are you contributing [anything] useful to this world, or just
  [shuffling] papers, [banging] on [a keyboard], and coming home to a
  drunken [existence] on the weekends?
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       71e1bf1a-5458-4a48-9fed-2e1d79ef1bd2
-   :DRILL_LAST_INTERVAL: 39.3235
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.875
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 11:27]
    :END:
  [Surely] the game is [hardly worth] the [candle].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-27 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       ef05b23a-4161-42a6-8afd-f0274b7caa89
-   :DRILL_LAST_INTERVAL: 13.5233
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:27]
    :END:
    And [none] of Dr. Watson’s best medical arguments [will] make a
    [jot] of difference (at least not for now).
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-24 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       7cac6b63-7311-4f18-8143-95837aa84b01
-   :DRILL_LAST_INTERVAL: 42.2265
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:38]
    :END:
    And those associations [cause] us to form a [judgment] about
    [someone] we [have never even met], let alone spoken to.
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-09 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       f6174cbf-118a-4216-847c-8c406ec83db8
-   :DRILL_LAST_INTERVAL: 57.9557
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:32]
    :END:
    imagine he’d been [instead] married, successful, [the toast of the
    town].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :ID:       fedc6fd1-1684-4bee-9bb8-3bb23616469c
-   :DRILL_LAST_INTERVAL: 9.5999
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.938
-   :DRILL_EASE: 2.28
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:46]
    :END:
    Fair [assertion] that ignorance is [bliss].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-14 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       de4dcce1-393a-4737-8111-d2ddf8a59863
-   :DRILL_LAST_INTERVAL: 31.9929
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.643
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:37]
    :END:
    With his eyes shaded by [a rosy glow], Watson is now much more
    likely to fall [prey] to the halo effect
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       0a088a52-a41a-4f45-990c-311acad480b0
-   :DRILL_LAST_INTERVAL: 7.2265
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.417
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:58]
    :END:
  All the [while], Watson will likely remain completely
  [unaware||unsuspecting] of the hoops [through] which his mind is
  jumping to maintain a [coherent||chained] impression of Mary.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :ID:       2b8d2602-8966-4566-ab6e-96f5c24933ec
-   :DRILL_LAST_INTERVAL: 8.3422
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 17
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.648
-   :DRILL_EASE: 1.9
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:48]
    :END:
  No longer [as good], right?
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-25 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       1c3a25b5-7751-41bc-a3a9-1e8622c2dc72
-   :DRILL_LAST_INTERVAL: 17.0902
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.801
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:39]
    :END:
  If you look at [the two] lists, you [might notice] that they are
  identical, [save for] one word: warm or cold.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       107e51b3-b78a-4db8-8e78-11845cb78231
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.438
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:01]
    :END:
  Holmes knows [the biases] of his attic like [the back of his hand],
  or [the strings] of his violin.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       9b50f67b-5153-45b7-a5c4-814d3cda9018
-   :DRILL_LAST_INTERVAL: 6.9712
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.364
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:56]
    :END:
    But we can know more about the filters that generally [guard] our
    attic’s [entrance] and use our motivation [to attend] more to the
    things that [matter] for our goals—and give less [weight] to those
    that don’t.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       0e908538-ec16-4544-953a-943cfaa56848
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 13
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.769
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:01]
    :END:
  But only after she [has] bested him in a [battle of wits], showing
  herself to be a more [formidable opponent], male or female, than he
  [has ever] encountered.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-18 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       63bbcaff-e3ee-4f51-b4bc-e9561e5c6eac
-   :DRILL_LAST_INTERVAL: 5.9675
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:53]
    :END:
  A [wealth of evidence] that you [will treat] with the full knowledge that
  you [have already decided], on some level and at some earlier point, to
  [lend more weight] to some signs than to others, which you will try to
  [reweigh accordingly].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       03e68d74-9284-40fb-af68-ec22a4ca48c3
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 13
-   :DRILL_AVERAGE_QUALITY: 2.349
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:03]
    :END:
  The [pleasantness] of his [immediate] surroundings is [priming] him
  to be in a positive mindset.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-18 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       3799eb82-c5f0-468e-8ce6-07dfa10f3a9e
-   :DRILL_LAST_INTERVAL: 5.9675
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 19
-   :DRILL_FAILURE_COUNT: 12
-   :DRILL_AVERAGE_QUALITY: 2.315
-   :DRILL_EASE: 1.52
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:50]
    :END:
  Holmes, [on the other hand||in opposite], is [oblivious||regardless]
  to the weather—he has been [engrossed||rapt] in his newspaper for the
  [entire] train ride.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       471b9d95-5dc4-4b97-889f-a0d24702b51b
-   :DRILL_LAST_INTERVAL: 11.0529
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.66
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:46]
    :END:
  "How...[quaint]" for "How...interesting."
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ae41042e-2270-433d-8f7c-db9b0e75031d
-   :DRILL_LAST_INTERVAL: 9.9755
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 3.25
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:54]
    :END:
    Peter was not only an [incisive] thinker but [masterfully] creative
    with words.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-28 Fri>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       f7c45834-ca6d-4d16-890d-2c7d52e3f6c0
-   :DRILL_LAST_INTERVAL: 15.4785
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.666
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:31]
    :END:
    Peter (and coauthor Raymond Hull) decided to [cloak] these ideas in
    such a [delightfully] weird and [perversely] funny package.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       36908c68-f3ce-46c2-8af2-b4108c14bad9
-   :DRILL_LAST_INTERVAL: 6.9732
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.364
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:55]
    :END:
    If the recipe [sucks], it [doesn’t matter] how [good a cook] you
    are.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       39144b07-c9f9-4817-b4c6-98c50ab870df
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.417
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:32]
    :END:
    Retirement as a goal or final [redemption] is [flawed] for at least
    three solid reasons.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :ID:       85f1c71b-0fc4-43fb-87fa-2566100c85d1
-   :DRILL_LAST_INTERVAL: 7.2259
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 15
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.467
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:58]
    :END:
    Capacity, interest, and mental [endurance] all wax and [wane].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-18 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       67e74b35-26c1-4abd-ab89-80b542b5c117
-   :DRILL_LAST_INTERVAL: 6.1835
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.374
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:54]
    :END:
    Most people are good [at a handful] of things and [utterly
    miserable] at most.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-13 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       67567159-afa9-4198-a34d-02241b8bc9a0
-   :DRILL_LAST_INTERVAL: 30.8741
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:37]
    :END:
    It [may not be] as incidental a prime as the weather [has been] for
    Watson, but it is [a prime nevertheless].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       3d29ad36-b8c0-4d27-b359-8c9d524146b7
-   :DRILL_LAST_INTERVAL: 40.7554
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.857
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:38]
    :END:
    why it’s so important [to pay] close attention right from the
    start.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       1461d406-6d8d-4fd7-8ab5-3c1a1f9ba14b
-   :DRILL_LAST_INTERVAL: 6.9712
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.364
-   :DRILL_EASE: 1.66
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:55]
    :END:
  And while that constant attention may be [exhausting], in situations
  that [matter] the effort may be well [worth] it — and with time, we
  may find that it is becoming less and [less] effortful.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :ID:       2ae99e7d-f915-4470-94cd-61a09a4c0590
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 11:15]
    :END:
    understand (a difficult problem or an enigmatic person) after much
    thought. "he could scarcely [fathom] the idea that people actually
    lived in Las Vegas"
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-19 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8335529f-8e7b-4a41-8a8d-366bf32c3b9a
-   :DRILL_LAST_INTERVAL: 36.6134
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.625
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:38]
    :END:
    the conclusion that [can be drawn] from something, although it is
    not explicitly stated. "the implication is that [no one person] at
    the bank is responsible"
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :ID:       24c5b50b-ef93-4886-b0d8-7e77eb681fff
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:30]
    :END:
    compete eagerly with someone in order to do or achieve something.
    "rival mobs [vying for control] of the liquor business"
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-20 Sun>
    :PROPERTIES:
    :ID:       f135b282-2638-44d0-8485-674295cae8db
-   :DRILL_LAST_INTERVAL: 69.3325
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:37]
    :END:
    more of a [hindrance] than a help
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-30 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ac84ad92-b5c4-4147-b299-8dc77b1fa40d
-   :DRILL_LAST_INTERVAL: 18.3304
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.7
-   :DRILL_EASE: 2.18
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:58]
    :END:
  How again [was it] that you [convince]d me to do this?
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-07 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       5b877efc-ee61-4b99-bdb1-38dfcca7f8e0
-   :DRILL_LAST_INTERVAL: 56.0512
-   :DRILL_REPEATS_SINCE_FAIL: 5
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.889
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:39]
    :END:
  the purchaser [should avoid] asking for [superfluous] information
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-03 Mon>
    :PROPERTIES:
    :ID:       dabf494f-40cd-4f70-ab4e-509d3ced499f
-   :DRILL_LAST_INTERVAL: 25.0
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:46]
    :END:
    [painstaking] attention to detail
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :ID:       8fd14fc1-ea3d-4a43-80c1-10e0638456d3
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.909
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:53]
    :END:
    [Unbeknownst||nufamiliar] to most fun-loving [bipeds], not all
    stress is bad.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       dabeffea-ca58-4ee2-828f-a07360ff19bd
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.444
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:05]
    :END:
    How do I [pry||tear out] myself from the [tentacles] of workaholism
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-08 Sat>
    :PROPERTIES:
    :ID:       7882391b-34bd-4159-9520-151978717999
-   :DRILL_LAST_INTERVAL: 25.88
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.25
-   :DRILL_EASE: 2.6
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 11:27]
    :END:
    God, life is a [cruel], hard bitch.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-24 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       18c70486-32e0-444d-82bb-2a3436e450f4
-   :DRILL_LAST_INTERVAL: 16.4926
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-08 Thu 05:57]
    :END:
    Some of his [fondest||gentle] memories [still||as bevore] include
    nothing but friends and [gruel||pulp].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-21 Fri>
    :PROPERTIES:
    :ID:       09c6b077-0458-4b5e-8b44-0dfe68f49935
-   :DRILL_LAST_INTERVAL: 8.56
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.572
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:48]
    :END:
    What were the [odds] of that?", which means: "I can't believe that
    happened. The [odds] were against it.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :ID:       ddf746f3-c6c9-4aa4-9d76-ab7bc545d0e2
-   :DRILL_LAST_INTERVAL: 7.9786
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.3
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 10:54]
    :END:
  I’d love to talk about the [gaping void||emptiness] I feel in my life
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       390fa985-91a2-4693-b3a7-35c5f2afbb8b
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.571
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:35]
    :END:
  If you want to build a boat [out of] toothpicks and yarn, you’ll need
  a lot of [ingenuity]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-21 Wed>
    :PROPERTIES:
    :ID:       f1652d3a-a430-4a8c-9f2f-e634f4711b6b
-   :DRILL_LAST_INTERVAL: 7.979
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.428
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-11-13 Tue 11:03]
    :END:
  She [let] out a long string of [oaths] and expletives, carefully
  [picking||assembling] herself up from the floor.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       c1a07129-2c55-4c09-bec6-ed122f673f06
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.167
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:06]
    :END:
  “What do you want?” is too [imprecise] to produce a [meaningful] and
  [actionable] answer.
@@ -2154,276 +1146,114 @@ an archive is the ~bin for the indecisive~
    :END:
  Let’s look at [each] in [turn].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       a56603db-7f57-48cb-9c54-43da8b8d18db
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:01]
    :END:
    I [have had] the same dream twice
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       f7886354-f60c-4aef-95e7-0e9f8c9defa7
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.75
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:28]
    :END:
    The shepherd swore [that] he [would].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       6684d433-06dc-4b6d-8f0b-083325d04754
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:06]
    :END:
    A [miraculous] occurrence can be [providential] or heaven-sent, or
    just [peculiarly] fortunate and appropriate.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       ece168e4-1b9f-443a-bfbe-55ccb74d620d
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.428
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:02]
    :END:
    [Oblivious||regardless] of my impending [doom] I watched him
    interestedly as, still talking [glibly||volubly], he opened the matchbox.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       a921f23d-acd9-408b-9fa3-9d9e81e0434c
-   :DRILL_LAST_INTERVAL: 4.0
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.625
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:05]
    :END:
    So he bit her in the ankle. This did not help [matters] very much.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       7f2ef56d-a06d-461f-9eb7-dd6598c006aa
-   :DRILL_LAST_INTERVAL: 3.855
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.222
-   :DRILL_EASE: 2.32
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:05]
    :END:
    Then I carried them outside on a saucer and, with the
    [utmost||supreme] reluctance, [released||emitted] them on the
    garden wall.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       14d8fb26-6a92-4238-96ac-98d1a70e59f7
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.1
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:06]
    :END:
    The worst [repercussion||aftermath] of the whole [affair] was that
    Mother decided I was running [wild] again, and that it was [high]
    time I received a little more education.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       fc9a5d69-d7f0-4cb7-aa6c-bfc91a7a9c1d
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:34]
    :END:
    And a tall and [gleaming||shining] top hat that
    [completed||consummate] the ensemble.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       cf7206fd-1e34-4b78-b22f-f8c932470dbe
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:03]
    :END:
    He [rushed] across the room, [muttering] to himself, [tore] open a
    cupboard, and pulled out a powerful-looking air rifle
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       829c36d0-2dab-4f07-93d9-43e6c871869d
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.7
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:34]
    :END:
    Your situation is [devoid] of [all] hope.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       f01846ef-8f7b-4940-99fc-fdc27009ac8c
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:05]
    :END:
    Since mankind discovered the wonder of the silkworm's [floss] , it
    has been used for the [costliest||palatial] of garments
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-05 Wed>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       6ac9ca59-57b8-4269-b239-cdabff4ff741
-   :DRILL_LAST_INTERVAL: 23.2385
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:31]
    :END:
    How do I [pry||pull out] myself from the [tentacles] of workaholism
    and the [fear||phobia] that it would fall to [pieces] without my
    15-hour days?
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       46bc8342-8be0-4dd1-a8ff-4096601debeb
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:28]
    :END:
    There is often no [incentive] to use time well [unless] you are
    paid on [commission].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-11-20 Tue>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       eded82a3-b625-4b0d-897e-6d12557c4d7e
-   :DRILL_LAST_INTERVAL: 8.2695
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.571
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:43]
    :END:
    Be [ruthless||severe] and cut the [fat].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :ID:       26d0f8cb-e25c-4b65-85f4-482a0a9b80cf
-   :DRILL_LAST_INTERVAL: 7.9786
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.143
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:58]
    :END:
    we’ll discuss the [nuts] and bolts of how to [escape] in later
    chapters.
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-01-02 Wed>
    :PROPERTIES:
    :ID:       7b34d3b9-01e8-4384-8681-f1bcca3a201e
-   :DRILL_LAST_INTERVAL: 19.9491
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:15]
    :END:
    “Let’s try … and then try [something] else if that [doesn’t] work.”
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       6dfe7a84-1866-4ce4-9cec-1bc88b5c74c0
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:04]
    :END:
    Tim, [let’s] end here [for] now.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-10 Mon>
    :PROPERTIES:
    :ID:       56f033e2-0c13-4b0d-abad-588c61d48120
-   :DRILL_LAST_INTERVAL: 27.733
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 4.0
-   :DRILL_EASE: 2.7
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 11:25]
    :END:
    The best defense is a good [offense].
 ** >->->                                                              :drill:
@@ -2432,63 +1262,27 @@ an archive is the ~bin for the indecisive~
    :END:
    she was [far] too old [for] that sort of thing.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       9813fea6-4c35-4855-bf4e-1e256a0ad391
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    For [an] hour or so we watched this [pageant||spectacle]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       5d71b2cf-d8ec-4b59-be0c-b17fdd938856
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.8
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:36]
    :END:
    it seems to work more successfully when it is [merely] uncovered
    and left in [sight]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       cd848352-3f62-4e0a-b27e-ecac6bf55e2f
-   :DRILL_LAST_INTERVAL: 9.648
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 0
-   :DRILL_AVERAGE_QUALITY: 3.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:15]
    :END:
    to be the [oasis] in the Desert of [Lost] Hope, for which you [have
    been] searching.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-22 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       d28e5d87-ea6e-464a-b8fd-f8ab5eccc670
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:20]
    :END:
    He’s going to spend 45 minutes a day [researching] side [hustles]
    and new ways of [earning] extra money
@@ -2498,17 +1292,8 @@ an archive is the ~bin for the indecisive~
    :END:
    Mohandas Karamchand Gandhi
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       1a62b7f5-f652-4705-bada-5b0eaba26cbe
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:33]
    :END:
    [Heartily||Cordially] yours
 ** >->->                                                              :drill:
@@ -2518,17 +1303,8 @@ an archive is the ~bin for the indecisive~
    The doctor warned me that there was little [if] any chance of my
    [ever] seeing him [alive] again.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       99eb4524-9180-4cf7-8d4d-adb1ce01758c
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:30]
    :END:
    Your [attitude] determines your altitude
 ** >->->                                                              :drill:
@@ -2537,77 +1313,32 @@ an archive is the ~bin for the indecisive~
    :END:
    Smiling wins [more] friends than [frowning]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8cd42fb2-39b9-4d42-aafe-75e7ba978d46
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.25
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:35]
    :END:
    [Whatever] the mind of man can [conceive] and believe it can
    [achieve]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       692f94e1-62f8-4ff0-8bce-4f154bfa3dcb
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:35]
    :END:
    if there is little or no [trust], there is no foundation for
    [permanent] success.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       df8238e6-9b1f-43ce-bbf8-34554ae0137a
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.75
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:32]
    :END:
    You always [reap] what you [sow]; there is no [shortcut].
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-17 Mon>
    :PROPERTIES:
    :ID:       9227acc5-0134-4c0a-9915-b02dcbe40949
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.2
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:31]
    :END:
    throwing off their [shackles]
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-23 Sun>
    :PROPERTIES:
    :ID:       b69c75f2-9cce-47e1-b73d-fe8225ed45a1
-   :DRILL_LAST_INTERVAL: 9.6346
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.333
-   :DRILL_EASE: 2.46
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:13]
    :END:
    Private victories [precede] public victories.
 ** >->->                                                              :drill:
@@ -2623,137 +1354,194 @@ an archive is the ~bin for the indecisive~
    Intensifiers: extremely, [utterly], exceedingly, sorely,
    enormously, vastly, totally, absolutely
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-16 Sun>
    :PROPERTIES:
    :ID:       0d2c92a2-ec5a-4821-b22d-8ebbf36aa13d
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 21:06]
    :END:
    How do you [shape up] lazy and incompetent employees?
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       0d18b8a8-0dda-40e0-8c70-b78ebc0f0f38
+:END:
    You probably know someone who puts making money ahead of everything
    else.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       517c2476-1a33-47ca-8de2-95b0ea57bf1f
+:END:
    My [modus] operandi was [inherited] from my father, whose motto
    was: “The price of security is insecurity.”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       e4eef6a9-2107-40b1-90b7-274efde6aca2
+:END:
    The next three days were a surreal, [heady] blur.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       94cde6f0-8afc-4e06-95ac-4ee740e9b384
+:END:
    the moral [justice] of the methodical tortoises [triumph] over the
    quick yet [complacent] hare
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       59e2fc12-73c9-4cf1-a2ea-8bb810183f58
+:END:
    If that last statement didn’t wake you [up] just a bit, you may
    already [be] dead.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       7727fa75-6907-4441-9fbf-c32a15f43864
+:END:
    A successful man [would] possess a [keen] mind and a [steel-trap]
    memory.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       55af2787-3ab0-4bcd-b0d4-1ce19f11942c
+:END:
    [Counterintuitive] yes. But it’s true!
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       04f22497-e647-4f2a-aeee-ce42cf79cdd7
+:END:
    That’s worth [looking] into.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       6a495ed4-912e-4060-9e29-8dd17211ceac
+:END:
    I think the dose makes the [poison] certainly.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       ad62606e-92a4-417a-bb76-7727f884c2de
+:END:
    Whether the writers knew it or [unwittingly|accidentally]
    [stumbled] on it, what they wrote was the absolute truth.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       9205c063-b0f1-4691-ba23-b1eb59998ce5
+:END:
    As success [begat] success, something else happened [along] the way
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       f9bf4830-5d6c-48e7-94a1-32c28461a66c
+:END:
    So, without further [ado], let’s get started
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       f66f1017-252f-4efb-80ca-ca4be6e669a5
+:END:
    A big idea about success wrapped in a [disarmingly] simple package
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       fd410c6d-3418-47b4-aedb-f9f89bd642ae
+:END:
    learn the [macro] from the micro
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       fbb73ea2-a5ad-4350-8029-a5611bfd2f45
+:END:
    to [pour] gasoline on the fire of progress.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       cc4c698b-6746-46d7-8486-9f91804d0f9f
+:END:
  On the flip side
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       01d9069a-2bfd-4b88-8364-cda39bfe1d32
+:END:
    But as long as we continue to [tiptoe] around it...
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       17306951-9e32-4a1e-93cd-75c418a392fd
+:END:
    The most powerful [common denominator] of happiness was simple.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       6ab94c6e-f85e-4f3d-a143-8adacd34829a
+:END:
    To [obtain], bit by bit...
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       607fdc73-d9e0-4d86-bc57-8eea72e48856
+:END:
    If [curiosity] killed the cat
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       d5f01209-302c-4191-8347-c7e8e2c20bfc
+:END:
    They’re not lies, exactly, but [neither] are they the honest truth.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       22a1f425-0ccc-4c8a-8a99-59e7bbf26020
+:END:
    we have strong incentives to [portray] our motives in a [flattering]
    light
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       2450bcdc-0e6d-4d6e-a2fd-c73f3faef0fb
+:END:
    As Harry Truman said about his [presidency], “The buck stops here”
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       2fec85b4-192e-4e49-bb5a-a15b0ad92b61
+:END:
 They will confabulate and rationalize and forge counterfeit reasons
 until they’re blue in the face.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       d318fee5-30b0-4ca3-825b-bb297835cbb7
+:END:
 It is the inexorable weight of a glacier pressing slowly forward.
 ** >->->                                                              :drill:
+:PROPERTIES:
+:ID:       5aca9e47-8f03-4053-9d01-b5ecce94eb61
+:END:
 The dogs’ memories were wiped clean.
 * Microservices
 ** >->->                                                              :drill:
-   SCHEDULED: <2019-04-08 Mon>
    :PROPERTIES:
    :ID:       298d313a-3653-4ff5-89b2-dbde915f7600
-   :DRILL_LAST_INTERVAL: 146.6903
-   :DRILL_REPEATS_SINCE_FAIL: 6
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 3.667
-   :DRILL_EASE: 2.56
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-11-12 Mon 13:42]
    :END:
  Microservices are [small, autonomous] services that work together.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-26 Wed>
    :PROPERTIES:
    :ID:       059702b0-014a-4cfa-87a8-e40fe24c4ee4
-   :DRILL_LAST_INTERVAL: 13.264
-   :DRILL_REPEATS_SINCE_FAIL: 4
-   :DRILL_TOTAL_REPEATS: 23
-   :DRILL_FAILURE_COUNT: 11
-   :DRILL_AVERAGE_QUALITY: 2.653
-   :DRILL_EASE: 1.62
-   :DRILL_LAST_QUALITY: 5
-   :DRILL_LAST_REVIEWED: [2018-12-13 Thu 20:29]
    :END:
    Another somewhat [trite] answer I can give is small [enough] and no
    smaller.
 ** >->->                                                              :drill:
-   SCHEDULED: <2018-12-20 Thu>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       449a1eac-462c-4749-9010-7b403ca26502
-   :DRILL_LAST_INTERVAL: 7.6891
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.857
-   :DRILL_EASE: 1.76
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [2018-12-12 Wed 20:53]
    :END:
    The golden rule: can you [make] a change to a service and deploy
    it [by itself] without changing anything else?
 * Site Reliability Engineering
 ** >->-> Site Reliability Engineering (SRE)                           :drill:
+:PROPERTIES:
+:ID:       edc28672-eb21-4791-9d84-5bf50835a878
+:END:
    is a [discipline] that incorporates aspects of software engineering and applies them to
    [infrastructure] and [operations] problems.
 ** >->-> The main goals are                                           :drill:
+:PROPERTIES:
+:ID:       d8278776-a7c1-4ee1-9ab2-126a9e8d1292
+:END:
    to create [ultra-scalable] and highly [reliable] software systems.
 ** >->-> According to Ben Treynor, founder of Google's Site Reliability Team :drill:
+:PROPERTIES:
+:ID:       bb5aac43-c79a-497e-bf7e-cf253bec91ea
+:END:
    SRE is "what happens when a software engineer is [tasked]
    with [what used to be called] operations."
 ** >->-> The team was tasked                                          :drill:
+:PROPERTIES:
+:ID:       c9a18d65-01c0-4470-aad2-fd45963821dd
+:END:
    to make Google's sites run [smoothly], efficiently, and more
    [reliably].
 ** >->-> A site reliability engineer (SRE)                            :drill:
+:PROPERTIES:
+:ID:       3267d1a1-b620-460c-b421-151350eb9e40
+:END:
    will [spend up] to 50% of their time doing "ops" related work such
    as [issues], on-call, and manual [intervention].
