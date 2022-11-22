@@ -5,7 +5,12 @@
 
 * Proverbs
 
-* Quotes
+* TODO [#C] Quotes
+SCHEDULED: <2022-11-23 Wed .+1d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-22 Tue 17:19]
+:END:
+- State "DONE"       from "TODO"       [2022-11-22 Tue 17:19]
 ** >->-> MARK TWAIN                                                   :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
