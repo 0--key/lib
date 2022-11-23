@@ -33,8 +33,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** RAW [#A] Daily tasks pile assay
-SCHEDULED: <2022-11-22 Tue .+1d>
+** ACTIVE [#A] Daily tasks pile assay
+SCHEDULED: <2022-11-24 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa
 :LAST_REPEAT: [2022-11-21 Mon 16:20]
@@ -50,6 +50,8 @@ SCHEDULED: <2022-11-22 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-24 Thu 07:41]--[2022-11-24 Thu 07:48] =>  0:07
+CLOCK: [2022-11-22 Tue 11:37]--[2022-11-22 Tue 12:07] =>  0:30
 CLOCK: [2022-11-22 Tue 10:32]--[2022-11-22 Tue 10:42] =>  0:10
 CLOCK: [2022-11-21 Mon 08:44]--[2022-11-21 Mon 08:51] =>  0:07
 CLOCK: [2022-11-21 Mon 08:05]--[2022-11-21 Mon 08:37] =>  0:32
@@ -221,15 +223,15 @@ SCHEDULED: <2022-11-07 Mon>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
 ** ACTIVE [#B] Capture for Books, Thoughts,
-SCHEDULED: <2022-11-23 Wed>
+SCHEDULED: <2022-11-30 Wed>
 sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
 ** INIT Include Files                                         :zettelkasten:
-SCHEDULED: <2022-11-23 Wed>
+SCHEDULED: <2022-11-30 Wed>
 [[info:org#Include Files]]
-** TODO Append ~drill files~ to *Agenda*
+** DONE Append ~drill files~ to *Agenda*
 SCHEDULED: <2022-11-22 Tue>
 :PROPERTIES:
 :LAST_REPEAT: [2022-02-21 Mon 09:59]
@@ -241,6 +243,8 @@ SCHEDULED: <2022-11-22 Tue>
   buffer.
 - State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 09:59]
 :LOGBOOK:
+CLOCK: [2022-11-22 Tue 17:15]--[2022-11-22 Tue 17:19] =>  0:04
+CLOCK: [2022-11-22 Tue 15:02]--[2022-11-22 Tue 15:16] =>  0:14
 CLOCK: [2022-11-15 Tue 10:50]--[2022-11-15 Tue 11:03] =>  0:13
 CLOCK: [2022-02-21 Mon 09:19]--[2022-02-21 Mon 09:46] =>  0:27
 CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
@@ -304,8 +308,8 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** RAW [#B] >Git<
-SCHEDULED: <2022-11-22 Tue .+1d>
+** TODO [#B] >Git<
+SCHEDULED: <2022-11-24 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-22 Tue 10:32]
 :CATEGORY: Chore
@@ -318,7 +322,9 @@ SCHEDULED: <2022-11-22 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-11-22 Tue 10:42]
+CLOCK: [2022-11-24 Thu 07:48]
+CLOCK: [2022-11-22 Tue 15:16]--[2022-11-22 Tue 15:43] =>  0:27
+CLOCK: [2022-11-22 Tue 10:42]--[2022-11-22 Tue 11:14] =>  0:32
 CLOCK: [2022-11-18 Fri 18:42]--[2022-11-18 Fri 18:52] =>  0:10
 CLOCK: [2022-11-18 Fri 07:35]--[2022-11-18 Fri 07:39] =>  0:04
 CLOCK: [2022-11-16 Wed 17:30]--[2022-11-16 Wed 18:01] =>  0:31
