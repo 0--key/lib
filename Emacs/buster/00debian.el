@@ -163,18 +163,19 @@
    :DRILL_CARD_TYPE: hide1cloze
    :END:\n%?%i\n")
   ;;
+  ("r" "Proverb riddle" entry (file+datetree "~/git/lib/org/proverbs.org")
    "* %c\n %? %i \n %f")
   ;;
-  ("o" "Proverb obvious" entry (file+datetree "/home/alioth/git/lib/org/proverbs.org")
+  ("o" "Proverb obvious" entry (file+datetree "~/git/lib/org/proverbs.org")
    "* %i \n %f")
   ;; 
   ("j" "Journal" entry (file+datetree "~/org/journal.org")
    "* %?\nEntered on %U\n  %i\n  %a")
 ;;
-  ("d" "Drill-item" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Microservices")
+  ("d" "Drill-item" entry (file+headline "~/git/lib/org/drills.org" "Microservices")
    "* >->-> :drill:\n%i")
   ;;
-  ("s" "SRE" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Site Reliability Engineering")
+  ("s" "SRE" entry (file+headline "~/git/lib/org/drills.org" "Site Reliability Engineering")
    "* >->-> :drill:\n%i")
    ;;
    ("z" "Zettelkasten"
