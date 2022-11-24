@@ -433,7 +433,7 @@ DEADLINE: <2022-11-30 Wed -2d ++1w>
 CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
 :END:
 - Note taken on [2022-11-22 Tue 11:30] \\
-  * Phrasal verbs turning around
+  * Phrasal verbs that are turning around
   ** health
   ** ailments
   ** remedy
@@ -461,8 +461,19 @@ SCHEDULED: <2022-11-30 Wed .+1w>
 SCHEDULED: <2022-11-27 Sun .+1w>
 *** RAW Physics with Andrew
 SCHEDULED: <2022-11-27 Sun .+1w>
+** INIT Reading Alice
+SCHEDULED: <2022-11-26 Sat .+2d/3d>
 ** RAW Re-writing ProductivityGame
 SCHEDULED: <2022-11-24 Thu>
+** RAW New tasks trimming
+SCHEDULED: <2022-11-26 Sat>
+maiden scheduling
+** Figuring out new tasks
+It is their delineation
+*** RAW English grammar
+SCHEDULED: <2022-11-25 Fri>
+it is a huge task and it should be split into tiny chunks and
+scheduled on several weeks.
 * Tasks
 ** RAW First Harvest
 ** RAW To define special keys to capture to a particular template
