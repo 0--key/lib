@@ -192,7 +192,12 @@
 		       "~/git/lib/org/agenda/might-do.list" "Notes")
  "* INIT %?\n%i\n%l")
    ;; ‘%k’ Title of the currently clocked task.
-   ))
+;;
+;;("t" "Thought" entry (file+headline "~/git/lib/org/drills.org" "Thoughts")
+  ;;"* >->-> :drill:\n%i")
+  ;;
+))
+
 
 ;; Jekyll settings there -->
 ;;
