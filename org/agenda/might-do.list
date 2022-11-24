@@ -463,3 +463,14 @@ SCHEDULED: <2022-11-27 Sun .+1w>
 SCHEDULED: <2022-11-27 Sun .+1w>
 ** RAW Re-writing ProductivityGame
 SCHEDULED: <2022-11-24 Thu>
+* Tasks
+** RAW First Harvest
+** RAW To define special keys to capture to a particular template
+without going through the interactive template selection, you can
+create your key binding like this:
+
+     (define-key global-map (kbd "C-c x")
+       (lambda () (interactive) (org-capture nil "x")))
+
+ 
+ [[info:org#Capture templates][org#Capture templates]]
