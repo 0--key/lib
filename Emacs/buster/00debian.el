@@ -152,18 +152,17 @@
 ;;
 
 (setq org-capture-templates
-'(("p" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
-   "* TODO %?\n  %i\n  %a")
-  ("i" "Idiom" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Idioms")
+'(("t" "Todo" entry (file+headline "~/git/lib/org/agenda/might-do.list" "Tasks")
+   "* RAW %?%i\n \n %a")
+  ("i" "Idiom" entry (file+headline "~/git/lib/org/drills.org" "Idioms")
    "* >->-> :drill:\n%i")
   ;;
-  ("t" "Thought" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Thoughts")
-   "* >->-> :drill:\n%i")
+  ("w" "Quote" entry (file+headline "~/git/lib/org/drills.org" "Quotes")
+   "* COMMENT >->-> %c :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%?%i\n")
   ;;
-  ("w" "Quote" entry (file+headline "/home/alioth/git/lib/org/drills.org" "Quotes")
-   "* >->-> %c :drill:\n%i")
-  ;;
-  ("r" "Proverb riddle" entry (file+datetree "/home/alioth/git/lib/org/proverbs.org")
    "* %c\n %? %i \n %f")
   ;;
   ("o" "Proverb obvious" entry (file+datetree "/home/alioth/git/lib/org/proverbs.org")
