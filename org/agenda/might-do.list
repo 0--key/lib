@@ -449,9 +449,17 @@ CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
 :END:
 ** RAW Irish by myself
 SCHEDULED: <2022-11-24 Thu>
-** RAW Bash with Andrew
-SCHEDULED: <2022-11-25 Fri>
-** RAW Reading Alice
-SCHEDULED: <2022-11-24 Thu>
+** Family
+:PROPERTIES:
+:CATEGORY: kin
+:END:
+*** RAW Bash with Andrew
+SCHEDULED: <2022-11-27 Sun .+1w>
+*** RAW Bash with Andrew
+SCHEDULED: <2022-11-30 Wed .+1w>
+*** RAW Chemistry with Andrew
+SCHEDULED: <2022-11-27 Sun .+1w>
+*** RAW Physics with Andrew
+SCHEDULED: <2022-11-27 Sun .+1w>
 ** RAW Re-writing ProductivityGame
 SCHEDULED: <2022-11-24 Thu>
