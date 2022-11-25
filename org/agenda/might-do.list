@@ -36,7 +36,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 ** ACTIVE [#A] Daily tasks pile assay
 SCHEDULED: <2022-11-25 Fri .+1d>
 :PROPERTIES:
-:CATEGORY: MeTa
+:CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-11-25 Fri 07:29]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 07:29]
@@ -87,6 +87,12 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
+** ACTIVE [#B] Tomorrow tasks heap brushing up
+SCHEDULED: <2022-11-25 Fri .+1d>
+:PROPERTIES:
+:CATEGORY: MeTa>>
+:END:
+
 * Emacs
 ** ACTIVE Agenda
 ** Key-chords
