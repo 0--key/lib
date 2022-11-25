@@ -33,7 +33,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** INIT [#A] Daily tasks pile assay
+** ACTIVE [#A] Daily tasks pile assay
 SCHEDULED: <2022-11-25 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa
@@ -51,6 +51,7 @@ SCHEDULED: <2022-11-25 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-11-25 Fri 08:41]--[2022-11-25 Fri 09:04] =>  0:23
 CLOCK: [2022-11-25 Fri 07:30]--[2022-11-25 Fri 07:34] =>  0:04
 CLOCK: [2022-11-24 Thu 13:20]--[2022-11-24 Thu 13:22] =>  0:02
 CLOCK: [2022-11-24 Thu 08:01]--[2022-11-24 Thu 08:29] =>  0:28
@@ -113,7 +114,7 @@ Regularly --> list of appropriate commands
 SCHEDULED: <2022-12-05 Mon>
 [[help:insert-register][link]]
 **** INIT Specific for *Org-mode*
-SCHEDULED: <2022-11-24 Thu .+2w>
+SCHEDULED: <2022-12-08 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
@@ -264,7 +265,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2022-11-24 Thu>
+SCHEDULED: <2022-12-15 Thu>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -326,7 +327,8 @@ SCHEDULED: <2022-11-25 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-11-25 Fri 07:34]
+CLOCK: [2022-11-25 Fri 09:04]
+CLOCK: [2022-11-25 Fri 07:34]--[2022-11-25 Fri 07:54] =>  0:20
 CLOCK: [2022-11-24 Thu 20:33]--[2022-11-24 Thu 20:42] =>  0:09
 CLOCK: [2022-11-24 Thu 07:48]--[2022-11-24 Thu 08:01] =>  0:13
 CLOCK: [2022-11-22 Tue 15:16]--[2022-11-22 Tue 15:43] =>  0:27
@@ -379,14 +381,14 @@ CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 ** INIT Thriades for key-chords
 SCHEDULED: <2022-12-20 Tue>
 ** ACTIVE Fleeting Notes templates elaboration
-SCHEDULED: <2022-11-24 Thu .+3d/4d>
+SCHEDULED: <2022-11-25 Fri .+3d/4d>
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 19:40]--[2022-11-24 Thu 20:24] =>  0:44
 CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 :END:
 [[info:org#Template expansion][org#Template expansion]]
 ** INIT Distributed rehearsal system
-SCHEDULED: <2022-11-24 Thu>
+SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** RAW TODO keywords as types                                      :ARCHIVE:
 SCHEDULED: <2022-11-22 Tue>
@@ -448,7 +450,7 @@ DEADLINE: <2022-12-01 Thu -1d ++1w>
 CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
 :END:
 ** RAW Irish by myself
-SCHEDULED: <2022-11-24 Thu>
+SCHEDULED: <2022-12-08 Thu>
 ** Family
 :PROPERTIES:
 :CATEGORY: kin
@@ -464,14 +466,14 @@ SCHEDULED: <2022-11-27 Sun .+1w>
 ** INIT Reading Alice
 SCHEDULED: <2022-11-26 Sat .+2d/3d>
 ** RAW Re-writing ProductivityGame
-SCHEDULED: <2022-11-24 Thu>
+SCHEDULED: <2022-12-01 Thu>
 ** RAW New tasks trimming
 SCHEDULED: <2022-11-26 Sat>
 maiden scheduling
 ** Figuring out new tasks
 It is their delineation
-*** RAW English grammar
-SCHEDULED: <2022-11-25 Fri>
+*** INIT English grammar
+SCHEDULED: <2022-11-25 Fri ++2d/3d>
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
 * Tasks
