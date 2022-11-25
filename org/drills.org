@@ -3,7 +3,7 @@
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
 
-* TODO Proverbs
+* TODO [#C] Proverbs
 SCHEDULED: <2022-11-25 Fri ++1d/2d>
 
 ** COMMENT ==> => >> :drill:
@@ -12,7 +12,7 @@ SCHEDULED: <2022-11-25 Fri ++1d/2d>
    :END:
 [A cat may look] [at a king]
 * TODO [#C] Quotes
-SCHEDULED: <2022-11-25 Fri .+1d>
+SCHEDULED: <2022-11-25 Fri .+1d/2d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-22 Tue 17:19]
 :END:
