@@ -529,14 +529,27 @@ CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 maiden scheduling of completely new (*RAW*) tasks 
 ** Figuring out new tasks
 It is their delineation
-*** TODO English grammar
-SCHEDULED: <2022-12-05 Mon .+2d/3d>
+*** English grammar
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:34]
+:CATEGORY: Gram
+:END:
+:LOGBOOK:
+CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 09:34]
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
+**** INIT Words and Phrases
+SCHEDULED: <2022-12-06 Tue .+2d/3d>
+**** RAW Sentences and Clauses
+**** RAW Word Formation
+**** INIT Punctuation
+SCHEDULED: <2022-12-08 Thu>
+**** INIT Figures of Speech
+SCHEDULED: <2022-12-09 Fri>
+**** INIT Common Errors
+SCHEDULED: <2022-12-13 Tue>
 ** INIT Improve your English
 SCHEDULED: <2022-12-08 Thu>
 https://www.youtube.com/watch?v=axYAW7PuSIM
