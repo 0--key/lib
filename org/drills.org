@@ -4,8 +4,13 @@
 #+PROPERTY: header-args :comments org
 
 * TODO [#C] Proverbs
-SCHEDULED: <2022-12-05 Mon ++3d/4d>
+SCHEDULED: <2022-12-11 Sun ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-05 Mon 21:08]
+:END:
 
+- State "DONE"       from "TODO"       [2022-12-05 Mon 21:08]
+- State "DONE"       from "TODO"       [2022-12-05 Mon 21:08]
 ** COMMENT ==> => >>                                :drill:cat:kig:superior:
 SCHEDULED: <2022-12-09 Fri>
    :PROPERTIES:
