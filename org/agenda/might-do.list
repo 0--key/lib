@@ -33,12 +33,13 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** ACTIVE [#A] Daily tasks pile assay
-SCHEDULED: <2022-12-05 Mon .+1d>
+** RAW [#A] Daily tasks pile assay
+SCHEDULED: <2022-12-06 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
-:LAST_REPEAT: [2022-12-04 Sun 11:35]
+:LAST_REPEAT: [2022-12-05 Mon 10:03]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 11:35]
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 07:29]
 - State "DONE"       from "ACTIVE"     [2022-11-21 Mon 16:20]
@@ -90,12 +91,13 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-** TODO [#B] Tomorrow tasks heap brushing up
-SCHEDULED: <2022-12-05 Mon .+1d>
+** RAW [#B] Tomorrow tasks heap brushing up
+SCHEDULED: <2022-12-06 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
-:LAST_REPEAT: [2022-12-04 Sun 12:21]
+:LAST_REPEAT: [2022-12-05 Mon 10:03]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
@@ -343,7 +345,8 @@ SCHEDULED: <2022-12-05 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-12-05 Mon 09:33]
+CLOCK: [2022-12-05 Mon 10:44]
+CLOCK: [2022-12-05 Mon 09:33]--[2022-12-05 Mon 10:02] =>  0:29
 CLOCK: [2022-11-25 Fri 09:20]--[2022-11-25 Fri 09:27] =>  0:07
 CLOCK: [2022-11-25 Fri 09:04]--[2022-11-25 Fri 09:13] =>  0:09
 CLOCK: [2022-11-25 Fri 07:34]--[2022-11-25 Fri 07:54] =>  0:20
