@@ -52,6 +52,8 @@ SCHEDULED: <2022-12-05 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-05 Mon 09:12]--[2022-12-05 Mon 09:14] =>  0:02
+CLOCK: [2022-12-04 Sun 11:34]--[2022-12-04 Sun 11:35] =>  0:01
 CLOCK: [2022-11-25 Fri 08:41]--[2022-11-25 Fri 09:04] =>  0:23
 CLOCK: [2022-11-25 Fri 07:30]--[2022-11-25 Fri 07:34] =>  0:04
 CLOCK: [2022-11-24 Thu 13:20]--[2022-11-24 Thu 13:22] =>  0:02
@@ -341,6 +343,7 @@ SCHEDULED: <2022-12-05 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-12-05 Mon 09:33]
 CLOCK: [2022-11-25 Fri 09:20]--[2022-11-25 Fri 09:27] =>  0:07
 CLOCK: [2022-11-25 Fri 09:04]--[2022-11-25 Fri 09:13] =>  0:09
 CLOCK: [2022-11-25 Fri 07:34]--[2022-11-25 Fri 07:54] =>  0:20
@@ -443,11 +446,12 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   ...
   
   ++ Mental Health
-** RAW [#A] English with Roisin
-DEADLINE: <2022-11-30 Wed -2d ++1w>
+** INIT [#A] English with Roisin
+DEADLINE: <2022-12-07 Wed -2d ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-23 Wed 19:36]
+:LAST_REPEAT: [2022-12-03 Sat 09:33]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:33]
 - State "DONE"       from "ACTIVE"     [2022-11-23 Wed 19:36]
 :LOGBOOK:
 CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
@@ -458,16 +462,17 @@ CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
   ** ailments
   ** remedy
   ** and symptoms
-** RAW Milford's Library
-DEADLINE: <2022-12-01 Thu -1d ++1w>
+** INIT Milford's Library
+DEADLINE: <2022-12-08 Thu -1d ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-24 Thu 13:20]
+:LAST_REPEAT: [2022-12-03 Sat 09:37]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:37]
 - State "DONE"       from "ACTIVE"     [2022-11-24 Thu 13:20]
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
 :END:
-** RAW Irish by myself
+** INIT Irish by myself
 SCHEDULED: <2022-12-08 Thu>
 ** Family
 :PROPERTIES:
@@ -508,6 +513,16 @@ CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
 SCHEDULED: <2022-12-08 Thu>
+** RAW New tasks trimming
+SCHEDULED: <2022-12-11 Sun ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-04 Sun 13:20]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
+:LOGBOOK:
+CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
+CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
+:END:
 maiden scheduling of completely new (*RAW*) tasks 
 ** Figuring out new tasks
 It is their delineation
