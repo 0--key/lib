@@ -158,7 +158,19 @@
 '(("t" "Todo" entry (file+headline "~/git/lib/org/agenda/might-do.list" "Tasks")
    "* RAW %?%i\n \n %a")
   ("i" "Idiom" entry (file+headline "~/git/lib/org/drills.org" "Idioms")
-   "* >->-> :drill:\n%i")
+   "* COMMENT >->->:drill:\n%i")
+  ;;
+  ("p" "Proverb" entry (file+headline "~/git/lib/org/drills.org" "Proverbs")
+   "** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%?%i\n\n/%c/" :empty-lines 1)
+  ;;
+  ("o" "Obvious proverb" entry (file+headline "~/git/lib/org/drills.org" "Proverbs")
+   "** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%?%i\n\n" :empty-lines 1)
   ;;
   ("w" "Quote" entry (file+headline "~/git/lib/org/drills.org" "Quotes")
    "* COMMENT >->-> %c :drill:
@@ -166,27 +178,6 @@
    :DRILL_CARD_TYPE: hide1cloze
    :END:\n%?%i\n")
   ;;
-  ("r" "Proverb riddle" entry (file+datetree "~/git/lib/org/proverbs.org")
-   "* %c\n %? %i \n %f")
-  ;;
-  ("o" "Proverb obvious" entry (file+datetree "~/git/lib/org/proverbs.org")
-   "* %i \n %f")
-  ;; 
-  ("j" "Journal" entry (file+datetree "~/org/journal.org")
-   "* %?\nEntered on %U\n  %i\n  %a")
-;;
-  ("d" "Drill-item" entry (file+headline "~/git/lib/org/drills.org" "Microservices")
-   "* >->-> :drill:\n%i")
-  ;;
-  ("s" "SRE" entry (file+headline "~/git/lib/org/drills.org" "Site Reliability Engineering")
-   "* >->-> :drill:\n%i")
-   ;;
-   ("z" "Zettelkasten"
-    plain
-    (file+headline "~/git/org-pub/2022-01-26-zettelkasten.org"
-		   "Notes")
-    "%i\n  %a \n")
-   ;;
 ("n" "Notes");; <-- prefix key for notes
 ("nf" "Fleeting" entry (file+headline
 			"~/git/lib/org/agenda/might-do.list" "Notes")
@@ -195,10 +186,6 @@
 		       "~/git/lib/org/agenda/might-do.list" "Notes")
  "* INIT %?\n%i\n%l")
    ;; ‘%k’ Title of the currently clocked task.
-;;
-;;("t" "Thought" entry (file+headline "~/git/lib/org/drills.org" "Thoughts")
-  ;;"* >->-> :drill:\n%i")
-  ;;
 ))
 
 
