@@ -123,7 +123,7 @@ CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 12:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-18 Fri 12:13]
 Regularly --> list of appropriate commands
-**** INIT Backward to " in shell
+**** INIT Backward to " in shell                                 :ARCHIVE:
 SCHEDULED: <2022-12-05 Mon>
 [[help:insert-register][link]]
 **** INIT Specific for *Org-mode*
@@ -150,7 +150,7 @@ noexport for it and properties like ~category~
 :END:
 
 
-** INIT [[info:org#Activation][org-store-link]]
+** INIT [[info:org#Activation][org-store-link]]                                             :ARCHIVE:
 SCHEDULED: <2022-11-29 Tue>
 
 For notes linkage in Zettelkasten
@@ -161,7 +161,7 @@ SCHEDULED: <2022-12-07 Wed>
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
-** INIT BBDB
+** INIT BBDB                                                       :ARCHIVE:
 SCHEDULED: <2022-11-25 Fri +2w -1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-13 Sun 10:40]
@@ -376,7 +376,7 @@ SCHEDULED: <2022-12-13 Tue .+2w>
 CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 :END:
 [[info:org#Progress Logging]]
-** INIT Brendan Kelly
+** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** INIT Monthly archive day .+4w
 SCHEDULED: <2022-12-16 Fri .+4w>
