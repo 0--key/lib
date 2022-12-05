@@ -4,7 +4,7 @@
 #+PROPERTY: header-args :comments org
 
 * TODO [#C] Proverbs
-SCHEDULED: <2022-11-25 Fri ++1d/2d>
+SCHEDULED: <2022-12-05 Mon ++3d/4d>
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
@@ -12,7 +12,7 @@ SCHEDULED: <2022-11-25 Fri ++1d/2d>
    :END:
 [A cat may look] [at a king]
 * TODO [#C] Quotes
-SCHEDULED: <2022-11-25 Fri .+1d/2d>
+SCHEDULED: <2022-12-06 Tue .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-22 Tue 17:19]
 :END:
