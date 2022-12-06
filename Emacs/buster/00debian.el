@@ -178,7 +178,13 @@
    :DRILL_CARD_TYPE: hide1cloze
    :END:\n%?%i\n")
   ;;
-("n" "Notes");; <-- prefix key for notes
+  ("e" "AnonQuote" entry (file+headline "~/git/lib/org/drills.org" "Quotes")
+   "** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%?%i\n\n" :empty-lines 1)
+  ;;
+  ("n" "Notes");; <-- prefix key for notes
 ("nf" "Fleeting" entry (file+headline
 			"~/git/lib/org/agenda/might-do.list" "Notes")
  "* RAW %?%i")
