@@ -53,6 +53,7 @@ SCHEDULED: <2022-12-06 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-06 Tue 10:08]--[2022-12-06 Tue 10:14] =>  0:06
 CLOCK: [2022-12-05 Mon 09:12]--[2022-12-05 Mon 09:14] =>  0:02
 CLOCK: [2022-12-04 Sun 11:34]--[2022-12-04 Sun 11:35] =>  0:01
 CLOCK: [2022-11-25 Fri 08:41]--[2022-11-25 Fri 09:04] =>  0:23
@@ -542,8 +543,15 @@ CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 09:34]
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
-**** INIT Words and Phrases
-SCHEDULED: <2022-12-06 Tue .+2d/3d>
+**** RAW Words and Phrases
+SCHEDULED: <2022-12-08 Thu .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-06 Tue 11:04]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:04]
+:LOGBOOK:
+CLOCK: [2022-12-06 Tue 10:20]--[2022-12-06 Tue 11:03] =>  0:43
+:END:
 **** RAW Sentences and Clauses
 **** RAW Word Formation
 **** INIT Punctuation
@@ -577,12 +585,14 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** RAW Touch typing
-SCHEDULED: <2022-12-06 Tue ++2d/3d>
+SCHEDULED: <2022-12-08 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-04 Sun 21:38]
+:LAST_REPEAT: [2022-12-06 Tue 11:34]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 
@@ -596,12 +606,14 @@ SCHEDULED: <2022-12-06 Tue>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2022-12-06 Tue +1d>
+SCHEDULED: <2022-12-07 Wed +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-05 Mon 21:10]
+:LAST_REPEAT: [2022-12-06 Tue 11:55]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
+CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** INIT Quotations
