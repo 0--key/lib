@@ -134,6 +134,8 @@
 (require 'ereader)
 (require 'howdoi)
 (require 'org-drill)
+(key-chord-define org-mode-map "dr"     'org-drill-resume)
+(key-chord-define org-mode-map "dt"     'org-drill-tree)
 (require 'elpy)
 
 (pyvenv-activate "/home/alioth/.emacs.d/py3.7.3/")
