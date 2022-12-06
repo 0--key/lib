@@ -34,11 +34,12 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** RAW [#A] Daily tasks pile assay
-SCHEDULED: <2022-12-06 Tue .+1d>
+SCHEDULED: <2022-12-07 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
-:LAST_REPEAT: [2022-12-05 Mon 10:03]
+:LAST_REPEAT: [2022-12-06 Tue 17:31]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 11:35]
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 07:29]
@@ -93,11 +94,12 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** RAW [#B] Tomorrow tasks heap brushing up
-SCHEDULED: <2022-12-06 Tue .+1d>
+SCHEDULED: <2022-12-07 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
-:LAST_REPEAT: [2022-12-05 Mon 10:03]
+:LAST_REPEAT: [2022-12-06 Tue 17:31]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
@@ -333,11 +335,12 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** RAW [#B] >Git<
-SCHEDULED: <2022-12-06 Tue .+1d>
+SCHEDULED: <2022-12-07 Wed .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-05 Mon 21:08]
+:LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:08]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:52]
@@ -347,7 +350,9 @@ SCHEDULED: <2022-12-06 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-12-06 Tue 14:46]
+CLOCK: [2022-12-06 Tue 17:18]--[2022-12-06 Tue 17:31] =>  0:13
+CLOCK: [2022-12-06 Tue 17:17]--[2022-12-06 Tue 17:17] =>  0:00
+CLOCK: [2022-12-06 Tue 14:46]--[2022-12-06 Tue 14:50] =>  0:04
 CLOCK: [2022-12-05 Mon 21:04]--[2022-12-05 Mon 21:08] =>  0:04
 CLOCK: [2022-12-05 Mon 10:44]--[2022-12-05 Mon 10:49] =>  0:05
 CLOCK: [2022-12-05 Mon 09:33]--[2022-12-05 Mon 10:02] =>  0:29
@@ -510,7 +515,7 @@ SCHEDULED: <2022-12-11 Sun .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 ** RAW Reading Alice
-SCHEDULED: <2022-12-06 Tue .+2d/3d>
+SCHEDULED: <2022-12-07 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -601,9 +606,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** INIT Vocabulary
-SCHEDULED: <2022-12-06 Tue>
+*** ACTIVE Vocabulary
+SCHEDULED: <2022-12-07 Wed>
 
+- Note taken on [2022-12-06 Tue 20:26] \\
+  Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
@@ -617,8 +624,12 @@ SCHEDULED: <2022-12-07 Wed +1d>
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** INIT Quotations
-SCHEDULED: <2022-12-06 Tue>
+*** RAW Quotations
+SCHEDULED: <2022-12-08 Thu .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-06 Tue 14:52]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-06 Tue 14:52]
 :LOGBOOK:
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
