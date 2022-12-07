@@ -34,11 +34,12 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** RAW [#A] Daily tasks pile assay
-SCHEDULED: <2022-12-07 Wed .+1d>
+SCHEDULED: <2022-12-08 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
-:LAST_REPEAT: [2022-12-06 Tue 17:31]
+:LAST_REPEAT: [2022-12-07 Wed 13:35]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 13:35]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 11:35]
@@ -54,6 +55,7 @@ SCHEDULED: <2022-12-07 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-07 Wed 13:24]--[2022-12-07 Wed 13:30] =>  0:06
 CLOCK: [2022-12-06 Tue 10:08]--[2022-12-06 Tue 10:14] =>  0:06
 CLOCK: [2022-12-05 Mon 09:12]--[2022-12-05 Mon 09:14] =>  0:02
 CLOCK: [2022-12-04 Sun 11:34]--[2022-12-04 Sun 11:35] =>  0:01
@@ -93,7 +95,7 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-** RAW [#B] Tomorrow tasks heap brushing up
+** TODO [#B] Tomorrow tasks heap brushing up
 SCHEDULED: <2022-12-07 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
@@ -103,6 +105,7 @@ SCHEDULED: <2022-12-07 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
@@ -133,7 +136,7 @@ Regularly --> list of appropriate commands
 **** INIT Backward to " in shell                                 :ARCHIVE:
 SCHEDULED: <2022-12-05 Mon>
 [[help:insert-register][link]]
-**** INIT Specific for *Org-mode*
+**** INIT Specific for *Org-mode*                                  :ARCHIVE:
 SCHEDULED: <2022-12-08 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
@@ -163,8 +166,8 @@ SCHEDULED: <2022-11-29 Tue>
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
-** INIT Archive non-actual tasks
-SCHEDULED: <2022-12-07 Wed>
+** INIT [#B] Archive non-actual tasks
+SCHEDULED: <2022-12-08 Thu>
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
@@ -189,7 +192,7 @@ SCHEDULED: <2022-12-12 Mon>
 :END:
 for time ratio on gathering and digesting
 
-** INIT Org-attach
+** INIT Org-attach                                                 :ARCHIVE:
 SCHEDULED: <2022-12-08 Thu>
 What is it?
 
@@ -247,7 +250,7 @@ CLOCK: [2022-11-07 Mon 13:31]--[2022-11-07 Mon 13:53] =>  0:22
 SCHEDULED: <2022-11-07 Mon>
 --------------------------------------
 [[info:org#Inserting deadline/schedule]]
-** ACTIVE [#B] Capture for Books, Thoughts,
+** ACTIVE Capture for Books, Thoughts,                             :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 sayings, proverbs (Kazakh by Abay), idioms.
 
@@ -350,6 +353,7 @@ SCHEDULED: <2022-12-07 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-12-07 Wed 13:36]
 CLOCK: [2022-12-06 Tue 17:18]--[2022-12-06 Tue 17:31] =>  0:13
 CLOCK: [2022-12-06 Tue 17:17]--[2022-12-06 Tue 17:17] =>  0:00
 CLOCK: [2022-12-06 Tue 14:46]--[2022-12-06 Tue 14:50] =>  0:04
@@ -411,14 +415,14 @@ CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
 ** INIT Thriades for key-chords
 SCHEDULED: <2022-12-20 Tue>
-** ACTIVE Fleeting Notes templates elaboration
+** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 19:40]--[2022-11-24 Thu 20:24] =>  0:44
 CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 :END:
 [[info:org#Template expansion][org#Template expansion]]
-** INIT Distributed rehearsal system
+** INIT Distributed rehearsal system                               :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** INIT TODO keywords as types
@@ -458,11 +462,12 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   ...
   
   ++ Mental Health
-** INIT [#A] English with Roisin
-DEADLINE: <2022-12-07 Wed -2d ++1w>
+** RAW [#A] English with Roisin
+DEADLINE: <2022-12-14 Wed -2d ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-03 Sat 09:33]
+:LAST_REPEAT: [2022-12-07 Wed 13:24]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 13:24]
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:33]
 - State "DONE"       from "ACTIVE"     [2022-11-23 Wed 19:36]
 :LOGBOOK:
@@ -484,7 +489,7 @@ DEADLINE: <2022-12-08 Thu -1d ++1w>
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
 :END:
-** INIT Irish by myself
+** INIT Irish by myself                                            :ARCHIVE:
 SCHEDULED: <2022-12-08 Thu>
 ** Family
 :PROPERTIES:
@@ -524,7 +529,7 @@ SCHEDULED: <2022-12-07 Wed .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2022-12-08 Thu>
+SCHEDULED: <2022-12-07 Wed>
 ** RAW New tasks trimming
 SCHEDULED: <2022-12-11 Sun ++1w>
 :PROPERTIES:
@@ -549,8 +554,8 @@ CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 09:34]
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
-**** RAW Words and Phrases
-SCHEDULED: <2022-12-08 Thu .+2d/3d>
+**** RAW [#A] Words and Phrases
+SCHEDULED: <2022-12-07 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 11:04]
 :END:
@@ -571,7 +576,7 @@ SCHEDULED: <2022-12-08 Thu>
 https://www.youtube.com/watch?v=axYAW7PuSIM
 * Tasks
 ** INIT To define special keys to capture to a particular template
-SCHEDULED: <2022-12-08 Thu>
+SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
 create your key binding like this:
 
@@ -591,7 +596,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** RAW Touch typing
-SCHEDULED: <2022-12-08 Thu ++2d/3d>
+SCHEDULED: <2022-12-07 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 11:34]
 :END:
@@ -607,7 +612,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary
-SCHEDULED: <2022-12-07 Wed>
+SCHEDULED: <2022-12-13 Tue>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
@@ -633,9 +638,9 @@ SCHEDULED: <2022-12-08 Thu .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
-*** INIT Idioms
+*** INIT [#A] Idioms
 SCHEDULED: <2022-12-07 Wed>
-** ACTIVE Several workflows
+** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 :LOGBOOK:
 CLOCK: [2022-12-05 Mon 09:24]--[2022-12-05 Mon 09:31] =>  0:07
