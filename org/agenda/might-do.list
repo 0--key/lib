@@ -33,7 +33,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** RAW [#A] Daily tasks pile assay
+** INIT Daily tasks pile assay
 SCHEDULED: <2022-12-08 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
@@ -55,6 +55,7 @@ SCHEDULED: <2022-12-08 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-08 Thu 07:24]--[2022-12-08 Thu 07:31] =>  0:07
 CLOCK: [2022-12-07 Wed 13:24]--[2022-12-07 Wed 13:30] =>  0:06
 CLOCK: [2022-12-06 Tue 10:08]--[2022-12-06 Tue 10:14] =>  0:06
 CLOCK: [2022-12-05 Mon 09:12]--[2022-12-05 Mon 09:14] =>  0:02
@@ -95,16 +96,18 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-** TODO [#B] Tomorrow tasks heap brushing up
-SCHEDULED: <2022-12-07 Wed .+1d>
+** INIT Tomorrow tasks heap brushing up
+SCHEDULED: <2022-12-08 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
-:LAST_REPEAT: [2022-12-06 Tue 17:31]
+:LAST_REPEAT: [2022-12-07 Wed 14:02]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 14:02]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2022-12-08 Thu 07:32]--[2022-12-08 Thu 07:36] =>  0:04
 CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
@@ -166,8 +169,12 @@ SCHEDULED: <2022-11-29 Tue>
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
-** INIT [#B] Archive non-actual tasks
-SCHEDULED: <2022-12-08 Thu>
+** RAW Archive non-actual tasks
+SCHEDULED: <2022-12-11 Sun .+3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-08 Thu 07:34]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-08 Thu 07:34]
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
 
@@ -337,8 +344,8 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** RAW [#B] >Git<
-SCHEDULED: <2022-12-07 Wed .+1d>
+** ACTIVE >Git<
+SCHEDULED: <2022-12-08 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -353,7 +360,8 @@ SCHEDULED: <2022-12-07 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-12-07 Wed 13:36]
+CLOCK: [2022-12-08 Thu 07:36]
+CLOCK: [2022-12-07 Wed 13:36]--[2022-12-07 Wed 13:42] =>  0:06
 CLOCK: [2022-12-06 Tue 17:18]--[2022-12-06 Tue 17:31] =>  0:13
 CLOCK: [2022-12-06 Tue 17:17]--[2022-12-06 Tue 17:17] =>  0:00
 CLOCK: [2022-12-06 Tue 14:46]--[2022-12-06 Tue 14:50] =>  0:04
@@ -479,7 +487,7 @@ CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
   ** ailments
   ** remedy
   ** and symptoms
-** INIT Milford's Library
+** ACTIVE Milford's Library
 DEADLINE: <2022-12-08 Thu -1d ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-03 Sat 09:37]
@@ -520,7 +528,7 @@ SCHEDULED: <2022-12-11 Sun .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 ** RAW Reading Alice
-SCHEDULED: <2022-12-07 Wed .+2d/3d>
+SCHEDULED: <2022-12-14 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -528,8 +536,15 @@ SCHEDULED: <2022-12-07 Wed .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
-** INIT Re-writing ProductivityGame
-SCHEDULED: <2022-12-07 Wed>
+** RAW Re-writing ProductivityGame
+SCHEDULED: <2022-12-09 Fri .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-07 Wed 19:25]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 19:25]
+:LOGBOOK:
+CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
+:END:
 ** RAW New tasks trimming
 SCHEDULED: <2022-12-11 Sun ++1w>
 :PROPERTIES:
@@ -555,17 +570,19 @@ CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
 **** RAW [#A] Words and Phrases
-SCHEDULED: <2022-12-07 Wed .+2d/3d>
+SCHEDULED: <2022-12-09 Fri .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-06 Tue 11:04]
+:LAST_REPEAT: [2022-12-07 Wed 14:02]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 14:02]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:04]
 :LOGBOOK:
+CLOCK: [2022-12-07 Wed 13:45]--[2022-12-07 Wed 14:01] =>  0:16
 CLOCK: [2022-12-06 Tue 10:20]--[2022-12-06 Tue 11:03] =>  0:43
 :END:
 **** RAW Sentences and Clauses
 **** RAW Word Formation
-**** INIT Punctuation
+**** TODO [#A] Punctuation
 SCHEDULED: <2022-12-08 Thu>
 **** INIT Figures of Speech
 SCHEDULED: <2022-12-09 Fri>
@@ -596,13 +613,16 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** RAW Touch typing
-SCHEDULED: <2022-12-07 Wed ++1d>
+SCHEDULED: <2022-12-08 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-06 Tue 11:34]
+:LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 19:25]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2022-12-07 Wed 18:57]--[2022-12-07 Wed 19:20] =>  0:23
+CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
@@ -619,7 +639,7 @@ SCHEDULED: <2022-12-13 Tue>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2022-12-07 Wed +1d>
+SCHEDULED: <2022-12-08 Thu +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 11:55]
 :END:
@@ -639,7 +659,7 @@ SCHEDULED: <2022-12-08 Thu .+2d/3d>
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** INIT [#A] Idioms
-SCHEDULED: <2022-12-07 Wed>
+SCHEDULED: <2022-12-09 Fri>
 ** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 :LOGBOOK:
