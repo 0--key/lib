@@ -360,7 +360,8 @@ SCHEDULED: <2022-12-08 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2022-12-08 Thu 19:33]
+CLOCK: [2022-12-08 Thu 20:31]
+CLOCK: [2022-12-08 Thu 19:33]--[2022-12-08 Thu 19:35] =>  0:02
 CLOCK: [2022-12-08 Thu 07:36]--[2022-12-08 Thu 07:39] =>  0:03
 CLOCK: [2022-12-07 Wed 13:36]--[2022-12-07 Wed 13:42] =>  0:06
 CLOCK: [2022-12-06 Tue 17:18]--[2022-12-06 Tue 17:31] =>  0:13
@@ -644,10 +645,11 @@ SCHEDULED: <2022-12-13 Tue>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2022-12-08 Thu +1d>
+SCHEDULED: <2022-12-09 Fri +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-06 Tue 11:55]
+:LAST_REPEAT: [2022-12-08 Thu 19:41]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-08 Thu 19:41]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
@@ -661,6 +663,7 @@ SCHEDULED: <2022-12-08 Thu .+2d/3d>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 14:52]
 :LOGBOOK:
+CLOCK: [2022-12-08 Thu 19:42]--[2022-12-08 Thu 19:45] =>  0:03
 CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
