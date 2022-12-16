@@ -4,7 +4,7 @@
 #+PROPERTY: header-args :comments org
 
 * TODO [#C] Proverbs
-SCHEDULED: <2022-12-11 Sun ++3d/4d>
+SCHEDULED: <2022-12-16 Fri ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-05 Mon 21:08]
 :END:
@@ -234,7 +234,7 @@ it should be tidily returned there when not in use./
 
 
 * TODO [#C] Quotes
-SCHEDULED: <2022-12-09 Fri .+3d/4d>
+SCHEDULED: <2022-12-16 Fri .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:21]
 :END:
@@ -495,7 +495,7 @@ SCHEDULED: <2022-12-15 Thu>
    :DRILL_LAST_REVIEWED: [Y-12-06 Tue 15:%]
    :END:
    What gets [measured] gets managed.
-** COMMENT >->-> Confucius                                                    :drill:
+** COMMENT >->-> Confucius                                           :drill:
 SCHEDULED: <2022-12-10 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze

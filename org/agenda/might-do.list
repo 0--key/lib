@@ -33,8 +33,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** INIT Daily tasks pile assay
-SCHEDULED: <2022-12-09 Fri .+1d>
+** Daily tasks pile assay
+SCHEDULED: <2022-12-16 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2022-12-09 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-16 Fri 10:22]--[2022-12-16 Fri 10:47] =>  0:25
 CLOCK: [2022-12-09 Fri 10:35]--[2022-12-09 Fri 10:41] =>  0:06
 CLOCK: [2022-12-08 Thu 07:24]--[2022-12-08 Thu 07:31] =>  0:07
 CLOCK: [2022-12-07 Wed 13:24]--[2022-12-07 Wed 13:30] =>  0:06
@@ -98,8 +99,8 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-** INIT Tomorrow tasks heap brushing up
-SCHEDULED: <2022-12-09 Fri .+1d>
+** Tomorrow tasks heap brushing up
+SCHEDULED: <2022-12-16 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -174,10 +175,11 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2022-12-11 Sun .+3d/4d>
+SCHEDULED: <2022-12-16 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-08 Thu 07:34]
+:LAST_REPEAT: [2022-12-11 Sun 13:44]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-11 Sun 13:44]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 07:34]
 for retrospect analysys
 [[info:org#Internal archiving][Source]]
@@ -197,7 +199,7 @@ https://www.jwz.org/bbdb/
 SCHEDULED: <2022-02-17 Thu>
 
 ** INIT Paretto law
-SCHEDULED: <2022-12-12 Mon>
+SCHEDULED: <2022-12-19 Mon>
 :PROPERTIES:
 :CATEGORY: Meta
 :END:
@@ -299,7 +301,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2022-12-15 Thu>
+SCHEDULED: <2022-12-22 Thu>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -325,7 +327,7 @@ But then you can sell it to multiple people further down the line.
 ** INIT Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2022-12-09 Fri +1w>
+SCHEDULED: <2022-12-16 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -348,8 +350,8 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** ACTIVE >Git<
-SCHEDULED: <2022-12-09 Fri .+1d>
+** >Git<
+SCHEDULED: <2022-12-16 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -364,6 +366,8 @@ SCHEDULED: <2022-12-09 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-12-09 Fri 11:03]--[2022-12-09 Fri 11:05] =>  0:02
+CLOCK: [2022-12-09 Fri 10:43]--[2022-12-09 Fri 10:45] =>  0:02
 CLOCK: [2022-12-08 Thu 20:31]--[2022-12-08 Thu 20:38] =>  0:07
 CLOCK: [2022-12-08 Thu 19:33]--[2022-12-08 Thu 19:35] =>  0:02
 CLOCK: [2022-12-08 Thu 07:36]--[2022-12-08 Thu 07:39] =>  0:03
@@ -400,7 +404,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
-SCHEDULED: <2022-12-13 Tue .+2w>
+SCHEDULED: <2022-12-20 Tue .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -442,8 +446,8 @@ SCHEDULED: <2022-12-07 Wed>
 ** INIT TODO keywords as types
 SCHEDULED: <2022-12-20 Tue>
 [[info:org#TODO types][org#TODO types]]
-** RAW [#A] Whole week scheduling
-SCHEDULED: <2022-12-11 Sun .+1w>
+** ACTIVE [#A] Whole week scheduling
+SCHEDULED: <2022-12-18 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2022-12-04 Sun 12:21]
@@ -451,6 +455,7 @@ SCHEDULED: <2022-12-11 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2022-12-11 Sun 13:27]--[2022-12-11 Sun 13:44] =>  0:17
 CLOCK: [2022-12-04 Sun 12:04]--[2022-12-04 Sun 12:21] =>  0:17
 CLOCK: [2022-11-21 Mon 16:19]--[2022-11-21 Mon 16:37] =>  0:18
 :END:
@@ -477,10 +482,11 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   
   ++ Mental Health
 ** RAW [#A] English with Roisin
-DEADLINE: <2022-12-14 Wed -2d ++1w>
+DEADLINE: <2023-01-04 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-07 Wed 13:24]
+:LAST_REPEAT: [2022-12-16 Fri 10:20]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-16 Fri 10:20]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 13:24]
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:33]
 - State "DONE"       from "ACTIVE"     [2022-11-23 Wed 19:36]
@@ -494,10 +500,11 @@ CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
   ** remedy
   ** and symptoms
 ** RAW Milford's Library
-DEADLINE: <2022-12-15 Thu -1d ++1w>
+DEADLINE: <2022-12-22 Thu -1d ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-09 Fri 10:39]
+:LAST_REPEAT: [2022-12-16 Fri 10:25]
 :END:
+- State "DONE"       from "ACTIVE"     [2022-12-16 Fri 10:25]
 - State "DONE"       from "ACTIVE"     [2022-12-09 Fri 10:39]
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:37]
 - State "DONE"       from "ACTIVE"     [2022-11-24 Thu 13:20]
@@ -510,32 +517,32 @@ SCHEDULED: <2022-12-08 Thu>
 :PROPERTIES:
 :CATEGORY: kin
 :END:
-*** RAW Bash with Andrew
-SCHEDULED: <2022-12-11 Sun .+1w>
+*** INIT Bash with Andrew
+SCHEDULED: <2022-12-18 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Bash with Andrew
-SCHEDULED: <2022-12-10 Sat .+1w>
+SCHEDULED: <2022-12-17 Sat .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-03 Sat 09:35]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:35]
-*** RAW Chemistry with Andrew
-SCHEDULED: <2022-12-11 Sun .+1w>
+*** INIT Chemistry with Andrew
+SCHEDULED: <2022-12-18 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** RAW Physics with Andrew
-SCHEDULED: <2022-12-11 Sun .+1w>
+*** INIT Physics with Andrew
+SCHEDULED: <2022-12-18 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-** RAW Reading Alice
-SCHEDULED: <2022-12-14 Wed .+2d/3d>
+** INIT Reading Alice
+SCHEDULED: <2022-12-21 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -544,7 +551,7 @@ SCHEDULED: <2022-12-14 Wed .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2022-12-09 Fri .+2d/3d>
+SCHEDULED: <2022-12-20 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -552,13 +559,14 @@ SCHEDULED: <2022-12-09 Fri .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
-** RAW New tasks trimming
-SCHEDULED: <2022-12-11 Sun ++1w>
+** INIT New tasks trimming
+SCHEDULED: <2022-12-16 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2022-12-11 Sun 13:55]--[2022-12-11 Sun 14:00] =>  0:05
 CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
@@ -577,7 +585,7 @@ CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
 **** TODO [#A] Words and Phrases
-SCHEDULED: <2022-12-09 Fri .+2d/3d>
+SCHEDULED: <2022-12-21 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 14:02]
 :END:
@@ -590,17 +598,17 @@ CLOCK: [2022-12-06 Tue 10:20]--[2022-12-06 Tue 11:03] =>  0:43
 **** RAW Sentences and Clauses
 **** RAW Word Formation
 **** TODO [#A] Punctuation
-SCHEDULED: <2022-12-12 Mon>
+SCHEDULED: <2022-12-19 Mon>
 :LOGBOOK:
 CLOCK: [2022-12-08 Thu 17:13]--[2022-12-08 Thu 17:27] =>  0:14
 CLOCK: [2022-12-08 Thu 07:56]--[2022-12-08 Thu 08:08] =>  0:12
 :END:
 **** INIT [#B] Figures of Speech
-SCHEDULED: <2022-12-10 Sat>
+SCHEDULED: <2022-12-19 Mon>
 **** INIT Common Errors
-SCHEDULED: <2022-12-13 Tue>
+SCHEDULED: <2022-12-20 Tue>
 ** INIT Improve your English
-SCHEDULED: <2022-12-15 Thu>
+SCHEDULED: <2022-12-16 Fri>
 https://www.youtube.com/watch?v=axYAW7PuSIM
 * Tasks
 ** INIT To define special keys to capture to a particular template
@@ -623,8 +631,8 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
  - and restart OS.
-** INIT Touch typing
-SCHEDULED: <2022-12-09 Fri ++1d>
+** Touch typing
+SCHEDULED: <2022-12-16 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -632,6 +640,7 @@ SCHEDULED: <2022-12-09 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2022-12-11 Sun 14:00]--[2022-12-11 Sun 14:30] =>  0:30
 CLOCK: [2022-12-08 Thu 20:44]--[2022-12-08 Thu 21:04] =>  0:20
 CLOCK: [2022-12-07 Wed 18:57]--[2022-12-07 Wed 19:20] =>  0:23
 CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
@@ -643,15 +652,15 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** ACTIVE Vocabulary
-SCHEDULED: <2022-12-13 Tue>
+*** INIT Vocabulary
+SCHEDULED: <2022-12-16 Fri>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** INIT Proverbs
-SCHEDULED: <2022-12-09 Fri +1d>
+SCHEDULED: <2022-12-16 Fri +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 19:41]
 :END:
@@ -662,8 +671,8 @@ SCHEDULED: <2022-12-09 Fri +1d>
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** RAW Quotations
-SCHEDULED: <2022-12-10 Sat .+2d/3d>
+*** INIT Quotations
+SCHEDULED: <2022-12-16 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 20:38]
 :END:
@@ -675,7 +684,7 @@ CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** TODO [#A] Idioms
-SCHEDULED: <2022-12-09 Fri>
+SCHEDULED: <2022-12-19 Mon>
 ** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 :LOGBOOK:
