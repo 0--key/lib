@@ -416,12 +416,15 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** INIT Monthly archive day .+4w
-SCHEDULED: <2022-12-16 Fri .+4w>
+SCHEDULED: <2023-01-13 Fri .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 07:26]
 :END:
+- Note taken on [2022-12-16 Fri 10:30] \\
+  One month passed away but there are not tasks to archive at the
+  monthly basics.
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 07:26]
-** RAW Review all TODOs even not scheduled yet?
+** Review all TODOs even not scheduled yet?                        :ARCHIVE:
 SCHEDULED: <2022-12-11 Sun .+1w/2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 12:13]
