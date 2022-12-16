@@ -696,3 +696,8 @@ CLOCK: [2022-12-05 Mon 09:24]--[2022-12-05 Mon 09:31] =>  0:07
 For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
+** INIT Tracking TODO state changes
+SCHEDULED: <2022-12-16 Fri>
+ [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
+** INIT Letterkenny/Donegal LUG/Emacs/Python
+SCHEDULED: <2022-12-16 Fri>
