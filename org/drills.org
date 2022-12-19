@@ -3,8 +3,8 @@
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
 
-* TODO [#C] Proverbs
-SCHEDULED: <2022-12-16 Fri ++3d/4d>
+* TODO Proverbs
+SCHEDULED: <2022-12-19 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-05 Mon 21:08]
 :END:
@@ -233,8 +233,8 @@ it should be tidily returned there when not in use./
 [A poor workman] always [blames his tools]
 
 
-* TODO [#C] Quotes
-SCHEDULED: <2022-12-16 Fri .+3d/4d>
+* TODO Quotes
+SCHEDULED: <2022-12-19 Mon .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:21]
 :END:

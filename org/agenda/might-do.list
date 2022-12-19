@@ -33,8 +33,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** Daily tasks pile assay
-SCHEDULED: <2022-12-16 Fri .+1d>
+** [#B] Daily tasks pile assay
+SCHEDULED: <2022-12-19 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2022-12-16 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2022-12-19 Mon 12:38]--[2022-12-19 Mon 12:42] =>  0:04
 CLOCK: [2022-12-16 Fri 10:22]--[2022-12-16 Fri 10:47] =>  0:25
 CLOCK: [2022-12-09 Fri 10:35]--[2022-12-09 Fri 10:41] =>  0:06
 CLOCK: [2022-12-08 Thu 07:24]--[2022-12-08 Thu 07:31] =>  0:07
@@ -99,8 +100,8 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-** Tomorrow tasks heap brushing up
-SCHEDULED: <2022-12-16 Fri .+1d>
+** [#C] Tomorrow tasks heap brushing up
+SCHEDULED: <2022-12-19 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -150,10 +151,13 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** INIT Declutter
-SCHEDULED: <2022-12-16 Fri +3w>
+*** ACTIVE Declutter
+SCHEDULED: <2022-12-30 Fri +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:05]
+:END:
+:LOGBOOK:
+CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
@@ -175,7 +179,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2022-12-16 Fri .+3d/4d>
+SCHEDULED: <2022-12-21 Wed .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-11 Sun 13:44]
 :END:
@@ -198,7 +202,7 @@ https://www.jwz.org/bbdb/
 :END:
 SCHEDULED: <2022-02-17 Thu>
 
-** INIT Paretto law
+** INIT Paretto law                                                :ARCHIVE:
 SCHEDULED: <2022-12-19 Mon>
 :PROPERTIES:
 :CATEGORY: Meta
@@ -327,7 +331,7 @@ But then you can sell it to multiple people further down the line.
 ** INIT Establishing Habits
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2022-12-16 Fri +1w>
+SCHEDULED: <2022-12-23 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -351,7 +355,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2022-12-16 Fri .+1d>
+SCHEDULED: <2022-12-19 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -366,6 +370,7 @@ SCHEDULED: <2022-12-16 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2022-12-19 Mon 12:42]
 CLOCK: [2022-12-09 Fri 11:03]--[2022-12-09 Fri 11:05] =>  0:02
 CLOCK: [2022-12-09 Fri 10:43]--[2022-12-09 Fri 10:45] =>  0:02
 CLOCK: [2022-12-08 Thu 20:31]--[2022-12-08 Thu 20:38] =>  0:07
@@ -449,8 +454,8 @@ SCHEDULED: <2022-12-07 Wed>
 ** INIT TODO keywords as types
 SCHEDULED: <2022-12-20 Tue>
 [[info:org#TODO types][org#TODO types]]
-** ACTIVE [#A] Whole week scheduling
-SCHEDULED: <2022-12-18 Sun .+1w>
+** [#A] Whole week scheduling
+SCHEDULED: <2022-12-19 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2022-12-04 Sun 12:21]
@@ -458,6 +463,8 @@ SCHEDULED: <2022-12-18 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2022-12-19 Mon 12:30]--[2022-12-19 Mon 12:37] =>  0:07
+CLOCK: [2022-12-19 Mon 12:27]--[2022-12-19 Mon 12:29] =>  0:02
 CLOCK: [2022-12-11 Sun 13:27]--[2022-12-11 Sun 13:44] =>  0:17
 CLOCK: [2022-12-04 Sun 12:04]--[2022-12-04 Sun 12:21] =>  0:17
 CLOCK: [2022-11-21 Mon 16:19]--[2022-11-21 Mon 16:37] =>  0:18
@@ -521,25 +528,25 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** INIT Bash with Andrew
-SCHEDULED: <2022-12-18 Sun .+1w>
+SCHEDULED: <2022-12-25 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Bash with Andrew
-SCHEDULED: <2022-12-17 Sat .+1w>
+SCHEDULED: <2022-12-21 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-03 Sat 09:35]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:35]
 *** INIT Chemistry with Andrew
-SCHEDULED: <2022-12-18 Sun .+1w>
+SCHEDULED: <2022-12-23 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Physics with Andrew
-SCHEDULED: <2022-12-18 Sun .+1w>
+SCHEDULED: <2022-12-24 Sat .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
@@ -563,7 +570,7 @@ SCHEDULED: <2022-12-20 Tue .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** INIT New tasks trimming
-SCHEDULED: <2022-12-16 Fri ++1w>
+SCHEDULED: <2022-12-23 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -600,21 +607,21 @@ CLOCK: [2022-12-06 Tue 10:20]--[2022-12-06 Tue 11:03] =>  0:43
 :END:
 **** RAW Sentences and Clauses
 **** RAW Word Formation
-**** TODO [#A] Punctuation
-SCHEDULED: <2022-12-19 Mon>
+**** TODO Punctuation
+SCHEDULED: <2022-12-27 Tue>
 :LOGBOOK:
 CLOCK: [2022-12-08 Thu 17:13]--[2022-12-08 Thu 17:27] =>  0:14
 CLOCK: [2022-12-08 Thu 07:56]--[2022-12-08 Thu 08:08] =>  0:12
 :END:
-**** INIT [#B] Figures of Speech
+**** INIT Figures of Speech
 SCHEDULED: <2022-12-19 Mon>
 **** INIT Common Errors
 SCHEDULED: <2022-12-20 Tue>
-** INIT Improve your English
+** INIT Improve your English                                       :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 https://www.youtube.com/watch?v=axYAW7PuSIM
 * Tasks
-** INIT To define special keys to capture to a particular template
+** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
 create your key binding like this:
@@ -625,7 +632,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** INIT Workspace decluttering
-SCHEDULED: <2022-12-18 Sun ++2w>
+SCHEDULED: <2022-12-25 Sun ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 11:46]
 :END:
@@ -635,7 +642,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2022-12-16 Fri ++1d>
+SCHEDULED: <2022-12-19 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -643,6 +650,7 @@ SCHEDULED: <2022-12-16 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2022-12-16 Fri 11:28]--[2022-12-16 Fri 11:57] =>  0:29
 CLOCK: [2022-12-11 Sun 14:00]--[2022-12-11 Sun 14:30] =>  0:30
 CLOCK: [2022-12-08 Thu 20:44]--[2022-12-08 Thu 21:04] =>  0:20
 CLOCK: [2022-12-07 Wed 18:57]--[2022-12-07 Wed 19:20] =>  0:23
@@ -656,14 +664,14 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** INIT Vocabulary
-SCHEDULED: <2022-12-16 Fri>
+SCHEDULED: <2022-12-21 Wed>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** INIT Proverbs
-SCHEDULED: <2022-12-16 Fri +1d>
+SCHEDULED: <2022-12-20 Tue +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 19:41]
 :END:
@@ -675,7 +683,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** INIT Quotations
-SCHEDULED: <2022-12-16 Fri .+2d/3d>
+SCHEDULED: <2022-12-20 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 20:38]
 :END:
@@ -686,8 +694,8 @@ CLOCK: [2022-12-08 Thu 19:42]--[2022-12-08 Thu 19:45] =>  0:03
 CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
-*** TODO [#A] Idioms
-SCHEDULED: <2022-12-19 Mon>
+*** TODO Idioms
+SCHEDULED: <2022-12-21 Wed>
 ** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 :LOGBOOK:
@@ -697,7 +705,11 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** INIT Tracking TODO state changes
-SCHEDULED: <2022-12-16 Fri>
+SCHEDULED: <2023-01-06 Fri>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
-SCHEDULED: <2022-12-16 Fri>
+SCHEDULED: <2022-12-20 Tue>
+** INIT Regular and habitual tasks not need in TODO status!!!
+SCHEDULED: <2022-12-20 Tue>
+It would just declutter org-agenda space during weekly task sorting at
+Sunday.
