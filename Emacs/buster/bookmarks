@@ -2,7 +2,21 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll" 0 81
+(#1=(#("Russian proverbs - Wikiquote" 0 28
+      (bmkp-full-record #1#))
+    (buffer-name . "*eww*")
+    (buffer-name . "*eww*")
+    (front-context-string . " ISBN 5765403697")
+    (rear-context-string . "А-Пресс. p. 30.\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(25533 23353 941415 218000))
+    (created . #2#)
+    (position . 8684)
+    (location . "https://en.wikiquote.org/wiki/Russian_proverbs")
+    (handler . bmkp-jump-eww))
+#1=(#("The Project Gutenberg eBook of Alice’s Adventures in Wonderland, by Lewis Carroll" 0 81
       (bmkp-full-record #1#))
     (buffer-name . "*eww*")
     (buffer-name . "*eww*")
@@ -549,10 +563,10 @@
     (rear-context-string . "e1cloze\n  :END:\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 2)
-    (time 25466 3379 712833 930000)
+    (visits . 3)
+    (time 25500 21872 130045 602000)
     (created 24693 26822 574400 105000)
-    (position . 9445)
+    (position . 6254)
     (location)
     (handler . bmkp-jump-eww))
 #1=(#("BusterEmacsSettings" 0 19
@@ -594,14 +608,14 @@
     (tags)
     (filename . "~/git/lib/org/drills.org")
     (buffer-name . "drills.org")
-    (front-context-string . "** COMMENT ==> =")
-    (rear-context-string . "n not in use./\n\n")
+    (front-context-string . "** COMMENT >->->")
+    (rear-context-string . " not difficult.\n")
     (front-context-region-string)
     (rear-context-region-string)
     (visits . 0)
-    (time . #2=(25487 11655 842513 128000))
+    (time . #2=(25533 23189 326900 5000))
     (created . #2#)
-    (position . 6237))
+    (position . 40128))
 #1=(#("quotes" 0 6
       (bmkp-full-record #1#))
     (filename . "~/git/lib/org/drills.org")
