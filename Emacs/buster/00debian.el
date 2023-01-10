@@ -69,7 +69,7 @@
 (defun google-translate--search-tkk () "Search TKK." (list 430675 2721866130))
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202212.org")
+(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202301.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "misc")
 (setq voca-builder/current-tag "DarkPersuasion")
