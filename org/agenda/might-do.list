@@ -370,7 +370,8 @@ SCHEDULED: <2023-01-10 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-01-10 Tue 12:17]
+CLOCK: [2023-01-10 Tue 16:01]
+CLOCK: [2023-01-10 Tue 12:17]--[2023-01-10 Tue 12:31] =>  0:14
 CLOCK: [2022-12-19 Mon 12:42]--[2022-12-19 Mon 12:46] =>  0:04
 CLOCK: [2022-12-09 Fri 11:03]--[2022-12-09 Fri 11:05] =>  0:02
 CLOCK: [2022-12-09 Fri 10:43]--[2022-12-09 Fri 10:45] =>  0:02
@@ -571,13 +572,15 @@ SCHEDULED: <2023-01-16 Mon .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
-** INIT New tasks trimming
+** ACTIVE New tasks trimming
 SCHEDULED: <2023-01-10 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-01-10 Tue 15:56]--[2023-01-10 Tue 16:01] =>  0:05
+CLOCK: [2023-01-10 Tue 12:31]--[2023-01-10 Tue 12:41] =>  0:10
 CLOCK: [2022-12-11 Sun 13:55]--[2022-12-11 Sun 14:00] =>  0:05
 CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
@@ -727,4 +730,18 @@ LifeSpan: Why We Age
 ** RAW Diane Morgan
 ** RAW Clifford D. Simak
 Ring Around the Sun
+** INIT Library Loan
+DEADLINE: <2023-01-31 Tue>
+** RAW Driver Licence
+SCHEDULED: <2023-01-13 Fri>
+** RAW Bank Account
+SCHEDULED: <2023-01-14 Sat>
+** RAW RedCross
+SCHEDULED: <2023-01-15 Sun>
+** RAW 48 laws of power
+SCHEDULED: <2023-01-24 Tue>
 ** RAW Glutton
+SCHEDULED: <2023-01-10 Tue>
+Settings for January
+** INIT Capture for idioms
+SCHEDULED: <2023-01-10 Tue>
