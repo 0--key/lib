@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-01-10 Tue .+1d>
+SCHEDULED: <2023-01-11 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -370,7 +370,7 @@ SCHEDULED: <2023-01-10 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-01-10 Tue 16:01]
+CLOCK: [2023-01-10 Tue 16:01]--[2023-01-10 Tue 16:13] =>  0:12
 CLOCK: [2023-01-10 Tue 12:17]--[2023-01-10 Tue 12:31] =>  0:14
 CLOCK: [2022-12-19 Mon 12:42]--[2022-12-19 Mon 12:46] =>  0:04
 CLOCK: [2022-12-09 Fri 11:03]--[2022-12-09 Fri 11:05] =>  0:02
@@ -572,8 +572,8 @@ SCHEDULED: <2023-01-16 Mon .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
-** ACTIVE New tasks trimming
-SCHEDULED: <2023-01-10 Tue ++1w>
+** New tasks trimming
+SCHEDULED: <2023-01-15 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -644,8 +644,8 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** INIT Workspace decluttering
-SCHEDULED: <2023-01-10 Tue ++2w>
+** Workspace decluttering
+SCHEDULED: <2023-01-13 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 11:46]
 :END:
@@ -655,7 +655,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-01-10 Tue ++1d>
+SCHEDULED: <2023-01-11 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -663,6 +663,8 @@ SCHEDULED: <2023-01-10 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-01-10 Tue 16:24]--[2023-01-10 Tue 16:42] =>  0:18
+CLOCK: [2023-01-10 Tue 14:35]--[2023-01-10 Tue 14:56] =>  0:21
 CLOCK: [2022-12-19 Mon 15:54]--[2022-12-19 Mon 16:12] =>  0:18
 CLOCK: [2022-12-19 Mon 12:50]--[2022-12-19 Mon 13:16] =>  0:26
 CLOCK: [2022-12-16 Fri 11:28]--[2022-12-16 Fri 11:57] =>  0:29
