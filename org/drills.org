@@ -351,6 +351,7 @@ SCHEDULED: <2023-02-28 Tue .+3d/4d>
 :END:
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
+CLOCK: [2023-02-28 Tue 14:05]
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 15:46] =>  1:16
 :END:
 - State "DONE"       from "TODO"       [2022-11-22 Tue 17:19]
@@ -519,12 +520,12 @@ SCHEDULED: <2022-12-10 Sat>
    :ID:       75e5b939-e88a-4a3a-82f8-1801cbb190f0
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_FAILURE_COUNT: 9
+   :DRILL_AVERAGE_QUALITY: 1.636
    :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
    I am an old man and [have known] a great [many troubles], but most
    of them [never happened].
@@ -534,12 +535,12 @@ SCHEDULED: <2022-12-10 Sat>
    :ID:       cb502dad-54dd-4ac2-bd63-9d582dea4e9c
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.833
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
    Rules are for the [obedience] of fools and the [guidance] of wise
    men.
@@ -776,20 +777,21 @@ SCHEDULED: <2022-12-10 Sat>
    :DRILL_LAST_QUALITY: 0
    :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
    :END:
-   “Management is doing [things] right; [leadership] is doing the
+   “Management is [doing things] right; [leadership] is doing the
    right things.”
 ** COMMENT >->-> Rudyard Kipling                                              :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       13f60187-a7b2-4005-a97c-a0a150b7eb4f
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.833
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
    If you did not get [what] you want, it’s a sign [either] that you
    did not seriously want it or you tried to [bargain over] the price.
@@ -815,12 +817,12 @@ SCHEDULED: <2022-12-10 Sat>
    :ID:       99176f04-2266-4baf-a389-350b2bf04fc8
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.857
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.75
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
    The two most important days in your life are the day [you’re born]
    and the day you [discover why].
@@ -1124,17 +1126,18 @@ SCHEDULED: <2022-12-10 Sat>
 to [the thoughtless approval] of [the masses]."
 
 ** COMMENT ==> => >>                                      :drill:words:keys:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       449d4104-c1e6-47a6-88b3-d3886de31dfb
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.6
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_AVERAGE_QUALITY: 1.833
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
 Words [are like keys] - if you [choose them right], they can [open any
 heart] and [shut any mouth].
@@ -1176,12 +1179,12 @@ If you [tell the truth] you don't [have to remember] anything.
    :ID:       43dd7d17-4b4f-47c8-94aa-63a4a50d7834
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 1.75
    :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
    :END:
 [Silence] is the best answer to [someone who doesn't value] your
 words.
