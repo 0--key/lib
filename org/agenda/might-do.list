@@ -180,10 +180,11 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-02-28 Tue .+3d/4d>
+SCHEDULED: <2023-03-03 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-11 Sun 13:44]
+:LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
 - State "DONE"       from "ACTIVE"     [2022-12-11 Sun 13:44]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 07:34]
 for retrospect analysys
@@ -423,11 +424,12 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 [[info:org#Progress Logging]]
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
-** INIT Monthly archive day .+4w
-SCHEDULED: <2023-02-28 Tue .+4w>
+** RAW Monthly archive day .+4w
+SCHEDULED: <2023-03-28 Tue .+4w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-18 Fri 07:26]
+:LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
 - Note taken on [2022-12-16 Fri 10:30] \\
   One month passed away but there are not tasks to archive at the
   monthly basics.
@@ -717,7 +719,7 @@ CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** TODO Idioms
-SCHEDULED: <2023-02-28 Tue>
+SCHEDULED: <2023-03-03 Fri>
 ** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 :LOGBOOK:
