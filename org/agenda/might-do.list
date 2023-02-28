@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-02-28 Tue .+1d>
+SCHEDULED: <2023-03-01 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -499,7 +499,7 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   
   ++ Mental Health
 ** RAW [#A] English with Roisin
-DEADLINE: <2023-03-01 Wed .+1w>
+DEADLINE: <2023-03-02 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-16 Fri 10:20]
 :END:
@@ -604,7 +604,7 @@ CLOCK: [2022-12-05 Mon 10:03]--[2022-12-05 Mon 10:12] =>  0:09
 it is a huge task and it should be split into tiny chunks and
 scheduled on several weeks.
 **** TODO [#A] Words and Phrases
-SCHEDULED: <2023-01-14 Sat .+2d/3d>
+SCHEDULED: 
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 14:02]
 :END:
@@ -653,7 +653,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** Workspace decluttering
-SCHEDULED: <2023-02-27 Mon ++2w>
+SCHEDULED: <2023-03-06 Mon ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 11:46]
 :END:
@@ -736,7 +736,7 @@ SCHEDULED: <2023-03-16 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-03-08 Wed>
-** INIT Regular and habitual tasks not need in TODO status!!!
+** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
 It would just declutter org-agenda space during weekly task sorting at
 Sunday.
@@ -750,7 +750,7 @@ LifeSpan: Why We Age
 ** RAW Diane Morgan
 ** RAW Clifford D. Simak
 Ring Around the Sun
-** INIT Library Loan
+** INIT Library Loan                                               :ARCHIVE:
 DEADLINE: <2023-03-09 Thu>
 ** RAW 48 laws of power
 SCHEDULED: <2023-03-13 Mon>
