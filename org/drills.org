@@ -4,26 +4,30 @@
 #+PROPERTY: header-args :comments org
 
 * TODO Proverbs
-SCHEDULED: <2023-03-01 Wed ++3d/4d>
+SCHEDULED: <2023-03-03 Fri ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-05 Mon 21:08]
+:LAST_REPEAT: [2023-02-28 Tue 15:23]
+:END:
+- State "DONE"       from "TODO"       [2023-02-28 Tue 15:23]
+:LOGBOOK:
+CLOCK: [2023-02-28 Tue 15:10]--[2023-02-28 Tue 15:23] =>  0:13
 :END:
 
 - State "DONE"       from "TODO"       [2022-12-05 Mon 21:08]
 - State "DONE"       from "TODO"       [2022-12-05 Mon 21:08]
 ** COMMENT ==> => >>                                :drill:cat:kig:superior:
-SCHEDULED: <2022-12-09 Fri>
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       83e1b769-4841-4b94-b49c-609f4ae57b9f
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.2
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-12-05 Mon 11:%]
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A cat may look] [at a king]
 
@@ -31,46 +35,79 @@ SCHEDULED: <2022-12-09 Fri>
 presence of a superior./
 
 ** COMMENT ==> => >> :drill:
-SCHEDULED: <2022-12-09 Fri>
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       7a2171b1-c1b1-4673-b3c3-e4126b4ea8b3
-   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_LAST_INTERVAL: 3.725
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.167
+   :DRILL_EASE: 2.22
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-12-05 Mon 11:%]
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A drowning man] will [clutch at a straw]
 
 /Try any route to get out of a desperate situation, no matter how
 unlikely it is to succeed./
 ** COMMENT ==> => >> :drill:
-SCHEDULED: <2022-12-09 Fri>
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ca6d3cbb-1cb3-465d-9bd7-d76c5dd1529d
-   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [Y-12-05 Mon 11:%]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A bad penny] always [turns up]
 
 /A disreputable or prodigal person will always return. More generally,
 this proverb refers to the recurrence of any unwanted event/.
 ** COMMENT ==> => >>                               :drill:hanging:fruit:low:
-SCHEDULED: <2022-12-09 Fri>
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       44525599-76e4-42fb-896c-198550028d4b
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
+   :END:
+[A bird in the hand] is worth two [in the bush]
+** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       35884c38-3359-4339-b9c3-2bea889be0ac
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
+   :END:
+[A chain is only] as strong as [its weakest link]
+
+/The 'weakest link' referred to is figurative and usually applies to a
+person or technical feature rather than the link of an actual chain./
+** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :ID:       1158eb04-2f6a-4504-a24d-77ff228ce189
    :DRILL_LAST_INTERVAL: 3.86
    :DRILL_REPEATS_SINCE_FAIL: 2
    :DRILL_TOTAL_REPEATS: 2
@@ -78,67 +115,104 @@ SCHEDULED: <2022-12-09 Fri>
    :DRILL_AVERAGE_QUALITY: 2.0
    :DRILL_EASE: 2.36
    :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-12-05 Mon 11:%]
-   :END:
-[A bird in the hand] is worth two [in the bush]
-** COMMENT ==> => >> :drill:
-SCHEDULED: <2022-12-09 Fri>
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide1cloze
-   :ID:       35884c38-3359-4339-b9c3-2bea889be0ac
-   :DRILL_LAST_INTERVAL: 3.86
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.75
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-12-05 Mon 11:%]
-   :END:
-[A chain is only] as strong as [its weakest link]
-
-/The 'weakest link' referred to is figurative and usually applies to a
-person or technical feature rather than the link of an actual chain./
-** COMMENT ==> => >> :drill:
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide1cloze
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A change] is as good as [a rest]
 
 /a proverb that expresses the notion that a change from one's regular
 occupation is as restorative as a holiday/
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       74122f7b-880e-482e-8cb4-6dbb353abf13
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A fish] always rots [from the head] down
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       627cf03b-bdcb-4099-90d2-865508a1c981
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A fool] and his [money] are [soon parted]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       bb375db0-79a5-4141-a1c3-226b3a86a596
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 4.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A friend] in need is [a friend indeed]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       6fccab1c-2862-45d7-a65e-1c79e1e563e9
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A barking] dog [never bites]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       fdad4f1e-7e66-4ff8-9ff3-d108d858394c
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A barking] dog never [bites]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       1b71b2a5-8ed8-449b-8810-7491bf69988c
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A golden] key opens [any door]
 
@@ -146,14 +220,34 @@ occupation is as restorative as a holiday/
 allow the possessor of it to do anything they wish./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       03bb07ca-0d14-462f-8beb-8efc6931cc27
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A good beginning] makes a good [ending]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       b0aab2d0-5dd7-4538-adf2-cd8c949ad430
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A house] is not [a home]
 
@@ -162,14 +256,34 @@ allow the possessor of it to do anything they wish./
 belonging./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       4b43b742-15e4-4adc-9c9f-20bf528fa0f0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A journey] of a thousand miles [begins with a single step]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       fe948b44-5809-4335-9232-86c757d01d9e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A leopard cannot] change its [spots]
 
@@ -178,8 +292,18 @@ belonging./
 things will always be bad people./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       7e55efa6-157e-4d2b-bcaa-3ab4d35144f4
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A little knowledge] is a [dangerous] thing
 
@@ -188,38 +312,98 @@ things will always be bad people./
 which can lead to mistakes being made./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f1f8885f-52ca-4113-b438-38bcc605179d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A man is known] by his [friends]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       0c938a80-afc7-43a8-acdd-5feaeb57859b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A new [broom] [sweeps clean]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       d79237d6-7fc7-4d9a-9f02-eccb54766bc5
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A penny saved] is [a penny earned]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       2fc0e918-f536-47ac-877c-f823c396560f
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A person is known] by the [company he keeps]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       96d234e9-cb25-490f-ad4d-45ad2d6e9c19
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A picture paints] a thousand [words]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8dc42842-c459-467b-8445-5309692f353d
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A place for everything] and everything [in its place]
 
@@ -227,26 +411,66 @@ A new [broom] [sweeps clean]
 it should be tidily returned there when not in use./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       4263201a-4bb1-41d8-8226-48f71b671854
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A poor workman] always [blames his tools]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       081c619f-cfc6-4e32-b4cd-2b62f326a4c3
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A problem shared] is [a problem halved]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       ea5afa67-f599-44d4-b026-ed1116ed6519
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [A prophet] is not [recognized] in [his own land]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       18dafb36-1035-4231-b4ca-850fce893bbf
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A [rising] tide [lifts all boats]
 
@@ -254,8 +478,18 @@ A [rising] tide [lifts all boats]
 the stock market or the economy generally./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       3461c9f6-d1a2-4bcc-bd55-8030ee2cc7f0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A [rolling] stone [gathers no moss]
 
@@ -265,14 +499,34 @@ A sure way to prevent a colony of moss from growing on a stone is to
 move it about./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       7f31ffb1-2084-4c35-94a4-24ddf187a69f
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A [soft answer] [turneth away] wrath
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       08941424-db36-4b5b-a273-cd762de5cebe
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A [stitch] in [time] saves nine
 
@@ -281,8 +535,18 @@ or tear in a piece of material, so saving the need for more stitching
 at a later date when the hole has become larger./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       246738f2-c198-4ece-9949-82b4b992d6f0
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A place for [everything] and everything in [its place]
 
@@ -290,68 +554,159 @@ A place for [everything] and everything in [its place]
 it should be tidily returned there when not in use./
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       893db805-24f8-423f-a647-3c7989e6ae4e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 A [volunteer] is worth twenty [pressed men]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       04db6acc-fe7d-4902-ba07-07484ebdd311
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [Plough] deep while [sluggards sleep] and you shall have [corn to sell
 and to keep].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       9e11210e-2b54-467a-9430-9ca4af75a7cc
+   :DRILL_LAST_INTERVAL: 4.14
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 5.0
+   :DRILL_EASE: 2.6
+   :DRILL_LAST_QUALITY: 5
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [Actions] speak [louder] than words
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       e1b4bfa0-012c-4238-b31e-18baf8509d68
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 [After a storm] comes a [calm]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       4d630c5c-52f8-4e1b-ae3c-901f3e2a29af
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 3
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 All [things come] to [those who wait]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f1e0d4c8-afe7-4f0d-8ba1-55c0e08b469e
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 All's [well] that [ends well]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       920d3265-2fa7-4fbe-a067-5037484f57c6
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 An ounce of [prevention] is worth a [pound of cure]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f34daa46-ba0c-47b1-b6b0-432e43036f7a
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_FAILURE_COUNT: 2
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 As you [sow] so shall you [reap]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-04 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       d234fa8f-c018-4362-a5c2-462810ebf690
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 15:%]
    :END:
 Be [careful] what you [wish for]
 
 * TODO Quotes
-SCHEDULED: <2023-02-28 Tue .+3d/4d>
+SCHEDULED: <2023-03-03 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-06 Tue 17:21]
+:LAST_REPEAT: [2023-02-28 Tue 14:48]
 :END:
+- State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
-CLOCK: [2023-02-28 Tue 14:05]
+CLOCK: [2023-02-28 Tue 14:05]--[2023-02-28 Tue 14:17] =>  0:12
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 15:46] =>  1:16
 :END:
 - State "DONE"       from "TODO"       [2022-11-22 Tue 17:19]
