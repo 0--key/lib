@@ -498,8 +498,8 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   ...
   
   ++ Mental Health
-** RAW [#A] English with Roisin
-DEADLINE: <2023-03-02 Thu .+1w>
+** ACTIVE [#A] English with Roisin
+DEADLINE: <2023-03-01 Wed -1d .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-16 Fri 10:20]
 :END:
@@ -516,18 +516,6 @@ CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
   ** ailments
   ** remedy
   ** and symptoms
-** RAW Milford's Library
-DEADLINE: <2023-03-02 Thu -1d ++1w>
-:PROPERTIES:
-:LAST_REPEAT: [2022-12-16 Fri 10:25]
-:END:
-- State "DONE"       from "ACTIVE"     [2022-12-16 Fri 10:25]
-- State "DONE"       from "ACTIVE"     [2022-12-09 Fri 10:39]
-- State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:37]
-- State "DONE"       from "ACTIVE"     [2022-11-24 Thu 13:20]
-:LOGBOOK:
-CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
-:END:
 ** INIT Irish by myself                                            :ARCHIVE:
 SCHEDULED: <2022-12-08 Thu>
 ** Family
