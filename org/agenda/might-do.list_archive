@@ -65,3 +65,23 @@ SCHEDULED: <2022-11-11 Fri>
 - Note taken on [2022-11-18 Fri 18:37] \\
   ~'org-save-link~ not works properly at =Bookmarks List= buffer
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
+
+* RAW Driver Licence
+SCHEDULED: <2023-01-13 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-28 Tue 10:29
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Thesis
+:ARCHIVE_TODO: RAW
+:END:
+
+* RAW RedCross
+SCHEDULED: <2023-01-15 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-28 Tue 10:29
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Thesis
+:ARCHIVE_TODO: RAW
+:END:
