@@ -371,7 +371,8 @@ SCHEDULED: <2023-02-28 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-02-28 Tue 10:44]
+CLOCK: [2023-02-28 Tue 13:51]
+CLOCK: [2023-02-28 Tue 10:44]--[2023-02-28 Tue 10:58] =>  0:14
 CLOCK: [2023-01-10 Tue 16:01]--[2023-01-10 Tue 16:13] =>  0:12
 CLOCK: [2023-01-10 Tue 12:17]--[2023-01-10 Tue 12:31] =>  0:14
 CLOCK: [2022-12-19 Mon 12:42]--[2022-12-19 Mon 12:46] =>  0:04
@@ -694,20 +695,22 @@ SCHEDULED: <2023-03-02 Thu>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** INIT Proverbs
-SCHEDULED: <2023-02-28 Tue +1d>
+*** RAW Proverbs
+SCHEDULED: <2023-03-01 Wed +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-08 Thu 19:41]
+:LAST_REPEAT: [2023-02-28 Tue 13:50]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:50]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 19:41]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
+CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** INIT Quotations
-SCHEDULED: <2023-02-28 Tue .+2d/3d>
+SCHEDULED: <2023-03-02 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 20:38]
 :END:
