@@ -547,6 +547,26 @@ SCHEDULED: <2023-03-08 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
+*** Gym with Andrew #1
+SCHEDULED: <2023-03-08 Wed .+1w>
+
+*** Gym with Andrew #2
+SCHEDULED: <2023-03-03 Fri>
+
+*** Milford Library #1
+SCHEDULED: <2023-03-09 Thu .+1w>
+
+*** Milford Library with ViLee
+SCHEDULED: <2023-03-07 Tue .+1w>
+
+*** Shopping with ViLee in Milford
+SCHEDULED: <2023-03-02 Thu .+1w>
+
+*** Family shopping in Letterkenny
+SCHEDULED: <2023-03-05 Sun>
+
+
+
 ** INIT Reading Alice
 SCHEDULED: <2023-03-03 Fri .+2d/3d>
 :PROPERTIES:
@@ -566,12 +586,13 @@ SCHEDULED: <2023-03-03 Fri .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-03-02 Thu ++1w>
+SCHEDULED: <2023-03-09 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-03-02 Thu 11:17]--[2023-03-02 Thu 11:24] =>  0:07
 CLOCK: [2023-01-10 Tue 15:56]--[2023-01-10 Tue 16:01] =>  0:05
 CLOCK: [2023-01-10 Tue 12:31]--[2023-01-10 Tue 12:41] =>  0:10
 CLOCK: [2022-12-11 Sun 13:55]--[2022-12-11 Sun 14:00] =>  0:05
