@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-02 Thu .+1d>
+SCHEDULED: <2023-03-03 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,8 @@ SCHEDULED: <2023-03-02 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-02 Thu 14:46]--[2023-03-02 Thu 14:56] =>  0:10
+CLOCK: [2023-03-02 Thu 11:26]--[2023-03-02 Thu 11:27] =>  0:01
 CLOCK: [2023-02-28 Tue 10:28]--[2023-02-28 Tue 10:44] =>  0:16
 CLOCK: [2022-12-19 Mon 12:38]--[2022-12-19 Mon 12:42] =>  0:04
 CLOCK: [2022-12-16 Fri 10:22]--[2022-12-16 Fri 10:47] =>  0:25
@@ -113,6 +115,7 @@ SCHEDULED: <2023-03-02 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-03-02 Thu 18:27]--[2023-03-02 Thu 18:29] =>  0:02
 CLOCK: [2022-12-09 Fri 10:41]--[2022-12-09 Fri 10:42] =>  0:01
 CLOCK: [2022-12-08 Thu 07:32]--[2022-12-08 Thu 07:36] =>  0:04
 CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
@@ -127,7 +130,7 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :CATEGORY: Key-chords
 :END:
 *** ACTIVE Extend
-SCHEDULED: <2023-03-03 Fri ++1w>
+SCHEDULED: <2023-03-10 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -371,6 +374,11 @@ SCHEDULED: <2023-03-02 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-02 Thu 18:29]
+CLOCK: [2023-03-02 Thu 18:24]--[2023-03-02 Thu 18:26] =>  0:02
+CLOCK: [2023-03-02 Thu 11:58]--[2023-03-02 Thu 12:08] =>  0:10
+CLOCK: [2023-03-02 Thu 11:28]--[2023-03-02 Thu 11:29] =>  0:01
+CLOCK: [2023-03-02 Thu 11:24]--[2023-03-02 Thu 11:26] =>  0:02
 CLOCK: [2023-02-28 Tue 15:23]--[2023-02-28 Tue 15:25] =>  0:02
 CLOCK: [2023-02-28 Tue 13:51]--[2023-02-28 Tue 14:03] =>  0:12
 CLOCK: [2023-02-28 Tue 10:44]--[2023-02-28 Tue 10:58] =>  0:14
@@ -500,7 +508,7 @@ SCHEDULED: <2022-11-22 Tue .+1d>
   
   ++ Mental Health
 ** ACTIVE [#A] English with Roisin
-DEADLINE: <2023-03-01 Wed -1d .+1w>
+DEADLINE: <2023-03-08 Wed -1d .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-16 Fri 10:20]
 :END:
@@ -560,7 +568,7 @@ SCHEDULED: <2023-03-09 Thu .+1w>
 SCHEDULED: <2023-03-07 Tue .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-03-02 Thu .+1w>
+SCHEDULED: <2023-03-09 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-03-05 Sun>
@@ -577,7 +585,7 @@ SCHEDULED: <2023-03-03 Fri .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2023-03-03 Fri .+2d/3d>
+SCHEDULED: <2023-03-10 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -627,7 +635,7 @@ CLOCK: [2022-12-06 Tue 10:20]--[2022-12-06 Tue 11:03] =>  0:43
 **** RAW Sentences and Clauses
 **** RAW Word Formation
 **** TODO Punctuation
-SCHEDULED: <2023-03-02 Thu>
+SCHEDULED: <2023-03-05 Sun>
 :LOGBOOK:
 CLOCK: [2022-12-08 Thu 17:13]--[2022-12-08 Thu 17:27] =>  0:14
 CLOCK: [2022-12-08 Thu 07:56]--[2022-12-08 Thu 08:08] =>  0:12
@@ -673,7 +681,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-02 Thu ++1d>
+SCHEDULED: <2023-03-03 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -681,6 +689,8 @@ SCHEDULED: <2023-03-02 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-02 Thu 17:56]--[2023-03-02 Thu 18:15] =>  0:19
+CLOCK: [2023-03-02 Thu 12:08]--[2023-03-02 Thu 12:30] =>  0:22
 CLOCK: [2023-02-28 Tue 15:27]--[2023-02-28 Tue 15:42] =>  0:15
 CLOCK: [2023-02-28 Tue 14:50]--[2023-02-28 Tue 15:03] =>  0:13
 CLOCK: [2023-01-10 Tue 16:24]--[2023-01-10 Tue 16:42] =>  0:18
@@ -701,7 +711,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** INIT Vocabulary
-SCHEDULED: <2023-03-02 Thu>
+SCHEDULED: <2023-03-09 Thu>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
@@ -724,7 +734,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** INIT Quotations
-SCHEDULED: <2023-03-02 Thu .+2d/3d>
+SCHEDULED: <2023-03-05 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 20:38]
 :END:
@@ -769,7 +779,7 @@ DEADLINE: <2023-03-09 Thu>
 ** RAW 48 laws of power
 SCHEDULED: <2023-03-13 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-03-03 Fri>
+SCHEDULED: <2023-03-04 Sat>
 ** RAW Capture for idioms
 SCHEDULED: <2023-03-04 Sat>
 Alice had no idea what Latitude was, or Longitude either, but
