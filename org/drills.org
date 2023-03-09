@@ -997,6 +997,7 @@ SCHEDULED: <2023-03-11 Sat .+3d/4d>
 - State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
+CLOCK: [2023-03-11 Sat 12:05]--[2023-03-11 Sat 12:22] =>  0:17
 CLOCK: [2023-02-28 Tue 14:05]--[2023-02-28 Tue 14:17] =>  0:12
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 15:46] =>  1:16
 :END:
@@ -1017,22 +1018,6 @@ SCHEDULED: <2022-12-16 Fri>
    :END:
 [Whenever] you find yourself [on the side] of the majority, it is time
  to [pause and reflect].
-** COMMENT >->-> OSCAR WILDE                                         :drill:
-SCHEDULED: <2022-12-15 Thu>
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide1cloze
-   :ID:       2f89cd31-9590-499a-b0c4-3aaaca740069
-   :DRILL_LAST_INTERVAL: 9.3103
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 4
-   :DRILL_LAST_REVIEWED: [Y-12-06 Tue 16:%]
-   :END:
-   Anyone who lives [within their means] suffers from [a lack of
-   imagination].
 ** COMMENT >->-> NIELS BOHR                                  :drill:expert:mistakes:
 SCHEDULED: <2022-12-10 Sat>
    :PROPERTIES:
@@ -1065,22 +1050,6 @@ SCHEDULED: <2022-12-15 Thu>
    :END:
    The first principle is [that] you [must] not fool yourself, and you
    are the [easiest] person to fool.
-** COMMENT >->-> William James                                                :drill:
-SCHEDULED: <2022-12-15 Thu>
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide2cloze
-   :ID:       4b47799c-e6cf-4e90-8d68-db0c3f855d49
-   :DRILL_LAST_INTERVAL: 8.9861
-   :DRILL_REPEATS_SINCE_FAIL: 3
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-12-06 Tue 16:%]
-   :END:
- If we [remembered] everything, we [should] on most [occasions] be [as
- ill off] as if we remembered nothing.
 ** COMMENT >->-> HERBERT BAYARD SWOPE                                         :drill:
 SCHEDULED: <2022-12-10 Sat>
    :PROPERTIES:
@@ -1160,21 +1129,6 @@ SCHEDULED: <2022-12-10 Sat>
    :END:
    Action [may not always] bring happiness, but there is [no
    happiness] without action.
-** COMMENT >->-> MARK TWAIN                                                   :drill:
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide2cloze
-   :ID:       75e5b939-e88a-4a3a-82f8-1801cbb190f0
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 11
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 1.636
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 0
-   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
-   :END:
-   I am an old man and [have known] a great [many troubles], but most
-   of them [never happened].
 ** COMMENT >->-> GEORGE BERNARD SHAW                          :drill:rules:guidance:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
@@ -1382,7 +1336,7 @@ SCHEDULED: <2022-12-16 Fri>
    :DRILL_LAST_QUALITY: 4
    :DRILL_LAST_REVIEWED: [Y-12-06 Tue 15:%]
    :END:
-   The limits of my [language] are the limits of my world
+   The limits of [my language] are [the limits] of my world
 ** COMMENT >->-> ARISTOTLE                                  :drill:excellence:habit:
    :PROPERTIES:
    :ID:       0ac036e0-1a3c-4b48-96ee-b055eca3c5be
@@ -1425,22 +1379,6 @@ SCHEDULED: <2022-12-10 Sat>
    :END:
    “Management is [doing things] right; [leadership] is doing the
    right things.”
-** COMMENT >->-> Rudyard Kipling                                              :drill:
-SCHEDULED: <2023-03-04 Sat>
-   :PROPERTIES:
-   :DRILL_CARD_TYPE: hide2cloze
-   :ID:       13f60187-a7b2-4005-a97c-a0a150b7eb4f
-   :DRILL_LAST_INTERVAL: 3.725
-   :DRILL_REPEATS_SINCE_FAIL: 2
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 3
-   :DRILL_LAST_REVIEWED: [Y-02-28 Tue 14:%]
-   :END:
-   If you did not get [what] you want, it’s a sign [either] that you
-   did not seriously want it or you tried to [bargain over] the price.
 ** COMMENT >->-> Amelia Earhart                                               :drill:
 SCHEDULED: <2022-12-10 Sat>
    :PROPERTIES:
@@ -1602,7 +1540,7 @@ SCHEDULED: <2022-12-10 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [Y-12-06 Tue 15:%]
 :END:
-   “Action will [delineate] and define you.”
+   “Action will [delineate] and [define] you.”
 ** COMMENT >->-> Michelangelo                                                 :drill:
 SCHEDULED: <2022-12-10 Sat>
 :PROPERTIES:
@@ -1646,38 +1584,6 @@ SCHEDULED: <2022-12-15 Thu>
 :DRILL_LAST_REVIEWED: [Y-12-06 Tue 15:%]
 :END:
    "[Those] who know don’t talk, those who talk don’t know"
-** COMMENT >->-> Bertrand Russell                       :drill:stupid:man:translate:
-SCHEDULED: <2022-12-10 Sat>
-  :PROPERTIES:
-  :DRILL_CARD_TYPE: hide1cloze
-  :ID:       abda7938-d5f8-432f-b375-ce0d1833cf58
-  :DRILL_LAST_INTERVAL: 3.725
-  :DRILL_REPEATS_SINCE_FAIL: 2
-  :DRILL_TOTAL_REPEATS: 5
-  :DRILL_FAILURE_COUNT: 3
-  :DRILL_AVERAGE_QUALITY: 1.4
-  :DRILL_EASE: 2.22
-  :DRILL_LAST_QUALITY: 3
-  :DRILL_LAST_REVIEWED: [Y-12-06 Tue 16:%]
-  :END:
-   “A [stupid] man's report of what a clever man says can never be
-   accurate, because he [unconsciously] translates what he [hears]
-   into something he can understand.”
-** COMMENT >->-> Earle Hitchner                   :drill:america:england:difference:
-:PROPERTIES:
-:ID:       491258f4-f04b-48a1-b767-860856f88dea
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.333
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [Y-02-27 Mon 14:%]
-:END:
-   “The difference between America and England is [that] Americans
-   think 100 years is a [long] time, [while] the English think 100
-   miles is a long way.”
 ** COMMENT >->-> Claude Helvetius                                             :drill:
 SCHEDULED: <2022-12-15 Thu>
 :PROPERTIES:
@@ -1691,7 +1597,7 @@ SCHEDULED: <2022-12-15 Thu>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [Y-12-06 Tue 16:%]
 :END:
-   Knowledge of some [principles] easily compensates the lack of
+   Knowledge of [some principles] easily [compensates the lack] of
    knowledge of some facts.
 ** COMMENT >->-> Claude Helvetius
 Genius is nothing but continued [attention].
