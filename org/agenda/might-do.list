@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-09 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-11 Sat 12:00]--[2023-03-11 Sat 12:03] =>  0:03
 CLOCK: [2023-03-06 Mon 12:24]--[2023-03-06 Mon 12:26] =>  0:02
 CLOCK: [2023-03-02 Thu 14:46]--[2023-03-02 Thu 14:56] =>  0:10
 CLOCK: [2023-03-02 Thu 11:26]--[2023-03-02 Thu 11:27] =>  0:01
@@ -105,7 +106,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-09 Thu .+1d>
+SCHEDULED: <2023-03-11 Sat .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -131,7 +132,7 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :CATEGORY: Key-chords
 :END:
 *** ACTIVE Extend
-SCHEDULED: <2023-03-10 Fri ++1w>
+SCHEDULED: <2023-03-24 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -184,7 +185,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-03-10 Fri .+3d/4d>
+SCHEDULED: <2023-03-11 Sat .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
@@ -336,7 +337,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2023-03-10 Fri +1w>
+SCHEDULED: <2023-03-17 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -360,7 +361,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-09 Thu .+1d>
+SCHEDULED: <2023-03-11 Sat .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -375,7 +376,8 @@ SCHEDULED: <2023-03-09 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-09 Thu 12:38]
+CLOCK: [2023-03-11 Sat 12:03]
+CLOCK: [2023-03-09 Thu 12:38]--[2023-03-09 Thu 12:40] =>  0:02
 CLOCK: [2023-03-06 Mon 12:23]--[2023-03-06 Mon 12:24] =>  0:01
 CLOCK: [2023-03-06 Mon 12:16]--[2023-03-06 Mon 12:19] =>  0:03
 CLOCK: [2023-03-02 Thu 18:29]--[2023-03-02 Thu 18:30] =>  0:01
@@ -427,7 +429,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
-SCHEDULED: <2023-03-09 Thu .+2w>
+SCHEDULED: <2023-03-16 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -471,7 +473,7 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** INIT TODO keywords as types
-SCHEDULED: <2023-03-10 Fri>
+SCHEDULED: <2023-03-17 Fri>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
 SCHEDULED: <2023-03-13 Mon .+1w>
@@ -570,9 +572,13 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 :END:
 
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
-*** Gym with Andrew #3
-SCHEDULED: <2023-03-10 Fri .+1w>
+*** RAW Gym with Andrew #3
+SCHEDULED: <2023-03-18 Sat .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-11 Sat 12:02]
+:END:
 
+- State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
 *** RAW Gym with Andrew #1
 SCHEDULED: <2023-03-16 Thu .+1w>
 :PROPERTIES:
@@ -580,14 +586,18 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 :END:
 
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:16]
-*** Milford Library #1
-SCHEDULED: <2023-03-09 Thu .+1w>
+*** RAW Milford Library #1
+SCHEDULED: <2023-03-16 Thu .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-09 Thu 12:40]
+:END:
 
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:40]
 *** Milford Library with ViLee
 SCHEDULED: <2023-03-14 Tue .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-03-09 Thu .+1w>
+SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-03-12 Sun>
@@ -595,7 +605,7 @@ SCHEDULED: <2023-03-12 Sun>
 
 
 ** INIT Reading Alice
-SCHEDULED: <2023-03-09 Thu .+2d/3d>
+SCHEDULED: <2023-03-11 Sat .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -604,7 +614,7 @@ SCHEDULED: <2023-03-09 Thu .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2023-03-10 Fri .+2d/3d>
+SCHEDULED: <2023-03-12 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -613,7 +623,7 @@ SCHEDULED: <2023-03-10 Fri .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-03-09 Thu ++1w>
+SCHEDULED: <2023-03-12 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -661,7 +671,7 @@ CLOCK: [2022-12-08 Thu 07:56]--[2022-12-08 Thu 08:08] =>  0:12
 :END:
 **** INIT Figures of Speech                                      :ARCHIVE:
 SCHEDULED: <2023-03-08 Wed>
-**** INIT Common Errors
+**** INIT Common Errors                                          :ARCHIVE:
 SCHEDULED: <2023-03-09 Thu>
 ** INIT Improve your English                                       :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -704,7 +714,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-09 Thu ++1d>
+SCHEDULED: <2023-03-11 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -736,14 +746,14 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** INIT Vocabulary
-SCHEDULED: <2023-03-09 Thu>
+SCHEDULED: <2023-03-13 Mon>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-03-09 Thu +1d>
+SCHEDULED: <2023-03-11 Sat +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-02 Thu 11:58]
 :END:
@@ -784,7 +794,7 @@ For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 SCHEDULED: <2023-03-16 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
-SCHEDULED: <2023-03-09 Thu>
+SCHEDULED: <2023-03-16 Thu>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
 It would just declutter org-agenda space during weekly task sorting at
