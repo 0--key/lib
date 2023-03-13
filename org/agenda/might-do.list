@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-09 Thu .+1d>
+SCHEDULED: <2023-03-13 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -106,7 +106,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-11 Sat .+1d>
+SCHEDULED: <2023-03-13 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -158,7 +158,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** ACTIVE Declutter
-SCHEDULED: <2023-03-13 Mon +3w>
+SCHEDULED: <2023-04-03 Mon +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:05]
 :END:
@@ -185,7 +185,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-03-11 Sat .+3d/4d>
+SCHEDULED: <2023-03-14 Tue .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
@@ -361,7 +361,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-11 Sat .+1d>
+SCHEDULED: <2023-03-13 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -376,7 +376,8 @@ SCHEDULED: <2023-03-11 Sat .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-11 Sat 12:03]
+CLOCK: [2023-03-13 Mon 12:06]
+CLOCK: [2023-03-11 Sat 12:03]--[2023-03-11 Sat 12:05] =>  0:02
 CLOCK: [2023-03-09 Thu 12:38]--[2023-03-09 Thu 12:40] =>  0:02
 CLOCK: [2023-03-06 Mon 12:23]--[2023-03-06 Mon 12:24] =>  0:01
 CLOCK: [2023-03-06 Mon 12:16]--[2023-03-06 Mon 12:19] =>  0:03
@@ -476,15 +477,17 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-03-17 Fri>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-03-13 Mon .+1w>
+SCHEDULED: <2023-03-20 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2023-03-06 Mon 12:25]
+:LAST_REPEAT: [2023-03-13 Mon 12:06]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-13 Mon 12:06]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:25]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-03-13 Mon 12:03]--[2023-03-13 Mon 12:06] =>  0:03
 CLOCK: [2023-03-06 Mon 12:19]--[2023-03-06 Mon 12:23] =>  0:04
 CLOCK: [2023-01-10 Tue 11:47]--[2023-01-10 Tue 12:07] =>  0:20
 CLOCK: [2022-12-19 Mon 12:30]--[2022-12-19 Mon 12:37] =>  0:07
@@ -542,7 +545,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** INIT Bash with Andrew
-SCHEDULED: <2023-03-12 Sun .+1w>
+SCHEDULED: <2023-03-19 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
@@ -600,12 +603,12 @@ SCHEDULED: <2023-03-14 Tue .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-03-12 Sun>
+SCHEDULED: <2023-03-19 Sun>
 
 
 
 ** INIT Reading Alice
-SCHEDULED: <2023-03-11 Sat .+2d/3d>
+SCHEDULED: <2023-03-14 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -614,7 +617,7 @@ SCHEDULED: <2023-03-11 Sat .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2023-03-12 Sun .+2d/3d>
+SCHEDULED: <2023-03-13 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -623,7 +626,7 @@ SCHEDULED: <2023-03-12 Sun .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-03-12 Sun ++1w>
+SCHEDULED: <2023-03-15 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -677,16 +680,16 @@ SCHEDULED: <2023-03-09 Thu>
 SCHEDULED: <2022-12-16 Fri>
 https://www.youtube.com/watch?v=axYAW7PuSIM
 ** INIT Book
-SCHEDULED: <2023-03-12 Sun>
+SCHEDULED: <2023-03-13 Mon>
 High Perfomance Habits ~ Brandon Bruchard
 ** INIT Book
-SCHEDULED: <2023-03-12 Sun>
+SCHEDULED: <2023-03-13 Mon>
 Play ~ Stuart Brown&Christopher Vaughan
 ** INIT Book
-SCHEDULED: <2023-03-12 Sun>
+SCHEDULED: <2023-03-13 Mon>
 Storyworthy ~ Matthew Dicks
 ** INIT Book
-SCHEDULED: <2023-03-12 Sun>
+SCHEDULED: <2023-03-13 Mon>
 Make Time ~ Jake Knapp John Zeratsky
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -714,7 +717,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-11 Sat ++1d>
+SCHEDULED: <2023-03-13 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -722,6 +725,7 @@ SCHEDULED: <2023-03-11 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-11 Sat 12:41]--[2023-03-11 Sat 13:14] =>  0:33
 CLOCK: [2023-03-06 Mon 13:29]--[2023-03-06 Mon 14:00] =>  0:31
 CLOCK: [2023-03-03 Fri 12:19]--[2023-03-03 Fri 13:24] =>  1:05
 CLOCK: [2023-03-02 Thu 17:56]--[2023-03-02 Thu 18:15] =>  0:19
@@ -746,14 +750,14 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** INIT Vocabulary
-SCHEDULED: <2023-03-13 Mon>
+SCHEDULED: <2023-03-27 Mon>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-03-11 Sat +1d>
+SCHEDULED: <2023-03-20 Mon +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-02 Thu 11:58]
 :END:
@@ -812,7 +816,7 @@ Ring Around the Sun
 ** INIT Library Loan                                               :ARCHIVE:
 DEADLINE: <2023-03-09 Thu>
 ** RAW 48 laws of power
-SCHEDULED: <2023-03-13 Mon>
+SCHEDULED: <2023-03-20 Mon>
 ** INIT Capture for idioms
 SCHEDULED: <2023-03-18 Sat>
 ** RAW Capture for idioms
