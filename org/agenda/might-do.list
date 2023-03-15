@@ -17,7 +17,7 @@ Advanced to-do list    -*- mode: org; -*-
 ** YouTube
 
 *** INIT Ali Abdaal's *new* transcript
-SCHEDULED: <2023-03-15 Wed +2w>
+SCHEDULED: <2023-04-05 Wed +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 18:25]
 :END:
@@ -189,6 +189,9 @@ For notes linkage in Zettelkasten
 SCHEDULED: <2023-03-15 Wed .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-02-28 Tue 13:22]
+:END:
+:LOGBOOK:
+CLOCK: [2023-03-15 Wed 09:01]--[2023-03-15 Wed 09:05] =>  0:04
 :END:
 - State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
 - State "DONE"       from "ACTIVE"     [2022-12-11 Sun 13:44]
@@ -377,6 +380,7 @@ SCHEDULED: <2023-03-15 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 09:05]
 CLOCK: [2023-03-13 Mon 12:06]--[2023-03-13 Mon 12:08] =>  0:02
 CLOCK: [2023-03-11 Sat 12:03]--[2023-03-11 Sat 12:05] =>  0:02
 CLOCK: [2023-03-09 Thu 12:38]--[2023-03-09 Thu 12:40] =>  0:02
@@ -431,7 +435,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
-SCHEDULED: <2023-03-16 Thu .+2w>
+SCHEDULED: <2023-04-07 Fri .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -531,19 +535,19 @@ SCHEDULED: <2023-03-19 Sun .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** INIT Bash with Andrew
+*** INIT Bash with Andrew                                         :ARCHIVE:
 SCHEDULED: <2023-03-15 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-03 Sat 09:35]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:35]
-*** INIT Chemistry with Andrew
+*** INIT Chemistry with Andrew                                    :ARCHIVE:
 SCHEDULED: <2023-03-15 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** INIT Physics with Andrew
+*** INIT Physics with Andrew                                      :ARCHIVE:
 SCHEDULED: <2023-03-15 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
@@ -570,14 +574,14 @@ SCHEDULED: <2023-03-20 Mon .+1w>
 :END:
 
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:16]
-*** RAW Milford Library #1
+*** RAW Milford Library #1                                        :ARCHIVE:
 SCHEDULED: <2023-03-16 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-09 Thu 12:40]
 :END:
 
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:40]
-*** Milford Library with ViLee
+*** Milford Library with ViLee                                    :ARCHIVE:
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
@@ -598,7 +602,7 @@ SCHEDULED: <2023-03-18 Sat .+2d/3d>
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
 ** INIT Re-writing ProductivityGame
-SCHEDULED: <2023-03-16 Thu .+2d/3d>
+SCHEDULED: <2023-03-23 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -786,10 +790,10 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** INIT Tracking TODO state changes
-SCHEDULED: <2023-03-16 Thu>
+SCHEDULED: <2023-03-24 Fri>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
-SCHEDULED: <2023-03-16 Thu>
+SCHEDULED: <2023-04-13 Thu>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
 It would just declutter org-agenda space during weekly task sorting at

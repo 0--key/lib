@@ -122,3 +122,29 @@ DEADLINE: <2023-03-02 Thu -1d ++1w>
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 08:29]--[2022-11-24 Thu 13:19] =>  4:50
 :END:
+
+* RAW [#A] English with Roisin
+DEADLINE: <2023-03-16 Thu -1d .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-09 Thu 12:18]
+:ARCHIVE_TIME: 2023-03-15 Wed 08:55
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: RawNotes
+:ARCHIVE_TODO: RAW
+:END:
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
+- State "DONE"       from "ACTIVE"     [2022-12-16 Fri 10:20]
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 13:24]
+- State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:33]
+- State "DONE"       from "ACTIVE"     [2022-11-23 Wed 19:36]
+:LOGBOOK:
+CLOCK: [2022-11-23 Wed 18:56]--[2022-11-23 Wed 19:36] =>  0:40
+:END:
+- Note taken on [2022-11-22 Tue 11:30] \\
+  * Phrasal verbs that are turning around
+  ** health
+  ** ailments
+  ** remedy
+  ** and symptoms
