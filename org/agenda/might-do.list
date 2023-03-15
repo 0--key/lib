@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-15 Wed .+1d>
+SCHEDULED: <2023-03-16 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -380,7 +380,7 @@ SCHEDULED: <2023-03-15 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-15 Wed 09:15]
+CLOCK: [2023-03-15 Wed 09:15]--[2023-03-15 Wed 09:16] =>  0:01
 CLOCK: [2023-03-15 Wed 09:05]--[2023-03-15 Wed 09:06] =>  0:01
 CLOCK: [2023-03-13 Mon 12:06]--[2023-03-13 Mon 12:08] =>  0:02
 CLOCK: [2023-03-11 Sat 12:03]--[2023-03-11 Sat 12:05] =>  0:02
@@ -480,7 +480,7 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** INIT TODO keywords as types
-SCHEDULED: <2023-03-17 Fri>
+SCHEDULED: <2023-04-07 Fri>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
 SCHEDULED: <2023-03-20 Mon .+1w>
@@ -720,6 +720,7 @@ SCHEDULED: <2023-03-15 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 09:42]--[2023-03-15 Wed 10:02] =>  0:20
 CLOCK: [2023-03-13 Mon 13:02]--[2023-03-13 Mon 13:18] =>  0:16
 CLOCK: [2023-03-11 Sat 12:41]--[2023-03-11 Sat 13:14] =>  0:33
 CLOCK: [2023-03-06 Mon 13:29]--[2023-03-06 Mon 14:00] =>  0:31
@@ -753,7 +754,7 @@ SCHEDULED: <2023-03-27 Mon>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-03-20 Mon +1d>
+SCHEDULED: <2023-03-15 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-02 Thu 11:58]
 :END:
@@ -814,9 +815,9 @@ DEADLINE: <2023-03-09 Thu>
 ** RAW 48 laws of power
 SCHEDULED: <2023-03-20 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-03-18 Sat>
+SCHEDULED: <2023-03-31 Fri>
 ** RAW Capture for idioms
-SCHEDULED: <2023-03-18 Sat>
+SCHEDULED: <2023-03-30 Thu>
 Alice had no idea what Latitude was, or Longitude either, but
 thought they were nice grand words to say.
 
