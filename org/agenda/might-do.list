@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-13 Mon .+1d>
+SCHEDULED: <2023-03-15 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-13 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 08:52]
 CLOCK: [2023-03-11 Sat 12:00]--[2023-03-11 Sat 12:03] =>  0:03
 CLOCK: [2023-03-06 Mon 12:24]--[2023-03-06 Mon 12:26] =>  0:02
 CLOCK: [2023-03-02 Thu 14:46]--[2023-03-02 Thu 14:56] =>  0:10
@@ -376,7 +377,7 @@ SCHEDULED: <2023-03-13 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-13 Mon 12:06]
+CLOCK: [2023-03-13 Mon 12:06]--[2023-03-13 Mon 12:08] =>  0:02
 CLOCK: [2023-03-11 Sat 12:03]--[2023-03-11 Sat 12:05] =>  0:02
 CLOCK: [2023-03-09 Thu 12:38]--[2023-03-09 Thu 12:40] =>  0:02
 CLOCK: [2023-03-06 Mon 12:23]--[2023-03-06 Mon 12:24] =>  0:01
@@ -679,17 +680,26 @@ SCHEDULED: <2023-03-09 Thu>
 ** INIT Improve your English                                       :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 https://www.youtube.com/watch?v=axYAW7PuSIM
-** INIT Book
+** ACTIVE Book
 SCHEDULED: <2023-03-13 Mon>
+:LOGBOOK:
+CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
+:END:
 High Perfomance Habits ~ Brandon Bruchard
 ** INIT Book
 SCHEDULED: <2023-03-13 Mon>
 Play ~ Stuart Brown&Christopher Vaughan
 ** INIT Book
 SCHEDULED: <2023-03-13 Mon>
+:LOGBOOK:
+CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
+:END:
 Storyworthy ~ Matthew Dicks
 ** INIT Book
 SCHEDULED: <2023-03-13 Mon>
+:LOGBOOK:
+CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
+:END:
 Make Time ~ Jake Knapp John Zeratsky
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -725,6 +735,7 @@ SCHEDULED: <2023-03-13 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-13 Mon 13:02]--[2023-03-13 Mon 13:18] =>  0:16
 CLOCK: [2023-03-11 Sat 12:41]--[2023-03-11 Sat 13:14] =>  0:33
 CLOCK: [2023-03-06 Mon 13:29]--[2023-03-06 Mon 14:00] =>  0:31
 CLOCK: [2023-03-03 Fri 12:19]--[2023-03-03 Fri 13:24] =>  1:05
