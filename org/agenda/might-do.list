@@ -753,7 +753,7 @@ SCHEDULED: <2023-03-27 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** RAW Proverbs
+*** ACTIVE Proverbs
 SCHEDULED: <2023-03-15 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-02 Thu 11:58]
@@ -764,6 +764,7 @@ SCHEDULED: <2023-03-15 Wed .+2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 10:18]--[2023-03-15 Wed 10:42] =>  0:24
 CLOCK: [2023-03-02 Thu 11:29]--[2023-03-02 Thu 11:57] =>  0:28
 CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
