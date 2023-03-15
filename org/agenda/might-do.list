@@ -186,10 +186,11 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-03-15 Wed .+3d/4d>
+SCHEDULED: <2023-03-18 Sat .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-02-28 Tue 13:22]
+:LAST_REPEAT: [2023-03-15 Wed 11:45]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 :LOGBOOK:
 CLOCK: [2023-03-15 Wed 09:01]--[2023-03-15 Wed 09:05] =>  0:04
 :END:
@@ -697,11 +698,12 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** ACTIVE Workspace decluttering
-SCHEDULED: <2023-03-15 Wed ++2w>
+** RAW Workspace decluttering
+SCHEDULED: <2023-03-29 Wed ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-06 Mon 12:22]
+:LAST_REPEAT: [2023-03-15 Wed 11:45]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
 CLOCK: [2023-03-15 Wed 11:15]--[2023-03-15 Wed 11:34] =>  0:19
@@ -754,11 +756,12 @@ SCHEDULED: <2023-03-27 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** ACTIVE Proverbs
-SCHEDULED: <2023-03-15 Wed .+2d/3d>
+*** RAW Proverbs
+SCHEDULED: <2023-03-17 Fri .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-02 Thu 11:58]
+:LAST_REPEAT: [2023-03-15 Wed 11:45]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-02 Thu 11:58]
 - State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:50]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 19:41]
