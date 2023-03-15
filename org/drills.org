@@ -1123,6 +1123,7 @@ SCHEDULED: <2023-03-15 Wed .+3d/4d>
 - State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 11:11]--[2023-03-15 Wed 11:14] =>  0:03
 CLOCK: [2023-03-15 Wed 09:07]--[2023-03-15 Wed 09:15] =>  0:08
 CLOCK: [2023-03-11 Sat 12:05]--[2023-03-11 Sat 12:22] =>  0:17
 CLOCK: [2023-02-28 Tue 14:05]--[2023-02-28 Tue 14:17] =>  0:12
@@ -2074,6 +2075,29 @@ unpardonable sin.]"
    :ID:       5fcd9d25-de9e-42b8-8e9a-7f56416be63e
    :END:
 “[Those who cannot change] their minds [cannot change anything.]”
+** COMMENT >->-> ~Noam Chomsky~                                       :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :END:
+The smart way to keep people [passive and obedient] is to strictly limit
+the spectrum of [acceptable opinion], but allow very lively debate
+within that spectrum. That gives people the sense that there's free
+thinking going on, while all the time the presuppositions of the
+system are being reinforced by the limits put on the range of the
+debate.
+** COMMENT >->-> Benjamin Disraeli                                    :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:
+Ah, Ireland... That [damnable, delightful] country, where everything
+that is right is the [opposite] of [what it ought to be].
+** COMMENT >->-> ~Eleanor Roosevelt~                                  :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :END:
+[Great] minds discuss [ideas];
+[Average] minds discuss [events];
+[Small] minds discuss [people].
 * Colloquialisms
 
 * Thoughts
