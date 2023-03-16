@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-16 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-16 Thu 10:39]--[2023-03-16 Thu 10:40] =>  0:01
 CLOCK: [2023-03-15 Wed 08:52]--[2023-03-15 Wed 09:00] =>  0:08
 CLOCK: [2023-03-11 Sat 12:00]--[2023-03-11 Sat 12:03] =>  0:03
 CLOCK: [2023-03-06 Mon 12:24]--[2023-03-06 Mon 12:26] =>  0:02
@@ -107,7 +108,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-15 Wed .+1d>
+SCHEDULED: <2023-03-16 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -366,7 +367,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-15 Wed .+1d>
+SCHEDULED: <2023-03-16 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -381,6 +382,9 @@ SCHEDULED: <2023-03-15 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-16 Thu 10:40]
+CLOCK: [2023-03-16 Thu 10:37]--[2023-03-16 Thu 10:38] =>  0:01
+CLOCK: [2023-03-15 Wed 12:09]--[2023-03-15 Wed 12:12] =>  0:03
 CLOCK: [2023-03-15 Wed 09:15]--[2023-03-15 Wed 09:16] =>  0:01
 CLOCK: [2023-03-15 Wed 09:05]--[2023-03-15 Wed 09:06] =>  0:01
 CLOCK: [2023-03-13 Mon 12:06]--[2023-03-13 Mon 12:08] =>  0:02
@@ -556,11 +560,12 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Gym with Andrew #2
-SCHEDULED: <2023-03-15 Wed .+1w>
+SCHEDULED: <2023-03-23 Thu .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-09 Thu 12:18]
+:LAST_REPEAT: [2023-03-16 Thu 10:38]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** RAW Gym with Andrew #3
 SCHEDULED: <2023-03-18 Sat .+1w>
@@ -715,7 +720,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-15 Wed ++1d>
+SCHEDULED: <2023-03-16 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -723,6 +728,7 @@ SCHEDULED: <2023-03-15 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-15 Wed 12:37]--[2023-03-15 Wed 12:03] =>  0:26
 CLOCK: [2023-03-15 Wed 09:42]--[2023-03-15 Wed 10:02] =>  0:20
 CLOCK: [2023-03-13 Mon 13:02]--[2023-03-13 Mon 13:18] =>  0:16
 CLOCK: [2023-03-11 Sat 12:41]--[2023-03-11 Sat 13:14] =>  0:33
