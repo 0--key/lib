@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-16 Thu .+1d>
+SCHEDULED: <2023-03-17 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -108,7 +108,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-16 Thu .+1d>
+SCHEDULED: <2023-03-17 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -367,7 +367,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-16 Thu .+1d>
+SCHEDULED: <2023-03-17 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -382,7 +382,8 @@ SCHEDULED: <2023-03-16 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-16 Thu 11:13]
+CLOCK: [2023-03-17 Fri 12:40]
+CLOCK: [2023-03-16 Thu 11:13]--[2023-03-16 Thu 11:14] =>  0:01
 CLOCK: [2023-03-16 Thu 10:40]--[2023-03-16 Thu 10:42] =>  0:02
 CLOCK: [2023-03-16 Thu 10:37]--[2023-03-16 Thu 10:38] =>  0:01
 CLOCK: [2023-03-15 Wed 12:09]--[2023-03-15 Wed 12:12] =>  0:03
@@ -593,7 +594,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-03-16 Thu .+1w>
+SCHEDULED: <2023-03-23 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-03-19 Sun>
@@ -721,7 +722,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-16 Thu ++1d>
+SCHEDULED: <2023-03-17 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -729,6 +730,7 @@ SCHEDULED: <2023-03-16 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-16 Thu 11:23]--[2023-03-16 Thu 11:50] =>  0:27
 CLOCK: [2023-03-15 Wed 12:37]--[2023-03-15 Wed 12:03] =>  0:26
 CLOCK: [2023-03-15 Wed 09:42]--[2023-03-15 Wed 10:02] =>  0:20
 CLOCK: [2023-03-13 Mon 13:02]--[2023-03-13 Mon 13:18] =>  0:16
@@ -853,7 +855,10 @@ SCHEDULED: <2023-03-19 Sun>
 ** INIT Python code is a lyrics
 SCHEDULED: <2023-03-23 Thu>
 ** INIT CV elaboration
-SCHEDULED: <2023-03-16 Thu>
+SCHEDULED: <2023-03-17 Fri>
+:LOGBOOK:
+CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
+:END:
 ** INIT Global and Local Variables in Python
 SCHEDULED: <2023-03-27 Mon>
 ** INIT CodeWars
