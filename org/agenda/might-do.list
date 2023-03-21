@@ -188,10 +188,11 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-03-21 Tue .+3d/4d>
+SCHEDULED: <2023-03-24 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-15 Wed 11:45]
+:LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-21 Tue 14:34]
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 :LOGBOOK:
 CLOCK: [2023-03-15 Wed 09:01]--[2023-03-15 Wed 09:05] =>  0:04
@@ -383,7 +384,8 @@ SCHEDULED: <2023-03-21 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-21 Tue 14:01]
+CLOCK: [2023-03-21 Tue 14:36]
+CLOCK: [2023-03-21 Tue 14:01]--[2023-03-21 Tue 14:07] =>  0:06
 CLOCK: [2023-03-21 Tue 12:01]--[2023-03-21 Tue 12:02] =>  0:01
 CLOCK: [2023-03-21 Tue 11:58]--[2023-03-21 Tue 11:59] =>  0:01
 CLOCK: [2023-03-21 Tue 11:52]--[2023-03-21 Tue 11:53] =>  0:01
@@ -494,12 +496,13 @@ SCHEDULED: <2022-12-07 Wed>
 ** INIT TODO keywords as types
 SCHEDULED: <2023-04-07 Fri>
 [[info:org#TODO types][org#TODO types]]
-** ACTIVE [#A] Whole week scheduling
-SCHEDULED: <2023-03-21 Tue .+1w>
+** RAW [#A] Whole week scheduling
+SCHEDULED: <2023-03-28 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2023-03-13 Mon 12:06]
+:LAST_REPEAT: [2023-03-21 Tue 12:02]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-21 Tue 12:02]
 - State "DONE"       from "ACTIVE"     [2023-03-13 Mon 12:06]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:25]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
@@ -787,11 +790,12 @@ CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** ACTIVE Quotations
-SCHEDULED: <2023-03-21 Tue .+2d/3d>
+*** RAW Quotations
+SCHEDULED: <2023-03-23 Thu .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-08 Thu 20:38]
+:LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-03-21 Tue 14:34]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:38]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 14:52]
 :LOGBOOK:

@@ -1120,8 +1120,10 @@ Every [stick] [has two ends]
 * TODO Quotes
 SCHEDULED: <2023-03-24 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-21 Tue 12:10]
+:LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
+- State "DONE"       from "TODO"       [2023-03-21 Tue 14:34]
+- State "DONE"       from "TODO"       [2023-03-21 Tue 14:34]
 - State "DONE"       from "TODO"       [2023-03-21 Tue 12:10]
 - State "DONE"       from "TODO"       [2023-03-15 Wed 12:08]
 - State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
