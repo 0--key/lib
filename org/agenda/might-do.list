@@ -383,7 +383,8 @@ SCHEDULED: <2023-03-21 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-21 Tue 12:01]
+CLOCK: [2023-03-21 Tue 14:01]
+CLOCK: [2023-03-21 Tue 12:01]--[2023-03-21 Tue 12:02] =>  0:01
 CLOCK: [2023-03-21 Tue 11:58]--[2023-03-21 Tue 11:59] =>  0:01
 CLOCK: [2023-03-21 Tue 11:52]--[2023-03-21 Tue 11:53] =>  0:01
 CLOCK: [2023-03-17 Fri 12:40]--[2023-03-17 Fri 12:41] =>  0:01
@@ -786,7 +787,7 @@ CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** INIT Quotations
+*** ACTIVE Quotations
 SCHEDULED: <2023-03-21 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-08 Thu 20:38]
@@ -794,6 +795,8 @@ SCHEDULED: <2023-03-21 Tue .+2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:38]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 14:52]
 :LOGBOOK:
+CLOCK: [2023-03-21 Tue 13:37]--[2023-03-21 Tue 14:01] =>  0:24
+CLOCK: [2023-03-21 Tue 12:09]--[2023-03-21 Tue 12:37] =>  0:28
 CLOCK: [2022-12-08 Thu 19:42]--[2022-12-08 Thu 19:45] =>  0:03
 CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
