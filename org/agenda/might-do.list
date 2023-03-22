@@ -229,7 +229,7 @@ SCHEDULED: <2022-12-08 Thu>
 What is it?
 
 ** ACTIVE Text search in additional files
-SCHEDULED: <2023-03-22 Wed +2w>
+SCHEDULED: <2023-04-05 Wed +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:15]
 :END:
@@ -384,6 +384,8 @@ SCHEDULED: <2023-03-22 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-22 Wed 15:02]
+CLOCK: [2023-03-22 Wed 14:06]--[2023-03-22 Wed 14:06] =>  0:00
 CLOCK: [2023-03-21 Tue 15:01]--[2023-03-21 Tue 15:02] =>  0:01
 CLOCK: [2023-03-21 Tue 14:36]--[2023-03-21 Tue 14:37] =>  0:01
 CLOCK: [2023-03-21 Tue 14:01]--[2023-03-21 Tue 14:07] =>  0:06
@@ -571,12 +573,13 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** INIT Gym with Andrew #2
-SCHEDULED: <2023-03-22 Wed .+1w>
+*** RAW Gym with Andrew #2
+SCHEDULED: <2023-03-29 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-16 Thu 10:38]
+:LAST_REPEAT: [2023-03-22 Wed 14:07]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-03-22 Wed 14:07]
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** RAW Gym with Andrew #3
@@ -867,12 +870,15 @@ key on it
 ** RAW Voracious reader, the top of my head
 ** INIT Past Perfect in Motto.org
 SCHEDULED: <2023-03-22 Wed>
+:LOGBOOK:
+CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
+:END:
 ** INIT The most frequent collocations
 SCHEDULED: <2023-04-02 Sun>
 ** INIT Python code is a lyrics
 SCHEDULED: <2023-03-23 Thu>
 ** INIT CV elaboration
-SCHEDULED: <2023-03-23 Thu>
+SCHEDULED: <2023-03-22 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
