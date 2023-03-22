@@ -384,7 +384,7 @@ SCHEDULED: <2023-03-22 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-22 Wed 15:02]
+CLOCK: [2023-03-22 Wed 15:02]--[2023-03-22 Wed 15:04] =>  0:02
 CLOCK: [2023-03-22 Wed 14:06]--[2023-03-22 Wed 14:06] =>  0:00
 CLOCK: [2023-03-21 Tue 15:01]--[2023-03-21 Tue 15:02] =>  0:01
 CLOCK: [2023-03-21 Tue 14:36]--[2023-03-21 Tue 14:37] =>  0:01
@@ -701,8 +701,11 @@ SCHEDULED: <2023-03-25 Sat>
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
 Make Time ~ Jake Knapp John Zeratsky
-** INIT YouTube overview
+** DONE YouTube overview
 SCHEDULED: <2023-03-22 Wed>
+:LOGBOOK:
+CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
+:END:
 Notetaking around a decent CV
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -868,7 +871,7 @@ key on it
 
 ** RAW glutton
 ** RAW Voracious reader, the top of my head
-** INIT Past Perfect in Motto.org
+** DONE Past Perfect in Motto.org
 SCHEDULED: <2023-03-22 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
@@ -878,7 +881,7 @@ SCHEDULED: <2023-04-02 Sun>
 ** INIT Python code is a lyrics
 SCHEDULED: <2023-03-23 Thu>
 ** INIT CV elaboration
-SCHEDULED: <2023-03-22 Wed>
+SCHEDULED: <2023-03-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
