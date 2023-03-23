@@ -1622,6 +1622,8 @@ SCHEDULED: <2023-03-23 Thu .+3d/4d>
 - State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
+CLOCK: [2023-03-23 Thu 12:36]--[2023-03-23 Thu 12:38] =>  0:02
+CLOCK: [2023-03-23 Thu 12:14]--[2023-03-23 Thu 12:36] =>  0:22
 CLOCK: [2023-03-21 Tue 13:03]--[2023-03-21 Tue 13:29] =>  0:26
 CLOCK: [2023-03-21 Tue 12:03]--[2023-03-21 Tue 12:09] =>  0:06
 CLOCK: [2023-03-16 Thu 10:46]--[2023-03-16 Thu 11:13] =>  0:27
@@ -2936,84 +2938,114 @@ SCHEDULED: <2023-03-26 Sun>
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f98e0c8e-872e-47ba-9f9d-48eccba3fa03
    :END:
 Be [so good] they [can't ignore you.]
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       5af2085f-4a2c-4248-ae54-34dd36c27731
    :END:
 [Determine] your priorities and [focus on them.]
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a52deb73-e940-4c61-8a49-f0c70524659d
    :END:
 Have [enough courage] to start and [enough heart] to finish.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       6e4b093f-d2db-434d-9c07-6020bfd4d2f4
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Problems are [not stopsigns], they [are guidelines.]
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       93a9c2e4-67cf-40b9-aecd-979c764d6d95
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Tough times] never last, but [tough people] do.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f301fd10-6912-48e0-8062-de6ad07deae7
    :END:
 Train your mind [to see good] in [everything.]
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       9297f64b-0868-45fe-9987-7328e9536d82
    :END:
 Take a deep breath. It's just [a bad day] not [a bad life.]
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       21a8d065-68da-4be2-8806-d078b11193a0
    :END:
 Stop calling it [a dream]. Start calling it [a plan].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       d738a1c3-1c47-481e-b472-51224ae46a91
    :END:
 Sometimes [you win], sometimes [you learn].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       db1e0f71-b7ef-40b3-a14d-49752efade5e
    :END:
 Move in [silence], only speak when [it's time to say checkmate].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       74f3b6a7-2d9a-4ffb-a6d1-ac0a5c0143d8
    :END:
 If you [stay positive] in [a negative situation] - you win.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       cf53bd2d-20fd-4c09-97fd-39a8f644f66a
    :END:
 You are [at your strongest] when [you are calm].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8d2ca527-cc2d-4f66-92f0-476da5712d09
    :END:
 Be proud - you [survived the days] you [thought you couldn't].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a590253e-881f-4b7d-b2b0-0c4084da7c04
    :END:
 Big dreams require [healthy habits] and [healthy habits] require
 [self-discipline].
@@ -3021,30 +3053,43 @@ Big dreams require [healthy habits] and [healthy habits] require
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       7aec9810-2587-49be-8fab-ceb59d8b322e
    :END:
 Don't [rush the process]. Trust it. Great things [take time].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       f481610e-62a2-4544-a581-65d71dad9e75
    :END:
 Your past is [a place to learn and grow], not [a place to live].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       dae10883-8232-4caf-80c0-ec292072b9c7
    :END:
 Train your mind [to be calm] in every situation.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       355636c0-1821-4f41-b08f-26d4976ffbc9
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Your [comfort zone] will [destroy your dreams].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
-   :DRILL_CARD_TYPE: hide1cloze
+   :DRILL_CARD_TYPE: hide2cloze
+   :ID:       2631c6c7-77ef-4a5b-9e59-cbcc93647398
    :END:
 Normality is [a paved road]: it's comfortable [to walk] but [no flowers
 grow there].
@@ -3052,12 +3097,14 @@ grow there].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       90b93229-61ae-4fef-8e36-6ae6cd7a5dd7
    :END:
 Self care mindset: I [never loose], either [I win or I learn].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       9f6251be-e115-4344-b096-9ca2e81e6ac9
    :END:
 Life [has many] different chapters for us. One bad chapter doesn't mean
 [it's the end of the book].
@@ -3065,12 +3112,22 @@ Life [has many] different chapters for us. One bad chapter doesn't mean
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8f7bbac6-2463-4920-ab2b-435abb3019cc
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 The only [real mistake is the one], from which [we learn nothing].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       43986a0d-268d-4515-9697-33ea472093a3
    :END:
 Hardship [often prepares] an ordinary person [for an extraordinary
 destiny].
@@ -3078,60 +3135,118 @@ destiny].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       797b0730-00ef-40fd-8688-b330df69d2e3
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 As you know, life [is an echo], we get [what we give].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       5ee7b8aa-f762-4bfb-a80f-b96f9ea2bca4
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 You do not [find a happy life]. You [make it].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       127cab2e-9128-40a5-8b28-749ea1f181b5
    :END:
 Stop [waiting for the right time]. Time [isn't waiting] for you.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       54061766-c950-4486-be2f-33f114e83954
    :END:
 If you [get tired] - learn [to rest, not to quit].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       59ca4c5b-eb6b-497b-aa77-2ee95af735e2
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Never make [a permanent decision] based on [temporary feelings].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       58b747a4-2a9b-4e3c-abc1-1aaff2fbade6
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Don't let yesterday [take up too much] of today.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       9caf1c36-337a-491e-88b1-cbe750ae998a
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 The meaning of life [is to give] life meaning.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       c7541a1d-3a26-4f0c-acc2-50ebd182ef0d
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Have patience] - all things are difficult [before they become] easy.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       623f7db2-f5f8-4e01-9c06-088489bd7ccf
    :END:
 Sacrifice [few years of comfort] for decades of [freedom].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       3592d56f-dec7-4e5b-85ee-cec94103d310
    :END:
 Without rain [nothing grows]. Learn [to embrace the storm] of your
 life.
@@ -3139,43 +3254,75 @@ life.
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
+   :ID:       b32e5be0-e879-43ad-abaf-e26dd1d92bfe
    :END:
 Sometimes [being alone] is [the best medicine] [to your soul].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       438fed6b-82bf-496b-b950-eb0fcee25e6d
    :END:
 Don't [give up]. You are [closer than you think].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       521aaac7-eb5f-4caa-b408-8c6ab7d87a60
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 You [only fail] if you [stop trying].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       fdb267e6-7a78-4c88-825f-5048f7d9d61e
    :END:
 As long as [you are alive] no [obstacle is permanent].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       d8339fe2-76a0-42f5-a476-59560b47ab43
    :END:
 [Excuses make] today easier, but tomorrow harder. [Discipline makes] today
 harder, but tomorrow easier.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-27 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       416f3b5a-e735-4e61-a563-e26ded3692ee
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Worrying about [a loosing] is [loosing before] you begin.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       41810738-03f7-4f38-873d-e6c2e62ad557
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Life isn't about [waiting for the storm to pass], it's about [learning to
 dance in the rain].
@@ -3183,132 +3330,211 @@ dance in the rain].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a896e8eb-5d81-4dbb-bcdc-ac0df5aed1ee
    :END:
 Don't [get burned twice] by [the same flame].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       bc7866b0-5ef7-4010-a5e7-8f7b359dc341
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 The [quieter you become], the [more you can hear].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       ea6164b6-a385-42dd-91e8-45614bcf4299
    :END:
 Allow you [to be beginner]. [No one starts off] being excellent.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       77d3796a-dfb4-4d5b-a36d-1daef40ff846
    :END:
 Don't [cry it's over], smile because [it happened].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       7bfb9f7d-b1fd-4845-be7f-ddd4b6489307
    :END:
 [Fear is temporary]. [Regret is forever].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       2aa08562-3aa0-4f5d-965c-80c4277c708d
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 People [inspire you] or [they drain you]. Pick them wisely.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       0007fb65-c3a8-4422-897d-011519bc00fb
    :END:
 Don't [allow your emotions] to [overpower your intelligence].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8b559e9b-b8e3-443e-993d-06f055d9346a
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Move [with strategy], not [emotion].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       59086255-376b-4486-813c-9960666834a4
    :END:
 [The calmer] you are, [the clearer] you think.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       3befc6a4-f260-4738-9e50-cc60327c1bd7
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Do not let the behaviour of others] destroy [your inner peace].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-27 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       928cc689-a7a1-422c-838e-f5d715a3d2cf
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 If [you control your thoughts], you [control your life].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
+   :ID:       f92110f2-3339-486f-8170-3b724b45ecad
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Being alone] is [a power] very [few can handle].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       13a9d325-f4bc-42a3-aab2-7b25efd4aa2d
    :END:
 [There is no growth] [without pain].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       ca54248e-94d5-4a6a-9772-d91f96da1245
    :END:
 [Growth doesn't happen] in your [comfort zone].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       56a56c5c-9f7c-496e-954c-e862b1c11dcb
    :END:
 [Making mistakes is better] than [faiking perfections].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       6e6f002f-698d-428f-a32e-611c7adc390e
    :END:
 [Win in your mind] and you [will win in your reality].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       91361dc3-1f6b-466b-b32f-299b3fd3b1b1
    :END:
 [Be obsessed with becoming] the best [version of yourself].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       575f94ab-c6ab-4ea2-a39c-9723c6c076ba
    :END:
 Train your mind [to be stronger] than [your feelings].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       4fae21d7-b228-4b97-9c32-2c50fd4c9f54
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 If [you don't try], nothing [will ever happen].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       72cfd975-78d2-4cf2-8aa5-7fb62dfa512e
    :END:
 [Remain focused], your time [is coming].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       badc6b41-9aeb-4221-a5d2-b7d6653e7bc3
    :END:
 Fall [seven times], [stand up eight].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       acd5806e-8061-470d-9b47-6cdae38294cb
    :END:
 You can't [reach what's in front of you], until [you let go of what's
 behind you].
@@ -3316,84 +3542,139 @@ behind you].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       928bd8bb-606c-4035-bd44-3c799775e34f
    :END:
 Value [your peace] of [mind].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       be39a365-3a78-4a9c-babb-de569c3bd312
    :END:
 [Everyone leaves], learn [to survive alone].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       993ef1d7-d48c-43d9-8edb-839a095b93e7
    :END:
 Fix [your thoughts], fix [your life].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a8f6e1b4-0bc5-4275-bcb0-3ad96b9f61cd
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 You don't [need more time], you [need less distractions].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a378f3e7-3a88-4ccb-909f-a066a93cc449
    :END:
 No regrets [in life], just [lessons learned].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       5a76a2a3-9feb-4d2a-bfe0-7f72d417c71c
    :END:
 Better days [are coming], [be patient].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       dbf13905-6d70-422d-8673-4c348b1793fe
    :END:
 Never [tolerate disrespect], not [even from yourself].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       46bde260-a5d3-425a-a690-62d470f5f200
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Keep it privat] until [it's permanent].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       140a5300-beff-4080-a264-0669885a44e2
    :END:
 There is [no growth] without [discomfort].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       0989c65b-5e30-42be-8ac9-de39dacf5e38
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 The [way you speak to yourself] [matters the most].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       a32f2b8b-d102-4e52-a308-15ce45c5562a
    :END:
 Don't [quit]. Nothing [lasts forever]. Not ever pain.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-27 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       15924348-dd6c-49e4-a25a-9a35f096427b
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Your [greatest asset] in the world is [your mindset].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       b255d646-c9ea-4770-9c97-f45ad0b9dcab
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 If you [stay positive] in [a negative situation], you win.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
+   :ID:       dff9db3f-337d-4f6c-afd6-65016f7cc886
    :END:
 Two things define you: [your patience], when [you have nothing] and [your
 attitude] when [you have everything].
@@ -3401,72 +3682,150 @@ attitude] when [you have everything].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       16f1c0b4-e5d5-4331-ac37-7438cd149453
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [A negative mind] will [never give you a positive life].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       234879fb-9815-4d12-acf8-de6f4d86125d
    :END:
 [Believing in yourself] is [the first secret of success].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-27 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       5643c92b-c269-4b56-8bbc-71695c3dfce6
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Don't [call it a problem].  Instead, [call it a challenge].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       311046c4-0bc4-47d2-b697-a05e34d3b287
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Control your emotions]. [Learn to react less].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       b2ecdf3b-a85b-451a-87b6-4d9a12c7178b
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 2
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Whatever you do], do [it well].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       e6e4aff6-f550-4dd2-8019-f99bbe0adb55
    :END:
 [Simplicity] is [the ultimate sophistication].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-03-27 Mon>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       5157b1d8-2792-47a8-8d33-f8f7d10fe132
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 0
+   :DRILL_AVERAGE_QUALITY: 3.0
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 [Everything] you [can imagine] is real.
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       c7680cd8-ee26-41aa-8ef0-d881dbd21641
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Die [with memories], not [dreams].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       101cfb9d-d7c4-4bfd-89dd-904e2ac1fd92
    :END:
 [Change the world] by [being yourself].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       efc31d57-87b4-411f-977e-5a9c10d3bac9
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 Don't [regret the past], just [learn from it].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       74466515-6274-4d08-aed4-d8de000d95ad
    :END:
 [A goal without a plan] is [just a wish].
 
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       cde75577-6ca3-4b77-b151-1394b2dc8b38
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 1.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-03-23 Thu 12:%]
    :END:
 When [you learn] [to survive without anyone], you [can survive
 anything].
@@ -3474,6 +3833,7 @@ anything].
 ** COMMENT ==> => >> :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       ff671e2c-43e6-475b-bf95-a1659d6e4da6
    :END:
 [Accept what you can't change]. [Change what you can't accept].
 
