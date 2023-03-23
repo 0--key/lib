@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-23 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-23 Thu 10:30]--[2023-03-23 Thu 10:33] =>  0:03
 CLOCK: [2023-03-21 Tue 11:53]--[2023-03-21 Tue 11:58] =>  0:05
 CLOCK: [2023-03-16 Thu 10:39]--[2023-03-16 Thu 10:40] =>  0:01
 CLOCK: [2023-03-15 Wed 08:52]--[2023-03-15 Wed 09:00] =>  0:08
@@ -384,7 +385,8 @@ SCHEDULED: <2023-03-23 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-22 Wed 18:06]
+CLOCK: [2023-03-23 Thu 10:33]
+CLOCK: [2023-03-23 Thu 10:28]--[2023-03-23 Thu 10:29] =>  0:01
 CLOCK: [2023-03-22 Wed 17:39]--[2023-03-22 Wed 17:40] =>  0:01
 CLOCK: [2023-03-22 Wed 15:02]--[2023-03-22 Wed 15:04] =>  0:02
 CLOCK: [2023-03-22 Wed 14:06]--[2023-03-22 Wed 14:06] =>  0:00
@@ -609,7 +611,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-03-23 Thu .+1w>
+SCHEDULED: <2023-03-30 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-03-26 Sun>
@@ -785,7 +787,7 @@ SCHEDULED: <2023-03-27 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** RAW Proverbs
+*** INIT Proverbs
 SCHEDULED: <2023-03-23 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 15:01]
@@ -882,9 +884,9 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
 ** INIT The most frequent collocations
 SCHEDULED: <2023-04-02 Sun>
-** INIT Python code is a lyrics
+** TODO Python code is a lyrics
 SCHEDULED: <2023-03-23 Thu>
-** INIT CV elaboration
+** TODO CV elaboration
 SCHEDULED: <2023-03-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
