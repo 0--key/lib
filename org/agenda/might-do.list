@@ -385,7 +385,8 @@ SCHEDULED: <2023-03-23 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-23 Thu 10:33]
+CLOCK: [2023-03-23 Thu 10:55]
+CLOCK: [2023-03-23 Thu 10:33]--[2023-03-23 Thu 10:34] =>  0:01
 CLOCK: [2023-03-23 Thu 10:28]--[2023-03-23 Thu 10:29] =>  0:01
 CLOCK: [2023-03-22 Wed 17:39]--[2023-03-22 Wed 17:40] =>  0:01
 CLOCK: [2023-03-22 Wed 15:02]--[2023-03-22 Wed 15:04] =>  0:02
@@ -800,6 +801,7 @@ SCHEDULED: <2023-03-23 Thu .+2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
+CLOCK: [2023-03-23 Thu 10:35]--[2023-03-23 Thu 10:55] =>  0:20
 CLOCK: [2023-03-21 Tue 14:37]--[2023-03-21 Tue 15:01] =>  0:24
 CLOCK: [2023-03-15 Wed 10:18]--[2023-03-15 Wed 10:42] =>  0:24
 CLOCK: [2023-03-02 Thu 11:29]--[2023-03-02 Thu 11:57] =>  0:28
