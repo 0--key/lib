@@ -114,7 +114,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-30 Thu .+1d>
+SCHEDULED: <2023-03-31 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -125,6 +125,7 @@ SCHEDULED: <2023-03-30 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-03-30 Thu 15:58]--[2023-03-30 Thu 15:59] =>  0:01
 CLOCK: [2023-03-02 Thu 18:27]--[2023-03-02 Thu 18:29] =>  0:02
 CLOCK: [2022-12-09 Fri 10:41]--[2022-12-09 Fri 10:42] =>  0:01
 CLOCK: [2022-12-08 Thu 07:32]--[2022-12-08 Thu 07:36] =>  0:04
@@ -374,7 +375,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-30 Thu .+1d>
+SCHEDULED: <2023-03-31 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -389,7 +390,7 @@ SCHEDULED: <2023-03-30 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-30 Thu 15:55]
+CLOCK: [2023-03-30 Thu 15:55]--[2023-03-30 Thu 15:57] =>  0:02
 CLOCK: [2023-03-30 Thu 12:19]--[2023-03-30 Thu 12:21] =>  0:02
 CLOCK: [2023-03-29 Wed 15:57]--[2023-03-29 Wed 16:14] =>  0:17
 CLOCK: [2023-03-29 Wed 13:57]--[2023-03-29 Wed 13:58] =>  0:01
@@ -840,7 +841,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** ACTIVE Quotations
-SCHEDULED: <2023-03-31 Fri .+2d/3d>
+SCHEDULED: <2023-04-06 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -890,7 +891,7 @@ DEADLINE: <2023-03-09 Thu>
 ** RAW 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-03-31 Fri>
+SCHEDULED: <2023-04-07 Fri>
 ** RAW Capture for idioms
 SCHEDULED: <2023-04-13 Thu>
 Alice had no idea what Latitude was, or Longitude either, but
@@ -930,7 +931,7 @@ SCHEDULED: <2023-04-05 Wed>
 ** INIT Cracking coding interview
 SCHEDULED: <2023-04-03 Mon>
 ** ACTIVE Mark Lutz
-SCHEDULED: <2023-03-31 Fri>
+SCHEDULED: <2023-04-07 Fri>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
