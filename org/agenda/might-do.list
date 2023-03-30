@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-29 Wed .+1d>
+SCHEDULED: <2023-03-30 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-29 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-30 Thu 12:10]--[2023-03-30 Thu 12:19] =>  0:09
 CLOCK: [2023-03-29 Wed 13:55]--[2023-03-29 Wed 13:57] =>  0:02
 CLOCK: [2023-03-28 Tue 15:05]--[2023-03-28 Tue 15:07] =>  0:02
 CLOCK: [2023-03-27 Mon 10:14]--[2023-03-27 Mon 10:15] =>  0:01
@@ -113,7 +114,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-03-29 Wed .+1d>
+SCHEDULED: <2023-03-30 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -373,7 +374,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-03-29 Wed .+1d>
+SCHEDULED: <2023-03-30 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -388,6 +389,7 @@ SCHEDULED: <2023-03-29 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-30 Thu 12:19]
 CLOCK: [2023-03-29 Wed 15:57]--[2023-03-29 Wed 16:14] =>  0:17
 CLOCK: [2023-03-29 Wed 13:57]--[2023-03-29 Wed 13:58] =>  0:01
 CLOCK: [2023-03-28 Tue 15:25]--[2023-03-28 Tue 15:33] =>  0:08
@@ -625,7 +627,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-03-30 Thu .+1w>
+SCHEDULED: <2023-04-06 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-04-02 Sun>
@@ -725,6 +727,9 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
+** INIT Git, Ereader, Google Translate, Packages, Thesaurus
+SCHEDULED: <2023-03-30 Thu>
+New dev environment on ChromeBook
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -755,7 +760,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-29 Wed ++1d>
+SCHEDULED: <2023-03-30 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -807,7 +812,7 @@ SCHEDULED: <2023-04-10 Mon>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-03-30 Thu .+2d/3d>
+SCHEDULED: <2023-04-02 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-23 Thu 10:56]
 :END:
@@ -829,7 +834,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** ACTIVE Quotations
-SCHEDULED: <2023-03-29 Wed .+2d/3d>
+SCHEDULED: <2023-03-31 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -881,7 +886,7 @@ SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
 SCHEDULED: <2023-03-31 Fri>
 ** RAW Capture for idioms
-SCHEDULED: <2023-03-30 Thu>
+SCHEDULED: <2023-04-13 Thu>
 Alice had no idea what Latitude was, or Longitude either, but
 thought they were nice grand words to say.
 
@@ -919,7 +924,11 @@ SCHEDULED: <2023-04-05 Wed>
 ** INIT Cracking coding interview
 SCHEDULED: <2023-04-03 Mon>
 ** ACTIVE Mark Lutz
-SCHEDULED: <2023-03-29 Wed>
+SCHEDULED: <2023-03-31 Fri>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
+** RAW The Donegal Volunteer Centre
+SCHEDULED: <2023-03-31 Fri>
+Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
+074 9126740 or 086 8186035. The Contact name is *John Curran*
