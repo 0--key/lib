@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-03-30 Thu .+1d>
+SCHEDULED: <2023-03-31 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -389,7 +389,8 @@ SCHEDULED: <2023-03-30 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-03-30 Thu 12:19]
+CLOCK: [2023-03-30 Thu 15:55]
+CLOCK: [2023-03-30 Thu 12:19]--[2023-03-30 Thu 12:21] =>  0:02
 CLOCK: [2023-03-29 Wed 15:57]--[2023-03-29 Wed 16:14] =>  0:17
 CLOCK: [2023-03-29 Wed 13:57]--[2023-03-29 Wed 13:58] =>  0:01
 CLOCK: [2023-03-28 Tue 15:25]--[2023-03-28 Tue 15:33] =>  0:08
@@ -727,8 +728,11 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
-** INIT Git, Ereader, Google Translate, Packages, Thesaurus
-SCHEDULED: <2023-03-30 Thu>
+** TODO Git, Ereader, Google Translate, Packages, Thesaurus
+SCHEDULED: <2023-03-31 Fri>
+:LOGBOOK:
+CLOCK: [2023-03-30 Thu 15:13]--[2023-03-30 Thu 15:22] =>  0:09
+:END:
 New dev environment on ChromeBook
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -760,7 +764,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-03-30 Thu ++1d>
+SCHEDULED: <2023-03-31 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -768,6 +772,8 @@ SCHEDULED: <2023-03-30 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-03-30 Thu 15:30]--[2023-03-30 Thu 15:55] =>  0:25
+CLOCK: [2023-03-30 Thu 12:21]--[2023-03-30 Thu 12:39] =>  0:18
 CLOCK: [2023-03-29 Wed 15:33]--[2023-03-29 Wed 15:57] =>  0:24
 CLOCK: [2023-03-28 Tue 15:34]--[2023-03-28 Tue 16:00] =>  0:26
 CLOCK: [2023-03-23 Thu 11:39]--[2023-03-23 Thu 12:04] =>  0:25
