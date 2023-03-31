@@ -56,6 +56,7 @@ SCHEDULED: <2023-03-31 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-03-31 Fri 10:52]--[2023-03-31 Fri 10:53] =>  0:01
 CLOCK: [2023-03-30 Thu 12:10]--[2023-03-30 Thu 12:19] =>  0:09
 CLOCK: [2023-03-29 Wed 13:55]--[2023-03-29 Wed 13:57] =>  0:02
 CLOCK: [2023-03-28 Tue 15:05]--[2023-03-28 Tue 15:07] =>  0:02
@@ -390,6 +391,7 @@ SCHEDULED: <2023-03-31 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-03-31 Fri 11:53]
 CLOCK: [2023-03-30 Thu 15:55]--[2023-03-30 Thu 15:57] =>  0:02
 CLOCK: [2023-03-30 Thu 12:19]--[2023-03-30 Thu 12:21] =>  0:02
 CLOCK: [2023-03-29 Wed 15:57]--[2023-03-29 Wed 16:14] =>  0:17
@@ -936,6 +938,6 @@ SCHEDULED: <2023-04-07 Fri>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** RAW The Donegal Volunteer Centre
-SCHEDULED: <2023-03-31 Fri>
+SCHEDULED: <2023-04-03 Mon>
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
