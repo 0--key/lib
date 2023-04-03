@@ -2,7 +2,29 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("March23" 0 7
+(#1=(#("April23" 0 7
+      (bmkp-full-record #1#))
+    (buffer-name . "*Buffer List*")
+    (visits . 2)
+    (time 25642 56486 826776 910000)
+    (created 25642 55889 297711 907000)
+    (position . 1)
+    (filename . "   - no file -")
+    (desktop-file . "~/.emacs.d/April23.desktop")
+    (handler . bmkp-jump-desktop))
+#1=(#("The Art of Saying No by Damon Zahariades.epub" 0 45
+      (bmkp-full-record #1#))
+    (filename . "~/books/The Art of Saying No by Damon Zahariades.epub")
+    (buffer-name . "The Art of Saying No by Damon Zahariades.epub")
+    (front-context-string . "Your Free Gift\n\n")
+    (rear-context-string . "mon Zahariades\n\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 25642 56512 363767 259000)
+    (created 25642 55726 653424 300000)
+    (position . 374))
+#1=(#("March23" 0 7
       (bmkp-full-record #1#))
     (buffer-name . "might-do.list")
     (visits . 3)
@@ -106,14 +128,14 @@
     (tags)
     (filename . "~/books/Happier by Tal Ben-Shahar.epub")
     (buffer-name . "Happier by Tal Ben-Shahar.epub")
-    (front-context-string . "Moreover, in usi")
-    (rear-context-string . "will be\nhappy.\n\n")
+    (front-context-string . "The rat racer, t")
+    (rear-context-string . "iven yourself?\n\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(25638 51294 866355 656000))
-    (created . #2#)
-    (position . 44548))
+    (visits . 1)
+    (time 25642 55997 59181 593000)
+    (created 25642 55677 384395 648000)
+    (position . 55159))
 #1=(#("pristine" 0 8
       (bmkp-full-record #1#))
     (buffer-name . "might-do.list")
