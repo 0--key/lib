@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-01 Sat .+1d>
+SCHEDULED: <2023-04-03 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -115,7 +115,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-01 Sat .+1d>
+SCHEDULED: <2023-04-02 Sun .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -376,7 +376,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-01 Sat .+1d>
+SCHEDULED: <2023-04-03 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -635,7 +635,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-04-06 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-04-02 Sun>
+SCHEDULED: <2023-04-09 Sun>
 
 
 
@@ -715,13 +715,13 @@ High Perfomance Habits ~ Brandon Bruchard
 SCHEDULED: <2023-04-08 Sat>
 Play ~ Stuart Brown&Christopher Vaughan
 ** ACTIVE Book
-SCHEDULED: <2023-04-01 Sat>
+SCHEDULED: <2023-04-15 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
 ** ACTIVE Book
-SCHEDULED: <2023-04-01 Sat>
+SCHEDULED: <2023-04-15 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -732,12 +732,13 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
-** TODO Git, Ereader, Google Translate, Packages, Thesaurus
-SCHEDULED: <2023-04-01 Sat>
+** TODO New dev environment on ChromeBook
+SCHEDULED: <2023-04-03 Mon>
 :LOGBOOK:
+CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
 CLOCK: [2023-03-30 Thu 15:13]--[2023-03-30 Thu 15:22] =>  0:09
 :END:
-New dev environment on ChromeBook
+Git, Ereader, Google Translate, Packages, Thesaurus
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -768,7 +769,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-01 Sat ++1d>
+SCHEDULED: <2023-04-03 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -776,6 +777,7 @@ SCHEDULED: <2023-04-01 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-01 Sat 13:35]--[2023-04-01 Sat 14:07] =>  0:32
 CLOCK: [2023-03-31 Fri 11:54]--[2023-03-31 Fri 12:21] =>  0:27
 CLOCK: [2023-03-30 Thu 15:30]--[2023-03-30 Thu 15:55] =>  0:25
 CLOCK: [2023-03-30 Thu 12:21]--[2023-03-30 Thu 12:39] =>  0:18
@@ -823,7 +825,7 @@ SCHEDULED: <2023-04-10 Mon>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-04-02 Sun .+2d/3d>
+SCHEDULED: <2023-04-03 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-23 Thu 10:56]
 :END:
@@ -920,11 +922,11 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
 ** INIT The most frequent collocations
-SCHEDULED: <2023-04-02 Sun>
+SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-04-06 Thu>
 ** TODO CV elaboration
-SCHEDULED: <2023-04-01 Sat>
+SCHEDULED: <2023-04-03 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
