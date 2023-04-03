@@ -62,7 +62,7 @@
 (setq google-translate-default-target-language "ru")
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202301.org")
+(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202304.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "misc")
 
