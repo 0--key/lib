@@ -167,12 +167,14 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** ACTIVE Declutter
-SCHEDULED: <2023-04-03 Mon +3w>
+*** RAW Declutter
+SCHEDULED: <2023-04-24 Mon +3w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-07 Mon 14:05]
+:LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-03 Mon 15:13]
 :LOGBOOK:
+CLOCK: [2023-04-03 Mon 14:39]--[2023-04-03 Mon 14:53] =>  0:14
 CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]

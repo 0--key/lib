@@ -2,7 +2,6 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
-;; (desktop-save-mode 1) ;; temporary !!
 
 ;; 55.04665127097639, -7.565092591636581
 ;; Baile Uí Fhloinn
@@ -15,15 +14,11 @@
 
 
 (require 'package)
-;; New 2022 Year and dances with drums around org replacement
-;;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(add-to-list 'package-archives '("elpa" . "https://elpa.gnu.org/packages/") t)
-;; and MELPA
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-
+(add-to-list 'package-archives '("elpa" .
+				 "https://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives '("melpa" .
+				 "https://melpa.org/packages/") t)
 (package-initialize)
-
-(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3") ;; Bad request fix
 
 (load-theme 'wombat)
 
@@ -65,19 +60,11 @@
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
-;; Minor correction for translator
-(defun google-translate--search-tkk () "Search TKK." (list 430675 2721866130))
 
 (require 'voca-builder)
 (setq voca-builder/voca-file "~/git/lib/org/vocabulary/202301.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "misc")
-(setq voca-builder/current-tag "DarkPersuasion")
-(setq voca-builder/current-tag "Elephant")
-(setq voca-builder/current-tag "Zen")
-(setq voca-builder/current-tag "Money")
-(setq voca-builder/current-tag "Stupidity")
-(setq voca-builder/current-tag "Dahl")
 
 (key-chord-define-global "tr"     'google-translate-at-point)
 (key-chord-define-global "ty"     'voca-builder/search-popup)
@@ -116,20 +103,19 @@
 (key-chord-define-global "sx"     'org-insert-link)
 
 (require 'org-agenda)
-(key-chord-define org-agenda-mode-map "lo"     'org-agenda-open-link)
-(key-chord-define org-agenda-mode-map "-p"     'org-agenda-drag-line-forward)
-(key-chord-define org-agenda-mode-map "=["     'org-agenda-drag-line-backward)
-
-(key-chord-define org-agenda-mode-map "za"     'org-agenda-toggle-archive-tag)
-
-
+(key-chord-define org-agenda-mode-map "lo"
+		  'org-agenda-open-link)
+(key-chord-define org-agenda-mode-map "-p"
+		  'org-agenda-drag-line-forward)
+(key-chord-define org-agenda-mode-map "=["
+		  'org-agenda-drag-line-backward)
+(key-chord-define org-agenda-mode-map "za"
+		  'org-agenda-toggle-archive-tag)
 
 (require 'dictionary)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (require 'mw-thesaurus)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
-
-
 
 (require 'ereader)
 (require 'howdoi)
