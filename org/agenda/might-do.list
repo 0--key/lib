@@ -115,7 +115,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-02 Sun .+1d>
+SCHEDULED: <2023-04-03 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -642,7 +642,7 @@ SCHEDULED: <2023-04-09 Sun>
 
 
 ** INIT Reading Alice
-SCHEDULED: <2023-04-03 Mon .+2d/3d>
+SCHEDULED: <2023-04-18 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -735,7 +735,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** TODO New dev environment on ChromeBook
-SCHEDULED: <2023-04-03 Mon>
+SCHEDULED: <2023-04-04 Tue>
 :LOGBOOK:
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
 CLOCK: [2023-03-30 Thu 15:13]--[2023-03-30 Thu 15:22] =>  0:09
@@ -771,7 +771,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-03 Mon ++1d>
+SCHEDULED: <2023-04-04 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -928,7 +928,7 @@ SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-04-06 Thu>
 ** TODO CV elaboration
-SCHEDULED: <2023-04-03 Mon>
+SCHEDULED: <2023-04-04 Tue>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
@@ -937,13 +937,13 @@ SCHEDULED: <2023-04-06 Thu>
 ** INIT CodeWars
 SCHEDULED: <2023-04-05 Wed>
 ** INIT Cracking coding interview
-SCHEDULED: <2023-04-03 Mon>
+SCHEDULED: <2023-04-17 Mon>
 ** ACTIVE Mark Lutz
 SCHEDULED: <2023-04-07 Fri>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** RAW The Donegal Volunteer Centre
-SCHEDULED: <2023-04-03 Mon>
+SCHEDULED: <2023-04-17 Mon>
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
