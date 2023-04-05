@@ -16,7 +16,7 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** YouTube
 
-*** INIT Ali Abdaal's *new* transcript
+*** INIT Ali Abdaal's *new* transcript                              :ARCHIVE:
 SCHEDULED: <2023-04-05 Wed +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 18:25]
@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-03 Mon .+1d>
+SCHEDULED: <2023-04-05 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -115,7 +115,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-03 Mon .+1d>
+SCHEDULED: <2023-04-05 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -197,7 +197,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-04-06 Thu .+3d/4d>
+SCHEDULED: <2023-04-05 Wed .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -298,7 +298,7 @@ sayings, proverbs (Kazakh by Abay), idioms.
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
 ** INIT Include Files                                         :zettelkasten:
-SCHEDULED: <2023-04-04 Tue>
+SCHEDULED: <2023-04-24 Mon>
 [[info:org#Include Files]]
 ** DONE Append ~drill files~ to *Agenda*
 SCHEDULED: <2022-11-22 Tue>
@@ -378,7 +378,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-03 Mon .+1d>
+SCHEDULED: <2023-04-05 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -507,7 +507,7 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
 ** INIT Thriades for key-chords
-SCHEDULED: <2023-04-05 Wed>
+SCHEDULED: <2023-05-03 Wed>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -522,7 +522,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-04-07 Fri>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-04-04 Tue .+1w>
+SCHEDULED: <2023-04-09 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-03-28 Tue 15:25]
@@ -598,7 +598,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** RAW Gym with Andrew #2
-SCHEDULED: <2023-04-05 Wed .+1w>
+SCHEDULED: <2023-04-19 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-29 Wed 13:53]
 :END:
@@ -608,7 +608,7 @@ SCHEDULED: <2023-04-05 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** RAW Gym with Andrew #3
-SCHEDULED: <2023-04-04 Tue .+1w>
+SCHEDULED: <2023-04-21 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-28 Tue 15:03]
 :END:
@@ -616,7 +616,7 @@ SCHEDULED: <2023-04-04 Tue .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
 *** RAW Gym with Andrew #1
-SCHEDULED: <2023-04-04 Tue .+1w>
+SCHEDULED: <2023-04-17 Mon .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-28 Tue 15:01]
 :END:
@@ -634,7 +634,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-04-06 Thu .+1w>
+SCHEDULED: <2023-04-20 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-04-09 Sun>
@@ -650,7 +650,7 @@ SCHEDULED: <2023-04-18 Tue .+2d/3d>
 :LOGBOOK:
 CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
 :END:
-** INIT Re-writing ProductivityGame
+** INIT Re-writing ProductivityGame                                :ARCHIVE:
 SCHEDULED: <2023-04-06 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
@@ -707,7 +707,7 @@ SCHEDULED: <2023-03-09 Thu>
 ** INIT Improve your English                                       :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 https://www.youtube.com/watch?v=axYAW7PuSIM
-** ACTIVE Book
+** DONE Book
 SCHEDULED: <2023-04-08 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
@@ -735,7 +735,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** TODO New dev environment on ChromeBook
-SCHEDULED: <2023-04-04 Tue>
+SCHEDULED: <2023-04-05 Wed>
 :LOGBOOK:
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
 CLOCK: [2023-03-30 Thu 15:13]--[2023-03-30 Thu 15:22] =>  0:09
@@ -771,7 +771,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-04 Tue ++1d>
+SCHEDULED: <2023-04-05 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -827,7 +827,7 @@ SCHEDULED: <2023-04-10 Mon>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-04-03 Mon .+2d/3d>
+SCHEDULED: <2023-04-06 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-23 Thu 10:56]
 :END:
@@ -896,7 +896,7 @@ LifeSpan: Why We Age
 Ring Around the Sun
 ** INIT Library Loan                                               :ARCHIVE:
 DEADLINE: <2023-03-09 Thu>
-** RAW 48 laws of power
+** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
 SCHEDULED: <2023-04-07 Fri>
@@ -928,14 +928,14 @@ SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-04-06 Thu>
 ** TODO CV elaboration
-SCHEDULED: <2023-04-04 Tue>
+SCHEDULED: <2023-04-05 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 ** INIT Global and Local Variables in Python
 SCHEDULED: <2023-04-06 Thu>
 ** INIT CodeWars
-SCHEDULED: <2023-04-05 Wed>
+SCHEDULED: <2023-04-18 Tue>
 ** INIT Cracking coding interview
 SCHEDULED: <2023-04-17 Mon>
 ** ACTIVE Mark Lutz
