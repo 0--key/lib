@@ -117,7 +117,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-11 Tue .+1d>
+SCHEDULED: <2023-04-12 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -128,6 +128,7 @@ SCHEDULED: <2023-04-11 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-04-11 Tue 17:03]--[2023-04-11 Tue 17:06] =>  0:03
 CLOCK: [2023-04-06 Thu 14:55]--[2023-04-06 Thu 14:59] =>  0:04
 CLOCK: [2023-03-30 Thu 15:58]--[2023-03-30 Thu 15:59] =>  0:01
 CLOCK: [2023-03-02 Thu 18:27]--[2023-03-02 Thu 18:29] =>  0:02
@@ -382,7 +383,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-11 Tue .+1d>
+SCHEDULED: <2023-04-12 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -745,7 +746,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-12 Wed>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -783,7 +784,7 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** RAW Workspace decluttering
+** INIT Workspace decluttering
 SCHEDULED: <2023-04-12 Wed ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-29 Wed 14:43]
@@ -802,7 +803,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-11 Tue ++1d>
+SCHEDULED: <2023-04-12 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -965,7 +966,7 @@ SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-04-13 Thu>
 ** TODO CV elaboration
-SCHEDULED: <2023-04-12 Wed>
+SCHEDULED: <2023-04-13 Thu>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
