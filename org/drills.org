@@ -2120,10 +2120,11 @@ SCHEDULED: <2023-04-10 Mon>
 Never [put off] until tomorrow [what you can do today]
 
 * TODO Quotes
-SCHEDULED: <2023-04-11 Tue .+3d/4d>
+SCHEDULED: <2023-04-14 Fri .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-31 Fri 11:53]
+:LAST_REPEAT: [2023-04-11 Tue 15:15]
 :END:
+- State "DONE"       from "TODO"       [2023-04-11 Tue 15:15]
 - State "DONE"       from "TODO"       [2023-03-31 Fri 11:53]
 - State "DONE"       from "TODO"       [2023-03-21 Tue 14:34]
 - State "DONE"       from "TODO"       [2023-03-21 Tue 14:34]
@@ -2132,6 +2133,7 @@ SCHEDULED: <2023-04-11 Tue .+3d/4d>
 - State "DONE"       from "TODO"       [2023-02-28 Tue 14:48]
 - State "DONE"       from "TODO"       [2022-12-06 Tue 17:21]
 :LOGBOOK:
+CLOCK: [2023-04-11 Tue 14:49]--[2023-04-11 Tue 15:15] =>  0:26
 CLOCK: [2023-04-07 Fri 10:05]--[2023-04-07 Fri 10:36] =>  0:31
 CLOCK: [2023-03-31 Fri 10:53]--[2023-03-31 Fri 11:33] =>  0:40
 CLOCK: [2023-03-29 Wed 14:46]--[2023-03-29 Wed 15:10] =>  0:24
@@ -2260,32 +2262,34 @@ SCHEDULED: <2023-04-25 Tue>
  Some people don't like change, but you need [to embrace] change if
  the [alternative] is disaster
 ** COMMENT >->-> BENJAMIN DISRAELI                         :drill:actions:happiness:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8f6a1f96-abd3-43d3-bea4-f3ba458dad76
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 13
-   :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.231
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 15
+   :DRILL_FAILURE_COUNT: 9
+   :DRILL_AVERAGE_QUALITY: 2.266
+   :DRILL_EASE: 1.66
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    Action [may not always] bring happiness, but there is [no
    happiness] without action.
 ** COMMENT >->-> GEORGE BERNARD SHAW                          :drill:rules:guidance:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       cb502dad-54dd-4ac2-bd63-9d582dea4e9c
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 11
    :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.1
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.182
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
    Rules are for the [obedience] of fools and the [guidance] of wise
    men.
@@ -2306,32 +2310,34 @@ SCHEDULED: <2023-04-06 Thu>
    Ever tried. Ever failed. No matter. Try again. Fail [again]. Fail
    [better].
 ** COMMENT >->->  ANTOINE DE SAINT-EXUPÉRY                        :drill:perfection:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       32f87037-53ae-4d3f-88c8-2179d4592223
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 18
-   :DRILL_FAILURE_COUNT: 13
-   :DRILL_AVERAGE_QUALITY: 2.057
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 20
+   :DRILL_FAILURE_COUNT: 14
+   :DRILL_AVERAGE_QUALITY: 2.051
+   :DRILL_EASE: 1.8
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    Perfection is not when there is [no more] to add, but [no more] to
    take [away].
 ** COMMENT >->-> WILLIAM OF OCCAM                                             :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c1506309-599a-43f0-84eb-f78f82f2da32
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 15
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.133
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 17
+   :DRILL_FAILURE_COUNT: 11
+   :DRILL_AVERAGE_QUALITY: 2.176
+   :DRILL_EASE: 1.66
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    It is [vain] to do with [more] what can [be done] with less.
 ** COMMENT >->-> PETER DRUCKER                                                :drill:
@@ -2395,86 +2401,90 @@ SCHEDULED: <2023-04-14 Fri>
    I hate the [irreverent||disrespectful] [rabble||canaille] and keep
    [them] far from me.
 ** COMMENT >->-> SENECA                                                       :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :ID:       b1415fa3-a37a-4c0d-9e15-d9245f2295f2
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 12
-   :DRILL_AVERAGE_QUALITY: 2.001
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 18
+   :DRILL_FAILURE_COUNT: 13
+   :DRILL_AVERAGE_QUALITY: 2.056
+   :DRILL_EASE: 1.8
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    Love of [bustle||turmoil] is not industry.
-** COMMENT >->-> RALPH WALDO EMERSON                                 :drill:
+** COMMENT >->-> RALPH WALDO EMERSON                           :drill:leech:
    :PROPERTIES:
    :ID:       10c1741f-6b92-4992-9bee-f6b7cb44c444
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 15
-   :DRILL_AVERAGE_QUALITY: 2.15
+   :DRILL_TOTAL_REPEATS: 21
+   :DRILL_FAILURE_COUNT: 16
+   :DRILL_AVERAGE_QUALITY: 2.143
    :DRILL_EASE: 1.8
    :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    There are many things of [which] a wise man [might wish] to be
    ignorant.
 ** COMMENT >->-> Leonardo Da Vinci                                            :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       d41feba9-959a-4c21-9f47-7b8ffaf1c3ed
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 15
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.267
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 17
+   :DRILL_FAILURE_COUNT: 11
+   :DRILL_AVERAGE_QUALITY: 2.294
+   :DRILL_EASE: 1.66
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    There are three classes of people: [those] who see, those who see
    when [shown], and those [that] do not see.
 ** COMMENT >->-> Albert Einstein                                              :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :ID:       f139a247-d0eb-4b24-aa8c-3339beb4887d
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.667
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.715
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    Once you stop [learning], you start [dying]
-** COMMENT >->-> James Clerk Maxwell                     :drill:conscious:ignorance:
+** COMMENT >->-> James Clerk Maxwell       :drill:conscious:ignorance:leech:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       d2a7e41f-020f-425d-8745-e72f1bf30d7e
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 20
-   :DRILL_FAILURE_COUNT: 15
-   :DRILL_AVERAGE_QUALITY: 1.85
+   :DRILL_TOTAL_REPEATS: 21
+   :DRILL_FAILURE_COUNT: 16
+   :DRILL_AVERAGE_QUALITY: 1.81
    :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
    [Thoroughly] conscious [ignorance] is the [prelude] to every real
    [advance] in science.
 ** COMMENT >->-> Wittgenstein                                                 :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :ID:       c221f335-9cb4-4144-81db-d64cace458d4
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
    :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
    The limits of [my language] are [the limits] of my world
 ** COMMENT >->-> ARISTOTLE                                  :drill:excellence:habit:
@@ -2493,44 +2503,47 @@ SCHEDULED: <2023-04-15 Sat>
    We are what we [repeatedly] do. Excellence, then, is not an [act],
    but a habit.
 ** COMMENT >->-> T. J. Watson                                                 :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :ID:       162d5ec4-e342-40b1-8414-a2a7f5ad4c39
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 13
    :DRILL_FAILURE_COUNT: 8
-   :DRILL_AVERAGE_QUALITY: 2.167
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.231
+   :DRILL_EASE: 1.8
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    Success is [on the far] side of failure.
 ** COMMENT >->-> Peter Drucker and Warren Bennis       :drill:management:leadership:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :ID:       15721066-77cc-429b-96e8-8778fa5bac8a
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.375
+   :DRILL_AVERAGE_QUALITY: 2.556
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
    “Management is [doing things] right; [leadership] is doing the
    right things.”
 ** COMMENT >->-> Amelia Earhart                                               :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       41214d51-2d30-465b-a418-08ea158dd764
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
    :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.363
-   :DRILL_EASE: 1.8
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.416
+   :DRILL_EASE: 1.66
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
    The most difficult thing is the [decision to act]. The rest is
    [merely tenacity].
@@ -2582,29 +2595,31 @@ SCHEDULED: <2023-04-06 Thu>
    “Nothing in life is so [exhilarating] as to be [shot] at without
    result.”
 ** COMMENT >->-> Russian proverb                                              :drill:
+SCHEDULED: <2023-04-15 Sat>
 :PROPERTIES:
 :ID:       d9dd8838-a3fd-4bfa-a039-6b7e6c232889
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 8
-:DRILL_AVERAGE_QUALITY: 2.167
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+:DRILL_AVERAGE_QUALITY: 2.231
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
 :END:
    If you [chase] two rabbits you will not catch [eitherone].
 ** COMMENT >->-> Josh Billings                                                :drill:
+SCHEDULED: <2023-04-15 Sat>
 :PROPERTIES:
 :ID:       36c900a3-4cc9-4967-ba92-7730db34e4d3
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 8
-:DRILL_AVERAGE_QUALITY: 2.154
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+:DRILL_AVERAGE_QUALITY: 2.214
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
 :END:
    “Be like a [postage] stamp — stick to one thing until you
    [get] there.”
@@ -2682,16 +2697,17 @@ SCHEDULED: <2023-04-15 Sat>
 :END:
    “Action will [delineate] and [define] you.”
 ** COMMENT >->-> Michelangelo                                                 :drill:
+SCHEDULED: <2023-04-15 Sat>
 :PROPERTIES:
 :ID:       55d800a3-593c-4139-82d7-0f8c118d1c83
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 3.725
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 8
-:DRILL_AVERAGE_QUALITY: 2.307
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+:DRILL_AVERAGE_QUALITY: 2.356
+:DRILL_EASE: 1.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
 :END:
    “The greatest danger for most of us is not [that] our aim is too
    high and we miss it, but [that] it is too low and we reach it.”
@@ -2711,16 +2727,17 @@ SCHEDULED: <2023-04-06 Thu>
    “If A [equals] success, then the formula is: A = X + Y + Z, where X
    is work, Y is [play], & Z is [keep] your mouth shut.”
 ** COMMENT >->-> Lao Tzu                                                      :drill:
+SCHEDULED: <2023-04-15 Sat>
 :PROPERTIES:
 :ID:       d2718a05-4284-49ec-bc4b-fcc9b2c9bd3b
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 3.725
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+:DRILL_AVERAGE_QUALITY: 2.8
+:DRILL_EASE: 1.94
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
 :END:
    "[Those who know] don’t talk, [those who talk] don’t know"
 ** COMMENT >->-> Claude Helvetius                                             :drill:
@@ -2741,17 +2758,18 @@ SCHEDULED: <2023-04-05 Wed>
 ** COMMENT >->-> Claude Helvetius
 Genius is nothing but [continued] [attention].
 ** COMMENT >->-> Karl Popper                                         :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       85d501f6-b314-4f8c-af67-3b73ebf06ca0
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 7
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 14
+   :DRILL_FAILURE_COUNT: 8
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 1.94
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 1.8
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 “[The aim of argument should not] [be victory], [but progress.]”
 ** COMMENT >->-> Zhuge Liang                                         :drill:
@@ -2788,17 +2806,18 @@ Words [are like keys] - if you [choose them right], they can [open any
 heart] and [shut any mouth].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       f0070f85-922e-46cd-83ba-e16a78a55df3
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.556
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.455
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 If you [tell the truth] you don't [have to remember] anything.
 
@@ -2819,17 +2838,18 @@ SCHEDULED: <2023-04-06 Thu>
 [Be selfish] with your time, a lot of people don't [deserve it].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       43dd7d17-4b4f-47c8-94aa-63a4a50d7834
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 14
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 16
+   :DRILL_FAILURE_COUNT: 11
+   :DRILL_AVERAGE_QUALITY: 2.062
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Silence] is the best answer to [someone who doesn't value] your
 words.
@@ -2868,34 +2888,36 @@ If you only walking in [sunny days] you'll never [reach your
 destination].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       d86e71eb-c23a-48c6-bef9-45cf19a4d838
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.429
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.444
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Life is like [a coin].
 You can spend it [any way] you wish,
 but you only [spend] it once.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ba679c1a-8d26-4dec-9624-edf1eb809ca7
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.286
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 There are no [mistakes], only [opportunities].
 
@@ -2997,93 +3019,98 @@ SCHEDULED: <2023-04-16 Sun>
 The greatest [pleasure] of life is [love].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0b0e4939-1bd7-4087-854a-4c17c98da138
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.572
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.626
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Keep [calm] and carry [on].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       898786b0-2539-46af-9d73-eef3d7f384d5
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.4
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 2.571
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 The [healthiest] response to life is [joy].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       abd408b3-42f1-48ca-8a04-80f4bfe59e19
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 16
-   :DRILL_FAILURE_COUNT: 13
-   :DRILL_AVERAGE_QUALITY: 2.188
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 19
+   :DRILL_FAILURE_COUNT: 15
+   :DRILL_AVERAGE_QUALITY: 2.158
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Life is like riding bicycle]. [To keep your balance, you must keep
 moving].
 
-** COMMENT ==> => >> :drill:
+** COMMENT ==> => >>                                           :drill:leech:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       ba42fd3d-3c70-4cc0-bf9d-230c7b3b5df8
    :DRILL_LAST_INTERVAL: 0.0
    :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 17
-   :DRILL_FAILURE_COUNT: 15
-   :DRILL_AVERAGE_QUALITY: 2.177
+   :DRILL_TOTAL_REPEATS: 18
+   :DRILL_FAILURE_COUNT: 16
+   :DRILL_AVERAGE_QUALITY: 2.112
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 1
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 [Life is not a problem to be solved], but [a reality to be experienced].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       3f5ee164-5e8a-4cdd-8553-a01061e89f4a
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.143
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 2.182
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [The big lesson of life] is never [be scared of] [anyone or anything].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       27d4732f-62e9-40cd-8ac9-d0be77a34ee8
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.222
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.273
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 If life were [predictable] it [would cease to be life], and be
 [without flavor||tasteless].
@@ -3105,32 +3132,34 @@ SCHEDULED: <2023-04-07 Fri>
 Not [how long], but [how well] you [have lived] is the [main thing].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       6d1ceffc-46e5-4be1-abba-4140c476cac2
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.374
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 If you [want to live a happy life], tie it to [a goal] not [to people
 or things].
 ** COMMENT >->-> Richard Feynman                                      :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c2a99a51-756e-44e5-b246-f779eb4feb22
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 1
    :DRILL_AVERAGE_QUALITY: 3.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 I'm [smart enough] to know that I'm [dumb]
 ** COMMENT >->-> Guatama Buddha                                       :drill:
@@ -3166,17 +3195,18 @@ SCHEDULED: <2023-04-04 Tue>
    :END:
 Knowledge is [of no value] unless you [out] it into [practice].
 ** COMMENT >->-> William Shakespeare                                  :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c8b9bc76-63c1-44eb-a374-1dee337a7c42
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.6
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 The eyes are [the window] to your soul
 ** COMMENT >->-> Salvador Dali                                       :drill:
@@ -3210,45 +3240,48 @@ SCHEDULED: <2023-04-16 Sun>
    :END:
 The more I [learn] about people, the more I [like] my dog.
 ** COMMENT >->-> Diogenes                                             :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       4658b317-dd52-48a2-92e7-6bc1faffd806
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.299
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Of [what use] is a philosopher who doesn't [hurt] anybody's feelings?
 ** COMMENT >->-> Confucius                                            :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       2883e3d0-3bd3-4ffa-86e6-b2885c2bfac6
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_LAST_INTERVAL: 4.0
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
    :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.285
+   :DRILL_AVERAGE_QUALITY: 2.499
    :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Real [knowledge] is to know the [extent] of one's [ignorance].
 ** COMMENT >->-> Lord Byron                                           :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0d344e0d-084d-41da-a821-69c4073b6099
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.167
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.125
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Those who will not reason, are [bigots], those who [cannot], are
 fools, and those [who dare not], are slaves.
@@ -3268,17 +3301,18 @@ SCHEDULED: <2023-04-06 Thu>
    :END:
 The wise man can [change his mind]; the [stubborn] one, never.
 ** COMMENT >->-> Maxim Gorky                                          :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       afa8a782-9cce-48f8-a51b-212b8a98373c
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 9
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.332
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 11
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 2.363
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 When work is a [pleasure], life is a joy! When work is a [duty], life
 is [slavery].
@@ -3313,60 +3347,64 @@ SCHEDULED: <2023-04-04 Tue>
    :END:
 “[An idiot with a plan] can [beat a genius without a plan].”
 ** COMMENT >->-> Thomas Huxley                                        :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       e19ac445-005f-4434-9e8e-8a6f606eb4c1
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 12
-   :DRILL_FAILURE_COUNT: 9
-   :DRILL_AVERAGE_QUALITY: 2.083
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 14
+   :DRILL_FAILURE_COUNT: 10
+   :DRILL_AVERAGE_QUALITY: 2.143
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 "[Skepticism is the highest duty] and blind faith [the one
 unpardonable sin.]"
 ** COMMENT >->-> Carl Jung                                            :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       f8e4a419-9d63-4e6d-9792-d326f97f7cff
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.332
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 “[If a man knows] more than others, he [becomes lonely.]”
 ** COMMENT >->-> George Bernard Shaw                                  :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       5fcd9d25-de9e-42b8-8e9a-7f56416be63e
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.143
-   :DRILL_EASE: 2.22
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.222
+   :DRILL_EASE: 2.08
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 “[Those who cannot change] their minds [cannot change anything.]”
 ** COMMENT >->-> ~Noam Chomsky~                                       :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       cab8f51e-0d16-475f-a93f-07dd238699a9
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 10
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.2
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 The smart way to keep people [passive and obedient] is to strictly limit
 the spectrum of [acceptable opinion], but allow very lively debate
@@ -3375,17 +3413,18 @@ thinking going on, while all the time the presuppositions of the
 system are being reinforced by the limits put on the range of the
 debate.
 ** COMMENT >->-> Benjamin Disraeli                                    :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8890ab80-c843-4378-9213-456fc72a6b33
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 13
-   :DRILL_FAILURE_COUNT: 10
-   :DRILL_AVERAGE_QUALITY: 2.231
-   :DRILL_EASE: 2.08
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 15
+   :DRILL_FAILURE_COUNT: 11
+   :DRILL_AVERAGE_QUALITY: 2.266
+   :DRILL_EASE: 1.94
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Ah, Ireland... That [damnable, delightful] country, where everything
 that is right is the [opposite] of [what it ought to be].
@@ -3429,32 +3468,34 @@ Be [so good] they [can't ignore you.]
 Have [enough courage] to start and [enough heart] to finish.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       6e4b093f-d2db-434d-9c07-6020bfd4d2f4
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.75
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.857
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Problems are [not stopsigns], they [are guidelines.]
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       93a9c2e4-67cf-40b9-aecd-979c764d6d95
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.25
+   :DRILL_AVERAGE_QUALITY: 2.6
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 [Tough times] never last, but [tough people] do.
 
@@ -3544,17 +3585,18 @@ Your past is [a place to learn and grow], not [a place to live].
 Train your mind [to be calm] in every situation.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       355636c0-1821-4f41-b08f-26d4976ffbc9
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
    :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 2.0
+   :DRILL_AVERAGE_QUALITY: 2.4
    :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_QUALITY: 4
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Your [comfort zone] will [destroy your dreams].
 
@@ -3652,47 +3694,50 @@ Stop [waiting for the right time]. Time [isn't waiting] for you.
 If you [get tired] - learn [to rest, not to quit].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       59ca4c5b-eb6b-497b-aa77-2ee95af735e2
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 3
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
    :DRILL_FAILURE_COUNT: 2
-   :DRILL_AVERAGE_QUALITY: 2.333
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.5
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Never make [a permanent decision] based on [temporary feelings].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       58b747a4-2a9b-4e3c-abc1-1aaff2fbade6
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.833
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 1.9
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Don't let yesterday [take up too much] of today.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       9caf1c36-337a-491e-88b1-cbe750ae998a
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 1.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 1.833
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 The meaning of life [is to give] life meaning.
 
@@ -3742,17 +3787,18 @@ Sometimes [being alone] is [the best medicine] [to your soul].
 Don't [give up]. You are [closer than you think].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       521aaac7-eb5f-4caa-b408-8c6ab7d87a60
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 2.125
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 You [only fail] if you [stop trying].
 
@@ -3772,17 +3818,18 @@ As long as [you are alive] no [obstacle is permanent].
 harder, but tomorrow easier.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       416f3b5a-e735-4e61-a563-e26ded3692ee
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 2
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 3
    :DRILL_FAILURE_COUNT: 1
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_AVERAGE_QUALITY: 2.333
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Worrying about [a loosing] is [loosing before] you begin.
 
@@ -3811,17 +3858,18 @@ dance in the rain].
 Don't [get burned twice] by [the same flame].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       bc7866b0-5ef7-4010-a5e7-8f7b359dc341
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 3
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
    :DRILL_AVERAGE_QUALITY: 2.5
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 The [quieter you become], the [more you can hear].
 
@@ -3870,17 +3918,18 @@ People [inspire you] or [they drain you]. Pick them wisely.
 Don't [allow your emotions] to [overpower your intelligence].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       8b559e9b-b8e3-443e-993d-06f055d9346a
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 5
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 7
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Move [with strategy], not [emotion].
 
@@ -3924,17 +3973,18 @@ SCHEDULED: <2023-04-11 Tue>
 If [you control your thoughts], you [control your life].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide2cloze
    :ID:       f92110f2-3339-486f-8170-3b724b45ecad
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 8
-   :DRILL_FAILURE_COUNT: 7
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 12
+   :DRILL_FAILURE_COUNT: 10
+   :DRILL_AVERAGE_QUALITY: 2.083
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Being alone] is [a power] very [few can handle].
 
@@ -3981,17 +4031,18 @@ If [you control your thoughts], you [control your life].
 Train your mind [to be stronger] than [your feelings].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       4fae21d7-b228-4b97-9c32-2c50fd4c9f54
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 3
-   :DRILL_FAILURE_COUNT: 3
-   :DRILL_AVERAGE_QUALITY: 1.667
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 5
+   :DRILL_FAILURE_COUNT: 4
+   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 If [you don't try], nothing [will ever happen].
 
@@ -4076,17 +4127,18 @@ Better days [are coming], [be patient].
 Never [tolerate disrespect], not [even from yourself].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       46bde260-a5d3-425a-a690-62d470f5f200
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.833
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.875
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Keep it privat] until [it's permanent].
 
@@ -4098,17 +4150,18 @@ Never [tolerate disrespect], not [even from yourself].
 There is [no growth] without [discomfort].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       0989c65b-5e30-42be-8ac9-de39dacf5e38
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 4
-   :DRILL_FAILURE_COUNT: 3
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 6
+   :DRILL_FAILURE_COUNT: 4
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 The [way you speak to yourself] [matters the most].
 
@@ -4160,17 +4213,18 @@ Two things define you: [your patience], when [you have nothing] and [your
 attitude] when [you have everything].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       16f1c0b4-e5d5-4331-ac37-7438cd149453
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 6
-   :DRILL_FAILURE_COUNT: 5
-   :DRILL_AVERAGE_QUALITY: 1.833
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 1.8
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [A negative mind] will [never give you a positive life].
 
@@ -4182,47 +4236,50 @@ attitude] when [you have everything].
 [Believing in yourself] is [the first secret of success].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       5643c92b-c269-4b56-8bbc-71695c3dfce6
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 2
-   :DRILL_FAILURE_COUNT: 1
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 4
+   :DRILL_FAILURE_COUNT: 2
    :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 1
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 14:%]
    :END:
 Don't [call it a problem].  Instead, [call it a challenge].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       311046c4-0bc4-47d2-b697-a05e34d3b287
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.0
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 8
+   :DRILL_FAILURE_COUNT: 6
+   :DRILL_AVERAGE_QUALITY: 1.875
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Control your emotions]. [Learn to react less].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       b2ecdf3b-a85b-451a-87b6-4d9a12c7178b
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 2.285
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 10
+   :DRILL_FAILURE_COUNT: 8
+   :DRILL_AVERAGE_QUALITY: 2.199
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 [Whatever you do], do [it well].
 
@@ -4250,17 +4307,18 @@ SCHEDULED: <2023-04-16 Sun>
 [Everything] you [can imagine] is real.
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       c7680cd8-ee26-41aa-8ef0-d881dbd21641
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 5
-   :DRILL_FAILURE_COUNT: 4
-   :DRILL_AVERAGE_QUALITY: 2.2
-   :DRILL_EASE: 2.5
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.86
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 7
+   :DRILL_FAILURE_COUNT: 5
+   :DRILL_AVERAGE_QUALITY: 2.286
+   :DRILL_EASE: 2.36
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Die [with memories], not [dreams].
 
@@ -4272,17 +4330,18 @@ Die [with memories], not [dreams].
 [Change the world] by [being yourself].
 
 ** COMMENT ==> => >> :drill:
+SCHEDULED: <2023-04-15 Sat>
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
    :ID:       efc31d57-87b4-411f-977e-5a9c10d3bac9
-   :DRILL_LAST_INTERVAL: 0.0
-   :DRILL_REPEATS_SINCE_FAIL: 1
-   :DRILL_TOTAL_REPEATS: 7
-   :DRILL_FAILURE_COUNT: 6
-   :DRILL_AVERAGE_QUALITY: 1.715
-   :DRILL_EASE: 2.36
-   :DRILL_LAST_QUALITY: 2
-   :DRILL_LAST_REVIEWED: [Y-04-07 Fri 10:%]
+   :DRILL_LAST_INTERVAL: 3.725
+   :DRILL_REPEATS_SINCE_FAIL: 2
+   :DRILL_TOTAL_REPEATS: 9
+   :DRILL_FAILURE_COUNT: 7
+   :DRILL_AVERAGE_QUALITY: 1.89
+   :DRILL_EASE: 2.22
+   :DRILL_LAST_QUALITY: 3
+   :DRILL_LAST_REVIEWED: [Y-04-11 Tue 15:%]
    :END:
 Don't [regret the past], just [learn from it].
 
