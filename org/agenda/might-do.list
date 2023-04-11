@@ -861,11 +861,12 @@ SCHEDULED: <2023-04-24 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** ACTIVE Proverbs
-SCHEDULED: <2023-04-11 Tue .+2d/3d>
+*** RAW Proverbs
+SCHEDULED: <2023-04-13 Thu .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-23 Thu 10:56]
+:LAST_REPEAT: [2023-04-11 Tue 16:05]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-11 Tue 16:05]
 - State "DONE"       from "ACTIVE"     [2023-03-23 Thu 10:56]
 - State "DONE"       from "ACTIVE"     [2023-03-21 Tue 15:01]
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
