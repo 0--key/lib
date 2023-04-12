@@ -607,11 +607,12 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** RAW Gym with Andrew #2
-SCHEDULED: <2023-04-12 Wed .+1w>
+SCHEDULED: <2023-04-19 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-29 Wed 13:53]
+:LAST_REPEAT: [2023-04-12 Wed 15:41]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-04-12 Wed 15:41]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 13:53]
 - State "DONE"       from "ACTIVE"     [2023-03-22 Wed 14:07]
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
@@ -772,7 +773,7 @@ https://bit.ly/3Kxjzx6
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
 ** INIT Dentist clinic in Letterkenny
-SCHEDULED: <2023-04-12 Wed>
+SCHEDULED: <2023-04-13 Thu>
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -784,7 +785,7 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** INIT Workspace decluttering
+** TODO Workspace decluttering
 SCHEDULED: <2023-04-12 Wed ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-29 Wed 14:43]
@@ -982,6 +983,6 @@ SCHEDULED: <2023-04-13 Thu>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** INIT The Donegal Volunteer Centre
-SCHEDULED: <2023-04-12 Wed>
+SCHEDULED: <2023-04-13 Thu>
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
