@@ -788,11 +788,12 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** TODO Workspace decluttering
-SCHEDULED: <2023-04-12 Wed ++2w>
+** RAW Workspace decluttering
+SCHEDULED: <2023-04-26 Wed ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-03-29 Wed 14:43]
+:LAST_REPEAT: [2023-04-12 Wed 17:47]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-12 Wed 17:47]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 14:43]
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
