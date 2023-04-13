@@ -976,8 +976,9 @@ SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-04-26 Wed>
 ** ACTIVE CV elaboration
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-14 Fri>
 :LOGBOOK:
+CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 ** INIT Global and Local Variables in Python
@@ -993,5 +994,16 @@ CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** ACTIVE The Donegal Volunteer Centre
 SCHEDULED: <2023-04-13 Thu>
+:LOGBOOK:
+CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
+:END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
+** INIT LinkedIn
+SCHEDULED: <2023-04-13 Thu>
+:LOGBOOK:
+CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
+:END:
+** INIT Howard Gardner
+SCHEDULED: <2023-04-15 Sat>
+Frames of Mind
