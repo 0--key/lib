@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-12 Wed .+1d>
+SCHEDULED: <2023-04-13 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-04-12 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-04-13 Thu 14:14]--[2023-04-13 Thu 14:17] =>  0:03
 CLOCK: [2023-04-06 Thu 14:50]--[2023-04-06 Thu 14:55] =>  0:05
 CLOCK: [2023-04-05 Wed 08:19]--[2023-04-05 Wed 08:21] =>  0:02
 CLOCK: [2023-03-31 Fri 10:52]--[2023-03-31 Fri 10:53] =>  0:01
@@ -117,7 +118,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-12 Wed .+1d>
+SCHEDULED: <2023-04-13 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -383,7 +384,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-12 Wed .+1d>
+SCHEDULED: <2023-04-13 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -747,7 +748,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-04-12 Wed>
+SCHEDULED: <2023-04-14 Fri>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -766,7 +767,7 @@ CLOCK: [2023-04-12 Wed 15:44]--[2023-04-12 Wed 15:59] =>  0:15
 :END:
 English for academic study
 ** INIT Family of 3 Ukrainians
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-18 Tue>
 looking for 2 bedroom house in
 Letterkenny, Milford, Kerrykeel, Rathmullan area. Tax-free 8
 hundreds from the Government
@@ -775,7 +776,7 @@ https://bit.ly/3Kxjzx6
 
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
-** INIT Dentist clinic in Letterkenny
+** TODO Dentist clinic in Letterkenny
 SCHEDULED: <2023-04-13 Thu>
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -817,6 +818,7 @@ SCHEDULED: <2023-04-13 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-13 Thu 11:45]--[2023-04-13 Thu 12:11] =>  0:26
 CLOCK: [2023-04-12 Wed 17:07]--[2023-04-12 Wed 17:36] =>  0:29
 CLOCK: [2023-04-11 Tue 10:34]--[2023-04-11 Tue 10:58] =>  0:24
 CLOCK: [2023-04-10 Mon 11:40]--[2023-04-10 Mon 11:45] =>  0:05
@@ -869,7 +871,7 @@ SCHEDULED: <2023-04-24 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** RAW Proverbs
+*** ACTIVE Proverbs
 SCHEDULED: <2023-04-13 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-11 Tue 16:05]
@@ -924,7 +926,7 @@ For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 SCHEDULED: <2023-04-14 Fri>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-27 Thu>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
 It would just declutter org-agenda space during weekly task sorting at
@@ -945,8 +947,8 @@ DEADLINE: <2023-03-09 Thu>
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
 SCHEDULED: <2023-04-19 Wed>
-** RAW Capture for idioms
-SCHEDULED: <2023-04-13 Thu>
+** INIT Capture for idioms
+SCHEDULED: <2023-04-14 Fri>
 Alice had no idea what Latitude was, or Longitude either, but
 thought they were nice grand words to say.
 
@@ -971,8 +973,8 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 ** INIT The most frequent collocations
 SCHEDULED: <2023-04-16 Sun>
 ** TODO Python code is a lyrics
-SCHEDULED: <2023-04-13 Thu>
-** TODO CV elaboration
+SCHEDULED: <2023-04-26 Wed>
+** ACTIVE CV elaboration
 SCHEDULED: <2023-04-13 Thu>
 :LOGBOOK:
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
@@ -984,11 +986,11 @@ SCHEDULED: <2023-04-18 Tue>
 ** INIT Cracking coding interview
 SCHEDULED: <2023-04-17 Mon>
 ** ACTIVE Mark Lutz
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-20 Thu>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** INIT The Donegal Volunteer Centre
+** ACTIVE The Donegal Volunteer Centre
 SCHEDULED: <2023-04-13 Thu>
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
