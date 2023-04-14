@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-13 Thu .+1d>
+SCHEDULED: <2023-04-14 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-04-13 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-04-14 Fri 14:57]--[2023-04-14 Fri 15:01] =>  0:04
 CLOCK: [2023-04-13 Thu 14:14]--[2023-04-13 Thu 14:17] =>  0:03
 CLOCK: [2023-04-06 Thu 14:50]--[2023-04-06 Thu 14:55] =>  0:05
 CLOCK: [2023-04-05 Wed 08:19]--[2023-04-05 Wed 08:21] =>  0:02
@@ -118,7 +119,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-13 Thu .+1d>
+SCHEDULED: <2023-04-14 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -147,7 +148,7 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :CATEGORY: Key-chords
 :END:
 *** ACTIVE Extend
-SCHEDULED: <2023-04-14 Fri ++1w>
+SCHEDULED: <2023-04-21 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -202,7 +203,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-04-14 Fri .+3d/4d>
+SCHEDULED: <2023-04-19 Wed .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-06 Thu 14:58]
 :END:
@@ -360,7 +361,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2023-04-14 Fri +1w>
+SCHEDULED: <2023-04-21 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -384,7 +385,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-13 Thu .+1d>
+SCHEDULED: <2023-04-14 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -748,7 +749,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-04-14 Fri>
+SCHEDULED: <2023-04-18 Tue>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -777,7 +778,7 @@ https://bit.ly/3Kxjzx6
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
 ** TODO Dentist clinic in Letterkenny
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-14 Fri>
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -810,7 +811,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-13 Thu ++1d>
+SCHEDULED: <2023-04-14 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -818,6 +819,7 @@ SCHEDULED: <2023-04-13 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-13 Thu 17:01]--[2023-04-13 Thu 17:30] =>  0:29
 CLOCK: [2023-04-13 Thu 11:45]--[2023-04-13 Thu 12:11] =>  0:26
 CLOCK: [2023-04-12 Wed 17:07]--[2023-04-12 Wed 17:36] =>  0:29
 CLOCK: [2023-04-11 Tue 10:34]--[2023-04-11 Tue 10:58] =>  0:24
@@ -871,11 +873,12 @@ SCHEDULED: <2023-04-24 Mon>
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
-*** ACTIVE Proverbs
-SCHEDULED: <2023-04-13 Thu .+2d/3d>
+*** RAW Proverbs
+SCHEDULED: <2023-04-15 Sat .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-11 Tue 16:05]
+:LAST_REPEAT: [2023-04-13 Thu 17:00]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-13 Thu 17:00]
 - State "DONE"       from "ACTIVE"     [2023-04-11 Tue 16:05]
 - State "DONE"       from "ACTIVE"     [2023-03-23 Thu 10:56]
 - State "DONE"       from "ACTIVE"     [2023-03-21 Tue 15:01]
@@ -924,7 +927,7 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** INIT Tracking TODO state changes
-SCHEDULED: <2023-04-14 Fri>
+SCHEDULED: <2023-05-03 Wed>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-04-27 Thu>
@@ -993,14 +996,14 @@ SCHEDULED: <2023-04-20 Thu>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** ACTIVE The Donegal Volunteer Centre
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-14 Fri>
 :LOGBOOK:
 CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** INIT LinkedIn
-SCHEDULED: <2023-04-13 Thu>
+SCHEDULED: <2023-04-15 Sat>
 :LOGBOOK:
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
