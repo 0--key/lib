@@ -953,6 +953,14 @@ SCHEDULED: <2023-04-03 Mon>
 SCHEDULED: <2023-04-19 Wed>
 ** INIT Capture for idioms
 SCHEDULED: <2023-04-14 Fri>
+:LOGBOOK:
+CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
+:END:
+
+- Idiom;
+- Explanation;
+- Usage sample(s).
+
 Alice had no idea what Latitude was, or Longitude either, but
 thought they were nice grand words to say.
 
