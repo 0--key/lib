@@ -56,6 +56,7 @@ SCHEDULED: <2023-04-24 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-04-24 Mon 14:46]--[2023-04-24 Mon 14:48] =>  0:02
 CLOCK: [2023-04-14 Fri 14:57]--[2023-04-14 Fri 15:01] =>  0:04
 CLOCK: [2023-04-13 Thu 14:14]--[2023-04-13 Thu 14:17] =>  0:03
 CLOCK: [2023-04-06 Thu 14:50]--[2023-04-06 Thu 14:55] =>  0:05
@@ -675,7 +676,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-04-24 Mon ++1w>
+SCHEDULED: <2023-04-25 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -780,7 +781,7 @@ https://bit.ly/3Kxjzx6
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
 ** ACTIVE Dentist clinic in Letterkenny
-SCHEDULED: <2023-04-24 Mon>
+SCHEDULED: <2023-05-24 Wed>
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -813,7 +814,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-24 Mon ++1d>
+SCHEDULED: <2023-04-25 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -821,6 +822,7 @@ SCHEDULED: <2023-04-24 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-24 Mon 13:34]--[2023-04-24 Mon 14:44] =>  1:10
 CLOCK: [2023-04-14 Fri 17:11]--[2023-04-14 Fri 17:51] =>  0:40
 CLOCK: [2023-04-13 Thu 17:01]--[2023-04-13 Thu 17:30] =>  0:29
 CLOCK: [2023-04-13 Thu 11:45]--[2023-04-13 Thu 12:11] =>  0:26
