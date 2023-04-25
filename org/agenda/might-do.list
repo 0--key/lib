@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-24 Mon .+1d>
+SCHEDULED: <2023-04-25 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -120,7 +120,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-24 Mon .+1d>
+SCHEDULED: <2023-04-25 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -386,7 +386,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-24 Mon .+1d>
+SCHEDULED: <2023-04-25 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -533,7 +533,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-05-11 Thu>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-04-24 Mon .+1w>
+SCHEDULED: <2023-05-01 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-03-28 Tue 15:25]
@@ -631,7 +631,7 @@ SCHEDULED: <2023-04-28 Fri .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
 *** Gym with Andrew #1
-SCHEDULED: <2023-04-24 Mon .+1w>
+SCHEDULED: <2023-05-01 Mon .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -752,7 +752,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-04-24 Mon>
+SCHEDULED: <2023-05-01 Mon>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -905,7 +905,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** ACTIVE Quotations
-SCHEDULED: <2023-04-26 Wed .+2d/3d>
+SCHEDULED: <2023-05-03 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -988,7 +988,7 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 ** INIT The most frequent collocations
 SCHEDULED: <2023-05-01 Mon>
 ** TODO Python code is a lyrics
-SCHEDULED: <2023-04-26 Wed>
+SCHEDULED: <2023-05-03 Wed>
 ** RAW CV elaboration
 SCHEDULED: <2023-05-11 Thu .+2d/3d>
 :PROPERTIES:
