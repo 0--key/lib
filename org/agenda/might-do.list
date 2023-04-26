@@ -880,10 +880,11 @@ SCHEDULED: <2023-05-11 Thu>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-04-26 Wed .+2d/3d>
+SCHEDULED: <2023-04-28 Fri .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-13 Thu 17:00]
+:LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-26 Wed 17:07]
 - State "DONE"       from "ACTIVE"     [2023-04-13 Thu 17:00]
 - State "DONE"       from "ACTIVE"     [2023-04-11 Tue 16:05]
 - State "DONE"       from "ACTIVE"     [2023-03-23 Thu 10:56]
@@ -895,6 +896,7 @@ SCHEDULED: <2023-04-26 Wed .+2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:55]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:10]
 :LOGBOOK:
+CLOCK: [2023-04-26 Wed 16:46]--[2023-04-26 Wed 17:06] =>  0:20
 CLOCK: [2023-04-13 Thu 15:56]--[2023-04-13 Thu 16:16] =>  0:20
 CLOCK: [2023-04-11 Tue 15:24]--[2023-04-11 Tue 16:04] =>  0:40
 CLOCK: [2023-03-23 Thu 10:35]--[2023-03-23 Thu 10:55] =>  0:20
