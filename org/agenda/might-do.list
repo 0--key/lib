@@ -609,12 +609,13 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** Gym with Andrew #2
-SCHEDULED: <2023-04-26 Wed .+1w>
+*** RAW Gym with Andrew #2
+SCHEDULED: <2023-05-03 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-12 Wed 15:41]
+:LAST_REPEAT: [2023-04-26 Wed 16:10]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-04-26 Wed 16:10]
 - State "DONE"       from "ACTIVE"     [2023-04-12 Wed 15:41]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 13:53]
 - State "DONE"       from "ACTIVE"     [2023-03-22 Wed 14:07]
@@ -793,7 +794,7 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** RAW Workspace decluttering
+** ACTIVE Workspace decluttering
 SCHEDULED: <2023-04-26 Wed ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-12 Wed 17:47]
@@ -803,6 +804,7 @@ SCHEDULED: <2023-04-26 Wed ++2w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-04-26 Wed 16:10]--[2023-04-26 Wed 16:23] =>  0:13
 CLOCK: [2023-04-12 Wed 15:59]--[2023-04-12 Wed 15:15] =>  0:16
 CLOCK: [2023-03-29 Wed 13:58]--[2023-03-29 Wed 14:12] =>  0:14
 CLOCK: [2023-03-15 Wed 11:15]--[2023-03-15 Wed 11:34] =>  0:19
