@@ -804,6 +804,8 @@ SCHEDULED: <2023-04-27 Thu ++2w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-04-27 Thu 15:58]
+CLOCK: [2023-04-27 Thu 15:09]--[2023-04-27 Thu 15:30] =>  0:21
 CLOCK: [2023-04-26 Wed 16:10]--[2023-04-26 Wed 16:23] =>  0:13
 CLOCK: [2023-04-12 Wed 15:59]--[2023-04-12 Wed 15:15] =>  0:16
 CLOCK: [2023-03-29 Wed 13:58]--[2023-03-29 Wed 14:12] =>  0:14
@@ -1032,6 +1034,25 @@ CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 ** INIT Howard Gardner
 SCHEDULED: <2023-04-28 Fri>
 Frames of Mind
-** RAW The separate set of DONE
+** INIT The separate set of DONE
 SCHEDULED: <2023-05-04 Thu>
 words for chore tasks
+** INIT Emacs init file
+SCHEDULED: <2023-04-28 Fri>
+[[info:emacs#Init File][emacs#Init File]]
+** INIT Handling links
+SCHEDULED: <2023-05-01 Mon>
+[[info:org#Handling Links][org#Handling Links]]
+** INIT Vocabulary ext
+SCHEDULED: <2023-05-03 Wed>
+through historical corpora
+[[https://www.bbc.co.uk/ahistoryoftheworld/about/transcripts/episode1/][BBC History]]
+** INIT Agenda commands
+SCHEDULED: <2023-05-11 Thu>
+[[org#Agenda Views]]
+** INIT Personal Development
+SCHEDULED: <2023-05-10 Wed>
+[[https://en.wikipedia.org/wiki/Personal_development][Article]]
+** RAW Emacs TUTORIAL
+SCHEDULED: <2023-04-29 Sat>
+For Andrew
