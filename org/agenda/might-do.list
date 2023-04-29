@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-27 Thu .+1d>
+SCHEDULED: <2023-04-29 Sat .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -120,7 +120,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-27 Thu .+1d>
+SCHEDULED: <2023-04-29 Sat .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -148,8 +148,8 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** ACTIVE Extend
-SCHEDULED: <2023-04-28 Fri ++1w>
+*** TODO Extend
+SCHEDULED: <2023-05-05 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -362,7 +362,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2023-04-28 Fri +1w>
+SCHEDULED: <2023-05-05 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -386,7 +386,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-27 Thu .+1d>
+SCHEDULED: <2023-04-29 Sat .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -622,7 +622,7 @@ SCHEDULED: <2023-05-03 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** Gym with Andrew #3
-SCHEDULED: <2023-04-28 Fri .+1w>
+SCHEDULED: <2023-05-05 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -654,7 +654,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-05-04 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-04-30 Sun>
+SCHEDULED: <2023-04-29 Sat>
 
 
 
@@ -794,17 +794,18 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** ACTIVE Workspace decluttering
-SCHEDULED: <2023-04-27 Thu ++2w>
+** RAW Workspace decluttering
+SCHEDULED: <2023-05-11 Thu ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-12 Wed 17:47]
+:LAST_REPEAT: [2023-04-27 Thu 17:02]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-04-27 Thu 17:02]
 - State "DONE"       from "ACTIVE"     [2023-04-12 Wed 17:47]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 14:43]
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
-CLOCK: [2023-04-27 Thu 15:58]
+CLOCK: [2023-04-27 Thu 15:58]--[2023-04-27 Thu 16:41] =>  0:43
 CLOCK: [2023-04-27 Thu 15:09]--[2023-04-27 Thu 15:30] =>  0:21
 CLOCK: [2023-04-26 Wed 16:10]--[2023-04-26 Wed 16:23] =>  0:13
 CLOCK: [2023-04-12 Wed 15:59]--[2023-04-12 Wed 15:15] =>  0:16
@@ -818,7 +819,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-27 Thu ++1d>
+SCHEDULED: <2023-04-29 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -826,6 +827,7 @@ SCHEDULED: <2023-04-27 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-27 Thu 17:02]--[2023-04-27 Thu 17:24] =>  0:22
 CLOCK: [2023-04-26 Wed 17:12]--[2023-04-26 Wed 17:27] =>  0:15
 CLOCK: [2023-04-25 Tue 12:53]--[2023-04-25 Tue 13:24] =>  0:31
 CLOCK: [2023-04-24 Mon 13:34]--[2023-04-24 Mon 14:44] =>  1:10
@@ -885,7 +887,7 @@ SCHEDULED: <2023-05-11 Thu>
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-04-28 Fri .+2d/3d>
+SCHEDULED: <2023-05-05 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1027,18 +1029,18 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** INIT LinkedIn
-SCHEDULED: <2023-04-27 Thu>
+SCHEDULED: <2023-04-29 Sat>
 :LOGBOOK:
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
 ** INIT Howard Gardner
-SCHEDULED: <2023-04-28 Fri>
+SCHEDULED: <2023-04-30 Sun>
 Frames of Mind
 ** INIT The separate set of DONE
 SCHEDULED: <2023-05-04 Thu>
 words for chore tasks
 ** INIT Emacs init file
-SCHEDULED: <2023-04-28 Fri>
+SCHEDULED: <2023-05-05 Fri>
 [[info:emacs#Init File][emacs#Init File]]
 ** INIT Handling links
 SCHEDULED: <2023-05-01 Mon>
@@ -1054,5 +1056,5 @@ SCHEDULED: <2023-05-11 Thu>
 SCHEDULED: <2023-05-10 Wed>
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
 ** RAW Emacs TUTORIAL
-SCHEDULED: <2023-04-29 Sat>
+SCHEDULED: <2023-04-30 Sun>
 For Andrew <<C-h ?>>
