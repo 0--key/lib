@@ -401,6 +401,7 @@ SCHEDULED: <2023-05-22 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-05-22 Mon 10:30]--[2023-05-22 Mon 10:36] =>  0:06
 CLOCK: [2023-04-10 Mon 11:33]--[2023-04-10 Mon 11:34] =>  0:01
 CLOCK: [2023-04-06 Thu 16:48]--[2023-04-06 Thu 16:49] =>  0:01
 CLOCK: [2023-04-06 Thu 14:59]--[2023-04-06 Thu 15:00] =>  0:01
@@ -1102,4 +1103,10 @@ SCHEDULED: <2023-05-29 Mon>
  - Guitar;
  - SQL;
  - Docker??
+** INIT English with Lucy
+SCHEDULED: <2023-05-23 Tue>
+50 personal adjectives
+** INIT JForrest English
+SCHEDULED: <2023-05-25 Thu>
+150 Common Idioms
 
