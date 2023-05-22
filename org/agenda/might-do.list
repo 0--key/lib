@@ -802,16 +802,20 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** RAW Workspace decluttering
-SCHEDULED: <2023-05-22 Mon ++2w>
+SCHEDULED: <2023-06-05 Mon ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-27 Thu 17:02]
+:LAST_REPEAT: [2023-05-22 Mon 12:14]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-05-22 Mon 12:14]
 - State "DONE"       from "ACTIVE"     [2023-04-27 Thu 17:02]
 - State "DONE"       from "ACTIVE"     [2023-04-12 Wed 17:47]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 14:43]
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-05-22 Mon 11:39]--[2023-05-22 Mon 12:14] =>  0:35
+CLOCK: [2023-05-22 Mon 10:49]--[2023-05-22 Mon 11:13] =>  0:24
+CLOCK: [2023-05-22 Mon 09:52]--[2023-05-22 Mon 09:57] =>  0:05
 CLOCK: [2023-04-27 Thu 15:58]--[2023-04-27 Thu 16:41] =>  0:43
 CLOCK: [2023-04-27 Thu 15:09]--[2023-04-27 Thu 15:30] =>  0:21
 CLOCK: [2023-04-26 Wed 16:10]--[2023-04-26 Wed 16:23] =>  0:13
