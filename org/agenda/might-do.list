@@ -683,6 +683,7 @@ SCHEDULED: <2023-05-22 Mon ++1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-05-22 Mon 09:57]--[2023-05-22 Mon 10:30] =>  0:33
 CLOCK: [2023-04-10 Mon 11:28]--[2023-04-10 Mon 11:33] =>  0:05
 CLOCK: [2023-03-02 Thu 11:17]--[2023-03-02 Thu 11:24] =>  0:07
 CLOCK: [2023-01-10 Tue 15:56]--[2023-01-10 Tue 16:01] =>  0:05
@@ -783,6 +784,11 @@ https://bit.ly/3Kxjzx6
 non-smokers, tea-total.
 ** ACTIVE Dentist clinic in Letterkenny
 SCHEDULED: <2023-05-24 Wed>
+** INIT Bmkp as a snippets database;
+SCHEDULED: <2023-07-11 Tue>
+** INIT SPACE KEY in key-chords
+SCHEDULED: <2023-05-22 Mon>
+For capture and marks and??
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -1060,3 +1066,40 @@ SCHEDULED: <2023-05-22 Mon>
 ** RAW Emacs TUTORIAL
 SCHEDULED: <2023-05-30 Tue>
 For Andrew <<C-h ?>>
+** INIT ScreenCasting
+SCHEDULED: <2023-06-06 Tue>
+- Sound;
+- Shortcuts for stop
+- YouTube upload
+- Another screen test
+** INIT Paul Auster
+SCHEDULED: <2023-06-04 Sun>
+** INIT Keep Going Austin Kleon
+SCHEDULED: <2023-05-28 Sun>
+** INIT New address to AXA
+axa.letterkenny@axa.ie;
+SCHEDULED: <2023-05-24 Wed>
+** INIT Letter to ARP for Ukrainians
+SCHEDULED: <2023-05-24 Wed>
+with CC to Kane and Noel
+
+For all other questions, please contact the Department of Children,
+Equality, Disability, Integration and Youth at:
+ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
+** INIT Coursor movement, deletion, search with key-chords
+SCHEDULED: <2023-05-22 Mon>
+** INIT Stackoverflow profile elaboration
+SCHEDULED: <2023-05-31 Wed>
+** INIT TXT script from YouTube for EReader
+SCHEDULED: <2023-05-25 Thu>
+** RAW Andrew's private summer lessons
+SCHEDULED: <2023-05-29 Mon>
+ - Emacs;
+ - Bash;
+ - Git;
+ - English;
+ - Lyrics;
+ - Guitar;
+ - SQL;
+ - Docker??
+
