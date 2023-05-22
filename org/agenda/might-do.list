@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-04-29 Sat .+1d>
+SCHEDULED: <2023-05-22 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -120,7 +120,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-04-29 Sat .+1d>
+SCHEDULED: <2023-05-22 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -149,7 +149,7 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :CATEGORY: Key-chords
 :END:
 *** TODO Extend
-SCHEDULED: <2023-05-05 Fri ++1w>
+SCHEDULED: <2023-05-22 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -175,7 +175,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** RAW Declutter
-SCHEDULED: <2023-05-11 Thu +3w>
+SCHEDULED: <2023-05-25 Thu +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
@@ -204,7 +204,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-05-01 Mon .+3d/4d>
+SCHEDULED: <2023-05-22 Mon .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-06 Thu 14:58]
 :END:
@@ -246,7 +246,7 @@ SCHEDULED: <2022-12-08 Thu>
 What is it?
 
 ** ACTIVE Text search in additional files
-SCHEDULED: <2023-05-03 Wed +2w>
+SCHEDULED: <2023-05-22 Mon +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:15]
 :END:
@@ -306,7 +306,7 @@ sayings, proverbs (Kazakh by Abay), idioms.
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
 ** INIT Include Files                                         :zettelkasten:
-SCHEDULED: <2023-05-10 Wed>
+SCHEDULED: <2023-05-28 Sun>
 [[info:org#Include Files]]
 ** DONE Append ~drill files~ to *Agenda*
 SCHEDULED: <2022-11-22 Tue>
@@ -337,7 +337,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2023-05-09 Tue>
+SCHEDULED: <2023-06-06 Tue>
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -362,7 +362,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2023-05-05 Fri +1w>
+SCHEDULED: <2023-05-27 Sat +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -386,7 +386,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-04-29 Sat .+1d>
+SCHEDULED: <2023-05-22 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -486,7 +486,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
-SCHEDULED: <2023-05-05 Fri .+2w>
+SCHEDULED: <2023-06-07 Wed .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -498,7 +498,7 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** RAW Monthly archive day .+4w
-SCHEDULED: <2023-05-01 Mon .+4w>
+SCHEDULED: <2023-05-31 Wed .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
@@ -518,7 +518,7 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
 ** INIT Thriades for key-chords
-SCHEDULED: <2023-05-03 Wed>
+SCHEDULED: <2023-06-09 Fri>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -530,10 +530,10 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** INIT TODO keywords as types
-SCHEDULED: <2023-05-11 Thu>
+SCHEDULED: <2023-06-07 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-05-01 Mon .+1w>
+SCHEDULED: <2023-05-22 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-03-28 Tue 15:25]
@@ -610,7 +610,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** RAW Gym with Andrew #2
-SCHEDULED: <2023-05-03 Wed .+1w>
+SCHEDULED: <2023-05-24 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 16:10]
 :END:
@@ -622,7 +622,7 @@ SCHEDULED: <2023-05-03 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** Gym with Andrew #3
-SCHEDULED: <2023-05-05 Fri .+1w>
+SCHEDULED: <2023-05-26 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -632,7 +632,7 @@ SCHEDULED: <2023-05-05 Fri .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
 *** Gym with Andrew #1
-SCHEDULED: <2023-05-01 Mon .+1w>
+SCHEDULED: <2023-05-22 Mon .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -651,15 +651,15 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-05-04 Thu .+1w>
+SCHEDULED: <2023-05-25 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-04-29 Sat>
+SCHEDULED: <2023-05-24 Wed>
 
 
 
 ** INIT Reading Alice
-SCHEDULED: <2023-05-09 Tue .+2d/3d>
+SCHEDULED: <2023-05-28 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -677,7 +677,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-04-30 Sun ++1w>
+SCHEDULED: <2023-05-22 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -732,16 +732,16 @@ CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
 ** ACTIVE Book
-SCHEDULED: <2023-05-13 Sat>
+SCHEDULED: <2023-05-28 Sun>
 Play ~ Stuart Brown&Christopher Vaughan
 ** ACTIVE Book
-SCHEDULED: <2023-05-13 Sat>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
 ** ACTIVE Book
-SCHEDULED: <2023-05-07 Sun>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -753,7 +753,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-05-01 Mon>
+SCHEDULED: <2023-05-25 Thu>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -771,7 +771,7 @@ SCHEDULED: <2023-04-12 Wed>
 CLOCK: [2023-04-12 Wed 15:44]--[2023-04-12 Wed 15:59] =>  0:15
 :END:
 English for academic study
-** INIT Family of 3 Ukrainians
+** INIT Family of 3 Ukrainians                                     :ARCHIVE:
 SCHEDULED: <2023-05-02 Tue>
 looking for 2 bedroom house in
 Letterkenny, Milford, Kerrykeel, Rathmullan area. Tax-free 8
@@ -795,7 +795,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** RAW Workspace decluttering
-SCHEDULED: <2023-05-11 Thu ++2w>
+SCHEDULED: <2023-05-22 Mon ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-27 Thu 17:02]
 :END:
@@ -819,7 +819,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-04-29 Sat ++1d>
+SCHEDULED: <2023-05-24 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -827,6 +827,7 @@ SCHEDULED: <2023-04-29 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-04-29 Sat 13:16]--[2023-04-29 Sat 13:53] =>  0:37
 CLOCK: [2023-04-27 Thu 17:02]--[2023-04-27 Thu 17:24] =>  0:22
 CLOCK: [2023-04-26 Wed 17:12]--[2023-04-26 Wed 17:27] =>  0:15
 CLOCK: [2023-04-25 Tue 12:53]--[2023-04-25 Tue 13:24] =>  0:31
@@ -880,14 +881,14 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** INIT Vocabulary
-SCHEDULED: <2023-05-11 Thu>
+SCHEDULED: <2023-05-24 Wed>
 
 - Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
 - Note taken on [2022-12-04 Sun 12:06] \\
   * Synthesis few sentences with new words
 *** RAW Proverbs
-SCHEDULED: <2023-05-05 Fri .+2d/3d>
+SCHEDULED: <2023-05-25 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -915,7 +916,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** ACTIVE Quotations
-SCHEDULED: <2023-05-03 Wed .+2d/3d>
+SCHEDULED: <2023-05-30 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -942,10 +943,10 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** INIT Tracking TODO state changes
-SCHEDULED: <2023-05-03 Wed>
+SCHEDULED: <2023-06-02 Fri>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
-SCHEDULED: <2023-05-18 Thu>
+SCHEDULED: <2023-06-20 Tue>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
 It would just declutter org-agenda space during weekly task sorting at
@@ -965,7 +966,7 @@ DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-05-04 Thu>
+SCHEDULED: <2023-05-26 Fri>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -996,11 +997,11 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
 ** INIT The most frequent collocations
-SCHEDULED: <2023-05-01 Mon>
+SCHEDULED: <2023-06-01 Thu>
 ** TODO Python code is a lyrics
-SCHEDULED: <2023-05-03 Wed>
+SCHEDULED: <2023-05-31 Wed>
 ** RAW CV elaboration
-SCHEDULED: <2023-05-11 Thu .+2d/3d>
+SCHEDULED: <2023-05-29 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1011,50 +1012,51 @@ CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 ** INIT Global and Local Variables in Python
-SCHEDULED: <2023-05-20 Sat>
+SCHEDULED: <2023-06-23 Fri>
 ** INIT CodeWars
-SCHEDULED: <2023-05-09 Tue>
+SCHEDULED: <2023-06-08 Thu>
 ** INIT Cracking coding interview
-SCHEDULED: <2023-05-02 Tue>
+SCHEDULED: <2023-05-22 Mon>
 ** ACTIVE Mark Lutz
-SCHEDULED: <2023-05-16 Tue>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** ACTIVE The Donegal Volunteer Centre
-SCHEDULED: <2023-05-02 Tue>
+SCHEDULED: <2023-05-22 Mon>
 :LOGBOOK:
 CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** INIT LinkedIn
-SCHEDULED: <2023-04-29 Sat>
+** TODO LinkedIn
+SCHEDULED: <2023-05-29 Mon>
 :LOGBOOK:
+CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
 ** INIT Howard Gardner
-SCHEDULED: <2023-04-30 Sun>
+SCHEDULED: <2023-05-27 Sat>
 Frames of Mind
 ** INIT The separate set of DONE
-SCHEDULED: <2023-05-04 Thu>
+SCHEDULED: <2023-05-31 Wed>
 words for chore tasks
 ** INIT Emacs init file
-SCHEDULED: <2023-05-05 Fri>
+SCHEDULED: <2023-06-07 Wed>
 [[info:emacs#Init File][emacs#Init File]]
 ** INIT Handling links
-SCHEDULED: <2023-05-01 Mon>
+SCHEDULED: <2023-06-08 Thu>
 [[info:org#Handling Links][org#Handling Links]]
 ** INIT Vocabulary ext
-SCHEDULED: <2023-05-03 Wed>
+SCHEDULED: <2023-05-23 Tue>
 through historical corpora
 [[https://www.bbc.co.uk/ahistoryoftheworld/about/transcripts/episode1/][BBC History]]
 ** INIT Agenda commands
-SCHEDULED: <2023-05-11 Thu>
+SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
 ** INIT Personal Development
-SCHEDULED: <2023-05-10 Wed>
+SCHEDULED: <2023-05-22 Mon>
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
 ** RAW Emacs TUTORIAL
-SCHEDULED: <2023-04-30 Sun>
+SCHEDULED: <2023-05-30 Tue>
 For Andrew <<C-h ?>>
