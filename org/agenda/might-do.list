@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-05-22 Mon .+1d>
+SCHEDULED: <2023-05-23 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-05-22 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-05-23 Tue 14:13]--[2023-05-23 Tue 14:19] =>  0:06
 CLOCK: [2023-04-24 Mon 14:46]--[2023-04-24 Mon 14:48] =>  0:02
 CLOCK: [2023-04-14 Fri 14:57]--[2023-04-14 Fri 15:01] =>  0:04
 CLOCK: [2023-04-13 Thu 14:14]--[2023-04-13 Thu 14:17] =>  0:03
@@ -120,7 +121,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-05-22 Mon .+1d>
+SCHEDULED: <2023-05-23 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -149,7 +150,7 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :CATEGORY: Key-chords
 :END:
 *** TODO Extend
-SCHEDULED: <2023-05-22 Mon ++1w>
+SCHEDULED: <2023-05-23 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -204,7 +205,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-05-22 Mon .+3d/4d>
+SCHEDULED: <2023-05-23 Tue .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-06 Thu 14:58]
 :END:
@@ -386,7 +387,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-05-22 Mon .+1d>
+SCHEDULED: <2023-05-23 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -401,6 +402,7 @@ SCHEDULED: <2023-05-22 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-05-23 Tue 14:19]
 CLOCK: [2023-05-22 Mon 10:30]--[2023-05-22 Mon 10:36] =>  0:06
 CLOCK: [2023-04-10 Mon 11:33]--[2023-04-10 Mon 11:34] =>  0:01
 CLOCK: [2023-04-06 Thu 16:48]--[2023-04-06 Thu 16:49] =>  0:01
@@ -534,11 +536,12 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-06-07 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-05-22 Mon .+1w>
+SCHEDULED: <2023-05-30 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2023-03-28 Tue 15:25]
+:LAST_REPEAT: [2023-05-23 Tue 14:12]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-05-23 Tue 14:12]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:25]
 - State "DONE"       from "ACTIVE"     [2023-03-21 Tue 12:02]
 - State "DONE"       from "ACTIVE"     [2023-03-13 Mon 12:06]
@@ -633,7 +636,7 @@ SCHEDULED: <2023-05-26 Fri .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
 *** Gym with Andrew #1
-SCHEDULED: <2023-05-22 Mon .+1w>
+SCHEDULED: <2023-05-29 Mon .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -788,7 +791,7 @@ SCHEDULED: <2023-05-24 Wed>
 ** INIT Bmkp as a snippets database;
 SCHEDULED: <2023-07-11 Tue>
 ** TODO SPACE KEY in key-chords
-SCHEDULED: <2023-05-22 Mon>
+SCHEDULED: <2023-05-23 Tue>
 For capture and marks and??
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -1092,7 +1095,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** TODO Coursor movement, deletion, search with key-chords
-SCHEDULED: <2023-05-22 Mon>
+SCHEDULED: <2023-05-23 Tue>
 ** INIT Stackoverflow profile elaboration
 SCHEDULED: <2023-05-31 Wed>
 ** INIT TXT script from YouTube for EReader
@@ -1114,4 +1117,6 @@ SCHEDULED: <2023-05-23 Tue>
 SCHEDULED: <2023-05-25 Thu>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
+SCHEDULED: <2023-05-25 Thu>
+** INIT Trust keyboard exchange in HomeSaver
 SCHEDULED: <2023-05-25 Thu>
