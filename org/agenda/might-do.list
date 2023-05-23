@@ -1061,8 +1061,12 @@ SCHEDULED: <2023-06-07 Wed>
 ** INIT Handling links
 SCHEDULED: <2023-06-08 Thu>
 [[info:org#Handling Links][org#Handling Links]]
-** INIT Vocabulary ext
+** TODO Vocabulary ext
 SCHEDULED: <2023-05-23 Tue>
+:LOGBOOK:
+CLOCK: [2023-05-23 Tue 14:51]--[2023-05-23 Tue 15:16] =>  0:25
+CLOCK: [2023-05-23 Tue 14:30]--[2023-05-23 Tue 14:33] =>  0:03
+:END:
 through historical corpora
 [[https://www.bbc.co.uk/ahistoryoftheworld/about/transcripts/episode1/][BBC History]]
 ** INIT Agenda commands
