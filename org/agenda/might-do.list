@@ -1115,7 +1115,10 @@ SCHEDULED: <2023-05-29 Mon>
  - SQL;
  - Docker??
 ** INIT English with Lucy
-SCHEDULED: <2023-05-23 Tue>
+SCHEDULED: <2023-05-24 Wed>
+:LOGBOOK:
+CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
+:END:
 50 personal adjectives
 ** INIT JForrest English
 SCHEDULED: <2023-05-25 Thu>
