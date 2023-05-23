@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-05-23 Tue .+1d>
+SCHEDULED: <2023-05-24 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -121,7 +121,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-05-23 Tue .+1d>
+SCHEDULED: <2023-05-24 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -388,7 +388,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-05-23 Tue .+1d>
+SCHEDULED: <2023-05-24 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -403,7 +403,9 @@ SCHEDULED: <2023-05-23 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-05-23 Tue 14:19]
+CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:12] =>  0:03
+CLOCK: [2023-05-23 Tue 15:24]--[2023-05-23 Tue 15:27] =>  0:03
+CLOCK: [2023-05-23 Tue 14:19]--[2023-05-23 Tue 14:24] =>  0:05
 CLOCK: [2023-05-22 Mon 10:30]--[2023-05-22 Mon 10:36] =>  0:06
 CLOCK: [2023-04-10 Mon 11:33]--[2023-04-10 Mon 11:34] =>  0:01
 CLOCK: [2023-04-06 Thu 16:48]--[2023-04-06 Thu 16:49] =>  0:01
@@ -1074,8 +1076,9 @@ through historical corpora
 SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
 ** INIT Personal Development
-SCHEDULED: <2023-05-23 Tue>
+SCHEDULED: <2023-05-24 Wed>
 :LOGBOOK:
+CLOCK: [2023-05-23 Tue 16:13]--[2023-05-23 Tue 16:31] =>  0:18
 CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 :END:
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
