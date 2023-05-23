@@ -149,8 +149,8 @@ CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** TODO Extend
-SCHEDULED: <2023-05-23 Tue ++1w>
+*** ACTIVE Extend
+SCHEDULED: <2023-05-27 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -160,6 +160,7 @@ SCHEDULED: <2023-05-23 Tue ++1w>
   * 'copy-to-register
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
+CLOCK: [2023-05-23 Tue 14:24]--[2023-05-23 Tue 14:29] =>  0:05
 CLOCK: [2022-11-18 Fri 18:30]--[2022-11-18 Fri 18:36] =>  0:06
 CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
 :END:
@@ -205,7 +206,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-05-23 Tue .+3d/4d>
+SCHEDULED: <2023-05-30 Tue .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-06 Thu 14:58]
 :END:
@@ -791,7 +792,7 @@ SCHEDULED: <2023-05-24 Wed>
 ** INIT Bmkp as a snippets database;
 SCHEDULED: <2023-07-11 Tue>
 ** TODO SPACE KEY in key-chords
-SCHEDULED: <2023-05-23 Tue>
+SCHEDULED: <2023-05-27 Sat>
 For capture and marks and??
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -1062,7 +1063,7 @@ SCHEDULED: <2023-06-07 Wed>
 SCHEDULED: <2023-06-08 Thu>
 [[info:org#Handling Links][org#Handling Links]]
 ** TODO Vocabulary ext
-SCHEDULED: <2023-05-23 Tue>
+SCHEDULED: <2023-05-24 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 14:51]--[2023-05-23 Tue 15:16] =>  0:25
 CLOCK: [2023-05-23 Tue 14:30]--[2023-05-23 Tue 14:33] =>  0:03
@@ -1074,6 +1075,9 @@ SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
 ** INIT Personal Development
 SCHEDULED: <2023-05-23 Tue>
+:LOGBOOK:
+CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
+:END:
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
 ** RAW Emacs TUTORIAL
 SCHEDULED: <2023-05-30 Tue>
@@ -1099,7 +1103,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** TODO Coursor movement, deletion, search with key-chords
-SCHEDULED: <2023-05-23 Tue>
+SCHEDULED: <2023-05-27 Sat>
 ** INIT Stackoverflow profile elaboration
 SCHEDULED: <2023-05-31 Wed>
 ** INIT TXT script from YouTube for EReader
