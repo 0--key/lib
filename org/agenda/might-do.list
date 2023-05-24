@@ -56,6 +56,7 @@ SCHEDULED: <2023-05-24 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-05-24 Wed 09:51]--[2023-05-24 Wed 10:02] =>  0:11
 CLOCK: [2023-05-23 Tue 14:13]--[2023-05-23 Tue 14:19] =>  0:06
 CLOCK: [2023-04-24 Mon 14:46]--[2023-04-24 Mon 14:48] =>  0:02
 CLOCK: [2023-04-14 Fri 14:57]--[2023-04-14 Fri 15:01] =>  0:04
@@ -616,7 +617,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** RAW Gym with Andrew #2
+*** INIT Gym with Andrew #2
 SCHEDULED: <2023-05-24 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 16:10]
@@ -897,13 +898,14 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** INIT Vocabulary
+*** ACTIVE Vocabulary elaboration
 SCHEDULED: <2023-05-24 Wed>
-
-- Note taken on [2022-12-06 Tue 20:26] \\
   Make an attempt to synthesis sentences out from new words corpora.
-- Note taken on [2022-12-04 Sun 12:06] \\
-  * Synthesis few sentences with new words
+  * Synthesis few sentences with new words;
+  * Vocabulary extension through:
+    * reading books;
+    * watching YouTube with transcripts.
+
 *** RAW Proverbs
 SCHEDULED: <2023-05-25 Thu .+2d/3d>
 :PROPERTIES:
@@ -1064,18 +1066,10 @@ SCHEDULED: <2023-06-07 Wed>
 ** INIT Handling links
 SCHEDULED: <2023-06-08 Thu>
 [[info:org#Handling Links][org#Handling Links]]
-** TODO Vocabulary ext
-SCHEDULED: <2023-05-24 Wed>
-:LOGBOOK:
-CLOCK: [2023-05-23 Tue 14:51]--[2023-05-23 Tue 15:16] =>  0:25
-CLOCK: [2023-05-23 Tue 14:30]--[2023-05-23 Tue 14:33] =>  0:03
-:END:
-through historical corpora
-[[https://www.bbc.co.uk/ahistoryoftheworld/about/transcripts/episode1/][BBC History]]
 ** INIT Agenda commands
 SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
-** INIT Personal Development
+** TODO Personal Development
 SCHEDULED: <2023-05-24 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 16:13]--[2023-05-23 Tue 16:31] =>  0:18
@@ -1097,9 +1091,9 @@ SCHEDULED: <2023-06-04 Sun>
 SCHEDULED: <2023-05-28 Sun>
 ** INIT New address to AXA and Clare
 axa.letterkenny@axa.ie;
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-05-25 Thu>
 ** INIT Letter to ARP for Ukrainians
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
 
 For all other questions, please contact the Department of Children,
@@ -1121,7 +1115,7 @@ SCHEDULED: <2023-05-29 Mon>
  - Guitar;
  - SQL;
  - Docker??
-** INIT English with Lucy
+** TODO English with Lucy
 SCHEDULED: <2023-05-24 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
@@ -1134,3 +1128,6 @@ SCHEDULED: <2023-05-25 Thu>
 SCHEDULED: <2023-05-25 Thu>
 ** INIT Trust keyboard exchange in HomeSaver
 SCHEDULED: <2023-05-25 Thu>
+** INIT Bulk remote editing selected entries
+SCHEDULED: <2023-05-25 Thu>
+[[info:org#Agenda Commands][org#Agenda Commands]]
