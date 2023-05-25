@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-05-24 Wed .+1d>
+SCHEDULED: <2023-05-25 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -122,7 +122,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-05-24 Wed .+1d>
+SCHEDULED: <2023-05-25 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -389,7 +389,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-05-24 Wed .+1d>
+SCHEDULED: <2023-05-25 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -404,6 +404,7 @@ SCHEDULED: <2023-05-24 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-05-24 Wed 10:02]--[2023-05-24 Wed 10:05] =>  0:03
 CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:12] =>  0:03
 CLOCK: [2023-05-23 Tue 15:24]--[2023-05-23 Tue 15:27] =>  0:03
 CLOCK: [2023-05-23 Tue 14:19]--[2023-05-23 Tue 14:24] =>  0:05
@@ -618,7 +619,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Gym with Andrew #2
-SCHEDULED: <2023-05-24 Wed .+1w>
+SCHEDULED: <2023-05-31 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 16:10]
 :END:
@@ -659,10 +660,10 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-05-25 Thu .+1w>
+SCHEDULED: <2023-06-01 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-05-27 Sat>
 
 
 
@@ -790,13 +791,19 @@ https://bit.ly/3Kxjzx6
 
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
-** ACTIVE Dentist clinic in Letterkenny
-SCHEDULED: <2023-05-24 Wed>
 ** INIT Bmkp as a snippets database;
 SCHEDULED: <2023-07-11 Tue>
 ** TODO SPACE KEY in key-chords
 SCHEDULED: <2023-05-27 Sat>
 For capture and marks and??
+** INIT Phronesis
+SCHEDULED: <2023-05-25 Thu>
+[[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
+** INIT Dry Creek Wrangler School
+SCHEDULED: <2023-05-30 Tue>
+** RAW Eudaimonia
+SCHEDULED: <2023-05-26 Fri>
+[[https://en.wikipedia.org/wiki/Eudaimonia][Eudaimonia - Wikipedia]]
 * Tasks
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -837,7 +844,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-05-24 Wed ++1d>
+SCHEDULED: <2023-05-25 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -845,6 +852,7 @@ SCHEDULED: <2023-05-24 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-05-24 Wed 12:47]
 CLOCK: [2023-04-29 Sat 13:16]--[2023-04-29 Sat 13:53] =>  0:37
 CLOCK: [2023-04-27 Thu 17:02]--[2023-04-27 Thu 17:24] =>  0:22
 CLOCK: [2023-04-26 Wed 17:12]--[2023-04-26 Wed 17:27] =>  0:15
@@ -899,7 +907,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-05-25 Thu>
   Make an attempt to synthesis sentences out from new words corpora.
   * Synthesis few sentences with new words;
   * Vocabulary extension through:
@@ -1070,8 +1078,9 @@ SCHEDULED: <2023-06-08 Thu>
 SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
 ** TODO Personal Development
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-05-25 Thu>
 :LOGBOOK:
+CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
 CLOCK: [2023-05-23 Tue 16:13]--[2023-05-23 Tue 16:31] =>  0:18
 CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 :END:
@@ -1116,7 +1125,7 @@ SCHEDULED: <2023-05-29 Mon>
  - SQL;
  - Docker??
 ** TODO English with Lucy
-SCHEDULED: <2023-05-24 Wed>
+SCHEDULED: <2023-05-25 Thu>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
@@ -1125,8 +1134,6 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 SCHEDULED: <2023-05-25 Thu>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
-SCHEDULED: <2023-05-25 Thu>
-** INIT Trust keyboard exchange in HomeSaver
 SCHEDULED: <2023-05-25 Thu>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-05-25 Thu>
