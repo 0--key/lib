@@ -56,6 +56,7 @@ SCHEDULED: <2023-05-25 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-05-25 Thu 17:56]--[2023-05-25 Thu 18:01] =>  0:05
 CLOCK: [2023-05-24 Wed 09:51]--[2023-05-24 Wed 10:02] =>  0:11
 CLOCK: [2023-05-23 Tue 14:13]--[2023-05-23 Tue 14:19] =>  0:06
 CLOCK: [2023-04-24 Mon 14:46]--[2023-04-24 Mon 14:48] =>  0:02
@@ -178,7 +179,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** RAW Declutter
-SCHEDULED: <2023-05-25 Thu +3w>
+SCHEDULED: <2023-05-28 Sun +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
@@ -763,7 +764,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** ACTIVE New dev environment on ChromeBook
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -910,7 +911,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 17:40]--[2023-05-25 Thu 17:48] =>  0:08
 CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
@@ -924,7 +925,7 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * watching YouTube with transcripts.
 
 *** RAW Proverbs
-SCHEDULED: <2023-05-25 Thu .+2d/3d>
+SCHEDULED: <2023-05-28 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1087,7 +1088,7 @@ SCHEDULED: <2023-06-08 Thu>
 SCHEDULED: <2023-06-13 Tue>
 [[org#Agenda Views]]
 ** TODO Personal Development
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 :LOGBOOK:
 CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
 CLOCK: [2023-05-23 Tue 16:13]--[2023-05-23 Tue 16:31] =>  0:18
@@ -1108,8 +1109,9 @@ SCHEDULED: <2023-06-04 Sun>
 ** INIT Keep Going Austin Kleon
 SCHEDULED: <2023-05-28 Sun>
 ** INIT New address to AXA and Clare
+SCHEDULED: <2023-05-28 Sun>
 axa.letterkenny@axa.ie;
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 ** INIT Letter to ARP for Ukrainians
 SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
@@ -1122,7 +1124,7 @@ SCHEDULED: <2023-05-27 Sat>
 ** INIT Stackoverflow profile elaboration
 SCHEDULED: <2023-05-31 Wed>
 ** INIT TXT script from YouTube for EReader
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 ** RAW Andrew's private summer lessons
 SCHEDULED: <2023-05-29 Mon>
  - Emacs;
@@ -1134,16 +1136,16 @@ SCHEDULED: <2023-05-29 Mon>
  - SQL;
  - Docker??
 ** TODO English with Lucy
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
 50 personal adjectives
 ** INIT JForrest English
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-28 Sun>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 ** INIT Bulk remote editing selected entries
-SCHEDULED: <2023-05-25 Thu>
+SCHEDULED: <2023-05-26 Fri>
 [[info:org#Agenda Commands][org#Agenda Commands]]
