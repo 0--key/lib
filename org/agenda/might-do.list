@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-05-25 Thu .+1d>
+SCHEDULED: <2023-05-26 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -123,7 +123,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-05-25 Thu .+1d>
+SCHEDULED: <2023-05-26 Fri .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -390,7 +390,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-05-25 Thu .+1d>
+SCHEDULED: <2023-05-26 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -405,6 +405,9 @@ SCHEDULED: <2023-05-25 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-05-25 Thu 18:57]--[2023-05-25 Thu 18:59] =>  0:02
+CLOCK: [2023-05-25 Thu 18:01]--[2023-05-25 Thu 18:03] =>  0:02
+CLOCK: [2023-05-25 Thu 17:48]--[2023-05-25 Thu 17:55] =>  0:07
 CLOCK: [2023-05-24 Wed 10:02]--[2023-05-24 Wed 10:05] =>  0:03
 CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:12] =>  0:03
 CLOCK: [2023-05-23 Tue 15:24]--[2023-05-23 Tue 15:27] =>  0:03
@@ -848,7 +851,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-05-25 Thu ++1d>
+SCHEDULED: <2023-05-26 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -856,6 +859,7 @@ SCHEDULED: <2023-05-25 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-05-25 Thu 18:41]--[2023-05-25 Thu 18:56] =>  0:15
 CLOCK: [2023-05-24 Wed 12:47]--[2023-05-24 Wed 13:05] =>  0:18
 CLOCK: [2023-04-29 Sat 13:16]--[2023-04-29 Sat 13:53] =>  0:37
 CLOCK: [2023-04-27 Thu 17:02]--[2023-04-27 Thu 17:24] =>  0:22
