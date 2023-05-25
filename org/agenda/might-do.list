@@ -911,7 +911,13 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** ACTIVE Vocabulary elaboration
 SCHEDULED: <2023-05-25 Thu>
-  Make an attempt to synthesis sentences out from new words corpora.
+:LOGBOOK:
+CLOCK: [2023-05-25 Thu 17:40]--[2023-05-25 Thu 17:48] =>  0:08
+CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
+:END:
+[[file:~/git/lib/org/vocabulary/202305.org::*seething][Current position#1]] 
+
+ Make an attempt to synthesis sentences out from new words corpora.
   * Synthesis few sentences with new words;
   * Vocabulary extension through:
     * reading books;
