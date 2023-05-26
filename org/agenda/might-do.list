@@ -56,6 +56,7 @@ SCHEDULED: <2023-05-26 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-05-26 Fri 08:21]--[2023-05-26 Fri 08:26] =>  0:05
 CLOCK: [2023-05-25 Thu 17:56]--[2023-05-25 Thu 18:01] =>  0:05
 CLOCK: [2023-05-24 Wed 09:51]--[2023-05-24 Wed 10:02] =>  0:11
 CLOCK: [2023-05-23 Tue 14:13]--[2023-05-23 Tue 14:19] =>  0:06
@@ -635,7 +636,7 @@ SCHEDULED: <2023-05-31 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** Gym with Andrew #3
-SCHEDULED: <2023-05-26 Fri .+1w>
+SCHEDULED: <2023-05-27 Sat .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -808,7 +809,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** INIT Dry Creek Wrangler School
 SCHEDULED: <2023-05-30 Tue>
-** RAW Eudaimonia
+** TODO Eudaimonia
 SCHEDULED: <2023-05-26 Fri>
 [[https://en.wikipedia.org/wiki/Eudaimonia][Eudaimonia - Wikipedia]]
 * Tasks
@@ -1007,7 +1008,7 @@ DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-05-26 Fri>
+SCHEDULED: <2023-05-28 Sun>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -1128,7 +1129,7 @@ SCHEDULED: <2023-05-27 Sat>
 ** INIT Stackoverflow profile elaboration
 SCHEDULED: <2023-05-31 Wed>
 ** INIT TXT script from YouTube for EReader
-SCHEDULED: <2023-05-26 Fri>
+SCHEDULED: <2023-05-28 Sun>
 ** RAW Andrew's private summer lessons
 SCHEDULED: <2023-05-29 Mon>
  - Emacs;
@@ -1151,5 +1152,5 @@ SCHEDULED: <2023-05-28 Sun>
 ** INIT Anton Alexeyev lessons
 SCHEDULED: <2023-05-26 Fri>
 ** INIT Bulk remote editing selected entries
-SCHEDULED: <2023-05-26 Fri>
+SCHEDULED: <2023-05-28 Sun>
 [[info:org#Agenda Commands][org#Agenda Commands]]
