@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-05-26 Fri .+1d>
+SCHEDULED: <2023-06-04 Sun .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -124,7 +124,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-05-26 Fri .+1d>
+SCHEDULED: <2023-06-04 Sun .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -391,7 +391,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-05-26 Fri .+1d>
+SCHEDULED: <2023-06-04 Sun .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -406,6 +406,9 @@ SCHEDULED: <2023-05-26 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-05-26 Fri 10:46]--[2023-05-26 Fri 10:50] =>  0:04
+CLOCK: [2023-05-26 Fri 10:40]--[2023-05-26 Fri 10:43] =>  0:03
+CLOCK: [2023-05-26 Fri 08:26]--[2023-05-26 Fri 08:30] =>  0:04
 CLOCK: [2023-05-25 Thu 18:57]--[2023-05-25 Thu 18:59] =>  0:02
 CLOCK: [2023-05-25 Thu 18:01]--[2023-05-25 Thu 18:03] =>  0:02
 CLOCK: [2023-05-25 Thu 17:48]--[2023-05-25 Thu 17:55] =>  0:07
@@ -511,7 +514,7 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** RAW Monthly archive day .+4w
-SCHEDULED: <2023-05-31 Wed .+4w>
+SCHEDULED: <2023-06-30 Fri .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-02-28 Tue 13:22]
 :END:
@@ -546,7 +549,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-06-07 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-05-30 Tue .+1w>
+SCHEDULED: <2023-06-04 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-05-23 Tue 14:12]
@@ -624,7 +627,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
 *** INIT Gym with Andrew #2
-SCHEDULED: <2023-05-31 Wed .+1w>
+SCHEDULED: <2023-06-07 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 16:10]
 :END:
@@ -665,7 +668,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-06-01 Thu .+1w>
+SCHEDULED: <2023-06-08 Thu .+1w>
 
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-05-27 Sat>
@@ -856,7 +859,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-05-26 Fri ++1d>
+SCHEDULED: <2023-06-04 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -920,8 +923,9 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-05-26 Fri>
+SCHEDULED: <2023-06-04 Sun>
 :LOGBOOK:
+CLOCK: [2023-05-26 Fri 10:50]--[2023-05-26 Fri 11:04] =>  0:14
 CLOCK: [2023-05-25 Thu 17:40]--[2023-05-25 Thu 17:48] =>  0:08
 CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
 :END:
@@ -989,7 +993,7 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** INIT Tracking TODO state changes
-SCHEDULED: <2023-06-02 Fri>
+SCHEDULED: <2023-06-08 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** INIT Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-20 Tue>
@@ -1043,9 +1047,9 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
 ** INIT The most frequent collocations
-SCHEDULED: <2023-06-01 Thu>
+SCHEDULED: <2023-06-08 Thu>
 ** TODO Python code is a lyrics
-SCHEDULED: <2023-05-31 Wed>
+SCHEDULED: <2023-06-20 Tue>
 ** RAW CV elaboration
 SCHEDULED: <2023-05-29 Mon .+2d/3d>
 :PROPERTIES:
@@ -1085,7 +1089,9 @@ CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 SCHEDULED: <2023-05-27 Sat>
 Frames of Mind
 ** INIT The separate set of DONE
-SCHEDULED: <2023-05-31 Wed>
+SCHEDULED: <2023-06-08 Thu>
+- Note taken on [2023-06-04 Sun 13:06] \\
+  3d->1w->3w->2m->archive
 words for chore tasks
 ** INIT Emacs init file
 SCHEDULED: <2023-06-07 Wed>
@@ -1106,7 +1112,7 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 :END:
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
 ** RAW Emacs TUTORIAL
-SCHEDULED: <2023-05-30 Tue>
+SCHEDULED: <2023-06-29 Thu>
 For Andrew <<C-h ?>>
 ** INIT ScreenCasting
 SCHEDULED: <2023-06-06 Tue>
@@ -1132,7 +1138,7 @@ ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** TODO Coursor movement, deletion, search with key-chords
 SCHEDULED: <2023-05-27 Sat>
 ** INIT Stackoverflow profile elaboration
-SCHEDULED: <2023-05-31 Wed>
+SCHEDULED: <2023-06-06 Tue>
 ** INIT TXT script from YouTube for EReader
 SCHEDULED: <2023-05-28 Sun>
 ** RAW Andrew's private summer lessons
