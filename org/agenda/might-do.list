@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-06-04 Sun .+1d>
+SCHEDULED: <2023-06-05 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-06-04 Sun .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-06-05 Mon 17:40]--[2023-06-05 Mon 17:41] =>  0:01
 CLOCK: [2023-05-26 Fri 08:21]--[2023-05-26 Fri 08:26] =>  0:05
 CLOCK: [2023-05-25 Thu 17:56]--[2023-05-25 Thu 18:01] =>  0:05
 CLOCK: [2023-05-24 Wed 09:51]--[2023-05-24 Wed 10:02] =>  0:11
@@ -124,7 +125,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-04 Sun .+1d>
+SCHEDULED: <2023-06-05 Mon .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -209,7 +210,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-06-04 Sun .+3d/4d>
+SCHEDULED: <2023-06-11 Sun .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-06 Thu 14:58]
 :END:
@@ -391,7 +392,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-06-04 Sun .+1d>
+SCHEDULED: <2023-06-05 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -549,7 +550,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-06-07 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-06-04 Sun .+1w>
+SCHEDULED: <2023-06-11 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-05-23 Tue 14:12]
@@ -648,12 +649,13 @@ SCHEDULED: <2023-06-09 Fri .+1w>
 - State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
-*** Gym with Andrew #1
-SCHEDULED: <2023-06-05 Mon .+1w>
+*** RAW Gym with Andrew #1
+SCHEDULED: <2023-06-12 Mon .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-24 Mon 13:01]
+:LAST_REPEAT: [2023-06-05 Mon 17:40]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-06-05 Mon 17:40]
 - State "DONE"       from "ACTIVE"     [2023-04-24 Mon 13:01]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:01]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:16]
@@ -694,7 +696,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-06-04 Sun ++1w>
+SCHEDULED: <2023-06-11 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -811,7 +813,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** INIT Dry Creek Wrangler School
-SCHEDULED: <2023-06-05 Mon>
+SCHEDULED: <2023-06-09 Fri>
 ** TODO Eudaimonia
 SCHEDULED: <2023-06-09 Fri>
 :LOGBOOK:
@@ -859,7 +861,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-06-04 Sun ++1d>
+SCHEDULED: <2023-06-07 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -923,7 +925,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-06-04 Sun>
+SCHEDULED: <2023-06-05 Mon>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 10:50]--[2023-05-26 Fri 11:04] =>  0:14
 CLOCK: [2023-05-25 Thu 17:40]--[2023-05-25 Thu 17:48] =>  0:08
@@ -938,7 +940,7 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * watching YouTube with transcripts.
 
 *** RAW Proverbs
-SCHEDULED: <2023-06-04 Sun .+2d/3d>
+SCHEDULED: <2023-06-25 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -966,7 +968,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** ACTIVE Quotations
-SCHEDULED: <2023-06-05 Mon .+2d/3d>
+SCHEDULED: <2023-06-25 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -1051,7 +1053,7 @@ SCHEDULED: <2023-06-08 Thu>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-06-20 Tue>
 ** RAW CV elaboration
-SCHEDULED: <2023-06-05 Mon .+2d/3d>
+SCHEDULED: <2023-06-07 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1080,7 +1082,7 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** TODO LinkedIn
-SCHEDULED: <2023-06-05 Mon>
+SCHEDULED: <2023-06-07 Wed>
 :LOGBOOK:
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
@@ -1121,7 +1123,7 @@ SCHEDULED: <2023-06-06 Tue>
 - YouTube upload
 - Another screen test
 ** INIT Paul Auster
-SCHEDULED: <2023-06-04 Sun>
+SCHEDULED: <2023-07-02 Sun>
 ** INIT Keep Going Austin Kleon
 SCHEDULED: <2023-06-10 Sat>
 ** INIT Letter to ARP for Ukrainians
@@ -1148,13 +1150,13 @@ SCHEDULED: <2023-06-11 Sun>
  - SQL;
  - Docker??
 ** TODO English with Lucy
-SCHEDULED: <2023-06-04 Sun>
+SCHEDULED: <2023-06-11 Sun>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
 50 personal adjectives
 ** INIT JForrest English
-SCHEDULED: <2023-06-04 Sun>
+SCHEDULED: <2023-06-11 Sun>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
 SCHEDULED: <2023-06-07 Wed>
