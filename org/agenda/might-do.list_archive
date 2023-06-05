@@ -208,3 +208,15 @@ SCHEDULED: <2023-05-25 Thu>
 :ARCHIVE_CATEGORY: Thesis
 :ARCHIVE_TODO: DONE
 :END:
+
+* INIT New address to AXA and Clare
+SCHEDULED: <2023-05-28 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-06-04 Sun 13:12
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Thesis
+:ARCHIVE_TODO: INIT
+:END:
+axa.letterkenny@axa.ie;
+SCHEDULED: <2023-05-26 Fri>
