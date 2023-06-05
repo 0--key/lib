@@ -64,6 +64,8 @@
 (require 'voca-builder)
 (setq voca-builder/voca-file "~/git/lib/org/vocabulary/202305.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
+(setq voca-builder/current-tag "48")
+(setq voca-builder/current-tag "sattelite")
 (setq voca-builder/current-tag "misc")
 
 (key-chord-define-global "tr"     'google-translate-at-point)
