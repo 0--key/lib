@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-06-05 Mon .+1d>
+SCHEDULED: <2023-06-06 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-06-05 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-06-06 Tue 06:55]--[2023-06-06 Tue 07:12] =>  0:17
 CLOCK: [2023-06-05 Mon 17:40]--[2023-06-05 Mon 17:41] =>  0:01
 CLOCK: [2023-05-26 Fri 08:21]--[2023-05-26 Fri 08:26] =>  0:05
 CLOCK: [2023-05-25 Thu 17:56]--[2023-05-25 Thu 18:01] =>  0:05
@@ -125,7 +126,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-05 Mon .+1d>
+SCHEDULED: <2023-06-06 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -136,6 +137,7 @@ SCHEDULED: <2023-06-05 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-06-05 Mon 18:46]--[2023-06-05 Mon 18:47] =>  0:01
 CLOCK: [2023-04-11 Tue 17:03]--[2023-04-11 Tue 17:06] =>  0:03
 CLOCK: [2023-04-06 Thu 14:55]--[2023-04-06 Thu 14:59] =>  0:04
 CLOCK: [2023-03-30 Thu 15:58]--[2023-03-30 Thu 15:59] =>  0:01
@@ -343,7 +345,10 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** ACTIVE Clocking tasks execution
-SCHEDULED: <2023-06-06 Tue>
+SCHEDULED: <2023-08-13 Sun>
+- Note taken on [2023-06-06 Tue 07:05] \\
+  Now it seems not actual and uncertain, so just postpone it on two
+  months.
 org-clock-out Global
 org-clock-in & with C-u
 org-clock-in-last Global
@@ -392,7 +397,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-06-05 Mon .+1d>
+SCHEDULED: <2023-06-06 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -807,7 +812,7 @@ SCHEDULED: <2023-07-11 Tue>
 SCHEDULED: <2023-06-08 Thu>
 For capture and marks and??
 ** INIT Phronesis
-SCHEDULED: <2023-06-05 Mon>
+SCHEDULED: <2023-06-07 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
@@ -832,8 +837,8 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** RAW Workspace decluttering
-SCHEDULED: <2023-06-05 Mon ++2w>
+** TODO Workspace decluttering
+SCHEDULED: <2023-06-06 Tue ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-05-22 Mon 12:14]
 :END:
@@ -925,7 +930,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-06-05 Mon>
+SCHEDULED: <2023-06-07 Wed>
 :LOGBOOK:
 CLOCK: [2023-06-05 Mon 17:50]--[2023-06-05 Mon 18:01] =>  0:11
 CLOCK: [2023-05-26 Fri 10:50]--[2023-05-26 Fri 11:04] =>  0:14
@@ -1118,7 +1123,12 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 SCHEDULED: <2023-06-29 Thu>
 For Andrew <<C-h ?>>
 ** INIT ScreenCasting
-SCHEDULED: <2023-06-06 Tue>
+SCHEDULED: <2023-08-06 Sun>
+- Note taken on [2023-06-06 Tue 06:56] \\
+  Seems like it is a separate skill to develop out from the set of
+  already existing ones. And without any doubt it requres a massive
+  amount of time and efforts. Yes, it is intimidating, thus postponed in
+  a couple months.
 - Sound;
 - Shortcuts for stop
 - YouTube upload
@@ -1137,8 +1147,14 @@ ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** TODO Coursor movement, deletion, search with key-chords
 SCHEDULED: <2023-06-08 Thu>
 ** INIT Stackoverflow profile elaboration
-SCHEDULED: <2023-06-06 Tue>
-** INIT TXT script from YouTube for EReader
+SCHEDULED: <2023-08-06 Sun>
+- Note taken on [2023-06-06 Tue 06:59] \\
+  It's an optional skill and might been acquired in a leasure or idle
+  time a little bit later. Naturally it relates from the applied
+  knoledge of programming tidbits.
+
+  So it is postponed on a two months initially.
+** TODO TXT script from YouTube for EReader
 SCHEDULED: <2023-06-06 Tue>
 ** RAW Andrew's private summer lessons
 SCHEDULED: <2023-06-11 Sun>
@@ -1164,3 +1180,5 @@ SCHEDULED: <2023-06-07 Wed>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-06-18 Sun>
 [[info:org#Agenda Commands][org#Agenda Commands]]
+** INIT RAW tasks assignment at each Sunday
+SCHEDULED: <2023-06-11 Sun>
