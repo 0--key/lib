@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-06-06 Tue .+1d>
+SCHEDULED: <2023-06-07 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-06-06 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-06-07 Wed 12:10]--[2023-06-07 Wed 12:16] =>  0:06
 CLOCK: [2023-06-06 Tue 06:55]--[2023-06-06 Tue 07:12] =>  0:17
 CLOCK: [2023-06-05 Mon 17:40]--[2023-06-05 Mon 17:41] =>  0:01
 CLOCK: [2023-05-26 Fri 08:21]--[2023-05-26 Fri 08:26] =>  0:05
@@ -126,7 +127,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-06 Tue .+1d>
+SCHEDULED: <2023-06-07 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -253,7 +254,7 @@ for time ratio on gathering and digesting
 SCHEDULED: <2022-12-08 Thu>
 What is it?
 
-** ACTIVE Text search in additional files
+** ACTIVE Text search in additional files                          :ARCHIVE:
 SCHEDULED: <2023-06-07 Wed +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-07 Mon 14:15]
@@ -397,7 +398,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-06-06 Tue .+1d>
+SCHEDULED: <2023-06-07 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -508,7 +509,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** INIT Tracking your habits
-SCHEDULED: <2023-06-07 Wed .+2w>
+SCHEDULED: <2023-06-14 Wed .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -552,7 +553,7 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** INIT TODO keywords as types
-SCHEDULED: <2023-06-07 Wed>
+SCHEDULED: <2023-06-14 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
 SCHEDULED: <2023-06-11 Sun .+1w>
@@ -678,10 +679,12 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-06-08 Thu .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-06-06 Tue>
+SCHEDULED: <2023-06-13 Tue>
 
 
 
+- Note taken on [2023-06-07 Wed 12:07] \\
+  And visit Intreo Office at 10.50
 ** INIT Reading Alice
 SCHEDULED: <2023-06-17 Sat .+2d/3d>
 :PROPERTIES:
@@ -838,7 +841,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** TODO Workspace decluttering
-SCHEDULED: <2023-06-06 Tue ++2w>
+SCHEDULED: <2023-06-07 Wed ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-05-22 Mon 12:14]
 :END:
@@ -1059,7 +1062,7 @@ SCHEDULED: <2023-06-08 Thu>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-06-20 Tue>
 ** RAW CV elaboration
-SCHEDULED: <2023-06-07 Wed .+2d/3d>
+SCHEDULED: <2023-06-09 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1074,7 +1077,7 @@ SCHEDULED: <2023-06-23 Fri>
 ** INIT CodeWars
 SCHEDULED: <2023-06-08 Thu>
 ** INIT Cracking coding interview
-SCHEDULED: <2023-06-06 Tue>
+SCHEDULED: <2023-06-08 Thu>
 ** ACTIVE Mark Lutz
 SCHEDULED: <2023-06-10 Sat>
 :LOGBOOK:
@@ -1088,7 +1091,7 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** TODO LinkedIn
-SCHEDULED: <2023-06-07 Wed>
+SCHEDULED: <2023-06-09 Fri>
 :LOGBOOK:
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
@@ -1155,7 +1158,12 @@ SCHEDULED: <2023-08-06 Sun>
 
   So it is postponed on a two months initially.
 ** TODO TXT script from YouTube for EReader
-SCHEDULED: <2023-06-06 Tue>
+SCHEDULED: <2023-06-08 Thu>
+:LOGBOOK:
+CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
+:END:
+- Note taken on [2023-06-06 Tue 07:40] \\
+  Or even pure /.txt/ form to dissect it in ~Emacs~ directly
 ** RAW Andrew's private summer lessons
 SCHEDULED: <2023-06-11 Sun>
  - Emacs;
@@ -1176,9 +1184,11 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 SCHEDULED: <2023-06-11 Sun>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
-SCHEDULED: <2023-06-07 Wed>
+SCHEDULED: <2023-06-15 Thu>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-06-18 Sun>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** INIT RAW tasks assignment at each Sunday
 SCHEDULED: <2023-06-11 Sun>
+** RAW Delete region detouring kill-ring
+[[https://stackoverflow.com/questions/637351/emacs-how-to-delete-text-without-kill-ring][link]]
