@@ -633,7 +633,7 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** INIT Gym with Andrew #2
+*** ACTIVE Gym with Andrew #2
 SCHEDULED: <2023-06-07 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 16:10]
@@ -840,7 +840,7 @@ create your key binding like this:
  
  [[info:org#Capture templates][org#Capture templates]]
 
-** TODO Workspace decluttering
+** ACTIVE Workspace decluttering
 SCHEDULED: <2023-06-07 Wed ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-05-22 Mon 12:14]
@@ -869,7 +869,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-06-07 Wed ++1d>
+SCHEDULED: <2023-06-10 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -877,6 +877,7 @@ SCHEDULED: <2023-06-07 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-06-07 Wed 12:24]--[2023-06-07 Wed 12:53] =>  0:29
 CLOCK: [2023-05-25 Thu 18:41]--[2023-05-25 Thu 18:56] =>  0:15
 CLOCK: [2023-05-24 Wed 12:47]--[2023-05-24 Wed 13:05] =>  0:18
 CLOCK: [2023-04-29 Sat 13:16]--[2023-04-29 Sat 13:53] =>  0:37
