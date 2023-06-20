@@ -888,7 +888,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-06-20 Tue ++2d/3d>
+SCHEDULED: <2023-06-23 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -1227,7 +1227,7 @@ SCHEDULED: <2023-06-25 Sun>
 ** INIT How to say thank you
 SCHEDULED: <2023-06-21 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
-** INIT ChatGPT
+** TODO ChatGPT
 SCHEDULED: <2023-06-20 Tue>
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
@@ -1253,5 +1253,5 @@ SCHEDULED: <2023-07-11 Tue>
 SCHEDULED: <2023-07-18 Tue>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
-** INIT 68 Bits of Unsolicited Advice
+** TODO 68 Bits of Unsolicited Advice
 SCHEDULED: <2023-06-20 Tue>
