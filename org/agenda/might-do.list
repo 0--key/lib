@@ -953,7 +953,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-06-24 Sat>
+SCHEDULED: <2023-06-21 Wed>
 :LOGBOOK:
 CLOCK: [2023-06-05 Mon 17:50]--[2023-06-05 Mon 18:01] =>  0:11
 CLOCK: [2023-05-26 Fri 10:50]--[2023-05-26 Fri 11:04] =>  0:14
@@ -1124,6 +1124,7 @@ SCHEDULED: <2023-06-29 Thu>
 - Note taken on [2023-06-04 Sun 13:06] \\
   3d->1w->3w->2m->archive
 words for chore tasks
+The item gestation ==> elaboration ==> enhancement ===> archiving
 ** INIT Emacs init file
 SCHEDULED: <2023-06-25 Sun>
 [[info:emacs#Init File][emacs#Init File]]
@@ -1131,8 +1132,12 @@ SCHEDULED: <2023-06-25 Sun>
 SCHEDULED: <2023-06-21 Wed>
 [[info:org#Handling Links][org#Handling Links]]
 ** INIT Agenda commands
-SCHEDULED: <2023-06-20 Tue>
-[[org#Agenda Views]]
+SCHEDULED: <2023-06-22 Thu>
+:LOGBOOK:
+CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
+:END:
+[[info:org#Agenda Views][org#Agenda Views]]
+[[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** TODO Personal Development
 SCHEDULED: <2023-06-21 Wed>
 :LOGBOOK:
@@ -1232,7 +1237,13 @@ SCHEDULED: <2023-06-26 Mon>
 ** RAW Ross Ashby
 [[http://www.rossashby.info/index.html][archive]]
 ** INIT Irreal blog
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-06-22 Thu>
+- Note taken on [2023-06-20 Tue 11:29] \\
+  [[http://irreal.org/blog/][Irreal | Blog]]
+:LOGBOOK:
+CLOCK: [2023-06-20 Tue 11:03]--[2023-06-20 Tue 11:28] =>  0:25
+CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
+:END:
 [[http://irreal.org/emacs-reminders.html][reading for fun]]
 ** RAW Micro Trading
 ** INIT Framework Thinking
