@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-06-19 Mon .+1d>
+SCHEDULED: <2023-06-20 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-06-19 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-06-20 Tue 08:21]--[2023-06-20 Tue 08:26] =>  0:05
 CLOCK: [2023-06-19 Mon 10:26]--[2023-06-19 Mon 10:29] =>  0:03
 CLOCK: [2023-06-07 Wed 12:10]--[2023-06-07 Wed 12:16] =>  0:06
 CLOCK: [2023-06-06 Tue 06:55]--[2023-06-06 Tue 07:12] =>  0:17
@@ -128,7 +129,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-19 Mon .+1d>
+SCHEDULED: <2023-06-20 Tue .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -400,7 +401,7 @@ SCHEDULED: <2022-11-08 Tue>
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 ** >Git<
-SCHEDULED: <2023-06-19 Mon .+1d>
+SCHEDULED: <2023-06-20 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -665,12 +666,13 @@ SCHEDULED: <2023-06-23 Fri .+1w>
 - State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
-*** ACTIVE Gym with Andrew #1
-SCHEDULED: <2023-06-19 Mon .+1w>
+*** RAW Gym with Andrew #1
+SCHEDULED: <2023-06-27 Tue .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-06-05 Mon 17:40]
+:LAST_REPEAT: [2023-06-20 Tue 08:15]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-06-20 Tue 08:15]
 - State "DONE"       from "ACTIVE"     [2023-06-05 Mon 17:40]
 - State "DONE"       from "ACTIVE"     [2023-04-24 Mon 13:01]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:01]
@@ -714,7 +716,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-06-25 Sun ++1w>
+SCHEDULED: <2023-06-20 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -831,7 +833,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** INIT Dry Creek Wrangler School
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-07-04 Tue>
 ** TODO Eudaimonia
 SCHEDULED: <2023-06-27 Tue>
 :LOGBOOK:
@@ -851,7 +853,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** ACTIVE Workspace decluttering
-SCHEDULED: <2023-06-19 Mon ++2w>
+SCHEDULED: <2023-06-20 Tue ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-05-22 Mon 12:14]
 :END:
@@ -880,7 +882,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 ** Touch typing
-SCHEDULED: <2023-06-19 Mon ++2d/3d>
+SCHEDULED: <2023-06-20 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
 :END:
@@ -1126,7 +1128,7 @@ SCHEDULED: <2023-06-21 Wed>
 SCHEDULED: <2023-06-20 Tue>
 [[org#Agenda Views]]
 ** TODO Personal Development
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-06-21 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
 CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
@@ -1196,7 +1198,7 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 SCHEDULED: <2023-06-28 Wed>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-06-21 Wed>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-06-23 Fri>
 [[info:org#Agenda Commands][org#Agenda Commands]]
