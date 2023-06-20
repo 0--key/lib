@@ -400,6 +400,8 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
+** ~RAW tasks weekly trimming~ 
+SCHEDULED: <2023-06-25 Sun>
 ** >Git<
 SCHEDULED: <2023-06-20 Tue .+1d>
 :PROPERTIES:
@@ -719,7 +721,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-06-21 Wed ++1w>
+SCHEDULED: <2023-06-21 Wed>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -1234,8 +1236,10 @@ SCHEDULED: <2023-06-20 Tue>
 [[http://irreal.org/emacs-reminders.html][reading for fun]]
 ** RAW Micro Trading
 ** INIT Framework Thinking
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-07-11 Tue>
 ** RAW Time is Space Concept
 SCHEDULED: <2023-07-18 Tue>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
+** INIT 68 Bits of Unsolicited Advice
+SCHEDULED: <2023-06-20 Tue>
