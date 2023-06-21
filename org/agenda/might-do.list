@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#B] Daily tasks pile assay
-SCHEDULED: <2023-06-20 Tue .+1d>
+SCHEDULED: <2023-06-21 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -56,6 +56,7 @@ SCHEDULED: <2023-06-20 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-06-21 Wed 08:13]--[2023-06-21 Wed 08:20] =>  0:07
 CLOCK: [2023-06-20 Tue 08:21]--[2023-06-20 Tue 08:26] =>  0:05
 CLOCK: [2023-06-19 Mon 10:26]--[2023-06-19 Mon 10:29] =>  0:03
 CLOCK: [2023-06-07 Wed 12:10]--[2023-06-07 Wed 12:16] =>  0:06
@@ -129,7 +130,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-20 Tue .+1d>
+SCHEDULED: <2023-06-21 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -403,7 +404,7 @@ CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 ** ~RAW tasks weekly trimming~ 
 SCHEDULED: <2023-06-25 Sun>
 ** >Git<
-SCHEDULED: <2023-06-20 Tue .+1d>
+SCHEDULED: <2023-06-21 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -1129,8 +1130,11 @@ The item gestation ==> elaboration ==> enhancement ===> archiving
 ** INIT Emacs init file
 SCHEDULED: <2023-06-25 Sun>
 [[info:emacs#Init File][emacs#Init File]]
-** INIT Handling links
-SCHEDULED: <2023-06-21 Wed>
+** TODO Handling links
+SCHEDULED: <2023-06-23 Fri>
+:LOGBOOK:
+CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
+:END:
 [[info:org#Handling Links][org#Handling Links]]
 ** INIT Agenda commands
 SCHEDULED: <2023-06-22 Thu>
@@ -1228,7 +1232,7 @@ SCHEDULED: <2023-06-25 Sun>
 SCHEDULED: <2023-06-21 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** TODO ChatGPT
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-06-21 Wed>
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
@@ -1254,4 +1258,4 @@ SCHEDULED: <2023-07-18 Tue>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
 ** TODO 68 Bits of Unsolicited Advice
-SCHEDULED: <2023-06-20 Tue>
+SCHEDULED: <2023-06-21 Wed>
