@@ -34,7 +34,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 ** [#C] Daily tasks pile assay
-SCHEDULED: <2023-06-21 Wed .+1d>
+SCHEDULED: <2023-06-22 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -130,7 +130,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 ** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-06-21 Wed .+1d>
+SCHEDULED: <2023-06-22 Thu .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa>>
 :LAST_REPEAT: [2022-12-08 Thu 20:40]
@@ -404,7 +404,7 @@ CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 ** ~RAW tasks weekly trimming~ 
 SCHEDULED: <2023-06-25 Sun>
 ** >Git<
-SCHEDULED: <2023-06-21 Wed .+1d>
+SCHEDULED: <2023-06-22 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-06 Tue 17:31]
 :CATEGORY: Chore
@@ -419,6 +419,8 @@ SCHEDULED: <2023-06-21 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-06-21 Wed 18:36]--[2023-06-21 Wed 18:40] =>  0:04
+CLOCK: [2023-06-21 Wed 08:28]--[2023-06-21 Wed 08:30] =>  0:02
 CLOCK: [2023-06-20 Tue 08:26]--[2023-06-20 Tue 08:27] =>  0:01
 CLOCK: [2023-06-19 Mon 10:29]--[2023-06-19 Mon 10:31] =>  0:02
 CLOCK: [2023-06-19 Mon 10:25]--[2023-06-19 Mon 10:25] =>  0:00
@@ -723,7 +725,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-06-22 Thu>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -861,7 +863,7 @@ create your key binding like this:
  [[info:org#Capture templates][org#Capture templates]]
 
 ** ACTIVE Workspace decluttering
-SCHEDULED: <2023-06-21 Wed ++2w>
+SCHEDULED: <2023-06-22 Thu ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-05-22 Mon 12:14]
 :END:
@@ -956,7 +958,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :CATEGORY: Glom
 :END:
 *** ACTIVE Vocabulary elaboration
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-06-22 Thu>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 18:06]--[2023-06-21 Wed 18:36] =>  0:30
 CLOCK: [2023-06-05 Mon 17:50]--[2023-06-05 Mon 18:01] =>  0:11
@@ -1051,7 +1053,7 @@ DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** INIT Capture for idioms
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-06-22 Thu>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -1146,7 +1148,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** TODO Personal Development
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-07-05 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
 CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
@@ -1216,7 +1218,7 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 SCHEDULED: <2023-06-28 Wed>
 150 Common Idioms
 ** INIT Anton Alexeyev lessons
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-06-24 Sat>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-06-23 Fri>
 [[info:org#Agenda Commands][org#Agenda Commands]]
@@ -1231,7 +1233,7 @@ SCHEDULED: <2023-06-25 Sun>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-06-21 Wed>
+SCHEDULED: <2023-06-22 Thu>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** TODO [#B] ChatGPT
 SCHEDULED: <2023-06-26 Mon>
