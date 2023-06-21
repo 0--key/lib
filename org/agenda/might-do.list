@@ -33,7 +33,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-** [#B] Daily tasks pile assay
+** [#C] Daily tasks pile assay
 SCHEDULED: <2023-06-21 Wed .+1d>
 :PROPERTIES:
 :CATEGORY: MeTa!!
@@ -650,12 +650,13 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** ACTIVE Gym with Andrew #2
-SCHEDULED: <2023-06-21 Wed .+1w>
+*** RAW Gym with Andrew #2
+SCHEDULED: <2023-06-28 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-26 Wed 16:10]
+:LAST_REPEAT: [2023-06-21 Wed 18:04]
 :END:
 
+- State "DONE"       from "ACTIVE"     [2023-06-21 Wed 18:04]
 - State "DONE"       from "ACTIVE"     [2023-04-26 Wed 16:10]
 - State "DONE"       from "ACTIVE"     [2023-04-12 Wed 15:41]
 - State "DONE"       from "ACTIVE"     [2023-03-29 Wed 13:53]
@@ -1232,8 +1233,11 @@ SCHEDULED: <2023-06-25 Sun>
 ** INIT How to say thank you
 SCHEDULED: <2023-06-21 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
-** TODO ChatGPT
-SCHEDULED: <2023-06-21 Wed>
+** TODO [#B] ChatGPT
+SCHEDULED: <2023-06-26 Mon>
+:LOGBOOK:
+CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
+:END:
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
