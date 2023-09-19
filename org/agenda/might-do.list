@@ -8,6 +8,9 @@ Advanced to-do list    -*- mode: org; -*-
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Thesis
 #+TODO: RAW INIT TODO ACTIVE | DONE
+#+TODO: LAG DELAY RETARD | STARK
+#+TODO: | FROZEN
+
 
 * Personal Development
 :PROPERTIES:
