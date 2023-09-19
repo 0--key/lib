@@ -841,6 +841,35 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 
+** ACTIVE Workspace decluttering
+SCHEDULED: <2023-06-22 Thu ++2w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-05-22 Mon 12:14]
+:END:
+- State "DONE"       from "ACTIVE"     [2023-05-22 Mon 12:14]
+- State "DONE"       from "ACTIVE"     [2023-04-27 Thu 17:02]
+- State "DONE"       from "ACTIVE"     [2023-04-12 Wed 17:47]
+- State "DONE"       from "ACTIVE"     [2023-03-29 Wed 14:43]
+- State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
+- State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
+:LOGBOOK:
+CLOCK: [2023-06-07 Wed 17:37]--[2023-06-07 Wed 18:32] =>  0:55
+CLOCK: [2023-05-22 Mon 11:39]--[2023-05-22 Mon 12:14] =>  0:35
+CLOCK: [2023-05-22 Mon 10:49]--[2023-05-22 Mon 11:13] =>  0:24
+CLOCK: [2023-05-22 Mon 09:52]--[2023-05-22 Mon 09:57] =>  0:05
+CLOCK: [2023-04-27 Thu 15:58]--[2023-04-27 Thu 16:41] =>  0:43
+CLOCK: [2023-04-27 Thu 15:09]--[2023-04-27 Thu 15:30] =>  0:21
+CLOCK: [2023-04-26 Wed 16:10]--[2023-04-26 Wed 16:23] =>  0:13
+CLOCK: [2023-04-12 Wed 15:59]--[2023-04-12 Wed 15:15] =>  0:16
+CLOCK: [2023-03-29 Wed 13:58]--[2023-03-29 Wed 14:12] =>  0:14
+CLOCK: [2023-03-15 Wed 11:15]--[2023-03-15 Wed 11:34] =>  0:19
+CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 11:46]
+Remove all unnecessary:
+ - tabs on Google Chrome;
+ - buffers in Emacs;
+ - and restart OS.
 ** Rehearsal
 :PROPERTIES:
 :CATEGORY: Glom
