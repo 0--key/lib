@@ -219,7 +219,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-06-22 Thu .+3d/4d>
+SCHEDULED: <2023-09-22 Fri .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-06-19 Mon 10:26]
 :END:
@@ -381,7 +381,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** INIT Archive Day Weekly
-SCHEDULED: <2023-06-22 Thu +1w>
+SCHEDULED: <2023-09-22 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-25 Fri 09:35]
 :END:
@@ -575,7 +575,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-06-29 Thu>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-06-25 Sun .+1w>
+SCHEDULED: <2023-09-19 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-06-19 Mon 10:27]
@@ -728,7 +728,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-06-22 Thu>
+SCHEDULED: <2023-09-22 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -785,16 +785,16 @@ CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
 ** ACTIVE Book
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-23 Sat>
 Play ~ Stuart Brown&Christopher Vaughan
 ** ACTIVE Book
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-23 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
 ** ACTIVE Book
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-23 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -1223,7 +1223,7 @@ SCHEDULED: <2023-06-28 Wed>
 ** INIT Anton Alexeyev lessons
 SCHEDULED: <2023-06-24 Sat>
 ** INIT Bulk remote editing selected entries
-SCHEDULED: <2023-06-23 Fri>
+SCHEDULED: <2023-09-19 Tue>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** INIT RAW tasks assignment at each Sunday
 SCHEDULED: <2023-06-25 Sun>
