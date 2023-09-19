@@ -6,7 +6,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+LANGUAGE: en
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
-#+CATEGORY: Thesis
+#+CATEGORY: Main
 #+TODO: RAW INIT TODO ACTIVE | DONE
 #+TODO: LAG DELAY RETARD | STARK
 #+TODO: | FROZEN
