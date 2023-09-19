@@ -953,6 +953,16 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 
+** INIT To define special keys to capture to a particular template :ARCHIVE:
+SCHEDULED: <2022-12-16 Fri>
+without going through the interactive template selection, you can
+create your key binding like this:
+
+     (define-key global-map (kbd "C-c x")
+       (lambda () (interactive) (org-capture nil "x")))
+ 
+ [[info:org#Capture templates][org#Capture templates]]
+
 ** ACTIVE Workspace decluttering
 SCHEDULED: <2023-06-22 Thu ++2w>
 :PROPERTIES:
