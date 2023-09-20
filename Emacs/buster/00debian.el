@@ -62,7 +62,7 @@
 (setq google-translate-default-target-language "ru")
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202305.org")
+(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202309.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "48")
 (setq voca-builder/current-tag "sattelite")
