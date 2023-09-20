@@ -661,7 +661,10 @@ Thought gestation usually is a delicate and time-consuming process.
 SCHEDULED: <2023-09-21 Thu>
 For open-source projects contributing
 ** INIT Thought Cast
-SCHEDULED: <2023-09-20 Wed>
+SCHEDULED: <2023-09-21 Thu>
+:LOGBOOK:
+CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
+:END:
 FarnamStreet overview
 ** INIT 3 months in the future shift
 SCHEDULED: <2023-09-21 Thu>
@@ -692,7 +695,8 @@ SCHEDULED: <2023-09-20 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-09-20 Wed 07:39]
+CLOCK: [2023-09-20 Wed 09:28]--[2023-09-20 Wed 09:34] =>  0:06
+CLOCK: [2023-09-20 Wed 08:44]--[2023-09-20 Wed 08:45] =>  0:01
 CLOCK: [2023-09-20 Wed 07:39]--[2023-09-20 Wed 08:23] =>  0:44
 CLOCK: [2023-06-21 Wed 18:36]--[2023-06-21 Wed 18:40] =>  0:04
 CLOCK: [2023-06-21 Wed 08:28]--[2023-06-21 Wed 08:30] =>  0:02
@@ -791,7 +795,7 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-***  Touch typing
+*** Touch typing
 SCHEDULED: <2023-09-20 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-07 Wed 19:25]
@@ -1000,8 +1004,8 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
  - and restart OS.
-
-
+*** CodeWars
+SCHEDULED: <2023-09-21 Thu ++2d/3d>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1146,20 +1150,20 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 SCHEDULED: <2023-06-30 Fri>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-06-25 Sun>
-** RAW CV elaboration
-SCHEDULED: <2023-09-20 Wed .+2d/3d>
+** ACTIVE CV elaboration
+SCHEDULED: <2023-09-21 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-09-20 Wed 09:01]--[2023-09-20 Wed 09:28] =>  0:27
 CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
 CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
+[[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
 ** INIT Global and Local Variables in Python
-SCHEDULED: <2023-06-25 Sun>
-** INIT CodeWars
 SCHEDULED: <2023-06-25 Sun>
 ** INIT Cracking coding interview
 SCHEDULED: <2023-06-25 Sun>
@@ -1175,8 +1179,8 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** TODO LinkedIn
-SCHEDULED: <2023-09-20 Wed>
+** ACTIVE LinkedIn
+SCHEDULED: <2023-09-21 Thu>
 :LOGBOOK:
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
