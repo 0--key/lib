@@ -658,7 +658,7 @@ Thought gestation usually is a delicate and time-consuming process.
 
 #+end_src
 ** INIT AWS micro-instance
-SCHEDULED: <2023-09-20 Wed>
+SCHEDULED: <2023-09-21 Thu>
 For open-source projects contributing
 ** INIT Thought Cast
 SCHEDULED: <2023-09-21 Thu>
@@ -696,6 +696,8 @@ SCHEDULED: <2023-09-20 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
 CLOCK: [2023-09-20 Wed 17:49]
+CLOCK: [2023-09-20 Wed 19:41]
+CLOCK: [2023-09-20 Wed 17:49]--[2023-09-20 Wed 17:52] =>  0:03
 CLOCK: [2023-09-20 Wed 11:23]--[2023-09-20 Wed 11:25] =>  0:02
 CLOCK: [2023-09-20 Wed 09:28]--[2023-09-20 Wed 09:34] =>  0:06
 CLOCK: [2023-09-20 Wed 08:44]--[2023-09-20 Wed 08:45] =>  0:01
@@ -959,16 +961,18 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-20 Wed .+1d>
+SCHEDULED: <2023-09-21 Thu .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-08 Thu 20:40]
+:LAST_REPEAT: [2023-09-20 Wed 19:41]
 :END:
+- State "Done"       from ""           [2023-09-20 Wed 19:41]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:40]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 14:02]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-09-20 Wed 19:40]--[2023-09-20 Wed 19:41] =>  0:01
 CLOCK: [2023-09-20 Wed 17:41]--[2023-09-20 Wed 17:49] =>  0:08
 CLOCK: [2023-06-05 Mon 18:46]--[2023-06-05 Mon 18:47] =>  0:01
 CLOCK: [2023-04-11 Tue 17:03]--[2023-04-11 Tue 17:06] =>  0:03
@@ -1205,8 +1209,9 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** ACTIVE LinkedIn
-SCHEDULED: <2023-09-20 Wed>
+SCHEDULED: <2023-09-21 Thu>
 :LOGBOOK:
+CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
