@@ -1035,7 +1035,19 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
   * Vocabulary extension through:
     * reading books;
     * watching YouTube with transcripts.
-
+*** Audition
+SCHEDULED: <2023-09-22 Fri ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-20 Wed 17:41]
+:END:
+- State "Done"       from ""           [2023-09-20 Wed 17:41]
+:LOGBOOK:
+CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
+:END:
+*** English We Speak
+SCHEDULED: <2023-09-27 Wed ++1w>
+*** English Grammar
+SCHEDULED: <2023-09-25 Mon ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
