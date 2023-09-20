@@ -657,6 +657,21 @@ Thought gestation usually is a delicate and time-consuming process.
     )  
 
 #+end_src
+** INIT AWS micro-instance
+SCHEDULED: <2023-09-21 Thu>
+For open-source projects contributing
+** INIT Thought Cast
+SCHEDULED: <2023-09-20 Wed>
+FarnamStreet overview
+** INIT 3 months in the future shift
+SCHEDULED: <2023-09-21 Thu>
++ switch on to another state (DELAY) set macros
+** RAW Dedicated window registers for:
+- *scratch* buffer;
+- magit's buffers;
+- *Org-Agenda*
++ and key-chord for speed access
+
 * Tasks
 ** Chores
 :PROPERTIES:
@@ -678,6 +693,7 @@ SCHEDULED: <2023-09-20 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
 CLOCK: [2023-09-20 Wed 07:39]
+CLOCK: [2023-09-20 Wed 07:39]--[2023-09-20 Wed 08:23] =>  0:44
 CLOCK: [2023-06-21 Wed 18:36]--[2023-06-21 Wed 18:40] =>  0:04
 CLOCK: [2023-06-21 Wed 08:28]--[2023-06-21 Wed 08:30] =>  0:02
 CLOCK: [2023-06-20 Tue 08:26]--[2023-06-20 Tue 08:27] =>  0:01
@@ -858,6 +874,7 @@ SCHEDULED: <2023-09-20 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-20 Wed 08:24]--[2023-09-20 Wed 08:44] =>  0:20
 CLOCK: [2023-09-20 Wed 07:11]--[2023-09-20 Wed 07:39] =>  0:28
 CLOCK: [2023-06-21 Wed 08:13]--[2023-06-21 Wed 08:20] =>  0:07
 CLOCK: [2023-06-20 Tue 08:21]--[2023-06-20 Tue 08:26] =>  0:05
