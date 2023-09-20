@@ -1006,16 +1006,6 @@ Remove all unnecessary:
  - and restart OS.
 *** CodeWars
 SCHEDULED: <2023-09-21 Thu ++2d/3d>
-** INIT To define special keys to capture to a particular template :ARCHIVE:
-SCHEDULED: <2022-12-16 Fri>
-without going through the interactive template selection, you can
-create your key binding like this:
-
-     (define-key global-map (kbd "C-c x")
-       (lambda () (interactive) (org-capture nil "x")))
- 
- [[info:org#Capture templates][org#Capture templates]]
-
 *** Vocabulary elaboration
 SCHEDULED: <2023-09-21 Thu ++1d>
 :PROPERTIES:
@@ -1038,6 +1028,20 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * reading books;
     * watching YouTube with transcripts.
 
+** INIT To define special keys to capture to a particular template :ARCHIVE:
+SCHEDULED: <2022-12-16 Fri>
+without going through the interactive template selection, you can
+create your key binding like this:
+
+     (define-key global-map (kbd "C-c x")
+       (lambda () (interactive) (org-capture nil "x")))
+ 
+ [[info:org#Capture templates][org#Capture templates]]
+
+** Rehearsal
+:PROPERTIES:
+:CATEGORY: Glom
+:END:
 *** RAW Proverbs
 SCHEDULED: <2023-06-25 Sun .+2d/3d>
 :PROPERTIES:
