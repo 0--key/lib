@@ -8,7 +8,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+PROPERTY: header-args :comments org
 #+CATEGORY: Main
 #+TODO: RAW INIT TODO ACTIVE | DONE
-#+TODO: LAG DELAY RETARD | STARK
+#+TODO: DELAY LAG RETARD | STARK
 #+TODO: | FROZEN
 
 
