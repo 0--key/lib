@@ -681,10 +681,11 @@ SCHEDULED: <2023-09-21 Thu>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-20 Wed .+1d>
+SCHEDULED: <2023-09-21 Thu .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-12-06 Tue 17:31]
+:LAST_REPEAT: [2023-09-20 Wed 19:46]
 :END:
+- State "Done"       from ""           [2023-09-20 Wed 19:46]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:08]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
@@ -695,8 +696,8 @@ SCHEDULED: <2023-09-20 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-09-20 Wed 17:49]
-CLOCK: [2023-09-20 Wed 19:41]
+CLOCK: [2023-09-21 Thu 10:06]
+CLOCK: [2023-09-20 Wed 19:41]--[2023-09-20 Wed 19:46] =>  0:05
 CLOCK: [2023-09-20 Wed 17:49]--[2023-09-20 Wed 17:52] =>  0:03
 CLOCK: [2023-09-20 Wed 11:23]--[2023-09-20 Wed 11:25] =>  0:02
 CLOCK: [2023-09-20 Wed 09:28]--[2023-09-20 Wed 09:34] =>  0:06
@@ -885,6 +886,7 @@ SCHEDULED: <2023-09-21 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-21 Thu 09:29]--[2023-09-21 Thu 09:51] =>  0:22
 CLOCK: [2023-09-20 Wed 08:24]--[2023-09-20 Wed 08:44] =>  0:20
 CLOCK: [2023-09-20 Wed 07:11]--[2023-09-20 Wed 07:39] =>  0:28
 CLOCK: [2023-06-21 Wed 08:13]--[2023-06-21 Wed 08:20] =>  0:07
@@ -1179,7 +1181,7 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 SCHEDULED: <2023-06-30 Fri>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-06-25 Sun>
-** ACTIVE CV elaboration
+** ACTIVE [#B] CV elaboration
 SCHEDULED: <2023-09-21 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
@@ -1208,13 +1210,14 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** ACTIVE LinkedIn
-SCHEDULED: <2023-09-21 Thu>
+** DELAY LinkedIn
+SCHEDULED: <2023-12-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
+- It seems to me like an expensive (annualy payed) and overthinked idea.
 ** INIT Howard Gardner
 SCHEDULED: <2023-06-25 Sun>
 Frames of Mind
