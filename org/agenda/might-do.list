@@ -343,7 +343,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-06-29 Thu>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-09-20 Wed .+1w>
+SCHEDULED: <2023-09-22 Fri .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-06-19 Mon 10:27]
@@ -864,7 +864,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-09-21 Thu .+1d>
+SCHEDULED: <2023-09-22 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-20 Wed 11:26]
 :END:
@@ -988,10 +988,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Workspace decluttering
-SCHEDULED: <2023-09-21 Thu ++2w>
+SCHEDULED: <2023-10-05 Thu ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-05-22 Mon 12:14]
+:LAST_REPEAT: [2023-09-21 Thu 10:58]
 :END:
+- State "Done"       from ""           [2023-09-21 Thu 10:58]
 - State "DONE"       from "ACTIVE"     [2023-05-22 Mon 12:14]
 - State "DONE"       from "ACTIVE"     [2023-04-27 Thu 17:02]
 - State "DONE"       from "ACTIVE"     [2023-04-12 Wed 17:47]
@@ -1017,9 +1018,9 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** CodeWars
-SCHEDULED: <2023-09-21 Thu ++2d/3d>
+SCHEDULED: <2023-09-22 Fri ++2d/3d>
 *** Vocabulary elaboration
-SCHEDULED: <2023-09-21 Thu ++1d>
+SCHEDULED: <2023-09-22 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-20 Wed 11:26]
 :END:
@@ -1182,7 +1183,7 @@ SCHEDULED: <2023-06-30 Fri>
 ** TODO Python code is a lyrics
 SCHEDULED: <2023-06-25 Sun>
 ** ACTIVE [#B] CV elaboration
-SCHEDULED: <2023-09-21 Thu .+2d/3d>
+SCHEDULED: <2023-09-22 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
