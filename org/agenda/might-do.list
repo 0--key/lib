@@ -657,17 +657,32 @@ Thought gestation usually is a delicate and time-consuming process.
     )  
 
 #+end_src
-** INIT AWS micro-instance
-SCHEDULED: <2023-09-21 Thu>
+** ACTIVE AWS micro-instance
+SCHEDULED: <2023-09-22 Fri>
+:LOGBOOK:
+CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
+:END:
 For open-source projects contributing
-** INIT Thought Cast
+** INIT [#A] Thought Cast
 SCHEDULED: <2023-09-21 Thu>
 :LOGBOOK:
+CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
-** INIT 3 months in the future shift
-SCHEDULED: <2023-09-21 Thu>
+** ACTIVE 3 months in the future shift
+SCHEDULED: <2023-09-22 Fri>
+- Note taken on [2023-09-21 Thu 19:32] \\
+  It is possible to bulk-scatter task across several weeks in the near
+  future. So it might be reasonable to:
+
+  - Define 3 or 4 groups of tasks:
+    - Next week;
+    - Next month;
+    - Next 3 months.
+:LOGBOOK:
+CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
+:END:
 + switch on to another state (DELAY) set macros
 ** RAW Dedicated window registers for:
 - *scratch* buffer;
@@ -696,7 +711,8 @@ SCHEDULED: <2023-09-21 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-09-21 Thu 10:06]
+CLOCK: [2023-09-21 Thu 19:35]
+CLOCK: [2023-09-21 Thu 10:06]--[2023-09-21 Thu 10:18] =>  0:12
 CLOCK: [2023-09-20 Wed 19:41]--[2023-09-20 Wed 19:46] =>  0:05
 CLOCK: [2023-09-20 Wed 17:49]--[2023-09-20 Wed 17:52] =>  0:03
 CLOCK: [2023-09-20 Wed 11:23]--[2023-09-20 Wed 11:25] =>  0:02
@@ -1000,6 +1016,7 @@ SCHEDULED: <2023-10-05 Thu ++2w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-09-21 Thu 10:46]--[2023-09-21 Thu 10:58] =>  0:12
 CLOCK: [2023-06-07 Wed 17:37]--[2023-06-07 Wed 18:32] =>  0:55
 CLOCK: [2023-05-22 Mon 11:39]--[2023-05-22 Mon 12:14] =>  0:35
 CLOCK: [2023-05-22 Mon 10:49]--[2023-05-22 Mon 11:13] =>  0:24
