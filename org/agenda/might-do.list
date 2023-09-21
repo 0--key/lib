@@ -202,7 +202,7 @@ sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** INIT Include Files                                         :zettelkasten:
+** DELAY Include Files                                        :zettelkasten:
 SCHEDULED: <2023-06-25 Sun>
 [[info:org#Include Files]]
 ** DONE Append ~drill files~ to *Agenda*
@@ -477,7 +477,7 @@ SCHEDULED: <2023-06-23 Fri>
 
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
-** INIT Reading Alice
+** DELAY Reading Alice
 SCHEDULED: <2023-06-24 Sat .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
@@ -1127,7 +1127,7 @@ For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 ** INIT Tracking TODO state changes
 SCHEDULED: <2023-06-29 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
-** INIT Letterkenny/Donegal LUG/Emacs/Python
+** DELAY Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
@@ -1314,7 +1314,7 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 ** INIT JForrest English
 SCHEDULED: <2023-06-28 Wed>
 150 Common Idioms
-** INIT Anton Alexeyev lessons
+** DELAY Anton Alexeyev lessons
 SCHEDULED: <2023-06-24 Sat>
 ** INIT Bulk remote editing selected entries
 SCHEDULED: <2023-09-19 Tue>
