@@ -44,7 +44,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** ACTIVE Extend
+*** DELAY Extend
 SCHEDULED: <2023-06-28 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
@@ -71,7 +71,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** RAW Declutter
+*** DELAY Declutter
 SCHEDULED: <2023-06-28 Wed +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
@@ -204,7 +204,7 @@ sayings, proverbs (Kazakh by Abay), idioms.
 
 To capture /a gist/ out of any material with minimal distractions and
 interruptions.
-** DELAY Include Files                                        :zettelkasten:
+** SET Include Files                                          :zettelkasten:
 SCHEDULED: <2023-06-25 Sun>
 [[info:org#Include Files]]
 ** DONE Append ~drill files~ to *Agenda*
@@ -235,7 +235,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW How We Learn by Benedict Carey
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
-** ACTIVE Clocking tasks execution
+** DELAY Clocking tasks execution
 SCHEDULED: <2023-08-13 Sun>
 - Note taken on [2023-06-06 Tue 07:05] \\
   Now it seems not actual and uncertain, so just postpone it on two
@@ -296,7 +296,7 @@ experimentation/.
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
-** INIT Tracking your habits
+** DELAY Tracking your habits
 SCHEDULED: <2023-06-29 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
@@ -329,7 +329,7 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 :LOGBOOK:
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
-** INIT Thriades for key-chords
+** DELAY Thriades for key-chords
 SCHEDULED: <2023-06-28 Wed>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
@@ -341,8 +341,8 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 ** INIT Distributed rehearsal system                               :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
-** INIT TODO keywords as types
-SCHEDULED: <2023-06-29 Thu>
+** DELAY TODO keywords as types
+SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** RAW [#A] Whole week scheduling
 SCHEDULED: <2023-09-22 Fri .+1w>
@@ -401,7 +401,7 @@ SCHEDULED: <2022-12-08 Thu>
 :PROPERTIES:
 :CATEGORY: kin
 :END:
-*** INIT Bash with Andrew
+*** DELAY Bash with Andrew
 SCHEDULED: <2023-06-27 Tue .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
@@ -425,8 +425,8 @@ SCHEDULED: <2023-03-15 Wed .+1w>
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
-*** RAW Gym with Andrew #2
-SCHEDULED: <2023-06-28 Wed .+1w>
+*** DELAY Gym with Andrew #2
+SCHEDULED: <2023-10-01 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-06-21 Wed 18:04]
 :END:
@@ -448,8 +448,8 @@ SCHEDULED: <2023-09-23 Sat .+1w>
 - State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
-*** RAW Gym with Andrew #1
-SCHEDULED: <2023-06-27 Tue .+1w>
+*** DELAY Gym with Andrew #1
+SCHEDULED: <2023-09-27 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-06-20 Tue 08:15]
 :END:
@@ -470,8 +470,12 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-06-28 Wed .+1w>
+SCHEDULED: <2023-09-29 Fri .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-22 Fri 09:51]
+:END:
 
+- State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-09-25 Mon>
 
@@ -575,7 +579,7 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
-** ACTIVE New dev environment on ChromeBook
+** DELAY New dev environment on ChromeBook
 SCHEDULED: <2023-06-29 Thu>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
@@ -604,20 +608,20 @@ https://bit.ly/3Kxjzx6
 
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
-** INIT Bmkp as a snippets database;
-SCHEDULED: <2023-07-11 Tue>
-** TODO SPACE KEY in key-chords
+** DELAY Bmkp as a snippets database;
+SCHEDULED: <2023-09-25 Mon>
+** DELAY SPACE KEY in key-chords
 SCHEDULED: <2023-06-28 Wed>
 For capture and marks and??
-** INIT Phronesis
+** DELAY Phronesis
 SCHEDULED: <2023-06-26 Mon>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
-** INIT Dry Creek Wrangler School
+** DELAY Dry Creek Wrangler School
 SCHEDULED: <2023-07-04 Tue>
-** TODO Eudaimonia
+** DELAY Eudaimonia
 SCHEDULED: <2023-06-27 Tue>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 10:20]--[2023-05-26 Fri 10:25] =>  0:05
@@ -665,24 +669,29 @@ SCHEDULED: <2023-09-22 Fri>
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
-** INIT [#A] Thought Cast
-SCHEDULED: <2023-09-21 Thu>
+** [#A] Thought Cast
+SCHEDULED: <2023-09-22 Fri>
 :LOGBOOK:
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
-** ACTIVE 3 months in the future shift
-SCHEDULED: <2023-09-22 Fri>
+** ACTIVE 3 months in the future /smart/ shift
+SCHEDULED: <2023-09-26 Tue>
 - Note taken on [2023-09-21 Thu 19:32] \\
   It is possible to bulk-scatter task across several weeks in the near
-  future. So it might be reasonable to:
+  future. So it might be reasonable to switch all postponed tasks in
+  to DELAY set and:
 
-  - Define 3 or 4 groups of tasks:
+  - Split all them into 3 or 4 groups of tasks:
     - Next week;
     - Next month;
     - Next 3 months.
+
+      Which allow to shift each group separately (smartly)
+
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 09:44]--[2023-09-22 Fri 10:09] =>  0:25
 CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
 :END:
 + switch on to another state (DELAY) set macros
@@ -1090,8 +1099,8 @@ create your key binding like this:
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** RAW Proverbs
-SCHEDULED: <2023-06-25 Sun .+2d/3d>
+*** DELAY Proverbs
+SCHEDULED: <2023-09-26 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1118,8 +1127,8 @@ CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** ACTIVE Quotations
-SCHEDULED: <2023-06-25 Sun .+2d/3d>
+*** DELAY Quotations
+SCHEDULED: <2023-10-06 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -1145,10 +1154,10 @@ CLOCK: [2022-12-05 Mon 09:24]--[2022-12-05 Mon 09:31] =>  0:07
 For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
-** INIT Tracking TODO state changes
+** DELAY Tracking TODO state changes
 SCHEDULED: <2023-06-29 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
-** DELAY Letterkenny/Donegal LUG/Emacs/Python
+** SET Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
 SCHEDULED: <2023-02-28 Tue>
@@ -1168,8 +1177,8 @@ Ring Around the Sun
 DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
-** INIT Capture for idioms
-SCHEDULED: <2023-06-22 Thu>
+** DELAY Capture for idioms
+SCHEDULED: <2023-09-30 Sat>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -1199,9 +1208,9 @@ SCHEDULED: <2023-03-22 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
-** INIT The most frequent collocations
-SCHEDULED: <2023-06-30 Fri>
-** TODO Python code is a lyrics
+** LAG The most frequent collocations
+SCHEDULED: <2023-12-29 Fri>
+** DELAY Python code is a lyrics
 SCHEDULED: <2023-06-25 Sun>
 ** ACTIVE [#B] CV elaboration
 SCHEDULED: <2023-09-22 Fri .+2d/3d>
@@ -1216,11 +1225,11 @@ CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
-** INIT Global and Local Variables in Python
+** DELAY Global and Local Variables in Python
 SCHEDULED: <2023-06-25 Sun>
-** INIT Cracking coding interview
+** DELAY Cracking coding interview
 SCHEDULED: <2023-06-25 Sun>
-** ACTIVE Mark Lutz
+** DELAY Mark Lutz
 SCHEDULED: <2023-06-25 Sun>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
@@ -1240,33 +1249,33 @@ CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
 CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
 :END:
 - It seems to me like an expensive (annualy payed) and overthinked idea.
-** INIT Howard Gardner
-SCHEDULED: <2023-06-25 Sun>
+** DELAY Howard Gardner
+SCHEDULED: <2023-12-14 Thu>
 Frames of Mind
-** INIT The separate set of DONE
+** SET The separate set of DONE
 SCHEDULED: <2023-06-29 Thu>
 - Note taken on [2023-06-04 Sun 13:06] \\
   3d->1w->3w->2m->archive
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
-** INIT Emacs init file
+** DELAY Emacs init file
 SCHEDULED: <2023-06-25 Sun>
 [[info:emacs#Init File][emacs#Init File]]
-** TODO Handling links
+** DELAY Handling links
 SCHEDULED: <2023-06-23 Fri>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
 [[info:org#Handling Links][org#Handling Links]]
-** INIT Agenda commands
-SCHEDULED: <2023-06-22 Thu>
+** DELAY Agenda commands
+SCHEDULED: <2023-10-03 Tue>
 :LOGBOOK:
 CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
-** TODO Personal Development
-SCHEDULED: <2023-07-05 Wed>
+** DELAY Personal Development
+SCHEDULED: <2023-09-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
 CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
@@ -1274,10 +1283,10 @@ CLOCK: [2023-05-23 Tue 16:13]--[2023-05-23 Tue 16:31] =>  0:18
 CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 :END:
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
-** RAW Emacs TUTORIAL
-SCHEDULED: <2023-06-29 Thu>
+** LAG Emacs TUTORIAL
+SCHEDULED: <2023-11-27 Mon>
 For Andrew <<C-h ?>>
-** INIT ScreenCasting
+** DELAY ScreenCasting
 SCHEDULED: <2023-08-06 Sun>
 - Note taken on [2023-06-06 Tue 06:56] \\
   Seems like it is a separate skill to develop out from the set of
@@ -1288,10 +1297,10 @@ SCHEDULED: <2023-08-06 Sun>
 - Shortcuts for stop
 - YouTube upload
 - Another screen test
-** INIT Paul Auster
+** DELAY Paul Auster
 SCHEDULED: <2023-07-02 Sun>
-** INIT Keep Going Austin Kleon
-SCHEDULED: <2023-06-25 Sun>
+** DELAY Keep Going Austin Kleon
+SCHEDULED: <2024-01-20 Sat>
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
 SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
@@ -1299,24 +1308,24 @@ with CC to Kane and Noel
 For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
-** TODO Coursor movement, deletion, search with key-chords
+** DELAY Coursor movement, deletion, search with key-chords
 SCHEDULED: <2023-06-28 Wed>
-** INIT Stackoverflow profile elaboration
-SCHEDULED: <2023-08-06 Sun>
+** DELAY Stackoverflow profile elaboration
+SCHEDULED: <2023-10-04 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
   It's an optional skill and might been acquired in a leasure or idle
   time a little bit later. Naturally it relates from the applied
   knoledge of programming tidbits.
 
   So it is postponed on a two months initially.
-** TODO TXT script from YouTube for EReader
-SCHEDULED: <2023-06-30 Fri>
+** LAG TXT script from YouTube for EReader
+SCHEDULED: <2023-10-03 Tue>
 :LOGBOOK:
 CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
 :END:
 - Note taken on [2023-06-06 Tue 07:40] \\
   Or even pure /.txt/ form to dissect it in ~Emacs~ directly
-** RAW Andrew's private summer lessons
+** DELAY Andrew's private summer lessons
 SCHEDULED: <2023-06-25 Sun>
  - Emacs;
  - Bash;
@@ -1326,22 +1335,22 @@ SCHEDULED: <2023-06-25 Sun>
  - Guitar;
  - SQL;
  - Docker??
-** TODO English with Lucy
+** DELAY English with Lucy
 SCHEDULED: <2023-06-30 Fri>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
 50 personal adjectives
-** INIT JForrest English
-SCHEDULED: <2023-06-28 Wed>
+** DELAY JForrest English
+SCHEDULED: <2023-09-27 Wed>
 150 Common Idioms
 ** DELAY Anton Alexeyev lessons
 SCHEDULED: <2023-10-02 Mon>
 ** TODO Bulk remote editing selected entries
 SCHEDULED: <2023-09-22 Fri>
 [[info:org#Agenda Commands][org#Agenda Commands]]
-** INIT RAW tasks assignment at each Sunday
-SCHEDULED: <2023-06-25 Sun>
+** DELAY RAW tasks assignment at each Sunday
+SCHEDULED: <2023-11-10 Fri>
 ** RAW Delete region detouring kill-ring
 [[https://stackoverflow.com/questions/637351/emacs-how-to-delete-text-without-kill-ring][link]]
 ** RAW Russian proverbs
@@ -1350,10 +1359,10 @@ SCHEDULED: <2023-06-25 Sun>
 [[https://lucidmanager.org/productivity/emacs-chromebook/][link]]
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
-** INIT How to say thank you
-SCHEDULED: <2023-06-22 Thu>
+** DELAY How to say thank you
+SCHEDULED: <2023-10-04 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
-** TODO [#B] ChatGPT
+** DELAY [#B] ChatGPT
 SCHEDULED: <2023-06-26 Mon>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
@@ -1361,13 +1370,13 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
-** INIT 10 Daily Idioms
-SCHEDULED: <2023-06-26 Mon>
+** DELAY 10 Daily Idioms
+SCHEDULED: <2023-10-04 Wed>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** RAW Ross Ashby
 [[http://www.rossashby.info/index.html][archive]]
-** INIT Irreal blog
-SCHEDULED: <2023-06-22 Thu>
+** DELAY Irreal blog
+SCHEDULED: <2024-01-29 Mon>
 - Note taken on [2023-06-20 Tue 11:29] \\
   [[http://irreal.org/blog/][Irreal | Blog]]
 :LOGBOOK:
@@ -1376,14 +1385,14 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 :END:
 [[http://irreal.org/emacs-reminders.html][reading for fun]]
 ** RAW Micro Trading
-** INIT Framework Thinking
-SCHEDULED: <2023-07-11 Tue>
-** RAW Time is Space Concept
+** DELAY Framework Thinking
+SCHEDULED: <2023-10-02 Mon>
+** DELAY Time is Space Concept
 SCHEDULED: <2023-07-18 Tue>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
-** TODO [#A] 68 Bits of Unsolicited Advice
-SCHEDULED: <2023-06-23 Fri>
+** DELAY [#A] 68 Bits of Unsolicited Advice
+SCHEDULED: <2024-01-11 Thu>
 [[file:~/git/org-pub/2023-06-21-68-bits-of-unsolicited-advice.org::*Try again later][Try again later]]
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 09:57]--[2023-06-21 Wed 10:19] =>  0:22
