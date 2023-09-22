@@ -502,7 +502,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-09-22 Fri ++1w>
+SCHEDULED: <2023-09-28 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -663,9 +663,12 @@ Thought gestation usually is a delicate and time-consuming process.
     )  
 
 #+end_src
-** ACTIVE AWS micro-instance
-SCHEDULED: <2023-09-22 Fri>
+** DELAY AWS micro-instance
+SCHEDULED: <2023-10-05 Thu>
+- Note taken on [2023-09-22 Fri 10:19] \\
+  Yes, it is appealingly attractive, but it's only 25GB Linux :-)
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
@@ -1213,12 +1216,16 @@ SCHEDULED: <2023-12-29 Fri>
 ** DELAY Python code is a lyrics
 SCHEDULED: <2023-06-25 Sun>
 ** ACTIVE [#B] CV elaboration
-SCHEDULED: <2023-09-22 Fri .+2d/3d>
+SCHEDULED: <2023-09-25 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
+- Note taken on [2023-09-22 Fri 10:24] \\
+  * New and actual photo
+  * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 10:21]--[2023-09-22 Fri 10:44] =>  0:23
 CLOCK: [2023-09-20 Wed 09:01]--[2023-09-20 Wed 09:28] =>  0:27
 CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
 CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
@@ -1346,8 +1353,8 @@ SCHEDULED: <2023-09-27 Wed>
 150 Common Idioms
 ** DELAY Anton Alexeyev lessons
 SCHEDULED: <2023-10-02 Mon>
-** TODO Bulk remote editing selected entries
-SCHEDULED: <2023-09-22 Fri>
+** ACTIVE Bulk remote editing selected entries
+SCHEDULED: <2023-09-25 Mon>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** DELAY RAW tasks assignment at each Sunday
 SCHEDULED: <2023-11-10 Fri>
