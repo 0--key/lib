@@ -101,10 +101,11 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-09-22 Fri .+3d/4d>
+SCHEDULED: <2023-09-27 Wed .+3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-06-19 Mon 10:26]
+:LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
+- State "AMPLE"      from "RAW"        [2023-09-22 Fri 09:23]
 - State "DONE"       from "ACTIVE"     [2023-06-19 Mon 10:26]
 - State "DONE"       from "ACTIVE"     [2023-04-06 Thu 14:58]
 - State "DONE"       from "ACTIVE"     [2023-03-21 Tue 14:34]
@@ -262,11 +263,12 @@ their own, creating a surrogate for your time for money trade.][Build money tree
 But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
-** INIT Archive Day Weekly
-SCHEDULED: <2023-09-22 Fri +1w>
+** RAW Archive Day Weekly
+SCHEDULED: <2023-09-29 Fri +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-25 Fri 09:35]
+:LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
+- State "AMPLE"      from "INIT"       [2023-09-22 Fri 09:23]
 - State "DONE"       from "ACTIVE"     [2022-11-25 Fri 09:35]
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:52]
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:40]
@@ -286,8 +288,6 @@ SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
-** ~RAW tasks weekly trimming~ 
-SCHEDULED: <2023-09-22 Fri>
 ** RAW Heuristic theory or approach                                :ARCHIVE:
 SCHEDULED: <2022-11-18 Fri>
 which serves to promote discovery or /learning by encouraging
@@ -309,10 +309,11 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** RAW Monthly archive day .+4w
-SCHEDULED: <2023-06-30 Fri .+4w>
+SCHEDULED: <2023-10-20 Fri .+4w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-02-28 Tue 13:22]
+:LAST_REPEAT: [2023-09-22 Fri 09:21]
 :END:
+- State "AMPLE"      from "RAW"        [2023-09-22 Fri 09:21]
 - State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
 - Note taken on [2022-12-16 Fri 10:30] \\
   One month passed away but there are not tasks to archive at the
@@ -438,7 +439,7 @@ SCHEDULED: <2023-06-28 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** Gym with Andrew #3
-SCHEDULED: <2023-06-23 Fri .+1w>
+SCHEDULED: <2023-09-23 Sat .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-24 Mon 13:01]
 :END:
@@ -472,14 +473,14 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-06-28 Wed .+1w>
 
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-06-23 Fri>
+SCHEDULED: <2023-09-25 Mon>
 
 
 
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
 ** DELAY Reading Alice
-SCHEDULED: <2023-06-24 Sat .+2d/3d>
+SCHEDULED: <2023-10-02 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -497,7 +498,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-09-22 Fri>
+SCHEDULED: <2023-09-22 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -697,10 +698,11 @@ CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-21 Thu .+1d>
+SCHEDULED: <2023-09-22 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 19:46]
+:LAST_REPEAT: [2023-09-21 Thu 19:48]
 :END:
+- State "Done"       from ""           [2023-09-21 Thu 19:48]
 - State "Done"       from ""           [2023-09-20 Wed 19:46]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 21:08]
@@ -903,6 +905,7 @@ SCHEDULED: <2023-09-22 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 09:25]--[2023-09-22 Fri 09:32] =>  0:07
 CLOCK: [2023-09-21 Thu 09:29]--[2023-09-21 Thu 09:51] =>  0:22
 CLOCK: [2023-09-20 Wed 08:24]--[2023-09-20 Wed 08:44] =>  0:20
 CLOCK: [2023-09-20 Wed 07:11]--[2023-09-20 Wed 07:39] =>  0:28
@@ -980,7 +983,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-21 Thu .+1d>
+SCHEDULED: <2023-09-22 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-20 Wed 19:41]
 :END:
@@ -1333,9 +1336,9 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 SCHEDULED: <2023-06-28 Wed>
 150 Common Idioms
 ** DELAY Anton Alexeyev lessons
-SCHEDULED: <2023-06-24 Sat>
-** INIT Bulk remote editing selected entries
-SCHEDULED: <2023-09-19 Tue>
+SCHEDULED: <2023-10-02 Mon>
+** TODO Bulk remote editing selected entries
+SCHEDULED: <2023-09-22 Fri>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** INIT RAW tasks assignment at each Sunday
 SCHEDULED: <2023-06-25 Sun>
@@ -1386,8 +1389,8 @@ SCHEDULED: <2023-06-23 Fri>
 CLOCK: [2023-06-21 Wed 09:57]--[2023-06-21 Wed 10:19] =>  0:22
 CLOCK: [2023-06-21 Wed 08:43]--[2023-06-21 Wed 09:10] =>  0:27
 :END:
-** INIT Zsh
-SCHEDULED: <2023-08-16 Wed>
+** DELAY Zsh
+SCHEDULED: <2023-12-22 Fri>
 #+begin_src sh
 alioth@penguin:~$ sudo apt-cache search zsh
 csh - Shell with C-like syntax
