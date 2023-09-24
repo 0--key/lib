@@ -45,7 +45,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :CATEGORY: Key-chords
 :END:
 *** DELAY Extend
-SCHEDULED: <2023-06-28 Wed ++1w>
+SCHEDULED: <2023-09-28 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -72,7 +72,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** DELAY Declutter
-SCHEDULED: <2023-06-28 Wed +3w>
+SCHEDULED: <2023-09-28 Thu +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
@@ -236,7 +236,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** DELAY Clocking tasks execution
-SCHEDULED: <2023-08-13 Sun>
+SCHEDULED: <2023-09-29 Fri>
 - Note taken on [2023-06-06 Tue 07:05] \\
   Now it seems not actual and uncertain, so just postpone it on two
   months.
@@ -297,7 +297,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** DELAY Tracking your habits
-SCHEDULED: <2023-06-29 Thu .+2w>
+SCHEDULED: <2023-09-29 Fri .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -330,7 +330,7 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
 ** DELAY Thriades for key-chords
-SCHEDULED: <2023-06-28 Wed>
+SCHEDULED: <2023-09-28 Thu>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -344,12 +344,13 @@ SCHEDULED: <2022-12-07 Wed>
 ** DELAY TODO keywords as types
 SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
-** RAW [#A] Whole week scheduling
-SCHEDULED: <2023-09-22 Fri .+1w>
+** [#A] Whole week scheduling
+SCHEDULED: <2023-09-24 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2023-06-19 Mon 10:27]
+:LAST_REPEAT: [2023-09-24 Sun 11:52]
 :END:
+- State "AMPLE"      from "RAW"        [2023-09-24 Sun 11:51]
 - State "DONE"       from "ACTIVE"     [2023-06-19 Mon 10:27]
 - State "DONE"       from "ACTIVE"     [2023-05-23 Tue 14:12]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:25]
@@ -402,7 +403,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** DELAY Bash with Andrew
-SCHEDULED: <2023-06-27 Tue .+1w>
+SCHEDULED: <2023-12-18 Mon .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
@@ -439,11 +440,12 @@ SCHEDULED: <2023-10-01 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
 - State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
 *** Gym with Andrew #3
-SCHEDULED: <2023-09-23 Sat .+1w>
+SCHEDULED: <2023-09-30 Sat .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-24 Mon 13:01]
+:LAST_REPEAT: [2023-09-23 Sat 16:51]
 :END:
 
+- State "AMPLE"      from ""           [2023-09-23 Sat 16:51]
 - State "DONE"       from "ACTIVE"     [2023-04-24 Mon 13:01]
 - State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
@@ -558,17 +560,17 @@ SCHEDULED: <2023-04-08 Sat>
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
-** ACTIVE Book
-SCHEDULED: <2023-09-23 Sat>
+** DELAY Book
+SCHEDULED: <2023-10-21 Sat>
 Play ~ Stuart Brown&Christopher Vaughan
-** ACTIVE Book
-SCHEDULED: <2023-09-23 Sat>
+** DELAY Book
+SCHEDULED: <2023-10-21 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
-** ACTIVE Book
-SCHEDULED: <2023-09-23 Sat>
+** DELAY Book
+SCHEDULED: <2023-10-21 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -580,7 +582,7 @@ CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
 ** DELAY New dev environment on ChromeBook
-SCHEDULED: <2023-06-29 Thu>
+SCHEDULED: <2023-10-08 Sun>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
 CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
@@ -611,18 +613,18 @@ non-smokers, tea-total.
 ** DELAY Bmkp as a snippets database;
 SCHEDULED: <2023-09-25 Mon>
 ** DELAY SPACE KEY in key-chords
-SCHEDULED: <2023-06-28 Wed>
+SCHEDULED: <2023-09-28 Thu>
 For capture and marks and??
 ** DELAY Phronesis
-SCHEDULED: <2023-06-26 Mon>
+SCHEDULED: <2023-09-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** DELAY Dry Creek Wrangler School
-SCHEDULED: <2023-07-04 Tue>
+SCHEDULED: <2023-10-08 Sun>
 ** DELAY Eudaimonia
-SCHEDULED: <2023-06-27 Tue>
+SCHEDULED: <2023-09-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 10:20]--[2023-05-26 Fri 10:25] =>  0:05
 CLOCK: [2023-05-26 Fri 10:02]--[2023-05-26 Fri 10:12] =>  0:10
@@ -673,7 +675,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-09-22 Fri>
+SCHEDULED: <2023-09-24 Sun>
 :LOGBOOK:
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
@@ -710,10 +712,11 @@ CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-22 Fri .+1d>
+SCHEDULED: <2023-09-24 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-21 Thu 19:48]
+:LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
+- State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-21 Thu 19:48]
 - State "Done"       from ""           [2023-09-20 Wed 19:46]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 17:31]
@@ -832,15 +835,17 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** Touch typing
-SCHEDULED: <2023-09-22 Fri ++2d/3d>
+SCHEDULED: <2023-09-24 Sun ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 12:02]
+:LAST_REPEAT: [2023-09-22 Fri 13:43]
 :END:
+- State "AMPLE"      from ""           [2023-09-22 Fri 13:43]
 - State "Done"       from ""           [2023-09-20 Wed 12:02]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 19:25]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 12:03]--[2023-09-22 Fri 12:28] =>  0:25
 CLOCK: [2023-09-20 Wed 11:33]--[2023-09-20 Wed 12:02] =>  0:29
 CLOCK: [2023-06-20 Tue 11:40]--[2023-06-20 Tue 12:07] =>  0:27
 CLOCK: [2023-06-07 Wed 12:24]--[2023-06-07 Wed 12:53] =>  0:29
@@ -894,11 +899,12 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#C] Daily tasks pile assay
-SCHEDULED: <2023-09-22 Fri .+1d>
+*** [#A] Daily tasks pile assay
+SCHEDULED: <2023-09-24 Sun .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 11:26]
+:LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
+- State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-20 Wed 11:26]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:40]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 13:35]
@@ -917,6 +923,7 @@ SCHEDULED: <2023-09-22 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-24 Sun 11:40]--[2023-09-24 Sun 11:54] =>  0:14
 CLOCK: [2023-09-22 Fri 09:25]--[2023-09-22 Fri 09:32] =>  0:07
 CLOCK: [2023-09-21 Thu 09:29]--[2023-09-21 Thu 09:51] =>  0:22
 CLOCK: [2023-09-20 Wed 08:24]--[2023-09-20 Wed 08:44] =>  0:20
@@ -994,11 +1001,12 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-*** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-22 Fri .+1d>
+*** Tomorrow tasks heap brushing up
+SCHEDULED: <2023-09-24 Sun .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 19:41]
+:LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
+- State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-20 Wed 19:41]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:40]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 14:02]
@@ -1051,15 +1059,15 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** CodeWars
-SCHEDULED: <2023-09-22 Fri ++2d/3d>
+SCHEDULED: <2023-09-24 Sun ++2d/3d>
 *** Vocabulary elaboration
-SCHEDULED: <2023-09-22 Fri ++1d>
+SCHEDULED: <2023-09-25 Mon ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 11:26]
+:LAST_REPEAT: [2023-09-22 Fri 11:48]
 :END:
-- State "Done"       from ""           [2023-09-20 Wed 11:26]
-- State "Done"       from ""           [2023-09-20 Wed 10:21]
+- State "AMPLE"      from ""           [2023-09-22 Fri 11:48]
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 11:20]--[2023-09-22 Fri 11:46] =>  0:26
 CLOCK: [2023-09-20 Wed 11:02]--[2023-09-20 Wed 11:23] =>  0:21
 CLOCK: [2023-09-20 Wed 09:52]--[2023-09-20 Wed 10:21] =>  0:29
 CLOCK: [2023-06-21 Wed 18:06]--[2023-06-21 Wed 18:36] =>  0:30
@@ -1076,12 +1084,14 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * reading books;
     * watching YouTube with transcripts.
 *** Audition
-SCHEDULED: <2023-09-22 Fri ++2d>
+SCHEDULED: <2023-09-25 Mon ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-20 Wed 17:41]
+:LAST_REPEAT: [2023-09-22 Fri 14:05]
 :END:
+- State "AMPLE"      from ""           [2023-09-22 Fri 14:05]
 - State "Done"       from ""           [2023-09-20 Wed 17:41]
 :LOGBOOK:
+CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
@@ -1158,7 +1168,7 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** DELAY Tracking TODO state changes
-SCHEDULED: <2023-06-29 Thu>
+SCHEDULED: <2023-09-29 Fri>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** SET Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
@@ -1214,7 +1224,7 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 ** LAG The most frequent collocations
 SCHEDULED: <2023-12-29 Fri>
 ** DELAY Python code is a lyrics
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-24 Sun>
 ** ACTIVE [#B] CV elaboration
 SCHEDULED: <2023-09-25 Mon .+2d/3d>
 :PROPERTIES:
@@ -1233,11 +1243,11 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
 ** DELAY Global and Local Variables in Python
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-24 Sun>
 ** DELAY Cracking coding interview
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-24 Sun>
 ** DELAY Mark Lutz
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-24 Sun>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
@@ -1266,10 +1276,10 @@ SCHEDULED: <2023-06-29 Thu>
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
 ** DELAY Emacs init file
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2023-09-29 Fri>
 [[info:emacs#Init File][emacs#Init File]]
 ** DELAY Handling links
-SCHEDULED: <2023-06-23 Fri>
+SCHEDULED: <2023-09-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
@@ -1294,7 +1304,7 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 SCHEDULED: <2023-11-27 Mon>
 For Andrew <<C-h ?>>
 ** DELAY ScreenCasting
-SCHEDULED: <2023-08-06 Sun>
+SCHEDULED: <2023-10-08 Sun>
 - Note taken on [2023-06-06 Tue 06:56] \\
   Seems like it is a separate skill to develop out from the set of
   already existing ones. And without any doubt it requres a massive
@@ -1305,7 +1315,7 @@ SCHEDULED: <2023-08-06 Sun>
 - YouTube upload
 - Another screen test
 ** DELAY Paul Auster
-SCHEDULED: <2023-07-02 Sun>
+SCHEDULED: <2023-10-08 Sun>
 ** DELAY Keep Going Austin Kleon
 SCHEDULED: <2024-01-20 Sat>
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
@@ -1316,7 +1326,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** DELAY Coursor movement, deletion, search with key-chords
-SCHEDULED: <2023-06-28 Wed>
+SCHEDULED: <2023-09-28 Thu>
 ** DELAY Stackoverflow profile elaboration
 SCHEDULED: <2023-10-04 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
@@ -1333,7 +1343,7 @@ CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
 - Note taken on [2023-06-06 Tue 07:40] \\
   Or even pure /.txt/ form to dissect it in ~Emacs~ directly
 ** DELAY Andrew's private summer lessons
-SCHEDULED: <2023-06-25 Sun>
+SCHEDULED: <2024-05-16 Thu>
  - Emacs;
  - Bash;
  - Git;
@@ -1343,7 +1353,7 @@ SCHEDULED: <2023-06-25 Sun>
  - SQL;
  - Docker??
 ** DELAY English with Lucy
-SCHEDULED: <2023-06-30 Fri>
+SCHEDULED: <2023-10-08 Sun>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
@@ -1370,7 +1380,7 @@ SCHEDULED: <2023-11-10 Fri>
 SCHEDULED: <2023-10-04 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** DELAY [#B] ChatGPT
-SCHEDULED: <2023-06-26 Mon>
+SCHEDULED: <2023-10-08 Sun>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 :END:
@@ -1395,7 +1405,7 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 ** DELAY Framework Thinking
 SCHEDULED: <2023-10-02 Mon>
 ** DELAY Time is Space Concept
-SCHEDULED: <2023-07-18 Tue>
+SCHEDULED: <2023-10-08 Sun>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
 ** DELAY [#A] 68 Bits of Unsolicited Advice
