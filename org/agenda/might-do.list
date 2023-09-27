@@ -44,11 +44,13 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** DELAY Extend
-SCHEDULED: <2023-09-28 Thu ++1w>
+*** LAG Extend
+SCHEDULED: <2023-10-06 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
+- Note taken on [2023-09-27 Wed 08:50] \\
+  * 'follow-mode
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:36]
 - Note taken on [2022-11-18 Fri 18:35] \\
   * 'insert-register
@@ -71,8 +73,8 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** DELAY Declutter
-SCHEDULED: <2023-09-28 Thu +3w>
+*** LAG Declutter
+SCHEDULED: <2023-10-06 Fri +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
@@ -101,7 +103,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-09-27 Wed .+3d/4d>
+SCHEDULED: <2023-09-29 Fri .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -329,8 +331,8 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 :LOGBOOK:
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
-** DELAY Thriades for key-chords
-SCHEDULED: <2023-09-28 Thu>
+** LAG Thriades for key-chords
+SCHEDULED: <2023-10-06 Fri>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -345,7 +347,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2023-09-25 Mon .+1w>
+SCHEDULED: <2023-09-27 Wed .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -360,6 +362,7 @@ SCHEDULED: <2023-09-25 Mon .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-09-27 Wed 08:47]--[2023-09-27 Wed 08:57] =>  0:10
 CLOCK: [2023-09-25 Mon 10:27]--[2023-09-25 Mon 10:38] =>  0:11
 CLOCK: [2023-06-19 Mon 10:05]--[2023-06-19 Mon 10:25] =>  0:20
 CLOCK: [2023-06-19 Mon 08:50]--[2023-06-19 Mon 09:04] =>  0:14
@@ -451,7 +454,7 @@ SCHEDULED: <2023-09-30 Sat .+1w>
 - State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
 - State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
 - State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
-*** DELAY Gym with Andrew #1
+*** DELAY Gym with Andrew #1                                      :ARCHIVE:
 SCHEDULED: <2023-09-27 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-06-20 Tue 08:15]
@@ -480,7 +483,7 @@ SCHEDULED: <2023-09-29 Fri .+1w>
 
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-09-30 Sat>
 
 
 
@@ -612,12 +615,12 @@ https://bit.ly/3Kxjzx6
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
 ** DELAY Bmkp as a snippets database;
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-10-18 Wed>
 ** DELAY SPACE KEY in key-chords
 SCHEDULED: <2023-09-28 Thu>
 For capture and marks and??
 ** DELAY Phronesis
-SCHEDULED: <2023-09-27 Wed>
+SCHEDULED: <2023-10-17 Tue>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
@@ -625,7 +628,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 ** DELAY Dry Creek Wrangler School
 SCHEDULED: <2023-10-08 Sun>
 ** DELAY Eudaimonia
-SCHEDULED: <2023-09-27 Wed>
+SCHEDULED: <2023-10-17 Tue>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 10:20]--[2023-05-26 Fri 10:25] =>  0:05
 CLOCK: [2023-05-26 Fri 10:02]--[2023-05-26 Fri 10:12] =>  0:10
@@ -676,14 +679,14 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-09-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
-** ACTIVE 3 months in the future /smart/ shift
-SCHEDULED: <2023-09-26 Tue>
+** DELAY 3 months in the future /smart/ shift
+SCHEDULED: <2023-10-18 Wed>
 - Note taken on [2023-09-21 Thu 19:32] \\
   It is possible to bulk-scatter task across several weeks in the near
   future. So it might be reasonable to switch all postponed tasks in
@@ -1011,7 +1014,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-25 Mon .+1d>
+SCHEDULED: <2023-09-27 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1068,9 +1071,9 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** CodeWars
-SCHEDULED: <2023-09-25 Mon ++2d/3d>
+SCHEDULED: <2023-09-28 Thu ++2d/3d>
 *** Vocabulary elaboration
-SCHEDULED: <2023-09-25 Mon ++1d>
+SCHEDULED: <2023-09-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 11:48]
 :END:
@@ -1093,7 +1096,7 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * reading books;
     * watching YouTube with transcripts.
 *** Audition
-SCHEDULED: <2023-09-25 Mon ++2d>
+SCHEDULED: <2023-10-02 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 14:05]
 :END:
@@ -1104,9 +1107,9 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
-SCHEDULED: <2023-09-27 Wed ++1w>
+SCHEDULED: <2023-09-28 Thu ++1w>
 *** English Grammar
-SCHEDULED: <2023-09-25 Mon ++1w>
+SCHEDULED: <2023-09-28 Thu ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1121,8 +1124,8 @@ create your key binding like this:
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** DELAY Proverbs
-SCHEDULED: <2023-09-26 Tue .+2d/3d>
+*** TODO Proverbs
+SCHEDULED: <2023-09-29 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1232,10 +1235,19 @@ CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
 ** LAG The most frequent collocations
 SCHEDULED: <2023-12-29 Fri>
-** DELAY Python code is a lyrics
-SCHEDULED: <2023-09-24 Sun>
+** LAG Python code is a lyrics
+SCHEDULED: <2023-10-25 Wed>
+- Note taken on [2023-09-25 Mon 10:19] \\
+  * UnitTest written
+  * 12 strings and not longer
+  * Social networks propogated:
+  ** Twitter;
+  ** LinkedIn;
+  ** etc.
+  * So it would be wise
+to make a wider list of followers in that networks
 ** ACTIVE [#B] CV elaboration
-SCHEDULED: <2023-09-25 Mon .+2d/3d>
+SCHEDULED: <2023-09-27 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1251,12 +1263,12 @@ CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
-** DELAY Global and Local Variables in Python
-SCHEDULED: <2023-09-25 Mon>
+** LAG Global and Local Variables in Python
+SCHEDULED: <2023-09-29 Fri>
 ** DELAY Cracking coding interview
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-09-27 Wed>
 ** DELAY Mark Lutz
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-09-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
@@ -1300,7 +1312,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
-** DELAY Personal Development
+** ACTIVE [#A] Personal Development
 SCHEDULED: <2023-09-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
@@ -1334,8 +1346,8 @@ with CC to Kane and Noel
 For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
-** DELAY Coursor movement, deletion, search with key-chords
-SCHEDULED: <2023-09-28 Thu>
+** LAG Coursor movement, deletion, search with key-chords
+SCHEDULED: <2023-10-06 Fri>
 ** DELAY Stackoverflow profile elaboration
 SCHEDULED: <2023-10-04 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
@@ -1368,12 +1380,12 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
 50 personal adjectives
 ** DELAY JForrest English
-SCHEDULED: <2023-09-27 Wed>
+SCHEDULED: <2023-10-17 Tue>
 150 Common Idioms
 ** DELAY Anton Alexeyev lessons
 SCHEDULED: <2023-10-02 Mon>
 ** ACTIVE Bulk remote editing selected entries
-SCHEDULED: <2023-09-25 Mon>
+SCHEDULED: <2023-09-27 Wed>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** DELAY RAW tasks assignment at each Sunday
 SCHEDULED: <2023-11-10 Fri>
