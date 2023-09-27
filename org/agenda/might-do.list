@@ -345,7 +345,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2023-09-24 Sun .+1w>
+SCHEDULED: <2023-09-25 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -360,6 +360,7 @@ SCHEDULED: <2023-09-24 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-09-25 Mon 10:27]--[2023-09-25 Mon 10:38] =>  0:11
 CLOCK: [2023-06-19 Mon 10:05]--[2023-06-19 Mon 10:25] =>  0:20
 CLOCK: [2023-06-19 Mon 08:50]--[2023-06-19 Mon 09:04] =>  0:14
 CLOCK: [2023-04-10 Mon 11:36]--[2023-04-10 Mon 11:40] =>  0:04
@@ -675,7 +676,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-09-24 Sun>
+SCHEDULED: <2023-09-25 Mon>
 :LOGBOOK:
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
@@ -840,16 +841,18 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** Touch typing
-SCHEDULED: <2023-09-24 Sun ++2d/3d>
+SCHEDULED: <2023-09-27 Wed ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 13:43]
+:LAST_REPEAT: [2023-09-25 Mon 11:11]
 :END:
+- State "AMPLE"      from ""           [2023-09-25 Mon 11:11]
 - State "AMPLE"      from ""           [2023-09-22 Fri 13:43]
 - State "Done"       from ""           [2023-09-20 Wed 12:02]
 - State "DONE"       from "ACTIVE"     [2022-12-07 Wed 19:25]
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-09-25 Mon 10:56]--[2023-09-25 Mon 11:10] =>  0:14
 CLOCK: [2023-09-22 Fri 12:03]--[2023-09-22 Fri 12:28] =>  0:25
 CLOCK: [2023-09-20 Wed 11:33]--[2023-09-20 Wed 12:02] =>  0:29
 CLOCK: [2023-06-20 Tue 11:40]--[2023-06-20 Tue 12:07] =>  0:27
@@ -905,7 +908,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#A] Daily tasks pile assay
-SCHEDULED: <2023-09-24 Sun .+1d>
+SCHEDULED: <2023-09-27 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -928,6 +931,7 @@ SCHEDULED: <2023-09-24 Sun .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-25 Mon 10:12]--[2023-09-25 Mon 10:27] =>  0:15
 CLOCK: [2023-09-24 Sun 11:40]--[2023-09-24 Sun 11:54] =>  0:14
 CLOCK: [2023-09-22 Fri 09:25]--[2023-09-22 Fri 09:32] =>  0:07
 CLOCK: [2023-09-21 Thu 09:29]--[2023-09-21 Thu 09:51] =>  0:22
@@ -1007,7 +1011,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-24 Sun .+1d>
+SCHEDULED: <2023-09-25 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1064,7 +1068,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** CodeWars
-SCHEDULED: <2023-09-24 Sun ++2d/3d>
+SCHEDULED: <2023-09-25 Mon ++2d/3d>
 *** Vocabulary elaboration
 SCHEDULED: <2023-09-25 Mon ++1d>
 :PROPERTIES:
@@ -1248,11 +1252,11 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
 ** DELAY Global and Local Variables in Python
-SCHEDULED: <2023-09-24 Sun>
+SCHEDULED: <2023-09-25 Mon>
 ** DELAY Cracking coding interview
-SCHEDULED: <2023-09-24 Sun>
+SCHEDULED: <2023-09-25 Mon>
 ** DELAY Mark Lutz
-SCHEDULED: <2023-09-24 Sun>
+SCHEDULED: <2023-09-25 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
