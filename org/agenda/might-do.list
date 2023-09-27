@@ -709,14 +709,28 @@ CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
 - magit's buffers;
 - *Org-Agenda*
 + and key-chord for speed access
-
+** ACTIVE [#A] The separate category for Python
+SCHEDULED: <2023-09-27 Wed>
+:LOGBOOK:
+CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
+:END:
+- Note taken on [2023-09-25 Mon 10:18] \\
+  or even a separate file appended to *Org-Agenda*
+** TODO Story telling with Martin
+SCHEDULED: <2023-10-02 Mon>
+** INIT Letters for Manuel and Kane
+SCHEDULED: <2023-09-28 Thu>
+** INIT Calligraphy
+SCHEDULED: <2023-09-27 Wed>
+** INIT Furniture issue
+SCHEDULED: <2023-09-30 Sat>
 * Tasks
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-25 Mon ++1d>
+SCHEDULED: <2023-09-27 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1265,13 +1279,6 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
 ** LAG Global and Local Variables in Python
 SCHEDULED: <2023-09-29 Fri>
-** DELAY Cracking coding interview
-SCHEDULED: <2023-09-27 Wed>
-** DELAY Mark Lutz
-SCHEDULED: <2023-09-27 Wed>
-:LOGBOOK:
-CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
-:END:
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:
 SCHEDULED: <2023-06-19 Mon>
 :LOGBOOK:
