@@ -180,7 +180,10 @@
  "* RAW %?%i")
 ("ni" "Initial" entry (file+headline
 		       "~/git/lib/org/agenda/might-do.list" "Notes")
- "* INIT %?\n%i\n%l")
+ "* INIT %?%i")
+("np" "Pythonic" entry (file+headline
+		       "~/git/lib/org/agenda/py-genda.list" "Notes")
+ "* INIT %?%i")
    ;; ‘%k’ Title of the currently clocked task.
 ))
 
