@@ -1,0 +1,13 @@
+Advanced to-do list    -*- mode: org; -*-
+#+AUTHOR:    Anton S. Kosinov
+#+TITLE:     Mental Athlete ToDo List
+#+SUBTITLE:  Separate Python's tasks
+#+EMAIL:     a.s.kosinov@gmail.com
+#+LANGUAGE: en
+#+STARTUP: showall indent
+#+PROPERTY: header-args :comments org
+#+CATEGORY: Python
+#+TODO: | AMPLE
+#+TODO: RAW INIT TODO ACTIVE | DONE
+#+TODO: DELAY LAG RETARD | BARE
+#+TODO: | SET
