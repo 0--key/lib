@@ -347,7 +347,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2023-09-27 Wed .+1w>
+SCHEDULED: <2023-10-01 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -508,12 +508,14 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-09-28 Thu ++1w>
+SCHEDULED: <2023-09-29 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-09-27 Wed 16:03]--[2023-09-27 Wed 16:13] =>  0:10
+CLOCK: [2023-09-27 Wed 15:44]--[2023-09-27 Wed 15:49] =>  0:05
 CLOCK: [2023-06-20 Tue 08:28]--[2023-06-20 Tue 08:32] =>  0:04
 CLOCK: [2023-05-22 Mon 09:57]--[2023-05-22 Mon 10:30] =>  0:33
 CLOCK: [2023-04-10 Mon 11:28]--[2023-04-10 Mon 11:33] =>  0:05
@@ -617,7 +619,7 @@ non-smokers, tea-total.
 ** DELAY Bmkp as a snippets database;
 SCHEDULED: <2023-10-18 Wed>
 ** DELAY SPACE KEY in key-chords
-SCHEDULED: <2023-09-28 Thu>
+SCHEDULED: <2023-10-06 Fri>
 For capture and marks and??
 ** DELAY Phronesis
 SCHEDULED: <2023-10-17 Tue>
@@ -678,9 +680,10 @@ CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
-** [#A] Thought Cast
-SCHEDULED: <2023-09-27 Wed>
+** Thought Cast
+SCHEDULED: <2023-09-28 Thu>
 :LOGBOOK:
+CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
@@ -709,7 +712,7 @@ CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
 - magit's buffers;
 - *Org-Agenda*
 + and key-chord for speed access
-** ACTIVE [#A] The separate category for Python
+** DONE [#A] The separate category for Python
 SCHEDULED: <2023-09-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
@@ -718,10 +721,10 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
   or even a separate file appended to *Org-Agenda*
 ** TODO Story telling with Martin
 SCHEDULED: <2023-10-02 Mon>
-** INIT Letters for Manuel and Kane
+** INIT [#A] Letters for Manuel and Kane
 SCHEDULED: <2023-09-28 Thu>
 ** INIT Calligraphy
-SCHEDULED: <2023-09-27 Wed>
+SCHEDULED: <2023-09-29 Fri>
 ** INIT Furniture issue
 SCHEDULED: <2023-09-30 Sat>
 * Tasks
@@ -730,7 +733,7 @@ SCHEDULED: <2023-09-30 Sat>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-27 Wed ++1d>
+SCHEDULED: <2023-09-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -858,10 +861,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** Touch typing
-SCHEDULED: <2023-09-27 Wed ++2d/3d>
+SCHEDULED: <2023-09-29 Fri ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-25 Mon 11:11]
+:LAST_REPEAT: [2023-09-27 Wed 15:21]
 :END:
+- State "AMPLE"      from ""           [2023-09-27 Wed 15:21]
 - State "AMPLE"      from ""           [2023-09-25 Mon 11:11]
 - State "AMPLE"      from ""           [2023-09-22 Fri 13:43]
 - State "Done"       from ""           [2023-09-20 Wed 12:02]
@@ -869,6 +873,7 @@ SCHEDULED: <2023-09-27 Wed ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-09-27 Wed 14:50]--[2023-09-27 Wed 15:21] =>  0:31
 CLOCK: [2023-09-25 Mon 10:56]--[2023-09-25 Mon 11:10] =>  0:14
 CLOCK: [2023-09-22 Fri 12:03]--[2023-09-22 Fri 12:28] =>  0:25
 CLOCK: [2023-09-20 Wed 11:33]--[2023-09-20 Wed 12:02] =>  0:29
@@ -925,7 +930,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#A] Daily tasks pile assay
-SCHEDULED: <2023-09-27 Wed .+1d>
+SCHEDULED: <2023-09-28 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1028,7 +1033,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-27 Wed .+1d>
+SCHEDULED: <2023-09-28 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1261,7 +1266,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#B] CV elaboration
-SCHEDULED: <2023-09-27 Wed .+2d/3d>
+SCHEDULED: <2023-09-28 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1270,6 +1275,7 @@ SCHEDULED: <2023-09-27 Wed .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-09-27 Wed 11:06]--[2023-09-27 Wed 11:54] =>  0:48
 CLOCK: [2023-09-22 Fri 10:21]--[2023-09-22 Fri 10:44] =>  0:23
 CLOCK: [2023-09-20 Wed 09:01]--[2023-09-20 Wed 09:28] =>  0:27
 CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
@@ -1391,8 +1397,8 @@ SCHEDULED: <2023-10-17 Tue>
 150 Common Idioms
 ** DELAY Anton Alexeyev lessons
 SCHEDULED: <2023-10-02 Mon>
-** ACTIVE Bulk remote editing selected entries
-SCHEDULED: <2023-09-27 Wed>
+** DELAY Bulk remote editing selected entries
+SCHEDULED: <2023-12-20 Wed>
 [[info:org#Agenda Commands][org#Agenda Commands]]
 ** DELAY RAW tasks assignment at each Sunday
 SCHEDULED: <2023-11-10 Fri>
