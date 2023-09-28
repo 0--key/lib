@@ -750,7 +750,11 @@ SCHEDULED: <2023-09-28 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-09-25 Mon 10:11]
+CLOCK: [2023-09-28 Thu 07:44]--[2023-09-28 Thu 07:46] =>  0:02
+CLOCK: [2023-09-27 Wed 16:13]--[2023-09-27 Wed 16:17] =>  0:04
+CLOCK: [2023-09-27 Wed 08:57]--[2023-09-27 Wed 08:59] =>  0:02
+CLOCK: [2023-09-27 Wed 08:39]--[2023-09-27 Wed 08:42] =>  0:03
+CLOCK: [2023-09-25 Mon 10:11]--[2023-09-25 Mon 10:12] =>  0:01
 CLOCK: [2023-09-24 Sun 11:54]--[2023-09-24 Sun 11:59] =>  0:05
 CLOCK: [2023-09-22 Fri 10:44]--[2023-09-22 Fri 10:47] =>  0:03
 CLOCK: [2023-09-22 Fri 10:09]--[2023-09-22 Fri 10:13] =>  0:04
@@ -929,7 +933,7 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#A] Daily tasks pile assay
+*** Daily tasks pile assay
 SCHEDULED: <2023-09-28 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
@@ -953,6 +957,7 @@ SCHEDULED: <2023-09-28 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-28 Thu 07:46]
 CLOCK: [2023-09-25 Mon 10:12]--[2023-09-25 Mon 10:27] =>  0:15
 CLOCK: [2023-09-24 Sun 11:40]--[2023-09-24 Sun 11:54] =>  0:14
 CLOCK: [2023-09-22 Fri 09:25]--[2023-09-22 Fri 09:32] =>  0:07
@@ -1126,9 +1131,9 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
-SCHEDULED: <2023-09-28 Thu ++1w>
+SCHEDULED: <2023-09-29 Fri ++1w>
 *** English Grammar
-SCHEDULED: <2023-09-28 Thu ++1w>
+SCHEDULED: <2023-09-29 Fri ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1265,7 +1270,7 @@ SCHEDULED: <2023-10-25 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** ACTIVE [#B] CV elaboration
+** ACTIVE [#A] CV elaboration
 SCHEDULED: <2023-09-28 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
@@ -1326,7 +1331,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** ACTIVE [#A] Personal Development
-SCHEDULED: <2023-09-28 Thu>
+SCHEDULED: <2023-09-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
 CLOCK: [2023-05-24 Wed 10:49]--[2023-05-24 Wed 11:09] =>  0:20
