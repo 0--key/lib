@@ -681,7 +681,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** Thought Cast
-SCHEDULED: <2023-09-28 Thu>
+SCHEDULED: <2023-09-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
@@ -721,8 +721,11 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
   or even a separate file appended to *Org-Agenda*
 ** TODO Story telling with Martin
 SCHEDULED: <2023-10-02 Mon>
-** INIT [#A] Letters for Manuel and Kane
+** ACTIVE [#A] Letters for Manuel and Kane
 SCHEDULED: <2023-09-28 Thu>
+:LOGBOOK:
+CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
+:END:
 ** INIT Calligraphy
 SCHEDULED: <2023-09-29 Fri>
 ** INIT Furniture issue
@@ -957,7 +960,8 @@ SCHEDULED: <2023-09-28 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
-CLOCK: [2023-09-28 Thu 07:46]
+CLOCK: [2023-09-28 Thu 10:55]--[2023-09-28 Thu 10:56] =>  0:01
+CLOCK: [2023-09-28 Thu 07:46]--[2023-09-28 Thu 07:51] =>  0:05
 CLOCK: [2023-09-25 Mon 10:12]--[2023-09-25 Mon 10:27] =>  0:15
 CLOCK: [2023-09-24 Sun 11:40]--[2023-09-24 Sun 11:54] =>  0:14
 CLOCK: [2023-09-22 Fri 09:25]--[2023-09-22 Fri 09:32] =>  0:07
