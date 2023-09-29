@@ -1070,8 +1070,8 @@ CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
-*** Workspace decluttering
-SCHEDULED: <2023-10-05 Thu ++2w>
+*** [#A] Workspace decluttering
+SCHEDULED: <2023-09-29 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-21 Thu 10:58]
 :END:
@@ -1287,6 +1287,7 @@ SCHEDULED: <2023-09-29 Fri .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-09-29 Fri 08:19]--[2023-09-29 Fri 08:43] =>  0:24
 CLOCK: [2023-09-27 Wed 11:06]--[2023-09-27 Wed 11:54] =>  0:48
 CLOCK: [2023-09-22 Fri 10:21]--[2023-09-22 Fri 10:44] =>  0:23
 CLOCK: [2023-09-20 Wed 09:01]--[2023-09-20 Wed 09:28] =>  0:27
@@ -1294,7 +1295,7 @@ CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
 CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
-[[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
+[[file:~/git/org-pub/2016-10-13-CV.org::*\Beta{}rief overview][Brief Overview]]
 ** LAG Global and Local Variables in Python
 SCHEDULED: <2023-11-13 Mon>
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:
