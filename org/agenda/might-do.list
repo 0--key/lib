@@ -682,13 +682,19 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-09-29 Fri>
+SCHEDULED: <2023-10-02 Mon ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-29 Fri 10:39]
+:END:
+- State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
 CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
+[[file:~/git/org-pub/2023-09-19-think-like-a-genius.org::*Second Order Thinking][Second Order Thinking]]
 ** DELAY 3 months in the future /smart/ shift
 SCHEDULED: <2023-10-18 Wed>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -1278,7 +1284,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-09-29 Fri .+2d/3d>
+SCHEDULED: <2023-09-30 Sat .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
