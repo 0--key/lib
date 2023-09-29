@@ -103,7 +103,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RAW Archive non-actual tasks
-SCHEDULED: <2023-09-29 Fri .+3d/4d>
+SCHEDULED: <2023-11-24 Fri .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -237,8 +237,8 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW How We Learn by Benedict Carey
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
-** DELAY Clocking tasks execution
-SCHEDULED: <2023-09-29 Fri>
+** LAG Clocking tasks execution
+SCHEDULED: <2023-11-13 Mon>
 - Note taken on [2023-06-06 Tue 07:05] \\
   Now it seems not actual and uncertain, so just postpone it on two
   months.
@@ -266,7 +266,7 @@ But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
 ** RAW Archive Day Weekly
-SCHEDULED: <2023-09-29 Fri +1w>
+SCHEDULED: <2023-11-24 Fri +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -298,8 +298,8 @@ experimentation/.
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
-** DELAY Tracking your habits
-SCHEDULED: <2023-09-29 Fri .+2w>
+** LAG Tracking your habits
+SCHEDULED: <2023-11-13 Mon .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -476,11 +476,12 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-09-29 Fri .+1w>
+SCHEDULED: <2023-10-05 Thu .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 09:51]
+:LAST_REPEAT: [2023-09-29 Fri 07:34]
 :END:
 
+- State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
 SCHEDULED: <2023-09-30 Sat>
@@ -508,7 +509,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-09-29 Fri ++1w>
+SCHEDULED: <2023-10-01 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -680,7 +681,7 @@ CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
-** Thought Cast
+** [#A] Thought Cast
 SCHEDULED: <2023-09-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
@@ -721,13 +722,14 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
   or even a separate file appended to *Org-Agenda*
 ** TODO Story telling with Martin
 SCHEDULED: <2023-10-02 Mon>
-** ACTIVE [#A] Letters for Manuel and Kane
+** DONE [#A] Letters for Manuel and Kane
 SCHEDULED: <2023-09-28 Thu>
 :LOGBOOK:
+CLOCK: [2023-09-28 Thu 11:28]--[2023-09-29 Fri 07:29] => 20:01
 CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
 :END:
-** INIT Calligraphy
-SCHEDULED: <2023-09-29 Fri>
+** LAG Calligraphy
+SCHEDULED: <2023-11-13 Mon>
 ** INIT Furniture issue
 SCHEDULED: <2023-09-30 Sat>
 * Tasks
@@ -736,7 +738,7 @@ SCHEDULED: <2023-09-30 Sat>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-28 Thu ++1d>
+SCHEDULED: <2023-09-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -867,7 +869,7 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-*** Touch typing
+*** [#B] Touch typing
 SCHEDULED: <2023-09-29 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-27 Wed 15:21]
@@ -936,8 +938,8 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** Daily tasks pile assay
-SCHEDULED: <2023-09-28 Thu .+1d>
+*** [#A] Daily tasks pile assay
+SCHEDULED: <2023-09-29 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -960,6 +962,7 @@ SCHEDULED: <2023-09-28 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-09-29 Fri 07:31]--[2023-09-29 Fri 07:51] =>  0:20
 CLOCK: [2023-09-28 Thu 10:55]--[2023-09-28 Thu 10:56] =>  0:01
 CLOCK: [2023-09-28 Thu 07:46]--[2023-09-28 Thu 07:51] =>  0:05
 CLOCK: [2023-09-25 Mon 10:12]--[2023-09-25 Mon 10:27] =>  0:15
@@ -1041,8 +1044,8 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-*** Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-28 Thu .+1d>
+*** [#C] Tomorrow tasks heap brushing up
+SCHEDULED: <2023-09-29 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1098,10 +1101,10 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
  - and restart OS.
-*** CodeWars
-SCHEDULED: <2023-09-28 Thu ++2d/3d>
-*** Vocabulary elaboration
-SCHEDULED: <2023-09-28 Thu ++1d>
+*** [#B] CodeWars
+SCHEDULED: <2023-09-29 Fri ++2d/3d>
+*** [#B] Vocabulary rectification
+SCHEDULED: <2023-09-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 11:48]
 :END:
@@ -1135,9 +1138,9 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
-SCHEDULED: <2023-09-29 Fri ++1w>
+SCHEDULED: <2023-10-02 Mon ++1w>
 *** English Grammar
-SCHEDULED: <2023-09-29 Fri ++1w>
+SCHEDULED: <2023-10-04 Wed ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1152,8 +1155,8 @@ create your key binding like this:
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** TODO Proverbs
-SCHEDULED: <2023-09-29 Fri .+2d/3d>
+*** LAG Proverbs
+SCHEDULED: <2023-11-13 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1207,8 +1210,8 @@ CLOCK: [2022-12-05 Mon 09:24]--[2022-12-05 Mon 09:31] =>  0:07
 For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
-** DELAY Tracking TODO state changes
-SCHEDULED: <2023-09-29 Fri>
+** LAG Tracking TODO state changes
+SCHEDULED: <2023-11-13 Mon>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** SET Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
@@ -1231,7 +1234,7 @@ DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** DELAY Capture for idioms
-SCHEDULED: <2023-09-30 Sat>
+SCHEDULED: <2023-11-13 Mon>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -1275,7 +1278,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-09-28 Thu .+2d/3d>
+SCHEDULED: <2023-09-29 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1293,7 +1296,7 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*\alpha Brief Overview][\alpha Brief Overview]]
 ** LAG Global and Local Variables in Python
-SCHEDULED: <2023-09-29 Fri>
+SCHEDULED: <2023-11-13 Mon>
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:
 SCHEDULED: <2023-06-19 Mon>
 :LOGBOOK:
@@ -1318,11 +1321,11 @@ SCHEDULED: <2023-06-29 Thu>
   3d->1w->3w->2m->archive
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
-** DELAY Emacs init file
-SCHEDULED: <2023-09-29 Fri>
+** LAG Emacs init file
+SCHEDULED: <2023-11-13 Mon>
 [[info:emacs#Init File][emacs#Init File]]
-** DELAY Handling links
-SCHEDULED: <2023-09-29 Fri>
+** LAG Handling links
+SCHEDULED: <2023-11-13 Mon>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
