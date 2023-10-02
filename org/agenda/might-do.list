@@ -449,14 +449,14 @@ SCHEDULED: <2023-10-05 Thu .+1w>
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-09-30 Sat>
+SCHEDULED: <2023-10-07 Sat>
 
 
 
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
-** DELAY Reading Alice
-SCHEDULED: <2023-10-02 Mon .+2d/3d>
+** LAG Reading Alice
+SCHEDULED: <2023-11-27 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -474,7 +474,7 @@ SCHEDULED: <2023-04-06 Thu .+2d/3d>
 CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
 :END:
 ** New tasks trimming
-SCHEDULED: <2023-10-01 Sun ++1w>
+SCHEDULED: <2023-10-06 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -702,14 +702,14 @@ CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
 ** LAG Calligraphy
 SCHEDULED: <2023-11-13 Mon>
 ** INIT Furniture issue
-SCHEDULED: <2023-09-30 Sat>
+SCHEDULED: <2023-10-12 Thu>
 * Tasks
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-09-29 Fri ++1d>
+SCHEDULED: <2023-10-02 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -939,6 +939,8 @@ SCHEDULED: <2023-10-02 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-02 Mon 08:30]--[2023-10-02 Mon 08:49] =>  0:19
+CLOCK: [2023-09-29 Fri 11:02]--[2023-09-29 Fri 11:04] =>  0:02
 CLOCK: [2023-09-29 Fri 07:31]--[2023-09-29 Fri 07:51] =>  0:20
 CLOCK: [2023-09-28 Thu 10:55]--[2023-09-28 Thu 10:56] =>  0:01
 CLOCK: [2023-09-28 Thu 07:46]--[2023-09-28 Thu 07:51] =>  0:05
@@ -1022,7 +1024,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-09-29 Fri .+1d>
+SCHEDULED: <2023-10-02 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1081,9 +1083,9 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** [#B] CodeWars
-SCHEDULED: <2023-09-29 Fri ++2d/3d>
+SCHEDULED: <2023-10-02 Mon ++2d/3d>
 *** [#B] Vocabulary rectification
-SCHEDULED: <2023-09-29 Fri ++1d>
+SCHEDULED: <2023-10-03 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 11:48]
 :END:
@@ -1106,7 +1108,7 @@ CLOCK: [2023-05-25 Thu 12:23]--[2023-05-25 Thu 12:45] =>  0:22
     * reading books;
     * watching YouTube with transcripts.
 *** Audition
-SCHEDULED: <2023-10-02 Mon ++2d>
+SCHEDULED: <2023-10-04 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 14:05]
 :END:
@@ -1117,7 +1119,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
-SCHEDULED: <2023-10-02 Mon ++1w>
+SCHEDULED: <2023-10-03 Tue ++1w>
 *** English Grammar
 SCHEDULED: <2023-10-04 Wed ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -1257,7 +1259,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-09-30 Sat .+2d/3d>
+SCHEDULED: <2023-10-02 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1388,8 +1390,8 @@ CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 ** DELAY JForrest English
 SCHEDULED: <2023-10-17 Tue>
 150 Common Idioms
-** DELAY Anton Alexeyev lessons
-SCHEDULED: <2023-10-02 Mon>
+** LAG Anton Alexeyev lessons
+SCHEDULED: <2023-11-27 Mon>
 ** DELAY Bulk remote editing selected entries
 SCHEDULED: <2023-12-20 Wed>
 [[info:org#Agenda Commands][org#Agenda Commands]]
@@ -1429,8 +1431,8 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 :END:
 [[http://irreal.org/emacs-reminders.html][reading for fun]]
 ** RAW Micro Trading
-** DELAY Framework Thinking
-SCHEDULED: <2023-10-02 Mon>
+** LAG Framework Thinking
+SCHEDULED: <2023-11-27 Mon>
 ** DELAY Time is Space Concept
 SCHEDULED: <2023-10-08 Sun>
 Speed of light isn't equal in different moments and directions
