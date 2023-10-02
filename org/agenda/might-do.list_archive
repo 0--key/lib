@@ -220,3 +220,53 @@ SCHEDULED: <2023-05-28 Sun>
 :END:
 axa.letterkenny@axa.ie;
 SCHEDULED: <2023-05-26 Fri>
+
+* Gym with Andrew #2
+SCHEDULED: <2023-10-01 Sun .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-06-21 Wed 18:04]
+:ARCHIVE_TIME: 2023-10-02 Mon 08:46
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/Family
+:ARCHIVE_CATEGORY: kin
+:END:
+
+- State "DONE"       from "ACTIVE"     [2023-06-21 Wed 18:04]
+- State "DONE"       from "ACTIVE"     [2023-04-26 Wed 16:10]
+- State "DONE"       from "ACTIVE"     [2023-04-12 Wed 15:41]
+- State "DONE"       from "ACTIVE"     [2023-03-29 Wed 13:53]
+- State "DONE"       from "ACTIVE"     [2023-03-22 Wed 14:07]
+- State "DONE"       from "ACTIVE"     [2023-03-16 Thu 10:38]
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:18]
+
+* Gym with Andrew #3
+SCHEDULED: <2023-09-30 Sat .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-23 Sat 16:51]
+:ARCHIVE_TIME: 2023-10-02 Mon 08:46
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/Family
+:ARCHIVE_CATEGORY: kin
+:END:
+
+- State "AMPLE"      from ""           [2023-09-23 Sat 16:51]
+- State "DONE"       from "ACTIVE"     [2023-04-24 Mon 13:01]
+- State "DONE"       from "ACTIVE"     [2023-04-10 Mon 11:26]
+- State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:03]
+- State "DONE"       from "ACTIVE"     [2023-03-11 Sat 12:02]
+
+* Gym with Andrew #1
+SCHEDULED: <2023-09-27 Wed .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-06-20 Tue 08:15]
+:ARCHIVE_TIME: 2023-10-02 Mon 08:54
+:ARCHIVE_FILE: ~/git/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/Family
+:ARCHIVE_CATEGORY: kin
+:END:
+
+- State "DONE"       from "ACTIVE"     [2023-06-20 Tue 08:15]
+- State "DONE"       from "ACTIVE"     [2023-06-05 Mon 17:40]
+- State "DONE"       from "ACTIVE"     [2023-04-24 Mon 13:01]
+- State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:01]
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:16]
