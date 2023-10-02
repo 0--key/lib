@@ -20,5 +20,14 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** RAW Assignment test suite
-** INIT IPython
-SCHEDULED: <2023-10-02 Mon>
+** ACTIVE IPython
+SCHEDULED: <2023-10-04 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-02 Mon 11:10]--[2023-10-02 Mon 11:19] =>  0:09
+CLOCK: [2023-10-02 Mon 09:40]--[2023-10-02 Mon 10:02] =>  0:22
+CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
+:END:
+[[file:~/git/org-pub/2023-10-02-ipython-inside-babel.org::*Overview][Overview]]
+[[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
+[[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
+[[file:/usr/share/doc/python-ipython-doc/html/install/index.html#install-index][Installation — IPython 7.20.0 documentation]]

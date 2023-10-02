@@ -347,7 +347,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-10-04 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2023-10-02 Mon .+1w>
+SCHEDULED: <2023-10-03 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -647,12 +647,14 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-10-02 Mon ++3d/4d>
+SCHEDULED: <2023-10-05 Thu ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-29 Fri 10:39]
+:LAST_REPEAT: [2023-10-02 Mon 11:53]
 :END:
+- State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
 - State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
 CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
 CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
 CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
@@ -691,8 +693,11 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
 :END:
 - Note taken on [2023-09-25 Mon 10:18] \\
   or even a separate file appended to *Org-Agenda*
-** TODO Story telling with Martin
-SCHEDULED: <2023-10-02 Mon>
+** ACTIVE Story telling with Martin
+SCHEDULED: <2023-10-04 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-02 Mon 12:54]--[2023-10-02 Mon 13:37] =>  0:43
+:END:
 ** DONE [#A] Letters for Manuel and Kane
 SCHEDULED: <2023-09-28 Thu>
 :LOGBOOK:
@@ -916,7 +921,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#A] Daily tasks pile assay
-SCHEDULED: <2023-10-02 Mon .+1d>
+SCHEDULED: <2023-10-03 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1024,7 +1029,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-02 Mon .+1d>
+SCHEDULED: <2023-10-03 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 19:41]
 :END:
@@ -1036,6 +1041,7 @@ SCHEDULED: <2023-10-02 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-02 Mon 19:39]--[2023-10-02 Mon 19:40] =>  0:01
 CLOCK: [2023-09-20 Wed 19:40]--[2023-09-20 Wed 19:41] =>  0:01
 CLOCK: [2023-09-20 Wed 17:41]--[2023-09-20 Wed 17:49] =>  0:08
 CLOCK: [2023-06-05 Mon 18:46]--[2023-06-05 Mon 18:47] =>  0:01
@@ -1083,7 +1089,7 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** [#B] CodeWars
-SCHEDULED: <2023-10-02 Mon ++2d/3d>
+SCHEDULED: <2023-10-03 Tue ++2d/3d>
 *** [#B] Vocabulary rectification
 SCHEDULED: <2023-10-03 Tue ++1d>
 :PROPERTIES:
@@ -1259,7 +1265,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-10-02 Mon .+2d/3d>
+SCHEDULED: <2023-10-03 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1320,7 +1326,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** ACTIVE [#A] Personal Development
-SCHEDULED: <2023-10-02 Mon>
+SCHEDULED: <2023-10-03 Tue>
 :LOGBOOK:
 CLOCK: [2023-09-29 Fri 11:36]--[2023-09-29 Fri 11:58] =>  0:22
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
