@@ -2,6 +2,10 @@
 #+LANGUAGE: en
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
+#+TODO: | AMPLE
+#+TODO: RAW INIT TODO ACTIVE | DONE
+#+TODO: DELAY LAG RETARD | BARE
+#+TODO: | SET
 
 * TODO Proverbs
 SCHEDULED: <2023-09-29 Fri ++3d/4d>
