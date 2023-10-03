@@ -1092,10 +1092,17 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
  - and restart OS.
-*** [#B] CodeWars
-SCHEDULED: <2023-10-03 Tue ++2d/3d>
+*** [#A] CodeWars
+SCHEDULED: <2023-10-05 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-03 Tue 10:00]
+:END:
+- State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
+:LOGBOOK:
+CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
+:END:
 *** [#B] Vocabulary rectification
-SCHEDULED: <2023-10-03 Tue ++1d>
+SCHEDULED: <2023-10-05 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 11:48]
 :END:
@@ -1132,6 +1139,12 @@ CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 SCHEDULED: <2023-10-04 Wed ++1w>
 *** English Grammar
 SCHEDULED: <2023-10-04 Wed ++1w>
+*** DSP Re-Submittion
+SCHEDULED: <2023-10-31 Tue ++4w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-03 Tue 09:39]
+:END:
+- State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
