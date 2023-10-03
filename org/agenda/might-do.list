@@ -344,10 +344,10 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** DELAY TODO keywords as types
-SCHEDULED: <2023-10-04 Wed>
+SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
-** [#A] Whole week scheduling
-SCHEDULED: <2023-10-03 Tue .+1w>
+** [#B] Whole week scheduling
+SCHEDULED: <2023-10-08 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -362,6 +362,7 @@ SCHEDULED: <2023-10-03 Tue .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-10-03 Tue 19:10]--[2023-10-03 Tue 19:12] =>  0:02
 CLOCK: [2023-09-27 Wed 08:47]--[2023-09-27 Wed 08:57] =>  0:10
 CLOCK: [2023-09-25 Mon 10:27]--[2023-09-25 Mon 10:38] =>  0:11
 CLOCK: [2023-06-19 Mon 10:05]--[2023-06-19 Mon 10:25] =>  0:20
@@ -923,11 +924,12 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#A] Daily tasks pile assay
-SCHEDULED: <2023-10-03 Tue .+1d>
+*** [#B] Daily tasks pile assay
+SCHEDULED: <2023-10-04 Wed .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 19:41]
+:LAST_REPEAT: [2023-10-03 Tue 19:13]
 :END:
+- State "AMPLE"      from ""           [2023-10-03 Tue 19:13]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-20 Wed 11:26]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:40]
@@ -1033,10 +1035,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-03 Tue .+1d>
+SCHEDULED: <2023-10-04 Wed .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 19:41]
+:LAST_REPEAT: [2023-10-03 Tue 19:18]
 :END:
+- State "AMPLE"      from ""           [2023-10-03 Tue 19:18]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-20 Wed 19:41]
 - State "DONE"       from "ACTIVE"     [2022-12-08 Thu 20:40]
@@ -1045,6 +1048,7 @@ SCHEDULED: <2023-10-03 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-03 Tue 19:12]--[2023-10-03 Tue 19:18] =>  0:06
 CLOCK: [2023-10-02 Mon 19:39]--[2023-10-02 Mon 19:40] =>  0:01
 CLOCK: [2023-09-20 Wed 19:40]--[2023-09-20 Wed 19:41] =>  0:01
 CLOCK: [2023-09-20 Wed 17:41]--[2023-09-20 Wed 17:49] =>  0:08
@@ -1282,7 +1286,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-10-03 Tue .+2d/3d>
+SCHEDULED: <2023-10-04 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1291,6 +1295,7 @@ SCHEDULED: <2023-10-03 Tue .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-03 Tue 09:06]--[2023-10-03 Tue 09:38] =>  0:32
 CLOCK: [2023-09-29 Fri 08:19]--[2023-09-29 Fri 08:43] =>  0:24
 CLOCK: [2023-09-27 Wed 11:06]--[2023-09-27 Wed 11:54] =>  0:48
 CLOCK: [2023-09-22 Fri 10:21]--[2023-09-22 Fri 10:44] =>  0:23
@@ -1336,14 +1341,14 @@ CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
 [[info:org#Handling Links][org#Handling Links]]
 ** DELAY Agenda commands
-SCHEDULED: <2023-10-03 Tue>
+SCHEDULED: <2023-12-26 Tue>
 :LOGBOOK:
 CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
-** ACTIVE [#A] Personal Development
-SCHEDULED: <2023-10-03 Tue>
+** ACTIVE Personal Development
+SCHEDULED: <2023-10-05 Thu>
 :LOGBOOK:
 CLOCK: [2023-09-29 Fri 11:36]--[2023-09-29 Fri 11:58] =>  0:22
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
@@ -1380,7 +1385,7 @@ ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** LAG Coursor movement, deletion, search with key-chords
 SCHEDULED: <2023-10-06 Fri>
 ** DELAY Stackoverflow profile elaboration
-SCHEDULED: <2023-10-04 Wed>
+SCHEDULED: <2023-12-27 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
   It's an optional skill and might been acquired in a leasure or idle
   time a little bit later. Naturally it relates from the applied
@@ -1428,7 +1433,7 @@ SCHEDULED: <2023-11-10 Fri>
 [[https://lucidmanager.org/productivity/emacs-chromebook/][link]]
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
-** DELAY How to say thank you
+** INIT How to say thank you
 SCHEDULED: <2023-10-04 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** DELAY [#B] ChatGPT
@@ -1439,7 +1444,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
-** DELAY 10 Daily Idioms
+** INIT 10 Daily Idioms
 SCHEDULED: <2023-10-04 Wed>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** RAW Ross Ashby
