@@ -714,10 +714,11 @@ SCHEDULED: <2023-10-12 Thu>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-10-02 Mon ++1d>
+SCHEDULED: <2023-10-03 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 19:41]
+:LAST_REPEAT: [2023-10-02 Mon 19:45]
 :END:
+- State "AMPLE"      from ""           [2023-10-02 Mon 19:45]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-21 Thu 19:48]
 - State "Done"       from ""           [2023-09-20 Wed 19:46]
@@ -851,10 +852,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-02 Mon ++2d/3d>
+SCHEDULED: <2023-10-04 Wed ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-29 Fri 11:59]
+:LAST_REPEAT: [2023-10-03 Tue 07:43]
 :END:
+- State "AMPLE"      from ""           [2023-10-03 Tue 07:43]
 - State "AMPLE"      from ""           [2023-09-29 Fri 11:59]
 - State "AMPLE"      from ""           [2023-09-27 Wed 15:21]
 - State "AMPLE"      from ""           [2023-09-25 Mon 11:11]
@@ -864,6 +866,7 @@ SCHEDULED: <2023-10-02 Mon ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-10-02 Mon 19:45]--[2023-10-02 Mon 20:10] =>  0:25
 CLOCK: [2023-09-27 Wed 14:50]--[2023-09-27 Wed 15:21] =>  0:31
 CLOCK: [2023-09-25 Mon 10:56]--[2023-09-25 Mon 11:10] =>  0:14
 CLOCK: [2023-09-22 Fri 12:03]--[2023-09-22 Fri 12:28] =>  0:25
@@ -944,6 +947,7 @@ SCHEDULED: <2023-10-03 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-03 Tue 07:45]--[2023-10-03 Tue 07:54] =>  0:09
 CLOCK: [2023-10-02 Mon 08:30]--[2023-10-02 Mon 08:49] =>  0:19
 CLOCK: [2023-09-29 Fri 11:02]--[2023-09-29 Fri 11:04] =>  0:02
 CLOCK: [2023-09-29 Fri 07:31]--[2023-09-29 Fri 07:51] =>  0:20
@@ -1125,7 +1129,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** English We Speak
-SCHEDULED: <2023-10-03 Tue ++1w>
+SCHEDULED: <2023-10-04 Wed ++1w>
 *** English Grammar
 SCHEDULED: <2023-10-04 Wed ++1w>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
@@ -1371,7 +1375,7 @@ SCHEDULED: <2023-10-04 Wed>
 
   So it is postponed on a two months initially.
 ** LAG TXT script from YouTube for EReader
-SCHEDULED: <2023-10-03 Tue>
+SCHEDULED: <2024-03-19 Tue>
 :LOGBOOK:
 CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
 :END:
