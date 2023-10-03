@@ -125,21 +125,10 @@
 (key-chord-define org-mode-map "dr"     'org-drill-resume)
 (key-chord-define org-mode-map "dt"     'org-drill-tree)
 (require 'elpy)
+(elpy-enable)
 
-(pyvenv-activate "/home/alioth/.emacs.d/py3.7.3/")
+;; (pyvenv-activate "/home/alioth/.emacs.d/py3.9.2/") ;; restricted by elpy
 
-;; Programming languages for Babel
-
-(org-babel-do-load-languages
- 'org-babel-load-languages
- '((python . t)
-   (emacs-lisp . t)
-   (shell . t)
-   (sqlite . t)
-   (go . t)
-   (C . t)
-   )) ;; perhaps this hunk is redundant because init.el contains the
-      ;; similar one in the =custom= section
 ;;
 (global-set-key (kbd "C-c c") 'org-capture)
 ;;
