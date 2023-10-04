@@ -442,7 +442,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-10-05 Thu .+1w>
+SCHEDULED: <2023-10-04 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-29 Fri 07:34]
 :END:
@@ -954,6 +954,7 @@ SCHEDULED: <2023-10-04 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-04 Wed 08:28]--[2023-10-04 Wed 08:34] =>  0:06
 CLOCK: [2023-10-03 Tue 07:45]--[2023-10-03 Tue 07:54] =>  0:09
 CLOCK: [2023-10-02 Mon 08:30]--[2023-10-02 Mon 08:49] =>  0:19
 CLOCK: [2023-09-29 Fri 11:02]--[2023-09-29 Fri 11:04] =>  0:02
