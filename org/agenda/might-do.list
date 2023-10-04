@@ -442,9 +442,13 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-10-04 Wed .+1w>
+SCHEDULED: <2023-10-11 Wed .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-29 Fri 07:34]
+:LAST_REPEAT: [2023-10-04 Wed 19:08]
+:END:
+- State "AMPLE"      from ""           [2023-10-04 Wed 19:08]
+:LOGBOOK:
+CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 :END:
 
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
@@ -638,8 +642,8 @@ Thought gestation usually is a delicate and time-consuming process.
     )  
 
 #+end_src
-** DELAY AWS micro-instance
-SCHEDULED: <2023-10-05 Thu>
+** LAG AWS micro-instance
+SCHEDULED: <2023-12-28 Thu>
 - Note taken on [2023-09-22 Fri 10:19] \\
   Yes, it is appealingly attractive, but it's only 25GB Linux :-)
 :LOGBOOK:
@@ -1057,6 +1061,7 @@ SCHEDULED: <2023-10-04 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-04 Wed 19:09]--[2023-10-04 Wed 19:17] =>  0:08
 CLOCK: [2023-10-03 Tue 19:12]--[2023-10-03 Tue 19:18] =>  0:06
 CLOCK: [2023-10-02 Mon 19:39]--[2023-10-02 Mon 19:40] =>  0:01
 CLOCK: [2023-09-20 Wed 19:40]--[2023-09-20 Wed 19:41] =>  0:01
@@ -1444,7 +1449,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-10-04 Wed>
+SCHEDULED: <2023-10-05 Thu>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** DELAY [#B] ChatGPT
 SCHEDULED: <2023-10-08 Sun>
@@ -1455,7 +1460,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT 10 Daily Idioms
-SCHEDULED: <2023-10-04 Wed>
+SCHEDULED: <2023-10-05 Thu>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** RAW Ross Ashby
 [[http://www.rossashby.info/index.html][archive]]
