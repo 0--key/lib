@@ -35,8 +35,12 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/install/index.html#install-index][Installation — IPython 7.20.0 documentation]]
 *** INIT [#A] VirtualEnv
 SCHEDULED: <2023-10-05 Thu>
+- Note taken on [2023-10-04 Wed 19:11] \\
+  Does apt-get install Debian package in venv only?
 *** INIT [#A] PyPackage Management
 SCHEDULED: <2023-10-05 Thu>
+- Note taken on [2023-10-04 Wed 19:12] \\
+  What is ~pip~ and how it works?
 ** [#B] Elpy
 SCHEDULED: <2023-10-05 Thu ++1d>
 :PROPERTIES:

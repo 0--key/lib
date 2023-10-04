@@ -713,6 +713,9 @@ CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
 SCHEDULED: <2023-11-13 Mon>
 ** INIT Furniture issue
 SCHEDULED: <2023-10-12 Thu>
+** INIT Authors from PyPi, pip and ELPA repositories
+SCHEDULED: <2023-10-12 Thu>
+the target audience for Twits and LinkedIn posts
 * Tasks
 ** Chores
 :PROPERTIES:
