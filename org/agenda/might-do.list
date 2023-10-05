@@ -652,13 +652,15 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-10-05 Thu ++3d/4d>
+SCHEDULED: <2023-10-08 Sun ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-02 Mon 11:53]
+:LAST_REPEAT: [2023-10-05 Thu 10:07]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 10:07]
 - State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
 - State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
 CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
 CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
 CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
@@ -667,6 +669,7 @@ CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
 [[file:~/git/org-pub/2023-09-19-think-like-a-genius.org::*Second Order Thinking][Second Order Thinking]]
+[[file:~/git/org-pub/2023-09-19-think-like-a-genius.org::*Hanlon’s Razor][Hanlon’s Razor]]
 ** DELAY 3 months in the future /smart/ shift
 SCHEDULED: <2023-10-18 Wed>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -742,6 +745,7 @@ SCHEDULED: <2023-10-05 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-05 Thu 18:50]
 CLOCK: [2023-10-04 Wed 19:17]--[2023-10-04 Wed 19:27] =>  0:10
 CLOCK: [2023-10-04 Wed 17:04]--[2023-10-04 Wed 17:07] =>  0:03
 CLOCK: [2023-10-04 Wed 10:59]--[2023-10-04 Wed 11:09] =>  0:10
@@ -944,10 +948,11 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#B] Daily tasks pile assay
-SCHEDULED: <2023-10-05 Thu .+1d>
+SCHEDULED: <2023-10-06 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-04 Wed 17:03]
+:LAST_REPEAT: [2023-10-05 Thu 18:49]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 18:49]
 - State "AMPLE"      from ""           [2023-10-04 Wed 17:03]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:13]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
@@ -1056,10 +1061,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-05 Thu .+1d>
+SCHEDULED: <2023-10-06 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-03 Tue 19:18]
+:LAST_REPEAT: [2023-10-05 Thu 18:49]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 18:49]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:18]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
 - State "Done"       from ""           [2023-09-20 Wed 19:41]
@@ -1119,21 +1125,26 @@ Remove all unnecessary:
  - buffers in Emacs;
  - and restart OS.
 *** [#A] CodeWars
-SCHEDULED: <2023-10-05 Thu ++2d/3d>
+SCHEDULED: <2023-10-09 Mon ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-03 Tue 10:00]
+:LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
+[[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 *** [#B] Vocabulary rectification
-SCHEDULED: <2023-10-05 Thu ++1d>
+SCHEDULED: <2023-10-06 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-22 Fri 11:48]
+:LAST_REPEAT: [2023-10-05 Thu 18:46]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 18:46]
 - State "AMPLE"      from ""           [2023-09-22 Fri 11:48]
 :LOGBOOK:
+CLOCK: [2023-10-05 Thu 18:22]--[2023-10-05 Thu 18:45] =>  0:23
 CLOCK: [2023-09-22 Fri 11:20]--[2023-09-22 Fri 11:46] =>  0:26
 CLOCK: [2023-09-20 Wed 11:02]--[2023-09-20 Wed 11:23] =>  0:21
 CLOCK: [2023-09-20 Wed 09:52]--[2023-09-20 Wed 10:21] =>  0:29
@@ -1371,7 +1382,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** ACTIVE Personal Development
-SCHEDULED: <2023-10-05 Thu>
+SCHEDULED: <2023-10-09 Mon>
 :LOGBOOK:
 CLOCK: [2023-09-29 Fri 11:36]--[2023-09-29 Fri 11:58] =>  0:22
 CLOCK: [2023-05-26 Fri 08:30]--[2023-05-26 Fri 09:09] =>  0:39
@@ -1457,7 +1468,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-10-05 Thu>
+SCHEDULED: <2023-10-06 Fri>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** DELAY [#B] ChatGPT
 SCHEDULED: <2023-10-08 Sun>
@@ -1468,7 +1479,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT 10 Daily Idioms
-SCHEDULED: <2023-10-05 Thu>
+SCHEDULED: <2023-10-06 Fri>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** RAW Ross Ashby
 [[http://www.rossashby.info/index.html][archive]]
