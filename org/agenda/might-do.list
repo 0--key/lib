@@ -722,10 +722,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-10-04 Wed ++1d>
+SCHEDULED: <2023-10-05 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-03 Tue 19:24]
+:LAST_REPEAT: [2023-10-05 Thu 08:24]
 :END:
+- State "AMPLE"      from ""           [2023-10-05 Thu 08:24]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:24]
 - State "AMPLE"      from ""           [2023-10-02 Mon 19:45]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
@@ -741,6 +742,10 @@ SCHEDULED: <2023-10-04 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-04 Wed 19:17]--[2023-10-04 Wed 19:27] =>  0:10
+CLOCK: [2023-10-04 Wed 17:04]--[2023-10-04 Wed 17:07] =>  0:03
+CLOCK: [2023-10-04 Wed 10:59]--[2023-10-04 Wed 11:09] =>  0:10
+CLOCK: [2023-10-04 Wed 09:17]--[2023-10-04 Wed 09:20] =>  0:03
 CLOCK: [2023-10-03 Tue 19:18]--[2023-10-03 Tue 19:24] =>  0:06
 CLOCK: [2023-10-03 Tue 07:54]--[2023-10-03 Tue 07:57] =>  0:03
 CLOCK: [2023-10-02 Mon 19:40]--[2023-10-02 Mon 19:45] =>  0:05
@@ -1051,7 +1056,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-04 Wed .+1d>
+SCHEDULED: <2023-10-05 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-03 Tue 19:18]
 :END:
