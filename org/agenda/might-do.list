@@ -1095,10 +1095,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering
-SCHEDULED: <2023-10-06 Fri ++1w>
+SCHEDULED: <2023-10-13 Fri ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-09-29 Fri 11:09]
+:LAST_REPEAT: [2023-10-06 Fri 09:55]
 :END:
+- State "AMPLE"      from ""           [2023-10-06 Fri 09:55]
 - State "AMPLE"      from ""           [2023-09-29 Fri 11:09]
 - State "Done"       from ""           [2023-09-21 Thu 10:58]
 - State "DONE"       from "ACTIVE"     [2023-05-22 Mon 12:14]
@@ -1108,6 +1109,7 @@ SCHEDULED: <2023-10-06 Fri ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-10-06 Fri 09:31]--[2023-10-06 Fri 09:39] =>  0:08
 CLOCK: [2023-09-29 Fri 11:04]--[2023-09-29 Fri 11:09] =>  0:05
 CLOCK: [2023-09-21 Thu 10:46]--[2023-09-21 Thu 10:58] =>  0:12
 CLOCK: [2023-06-07 Wed 17:37]--[2023-06-07 Wed 18:32] =>  0:55
@@ -1322,7 +1324,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-10-06 Fri .+2d/3d>
+SCHEDULED: <2023-10-10 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:
@@ -1331,6 +1333,8 @@ SCHEDULED: <2023-10-06 Fri .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-06 Fri 11:06]--[2023-10-06 Fri 11:32] =>  0:26
+CLOCK: [2023-10-06 Fri 09:01]--[2023-10-06 Fri 09:23] =>  0:22
 CLOCK: [2023-10-04 Wed 09:27]--[2023-10-04 Wed 09:57] =>  0:30
 CLOCK: [2023-10-03 Tue 09:06]--[2023-10-03 Tue 09:38] =>  0:32
 CLOCK: [2023-09-29 Fri 08:19]--[2023-09-29 Fri 08:43] =>  0:24

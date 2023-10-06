@@ -21,8 +21,9 @@ CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** RAW Assignment test suite
 ** ACTIVE [#A] IPython
-SCHEDULED: <2023-10-06 Fri>
+SCHEDULED: <2023-10-09 Mon ++2d>
 :LOGBOOK:
+CLOCK: [2023-10-06 Fri 08:30]--[2023-10-06 Fri 08:54] =>  0:24
 CLOCK: [2023-10-05 Thu 08:28]--[2023-10-05 Thu 09:02] =>  0:34
 CLOCK: [2023-10-04 Wed 08:37]--[2023-10-04 Wed 09:16] =>  0:39
 CLOCK: [2023-10-03 Tue 08:29]--[2023-10-03 Tue 08:54] =>  0:25
@@ -56,6 +57,7 @@ SCHEDULED: <2023-10-06 Fri ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-10-06 Fri 11:41]--[2023-10-06 Fri 12:08] =>  0:27
 CLOCK: [2023-10-04 Wed 11:13]--[2023-10-04 Wed 11:43] =>  0:30
 CLOCK: [2023-10-03 Tue 11:23]--[2023-10-03 Tue 11:40] =>  0:17
 CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
