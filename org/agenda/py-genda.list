@@ -34,15 +34,15 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
-*** INIT [#A] VirtualEnv
-SCHEDULED: <2023-10-06 Fri>
+*** DELAY [#A] VirtualEnv
+SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
-*** INIT [#A] PyPackage Management
-SCHEDULED: <2023-10-06 Fri>
+*** DELAY [#A] PyPackage Management
+SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
