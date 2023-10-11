@@ -9,7 +9,7 @@
    '("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))
  '(key-chord-mode t)
  '(org-agenda-files
-   '("~/git/lib/org/agenda/py-genda.list" "/home/alioth/git/lib/org/drills.org" "/home/alioth/git/org-pub/2022-11-09-star-warmth.org" "/home/alioth/git/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/git/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/git/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/git/lib/org/agenda/might-do.list"))
+   '("~/git/lib/org/agenda/team-tasks.list" "/home/alioth/git/lib/org/agenda/py-genda.list" "/home/alioth/git/lib/org/drills.org" "/home/alioth/git/org-pub/2022-11-09-star-warmth.org" "/home/alioth/git/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/git/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/git/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/git/lib/org/agenda/might-do.list"))
  '(org-agenda-scheduled-leaders '("Sch " "Sch.%2dx: "))
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
  '(package-selected-packages
