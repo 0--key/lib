@@ -883,7 +883,7 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-*** [#B] Touch typing
+*** [#C] Touch typing
 SCHEDULED: <2023-10-11 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-06 Fri 13:07]
@@ -959,7 +959,7 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#B] Daily tasks pile assay
+*** [#C] Daily tasks pile assay
 SCHEDULED: <2023-10-11 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:49]
