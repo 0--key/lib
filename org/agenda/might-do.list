@@ -984,6 +984,7 @@ SCHEDULED: <2023-10-12 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 09:22]--[2023-10-12 Thu 09:24] =>  0:02
 CLOCK: [2023-10-11 Wed 08:30]--[2023-10-11 Wed 08:34] =>  0:04
 CLOCK: [2023-10-09 Mon 10:14]--[2023-10-09 Mon 10:21] =>  0:07
 CLOCK: [2023-10-06 Fri 08:21]--[2023-10-06 Fri 08:26] =>  0:05
@@ -1104,11 +1105,13 @@ CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
-*** [#A] Workspace decluttering
-SCHEDULED: <2023-10-13 Fri ++1w>
+*** [#A] Workspace decluttering #1
+SCHEDULED: <2023-10-25 Wed ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-06 Fri 09:55]
+:LAST_REPEAT: [2023-10-12 Thu 09:21]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 09:21]
+- State "AMPLE"      from ""           [2023-10-12 Thu 08:47]
 - State "AMPLE"      from ""           [2023-10-06 Fri 09:55]
 - State "AMPLE"      from ""           [2023-09-29 Fri 11:09]
 - State "Done"       from ""           [2023-09-21 Thu 10:58]
@@ -1119,6 +1122,7 @@ SCHEDULED: <2023-10-13 Fri ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 08:58]--[2023-10-12 Thu 09:21] =>  0:23
 CLOCK: [2023-10-06 Fri 09:31]--[2023-10-06 Fri 09:39] =>  0:08
 CLOCK: [2023-09-29 Fri 11:04]--[2023-09-29 Fri 11:09] =>  0:05
 CLOCK: [2023-09-21 Thu 10:46]--[2023-09-21 Thu 10:58] =>  0:12
@@ -1159,11 +1163,12 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-*** [#B] Vocabulary rectification
-SCHEDULED: <2023-10-12 Thu ++2d>
+*** DELAY Vocabulary rectification
+SCHEDULED: <2024-01-13 Sat ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-05 Thu 18:46]
+:LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 09:22]
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:46]
 - State "AMPLE"      from ""           [2023-09-22 Fri 11:48]
 :LOGBOOK:
