@@ -730,10 +730,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-12 Thu ++1d>
+SCHEDULED: <2023-10-13 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-05 Thu 19:01]
+:LAST_REPEAT: [2023-10-12 Thu 19:15]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 19:15]
 - State "AMPLE"      from ""           [2023-10-05 Thu 19:01]
 - State "AMPLE"      from ""           [2023-10-05 Thu 08:24]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:24]
@@ -751,6 +752,11 @@ SCHEDULED: <2023-10-12 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 19:10]--[2023-10-12 Thu 19:15] =>  0:05
+CLOCK: [2023-10-12 Thu 14:21]--[2023-10-12 Thu 14:21] =>  0:00
+CLOCK: [2023-10-12 Thu 11:05]--[2023-10-12 Thu 11:17] =>  0:12
+CLOCK: [2023-10-12 Thu 09:24]--[2023-10-12 Thu 09:29] =>  0:05
+CLOCK: [2023-10-11 Wed 19:59]--[2023-10-11 Wed 20:03] =>  0:04
 CLOCK: [2023-10-11 Wed 08:34]--[2023-10-11 Wed 08:38] =>  0:04
 CLOCK: [2023-10-09 Mon 10:44]--[2023-10-09 Mon 10:48] =>  0:04
 CLOCK: [2023-10-06 Fri 12:32]--[2023-10-06 Fri 12:45] =>  0:13
