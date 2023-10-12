@@ -1137,7 +1137,14 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 11:46]
 Remove all unnecessary:
  - tabs on Google Chrome;
+ - buffers in Emacs.
+*** [#A] Workspace decluttering #2
+SCHEDULED: <2023-10-13 Fri ++1w>
+Remove all unnecessary:
+ - tabs on Google Chrome;
  - buffers in Emacs;
+ - update Emacs' packages;
+ - update&upgrade Debian packages;
  - and restart OS.
 *** [#A] CodeWars
 SCHEDULED: <2023-10-12 Thu ++2d/3d>
