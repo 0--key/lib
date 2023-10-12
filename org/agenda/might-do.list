@@ -1156,6 +1156,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
  - update Emacs' packages;
+ - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
 *** [#A] CodeWars
