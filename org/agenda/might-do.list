@@ -655,14 +655,16 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#A] Thought Cast
-SCHEDULED: <2023-10-12 Thu ++3d/4d>
+SCHEDULED: <2023-10-15 Sun ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-05 Thu 10:07]
+:LAST_REPEAT: [2023-10-12 Thu 11:05]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 11:05]
 - State "AMPLE"      from ""           [2023-10-05 Thu 10:07]
 - State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
 - State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 10:44]--[2023-10-12 Thu 11:05] =>  0:21
 CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
 CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
 CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
@@ -719,8 +721,8 @@ CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
 SCHEDULED: <2023-11-13 Mon>
 ** DELAY Furniture issue
 SCHEDULED: <2024-01-11 Thu>
-** INIT Authors from PyPi, pip and ELPA repositories
-SCHEDULED: <2023-10-12 Thu>
+** DELAY Authors from PyPi, pip and ELPA repositories
+SCHEDULED: <2023-12-07 Thu>
 the target audience for Twits and LinkedIn posts
 * Tasks
 ** Chores
@@ -882,10 +884,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-10-12 Thu ++2d/3d>
+SCHEDULED: <2023-10-14 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-06 Fri 13:07]
+:LAST_REPEAT: [2023-10-12 Thu 18:54]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 18:54]
 - State "AMPLE"      from ""           [2023-10-06 Fri 13:07]
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:59]
 - State "AMPLE"      from ""           [2023-10-03 Tue 07:43]
@@ -898,6 +901,7 @@ SCHEDULED: <2023-10-12 Thu ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 18:25]--[2023-10-12 Thu 18:54] =>  0:29
 CLOCK: [2023-10-06 Fri 12:46]--[2023-10-06 Fri 13:07] =>  0:21
 CLOCK: [2023-10-04 Wed 11:45]--[2023-10-04 Wed 11:59] =>  0:14
 CLOCK: [2023-10-02 Mon 19:45]--[2023-10-02 Mon 20:10] =>  0:25
@@ -958,10 +962,11 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-12 Thu .+1d>
+SCHEDULED: <2023-10-13 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-05 Thu 18:49]
+:LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 19:09]
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:49]
 - State "AMPLE"      from ""           [2023-10-04 Wed 17:03]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:13]
@@ -984,6 +989,7 @@ SCHEDULED: <2023-10-12 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 18:24]--[2023-10-12 Thu 18:25] =>  0:01
 CLOCK: [2023-10-12 Thu 09:22]--[2023-10-12 Thu 09:24] =>  0:02
 CLOCK: [2023-10-11 Wed 08:30]--[2023-10-11 Wed 08:34] =>  0:04
 CLOCK: [2023-10-09 Mon 10:14]--[2023-10-09 Mon 10:21] =>  0:07
@@ -1075,10 +1081,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-12 Thu .+1d>
+SCHEDULED: <2023-10-13 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-05 Thu 18:49]
+:LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
+- State "AMPLE"      from ""           [2023-10-12 Thu 19:09]
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:49]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:18]
 - State "AMPLE"      from ""           [2023-09-22 Fri 19:41]
@@ -1089,6 +1096,7 @@ SCHEDULED: <2023-10-12 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 19:04]--[2023-10-12 Thu 19:09] =>  0:05
 CLOCK: [2023-10-04 Wed 19:09]--[2023-10-04 Wed 19:17] =>  0:08
 CLOCK: [2023-10-03 Tue 19:12]--[2023-10-03 Tue 19:18] =>  0:06
 CLOCK: [2023-10-02 Mon 19:39]--[2023-10-02 Mon 19:40] =>  0:01
@@ -1356,7 +1364,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-10-12 Thu .+2d/3d>
+SCHEDULED: <2023-10-13 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-14 Fri 15:24]
 :END:

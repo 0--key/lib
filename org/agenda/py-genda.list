@@ -21,12 +21,13 @@ CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** RAW Assignment test suite
 ** INIT [#A] IPython
-SCHEDULED: <2023-10-12 Thu ++2d>
+SCHEDULED: <2023-10-16 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
 - State "DONE"       from "ACTIVE"     [2023-10-09 Mon 11:30]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 09:37]--[2023-10-12 Thu 10:13] =>  0:36
 CLOCK: [2023-10-09 Mon 11:04]--[2023-10-09 Mon 11:29] =>  0:25
 CLOCK: [2023-10-06 Fri 08:30]--[2023-10-06 Fri 08:54] =>  0:24
 CLOCK: [2023-10-05 Thu 08:28]--[2023-10-05 Thu 09:02] =>  0:34
@@ -54,8 +55,8 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
-** INIT [#A] Elpy
-SCHEDULED: <2023-10-12 Thu ++1d>
+** INIT [#B] Elpy
+SCHEDULED: <2023-10-13 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -63,6 +64,7 @@ SCHEDULED: <2023-10-12 Thu ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-10-12 Thu 10:13]--[2023-10-12 Thu 10:39] =>  0:26
 CLOCK: [2023-10-09 Mon 11:36]--[2023-10-09 Mon 12:00] =>  0:24
 CLOCK: [2023-10-06 Fri 11:41]--[2023-10-06 Fri 12:08] =>  0:27
 CLOCK: [2023-10-04 Wed 11:13]--[2023-10-04 Wed 11:43] =>  0:30
