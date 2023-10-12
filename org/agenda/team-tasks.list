@@ -11,8 +11,23 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: RAW INIT TODO ACTIVE | DONE
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
-* [#A] Pull request to ballyboe 
+* AMPLE [#A] Pull request to ballyboe 
 SCHEDULED: <2023-10-11 Wed>
-* TODO [#C] Evening meeting
-SCHEDULED: <2023-10-11 Wed ++1d>
- Vikki tutoring
+- Note taken on [2023-10-11 Wed 19:51] \\
+  I've just gain access to repository as a collaborator. Now it is
+  possible to commit into the :main: branch directly.
+:LOGBOOK:
+CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
+:END:
+* [#C] Evening meeting
+SCHEDULED: <2023-10-12 Thu ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-11 Wed 19:55]
+:END:
+:LOGBOOK:
+CLOCK: [2023-10-11 Wed 15:07]--[2023-10-11 Wed 16:30] =>  1:23
+:END:
+ Mutual tutoring and exercising
+* Chore tasks file
+SCHEDULED: <2023-10-12 Thu>
+in very beginning of org-agenda-files (low priority routine tasks)
