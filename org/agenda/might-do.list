@@ -1159,8 +1159,8 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** [#A] CodeWars
-SCHEDULED: <2023-10-12 Thu ++2d/3d>
+*** [#B] CodeWars
+SCHEDULED: <2023-10-13 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
