@@ -1376,16 +1376,18 @@ SCHEDULED: <2023-10-25 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** ACTIVE [#A] CV elaboration
-SCHEDULED: <2023-10-13 Fri .+2d/3d>
+** RAW [#A] CV elaboration
+SCHEDULED: <2023-10-15 Sun .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-04-14 Fri 15:24]
+:LAST_REPEAT: [2023-10-13 Fri 09:57]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-10-13 Fri 09:57]
 - Note taken on [2023-09-22 Fri 10:24] \\
   * New and actual photo
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-13 Fri 09:13]--[2023-10-13 Fri 09:53] =>  0:40
 CLOCK: [2023-10-06 Fri 11:06]--[2023-10-06 Fri 11:32] =>  0:26
 CLOCK: [2023-10-06 Fri 09:01]--[2023-10-06 Fri 09:23] =>  0:22
 CLOCK: [2023-10-04 Wed 09:27]--[2023-10-04 Wed 09:57] =>  0:30
@@ -1398,7 +1400,7 @@ CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
 CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
 CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
-[[file:~/git/org-pub/2016-10-13-CV.org::*\Beta{}rief overview][Brief Overview]]
+[[file:~/git/org-pub/2016-10-13-CV.org::*Linux][Linux]]
 ** LAG Global and Local Variables in Python
 SCHEDULED: <2023-11-13 Mon>
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:

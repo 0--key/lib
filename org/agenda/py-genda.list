@@ -56,14 +56,19 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** INIT [#B] Elpy
-SCHEDULED: <2023-10-13 Fri ++1d>
+SCHEDULED: <2023-10-14 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
+- Note taken on [2023-10-13 Fri 10:35] \\
+  There are several points to rectify before the return to the main
+  item.
 - State "AMPLE"      from ""           [2023-10-09 Mon 12:00]
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-10-13 Fri 10:35]--[2023-10-13 Fri 10:36] =>  0:01
+CLOCK: [2023-10-13 Fri 10:09]--[2023-10-13 Fri 10:34] =>  0:25
 CLOCK: [2023-10-12 Thu 10:13]--[2023-10-12 Thu 10:39] =>  0:26
 CLOCK: [2023-10-09 Mon 11:36]--[2023-10-09 Mon 12:00] =>  0:24
 CLOCK: [2023-10-06 Fri 11:41]--[2023-10-06 Fri 12:08] =>  0:27
