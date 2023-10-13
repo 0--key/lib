@@ -752,6 +752,7 @@ SCHEDULED: <2023-10-13 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-13 Fri 09:11]
 CLOCK: [2023-10-12 Thu 19:10]--[2023-10-12 Thu 19:15] =>  0:05
 CLOCK: [2023-10-12 Thu 14:21]--[2023-10-12 Thu 14:21] =>  0:00
 CLOCK: [2023-10-12 Thu 11:05]--[2023-10-12 Thu 11:17] =>  0:12
@@ -995,6 +996,7 @@ SCHEDULED: <2023-10-13 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-13 Fri 09:10]--[2023-10-13 Fri 09:11] =>  0:01
 CLOCK: [2023-10-12 Thu 18:24]--[2023-10-12 Thu 18:25] =>  0:01
 CLOCK: [2023-10-12 Thu 09:22]--[2023-10-12 Thu 09:24] =>  0:02
 CLOCK: [2023-10-11 Wed 08:30]--[2023-10-11 Wed 08:34] =>  0:04
@@ -1156,8 +1158,12 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
-*** [#A] Workspace decluttering #2
-SCHEDULED: <2023-10-13 Fri ++1w>
+*** Workspace decluttering #2
+SCHEDULED: <2023-10-20 Fri ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-13 Fri 09:08]
+:END:
+- State "AMPLE"      from ""           [2023-10-13 Fri 09:08]
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs;
@@ -1620,7 +1626,7 @@ The following additional packages will be installed:
 The following NEW packages will be installed:
   zsh zsh-common zsh-doc
 #+end_src
-** AMPLE [#A] Team Management
+** AMPLE Team Management
 SCHEDULED: <2023-10-11 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
