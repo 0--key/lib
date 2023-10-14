@@ -39,13 +39,16 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 * Emacs
+:PROPERTIES:
+:CATEGORY: Emacs
+:END:
 ** ACTIVE Agenda
 ** Key-chords
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** INIT Extend
-SCHEDULED: <2023-11-17 Fri ++1w>
+*** INIT [#B] Extend
+SCHEDULED: <2023-10-14 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
