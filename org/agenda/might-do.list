@@ -1646,3 +1646,15 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
+** INIT [#A] BackUp Linux container
+SCHEDULED: <2023-10-18 Wed>
+*** Save all data
+*** Update all packages
+*** ShutDown Linux
+*** Back it up onto SD card
+*** Resize Linux disk space
+** INIT [#B] Test Jedi inside Emacs
+SCHEDULED: <2023-10-18 Wed>
+Seems it is working as expected in terminal, but don't inside Emacs
+Python's buffers.
+** Remove all unnecessary (default) packages from Linux
