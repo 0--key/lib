@@ -1237,12 +1237,21 @@ SCHEDULED: <2024-01-17 Wed ++1w>
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
 - State "AMPLE"      from ""           [2023-10-11 Wed 08:29]
-*** DSP Re-Submittion
+*** [#A] DSP Re-Submittion
 SCHEDULED: <2023-10-31 Tue ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-03 Tue 09:39]
 :END:
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
+** Events
+:PROPERTIES:
+:CATEGORY: Event
+:END:
+*** [#A] Gothic Organ Performance
+SCHEDULED: <2023-10-31 Tue>
+*** [#C] Electric Ireland
+SCHEDULED: <2023-10-16 Mon>
+
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
