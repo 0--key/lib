@@ -82,6 +82,6 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 [[https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top][Flymake]]
-** INIT A mock Python project
-SCHEDULED: <2023-10-13 Fri>
+** INIT [#A] A mock Python project
+SCHEDULED: <2023-10-14 Sat>
 For Elpy training purposes
