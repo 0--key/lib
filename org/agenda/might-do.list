@@ -727,6 +727,8 @@ SCHEDULED: <2024-01-11 Thu>
 ** DELAY Authors from PyPi, pip and ELPA repositories
 SCHEDULED: <2023-12-07 Thu>
 the target audience for Twits and LinkedIn posts
+** INIT Dress for the job you want, not the job you have.
+SCHEDULED: <2023-10-16 Mon>
 * Tasks
 ** Chores
 :PROPERTIES:
@@ -1658,3 +1660,7 @@ SCHEDULED: <2023-10-18 Wed>
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
 ** Remove all unnecessary (default) packages from Linux
+** INIT README.md
+SCHEDULED: <2023-10-16 Mon>
+in each folder for clarity purposes
+ [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
