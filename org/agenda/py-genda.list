@@ -56,7 +56,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** INIT [#B] Elpy
-SCHEDULED: <2023-10-14 Sat ++1d>
+SCHEDULED: <2023-10-15 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -82,6 +82,6 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 [[https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top][Flymake]]
-** INIT [#A] A mock Python project
-SCHEDULED: <2023-10-14 Sat>
+** INIT [#A] The bald Python project
+SCHEDULED: <2023-10-15 Sun>
 For Elpy training purposes
