@@ -42,16 +42,29 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
-** ACTIVE Agenda
+** Agenda
+*** INIT Focus point shift
+SCHEDULED: <2023-10-24 Tue>
+By putting the actual (most significant) agenda file on the top.
 ** Key-chords
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
 *** INIT [#B] Extend
-SCHEDULED: <2023-10-14 Sat ++1w>
+SCHEDULED: <2023-10-15 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
+- Note taken on [2023-10-15 Sun 09:19] \\
+  qq for org-fill-paragraph in org-mode (only)
+
+  jump-to-regiser (already esists)
+
+  jump to some particular buffer :
+  (key-chord-define-global "gq"     (lambda () (interactive) (switch-to-buffer "*Org Agenda*"))) ;; works well
+
+  anti-clock-wise movement:
+  (key-chord-define-global "OJ"     (lambda () (interactive) (other-window -1)))
 - Note taken on [2023-09-27 Wed 08:50] \\
   * 'follow-mode
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:36]
@@ -89,7 +102,15 @@ CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
 ** Org-capture
+:PROPERTIES:
+:CATEGORY: Capture
+:END:
 *** CLOSED Elaborate two-letters dispatcher
+*** New approach
+SCHEDULED: <2023-10-16 Mon>
+To accumulate the material in the current =clocking= task item.
+It is possible to insert the current ~tip of the killring~.
+[[org#Capture templates]]
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 
@@ -1398,6 +1419,8 @@ SCHEDULED: <2023-10-15 Sun .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-13 Fri 09:57]
 :END:
+- Note taken on [2023-10-15 Sun 09:25] \\
+  Pursuit of knowledge and chase for skills
 - State "DONE"       from "ACTIVE"     [2023-10-13 Fri 09:57]
 - Note taken on [2023-09-22 Fri 10:24] \\
   * New and actual photo
@@ -1667,3 +1690,15 @@ Python's buffers.
 SCHEDULED: <2023-10-16 Mon>
 in each folder for clarity purposes
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
+** INIT New destination for books
+SCHEDULED: <2023-10-23 Mon>
+[[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
+** INIT Check =Elpy= venv
+SCHEDULED: <2023-10-18 Wed>
+ [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
+ [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
+** INIT Put all capture's templates in a separate file
+SCHEDULED: <2023-10-15 Sun>
+** INIT Bayes' Theorem
+SCHEDULED: <2023-10-23 Mon>
+In fire alarm example
