@@ -73,6 +73,7 @@ SCHEDULED: <2023-10-16 Mon ++1w>
   * 'copy-to-register
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
+CLOCK: [2023-10-16 Mon 12:30]--[2023-10-16 Mon 13:28] =>  0:58
 CLOCK: [2023-05-23 Tue 14:24]--[2023-05-23 Tue 14:29] =>  0:05
 CLOCK: [2022-11-18 Fri 18:30]--[2022-11-18 Fri 18:36] =>  0:06
 CLOCK: [2022-11-11 Fri 10:12]--[2022-11-11 Fri 10:17] =>  0:05
@@ -96,6 +97,7 @@ SCHEDULED: <2023-10-16 Mon +3w>
 :END:
 - State "DONE"       from "ACTIVE"     [2023-04-03 Mon 15:13]
 :LOGBOOK:
+CLOCK: [2023-10-16 Mon 13:47]--[2023-10-16 Mon 14:29] =>  0:42
 CLOCK: [2023-04-03 Mon 14:39]--[2023-04-03 Mon 14:53] =>  0:14
 CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
