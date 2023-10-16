@@ -12,8 +12,24 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* INIT Test-Driven Learining
+* INIT [#C] Test-Driven Learining
 SCHEDULED: <2023-10-16 Mon>
+- Note taken on [2023-10-16 Mon 09:02] \\
+  1. Study theory about Python:
+     - Style;
+     - Projects;
+     - Tests;
+  2. Create the bald project to play with:
+     - README.md
+       - .md syntax;
+     - ~tests~ folder;
+  3. Play with it manually from the CLI;
+  4. Install and utilize IPython
+     - play with it in the bold project folder;
+  5. Install Elpy:
+     - Study its documentation online;
+     - Embedded documentation review;
+     - Deliberate practice with it in bold project.
 * SET Pull request to ballyboe 
 SCHEDULED: <2023-10-11 Wed>
 - Note taken on [2023-10-11 Wed 19:51] \\
