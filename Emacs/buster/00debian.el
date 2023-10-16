@@ -5,13 +5,12 @@
 
 ;; 55.04665127097639, -7.565092591636581
 ;; Baile Uí Fhloinn
-(setq calendar-latitude 55.0466)
-   (setq calendar-longitude -7.5651)
-   (setq calendar-location-name "Baile Uí Fhloinn, Co. Donegal")
 ;; (setq calendar-latitude 47.5)
 ;;    (setq calendar-longitude 34.65)
 ;;    (setq calendar-location-name "Energodar, ZP")
-
+(setq calendar-latitude 55.0466)
+   (setq calendar-longitude -7.5651)
+   (setq calendar-location-name "Baile Uí Fhloinn, Co. Donegal")
 
 (require 'package)
 (add-to-list 'package-archives '("elpa" .
@@ -23,41 +22,39 @@
 (load-theme 'wombat)
 
 (require 'org)
+(require 'org-agenda)
 (require 'org-tempo)
 (require 'org-bullets)
-(require 'ob-go)
-
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-
 (require 'key-chord)
 (key-chord-mode 1)
-
+(add-to-list 'load-path "~/git/bookmark-plus/")
+(require 'bookmark+)
 (require 'magit)
 (require 'google-translate)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
-
 (require 'voca-builder)
 (setq voca-builder/voca-file "~/git/lib/org/vocabulary/202309.org")
 (setq voca-builder/export-file "~/.voca-builder-temp.org")
 (setq voca-builder/current-tag "48")
 (setq voca-builder/current-tag "sattelite")
 (setq voca-builder/current-tag "misc")
-
-(add-to-list 'load-path "~/git/bookmark-plus/")
-(require 'bookmark+)
-
+(require 'elpy)
 (require 'ereader)
 (require 'howdoi)
 (require 'org-drill)
-(require 'elpy)
+(require 'mw-thesaurus)
+(require 'dictionary)
+(require 'pyvenv)
+(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
 (elpy-enable)
+(require 'langtool)
+(setq langtool-language-tool-jar
+      "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")
+(setq langtool-default-language "en-US")
 
-;; (pyvenv-activate "/home/alioth/.emacs.d/py3.9.2/") ;; restricted by elpy
-
-;;
-(global-set-key (kbd "C-c c") 'org-capture)
 ;; Additional config section:
 (load "~/emacs.d/key-chords.el")
 
