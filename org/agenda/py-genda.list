@@ -89,7 +89,7 @@ CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
 *** INIT Style
-SCHEDULED: <2023-10-16 Mon>
+SCHEDULED: <2023-10-18 Wed>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -126,5 +126,13 @@ https://github.com/PyCQA/pycodestyle
 SCHEDULED: <2023-10-17 Tue>
 https://docs.python-guide.org/writing/structure/
 *** INIT Testing
-SCHEDULED: <2023-10-16 Mon>
+SCHEDULED: <2023-10-18 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
+:END:
 https://docs.python-guide.org/writing/tests/
+https://docs.python.org/3/library/unittest.html
+https://docs.pytest.org/en/latest/
+https://hypothesis.readthedocs.io/en/latest/
+https://tox.readthedocs.io/en/latest/
+https://docs.python.org/dev/library/unittest.mock
