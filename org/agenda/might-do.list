@@ -114,7 +114,7 @@ SCHEDULED: <2023-10-17 Tue>
 To accumulate the material in the current =clocking= task item.
 It is possible to insert the current ~tip of the killring~.
 [[org#Capture templates
-*** [#B] Put all capture's templates in a separate file
+*** SET [#B] Put all capture's templates in a separate file
 SCHEDULED: <2023-10-17 Tue>]]
 :LOGBOOK:
 CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
