@@ -1278,18 +1278,6 @@ maiden scheduling of completely new (*RAW*) tasks
 *** Figuring out new tasks
 It is their delineation
 
-* Events
-:PROPERTIES:
-:CATEGORY: Event
-:END:
-*** [#A] Gothic Organ Performance
-SCHEDULED: <2023-10-31 Tue>
-https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859911
-https://guildhallderry.com/
-
-*** DELAY [#C] Electric Ireland
-SCHEDULED: <2023-12-18 Mon>
-
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1439,6 +1427,7 @@ SCHEDULED: <2023-10-17 Tue .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-17 Tue 09:57]--[2023-10-17 Tue 10:01] =>  0:04
 CLOCK: [2023-10-13 Fri 09:13]--[2023-10-13 Fri 09:53] =>  0:40
 CLOCK: [2023-10-06 Fri 11:06]--[2023-10-06 Fri 11:32] =>  0:26
 CLOCK: [2023-10-06 Fri 09:01]--[2023-10-06 Fri 09:23] =>  0:22
@@ -1712,3 +1701,15 @@ SCHEDULED: <2023-10-18 Wed>
 ** INIT Bayes' Theorem
 SCHEDULED: <2023-10-23 Mon>
 In fire alarm example
+* Events
+:PROPERTIES:
+:CATEGORY: Event
+:END:
+*** [#A] Gothic Organ Performance
+SCHEDULED: <2023-10-31 Tue>
+https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859911
+https://guildhallderry.com/
+
+*** DELAY [#C] Electric Ireland
+SCHEDULED: <2023-12-18 Mon>
+
