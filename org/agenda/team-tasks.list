@@ -13,11 +13,15 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * INIT [#A] Test-Driven Learining
-SCHEDULED: <2023-10-17 Tue>
+SCHEDULED: <2023-10-18 Wed>
 - Note taken on [2023-10-16 Mon 09:02] \\
   1. Study theory about Python:
-     - Style;
-     - Projects;
+     https://docs.python-guide.org/
+     and in particular:
+     - Style:
+       https://docs.python-guide.org/writing/style/;
+     - Structure:
+       https://docs.python-guide.org/writing/structure/;
      - Tests;
   2. Create the bald project to play with:
      - README.md
