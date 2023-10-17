@@ -42,6 +42,7 @@ CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 SCHEDULED: <2023-10-17 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 15:21]
+:CATEGORY: CoLab
 :END:
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
