@@ -51,7 +51,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** INIT [#B] Extend
-SCHEDULED: <2023-10-16 Mon ++1w>
+SCHEDULED: <2023-10-18 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-18 Fri 18:36]
 :END:
@@ -73,6 +73,7 @@ SCHEDULED: <2023-10-16 Mon ++1w>
   * 'copy-to-register
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
+CLOCK: [2023-10-16 Mon 14:40]--[2023-10-16 Mon 14:51] =>  0:11
 CLOCK: [2023-10-16 Mon 12:30]--[2023-10-16 Mon 13:28] =>  0:58
 CLOCK: [2023-05-23 Tue 14:24]--[2023-05-23 Tue 14:29] =>  0:05
 CLOCK: [2022-11-18 Fri 18:30]--[2022-11-18 Fri 18:36] =>  0:06
@@ -91,7 +92,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** INIT [#B] Declutter
-SCHEDULED: <2023-10-16 Mon +3w>
+SCHEDULED: <2023-10-18 Wed +3w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-03 Mon 15:13]
 :END:
@@ -112,7 +113,9 @@ Optionally, seldom
 SCHEDULED: <2023-10-17 Tue>
 To accumulate the material in the current =clocking= task item.
 It is possible to insert the current ~tip of the killring~.
-[[org#Capture templates]]
+[[org#Capture templates
+*** [#B] Put all capture's templates in a separate file
+SCHEDULED: <2023-10-17 Tue>]]
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 
@@ -373,7 +376,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-16 Mon .+1w>
+SCHEDULED: <2023-10-17 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -633,15 +636,17 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#B] Thought Cast
-SCHEDULED: <2023-10-16 Mon ++3d/4d>
+SCHEDULED: <2023-10-19 Thu ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-12 Thu 11:05]
+:LAST_REPEAT: [2023-10-16 Mon 15:22]
 :END:
+- State "AMPLE"      from ""           [2023-10-16 Mon 15:22]
 - State "AMPLE"      from ""           [2023-10-12 Thu 11:05]
 - State "AMPLE"      from ""           [2023-10-05 Thu 10:07]
 - State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
 - State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-10-16 Mon 14:53]--[2023-10-16 Mon 15:22] =>  0:29
 CLOCK: [2023-10-12 Thu 10:44]--[2023-10-12 Thu 11:05] =>  0:21
 CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
 CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
@@ -651,8 +656,8 @@ CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
 CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
-[[file:~/git/org-pub/2023-09-19-think-like-a-genius.org::*Second Order Thinking][Second Order Thinking]]
-[[file:~/git/org-pub/2023-09-19-think-like-a-genius.org::*Hanlon’s Razor][Hanlon’s Razor]]
+[[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
+
 ** LAG 3 months in the future /smart/ shift
 SCHEDULED: <2024-03-11 Mon>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -710,7 +715,7 @@ SCHEDULED: <2023-10-19 Thu>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-16 Mon ++1d>
+SCHEDULED: <2023-10-17 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:15]
 :END:
@@ -870,8 +875,8 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-*** [#C] Touch typing
-SCHEDULED: <2023-10-16 Mon ++2d/3d>
+*** [#B] Touch typing
+SCHEDULED: <2023-10-17 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 18:54]
 :END:
@@ -949,7 +954,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-16 Mon .+1d>
+SCHEDULED: <2023-10-17 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
@@ -976,6 +981,7 @@ SCHEDULED: <2023-10-16 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-17 Tue 09:11]--[2023-10-17 Tue 09:20] =>  0:09
 CLOCK: [2023-10-16 Mon 08:46]--[2023-10-16 Mon 08:56] =>  0:10
 CLOCK: [2023-10-15 Sun 09:02]--[2023-10-15 Sun 09:05] =>  0:03
 CLOCK: [2023-10-14 Sat 12:46]--[2023-10-14 Sat 12:47] =>  0:01
@@ -1072,7 +1078,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-16 Mon .+1d>
+SCHEDULED: <2023-10-17 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
@@ -1271,14 +1277,18 @@ CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 maiden scheduling of completely new (*RAW*) tasks 
 *** Figuring out new tasks
 It is their delineation
+
 * Events
 :PROPERTIES:
 :CATEGORY: Event
 :END:
 *** [#A] Gothic Organ Performance
 SCHEDULED: <2023-10-31 Tue>
-*** [#C] Electric Ireland
-SCHEDULED: <2023-10-16 Mon>
+https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859911
+https://guildhallderry.com/
+
+*** DELAY [#C] Electric Ireland
+SCHEDULED: <2023-12-18 Mon>
 
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
@@ -1699,8 +1709,6 @@ SCHEDULED: <2023-10-23 Mon>
 SCHEDULED: <2023-10-18 Wed>
  [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
  [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
-** INIT [#B] Put all capture's templates in a separate file
-SCHEDULED: <2023-10-17 Tue>
 ** INIT Bayes' Theorem
 SCHEDULED: <2023-10-23 Mon>
 In fire alarm example
