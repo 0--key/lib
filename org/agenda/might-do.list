@@ -111,9 +111,16 @@ Optionally, seldom
 *** CLOSED Elaborate two-letters dispatcher
 *** [#B] New approach
 SCHEDULED: <2023-10-17 Tue>
+:LOGBOOK:
+CLOCK: [2023-10-17 Tue 13:22]--[2023-10-17 Tue 13:40] =>  0:18
+CLOCK: [2023-10-17 Tue 10:46]--[2023-10-17 Tue 11:00] =>  0:14
+:END:
 To accumulate the material in the current =clocking= task item.
 It is possible to insert the current ~tip of the killring~.
-[[org#Capture templates
+[[org#Capture templates]]
+[[info:org#Template elements][org#Template elements]]
+- A plain list item
+- :immediate-finish 1
 *** SET [#B] Put all capture's templates in a separate file
 SCHEDULED: <2023-10-17 Tue>]]
 :LOGBOOK:
