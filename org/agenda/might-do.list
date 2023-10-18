@@ -908,7 +908,8 @@ SCHEDULED: <2023-10-19 Thu ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
-CLOCK: [2023-10-12 Thu 18:25]--[2023-10-12 Thu 18:54] =>  0:29
+CLOCK: [2023-10-17 Tue 15:32]--[2023-10-17 Tue 15:47] =>  0:15
+CLOCK: [2023-10-12 Thu 18:25]--[2023-10-12 Thu 18:50] =>  0:25
 CLOCK: [2023-10-06 Fri 12:46]--[2023-10-06 Fri 13:07] =>  0:21
 CLOCK: [2023-10-04 Wed 11:45]--[2023-10-04 Wed 11:59] =>  0:14
 CLOCK: [2023-10-02 Mon 19:45]--[2023-10-02 Mon 20:10] =>  0:25
@@ -996,6 +997,8 @@ SCHEDULED: <2023-10-18 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-18 Wed 10:23]--[2023-10-18 Wed 10:25] =>  0:02
+CLOCK: [2023-10-18 Wed 09:03]--[2023-10-18 Wed 09:07] =>  0:04
 CLOCK: [2023-10-17 Tue 09:11]--[2023-10-17 Tue 09:20] =>  0:09
 CLOCK: [2023-10-16 Mon 08:46]--[2023-10-16 Mon 08:56] =>  0:10
 CLOCK: [2023-10-15 Sun 09:02]--[2023-10-15 Sun 09:05] =>  0:03
@@ -1443,6 +1446,7 @@ SCHEDULED: <2023-10-19 Thu .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-17 Tue 14:03]--[2023-10-17 Tue 14:46] =>  0:43
 CLOCK: [2023-10-17 Tue 09:57]--[2023-10-17 Tue 10:01] =>  0:04
 CLOCK: [2023-10-13 Fri 09:13]--[2023-10-13 Fri 09:53] =>  0:40
 CLOCK: [2023-10-06 Fri 11:06]--[2023-10-06 Fri 11:32] =>  0:26

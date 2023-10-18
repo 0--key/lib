@@ -112,23 +112,40 @@ SCHEDULED: <2023-10-24 Tue>
   If the implementation is hard to explain, it's a bad idea.
   If the implementation is easy to explain, it may be a good idea.
   Namespaces are one honking great idea -- let's do more of those!
+
+- */Code is read much more often than it is written/*
 :LOGBOOK:
+CLOCK: [2023-10-18 Wed 10:14]--[2023-10-18 Wed 10:23] =>  0:09
+CLOCK: [2023-10-18 Wed 09:31]--[2023-10-18 Wed 10:02] =>  0:31
+CLOCK: [2023-10-18 Wed 09:07]--[2023-10-18 Wed 09:22] =>  0:15
 CLOCK: [2023-10-16 Mon 09:55]--[2023-10-16 Mon 10:18] =>  0:23
 CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
 :END:
 [[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
 http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
-https://github.com/hblanks/zen-of-python-by-example
+**** PEP8
+SCHEDULED: <2023-10-20 Fri>
 http://pep8.org/
+https://pypi.org/project/autopep8/
+**** YAPF
+SCHEDULED: <2023-10-19 Thu>
+https://github.com/google/yapf
+**** BLACK
+SCHEDULED: <2023-10-21 Sat>
+https://github.com/psf/black
+**** Zen
+SCHEDULED: <2023-10-19 Thu>
+https://github.com/hblanks/zen-of-python-by-example
+**** PyStyle
+SCHEDULED: <2023-10-22 Sun>
 https://github.com/PyCQA/pycodestyle
-
 *** INIT [#A] Structure
 SCHEDULED: <2023-10-19 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 https://docs.python-guide.org/writing/structure/
-*** INIT Testing
+*** INIT [#A] Testing
 SCHEDULED: <2023-10-18 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
@@ -139,3 +156,6 @@ https://docs.pytest.org/en/latest/
 https://hypothesis.readthedocs.io/en/latest/
 https://tox.readthedocs.io/en/latest/
 https://docs.python.org/dev/library/unittest.mock
+** INIT Idioms
+SCHEDULED: <2023-10-20 Fri>
+https://docs.python-guide.org/writing/style/#conventions
