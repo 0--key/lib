@@ -39,8 +39,14 @@
 ("np" "Pythonic" entry (file+headline
 		       "~/git/lib/org/agenda/py-genda.list" "Notes")
  "* INIT %?%i")
+;;
+;; Section for advanced note-taking
+;;
+;; Just plain text item note without any interruption:
 ("nc" "Clocked" item (clock) "%i%?" :immediate-finish 1)
-
+;;
+;; The fork from the parent item
+("nf" "Fork" entry (clock) "* INIT %i\nSCHEDULED: %t\n%c\n%l%?\n%U" :empty-lines-after 1)
 ;; ‘%k’ Title of the currently clocked task.
 ))
 
