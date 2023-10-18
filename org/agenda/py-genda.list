@@ -88,8 +88,8 @@ SCHEDULED: <2023-10-19 Thu>
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-*** INIT Style
-SCHEDULED: <2023-10-18 Wed>
+*** INIT [#A] Style
+SCHEDULED: <2023-10-24 Tue>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 

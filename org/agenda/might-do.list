@@ -109,8 +109,8 @@ Optionally, seldom
 :CATEGORY: Capture
 :END:
 *** CLOSED Elaborate two-letters dispatcher
-*** [#B] New approach
-SCHEDULED: <2023-10-17 Tue>
+*** INIT [#B] New approach
+SCHEDULED: <2023-10-18 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-17 Tue 13:22]--[2023-10-17 Tue 13:40] =>  0:18
 CLOCK: [2023-10-17 Tue 10:46]--[2023-10-17 Tue 11:00] =>  0:14
@@ -121,14 +121,18 @@ It is possible to insert the current ~tip of the killring~.
 [[info:org#Template elements][org#Template elements]]
 - A plain list item
 - :immediate-finish 1
-*** SET [#B] Put all capture's templates in a separate file
+*** SET Put all capture's templates in a separate file
 SCHEDULED: <2023-10-17 Tue>]]
 :LOGBOOK:
 CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 :END:
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
-
+** Lisp
+SCHEDULED: <2023-10-19 Thu>
+https://www.youtube.com/watch?v=RQK_DaaX34Q
+*** INIT Load-Path
+SCHEDULED: <2023-10-20 Fri>
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
@@ -386,7 +390,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-17 Tue .+1w>
+SCHEDULED: <2023-10-18 Wed .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-09-24 Sun 11:52]
@@ -485,7 +489,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-10-18 Wed .+1w>
+SCHEDULED: <2023-10-19 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 19:49]
 :END:
@@ -498,7 +502,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-10-18 Wed>
+SCHEDULED: <2023-10-19 Thu>
 
 
 
@@ -725,7 +729,7 @@ SCHEDULED: <2023-10-19 Thu>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-17 Tue ++1d>
+SCHEDULED: <2023-10-18 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:15]
 :END:
@@ -886,10 +890,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-17 Tue ++2d/3d>
+SCHEDULED: <2023-10-19 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-12 Thu 18:54]
+:LAST_REPEAT: [2023-10-17 Tue 15:48]
 :END:
+- State "AMPLE"      from ""           [2023-10-17 Tue 15:48]
 - State "AMPLE"      from ""           [2023-10-12 Thu 18:54]
 - State "AMPLE"      from ""           [2023-10-06 Fri 13:07]
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:59]
@@ -964,7 +969,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-17 Tue .+1d>
+SCHEDULED: <2023-10-18 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
@@ -1088,7 +1093,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-17 Tue .+1d>
+SCHEDULED: <2023-10-18 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 19:09]
 :END:
@@ -1170,7 +1175,7 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** [#A] CodeWars
+*** [#B] CodeWars
 SCHEDULED: <2023-10-18 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
@@ -1424,11 +1429,12 @@ SCHEDULED: <2023-10-25 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** INIT [#A] CV elaboration
-SCHEDULED: <2023-10-17 Tue .+2d/3d>
+** RAW [#A] CV elaboration
+SCHEDULED: <2023-10-19 Thu .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-13 Fri 09:57]
+:LAST_REPEAT: [2023-10-17 Tue 14:47]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-10-17 Tue 14:47]
 - Note taken on [2023-10-15 Sun 09:25] \\
   Pursuit of knowledge and chase for skills
 - State "DONE"       from "ACTIVE"     [2023-10-13 Fri 09:57]
@@ -1692,7 +1698,7 @@ SCHEDULED: <2023-10-18 Wed>
 *** ShutDown Linux
 *** Back it up onto SD card
 *** Resize Linux disk space
-** INIT [#B] Test Jedi inside Emacs
+** INIT [#C] Test Jedi inside Emacs
 SCHEDULED: <2023-10-18 Wed>
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
@@ -1704,7 +1710,7 @@ in each folder for clarity purposes
 ** INIT New destination for books
 SCHEDULED: <2023-10-23 Mon>
 [[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
-** INIT Check =Elpy= venv
+** INIT [#C] Check =Elpy= venv
 SCHEDULED: <2023-10-18 Wed>
  [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
  [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
