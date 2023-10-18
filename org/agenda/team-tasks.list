@@ -12,8 +12,8 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* INIT [#B] Test-Driven Learining
-SCHEDULED: <2023-10-18 Wed>
+* INIT [#C] Test-Driven Learining
+SCHEDULED: <2023-10-23 Mon>
 - Note taken on [2023-10-16 Mon 09:02] \\
   1. Study theory about Python:
      https://docs.python-guide.org/
@@ -43,11 +43,12 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * [#C] Evening meeting
-SCHEDULED: <2023-10-18 Wed ++1d>
+SCHEDULED: <2023-10-19 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-12 Thu 15:21]
+:LAST_REPEAT: [2023-10-18 Wed 19:27]
 :CATEGORY: CoLab
 :END:
+- State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
 CLOCK: [2023-10-12 Thu 14:21]--[2023-10-12 Thu 15:21] =>  1:00

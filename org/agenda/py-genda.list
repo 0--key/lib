@@ -83,7 +83,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 [[https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top][Flymake]]
 ** INIT [#A] The bald Python project
-SCHEDULED: <2023-10-19 Thu>
+SCHEDULED: <2023-10-23 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
