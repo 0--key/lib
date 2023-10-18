@@ -26,6 +26,7 @@
 			 (lambda ()
 			   (interactive) (other-frame -1)))
 (key-chord-define-global "rw"     'window-configuration-to-register)
+(key-chord-define-global "rj"     'jump-to-register)
 ;; Buffers
 (key-chord-define-global "bn"     'list-buffers)
 (key-chord-define-global "bv"     'switch-to-buffer)
@@ -33,6 +34,10 @@
 (key-chord-define-global "jp"     'next-buffer)
 (key-chord-define-global "sq"     'save-some-buffers)
 (key-chord-define-global "bk"     'kill-buffer)
+(key-chord-define-global "ga"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*Org Agenda*")))
 ;; Marks
 (key-chord-define-global "mk"     'set-mark-command)
 ;; Misc
@@ -75,10 +80,6 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define-global "qq"     'org-fill-paragraph)
-(key-chord-define-global "ga"
-			 (lambda ()
-			   (interactive)
-			   (switch-to-buffer "*Org Agenda*")))
 (key-chord-define org-mode-map "km"     'org-meta-return)
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
 (key-chord-define org-mode-map "a]"     'org-remove-file)
