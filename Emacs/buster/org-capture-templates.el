@@ -39,7 +39,9 @@
 ("np" "Pythonic" entry (file+headline
 		       "~/git/lib/org/agenda/py-genda.list" "Notes")
  "* INIT %?%i")
-   ;; ‘%k’ Title of the currently clocked task.
+("nc" "Clocked" item (clock) "%i%?" :immediate-finish 1)
+
+;; ‘%k’ Title of the currently clocked task.
 ))
 
  
