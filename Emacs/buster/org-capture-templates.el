@@ -30,14 +30,14 @@
    :END:\n%?%i\n\n" :empty-lines 1)
   ;;
   ("n" "Notes");; <-- prefix key for notes
-("nf" "Fleeting" entry (file+headline
-			"~/git/lib/org/agenda/might-do.list" "Notes")
- "* RAW %?%i")
+;; ("nf" "Fleeting" entry (file+headline
+;; 			"~/git/lib/org/agenda/might-do.list" "Notes")
+;;  "* RAW %?%i")
 ("ni" "Initial" entry (file+headline
 		       "~/git/lib/org/agenda/might-do.list" "Notes")
  "* INIT %?%i")
 ("np" "Pythonic" entry (file+headline
-		       "~/git/lib/org/agenda/py-genda.list" "Notes")
+			"~/git/lib/org/agenda/py-genda.list" "Notes")
  "* INIT %?%i")
 ;;
 ;; Section for advanced note-taking

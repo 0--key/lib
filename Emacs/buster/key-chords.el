@@ -27,6 +27,7 @@
 			   (interactive) (other-frame -1)))
 (key-chord-define-global "rw"     'window-configuration-to-register)
 (key-chord-define-global "rj"     'jump-to-register)
+(key-chord-define-global "fm"     'follow-mode)
 ;; Buffers
 (key-chord-define-global "bn"     'list-buffers)
 (key-chord-define-global "bv"     'switch-to-buffer)
@@ -40,6 +41,7 @@
 			   (switch-to-buffer "*Org Agenda*")))
 ;; Marks
 (key-chord-define-global "mk"     'set-mark-command)
+(key-chord-define-global "m "     'set-mark-command)
 ;; Misc
 (key-chord-define-global "fg"     'find-file)
 (key-chord-define-global "ew"     'eval-last-sexp)
