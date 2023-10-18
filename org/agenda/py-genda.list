@@ -146,8 +146,9 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 https://docs.python-guide.org/writing/structure/
 *** INIT [#A] Testing
-SCHEDULED: <2023-10-18 Wed>
+SCHEDULED: <2023-10-24 Tue>
 :LOGBOOK:
+CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
 CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
 :END:
 https://docs.python-guide.org/writing/tests/
@@ -156,6 +157,9 @@ https://docs.pytest.org/en/latest/
 https://hypothesis.readthedocs.io/en/latest/
 https://tox.readthedocs.io/en/latest/
 https://docs.python.org/dev/library/unittest.mock
+- The doctest module searches for pieces of text that look like
+  interactive Python sessions in docstrings, and then executes those
+  sessions to verify that they work exactly as shown.
 ** INIT Idioms
 SCHEDULED: <2023-10-20 Fri>
 https://docs.python-guide.org/writing/style/#conventions
