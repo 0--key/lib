@@ -18,6 +18,7 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
+** Symmathesy
 ** YouTube
 
 *** INIT Ali Abdaal's *new* transcript                              :ARCHIVE:
@@ -751,6 +752,7 @@ SCHEDULED: <2023-10-18 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-18 Wed 11:04]--[2023-10-18 Wed 11:06] =>  0:02
 CLOCK: [2023-10-18 Wed 10:25]--[2023-10-18 Wed 10:52] =>  0:27
 CLOCK: [2023-10-17 Tue 14:02]--[2023-10-17 Tue 14:03] =>  0:01
 CLOCK: [2023-10-17 Tue 10:45]--[2023-10-17 Tue 10:46] =>  0:01
@@ -1711,6 +1713,9 @@ CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
  as the separate file with highest priority
 ** INIT [#A] BackUp Linux container
 SCHEDULED: <2023-10-18 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-18 Wed 11:06]--[2023-10-18 Wed 11:19] =>  0:13
+:END:
 *** Save all data
 *** Update all packages
 *** ShutDown Linux
