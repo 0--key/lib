@@ -33,8 +33,10 @@
 (key-chord-define-global "bv"     'switch-to-buffer)
 (key-chord-define-global "fq"     'previous-buffer)
 (key-chord-define-global "jp"     'next-buffer)
-(key-chord-define-global "sq"     'save-some-buffers)
 (key-chord-define-global "bk"     'kill-buffer)
+(key-chord-define-global "sq"
+			 (lambda ()
+			   (interactive) (save-some-buffers 1)))
 (key-chord-define-global "ga"
 			 (lambda ()
 			   (interactive)
