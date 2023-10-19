@@ -56,7 +56,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** INIT [#B] Elpy
-SCHEDULED: <2023-10-19 Thu ++1d>
+SCHEDULED: <2023-10-23 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -140,8 +140,9 @@ https://github.com/hblanks/zen-of-python-by-example
 SCHEDULED: <2023-10-22 Sun>
 https://github.com/PyCQA/pycodestyle
 *** INIT [#A] Structure
-SCHEDULED: <2023-10-19 Thu>
+SCHEDULED: <2023-10-24 Tue>
 :LOGBOOK:
+CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 https://docs.python-guide.org/writing/structure/
