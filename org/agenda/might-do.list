@@ -1746,9 +1746,10 @@ CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
 ** Remove all unnecessary (default) packages from Linux
-** INIT README.md
+** INIT [#A] README.org
 SCHEDULED: <2023-10-19 Thu>
-in each folder for clarity purposes
+- in each folder for clarity purposes;
+- as the actual agenda;
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
 ** INIT New destination for books
 SCHEDULED: <2023-10-23 Mon>
