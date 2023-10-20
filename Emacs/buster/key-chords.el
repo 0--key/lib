@@ -8,7 +8,7 @@
 
 ;; Scrolling
 (key-chord-define-global "ij"     'scroll-down-command)
-(key-chord-define-global "nj"     'scroll-up-command)
+(key-chord-define-global ",j"     'scroll-up-command)
 
 ;; Frames and Windows management:
 (key-chord-define-global "'\\"     'other-frame)
