@@ -111,14 +111,14 @@ CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
 *** INIT Apropos org-clock
-SCHEDULED: <2023-10-19 Thu>
+SCHEDULED: <2023-10-20 Fri>
 To make in-out far from *Org Agenda* buffer
 ** Org-capture
 :PROPERTIES:
 :CATEGORY: Capture
 :END:
 *** CLOSED Elaborate two-letters dispatcher
-*** INIT [#B] New approach
+*** INIT [#A] New approach
 SCHEDULED: <2023-10-20 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 16:09]--[2023-10-18 Wed 16:20] =>  0:11
@@ -138,10 +138,10 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 :END:
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
-** Lisp
-SCHEDULED: <2023-10-19 Thu>
+** [#C] Lisp
+SCHEDULED: <2023-10-20 Fri>
 https://www.youtube.com/watch?v=RQK_DaaX34Q
-*** INIT Load-Path
+*** INIT [#C] Load-Path
 SCHEDULED: <2023-10-20 Fri>
 * Notes
 :PROPERTIES:
@@ -741,7 +741,7 @@ SCHEDULED: <2023-10-23 Mon>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-19 Thu ++1d>
+SCHEDULED: <2023-10-20 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 08:55]
 :END:
@@ -1001,7 +1001,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-19 Thu .+1d>
+SCHEDULED: <2023-10-20 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
@@ -1029,6 +1029,7 @@ SCHEDULED: <2023-10-19 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-20 Fri 09:12]--[2023-10-20 Fri 09:14] =>  0:02
 CLOCK: [2023-10-19 Thu 09:08]--[2023-10-19 Thu 09:13] =>  0:05
 CLOCK: [2023-10-18 Wed 10:23]--[2023-10-18 Wed 10:25] =>  0:02
 CLOCK: [2023-10-18 Wed 09:03]--[2023-10-18 Wed 09:07] =>  0:04
@@ -1129,7 +1130,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-19 Thu .+1d>
+SCHEDULED: <2023-10-20 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:31]
 :END:
@@ -1468,7 +1469,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** TODO [#B] CV elaboration
-SCHEDULED: <2023-10-19 Thu .+2d/3d>
+SCHEDULED: <2023-10-20 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-17 Tue 14:47]
 :END:
