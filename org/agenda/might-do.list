@@ -118,9 +118,14 @@ To make in-out far from *Org Agenda* buffer
 :CATEGORY: Capture
 :END:
 *** CLOSED Elaborate two-letters dispatcher
-*** INIT [#A] New approach
-SCHEDULED: <2023-10-20 Fri>
+*** RAW [#A] New approach
+SCHEDULED: <2023-10-27 Fri ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-20 Fri 10:38]
+:END:
+- State "DONE"       from "ACTIVE"     [2023-10-20 Fri 10:38]
 :LOGBOOK:
+CLOCK: [2023-10-20 Fri 10:06]--[2023-10-20 Fri 10:38] =>  0:32
 CLOCK: [2023-10-18 Wed 16:09]--[2023-10-18 Wed 16:20] =>  0:11
 CLOCK: [2023-10-17 Tue 13:22]--[2023-10-17 Tue 13:40] =>  0:18
 CLOCK: [2023-10-17 Tue 10:46]--[2023-10-17 Tue 11:00] =>  0:14
