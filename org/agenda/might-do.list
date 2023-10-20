@@ -1753,8 +1753,12 @@ CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
 ** Remove all unnecessary (default) packages from Linux
-** INIT [#A] README.org
+** SET [#A] README.org
 SCHEDULED: <2023-10-19 Thu>
+:LOGBOOK:
+CLOCK: [2023-10-19 Thu 11:25]--[2023-10-19 Thu 11:41] =>  0:16
+CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
+:END:
 - in each folder for clarity purposes;
 - as the actual agenda;
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
