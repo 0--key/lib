@@ -139,15 +139,28 @@ SCHEDULED: <2023-10-25 Wed .+4d>
 CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
-**** BLACK
-SCHEDULED: <2023-10-23 Mon>
+**** [#A] BLACK
+SCHEDULED: <2023-10-25 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
+:END:
 https://github.com/psf/black
+https://youtu.be/esZLCuWs_2Y
 **** [#A] Zen
-SCHEDULED: <2023-10-23 Mon>
+SCHEDULED: <2023-10-26 Thu>
+:LOGBOOK:
+CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
+CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
+:END:
 [[https://github.com/hblanks/zen-of-python-by-example]]
-**** PyStyle
-SCHEDULED: <2023-10-23 Mon>
+[[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
+**** [#A] PyStyle
+SCHEDULED: <2023-10-27 Fri>
+:LOGBOOK:
+CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
+:END:
 https://github.com/PyCQA/pycodestyle
+https://youtu.be/PulzIT8KYLk?t=36m
 *** INIT [#A] Structure
 SCHEDULED: <2023-10-24 Tue>
 :LOGBOOK:

@@ -672,8 +672,9 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#B] Thought Cast
-SCHEDULED: <2023-10-23 Mon ++3d/4d>
+SCHEDULED: <2023-11-07 Tue ++3d/4d>
 :PROPERTIES:
+:CATEGORY: Live&Learn
 :LAST_REPEAT: [2023-10-16 Mon 15:22]
 :END:
 - State "AMPLE"      from ""           [2023-10-16 Mon 15:22]
@@ -682,6 +683,7 @@ SCHEDULED: <2023-10-23 Mon ++3d/4d>
 - State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
 - State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
 :LOGBOOK:
+CLOCK: [2023-10-23 Mon 11:01]--[2023-10-23 Mon 11:31] =>  0:30
 CLOCK: [2023-10-16 Mon 14:53]--[2023-10-16 Mon 15:22] =>  0:29
 CLOCK: [2023-10-12 Thu 10:44]--[2023-10-12 Thu 11:05] =>  0:21
 CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
@@ -693,7 +695,10 @@ CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
 :END:
 FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
-
+https://www.youtube.com/watch?v=k_zt6qRTmN0
+*** Double Loop Learning
+SCHEDULED: <2023-10-26 Thu ++2d/3d>
+https://www.youtube.com/watch?v=83w-jFcwiX0
 ** LAG 3 months in the future /smart/ shift
 SCHEDULED: <2024-03-11 Mon>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -950,6 +955,7 @@ SCHEDULED: <2023-10-25 Wed ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-10-23 Mon 11:35]--[2023-10-23 Mon 11:51] =>  0:16
 CLOCK: [2023-10-19 Thu 16:29]--[2023-10-19 Thu 16:45] =>  0:16
 CLOCK: [2023-10-17 Tue 15:32]--[2023-10-17 Tue 15:47] =>  0:15
 CLOCK: [2023-10-12 Thu 18:25]--[2023-10-12 Thu 18:50] =>  0:25
