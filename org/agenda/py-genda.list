@@ -173,3 +173,13 @@ https://docs.python.org/dev/library/unittest.mock
 ** INIT Idioms
 SCHEDULED: <2023-10-30 Mon>
 https://docs.python-guide.org/writing/style/#conventions
+* Algorithms
+:PROPERTIES:
+:CATEGORY: Algo+Py
+:END:
+** INIT Repo
+SCHEDULED: <2023-11-21 Tue>
+[[file:~/git/python/algorithms/README.md::\[!\[PyPI version\](https://badge.fury.io/py/algorithms.svg)\](https://badge.fury.io/py/algorithms)][Local Link]]
+** INIT Time Complexity
+SCHEDULED: <2023-11-20 Mon>
+https://www.youtube.com/watch?v=duvZ-2UK0fc
