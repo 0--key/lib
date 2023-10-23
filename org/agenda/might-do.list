@@ -148,6 +148,9 @@ SCHEDULED: <2023-10-20 Fri>
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-10-20 Fri>
+** INIT Spell check
+SCHEDULED: <2023-10-26 Thu>
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes

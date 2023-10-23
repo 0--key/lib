@@ -19,9 +19,11 @@ SCHEDULED: <2023-11-13 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** RAW Assignment test suite
+** INIT Assignment test suite
+SCHEDULED: <2023-10-25 Wed>
+https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** INIT [#A] IPython
-SCHEDULED: <2023-10-20 Fri ++2d>
+SCHEDULED: <2023-10-26 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
