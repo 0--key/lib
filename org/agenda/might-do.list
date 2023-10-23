@@ -771,6 +771,8 @@ SCHEDULED: <2023-10-20 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-20 Fri 10:38]--[2023-10-20 Fri 10:43] =>  0:05
+CLOCK: [2023-10-20 Fri 09:14]--[2023-10-20 Fri 09:16] =>  0:02
 CLOCK: [2023-10-19 Thu 10:48]--[2023-10-19 Thu 10:53] =>  0:05
 CLOCK: [2023-10-18 Wed 19:31]--[2023-10-18 Wed 19:51] =>  0:20
 CLOCK: [2023-10-18 Wed 11:04]--[2023-10-18 Wed 11:06] =>  0:02
@@ -1009,7 +1011,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-20 Fri .+1d>
+SCHEDULED: <2023-10-23 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
@@ -1037,6 +1039,7 @@ SCHEDULED: <2023-10-20 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-20 Fri 10:44]--[2023-10-20 Fri 10:46] =>  0:02
 CLOCK: [2023-10-20 Fri 09:12]--[2023-10-20 Fri 09:14] =>  0:02
 CLOCK: [2023-10-19 Thu 09:08]--[2023-10-19 Thu 09:13] =>  0:05
 CLOCK: [2023-10-18 Wed 10:23]--[2023-10-18 Wed 10:25] =>  0:02
@@ -1209,10 +1212,13 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
-*** Workspace decluttering #2
+*** [#A] Workspace decluttering #2
 SCHEDULED: <2023-10-20 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-13 Fri 09:08]
+:END:
+:LOGBOOK:
+CLOCK: [2023-10-20 Fri 15:37]--[2023-10-20 Fri 16:00] =>  0:23
 :END:
 - State "AMPLE"      from ""           [2023-10-13 Fri 09:08]
 Remove all unnecessary:

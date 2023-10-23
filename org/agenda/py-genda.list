@@ -142,9 +142,9 @@ https://github.com/google/yapf
 **** BLACK
 SCHEDULED: <2023-10-21 Sat>
 https://github.com/psf/black
-**** Zen
+**** [#A] Zen
 SCHEDULED: <2023-10-20 Fri>
-https://github.com/hblanks/zen-of-python-by-example
+[[https://github.com/hblanks/zen-of-python-by-example]]
 **** PyStyle
 SCHEDULED: <2023-10-22 Sun>
 https://github.com/PyCQA/pycodestyle
@@ -171,5 +171,5 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT Idioms
-SCHEDULED: <2023-10-20 Fri>
+SCHEDULED: <2023-10-30 Mon>
 https://docs.python-guide.org/writing/style/#conventions
