@@ -110,8 +110,8 @@ CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
-*** INIT Apropos org-clock
-SCHEDULED: <2023-10-20 Fri>
+*** INIT Apropos org-timer
+SCHEDULED: <2023-10-25 Wed>
 To make in-out far from *Org Agenda* buffer
 ** Org-capture
 :PROPERTIES:
@@ -144,10 +144,10 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 ** [#C] Lisp
-SCHEDULED: <2023-10-20 Fri>
+SCHEDULED: <2023-10-25 Wed>
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
-SCHEDULED: <2023-10-20 Fri>
+SCHEDULED: <2023-10-26 Thu>
 ** INIT Spell check
 SCHEDULED: <2023-10-26 Thu>
 https://www.gnu.org/software/emacs/manual/html_node/emacs/Spelling.html
@@ -372,7 +372,7 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
 ** RAW Monthly archive day .+4w
-SCHEDULED: <2023-10-20 Fri .+4w>
+SCHEDULED: <2023-11-24 Fri .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:21]
 :END:
@@ -408,7 +408,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-25 Wed .+1w>
+SCHEDULED: <2023-10-23 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -424,6 +424,8 @@ SCHEDULED: <2023-10-25 Wed .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-10-23 Mon 09:48]--[2023-10-23 Mon 09:56] =>  0:08
+CLOCK: [2023-10-23 Mon 09:44]--[2023-10-23 Mon 09:46] =>  0:02
 CLOCK: [2023-10-16 Mon 09:16]--[2023-10-16 Mon 09:21] =>  0:05
 CLOCK: [2023-10-16 Mon 08:56]--[2023-10-16 Mon 09:09] =>  0:13
 CLOCK: [2023-10-09 Mon 10:37]--[2023-10-09 Mon 10:43] =>  0:06
@@ -522,7 +524,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-10-21 Sat>
+SCHEDULED: <2023-10-28 Sat>
 
 
 
@@ -555,17 +557,17 @@ SCHEDULED: <2023-04-08 Sat>
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
-** DELAY Book
-SCHEDULED: <2023-10-21 Sat>
+** LAG Book
+SCHEDULED: <2024-01-13 Sat>
 Play ~ Stuart Brown&Christopher Vaughan
-** DELAY Book
-SCHEDULED: <2023-10-21 Sat>
+** LAG Book
+SCHEDULED: <2024-01-13 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
-** DELAY Book
-SCHEDULED: <2023-10-21 Sat>
+** LAG Book
+SCHEDULED: <2024-01-13 Sat>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -670,7 +672,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#B] Thought Cast
-SCHEDULED: <2023-10-22 Sun ++3d/4d>
+SCHEDULED: <2023-10-23 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-16 Mon 15:22]
 :END:
@@ -741,15 +743,13 @@ SCHEDULED: <2024-01-11 Thu>
 ** DELAY Authors from PyPi, pip and ELPA repositories
 SCHEDULED: <2023-12-07 Thu>
 the target audience for Twits and LinkedIn posts
-** TODO Dress for the job you want, not the job you have.
-SCHEDULED: <2023-10-23 Mon>
 * Tasks
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-20 Fri ++1d>
+SCHEDULED: <2023-10-23 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 08:55]
 :END:
@@ -771,6 +771,7 @@ SCHEDULED: <2023-10-20 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-23 Mon 09:56]
 CLOCK: [2023-10-20 Fri 10:38]--[2023-10-20 Fri 10:43] =>  0:05
 CLOCK: [2023-10-20 Fri 09:14]--[2023-10-20 Fri 09:16] =>  0:02
 CLOCK: [2023-10-19 Thu 10:48]--[2023-10-19 Thu 10:53] =>  0:05
@@ -929,7 +930,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-21 Sat ++2d/3d>
+SCHEDULED: <2023-10-23 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 16:45]
 :END:
@@ -1039,6 +1040,7 @@ SCHEDULED: <2023-10-23 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-23 Mon 09:37]--[2023-10-23 Mon 09:44] =>  0:07
 CLOCK: [2023-10-20 Fri 10:44]--[2023-10-20 Fri 10:46] =>  0:02
 CLOCK: [2023-10-20 Fri 09:12]--[2023-10-20 Fri 09:14] =>  0:02
 CLOCK: [2023-10-19 Thu 09:08]--[2023-10-19 Thu 09:13] =>  0:05
@@ -1141,7 +1143,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-20 Fri .+1d>
+SCHEDULED: <2023-10-23 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:31]
 :END:
@@ -1213,7 +1215,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** [#A] Workspace decluttering #2
-SCHEDULED: <2023-10-20 Fri ++1w>
+SCHEDULED: <2023-10-27 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-13 Fri 09:08]
 :END:
@@ -1323,7 +1325,7 @@ SCHEDULED: <2023-10-31 Tue ++4w>
 
 
 *** New tasks trimming #3
-SCHEDULED: <2023-10-21 Sat ++1w>
+SCHEDULED: <2023-10-29 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:20]
 :END:
@@ -1483,7 +1485,7 @@ SCHEDULED: <2023-10-25 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** TODO [#B] CV elaboration
-SCHEDULED: <2023-10-20 Fri .+2d/3d>
+SCHEDULED: <2023-10-24 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-17 Tue 14:47]
 :END:
@@ -1642,7 +1644,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-10-21 Sat>
+SCHEDULED: <2023-10-28 Sat>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** LAG [#B] ChatGPT
 SCHEDULED: <2024-01-05 Fri>
@@ -1778,7 +1780,7 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 - as the actual agenda;
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
 ** INIT New destination for books
-SCHEDULED: <2023-10-23 Mon>
+SCHEDULED: <2023-10-28 Sat>
 [[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
 ** SET [#A] Check =Elpy= venv
 SCHEDULED: <2023-10-25 Wed>
@@ -1788,7 +1790,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
  [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
  [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
 ** INIT Bayes' Theorem
-SCHEDULED: <2023-10-23 Mon>
+SCHEDULED: <2023-10-26 Thu>
 In fire alarm example
 * Events
 :PROPERTIES:

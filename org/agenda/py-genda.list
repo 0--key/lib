@@ -58,7 +58,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** INIT [#B] Elpy
-SCHEDULED: <2023-10-23 Mon ++1d>
+SCHEDULED: <2023-10-24 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -84,7 +84,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 [[https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top][Flymake]]
-** INIT [#A] The bald Python project
+** TODO [#A] The bald Python project
 SCHEDULED: <2023-10-23 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
@@ -126,11 +126,11 @@ CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
 [[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
 http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
 **** PEP8
-SCHEDULED: <2023-10-20 Fri>
+SCHEDULED: <2023-10-24 Tue>
 http://pep8.org/
 https://pypi.org/project/autopep8/
 **** YAPF
-SCHEDULED: <2023-10-23 Mon .+4d>
+SCHEDULED: <2023-10-25 Wed .+4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 16:06]
 :END:
@@ -140,13 +140,13 @@ CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
 **** BLACK
-SCHEDULED: <2023-10-21 Sat>
+SCHEDULED: <2023-10-23 Mon>
 https://github.com/psf/black
 **** [#A] Zen
-SCHEDULED: <2023-10-20 Fri>
+SCHEDULED: <2023-10-23 Mon>
 [[https://github.com/hblanks/zen-of-python-by-example]]
 **** PyStyle
-SCHEDULED: <2023-10-22 Sun>
+SCHEDULED: <2023-10-23 Mon>
 https://github.com/PyCQA/pycodestyle
 *** INIT [#A] Structure
 SCHEDULED: <2023-10-24 Tue>
