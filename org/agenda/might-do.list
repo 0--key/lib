@@ -408,7 +408,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-23 Mon .+1w>
+SCHEDULED: <2023-10-24 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -726,7 +726,7 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
 - Note taken on [2023-09-25 Mon 10:18] \\
   or even a separate file appended to *Org-Agenda*
 ** ACTIVE Story telling with Martin
-SCHEDULED: <2023-10-23 Mon>
+SCHEDULED: <2023-10-25 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-02 Mon 12:54]--[2023-10-02 Mon 13:37] =>  0:43
 :END:
@@ -771,7 +771,7 @@ SCHEDULED: <2023-10-23 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-10-23 Mon 09:56]
+CLOCK: [2023-10-23 Mon 09:56]--[2023-10-23 Mon 09:58] =>  0:02
 CLOCK: [2023-10-20 Fri 10:38]--[2023-10-20 Fri 10:43] =>  0:05
 CLOCK: [2023-10-20 Fri 09:14]--[2023-10-20 Fri 09:16] =>  0:02
 CLOCK: [2023-10-19 Thu 10:48]--[2023-10-19 Thu 10:53] =>  0:05
@@ -930,10 +930,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-23 Mon ++2d/3d>
+SCHEDULED: <2023-10-25 Wed ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-19 Thu 16:45]
+:LAST_REPEAT: [2023-10-23 Mon 11:52]
 :END:
+- State "AMPLE"      from ""           [2023-10-23 Mon 11:52]
 - State "AMPLE"      from ""           [2023-10-19 Thu 16:45]
 - State "AMPLE"      from ""           [2023-10-17 Tue 15:48]
 - State "AMPLE"      from ""           [2023-10-12 Thu 18:54]
@@ -1012,7 +1013,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-23 Mon .+1d>
+SCHEDULED: <2023-10-24 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
