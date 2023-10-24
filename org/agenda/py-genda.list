@@ -69,6 +69,7 @@ SCHEDULED: <2023-10-25 Wed ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:02]--[2023-10-24 Tue 10:05] =>  0:03
 CLOCK: [2023-10-13 Fri 10:35]--[2023-10-13 Fri 10:36] =>  0:01
 CLOCK: [2023-10-13 Fri 10:09]--[2023-10-13 Fri 10:34] =>  0:25
 CLOCK: [2023-10-12 Thu 10:13]--[2023-10-12 Thu 10:39] =>  0:26
@@ -164,6 +165,7 @@ https://youtu.be/PulzIT8KYLk?t=36m
 *** INIT [#A] Structure
 SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 09:29]--[2023-10-24 Tue 10:02] =>  0:33
 CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
