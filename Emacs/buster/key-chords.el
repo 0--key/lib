@@ -63,11 +63,11 @@
 (key-chord-define-global "ty"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
-    (global-set-key "\C-x4w" 'langtool-check)
-    (global-set-key "\C-x4W" 'langtool-check-done)
-    (global-set-key "\C-x4l" 'langtool-switch-default-language)
-    (global-set-key "\C-x44" 'langtool-show-message-at-point)
-    (global-set-key "\C-x4c" 'langtool-correct-buffer)
+    ;; (global-set-key "\C-x4w" 'langtool-check)
+    ;; (global-set-key "\C-x4W" 'langtool-check-done)
+    ;; (global-set-key "\C-x4l" 'langtool-switch-default-language)
+    ;; (global-set-key "\C-x44" 'langtool-show-message-at-point)
+    ;; (global-set-key "\C-x4c" 'langtool-correct-buffer)
 
 ;; Drilling
 (key-chord-define org-mode-map "dr"     'org-drill-resume)

@@ -50,10 +50,11 @@
 (require 'pyvenv)
 (pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
 (elpy-enable)
-(require 'langtool)
-(setq langtool-language-tool-jar
-      "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")
-(setq langtool-default-language "en-US")
+
+;;(require 'langtool)
+;; (setq langtool-language-tool-jar
+;;       "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")
+;; (setq langtool-default-language "en-US")
 
 ;; Additional config section:
 (load "~/.emacs.d/key-chords.el")
