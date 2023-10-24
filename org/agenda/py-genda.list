@@ -80,11 +80,17 @@ CLOCK: [2023-10-03 Tue 11:23]--[2023-10-03 Tue 11:40] =>  0:17
 CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 :END:
 [[https://elpy.readthedocs.io/en/latest/ide.html][IDE Features — Elpy 1.35.0 documentation]]
-[[https://company-mode.github.io/][company-mode for Emacs]]
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 [[https://www.gnu.org/software/emacs/manual/html_node/flymake/index.html#Top][Flymake]]
+*** TODO Company-Mode
+SCHEDULED: <2023-10-27 Fri>
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
+:END:
+[[https://company-mode.github.io/][company-mode for Emacs]]
+https://company-mode.github.io/manual/
 ** ACTIVE [#A] The bald Python project
 SCHEDULED: <2023-11-06 Mon>
 :LOGBOOK:
