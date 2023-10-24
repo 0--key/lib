@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * INIT [#C] Test-Driven Learining
-SCHEDULED: <2023-10-24 Tue>
+SCHEDULED: <2023-11-01 Wed>
 - Note taken on [2023-10-16 Mon 09:02] \\
   1. Study theory about Python:
      https://docs.python-guide.org/
@@ -43,7 +43,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * [#C] Evening meeting
-SCHEDULED: <2023-10-24 Tue ++1d>
+SCHEDULED: <2023-10-25 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :CATEGORY: CoLab

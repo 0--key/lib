@@ -110,9 +110,10 @@ CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
-*** INIT Apropos org-timer
+*** INIT Apropos org-timer(clock)
 SCHEDULED: <2023-10-25 Wed>
-To make in-out far from *Org Agenda* buffer
+How to launch/interrupt embedded timer?
+How to make in-out far from *Org Agenda* buffer?
 ** Org-capture
 :PROPERTIES:
 :CATEGORY: Capture
@@ -408,7 +409,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-24 Tue .+1w>
+SCHEDULED: <2023-10-25 Wed .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -1019,7 +1020,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-24 Tue .+1d>
+SCHEDULED: <2023-10-25 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
@@ -1169,6 +1170,7 @@ SCHEDULED: <2023-10-24 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 11:21]--[2023-10-24 Tue 11:23] =>  0:02
 CLOCK: [2023-10-18 Wed 19:28]--[2023-10-18 Wed 19:31] =>  0:03
 CLOCK: [2023-10-12 Thu 19:04]--[2023-10-12 Thu 19:09] =>  0:05
 CLOCK: [2023-10-04 Wed 19:09]--[2023-10-04 Wed 19:17] =>  0:08
@@ -1494,11 +1496,12 @@ SCHEDULED: <2023-10-25 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** TODO [#B] CV elaboration
-SCHEDULED: <2023-10-24 Tue .+2d/3d>
+** RAW [#B] CV elaboration
+SCHEDULED: <2023-10-26 Thu .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-17 Tue 14:47]
+:LAST_REPEAT: [2023-10-24 Tue 11:15]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-10-24 Tue 11:15]
 - State "DONE"       from "ACTIVE"     [2023-10-17 Tue 14:47]
 - Note taken on [2023-10-15 Sun 09:25] \\
   Pursuit of knowledge and chase for skills
@@ -1508,6 +1511,7 @@ SCHEDULED: <2023-10-24 Tue .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:48]--[2023-10-24 Tue 11:15] =>  0:27
 CLOCK: [2023-10-19 Thu 16:48]--[2023-10-19 Thu 16:54] =>  0:06
 CLOCK: [2023-10-17 Tue 14:03]--[2023-10-17 Tue 14:46] =>  0:43
 CLOCK: [2023-10-17 Tue 09:57]--[2023-10-17 Tue 10:01] =>  0:04

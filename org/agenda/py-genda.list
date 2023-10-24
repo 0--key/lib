@@ -132,8 +132,11 @@ CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
 :END:
 [[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
 http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
-**** PEP8
-SCHEDULED: <2023-10-24 Tue>
+**** DELAY PEP8
+SCHEDULED: <2024-01-23 Tue>
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
+:END:
 http://pep8.org/
 https://pypi.org/project/autopep8/
 **** YAPF
@@ -147,8 +150,9 @@ CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
 **** [#A] BLACK
-SCHEDULED: <2023-10-25 Wed>
+SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
 CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 :END:
 https://github.com/psf/black
