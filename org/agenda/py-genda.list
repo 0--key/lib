@@ -57,8 +57,8 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
-** INIT [#B] Elpy
-SCHEDULED: <2023-10-24 Tue ++1d>
+** ACTIVE [#B] Elpy
+SCHEDULED: <2023-10-25 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -91,7 +91,7 @@ CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
 *** INIT [#A] Style
-SCHEDULED: <2023-10-24 Tue>
+SCHEDULED: <2023-10-26 Thu>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -162,14 +162,14 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 *** INIT [#A] Structure
-SCHEDULED: <2023-10-24 Tue>
+SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** INIT [#A] Testing
-SCHEDULED: <2023-10-24 Tue>
+SCHEDULED: <2023-10-26 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
 CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25

@@ -44,8 +44,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :CATEGORY: Emacs
 :END:
 ** Agenda
-*** INIT Focus point shift
-SCHEDULED: <2023-10-24 Tue>
+*** DELAY Focus point shift
+SCHEDULED: <2024-01-16 Tue>
 By putting the actual (most significant) agenda file on the top.
 
 ** Key-chords
