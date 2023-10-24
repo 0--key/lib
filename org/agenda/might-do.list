@@ -1779,6 +1779,19 @@ CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 :END:
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
+*** What is JEDI?
+SCHEDULED: <2023-10-26 Thu>
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 18:46]--[2023-10-24 Tue 19:20] =>  0:34
+:END:
+https://jedi.readthedocs.io/
+https://jedi.readthedocs.io/en/latest/docs/installation.html
+*** What is PyLint?
+SCHEDULED: <2023-10-25 Wed>
+*** What is FlyCheck?
+SCHEDULED: <2023-10-25 Wed>
+*** What is PyFlakes?
+SCHEDULED: <2023-10-25 Wed>
 ** Remove all unnecessary (default) packages from Linux
 ** SET [#A] README.org
 SCHEDULED: <2023-10-19 Thu>
