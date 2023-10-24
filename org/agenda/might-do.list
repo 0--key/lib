@@ -754,7 +754,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-23 Mon ++1d>
+SCHEDULED: <2023-10-24 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 08:55]
 :END:
@@ -1047,6 +1047,7 @@ SCHEDULED: <2023-10-24 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-24 Tue 08:59]--[2023-10-24 Tue 09:02] =>  0:03
 CLOCK: [2023-10-23 Mon 09:37]--[2023-10-23 Mon 09:44] =>  0:07
 CLOCK: [2023-10-20 Fri 10:44]--[2023-10-20 Fri 10:46] =>  0:02
 CLOCK: [2023-10-20 Fri 09:12]--[2023-10-20 Fri 09:14] =>  0:02
@@ -1150,7 +1151,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-23 Mon .+1d>
+SCHEDULED: <2023-10-24 Tue .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:31]
 :END:
