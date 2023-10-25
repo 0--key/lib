@@ -13,6 +13,8 @@
  '(org-agenda-scheduled-leaders '("Sch " "Sch.%2dx: "))
  '(org-agenda-window-setup 'other-window)
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
+ '(org-clock-auto-clockout-timer 90)
+ '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
    '(find-file-in-project mw-thesaurus dictionary org-drill org go-mode langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord)))

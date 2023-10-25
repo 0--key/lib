@@ -53,10 +53,11 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** RAW [#B] Extend
-SCHEDULED: <2023-10-25 Wed ++1w>
+SCHEDULED: <2023-11-08 Wed ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-18 Wed 15:23]
+:LAST_REPEAT: [2023-10-25 Wed 11:17]
 :END:
+- State "DONE"       from "ACTIVE"     [2023-10-25 Wed 11:17]
 - State "DONE"       from "ACTIVE"     [2023-10-18 Wed 15:23]
 - Note taken on [2023-10-15 Sun 09:19] \\
   qq for org-fill-paragraph in org-mode (only)
@@ -110,8 +111,11 @@ CLOCK: [2022-12-16 Fri 11:00]--[2022-12-16 Fri 11:08] =>  0:08
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:05]
 Optionally, seldom
-*** INIT Apropos org-timer(clock)
+*** SET Apropos org-timer(clock)
 SCHEDULED: <2023-10-25 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-25 Wed 10:41]--[2023-10-25 Wed 11:05] =>  0:24
+:END:
 How to launch/interrupt embedded timer?
 How to make in-out far from *Org Agenda* buffer?
 ** Org-capture

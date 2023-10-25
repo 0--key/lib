@@ -101,3 +101,7 @@
 		  'org-agenda-drag-line-backward)
 (key-chord-define org-agenda-mode-map "za"
 		  'org-agenda-toggle-archive-tag)
+
+;; Clock In-Out and Timers
+(key-chord-define-global "lc"     'org-clock-in-last)
+(key-chord-define-global "oc"     'org-clock-out)
