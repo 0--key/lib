@@ -91,6 +91,7 @@ CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
 :END:
 [[https://company-mode.github.io/][company-mode for Emacs]]
 https://company-mode.github.io/manual/
+[[info:company#Top][company#Top]]
 ** ACTIVE [#A] The bald Python project
 SCHEDULED: <2023-11-06 Mon>
 :LOGBOOK:
