@@ -58,7 +58,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#B] Elpy
-SCHEDULED: <2023-10-25 Wed ++1d>
+SCHEDULED: <2023-10-28 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -69,6 +69,7 @@ SCHEDULED: <2023-10-25 Wed ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-10-25 Wed 09:10]--[2023-10-25 Wed 09:40] =>  0:30
 CLOCK: [2023-10-24 Tue 10:02]--[2023-10-24 Tue 10:05] =>  0:03
 CLOCK: [2023-10-13 Fri 10:35]--[2023-10-13 Fri 10:36] =>  0:01
 CLOCK: [2023-10-13 Fri 10:09]--[2023-10-13 Fri 10:34] =>  0:25
