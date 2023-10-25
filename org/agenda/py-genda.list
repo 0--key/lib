@@ -20,7 +20,7 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** INIT [#A] Assignment test suite
-SCHEDULED: <2023-10-25 Wed>
+SCHEDULED: <2023-10-26 Thu>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** INIT [#A] IPython
 SCHEDULED: <2023-10-26 Thu ++2d>
@@ -144,7 +144,7 @@ CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
 http://pep8.org/
 https://pypi.org/project/autopep8/
 **** YAPF
-SCHEDULED: <2023-10-25 Wed .+4d>
+SCHEDULED: <2023-11-01 Wed .+4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 16:06]
 :END:
