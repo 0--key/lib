@@ -152,7 +152,12 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 ** [#C] Lisp
-SCHEDULED: <2023-10-25 Wed>
+SCHEDULED: <2023-10-28 Sat>
+:LOGBOOK:
+CLOCK: [2023-10-25 Wed 16:35]--[2023-10-25 Wed 16:42] =>  0:07
+CLOCK: [2023-10-25 Wed 16:15]--[2023-10-25 Wed 16:17] =>  0:02
+CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
+:END:
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-10-26 Thu>
