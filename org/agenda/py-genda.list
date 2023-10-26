@@ -22,8 +22,8 @@ CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 ** INIT [#A] Assignment test suite
 SCHEDULED: <2023-10-26 Thu>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
-** INIT [#A] IPython
-SCHEDULED: <2023-10-26 Thu ++2d>
+** DELAY [#A] IPython
+SCHEDULED: <2023-11-20 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -43,15 +43,15 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
-*** DELAY [#A] VirtualEnv
-SCHEDULED: <2023-10-26 Thu>
+*** LAG [#A] VirtualEnv
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
-*** DELAY [#A] PyPackage Management
-SCHEDULED: <2023-10-26 Thu>
+*** LAG [#A] PyPackage Management
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
@@ -101,8 +101,8 @@ SCHEDULED: <2023-11-06 Mon>
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-*** INIT [#A] Style
-SCHEDULED: <2023-10-26 Thu>
+*** DELAY [#A] Style
+SCHEDULED: <2023-11-20 Mon>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -153,16 +153,16 @@ SCHEDULED: <2023-11-01 Wed .+4d>
 CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
-**** [#A] BLACK
-SCHEDULED: <2023-10-26 Thu>
+**** DELAY [#A] BLACK
+SCHEDULED: <2023-11-20 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
 CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 :END:
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
-**** [#A] Zen
-SCHEDULED: <2023-10-26 Thu>
+**** DELAY [#A] Zen
+SCHEDULED: <2023-11-20 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
 CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
