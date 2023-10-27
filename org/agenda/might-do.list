@@ -424,7 +424,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-26 Thu .+1w>
+SCHEDULED: <2023-10-27 Fri .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -526,10 +526,11 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-10-26 Thu .+1w>
+SCHEDULED: <2023-11-03 Fri .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-19 Thu 15:59]
+:LAST_REPEAT: [2023-10-27 Fri 08:29]
 :END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 08:29]
 - State "AMPLE"      from ""           [2023-10-19 Thu 15:59]
 - State "AMPLE"      from ""           [2023-10-11 Wed 19:49]
 - State "AMPLE"      from ""           [2023-10-04 Wed 19:08]
@@ -713,8 +714,16 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#A] Double Loop Learning
-SCHEDULED: <2023-10-26 Thu ++2d/3d>
+SCHEDULED: <2023-10-28 Sat ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-26 Thu 11:36]
+:END:
+- State "AMPLE"      from ""           [2023-10-26 Thu 11:36]
+:LOGBOOK:
+CLOCK: [2023-10-26 Thu 11:08]--[2023-10-26 Thu 11:36] =>  0:28
+:END:
 https://www.youtube.com/watch?v=83w-jFcwiX0
+[[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*Thermostat Analogy][Thermostat Analogy]]
 ** LAG 3 months in the future /smart/ shift
 SCHEDULED: <2024-03-11 Mon>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -770,7 +779,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-26 Thu ++1d>
+SCHEDULED: <2023-10-27 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-24 Tue 19:29]
 :END:
@@ -955,10 +964,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-27 Fri ++2d/3d>
+SCHEDULED: <2023-10-28 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-25 Wed 11:44]
+:LAST_REPEAT: [2023-10-27 Fri 08:30]
 :END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 08:30]
 - State "AMPLE"      from ""           [2023-10-25 Wed 11:44]
 - State "AMPLE"      from ""           [2023-10-23 Mon 11:52]
 - State "AMPLE"      from ""           [2023-10-19 Thu 16:45]
@@ -976,6 +986,7 @@ SCHEDULED: <2023-10-27 Fri ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-10-26 Thu 11:49]--[2023-10-26 Thu 12:01] =>  0:12
 CLOCK: [2023-10-25 Wed 11:28]--[2023-10-25 Wed 11:44] =>  0:16
 CLOCK: [2023-10-23 Mon 11:35]--[2023-10-23 Mon 11:51] =>  0:16
 CLOCK: [2023-10-19 Thu 16:29]--[2023-10-19 Thu 16:45] =>  0:16
@@ -1041,7 +1052,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-26 Thu .+1d>
+SCHEDULED: <2023-10-27 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
@@ -1069,6 +1080,7 @@ SCHEDULED: <2023-10-26 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-27 Fri 08:31]--[2023-10-27 Fri 08:45] =>  0:14
 CLOCK: [2023-10-26 Thu 09:15]--[2023-10-26 Thu 09:32] =>  0:17
 CLOCK: [2023-10-25 Wed 09:06]--[2023-10-25 Wed 09:09] =>  0:03
 CLOCK: [2023-10-24 Tue 10:29]--[2023-10-24 Tue 10:31] =>  0:02
@@ -1177,7 +1189,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-26 Thu .+1d>
+SCHEDULED: <2023-10-27 Fri .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-24 Tue 19:29]
 :END:
@@ -1270,7 +1282,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** [#B] CodeWars
-SCHEDULED: <2023-10-26 Thu ++2d/3d>
+SCHEDULED: <2023-10-27 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
@@ -1524,7 +1536,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** RAW [#B] CV elaboration
-SCHEDULED: <2023-10-26 Thu .+2d/3d>
+SCHEDULED: <2023-10-27 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-24 Tue 11:15]
 :END:

@@ -19,8 +19,8 @@ SCHEDULED: <2023-11-13 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** INIT [#A] Assignment test suite
-SCHEDULED: <2023-10-26 Thu>
+** TODO [#A] Assignment test suite
+SCHEDULED: <2023-10-28 Sat>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** DELAY [#A] IPython
 SCHEDULED: <2023-11-20 Mon ++2d>
@@ -176,17 +176,19 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 :END:
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
-*** INIT [#A] Structure
-SCHEDULED: <2023-10-26 Thu>
+*** ACTIVE [#A] Structure
+SCHEDULED: <2023-10-28 Sat>
 :LOGBOOK:
+CLOCK: [2023-10-26 Thu 09:36]--[2023-10-26 Thu 09:43] =>  0:07
 CLOCK: [2023-10-24 Tue 09:29]--[2023-10-24 Tue 10:02] =>  0:33
 CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-*** INIT [#A] Testing
-SCHEDULED: <2023-10-26 Thu>
+*** ACTIVE [#A] Testing
+SCHEDULED: <2023-10-28 Sat>
 :LOGBOOK:
+CLOCK: [2023-10-26 Thu 09:51]--[2023-10-26 Thu 11:07] =>  1:16
 CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
 CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
 :END:
