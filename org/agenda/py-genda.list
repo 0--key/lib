@@ -20,7 +20,7 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-02 Thu>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** DELAY [#A] IPython
 SCHEDULED: <2023-11-20 Mon ++2d>
@@ -87,7 +87,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 *** INIT FlyMake
 SCHEDULED: <2023-11-01 Wed>
 [[info:emacs#Flymake][emacs#Flymake]]
-*** TODO [#A] Company-Mode
+*** TODO Company-Mode
 SCHEDULED: <2023-11-01 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
@@ -146,7 +146,7 @@ CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
 http://pep8.org/
 https://pypi.org/project/autopep8/
 **** YAPF
-SCHEDULED: <2023-11-01 Wed .+4d>
+SCHEDULED: <2023-11-06 Mon .+4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-19 Thu 16:06]
 :END:
@@ -197,7 +197,7 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** ACTIVE [#A] Testing
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-02 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -228,7 +228,7 @@ SCHEDULED: <2023-11-21 Tue>
 SCHEDULED: <2023-11-20 Mon>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
-** [#A] Modules
+** Modules
 SCHEDULED: <2023-11-01 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 09:29]
@@ -238,7 +238,7 @@ SCHEDULED: <2023-11-01 Wed ++3d/4d>
 CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
-** [#A] Packages
+** Packages
 SCHEDULED: <2023-11-01 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
@@ -251,5 +251,5 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 [[info:python3.7#Packages][python3.7#Packages]]
 ** PEP
 *** 257
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-06 Mon>
 [[file:~/git/python/peps/pep-0257.txt]]

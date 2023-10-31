@@ -152,7 +152,7 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 ** [#C] Lisp
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-06 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-25 Wed 16:35]--[2023-10-25 Wed 16:42] =>  0:07
 CLOCK: [2023-10-25 Wed 16:15]--[2023-10-25 Wed 16:17] =>  0:02
@@ -160,7 +160,7 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 :END:
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-06 Mon>
 ** INIT Spell check
 SCHEDULED: <2023-11-01 Wed>
 [[info:emacs#Spelling][emacs#Spelling]]
@@ -425,7 +425,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-10-31 Tue .+1w>
+SCHEDULED: <2023-11-01 Wed .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -527,7 +527,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-11-03 Fri .+1w>
+SCHEDULED: <2023-11-02 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 08:29]
 :END:
@@ -719,12 +719,14 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#A] Double Loop Learning
-SCHEDULED: <2023-10-31 Tue ++2d/3d>
+SCHEDULED: <2023-11-02 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-26 Thu 11:36]
+:LAST_REPEAT: [2023-10-31 Tue 19:00]
 :END:
+- State "AMPLE"      from ""           [2023-10-31 Tue 19:00]
 - State "AMPLE"      from ""           [2023-10-26 Thu 11:36]
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 18:43]--[2023-10-31 Tue 19:00] =>  0:17
 CLOCK: [2023-10-26 Thu 11:08]--[2023-10-26 Thu 11:36] =>  0:28
 :END:
 https://www.youtube.com/watch?v=83w-jFcwiX0
@@ -784,10 +786,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-10-31 Tue ++1d>
+SCHEDULED: <2023-11-01 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-24 Tue 19:29]
+:LAST_REPEAT: [2023-10-31 Tue 19:10]
 :END:
+- State "AMPLE"      from ""           [2023-10-31 Tue 19:10]
 - State "AMPLE"      from ""           [2023-10-24 Tue 19:29]
 - State "AMPLE"      from ""           [2023-10-12 Thu 19:15]
 - State "AMPLE"      from ""           [2023-10-05 Thu 19:01]
@@ -807,6 +810,13 @@ SCHEDULED: <2023-10-31 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 19:00]--[2023-10-31 Tue 19:02] =>  0:02
+CLOCK: [2023-10-31 Tue 16:29]--[2023-10-31 Tue 16:38] =>  0:09
+CLOCK: [2023-10-31 Tue 11:50]--[2023-10-31 Tue 12:05] =>  0:15
+CLOCK: [2023-10-27 Fri 08:45]--[2023-10-27 Fri 08:47] =>  0:02
+CLOCK: [2023-10-26 Thu 09:32]--[2023-10-26 Thu 09:36] =>  0:04
+CLOCK: [2023-10-25 Wed 11:16]--[2023-10-25 Wed 11:25] =>  0:09
+CLOCK: [2023-10-25 Wed 09:47]--[2023-10-25 Wed 09:55] =>  0:08
 CLOCK: [2023-10-24 Tue 19:20]--[2023-10-24 Tue 19:27] =>  0:07
 CLOCK: [2023-10-24 Tue 10:37]--[2023-10-24 Tue 10:42] =>  0:05
 CLOCK: [2023-10-24 Tue 09:02]--[2023-10-24 Tue 09:03] =>  0:01
@@ -969,7 +979,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-10-31 Tue ++1d>
+SCHEDULED: <2023-11-01 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 08:30]
 :END:
@@ -1057,7 +1067,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-10-31 Tue .+1d>
+SCHEDULED: <2023-11-01 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
 :END:
@@ -1197,10 +1207,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-10-31 Tue .+1d>
+SCHEDULED: <2023-11-01 Wed .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-24 Tue 19:29]
+:LAST_REPEAT: [2023-10-31 Tue 19:09]
 :END:
+- State "AMPLE"      from ""           [2023-10-31 Tue 19:09]
 - State "AMPLE"      from ""           [2023-10-24 Tue 19:29]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:31]
 - State "AMPLE"      from ""           [2023-10-12 Thu 19:09]
@@ -1214,6 +1225,7 @@ SCHEDULED: <2023-10-31 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 19:06]--[2023-10-31 Tue 19:09] =>  0:03
 CLOCK: [2023-10-24 Tue 19:27]--[2023-10-24 Tue 19:29] =>  0:02
 CLOCK: [2023-10-24 Tue 11:21]--[2023-10-24 Tue 11:23] =>  0:02
 CLOCK: [2023-10-18 Wed 19:28]--[2023-10-18 Wed 19:31] =>  0:03
@@ -1548,8 +1560,8 @@ SCHEDULED: <2024-04-24 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** RAW [#B] CV elaboration
-SCHEDULED: <2023-10-31 Tue .+2d/3d>
+** RAW [#A] CV elaboration
+SCHEDULED: <2023-11-01 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-24 Tue 11:15]
 :END:
@@ -1710,7 +1722,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** LAG [#B] ChatGPT
 SCHEDULED: <2024-01-05 Fri>
@@ -1877,7 +1889,7 @@ In fire alarm example
 :CATEGORY: Git
 :END:
 *** Tags
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 
 * Events
