@@ -20,7 +20,7 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-10-28 Sat>
+SCHEDULED: <2023-10-31 Tue>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** DELAY [#A] IPython
 SCHEDULED: <2023-11-20 Mon ++2d>
@@ -58,7 +58,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#B] Elpy
-SCHEDULED: <2023-10-28 Sat ++1d>
+SCHEDULED: <2023-11-02 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -85,16 +85,18 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT FlyMake
-SCHEDULED: <2023-10-30 Mon>
+SCHEDULED: <2023-10-31 Tue>
 [[info:emacs#Flymake][emacs#Flymake]]
-*** TODO Company-Mode
-SCHEDULED: <2023-10-27 Fri>
+*** TODO [#A] Company-Mode
+SCHEDULED: <2023-10-31 Tue>
 :LOGBOOK:
+CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
 :END:
 [[https://company-mode.github.io/][company-mode for Emacs]]
 https://company-mode.github.io/manual/
-[[info:company#Top][company#Top]]
+[[info:company#Top][company#Top
+]]
 ** ACTIVE [#A] The bald Python project
 SCHEDULED: <2023-11-06 Mon>
 :LOGBOOK:
@@ -169,15 +171,21 @@ CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
 :END:
 [[https://github.com/hblanks/zen-of-python-by-example]]
 [[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
-**** [#A] PyStyle
-SCHEDULED: <2023-10-27 Fri>
+**** [#A] PyCodeStyle
+SCHEDULED: <2023-10-31 Tue ++4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-27 Fri 09:00]
+:END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 09:00]
 :LOGBOOK:
+CLOCK: [2023-10-27 Fri 08:47]--[2023-10-27 Fri 09:00] =>  0:13
 CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 :END:
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
+[[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 *** ACTIVE [#A] Structure
-SCHEDULED: <2023-10-28 Sat>
+SCHEDULED: <2023-10-31 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-26 Thu 09:36]--[2023-10-26 Thu 09:43] =>  0:07
 CLOCK: [2023-10-24 Tue 09:29]--[2023-10-24 Tue 10:02] =>  0:33
@@ -186,7 +194,7 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** ACTIVE [#A] Testing
-SCHEDULED: <2023-10-28 Sat>
+SCHEDULED: <2023-10-31 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-26 Thu 09:51]--[2023-10-26 Thu 11:07] =>  1:16
 CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
@@ -202,7 +210,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT Idioms
-SCHEDULED: <2023-10-30 Mon>
+SCHEDULED: <2023-10-31 Tue>
 https://docs.python-guide.org/writing/style/#conventions
 * Algorithms
 :PROPERTIES:
@@ -214,3 +222,29 @@ SCHEDULED: <2023-11-21 Tue>
 ** INIT Time Complexity
 SCHEDULED: <2023-11-20 Mon>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
+* Docs
+** [#A] Modules
+SCHEDULED: <2023-11-01 Wed ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-27 Fri 09:29]
+:END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 09:29]
+:LOGBOOK:
+CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
+:END:
+[[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
+** [#A] Packages
+SCHEDULED: <2023-11-01 Wed ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-27 Fri 10:33]
+:END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 10:33]
+:LOGBOOK:
+CLOCK: [2023-10-27 Fri 09:41]--[2023-10-27 Fri 10:11] =>  0:30
+CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
+:END:
+[[info:python3.7#Packages][python3.7#Packages]]
+** PEP
+*** 257
+SCHEDULED: <2023-10-31 Tue>
+[[file:~/git/python/peps/pep-0257.txt]]
