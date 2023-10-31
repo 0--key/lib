@@ -20,7 +20,7 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** DELAY [#A] IPython
 SCHEDULED: <2023-11-20 Mon ++2d>
@@ -85,10 +85,10 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT FlyMake
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 [[info:emacs#Flymake][emacs#Flymake]]
 *** TODO [#A] Company-Mode
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
@@ -171,8 +171,8 @@ CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
 :END:
 [[https://github.com/hblanks/zen-of-python-by-example]]
 [[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
-**** [#A] PyCodeStyle
-SCHEDULED: <2023-10-31 Tue ++4d>
+**** DELAY [#A] PyCodeStyle
+SCHEDULED: <2023-11-21 Tue ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 09:00]
 :END:
@@ -185,8 +185,11 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 *** ACTIVE [#A] Structure
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-03 Fri>
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
+CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
+CLOCK: [2023-10-31 Tue 14:45]--[2023-10-31 Tue 14:50] =>  0:05
 CLOCK: [2023-10-26 Thu 09:36]--[2023-10-26 Thu 09:43] =>  0:07
 CLOCK: [2023-10-24 Tue 09:29]--[2023-10-24 Tue 10:02] =>  0:33
 CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
@@ -194,8 +197,10 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** ACTIVE [#A] Testing
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
+CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
 CLOCK: [2023-10-26 Thu 09:51]--[2023-10-26 Thu 11:07] =>  1:16
 CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
 CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
@@ -209,8 +214,8 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** INIT Idioms
-SCHEDULED: <2023-10-31 Tue>
+** DELAY Idioms
+SCHEDULED: <2023-11-21 Tue>
 https://docs.python-guide.org/writing/style/#conventions
 * Algorithms
 :PROPERTIES:
@@ -246,5 +251,5 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 [[info:python3.7#Packages][python3.7#Packages]]
 ** PEP
 *** 257
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 [[file:~/git/python/peps/pep-0257.txt]]

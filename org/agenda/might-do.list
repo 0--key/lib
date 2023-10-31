@@ -160,7 +160,7 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 :END:
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
-SCHEDULED: <2023-10-31 Tue>
+SCHEDULED: <2023-11-01 Wed>
 ** INIT Spell check
 SCHEDULED: <2023-11-01 Wed>
 [[info:emacs#Spelling][emacs#Spelling]]
@@ -1085,6 +1085,7 @@ SCHEDULED: <2023-10-31 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-10-31 Tue 16:28]--[2023-10-31 Tue 16:29] =>  0:01
 CLOCK: [2023-10-31 Tue 11:46]--[2023-10-31 Tue 11:50] =>  0:04
 CLOCK: [2023-10-30 Mon 10:27]--[2023-10-30 Mon 10:48] =>  0:21
 CLOCK: [2023-10-27 Fri 08:31]--[2023-10-27 Fri 08:45] =>  0:14
@@ -1292,7 +1293,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** [#B] CodeWars
-SCHEDULED: <2023-10-31 Tue ++2d/3d>
+SCHEDULED: <2023-11-02 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
