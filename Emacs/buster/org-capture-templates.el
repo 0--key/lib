@@ -66,7 +66,7 @@
 ;;
 ;; The offspring birth from the parent item
 	("co" "Child" entry (clock)
-	 "* INIT %i\nSCHEDULED: %t\n%c\n%l%?\n%U"
+	 "* INIT %i\nSCHEDULED: %t\n%l%?\n%U"
 	 :empty-lines-after 1)
 ))
 
