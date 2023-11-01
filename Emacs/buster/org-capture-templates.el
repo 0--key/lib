@@ -61,7 +61,8 @@
 	;;
 	("c" "Clocked");; <-- prefix key for current task	
 	;; Just plain text item note without any interruption:
-	("cc" "Clocked" item (clock) "%i%?" :immediate-finish 1)
+	("cc" "Clocked-snippet" item (clock) "%i %U" :immediate-finish 1)
+	("cl" "Clocked-link-only" item (clock) "%l %U" :immediate-finish 1)
 ;;
 ;; The offspring birth from the parent item
 	("co" "Child" entry (clock)
