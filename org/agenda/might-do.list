@@ -809,10 +809,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-01 Wed ++1d>
+SCHEDULED: <2023-11-02 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-31 Tue 19:10]
+:LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
+- State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
 - State "AMPLE"      from ""           [2023-10-31 Tue 19:10]
 - State "AMPLE"      from ""           [2023-10-24 Tue 19:29]
 - State "AMPLE"      from ""           [2023-10-12 Thu 19:15]
@@ -833,7 +834,7 @@ SCHEDULED: <2023-11-01 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-11-01 Wed 17:46]
+CLOCK: [2023-11-01 Wed 17:46]--[2023-11-01 Wed 17:55] =>  0:09
 CLOCK: [2023-11-01 Wed 11:50]--[2023-11-01 Wed 12:00] =>  0:10
 CLOCK: [2023-11-01 Wed 09:48]--[2023-11-01 Wed 09:52] =>  0:04
 CLOCK: [2023-10-31 Tue 19:00]--[2023-10-31 Tue 19:02] =>  0:02
@@ -1095,10 +1096,11 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-01 Wed .+1d>
+SCHEDULED: <2023-11-02 Thu .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-18 Wed 19:27]
+:LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
+- State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 19:09]
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:49]
