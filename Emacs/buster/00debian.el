@@ -51,6 +51,7 @@
 (pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
 (elpy-enable)
 (org-clock-auto-clockout-insinuate)
+(org-clock-toggle-auto-clockout)
 ;;(require 'langtool)
 ;; (setq langtool-language-tool-jar
 ;;       "/usr/local/java/LanguageTool-5.0/languagetool-commandline.jar")

@@ -17,7 +17,8 @@
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(find-file-in-project mw-thesaurus dictionary org-drill org go-mode langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord)))
+   '(find-file-in-project mw-thesaurus dictionary org-drill org langtool speed-type elpy dash py-autopep8 ereader howdoi popup voca-builder org-bullets google-translate magit key-chord))
+ '(ring-bell-function 'ignore))
 
 
 (custom-set-faces
