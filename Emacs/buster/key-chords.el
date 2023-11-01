@@ -41,6 +41,10 @@
 			 (lambda ()
 			   (interactive)
 			   (switch-to-buffer "*Org Agenda*")))
+(key-chord-define-global "un"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*scratch*")))
 ;; Marks
 (key-chord-define-global "mk"     'set-mark-command)
 (key-chord-define-global "m "     'set-mark-command)
@@ -104,4 +108,4 @@
 
 ;; Clock In-Out and Timers
 (key-chord-define-global "lc"     'org-clock-in-last)
-(key-chord-define-global "oc"     'org-clock-out)
+(key-chord-define-global "sc"     'org-clock-out) ;; stop-clock
