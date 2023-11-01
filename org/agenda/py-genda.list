@@ -85,18 +85,12 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT FlyMake
-SCHEDULED: <2023-11-01 Wed>
-[[info:emacs#Flymake][emacs#Flymake]]
-*** TODO Company-Mode
-SCHEDULED: <2023-11-01 Wed>
+SCHEDULED: <2023-11-15 Wed>
 :LOGBOOK:
-CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
-CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
+CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
-[[https://company-mode.github.io/][company-mode for Emacs]]
-https://company-mode.github.io/manual/
-[[info:company#Top][company#Top
-]]
+[[info:emacs#Flymake][emacs#Flymake]]
+
 ** ACTIVE [#A] The bald Python project
 SCHEDULED: <2023-11-06 Mon>
 :LOGBOOK:
@@ -228,27 +222,35 @@ SCHEDULED: <2023-11-21 Tue>
 SCHEDULED: <2023-11-20 Mon>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
-** Modules
-SCHEDULED: <2023-11-01 Wed ++3d/4d>
+** DELAY Modules
+SCHEDULED: <2024-02-01 Thu ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-27 Fri 09:29]
+:LAST_REPEAT: [2023-11-01 Wed 15:06]
 :END:
+- State "AMPLE"      from ""           [2023-11-01 Wed 15:06]
 - State "AMPLE"      from ""           [2023-10-27 Fri 09:29]
 :LOGBOOK:
+CLOCK: [2023-11-01 Wed 15:00]--[2023-11-01 Wed 15:06] =>  0:06
 CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
 ** Packages
-SCHEDULED: <2023-11-01 Wed ++3d/4d>
+SCHEDULED: <2023-11-08 Wed>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
 - State "AMPLE"      from ""           [2023-10-27 Fri 10:33]
 :LOGBOOK:
+CLOCK: [2023-11-01 Wed 15:30]--[2023-11-01 Wed 15:39] =>  0:09
 CLOCK: [2023-10-27 Fri 09:41]--[2023-10-27 Fri 10:11] =>  0:30
 CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
+*** INIT Intra-package References
+SCHEDULED: <2023-11-02 Thu>
+[[info:python3.7#Intra-package References]]
+[2023-11-01 Wed 15:33]
+
 ** PEP
 *** 257
 SCHEDULED: <2023-11-06 Mon>
