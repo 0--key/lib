@@ -64,7 +64,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#B] Elpy
-SCHEDULED: <2023-11-03 Fri ++1d>
+SCHEDULED: <2023-11-07 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -185,7 +185,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 *** ACTIVE [#A] Structure
-SCHEDULED: <2023-11-03 Fri>
+SCHEDULED: <2023-11-07 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -197,7 +197,7 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** ACTIVE [#A] Testing
-SCHEDULED: <2023-11-03 Fri>
+SCHEDULED: <2023-11-07 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -253,8 +253,9 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** INIT Intra-package References
-SCHEDULED: <2023-11-03 Fri>
+SCHEDULED: <2023-11-07 Tue>
 :LOGBOOK:
+CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 :END:
 [[info:python3.7#Intra-package References]]

@@ -57,6 +57,11 @@ SCHEDULED: <2023-11-04 Sat>
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+** INIT Version Control
+SCHEDULED: <2023-11-06 Mon ++2d>
+:LOGBOOK:
+CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
+:END:
 ** DELAY Company-Mode
 SCHEDULED: <2023-11-22 Wed>
 :LOGBOOK:
@@ -1029,10 +1034,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-11-03 Fri ++1d>
+SCHEDULED: <2023-11-04 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-01 Wed 16:35]
+:LAST_REPEAT: [2023-11-03 Fri 11:33]
 :END:
+- State "AMPLE"      from ""           [2023-11-03 Fri 11:33]
 - State "AMPLE"      from ""           [2023-11-01 Wed 16:35]
 - State "AMPLE"      from ""           [2023-10-27 Fri 08:30]
 - State "AMPLE"      from ""           [2023-10-25 Wed 11:44]
@@ -1052,6 +1058,7 @@ SCHEDULED: <2023-11-03 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-11-03 Fri 11:12]--[2023-11-03 Fri 11:33] =>  0:21
 CLOCK: [2023-11-01 Wed 16:15]--[2023-11-01 Wed 16:35] =>  0:20
 CLOCK: [2023-10-26 Thu 11:49]--[2023-10-26 Thu 12:01] =>  0:12
 CLOCK: [2023-10-25 Wed 11:28]--[2023-10-25 Wed 11:44] =>  0:16
@@ -1365,7 +1372,7 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** [#B] CodeWars
+*** [#B] CodeWars {rj*w}
 SCHEDULED: <2023-11-03 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
@@ -1622,10 +1629,13 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** RAW [#A] CV elaboration
-SCHEDULED: <2023-11-03 Fri .+2d/3d>
+SCHEDULED: <2023-11-04 Sat .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 10:36]
 :END:
+- Note taken on [2023-11-03 Fri 15:10] \\
+  Reverse engeneering --> try to find the list of requirements and write
+  CV to satisfy them.
 - State "AMPLE"      from "RAW"        [2023-11-01 Wed 10:36]
 - State "DONE"       from "ACTIVE"     [2023-10-24 Tue 11:15]
 - State "DONE"       from "ACTIVE"     [2023-10-17 Tue 14:47]
@@ -1637,6 +1647,7 @@ SCHEDULED: <2023-11-03 Fri .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-11-03 Fri 15:10]--[2023-11-03 Fri 15:11] =>  0:01
 CLOCK: [2023-11-01 Wed 10:10]--[2023-11-01 Wed 10:28] =>  0:18
 CLOCK: [2023-10-24 Tue 10:48]--[2023-10-24 Tue 11:15] =>  0:27
 CLOCK: [2023-10-19 Thu 16:48]--[2023-10-19 Thu 16:54] =>  0:06
