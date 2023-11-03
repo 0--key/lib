@@ -466,7 +466,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-03 Fri .+1w>
+SCHEDULED: <2023-11-04 Sat .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -862,6 +862,10 @@ SCHEDULED: <2023-11-03 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-03 Fri 17:29]--[2023-11-03 Fri 17:37] =>  0:08
+CLOCK: [2023-11-03 Fri 11:10]--[2023-11-03 Fri 11:12] =>  0:02
+CLOCK: [2023-11-03 Fri 10:03]--[2023-11-03 Fri 10:13] =>  0:10
+CLOCK: [2023-11-03 Fri 09:05]--[2023-11-03 Fri 09:08] =>  0:03
 CLOCK: [2023-11-01 Wed 17:46]--[2023-11-01 Wed 17:55] =>  0:09
 CLOCK: [2023-11-01 Wed 11:50]--[2023-11-01 Wed 12:00] =>  0:10
 CLOCK: [2023-11-01 Wed 09:48]--[2023-11-01 Wed 09:52] =>  0:04
@@ -1126,7 +1130,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-03 Fri .+1d>
+SCHEDULED: <2023-11-04 Sat .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
@@ -1269,7 +1273,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-11-03 Fri .+1d>
+SCHEDULED: <2023-11-04 Sat .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-31 Tue 19:09]
 :END:
@@ -1373,7 +1377,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** [#B] CodeWars {rj*w}
-SCHEDULED: <2023-11-03 Fri ++2d/3d>
+SCHEDULED: <2023-11-04 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
@@ -1796,7 +1800,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-11-03 Fri>
+SCHEDULED: <2023-11-04 Sat>
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** LAG [#B] ChatGPT
 SCHEDULED: <2024-01-05 Fri>
