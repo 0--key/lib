@@ -6,7 +6,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+LANGUAGE: en
 #+STARTUP: showall indent
 #+PROPERTY: header-args :comments org
-#+CATEGORY: Python
+#+CATEGORY: Python{p}
 #+TODO: | AMPLE
 #+TODO: RAW INIT TODO ACTIVE | DONE
 #+TODO: DELAY LAG RETARD | BARE
@@ -20,7 +20,13 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-11-03 Fri>
+SCHEDULED: <2023-11-06 Mon ++2d>
+:PROPERTIES:
+:CATEGORY: PY{s}
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
+:END:
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 ** DELAY [#A] IPython
 SCHEDULED: <2023-11-20 Mon ++2d>
@@ -248,6 +254,9 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 [[info:python3.7#Packages][python3.7#Packages]]
 *** INIT Intra-package References
 SCHEDULED: <2023-11-03 Fri>
+:LOGBOOK:
+CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
+:END:
 [[info:python3.7#Intra-package References]]
 [2023-11-01 Wed 15:33]
 

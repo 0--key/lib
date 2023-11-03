@@ -176,9 +176,10 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-11-06 Mon>
-** TODO Spell check
-SCHEDULED: <2023-11-03 Fri>
+** ACTIVE Spell check
+SCHEDULED: <2023-11-08 Wed>
 :LOGBOOK:
+CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
 CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
 :END:
 [[info:emacs#Spelling][emacs#Spelling]]
