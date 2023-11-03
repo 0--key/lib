@@ -38,7 +38,21 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
-
+* Git
+:PROPERTIES:
+:CATEGORY: Git
+:END:
+** INIT Tags
+SCHEDULED: <2023-11-06 Mon>
+:LOGBOOK:
+CLOCK: [2023-11-03 Fri 15:13]--[2023-11-03 Fri 15:21] =>  0:08
+CLOCK: [2023-11-01 Wed 16:04]--[2023-11-01 Wed 16:12] =>  0:08
+CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
+:END:
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
+- [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
+** INIT Branches
+SCHEDULED: <2023-11-04 Sat>
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
@@ -1933,18 +1947,6 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2023-11-20 Mon>
 In fire alarm example
 
-** Git
-:PROPERTIES:
-:CATEGORY: Git
-:END:
-*** INIT Tags
-SCHEDULED: <2023-11-03 Fri>
-:LOGBOOK:
-CLOCK: [2023-11-01 Wed 16:04]--[2023-11-01 Wed 16:12] =>  0:08
-CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
-:END:
-https://git-scm.com/book/en/v2/Git-Basics-Tagging
-- [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 * Events
 :PROPERTIES:
 :CATEGORY: Event
