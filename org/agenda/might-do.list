@@ -57,7 +57,11 @@ SCHEDULED: <2023-11-08 Wed>
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 ** INIT Stashes
-SCHEDULED: <2023-11-04 Sat>
+SCHEDULED: <2023-11-09 Thu>
+:LOGBOOK:
+CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
+:END:
+- Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** INIT ReSet, ReBase
 SCHEDULED: <2023-11-06 Mon>
 * Emacs
@@ -870,6 +874,7 @@ SCHEDULED: <2023-11-04 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-04 Sat 14:13]--[2023-11-04 Sat 14:15] =>  0:02
 CLOCK: [2023-11-03 Fri 17:29]--[2023-11-03 Fri 17:37] =>  0:08
 CLOCK: [2023-11-03 Fri 11:10]--[2023-11-03 Fri 11:12] =>  0:02
 CLOCK: [2023-11-03 Fri 10:03]--[2023-11-03 Fri 10:13] =>  0:10
