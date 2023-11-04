@@ -52,7 +52,14 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** INIT Branches
+SCHEDULED: <2023-11-08 Wed>
+:LOGBOOK:
+CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
+:END:
+** INIT Stashes
 SCHEDULED: <2023-11-04 Sat>
+** INIT ReSet, ReBase
+SCHEDULED: <2023-11-06 Mon>
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
@@ -761,7 +768,7 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#A] Double Loop Learning
-SCHEDULED: <2023-11-04 Sat ++2d/3d>
+SCHEDULED: <2023-11-07 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-02 Thu 11:12]
 :END:
@@ -770,6 +777,7 @@ SCHEDULED: <2023-11-04 Sat ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-26 Thu 11:36]
 - [[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*How to Structure]] [2023-11-02 Thu 11:11]
 :LOGBOOK:
+CLOCK: [2023-11-04 Sat 09:00]--[2023-11-04 Sat 09:31] =>  0:31
 CLOCK: [2023-11-02 Thu 11:11]--[2023-11-02 Thu 11:11] =>  0:00
 CLOCK: [2023-11-02 Thu 10:49]--[2023-11-02 Thu 11:10] =>  0:21
 CLOCK: [2023-10-31 Tue 18:43]--[2023-10-31 Tue 19:00] =>  0:17
@@ -837,7 +845,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-03 Fri ++1d>
+SCHEDULED: <2023-11-04 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
@@ -1038,7 +1046,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-11-04 Sat ++1d>
+SCHEDULED: <2023-11-05 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-03 Fri 11:33]
 :END:
@@ -1062,6 +1070,7 @@ SCHEDULED: <2023-11-04 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-11-04 Sat 11:39]--[2023-11-04 Sat 11:49] =>  0:10
 CLOCK: [2023-11-03 Fri 11:12]--[2023-11-03 Fri 11:33] =>  0:21
 CLOCK: [2023-11-01 Wed 16:15]--[2023-11-01 Wed 16:35] =>  0:20
 CLOCK: [2023-10-26 Thu 11:49]--[2023-10-26 Thu 12:01] =>  0:12
@@ -1377,13 +1386,14 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** [#B] CodeWars {rj*w}
-SCHEDULED: <2023-11-04 Sat ++2d/3d>
+SCHEDULED: <2023-11-05 Sun ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2023-11-04 Sat 11:07]--[2023-11-04 Sat 11:34] =>  0:27
 CLOCK: [2023-10-10 Tue 16:00]--[2023-10-10 Tue 16:26] =>  0:26
 CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
@@ -1633,7 +1643,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** RAW [#A] CV elaboration
-SCHEDULED: <2023-11-04 Sat .+2d/3d>
+SCHEDULED: <2023-11-07 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 10:36]
 :END:
@@ -1651,6 +1661,7 @@ SCHEDULED: <2023-11-04 Sat .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-11-04 Sat 09:47]--[2023-11-04 Sat 10:13] =>  0:26
 CLOCK: [2023-11-03 Fri 15:10]--[2023-11-03 Fri 15:11] =>  0:01
 CLOCK: [2023-11-01 Wed 10:10]--[2023-11-01 Wed 10:28] =>  0:18
 CLOCK: [2023-10-24 Tue 10:48]--[2023-10-24 Tue 11:15] =>  0:27
