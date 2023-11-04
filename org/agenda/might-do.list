@@ -1817,6 +1817,9 @@ SCHEDULED: <2023-11-10 Fri>
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
 SCHEDULED: <2023-11-04 Sat>
+:LOGBOOK:
+CLOCK: [2023-11-04 Sat 15:03]--[2023-11-04 Sat 15:23] =>  0:20
+:END:
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 ** LAG [#B] ChatGPT
 SCHEDULED: <2024-01-05 Fri>

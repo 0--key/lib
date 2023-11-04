@@ -38,6 +38,14 @@
    :END:\n%?%i\n\n" :empty-lines 1)
 	;;
 	;;
+	("h" "Thank You" entry (file+headline
+				"~/git/lib/org/drills.org" "How to say 'Thank You!'")
+	 "** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%?%i\n\n" :empty-lines 1)
+	;;
+	;;
 	("n" "Notes");; <-- prefix key for notes
 	;; For the crude notes only:
 	("nf" "Fleeting" entry (file+headline
