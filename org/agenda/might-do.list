@@ -52,7 +52,7 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** INIT Branches
-SCHEDULED: <2023-11-08 Wed>
+SCHEDULED: <2023-11-09 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
@@ -62,13 +62,13 @@ SCHEDULED: <2023-11-09 Thu>
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
-** INIT ReSet, ReBase
+** INIT [#A] ReSet, ReBase
 SCHEDULED: <2023-11-06 Mon>
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
-** INIT Version Control
+** INIT [#A] Version Control
 SCHEDULED: <2023-11-06 Mon ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
@@ -197,7 +197,7 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 ** [#C] Lisp
-SCHEDULED: <2023-11-06 Mon>
+SCHEDULED: <2023-11-20 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-25 Wed 16:35]--[2023-10-25 Wed 16:42] =>  0:07
 CLOCK: [2023-10-25 Wed 16:15]--[2023-10-25 Wed 16:17] =>  0:02
@@ -205,7 +205,7 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 :END:
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
-SCHEDULED: <2023-11-06 Mon>
+SCHEDULED: <2023-11-20 Mon>
 ** ACTIVE Spell check
 SCHEDULED: <2023-11-08 Wed>
 :LOGBOOK:
@@ -220,7 +220,9 @@ CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-11-06 Mon ++2d>
+SCHEDULED: <2023-11-09 Thu ++2d>
+- Note taken on [2023-11-06 Mon 09:19] \\
+  Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 * Notes
 :PROPERTIES:
@@ -477,7 +479,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-04 Sat .+1w>
+SCHEDULED: <2023-11-07 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -493,6 +495,8 @@ SCHEDULED: <2023-11-04 Sat .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-11-06 Mon 09:14]--[2023-11-06 Mon 09:20] =>  0:06
+CLOCK: [2023-11-04 Sat 15:27]--[2023-11-04 Sat 15:36] =>  0:09
 CLOCK: [2023-10-23 Mon 09:48]--[2023-10-23 Mon 09:56] =>  0:08
 CLOCK: [2023-10-23 Mon 09:44]--[2023-10-23 Mon 09:46] =>  0:02
 CLOCK: [2023-10-16 Mon 09:16]--[2023-10-16 Mon 09:21] =>  0:05
@@ -849,7 +853,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-04 Sat ++1d>
+SCHEDULED: <2023-11-06 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
@@ -1051,7 +1055,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-11-05 Sun ++1d>
+SCHEDULED: <2023-11-06 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-03 Fri 11:33]
 :END:
@@ -1144,7 +1148,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-04 Sat .+1d>
+SCHEDULED: <2023-11-06 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 17:55]
 :END:
@@ -1173,6 +1177,8 @@ SCHEDULED: <2023-11-04 Sat .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-11-06 Mon 09:20]--[2023-11-06 Mon 09:24] =>  0:04
+CLOCK: [2023-11-06 Mon 09:04]--[2023-11-06 Mon 09:14] =>  0:10
 CLOCK: [2023-11-03 Fri 09:03]--[2023-11-03 Fri 09:05] =>  0:02
 CLOCK: [2023-11-01 Wed 17:44]--[2023-11-01 Wed 17:46] =>  0:02
 CLOCK: [2023-10-31 Tue 16:28]--[2023-10-31 Tue 16:29] =>  0:01
@@ -1287,7 +1293,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-11-04 Sat .+1d>
+SCHEDULED: <2023-11-06 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-31 Tue 19:09]
 :END:
@@ -1327,7 +1333,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2023-11-08 Wed ++1w>
+SCHEDULED: <2023-11-09 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 10:08]
 :END:
@@ -1390,8 +1396,8 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** [#B] CodeWars {rj*w}
-SCHEDULED: <2023-11-05 Sun ++2d/3d>
+*** [#A] CodeWars {rj*w}
+SCHEDULED: <2023-11-06 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-05 Thu 18:11]
 :END:
@@ -1486,8 +1492,8 @@ SCHEDULED: <2023-11-28 Tue ++4w>
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 
 
-*** New tasks trimming #3
-SCHEDULED: <2023-11-05 Sun ++1w>
+*** [#A] New tasks trimming #3
+SCHEDULED: <2023-11-06 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-30 Mon 10:33]
 :END:
@@ -1816,7 +1822,7 @@ SCHEDULED: <2023-11-10 Fri>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-11-04 Sat>
+SCHEDULED: <2023-11-09 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 15:03]--[2023-11-04 Sat 15:23] =>  0:20
 :END:
@@ -1993,3 +1999,13 @@ https://guildhallderry.com/
 *** DELAY [#C] Electric Ireland
 SCHEDULED: <2023-12-18 Mon>
 
+*** Ballyraine Park Health Cetre
+SCHEDULED: <2023-11-13 Mon 14:00>
+
+*** Intreo Centre
+SCHEDULED: <2023-11-08 Wed 10:20>
+
+*** NCT 
+SCHEDULED: <2023-11-07 Tue 14:15>
+Dry Arch Business Park,Dromore,
+Letterkenny, Donegal F92 CTH6
