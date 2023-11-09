@@ -20,7 +20,7 @@ SCHEDULED: <2023-11-13 Mon>
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-11-09 Thu ++2d>
+SCHEDULED: <2023-11-14 Tue ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :END:
@@ -64,7 +64,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#B] Elpy
-SCHEDULED: <2023-11-09 Thu ++1d>
+SCHEDULED: <2023-11-10 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -97,8 +97,8 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
 
-** ACTIVE [#C] The bald Python project
-SCHEDULED: <2023-11-07 Tue>
+** DELAY [#C] The bald Python project
+SCHEDULED: <2023-12-05 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -187,8 +187,8 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
-*** ACTIVE [#B] Structure
-SCHEDULED: <2023-11-07 Tue>
+*** DELAY [#B] Structure
+SCHEDULED: <2023-12-05 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -199,8 +199,8 @@ CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-*** ACTIVE [#B] Testing
-SCHEDULED: <2023-11-07 Tue>
+*** DELAY [#B] Testing
+SCHEDULED: <2023-12-05 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -268,3 +268,33 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 *** DELAY 257
 SCHEDULED: <2024-02-05 Mon>
 [[file:~/git/python/peps/pep-0257.txt]]
+* Coding
+:PROPERTIES:
+:CATEGORY: PyAct{rj*w}
+:END:
+** [#A] CodeWars 
+SCHEDULED: <2023-11-11 Sat ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-07 Tue 10:40]
+:END:
+- State "AMPLE"      from ""           [2023-11-07 Tue 10:40]
+- State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
+- State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
+:LOGBOOK:
+CLOCK: [2023-11-07 Tue 10:11]--[2023-11-07 Tue 10:40] =>  0:29
+CLOCK: [2023-11-06 Mon 11:31]--[2023-11-06 Mon 11:31] =>  0:00
+CLOCK: [2023-11-04 Sat 11:07]--[2023-11-04 Sat 11:34] =>  0:27
+CLOCK: [2023-10-10 Tue 16:00]--[2023-10-10 Tue 16:26] =>  0:26
+CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
+CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
+:END:
+[[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
+** [#A] LeetCode
+SCHEDULED: <2023-11-10 Fri ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-07 Tue 11:26]
+:END:
+- State "AMPLE"      from ""           [2023-11-07 Tue 11:26]
+:LOGBOOK:
+CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
+:END:
