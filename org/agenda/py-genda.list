@@ -64,7 +64,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#B] Elpy
-SCHEDULED: <2023-11-10 Fri ++1d>
+SCHEDULED: <2023-11-13 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -243,8 +243,8 @@ CLOCK: [2023-11-01 Wed 15:00]--[2023-11-01 Wed 15:06] =>  0:06
 CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
-** Packages
-SCHEDULED: <2023-11-10 Fri>
+** DELAY Packages
+SCHEDULED: <2023-11-24 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -255,8 +255,8 @@ CLOCK: [2023-10-27 Fri 09:41]--[2023-10-27 Fri 10:11] =>  0:30
 CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
-*** INIT Intra-package References
-SCHEDULED: <2023-11-10 Fri>
+*** DELAY Intra-package References
+SCHEDULED: <2023-11-24 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -290,7 +290,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-11-10 Fri ++3d/4d>
+SCHEDULED: <2023-11-11 Sat ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:

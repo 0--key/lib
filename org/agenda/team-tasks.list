@@ -46,15 +46,17 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * [#C] Evening meeting
-SCHEDULED: <2023-11-10 Fri ++1d>
+SCHEDULED: <2023-11-11 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-07 Tue 18:01]
+:LAST_REPEAT: [2023-11-10 Fri 19:24]
 :CATEGORY: CoLab
 :END:
+- State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-07 Tue 18:01]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
+CLOCK: [2023-11-10 Fri 18:06]--[2023-11-10 Fri 19:24] =>  1:18
 CLOCK: [2023-11-09 Thu 19:05]--[2023-11-09 Thu 19:51] =>  0:46
 CLOCK: [2023-10-30 Mon 15:44]--[2023-10-30 Mon 17:10] =>  1:26
 CLOCK: [2023-10-30 Mon 15:43]--[2023-10-30 Mon 15:43] =>  0:00
