@@ -69,13 +69,16 @@ CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** [#A] ReSet, ReBase
-SCHEDULED: <2023-11-15 Wed ++2d/3d>
+SCHEDULED: <2023-11-17 Fri ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-09 Thu 18:39]
+:LAST_REPEAT: [2023-11-15 Wed 11:00]
 :END:
+- State "AMPLE"      from ""           [2023-11-15 Wed 11:00]
 - State "AMPLE"      from ""           [2023-11-09 Thu 18:39]
 - State "AMPLE"      from ""           [2023-11-06 Mon 11:31]
 :LOGBOOK:
+CLOCK: [2023-11-15 Wed 10:55]--[2023-11-15 Wed 11:00] =>  0:05
+CLOCK: [2023-11-15 Wed 10:43]--[2023-11-15 Wed 10:48] =>  0:05
 CLOCK: [2023-11-09 Thu 10:23]--[2023-11-09 Thu 10:43] => 0:20
 CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
 :END:
@@ -916,6 +919,7 @@ SCHEDULED: <2023-11-15 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-15 Wed 11:01]
 CLOCK: [2023-11-10 Fri 09:25]--[2023-11-10 Fri 09:27] =>  0:02
 CLOCK: [2023-11-09 Thu 10:20]--[2023-11-09 Thu 10:22] =>  0:02
 CLOCK: [2023-11-07 Tue 09:49]--[2023-11-07 Tue 09:50] =>  0:01
@@ -1393,10 +1397,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2023-11-15 Wed ++1w>
+SCHEDULED: <2023-11-22 Wed ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-01 Wed 10:08]
+:LAST_REPEAT: [2023-11-15 Wed 10:26]
 :END:
+- State "AMPLE"      from ""           [2023-11-15 Wed 10:26]
 - State "AMPLE"      from ""           [2023-11-01 Wed 10:08]
 - State "AMPLE"      from ""           [2023-10-25 Wed 10:40]
 - State "AMPLE"      from ""           [2023-10-12 Thu 09:21]
@@ -1411,7 +1416,7 @@ SCHEDULED: <2023-11-15 Wed ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
-CLOCK: [2023-11-15 Wed 09:38]
+CLOCK: [2023-11-15 Wed 09:38]--[2023-11-15 Wed 09:56] =>  0:18
 CLOCK: [2023-11-01 Wed 09:47]--[2023-11-01 Wed 09:48] =>  0:01
 CLOCK: [2023-11-01 Wed 09:17]--[2023-11-01 Wed 09:19] =>  0:02
 CLOCK: [2023-10-25 Wed 10:33]--[2023-10-25 Wed 10:40] =>  0:07
@@ -2109,7 +2114,10 @@ In fire alarm example
 SCHEDULED: <2023-12-20 Wed>
 https://www.youtube.com/watch?v=OHw8ReqH968
 ** INIT [#B] Emacs' innate themes
-SCHEDULED: <2023-11-15 Wed>
+SCHEDULED: <2023-11-21 Tue>
+:LOGBOOK:
+CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
+:END:
 ** INIT https://quotefancy.com/motivational-quotes
 SCHEDULED: <2023-11-17 Fri>
 * Events
