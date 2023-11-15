@@ -12,15 +12,15 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** LAG Cracking coding interview
-SCHEDULED: <2023-11-13 Mon>
-** LAG Mark Lutz
-SCHEDULED: <2023-11-13 Mon>
+** INIT Cracking coding interview
+SCHEDULED: <2023-11-15 Wed>
+** RAW Mark Lutz
+SCHEDULED: <2023-11-15 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** TODO [#A] Assignment test suite
-SCHEDULED: <2023-11-14 Tue ++2d>
+SCHEDULED: <2023-11-16 Thu ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :END:
@@ -63,8 +63,8 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
-** ACTIVE [#B] Elpy
-SCHEDULED: <2023-11-13 Mon ++1d>
+** ACTIVE [#C] Elpy
+SCHEDULED: <2023-11-15 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -90,7 +90,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
-*** INIT FlyMake
+*** INIT [#C] FlyMake
 SCHEDULED: <2023-11-15 Wed>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -273,7 +273,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2023-11-11 Sat ++2d/3d>
+SCHEDULED: <2023-11-16 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -290,7 +290,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-11-11 Sat ++3d/4d>
+SCHEDULED: <2023-11-16 Thu ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
