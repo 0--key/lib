@@ -1103,10 +1103,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-11-16 Thu ++1d>
+SCHEDULED: <2023-11-17 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-15 Wed 11:42]
+:LAST_REPEAT: [2023-11-16 Thu 11:31]
 :END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 11:31]
 - State "AMPLE"      from ""           [2023-11-15 Wed 11:42]
 - State "AMPLE"      from ""           [2023-11-10 Fri 13:47]
 - State "AMPLE"      from ""           [2023-11-09 Thu 19:05]
@@ -1235,7 +1236,7 @@ SCHEDULED: <2023-11-16 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
-CLOCK: [2023-11-16 Thu 09:05]
+CLOCK: [2023-11-16 Thu 09:05]--[2023-11-16 Thu 09:09] =>  0:04
 CLOCK: [2023-11-15 Wed 09:11]--[2023-11-15 Wed 09:21] =>  0:10
 CLOCK: [2023-11-14 Tue 15:25]--[2023-11-14 Tue 15:33] =>  0:08
 CLOCK: [2023-11-10 Fri 17:49]--[2023-11-10 Fri 18:06] =>  0:17
@@ -2123,8 +2124,16 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
 :END:
 ** INIT https://quotefancy.com/motivational-quotes
 SCHEDULED: <2023-11-17 Fri>
-** INIT Grokking Algorithms
-SCHEDULED: <2023-11-16 Thu ++2d>
+** RAW Taxation in Ireland
+SCHEDULED: <2023-11-19 Sun ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-16 Thu 15:21]
+:END:
+- State "AMPLE"      from "RAW"        [2023-11-16 Thu 15:21]
+:LOGBOOK:
+CLOCK: [2023-11-16 Thu 15:08]--[2023-11-16 Thu 15:21] =>  0:13
+:END:
+https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-your-tax-is-calculated/
 * Events
 :PROPERTIES:
 :CATEGORY: Event

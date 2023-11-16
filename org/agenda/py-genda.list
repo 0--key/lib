@@ -13,21 +13,26 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** INIT Cracking coding interview
-SCHEDULED: <2023-11-16 Thu>
+SCHEDULED: <2023-11-17 Fri ++2d>
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
 :END:
-** INIT Mark Lutz
-SCHEDULED: <2023-11-16 Thu>
+** AMPLE Mark Lutz
+SCHEDULED: <2023-11-20 Mon ++4d>
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** TODO [#A] Assignment test suite
-SCHEDULED: <2023-11-16 Thu ++2d>
+** [#A] Assignment test suite
+SCHEDULED: <2023-11-18 Sat ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
+:LAST_REPEAT: [2023-11-16 Thu 10:58]
 :END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 10:58]
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 10:04]--[2023-11-16 Thu 11:00] =>  0:56
 CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 :END:
 https://www.youtube.com/watch?v=_AEJHKGk9ns
