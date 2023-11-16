@@ -126,7 +126,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** RAW [#C] Extend
-SCHEDULED: <2023-11-15 Wed ++2w>
+SCHEDULED: <2023-11-16 Thu ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-25 Wed 11:17]
 :END:
@@ -173,7 +173,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** RAW [#C] Declutter
-SCHEDULED: <2023-11-15 Wed ++4w>
+SCHEDULED: <2023-11-16 Thu ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 15:23]
 :END:
@@ -235,7 +235,7 @@ https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-11-20 Mon>
 ** ACTIVE [#C] Spell check
-SCHEDULED: <2023-11-15 Wed>
+SCHEDULED: <2023-11-16 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
 CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
@@ -253,7 +253,7 @@ SCHEDULED: <2023-11-16 Thu ++2d>
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-11-15 Wed>
+SCHEDULED: <2023-11-16 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -498,7 +498,7 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
 ** INIT Thriades for key-chords
-SCHEDULED: <2023-11-17 Fri>
+SCHEDULED: <2023-11-16 Thu>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -513,7 +513,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-15 Wed .+1w>
+SCHEDULED: <2023-11-16 Thu .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -724,7 +724,7 @@ non-smokers, tea-total.
 ** LAG Bmkp as a snippets database;
 SCHEDULED: <2024-03-11 Mon>
 ** INIT SPACE KEY in key-chords
-SCHEDULED: <2023-11-17 Fri>
+SCHEDULED: <2023-11-16 Thu>
 For capture and marks and??
 ** LAG Phronesis
 SCHEDULED: <2024-03-11 Mon>
@@ -865,7 +865,7 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
 - Note taken on [2023-09-25 Mon 10:18] \\
   or even a separate file appended to *Org-Agenda*
 ** Story telling with Martin
-SCHEDULED: <2023-11-15 Wed ++1w>
+SCHEDULED: <2023-11-20 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 14:59]
 :END:
@@ -893,7 +893,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-15 Wed ++1d>
+SCHEDULED: <2023-11-16 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 19:24]
 :END:
@@ -919,7 +919,7 @@ SCHEDULED: <2023-11-15 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-11-15 Wed 11:01]
+CLOCK: [2023-11-15 Wed 11:01]--[2023-11-15 Wed 11:04] =>  0:03
 CLOCK: [2023-11-10 Fri 09:25]--[2023-11-10 Fri 09:27] =>  0:02
 CLOCK: [2023-11-09 Thu 10:20]--[2023-11-09 Thu 10:22] =>  0:02
 CLOCK: [2023-11-07 Tue 09:49]--[2023-11-07 Tue 09:50] =>  0:01
@@ -1103,10 +1103,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#B] Touch typing
-SCHEDULED: <2023-11-15 Wed ++1d>
+SCHEDULED: <2023-11-16 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 13:47]
+:LAST_REPEAT: [2023-11-15 Wed 11:42]
 :END:
+- State "AMPLE"      from ""           [2023-11-15 Wed 11:42]
 - State "AMPLE"      from ""           [2023-11-10 Fri 13:47]
 - State "AMPLE"      from ""           [2023-11-09 Thu 19:05]
 - State "AMPLE"      from ""           [2023-11-07 Tue 18:33]
@@ -1130,6 +1131,7 @@ SCHEDULED: <2023-11-15 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-11-15 Wed 11:24]--[2023-11-15 Wed 11:42] =>  0:18
 CLOCK: [2023-11-14 Tue 15:36]--[2023-11-14 Tue 15:45] =>  0:09
 CLOCK: [2023-11-10 Fri 13:26]--[2023-11-10 Fri 13:47] =>  0:21
 CLOCK: [2023-11-09 Thu 18:39]--[2023-11-09 Thu 19:05] =>  0:26
@@ -1203,7 +1205,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-15 Wed .+1d>
+SCHEDULED: <2023-11-16 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 19:24]
 :END:
@@ -1233,6 +1235,7 @@ SCHEDULED: <2023-11-15 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 09:05]
 CLOCK: [2023-11-15 Wed 09:11]--[2023-11-15 Wed 09:21] =>  0:10
 CLOCK: [2023-11-14 Tue 15:25]--[2023-11-14 Tue 15:33] =>  0:08
 CLOCK: [2023-11-10 Fri 17:49]--[2023-11-10 Fri 18:06] =>  0:17
@@ -1355,7 +1358,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-11-15 Wed .+1d>
+SCHEDULED: <2023-11-16 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 19:24]
 :END:
@@ -1712,7 +1715,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** RAW [#A] CV elaboration
-SCHEDULED: <2023-11-15 Wed .+2d/3d>
+SCHEDULED: <2023-11-16 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 10:36]
 :END:
@@ -2120,6 +2123,8 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
 :END:
 ** INIT https://quotefancy.com/motivational-quotes
 SCHEDULED: <2023-11-17 Fri>
+** INIT Grokking Algorithms
+SCHEDULED: <2023-11-16 Thu ++2d>
 * Events
 :PROPERTIES:
 :CATEGORY: Event
