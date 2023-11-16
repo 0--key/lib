@@ -12,6 +12,27 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
+** Algorithms
+SCHEDULED: <2023-11-18 Sat ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-16 Thu 09:57]
+:END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 09:57]
+- Note taken on [2023-11-16 Thu 09:48] \\
+  Selection sort
+   Recursion
+   Quicksort
+   Hash tables
+   Breadth-first search
+   Trees
+   Binary search trees
+   Djikstra’s algorithm
+   Greedy algorithms
+   Dynamic programming
+   K nearest neighbors
+:LOGBOOK:
+CLOCK: [2023-11-16 Thu 09:42]--[2023-11-16 Thu 09:56] =>  0:14
+:END:
 ** INIT Cracking coding interview
 SCHEDULED: <2023-11-17 Fri ++2d>
 :LOGBOOK:
