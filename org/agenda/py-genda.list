@@ -93,7 +93,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#C] Elpy
-SCHEDULED: <2023-11-16 Thu ++1d>
+SCHEDULED: <2023-11-17 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -120,7 +120,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT [#C] FlyMake
-SCHEDULED: <2023-11-16 Thu>
+SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
@@ -302,7 +302,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2023-11-16 Thu ++2d/3d>
+SCHEDULED: <2023-11-18 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -319,7 +319,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-11-16 Thu ++3d/4d>
+SCHEDULED: <2023-11-18 Sat ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:

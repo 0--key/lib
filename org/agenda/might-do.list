@@ -43,7 +43,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :CATEGORY: Git
 :END:
 ** TODO Tags
-SCHEDULED: <2023-11-16 Thu ++3d/5d>
+SCHEDULED: <2023-11-18 Sat ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -57,19 +57,19 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** TODO Branches
-SCHEDULED: <2023-11-16 Thu>
+SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 ** TODO Stashes
-SCHEDULED: <2023-11-16 Thu>
+SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** [#A] ReSet, ReBase
-SCHEDULED: <2023-11-17 Fri ++2d/3d>
+SCHEDULED: <2023-11-18 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-15 Wed 11:00]
 :END:
@@ -125,8 +125,8 @@ By putting the actual (most significant) agenda file on the top.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** RAW [#C] Extend
-SCHEDULED: <2023-11-16 Thu ++2w>
+*** RAW [#A] Extend
+SCHEDULED: <2023-11-17 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-25 Wed 11:17]
 :END:
@@ -172,8 +172,8 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** RAW [#C] Declutter
-SCHEDULED: <2023-11-16 Thu ++4w>
+*** RAW [#A] Declutter
+SCHEDULED: <2023-11-17 Fri ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-18 Wed 15:23]
 :END:
@@ -234,8 +234,8 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-11-20 Mon>
-** ACTIVE [#C] Spell check
-SCHEDULED: <2023-11-16 Thu>
+** ACTIVE [#A] Spell check
+SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
 CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
@@ -248,12 +248,12 @@ CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-11-16 Thu ++2d>
+SCHEDULED: <2023-11-17 Fri ++2d>
 - Note taken on [2023-11-06 Mon 09:19] \\
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-11-16 Thu>
+SCHEDULED: <2023-11-18 Sat>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -497,8 +497,8 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 :LOGBOOK:
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
-** INIT Thriades for key-chords
-SCHEDULED: <2023-11-16 Thu>
+** INIT [#A] Thriades for key-chords
+SCHEDULED: <2023-11-17 Fri>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -513,7 +513,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-16 Thu .+1w>
+SCHEDULED: <2023-11-17 Fri .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -723,8 +723,8 @@ https://bit.ly/3Kxjzx6
 non-smokers, tea-total.
 ** LAG Bmkp as a snippets database;
 SCHEDULED: <2024-03-11 Mon>
-** INIT SPACE KEY in key-chords
-SCHEDULED: <2023-11-16 Thu>
+** INIT [#A] SPACE KEY in key-chords
+SCHEDULED: <2023-11-17 Fri>
 For capture and marks and??
 ** LAG Phronesis
 SCHEDULED: <2024-03-11 Mon>
@@ -893,10 +893,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-16 Thu ++1d>
+SCHEDULED: <2023-11-17 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 19:24]
+:LAST_REPEAT: [2023-11-16 Thu 18:57]
 :END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
 - State "AMPLE"      from ""           [2023-10-31 Tue 19:10]
@@ -919,6 +920,7 @@ SCHEDULED: <2023-11-16 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 18:44]--[2023-11-16 Thu 18:56] =>  0:12
 CLOCK: [2023-11-15 Wed 11:01]--[2023-11-15 Wed 11:04] =>  0:03
 CLOCK: [2023-11-10 Fri 09:25]--[2023-11-10 Fri 09:27] =>  0:02
 CLOCK: [2023-11-09 Thu 10:20]--[2023-11-09 Thu 10:22] =>  0:02
@@ -1102,7 +1104,7 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-*** [#B] Touch typing
+*** [#C] Touch typing
 SCHEDULED: <2023-11-17 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 11:31]
@@ -1206,10 +1208,11 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-16 Thu .+1d>
+SCHEDULED: <2023-11-17 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 19:24]
+:LAST_REPEAT: [2023-11-16 Thu 18:57]
 :END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
@@ -1236,6 +1239,7 @@ SCHEDULED: <2023-11-16 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 18:56]--[2023-11-16 Thu 18:57] =>  0:01
 CLOCK: [2023-11-16 Thu 09:05]--[2023-11-16 Thu 09:09] =>  0:04
 CLOCK: [2023-11-15 Wed 09:11]--[2023-11-15 Wed 09:21] =>  0:10
 CLOCK: [2023-11-14 Tue 15:25]--[2023-11-14 Tue 15:33] =>  0:08
@@ -1359,10 +1363,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-11-16 Thu .+1d>
+SCHEDULED: <2023-11-17 Fri .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 19:24]
+:LAST_REPEAT: [2023-11-16 Thu 19:01]
 :END:
+- State "AMPLE"      from ""           [2023-11-16 Thu 19:01]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-10-31 Tue 19:09]
 - State "AMPLE"      from ""           [2023-10-24 Tue 19:29]
@@ -1378,6 +1383,7 @@ SCHEDULED: <2023-11-16 Thu .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-11-16 Thu 18:57]--[2023-11-16 Thu 19:01] =>  0:04
 CLOCK: [2023-11-09 Thu 18:39]--[2023-11-09 Thu 18:39] =>  0:00
 CLOCK: [2023-10-31 Tue 19:06]--[2023-10-31 Tue 19:09] =>  0:03
 CLOCK: [2023-10-24 Tue 19:27]--[2023-10-24 Tue 19:29] =>  0:02
@@ -1444,7 +1450,7 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
-*** [#B] Workspace decluttering #2
+*** [#A] Workspace decluttering #2
 SCHEDULED: <2023-11-17 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 13:47]
@@ -1716,7 +1722,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** RAW [#A] CV elaboration
-SCHEDULED: <2023-11-16 Thu .+2d/3d>
+SCHEDULED: <2023-11-17 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 10:36]
 :END:
@@ -1832,7 +1838,7 @@ with CC to Kane and Noel
 For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
-** INIT Coursor movement, deletion, search with key-chords
+** INIT [#A] Coursor movement, deletion, search with key-chords
 SCHEDULED: <2023-11-17 Fri>
 ** DELAY Stackoverflow profile elaboration
 SCHEDULED: <2023-12-27 Wed>
@@ -2123,7 +2129,7 @@ SCHEDULED: <2023-11-21 Tue>
 CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
 :END:
 ** INIT https://quotefancy.com/motivational-quotes
-SCHEDULED: <2023-11-17 Fri>
+SCHEDULED: <2023-11-19 Sun>
 ** RAW Taxation in Ireland
 SCHEDULED: <2023-11-19 Sun ++3d>
 :PROPERTIES:
