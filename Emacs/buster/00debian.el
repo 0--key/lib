@@ -19,7 +19,7 @@
 				 "https://melpa.org/packages/") t)
 (package-initialize)
 
-(load-theme 'wombat)
+(load-theme 'tsdh-dark);;wombat)
 
 (require 'org)
 (require 'org-agenda)
