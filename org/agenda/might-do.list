@@ -125,13 +125,21 @@ By putting the actual (most significant) agenda file on the top.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** RAW [#A] Extend
-SCHEDULED: <2023-11-17 Fri ++2w>
+*** Extend
+SCHEDULED: <2023-12-01 Fri ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-25 Wed 11:17]
+:LAST_REPEAT: [2023-11-17 Fri 09:29]
 :END:
+- State "AMPLE"      from ""           [2023-11-17 Fri 09:29]
 - State "DONE"       from "ACTIVE"     [2023-10-25 Wed 11:17]
 - State "DONE"       from "ACTIVE"     [2023-10-18 Wed 15:23]
+- Note taken on [2023-11-17 Fri 09:39] \\
+****  Spell check
+****  Thriades
+****  Space Key
+****  Movement
+****  Deletion
+****  Search
 - Note taken on [2023-10-15 Sun 09:19] \\
   qq for org-fill-paragraph in org-mode (only)
 
@@ -150,6 +158,7 @@ SCHEDULED: <2023-11-17 Fri ++2w>
   * 'copy-to-register
 - State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:42]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 09:06]--[2023-11-17 Fri 09:28] =>  0:22
 CLOCK: [2023-10-25 Wed 11:15]--[2023-10-25 Wed 11:16] =>  0:01
 CLOCK: [2023-10-25 Wed 11:10]--[2023-10-25 Wed 11:15] =>  0:05
 CLOCK: [2023-10-25 Wed 11:05]--[2023-10-25 Wed 11:06] =>  0:01
@@ -172,14 +181,16 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** RAW [#A] Declutter
-SCHEDULED: <2023-11-17 Fri ++4w>
+*** Declutter
+SCHEDULED: <2023-12-15 Fri ++4w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-18 Wed 15:23]
+:LAST_REPEAT: [2023-11-17 Fri 09:40]
 :END:
+- State "AMPLE"      from ""           [2023-11-17 Fri 09:40]
 - State "DONE"       from "ACTIVE"     [2023-10-18 Wed 15:23]
 - State "DONE"       from "ACTIVE"     [2023-04-03 Mon 15:13]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 09:33]--[2023-11-17 Fri 09:40] =>  0:07
 CLOCK: [2023-10-18 Wed 15:06]--[2023-10-18 Wed 15:14] =>  0:08
 CLOCK: [2023-10-16 Mon 13:47]--[2023-10-16 Mon 14:29] =>  0:42
 CLOCK: [2023-04-03 Mon 14:39]--[2023-04-03 Mon 14:53] =>  0:14
@@ -497,8 +508,6 @@ SCHEDULED: <2022-12-11 Sun .+1w/2w>
 :LOGBOOK:
 CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
 :END:
-** INIT [#A] Thriades for key-chords
-SCHEDULED: <2023-11-17 Fri>
 ** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed .+3d/4d>
 :LOGBOOK:
@@ -723,9 +732,6 @@ https://bit.ly/3Kxjzx6
 non-smokers, tea-total.
 ** LAG Bmkp as a snippets database;
 SCHEDULED: <2024-03-11 Mon>
-** INIT [#A] SPACE KEY in key-chords
-SCHEDULED: <2023-11-17 Fri>
-For capture and marks and??
 ** LAG Phronesis
 SCHEDULED: <2024-03-11 Mon>
 :LOGBOOK:
@@ -1838,8 +1844,6 @@ with CC to Kane and Noel
 For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
-** INIT [#A] Coursor movement, deletion, search with key-chords
-SCHEDULED: <2023-11-17 Fri>
 ** DELAY Stackoverflow profile elaboration
 SCHEDULED: <2023-12-27 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
