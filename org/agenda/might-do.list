@@ -245,7 +245,7 @@ CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 https://www.youtube.com/watch?v=RQK_DaaX34Q
 *** INIT [#C] Load-Path
 SCHEDULED: <2023-11-20 Mon>
-** ACTIVE [#A] Spell check
+** SET [#A] Spell check
 SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
@@ -522,7 +522,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-17 Fri .+1w>
+SCHEDULED: <2023-11-18 Sat .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -792,7 +792,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** [#B] Thought Cast
-SCHEDULED: <2023-11-17 Fri ++3d/4d>
+SCHEDULED: <2023-11-20 Mon ++3d/4d>
 :PROPERTIES:
 :CATEGORY: Live&Learn
 :LAST_REPEAT: [2023-11-14 Tue 17:21]
@@ -926,6 +926,7 @@ SCHEDULED: <2023-11-17 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 17:55]
 CLOCK: [2023-11-16 Thu 18:44]--[2023-11-16 Thu 18:56] =>  0:12
 CLOCK: [2023-11-15 Wed 11:01]--[2023-11-15 Wed 11:04] =>  0:03
 CLOCK: [2023-11-10 Fri 09:25]--[2023-11-10 Fri 09:27] =>  0:02
@@ -1111,10 +1112,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-11-17 Fri ++1d>
+SCHEDULED: <2023-11-18 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-16 Thu 11:31]
+:LAST_REPEAT: [2023-11-17 Fri 17:53]
 :END:
+- State "AMPLE"      from ""           [2023-11-17 Fri 17:53]
 - State "AMPLE"      from ""           [2023-11-16 Thu 11:31]
 - State "AMPLE"      from ""           [2023-11-15 Wed 11:42]
 - State "AMPLE"      from ""           [2023-11-10 Fri 13:47]
@@ -1140,6 +1142,7 @@ SCHEDULED: <2023-11-17 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 13:35]--[2023-11-17 Fri 14:00] =>  0:25
 CLOCK: [2023-11-15 Wed 11:24]--[2023-11-15 Wed 11:42] =>  0:18
 CLOCK: [2023-11-14 Tue 15:36]--[2023-11-14 Tue 15:45] =>  0:09
 CLOCK: [2023-11-10 Fri 13:26]--[2023-11-10 Fri 13:47] =>  0:21
@@ -1245,6 +1248,8 @@ SCHEDULED: <2023-11-17 Fri .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 17:53]--[2023-11-17 Fri 17:55] =>  0:02
+CLOCK: [2023-11-17 Fri 09:02]--[2023-11-17 Fri 09:04] =>  0:02
 CLOCK: [2023-11-16 Thu 18:56]--[2023-11-16 Thu 18:57] =>  0:01
 CLOCK: [2023-11-16 Thu 09:05]--[2023-11-16 Thu 09:09] =>  0:04
 CLOCK: [2023-11-15 Wed 09:11]--[2023-11-15 Wed 09:21] =>  0:10
@@ -1457,14 +1462,16 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** [#A] Workspace decluttering #2
-SCHEDULED: <2023-11-17 Fri ++1w>
+SCHEDULED: <2023-11-24 Fri ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 13:47]
+:LAST_REPEAT: [2023-11-17 Fri 09:06]
 :END:
+- State "AMPLE"      from ""           [2023-11-17 Fri 09:06]
 - State "AMPLE"      from ""           [2023-11-10 Fri 13:47]
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 09:04]--[2023-11-17 Fri 09:06] =>  0:02
 CLOCK: [2023-11-10 Fri 09:52]--[2023-11-10 Fri 09:52] =>  0:00
 CLOCK: [2023-11-03 Fri 09:13]--[2023-11-03 Fri 09:30] =>  0:17
 CLOCK: [2023-11-03 Fri 09:08]--[2023-11-03 Fri 09:08] =>  0:00
@@ -1727,11 +1734,12 @@ SCHEDULED: <2024-04-24 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** RAW [#A] CV elaboration
-SCHEDULED: <2023-11-17 Fri .+2d/3d>
+** [#A] CV elaboration
+SCHEDULED: <2023-11-19 Sun .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-01 Wed 10:36]
+:LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
+- State "AMPLE"      from ""           [2023-11-17 Fri 13:35]
 - Note taken on [2023-11-03 Fri 15:10] \\
   Reverse engeneering --> try to find the list of requirements and write
   CV to satisfy them.
@@ -1746,6 +1754,7 @@ SCHEDULED: <2023-11-17 Fri .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2023-11-17 Fri 09:41]--[2023-11-17 Fri 10:11] =>  0:30
 CLOCK: [2023-11-04 Sat 09:47]--[2023-11-04 Sat 10:13] =>  0:26
 CLOCK: [2023-11-03 Fri 15:10]--[2023-11-03 Fri 15:11] =>  0:01
 CLOCK: [2023-11-01 Wed 10:10]--[2023-11-01 Wed 10:28] =>  0:18
@@ -1894,7 +1903,7 @@ SCHEDULED: <2024-01-16 Tue>
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
 ** INIT How to say thank you
-SCHEDULED: <2023-11-17 Fri>
+SCHEDULED: <2023-11-18 Sat>
 - Note taken on [2023-11-15 Wed 09:14] \\
   I’m so grateful for your help.
   Your generosity never ceases to amaze me. Thanks!
