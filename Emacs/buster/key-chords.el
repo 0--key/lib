@@ -52,7 +52,7 @@
 			   (interactive)
 			   (switch-to-buffer "*scratch*")))
 ;; Marks
-(key-chord-define-global "mk"     'set-mark-command)
+;;(key-chord-define-global "mk"     'set-mark-command)
 (key-chord-define-global "m "     'set-mark-command)
 ;; Misc
 (key-chord-define-global "fg"     'find-file)
@@ -95,7 +95,7 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define-global "qq"     'org-fill-paragraph)
-(key-chord-define org-mode-map "km"     'org-meta-return)
+;; (key-chord-define org-mode-map "km"     'org-meta-return) ;; useless
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
 (key-chord-define org-mode-map "a]"     'org-remove-file)
 ;; (key-chord-define org-mode-map "od"     'org-deadline) widely used 
