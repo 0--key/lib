@@ -43,7 +43,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :CATEGORY: Git
 :END:
 ** TODO Tags
-SCHEDULED: <2023-11-18 Sat ++3d/5d>
+SCHEDULED: <2023-12-01 Fri ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -57,10 +57,10 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** INIT Advanced Merging
-SCHEDULED: <2023-11-18 Sat>
+SCHEDULED: <2023-11-23 Thu>
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 ** ACTIVE Basic Branches&Merging
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-11-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -68,13 +68,13 @@ CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
 ** TODO Stashes
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-12-01 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** [#A] ReSet, ReBase
-SCHEDULED: <2023-11-18 Sat ++2d/3d>
+SCHEDULED: <2023-11-25 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-15 Wed 11:00]
 :END:
@@ -107,7 +107,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** DELAY Company-Mode
-SCHEDULED: <2023-11-22 Wed>
+SCHEDULED: <2023-11-29 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
@@ -117,7 +117,7 @@ https://company-mode.github.io/manual/
 [[info:company#Top][company#Top
 ]]
 *** DELAY Backends
-SCHEDULED: <2023-11-22 Wed>
+SCHEDULED: <2023-12-07 Thu>
 [[info:company#Backends]]
 [2023-11-01 Wed 10:39]
 
@@ -216,7 +216,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** DELAY [#A] New approach
-SCHEDULED: <2023-11-20 Mon ++1w>
+SCHEDULED: <2023-11-25 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-20 Fri 10:38]
 :END:
@@ -241,15 +241,15 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
 ** [#C] Lisp
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-11-29 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-25 Wed 16:35]--[2023-10-25 Wed 16:42] =>  0:07
 CLOCK: [2023-10-25 Wed 16:15]--[2023-10-25 Wed 16:17] =>  0:02
 CLOCK: [2023-10-25 Wed 16:09]--[2023-10-25 Wed 16:11] =>  0:02
 :END:
 https://www.youtube.com/watch?v=RQK_DaaX34Q
-*** INIT [#C] Load-Path
-SCHEDULED: <2023-11-20 Mon>
+*** LAG [#C] Load-Path
+SCHEDULED: <2023-12-01 Fri>
 ** SET [#A] Spell check
 SCHEDULED: <2023-11-17 Fri>
 :LOGBOOK:
@@ -258,13 +258,13 @@ CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
 :END:
 [[info:emacs#Spelling][emacs#Spelling]]
 ** DELAY [#A] Projects
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-11-28 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-11-20 Mon ++2d>
+SCHEDULED: <2023-11-23 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 :END:
@@ -272,7 +272,7 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-11-18 Sat>
+SCHEDULED: <2023-11-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -530,7 +530,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2023-11-18 Sat .+1w>
+SCHEDULED: <2023-11-23 Thu .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -635,7 +635,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2023-11-18 Sat .+1w>
+SCHEDULED: <2023-11-30 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-03 Fri 09:03]
 :END:
@@ -799,12 +799,13 @@ CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
-** [#B] Thought Cast
-SCHEDULED: <2023-11-20 Mon ++3d/4d>
+** DELAY [#B] Thought Cast
+SCHEDULED: <2023-11-26 Sun ++3d/4d>
 :PROPERTIES:
 :CATEGORY: Live&Learn
-:LAST_REPEAT: [2023-11-14 Tue 17:21]
+:LAST_REPEAT: [2023-11-23 Thu 10:42]
 :END:
+- State "SET"        from ""           [2023-11-23 Thu 10:42]
 - State "AMPLE"      from ""           [2023-11-14 Tue 17:21]
 - State "AMPLE"      from ""           [2023-11-07 Tue 11:54]
 - State "AMPLE"      from ""           [2023-10-16 Mon 15:22]
@@ -879,7 +880,7 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
 - Note taken on [2023-09-25 Mon 10:18] \\
   or even a separate file appended to *Org-Agenda*
 ** Story telling with Martin
-SCHEDULED: <2023-11-20 Mon ++1w>
+SCHEDULED: <2024-01-15 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 14:59]
 :END:
@@ -907,7 +908,7 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2023-11-18 Sat ++1d>
+SCHEDULED: <2023-11-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 18:57]
 :END:
@@ -934,6 +935,7 @@ SCHEDULED: <2023-11-18 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-11-23 Thu 10:45]
 CLOCK: [2023-11-17 Fri 17:55]--[2023-11-17 Fri 18:02] =>  0:07
 CLOCK: [2023-11-16 Thu 18:44]--[2023-11-16 Thu 18:56] =>  0:12
 CLOCK: [2023-11-15 Wed 11:01]--[2023-11-15 Wed 11:04] =>  0:03
@@ -1120,7 +1122,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-11-18 Sat ++1d>
+SCHEDULED: <2023-11-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 17:53]
 :END:
@@ -1225,7 +1227,7 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2023-11-18 Sat .+1d>
+SCHEDULED: <2023-11-23 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 18:57]
 :END:
@@ -1382,7 +1384,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-11-18 Sat .+1d>
+SCHEDULED: <2023-11-23 Thu .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 19:01]
 :END:
@@ -1402,6 +1404,7 @@ SCHEDULED: <2023-11-18 Sat .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-11-18 Sat 18:26]--[2023-11-18 Sat 18:28] =>  0:02
 CLOCK: [2023-11-17 Fri 18:27]--[2023-11-17 Fri 18:29] =>  0:02
 CLOCK: [2023-11-16 Thu 18:57]--[2023-11-16 Thu 19:01] =>  0:04
 CLOCK: [2023-11-09 Thu 18:39]--[2023-11-09 Thu 18:39] =>  0:00
@@ -1427,7 +1430,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2023-11-22 Wed ++1w>
+SCHEDULED: <2023-11-23 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-15 Wed 10:26]
 :END:
@@ -1446,6 +1449,7 @@ SCHEDULED: <2023-11-22 Wed ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-11-23 Thu 10:33]--[2023-11-23 Thu 10:45] =>  0:12
 CLOCK: [2023-11-15 Wed 09:38]--[2023-11-15 Wed 09:56] =>  0:18
 CLOCK: [2023-11-01 Wed 09:47]--[2023-11-01 Wed 09:48] =>  0:01
 CLOCK: [2023-11-01 Wed 09:17]--[2023-11-01 Wed 09:19] =>  0:02
@@ -1579,7 +1583,7 @@ SCHEDULED: <2023-11-28 Tue ++4w>
 
 
 *** [#A] New tasks trimming #3
-SCHEDULED: <2023-11-22 Wed ++1w>
+SCHEDULED: <2023-11-29 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-15 Wed 09:38]
 :END:
@@ -1744,7 +1748,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** [#A] CV elaboration
-SCHEDULED: <2023-11-19 Sun .+2d/3d>
+SCHEDULED: <2023-11-24 Fri .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
@@ -1911,8 +1915,8 @@ SCHEDULED: <2024-01-16 Tue>
 [[https://lucidmanager.org/productivity/emacs-chromebook/][link]]
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
-** INIT How to say thank you
-SCHEDULED: <2023-11-18 Sat>
+** DELAY How to say thank you
+SCHEDULED: <2023-11-28 Tue>
 - Note taken on [2023-11-15 Wed 09:14] \\
   I’m so grateful for your help.
   Your generosity never ceases to amaze me. Thanks!
@@ -2080,14 +2084,14 @@ CLOCK: [2023-10-18 Wed 11:06]--[2023-10-18 Wed 11:19] =>  0:13
 *** Back it up onto SD card
 *** Resize Linux disk space
 ** DELAY [#A] Test Jedi inside Emacs
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-11-30 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 :END:
 Seems it is working as expected in terminal, but don't inside Emacs
 Python's buffers.
-*** DELAY What is JEDI?
-SCHEDULED: <2023-11-20 Mon>
+*** LAG What is JEDI?
+SCHEDULED: <2023-12-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 18:46]--[2023-10-24 Tue 19:20] =>  0:34
 :END:
@@ -2130,30 +2134,34 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 - as the actual agenda;
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
 ** INIT New destination for books
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-12-14 Thu>
 [[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
 ** DELAY [#A] Check =Elpy= venv
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-11-26 Sun>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 :END:
  [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
  [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
 ** DELAY Bayes' Theorem
-SCHEDULED: <2023-11-20 Mon>
+SCHEDULED: <2023-12-04 Mon>
 In fire alarm example
 ** INIT Math with Andrew
 SCHEDULED: <2023-12-20 Wed>
 https://www.youtube.com/watch?v=OHw8ReqH968
-** INIT [#B] Emacs' innate themes
-SCHEDULED: <2023-11-21 Tue>
+** TODO [#B] Emacs' innate themes
+SCHEDULED: <2023-11-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
 :END:
+[[info:emacs#Custom Themes][emacs#Custom Themes]]
 ** INIT https://quotefancy.com/motivational-quotes
-SCHEDULED: <2023-11-19 Sun>
+SCHEDULED: <2023-11-23 Thu>
+:LOGBOOK:
+CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
+:END:
 ** RAW Taxation in Ireland
-SCHEDULED: <2023-11-19 Sun ++3d>
+SCHEDULED: <2023-11-24 Fri ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 15:21]
 :END:
