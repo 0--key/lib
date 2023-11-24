@@ -46,7 +46,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** [#A] Assignment test suite
-SCHEDULED: <2023-11-24 Fri ++2d>
+SCHEDULED: <2023-11-27 Mon ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -93,7 +93,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#C] Elpy
-SCHEDULED: <2023-11-23 Thu ++1d>
+SCHEDULED: <2023-11-24 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -120,7 +120,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT [#C] FlyMake
-SCHEDULED: <2023-11-23 Thu>
+SCHEDULED: <2023-11-24 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
@@ -189,7 +189,7 @@ CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
 **** DELAY [#A] BLACK
-SCHEDULED: <2023-11-24 Fri>
+SCHEDULED: <2023-12-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
 CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
@@ -258,7 +258,7 @@ https://docs.python-guide.org/writing/style/#conventions
 SCHEDULED: <2023-11-27 Mon>
 [[file:~/git/python/algorithms/README.md::\[!\[PyPI version\](https://badge.fury.io/py/algorithms.svg)\](https://badge.fury.io/py/algorithms)][Local Link]]
 ** INIT Time Complexity
-SCHEDULED: <2023-11-24 Fri>
+SCHEDULED: <2023-11-29 Wed>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -274,7 +274,7 @@ CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
 ** DELAY Packages
-SCHEDULED: <2023-11-24 Fri>
+SCHEDULED: <2023-12-17 Sun>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -286,7 +286,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** DELAY Intra-package References
-SCHEDULED: <2023-11-24 Fri>
+SCHEDULED: <2023-12-17 Sun>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -303,7 +303,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2023-11-24 Fri ++2d/3d>
+SCHEDULED: <2023-11-28 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -320,7 +320,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-11-24 Fri ++3d/4d>
+SCHEDULED: <2023-11-28 Tue ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
