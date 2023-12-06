@@ -11,6 +11,8 @@
 (setq calendar-latitude 55.0466)
    (setq calendar-longitude -7.5651)
    (setq calendar-location-name "Baile Uí Fhloinn, Co. Donegal")
+;; Test string to change current location
+
 
 (require 'package)
 (add-to-list 'package-archives '("elpa" .
