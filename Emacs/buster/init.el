@@ -5,7 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(ansi-color-names-vector
+   ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
+ '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(browse-url-browser-function 'eww-browse-url)
  '(custom-safe-themes
    '("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default))

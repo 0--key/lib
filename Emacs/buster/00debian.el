@@ -19,7 +19,7 @@
 				 "https://melpa.org/packages/") t)
 (package-initialize)
 
-(load-theme 'tsdh-dark);;wombat)
+(load-theme 'manoj-dark);;tsdh-dark);;wombat)
 
 (require 'org)
 (require 'org-agenda)
@@ -48,7 +48,7 @@
 (require 'mw-thesaurus)
 (require 'dictionary)
 (require 'pyvenv)
-(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
+;;(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
 (elpy-enable)
 (org-clock-auto-clockout-insinuate)
 (org-clock-toggle-auto-clockout)
