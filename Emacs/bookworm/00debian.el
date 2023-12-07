@@ -5,6 +5,15 @@
 (setq calendar-latitude 55.0408104)
    (setq calendar-longitude -7.65058411)
    (setq calendar-location-name "Baile na Bó, Dún na nGall")
+
+;; (require 'package)
+;; (add-to-list 'package-archives
+;;              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+
+;; (package-initialize)
+
+
+
 ;; Set the default mail server and news server as specified by Debian
 ;; policy.
 
