@@ -20,12 +20,17 @@
 ;; Org-capture templates in a separate file:
 (load "/usr/local/share/emacs/site-lisp/org-capture-templates.el")
 
+(require 'org-drill)
 
 (require 'google-translate)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
 
+(require 'elpy)
+(require 'speed-type)
+
+(load-theme 'manoj-dark)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
