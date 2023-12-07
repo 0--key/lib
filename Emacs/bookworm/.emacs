@@ -14,6 +14,12 @@
 (require 'key-chord)
 (key-chord-mode 1)
 
+;; Additional config section:
+(load "/usr/local/share/emacs/site-lisp/key-chords.el")
+
+;; Org-capture templates in a separate file:
+(load "/usr/local/share/emacs/site-lisp/org-capture-templates.el")
+
 
 (require 'google-translate)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
