@@ -1,5 +1,5 @@
 ;; KeyChords are below
-;; General commants
+;; General commants for vanilla ~Emacs~
 
 ;; Cursor Movement:
 (key-chord-define-global "j;"     'move-end-of-line)
@@ -14,9 +14,9 @@
 
 
 ;; Frames and Windows management:
-(key-chord-define-global "'\\"     'other-frame)
+;; (key-chord-define-global "1`"     'other-frame)  ;; it's vacant
 (key-chord-define-global "]\\"     'other-frame)
-(key-chord-define-global "';"     'other-frame)
+(key-chord-define-global "#]"     'other-frame)
 (key-chord-define-global "q1"     'delete-other-windows)
 (key-chord-define-global "w2"     'split-window-below)
 (key-chord-define-global "e3"     'split-window-right)
