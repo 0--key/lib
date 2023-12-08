@@ -22,10 +22,14 @@
 (key-chord-define-global "e3"     'split-window-right)
 (key-chord-define-global "0o"     'delete-window)
 (key-chord-define-global "oj"     'other-window)
+
+
+;; Anti-clockwise -->
 (key-chord-define-global "OJ"
 			 (lambda ()
 			   (interactive) (other-window -1)))
-(key-chord-define-global "}|"
+;; And frames in the stack as well -->
+(key-chord-define-global "`1"
 			 (lambda ()
 			   (interactive) (other-frame -1)))
 
