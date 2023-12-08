@@ -65,6 +65,11 @@
 (key-chord-define-global "gs"     'magit-status)
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
+
+;; Searching
+(key-chord-define-global "sf"     'isearch-forward)
+(key-chord-define-global "SF"     'isearch-backward)
+
 ;;
 ;; (key-chord-define-global "ri"     'insert-register) ;; too common
 
