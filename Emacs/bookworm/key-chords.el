@@ -56,7 +56,6 @@
 			   (interactive)
 			   (switch-to-buffer "*scratch*")))
 ;; Marks
-;;(key-chord-define-global "mk"     'set-mark-command)
 (key-chord-define-global "m "     'set-mark-command)
 ;; Misc
 (key-chord-define-global "fg"     'find-file)
