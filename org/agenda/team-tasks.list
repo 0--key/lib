@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * INIT [#A] Test-Driven Learining
-SCHEDULED: <2023-11-30 Thu>
+SCHEDULED: <2023-12-11 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-15 Wed 10:22]--[2023-11-15 Wed 10:26] =>  0:04
 CLOCK: [2023-11-06 Mon 09:41]--[2023-11-06 Mon 10:09] =>  0:28
@@ -47,7 +47,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * [#C] Evening meeting
-SCHEDULED: <2023-11-30 Thu ++1d>
+SCHEDULED: <2023-12-10 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 19:24]
 :CATEGORY: CoLab
@@ -82,15 +82,17 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#A] Commits reviewing {jr>c}
-SCHEDULED: <2023-12-01 Fri ++2d>
+SCHEDULED: <2023-12-10 Sun ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-23 Thu 10:57]
+:LAST_REPEAT: [2023-12-08 Fri 16:29]
 :END:
+- State "AMPLE"      from ""           [2023-12-08 Fri 16:29]
 - State "AMPLE"      from ""           [2023-11-23 Thu 10:57]
 - State "AMPLE"      from ""           [2023-11-16 Thu 09:22]
 - State "AMPLE"      from ""           [2023-11-15 Wed 10:22]
 - State "AMPLE"      from ""           [2023-11-03 Fri 10:14]
 :LOGBOOK:
+CLOCK: [2023-12-08 Fri 16:19]--[2023-12-08 Fri 16:29] =>  0:10
 CLOCK: [2023-11-23 Thu 10:47]--[2023-11-23 Thu 10:57] =>  0:10
 CLOCK: [2023-11-16 Thu 09:09]--[2023-11-16 Thu 09:22] =>  0:13
 CLOCK: [2023-11-15 Wed 10:15]--[2023-11-15 Wed 10:21] =>  0:06
