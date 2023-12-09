@@ -94,11 +94,13 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
-** ACTIVE [#C] Elpy
-SCHEDULED: <2023-12-09 Sat ++1d>
+** ACTIVE [#A] Elpy
+SCHEDULED: <2023-12-10 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
+- Note taken on [2023-12-09 Sat 17:16] \\
+  Unclear where is ~rpc~ venv when the system don't use ~pip~ at all.
 - Note taken on [2023-10-13 Fri 10:35] \\
   There are several points to rectify before the return to the main
   item.
@@ -106,6 +108,7 @@ SCHEDULED: <2023-12-09 Sat ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-12-09 Sat 16:54]--[2023-12-09 Sat 17:16] =>  0:22
 CLOCK: [2023-10-25 Wed 09:10]--[2023-10-25 Wed 09:40] =>  0:30
 CLOCK: [2023-10-24 Tue 10:02]--[2023-10-24 Tue 10:05] =>  0:03
 CLOCK: [2023-10-13 Fri 10:35]--[2023-10-13 Fri 10:36] =>  0:01
@@ -121,8 +124,8 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
-*** INIT [#C] FlyMake
-SCHEDULED: <2023-12-09 Sat>
+*** INIT [#A] FlyMake
+SCHEDULED: <2023-12-10 Sun>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:

@@ -290,6 +290,17 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 - [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
 ** Treemacs
 SCHEDULED: <2023-12-09 Sat>
+** Powerthesaurus
+SCHEDULED: <2023-12-11 Mon ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-09 Sat 14:17]
+:END:
+- State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
+:LOGBOOK:
+CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
+CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
+:END:
+https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 
 * Notes
 :PROPERTIES:
@@ -543,8 +554,8 @@ SCHEDULED: <2022-12-07 Wed>
 ** DELAY TODO keywords as types
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
-** [#C] Whole week scheduling
-SCHEDULED: <2023-12-09 Sat .+1w>
+** [#B] Whole week scheduling
+SCHEDULED: <2023-12-10 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -665,7 +676,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-12-09 Sat ++5w>
+SCHEDULED: <2023-12-16 Sat ++5w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-30 Mon 10:26]
 :END:
@@ -924,7 +935,7 @@ the target audience for Twits and LinkedIn posts
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
-*** [#C] >Git<
+*** [#B] >Git<
 SCHEDULED: <2023-12-09 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 18:57]
@@ -952,7 +963,8 @@ SCHEDULED: <2023-12-09 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-08 Fri 17:56]
+CLOCK: [2023-12-09 Sat 18:51]
+CLOCK: [2023-12-08 Fri 17:56]--[2023-12-08 Fri 18:14] =>  0:18
 CLOCK: [2023-11-24 Fri 14:35]--[2023-11-24 Fri 14:38] =>  0:03
 CLOCK: [2023-11-23 Thu 10:45]--[2023-11-23 Thu 10:47] =>  0:02
 CLOCK: [2023-11-17 Fri 17:55]--[2023-11-17 Fri 18:02] =>  0:07
@@ -1141,10 +1153,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-09 Sat ++1d>
+SCHEDULED: <2023-12-10 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-17 Fri 17:53]
+:LAST_REPEAT: [2023-12-09 Sat 18:05]
 :END:
+- State "AMPLE"      from ""           [2023-12-09 Sat 18:05]
 - State "AMPLE"      from ""           [2023-11-17 Fri 17:53]
 - State "AMPLE"      from ""           [2023-11-16 Thu 11:31]
 - State "AMPLE"      from ""           [2023-11-15 Wed 11:42]
@@ -1171,6 +1184,7 @@ SCHEDULED: <2023-12-09 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-12-09 Sat 17:50]--[2023-12-09 Sat 18:05] =>  0:15
 CLOCK: [2023-11-30 Thu 10:24]--[2023-11-30 Thu 10:40] =>  0:16
 CLOCK: [2023-11-30 Thu 09:33]--[2023-11-30 Thu 09:54] =>  0:21
 CLOCK: [2023-11-23 Thu 11:16]--[2023-11-23 Thu 11:31] =>  0:15
@@ -1248,8 +1262,8 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#C] Daily tasks pile assay
-SCHEDULED: <2023-12-09 Sat .+1d>
+*** [#B] Daily tasks pile assay
+SCHEDULED: <2023-12-10 Sun .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 18:57]
 :END:
@@ -1410,10 +1424,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-09 Sat .+1d>
+SCHEDULED: <2023-12-10 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-16 Thu 19:01]
+:LAST_REPEAT: [2023-12-09 Sat 18:50]
 :END:
+- State "AMPLE"      from ""           [2023-12-09 Sat 18:50]
 - State "AMPLE"      from ""           [2023-11-16 Thu 19:01]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-10-31 Tue 19:09]
@@ -1430,6 +1445,7 @@ SCHEDULED: <2023-12-09 Sat .+1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-12-09 Sat 18:45]--[2023-12-09 Sat 18:48] =>  0:03
 CLOCK: [2023-11-18 Sat 18:26]--[2023-11-18 Sat 18:28] =>  0:02
 CLOCK: [2023-11-17 Fri 18:27]--[2023-11-17 Fri 18:29] =>  0:02
 CLOCK: [2023-11-16 Thu 18:57]--[2023-11-16 Thu 19:01] =>  0:04
@@ -1780,7 +1796,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** [#A] CV elaboration
-SCHEDULED: <2023-12-09 Sat .+2d/3d>
+SCHEDULED: <2023-12-11 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
@@ -2193,11 +2209,13 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
   disabled as a unit.  You can use Custom themes to switch easily between
   various collections of settings, and to transfer such collections from
   one computer to another. [2023-11-24 Fri 14:40]
-** INIT https://quotefancy.com/motivational-quotes
-SCHEDULED: <2023-12-09 Sat>
+** INIT [#C] New Qoutes
+SCHEDULED: <2023-12-10 Sun>
 :LOGBOOK:
 CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 :END:
+https://quotefancy.com/motivational-quotes
+https://quotefancy.com/perseverance-quotes
 ** INIT Taxation in Ireland
 SCHEDULED: <2023-12-11 Mon ++3d>
 :PROPERTIES:
@@ -2211,12 +2229,19 @@ CLOCK: [2023-11-16 Thu 15:08]--[2023-11-16 Thu 15:21] =>  0:13
 :END:
 https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-your-tax-is-calculated/
 ** SET Books from ~Penguin~
-SCHEDULED: <2023-12-09 Sat>
+SCHEDULED: <2023-12-08 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-08 Fri 17:20]--[2023-12-08 Fri 17:37] =>  0:17
 :END:
 ** FireFox bookmarks
-SCHEDULED: <2023-12-09 Sat>
+SCHEDULED: <2023-12-12 Tue ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-09 Sat 17:34]
+:END:
+- State "AMPLE"      from ""           [2023-12-09 Sat 17:34]
+:LOGBOOK:
+CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
+:END:
 seems it it possible to manage them in ~Emacs~
 * Events
 :PROPERTIES:
