@@ -289,7 +289,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
 - [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
 ** Treemacs
-SCHEDULED: <2023-12-09 Sat>
+SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
 SCHEDULED: <2023-12-11 Mon ++2d>
 :PROPERTIES:
@@ -936,10 +936,11 @@ the target audience for Twits and LinkedIn posts
 :CATEGORY: Chore
 :END:
 *** [#B] >Git<
-SCHEDULED: <2023-12-09 Sat ++1d>
+SCHEDULED: <2023-12-10 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-16 Thu 18:57]
+:LAST_REPEAT: [2023-12-09 Sat 19:00]
 :END:
+- State "AMPLE"      from ""           [2023-12-09 Sat 19:00]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
@@ -963,7 +964,7 @@ SCHEDULED: <2023-12-09 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-09 Sat 18:51]
+CLOCK: [2023-12-09 Sat 18:51]--[2023-12-09 Sat 19:00] =>  0:09
 CLOCK: [2023-12-08 Fri 17:56]--[2023-12-08 Fri 18:14] =>  0:18
 CLOCK: [2023-11-24 Fri 14:35]--[2023-11-24 Fri 14:38] =>  0:03
 CLOCK: [2023-11-23 Thu 10:45]--[2023-11-23 Thu 10:47] =>  0:02
