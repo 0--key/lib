@@ -14,7 +14,7 @@
 
 
 ;; Frames and Windows management:
-;; (key-chord-define-global "1`"     'other-frame)  ;; it's vacant
+(key-chord-define-global "'#"     'other-frame)
 (key-chord-define-global "]\\"     'other-frame)
 (key-chord-define-global "#]"     'other-frame)
 (key-chord-define-global "q1"     'delete-other-windows)
