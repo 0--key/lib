@@ -562,7 +562,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#B] Whole week scheduling
-SCHEDULED: <2023-12-10 Sun .+1w>
+SCHEDULED: <2023-12-11 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -578,7 +578,7 @@ SCHEDULED: <2023-12-10 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
-CLOCK: [2023-12-10 Sun 18:42]
+CLOCK: [2023-12-10 Sun 18:42]--[2023-12-10 Sun 18:52] =>  0:10
 CLOCK: [2023-11-10 Fri 09:27]--[2023-11-10 Fri 09:29] =>  0:02
 CLOCK: [2023-11-06 Mon 09:14]--[2023-11-06 Mon 09:20] =>  0:06
 CLOCK: [2023-11-04 Sat 15:27]--[2023-11-04 Sat 15:36] =>  0:09
@@ -953,7 +953,7 @@ SCHEDULED: <2023-12-19 Tue>
 :CATEGORY: Chore
 :END:
 *** [#B] >Git<
-SCHEDULED: <2023-12-10 Sun ++1d>
+SCHEDULED: <2023-12-11 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 19:00]
 :END:
@@ -1173,10 +1173,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-10 Sun ++1d>
+SCHEDULED: <2023-12-11 Mon ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-09 Sat 18:05]
+:LAST_REPEAT: [2023-12-10 Sun 19:07]
 :END:
+- State "AMPLE"      from ""           [2023-12-10 Sun 19:07]
 - State "AMPLE"      from ""           [2023-12-09 Sat 18:05]
 - State "AMPLE"      from ""           [2023-11-17 Fri 17:53]
 - State "AMPLE"      from ""           [2023-11-16 Thu 11:31]
@@ -1204,6 +1205,7 @@ SCHEDULED: <2023-12-10 Sun ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-12-10 Sun 18:52]--[2023-12-10 Sun 19:06] =>  0:14
 CLOCK: [2023-12-09 Sat 17:50]--[2023-12-09 Sat 18:05] =>  0:15
 CLOCK: [2023-11-30 Thu 10:24]--[2023-11-30 Thu 10:40] =>  0:16
 CLOCK: [2023-11-30 Thu 09:33]--[2023-11-30 Thu 09:54] =>  0:21
@@ -1283,10 +1285,11 @@ CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
 *** [#B] Daily tasks pile assay
-SCHEDULED: <2023-12-10 Sun .+1d>
+SCHEDULED: <2023-12-11 Mon .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-16 Thu 18:57]
+:LAST_REPEAT: [2023-12-10 Sun 19:08]
 :END:
+- State "AMPLE"      from ""           [2023-12-10 Sun 19:08]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-01 Wed 17:55]
@@ -1445,7 +1448,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-10 Sun ++1d>
+SCHEDULED: <2023-12-11 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 18:50]
 :END:
@@ -2231,7 +2234,7 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
   various collections of settings, and to transfer such collections from
   one computer to another. [2023-11-24 Fri 14:40]
 ** INIT [#C] New Qoutes
-SCHEDULED: <2023-12-10 Sun>
+SCHEDULED: <2023-12-11 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 :END:
