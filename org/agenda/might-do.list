@@ -143,7 +143,11 @@ CLOCK: [2023-12-08 Fri 17:47]--[2023-12-08 Fri 17:55] =>  0:08
 - State "AMPLE"      from ""           [2023-11-17 Fri 09:29]
 - State "DONE"       from "ACTIVE"     [2023-10-25 Wed 11:17]
 - State "DONE"       from "ACTIVE"     [2023-10-18 Wed 15:23]
-- Note taken on [2023-11-17 Fri 09:39] \\
+
+- elpy-set-project-root rq
+
+- comment-region rc
+
 ****  Spell check
 ****  Thriades
 ****  Space Key
@@ -301,7 +305,10 @@ CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 https://github.com/SavchenkoValeriy/emacs-powerthesaurus
-
+** emacs-nox
+SCHEDULED: <2023-12-13 Wed>
+What it is used for? And how to launch it in console? Seems like
+colors for code changes areas in ~magit~ buffer are so vivid.
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
@@ -930,6 +937,15 @@ SCHEDULED: <2024-01-11 Thu>
 ** LAG Authors from PyPi, pip and ELPA repositories
 SCHEDULED: <2024-03-06 Wed>
 the target audience for Twits and LinkedIn posts
+** Tramp
+SCHEDULED: <2023-12-25 Mon>
+/ssh:alioth@192.168.43.35#8022:/home/alioth/
+** Backlit keyboard
+SCHEDULED: <2024-01-09 Tue>
+sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
+** Goodies
+SCHEDULED: <2023-12-19 Tue>
+[[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
 * Tasks
 ** Chores
 :PROPERTIES:
