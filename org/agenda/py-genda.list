@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** Algorithms
-SCHEDULED: <2023-12-10 Sun ++2d>
+SCHEDULED: <2023-12-11 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 17:47]
 :END:
@@ -95,7 +95,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#A] Elpy
-SCHEDULED: <2023-12-10 Sun ++1d>
+SCHEDULED: <2023-12-11 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :END:
@@ -125,7 +125,7 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT [#A] FlyMake
-SCHEDULED: <2023-12-10 Sun>
+SCHEDULED: <2023-12-11 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
