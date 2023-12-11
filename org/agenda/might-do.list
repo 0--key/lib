@@ -1683,7 +1683,19 @@ CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 maiden scheduling of completely new (*RAW*) tasks 
 *** Figuring out new tasks
 It is their delineation
-
+** X-NOX-clipboard issue fix
+SCHEDULED: <2023-12-13 Wed>
+** Emacs' goodies
+SCHEDULED: <2023-12-12 Tue>
+** Re-configure org-capture's paths
+SCHEDULED: <2023-12-11 Mon>
+to ~Agenda~ files
+** FireFox should gulp
+SCHEDULED: <2023-12-14 Thu>
+- Chrome's passwords
+- Bookmarks from Chrome
+** Ssh with ~pub~ key
+SCHEDULED: <2023-12-15 Fri>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
