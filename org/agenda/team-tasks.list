@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * INIT [#A] Test-Driven Learining
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-15 Wed 10:22]--[2023-11-15 Wed 10:26] =>  0:04
 CLOCK: [2023-11-06 Mon 09:41]--[2023-11-06 Mon 10:09] =>  0:28
@@ -82,7 +82,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#A] Commits reviewing {jr>c}
-SCHEDULED: <2023-12-11 Mon ++2d>
+SCHEDULED: <2023-12-14 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 16:29]
 :END:
@@ -100,3 +100,5 @@ CLOCK: [2023-11-03 Fri 09:36]--[2023-11-03 Fri 10:02] =>  0:26
 :END:
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - [[info:magit#Revision Buffer]] [2023-11-03 Fri 09:43]
+* Deploying Emacs on Dell-Lattitude
+SCHEDULED: <2023-12-18 Mon>

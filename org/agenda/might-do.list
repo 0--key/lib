@@ -43,7 +43,7 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 :CATEGORY: Git
 :END:
 ** TODO Tags
-SCHEDULED: <2023-12-11 Mon ++3d/5d>
+SCHEDULED: <2023-12-14 Thu ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -57,10 +57,10 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** INIT Advanced Merging
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 ** ACTIVE Basic Branches&Merging
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -68,13 +68,13 @@ CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
 ** TODO Stashes
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** [#A] ReSet, ReBase
-SCHEDULED: <2023-12-11 Mon ++2d/3d>
+SCHEDULED: <2023-12-14 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-15 Wed 11:00]
 :END:
@@ -94,7 +94,7 @@ https://git-scm.com/docs/git-reset
 :CATEGORY: Emacs
 :END:
 ** DELAY [#A] Version Control
-SCHEDULED: <2023-12-11 Mon ++2d>
+SCHEDULED: <2023-12-14 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 17:49]
 :END:
@@ -107,7 +107,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** DELAY Company-Mode
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
@@ -273,7 +273,7 @@ CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-12-11 Mon ++2d>
+SCHEDULED: <2023-12-14 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 :END:
@@ -281,7 +281,7 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-12 Tue>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -455,7 +455,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 ** RAW Ultralearning by Scott H. Young
 ** RAW Small Teaching by James M. Lang
 ** LAG Clocking tasks execution
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 - Note taken on [2023-06-06 Tue 07:05] \\
   Now it seems not actual and uncertain, so just postpone it on two
   months.
@@ -516,7 +516,7 @@ SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
 ** LAG Tracking your habits
-SCHEDULED: <2023-12-12 Tue .+2w>
+SCHEDULED: <2023-12-14 Thu .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -833,7 +833,7 @@ CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
 ** DELAY [#B] Thought Cast
-SCHEDULED: <2023-12-11 Mon ++3d/4d>
+SCHEDULED: <2023-12-14 Thu ++3d/4d>
 :PROPERTIES:
 :CATEGORY: Live&Learn
 :LAST_REPEAT: [2023-11-23 Thu 10:42]
@@ -1284,7 +1284,7 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
-*** [#B] Daily tasks pile assay
+*** Daily tasks pile assay
 SCHEDULED: <2023-12-11 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-10 Sun 19:08]
@@ -1317,6 +1317,7 @@ SCHEDULED: <2023-12-11 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 09:29]--[2023-12-11 Mon 09:36] =>  0:07
 CLOCK: [2023-12-10 Sun 18:39]--[2023-12-10 Sun 18:42] =>  0:03
 CLOCK: [2023-12-08 Fri 16:00]--[2023-12-08 Fri 16:19] =>  0:19
 CLOCK: [2023-11-30 Thu 09:26]--[2023-11-30 Thu 09:33] =>  0:07
@@ -1698,7 +1699,7 @@ create your key binding like this:
 :CATEGORY: Glom
 :END:
 *** LAG Proverbs
-SCHEDULED: <2023-12-12 Tue .+2d/3d>
+SCHEDULED: <2023-12-14 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-26 Wed 17:07]
 :END:
@@ -1753,7 +1754,7 @@ For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
 ** LAG Tracking TODO state changes
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** SET Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
@@ -1820,7 +1821,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** [#A] CV elaboration
-SCHEDULED: <2023-12-11 Mon .+2d/3d>
+SCHEDULED: <2023-12-12 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
@@ -1863,7 +1864,7 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 :END:
 [[file:~/git/org-pub/2016-10-13-CV.org::*Linux][Linux]]
 ** LAG Global and Local Variables in Python
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:
 SCHEDULED: <2023-06-19 Mon>
 :LOGBOOK:
@@ -1892,7 +1893,7 @@ The item gestation ==> elaboration ==> enhancement ===> archiving
 SCHEDULED: <2023-12-12 Tue>
 [[info:emacs#Init File][emacs#Init File]]
 ** LAG Handling links
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
@@ -2064,7 +2065,7 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 [[http://irreal.org/emacs-reminders.html][reading for fun]]
 ** RAW Micro Trading
 ** INIT Framework Thinking
-SCHEDULED: <2023-12-11 Mon>
+SCHEDULED: <2023-12-14 Thu>
 ** LAG Time is Space Concept
 SCHEDULED: <2024-01-05 Fri>
 Speed of light isn't equal in different moments and directions
@@ -2241,7 +2242,7 @@ CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 ** INIT Taxation in Ireland
-SCHEDULED: <2023-12-11 Mon ++3d>
+SCHEDULED: <2023-12-12 Tue ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 15:21]
 :END:
@@ -2258,7 +2259,7 @@ SCHEDULED: <2023-12-08 Fri>
 CLOCK: [2023-12-08 Fri 17:20]--[2023-12-08 Fri 17:37] =>  0:17
 :END:
 ** FireFox bookmarks
-SCHEDULED: <2023-12-12 Tue ++3d>
+SCHEDULED: <2023-12-14 Thu ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 17:34]
 :END:
