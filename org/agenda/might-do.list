@@ -1694,9 +1694,13 @@ It is their delineation
 SCHEDULED: <2023-12-13 Wed>
 ** Emacs' goodies
 SCHEDULED: <2023-12-12 Tue>
-** Re-configure org-capture's paths
+** SET Re-configure org-capture's paths
 SCHEDULED: <2023-12-11 Mon>
+:LOGBOOK:
+CLOCK: [2023-12-11 Mon 18:04]--[2023-12-11 Mon 18:10] =>  0:06
+:END:
 to ~Agenda~ files
+- DEV ENV [2023-12-11 Mon 18:09]
 ** FireFox should gulp
 SCHEDULED: <2023-12-14 Thu>
 - Chrome's passwords
