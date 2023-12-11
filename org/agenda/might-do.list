@@ -1287,11 +1287,14 @@ CLOCK: [2022-12-07 Wed 14:13]--[2022-12-07 Wed 14:32] =>  0:19
 CLOCK: [2022-12-06 Tue 11:04]--[2022-12-06 Tue 11:28] =>  0:24
 CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 :END:
+https://quotefancy.com/motivational-quotes
+https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-11 Mon .+1d>
+SCHEDULED: <2023-12-12 Tue .+1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-10 Sun 19:08]
+:LAST_REPEAT: [2023-12-11 Mon 18:39]
 :END:
+- State "AMPLE"      from ""           [2023-12-11 Mon 18:39]
 - State "AMPLE"      from ""           [2023-12-10 Sun 19:08]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
