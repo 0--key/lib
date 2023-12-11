@@ -12,29 +12,6 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** Algorithms
-SCHEDULED: <2023-12-11 Mon ++2d>
-:PROPERTIES:
-:LAST_REPEAT: [2023-12-08 Fri 17:47]
-:END:
-- State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
-- State "AMPLE"      from ""           [2023-11-16 Thu 09:57]
-- Note taken on [2023-11-16 Thu 09:48] \\
-  Selection sort
-   Recursion
-   Quicksort
-   Hash tables
-   Breadth-first search
-   Trees
-   Binary search trees
-   Djikstra’s algorithm
-   Greedy algorithms
-   Dynamic programming
-   K nearest neighbors
-   [[file:~/Git/python/algorithms/algorithms][file:~/Git/python/algorithms/algorithms]]
-:LOGBOOK:
-CLOCK: [2023-11-16 Thu 09:42]--[2023-11-16 Thu 09:56] =>  0:14
-:END:
 ** INIT Cracking coding interview
 SCHEDULED: <2023-12-22 Fri ++2d>
 :LOGBOOK:
@@ -261,9 +238,31 @@ https://docs.python-guide.org/writing/style/#conventions
 :PROPERTIES:
 :CATEGORY: Algo+Py
 :END:
-** INIT Repo
-SCHEDULED: <2023-12-11 Mon>
-[[file:~/git/python/algorithms/README.md::\[!\[PyPI version\](https://badge.fury.io/py/algorithms.svg)\](https://badge.fury.io/py/algorithms)][Local Link]]
+** INIT [#A] Repo
+SCHEDULED: <2023-12-12 Tue>
+- Note taken on [2023-12-11 Mon 09:33] \\
+  * Algorithms
+  - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
+  - State "AMPLE"      from ""           [2023-11-16 Thu 09:57]
+  - Note taken on [2023-11-16 Thu 09:48] \\
+    Selection sort
+     Recursion
+     Quicksort
+     Hash tables
+     Breadth-first search
+     Trees
+     Binary search trees
+     Djikstra’s algorithm
+     Greedy algorithms
+     Dynamic programming
+     K nearest neighbors
+     [[file:~/Git/python/algorithms/algorithms][file:~/Git/python/algorithms/algorithms]]
+  :LOGBOOK:
+  CLOCK: [2023-12-11 Mon 10:24]--[2023-12-11 Mon 10:47] =>  0:23
+  CLOCK: [2023-11-16 Thu 09:42]--[2023-11-16 Thu 09:56] =>  0:14
+  :END:
+
+  
 ** INIT Time Complexity
 SCHEDULED: <2023-12-14 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
