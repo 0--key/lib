@@ -287,7 +287,7 @@ CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
 - https://github.com/mtekman/org-tanglesync.el [2023-11-10 Fri 16:36]
 ** Nov -- advanced ~epub~ reader
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
@@ -295,7 +295,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
-SCHEDULED: <2023-12-11 Mon ++2d>
+SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 14:17]
 :END:
@@ -933,7 +933,7 @@ CLOCK: [2023-09-28 Thu 11:28]--[2023-09-29 Fri 07:29] => 20:01
 CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
 :END:
 ** LAG Calligraphy
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2024-01-08 Mon>
 ** DELAY Furniture issue
 SCHEDULED: <2024-01-11 Thu>
 ** LAG Authors from PyPi, pip and ELPA repositories
@@ -954,10 +954,11 @@ SCHEDULED: <2023-12-19 Tue>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-11 Mon ++1d>
+SCHEDULED: <2023-12-12 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-09 Sat 19:00]
+:LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
+- State "AMPLE"      from ""           [2023-12-11 Mon 18:57]
 - State "AMPLE"      from ""           [2023-12-09 Sat 19:00]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
@@ -982,7 +983,7 @@ SCHEDULED: <2023-12-11 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-11 Mon 17:39]
+CLOCK: [2023-12-11 Mon 17:39]--[2023-12-11 Mon 17:40] =>  0:01
 CLOCK: [2023-12-11 Mon 17:27]--[2023-12-11 Mon 17:37] =>  0:10
 CLOCK: [2023-12-10 Sun 18:32]--[2023-12-10 Sun 18:39] =>  0:07
 CLOCK: [2023-12-10 Sun 18:24]--[2023-12-10 Sun 18:28] =>  0:04
@@ -1176,10 +1177,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-11 Mon ++1d>
+SCHEDULED: <2023-12-12 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-10 Sun 19:07]
+:LAST_REPEAT: [2023-12-11 Mon 18:36]
 :END:
+- State "AMPLE"      from ""           [2023-12-11 Mon 18:36]
 - State "AMPLE"      from ""           [2023-12-10 Sun 19:07]
 - State "AMPLE"      from ""           [2023-12-09 Sat 18:05]
 - State "AMPLE"      from ""           [2023-11-17 Fri 17:53]
@@ -1208,6 +1210,7 @@ SCHEDULED: <2023-12-11 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 18:24]--[2023-12-11 Mon 18:36] =>  0:12
 CLOCK: [2023-12-10 Sun 18:52]--[2023-12-10 Sun 19:06] =>  0:14
 CLOCK: [2023-12-09 Sat 17:50]--[2023-12-09 Sat 18:05] =>  0:15
 CLOCK: [2023-11-30 Thu 10:24]--[2023-11-30 Thu 10:40] =>  0:16
@@ -1323,6 +1326,7 @@ SCHEDULED: <2023-12-12 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 18:37]--[2023-12-11 Mon 18:39] =>  0:02
 CLOCK: [2023-12-11 Mon 17:38]--[2023-12-11 Mon 17:39] =>  0:01
 CLOCK: [2023-12-11 Mon 09:29]--[2023-12-11 Mon 09:36] =>  0:07
 CLOCK: [2023-12-10 Sun 18:39]--[2023-12-10 Sun 18:42] =>  0:03
@@ -1456,10 +1460,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-11 Mon ++1d>
+SCHEDULED: <2023-12-12 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-09 Sat 18:50]
+:LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
+- State "AMPLE"      from ""           [2023-12-11 Mon 18:57]
 - State "AMPLE"      from ""           [2023-12-09 Sat 18:50]
 - State "AMPLE"      from ""           [2023-11-16 Thu 19:01]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
@@ -1477,6 +1482,7 @@ SCHEDULED: <2023-12-11 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 18:48]--[2023-12-11 Mon 18:57] =>  0:09
 CLOCK: [2023-12-09 Sat 18:45]--[2023-12-09 Sat 18:48] =>  0:03
 CLOCK: [2023-11-18 Sat 18:26]--[2023-11-18 Sat 18:28] =>  0:02
 CLOCK: [2023-11-17 Fri 18:27]--[2023-11-17 Fri 18:29] =>  0:02
@@ -1912,7 +1918,7 @@ SCHEDULED: <2023-06-29 Thu>
   3d->1w->3w->2m->archive
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
-** LAG Emacs init file
+** INIT Emacs init file
 SCHEDULED: <2023-12-12 Tue>
 [[info:emacs#Init File][emacs#Init File]]
 ** LAG Handling links
@@ -2257,15 +2263,15 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
   disabled as a unit.  You can use Custom themes to switch easily between
   various collections of settings, and to transfer such collections from
   one computer to another. [2023-11-24 Fri 14:40]
-** INIT [#C] New Qoutes
-SCHEDULED: <2023-12-11 Mon>
+** DELAY [#C] New Qoutes
+SCHEDULED: <2024-01-15 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 :END:
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 ** INIT Taxation in Ireland
-SCHEDULED: <2023-12-12 Tue ++3d>
+SCHEDULED: <2024-01-08 Mon ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-16 Thu 15:21]
 :END:
