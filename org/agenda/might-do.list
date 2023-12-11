@@ -561,8 +561,8 @@ SCHEDULED: <2022-12-07 Wed>
 ** DELAY TODO keywords as types
 SCHEDULED: <2023-12-27 Wed>
 [[info:org#TODO types][org#TODO types]]
-** [#B] Whole week scheduling
-SCHEDULED: <2023-12-11 Mon .+1w>
+** [#A] Whole week scheduling
+SCHEDULED: <2023-12-12 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2023-10-18 Wed 19:27]
@@ -578,6 +578,7 @@ SCHEDULED: <2023-12-11 Mon .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 09:49]--[2023-12-11 Mon 09:56] =>  0:07
 CLOCK: [2023-12-10 Sun 18:42]--[2023-12-10 Sun 18:52] =>  0:10
 CLOCK: [2023-11-10 Fri 09:27]--[2023-11-10 Fri 09:29] =>  0:02
 CLOCK: [2023-11-06 Mon 09:14]--[2023-11-06 Mon 09:20] =>  0:06
@@ -952,7 +953,7 @@ SCHEDULED: <2023-12-19 Tue>
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
-*** [#B] >Git<
+*** >Git<
 SCHEDULED: <2023-12-11 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 19:00]
@@ -981,6 +982,8 @@ SCHEDULED: <2023-12-11 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 17:39]
+CLOCK: [2023-12-11 Mon 17:27]--[2023-12-11 Mon 17:37] =>  0:10
 CLOCK: [2023-12-10 Sun 18:32]--[2023-12-10 Sun 18:39] =>  0:07
 CLOCK: [2023-12-10 Sun 18:24]--[2023-12-10 Sun 18:28] =>  0:04
 CLOCK: [2023-12-09 Sat 18:51]--[2023-12-09 Sat 19:00] =>  0:09
@@ -1317,6 +1320,7 @@ SCHEDULED: <2023-12-11 Mon .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-11 Mon 17:38]--[2023-12-11 Mon 17:39] =>  0:01
 CLOCK: [2023-12-11 Mon 09:29]--[2023-12-11 Mon 09:36] =>  0:07
 CLOCK: [2023-12-10 Sun 18:39]--[2023-12-10 Sun 18:42] =>  0:03
 CLOCK: [2023-12-08 Fri 16:00]--[2023-12-08 Fri 16:19] =>  0:19
