@@ -281,7 +281,7 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -985,7 +985,8 @@ SCHEDULED: <2023-12-12 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-12 Tue 09:16]
+CLOCK: [2023-12-12 Tue 10:13]
+CLOCK: [2023-12-12 Tue 09:16]--[2023-12-12 Tue 09:20] =>  0:04
 CLOCK: [2023-12-11 Mon 17:39]--[2023-12-11 Mon 17:40] =>  0:01
 CLOCK: [2023-12-11 Mon 17:27]--[2023-12-11 Mon 17:37] =>  0:10
 CLOCK: [2023-12-10 Sun 18:32]--[2023-12-10 Sun 18:39] =>  0:07

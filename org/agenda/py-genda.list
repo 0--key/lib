@@ -58,21 +58,21 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
 *** INIT [#A] VirtualEnv
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
 *** INIT [#A] PyPackage Management
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:12] \\
   What is ~pip~ and how it works?
 ** ACTIVE [#A] Elpy
-SCHEDULED: <2023-12-12 Tue ++1d>
+SCHEDULED: <2023-12-14 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
 :CATEGORY: ELPY{e}
@@ -86,6 +86,7 @@ SCHEDULED: <2023-12-12 Tue ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-12-12 Tue 09:30]--[2023-12-12 Tue 10:07] =>  0:37
 CLOCK: [2023-12-11 Mon 09:56]--[2023-12-11 Mon 10:16] =>  0:20
 CLOCK: [2023-12-09 Sat 16:54]--[2023-12-09 Sat 17:16] =>  0:22
 CLOCK: [2023-10-25 Wed 09:10]--[2023-10-25 Wed 09:40] =>  0:30
@@ -242,7 +243,7 @@ SCHEDULED: <2023-12-12 Tue>
 :CATEGORY: Algo+Py
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-14 Thu>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
