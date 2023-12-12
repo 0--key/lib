@@ -57,15 +57,15 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
-*** LAG [#A] VirtualEnv
-SCHEDULED: <2023-12-14 Thu>
+*** INIT [#A] VirtualEnv
+SCHEDULED: <2023-12-12 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
-*** LAG [#A] PyPackage Management
-SCHEDULED: <2023-12-14 Thu>
+*** INIT [#A] PyPackage Management
+SCHEDULED: <2023-12-12 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
@@ -104,20 +104,20 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
 *** INIT [#A] FlyMake
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
 
 ** DELAY [#C] The bald Python project
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
 *** INIT [#A] Style
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -181,7 +181,7 @@ CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
 **** INIT [#A] Zen
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
 CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
@@ -202,7 +202,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 *** DELAY [#B] Structure
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -214,7 +214,7 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 *** DELAY [#B] Testing
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -234,6 +234,9 @@ https://docs.python.org/dev/library/unittest.mock
 ** LAG Idioms
 SCHEDULED: <2024-02-27 Tue>
 https://docs.python-guide.org/writing/style/#conventions
+** INIT Python Talk to Me
+SCHEDULED: <2023-12-12 Tue>
+
 * Algorithms
 :PROPERTIES:
 :CATEGORY: Algo+Py
@@ -264,7 +267,7 @@ SCHEDULED: <2023-12-12 Tue>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-18 Mon>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -309,7 +312,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2023-12-14 Thu ++2d/3d>
+SCHEDULED: <2023-12-18 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -326,7 +329,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-12-14 Thu ++3d/4d>
+SCHEDULED: <2023-12-18 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
