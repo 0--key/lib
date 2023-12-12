@@ -950,6 +950,10 @@ sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
 ** Goodies
 SCHEDULED: <2023-12-19 Tue>
 [[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
+** INIT The separate key-chord for clocked snippet
+SCHEDULED: <2023-12-14 Thu>
+https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapturetemplates_entries/
+
 * Tasks
 ** Chores
 :PROPERTIES:

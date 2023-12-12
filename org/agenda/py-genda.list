@@ -235,9 +235,17 @@ https://docs.python.org/dev/library/unittest.mock
 ** LAG Idioms
 SCHEDULED: <2024-02-27 Tue>
 https://docs.python-guide.org/writing/style/#conventions
-** INIT Python Talk to Me
-SCHEDULED: <2023-12-12 Tue>
-
+** RAW Python Talk to Me
+SCHEDULED: <2023-12-15 Fri ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-12 Tue 11:35]
+:END:
+- State "AMPLE"      from "INIT"       [2023-12-12 Tue 11:35]
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
+:END:
+- https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
+- https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 * Algorithms
 :PROPERTIES:
 :CATEGORY: Algo+Py
