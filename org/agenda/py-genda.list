@@ -12,6 +12,17 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
+** RAW Python Talk to Me
+SCHEDULED: <2023-12-15 Fri ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-12 Tue 11:35]
+:END:
+- State "AMPLE"      from "INIT"       [2023-12-12 Tue 11:35]
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
+:END:
+- https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
+- https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 ** INIT Cracking coding interview
 SCHEDULED: <2023-12-22 Fri ++2d>
 :LOGBOOK:
@@ -57,25 +68,16 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
-*** INIT [#A] VirtualEnv
-SCHEDULED: <2023-12-14 Thu>
-:LOGBOOK:
-CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
+* Development Environment
+:PROPERTIES:
+:CATEGORY: PyDevEnv
 :END:
-- Note taken on [2023-10-04 Wed 19:11] \\
-  Does apt-get install Debian package in venv only?
-*** INIT [#A] PyPackage Management
-SCHEDULED: <2023-12-14 Thu>
-:LOGBOOK:
-CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
-:END:
-- Note taken on [2023-10-04 Wed 19:12] \\
-  What is ~pip~ and how it works?
+** INIT EGlot
+SCHEDULED: <2023-12-13 Wed>
 ** ACTIVE [#A] Elpy
-SCHEDULED: <2023-12-14 Thu ++1d>
+SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 12:00]
-:CATEGORY: ELPY{e}
 :END:
 - Note taken on [2023-12-09 Sat 17:16] \\
   Unclear where is ~rpc~ venv when the system don't use ~pip~ at all.
@@ -86,6 +88,7 @@ SCHEDULED: <2023-12-14 Thu ++1d>
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
 :LOGBOOK:
+CLOCK: [2023-12-12 Tue 14:30]--[2023-12-12 Tue 14:40] =>  0:10
 CLOCK: [2023-12-12 Tue 09:30]--[2023-12-12 Tue 10:07] =>  0:37
 CLOCK: [2023-12-11 Mon 09:56]--[2023-12-11 Mon 10:16] =>  0:20
 CLOCK: [2023-12-09 Sat 16:54]--[2023-12-09 Sat 17:16] =>  0:22
@@ -103,21 +106,45 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html][IDE Features — Elpy 1.35.0 documentation]]
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
-[[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
-*** INIT [#A] FlyMake
+[[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking
+file:~/.emacs.d/elpa/elpy-1.35.0/elpy]]
+*** Deprecated Install#1
+SCHEDULED: <2023-12-13 Wed>
+https://debian.pkgs.org/10/debian-main-amd64/elpa-elpy_1.28.0-2_all.deb.html
+- Remove all unneccessary files (from failed install) by hand;
+- Download & install all requrements;
+- Download & install ~elpa-elpy~.
+*** INIT [#A] VirtualEnv
+SCHEDULED: <2023-12-15 Fri>
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 14:50]--[2023-12-12 Tue 15:21] =>  0:31
+CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
+:END:
+- Note taken on [2023-10-04 Wed 19:11] \\
+  Does apt-get install Debian package in venv only?
+*** INIT [#A] PyPackage Management
+SCHEDULED: <2023-12-15 Fri>
+:LOGBOOK:
+CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
+:END:
+- Note taken on [2023-10-04 Wed 19:12] \\
+  What is ~pip~ and how it works?
+*
+
+**** INIT [#A] FlyMake
 SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
 
-** DELAY [#C] The bald Python project
+*** DELAY [#C] The bald Python project
 SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-*** INIT [#A] Style
+**** INIT [#A] Style
 SCHEDULED: <2023-12-18 Mon>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
@@ -152,14 +179,14 @@ CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
 :END:
 [[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
 http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
-**** DELAY PEP8
+***** DELAY PEP8
 SCHEDULED: <2024-01-23 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
 :END:
 http://pep8.org/
 https://pypi.org/project/autopep8/
-**** DELAY YAPF
+***** DELAY YAPF
 SCHEDULED: <2023-12-18 Mon ++14d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-23 Thu 10:38]
@@ -173,7 +200,7 @@ CLOCK: [2023-11-06 Mon 11:34]--[2023-11-06 Mon 11:46] =>  0:12
 CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
-**** DELAY [#A] BLACK
+***** DELAY [#A] BLACK
 SCHEDULED: <2023-12-27 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
@@ -181,7 +208,7 @@ CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 :END:
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
-**** INIT [#A] Zen
+***** INIT [#A] Zen
 SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
@@ -189,7 +216,7 @@ CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
 :END:
 [[https://github.com/hblanks/zen-of-python-by-example]]
 [[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
-**** LAG [#A] PyCodeStyle
+***** LAG [#A] PyCodeStyle
 SCHEDULED: <2023-12-21 Thu ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 09:00]
@@ -202,7 +229,7 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
-*** DELAY [#B] Structure
+**** DELAY [#B] Structure
 SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
@@ -214,7 +241,7 @@ CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-*** DELAY [#B] Testing
+**** DELAY [#B] Testing
 SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
@@ -232,26 +259,18 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** LAG Idioms
+** RAW Play&Learn
+SCHEDULED: <2023-12-15 Fri>
+file:~/Git/python/algorithms/algorithms
+* LAG Idioms
 SCHEDULED: <2024-02-27 Tue>
 https://docs.python-guide.org/writing/style/#conventions
-** RAW Python Talk to Me
-SCHEDULED: <2023-12-15 Fri ++3d>
-:PROPERTIES:
-:LAST_REPEAT: [2023-12-12 Tue 11:35]
-:END:
-- State "AMPLE"      from "INIT"       [2023-12-12 Tue 11:35]
-:LOGBOOK:
-CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
-:END:
-- https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
-- https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 * Algorithms
 :PROPERTIES:
-:CATEGORY: Algo+Py
+:CATEGORY: Algorithms
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2024-02-07 Wed>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]

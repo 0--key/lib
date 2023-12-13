@@ -306,7 +306,7 @@ CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 ** emacs-nox
-SCHEDULED: <2023-12-13 Wed>
+SCHEDULED: <2023-12-20 Wed>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
 * Notes
@@ -446,6 +446,7 @@ CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 :END:
 [[file:~/git/lib/org/proverbs.org::*A drowning man will clutch at a straw][Proverbs in a moist form]]
 ** RAW Punished by Rewards by Alfie Kohn
+[[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
 ** RAW Distraction Epidemic
 ** RAW Indistractable by Nir Eyal
 ** RAW The Righteous Mind by Jonathan Haidt
@@ -960,7 +961,7 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-12 Tue ++1d>
+SCHEDULED: <2023-12-13 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
@@ -989,7 +990,9 @@ SCHEDULED: <2023-12-12 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-12 Tue 10:13]
+CLOCK: [2023-12-13 Wed 11:13]
+CLOCK: [2023-12-12 Tue 14:15]--[2023-12-12 Tue 14:17] =>  0:02
+CLOCK: [2023-12-12 Tue 10:13]--[2023-12-12 Tue 10:30] =>  0:17
 CLOCK: [2023-12-12 Tue 09:16]--[2023-12-12 Tue 09:20] =>  0:04
 CLOCK: [2023-12-11 Mon 17:39]--[2023-12-11 Mon 17:40] =>  0:01
 CLOCK: [2023-12-11 Mon 17:27]--[2023-12-11 Mon 17:37] =>  0:10
@@ -1185,7 +1188,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-12 Tue ++1d>
+SCHEDULED: <2023-12-13 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:36]
 :END:
@@ -1301,7 +1304,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-12 Tue .+1d>
+SCHEDULED: <2023-12-13 Wed .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:39]
 :END:
@@ -1334,6 +1337,7 @@ SCHEDULED: <2023-12-12 Tue .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-13 Wed 10:12]--[2023-12-13 Wed 10:39] =>  0:27
 CLOCK: [2023-12-12 Tue 09:05]--[2023-12-12 Tue 09:06] =>  0:01
 CLOCK: [2023-12-11 Mon 18:37]--[2023-12-11 Mon 18:39] =>  0:02
 CLOCK: [2023-12-11 Mon 17:38]--[2023-12-11 Mon 17:39] =>  0:01
@@ -1469,7 +1473,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-12 Tue ++1d>
+SCHEDULED: <2023-12-13 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
@@ -1519,10 +1523,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2023-12-13 Wed ++1w>
+SCHEDULED: <2023-12-20 Wed ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-29 Wed 16:09]
+:LAST_REPEAT: [2023-12-13 Wed 10:07]
 :END:
+- State "AMPLE"      from ""           [2023-12-13 Wed 10:07]
 - State "AMPLE"      from ""           [2023-11-29 Wed 16:09]
 - State "AMPLE"      from ""           [2023-11-23 Thu 10:58]
 - State "AMPLE"      from ""           [2023-11-15 Wed 10:26]
@@ -1676,16 +1681,19 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming #3
-SCHEDULED: <2023-12-13 Wed ++1w>
+SCHEDULED: <2023-12-20 Wed ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-29 Wed 16:35]
+:LAST_REPEAT: [2023-12-13 Wed 11:13]
 :END:
+- State "AMPLE"      from ""           [2023-12-13 Wed 11:13]
 - State "AMPLE"      from ""           [2023-11-29 Wed 16:35]
 - State "AMPLE"      from ""           [2023-11-15 Wed 09:38]
 - State "AMPLE"      from ""           [2023-11-07 Tue 11:26]
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-12-13 Wed 11:03]--[2023-12-13 Wed 11:13] =>  0:10
+CLOCK: [2023-12-13 Wed 10:39]--[2023-12-13 Wed 10:55] =>  0:16
 CLOCK: [2023-11-29 Wed 16:11]--[2023-11-29 Wed 16:35] =>  0:24
 CLOCK: [2023-11-15 Wed 09:21]--[2023-11-15 Wed 09:24] =>  0:03
 CLOCK: [2023-11-07 Tue 10:49]--[2023-11-07 Tue 11:00] =>  0:11
@@ -1706,9 +1714,9 @@ maiden scheduling of completely new (*RAW*) tasks
 *** Figuring out new tasks
 It is their delineation
 ** X-NOX-clipboard issue fix
-SCHEDULED: <2023-12-13 Wed>
+SCHEDULED: <2023-12-20 Wed>
 ** Emacs' goodies
-SCHEDULED: <2023-12-12 Tue>
+SCHEDULED: <2023-12-20 Wed>
 ** SET Re-configure org-capture's paths
 SCHEDULED: <2023-12-11 Mon>
 :LOGBOOK:
@@ -1927,9 +1935,17 @@ SCHEDULED: <2023-06-29 Thu>
   3d->1w->3w->2m->archive
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
-** INIT Emacs init file
-SCHEDULED: <2023-12-12 Tue>
+** TODO Emacs init file
+SCHEDULED: <2024-02-06 Tue>
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 14:17]--[2023-12-12 Tue 14:27] =>  0:10
+:END:
 [[info:emacs#Init File][emacs#Init File]]
+*** INIT Several ~inits~ for different purposes
+SCHEDULED: <2024-02-06 Tue>
+[[info:emacs#Find Init]]
+[2023-12-12 Tue 14:24]
+
 ** INIT Handling links
 SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
@@ -2181,20 +2197,6 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
-** RAW [#A] BackUp Linux container
-SCHEDULED: <2023-12-13 Wed ++8w>
-:PROPERTIES:
-:LAST_REPEAT: [2023-10-18 Wed 14:34]
-:END:
-- State "DONE"       from "ACTIVE"     [2023-10-18 Wed 14:34]
-:LOGBOOK:
-CLOCK: [2023-10-18 Wed 11:06]--[2023-10-18 Wed 11:19] =>  0:13
-:END:
-*** Save all data
-*** Update all packages
-*** ShutDown Linux
-*** Back it up onto SD card
-*** Resize Linux disk space
 ** LAG [#A] Test Jedi inside Emacs
 SCHEDULED: <2023-12-21 Thu>
 :LOGBOOK:
@@ -2246,8 +2248,7 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 - as the actual agenda;
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
 ** SET New destination for books
-SCHEDULED: <2023-12-14 Thu>
-[[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
+SCHEDULED: <2023-12-10 Sun>
 ** LAG [#A] Check =Elpy= venv
 SCHEDULED: <2024-02-19 Mon>
 :LOGBOOK:
