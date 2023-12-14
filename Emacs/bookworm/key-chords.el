@@ -61,10 +61,12 @@
 (key-chord-define-global "fg"     'find-file)
 (key-chord-define-global "ew"     'eval-last-sexp)
 (key-chord-define-global "hg"     'keyboard-quit)
-(key-chord-define-global "dc"     'with-editor-finish)
 (key-chord-define-global "gs"     'magit-status)
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
+(key-chord-define org-capture-mode-map "dc"     'org-capture-finalize)
+(key-chord-define with-editor-mode-map "dc"     'with-editor-finish) ;; ~cd~ in bash
+
 
 ;; Searching
 (key-chord-define-global "sf"     'isearch-forward)
