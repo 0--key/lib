@@ -39,9 +39,14 @@
 (load "elpy-refactor")
 ;;(require 'elpy)
 (elpy-enable)
-(require 'speed-type)
 
-(load-theme 'manoj-dark)
+(require 'speed-type)
+(require 'xclip)
+(xclip-mode 1)
+
+
+
+(load-theme 'wombat);;manoj-dark)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -59,7 +64,7 @@
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(dictionary elpy find-file-in-project google-translate key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup)))
+   '(eglot elpy xclip dictionary find-file-in-project google-translate key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup)))
 
 
 (custom-set-faces
