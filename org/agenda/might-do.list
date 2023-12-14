@@ -106,7 +106,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 :END:
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
-** INIT Company-Mode
+** INIT [#A] Company-Mode
 SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
@@ -296,7 +296,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
-SCHEDULED: <2023-12-14 Thu ++2d>
+SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 14:17]
 :END:
@@ -963,10 +963,11 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-14 Thu ++1d>
+SCHEDULED: <2023-12-15 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-11 Mon 18:57]
+:LAST_REPEAT: [2023-12-14 Thu 18:29]
 :END:
+- State "AMPLE"      from ""           [2023-12-14 Thu 18:29]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:57]
 - State "AMPLE"      from ""           [2023-12-09 Sat 19:00]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
@@ -992,7 +993,7 @@ SCHEDULED: <2023-12-14 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-14 Thu 11:36]
+CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
 CLOCK: [2023-12-14 Thu 10:19]--[2023-12-14 Thu 10:21] =>  0:02
 CLOCK: [2023-12-14 Thu 09:21]--[2023-12-14 Thu 09:36] =>  0:15
 CLOCK: [2023-12-13 Wed 11:13]--[2023-12-13 Wed 11:24] =>  0:11
@@ -1193,7 +1194,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-14 Thu ++1d>
+SCHEDULED: <2023-12-15 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:36]
 :END:
@@ -1309,7 +1310,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-14 Thu ++1d>
+SCHEDULED: <2023-12-15 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:39]
 :END:
@@ -1479,10 +1480,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-14 Thu ++1d>
+SCHEDULED: <2023-12-15 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-11 Mon 18:57]
+:LAST_REPEAT: [2023-12-14 Thu 18:35]
 :END:
+- State "AMPLE"      from ""           [2023-12-14 Thu 18:35]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:57]
 - State "AMPLE"      from ""           [2023-12-09 Sat 18:50]
 - State "AMPLE"      from ""           [2023-11-16 Thu 19:01]
@@ -1501,6 +1503,7 @@ SCHEDULED: <2023-12-14 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-12-14 Thu 18:30]--[2023-12-14 Thu 18:35] =>  0:05
 CLOCK: [2023-12-11 Mon 18:48]--[2023-12-11 Mon 18:57] =>  0:09
 CLOCK: [2023-12-09 Sat 18:45]--[2023-12-09 Sat 18:48] =>  0:03
 CLOCK: [2023-11-18 Sat 18:26]--[2023-11-18 Sat 18:28] =>  0:02
@@ -1576,7 +1579,7 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
-*** [#A] Workspace decluttering #2
+*** Workspace decluttering #2
 SCHEDULED: <2023-12-15 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 16:18]
@@ -1735,7 +1738,7 @@ SCHEDULED: <2024-02-08 Thu>
 - Chrome's passwords
 - Bookmarks from Chrome
 ** Ssh with ~pub~ key
-SCHEDULED: <2023-12-15 Fri>
+SCHEDULED: <2024-01-07 Sun>
 ** INIT To define special keys to capture to a particular template :ARCHIVE:
 SCHEDULED: <2022-12-16 Fri>
 without going through the interactive template selection, you can
@@ -1953,7 +1956,7 @@ SCHEDULED: <2024-02-06 Tue>
 [2023-12-12 Tue 14:24]
 
 ** INIT Handling links
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:

@@ -35,7 +35,7 @@ SCHEDULED: <2023-11-20 Mon ++4d>
 CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** [#A] Assignment test suite
+** Assignment test suite
 SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
@@ -137,16 +137,16 @@ https://elpy.readthedocs.io/en/latest/introduction.html#manually-from-sources
 **** Another user test
 Try to use ~elpy~ in Vikky's account
 Not tried yet
-*** INIT [#A] VirtualEnv
-SCHEDULED: <2023-12-15 Fri>
+*** DELAY [#A] VirtualEnv
+SCHEDULED: <2024-02-01 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-12 Tue 14:50]--[2023-12-12 Tue 15:21] =>  0:31
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
-*** INIT [#A] PyPackage Management
-SCHEDULED: <2023-12-15 Fri>
+*** DELAY [#A] PyPackage Management
+SCHEDULED: <2024-02-01 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
