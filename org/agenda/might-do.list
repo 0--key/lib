@@ -273,7 +273,7 @@ CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-12-14 Thu ++2d>
+SCHEDULED: <2023-12-28 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 :END:
@@ -281,14 +281,15 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
 ** Org-babel-detangle
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2024-01-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
 - https://github.com/mtekman/org-tanglesync.el [2023-11-10 Fri 16:36]
 ** Nov -- advanced ~epub~ reader
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-16 Sat>
 :LOGBOOK:
+CLOCK: [2023-12-14 Thu 10:29]--[2023-12-14 Thu 10:41] =>  0:12
 CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
 - [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
@@ -301,6 +302,7 @@ SCHEDULED: <2023-12-14 Thu ++2d>
 :END:
 - State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
 :LOGBOOK:
+CLOCK: [2023-12-14 Thu 10:21]--[2023-12-14 Thu 10:29] =>  0:08
 CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
@@ -990,7 +992,9 @@ SCHEDULED: <2023-12-14 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-14 Thu 09:21]
+CLOCK: [2023-12-14 Thu 11:36]
+CLOCK: [2023-12-14 Thu 10:19]--[2023-12-14 Thu 10:21] =>  0:02
+CLOCK: [2023-12-14 Thu 09:21]--[2023-12-14 Thu 09:36] =>  0:15
 CLOCK: [2023-12-13 Wed 11:13]--[2023-12-13 Wed 11:24] =>  0:11
 CLOCK: [2023-12-12 Tue 14:15]--[2023-12-12 Tue 14:17] =>  0:02
 CLOCK: [2023-12-12 Tue 10:13]--[2023-12-12 Tue 10:30] =>  0:17
@@ -2313,7 +2317,10 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2023-12-15 Fri>
 ** INIT [#A] Search reference in *info*
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-16 Sat>
+:LOGBOOK:
+CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
+:END:
 * Events
 :PROPERTIES:
 :CATEGORY: Event

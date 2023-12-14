@@ -74,11 +74,13 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT EGlot
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-16 Sat>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
 :END:
 https://joaotavora.github.io/eglot/
+[[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
+[[info:efaq#Installing Texinfo documentation][efaq#Installing Texinfo documentation]]
 ** ACTIVE [#A] Elpy
 SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
