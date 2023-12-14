@@ -109,11 +109,28 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking
 file:~/.emacs.d/elpa/elpy-1.35.0/elpy]]
 *** Deprecated Install#1
+
+*** SET Deprecated Install#1
 SCHEDULED: <2023-12-13 Wed>
+:LOGBOOK:
+CLOCK: [2023-12-13 Wed 11:41]--[2023-12-13 Wed 11:47] =>  0:06
+:END:
 https://debian.pkgs.org/10/debian-main-amd64/elpa-elpy_1.28.0-2_all.deb.html
 - Remove all unneccessary files (from failed install) by hand;
 - Download & install all requrements;
 - Download & install ~elpa-elpy~.
+- Conclusion *NOT WORKING*
+**** *WORKING*
+installation from *Git* repository:
+https://elpy.readthedocs.io/en/latest/introduction.html#manually-from-sources
+#+begin_src sh
+  git clone git@github.com:jorgenschaefer/elpy.git
+  cd elpy/
+  git checkout add-new-py-version
+#+end_src
+**** Another user test
+Try to use ~elpy~ in Vikky's account
+Not tried yet
 *** INIT [#A] VirtualEnv
 SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:

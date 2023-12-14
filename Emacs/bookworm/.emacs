@@ -27,7 +27,18 @@
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
 
-(require 'elpy)
+(require 'python)
+(require 'pyvenv)
+;;(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
+;;(pyvenv-activate "/home/alioth/.local/venv0.1/")
+(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/elpy/")
+(load "elpy")
+(load "elpy-rpc")
+(load "elpy-shell")
+(load "elpy-profile")
+(load "elpy-refactor")
+;;(require 'elpy)
+(elpy-enable)
 (require 'speed-type)
 
 (load-theme 'manoj-dark)
