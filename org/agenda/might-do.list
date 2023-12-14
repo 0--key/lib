@@ -107,7 +107,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** INIT Company-Mode
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
@@ -287,7 +287,7 @@ CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
 - https://github.com/mtekman/org-tanglesync.el [2023-11-10 Fri 16:36]
 ** Nov -- advanced ~epub~ reader
-SCHEDULED: <2023-12-15 Fri>
+SCHEDULED: <2023-12-14 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
@@ -295,7 +295,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
-SCHEDULED: <2023-12-15 Fri ++2d>
+SCHEDULED: <2023-12-14 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 14:17]
 :END:
@@ -952,7 +952,7 @@ sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
 SCHEDULED: <2023-12-19 Tue>
 [[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
 ** INIT The separate key-chord for clocked snippet
-SCHEDULED: <2023-12-14 Thu>
+SCHEDULED: <2023-12-15 Fri>
 https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapturetemplates_entries/
 
 * Tasks
@@ -961,7 +961,7 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-13 Wed ++1d>
+SCHEDULED: <2023-12-14 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
@@ -990,7 +990,8 @@ SCHEDULED: <2023-12-13 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-13 Wed 11:13]
+CLOCK: [2023-12-14 Thu 09:21]
+CLOCK: [2023-12-13 Wed 11:13]--[2023-12-13 Wed 11:24] =>  0:11
 CLOCK: [2023-12-12 Tue 14:15]--[2023-12-12 Tue 14:17] =>  0:02
 CLOCK: [2023-12-12 Tue 10:13]--[2023-12-12 Tue 10:30] =>  0:17
 CLOCK: [2023-12-12 Tue 09:16]--[2023-12-12 Tue 09:20] =>  0:04
@@ -1188,7 +1189,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-13 Wed ++1d>
+SCHEDULED: <2023-12-14 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:36]
 :END:
@@ -1304,7 +1305,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-13 Wed .+1d>
+SCHEDULED: <2023-12-14 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:39]
 :END:
@@ -1337,6 +1338,7 @@ SCHEDULED: <2023-12-13 Wed .+1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-14 Thu 09:14]--[2023-12-14 Thu 09:21] =>  0:07
 CLOCK: [2023-12-13 Wed 10:12]--[2023-12-13 Wed 10:39] =>  0:27
 CLOCK: [2023-12-12 Tue 09:05]--[2023-12-12 Tue 09:06] =>  0:01
 CLOCK: [2023-12-11 Mon 18:37]--[2023-12-11 Mon 18:39] =>  0:02
@@ -1473,7 +1475,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-13 Wed ++1d>
+SCHEDULED: <2023-12-14 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-11 Mon 18:57]
 :END:
@@ -1724,8 +1726,8 @@ CLOCK: [2023-12-11 Mon 18:04]--[2023-12-11 Mon 18:10] =>  0:06
 :END:
 to ~Agenda~ files
 - DEV ENV [2023-12-11 Mon 18:09]
-** FireFox should gulp
-SCHEDULED: <2023-12-14 Thu>
+** DELAY FireFox should gulp
+SCHEDULED: <2024-02-08 Thu>
 - Chrome's passwords
 - Bookmarks from Chrome
 ** Ssh with ~pub~ key
@@ -2297,11 +2299,12 @@ SCHEDULED: <2023-12-08 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-08 Fri 17:20]--[2023-12-08 Fri 17:37] =>  0:17
 :END:
-** FireFox bookmarks
-SCHEDULED: <2023-12-14 Thu ++3d>
+** DELAY FireFox bookmarks
+SCHEDULED: <2024-02-08 Thu ++3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-09 Sat 17:34]
+:LAST_REPEAT: [2023-12-14 Thu 09:16]
 :END:
+- State "AMPLE"      from ""           [2023-12-14 Thu 09:16]
 - State "AMPLE"      from ""           [2023-12-09 Sat 17:34]
 :LOGBOOK:
 CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15

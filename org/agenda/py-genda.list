@@ -36,7 +36,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** [#A] Assignment test suite
-SCHEDULED: <2023-12-14 Thu ++2d>
+SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -47,6 +47,7 @@ CLOCK: [2023-11-16 Thu 10:04]--[2023-11-16 Thu 11:00] =>  0:56
 CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 :END:
 https://www.youtube.com/watch?v=_AEJHKGk9ns
+[[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
 ** LAG [#A] IPython
 SCHEDULED: <2024-02-19 Mon ++2d>
 :PROPERTIES:
@@ -73,7 +74,11 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT EGlot
-SCHEDULED: <2023-12-13 Wed>
+SCHEDULED: <2023-12-14 Thu>
+:LOGBOOK:
+CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
+:END:
+https://joaotavora.github.io/eglot/
 ** ACTIVE [#A] Elpy
 SCHEDULED: <2023-12-15 Fri ++2d>
 :PROPERTIES:
@@ -106,9 +111,8 @@ CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
 [[https://elpy.readthedocs.io/en/latest/ide.html][IDE Features — Elpy 1.35.0 documentation]]
 [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
 [[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
-[[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking
-file:~/.emacs.d/elpa/elpy-1.35.0/elpy]]
-*** Deprecated Install#1
+[[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
+[[info:elpy.info#Useful keybindings][elpy.info#Useful keybindings]]
 
 *** SET Deprecated Install#1
 SCHEDULED: <2023-12-13 Wed>
@@ -276,8 +280,11 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** RAW Play&Learn
-SCHEDULED: <2023-12-15 Fri>
+** INIT Play&Learn
+SCHEDULED: <2023-12-20 Wed>
+:LOGBOOK:
+CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
+:END:
 file:~/Git/python/algorithms/algorithms
 * LAG Idioms
 SCHEDULED: <2024-02-27 Tue>
