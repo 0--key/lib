@@ -2307,6 +2307,10 @@ SCHEDULED: <2023-12-14 Thu ++3d>
 CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
+** INIT Emacs IDE for Vikky
+SCHEDULED: <2023-12-15 Fri>
+** INIT [#A] Search reference in *info*
+SCHEDULED: <2023-12-14 Thu>
 * Events
 :PROPERTIES:
 :CATEGORY: Event
