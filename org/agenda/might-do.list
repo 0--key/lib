@@ -2324,6 +2324,9 @@ SCHEDULED: <2023-12-16 Sat>
 :LOGBOOK:
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
+** INIT Rhythmbox Dark Theme
+SCHEDULED: <2023-12-17 Sun>
+https://github.com/fossfreedom/alternative-toolbar
 * Events
 :PROPERTIES:
 :CATEGORY: Event
