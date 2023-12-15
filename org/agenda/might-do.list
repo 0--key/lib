@@ -955,8 +955,14 @@ SCHEDULED: <2023-12-19 Tue>
 [[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
 ** INIT The separate key-chord for clocked snippet
 SCHEDULED: <2023-12-15 Fri>
+:LOGBOOK:
+CLOCK: [2023-12-15 Fri 12:17]--[2023-12-15 Fri 12:36] =>  0:19
+:END:
 https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapturetemplates_entries/
-
+- ELisp programs can set KEYS to a string associated with a template
+  in ‘org-capture-templates’.  In this case, interactive selection
+  will be bypassed.
+   [2023-12-15 Fri 12:35]
 * Tasks
 ** Chores
 :PROPERTIES:
@@ -993,6 +999,7 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 12:14]--[2023-12-15 Fri 12:17] =>  0:03
 CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
 CLOCK: [2023-12-14 Thu 10:19]--[2023-12-14 Thu 10:21] =>  0:02
 CLOCK: [2023-12-14 Thu 09:21]--[2023-12-14 Thu 09:36] =>  0:15

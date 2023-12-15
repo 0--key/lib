@@ -103,6 +103,10 @@
 
 ;; Org section
 (global-set-key (kbd "C-c c") 'org-capture)
+(key-chord-define-global "cy"
+			 (lambda ()
+			   (interactive)
+			   (org-capture nil "cc")))
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define-global "qq"     'org-fill-paragraph)
 ;; (key-chord-define org-mode-map "km"     'org-meta-return) ;; useless
