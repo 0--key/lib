@@ -107,8 +107,9 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** INIT [#A] Company-Mode
-SCHEDULED: <2023-12-15 Fri>
+SCHEDULED: <2023-12-16 Sat>
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 15:57]--[2023-12-15 Fri 16:08] =>  0:11
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
 :END:
@@ -1000,6 +1001,7 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 18:17]
 CLOCK: [2023-12-15 Fri 12:14]--[2023-12-15 Fri 12:17] =>  0:03
 CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
 CLOCK: [2023-12-14 Thu 10:19]--[2023-12-14 Thu 10:21] =>  0:02
@@ -1590,10 +1592,11 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2023-12-15 Fri ++1w>
+SCHEDULED: <2023-12-22 Fri ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-08 Fri 16:18]
+:LAST_REPEAT: [2023-12-15 Fri 18:06]
 :END:
+- State "AMPLE"      from ""           [2023-12-15 Fri 18:06]
 - State "AMPLE"      from ""           [2023-12-08 Fri 16:18]
 - State "AMPLE"      from ""           [2023-11-24 Fri 14:33]
 - State "AMPLE"      from ""           [2023-11-17 Fri 09:06]
@@ -1601,6 +1604,7 @@ SCHEDULED: <2023-12-15 Fri ++1w>
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 17:47]--[2023-12-15 Fri 18:06] =>  0:19
 CLOCK: [2023-11-17 Fri 09:04]--[2023-11-17 Fri 09:06] =>  0:02
 CLOCK: [2023-11-10 Fri 09:52]--[2023-11-10 Fri 09:52] =>  0:00
 CLOCK: [2023-11-03 Fri 09:13]--[2023-11-03 Fri 09:30] =>  0:17
