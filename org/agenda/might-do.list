@@ -1966,11 +1966,20 @@ SCHEDULED: <2024-02-06 Tue>
 [2023-12-12 Tue 14:24]
 
 ** INIT Handling links
-SCHEDULED: <2023-12-15 Fri>
+SCHEDULED: <2023-12-18 Mon>
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 18:06]--[2023-12-15 Fri 18:16] =>  0:10
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
 [[info:org#Handling Links][org#Handling Links]]
+- elisp        ‘elisp:(find-file "Elisp.org")’ (Elisp form to evaluate)
+               ‘elisp:org-agenda’ (interactive Elisp command)
+   [2023-12-15 Fri 18:13]
+*** INIT External Links
+SCHEDULED: <2023-12-16 Sat>
+[[info:org#External Links]]
+[2023-12-15 Fri 18:14]
+
 ** DELAY Agenda commands
 SCHEDULED: <2023-12-26 Tue>
 :LOGBOOK:
