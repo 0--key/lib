@@ -196,10 +196,11 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** Declutter
-SCHEDULED: <2023-12-15 Fri ++4w>
+SCHEDULED: <2024-01-12 Fri ++4w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-17 Fri 09:40]
+:LAST_REPEAT: [2023-12-15 Fri 15:26]
 :END:
+- State "AMPLE"      from ""           [2023-12-15 Fri 15:26]
 - State "AMPLE"      from ""           [2023-11-17 Fri 09:40]
 - State "DONE"       from "ACTIVE"     [2023-10-18 Wed 15:23]
 - State "DONE"       from "ACTIVE"     [2023-04-03 Mon 15:13]
@@ -953,7 +954,7 @@ sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
 ** Goodies
 SCHEDULED: <2023-12-19 Tue>
 [[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
-** INIT The separate key-chord for clocked snippet
+** SET The separate key-chord for clocked snippet
 SCHEDULED: <2023-12-15 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-15 Fri 12:17]--[2023-12-15 Fri 12:36] =>  0:19
@@ -1350,6 +1351,8 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 15:25]--[2023-12-15 Fri 15:27] =>  0:02
+CLOCK: [2023-12-15 Fri 12:39]--[2023-12-15 Fri 12:39] =>  0:00
 CLOCK: [2023-12-14 Thu 09:14]--[2023-12-14 Thu 09:21] =>  0:07
 CLOCK: [2023-12-13 Wed 10:12]--[2023-12-13 Wed 10:39] =>  0:27
 CLOCK: [2023-12-12 Tue 09:05]--[2023-12-12 Tue 09:06] =>  0:01
@@ -2334,6 +2337,7 @@ CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 ** INIT Rhythmbox Dark Theme
 SCHEDULED: <2023-12-17 Sun>
 https://github.com/fossfreedom/alternative-toolbar
+https://wiki.gnome.org/Apps/Rhythmbox/FAQ
 * Events
 :PROPERTIES:
 :CATEGORY: Event

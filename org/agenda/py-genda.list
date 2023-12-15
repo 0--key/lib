@@ -94,7 +94,11 @@ SCHEDULED: <2023-12-15 Fri ++2d>
 - State "AMPLE"      from ""           [2023-10-09 Mon 12:00]
 - State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
 - State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
+- [[info:elpy.info#Emacs Basics]] [2023-12-15 Fri 15:40]
+- [[info:elpy.info#Projects]] [2023-12-15 Fri 15:49]
+- [2023-12-15 Fri 15:50]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 15:27]--[2023-12-15 Fri 15:52] =>  0:25
 CLOCK: [2023-12-12 Tue 14:30]--[2023-12-12 Tue 14:40] =>  0:10
 CLOCK: [2023-12-12 Tue 09:30]--[2023-12-12 Tue 10:07] =>  0:37
 CLOCK: [2023-12-11 Mon 09:56]--[2023-12-11 Mon 10:16] =>  0:20
