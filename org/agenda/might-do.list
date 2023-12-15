@@ -298,7 +298,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
-SCHEDULED: <2023-12-15 Fri ++2d>
+SCHEDULED: <2023-12-16 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-09 Sat 14:17]
 :END:
@@ -971,10 +971,11 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-15 Fri ++1d>
+SCHEDULED: <2023-12-16 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-14 Thu 18:29]
+:LAST_REPEAT: [2023-12-15 Fri 19:44]
 :END:
+- State "AMPLE"      from ""           [2023-12-15 Fri 19:44]
 - State "AMPLE"      from ""           [2023-12-14 Thu 18:29]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:57]
 - State "AMPLE"      from ""           [2023-12-09 Sat 19:00]
@@ -1001,7 +1002,7 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-15 Fri 18:17]
+CLOCK: [2023-12-15 Fri 18:17]--[2023-12-15 Fri 18:26] =>  0:09
 CLOCK: [2023-12-15 Fri 12:14]--[2023-12-15 Fri 12:17] =>  0:03
 CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
 CLOCK: [2023-12-14 Thu 10:19]--[2023-12-14 Thu 10:21] =>  0:02
@@ -1204,10 +1205,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-15 Fri ++1d>
+SCHEDULED: <2023-12-16 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-11 Mon 18:36]
+:LAST_REPEAT: [2023-12-15 Fri 19:44]
 :END:
+- State "AMPLE"      from ""           [2023-12-15 Fri 19:44]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:36]
 - State "AMPLE"      from ""           [2023-12-10 Sun 19:07]
 - State "AMPLE"      from ""           [2023-12-09 Sat 18:05]
@@ -1237,6 +1239,7 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 19:22]--[2023-12-15 Fri 19:37] =>  0:15
 CLOCK: [2023-12-11 Mon 18:24]--[2023-12-11 Mon 18:36] =>  0:12
 CLOCK: [2023-12-10 Sun 18:52]--[2023-12-10 Sun 19:06] =>  0:14
 CLOCK: [2023-12-09 Sat 17:50]--[2023-12-09 Sat 18:05] =>  0:15
@@ -1320,10 +1323,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-15 Fri ++1d>
+SCHEDULED: <2023-12-16 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-11 Mon 18:39]
+:LAST_REPEAT: [2023-12-15 Fri 19:43]
 :END:
+- State "AMPLE"      from ""           [2023-12-15 Fri 19:43]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:39]
 - State "AMPLE"      from ""           [2023-12-10 Sun 19:08]
 - State "AMPLE"      from ""           [2023-11-16 Thu 18:57]
@@ -1353,6 +1357,7 @@ SCHEDULED: <2023-12-15 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-15 Fri 19:17]--[2023-12-15 Fri 19:22] =>  0:05
 CLOCK: [2023-12-15 Fri 15:25]--[2023-12-15 Fri 15:27] =>  0:02
 CLOCK: [2023-12-15 Fri 12:39]--[2023-12-15 Fri 12:39] =>  0:00
 CLOCK: [2023-12-14 Thu 09:14]--[2023-12-14 Thu 09:21] =>  0:07
@@ -1492,7 +1497,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-15 Fri ++1d>
+SCHEDULED: <2023-12-16 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-14 Thu 18:35]
 :END:
@@ -2341,7 +2346,7 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
-SCHEDULED: <2023-12-15 Fri>
+SCHEDULED: <2023-12-17 Sun>
 ** INIT [#A] Search reference in *info*
 SCHEDULED: <2023-12-16 Sat>
 :LOGBOOK:
