@@ -65,6 +65,7 @@
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
    '(eglot elpy xclip dictionary find-file-in-project google-translate key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup)))
+ '(vc-follow-symlinks t))
 
 
 (custom-set-faces
