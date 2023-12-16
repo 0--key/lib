@@ -65,6 +65,7 @@
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
 (key-chord-define with-editor-mode-map "dc"     'with-editor-finish) ;; ~cd~ in bash
+(key-chord-define-global "pi"     'info-apropos)
 
 
 ;; Searching
