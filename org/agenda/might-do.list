@@ -692,13 +692,14 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2023-12-16 Sat ++5w>
+SCHEDULED: <2024-01-20 Sat ++5w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-10-30 Mon 10:26]
+:LAST_REPEAT: [2023-12-16 Sat 10:59]
 :END:
 
 
 
+- State "AMPLE"      from ""           [2023-12-16 Sat 10:59]
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:26]
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
@@ -1002,6 +1003,7 @@ SCHEDULED: <2023-12-16 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 11:08]
 CLOCK: [2023-12-15 Fri 18:17]--[2023-12-15 Fri 18:26] =>  0:09
 CLOCK: [2023-12-15 Fri 12:14]--[2023-12-15 Fri 12:17] =>  0:03
 CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
@@ -1357,6 +1359,7 @@ SCHEDULED: <2023-12-16 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 10:58]--[2023-12-16 Sat 11:08] =>  0:10
 CLOCK: [2023-12-15 Fri 19:17]--[2023-12-15 Fri 19:22] =>  0:05
 CLOCK: [2023-12-15 Fri 15:25]--[2023-12-15 Fri 15:27] =>  0:02
 CLOCK: [2023-12-15 Fri 12:39]--[2023-12-15 Fri 12:39] =>  0:00
