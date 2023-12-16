@@ -64,7 +64,6 @@
 (key-chord-define-global "gs"     'magit-status)
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
-(key-chord-define org-capture-mode-map "dc"     'org-capture-finalize)
 (key-chord-define with-editor-mode-map "dc"     'with-editor-finish) ;; ~cd~ in bash
 
 
@@ -108,6 +107,7 @@
 			   (interactive)
 			   (org-capture nil "cc")))
 (global-set-key (kbd "C-c a") 'org-agenda)
+(key-chord-define org-mode-map "dc"     'org-capture-finalize)
 (key-chord-define-global "qq"     'org-fill-paragraph)
 ;; (key-chord-define org-mode-map "km"     'org-meta-return) ;; useless
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
