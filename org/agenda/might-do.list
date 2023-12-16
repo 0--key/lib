@@ -107,8 +107,9 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** INIT [#A] Company-Mode
-SCHEDULED: <2023-12-16 Sat>
+SCHEDULED: <2023-12-19 Tue>
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 17:41]--[2023-12-16 Sat 17:53] =>  0:12
 CLOCK: [2023-12-15 Fri 15:57]--[2023-12-15 Fri 16:08] =>  0:11
 CLOCK: [2023-10-27 Fri 10:35]--[2023-10-27 Fri 11:04] =>  0:29
 CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
@@ -289,8 +290,9 @@ CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
 - https://github.com/mtekman/org-tanglesync.el [2023-11-10 Fri 16:36]
 ** Nov -- advanced ~epub~ reader
-SCHEDULED: <2023-12-16 Sat>
+SCHEDULED: <2023-12-17 Sun>
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 17:53]--[2023-12-16 Sat 18:06] =>  0:13
 CLOCK: [2023-12-14 Thu 10:29]--[2023-12-14 Thu 10:41] =>  0:12
 CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
@@ -298,12 +300,14 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
 ** Powerthesaurus
-SCHEDULED: <2023-12-16 Sat ++2d>
+SCHEDULED: <2023-12-18 Mon ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-09 Sat 14:17]
+:LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
+- State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 18:10]--[2023-12-16 Sat 18:17] =>  0:07
 CLOCK: [2023-12-14 Thu 10:21]--[2023-12-14 Thu 10:29] =>  0:08
 CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
@@ -323,8 +327,8 @@ SCHEDULED: <2022-11-29 Tue>
 For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
-** DELAY Archive non-actual tasks
-SCHEDULED: <2023-12-17 Sun .+3d/4d>
+** LAG Archive non-actual tasks
+SCHEDULED: <2024-04-18 Thu .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -487,8 +491,8 @@ their own, creating a surrogate for your time for money trade.][Build money tree
 But then you can sell it to multiple people further down the line.
 [[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
 ** RAW The Rules of the Game, by Neil Strauss
-** DELAY Archive Day Weekly
-SCHEDULED: <2023-12-17 Sun +1w>
+** LAG Archive Day Weekly
+SCHEDULED: <2024-04-18 Thu +1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -532,8 +536,8 @@ CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
 [[info:org#Progress Logging]]
 ** INIT Brendan Kelly                                              :ARCHIVE:
 DEADLINE: <2022-12-06 Tue -3d>
-** DELAY Monthly archive day .+4w
-SCHEDULED: <2023-12-17 Sun .+4w>
+** LAG Monthly archive day .+4w
+SCHEDULED: <2024-04-18 Thu .+4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:21]
 :END:
@@ -1003,7 +1007,8 @@ SCHEDULED: <2023-12-16 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-16 Sat 11:08]
+CLOCK: [2023-12-16 Sat 18:54]
+CLOCK: [2023-12-16 Sat 11:08]--[2023-12-16 Sat 11:14] =>  0:06
 CLOCK: [2023-12-15 Fri 18:17]--[2023-12-15 Fri 18:26] =>  0:09
 CLOCK: [2023-12-15 Fri 12:14]--[2023-12-15 Fri 12:17] =>  0:03
 CLOCK: [2023-12-14 Thu 11:36]--[2023-12-14 Thu 11:55] =>  0:19
@@ -1325,10 +1330,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-16 Sat ++1d>
+SCHEDULED: <2023-12-17 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-15 Fri 19:43]
+:LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
+- State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-15 Fri 19:43]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:39]
 - State "AMPLE"      from ""           [2023-12-10 Sun 19:08]
@@ -1523,6 +1529,7 @@ SCHEDULED: <2023-12-16 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 18:50]--[2023-12-16 Sat 18:54] =>  0:04
 CLOCK: [2023-12-14 Thu 18:30]--[2023-12-14 Thu 18:35] =>  0:05
 CLOCK: [2023-12-11 Mon 18:48]--[2023-12-11 Mon 18:57] =>  0:09
 CLOCK: [2023-12-09 Sat 18:45]--[2023-12-09 Sat 18:48] =>  0:03
@@ -1987,8 +1994,11 @@ CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 - elisp        ‘elisp:(find-file "Elisp.org")’ (Elisp form to evaluate)
                ‘elisp:org-agenda’ (interactive Elisp command)
    [2023-12-15 Fri 18:13]
-*** INIT External Links
-SCHEDULED: <2023-12-16 Sat>
+*** TODO External Links
+SCHEDULED: <2023-12-18 Mon>
+:LOGBOOK:
+CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
+:END:
 [[info:org#External Links]]
 [2023-12-15 Fri 18:14]
 
@@ -2350,11 +2360,12 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2023-12-17 Sun>
-** INIT [#A] Search reference in *info*
-SCHEDULED: <2023-12-16 Sat>
+** TODO [#A] Search reference in *info*
+SCHEDULED: <2023-12-17 Sun>
 :LOGBOOK:
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
+[[help:Enabled][Help about *info*]]
 ** INIT Rhythmbox Dark Theme
 SCHEDULED: <2023-12-17 Sun>
 https://github.com/fossfreedom/alternative-toolbar

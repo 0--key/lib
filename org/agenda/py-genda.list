@@ -77,8 +77,9 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT EGlot
-SCHEDULED: <2023-12-16 Sat>
+SCHEDULED: <2023-12-17 Sun>
 :LOGBOOK:
+CLOCK: [2023-12-16 Sat 11:24]--[2023-12-16 Sat 11:43] =>  0:19
 CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
 :END:
 https://joaotavora.github.io/eglot/
