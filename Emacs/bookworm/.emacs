@@ -2,6 +2,14 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
+;; add all subdirs from host site-lisp to ~load-path~
+(let* ((my-lisp-dir "/usr/local/share/emacs/site-lisp/")
+       (default-directory my-lisp-dir)
+       (orig-load-path load-path))
+  (setq load-path (cons my-lisp-dir nil))
+  (normal-top-level-add-subdirs-to-load-path)
+  (nconc load-path orig-load-path))
+
 (require 'bookmark+)
 (require 'magit)
 (load-theme 'manoj-dark)
