@@ -976,7 +976,7 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-17 Sun ++1d>
+SCHEDULED: <2023-12-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:20]
 :END:
@@ -1563,7 +1563,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2023-12-20 Wed ++1w>
+SCHEDULED: <2023-12-26 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-13 Wed 10:07]
 :END:
@@ -1585,6 +1585,7 @@ SCHEDULED: <2023-12-20 Wed ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2023-12-26 Tue 16:38]
 CLOCK: [2023-11-23 Thu 10:33]--[2023-11-23 Thu 10:45] =>  0:12
 CLOCK: [2023-11-15 Wed 09:38]--[2023-11-15 Wed 09:56] =>  0:18
 CLOCK: [2023-11-01 Wed 09:47]--[2023-11-01 Wed 09:48] =>  0:01
