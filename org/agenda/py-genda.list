@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** INIT Python Talk to Me
-SCHEDULED: <2023-12-18 Mon ++3d>
+SCHEDULED: <2023-12-31 Sun ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
 :END:
@@ -27,7 +27,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 ** INIT Cracking coding interview
-SCHEDULED: <2023-12-22 Fri ++2d>
+SCHEDULED: <2023-12-31 Sun ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
@@ -39,7 +39,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2023-12-17 Sun ++2d>
+SCHEDULED: <2023-12-29 Fri ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -77,7 +77,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT EGlot
-SCHEDULED: <2023-12-17 Sun>
+SCHEDULED: <2023-12-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 11:24]--[2023-12-16 Sat 11:43] =>  0:19
 CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
@@ -86,7 +86,7 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:efaq#Installing Texinfo documentation][efaq#Installing Texinfo documentation]]
 ** RAW [#A] Elpy
-SCHEDULED: <2023-12-17 Sun ++2d>
+SCHEDULED: <2023-12-27 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -164,20 +164,20 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** INIT [#A] FlyMake
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2023-12-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
 
 *** DELAY [#C] The bald Python project
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2023-12-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
 **** INIT [#A] Style
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2024-01-02 Tue>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -219,7 +219,7 @@ CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
 http://pep8.org/
 https://pypi.org/project/autopep8/
 ***** DELAY YAPF
-SCHEDULED: <2023-12-18 Mon ++14d>
+SCHEDULED: <2024-01-01 Mon ++14d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-23 Thu 10:38]
 :END:
@@ -241,7 +241,7 @@ CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
 ***** INIT [#A] Zen
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2023-12-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
 CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
@@ -249,7 +249,7 @@ CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
 [[https://github.com/hblanks/zen-of-python-by-example]]
 [[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
 ***** LAG [#A] PyCodeStyle
-SCHEDULED: <2023-12-21 Thu ++4d>
+SCHEDULED: <2023-12-29 Fri ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 09:00]
 :END:
@@ -262,7 +262,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 **** DELAY [#B] Structure
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2023-12-31 Sun>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -274,7 +274,7 @@ CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
 **** DELAY [#B] Testing
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2024-01-01 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -292,7 +292,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT Play&Learn
-SCHEDULED: <2023-12-20 Wed>
+SCHEDULED: <2023-12-30 Sat>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -330,7 +330,7 @@ SCHEDULED: <2024-02-07 Wed>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2023-12-18 Mon>
+SCHEDULED: <2023-12-28 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -346,7 +346,7 @@ CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
 ** DELAY Packages
-SCHEDULED: <2023-12-17 Sun>
+SCHEDULED: <2023-12-28 Thu>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -358,7 +358,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** DELAY Intra-package References
-SCHEDULED: <2023-12-17 Sun>
+SCHEDULED: <2023-12-30 Sat>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -375,7 +375,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2023-12-18 Mon ++2d/3d>
+SCHEDULED: <2024-01-02 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -392,7 +392,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-12-18 Mon ++3d/4d>
+SCHEDULED: <2023-12-27 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
