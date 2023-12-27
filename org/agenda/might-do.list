@@ -133,7 +133,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** Extend
-SCHEDULED: <2023-12-27 Wed ++2w>
+SCHEDULED: <2023-12-28 Thu ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 17:56]
 :END:
@@ -567,8 +567,8 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 ** INIT Distributed rehearsal system                               :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
-** DELAY TODO keywords as types
-SCHEDULED: <2023-12-27 Wed>
+** LAG TODO keywords as types
+SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
 SCHEDULED: <2024-01-02 Tue .+1w>
@@ -1016,7 +1016,8 @@ SCHEDULED: <2023-12-27 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-26 Tue 17:10]
+CLOCK: [2023-12-27 Wed 19:06]
+CLOCK: [2023-12-26 Tue 17:10]--[2023-12-26 Tue 17:15] =>  0:05
 CLOCK: [2023-12-16 Sat 18:54]--[2023-12-16 Sat 19:02] =>  0:08
 CLOCK: [2023-12-16 Sat 11:08]--[2023-12-16 Sat 11:14] =>  0:06
 CLOCK: [2023-12-15 Fri 18:17]--[2023-12-15 Fri 18:26] =>  0:09
@@ -1222,10 +1223,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-26 Tue ++1d>
+SCHEDULED: <2023-12-28 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-16 Sat 19:20]
+:LAST_REPEAT: [2023-12-26 Tue 17:27]
 :END:
+- State "AMPLE"      from ""           [2023-12-26 Tue 17:27]
 - State "AMPLE"      from ""           [2023-12-16 Sat 19:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 19:44]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:36]
@@ -1257,6 +1259,7 @@ SCHEDULED: <2023-12-26 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2023-12-26 Tue 17:15]--[2023-12-26 Tue 17:27] =>  0:12
 CLOCK: [2023-12-16 Sat 19:05]--[2023-12-16 Sat 19:20] =>  0:15
 CLOCK: [2023-12-15 Fri 19:22]--[2023-12-15 Fri 19:37] =>  0:15
 CLOCK: [2023-12-11 Mon 18:24]--[2023-12-11 Mon 18:36] =>  0:12
@@ -1342,7 +1345,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-26 Tue ++1d>
+SCHEDULED: <2023-12-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
@@ -1377,6 +1380,7 @@ SCHEDULED: <2023-12-26 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-27 Wed 15:39]--[2023-12-27 Wed 15:45] =>  0:06
 CLOCK: [2023-12-26 Tue 17:00]--[2023-12-26 Tue 17:10] =>  0:10
 CLOCK: [2023-12-16 Sat 10:58]--[2023-12-16 Sat 11:08] =>  0:10
 CLOCK: [2023-12-15 Fri 19:17]--[2023-12-15 Fri 19:22] =>  0:05
@@ -1519,7 +1523,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-26 Tue ++1d>
+SCHEDULED: <2023-12-27 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:02]
 :END:
@@ -1737,8 +1741,9 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 *** [#A] New tasks trimming #3
 SCHEDULED: <2023-12-28 Thu ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-13 Wed 11:13]
+:LAST_REPEAT: [2023-12-27 Wed 16:06]
 :END:
+- State "AMPLE"      from ""           [2023-12-27 Wed 16:06]
 - State "AMPLE"      from ""           [2023-12-13 Wed 11:13]
 - State "AMPLE"      from ""           [2023-11-29 Wed 16:35]
 - State "AMPLE"      from ""           [2023-11-15 Wed 09:38]
@@ -1746,6 +1751,7 @@ SCHEDULED: <2023-12-28 Thu ++1w>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2023-12-27 Wed 15:54]--[2023-12-27 Wed 16:05] =>  0:11
 CLOCK: [2023-12-13 Wed 11:03]--[2023-12-13 Wed 11:13] =>  0:10
 CLOCK: [2023-12-13 Wed 10:39]--[2023-12-13 Wed 10:55] =>  0:16
 CLOCK: [2023-11-29 Wed 16:11]--[2023-11-29 Wed 16:35] =>  0:24
@@ -2060,8 +2066,8 @@ with CC to Kane and Noel
 For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
-** DELAY Stackoverflow profile elaboration
-SCHEDULED: <2023-12-27 Wed>
+** LAG Stackoverflow profile elaboration
+SCHEDULED: <2024-04-10 Wed>
 - Note taken on [2023-06-06 Tue 06:59] \\
   It's an optional skill and might been acquired in a leasure or idle
   time a little bit later. Naturally it relates from the applied
@@ -2263,7 +2269,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
-** LAG [#A] Test Jedi inside Emacs
+** INIT [#A] Test Jedi inside Emacs
 SCHEDULED: <2023-12-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
@@ -2283,9 +2289,10 @@ SCHEDULED: <2024-01-05 Fri>
 CLOCK: [2023-11-10 Fri 09:31]--[2023-11-10 Fri 09:39] =>  0:08
 :END:
 - python code static checker [2023-11-10 Fri 09:36]
-- Pylint analyses your code without actually running it. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions
-  about how the code could be refactored.
-   [2023-11-10 Fri 09:36]
+- Pylint analyses your code without actually running it. It checks for
+  errors, enforces a coding standard, looks for code smells, and can
+  make suggestions about how the code could be refactored.
+  [2023-11-10 Fri 09:36]
 - [[https://pypi.org/project/pylint/]] [2023-11-10 Fri 09:38]
 *** DELAY What is FlyCheck?
 SCHEDULED: <2024-01-05 Fri>
@@ -2377,7 +2384,7 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2023-12-28 Thu>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2023-12-27 Wed>
+SCHEDULED: <2023-12-28 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:

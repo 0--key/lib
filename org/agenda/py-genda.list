@@ -86,7 +86,7 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:efaq#Installing Texinfo documentation][efaq#Installing Texinfo documentation]]
 ** RAW [#A] Elpy
-SCHEDULED: <2023-12-27 Wed ++2d>
+SCHEDULED: <2023-12-28 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -163,9 +163,10 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
   What is ~pip~ and how it works?
 *
 
-**** INIT [#A] FlyMake
-SCHEDULED: <2023-12-28 Thu>
+**** TODO FlyMake
+SCHEDULED: <2024-01-01 Mon>
 :LOGBOOK:
+CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
@@ -232,8 +233,8 @@ CLOCK: [2023-11-06 Mon 11:34]--[2023-11-06 Mon 11:46] =>  0:12
 CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
 :END:
 https://github.com/google/yapf
-***** DELAY [#A] BLACK
-SCHEDULED: <2023-12-27 Wed>
+***** LAG [#A] BLACK
+SCHEDULED: <2024-03-13 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
 CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
@@ -392,7 +393,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#A] LeetCode
-SCHEDULED: <2023-12-27 Wed ++3d/4d>
+SCHEDULED: <2024-01-10 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
