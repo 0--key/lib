@@ -1771,6 +1771,11 @@ CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
+**** INIT Effort in task resolving
+SCHEDULED: <2024-01-02 Tue>
+[[info:org#Effort Estimates][org#Effort Estimates]]
+[2023-12-27 Wed 16:01]
+
 *** Figuring out new tasks
 It is their delineation
 ** X-NOX-clipboard issue fix
