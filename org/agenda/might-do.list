@@ -60,7 +60,7 @@ https://git-scm.com/book/en/v2/Git-Basics-Tagging
 SCHEDULED: <2023-12-30 Sat>
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 ** ACTIVE Basic Branches&Merging
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -133,7 +133,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** Extend
-SCHEDULED: <2023-12-28 Thu ++2w>
+SCHEDULED: <2023-12-29 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 17:56]
 :END:
@@ -276,7 +276,7 @@ CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
 [[info:emacs#Projects][emacs#Projects]]
 ** INIT Magit {rj*g}
-SCHEDULED: <2023-12-28 Thu ++2d>
+SCHEDULED: <2024-01-10 Wed ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 :END:
@@ -646,8 +646,8 @@ SCHEDULED: <2022-12-08 Thu>
 :PROPERTIES:
 :CATEGORY: kin
 :END:
-*** DELAY Bash with Andrew
-SCHEDULED: <2023-12-29 Fri .+1w>
+*** LAG Bash with Andrew
+SCHEDULED: <2024-04-12 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 21:39]
 :END:
@@ -984,7 +984,7 @@ https://xakep.ru/2017/05/18/cli-console-tips/
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2023-12-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:20]
 :END:
@@ -1016,6 +1016,7 @@ SCHEDULED: <2023-12-28 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2023-12-29 Fri 12:48]
 CLOCK: [2023-12-27 Wed 19:06]--[2023-12-28 Wed 19:16] =>  0:10
 CLOCK: [2023-12-26 Tue 17:10]--[2023-12-26 Tue 17:15] =>  0:05
 CLOCK: [2023-12-16 Sat 18:54]--[2023-12-16 Sat 19:02] =>  0:08
@@ -1223,7 +1224,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2023-12-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-26 Tue 17:27]
 :END:
@@ -1380,7 +1381,7 @@ SCHEDULED: <2023-12-29 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
-CLOCK: [2023-12-29 Fri 12:43]
+CLOCK: [2023-12-29 Fri 12:43]--[2023-12-29 Fri 12:48] =>  0:05
 CLOCK: [2023-12-27 Wed 15:39]--[2023-12-27 Wed 15:45] =>  0:06
 CLOCK: [2023-12-26 Tue 17:00]--[2023-12-26 Tue 17:10] =>  0:10
 CLOCK: [2023-12-16 Sat 10:58]--[2023-12-16 Sat 11:08] =>  0:10
@@ -1524,7 +1525,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2023-12-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:02]
 :END:
@@ -1740,7 +1741,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming #3
-SCHEDULED: <2023-12-28 Thu ++1w>
+SCHEDULED: <2023-12-29 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-27 Wed 16:06]
 :END:
@@ -1919,8 +1920,8 @@ SCHEDULED: <2023-03-22 Wed>
 :LOGBOOK:
 CLOCK: [2023-03-22 Wed 14:08]--[2023-03-22 Wed 14:38] =>  0:30
 :END:
-** LAG The most frequent collocations
-SCHEDULED: <2023-12-29 Fri>
+** RETARD The most frequent collocations
+SCHEDULED: <2024-05-17 Fri>
 ** RETARD Python code is a lyrics
 SCHEDULED: <2024-04-24 Wed>
 - Note taken on [2023-09-25 Mon 10:19] \\
@@ -1984,8 +1985,8 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** DELAY LinkedIn
-SCHEDULED: <2023-12-28 Thu>
+** LAG LinkedIn
+SCHEDULED: <2024-04-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
@@ -2013,7 +2014,7 @@ SCHEDULED: <2024-02-06 Tue>
 [2023-12-12 Tue 14:24]
 
 ** INIT Handling links
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-10 Wed>
 :LOGBOOK:
 CLOCK: [2023-12-15 Fri 18:06]--[2023-12-15 Fri 18:16] =>  0:10
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
@@ -2121,8 +2122,8 @@ SCHEDULED: <2024-01-16 Tue>
 [[https://lucidmanager.org/productivity/emacs-chromebook/][link]]
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
-** DELAY How to say thank you
-SCHEDULED: <2023-12-28 Thu>
+** LAG How to say thank you
+SCHEDULED: <2024-04-04 Thu>
 - Note taken on [2023-11-15 Wed 09:14] \\
   I’m so grateful for your help.
   Your generosity never ceases to amaze me. Thanks!
@@ -2209,8 +2210,8 @@ SCHEDULED: <2024-01-11 Thu>
 CLOCK: [2023-06-21 Wed 09:57]--[2023-06-21 Wed 10:19] =>  0:22
 CLOCK: [2023-06-21 Wed 08:43]--[2023-06-21 Wed 09:10] =>  0:27
 :END:
-** DELAY Zsh
-SCHEDULED: <2023-12-29 Fri>
+** LAG Zsh
+SCHEDULED: <2024-04-05 Fri>
 [[info:zsh#Top][zsh#Top]]
 #+begin_src sh
 alioth@penguin:~$ sudo apt-cache search zsh
@@ -2276,7 +2277,7 @@ CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
 ** INIT [#A] Test Jedi inside Emacs
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-03 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 :END:
@@ -2388,15 +2389,15 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2023-12-31 Sun>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-05 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
 [[help:Enabled][Help about *info*]]
 ** INIT Rhythmbox Dark Theme
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-09 Tue>
 https://github.com/fossfreedom/alternative-toolbar
 https://wiki.gnome.org/Apps/Rhythmbox/FAQ
 * Events

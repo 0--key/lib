@@ -86,7 +86,7 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:efaq#Installing Texinfo documentation][efaq#Installing Texinfo documentation]]
 ** RAW [#A] Elpy
-SCHEDULED: <2023-12-28 Thu ++2d>
+SCHEDULED: <2023-12-30 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -171,7 +171,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 :END:
 [[info:emacs#Flymake][emacs#Flymake]]
 
-*** DELAY [#C] The bald Python project
+*** INIT [#C] The bald Python project
 SCHEDULED: <2023-12-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
@@ -331,7 +331,7 @@ SCHEDULED: <2024-02-07 Wed>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2024-01-01 Mon>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -346,8 +346,8 @@ CLOCK: [2023-11-01 Wed 15:00]--[2023-11-01 Wed 15:06] =>  0:06
 CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
-** DELAY Packages
-SCHEDULED: <2023-12-28 Thu>
+** LAG Packages
+SCHEDULED: <2024-04-04 Thu>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -358,8 +358,8 @@ CLOCK: [2023-10-27 Fri 09:41]--[2023-10-27 Fri 10:11] =>  0:30
 CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
-*** DELAY Intra-package References
-SCHEDULED: <2023-12-30 Sat>
+*** LAG Intra-package References
+SCHEDULED: <2024-04-06 Sat>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04

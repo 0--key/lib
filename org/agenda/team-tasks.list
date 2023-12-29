@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * INIT [#A] Test-Driven Learining
-SCHEDULED: <2023-12-28 Thu>
+SCHEDULED: <2023-12-29 Fri>
 - Note taken on [2023-12-27 Wed 15:56] \\
   https://simpleprogrammer.com/test-driven-learning/
   https://nedbatchelder.com/text/test0.html
@@ -57,7 +57,7 @@ SCHEDULED: <2024-01-01 Mon ++1d>
 :END:
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2023-12-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-10 Fri 19:24]
 :CATEGORY: CoLab
