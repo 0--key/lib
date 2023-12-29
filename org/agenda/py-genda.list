@@ -39,7 +39,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2023-12-29 Fri ++2d>
+SCHEDULED: <2024-01-01 Mon ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -76,15 +76,20 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** INIT EGlot
-SCHEDULED: <2023-12-29 Fri>
+** EGlot
+SCHEDULED: <2023-12-31 Sun ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-29 Fri 13:42]
+:END:
+- State "AMPLE"      from ""           [2023-12-29 Fri 13:42]
 :LOGBOOK:
+CLOCK: [2023-12-29 Fri 13:22]--[2023-12-29 Fri 13:41] =>  0:19
 CLOCK: [2023-12-16 Sat 11:24]--[2023-12-16 Sat 11:43] =>  0:19
 CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
 :END:
 https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
-[[info:efaq#Installing Texinfo documentation][efaq#Installing Texinfo documentation]]
+[[info:eglot#Top][eglot#Top]]
 ** RAW [#A] Elpy
 SCHEDULED: <2023-12-30 Sat ++2d>
 :PROPERTIES:
@@ -172,7 +177,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:emacs#Flymake][emacs#Flymake]]
 
 *** INIT [#C] The bald Python project
-SCHEDULED: <2023-12-29 Fri>
+SCHEDULED: <2024-01-01 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -241,16 +246,16 @@ CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 :END:
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
-***** INIT [#A] Zen
-SCHEDULED: <2023-12-29 Fri>
+***** DELAY [#A] Zen
+SCHEDULED: <2024-03-08 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
 CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
 :END:
 [[https://github.com/hblanks/zen-of-python-by-example]]
 [[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
-***** LAG [#A] PyCodeStyle
-SCHEDULED: <2023-12-29 Fri ++4d>
+***** RETARD [#A] PyCodeStyle
+SCHEDULED: <2024-05-17 Fri ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 09:00]
 :END:

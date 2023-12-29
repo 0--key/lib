@@ -12,12 +12,17 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* INIT [#A] Test-Driven Learining
-SCHEDULED: <2023-12-29 Fri>
+* [#A] Test-Driven Learining
+SCHEDULED: <2023-12-30 Sat ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-29 Fri 13:04]
+:END:
+- State "AMPLE"      from ""           [2023-12-29 Fri 13:04]
 - Note taken on [2023-12-27 Wed 15:56] \\
   https://simpleprogrammer.com/test-driven-learning/
   https://nedbatchelder.com/text/test0.html
 :LOGBOOK:
+CLOCK: [2023-12-29 Fri 12:55]--[2023-12-29 Fri 13:03] =>  0:08
 CLOCK: [2023-12-28 Thu 10:40]--[2023-12-28 Thu 10:51] =>  0:11
 CLOCK: [2023-11-15 Wed 10:22]--[2023-11-15 Wed 10:26] =>  0:04
 CLOCK: [2023-11-06 Mon 09:41]--[2023-11-06 Mon 10:09] =>  0:28
