@@ -18,6 +18,7 @@ SCHEDULED: <2023-12-28 Thu>
   https://simpleprogrammer.com/test-driven-learning/
   https://nedbatchelder.com/text/test0.html
 :LOGBOOK:
+CLOCK: [2023-12-28 Thu 10:40]--[2023-12-28 Thu 10:51] =>  0:11
 CLOCK: [2023-11-15 Wed 10:22]--[2023-11-15 Wed 10:26] =>  0:04
 CLOCK: [2023-11-06 Mon 09:41]--[2023-11-06 Mon 10:09] =>  0:28
 :END:
@@ -50,7 +51,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2024-01-01 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 12:13]
 :END:

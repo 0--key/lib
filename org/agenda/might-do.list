@@ -984,7 +984,7 @@ https://xakep.ru/2017/05/18/cli-console-tips/
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2023-12-27 Wed ++1d>
+SCHEDULED: <2023-12-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:20]
 :END:
@@ -1016,7 +1016,7 @@ SCHEDULED: <2023-12-27 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2023-12-27 Wed 19:06]
+CLOCK: [2023-12-27 Wed 19:06]--[2023-12-28 Wed 19:16] =>  0:10
 CLOCK: [2023-12-26 Tue 17:10]--[2023-12-26 Tue 17:15] =>  0:05
 CLOCK: [2023-12-16 Sat 18:54]--[2023-12-16 Sat 19:02] =>  0:08
 CLOCK: [2023-12-16 Sat 11:08]--[2023-12-16 Sat 11:14] =>  0:06
@@ -1345,7 +1345,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2023-12-28 Thu ++1d>
+SCHEDULED: <2023-12-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
@@ -1380,6 +1380,7 @@ SCHEDULED: <2023-12-28 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2023-12-29 Fri 12:43]
 CLOCK: [2023-12-27 Wed 15:39]--[2023-12-27 Wed 15:45] =>  0:06
 CLOCK: [2023-12-26 Tue 17:00]--[2023-12-26 Tue 17:10] =>  0:10
 CLOCK: [2023-12-16 Sat 10:58]--[2023-12-16 Sat 11:08] =>  0:10
@@ -1523,7 +1524,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2023-12-27 Wed ++1d>
+SCHEDULED: <2023-12-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:02]
 :END:
