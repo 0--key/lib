@@ -573,11 +573,12 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2024-01-02 Tue .+1w>
+SCHEDULED: <2024-01-09 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2023-12-26 Tue 17:08]
+:LAST_REPEAT: [2024-01-02 Tue 14:34]
 :END:
+- State "AMPLE"      from ""           [2024-01-02 Tue 14:34]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:08]
 - State "AMPLE"      from ""           [2023-12-12 Tue 09:16]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
@@ -1031,7 +1032,9 @@ SCHEDULED: <2024-01-02 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-02 Tue 14:29]
+CLOCK: [2024-01-02 Tue 17:14]
+CLOCK: [2024-01-02 Tue 15:22]--[2024-01-02 Tue 15:26] =>  0:04
+CLOCK: [2024-01-02 Tue 14:29]--[2024-01-02 Tue 14:33] =>  0:04
 CLOCK: [2023-12-29 Fri 14:15]--[2023-12-29 Fri 14:20] =>  0:05
 CLOCK: [2023-12-29 Fri 12:48]--[2023-12-29 Fri 12:55] =>  0:07
 CLOCK: [2023-12-27 Wed 19:06]--[2023-12-28 Wed 19:16] =>  0:10
@@ -1241,10 +1244,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-01-02 Tue ++1d>
+SCHEDULED: <2024-01-03 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-29 Fri 14:37]
+:LAST_REPEAT: [2024-01-02 Tue 15:53]
 :END:
+- State "AMPLE"      from ""           [2024-01-02 Tue 15:53]
 - State "AMPLE"      from ""           [2023-12-29 Fri 14:37]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:27]
 - State "AMPLE"      from ""           [2023-12-16 Sat 19:20]
@@ -1278,6 +1282,7 @@ SCHEDULED: <2024-01-02 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2024-01-02 Tue 15:28]--[2024-01-02 Tue 15:53] =>  0:25
 CLOCK: [2023-12-29 Fri 14:20]--[2023-12-29 Fri 14:36] =>  0:16
 CLOCK: [2023-12-26 Tue 17:15]--[2023-12-26 Tue 17:27] =>  0:12
 CLOCK: [2023-12-16 Sat 19:05]--[2023-12-16 Sat 19:20] =>  0:15
@@ -1599,10 +1604,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2024-01-02 Tue ++1w>
+SCHEDULED: <2024-01-09 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-26 Tue 17:08]
+:LAST_REPEAT: [2024-01-02 Tue 15:11]
 :END:
+- State "AMPLE"      from ""           [2024-01-02 Tue 15:11]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:08]
 - State "AMPLE"      from ""           [2023-12-13 Wed 10:07]
 - State "AMPLE"      from ""           [2023-11-29 Wed 16:09]
@@ -1622,6 +1628,7 @@ SCHEDULED: <2024-01-02 Tue ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2024-01-02 Tue 14:59]--[2024-01-02 Tue 15:11] =>  0:12
 CLOCK: [2024-01-02 Tue 14:22]--[2024-01-02 Tue 14:26] =>  0:04
 CLOCK: [2023-12-26 Tue 16:38]--[2023-12-26 Tue 17:00] =>  0:22
 CLOCK: [2023-11-23 Thu 10:33]--[2023-11-23 Thu 10:45] =>  0:12
@@ -1762,10 +1769,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming #3
-SCHEDULED: <2024-01-02 Tue ++1w>
+SCHEDULED: <2024-01-09 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-27 Wed 16:06]
+:LAST_REPEAT: [2024-01-02 Tue 15:21]
 :END:
+- State "AMPLE"      from ""           [2024-01-02 Tue 15:21]
 - State "AMPLE"      from ""           [2023-12-27 Wed 16:06]
 - State "AMPLE"      from ""           [2023-12-13 Wed 11:13]
 - State "AMPLE"      from ""           [2023-11-29 Wed 16:35]
@@ -1774,6 +1782,7 @@ SCHEDULED: <2024-01-02 Tue ++1w>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2024-01-02 Tue 15:11]--[2024-01-02 Tue 15:21] =>  0:10
 CLOCK: [2023-12-27 Wed 15:54]--[2023-12-27 Wed 16:05] =>  0:11
 CLOCK: [2023-12-13 Wed 11:03]--[2023-12-13 Wed 11:13] =>  0:10
 CLOCK: [2023-12-13 Wed 10:39]--[2023-12-13 Wed 10:55] =>  0:16
@@ -2436,7 +2445,7 @@ https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859
 https://guildhallderry.com/
 
 *** DELAY [#C] Electric Ireland
-SCHEDULED: <2024-01-02 Tue>
+SCHEDULED: <2024-01-03 Wed>
 
 *** AMPLE Ballyraine Park Health Cetre
 SCHEDULED: <2023-11-13 Mon 14:00>
