@@ -980,6 +980,18 @@ https://xakep.ru/2016/05/17/console-magic/
 https://xakep.ru/2014/09/10/obustraivaem-minimalistichnoe-rabochee-okruzhenie/
 https://xakep.ru/2018/12/05/idefree/
 https://xakep.ru/2017/05/18/cli-console-tips/
+** INIT https://www.poetryfoundation.org/poems/43798/ae-fond-kiss
+SCHEDULED: <2024-01-12 Fri>
+** INIT https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb
+SCHEDULED: <2024-01-05 Fri>
+** INIT Enhanced self-esteem
+SCHEDULED: <2024-01-14 Sun>
+1. Acknowledge and count your wins
+2. Reward efforts,  not outcomes
+3. Easy wins first, then stack
+4. Build self trust in your word
+5. Manage expectations
+6. Visualisation
 
 * Tasks
 ** Chores
@@ -2346,8 +2358,12 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 ** LAG Bayes' Theorem
 SCHEDULED: <2024-01-18 Thu>
 In fire alarm example
-** INIT Math with Andrew
-SCHEDULED: <2024-01-02 Tue>
+** RAW Math with Andrew
+SCHEDULED: <2024-01-04 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 15:22]
+:END:
+- State "AMPLE"      from "INIT"       [2024-01-02 Tue 15:22]
 https://www.youtube.com/watch?v=OHw8ReqH968
 ** DELAY [#B] Emacs' innate themes
 SCHEDULED: <2024-02-26 Mon>
@@ -2407,6 +2423,9 @@ CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 SCHEDULED: <2024-01-09 Tue>
 https://github.com/fossfreedom/alternative-toolbar
 https://wiki.gnome.org/Apps/Rhythmbox/FAQ
+** INIT Exclude =ORG= folder from ~load-path~
+SCHEDULED: <2024-01-09 Tue>
+** RAW Rainbow-delimiters                                    :goodies:Emacs:
 * Events
 :PROPERTIES:
 :CATEGORY: Event
