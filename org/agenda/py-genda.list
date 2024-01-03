@@ -76,13 +76,26 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** EGlot
-SCHEDULED: <2024-01-02 Tue ++2d>
+** Emacs as Python IDE
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-29 Fri 13:42]
+:LAST_REPEAT: [2024-01-03 Wed 16:18]
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 16:18]
+:LOGBOOK:
+CLOCK: [2024-01-03 Wed 15:59]--[2024-01-03 Wed 16:18] =>  0:19
+CLOCK: [2024-01-03 Wed 13:51]--[2024-01-03 Wed 14:06] =>  0:15
+:END:
+https://www.youtube.com/watch?v=jPXIP46BnNA
+** EGlot
+SCHEDULED: <2024-01-04 Thu ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 17:52]
+:END:
+- State "AMPLE"      from ""           [2024-01-02 Tue 17:52]
 - State "AMPLE"      from ""           [2023-12-29 Fri 13:42]
 :LOGBOOK:
+CLOCK: [2024-01-02 Tue 17:23]--[2024-01-02 Tue 17:51] =>  0:28
 CLOCK: [2023-12-29 Fri 13:22]--[2023-12-29 Fri 13:41] =>  0:19
 CLOCK: [2023-12-16 Sat 11:24]--[2023-12-16 Sat 11:43] =>  0:19
 CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
@@ -90,6 +103,7 @@ CLOCK: [2023-12-13 Wed 11:24]--[2023-12-13 Wed 11:41] =>  0:17
 https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
+[[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** RAW [#A] Elpy
 SCHEDULED: <2024-01-06 Sat ++2d>
 :PROPERTIES:
@@ -169,7 +183,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** TODO FlyMake
-SCHEDULED: <2024-01-03 Wed>
+SCHEDULED: <2024-01-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -182,8 +196,8 @@ SCHEDULED: <2024-01-06 Sat>
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-**** INIT [#A] Style
-SCHEDULED: <2024-01-03 Wed>
+**** TODO [#A] Style
+SCHEDULED: <2024-01-04 Thu>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 

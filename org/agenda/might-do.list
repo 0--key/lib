@@ -57,8 +57,17 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** INIT Advanced Merging
-SCHEDULED: <2024-01-04 Thu>
+SCHEDULED: <2024-01-05 Fri>
+- Note taken on [2024-01-03 Wed 16:43] \\
+  First of all, if at all possible, try to make sure your working
+  directory is clean before doing a merge that may have conflicts. If
+  you have work in progress, either commit it to a temporary branch or
+  stash it.
+:LOGBOOK:
+CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
+:END:
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
+[[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
 ** ACTIVE Basic Branches&Merging
 SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
@@ -67,21 +76,23 @@ CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
-** TODO Stashes
-SCHEDULED: <2024-01-03 Wed>
+** ACTIVE Stashes
+SCHEDULED: <2024-01-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** [#A] ReSet, ReBase
-SCHEDULED: <2024-01-03 Wed ++2d/3d>
+SCHEDULED: <2024-01-05 Fri ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-15 Wed 11:00]
+:LAST_REPEAT: [2024-01-03 Wed 16:57]
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 16:57]
 - State "AMPLE"      from ""           [2023-11-15 Wed 11:00]
 - State "AMPLE"      from ""           [2023-11-09 Thu 18:39]
 - State "AMPLE"      from ""           [2023-11-06 Mon 11:31]
 :LOGBOOK:
+CLOCK: [2024-01-03 Wed 16:31]--[2024-01-03 Wed 16:39] =>  0:08
 CLOCK: [2023-11-15 Wed 10:55]--[2023-11-15 Wed 11:00] =>  0:05
 CLOCK: [2023-11-15 Wed 10:43]--[2023-11-15 Wed 10:48] =>  0:05
 CLOCK: [2023-11-09 Thu 10:23]--[2023-11-09 Thu 10:43] => 0:20
@@ -133,10 +144,11 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** Extend
-SCHEDULED: <2024-01-03 Wed ++2w>
+SCHEDULED: <2024-01-17 Wed ++2w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-08 Fri 17:56]
+:LAST_REPEAT: [2024-01-03 Wed 17:26]
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 17:26]
 - State "AMPLE"      from ""           [2023-12-08 Fri 17:56]
 [[file:~/Git/0--key/lib/Emacs/bookworm/key-chords.el][file:~/Git/0--key/lib/Emacs/bookworm/key-chords.el]]
 :LOGBOOK:
@@ -316,7 +328,7 @@ CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 ** emacs-nox
-SCHEDULED: <2024-01-03 Wed>
+SCHEDULED: <2024-01-30 Tue>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
 * Notes
@@ -685,7 +697,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2024-01-03 Wed .+1w>
+SCHEDULED: <2024-01-10 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-03 Fri 09:03]
 :END:
@@ -701,7 +713,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-01-20 Sat ++5w>
+SCHEDULED: <2024-01-04 Thu ++5w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 10:59]
 :END:
@@ -962,8 +974,11 @@ SCHEDULED: <2024-01-06 Sat>
 ** Backlit keyboard
 SCHEDULED: <2024-01-09 Tue>
 sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
-** Goodies
-SCHEDULED: <2024-01-02 Tue>
+** DELAY Goodies
+SCHEDULED: <2024-02-28 Wed>
+:LOGBOOK:
+CLOCK: [2024-01-03 Wed 17:04]--[2024-01-03 Wed 17:12] =>  0:08
+:END:
 [[https://salsa.debian.org/emacsen-team/emacs-goodies-el/-/blob/master/debian/README.Debian][Descrtiption]]
 ** SET The separate key-chord for clocked snippet
 SCHEDULED: <2023-12-15 Fri>
@@ -993,14 +1008,14 @@ SCHEDULED: <2024-01-14 Sun>
 4. Build self trust in your word
 5. Manage expectations
 6. Visualisation
-
+https://www.youtube.com/watch?v=0ruvCL9atE0
 * Tasks
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-01-02 Tue ++1d>
+SCHEDULED: <2024-01-03 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:20]
 :END:
@@ -1032,7 +1047,8 @@ SCHEDULED: <2024-01-02 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-02 Tue 17:14]
+CLOCK: [2024-01-03 Wed 17:26]
+CLOCK: [2024-01-02 Tue 17:14]--[2024-01-02 Tue 17:16] =>  0:02
 CLOCK: [2024-01-02 Tue 15:22]--[2024-01-02 Tue 15:26] =>  0:04
 CLOCK: [2024-01-02 Tue 14:29]--[2024-01-02 Tue 14:33] =>  0:04
 CLOCK: [2023-12-29 Fri 14:15]--[2023-12-29 Fri 14:20] =>  0:05
@@ -1370,7 +1386,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-02 Tue ++1d>
+SCHEDULED: <2024-01-03 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
@@ -1405,6 +1421,7 @@ SCHEDULED: <2024-01-02 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-03 Wed 13:34]--[2024-01-03 Wed 13:48] =>  0:14
 CLOCK: [2024-01-02 Tue 14:15]--[2024-01-02 Tue 14:22] =>  0:07
 CLOCK: [2023-12-29 Fri 12:43]--[2023-12-29 Fri 12:48] =>  0:05
 CLOCK: [2023-12-27 Wed 15:39]--[2023-12-27 Wed 15:45] =>  0:06
@@ -1550,7 +1567,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-02 Tue ++1d>
+SCHEDULED: <2024-01-03 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:02]
 :END:
@@ -1657,7 +1674,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2023-12-31 Sun ++1w>
+SCHEDULED: <2024-01-04 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 18:06]
 :END:
@@ -1804,14 +1821,21 @@ CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
 **** INIT Effort in task resolving
-SCHEDULED: <2024-01-02 Tue>
+SCHEDULED: <2024-01-05 Fri>
+:LOGBOOK:
+CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
+:END:
 [[info:org#Effort Estimates][org#Effort Estimates]]
 [2023-12-27 Wed 16:01]
+***** INIT Agenda Column View
+SCHEDULED: <2024-01-06 Sat>
+[[info:org#Column View]]
+[2024-01-02 Tue 17:21]
 
 *** Figuring out new tasks
 It is their delineation
 ** X-NOX-clipboard issue fix
-SCHEDULED: <2024-01-03 Wed>
+SCHEDULED: <2024-01-30 Tue>
 ** SET Re-configure org-capture's paths
 SCHEDULED: <2023-12-11 Mon>
 :LOGBOOK:
@@ -2051,8 +2075,8 @@ CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 - elisp        ‘elisp:(find-file "Elisp.org")’ (Elisp form to evaluate)
                ‘elisp:org-agenda’ (interactive Elisp command)
    [2023-12-15 Fri 18:13]
-*** TODO External Links
-SCHEDULED: <2024-01-02 Tue>
+*** DELAY External Links
+SCHEDULED: <2024-01-31 Wed>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
 :END:
@@ -2305,7 +2329,7 @@ CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
 ** INIT [#A] Test Jedi inside Emacs
-SCHEDULED: <2024-01-03 Wed>
+SCHEDULED: <2024-01-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 :END:
@@ -2445,7 +2469,7 @@ https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859
 https://guildhallderry.com/
 
 *** DELAY [#C] Electric Ireland
-SCHEDULED: <2024-01-03 Wed>
+SCHEDULED: <2024-01-31 Wed>
 
 *** AMPLE Ballyraine Park Health Cetre
 SCHEDULED: <2023-11-13 Mon 14:00>
