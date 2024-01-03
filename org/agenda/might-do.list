@@ -331,6 +331,9 @@ https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 SCHEDULED: <2024-01-30 Tue>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
+** Use-package as a panacea
+SCHEDULED: <2024-01-24 Wed>
+https://github.com/jwiegley/use-package
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
@@ -1047,7 +1050,8 @@ SCHEDULED: <2024-01-03 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-03 Wed 17:26]
+CLOCK: [2024-01-03 Wed 19:12]
+CLOCK: [2024-01-03 Wed 17:26]--[2024-01-03 Wed 17:34] =>  0:08
 CLOCK: [2024-01-02 Tue 17:14]--[2024-01-02 Tue 17:16] =>  0:02
 CLOCK: [2024-01-02 Tue 15:22]--[2024-01-02 Tue 15:26] =>  0:04
 CLOCK: [2024-01-02 Tue 14:29]--[2024-01-02 Tue 14:33] =>  0:04
@@ -1260,10 +1264,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-01-03 Wed ++1d>
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-02 Tue 15:53]
+:LAST_REPEAT: [2024-01-03 Wed 17:47]
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 17:47]
 - State "AMPLE"      from ""           [2024-01-02 Tue 15:53]
 - State "AMPLE"      from ""           [2023-12-29 Fri 14:37]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:27]
@@ -1298,6 +1303,7 @@ SCHEDULED: <2024-01-03 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2024-01-03 Wed 17:34]--[2024-01-03 Wed 17:47] =>  0:13
 CLOCK: [2024-01-02 Tue 15:28]--[2024-01-02 Tue 15:53] =>  0:25
 CLOCK: [2023-12-29 Fri 14:20]--[2023-12-29 Fri 14:36] =>  0:16
 CLOCK: [2023-12-26 Tue 17:15]--[2023-12-26 Tue 17:27] =>  0:12
