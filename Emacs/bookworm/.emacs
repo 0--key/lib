@@ -2,7 +2,7 @@
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
-;; add all subdirs from host site-lisp to ~load-path~
+;; add all subdirs from the host's =site-lisp= to ~load-path~
 (let* ((my-lisp-dir "/usr/local/share/emacs/site-lisp/")
        (default-directory my-lisp-dir)
        (orig-load-path load-path))
@@ -12,11 +12,13 @@
 
 (require 'bookmark+)
 (require 'magit)
-(load-theme 'manoj-dark)
+(require 'nov)
+(setq nov-text-width 80)
 
 (require 'org)
 (require 'org-agenda)
 (require 'org-tempo)
+(require 'org-capture)
 (require 'org-bullets)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (require 'key-chord)
@@ -34,23 +36,23 @@
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
+;; (setq google-translate-backend-method 'curl)
+
 
 (require 'python)
 (require 'pyvenv)
-;;(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy
-;;(pyvenv-activate "/home/alioth/.local/venv0.1/")
-(add-to-list 'load-path "/usr/local/share/emacs/site-lisp/elpy/")
-(load "elpy")
-(load "elpy-rpc")
-(load "elpy-shell")
-(load "elpy-profile")
-(load "elpy-refactor")
-;;(require 'elpy)
-(elpy-enable)
+;; (pyvenv-activate "/home/alioth/.local/venv0.1/")
+;; (add-to-list 'load-path "/usr/local/share/emacs/site-lisp/elpy/")
+;; (load "elpy")
+;; (load "elpy-rpc")
+;; (load "elpy-shell")
+;; (load "elpy-profile")
+;; (load "elpy-refactor")
+;; (elpy-enable)
 
 (require 'speed-type)
-(require 'xclip)
-(xclip-mode 1)
+;; (require 'xclip)
+;; (xclip-mode 1)
 
 
 
