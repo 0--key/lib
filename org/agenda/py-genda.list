@@ -196,8 +196,8 @@ SCHEDULED: <2024-01-06 Sat>
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-**** TODO [#A] Style
-SCHEDULED: <2024-01-04 Thu>
+**** DELAY [#A] Style
+SCHEDULED: <2024-02-08 Thu>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 

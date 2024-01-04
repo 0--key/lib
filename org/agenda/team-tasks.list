@@ -56,10 +56,18 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-01-04 Thu ++1d>
+SCHEDULED: <2024-01-05 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-03 Wed 13:37]
+:LAST_REPEAT: [2024-01-04 Thu 12:36]
 :END:
+- State "AMPLE"      from ""           [2024-01-04 Thu 12:36]
+- Note taken on [2024-01-04 Thu 12:32] \\
+  The lack of clarity detection and actions to prevent silly time
+  wasting:
+   - describe prerequisites;
+   - make note into the current *Agenda* item {~z~};
+   - stop timer;
+   - shift this item up to day or two.
 - State "AMPLE"      from ""           [2024-01-03 Wed 13:37]
 - Note taken on [2024-01-03 Wed 13:36] \\
   The Eisenhower Matrix overview
@@ -70,11 +78,12 @@ SCHEDULED: <2024-01-04 Thu ++1d>
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-01-03 Wed ++1d>
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-10 Fri 19:24]
+:LAST_REPEAT: [2024-01-03 Wed 19:13]
 :CATEGORY: CoLab
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 19:13]
 - State "AMPLE"      from ""           [2023-11-10 Fri 19:24]
 - State "AMPLE"      from ""           [2023-11-07 Tue 18:01]
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]

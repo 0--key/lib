@@ -295,8 +295,8 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 - Note taken on [2023-11-06 Mon 09:19] \\
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
-** Org-babel-detangle
-SCHEDULED: <2024-01-04 Thu>
+** DELAY Org-babel-detangle
+SCHEDULED: <2024-02-08 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
@@ -1018,10 +1018,11 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-01-03 Wed ++1d>
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-16 Sat 19:20]
+:LAST_REPEAT: [2024-01-03 Wed 19:14]
 :END:
+- State "AMPLE"      from ""           [2024-01-03 Wed 19:14]
 - State "AMPLE"      from ""           [2023-12-16 Sat 19:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 19:44]
 - State "AMPLE"      from ""           [2023-12-14 Thu 18:29]
@@ -1050,7 +1051,8 @@ SCHEDULED: <2024-01-03 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-03 Wed 19:12]
+CLOCK: [2024-01-04 Thu 12:38]
+CLOCK: [2024-01-03 Wed 19:12]--[2024-01-03 Wed 19:13] =>  0:01
 CLOCK: [2024-01-03 Wed 17:26]--[2024-01-03 Wed 17:34] =>  0:08
 CLOCK: [2024-01-02 Tue 17:14]--[2024-01-02 Tue 17:16] =>  0:02
 CLOCK: [2024-01-02 Tue 15:22]--[2024-01-02 Tue 15:26] =>  0:04
@@ -1392,7 +1394,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-03 Wed ++1d>
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 18:17]
 :END:
@@ -1427,6 +1429,7 @@ SCHEDULED: <2024-01-03 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-04 Thu 12:32]--[2024-01-04 Thu 12:38] =>  0:06
 CLOCK: [2024-01-03 Wed 13:34]--[2024-01-03 Wed 13:48] =>  0:14
 CLOCK: [2024-01-02 Tue 14:15]--[2024-01-02 Tue 14:22] =>  0:07
 CLOCK: [2023-12-29 Fri 12:43]--[2023-12-29 Fri 12:48] =>  0:05
@@ -1573,7 +1576,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-03 Wed ++1d>
+SCHEDULED: <2024-01-04 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 19:02]
 :END:
@@ -2334,8 +2337,8 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 08:40]--[2023-10-11 Wed 08:52] =>  0:12
 :END:
  as the separate file with highest priority
-** INIT [#A] Test Jedi inside Emacs
-SCHEDULED: <2024-01-04 Thu>
+** DELAY [#A] Test Jedi inside Emacs
+SCHEDULED: <2024-02-08 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
 :END:
@@ -2453,7 +2456,7 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2024-01-05 Fri>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-01-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
