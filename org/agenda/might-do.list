@@ -76,8 +76,8 @@ CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
-** ACTIVE Stashes
-SCHEDULED: <2024-01-04 Thu>
+** DELAY Stashes
+SCHEDULED: <2024-02-08 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
@@ -282,7 +282,7 @@ CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
 :END:
 [[info:emacs#Spelling][emacs#Spelling]]
 ** LAG [#A] Projects
-SCHEDULED: <2024-02-19 Mon>
+SCHEDULED: <2024-01-05 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-27 Fri 11:06]--[2023-10-27 Fri 11:14] =>  0:08
 :END:
@@ -302,8 +302,9 @@ CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 :END:
 - https://github.com/mtekman/org-tanglesync.el [2023-11-10 Fri 16:36]
 ** Nov -- advanced ~epub~ reader
-SCHEDULED: <2024-01-04 Thu>
+SCHEDULED: <2024-01-06 Sat>
 :LOGBOOK:
+CLOCK: [2024-01-04 Thu 14:24]--[2024-01-04 Thu 14:33] =>  0:09
 CLOCK: [2023-12-29 Fri 13:57]--[2023-12-29 Fri 14:15] =>  0:18
 CLOCK: [2023-12-29 Fri 13:42]--[2023-12-29 Fri 13:46] =>  0:04
 CLOCK: [2023-12-16 Sat 17:53]--[2023-12-16 Sat 18:06] =>  0:13
@@ -313,11 +314,15 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 - [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
 ** Treemacs
 SCHEDULED: <2024-01-12 Fri>
-** Powerthesaurus
-SCHEDULED: <2024-01-04 Thu ++2d>
+** DELAY Powerthesaurus
+SCHEDULED: <2024-03-02 Sat ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-16 Sat 18:17]
+:LAST_REPEAT: [2024-01-04 Thu 14:53]
 :END:
+- State "SET"        from ""           [2024-01-04 Thu 14:53]
+- Note taken on [2024-01-04 Thu 14:52] \\
+  It might be useful later, due to its innate ~replace~ by synonym
+  feature
 - State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
 :LOGBOOK:
@@ -334,6 +339,9 @@ colors for code changes areas in ~magit~ buffer are so vivid.
 ** Use-package as a panacea
 SCHEDULED: <2024-01-24 Wed>
 https://github.com/jwiegley/use-package
+** Mode Hooks
+SCHEDULED: <2024-01-18 Thu>
+https://www.emacswiki.org/emacs/ModeHooks
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
@@ -775,7 +783,7 @@ SCHEDULED: <2023-03-22 Wed>
 CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
 :END:
 Notetaking around a decent CV
-** LAG New dev environment on ChromeBook
+** LAG New dev environment on ChromeBook                           :ARCHIVE:
 SCHEDULED: <2024-01-05 Fri>
 :LOGBOOK:
 CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
@@ -813,7 +821,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** LAG Dry Creek Wrangler School
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 ** LAG Eudaimonia
 SCHEDULED: <2024-03-11 Mon>
 :LOGBOOK:
@@ -1051,7 +1059,8 @@ SCHEDULED: <2024-01-04 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-04 Thu 12:38]
+CLOCK: [2024-01-04 Thu 14:59]
+CLOCK: [2024-01-04 Thu 12:38]--[2024-01-04 Thu 12:53] =>  0:15
 CLOCK: [2024-01-03 Wed 19:12]--[2024-01-03 Wed 19:13] =>  0:01
 CLOCK: [2024-01-03 Wed 17:26]--[2024-01-03 Wed 17:34] =>  0:08
 CLOCK: [2024-01-02 Tue 17:14]--[2024-01-02 Tue 17:16] =>  0:02
@@ -1600,6 +1609,7 @@ SCHEDULED: <2024-01-04 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-01-04 Thu 14:55]--[2024-01-04 Thu 14:59] =>  0:04
 CLOCK: [2023-12-16 Sat 18:50]--[2023-12-16 Sat 18:54] =>  0:04
 CLOCK: [2023-12-14 Thu 18:30]--[2023-12-14 Thu 18:35] =>  0:05
 CLOCK: [2023-12-11 Mon 18:48]--[2023-12-11 Mon 18:57] =>  0:09
@@ -1683,10 +1693,11 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2024-01-04 Thu ++1w>
+SCHEDULED: <2024-01-11 Thu ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-15 Fri 18:06]
+:LAST_REPEAT: [2024-01-04 Thu 14:38]
 :END:
+- State "AMPLE"      from ""           [2024-01-04 Thu 14:38]
 - State "AMPLE"      from ""           [2023-12-15 Fri 18:06]
 - State "AMPLE"      from ""           [2023-12-08 Fri 16:18]
 - State "AMPLE"      from ""           [2023-11-24 Fri 14:33]
@@ -1695,6 +1706,7 @@ SCHEDULED: <2024-01-04 Thu ++1w>
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2024-01-04 Thu 13:23]--[2024-01-04 Thu 13:26] =>  0:03
 CLOCK: [2023-12-15 Fri 17:47]--[2023-12-15 Fri 18:06] =>  0:19
 CLOCK: [2023-11-17 Fri 09:04]--[2023-11-17 Fri 09:06] =>  0:02
 CLOCK: [2023-11-10 Fri 09:52]--[2023-11-10 Fri 09:52] =>  0:00
@@ -2113,7 +2125,7 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 SCHEDULED: <2023-11-27 Mon>
 For Andrew <<C-h ?>>
 ** LAG ScreenCasting
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 - Note taken on [2023-06-06 Tue 06:56] \\
   Seems like it is a separate skill to develop out from the set of
   already existing ones. And without any doubt it requres a massive
@@ -2124,7 +2136,7 @@ SCHEDULED: <2024-01-05 Fri>
 - YouTube upload
 - Another screen test
 ** LAG Paul Auster
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 ** DELAY Keep Going Austin Kleon
 SCHEDULED: <2024-01-20 Sat>
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
@@ -2160,7 +2172,7 @@ SCHEDULED: <2024-05-16 Thu>
  - SQL;
  - Docker??
 ** LAG English with Lucy
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
@@ -2236,15 +2248,15 @@ CLOCK: [2023-11-04 Sat 15:03]--[2023-11-04 Sat 15:23] =>  0:20
 [[https://engdic.org/creative-ways-to-say-thank-you-on-social-media/][createvely]]
 - My world is brighter because of your kindness. Thanks! [2023-11-14 Tue 15:48]
 ** LAG [#B] ChatGPT
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 :END:
 [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
-** DELAY 10 Daily Idioms
-SCHEDULED: <2024-01-05 Fri>
+** INIT 10 Daily Idioms
+SCHEDULED: <2024-01-06 Sat>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** RAW Ross Ashby
 [[http://www.rossashby.info/index.html][archive]]
@@ -2261,7 +2273,7 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 ** LAG Framework Thinking
 SCHEDULED: <2024-03-18 Mon>
 ** LAG Time is Space Concept
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-03-07 Thu>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
 ** DELAY [#A] 68 Bits of Unsolicited Advice
@@ -2351,8 +2363,8 @@ CLOCK: [2023-10-24 Tue 18:46]--[2023-10-24 Tue 19:20] =>  0:34
 :END:
 https://jedi.readthedocs.io/
 https://jedi.readthedocs.io/en/latest/docs/installation.html
-*** DELAY What is PyLint?
-SCHEDULED: <2024-01-05 Fri>
+*** LAG What is PyLint?
+SCHEDULED: <2024-03-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 09:31]--[2023-11-10 Fri 09:39] =>  0:08
 :END:
@@ -2362,16 +2374,16 @@ CLOCK: [2023-11-10 Fri 09:31]--[2023-11-10 Fri 09:39] =>  0:08
   make suggestions about how the code could be refactored.
   [2023-11-10 Fri 09:36]
 - [[https://pypi.org/project/pylint/]] [2023-11-10 Fri 09:38]
-*** DELAY What is FlyCheck?
-SCHEDULED: <2024-01-05 Fri>
+*** LAG What is FlyCheck?
+SCHEDULED: <2024-03-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 09:39]--[2023-11-10 Fri 09:46] =>  0:07
 :END:
 - elpa-flycheck - modern on-the-fly syntax checking for Emacs [2023-11-10 Fri 09:42]
 - flycheck-doc - modern on-the-fly syntax checking for Emacs - documentation [2023-11-10 Fri 09:42]
 - [[https://www.flycheck.org/en/latest/]] [2023-11-10 Fri 09:44]
-*** DELAY What is PyFlakes?
-SCHEDULED: <2024-01-05 Fri>
+*** LAG What is PyFlakes?
+SCHEDULED: <2024-03-07 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 09:46]--[2023-11-10 Fri 09:49] =>  0:03
 :END:
@@ -2456,11 +2468,12 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2024-01-05 Fri>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2024-01-04 Thu>
+SCHEDULED: <2024-01-06 Sat>
 :LOGBOOK:
+CLOCK: [2024-01-04 Thu 13:40]--[2024-01-04 Thu 13:51] =>  0:11
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
-[[help:Enabled][Help about *info*]]
+[[info:emacs#Regexp Search][emacs#Regexp Search]]
 ** INIT Rhythmbox Dark Theme
 SCHEDULED: <2024-01-09 Tue>
 https://github.com/fossfreedom/alternative-toolbar
