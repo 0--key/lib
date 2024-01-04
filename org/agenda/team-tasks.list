@@ -78,7 +78,7 @@ SCHEDULED: <2024-01-05 Fri ++1d>
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-01-04 Thu ++1d>
+SCHEDULED: <2024-01-05 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 19:13]
 :CATEGORY: CoLab
@@ -113,7 +113,7 @@ SCHEDULED: <2023-10-12 Thu>
 CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
-* [#A] Commits reviewing {jr>c}
+* Commits reviewing {jr>c}
 SCHEDULED: <2024-01-05 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 16:57]

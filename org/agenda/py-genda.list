@@ -76,7 +76,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** Emacs as Python IDE
+** [#A] Emacs as Python IDE
 SCHEDULED: <2024-01-05 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-04 Thu 13:18]
@@ -300,8 +300,8 @@ CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-**** DELAY [#B] Testing
-SCHEDULED: <2024-01-05 Fri>
+**** LAG [#B] Testing
+SCHEDULED: <2024-03-01 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
