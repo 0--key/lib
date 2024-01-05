@@ -76,14 +76,16 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** [#A] Emacs as Python IDE
-SCHEDULED: <2024-01-05 Fri ++1d>
+** RAW [#A] Emacs as Python IDE
+SCHEDULED: <2024-01-06 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-04 Thu 13:18]
+:LAST_REPEAT: [2024-01-05 Fri 14:41]
 :END:
+- State "AMPLE"      from ""           [2024-01-05 Fri 14:41]
 - State "AMPLE"      from ""           [2024-01-04 Thu 13:18]
 - State "AMPLE"      from ""           [2024-01-03 Wed 16:18]
 :LOGBOOK:
+CLOCK: [2024-01-05 Fri 14:21]--[2024-01-05 Fri 14:40] =>  0:19
 CLOCK: [2024-01-04 Thu 12:54]--[2024-01-04 Thu 13:18] =>  0:24
 CLOCK: [2024-01-03 Wed 15:59]--[2024-01-03 Wed 16:18] =>  0:19
 CLOCK: [2024-01-03 Wed 13:51]--[2024-01-03 Wed 14:06] =>  0:15
