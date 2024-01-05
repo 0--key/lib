@@ -76,7 +76,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** RAW [#A] Emacs as Python IDE
+** INIT [#A] Emacs as Python IDE
 SCHEDULED: <2024-01-06 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-05 Fri 14:41]
@@ -112,8 +112,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** RAW [#A] Elpy
-SCHEDULED: <2024-01-06 Sat ++2d>
+** DELAY [#A] Elpy
+SCHEDULED: <2024-02-03 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:

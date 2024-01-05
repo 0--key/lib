@@ -56,14 +56,15 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 :END:
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
-** INIT Advanced Merging
-SCHEDULED: <2024-01-05 Fri>
+** TODO Advanced Merging
+SCHEDULED: <2024-01-08 Mon>
 - Note taken on [2024-01-03 Wed 16:43] \\
   First of all, if at all possible, try to make sure your working
   directory is clean before doing a merge that may have conflicts. If
   you have work in progress, either commit it to a temporary branch or
   stash it.
 :LOGBOOK:
+CLOCK: [2024-01-05 Fri 20:24]--[2024-01-05 Fri 20:34] =>  0:10
 CLOCK: [2024-01-05 Fri 15:07]--[2024-01-05 Fri 15:13] =>  0:06
 CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
 :END:
@@ -84,7 +85,7 @@ CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** ReSet, ReBase
-SCHEDULED: <2024-01-05 Fri ++2d/3d>
+SCHEDULED: <2024-01-09 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 16:57]
 :END:
@@ -100,7 +101,7 @@ CLOCK: [2023-11-09 Thu 10:23]--[2023-11-09 Thu 10:43] => 0:20
 CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
 :END:
 https://git-scm.com/docs/git-reset
-
+[[info:magit#Rebasing][magit#Rebasing]]
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
@@ -1030,7 +1031,7 @@ https://xakep.ru/2018/12/05/idefree/
 https://xakep.ru/2017/05/18/cli-console-tips/
 ** INIT https://www.poetryfoundation.org/poems/43798/ae-fond-kiss
 SCHEDULED: <2024-01-12 Fri>
-** INIT https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb
+** AMPLE https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb
 SCHEDULED: <2024-01-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
@@ -1052,10 +1053,11 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-01-05 Fri ++1d>
+SCHEDULED: <2024-01-06 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-04 Thu 19:47]
+:LAST_REPEAT: [2024-01-05 Fri 20:38]
 :END:
+- State "AMPLE"      from ""           [2024-01-05 Fri 20:38]
 - State "AMPLE"      from ""           [2024-01-04 Thu 19:47]
 - State "AMPLE"      from ""           [2024-01-03 Wed 19:14]
 - State "AMPLE"      from ""           [2023-12-16 Sat 19:20]
@@ -1434,10 +1436,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-05 Fri ++1d>
+SCHEDULED: <2024-01-06 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-16 Sat 18:17]
+:LAST_REPEAT: [2024-01-05 Fri 20:38]
 :END:
+- State "AMPLE"      from ""           [2024-01-05 Fri 20:38]
 - State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-15 Fri 19:43]
 - State "AMPLE"      from ""           [2023-12-11 Mon 18:39]
@@ -1469,6 +1472,7 @@ SCHEDULED: <2024-01-05 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-05 Fri 20:34]--[2024-01-05 Fri 20:35] =>  0:01
 CLOCK: [2024-01-05 Fri 14:19]--[2024-01-05 Fri 14:21] =>  0:02
 CLOCK: [2024-01-04 Thu 15:18]--[2024-01-04 Thu 15:18] =>  0:00
 CLOCK: [2024-01-04 Thu 12:32]--[2024-01-04 Thu 12:38] =>  0:06
@@ -1618,10 +1622,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-05 Fri ++1d>
+SCHEDULED: <2024-01-06 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-04 Thu 19:47]
+:LAST_REPEAT: [2024-01-05 Fri 20:38]
 :END:
+- State "AMPLE"      from ""           [2024-01-05 Fri 20:38]
 - State "AMPLE"      from ""           [2024-01-04 Thu 19:47]
 - State "AMPLE"      from ""           [2023-12-16 Sat 19:02]
 - State "AMPLE"      from ""           [2023-12-14 Thu 18:35]
@@ -1643,6 +1648,7 @@ SCHEDULED: <2024-01-05 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-01-05 Fri 20:35]--[2024-01-05 Fri 20:37] =>  0:02
 CLOCK: [2024-01-04 Thu 19:37]--[2024-01-04 Thu 19:47] =>  0:10
 CLOCK: [2024-01-04 Thu 14:55]--[2024-01-04 Thu 14:59] =>  0:04
 CLOCK: [2023-12-16 Sat 18:50]--[2023-12-16 Sat 18:54] =>  0:04
@@ -1876,8 +1882,8 @@ CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
-**** INIT Effort in task resolving
-SCHEDULED: <2024-01-05 Fri>
+**** DELAY Effort in task resolving
+SCHEDULED: <2024-02-02 Fri>
 :LOGBOOK:
 CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 :END:
@@ -2042,7 +2048,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-01-05 Fri .+2d/3d>
+SCHEDULED: <2024-01-06 Sat .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
@@ -2448,7 +2454,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2024-01-18 Thu>
 In fire alarm example
 ** RAW Math with Andrew
-SCHEDULED: <2024-01-05 Fri ++2d/3d>
+SCHEDULED: <2024-01-06 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:22]
 :END:
@@ -2501,7 +2507,7 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
-SCHEDULED: <2024-01-05 Fri>
+SCHEDULED: <2024-01-06 Sat>
 ** TODO [#A] Search reference in *info*
 SCHEDULED: <2024-01-06 Sat>
 :LOGBOOK:
