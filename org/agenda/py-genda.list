@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** INIT Python Talk to Me
-SCHEDULED: <2024-01-06 Sat ++3d>
+SCHEDULED: <2024-01-08 Mon ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
 :END:
@@ -27,7 +27,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 ** INIT Cracking coding interview
-SCHEDULED: <2024-01-07 Sun ++2d>
+SCHEDULED: <2024-01-10 Wed ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
@@ -39,7 +39,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2024-01-08 Mon ++2d>
+SCHEDULED: <2024-01-13 Sat ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -77,7 +77,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT [#A] Emacs as Python IDE
-SCHEDULED: <2024-01-06 Sat ++1d>
+SCHEDULED: <2024-01-08 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-05 Fri 14:41]
 :END:
@@ -96,7 +96,7 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 ** EGlot
-SCHEDULED: <2024-01-06 Sat ++2d>
+SCHEDULED: <2024-01-08 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 17:52]
 :END:
@@ -191,7 +191,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** TODO FlyMake
-SCHEDULED: <2024-01-08 Mon>
+SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -200,7 +200,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT [#C] The bald Python project
-SCHEDULED: <2024-01-06 Sat>
+SCHEDULED: <2024-01-09 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -290,8 +290,8 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
-**** DELAY [#B] Structure
-SCHEDULED: <2024-01-06 Sat>
+**** INIT [#B] Structure
+SCHEDULED: <2024-01-15 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -321,7 +321,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT Play&Learn
-SCHEDULED: <2024-01-08 Mon>
+SCHEDULED: <2024-01-15 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -359,7 +359,7 @@ SCHEDULED: <2024-02-07 Wed>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2024-01-08 Mon>
+SCHEDULED: <2024-01-11 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -404,7 +404,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** [#A] CodeWars 
-SCHEDULED: <2024-01-06 Sat ++2d/3d>
+SCHEDULED: <2024-01-11 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
