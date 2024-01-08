@@ -38,12 +38,20 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
 
+
+*** INIT [#A] Life Structuring and Ordering
+SCHEDULED: <2024-01-09 Tue>
+:LOGBOOK:
+CLOCK: [2024-01-08 Mon 11:40]--[2024-01-08 Mon 12:05] =>  0:25
+:END:
+https://www.youtube.com/watch?v=QGB_jCIk8IA
+[[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Truth About Quadrant One][Truth About Quadrant One]]
 * Git
 :PROPERTIES:
 :CATEGORY: Git
 :END:
 ** TODO Tags
-SCHEDULED: <2024-01-08 Mon ++3d/5d>
+SCHEDULED: <2024-01-10 Wed ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
