@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("linkmarks.el" 0 12
+(#1=(#("The Basic Laws of Human Stupidity by Carlo M. Cipolla.epub" 0 58
+      (bmkp-full-record #1#))
+    (filename . "/home/alioth/books/The Basic Laws of Human Stupidity by Carlo M. Cipolla.epub")
+    (index . 18)
+    (position . 2437)
+    (handler . nov-bookmark-jump-handler))
+#1=(#("linkmarks.el" 0 12
       (bmkp-full-record #1#))
     (filename . "/usr/local/share/emacs/site-lisp/linkmarks/linkmarks.el")
     (buffer-name . "linkmarks.el")

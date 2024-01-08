@@ -42,10 +42,12 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 *** INIT [#A] Life Structuring and Ordering
 SCHEDULED: <2024-01-09 Tue>
 :LOGBOOK:
+CLOCK: [2024-01-08 Mon 18:17]--[2024-01-08 Mon 18:18] =>  0:01
 CLOCK: [2024-01-08 Mon 11:40]--[2024-01-08 Mon 12:05] =>  0:25
 :END:
 https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Truth About Quadrant One][Truth About Quadrant One]]
+[[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 * Git
 :PROPERTIES:
 :CATEGORY: Git
@@ -630,11 +632,12 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2024-01-08 Mon .+1w>
+SCHEDULED: <2024-01-15 Mon .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2024-01-02 Tue 14:34]
+:LAST_REPEAT: [2024-01-08 Mon 17:49]
 :END:
+- State "AMPLE"      from ""           [2024-01-08 Mon 17:49]
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:34]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:08]
 - State "AMPLE"      from ""           [2023-12-12 Tue 09:16]
@@ -1037,7 +1040,7 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
   will be bypassed.
    [2023-12-15 Fri 12:35]
 ** INIT IDEFree
-SCHEDULED: <2024-01-08 Mon>
+SCHEDULED: <2024-01-09 Tue>
 https://xakep.ru/2016/05/17/console-magic/
 https://xakep.ru/2014/09/10/obustraivaem-minimalistichnoe-rabochee-okruzhenie/
 https://xakep.ru/2018/12/05/idefree/
@@ -1066,10 +1069,11 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-01-08 Mon ++1d>
+SCHEDULED: <2024-01-09 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-05 Fri 20:38]
+:LAST_REPEAT: [2024-01-08 Mon 19:17]
 :END:
+- State "AMPLE"      from ""           [2024-01-08 Mon 19:17]
 - State "AMPLE"      from ""           [2024-01-05 Fri 20:38]
 - State "AMPLE"      from ""           [2024-01-04 Thu 19:47]
 - State "AMPLE"      from ""           [2024-01-03 Wed 19:14]
@@ -1101,7 +1105,7 @@ SCHEDULED: <2024-01-08 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-08 Mon 12:20]
+CLOCK: [2024-01-08 Mon 12:20]--[2024-01-08 Mon 12:24] =>  0:04
 CLOCK: [2024-01-04 Thu 14:59]--[2024-01-04 Thu 15:03] =>  0:04
 CLOCK: [2024-01-04 Thu 12:38]--[2024-01-04 Thu 12:53] =>  0:15
 CLOCK: [2024-01-03 Wed 19:12]--[2024-01-03 Wed 19:13] =>  0:01
@@ -1318,10 +1322,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-01-08 Mon ++1d>
+SCHEDULED: <2024-01-09 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-05 Fri 19:57]
+:LAST_REPEAT: [2024-01-08 Mon 19:17]
 :END:
+- State "AMPLE"      from ""           [2024-01-08 Mon 19:17]
 - State "AMPLE"      from ""           [2024-01-05 Fri 19:57]
 - State "AMPLE"      from ""           [2024-01-04 Thu 15:18]
 - State "AMPLE"      from ""           [2024-01-03 Wed 17:47]
@@ -1359,6 +1364,7 @@ SCHEDULED: <2024-01-08 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-06 Tue 11:34]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 :LOGBOOK:
+CLOCK: [2024-01-08 Mon 19:04]--[2024-01-08 Mon 19:15] =>  0:11
 CLOCK: [2024-01-05 Fri 19:38]--[2024-01-05 Fri 19:57] =>  0:19
 CLOCK: [2024-01-04 Thu 15:03]--[2024-01-04 Thu 15:18] =>  0:15
 CLOCK: [2024-01-03 Wed 17:34]--[2024-01-03 Wed 17:47] =>  0:13
@@ -1450,10 +1456,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-08 Mon ++1d>
+SCHEDULED: <2024-01-09 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-05 Fri 20:38]
+:LAST_REPEAT: [2024-01-08 Mon 19:17]
 :END:
+- State "AMPLE"      from ""           [2024-01-08 Mon 19:17]
 - State "AMPLE"      from ""           [2024-01-05 Fri 20:38]
 - State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-15 Fri 19:43]
@@ -1486,6 +1493,7 @@ SCHEDULED: <2024-01-08 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-08 Mon 17:48]--[2024-01-08 Mon 18:17] =>  0:29
 CLOCK: [2024-01-08 Mon 12:09]--[2024-01-08 Mon 12:16] =>  0:07
 CLOCK: [2024-01-08 Mon 11:02]--[2024-01-08 Mon 11:03] =>  0:01
 CLOCK: [2024-01-05 Fri 20:34]--[2024-01-05 Fri 20:35] =>  0:01
@@ -1638,7 +1646,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-08 Mon ++1d>
+SCHEDULED: <2024-01-09 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-05 Fri 20:38]
 :END:
@@ -2537,7 +2545,7 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2024-01-12 Fri>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2024-01-08 Mon>
+SCHEDULED: <2024-01-10 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-04 Thu 13:40]--[2024-01-04 Thu 13:51] =>  0:11
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
