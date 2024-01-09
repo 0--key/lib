@@ -96,8 +96,37 @@ https://emacs-lsp.github.io/lsp-mode/
 https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
+*** SysCrafting
+:PROPERTIES:
+:CATEGORY: SysCraft
+:END:
+**** [#A] Prerequisites
+SCHEDULED: <2024-01-10 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-09 Tue 10:23]
+:END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 10:23]
+:LOGBOOK:
+CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
+:END:
+- https://www.youtube.com/watch?v=74zOY-vgkyw
+  - Straight;
+
+    It is reasonable to bear in mind ~Debian~ =Elpa= packages as the
+    source of /well-tested and stable/ software.
+  - Ivy;
+  - Doom-Modeline;
+  - Rainbow-Delimiters ==> seems it is useful for #Lisp# only;
+  - Which-Key;
+  - Ivy-Rich;
+  - Counsil;
+  - Helpful
+  
+**** Shells
+- https://www.youtube.com/watch?v=wa_wZIuT9Vw
+SCHEDULED: <2024-01-15 Mon>
 ** EGlot
-SCHEDULED: <2024-01-09 Tue ++2d>
+SCHEDULED: <2024-01-16 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 17:52]
 :END:
