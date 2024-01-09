@@ -12,11 +12,12 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* [#A] Test-Driven Learining
-SCHEDULED: <2024-01-09 Tue ++1d>
+* DELAY [#A] Test-Driven Learining
+SCHEDULED: <2024-02-07 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-29 Fri 13:04]
+:LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 09:03]
 - State "AMPLE"      from ""           [2023-12-29 Fri 13:04]
 - Note taken on [2023-12-27 Wed 15:56] \\
   https://simpleprogrammer.com/test-driven-learning/
@@ -56,10 +57,11 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-01-09 Tue ++1d>
+SCHEDULED: <2024-01-10 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-08 Mon 12:16]
+:LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 09:03]
 - State "AMPLE"      from ""           [2024-01-08 Mon 12:16]
 - State "AMPLE"      from ""           [2024-01-05 Fri 14:20]
 - State "AMPLE"      from ""           [2024-01-04 Thu 12:36]
@@ -117,10 +119,11 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * Commits reviewing {jr>c}
-SCHEDULED: <2024-01-09 Tue ++2d>
+SCHEDULED: <2024-01-11 Thu ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-05 Fri 15:05]
+:LAST_REPEAT: [2024-01-09 Tue 11:08]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 11:08]
 - State "AMPLE"      from ""           [2024-01-05 Fri 15:05]
 - State "AMPLE"      from ""           [2024-01-03 Wed 16:57]
 - State "AMPLE"      from ""           [2023-12-16 Sat 18:22]
@@ -131,6 +134,7 @@ SCHEDULED: <2024-01-09 Tue ++2d>
 - State "AMPLE"      from ""           [2023-11-15 Wed 10:22]
 - State "AMPLE"      from ""           [2023-11-03 Fri 10:14]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:05]--[2024-01-09 Tue 11:07] =>  0:02
 CLOCK: [2024-01-05 Fri 14:54]--[2024-01-05 Fri 15:05] =>  0:11
 CLOCK: [2024-01-03 Wed 16:19]--[2024-01-03 Wed 16:26] =>  0:07
 CLOCK: [2023-12-16 Sat 18:18]--[2023-12-16 Sat 18:22] =>  0:04

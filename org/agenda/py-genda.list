@@ -12,8 +12,8 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** INIT Python Talk to Me
-SCHEDULED: <2024-01-09 Tue ++3d>
+** DELAY Python Talk to Me
+SCHEDULED: <2024-02-13 Tue ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
 :END:
@@ -76,11 +76,12 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** INIT [#A] Emacs as Python IDE
-SCHEDULED: <2024-01-09 Tue ++1d>
+** RAW [#A] Emacs as Python IDE
+SCHEDULED: <2024-01-16 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-05 Fri 14:41]
+:LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
+- State "AMPLE"      from "INIT"       [2024-01-09 Tue 09:10]
 - State "AMPLE"      from ""           [2024-01-05 Fri 14:41]
 - State "AMPLE"      from ""           [2024-01-04 Thu 13:18]
 - State "AMPLE"      from ""           [2024-01-03 Wed 16:18]

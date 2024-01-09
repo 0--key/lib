@@ -39,9 +39,10 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 
 
-*** INIT [#A] Life Structuring and Ordering
-SCHEDULED: <2024-01-09 Tue>
+*** TODO [#A] Life Structuring and Ordering
+SCHEDULED: <2024-01-10 Wed>
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 10:23]--[2024-01-09 Tue 10:55] =>  0:32
 CLOCK: [2024-01-08 Mon 18:17]--[2024-01-08 Mon 18:18] =>  0:01
 CLOCK: [2024-01-08 Mon 11:40]--[2024-01-08 Mon 12:05] =>  0:25
 :END:
@@ -95,15 +96,17 @@ CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** ReSet, ReBase
-SCHEDULED: <2024-01-09 Tue ++2d/3d>
+SCHEDULED: <2024-01-11 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-03 Wed 16:57]
+:LAST_REPEAT: [2024-01-09 Tue 11:39]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 11:39]
 - State "AMPLE"      from ""           [2024-01-03 Wed 16:57]
 - State "AMPLE"      from ""           [2023-11-15 Wed 11:00]
 - State "AMPLE"      from ""           [2023-11-09 Thu 18:39]
 - State "AMPLE"      from ""           [2023-11-06 Mon 11:31]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:20]--[2024-01-09 Tue 11:38] =>  0:18
 CLOCK: [2024-01-03 Wed 16:31]--[2024-01-03 Wed 16:39] =>  0:08
 CLOCK: [2023-11-15 Wed 10:55]--[2023-11-15 Wed 11:00] =>  0:05
 CLOCK: [2023-11-15 Wed 10:43]--[2023-11-15 Wed 10:48] =>  0:05
@@ -130,7 +133,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** INIT [#A] Company-Mode
-SCHEDULED: <2024-01-09 Tue>
+SCHEDULED: <2024-02-06 Tue>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 17:41]--[2023-12-16 Sat 17:53] =>  0:12
 CLOCK: [2023-12-15 Fri 15:57]--[2023-12-15 Fri 16:08] =>  0:11
@@ -293,8 +296,8 @@ CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
 CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
 :END:
 [[info:emacs#Spelling][emacs#Spelling]]
-** INIT [#A] Projects
-SCHEDULED: <2024-01-09 Tue ++3d/4d>
+** DELAY [#A] Projects
+SCHEDULED: <2024-03-12 Tue ++3d/4d>
 - Note taken on [2024-01-04 Thu 19:37] \\
   and projectile package:
   
@@ -1017,10 +1020,11 @@ SCHEDULED: <2024-01-11 Thu>
 ** LAG Authors from PyPi, pip and ELPA repositories
 SCHEDULED: <2024-03-06 Wed>
 the target audience for Twits and LinkedIn posts
-** Tramp
+** SET Tramp
 SCHEDULED: <2024-01-09 Tue>
 /ssh:alioth@192.168.43.35#8022:/home/alioth/
-** Backlit keyboard
+(tramp) Top
+** Backlit keyboard                                                :ARCHIVE:
 SCHEDULED: <2024-01-09 Tue>
 sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
 ** DELAY Goodies
@@ -1039,8 +1043,8 @@ https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapt
   in ‘org-capture-templates’.  In this case, interactive selection
   will be bypassed.
    [2023-12-15 Fri 12:35]
-** INIT IDEFree
-SCHEDULED: <2024-01-09 Tue>
+** DELAY IDEFree
+SCHEDULED: <2024-03-12 Tue>
 https://xakep.ru/2016/05/17/console-magic/
 https://xakep.ru/2014/09/10/obustraivaem-minimalistichnoe-rabochee-okruzhenie/
 https://xakep.ru/2018/12/05/idefree/
@@ -1105,6 +1109,7 @@ SCHEDULED: <2024-01-09 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:39]
 CLOCK: [2024-01-08 Mon 12:20]--[2024-01-08 Mon 12:24] =>  0:04
 CLOCK: [2024-01-04 Thu 14:59]--[2024-01-04 Thu 15:03] =>  0:04
 CLOCK: [2024-01-04 Thu 12:38]--[2024-01-04 Thu 12:53] =>  0:15
@@ -1493,6 +1498,8 @@ SCHEDULED: <2024-01-09 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 10:58]--[2024-01-09 Tue 11:03] =>  0:05
+CLOCK: [2024-01-09 Tue 09:04]--[2024-01-09 Tue 09:27] =>  0:23
 CLOCK: [2024-01-08 Mon 17:48]--[2024-01-08 Mon 18:17] =>  0:29
 CLOCK: [2024-01-08 Mon 12:09]--[2024-01-08 Mon 12:16] =>  0:07
 CLOCK: [2024-01-08 Mon 11:02]--[2024-01-08 Mon 11:03] =>  0:01
@@ -1705,10 +1712,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2024-01-09 Tue ++1w>
+SCHEDULED: <2024-01-16 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-02 Tue 15:11]
+:LAST_REPEAT: [2024-01-09 Tue 11:04]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 11:04]
 - State "AMPLE"      from ""           [2024-01-02 Tue 15:11]
 - State "AMPLE"      from ""           [2023-12-26 Tue 17:08]
 - State "AMPLE"      from ""           [2023-12-13 Wed 10:07]
@@ -1729,6 +1737,7 @@ SCHEDULED: <2024-01-09 Tue ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:03]--[2024-01-09 Tue 11:04] =>  0:01
 CLOCK: [2024-01-02 Tue 14:59]--[2024-01-02 Tue 15:11] =>  0:12
 CLOCK: [2024-01-02 Tue 14:22]--[2024-01-02 Tue 14:26] =>  0:04
 CLOCK: [2023-12-26 Tue 16:38]--[2023-12-26 Tue 17:00] =>  0:22
@@ -2545,18 +2554,19 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2024-01-12 Fri>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2024-01-10 Wed>
+SCHEDULED: <2024-01-17 Wed>
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:08]--[2024-01-09 Tue 11:20] =>  0:12
 CLOCK: [2024-01-04 Thu 13:40]--[2024-01-04 Thu 13:51] =>  0:11
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
 [[info:emacs#Regexp Search][emacs#Regexp Search]]
-** INIT Rhythmbox Dark Theme
-SCHEDULED: <2024-01-09 Tue>
+** DELAY Rhythmbox Dark Theme
+SCHEDULED: <2024-03-12 Tue>
 https://github.com/fossfreedom/alternative-toolbar
 https://wiki.gnome.org/Apps/Rhythmbox/FAQ
-** INIT Exclude =ORG= folder from ~load-path~
-SCHEDULED: <2024-01-09 Tue>
+** DELAY Exclude =ORG= folder from ~load-path~
+SCHEDULED: <2024-03-12 Tue>
 ** RAW Rainbow-delimiters                                    :goodies:Emacs:
 * Events
 :PROPERTIES:
