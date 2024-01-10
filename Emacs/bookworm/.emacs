@@ -1,3 +1,5 @@
+;;
+;;
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
@@ -55,8 +57,6 @@
 ;; (require 'xclip)
 ;; (xclip-mode 1)
 
-
-
 (load-theme 'wombat);;manoj-dark)
 
 (custom-set-variables
@@ -64,7 +64,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(browse-url-browser-function 'eww-browse-url)
  '(org-agenda-files
    '("/home/alioth/Git/0--key/lib/org/agenda/team-tasks.list" "/home/alioth/Git/0--key/lib/org/agenda/py-genda.list" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-11-09-star-warmth.org" "/home/alioth/Git/0--key/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
