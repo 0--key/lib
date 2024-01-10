@@ -102,13 +102,15 @@ https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_exce
 :CATEGORY: SysCraft
 :END:
 **** [#B] Prerequisites
-SCHEDULED: <2024-01-10 Wed ++1d>
+SCHEDULED: <2024-01-12 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 19:12]
 :END:
 - State "AMPLE"      from ""           [2024-01-09 Tue 19:12]
 - State "AMPLE"      from ""           [2024-01-09 Tue 10:23]
 :LOGBOOK:
+CLOCK: [2024-01-10 Wed 11:09]--[2024-01-10 Wed 11:18] =>  0:09
+CLOCK: [2024-01-10 Wed 09:58]--[2024-01-10 Wed 10:48] =>  0:50
 CLOCK: [2024-01-09 Tue 18:10]--[2024-01-09 Tue 18:33] =>  0:23
 CLOCK: [2024-01-09 Tue 15:42]--[2024-01-09 Tue 15:54] =>  0:12
 CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
@@ -118,14 +120,25 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
 
     It is reasonable to bear in mind ~Debian~ =Elpa= packages as the
     source of /well-tested and stable/ software.
-  - Ivy +;
+  - Which-Key +;
+  - Helpful +;
+  - Hydra +;
   - Doom-Modeline -;
   - Rainbow-Delimiters ==> seems it is useful for #Lisp# only;
-  - Which-Key +;
   - Ivy-Rich -;
-  - Counsil -;
-  - Helpful +
-  
+  - All-The-Icons -;
+  - General -;
+*****  Ivy
+SCHEDULED: <2024-01-11 Thu ++1d>
+:LOGBOOK:
+CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
+:END:
+  + Counsel:
+    #+begin_src sh
+      sudo apt-get install elpa-ivy
+      sudo apt-get install elpa-counsel
+    #+end_src
+[[info:ivy#Global key bindings][ivy#Global key bindings]]
 **** Shells
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
 SCHEDULED: <2024-01-15 Mon>
@@ -455,7 +468,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** [#B] LeetCode
-SCHEDULED: <2024-01-10 Wed ++3d/4d>
+SCHEDULED: <2024-01-11 Thu ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:

@@ -83,7 +83,7 @@ SCHEDULED: <2024-01-11 Thu ++1d>
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-01-10 Wed ++1d>
+SCHEDULED: <2024-01-11 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-05 Fri 19:57]
 :CATEGORY: CoLab
