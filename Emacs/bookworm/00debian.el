@@ -1,6 +1,11 @@
+;; The common config file for all users on the host
+;; =sudo chown <username> /etc/emacs/site-start.d/00debian.el=
+
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
+
+(server-start)
 
 (setq calendar-latitude 55.0408104)
    (setq calendar-longitude -7.65058411)
