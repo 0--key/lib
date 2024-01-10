@@ -26,8 +26,8 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-** INIT Cracking coding interview
-SCHEDULED: <2024-01-10 Wed ++2d>
+** DELAY Cracking coding interview
+SCHEDULED: <2024-02-15 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
@@ -101,13 +101,16 @@ https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_exce
 :PROPERTIES:
 :CATEGORY: SysCraft
 :END:
-**** [#A] Prerequisites
+**** [#B] Prerequisites
 SCHEDULED: <2024-01-10 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-09 Tue 10:23]
+:LAST_REPEAT: [2024-01-09 Tue 19:12]
 :END:
+- State "AMPLE"      from ""           [2024-01-09 Tue 19:12]
 - State "AMPLE"      from ""           [2024-01-09 Tue 10:23]
 :LOGBOOK:
+CLOCK: [2024-01-09 Tue 18:10]--[2024-01-09 Tue 18:33] =>  0:23
+CLOCK: [2024-01-09 Tue 15:42]--[2024-01-09 Tue 15:54] =>  0:12
 CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
 :END:
 - https://www.youtube.com/watch?v=74zOY-vgkyw
@@ -115,13 +118,13 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
 
     It is reasonable to bear in mind ~Debian~ =Elpa= packages as the
     source of /well-tested and stable/ software.
-  - Ivy;
-  - Doom-Modeline;
+  - Ivy +;
+  - Doom-Modeline -;
   - Rainbow-Delimiters ==> seems it is useful for #Lisp# only;
-  - Which-Key;
-  - Ivy-Rich;
-  - Counsil;
-  - Helpful
+  - Which-Key +;
+  - Ivy-Rich -;
+  - Counsil -;
+  - Helpful +
   
 **** Shells
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
@@ -231,7 +234,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT [#C] The bald Python project
-SCHEDULED: <2024-01-09 Tue>
+SCHEDULED: <2024-01-15 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -451,7 +454,7 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-** [#A] LeetCode
+** [#B] LeetCode
 SCHEDULED: <2024-01-10 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
