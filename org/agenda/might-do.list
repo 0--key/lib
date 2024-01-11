@@ -118,10 +118,26 @@ CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
 :END:
 https://git-scm.com/docs/git-reset
 [[info:magit#Rebasing][magit#Rebasing]]
+** Cherry
+SCHEDULED: <2024-02-15 Thu>
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+** [#A] Global Prefixes
+SCHEDULED: <2024-01-12 Fri>
+should be customized by ~keychords~
+#uu #yy #ii #ww #hh #jj #vv #xx #zz #kk
+#+begin_src elisp
+  (key-chord-define-global "uu" 'null)
+  (define-key key-translation-map (kbd "<key-chord> uu")  (kbd "C-x"))
+  (key-chord-define-global "yy" 'null)
+  (define-key key-translation-map (kbd "<key-chord> yy")  (kbd "M-x"))
+#+end_src
+** Mode Line Customization
+SCHEDULED: <2024-01-18 Thu>
+[[info:emacs#Mode Line][emacs#Mode Line]]
+It would be great to vitalise it by colouring.
 ** LAG [#A] Version Control
 SCHEDULED: <2024-02-22 Thu ++2d>
 :PROPERTIES:
@@ -384,6 +400,15 @@ https://github.com/jwiegley/use-package
 ** Mode Hooks
 SCHEDULED: <2024-01-18 Thu>
 https://www.emacswiki.org/emacs/ModeHooks
+** Emacs as WM:
+SCHEDULED: <2024-01-25 Thu>
+https://github.com/ch11ng/exwm/wiki
+** Console S-right/left fix:
+SCHEDULED: <2024-02-08 Thu>
+https://github.com/CyberShadow/term-keys
+** GTranslate customization
+SCHEDULED: <2024-01-17 Wed>
+https://github.com/atykhonov/google-translate#common-ui-customization
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
