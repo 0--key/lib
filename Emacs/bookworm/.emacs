@@ -56,6 +56,14 @@
 
 (load-theme 'wombat);;manoj-dark)
 
+(require 'ivy)
+(ivy-mode 1)
+;; (setq ivy-use-virtual-buffers t)
+;; (setq ivy-count-format "(%d/%d) ")
+
+(require 'helpful)
+(require 'which-key)
+(which-key-mode)
 ;;======================================================
 ;; Additional config section:
 (load "/usr/local/share/emacs/site-lisp/key-chords.el")
