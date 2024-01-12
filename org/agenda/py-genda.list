@@ -130,9 +130,14 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
   - Ivy-Rich -;
   - All-The-Icons -;
   - General -;
-*****  Ivy
-SCHEDULED: <2024-01-11 Thu ++1d>
+***** Ivy
+SCHEDULED: <2024-01-12 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-11 Thu 19:29]
+:END:
+- State "AMPLE"      from ""           [2024-01-11 Thu 19:29]
 :LOGBOOK:
+CLOCK: [2024-01-11 Thu 19:04]--[2024-01-11 Thu 19:28] =>  0:24
 CLOCK: [2024-01-11 Thu 16:09]--[2024-01-11 Thu 16:29] =>  0:20
 CLOCK: [2024-01-11 Thu 10:13]--[2024-01-11 Thu 10:35] =>  0:22
 CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
@@ -147,8 +152,9 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 
 ***** Helpful
-SCHEDULED: <2024-01-11 Thu>
+SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
+CLOCK: [2024-01-11 Thu 18:46]--[2024-01-11 Thu 19:04] =>  0:18
 CLOCK: [2024-01-11 Thu 17:09]--[2024-01-11 Thu 17:33] =>  0:24
 :END:
 #+begin_src sh :results output
@@ -162,7 +168,7 @@ https://github.com/Wilfred/helpful
 
 
 ***** Which-Key
-SCHEDULED: <2024-01-11 Thu>
+SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
 CLOCK: [2024-01-11 Thu 17:33]--[2024-01-11 Thu 17:45] =>  0:12
 CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 11:21] =>  0:07
@@ -176,7 +182,7 @@ CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 11:21] =>  0:07
 https://github.com/justbur/emacs-which-key
 
 ***** Hydra
-SCHEDULED: <2024-01-11 Thu ++1d>
+SCHEDULED: <2024-01-12 Fri ++1d>
 :LOGBOOK:
 CLOCK: [2024-01-11 Thu 17:45]--[2024-01-11 Thu 17:51] =>  0:06
 CLOCK: [2024-01-11 Thu 10:44]--[2024-01-11 Thu 10:56] =>  0:12
@@ -192,7 +198,7 @@ apt-cache search elpa | grep hydra
 : elpa-hydra - make Emacs bindings that stick around
 
 ***** Projectile
-SCHEDULED: <2024-01-11 Thu>
+SCHEDULED: <2024-01-12 Fri>
 :LOGBOOK:
 CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
 :END:
@@ -309,7 +315,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** TODO FlyMake
-SCHEDULED: <2024-01-12 Fri>
+SCHEDULED: <2024-01-19 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -476,8 +482,8 @@ SCHEDULED: <2024-02-07 Wed>
   :END:
 
   
-** INIT Time Complexity
-SCHEDULED: <2024-01-11 Thu>
+** DELAY Time Complexity
+SCHEDULED: <2024-02-15 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
@@ -521,8 +527,8 @@ SCHEDULED: <2024-02-05 Mon>
 :PROPERTIES:
 :CATEGORY: PyAct{rj*w}
 :END:
-** [#A] CodeWars 
-SCHEDULED: <2024-01-11 Thu ++2d/3d>
+** CodeWars 
+SCHEDULED: <2024-01-17 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -538,8 +544,8 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-** [#B] LeetCode
-SCHEDULED: <2024-01-11 Thu ++3d/4d>
+** LeetCode
+SCHEDULED: <2024-01-17 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
