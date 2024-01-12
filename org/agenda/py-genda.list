@@ -101,14 +101,19 @@ https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_exce
 :PROPERTIES:
 :CATEGORY: SysCraft
 :END:
-**** [#B] Prerequisites
-SCHEDULED: <2024-01-12 Fri ++1d>
+**** Prerequisites
+SCHEDULED: <2024-01-13 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-09 Tue 19:12]
+:LAST_REPEAT: [2024-01-11 Thu 17:59]
 :END:
+- State "AMPLE"      from ""           [2024-01-11 Thu 17:59]
+- State "AMPLE"      from ""           [2024-01-11 Thu 10:12]
 - State "AMPLE"      from ""           [2024-01-09 Tue 19:12]
 - State "AMPLE"      from ""           [2024-01-09 Tue 10:23]
 :LOGBOOK:
+CLOCK: [2024-01-11 Thu 16:06]--[2024-01-11 Thu 16:09] =>  0:03
+CLOCK: [2024-01-11 Thu 15:42]--[2024-01-11 Thu 15:46] =>  0:04
+CLOCK: [2024-01-11 Thu 09:45]--[2024-01-11 Thu 10:12] =>  0:27
 CLOCK: [2024-01-10 Wed 11:09]--[2024-01-10 Wed 11:18] =>  0:09
 CLOCK: [2024-01-10 Wed 09:58]--[2024-01-10 Wed 10:48] =>  0:50
 CLOCK: [2024-01-09 Tue 18:10]--[2024-01-09 Tue 18:33] =>  0:23
@@ -120,9 +125,6 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
 
     It is reasonable to bear in mind ~Debian~ =Elpa= packages as the
     source of /well-tested and stable/ software.
-  - Which-Key +;
-  - Helpful +;
-  - Hydra +;
   - Doom-Modeline -;
   - Rainbow-Delimiters ==> seems it is useful for #Lisp# only;
   - Ivy-Rich -;
@@ -131,6 +133,8 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
 *****  Ivy
 SCHEDULED: <2024-01-11 Thu ++1d>
 :LOGBOOK:
+CLOCK: [2024-01-11 Thu 16:09]--[2024-01-11 Thu 16:29] =>  0:20
+CLOCK: [2024-01-11 Thu 10:13]--[2024-01-11 Thu 10:35] =>  0:22
 CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 :END:
   + Counsel:
@@ -139,6 +143,73 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
       sudo apt-get install elpa-counsel
     #+end_src
 [[info:ivy#Global key bindings][ivy#Global key bindings]]
+[[info:ivy#Hydra in the minibuffer][ivy#Hydra in the minibuffer]]
+[[info:ivy#Completion Styles][ivy#Completion Styles]]
+
+***** Helpful
+SCHEDULED: <2024-01-11 Thu>
+:LOGBOOK:
+CLOCK: [2024-01-11 Thu 17:09]--[2024-01-11 Thu 17:33] =>  0:24
+:END:
+#+begin_src sh :results output
+  apt-cache search elpa | grep helpful
+#+end_src
+
+#+RESULTS:
+: elpa-helpful - better *help* buffer
+
+https://github.com/Wilfred/helpful
+
+
+***** Which-Key
+SCHEDULED: <2024-01-11 Thu>
+:LOGBOOK:
+CLOCK: [2024-01-11 Thu 17:33]--[2024-01-11 Thu 17:45] =>  0:12
+CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 11:21] =>  0:07
+:END:
+#+begin_src sh :results output
+  apt-cache search elpa | grep which-key
+#+end_src
+
+#+RESULTS:
+: elpa-which-key - display available keybindings in popup
+https://github.com/justbur/emacs-which-key
+
+***** Hydra
+SCHEDULED: <2024-01-11 Thu ++1d>
+:LOGBOOK:
+CLOCK: [2024-01-11 Thu 17:45]--[2024-01-11 Thu 17:51] =>  0:06
+CLOCK: [2024-01-11 Thu 10:44]--[2024-01-11 Thu 10:56] =>  0:12
+:END:
+https://github.com/abo-abo/hydra
+[[https://www.reddit.com/r/emacs/comments/8of6tx/tip_how_to_be_a_beast_with_hydra/][The Examples]]
+#+begin_src sh :results output
+apt-cache search elpa | grep hydra
+#+end_src
+
+#+RESULTS:
+: elpa-ivy-hydra - additional key bindings for Emacs Ivy
+: elpa-hydra - make Emacs bindings that stick around
+
+***** Projectile
+SCHEDULED: <2024-01-11 Thu>
+:LOGBOOK:
+CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
+:END:
+#+begin_src sh :results output
+  apt-cache search elpa | grep projectile
+#+end_src
+
+#+RESULTS:
+: elpa-helm-projectile - Helm integration for Projectile
+: elpa-ibuffer-projectile - group buffers in ibuffer list by Projectile project
+: elpa-projectile - project interaction library for Emacs
+: elpa-treemacs-projectile - tree layout file explorer for Emacs
+
+***** Forge
+SCHEDULED: <2024-01-19 Fri>
+https://github.com/magit/forge
+
 **** Shells
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
 SCHEDULED: <2024-01-15 Mon>
