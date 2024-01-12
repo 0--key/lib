@@ -32,11 +32,10 @@
 (require 'org-drill)
 
 (require 'google-translate)
+(require 'google-translate-default-ui)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
-(defun google-translate--search-tkk () "Search TKK."
-       (list 430675 2721866130))
 
 
 (require 'python)
@@ -88,7 +87,7 @@
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(eglot elpy xclip dictionary find-file-in-project google-translate key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup))
+   '(eglot elpy xclip dictionary find-file-in-project key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup))
  '(vc-follow-symlinks t))
 
 
