@@ -70,6 +70,34 @@
 ;;======================================================
 
 
+;; Jekyll settings there -->
+;;
+(setq org-publish-project-alist
+'(("jekyll-org"
+   :base-directory "/home/alioth/Git/0--key/org-pub/"
+   :base-extension "org"
+   ;; Path to your Jekyll project.
+   :publishing-directory "/home/alioth/Git/0--key/0--key.github.io/_posts/"
+   :recursive t
+   :publishing-function org-html-publish-to-html
+   :headline-levels 4
+   :html-extension "html"
+   :section-numbers nil
+   :with-toc nil
+   :body-only t
+   ;; Only export section between <body> </body> (body-only)
+   )
+  ("jekyll-org-img"
+   :base-directory "/home/alioth/Git/0--key/org-pub/img/"
+   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
+   :publishing-directory "/home/alioth/Git/0--key/0--key.io/assets/img/"
+   :recursive t
+   :publishing-function org-publish-attachment)
+
+  ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
+  ))
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
