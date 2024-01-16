@@ -21,8 +21,8 @@ Advanced to-do list    -*- mode: org; -*-
 ** Symmathesy
 ** YouTube
 
-*** INIT Ali Abdaal's *new* transcript                              :ARCHIVE:
-SCHEDULED: <2023-04-05 Wed +2w>
+*** INIT Ali Abdaal's *new* transcript                                :Ali:
+SCHEDULED: <2024-01-16 Tue +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 18:25]
 :END:
@@ -30,6 +30,8 @@ SCHEDULED: <2023-04-05 Wed +2w>
 - State "MAYBE"      from "ACTIVE"     [2022-02-22 Tue 10:02]
 - State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 17:02]
 :LOGBOOK:
+CLOCK: [2024-01-16 Tue 09:05]--[2024-01-16 Tue 09:27] =>  0:22
+CLOCK: [2024-01-16 Tue 08:33]--[2024-01-16 Tue 08:39] =>  0:06
 CLOCK: [2022-11-09 Wed 18:23]--[2022-11-09 Wed 18:25] =>  0:02
 CLOCK: [2022-02-21 Mon 16:30]--[2022-02-21 Mon 17:02] =>  0:32
 CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
@@ -37,10 +39,10 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:41]
 - State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
 
-
+https://www.youtube.com/watch?v=MFXWY8TqSWw
 
 *** ACTIVE [#A] Life Structuring and Ordering
-SCHEDULED: <2024-01-16 Tue>
+SCHEDULED: <2024-01-22 Mon>
 :LOGBOOK:
 CLOCK: [2024-01-10 Wed 09:29]--[2024-01-10 Wed 09:56] =>  0:27
 CLOCK: [2024-01-09 Tue 16:06]--[2024-01-09 Tue 16:24] =>  0:18
@@ -56,7 +58,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 :CATEGORY: Git
 :END:
 ** TODO Tags
-SCHEDULED: <2024-01-15 Mon ++3d/5d>
+SCHEDULED: <2024-01-16 Tue ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -71,7 +73,7 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** TODO Advanced Merging
-SCHEDULED: <2024-01-14 Sun>
+SCHEDULED: <2024-01-16 Tue>
 - Note taken on [2024-01-03 Wed 16:43] \\
   First of all, if at all possible, try to make sure your working
   directory is clean before doing a merge that may have conflicts. If
@@ -85,7 +87,7 @@ CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 [[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
 ** ACTIVE Basic Branches&Merging
-SCHEDULED: <2024-01-12 Fri>
+SCHEDULED: <2024-01-16 Tue>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -125,7 +127,10 @@ SCHEDULED: <2024-02-15 Thu>
 :CATEGORY: Emacs
 :END:
 ** [#A] Global Prefixes
-SCHEDULED: <2024-01-12 Fri>
+SCHEDULED: <2024-01-22 Mon>
+:LOGBOOK:
+CLOCK: [2024-01-12 Fri 10:43]--[2024-01-12 Fri 10:52] =>  0:09
+:END:
 should be customized by ~keychords~
 #uu #yy #ii #ww #hh #jj #vv #xx #zz #kk
 #+begin_src elisp
@@ -169,8 +174,8 @@ SCHEDULED: <2024-03-13 Wed>
 [2023-11-01 Wed 10:39]
 
 ** Agenda
-*** DELAY Focus point shift
-SCHEDULED: <2024-01-16 Tue>
+*** SET Focus point shift
+SCHEDULED: <2024-01-15 Mon>
 By putting the actual (most significant) agenda file on the top.
 
 ** Key-chords
@@ -243,8 +248,8 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :LAST_REPEAT: [2022-11-10 Thu 07:54]
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
-*** [#A] Declutter
-SCHEDULED: <2024-01-12 Fri ++4w>
+*** [#C] Declutter
+SCHEDULED: <2024-01-16 Tue ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:26]
 :END:
@@ -372,7 +377,7 @@ CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
 :END:
 - [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
 ** Treemacs
-SCHEDULED: <2024-01-12 Fri>
+SCHEDULED: <2024-01-16 Tue>
 https://github.com/Alexander-Miller/treemacs
 ** DELAY Powerthesaurus
 SCHEDULED: <2024-03-02 Sat ++2d>
@@ -402,6 +407,7 @@ https://github.com/jwiegley/use-package
 ** Mode Hooks
 SCHEDULED: <2024-01-18 Thu>
 https://www.emacswiki.org/emacs/ModeHooks
+- Separate theme for each mode
 ** Emacs as WM:
 SCHEDULED: <2024-01-25 Thu>
 https://github.com/ch11ng/exwm/wiki
@@ -665,7 +671,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** [#A] Whole week scheduling
-SCHEDULED: <2024-01-15 Mon .+1w>
+SCHEDULED: <2024-01-16 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-01-08 Mon 17:49]
@@ -795,7 +801,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-01-12 Fri ++5w>
+SCHEDULED: <2024-02-19 Mon ++5w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-16 Sat 10:59]
 :END:
@@ -833,17 +839,17 @@ SCHEDULED: <2023-04-08 Sat>
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
-** LAG Book
-SCHEDULED: <2024-01-13 Sat>
+** RETARD Book
+SCHEDULED: <2024-04-22 Mon>
 Play ~ Stuart Brown&Christopher Vaughan
-** LAG Book
-SCHEDULED: <2024-01-13 Sat>
+** RETARD Book
+SCHEDULED: <2024-04-22 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
-** LAG Book
-SCHEDULED: <2024-01-13 Sat>
+** RETARD Book
+SCHEDULED: <2024-04-22 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -975,7 +981,7 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#A] Double Loop Learning
-SCHEDULED: <2024-01-13 Sat ++2w>
+SCHEDULED: <2024-01-29 Mon ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 16:18]
 :END:
@@ -1028,7 +1034,7 @@ CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
 - Note taken on [2023-09-25 Mon 10:18] \\
   or even a separate file appended to *Org-Agenda*
 ** Story telling with Martin
-SCHEDULED: <2024-01-15 Mon ++1w>
+SCHEDULED: <2024-01-22 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 14:59]
 :END:
@@ -1078,15 +1084,15 @@ https://xakep.ru/2014/09/10/obustraivaem-minimalistichnoe-rabochee-okruzhenie/
 https://xakep.ru/2018/12/05/idefree/
 https://xakep.ru/2017/05/18/cli-console-tips/
 ** INIT https://www.poetryfoundation.org/poems/43798/ae-fond-kiss
-SCHEDULED: <2024-01-12 Fri>
+SCHEDULED: <2024-01-16 Tue>
 ** AMPLE Four types of bad-bosses
 SCHEDULED: <2024-01-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
-** INIT Enhanced self-esteem
-SCHEDULED: <2024-01-14 Sun>
+** TODO Enhanced self-esteem
+SCHEDULED: <2024-01-16 Tue>
 1. Acknowledge and count your wins
 2. Reward efforts,  not outcomes
 3. Easy wins first, then stack
@@ -1101,7 +1107,7 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-01-12 Fri ++1d>
+SCHEDULED: <2024-01-16 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 19:38]
 :END:
@@ -1138,7 +1144,8 @@ SCHEDULED: <2024-01-12 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-12 Fri 09:16]
+CLOCK: [2024-01-16 Tue 10:48]
+CLOCK: [2024-01-12 Fri 09:16]--[2024-01-12 Fri 09:25] =>  0:09
 CLOCK: [2024-01-11 Thu 17:59]--[2024-01-11 Thu 18:07] =>  0:08
 CLOCK: [2024-01-10 Wed 19:38]--[2024-01-11 Wed 19:48] =>  0:10
 CLOCK: [2024-01-10 Wed 08:58]--[2024-01-10 Wed 09:02] =>  0:04
@@ -1360,10 +1367,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-01-12 Fri ++1d>
+SCHEDULED: <2024-01-16 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-10 Wed 19:38]
+:LAST_REPEAT: [2024-01-12 Fri 11:52]
 :END:
+- State "AMPLE"      from ""           [2024-01-12 Fri 11:52]
 - State "AMPLE"      from ""           [2024-01-10 Wed 19:38]
 - Note taken on [2024-01-10 Wed 19:14] \\
   I’m so grateful for your help.
@@ -1449,6 +1457,7 @@ SCHEDULED: <2024-01-12 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 - [[https://quotefancy.com/action-quotes]] [2024-01-11 Thu 19:33]
 :LOGBOOK:
+CLOCK: [2024-01-12 Fri 11:42]--[2024-01-12 Fri 11:52] =>  0:10
 CLOCK: [2024-01-11 Thu 19:32]--[2024-01-12 Thu 19:47] =>  0:15
 CLOCK: [2024-01-10 Wed 19:27]--[2024-01-10 Wed 19:38] =>  0:11
 CLOCK: [2024-01-09 Tue 16:34]--[2024-01-09 Tue 16:52] =>  0:18
@@ -1544,7 +1553,7 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-12 Fri ++1d>
+SCHEDULED: <2024-01-16 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-10 Wed 19:27]
 :END:
@@ -1583,6 +1592,8 @@ SCHEDULED: <2024-01-12 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-16 Tue 10:43]--[2024-01-16 Tue 10:48] =>  0:05
+CLOCK: [2024-01-15 Mon 12:06]--[2024-01-15 Mon 12:20] =>  0:14
 CLOCK: [2024-01-12 Fri 09:07]--[2024-01-12 Fri 09:13] =>  0:06
 CLOCK: [2024-01-11 Thu 17:58]--[2024-01-11 Thu 17:59] =>  0:01
 CLOCK: [2024-01-11 Thu 09:02]--[2024-01-11 Thu 09:10] =>  0:08
@@ -1743,7 +1754,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-12 Fri ++1d>
+SCHEDULED: <2024-01-16 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-11 Thu 19:32]
 :END:
@@ -1894,8 +1905,8 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** DELAY Vocabulary rectification
-SCHEDULED: <2024-01-13 Sat ++2d>
+*** LAG Vocabulary rectification
+SCHEDULED: <2024-06-03 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
@@ -1977,7 +1988,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-01-12 Fri ++2d/3d>
+SCHEDULED: <2024-01-16 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:21]
 :END:
@@ -1990,6 +2001,8 @@ SCHEDULED: <2024-01-12 Fri ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2024-01-15 Mon 12:20]--[2024-01-15 Mon 12:41] =>  0:21
+CLOCK: [2024-01-12 Fri 09:29]--[2024-01-12 Fri 09:32] =>  0:03
 CLOCK: [2024-01-11 Thu 17:51]--[2024-01-11 Thu 17:58] =>  0:07
 CLOCK: [2024-01-02 Tue 15:11]--[2024-01-02 Tue 15:21] =>  0:10
 CLOCK: [2023-12-27 Wed 15:54]--[2023-12-27 Wed 16:05] =>  0:11
@@ -2131,8 +2144,8 @@ Ring Around the Sun
 DEADLINE: <2023-03-09 Thu>
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
-** LAG Capture for idioms
-SCHEDULED: <2024-01-16 Tue>
+** RETARD Capture for idioms
+SCHEDULED: <2024-06-24 Mon>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -2176,7 +2189,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-01-14 Sun .+2d/3d>
+SCHEDULED: <2024-01-16 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-17 Fri 13:35]
 :END:
@@ -2358,8 +2371,8 @@ SCHEDULED: <2024-04-16 Tue>
 ** BARE Bulk remote editing selected entries
 SCHEDULED: <2023-12-20 Wed>
 [[info:org#Agenda Commands][org#Agenda Commands]]
-** LAG RAW tasks assignment at each Sunday
-SCHEDULED: <2024-01-16 Tue>
+** INIT RAW tasks assignment at each Sunday
+SCHEDULED: <2024-01-21 Sun>
 ** RAW Delete region detouring kill-ring
 [[https://stackoverflow.com/questions/637351/emacs-how-to-delete-text-without-kill-ring][link]]
 ** RAW Russian proverbs
@@ -2545,8 +2558,8 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
   disabled as a unit.  You can use Custom themes to switch easily between
   various collections of settings, and to transfer such collections from
   one computer to another. [2023-11-24 Fri 14:40]
-** DELAY [#C] New Qoutes
-SCHEDULED: <2024-01-15 Mon>
+** LAG [#C] New Qoutes
+SCHEDULED: <2024-05-27 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 :END:
