@@ -139,6 +139,9 @@ should be customized by ~keychords~
   (key-chord-define-global "yy" 'null)
   (define-key key-translation-map (kbd "<key-chord> yy")  (kbd "M-x"))
 #+end_src
+** Kung-Fu
+SCHEDULED: <2024-01-23 Tue>
+Take an attempt and publish your work
 ** Mode Line Customization
 SCHEDULED: <2024-01-18 Thu>
 [[info:emacs#Mode Line][emacs#Mode Line]]
@@ -2036,7 +2039,10 @@ CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 SCHEDULED: <2024-03-05 Tue>
 [[info:org#Column View]]
 [2024-01-02 Tue 17:21]
-
+** INIT Regressive pomodoro
+SCHEDULED: <2024-01-17 Wed>
+- From 45m in the morning to 25m at noon;
+- Timer sound
 ** X-NOX-clipboard issue fix
 SCHEDULED: <2024-01-30 Tue>
 ** SET Re-configure org-capture's paths
