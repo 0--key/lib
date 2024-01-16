@@ -39,7 +39,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2024-01-16 Tue ++2d>
+SCHEDULED: <2024-01-17 Wed ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -157,9 +157,10 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Hydra in the minibuffer][ivy#Hydra in the minibuffer]]
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 
-***** Helpful
-SCHEDULED: <2024-01-16 Tue>
+***** Helpful {h}
+SCHEDULED: <2024-01-18 Thu>
 :LOGBOOK:
+CLOCK: [2024-01-16 Tue 18:35]--[2024-01-16 Tue 19:01] =>  0:26
 CLOCK: [2024-01-11 Thu 18:46]--[2024-01-11 Thu 19:04] =>  0:18
 CLOCK: [2024-01-11 Thu 17:09]--[2024-01-11 Thu 17:33] =>  0:24
 :END:
@@ -204,8 +205,9 @@ apt-cache search elpa | grep hydra
 : elpa-hydra - make Emacs bindings that stick around
 
 ***** Projectile
-SCHEDULED: <2024-01-16 Tue>
+SCHEDULED: <2024-01-18 Thu>
 :LOGBOOK:
+CLOCK: [2024-01-16 Tue 19:01]--[2024-01-16 Tue 19:22] =>  0:21
 CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
 :END:
 #+begin_src sh :results output
@@ -218,6 +220,9 @@ CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
 : elpa-projectile - project interaction library for Emacs
 : elpa-treemacs-projectile - tree layout file explorer for Emacs
 
+[[file:/usr/share/doc/elpa-projectile/index.html][Projectile]]
+- supports multiple back-ends like ag, rg [2024-01-16 Tue 19:18]
+- project etags or gtags [2024-01-16 Tue 19:19]
 ****** [#A] Python testing with Eglot
 SCHEDULED: <2024-01-22 Mon>
 :LOGBOOK:
@@ -246,10 +251,14 @@ SCHEDULED: <2024-01-19 Fri>
 https://github.com/magit/forge
 
 **** Shells
+:LOGBOOK:
+CLOCK: [2024-01-16 Tue 17:49]--[2024-01-16 Tue 18:27] =>  0:38
+:END:
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
-SCHEDULED: <2024-01-22 Mon>
+- [[https://github.com/daviwil/emacs-from-scratch/blob/bbfbc77b3afab0c14149e07d0ab08d275d4ba575/Emacs.org#terminals][Description]]
+SCHEDULED: <2024-01-17 Wed>
 ** EGlot
-SCHEDULED: <2024-01-16 Tue ++2d>
+SCHEDULED: <2024-01-22 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 17:52]
 :END:
