@@ -218,13 +218,36 @@ CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
 : elpa-projectile - project interaction library for Emacs
 : elpa-treemacs-projectile - tree layout file explorer for Emacs
 
+****** [#A] Python testing with Eglot
+SCHEDULED: <2024-01-22 Mon>
+:LOGBOOK:
+CLOCK: [2024-01-12 Fri 10:58]--[2024-01-12 Fri 11:42] =>  0:44
+CLOCK: [2024-01-12 Fri 10:06]--[2024-01-12 Fri 10:43] =>  0:37
+CLOCK: [2024-01-12 Fri 09:40]--[2024-01-12 Fri 10:04] =>  0:24
+:END:
+https://www.adventuresinwhy.com/post/eglot/
+- install pyflakes, pylint or something else
+
+- eglot-workspace-configuration >>>
+
+- This variable should be set as a directory-local variable.  See
+info node (emacs)Directory Variables for various ways to do that.
+
+Here's an example value that establishes two sections relevant to
+the Pylsp and Gopls LSP servers:
+
+  (:pylsp (:plugins (:jedi_completion (:include_params t
+                                       :fuzzy t)
+                     :pylint (:enabled :json-false)))
+   :gopls (:usePlaceholders t))
+
 ***** Forge
 SCHEDULED: <2024-01-19 Fri>
 https://github.com/magit/forge
 
 **** Shells
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
-SCHEDULED: <2024-01-15 Mon>
+SCHEDULED: <2024-01-22 Mon>
 ** EGlot
 SCHEDULED: <2024-01-16 Tue ++2d>
 :PROPERTIES:
