@@ -39,7 +39,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2024-01-17 Wed ++2d>
+SCHEDULED: <2024-01-19 Fri ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -161,7 +161,7 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Hydra in the minibuffer][ivy#Hydra in the minibuffer]]
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 
-***** Helpful {h}
+***** [#A] Helpful {h}
 SCHEDULED: <2024-01-18 Thu>
 :LOGBOOK:
 CLOCK: [2024-01-16 Tue 18:35]--[2024-01-16 Tue 19:01] =>  0:26
@@ -366,7 +366,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT [#A] The bald Python project
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-19 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -457,7 +457,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 **** INIT [#A] Structure
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-19 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -487,7 +487,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT [#A] Play&Learn
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-19 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -570,7 +570,7 @@ SCHEDULED: <2024-02-05 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-01-17 Wed ++2d/3d>
+SCHEDULED: <2024-01-22 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -587,7 +587,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** LeetCode
-SCHEDULED: <2024-01-17 Wed ++3d/4d>
+SCHEDULED: <2024-01-22 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
