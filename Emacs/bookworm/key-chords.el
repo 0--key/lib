@@ -91,6 +91,7 @@
 (key-chord-define-global "uy"     'yank)
 ;; Translation
 (key-chord-define-global "tr"     'google-translate-at-point)
+(key-chord-define-global "TR"     'google-translate-at-point-reverse)
 (key-chord-define-global "ty"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
