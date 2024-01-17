@@ -21,7 +21,7 @@ Advanced to-do list    -*- mode: org; -*-
 ** Symmathesy
 ** YouTube
 
-*** INIT Ali Abdaal's *new* transcript                                :Ali:
+*** INIT [#A] Ali Abdaal's *new* transcript                           :Ali:
 SCHEDULED: <2024-01-18 Thu +2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-09 Wed 18:25]
@@ -30,6 +30,7 @@ SCHEDULED: <2024-01-18 Thu +2w>
 - State "MAYBE"      from "ACTIVE"     [2022-02-22 Tue 10:02]
 - State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 17:02]
 :LOGBOOK:
+CLOCK: [2024-01-17 Wed 19:29]--[2024-01-17 Wed 19:29] =>  0:00
 CLOCK: [2024-01-16 Tue 09:05]--[2024-01-16 Tue 09:27] =>  0:22
 CLOCK: [2024-01-16 Tue 08:33]--[2024-01-16 Tue 08:39] =>  0:06
 CLOCK: [2022-11-09 Wed 18:23]--[2022-11-09 Wed 18:25] =>  0:02
@@ -57,8 +58,8 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 :PROPERTIES:
 :CATEGORY: Git
 :END:
-** ACTIVE Tags
-SCHEDULED: <2024-01-17 Wed ++3d/5d>
+** DELAY Tags
+SCHEDULED: <2024-03-06 Wed ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -73,21 +74,28 @@ CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
 ** ACTIVE Advanced Merging
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-19 Fri>
 - Note taken on [2024-01-03 Wed 16:43] \\
   First of all, if at all possible, try to make sure your working
   directory is clean before doing a merge that may have conflicts. If
   you have work in progress, either commit it to a temporary branch or
   stash it.
 :LOGBOOK:
+CLOCK: [2024-01-17 Wed 18:55]--[2024-01-17 Wed 19:18] =>  0:23
 CLOCK: [2024-01-05 Fri 20:24]--[2024-01-05 Fri 20:34] =>  0:10
 CLOCK: [2024-01-05 Fri 15:07]--[2024-01-05 Fri 15:13] =>  0:06
 CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
 :END:
+
+First of all lets try to make a fixture, then - resolve the conflict
+manually.
+
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 [[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
+
+
 ** ACTIVE Basic Branches&Merging
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-19 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -422,7 +430,10 @@ https://github.com/ch11ng/exwm/wiki
 SCHEDULED: <2024-02-08 Thu>
 https://github.com/CyberShadow/term-keys
 ** GTranslate customization
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-29 Mon>
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 11:10]--[2024-01-17 Wed 11:20] =>  0:10
+:END:
 https://github.com/atykhonov/google-translate#common-ui-customization
 * Notes
 :PROPERTIES:
@@ -1154,7 +1165,8 @@ SCHEDULED: <2024-01-17 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-17 Wed 10:20]
+CLOCK: [2024-01-17 Wed 19:31]
+CLOCK: [2024-01-17 Wed 10:20]--[2024-01-17 Wed 10:23] =>  0:03
 CLOCK: [2024-01-16 Tue 19:51]--[2024-01-16 Tue 19:55] =>  0:04
 CLOCK: [2024-01-16 Tue 10:48]--[2024-01-16 Tue 11:00] =>  0:12
 CLOCK: [2024-01-12 Fri 09:16]--[2024-01-12 Fri 09:25] =>  0:09
@@ -1567,10 +1579,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-17 Wed ++1d>
+SCHEDULED: <2024-01-18 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-16 Tue 19:48]
+:LAST_REPEAT: [2024-01-17 Wed 19:30]
 :END:
+- State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:48]
 - State "AMPLE"      from ""           [2024-01-10 Wed 19:27]
 - State "AMPLE"      from ""           [2024-01-09 Tue 19:12]
@@ -1607,6 +1620,7 @@ SCHEDULED: <2024-01-17 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-17 Wed 18:02]--[2024-01-17 Wed 18:04] =>  0:02
 CLOCK: [2024-01-17 Wed 10:11]--[2024-01-17 Wed 10:20] =>  0:09
 CLOCK: [2024-01-16 Tue 19:30]--[2024-01-16 Tue 19:31] =>  0:01
 CLOCK: [2024-01-16 Tue 10:43]--[2024-01-16 Tue 10:48] =>  0:05
@@ -1771,10 +1785,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-17 Wed ++1d>
+SCHEDULED: <2024-01-18 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-16 Tue 19:51]
+:LAST_REPEAT: [2024-01-17 Wed 19:30]
 :END:
+- State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:51]
 - State "AMPLE"      from ""           [2024-01-11 Thu 19:32]
 - State "AMPLE"      from ""           [2024-01-09 Tue 19:38]
@@ -1800,6 +1815,7 @@ SCHEDULED: <2024-01-17 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-01-17 Wed 19:27]--[2024-01-17 Wed 19:29] =>  0:02
 CLOCK: [2024-01-16 Tue 19:48]--[2024-01-16 Tue 19:51] =>  0:03
 CLOCK: [2024-01-11 Thu 19:29]--[2024-01-11 Thu 19:32] =>  0:03
 CLOCK: [2024-01-09 Tue 19:12]--[2024-01-09 Tue 19:38] =>  0:26
@@ -1964,12 +1980,22 @@ SCHEDULED: <2024-04-23 Tue ++2d>
 CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
-*** RAW English We Speak
-SCHEDULED: <2024-01-17 Wed ++1w>
+*** TODO English We Speak
+SCHEDULED: <2024-01-18 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
+:END:
 - State "AMPLE"      from ""           [2023-10-11 Wed 08:29]
+
+
+- To rear its ugly head;
+- Light up like a X-mass tree;
+
+
+
 *** DELAY English Grammar
 SCHEDULED: <2024-01-24 Wed ++1w>
 :PROPERTIES:
@@ -2419,8 +2445,11 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 SCHEDULED: <2024-02-02 Fri>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** INIT Ross Ashby
-SCHEDULED: <2024-01-17 Wed>
-[[http://www.rossashby.info/index.html][archive]]
+SCHEDULED: <2024-01-24 Wed>
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 11:27]--[2024-01-17 Wed 11:32] =>  0:05
+:END:
+[[https://ashby.info/aphorisms.html][Aphorisms]]
 ** DELAY Irreal blog
 SCHEDULED: <2024-01-29 Mon>
 - Note taken on [2023-06-20 Tue 11:29] \\
@@ -2622,8 +2651,20 @@ seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
 SCHEDULED: <2024-01-22 Mon>
 ** TODO [#A] Search reference in *info*
-SCHEDULED: <2024-01-17 Wed>
+SCHEDULED: <2024-01-30 Tue>
+- Note taken on [2024-01-17 Wed 11:04] \\
+  s	Search through this Info file for specified regexp,
+  	  and select the node in which the next occurrence is found.
+  S	Search through this Info file for specified regexp case-sensitively.
+  C-s, C-M-s	Use Isearch to search through multiple Info nodes.
+  i	Search for a topic in this manual’s Index and go to index entry.
+  ,	(comma) Move to the next match from a previous i command.
+  I	Look for a string and display the index node with results.
+  <key-chord> p i	Look for a string in the indices of all manuals.
+  <key-chord> i p runs the command info-apropos (found in global-map),
+  which is an interactive native-compiled Lisp function in ‘info.el’.
 :LOGBOOK:
+CLOCK: [2024-01-17 Wed 11:02]--[2024-01-17 Wed 11:10] =>  0:08
 CLOCK: [2024-01-09 Tue 11:08]--[2024-01-09 Tue 11:20] =>  0:12
 CLOCK: [2024-01-04 Thu 13:40]--[2024-01-04 Thu 13:51] =>  0:11
 CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
