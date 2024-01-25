@@ -42,8 +42,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 https://www.youtube.com/watch?v=MFXWY8TqSWw
 
-*** ACTIVE [#A] Life Structuring and Ordering
-SCHEDULED: <2024-01-25 Thu>
+*** DELAY [#A] Life Structuring and Ordering
+SCHEDULED: <2024-02-29 Thu>
 :LOGBOOK:
 CLOCK: [2024-01-25 Thu 18:11]--[2024-01-25 Thu 18:14] =>  0:03
 CLOCK: [2024-01-10 Wed 09:29]--[2024-01-10 Wed 09:56] =>  0:27
@@ -165,7 +165,7 @@ should be customized by ~keychords~
 SCHEDULED: <2024-01-26 Fri>
 Take an attempt and publish your work
 ** Mode Line Customization
-SCHEDULED: <2024-01-25 Thu>
+SCHEDULED: <2024-02-04 Sun>
 [[info:emacs#Mode Line][emacs#Mode Line]]
 It would be great to vitalise it by colouring.
 ** LAG [#A] Version Control
@@ -1201,7 +1201,8 @@ SCHEDULED: <2024-01-25 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-25 Thu 18:14]
+CLOCK: [2024-01-25 Thu 19:27]
+CLOCK: [2024-01-25 Thu 18:14]--[2024-01-25 Thu 18:16] =>  0:02
 CLOCK: [2024-01-17 Wed 19:31]--[2024-01-17 Wed 19:37] =>  0:06
 CLOCK: [2024-01-17 Wed 10:20]--[2024-01-17 Wed 10:23] =>  0:03
 CLOCK: [2024-01-16 Tue 19:51]--[2024-01-16 Tue 19:55] =>  0:04
@@ -1428,10 +1429,11 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-01-25 Thu ++1d>
+SCHEDULED: <2024-01-26 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-17 Wed 20:11]
+:LAST_REPEAT: [2024-01-25 Thu 19:07]
 :END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 19:07]
 - State "AMPLE"      from ""           [2024-01-17 Wed 20:11]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:37]
 - State "AMPLE"      from ""           [2024-01-12 Fri 11:52]
@@ -1520,6 +1522,7 @@ SCHEDULED: <2024-01-25 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:38]
 - [[https://quotefancy.com/action-quotes]] [2024-01-11 Thu 19:33]
 :LOGBOOK:
+CLOCK: [2024-01-25 Thu 18:55]--[2024-01-25 Thu 19:07] =>  0:12
 CLOCK: [2024-01-17 Wed 19:37]--[2024-01-17 Wed 20:11] =>  0:34
 CLOCK: [2024-01-16 Tue 19:31]--[2024-01-16 Tue 19:37] =>  0:06
 CLOCK: [2024-01-12 Fri 11:42]--[2024-01-12 Fri 11:52] =>  0:10
@@ -1618,10 +1621,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-25 Thu ++1d>
+SCHEDULED: <2024-01-26 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-17 Wed 19:30]
+:LAST_REPEAT: [2024-01-25 Thu 19:08]
 :END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 19:08]
 - State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:48]
 - State "AMPLE"      from ""           [2024-01-10 Wed 19:27]
@@ -1825,10 +1829,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-25 Thu ++1d>
+SCHEDULED: <2024-01-26 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-17 Wed 19:30]
+:LAST_REPEAT: [2024-01-25 Thu 19:27]
 :END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 19:27]
 - State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:51]
 - State "AMPLE"      from ""           [2024-01-11 Thu 19:32]
@@ -1855,6 +1860,7 @@ SCHEDULED: <2024-01-25 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-01-25 Thu 19:09]--[2024-01-25 Thu 19:27] =>  0:18
 CLOCK: [2024-01-17 Wed 19:27]--[2024-01-17 Wed 19:29] =>  0:02
 CLOCK: [2024-01-16 Tue 19:48]--[2024-01-16 Tue 19:51] =>  0:03
 CLOCK: [2024-01-11 Thu 19:29]--[2024-01-11 Thu 19:32] =>  0:03
@@ -2023,7 +2029,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** TODO English We Speak
-SCHEDULED: <2024-01-25 Thu ++1d>
+SCHEDULED: <2024-01-26 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
@@ -2077,10 +2083,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-01-25 Thu ++2d/3d>
+SCHEDULED: <2024-01-27 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-16 Tue 11:44]
+:LAST_REPEAT: [2024-01-25 Thu 18:46]
 :END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 18:46]
 - State "AMPLE"      from ""           [2024-01-16 Tue 11:44]
 - State "AMPLE"      from ""           [2024-01-02 Tue 15:21]
 - State "AMPLE"      from ""           [2023-12-27 Wed 16:06]
@@ -2091,6 +2098,7 @@ SCHEDULED: <2024-01-25 Thu ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2024-01-25 Thu 18:21]--[2024-01-25 Thu 18:46] =>  0:25
 CLOCK: [2024-01-16 Tue 11:36]--[2024-01-16 Tue 11:44] =>  0:08
 CLOCK: [2024-01-15 Mon 12:20]--[2024-01-15 Mon 12:41] =>  0:21
 CLOCK: [2024-01-12 Fri 09:29]--[2024-01-12 Fri 09:32] =>  0:03
