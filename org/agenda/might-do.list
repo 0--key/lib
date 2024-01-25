@@ -55,6 +55,15 @@ CLOCK: [2024-01-08 Mon 11:40]--[2024-01-08 Mon 12:05] =>  0:25
 https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Truth About Quadrant One][Truth About Quadrant One]]
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
+
+** Scholarship
+SCHEDULED: <2024-01-26 Fri>
+[[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
+
+** Strategic Thinking
+SCHEDULED: <2024-01-26 Fri>
+[[https://www.youtube.com/watch?v=dbiNhAZlXZk][Link]]
+
 * Git
 :PROPERTIES:
 :CATEGORY: Git
@@ -437,10 +446,27 @@ SCHEDULED: <2024-01-29 Mon>
 CLOCK: [2024-01-17 Wed 11:10]--[2024-01-17 Wed 11:20] =>  0:10
 :END:
 https://github.com/atykhonov/google-translate#common-ui-customization
+** Eterm as elisp shell
+SCHEDULED: <2024-02-04 Sun>
+- eshell-git-prompt
+** Lynx inside ansi-term
+SCHEDULED: <2024-02-04 Sun>
+GitHub don't displays properly in ~EWW~
+** Autoformat 72 chars
+SCHEDULED: <2024-02-04 Sun>
+/in some bufferss/
+** Key-chord prefixex
+SCHEDULED: <2024-02-04 Sun>
+_as invention_
+
 * Notes
 :PROPERTIES:
 :CATEGORY: Notes
 :END:
+
+** K8, Docker
+SCHEDULED: <2024-02-04 Sun>
+architecture
 ** INIT [[info:org#Activation][org-store-link]]                                             :ARCHIVE:
 SCHEDULED: <2022-11-29 Tue>
 
