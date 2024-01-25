@@ -98,7 +98,10 @@ CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
 :END:
 
 First of all lets try to make a fixture, then - resolve the conflict
-manually.
+manually. Stashes and conflicts in the same branch.
+
+If you checkout onto new branch all your unstaged changes will be
+lost?
 
 https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 [[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
@@ -426,11 +429,14 @@ https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 SCHEDULED: <2024-01-30 Tue>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
-** Use-package as a panacea
-SCHEDULED: <2024-01-28 Sun>
+
+- obsolete org-drill for drilling without X-Client.
+
+** DELAY Use-package as a panacea
+SCHEDULED: <2024-04-14 Sun>
 https://github.com/jwiegley/use-package
 ** Mode Hooks
-SCHEDULED: <2024-01-25 Thu>
+SCHEDULED: <2024-02-04 Sun>
 https://www.emacswiki.org/emacs/ModeHooks
 - Separate colour theme for each mode
 - ~key-chord-mode~ in ~org-drill~
