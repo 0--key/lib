@@ -57,10 +57,11 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * [#A] Morning correction
-SCHEDULED: <2024-01-18 Thu ++1d>
+SCHEDULED: <2024-01-26 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-17 Wed 10:13]
+:LAST_REPEAT: [2024-01-25 Thu 17:57]
 :END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 17:57]
 - State "AMPLE"      from ""           [2024-01-17 Wed 10:13]
 - State "AMPLE"      from ""           [2024-01-16 Tue 10:44]
 - State "AMPLE"      from ""           [2024-01-15 Mon 12:17]
@@ -87,7 +88,7 @@ SCHEDULED: <2024-01-18 Thu ++1d>
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-01-18 Thu ++1d>
+SCHEDULED: <2024-01-25 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-17 Wed 19:30]
 :CATEGORY: CoLab
@@ -125,7 +126,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * Commits reviewing {jr>c}
-SCHEDULED: <2024-01-18 Thu ++2d>
+SCHEDULED: <2024-01-25 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-16 Tue 11:16]
 :END:
@@ -157,4 +158,4 @@ CLOCK: [2023-11-03 Fri 09:36]--[2023-11-03 Fri 10:02] =>  0:26
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - [[info:magit#Revision Buffer]] [2023-11-03 Fri 09:43]
 * Deploying Emacs on Dell-Lattitude
-SCHEDULED: <2024-01-18 Thu>
+SCHEDULED: <2024-01-28 Sun>
