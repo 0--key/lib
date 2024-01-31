@@ -27,8 +27,8 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-*** Dissect the Python Itself
-SCHEDULED: <2024-01-31 Wed>
+*** [#C] Dissect the Python Itself
+SCHEDULED: <2024-02-01 Thu>
 [[file:~/Git/python/talk-python-transcripts/transcripts/240.txt][Link]]
 *** Learning to Learn as Pythonista
 SCHEDULED: <2024-02-01 Thu ++1d>
@@ -43,10 +43,10 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-05 Mon>
 [[file:~/Git/python/talk-python-transcripts/transcripts/246.txt][Transcript]]
 *** Personal Search Engine
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-02 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** DELAY Cracking coding interview
 SCHEDULED: <2024-02-15 Thu ++2d>
@@ -61,7 +61,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2024-02-01 Thu ++2d>
+SCHEDULED: <2024-02-05 Mon ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -99,7 +99,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT [#A] Emacs as Python IDE
-SCHEDULED: <2024-02-01 Thu ++1w>
+SCHEDULED: <2024-02-05 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -379,16 +379,16 @@ https://elpy.readthedocs.io/en/latest/introduction.html#manually-from-sources
 **** Another user test
 Try to use ~elpy~ in Vikky's account
 Not tried yet
-*** DELAY [#A] VirtualEnv
-SCHEDULED: <2024-02-01 Thu>
+*** LAG [#A] VirtualEnv
+SCHEDULED: <2024-04-18 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-12 Tue 14:50]--[2023-12-12 Tue 15:21] =>  0:31
 CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
 :END:
 - Note taken on [2023-10-04 Wed 19:11] \\
   Does apt-get install Debian package in venv only?
-*** DELAY [#A] PyPackage Management
-SCHEDULED: <2024-02-01 Thu>
+*** LAG [#A] PyPackage Management
+SCHEDULED: <2024-04-18 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 :END:
@@ -406,7 +406,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT [#A] The bald Python project
-SCHEDULED: <2024-02-01 Thu>
+SCHEDULED: <2024-02-05 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -497,7 +497,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 **** INIT [#A] Structure
-SCHEDULED: <2024-02-01 Thu>
+SCHEDULED: <2024-02-05 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -527,7 +527,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** INIT [#A] Play&Learn
-SCHEDULED: <2024-02-01 Thu>
+SCHEDULED: <2024-02-05 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -569,7 +569,7 @@ SCHEDULED: <2024-02-15 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** DELAY Modules
-SCHEDULED: <2024-02-01 Thu ++3d/4d>
+SCHEDULED: <2024-02-05 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 15:06]
 :END:

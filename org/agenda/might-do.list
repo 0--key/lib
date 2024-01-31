@@ -69,28 +69,34 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 *** Straight Work Approach
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-02 Fri>
 https://www.youtube.com/watch?v=XJOsPyyYork
 
 *** Define Your System
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-02 Fri>
 https://www.youtube.com/watch?v=y4evLICF8kk
 
 *** Goal Setting as an Art
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-02 Fri>
 https://www.youtube.com/watch?v=jOznXVLBGFo
 
 *** English Embroidment
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-01 Thu>
+:LOGBOOK:
+CLOCK: [2024-01-31 Wed 18:34]--[2024-01-31 Wed 18:51] =>  0:17
+:END:
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
+- Litotes;
+- 25 must know Engllish expressions [2024-01-31 Wed 18:50]
+- 191 English Idioms in 13 minutes [2024-01-31 Wed 18:50]
 
 ** Scholarship
 SCHEDULED: <2024-02-02 Fri>
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** [#A] Shallow/deep | long/short sessions
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-02 Fri>
 ** Strategic Thinking
 SCHEDULED: <2024-02-02 Fri>
 [[https://www.youtube.com/watch?v=dbiNhAZlXZk][Link]]
@@ -462,8 +468,8 @@ CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
 CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 https://github.com/SavchenkoValeriy/emacs-powerthesaurus
-** emacs-nox
-SCHEDULED: <2024-02-01 Thu>
+** DELAY emacs-nox
+SCHEDULED: <2024-03-07 Thu>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
 
@@ -876,7 +882,7 @@ SCHEDULED: <2023-03-16 Thu .+1w>
 SCHEDULED: <2023-03-16 Thu .+1w>
 
 *** Shopping with ViLee in Milford
-SCHEDULED: <2024-01-31 Wed .+1w>
+SCHEDULED: <2024-02-06 Tue .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-03 Fri 09:03]
 :END:
@@ -1244,7 +1250,8 @@ SCHEDULED: <2024-01-31 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-01-31 Wed 12:02]
+CLOCK: [2024-01-31 Wed 18:51]
+CLOCK: [2024-01-31 Wed 12:02]--[2024-01-31 Wed 12:13] =>  0:11
 CLOCK: [2024-01-26 Fri 19:32]--[2024-01-26 Fri 19:42] =>  0:10
 CLOCK: [2024-01-26 Fri 18:48]--[2024-01-26 Fri 18:52] =>  0:04
 CLOCK: [2024-01-25 Thu 19:27]--[2024-01-25 Thu 19:33] =>  0:06
@@ -1669,10 +1676,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-01-31 Wed ++1d>
+SCHEDULED: <2024-02-01 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-26 Fri 19:31]
+:LAST_REPEAT: [2024-01-31 Wed 18:34]
 :END:
+- State "AMPLE"      from ""           [2024-01-31 Wed 18:34]
 - State "AMPLE"      from ""           [2024-01-26 Fri 19:31]
 - State "AMPLE"      from ""           [2024-01-25 Thu 19:08]
 - State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
@@ -1712,6 +1720,8 @@ SCHEDULED: <2024-01-31 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 14:54] =>  0:00
+CLOCK: [2024-01-31 Wed 12:16]--[2024-01-31 Wed 12:20] =>  0:04
 CLOCK: [2024-01-31 Wed 11:49]--[2024-01-31 Wed 11:53] =>  0:04
 CLOCK: [2024-01-30 Tue 15:31]--[2024-01-30 Tue 15:38] =>  0:07
 CLOCK: [2024-01-26 Fri 18:52]--[2024-01-26 Fri 18:54] =>  0:02
@@ -1881,11 +1891,12 @@ CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
-*** [#A] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-01-31 Wed ++1d>
+*** Tomorrow tasks heap brushing up
+SCHEDULED: <2024-02-01 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-25 Thu 19:27]
+:LAST_REPEAT: [2024-01-31 Wed 18:34]
 :END:
+- State "AMPLE"      from ""           [2024-01-31 Wed 18:34]
 - State "AMPLE"      from ""           [2024-01-25 Thu 19:27]
 - State "AMPLE"      from ""           [2024-01-17 Wed 19:30]
 - State "AMPLE"      from ""           [2024-01-16 Tue 19:51]
@@ -1913,6 +1924,7 @@ SCHEDULED: <2024-01-31 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-01-31 Wed 18:27]--[2024-01-31 Wed 18:33] =>  0:06
 CLOCK: [2024-01-25 Thu 19:09]--[2024-01-25 Thu 19:27] =>  0:18
 CLOCK: [2024-01-17 Wed 19:27]--[2024-01-17 Wed 19:29] =>  0:02
 CLOCK: [2024-01-16 Tue 19:48]--[2024-01-16 Tue 19:51] =>  0:03
@@ -2190,8 +2202,11 @@ CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 SCHEDULED: <2024-03-05 Tue>
 [[info:org#Column View]]
 [2024-01-02 Tue 17:21]
-** TODO [#A] Regressive pomodoro
-SCHEDULED: <2024-01-31 Wed>
+** ACTIVE [#A] Regressive pomodoro
+SCHEDULED: <2024-02-02 Fri>
+:LOGBOOK:
+CLOCK: [2024-01-31 Wed 12:25]--[2024-01-31 Wed 12:51] =>  0:26
+:END:
 - From 45m in the morning to 25m at noon;
 - Timer sound
 ** DELAY X-NOX-clipboard issue fix
@@ -2429,18 +2444,19 @@ SCHEDULED: <2024-02-06 Tue>
 [[info:emacs#Find Init]]
 [2023-12-12 Tue 14:24]
 
-** DELAY Handling links
-SCHEDULED: <2024-01-31 Wed>
+** INIT Handling links
+SCHEDULED: <2024-03-06 Wed>
 :LOGBOOK:
+CLOCK: [2024-01-31 Wed 15:34]--[2024-01-31 Wed 15:54] =>  0:20
 CLOCK: [2023-12-15 Fri 18:06]--[2023-12-15 Fri 18:16] =>  0:10
 CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
 :END:
 [[info:org#Handling Links][org#Handling Links]]
 - elisp        ‘elisp:(find-file "Elisp.org")’ (Elisp form to evaluate)
-               ‘elisp:org-agenda’ (interactive Elisp command)
+               ‘[[elisp:org-agenda]]’ (interactive Elisp command)
    [2023-12-15 Fri 18:13]
-*** DELAY External Links
-SCHEDULED: <2024-01-31 Wed>
+*** INIT External Links
+SCHEDULED: <2024-03-06 Wed>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
 :END:
@@ -2758,7 +2774,7 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** INIT Emacs IDE for Vikky
-SCHEDULED: <2024-02-01 Thu>
+SCHEDULED: <2024-02-05 Mon>
 ** TODO [#A] Search reference in *info*
 SCHEDULED: <2024-02-02 Fri>
 - Note taken on [2024-01-17 Wed 11:04] \\
@@ -2796,7 +2812,7 @@ https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859
 https://guildhallderry.com/
 
 *** DELAY [#C] Electric Ireland
-SCHEDULED: <2024-01-31 Wed>
+SCHEDULED: <2024-02-01 Thu>
 
 *** AMPLE Ballyraine Park Health Cetre
 SCHEDULED: <2023-11-13 Mon 14:00>
