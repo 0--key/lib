@@ -27,16 +27,36 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-*** [#C] Dissect the Python Itself
-SCHEDULED: <2024-02-01 Thu>
-[[file:~/Git/python/talk-python-transcripts/transcripts/240.txt][Link]]
-*** Learning to Learn as Pythonista
-SCHEDULED: <2024-02-01 Thu ++1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-01-31 Wed 15:33]
-:END:
-- State "AMPLE"      from ""           [2024-01-31 Wed 15:33]
+*** DELAY [#C] Dissect the Python Itself
+SCHEDULED: <2024-02-25 Sun>
 :LOGBOOK:
+CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
+:END:
+[[elisp:(bookmark-jump-other-frame "240.txt")][Link]]
+- If I open up the bonnet of my car [2024-02-01 Thu 18:28]
+- if you want to contribute to CPython, the documentation, there's a site called the Dev Guide [2024-02-01 Thu 18:30]
+- it needs a C layer to integrate into the kernel [2024-02-01 Thu 18:40]
+*** [#A] Learning to Learn as Pythonista
+SCHEDULED: <2024-02-04 Sun ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-01 Thu 05:56]
+:END:
+- State "AMPLE"      from ""           [2024-02-01 Thu 05:56]
+- State "AMPLE"      from ""           [2024-01-31 Wed 15:33]
+- talk about some of the takeaways [2024-02-01 Thu 05:38]
+- If you have a common vernacular [2024-02-01 Thu 05:45]
+- the more you access something, the stronger that memory becomes [2024-02-01 Thu 05:48]
+- we can store 3 million TV shows in our brain [2024-02-01 Thu 05:49]
+- more than enough capacity [2024-02-01 Thu 05:49]
+- that just seems super detrimental [2024-02-02 Fri 06:03]
+- the incubation effect [2024-02-02 Fri 06:06]
+- you'll get to an impasse [2024-02-02 Fri 06:06]
+- effect called the zeigarnik. effect [2024-02-02 Fri 06:08]
+- a book called pragmatic programmers [2024-02-02 Fri 06:10]
+- rubber ducklet as a listener
+:LOGBOOK:
+CLOCK: [2024-02-02 Fri 05:49]--[2024-02-02 Fri 06:12] =>  0:23
+CLOCK: [2024-02-01 Thu 05:34]--[2024-02-01 Thu 05:56] =>  0:22
 CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 :END:
 [[elisp:(bookmark-jump-other-frame "293-learning.txt")][Link]]
@@ -187,10 +207,22 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Global key bindings][ivy#Global key bindings]]
 [[info:ivy#Hydra in the minibuffer][ivy#Hydra in the minibuffer]]
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
-
-***** [#A] Helpful {h}
-SCHEDULED: <2024-02-01 Thu>
+[[elisp:(apropos-command "ivy")]]
+[[elisp:ivy-help]]
+***** Counsel
+SCHEDULED: <2024-02-06 Tue>
+[[elisp:(apropos-command "counsel")]]
+***** Swiper
+SCHEDULED: <2024-02-06 Tue>
 :LOGBOOK:
+CLOCK: [2024-02-01 Thu 10:28]--[2024-02-01 Thu 10:35] =>  0:07
+CLOCK: [2024-02-01 Thu 09:53]--[2024-02-01 Thu 09:59] =>  0:06
+:END:
+[[elisp:(apropos-command "swiper")]]
+***** [#A] Helpful {h}
+SCHEDULED: <2024-02-04 Sun>
+:LOGBOOK:
+CLOCK: [2024-02-01 Thu 09:36]--[2024-02-01 Thu 09:50] =>  0:14
 CLOCK: [2024-01-16 Tue 18:35]--[2024-01-16 Tue 19:01] =>  0:26
 CLOCK: [2024-01-11 Thu 18:46]--[2024-01-11 Thu 19:04] =>  0:18
 CLOCK: [2024-01-11 Thu 17:09]--[2024-01-11 Thu 17:33] =>  0:24
@@ -218,10 +250,15 @@ CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 11:21] =>  0:07
 #+RESULTS:
 : elpa-which-key - display available keybindings in popup
 https://github.com/justbur/emacs-which-key
-
+[[elisp:(apropos-command "which-key")]]
 ***** Hydra
-SCHEDULED: <2024-02-01 Thu ++1d>
+SCHEDULED: <2024-02-11 Sun ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-01 Thu 16:37]
+:END:
+- State "AMPLE"      from ""           [2024-02-01 Thu 16:37]
 :LOGBOOK:
+CLOCK: [2024-02-01 Thu 10:51]--[2024-02-01 Thu 10:57] =>  0:06
 CLOCK: [2024-01-11 Thu 17:45]--[2024-01-11 Thu 17:51] =>  0:06
 CLOCK: [2024-01-11 Thu 10:44]--[2024-01-11 Thu 10:56] =>  0:12
 :END:

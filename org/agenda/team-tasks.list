@@ -57,10 +57,12 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-02-01 Thu ++1d>
+SCHEDULED: <2024-02-04 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-31 Wed 11:48]
+:LAST_REPEAT: [2024-02-02 Fri 10:01]
 :END:
+- State "AMPLE"      from ""           [2024-02-02 Fri 10:01]
+- State "AMPLE"      from ""           [2024-02-01 Thu 10:28]
 - State "AMPLE"      from ""           [2024-01-31 Wed 11:48]
 - State "AMPLE"      from ""           [2024-01-30 Tue 15:31]
 - State "AMPLE"      from ""           [2024-01-26 Fri 18:14]
@@ -148,6 +150,7 @@ SCHEDULED: <2024-02-02 Fri ++2d>
 - State "AMPLE"      from ""           [2023-11-15 Wed 10:22]
 - State "AMPLE"      from ""           [2023-11-03 Fri 10:14]
 :LOGBOOK:
+CLOCK: [2024-02-02 Fri 12:03]--[2024-02-02 Fri 12:10] =>  0:07
 CLOCK: [2024-01-31 Wed 14:41]--[2024-01-31 Wed 14:52] =>  0:11
 CLOCK: [2024-01-16 Tue 11:00]--[2024-01-16 Tue 11:16] =>  0:16
 CLOCK: [2024-01-11 Thu 09:41]--[2024-01-11 Thu 09:45] =>  0:04
@@ -163,5 +166,5 @@ CLOCK: [2023-11-03 Fri 09:36]--[2023-11-03 Fri 10:02] =>  0:26
 :END:
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - [[info:magit#Revision Buffer]] [2023-11-03 Fri 09:43]
-* Deploying Emacs on Dell-Lattitude
-SCHEDULED: <2024-02-02 Fri>
+* SET Deploying Emacs on Dell-Lattitude
+SCHEDULED: <2024-02-01 Thu>
