@@ -1990,10 +1990,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Workspace decluttering #1
-SCHEDULED: <2024-02-01 Thu ++1w>
+SCHEDULED: <2024-02-09 Fri ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-25 Thu 18:09]
+:LAST_REPEAT: [2024-02-02 Fri 12:31]
 :END:
+- State "AMPLE"      from ""           [2024-02-02 Fri 12:31]
 - State "AMPLE"      from ""           [2024-01-25 Thu 18:09]
 - State "AMPLE"      from ""           [2024-01-16 Tue 11:31]
 - State "AMPLE"      from ""           [2024-01-09 Tue 11:04]
@@ -2017,6 +2018,7 @@ SCHEDULED: <2024-02-01 Thu ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2024-02-02 Fri 12:10]--[2024-02-02 Fri 12:31] =>  0:21
 CLOCK: [2024-01-25 Thu 18:07]--[2024-01-25 Thu 18:09] =>  0:02
 CLOCK: [2024-01-16 Tue 11:19]--[2024-01-16 Tue 11:31] =>  0:12
 CLOCK: [2024-01-09 Tue 11:03]--[2024-01-09 Tue 11:04] =>  0:01
@@ -2391,11 +2393,12 @@ SCHEDULED: <2024-04-24 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** CV elaboration
-SCHEDULED: <2024-02-02 Fri .+2d/3d>
+** [#A] CV elaboration
+SCHEDULED: <2024-02-04 Sun .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-17 Fri 13:35]
+:LAST_REPEAT: [2024-02-02 Fri 05:46]
 :END:
+- State "AMPLE"      from ""           [2024-02-02 Fri 05:46]
 - State "AMPLE"      from ""           [2023-11-17 Fri 13:35]
 - Note taken on [2023-11-03 Fri 15:10] \\
   Reverse engeneering --> try to find the list of requirements and write
@@ -2839,8 +2842,11 @@ SCHEDULED: <2023-10-31 Tue>
 https://www.derrystrabane.com/what-s-on/events-(sv)/gothic-organ-performance/859911
 https://guildhallderry.com/
 
-*** DELAY [#C] Electric Ireland
-SCHEDULED: <2024-02-01 Thu>
+*** LAG [#C] Electric Ireland
+SCHEDULED: <2024-07-04 Thu>
+:LOGBOOK:
+CLOCK: [2024-02-01 Thu 17:36]--[2024-02-01 Thu 17:53] =>  0:17
+:END:
 
 *** AMPLE Ballyraine Park Health Cetre
 SCHEDULED: <2023-11-13 Mon 14:00>
