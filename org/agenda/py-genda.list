@@ -36,8 +36,8 @@ CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 - If I open up the bonnet of my car [2024-02-01 Thu 18:28]
 - if you want to contribute to CPython, the documentation, there's a site called the Dev Guide [2024-02-01 Thu 18:30]
 - it needs a C layer to integrate into the kernel [2024-02-01 Thu 18:40]
-*** [#A] Learning to Learn as Pythonista
-SCHEDULED: <2024-02-04 Sun ++1d>
+*** Learning to Learn as Pythonista
+SCHEDULED: <2024-02-09 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 05:56]
 :END:
@@ -54,7 +54,13 @@ SCHEDULED: <2024-02-04 Sun ++1d>
 - effect called the zeigarnik. effect [2024-02-02 Fri 06:08]
 - a book called pragmatic programmers [2024-02-02 Fri 06:10]
 - rubber ducklet as a listener
+- reticular activating system [2024-02-06 Tue 04:41]
+- master being able to access the documentation in your environment [2024-02-06 Tue 04:50]
+- called interleaving [2024-02-06 Tue 04:54]
+- Elon Musk is not a car person, per se [2024-02-06 Tue 04:55]
+- It also has a moat [2024-02-06 Tue 04:58]
 :LOGBOOK:
+CLOCK: [2024-02-06 Tue 04:31]--[2024-02-06 Tue 05:08] =>  0:37
 CLOCK: [2024-02-02 Fri 05:49]--[2024-02-02 Fri 06:12] =>  0:23
 CLOCK: [2024-02-01 Thu 05:34]--[2024-02-01 Thu 05:56] =>  0:22
 CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
@@ -63,7 +69,7 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-02-05 Mon>
+SCHEDULED: <2024-02-22 Thu>
 [[file:~/Git/python/talk-python-transcripts/transcripts/246.txt][Transcript]]
 *** Personal Search Engine
 SCHEDULED: <2024-02-11 Sun>
@@ -81,7 +87,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** Assignment test suite
-SCHEDULED: <2024-02-05 Mon ++2d>
+SCHEDULED: <2024-02-29 Thu ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -119,7 +125,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :CATEGORY: PyDevEnv
 :END:
 ** INIT [#A] Emacs as Python IDE
-SCHEDULED: <2024-02-05 Mon ++1w>
+SCHEDULED: <2024-02-09 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -140,15 +146,15 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 *** INIT [#A] Introduction Article
-SCHEDULED: <2024-02-04 Sun>
+SCHEDULED: <2024-02-22 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
 CLOCK: [2024-01-17 Wed 09:24]--[2024-01-17 Wed 10:11] =>  0:47
 CLOCK: [2024-01-16 Tue 10:00]--[2024-01-16 Tue 10:11] =>  0:11
 :END:
 - [[elisp:(bookmark-jump-other-frame "2024-01-16-python-ide.org")][Current position]]
-**** [#B] Python-mode
-SCHEDULED: <2024-02-04 Sun>
+**** [#A] Python-mode
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 12:31]--[2024-02-02 Fri 12:58] =>  0:27
 CLOCK: [2024-01-17 Wed 18:41]--[2024-01-17 Wed 18:52] =>  0:11
@@ -215,17 +221,17 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
 ***** Counsel
-SCHEDULED: <2024-02-06 Tue>
+SCHEDULED: <2024-02-09 Fri>
 [[elisp:(apropos-command "counsel")]]
 ***** Swiper
-SCHEDULED: <2024-02-06 Tue>
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 10:28]--[2024-02-01 Thu 10:35] =>  0:07
 CLOCK: [2024-02-01 Thu 09:53]--[2024-02-01 Thu 09:59] =>  0:06
 :END:
 [[elisp:(apropos-command "swiper")]]
-***** [#A] Helpful {h}
-SCHEDULED: <2024-02-04 Sun>
+***** Helpful {h}
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 09:36]--[2024-02-01 Thu 09:50] =>  0:14
 CLOCK: [2024-01-16 Tue 18:35]--[2024-01-16 Tue 19:01] =>  0:26
@@ -243,7 +249,7 @@ https://github.com/Wilfred/helpful
 [[elisp:(apropos-command "helpful")]]
 
 ***** Which-Key
-SCHEDULED: <2024-02-06 Tue>
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 16:37]--[2024-02-01 Thu 16:40] =>  0:03
 CLOCK: [2024-01-11 Thu 17:33]--[2024-01-11 Thu 17:45] =>  0:12
@@ -361,8 +367,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO [#A] Elpy
-SCHEDULED: <2024-02-04 Sun ++2d>
+** TODO Elpy
+SCHEDULED: <2024-02-11 Sun ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -448,14 +454,14 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:emacs#Flymake][emacs#Flymake]]
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
-*** INIT [#A] The bald Python project
-SCHEDULED: <2024-02-05 Mon>
+*** INIT The bald Python project
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-**** DELAY [#A] Style
-SCHEDULED: <2024-02-08 Thu>
+**** LAG Style
+SCHEDULED: <2024-03-21 Thu>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -539,8 +545,8 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
-**** INIT [#A] Structure
-SCHEDULED: <2024-02-05 Mon>
+**** INIT Structure
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -569,8 +575,8 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** INIT [#A] Play&Learn
-SCHEDULED: <2024-02-05 Mon>
+** INIT Play&Learn
+SCHEDULED: <2024-02-09 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -583,7 +589,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2024-02-07 Wed>
+SCHEDULED: <2024-02-22 Thu>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -611,8 +617,8 @@ SCHEDULED: <2024-02-07 Wed>
 SCHEDULED: <2024-02-15 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
-** DELAY Modules
-SCHEDULED: <2024-02-05 Mon ++3d/4d>
+** LAG Modules
+SCHEDULED: <2024-02-19 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 15:06]
 :END:
@@ -645,15 +651,15 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 [2023-11-01 Wed 15:33]
 
 ** PEP
-*** DELAY 257
-SCHEDULED: <2024-02-05 Mon>
+*** LAG 257
+SCHEDULED: <2024-04-06 Sat>
 [[file:~/git/python/peps/pep-0257.txt]]
 * Coding
 :PROPERTIES:
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-02-04 Sun ++2d/3d>
+SCHEDULED: <2024-02-09 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 10:40]
 :END:
@@ -661,6 +667,7 @@ SCHEDULED: <2024-02-04 Sun ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2024-02-06 Tue 12:00]--[2024-02-06 Tue 12:18] =>  0:18
 CLOCK: [2023-11-07 Tue 10:11]--[2023-11-07 Tue 10:40] =>  0:29
 CLOCK: [2023-11-06 Mon 11:31]--[2023-11-06 Mon 11:31] =>  0:00
 CLOCK: [2023-11-04 Sat 11:07]--[2023-11-04 Sat 11:34] =>  0:27
@@ -670,7 +677,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** LeetCode
-SCHEDULED: <2024-02-04 Sun ++3d/4d>
+SCHEDULED: <2024-02-09 Fri ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:

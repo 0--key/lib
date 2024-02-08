@@ -12,8 +12,8 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* DELAY [#A] Test-Driven Learining
-SCHEDULED: <2024-02-07 Wed ++1d>
+* LAG Test-Driven Learining
+SCHEDULED: <2024-03-21 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
@@ -57,9 +57,13 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-02-04 Sun ++1d>
+SCHEDULED: <2024-02-09 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-02 Fri 10:01]
+:END:
+:LOGBOOK:
+CLOCK: [2024-02-06 Tue 12:18]--[2024-02-06 Tue 12:55] =>  0:37
+CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 :END:
 - State "AMPLE"      from ""           [2024-02-02 Fri 10:01]
 - State "AMPLE"      from ""           [2024-02-01 Thu 10:28]
@@ -93,7 +97,7 @@ SCHEDULED: <2024-02-04 Sun ++1d>
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-02-05 Mon ++1d>
+SCHEDULED: <2024-02-09 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 18:33]
 :CATEGORY: CoLab
@@ -132,7 +136,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * Commits reviewing {jr>c}
-SCHEDULED: <2024-02-04 Sun ++2d>
+SCHEDULED: <2024-02-09 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-02 Fri 12:10]
 :END:

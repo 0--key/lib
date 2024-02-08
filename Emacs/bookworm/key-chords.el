@@ -81,7 +81,9 @@
 ;; Searching
 (key-chord-define-global "sf"     'isearch-forward)
 (key-chord-define-global "SF"     'isearch-backward)
-
+;;
+(key-chord-define-global "sf"     'swiper)
+(key-chord-define-global "SF"     'swiper-backward)
 ;;
 ;; (key-chord-define-global "ri"     'insert-register) ;; too common
 
