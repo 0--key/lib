@@ -27,12 +27,12 @@
 (key-chord-mode 1)
 
 ;; Org-capture templates in a separate file:
-(load "/usr/local/share/emacs/site-lisp/org-capture-templates.el")
+(load "/usr/local/share/emacs/site-lisp/custom/org-capture-templates.el")
 
 (require 'org-drill)
 
 (require 'google-translate)
-(require 'google-translate-default-ui)
+(require 'google-translate-smooth-ui)
 (setq google-translate-translation-directions-alist '(("en" . "ru")))
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
@@ -65,7 +65,7 @@
 (which-key-mode)
 ;;======================================================
 ;; Additional config section:
-(load "/usr/local/share/emacs/site-lisp/key-chords.el")
+(load "/usr/local/share/emacs/site-lisp/custom/key-chords.el")
 ;;
 ;;======================================================
 
@@ -103,7 +103,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
  '(browse-url-browser-function 'eww-browse-url)
  '(org-agenda-files
    '("/home/alioth/Git/0--key/lib/org/agenda/team-tasks.list" "/home/alioth/Git/0--key/lib/org/agenda/py-genda.list" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-11-09-star-warmth.org" "/home/alioth/Git/0--key/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
@@ -114,7 +114,7 @@
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(eglot elpy xclip dictionary find-file-in-project key-chord langtool nov org-bullets powerthesaurus py-autopep8 speed-type treemacs voca-builder org-drill transient dash magit popup))
+   '(sound-wav eglot xclip dictionary langtool py-autopep8 speed-type treemacs voca-builder transient dash magit popup))
  '(vc-follow-symlinks t))
 
 
