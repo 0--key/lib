@@ -18,6 +18,16 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
+** English
+:PROPERTIES:
+:CATEGORY: English
+:END:
+
+*** British Counsil
+
+**** Mitigators
+SCHEDULED: <2024-02-12 Mon>
+[[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 ** Symmathesy
 
 *** Cultivating Happiness
@@ -2819,8 +2829,28 @@ SCHEDULED: <2024-03-07 Thu ++3d>
 CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
-** INIT [#A] Emacs IDE for Vikky
-SCHEDULED: <2024-02-09 Fri>
+** INIT [#A] Emacs IDE for Vikky at ~Dell~
+SCHEDULED: <2024-02-10 Sat>
+:LOGBOOK:
+CLOCK: [2024-02-09 Fri 11:59]--[2024-02-09 Fri 12:22] =>  0:23
+:END:
+*** Install elpa-*.deb packages
+
+They are tested with this particular ~Emacs~ version and seems to me
+much appealing as a much resilient and safe to use altogether. Replace all elpa-stable packages by elpa-*.deb for more stable work
+with =Debian=. So:
+
+
+
+- first of all - configure packages in my session at the ~Dell~:
+  - package has its ~.deb~ prototype:
+    - install ~.deb~;
+    - test it up:
+  - package is unique at ~ELPA~ only:
+    - move its folder to the ~site-lisp~ and recompile it there;
+
+
+
 ** TODO Search reference in *info*
 SCHEDULED: <2024-02-12 Mon>
 - Note taken on [2024-01-17 Wed 11:04] \\
