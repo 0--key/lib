@@ -116,10 +116,16 @@
 
 ;; Org section
 (global-set-key (kbd "C-c c") 'org-capture)
+
+;; Wide-spread capture for straight note as a point on the bullet
+;; list:
+;; - <captured text>;
+;; - <captured text>;
 (key-chord-define-global "cy"
 			 (lambda ()
-			   (interactive)
-			   (org-capture nil "cc")))
+			   (interactive) (org-capture nil "cc")
+			   (deactivate-mark)))
+;;
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define org-mode-map "dc"     'org-capture-finalize)
 (key-chord-define-global "qq"     'org-fill-paragraph)
