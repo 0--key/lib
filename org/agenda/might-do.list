@@ -79,7 +79,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 *** [#A]  Straight Work Approach
-SCHEDULED: <2024-02-10 Sat>
+SCHEDULED: <2024-02-11 Sun>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -89,11 +89,11 @@ https://www.youtube.com/watch?v=XJOsPyyYork
 - Harness your natural (early bird) proneness;
   
 *** Define Your System
-SCHEDULED: <2024-02-11 Sun>
+SCHEDULED: <2024-02-13 Tue>
 https://www.youtube.com/watch?v=y4evLICF8kk
 
 *** Goal Setting as an Art
-SCHEDULED: <2024-02-11 Sun>
+SCHEDULED: <2024-02-15 Thu>
 https://www.youtube.com/watch?v=jOznXVLBGFo
 
 *** SET English Embroidment
@@ -120,13 +120,13 @@ CLOCK: [2024-02-01 Thu 17:15]--[2024-02-01 Thu 17:25] =>  0:10
 :END:
 https://www.youtube.com/watch?v=olRY2fLpL0U
 ** Scholarship
-SCHEDULED: <2024-02-11 Sun>
+SCHEDULED: <2024-02-14 Wed>
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** [#A] Shallow/deep | long/short sessions
 SCHEDULED: <2024-02-29 Thu>
 ** Strategic Thinking
-SCHEDULED: <2024-02-11 Sun>
+SCHEDULED: <2024-02-12 Mon>
 [[https://www.youtube.com/watch?v=dbiNhAZlXZk][Link]]
 
 ** [#A] Erradicate an overthinking
@@ -222,8 +222,8 @@ SCHEDULED: <2024-02-15 Thu>
 ** ~ELPA~ .deb packages
 SCHEDULED: <2024-02-13 Tue>
 overview and tagging
-** [#A] Global Prefixes
-SCHEDULED: <2024-02-11 Sun>
+** DELAY [#A] Global Prefixes
+SCHEDULED: <2024-03-16 Sat>
 :LOGBOOK:
 CLOCK: [2024-01-12 Fri 10:43]--[2024-01-12 Fri 10:52] =>  0:09
 :END:
@@ -281,8 +281,8 @@ By putting the actual (most significant) agenda file on the top.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** [#A] Extend
-SCHEDULED: <2024-02-11 Sun ++2w>
+*** DELAY [#A] Extend
+SCHEDULED: <2024-03-16 Sat ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 17:26]
 :END:
@@ -1241,10 +1241,11 @@ SCHEDULED: <2024-02-21 Wed>
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-02-09 Fri ++1d>
+SCHEDULED: <2024-02-10 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-08 Thu 19:29]
+:LAST_REPEAT: [2024-02-09 Fri 19:14]
 :END:
+- State "AMPLE"      from ""           [2024-02-09 Fri 19:14]
 - State "AMPLE"      from ""           [2024-02-08 Thu 19:29]
 - State "AMPLE"      from ""           [2024-02-03 Sat 18:46]
 - State "AMPLE"      from ""           [2024-01-31 Wed 18:59]
@@ -1284,7 +1285,8 @@ SCHEDULED: <2024-02-09 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-02-09 Fri 19:00]
+CLOCK: [2024-02-10 Sat 18:20]
+CLOCK: [2024-02-09 Fri 19:00]--[2024-02-09 Fri 19:14] =>  0:14
 CLOCK: [2024-02-08 Thu 19:23]--[2024-02-08 Thu 19:25] =>  0:02
 CLOCK: [2024-02-03 Sat 18:37]--[2024-02-03 Sat 18:46] =>  0:09
 CLOCK: [2024-01-31 Wed 18:51]--[2024-01-31 Wed 18:59] =>  0:08
@@ -1519,7 +1521,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-02-10 Sat ++1d>
+SCHEDULED: <2024-02-11 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 19:52]
 :END:
@@ -1715,10 +1717,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-02-10 Sat ++1d>
+SCHEDULED: <2024-02-11 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-09 Fri 19:00]
+:LAST_REPEAT: [2024-02-10 Sat 18:14]
 :END:
+- State "AMPLE"      from ""           [2024-02-10 Sat 18:14]
 - State "AMPLE"      from ""           [2024-02-09 Fri 19:00]
 - State "AMPLE"      from ""           [2024-02-08 Thu 19:09]
 - State "AMPLE"      from ""           [2024-02-04 Sun 19:11]
@@ -1763,6 +1766,7 @@ SCHEDULED: <2024-02-10 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-02-10 Sat 18:10]--[2024-02-10 Sat 18:14] =>  0:04
 CLOCK: [2024-02-09 Fri 18:47]--[2024-02-09 Fri 18:47] =>  0:00
 CLOCK: [2024-02-09 Fri 13:07]--[2024-02-09 Fri 13:11] =>  0:04
 CLOCK: [2024-02-08 Thu 19:02]--[2024-02-08 Thu 19:08] =>  0:06
@@ -1943,10 +1947,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-02-10 Sat ++1d>
+SCHEDULED: <2024-02-11 Sun ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-09 Fri 19:01]
+:LAST_REPEAT: [2024-02-10 Sat 18:20]
 :END:
+- State "AMPLE"      from ""           [2024-02-10 Sat 18:20]
 - State "AMPLE"      from ""           [2024-02-09 Fri 19:01]
 - State "AMPLE"      from ""           [2024-02-08 Thu 19:29]
 - State "AMPLE"      from ""           [2024-02-04 Sun 19:26]
@@ -1979,6 +1984,7 @@ SCHEDULED: <2024-02-10 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-02-10 Sat 18:14]--[2024-02-10 Sat 18:20] =>  0:06
 CLOCK: [2024-02-08 Thu 19:27]--[2024-02-08 Thu 19:28] =>  0:01
 CLOCK: [2024-02-08 Thu 19:08]--[2024-02-08 Thu 19:16] =>  0:08
 CLOCK: [2024-02-04 Sun 19:11]--[2024-02-04 Sun 19:26] =>  0:15
@@ -2213,7 +2219,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-02-10 Sat ++2d/3d>
+SCHEDULED: <2024-02-11 Sun ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 11:50]
 :END:
@@ -2267,8 +2273,8 @@ CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 SCHEDULED: <2024-03-05 Tue>
 [[info:org#Column View]]
 [2024-01-02 Tue 17:21]
-** ACTIVE [#A] Regressive pomodoro
-SCHEDULED: <2024-02-11 Sun>
+** DELAY [#B] Regressive pomodoro
+SCHEDULED: <2024-03-16 Sat>
 :LOGBOOK:
 CLOCK: [2024-01-31 Wed 12:25]--[2024-01-31 Wed 12:51] =>  0:26
 :END:
@@ -2839,7 +2845,7 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** INIT [#A] Emacs IDE for Vikky at ~Dell~
-SCHEDULED: <2024-02-10 Sat>
+SCHEDULED: <2024-02-12 Mon>
 :LOGBOOK:
 CLOCK: [2024-02-09 Fri 11:59]--[2024-02-09 Fri 12:22] =>  0:23
 :END:
