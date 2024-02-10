@@ -2615,8 +2615,6 @@ SCHEDULED: <2024-04-16 Tue>
 ** BARE Bulk remote editing selected entries
 SCHEDULED: <2023-12-20 Wed>
 [[info:org#Agenda Commands][org#Agenda Commands]]
-** INIT RAW tasks assignment at each Sunday
-SCHEDULED: <2024-02-11 Sun>
 ** RAW Delete region detouring kill-ring
 [[https://stackoverflow.com/questions/637351/emacs-how-to-delete-text-without-kill-ring][link]]
 ** RAW Russian proverbs
