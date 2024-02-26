@@ -149,7 +149,7 @@ https://emacs-lsp.github.io/lsp-mode/
 https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
-*** INIT [#A] Introduction Article
+*** INIT Introduction Article
 SCHEDULED: <2024-02-27 Tue>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
@@ -587,7 +587,7 @@ SCHEDULED: <2024-02-28 Wed>
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
 file:~/Git/python/algorithms/algorithms
-* LAG Idioms
+* LAG [#A] Idioms
 SCHEDULED: <2024-02-27 Tue>
 https://docs.python-guide.org/writing/style/#conventions
 * Algorithms
