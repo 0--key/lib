@@ -37,6 +37,8 @@
 (setq google-translate-default-source-language "en")
 (setq google-translate-default-target-language "ru")
 
+(require 'mw-thesaurus)
+
 
 (require 'python)
 (require 'pyvenv)
@@ -103,7 +105,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(bmkp-last-as-first-bookmark-file "~/.emacs.d/bookmarks")
+ '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(browse-url-browser-function 'eww-browse-url)
  '(org-agenda-files
    '("/home/alioth/Git/0--key/lib/org/agenda/team-tasks.list" "/home/alioth/Git/0--key/lib/org/agenda/py-genda.list" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-11-09-star-warmth.org" "/home/alioth/Git/0--key/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
@@ -113,8 +115,7 @@
  '(org-clock-auto-clockout-timer 90)
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
- '(package-selected-packages
-   '(sound-wav eglot xclip dictionary langtool py-autopep8 speed-type treemacs voca-builder transient dash magit popup))
+ '(package-selected-packages '(sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 
