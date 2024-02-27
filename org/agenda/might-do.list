@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=SuCDq_CZ52o
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** TODO [#A] 101 English Idioms in 13 minutes
-SCHEDULED: <2024-02-27 Tue>
+SCHEDULED: <2024-02-28 Wed>
 :LOGBOOK:
 CLOCK: [2024-02-09 Fri 13:39]--[2024-02-09 Fri 13:46] =>  0:07
 CLOCK: [2024-02-01 Thu 17:15]--[2024-02-01 Thu 17:25] =>  0:10
@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=olRY2fLpL0U
 
 
 *** Cultivating Happiness
-SCHEDULED: <2024-02-27 Tue>
+SCHEDULED: <2024-03-05 Tue>
 Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 - Enjoyment;
@@ -101,7 +101,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 ***  Straight Work Approach
-SCHEDULED: <2024-02-27 Tue>
+SCHEDULED: <2024-02-28 Wed>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -120,13 +120,13 @@ https://www.youtube.com/watch?v=jOznXVLBGFo
 
 
 ** Scholarship
-SCHEDULED: <2024-02-28 Wed>
+SCHEDULED: <2024-03-05 Tue>
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** [#A] Shallow/deep | long/short sessions
 SCHEDULED: <2024-02-29 Thu>
 ** Strategic Thinking
-SCHEDULED: <2024-02-27 Tue>
+SCHEDULED: <2024-03-05 Tue>
 [[https://www.youtube.com/watch?v=dbiNhAZlXZk][Link]]
 
 ** [#A] Erradicate an overthinking
@@ -219,8 +219,23 @@ SCHEDULED: <2024-03-01 Fri>
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
-** ~ELPA~ .deb packages
+** Emacs server on Debian 12 article
+SCHEDULED: <2024-02-29 Thu ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-27 Tue 18:24]
+:END:
+- State "AMPLE"      from ""           [2024-02-27 Tue 18:24]
+:LOGBOOK:
+CLOCK: [2024-02-27 Tue 18:02]--[2024-02-27 Tue 18:24] =>  0:22
+:END:
+** SET Install MWThesaurus system-wide
 SCHEDULED: <2024-02-27 Tue>
+:LOGBOOK:
+CLOCK: [2024-02-27 Tue 19:10]--[2024-02-27 Tue 19:12] =>  0:02
+CLOCK: [2024-02-27 Tue 18:52]--[2024-02-27 Tue 19:08] =>  0:16
+:END:
+** ~ELPA~ .deb packages
+SCHEDULED: <2024-03-04 Mon>
 overview and tagging
 ** DELAY [#A] Global Prefixes
 SCHEDULED: <2024-03-16 Sat>
@@ -846,7 +861,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** Whole week scheduling
-SCHEDULED: <2024-02-27 Tue .+1w>
+SCHEDULED: <2024-03-03 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-01-16 Tue 11:36]
@@ -1158,7 +1173,7 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#C] Double Loop Learning
-SCHEDULED: <2024-02-28 Wed ++2w>
+SCHEDULED: <2024-03-05 Tue ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 16:18]
 :END:
@@ -1239,8 +1254,8 @@ SCHEDULED: <2024-01-09 Tue>
 ** SET Backlit keyboard                              :backlit:keyboard:Dell:
 SCHEDULED: <2024-01-09 Tue>
 sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
-** DELAY Goodies
-SCHEDULED: <2024-02-28 Wed>
+** LAG Goodies
+SCHEDULED: <2024-04-23 Tue>
 :LOGBOOK:
 CLOCK: [2024-01-03 Wed 17:04]--[2024-01-03 Wed 17:12] =>  0:08
 :END:
@@ -1337,6 +1352,8 @@ SCHEDULED: <2024-02-27 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
+CLOCK: [2024-02-27 Tue 19:33]
+CLOCK: [2024-02-27 Tue 17:13]--[2024-02-27 Tue 17:15] =>  0:02
 CLOCK: [2024-02-26 Mon 20:10]--[2024-02-26 Mon 20:10] =>  0:00
 CLOCK: [2024-02-26 Mon 20:04]--[2024-02-26 Mon 20:06] =>  0:02
 CLOCK: [2024-02-10 Sat 18:20]--[2024-02-10 Sat 18:25] =>  0:05
@@ -1575,7 +1592,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-02-27 Tue ++1d>
+SCHEDULED: <2024-02-28 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 19:52]
 :END:
@@ -1771,10 +1788,11 @@ CLOCK: [2022-12-04 Sun 13:33]--[2022-12-04 Sun 14:03] =>  0:30
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
 *** Daily tasks pile assay
-SCHEDULED: <2024-02-27 Tue ++1d>
+SCHEDULED: <2024-02-28 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-26 Mon 20:05]
+:LAST_REPEAT: [2024-02-27 Tue 19:32]
 :END:
+- State "AMPLE"      from ""           [2024-02-27 Tue 19:32]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:05]
 - State "AMPLE"      from ""           [2024-02-10 Sat 18:14]
 - State "AMPLE"      from ""           [2024-02-09 Fri 19:00]
@@ -1821,6 +1839,9 @@ SCHEDULED: <2024-02-27 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-02-27 Tue 19:28]--[2024-02-27 Tue 19:28] =>  0:00
+CLOCK: [2024-02-27 Tue 17:33]--[2024-02-27 Tue 17:37] =>  0:04
+CLOCK: [2024-02-27 Tue 16:09]--[2024-02-27 Tue 16:12] =>  0:03
 CLOCK: [2024-02-26 Mon 19:49]--[2024-02-26 Mon 20:04] =>  0:15
 CLOCK: [2024-02-10 Sat 18:10]--[2024-02-10 Sat 18:14] =>  0:04
 CLOCK: [2024-02-09 Fri 18:47]--[2024-02-09 Fri 18:47] =>  0:00
@@ -2003,10 +2024,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-02-27 Tue ++1d>
+SCHEDULED: <2024-02-28 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-26 Mon 20:10]
+:LAST_REPEAT: [2024-02-27 Tue 19:32]
 :END:
+- State "AMPLE"      from ""           [2024-02-27 Tue 19:32]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:10]
 - State "AMPLE"      from ""           [2024-02-10 Sat 18:20]
 - State "AMPLE"      from ""           [2024-02-09 Fri 19:01]
@@ -2041,6 +2063,7 @@ SCHEDULED: <2024-02-27 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-02-27 Tue 19:28]--[2024-02-27 Tue 19:32] =>  0:04
 CLOCK: [2024-02-26 Mon 20:06]--[2024-02-26 Mon 20:10] =>  0:04
 CLOCK: [2024-02-10 Sat 18:14]--[2024-02-10 Sat 18:20] =>  0:06
 CLOCK: [2024-02-08 Thu 19:27]--[2024-02-08 Thu 19:28] =>  0:01
@@ -2226,7 +2249,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** TODO [#A] English We Speak
-SCHEDULED: <2024-02-27 Tue ++1d>
+SCHEDULED: <2024-02-28 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
@@ -2241,7 +2264,7 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 
 
 *** RAW [#A] English Grammar
-SCHEDULED: <2024-02-27 Tue ++1w>
+SCHEDULED: <2024-02-28 Wed ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -2279,10 +2302,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-02-27 Tue ++2d/3d>
+SCHEDULED: <2024-02-29 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-01-31 Wed 11:50]
+:LAST_REPEAT: [2024-02-27 Tue 17:40]
 :END:
+- State "AMPLE"      from ""           [2024-02-27 Tue 17:40]
 - State "AMPLE"      from ""           [2024-01-31 Wed 11:50]
 - State "AMPLE"      from ""           [2024-01-25 Thu 18:46]
 - State "AMPLE"      from ""           [2024-01-16 Tue 11:44]
@@ -2295,6 +2319,8 @@ SCHEDULED: <2024-02-27 Tue ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 :LOGBOOK:
+CLOCK: [2024-02-27 Tue 17:37]--[2024-02-27 Tue 17:39] =>  0:02
+CLOCK: [2024-02-27 Tue 16:12]--[2024-02-27 Tue 16:18] =>  0:06
 CLOCK: [2024-01-30 Tue 16:25]--[2024-01-30 Tue 16:55] =>  0:30
 CLOCK: [2024-01-25 Thu 18:21]--[2024-01-25 Thu 18:46] =>  0:25
 CLOCK: [2024-01-16 Tue 11:36]--[2024-01-16 Tue 11:44] =>  0:08
@@ -2444,10 +2470,10 @@ LifeSpan: Why We Age
 ** RAW Clifford D. Simak
 Ring Around the Sun
 ** INIT Library Loan
-SCHEDULED: <2024-03-04 Mon> DEADLINE: <2024-02-22 Thu -2d>
+DEADLINE: <2024-03-22 Thu -2d>
 https://donegal.spydus.ie
 ** Driver Licence Renewal
-SCHEDULED: <2024-03-04 Mon> DEADLINE: <2024-02-21 Wed -5d>
+SCHEDULED: <2024-03-04 Mon>
 https://www.ndls.ie/contact-form.html
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
@@ -2496,10 +2522,11 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-02-27 Tue .+2d/3d>
+SCHEDULED: <2024-02-29 Thu .+2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-02 Fri 05:46]
+:LAST_REPEAT: [2024-02-27 Tue 10:45]
 :END:
+- State "AMPLE"      from ""           [2024-02-27 Tue 10:45]
 - State "AMPLE"      from ""           [2024-02-02 Fri 05:46]
 - State "AMPLE"      from ""           [2023-11-17 Fri 13:35]
 - Note taken on [2023-11-03 Fri 15:10] \\
@@ -2516,6 +2543,7 @@ SCHEDULED: <2024-02-27 Tue .+2d/3d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2024-02-27 Tue 01:29]--[2024-02-27 Tue 05:44] =>  4:15
 CLOCK: [2024-02-02 Fri 05:18]--[2024-02-02 Fri 05:46] =>  0:28
 CLOCK: [2023-11-29 Wed 17:20]--[2023-11-29 Wed 17:50] =>  0:30
 CLOCK: [2023-11-17 Fri 09:41]--[2023-11-17 Fri 10:11] =>  0:30
@@ -2698,7 +2726,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT [#A] 10 Daily Idioms
-SCHEDULED: <2024-02-27 Tue>
+SCHEDULED: <2024-02-28 Wed>
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
 ** DELAY Ross Ashby
 SCHEDULED: <2024-05-12 Sun>
