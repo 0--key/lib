@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Chrome Passwords.csv" 0 20
+(#1=(#("The Peter Principle - Why Things Always Go Wrong.epub" 0 53
+      (bmkp-full-record #1#))
+    (filename . "/usr/local/lib/books/The Peter Principle - Why Things Always Go Wrong.epub")
+    (index . 7)
+    (position . 1627)
+    (handler . nov-bookmark-jump-handler))
+#1=(#("Chrome Passwords.csv" 0 20
       (bmkp-full-record #1#))
     (filename . "~/Downloads/Chrome/Chrome Passwords.csv")
     (buffer-name . "Chrome Passwords.csv")
@@ -17,8 +23,8 @@
 #1=(#("g-translate-lag" 0 15
       (bmkp-full-record #1#))
     (buffer-name . "might-do.list")
-    (visits . 2)
-    (time 26054 65080 909449 989000)
+    (visits . 4)
+    (time 26087 26253 586906 84000)
     (created 26053 11284 895484 400000)
     (position . 2365)
     (filename . "   - no file -")
@@ -349,8 +355,8 @@
     (handler . nov-bookmark-jump-handler))
 #1=(#("Fluent Python (2015).epub" 0 25
       (bmkp-full-record #1#))
-    (time 26076 60122 612061 311000)
-    (visits . 1)
+    (time 26085 41163 523615 802000)
+    (visits . 2)
     (annotation)
     (tags)
     (filename . "/home/alioth/books/Fluent Python (2015).epub")
@@ -694,8 +700,8 @@
     (rear-context-string . "81 Dec  6 15:09 ")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 1)
-    (time 25978 59087 834180 244000)
+    (visits . 2)
+    (time 26094 61714 306585 752000)
     (created 25971 20619 492665 22000)
     (position . 223)
     (filename . #2="/usr/local/lib/books/")
@@ -1355,16 +1361,16 @@
       (bmkp-full-record #1#))
     (annotation)
     (tags)
-    (filename . "~/Git/0--key/lib/org/agenda/py-genda.list")
-    (buffer-name . "py-genda.list")
-    (front-context-string . "- I'm a big one ")
-    (rear-context-string . "2-09 Fri 13:33]\n")
+    (filename . "~/Git/0--key/lib/org/agenda/might-do.list")
+    (buffer-name . "might-do.list")
+    (front-context-string . "** INIT Leadersh")
+    (rear-context-string . "2024-03-16 Sat>\n")
     (front-context-region-string)
     (rear-context-region-string)
     (visits . 0)
-    (time . #2=(26054 10918 374384 569000))
+    (time . #2=(26096 14008 707509 551000))
     (created . #2#)
-    (position . 3046))
+    (position . 47077))
 #1=(#("The Happy Brain by Dean Burnett.epub" 0 36
       (bmkp-full-record #1#))
     (annotation)

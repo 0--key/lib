@@ -57,10 +57,12 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-02-28 Wed ++1d>
+SCHEDULED: <2024-03-13 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-27 Tue 16:08]
+:LAST_REPEAT: [2024-03-12 Tue 11:55]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 11:55]
+- State "AMPLE"      from ""           [2024-02-29 Thu 10:48]
 - State "AMPLE"      from ""           [2024-02-27 Tue 16:08]
 - State "AMPLE"      from ""           [2024-02-09 Fri 13:07]
 :LOGBOOK:
@@ -100,7 +102,7 @@ CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-02-28 Wed ++1d>
+SCHEDULED: <2024-03-12 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 18:33]
 :CATEGORY: CoLab
@@ -139,10 +141,11 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * Commits reviewing {jr>c}
-SCHEDULED: <2024-02-29 Thu ++2d>
+SCHEDULED: <2024-03-12 Tue ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-27 Tue 17:54]
+:LAST_REPEAT: [2024-02-29 Thu 10:52]
 :END:
+- State "AMPLE"      from ""           [2024-02-29 Thu 10:52]
 - State "AMPLE"      from ""           [2024-02-27 Tue 17:54]
 - State "AMPLE"      from ""           [2024-02-09 Fri 14:15]
 - State "AMPLE"      from ""           [2024-02-02 Fri 12:10]
@@ -160,6 +163,7 @@ SCHEDULED: <2024-02-29 Thu ++2d>
 - State "AMPLE"      from ""           [2023-11-15 Wed 10:22]
 - State "AMPLE"      from ""           [2023-11-03 Fri 10:14]
 :LOGBOOK:
+CLOCK: [2024-02-29 Thu 10:49]--[2024-02-29 Thu 10:52] =>  0:03
 CLOCK: [2024-02-27 Tue 17:40]--[2024-02-27 Tue 17:54] =>  0:14
 CLOCK: [2024-02-09 Fri 14:01]--[2024-02-09 Fri 14:15] =>  0:14
 CLOCK: [2024-02-02 Fri 12:03]--[2024-02-02 Fri 12:10] =>  0:07
