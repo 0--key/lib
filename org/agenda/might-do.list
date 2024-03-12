@@ -25,8 +25,8 @@ Advanced to-do list    -*- mode: org; -*-
 
 *** British Counsil
 
-**** Mitigators
-SCHEDULED: <2024-03-14 Thu>
+**** DELAY Mitigators
+SCHEDULED: <2024-05-27 Mon>
 [[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 
 *** INIT Litotes
@@ -125,7 +125,7 @@ SCHEDULED: <2024-03-13 Wed>
 https://www.youtube.com/watch?v=y4evLICF8kk
 
 *** Goal Setting as an Art
-SCHEDULED: <2024-03-12 Tue>
+SCHEDULED: <2024-03-13 Wed>
 https://www.youtube.com/watch?v=jOznXVLBGFo
 
 
@@ -136,8 +136,15 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 :END:
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
-** Iain McGilChrist
+** [#A] Iain McGilChrist
 SCHEDULED: <2024-03-13 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-12 Tue 17:01]
+:END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 17:01]
+:LOGBOOK:
+CLOCK: [2024-03-12 Tue 16:17]--[2024-03-12 Tue 17:00] =>  0:43
+:END:
 The [[file:~/Git/0--key/org-pub/2024-03-11-thought-dissection.org::*Transcript][point]]
 ** DELAY [#A] Shallow/deep | long/short sessions
 SCHEDULED: <2024-04-04 Thu>
@@ -156,8 +163,8 @@ CLOCK: [2024-02-06 Tue 04:24]--[2024-02-06 Tue 04:30] =>  0:06
 :END:
 https://www.youtube.com/watch?v=WIOtv4fM8jc
 
-** The Peter Principle
-SCHEDULED: <2024-03-14 Thu ++2d/3d>
+** [#A] The Peter Principle
+SCHEDULED: <2024-03-13 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 11:55]
 :END:
@@ -169,8 +176,8 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :PROPERTIES:
 :CATEGORY: Git
 :END:
-** DELAY Tags
-SCHEDULED: <2024-03-15 Fri ++3d/5d>
+** LAG Tags
+SCHEDULED: <2024-07-18 Thu ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -222,8 +229,8 @@ SCHEDULED: <2024-03-21 Thu>
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
-** DELAY ReSet, ReBase
-SCHEDULED: <2024-03-16 Sat ++2d/3d>
+** LAG ReSet, ReBase
+SCHEDULED: <2024-04-14 Sun ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-17 Wed 10:17]
 :END:
@@ -269,8 +276,8 @@ CLOCK: [2024-02-27 Tue 18:52]--[2024-02-27 Tue 19:08] =>  0:16
 ** ~ELPA~ .deb packages
 SCHEDULED: <2024-03-15 Fri>
 overview and tagging
-** DELAY [#A] Global Prefixes
-SCHEDULED: <2024-03-16 Sat>
+** LAG [#A] Global Prefixes
+SCHEDULED: <2024-09-11 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-12 Fri 10:43]--[2024-01-12 Fri 10:52] =>  0:09
 :END:
@@ -314,8 +321,8 @@ CLOCK: [2023-10-24 Tue 10:05]--[2023-10-24 Tue 10:28] =>  0:23
 https://company-mode.github.io/manual/
 [[info:company#Top][company#Top
 ]]
-*** LAG Backends
-SCHEDULED: <2024-03-13 Wed>
+*** RETARD Backends
+SCHEDULED: <2024-05-09 Thu>
 [[info:company#Backends]]
 [2023-11-01 Wed 10:39]
 
@@ -328,8 +335,8 @@ By putting the actual (most significant) agenda file on the top.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** DELAY [#A] Extend
-SCHEDULED: <2024-03-16 Sat ++2w>
+*** LAG [#A] Extend
+SCHEDULED: <2024-03-17 Sun ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 17:26]
 :END:
@@ -467,8 +474,8 @@ CLOCK: [2023-11-03 Fri 11:01]--[2023-11-03 Fri 11:05] =>  0:04
 CLOCK: [2023-11-01 Wed 11:26]--[2023-11-01 Wed 11:49] =>  0:23
 :END:
 [[info:emacs#Spelling][emacs#Spelling]]
-** DELAY [#A] Projects
-SCHEDULED: <2024-03-16 Sat ++3d/4d>
+** LAG [#A] Projects
+SCHEDULED: <2024-06-13 Thu ++3d/4d>
 - Note taken on [2024-01-04 Thu 19:37] \\
   and projectile package:
   
@@ -548,7 +555,7 @@ CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
 :END:
 https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 ** DELAY emacs-nox
-SCHEDULED: <2024-03-14 Thu>
+SCHEDULED: <2024-05-27 Mon>
 What it is used for? And how to launch it in console? Seems like
 colors for code changes areas in ~magit~ buffer are so vivid.
 
@@ -565,20 +572,20 @@ https://www.emacswiki.org/emacs/ModeHooks
 ** DELAY Emacs as WM:
 SCHEDULED: <2024-04-07 Sun>
 https://github.com/ch11ng/exwm/wiki
-** Console S-right/left fix:
-SCHEDULED: <2024-03-13 Wed>
+** DELAY Console S-right/left fix:
+SCHEDULED: <2024-05-27 Mon>
 https://github.com/CyberShadow/term-keys
-** GTranslate customization
-SCHEDULED: <2024-03-13 Wed>
+** DELAY GTranslate customization
+SCHEDULED: <2024-05-27 Mon>
 :LOGBOOK:
 CLOCK: [2024-01-17 Wed 11:10]--[2024-01-17 Wed 11:20] =>  0:10
 :END:
 https://github.com/atykhonov/google-translate#common-ui-customization
-** DELAY Eterm as elisp shell
-SCHEDULED: <2024-03-16 Sat>
+** LAG Eterm as elisp shell
+SCHEDULED: <2024-05-10 Fri>
 - eshell-git-prompt
-** DELAY Lynx inside ansi-term
-SCHEDULED: <2024-03-15 Fri>
+** LAG Lynx inside ansi-term
+SCHEDULED: <2024-05-03 Fri>
 GitHub don't displays properly in ~EWW~
 ** LAG Autoformat 72 chars
 SCHEDULED: <2024-03-27 Wed>
@@ -914,11 +921,12 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-04-10 Wed>
 [[info:org#TODO types][org#TODO types]]
 ** Whole week scheduling
-SCHEDULED: <2024-03-12 Tue .+1w>
+SCHEDULED: <2024-03-19 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2024-01-16 Tue 11:36]
+:LAST_REPEAT: [2024-03-12 Tue 19:25]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:25]
 - State "AMPLE"      from ""           [2024-01-16 Tue 11:36]
 - State "AMPLE"      from ""           [2024-01-08 Mon 17:49]
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:34]
@@ -935,6 +943,8 @@ SCHEDULED: <2024-03-12 Tue .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2024-03-12 Tue 19:19]--[2024-03-12 Tue 19:24] =>  0:05
+CLOCK: [2024-03-12 Tue 19:13]--[2024-03-12 Tue 19:15] =>  0:02
 CLOCK: [2024-03-12 Tue 10:59]--[2024-03-12 Tue 11:02] =>  0:03
 CLOCK: [2024-01-16 Tue 11:33]--[2024-01-16 Tue 11:36] =>  0:03
 CLOCK: [2024-01-08 Mon 12:16]--[2024-01-08 Mon 12:20] =>  0:04
@@ -1145,7 +1155,7 @@ CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
 [[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
 ** LAG Dry Creek Wrangler School
-SCHEDULED: <2024-03-16 Sat>
+SCHEDULED: <2024-08-04 Sun>
 ** RAW Eudaimonia
 SCHEDULED: <2024-03-13 Wed>
 :LOGBOOK:
@@ -1228,7 +1238,7 @@ FarnamStreet overview
 [[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
 https://www.youtube.com/watch?v=k_zt6qRTmN0
 *** [#C] Double Loop Learning
-SCHEDULED: <2024-03-12 Tue ++2w>
+SCHEDULED: <2024-03-15 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-08 Fri 16:18]
 :END:
@@ -1341,8 +1351,13 @@ CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
 ** [#C] Enhanced self-esteem
-SCHEDULED: <2024-03-12 Tue>
+SCHEDULED: <2024-03-19 Tue ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-12 Tue 19:13]
+:END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
 :LOGBOOK:
+CLOCK: [2024-03-12 Tue 19:12]--[2024-03-12 Tue 19:12] =>  0:00
 CLOCK: [2024-01-26 Fri 18:54]--[2024-01-26 Fri 19:10] =>  0:16
 :END:
 1. Acknowledge and count your wins
@@ -1354,7 +1369,7 @@ CLOCK: [2024-01-26 Fri 18:54]--[2024-01-26 Fri 19:10] =>  0:16
 https://www.youtube.com/watch?v=0ruvCL9atE0
 
 ** LAG ElectricSheep
-SCHEDULED: <2024-03-16 Sat>
+SCHEDULED: <2024-10-05 Sat>
 ** INIT Leadership as an advanced skill
 SCHEDULED: <2024-03-14 Thu>
 Team synergy induction, gestation, stimulation
@@ -1363,7 +1378,8 @@ Team synergy induction, gestation, stimulation
 a hospitable environment for its incubation, gestation and benign
 development. After its initiation == how to foster it, stimulate it to
 grow up in the right direction, how to cultivate and control it.
-
+** INIT Team leadership in software development
+SCHEDULED: <2024-03-13 Wed>
 
 * Tasks
 ** Chores
@@ -1418,7 +1434,8 @@ SCHEDULED: <2024-03-12 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-03-12 Tue 12:32]
+CLOCK: [2024-03-12 Tue 19:28]
+CLOCK: [2024-03-12 Tue 12:32]--[2024-03-12 Tue 12:35] =>  0:03
 CLOCK: [2024-02-28 Wed 11:12]--[2024-02-28 Wed 11:14] =>  0:02
 CLOCK: [2024-02-27 Tue 19:33]--[2024-02-27 Tue 19:35] =>  0:02
 CLOCK: [2024-02-27 Tue 17:13]--[2024-02-27 Tue 17:15] =>  0:02
@@ -1660,7 +1677,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-03-12 Tue ++1d>
+SCHEDULED: <2024-03-13 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-29 Thu 11:54]
 :END:
@@ -1860,10 +1877,11 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-03-12 Tue ++1d>
+SCHEDULED: <2024-03-13 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-27 Tue 19:32]
+:LAST_REPEAT: [2024-03-12 Tue 19:25]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:25]
 - State "AMPLE"      from ""           [2024-02-27 Tue 19:32]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:05]
 - State "AMPLE"      from ""           [2024-02-10 Sat 18:14]
@@ -2101,10 +2119,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-03-12 Tue ++1d>
+SCHEDULED: <2024-03-13 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-27 Tue 19:32]
+:LAST_REPEAT: [2024-03-12 Tue 19:27]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:27]
 - State "AMPLE"      from ""           [2024-02-27 Tue 19:32]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:10]
 - State "AMPLE"      from ""           [2024-02-10 Sat 18:20]
@@ -2140,6 +2159,8 @@ SCHEDULED: <2024-03-12 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-03-12 Tue 19:25]--[2024-03-12 Tue 19:27] =>  0:02
+CLOCK: [2024-03-12 Tue 19:15]--[2024-03-12 Tue 19:19] =>  0:04
 CLOCK: [2024-02-28 Wed 18:43]--[2024-02-28 Wed 18:49] =>  0:06
 CLOCK: [2024-02-27 Tue 19:28]--[2024-02-27 Tue 19:32] =>  0:04
 CLOCK: [2024-02-26 Mon 20:06]--[2024-02-26 Mon 20:10] =>  0:04
@@ -2189,10 +2210,11 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Workspace decluttering #1
-SCHEDULED: <2024-03-12 Tue ++1w>
+SCHEDULED: <2024-03-19 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-26 Mon 20:05]
+:LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:05]
 - State "AMPLE"      from ""           [2024-02-02 Fri 12:31]
 - State "AMPLE"      from ""           [2024-01-25 Thu 18:09]
@@ -2218,6 +2240,7 @@ SCHEDULED: <2024-03-12 Tue ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2024-03-12 Tue 12:35]--[2024-03-12 Tue 12:44] =>  0:09
 CLOCK: [2024-02-26 Mon 18:40]--[2024-02-26 Mon 18:53] =>  0:13
 CLOCK: [2024-02-02 Fri 12:10]--[2024-02-02 Fri 12:31] =>  0:21
 CLOCK: [2024-01-25 Thu 18:07]--[2024-01-25 Thu 18:09] =>  0:02
@@ -2380,10 +2403,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-03-12 Tue ++2d/3d>
+SCHEDULED: <2024-03-14 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-27 Tue 17:40]
+:LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
 - State "AMPLE"      from ""           [2024-02-27 Tue 17:40]
 - State "AMPLE"      from ""           [2024-01-31 Wed 11:50]
 - State "AMPLE"      from ""           [2024-01-25 Thu 18:46]
@@ -2429,15 +2453,15 @@ CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
-**** DELAY Effort in task resolving
-SCHEDULED: <2024-03-13 Wed>
+**** LAG Effort in task resolving
+SCHEDULED: <2024-05-29 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 :END:
 [[info:org#Effort Estimates][org#Effort Estimates]]
 [2023-12-27 Wed 16:01]
-***** DELAY Agenda Column View
-SCHEDULED: <2024-03-16 Sat>
+***** LAG Agenda Column View
+SCHEDULED: <2024-08-28 Wed>
 [[info:org#Column View]]
 [2024-01-02 Tue 17:21]
 ** DELAY [#B] Regressive pomodoro
@@ -2603,7 +2627,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-03-12 Tue .+2d/3d>
+SCHEDULED: <2024-03-13 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-27 Tue 10:45]
 :END:
@@ -2686,12 +2710,12 @@ CLOCK: [2023-12-12 Tue 14:17]--[2023-12-12 Tue 14:27] =>  0:10
 :END:
 [[info:emacs#Init File][emacs#Init File]]
 *** INIT Several ~inits~ for different purposes
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-18 Mon>
 [[info:emacs#Find Init]]
 [2023-12-12 Tue 14:24]
 
-** INIT Handling links
-SCHEDULED: <2024-03-13 Wed>
+** DELAY Handling links
+SCHEDULED: <2024-05-27 Mon>
 :LOGBOOK:
 CLOCK: [2024-01-31 Wed 15:34]--[2024-01-31 Wed 15:54] =>  0:20
 CLOCK: [2023-12-15 Fri 18:06]--[2023-12-15 Fri 18:16] =>  0:10
@@ -2702,7 +2726,7 @@ CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
                ‘[[elisp:org-agenda]]’ (interactive Elisp command)
    [2023-12-15 Fri 18:13]
 *** INIT External Links
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
 :END:
@@ -2716,8 +2740,8 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
-** ACTIVE Personal Development
-SCHEDULED: <2024-03-12 Tue ++35d>
+** ACTIVE [#A] Personal Development
+SCHEDULED: <2024-03-13 Wed ++35d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-08 Mon 12:12]
 :END:
@@ -2733,8 +2757,8 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 ** LAG Emacs TUTORIAL                                              :ARCHIVE:
 SCHEDULED: <2023-11-27 Mon>
 For Andrew <<C-h ?>>
-** LAG ScreenCasting
-SCHEDULED: <2024-03-13 Wed>
+** RETARD ScreenCasting
+SCHEDULED: <2024-06-22 Sat>
 - Note taken on [2023-06-06 Tue 06:56] \\
   Seems like it is a separate skill to develop out from the set of
   already existing ones. And without any doubt it requres a massive
@@ -2744,7 +2768,7 @@ SCHEDULED: <2024-03-13 Wed>
 - Shortcuts for stop
 - YouTube upload
 - Another screen test
-** LAG Paul Auster
+** RAW Paul Auster
 SCHEDULED: <2024-03-14 Thu>
 ** LAG Keep Going Austin Kleon
 SCHEDULED: <2024-04-14 Sun>
@@ -2831,8 +2855,8 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 ** RAW Micro Trading
 ** LAG Framework Thinking
 SCHEDULED: <2024-03-18 Mon>
-** LAG Time is Space Concept
-SCHEDULED: <2024-03-15 Fri>
+** RETARD Time is Space Concept
+SCHEDULED: <2024-10-11 Fri>
 Speed of light isn't equal in different moments and directions
 ** RAW System Crafters
 ** LAG Zsh
@@ -2955,7 +2979,7 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 ** SET New destination for books
 SCHEDULED: <2023-12-10 Sun>
 ** INIT [#A] Check =Elpy= venv
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-18 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 :END:
