@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** INIT Python Talk to Me
-SCHEDULED: <2024-03-14 Thu ++3d>
+SCHEDULED: <2024-03-26 Tue ++3d>
 :PROPERTIES:
 :CATEGORY: PyTatMe
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
@@ -36,8 +36,8 @@ CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 - If I open up the bonnet of my car [2024-02-01 Thu 18:28]
 - if you want to contribute to CPython, the documentation, there's a site called the Dev Guide [2024-02-01 Thu 18:30]
 - it needs a C layer to integrate into the kernel [2024-02-01 Thu 18:40]
-*** Learning to Learn as Pythonista
-SCHEDULED: <2024-03-18 Mon ++1d>
+*** DELAY Learning to Learn as Pythonista
+SCHEDULED: <2024-04-23 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 05:56]
 :END:
@@ -72,7 +72,7 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-20 Wed>
 [[file:~/Git/python/talk-python-transcripts/transcripts/246.txt][Transcript]]
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
@@ -89,8 +89,8 @@ SCHEDULED: <2023-11-20 Mon ++4d>
 CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
-** Assignment test suite
-SCHEDULED: <2024-03-18 Mon ++2d>
+** DELAY Assignment test suite
+SCHEDULED: <2024-05-05 Sun ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -127,8 +127,8 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** INIT [#A] Emacs as Python IDE
-SCHEDULED: <2024-03-18 Mon ++1w>
+** DELAY [#A] Emacs as Python IDE
+SCHEDULED: <2024-03-27 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -150,7 +150,7 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 *** INIT Introduction Article
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-21 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
 CLOCK: [2024-01-17 Wed 09:24]--[2024-01-17 Wed 10:11] =>  0:47
@@ -158,7 +158,7 @@ CLOCK: [2024-01-16 Tue 10:00]--[2024-01-16 Tue 10:11] =>  0:11
 :END:
 - [[elisp:(bookmark-jump-other-frame "2024-01-16-python-ide.org")][Current position]]
 **** [#A] Python-mode
-SCHEDULED: <2024-03-16 Sat>
+SCHEDULED: <2024-03-21 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-10 Sat 04:39]--[2024-02-10 Sat 05:08] =>  0:29
 CLOCK: [2024-02-02 Fri 12:31]--[2024-02-02 Fri 12:58] =>  0:27
@@ -225,18 +225,18 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
-***** DELAY Counsel
-SCHEDULED: <2024-03-20 Wed>
+***** RETARD Counsel
+SCHEDULED: <2024-06-02 Sun>
 [[elisp:(apropos-command "counsel")]]
 ***** Swiper
-SCHEDULED: <2024-03-17 Sun>
+SCHEDULED: <2024-03-22 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 10:28]--[2024-02-01 Thu 10:35] =>  0:07
 CLOCK: [2024-02-01 Thu 09:53]--[2024-02-01 Thu 09:59] =>  0:06
 :END:
 [[elisp:(apropos-command "swiper")]]
 ***** Helpful {h}
-SCHEDULED: <2024-03-17 Sun>
+SCHEDULED: <2024-03-21 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-10 Sat 05:10]--[2024-02-10 Sat 05:22] =>  0:12
 CLOCK: [2024-02-01 Thu 09:36]--[2024-02-01 Thu 09:50] =>  0:14
@@ -290,8 +290,8 @@ apt-cache search elpa | grep hydra
 : elpa-ivy-hydra - additional key bindings for Emacs Ivy
 : elpa-hydra - make Emacs bindings that stick around
 
-***** DELAY Projectile
-SCHEDULED: <2024-03-20 Wed ++2d/3d>
+***** RETARD Projectile
+SCHEDULED: <2024-07-10 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-25 Thu 19:08]
 :END:
@@ -354,8 +354,8 @@ CLOCK: [2024-01-16 Tue 17:49]--[2024-01-16 Tue 18:27] =>  0:38
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
 - [[https://github.com/daviwil/emacs-from-scratch/blob/bbfbc77b3afab0c14149e07d0ab08d275d4ba575/Emacs.org#terminals][Description]]
 SCHEDULED: <2024-03-27 Wed>
-** DELAY EGlot
-SCHEDULED: <2024-03-20 Wed ++2d>
+** RETARD EGlot
+SCHEDULED: <2024-06-06 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 17:52]
 :END:
@@ -375,7 +375,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO [#A] Elpy
-SCHEDULED: <2024-03-15 Fri ++2d>
+SCHEDULED: <2024-03-20 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -462,13 +462,13 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT The bald Python project
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-03-22 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
 For Elpy training purposes
-**** LAG Style
-SCHEDULED: <2024-03-21 Thu>
+**** RETARD Style
+SCHEDULED: <2024-06-02 Sun>
 - Note taken on [2023-10-16 Mon 10:10] \\
   The Zen of Python, by Tim Peters
 
@@ -503,7 +503,7 @@ CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
 [[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
 http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
 ***** LAG PEP8
-SCHEDULED: <2024-03-15 Fri>
+SCHEDULED: <2024-06-10 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
 :END:
@@ -532,7 +532,7 @@ CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
 https://github.com/psf/black
 https://youtu.be/esZLCuWs_2Y
 ***** INIT Zen
-SCHEDULED: <2024-03-13 Wed>
+SCHEDULED: <2024-03-23 Sat>
 :LOGBOOK:
 CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
 CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
@@ -553,7 +553,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 **** INIT Structure
-SCHEDULED: <2024-03-17 Sun>
+SCHEDULED: <2024-03-20 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -564,8 +564,8 @@ CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-**** INIT [#B] Testing
-SCHEDULED: <2024-03-18 Mon>
+**** DELAY [#B] Testing
+SCHEDULED: <2024-04-06 Sat>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -582,8 +582,8 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** INIT Play&Learn
-SCHEDULED: <2024-03-18 Mon>
+** DELAY Play&Learn
+SCHEDULED: <2024-04-01 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -596,7 +596,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2024-03-17 Sun>
+SCHEDULED: <2024-03-20 Wed>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -666,14 +666,16 @@ SCHEDULED: <2024-04-06 Sat>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-03-13 Wed ++2d/3d>
+SCHEDULED: <2024-03-22 Fri ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-07 Tue 10:40]
+:LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
+- State "AMPLE"      from ""           [2024-03-13 Wed 12:02]
 - State "AMPLE"      from ""           [2023-11-07 Tue 10:40]
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2024-03-13 Wed 11:42]--[2024-03-13 Wed 12:02] =>  0:20
 CLOCK: [2024-02-29 Thu 16:21]--[2024-02-29 Thu 16:43] =>  0:22
 CLOCK: [2024-02-29 Thu 09:50]--[2024-02-29 Thu 10:20] =>  0:30
 CLOCK: [2024-02-29 Thu 08:59]--[2024-02-29 Thu 09:25] =>  0:26
@@ -687,7 +689,7 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-** DELAY LeetCode
+** RAW LeetCode
 SCHEDULED: <2024-03-20 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
