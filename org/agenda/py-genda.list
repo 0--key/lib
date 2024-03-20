@@ -375,7 +375,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO [#A] Elpy
-SCHEDULED: <2024-03-20 Wed ++2d>
+SCHEDULED: <2024-03-29 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -553,7 +553,7 @@ https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
 **** INIT Structure
-SCHEDULED: <2024-03-20 Wed>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -635,7 +635,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2024-03-20 Wed>
+SCHEDULED: <2024-03-22 Fri>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
