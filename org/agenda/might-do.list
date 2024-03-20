@@ -178,6 +178,22 @@ SCHEDULED: <2024-03-21 Thu ++2d/3d>
 CLOCK: [2024-03-13 Wed 10:34]--[2024-03-13 Wed 11:11] =>  0:37
 CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :END:
+
+** TeamManagement
+:PROPERTIES:
+:CATEGORY: TeamManagement
+:END:
+A Clot for Every Slot
+*** Team Synergy
+SCHEDULED: <2024-03-21 Thu>
+https://www.linkedin.com/in/jasonanthonyrodriguez/
+
+Cooperation vs Competition
+
+Two obvious approaches to tame with such intimidating amount of
+knowledge: life duration and sincere cooperation depth.
+
+
 * Git
 :PROPERTIES:
 :CATEGORY: Git
@@ -1392,12 +1408,33 @@ CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
 
 * Tasks
+
+** Job Seeking
+:PROPERTIES:
+:CATEGORY: Job
+:END:
+
+*** ACTIVE Authors from PyPi, pip and ELPA repositories
+SCHEDULED: <2024-03-20 Wed>
+:LOGBOOK:
+CLOCK: [2024-03-19 Tue 19:27]--[2024-03-19 Tue 19:47] =>  0:20
+:END:
+[[file:~/.emacs.d/elpa/archives/gnu/archive-contents::\[(1 7)][Elpa]]
+- Note taken on [2024-03-19 Tue 12:27] \\
+  Emacs kung-fu with key-chord for most frequent keys
+the target audience for Twits and LinkedIn posts
+
+Google Analytics for 0--key.github.io
+
+
+*** Reqruitment Agency
+SCHEDULED: <2024-03-22 Fri>
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 *** >Git<
-SCHEDULED: <2024-03-19 Tue ++1d>
+SCHEDULED: <2024-03-20 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 19:35]
 :END:

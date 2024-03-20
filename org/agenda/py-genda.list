@@ -588,6 +588,45 @@ SCHEDULED: <2024-04-01 Mon>
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
 file:~/Git/python/algorithms/algorithms
+** Web-app testing
+*** Playwright
+:PROPERTIES:
+:CATEGORY: PlayWright
+:END:
+**** Overview
+SCHEDULED: <2024-03-20 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-19 Tue 16:48]
+:END:
+- State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
+:LOGBOOK:
+CLOCK: [2024-03-19 Tue 16:28]--[2024-03-19 Tue 16:42] =>  0:14
+:END:
+https://playwright.dev/python/
+**** Codegen
+SCHEDULED: <2024-03-20 Wed>
+https://playwright.dev/python/docs/codegen
+**** Inspector
+SCHEDULED: <2024-03-20 Wed>
+https://playwright.dev/python/docs/debug#playwright-inspector
+**** Trace Viewer
+SCHEDULED: <2024-03-21 Thu>
+https://playwright.dev/python/docs/trace-viewer-intro
+*** Selenium
+:PROPERTIES:
+:CATEGORY: Selenium
+:END:
+**** Overview
+SCHEDULED: <2024-03-20 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-19 Tue 16:48]
+:END:
+- State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
+:LOGBOOK:
+CLOCK: [2024-03-19 Tue 16:42]--[2024-03-19 Tue 16:48] =>  0:06
+:END:
+https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
+
 * RETARD [#A] Idioms
 SCHEDULED: <2024-04-02 Tue>
 https://docs.python-guide.org/writing/style/#conventions
