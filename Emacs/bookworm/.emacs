@@ -53,7 +53,7 @@
 
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "~/git/lib/org/vocabulary/202403.org")
+(setq voca-builder/voca-file "~/Git/0--key/lib/org/vocabulary/202403.org")
 (setq voca-builder/current-tag "Peter")
 (require 'speed-type)
 ;; (require 'xclip)
