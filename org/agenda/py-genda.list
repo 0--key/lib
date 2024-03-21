@@ -72,7 +72,10 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-03-20 Wed>
+SCHEDULED: <2024-05-29 Wed>
+:LOGBOOK:
+CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
+:END:
 [[file:~/Git/python/talk-python-transcripts/transcripts/246.txt][Transcript]]
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
@@ -150,7 +153,7 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 *** INIT Introduction Article
-SCHEDULED: <2024-03-21 Thu>
+SCHEDULED: <2024-03-24 Sun>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
 CLOCK: [2024-01-17 Wed 09:24]--[2024-01-17 Wed 10:11] =>  0:47
@@ -158,7 +161,7 @@ CLOCK: [2024-01-16 Tue 10:00]--[2024-01-16 Tue 10:11] =>  0:11
 :END:
 - [[elisp:(bookmark-jump-other-frame "2024-01-16-python-ide.org")][Current position]]
 **** [#A] Python-mode
-SCHEDULED: <2024-03-21 Thu>
+SCHEDULED: <2024-03-28 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-10 Sat 04:39]--[2024-02-10 Sat 05:08] =>  0:29
 CLOCK: [2024-02-02 Fri 12:31]--[2024-02-02 Fri 12:58] =>  0:27
@@ -229,14 +232,14 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 SCHEDULED: <2024-06-02 Sun>
 [[elisp:(apropos-command "counsel")]]
 ***** Swiper
-SCHEDULED: <2024-03-22 Fri>
+SCHEDULED: <2024-04-01 Mon>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 10:28]--[2024-02-01 Thu 10:35] =>  0:07
 CLOCK: [2024-02-01 Thu 09:53]--[2024-02-01 Thu 09:59] =>  0:06
 :END:
 [[elisp:(apropos-command "swiper")]]
 ***** Helpful {h}
-SCHEDULED: <2024-03-21 Thu>
+SCHEDULED: <2024-04-03 Wed>
 :LOGBOOK:
 CLOCK: [2024-02-10 Sat 05:10]--[2024-02-10 Sat 05:22] =>  0:12
 CLOCK: [2024-02-01 Thu 09:36]--[2024-02-01 Thu 09:50] =>  0:14
@@ -462,7 +465,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
 *** INIT The bald Python project
-SCHEDULED: <2024-03-22 Fri>
+SCHEDULED: <2024-03-30 Sat>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -594,7 +597,7 @@ file:~/Git/python/algorithms/algorithms
 :CATEGORY: PlayWright
 :END:
 **** Overview
-SCHEDULED: <2024-03-20 Wed ++1d>
+SCHEDULED: <2024-03-23 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 16:48]
 :END:
@@ -604,25 +607,32 @@ CLOCK: [2024-03-19 Tue 16:28]--[2024-03-19 Tue 16:42] =>  0:14
 :END:
 https://playwright.dev/python/
 **** Codegen
-SCHEDULED: <2024-03-20 Wed>
+SCHEDULED: <2024-03-22 Fri>
+:LOGBOOK:
+CLOCK: [2024-03-20 Wed 09:26]--[2024-03-20 Wed 09:35] =>  0:09
+:END:
 https://playwright.dev/python/docs/codegen
 **** Inspector
-SCHEDULED: <2024-03-20 Wed>
+SCHEDULED: <2024-03-22 Fri>
+:LOGBOOK:
+CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
+:END:
 https://playwright.dev/python/docs/debug#playwright-inspector
 **** Trace Viewer
-SCHEDULED: <2024-03-21 Thu>
+SCHEDULED: <2024-03-24 Sun>
 https://playwright.dev/python/docs/trace-viewer-intro
 *** Selenium
 :PROPERTIES:
 :CATEGORY: Selenium
 :END:
 **** Overview
-SCHEDULED: <2024-03-20 Wed ++1d>
+SCHEDULED: <2024-03-22 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 16:48]
 :END:
 - State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
 :LOGBOOK:
+CLOCK: [2024-03-20 Wed 09:36]--[2024-03-20 Wed 09:44] =>  0:08
 CLOCK: [2024-03-19 Tue 16:42]--[2024-03-19 Tue 16:48] =>  0:06
 :END:
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
@@ -635,7 +645,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 ** INIT [#A] Repo
-SCHEDULED: <2024-03-22 Fri>
+SCHEDULED: <2024-04-26 Fri>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -728,8 +738,8 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-** RAW LeetCode
-SCHEDULED: <2024-03-20 Wed ++3d/4d>
+** DELAY LeetCode
+SCHEDULED: <2024-04-25 Thu ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
