@@ -597,37 +597,51 @@ file:~/Git/python/algorithms/algorithms
 :CATEGORY: PlayWright
 :END:
 **** Overview
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-04-01 Mon ++7d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-19 Tue 16:48]
+:LAST_REPEAT: [2024-03-25 Mon 11:39]
 :END:
+- State "AMPLE"      from ""           [2024-03-25 Mon 11:39]
 - State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 11:34]--[2024-03-25 Mon 11:39] =>  0:05
 CLOCK: [2024-03-22 Fri 10:17]--[2024-03-22 Fri 10:50] =>  0:33
 CLOCK: [2024-03-19 Tue 16:28]--[2024-03-19 Tue 16:42] =>  0:14
 :END:
 https://playwright.dev/python/
-**** Codegen
-SCHEDULED: <2024-03-25 Mon>
+**** Installation
+SCHEDULED: <2024-03-27 Wed>
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 11:39]--[2024-03-25 Mon 12:08] =>  0:29
+:END:
+https://playwright.dev/python/docs/intro
+[[file:~/Git/0--key/org-pub/2024-03-22-playwright-init.org::*Conclusion][Conclusion]]
+**** Codegen
+SCHEDULED: <2024-03-27 Wed>
+:LOGBOOK:
+CLOCK: [2024-03-25 Mon 12:30]--[2024-03-25 Mon 12:49] =>  0:19
 CLOCK: [2024-03-20 Wed 09:26]--[2024-03-20 Wed 09:35] =>  0:09
 :END:
 https://playwright.dev/python/docs/codegen
 **** Inspector
-SCHEDULED: <2024-03-25 Mon>
+SCHEDULED: <2024-03-28 Thu>
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 12:51]--[2024-03-25 Mon 12:55] =>  0:04
 CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
 :END:
 https://playwright.dev/python/docs/debug#playwright-inspector
 **** Trace Viewer
-SCHEDULED: <2024-03-25 Mon>
+SCHEDULED: <2024-03-28 Thu>
+:LOGBOOK:
+CLOCK: [2024-03-25 Mon 12:49]--[2024-03-25 Mon 12:51] =>  0:02
+:END:
 https://playwright.dev/python/docs/trace-viewer-intro
 *** Selenium
 :PROPERTIES:
 :CATEGORY: Selenium
 :END:
 **** Overview
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-22 Fri 10:16]
 :END:
@@ -718,7 +732,7 @@ SCHEDULED: <2024-04-06 Sat>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-03-25 Mon ++2d/3d>
+SCHEDULED: <2024-03-26 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:

@@ -112,7 +112,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 ***  [#A] Straight Work Approach
-SCHEDULED: <2024-03-25 Mon>
+SCHEDULED: <2024-03-26 Tue>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -138,7 +138,7 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** Iain McGilChrist
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-21 Thu 10:36]
 :END:
@@ -190,13 +190,15 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :CATEGORY: TeaMan
 :END:
 A Clot for Every Slot
-*** [#A] Team Synergy
-SCHEDULED: <2024-03-25 Mon ++1d>
+*** Team Synergy
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-21 Thu 18:29]
 :END:
 - State "AMPLE"      from ""           [2024-03-21 Thu 18:29]
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 10:24]--[2024-03-25 Mon 11:00] =>  0:36
+CLOCK: [2024-03-25 Mon 10:07]--[2024-03-25 Mon 10:08] =>  0:01
 CLOCK: [2024-03-21 Thu 18:15]--[2024-03-21 Thu 18:29] =>  0:14
 :END:
 [[https://www.linkedin.com/in/jasonanthonyrodriguez/]]
@@ -469,7 +471,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** INIT New approach
-SCHEDULED: <2024-03-25 Mon ++1w>
+SCHEDULED: <2024-03-26 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-20 Fri 10:38]
 :END:
@@ -572,8 +574,8 @@ SCHEDULED: <2024-04-10 Wed>
 CLOCK: [2024-01-16 Tue 19:23]--[2024-01-16 Tue 19:29] =>  0:06
 :END:
 https://github.com/Alexander-Miller/treemacs
-** RAW [#A] Powerthesaurus
-SCHEDULED: <2024-03-25 Mon ++2d>
+** INIT Powerthesaurus
+SCHEDULED: <2024-03-26 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-21 Thu 18:58]
 :END:
@@ -585,6 +587,7 @@ SCHEDULED: <2024-03-25 Mon ++2d>
 - State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
 - State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 10:02]--[2024-03-25 Mon 10:07] =>  0:05
 CLOCK: [2024-03-21 Thu 18:35]--[2024-03-21 Thu 18:58] =>  0:23
 CLOCK: [2023-12-16 Sat 18:10]--[2023-12-16 Sat 18:17] =>  0:07
 CLOCK: [2023-12-14 Thu 10:21]--[2023-12-14 Thu 10:29] =>  0:08
@@ -902,8 +905,8 @@ CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
 Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
-** INIT [#A] SRE vs DevOPs vs SE vs SD
-SCHEDULED: <2024-03-25 Mon ++1d>
+** DELAY [#A] SRE vs DevOPs vs SE vs SD
+SCHEDULED: <2024-04-29 Mon ++1d>
 Communication
 Debugging
 Hypertext Transfer Protocol (HTTP)
@@ -1536,7 +1539,8 @@ SCHEDULED: <2024-03-25 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-09 Wed 19:20]
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 :LOGBOOK:
-CLOCK: [2024-03-25 Mon 09:56]
+CLOCK: [2024-03-25 Mon 18:48]
+CLOCK: [2024-03-25 Mon 09:56]--[2024-03-25 Mon 10:02] =>  0:06
 CLOCK: [2024-03-24 Sun 19:02]--[2024-03-24 Sun 19:03] =>  0:01
 CLOCK: [2024-03-21 Thu 18:58]--[2024-03-21 Thu 19:08] =>  0:10
 CLOCK: [2024-03-20 Wed 06:48]--[2024-03-20 Wed 06:51] =>  0:03
@@ -1784,7 +1788,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-29 Thu 11:54]
 :END:
@@ -1984,7 +1988,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:19]
 :END:
@@ -2234,7 +2238,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:23]
 :END:
@@ -2756,7 +2760,7 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-03-25 Mon ++1d>
+SCHEDULED: <2024-03-26 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 19:05]
 :END:
@@ -2971,11 +2975,24 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT 10 Daily Idioms
-SCHEDULED: <2024-03-25 Mon>
+SCHEDULED: <2024-04-01 Mon>
 :LOGBOOK:
+CLOCK: [2024-03-25 Mon 11:27]--[2024-03-25 Mon 11:34] =>  0:07
 CLOCK: [2024-03-21 Thu 09:06]--[2024-03-21 Thu 09:18] =>  0:12
 :END:
 [[https://www.youtube.com/watch?v=qAsKKqISCUA][in real life]]
+ - To be in the same boat
+ - To nip something in the bud
+ - To have a lot on your plate
+ - To hit the nail on the head
+ - On the tip of my tongue
+ - Be over the moon
+ - That rings a bell
+ - Time will tell
+ - To burn the candle at both ends
+ - Actions speak louder than words
+
+   
 ** DELAY Ross Ashby
 SCHEDULED: <2024-05-12 Sun>
 :LOGBOOK:
