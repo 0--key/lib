@@ -119,7 +119,7 @@
  '(org-clock-auto-clockout-timer 90)
  '(org-clock-sound t)
  '(org-src-window-setup 'other-window)
- '(package-selected-packages '(sound-wav eglot xclip py-autopep8))
+ '(package-selected-packages '(powerthesaurus sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 

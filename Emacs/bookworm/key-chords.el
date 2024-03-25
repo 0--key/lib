@@ -97,6 +97,7 @@
 (key-chord-define-global "ty"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
+(key-chord-define-global "WD"     'powerthesaurus-lookup-sentences-dwim)
     ;; (global-set-key "\C-x4w" 'langtool-check)
     ;; (global-set-key "\C-x4W" 'langtool-check-done)
     ;; (global-set-key "\C-x4l" 'langtool-switch-default-language)
