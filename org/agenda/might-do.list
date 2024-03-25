@@ -637,8 +637,10 @@ _as invention_
 :CATEGORY: Notes
 :END:
 
-** https://whhone.com/tags/linux/
-SCHEDULED: <2024-03-22 Fri>
+** [#A] Wai Hon
+SCHEDULED: <2024-03-28 Thu>
+https://whhone.com/posts/org-mode-task-management/
+https://whhone.com/tags/linux/
 ** Music
 SCHEDULED: <2024-04-23 Tue>
 :LOGBOOK:
@@ -900,8 +902,30 @@ CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
 Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
-** INIT SRE vs DevOPs vs SE vs SD                                  :ARCHIVE:
-SCHEDULED: <2022-11-22 Tue>
+** INIT [#A] SRE vs DevOPs vs SE vs SD
+SCHEDULED: <2024-03-25 Mon ++1d>
+Communication
+Debugging
+Hypertext Transfer Protocol (HTTP)
+Scripting
+Self Service
+Troubleshooting
+User Datagram Protocol (UDP)
+Written Communication
+Jenkins
+MQ(Message Queues)
+Linux
+MQ like IBM MQ/Kafka/NATS
+ITIL
+CI/CD pipeline
+PL/SQL
+Jenkins
+Troubleshooting
+Deployments
+Any Monitoring Tool – Splunk preferred.
+Incident Management
+DevOps
+
 ** DONE Thesaurus from Mariam-Webster
 SCHEDULED: <2022-11-08 Tue>
 :LOGBOOK:
@@ -1433,8 +1457,16 @@ CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
 
 *** ACTIVE Authors from PyPi, pip and ELPA repositories
-SCHEDULED: <2024-03-22 Fri>
+SCHEDULED: <2024-03-27 Wed>
+- Note taken on [2024-03-24 Sun 19:07] \\
+  Make a new acquaintance isn't easy thing, it requires to define your
+  target auditory which apt to appreciate your thought. The authors
+  (maintainers) from ELPA is the one.
+  
+  Other feasible audience might be: https://www.emacswiki.org and, of
+  cource, Reddit.
 :LOGBOOK:
+CLOCK: [2024-03-22 Fri 08:31]--[2024-03-22 Fri 09:03] =>  0:32
 CLOCK: [2024-03-19 Tue 19:27]--[2024-03-19 Tue 19:47] =>  0:20
 :END:
 [[file:~/.emacs.d/elpa/archives/gnu/archive-contents::\[(1 7)][Elpa]]
