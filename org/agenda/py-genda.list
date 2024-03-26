@@ -12,8 +12,8 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** INIT Python Talk to Me
-SCHEDULED: <2024-03-26 Tue ++3d>
+** DELAY Python Talk to Me
+SCHEDULED: <2024-04-30 Tue ++3d>
 :PROPERTIES:
 :CATEGORY: PyTatMe
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
@@ -130,8 +130,8 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** DELAY [#A] Emacs as Python IDE
-SCHEDULED: <2024-03-27 Wed ++1w>
+** LAG [#A] Emacs as Python IDE
+SCHEDULED: <2024-05-29 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -349,14 +349,15 @@ the Pylsp and Gopls LSP servers:
 SCHEDULED: <2024-07-19 Fri>
 https://github.com/magit/forge
 
-**** DELAY [#A] Shells
+**** LAG [#A] Shells
+SCHEDULED: <2024-06-11 Tue>
 :LOGBOOK:
 CLOCK: [2024-01-17 Wed 18:04]--[2024-01-17 Wed 18:40] =>  0:36
 CLOCK: [2024-01-16 Tue 17:49]--[2024-01-16 Tue 18:27] =>  0:38
 :END:
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
 - [[https://github.com/daviwil/emacs-from-scratch/blob/bbfbc77b3afab0c14149e07d0ab08d275d4ba575/Emacs.org#terminals][Description]]
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-06-05 Wed>
 ** RETARD EGlot
 SCHEDULED: <2024-06-06 Thu ++2d>
 :PROPERTIES:
@@ -641,17 +642,19 @@ https://playwright.dev/python/docs/trace-viewer-intro
 :CATEGORY: Selenium
 :END:
 **** Overview
-SCHEDULED: <2024-03-26 Tue ++1d>
+SCHEDULED: <2024-03-27 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-22 Fri 10:16]
 :END:
 - State "AMPLE"      from ""           [2024-03-22 Fri 10:16]
 - State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
 :LOGBOOK:
+CLOCK: [2024-03-26 Tue 04:18]--[2024-03-26 Tue 04:56] =>  0:38
 CLOCK: [2024-03-22 Fri 09:25]--[2024-03-22 Fri 10:16] =>  0:51
 CLOCK: [2024-03-20 Wed 09:36]--[2024-03-20 Wed 09:44] =>  0:08
 CLOCK: [2024-03-19 Tue 16:42]--[2024-03-19 Tue 16:48] =>  0:06
 :END:
+https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 
 * RETARD [#A] Idioms
@@ -732,7 +735,7 @@ SCHEDULED: <2024-04-06 Sat>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-03-26 Tue ++2d/3d>
+SCHEDULED: <2024-03-27 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
@@ -741,6 +744,7 @@ SCHEDULED: <2024-03-26 Tue ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2024-03-26 Tue 08:10]--[2024-03-26 Tue 08:40] =>  0:30
 CLOCK: [2024-03-13 Wed 11:42]--[2024-03-13 Wed 12:02] =>  0:20
 CLOCK: [2024-02-29 Thu 16:21]--[2024-02-29 Thu 16:43] =>  0:22
 CLOCK: [2024-02-29 Thu 09:50]--[2024-02-29 Thu 10:20] =>  0:30

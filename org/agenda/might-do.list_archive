@@ -389,3 +389,14 @@ SCHEDULED: <2024-01-11 Thu ++2d/3d>
 CLOCK: [2024-01-08 Mon 11:03]--[2024-01-08 Mon 11:17] =>  0:14
 :END:
 It is their delineation
+
+* LAG Autoformat 72 chars
+SCHEDULED: <2024-03-27 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-03-26 Tue 18:30
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: LAG
+:END:
+/in some bufferss/
