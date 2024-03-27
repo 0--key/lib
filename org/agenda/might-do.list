@@ -18,6 +18,16 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
+** Make friends across the world
+SCHEDULED: <2024-04-01 Mon>
+By providing my recent revelation to group with similar interests.
+- emacs-kung-fu@gmail.com as the work email address integrated with my
+  Emacs;
+- The current work system is efficient enough (opposite to
+https://whhone.com/posts/org-mode-task-management/) to be described
+and displayed for members of the target group.
+
+
 ** English
 :PROPERTIES:
 :CATEGORY: English
@@ -297,6 +307,10 @@ SCHEDULED: <2024-04-15 Mon>
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+** CxMxCh
+SCHEDULED: <2024-04-01 Mon>
+Most useful key-chords ever description and usage
+
 ** Emacs server on Debian 12 article
 SCHEDULED: <2024-03-30 Sat ++2d>
 :PROPERTIES:
