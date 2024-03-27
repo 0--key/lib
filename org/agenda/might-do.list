@@ -83,7 +83,7 @@ Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 
 *** DELAY An Insight Incubation Approach
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-04-01 Mon>
 ** YouTube
 
 *** DELAY [#A] Ali Abdaal's *new* transcript                          :Ali:
@@ -122,7 +122,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 ***  [#A] Straight Work Approach
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-03-28 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -135,8 +135,8 @@ https://www.youtube.com/watch?v=XJOsPyyYork
 SCHEDULED: <2024-04-09 Tue>
 https://www.youtube.com/watch?v=y4evLICF8kk
 
-*** Goal Setting as an Art
-SCHEDULED: <2024-03-28 Thu>
+*** DELAY Goal Setting as an Art
+SCHEDULED: <2024-05-02 Thu>
 https://www.youtube.com/watch?v=jOznXVLBGFo
 
 
@@ -148,15 +148,17 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** Iain McGilChrist
-SCHEDULED: <2024-03-27 Wed ++1d>
+SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-21 Thu 10:36]
+:LAST_REPEAT: [2024-03-27 Wed 17:28]
 :END:
+- State "AMPLE"      from ""           [2024-03-27 Wed 17:28]
 - State "AMPLE"      from ""           [2024-03-21 Thu 10:36]
 - State "AMPLE"      from ""           [2024-03-20 Wed 09:26]
 - State "AMPLE"      from ""           [2024-03-13 Wed 11:12]
 - State "AMPLE"      from ""           [2024-03-12 Tue 17:01]
 :LOGBOOK:
+CLOCK: [2024-03-27 Wed 13:24]--[2024-03-27 Wed 13:55] =>  0:31
 CLOCK: [2024-03-21 Thu 09:51]--[2024-03-21 Thu 10:35] =>  0:44
 CLOCK: [2024-03-20 Wed 08:23]--[2024-03-20 Wed 08:53] =>  0:30
 CLOCK: [2024-03-14 Thu 09:19]--[2024-03-14 Thu 09:49] =>  0:30
@@ -181,7 +183,7 @@ CLOCK: [2024-02-06 Tue 04:24]--[2024-02-06 Tue 04:30] =>  0:06
 :END:
 https://www.youtube.com/watch?v=WIOtv4fM8jc
 
-** [#A] The Peter Principle
+** The Peter Principle
 SCHEDULED: <2024-03-28 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-26 Tue 07:16]
@@ -329,7 +331,7 @@ CLOCK: [2024-02-27 Tue 19:10]--[2024-02-27 Tue 19:12] =>  0:02
 CLOCK: [2024-02-27 Tue 18:52]--[2024-02-27 Tue 19:08] =>  0:16
 :END:
 ** ~ELPA~ .deb packages
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-03-29 Fri>
 overview and tagging
 ** LAG [#A] Global Prefixes
 SCHEDULED: <2024-09-11 Wed>
@@ -488,7 +490,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** TODO New approach
-SCHEDULED: <2024-03-27 Wed ++1w>
+SCHEDULED: <2024-03-28 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-20 Fri 10:38]
 :END:
@@ -563,8 +565,8 @@ CLOCK: [2023-11-17 Fri 18:22]--[2023-11-17 Fri 18:27] =>  0:05
 - Note taken on [2023-11-06 Mon 09:19] \\
   Action tree to visualize workflow
 [[info:magit#Interface Concepts][magit#Interface Concepts]]
-** ACTIVE Org-babel-detangle
-SCHEDULED: <2024-03-28 Thu>
+** DONE Org-babel-detangle
+SCHEDULED: <2024-03-27 Wed>
 :LOGBOOK:
 CLOCK: [2024-03-26 Tue 08:48]--[2024-03-26 Tue 09:18] =>  0:30
 CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
@@ -656,7 +658,7 @@ _as invention_
 :END:
 
 ** [#A] Wai Hon
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-04-01 Mon>
 https://whhone.com/posts/org-mode-task-management/
 https://whhone.com/tags/linux/
 ** Music
@@ -1477,16 +1479,16 @@ CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
 
 *** Vikki's CV elaboration
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-30 Sat>
 
 *** INIT Skill endorsement at LinkedIn
 SCHEDULED: <2024-04-01 Mon>
 
 *** ACTIVE Vikki's LinkedIn profile brush up
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-30 Sat>
 
 *** ACTIVE Authors from PyPi, pip and ELPA repositories
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-04-01 Mon>
 - Note taken on [2024-03-24 Sun 19:07] \\
   Make a new acquaintance isn't easy thing, it requires to define your
   target auditory which apt to appreciate your thought. The authors
@@ -1507,7 +1509,7 @@ Google Analytics for 0--key.github.io
 
 
 *** Reqruitment Agency
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-04-04 Thu>
 
 
 ** Chores
@@ -1515,10 +1517,11 @@ SCHEDULED: <2024-03-28 Thu>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-03-26 Tue ++1d>
+SCHEDULED: <2024-03-27 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-12 Tue 19:35]
+:LAST_REPEAT: [2024-03-26 Tue 18:52]
 :END:
+- State "AMPLE"      from ""           [2024-03-26 Tue 18:52]
 - State "AMPLE"      from ""           [2024-03-12 Tue 19:35]
 - State "AMPLE"      from ""           [2024-02-27 Tue 19:35]
 - State "AMPLE"      from ""           [2024-02-26 Mon 20:10]
@@ -1564,7 +1567,8 @@ SCHEDULED: <2024-03-26 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-03-26 Tue 18:46]
+CLOCK: [2024-03-27 Wed 20:18]
+CLOCK: [2024-03-26 Tue 18:46]--[2024-03-26 Tue 18:52] =>  0:06
 CLOCK: [2024-03-26 Tue 18:25]--[2024-03-26 Tue 18:28] =>  0:03
 CLOCK: [2024-03-25 Mon 18:48]--[2024-03-25 Mon 18:58] =>  0:10
 CLOCK: [2024-03-25 Mon 09:56]--[2024-03-25 Mon 10:02] =>  0:06
@@ -2015,7 +2019,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-03-27 Wed ++1d>
+SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-26 Tue 18:45]
 :END:
@@ -2070,6 +2074,7 @@ SCHEDULED: <2024-03-27 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-03-27 Wed 17:27]--[2024-03-27 Wed 17:29] =>  0:02
 CLOCK: [2024-03-26 Tue 04:04]--[2024-03-26 Tue 04:06] =>  0:02
 CLOCK: [2024-03-24 Sun 18:58]--[2024-03-24 Sun 18:58] =>  0:00
 CLOCK: [2024-03-22 Fri 09:22]--[2024-03-22 Fri 09:25] =>  0:03
@@ -2267,10 +2272,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-03-27 Wed ++1d>
+SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-26 Tue 18:45]
+:LAST_REPEAT: [2024-03-27 Wed 20:17]
 :END:
+- State "AMPLE"      from ""           [2024-03-27 Wed 20:17]
 - State "AMPLE"      from ""           [2024-03-26 Tue 18:45]
 - State "AMPLE"      from ""           [2024-03-24 Sun 19:23]
 - State "AMPLE"      from ""           [2024-03-12 Tue 19:27]
@@ -2309,6 +2315,7 @@ SCHEDULED: <2024-03-27 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-03-27 Wed 20:11]--[2024-03-27 Wed 20:17] =>  0:06
 CLOCK: [2024-03-26 Tue 18:29]--[2024-03-26 Tue 18:45] =>  0:16
 CLOCK: [2024-03-24 Sun 19:18]--[2024-03-24 Sun 19:23] =>  0:05
 CLOCK: [2024-03-21 Thu 18:05]--[2024-03-21 Thu 18:15] =>  0:10
@@ -2505,7 +2512,7 @@ SCHEDULED: <2024-04-23 Tue ++2d>
 CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
-*** TODO [#B] English We Speak
+*** TODO English We Speak
 SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -2563,8 +2570,8 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 
 
-*** [#A] New tasks trimming
-SCHEDULED: <2024-03-27 Wed ++2d/3d>
+*** New tasks trimming
+SCHEDULED: <2024-03-28 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:11]
 :END:
@@ -2587,6 +2594,7 @@ SCHEDULED: <2024-03-27 Wed ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
 :LOGBOOK:
+CLOCK: [2024-03-27 Wed 10:51]--[2024-03-27 Wed 11:02] =>  0:11
 CLOCK: [2024-03-26 Tue 06:12]--[2024-03-26 Tue 06:15] =>  0:03
 CLOCK: [2024-03-26 Tue 03:59]--[2024-03-26 Tue 04:04] =>  0:05
 CLOCK: [2024-03-24 Sun 18:58]--[2024-03-24 Sun 19:02] =>  0:04
@@ -2797,8 +2805,8 @@ SCHEDULED: <2024-04-24 Wed>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** CV elaboration
-SCHEDULED: <2024-03-27 Wed ++1d>
+** [#A] CV elaboration
+SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 19:05]
 :END:
@@ -2877,7 +2885,7 @@ SCHEDULED: <2023-06-29 Thu>
 words for chore tasks
 The item gestation ==> elaboration ==> enhancement ===> archiving
 ** ACTIVE Emacs init file
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-12 Tue 14:17]--[2023-12-12 Tue 14:27] =>  0:10
 :END:
@@ -2914,7 +2922,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 [[info:org#Agenda Views][org#Agenda Views]]
 [[info:org#Presentation and Sorting][org#Presentation and Sorting]]
 ** RAW [#A] Personal Development
-SCHEDULED: <2024-03-28 Thu ++1w>
+SCHEDULED: <2024-04-01 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 11:13]
 :END:
@@ -3236,7 +3244,7 @@ CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
 ** ACTIVE Emacs IDE for Vikky at ~Dell~
-SCHEDULED: <2024-03-27 Wed>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-09 Fri 11:59]--[2024-02-09 Fri 12:22] =>  0:23
 :END:
