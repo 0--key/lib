@@ -122,7 +122,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 ***  [#A] Straight Work Approach
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -148,7 +148,7 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
 
 ** Iain McGilChrist
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-27 Wed 17:28]
 :END:
@@ -184,15 +184,17 @@ CLOCK: [2024-02-06 Tue 04:24]--[2024-02-06 Tue 04:30] =>  0:06
 https://www.youtube.com/watch?v=WIOtv4fM8jc
 
 ** The Peter Principle
-SCHEDULED: <2024-03-28 Thu ++2d/3d>
+SCHEDULED: <2024-03-30 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-26 Tue 07:16]
+:LAST_REPEAT: [2024-03-28 Thu 10:57]
 :END:
+- State "AMPLE"      from ""           [2024-03-28 Thu 10:57]
 - State "AMPLE"      from ""           [2024-03-26 Tue 07:16]
 - State "AMPLE"      from ""           [2024-03-21 Thu 18:01]
 - State "AMPLE"      from ""           [2024-03-13 Wed 11:12]
 - State "AMPLE"      from ""           [2024-03-12 Tue 11:55]
 :LOGBOOK:
+CLOCK: [2024-03-28 Thu 10:39]--[2024-03-28 Thu 10:57] =>  0:18
 CLOCK: [2024-03-26 Tue 06:15]--[2024-03-26 Tue 07:15] =>  1:00
 CLOCK: [2024-03-21 Thu 10:37]--[2024-03-21 Thu 11:00] =>  0:23
 CLOCK: [2024-03-13 Wed 10:34]--[2024-03-13 Wed 11:11] =>  0:37
@@ -459,7 +461,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** [#C] Declutter
-SCHEDULED: <2024-03-28 Thu ++4w>
+SCHEDULED: <2024-03-29 Fri ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:26]
 :END:
@@ -490,7 +492,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** TODO New approach
-SCHEDULED: <2024-03-28 Thu ++1w>
+SCHEDULED: <2024-03-29 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-20 Fri 10:38]
 :END:
@@ -1525,10 +1527,11 @@ SCHEDULED: <2024-04-04 Thu>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-03-27 Wed ++1d>
+SCHEDULED: <2024-03-28 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-26 Tue 18:52]
+:LAST_REPEAT: [2024-03-27 Wed 20:27]
 :END:
+- State "AMPLE"      from ""           [2024-03-27 Wed 20:27]
 - State "AMPLE"      from ""           [2024-03-26 Tue 18:52]
 - State "AMPLE"      from ""           [2024-03-12 Tue 19:35]
 - State "AMPLE"      from ""           [2024-02-27 Tue 19:35]
@@ -1575,7 +1578,8 @@ SCHEDULED: <2024-03-27 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-03-27 Wed 20:18]
+CLOCK: [2024-03-28 Thu 19:07]
+CLOCK: [2024-03-27 Wed 20:18]--[2024-03-27 Wed 20:27] =>  0:09
 CLOCK: [2024-03-26 Tue 18:46]--[2024-03-26 Tue 18:52] =>  0:06
 CLOCK: [2024-03-26 Tue 18:25]--[2024-03-26 Tue 18:28] =>  0:03
 CLOCK: [2024-03-25 Mon 18:48]--[2024-03-25 Mon 18:58] =>  0:10
@@ -1827,7 +1831,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Touch typing
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-29 Thu 11:54]
 :END:
@@ -2027,7 +2031,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-26 Tue 18:45]
 :END:
@@ -2323,6 +2327,7 @@ SCHEDULED: <2024-03-28 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-03-28 Thu 19:04]--[2024-03-28 Thu 19:07] =>  0:03
 CLOCK: [2024-03-27 Wed 20:11]--[2024-03-27 Wed 20:17] =>  0:06
 CLOCK: [2024-03-26 Tue 18:29]--[2024-03-26 Tue 18:45] =>  0:16
 CLOCK: [2024-03-24 Sun 19:18]--[2024-03-24 Sun 19:23] =>  0:05
@@ -2521,7 +2526,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** TODO English We Speak
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
@@ -2579,7 +2584,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-03-28 Thu ++2d/3d>
+SCHEDULED: <2024-03-29 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:11]
 :END:
@@ -2602,6 +2607,7 @@ SCHEDULED: <2024-03-28 Thu ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
 :LOGBOOK:
+CLOCK: [2024-03-28 Thu 10:57]--[2024-03-28 Thu 10:59] =>  0:02
 CLOCK: [2024-03-27 Wed 10:51]--[2024-03-27 Wed 11:02] =>  0:11
 CLOCK: [2024-03-26 Tue 06:12]--[2024-03-26 Tue 06:15] =>  0:03
 CLOCK: [2024-03-26 Tue 03:59]--[2024-03-26 Tue 04:04] =>  0:05
@@ -2814,10 +2820,11 @@ SCHEDULED: <2024-04-24 Wed>
   * So it would be wise
 to make a wider list of followers in that networks
 ** [#A] CV elaboration
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-19 Tue 19:05]
+:LAST_REPEAT: [2024-03-28 Thu 09:22]
 :END:
+- State "AMPLE"      from ""           [2024-03-28 Thu 09:22]
 - State "AMPLE"      from ""           [2024-03-19 Tue 19:05]
 - State "AMPLE"      from ""           [2024-02-27 Tue 10:45]
 - State "AMPLE"      from ""           [2024-02-02 Fri 05:46]
@@ -2836,6 +2843,7 @@ SCHEDULED: <2024-03-28 Thu ++1d>
   * All projects from the earliest to the current ones
 - State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
 :LOGBOOK:
+CLOCK: [2024-03-28 Thu 08:50]--[2024-03-28 Thu 09:22] =>  0:32
 CLOCK: [2024-03-19 Tue 18:31]--[2024-03-19 Tue 19:05] =>  0:34
 CLOCK: [2024-02-29 Thu 16:43]--[2024-02-29 Thu 17:11] =>  0:28
 CLOCK: [2024-02-29 Thu 16:10]--[2024-02-29 Thu 16:21] =>  0:11
@@ -3189,7 +3197,7 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 ** SET New destination for books
 SCHEDULED: <2023-12-10 Sun>
 ** DELAY [#A] Check =Elpy= venv
-SCHEDULED: <2024-03-29 Fri>
+SCHEDULED: <2024-05-02 Thu>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 :END:

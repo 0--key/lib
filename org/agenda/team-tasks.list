@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * ACTIVE Test-Driven Learining
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-30 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
@@ -57,10 +57,11 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-03-26 Tue 08:09]
+:LAST_REPEAT: [2024-03-28 Thu 08:49]
 :END:
+- State "AMPLE"      from ""           [2024-03-28 Thu 08:49]
 - State "AMPLE"      from ""           [2024-03-26 Tue 08:09]
 - State "AMPLE"      from ""           [2024-03-19 Tue 12:19]
 - State "AMPLE"      from ""           [2024-03-12 Tue 11:55]
@@ -104,7 +105,7 @@ CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-31 Wed 18:33]
 :CATEGORY: CoLab
@@ -143,7 +144,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#C] Commits reviewing {jr>c}
-SCHEDULED: <2024-03-28 Thu ++2d>
+SCHEDULED: <2024-03-29 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 16:54]
 :END:

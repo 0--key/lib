@@ -80,8 +80,8 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
-** LAG Cracking coding interview
-SCHEDULED: <2024-03-29 Fri ++2d>
+** DELAY Cracking coding interview
+SCHEDULED: <2024-05-02 Thu ++0d>
 :LOGBOOK:
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
@@ -598,7 +598,7 @@ file:~/Git/python/algorithms/algorithms
 :CATEGORY: PlayWright
 :END:
 **** Overview
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-25 Mon 11:39]
 :END:
@@ -621,7 +621,7 @@ CLOCK: [2024-03-25 Mon 11:39]--[2024-03-25 Mon 12:08] =>  0:29
 https://playwright.dev/python/docs/intro
 [[file:~/Git/0--key/org-pub/2024-03-22-playwright-init.org::*Conclusion][Conclusion]]
 **** Codegen
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2024-03-27 Wed 11:20]--[2024-03-27 Wed 11:23] =>  0:03
 CLOCK: [2024-03-27 Wed 11:04]--[2024-03-27 Wed 11:12] =>  0:08
@@ -630,14 +630,14 @@ CLOCK: [2024-03-20 Wed 09:26]--[2024-03-20 Wed 09:35] =>  0:09
 :END:
 https://playwright.dev/python/docs/codegen
 **** Inspector
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 12:51]--[2024-03-25 Mon 12:55] =>  0:04
 CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
 :END:
 https://playwright.dev/python/docs/debug#playwright-inspector
 **** Trace Viewer
-SCHEDULED: <2024-03-28 Thu>
+SCHEDULED: <2024-03-29 Fri>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 12:49]--[2024-03-25 Mon 12:51] =>  0:02
 :END:
@@ -647,7 +647,7 @@ https://playwright.dev/python/docs/trace-viewer-intro
 :CATEGORY: Selenium
 :END:
 **** Overview
-SCHEDULED: <2024-03-28 Thu ++1d>
+SCHEDULED: <2024-03-29 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-22 Fri 10:16]
 :END:
@@ -741,7 +741,7 @@ SCHEDULED: <2024-04-06 Sat>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-03-28 Thu ++2d/3d>
+SCHEDULED: <2024-03-29 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
@@ -750,6 +750,7 @@ SCHEDULED: <2024-03-28 Thu ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-05 Thu 18:11]
 - State "AMPLE"      from ""           [2023-10-03 Tue 10:00]
 :LOGBOOK:
+CLOCK: [2024-03-28 Thu 11:04]--[2024-03-28 Thu 11:25] =>  0:21
 CLOCK: [2024-03-27 Wed 17:29]--[2024-03-27 Wed 18:09] =>  0:40
 CLOCK: [2024-03-27 Wed 12:47]--[2024-03-27 Wed 13:24] =>  0:37
 CLOCK: [2024-03-26 Tue 08:10]--[2024-03-26 Tue 08:40] =>  0:30
