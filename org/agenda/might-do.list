@@ -1470,6 +1470,14 @@ SCHEDULED: <2024-04-26 Fri>
 :LOGBOOK:
 CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
+** INIT webdriver-manager
+SCHEDULED: <2024-03-29 Fri>
+https://pypi.org/project/webdriver-manager/
+** INIT Separate venv for each frame
+SCHEDULED: <2024-03-30 Sat>
+:LOGBOOK:
+CLOCK: [2024-03-28 Thu 10:59]--[2024-03-28 Thu 11:04] =>  0:05
+:END:
 
 * Tasks
 
