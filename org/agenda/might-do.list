@@ -332,8 +332,12 @@ SCHEDULED: <2024-02-27 Tue>
 CLOCK: [2024-02-27 Tue 19:10]--[2024-02-27 Tue 19:12] =>  0:02
 CLOCK: [2024-02-27 Tue 18:52]--[2024-02-27 Tue 19:08] =>  0:16
 :END:
-** ~ELPA~ .deb packages
-SCHEDULED: <2024-03-29 Fri>
+** BARE ~ELPA~ .deb packages
+SCHEDULED: <2024-04-08 Mon>
+- Note taken on [2024-04-08 Mon 17:05] \\
+  #+begin_src sh
+  apt-cache search elpa* | grep treemacs
+  #+end_src
 overview and tagging
 ** LAG [#A] Global Prefixes
 SCHEDULED: <2024-09-11 Wed>
