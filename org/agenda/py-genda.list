@@ -105,8 +105,8 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 :END:
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
-** RETARD [#A] IPython
-SCHEDULED: <2024-04-02 Tue ++2d>
+** RETARD IPython
+SCHEDULED: <2024-05-06 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -231,15 +231,15 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 ***** RETARD Counsel
 SCHEDULED: <2024-06-02 Sun>
 [[elisp:(apropos-command "counsel")]]
-***** Swiper
-SCHEDULED: <2024-04-01 Mon>
+***** RETARD Swiper
+SCHEDULED: <2024-05-20 Mon>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 10:28]--[2024-02-01 Thu 10:35] =>  0:07
 CLOCK: [2024-02-01 Thu 09:53]--[2024-02-01 Thu 09:59] =>  0:06
 :END:
 [[elisp:(apropos-command "swiper")]]
-***** Helpful {h}
-SCHEDULED: <2024-04-03 Wed>
+***** RETARD Helpful {h}
+SCHEDULED: <2024-04-26 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-10 Sat 05:10]--[2024-02-10 Sat 05:22] =>  0:12
 CLOCK: [2024-02-01 Thu 09:36]--[2024-02-01 Thu 09:50] =>  0:14
@@ -378,8 +378,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO [#A] Elpy
-SCHEDULED: <2024-03-29 Fri ++2d>
+** TODO Elpy
+SCHEDULED: <2024-04-11 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -465,8 +465,8 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:emacs#Flymake][emacs#Flymake]]
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
-*** INIT The bald Python project
-SCHEDULED: <2024-03-30 Sat>
+*** RETARD The bald Python project
+SCHEDULED: <2024-05-24 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
 :END:
@@ -556,8 +556,8 @@ CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
 https://github.com/PyCQA/pycodestyle
 https://youtu.be/PulzIT8KYLk?t=36m
 [[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
-**** INIT Structure
-SCHEDULED: <2024-03-29 Fri>
+**** RETARD Structure
+SCHEDULED: <2024-05-28 Tue>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
 CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
@@ -568,8 +568,8 @@ CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
 CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
 :END:
 [[https://docs.python-guide.org/writing/structure/]]
-**** DELAY [#B] Testing
-SCHEDULED: <2024-04-06 Sat>
+**** LAG [#B] Testing
+SCHEDULED: <2024-05-29 Wed>
 :LOGBOOK:
 CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
 CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
@@ -586,8 +586,8 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** DELAY Play&Learn
-SCHEDULED: <2024-04-01 Mon>
+** RETARD Play&Learn
+SCHEDULED: <2024-05-22 Wed>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -598,7 +598,7 @@ file:~/Git/python/algorithms/algorithms
 :CATEGORY: PlayWright
 :END:
 **** Overview
-SCHEDULED: <2024-03-29 Fri ++1d>
+SCHEDULED: <2024-04-09 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-25 Mon 11:39]
 :END:
@@ -621,7 +621,7 @@ CLOCK: [2024-03-25 Mon 11:39]--[2024-03-25 Mon 12:08] =>  0:29
 https://playwright.dev/python/docs/intro
 [[file:~/Git/0--key/org-pub/2024-03-22-playwright-init.org::*Conclusion][Conclusion]]
 **** Codegen
-SCHEDULED: <2024-03-29 Fri>
+SCHEDULED: <2024-04-13 Sat>
 :LOGBOOK:
 CLOCK: [2024-03-27 Wed 11:20]--[2024-03-27 Wed 11:23] =>  0:03
 CLOCK: [2024-03-27 Wed 11:04]--[2024-03-27 Wed 11:12] =>  0:08
@@ -630,14 +630,14 @@ CLOCK: [2024-03-20 Wed 09:26]--[2024-03-20 Wed 09:35] =>  0:09
 :END:
 https://playwright.dev/python/docs/codegen
 **** Inspector
-SCHEDULED: <2024-03-29 Fri>
+SCHEDULED: <2024-04-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 12:51]--[2024-03-25 Mon 12:55] =>  0:04
 CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
 :END:
 https://playwright.dev/python/docs/debug#playwright-inspector
 **** Trace Viewer
-SCHEDULED: <2024-03-29 Fri>
+SCHEDULED: <2024-04-09 Tue>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 12:49]--[2024-03-25 Mon 12:51] =>  0:02
 :END:
@@ -647,7 +647,7 @@ https://playwright.dev/python/docs/trace-viewer-intro
 :CATEGORY: Selenium
 :END:
 **** Overview
-SCHEDULED: <2024-03-29 Fri ++1d>
+SCHEDULED: <2024-04-10 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-22 Fri 10:16]
 :END:
@@ -663,8 +663,8 @@ CLOCK: [2024-03-19 Tue 16:42]--[2024-03-19 Tue 16:48] =>  0:06
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 
-* RETARD [#A] Idioms
-SCHEDULED: <2024-04-02 Tue>
+* RETARD Idioms
+SCHEDULED: <2024-04-11 Thu>
 https://docs.python-guide.org/writing/style/#conventions
 * Algorithms
 :PROPERTIES:
@@ -695,12 +695,12 @@ SCHEDULED: <2024-04-26 Fri>
   :END:
 
   
-** LAG Time Complexity
-SCHEDULED: <2024-03-31 Sun>
+** RETARD Time Complexity
+SCHEDULED: <2024-05-14 Tue>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** RETARD Modules
-SCHEDULED: <2024-03-31 Sun ++3d/4d>
+SCHEDULED: <2024-05-01 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 15:06]
 :END:
@@ -711,8 +711,8 @@ CLOCK: [2023-11-01 Wed 15:00]--[2023-11-01 Wed 15:06] =>  0:06
 CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
-** LAG Packages
-SCHEDULED: <2024-04-04 Thu>
+** RETARD Packages
+SCHEDULED: <2024-05-24 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -724,7 +724,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** LAG Intra-package References
-SCHEDULED: <2024-04-06 Sat>
+SCHEDULED: <2024-04-27 Sat>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -734,14 +734,14 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 
 ** PEP
 *** LAG 257
-SCHEDULED: <2024-04-06 Sat>
+SCHEDULED: <2024-05-28 Tue>
 [[file:~/git/python/peps/pep-0257.txt]]
 * Coding
 :PROPERTIES:
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-03-29 Fri ++2d/3d>
+SCHEDULED: <2024-04-09 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
