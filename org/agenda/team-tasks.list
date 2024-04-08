@@ -121,6 +121,7 @@ SCHEDULED: <2024-04-08 Mon ++1d>
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
+CLOCK: [2024-04-08 Mon 18:52]--[2024-04-08 Mon 18:54] =>  0:02
 CLOCK: [2023-11-24 Fri 15:03]--[2023-11-25 Fri 18:03] =>  3:00
 CLOCK: [2023-11-19 Sun 12:25]--[2023-11-19 Sun 12:54] =>  0:29
 CLOCK: [2023-11-10 Fri 18:06]--[2023-11-10 Fri 19:24] =>  1:18
@@ -146,7 +147,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#C] Commits reviewing {jr>c}
-SCHEDULED: <2024-04-08 Mon ++2d>
+SCHEDULED: <2024-04-09 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-19 Tue 16:54]
 :END:
