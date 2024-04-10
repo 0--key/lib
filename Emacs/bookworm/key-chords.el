@@ -118,13 +118,18 @@
 ;; Org section
 (global-set-key (kbd "C-c c") 'org-capture)
 
-;; Wide-spread capture for straight note as a point on the bullet
+;; Clocked task capture for straight note as a point on the bullet
 ;; list:
 ;; - <captured text>;
 ;; - <captured text>;
 (key-chord-define-global "cy"
 			 (lambda ()
 			   (interactive) (org-capture nil "cc")
+			   (deactivate-mark)))
+;; and for fleeting notes exactly:
+(key-chord-define-global "cf"
+			 (lambda ()
+			   (interactive) (org-capture nil "nf")
 			   (deactivate-mark)))
 ;;
 (global-set-key (kbd "C-c a") 'org-agenda)

@@ -50,15 +50,15 @@
 	;; For the crude notes only:
 	("nf" "Fleeting" entry (file+headline
 			"~/Git/0--key/lib/org/agenda/might-do.list" "Notes")
-	 "* RAW %?%i"
+	 "* RAW [#C] %i%?\nSCHEDULED: %t\n";;RAW %?%i"
 	 :immediate-finish 1
 	 :empty-lines-after 1)
 	;;
-	("ni" "Initial" entry (file+headline
-		       "~/Git/0--key/lib/org/agenda/might-do.list" "Notes")
-	 "* INIT %i%?\nSCHEDULED: %t\n"
-	 :immediate-finish 1
-	 :empty-lines-after 1)
+	;; ("ni" "Initial" entry (file+headline
+	;; 	       "~/Git/0--key/lib/org/agenda/might-do.list" "Notes")
+	;;  "* INIT %i%?\nSCHEDULED: %t\n"
+	;;  :immediate-finish 1
+	;;  :empty-lines-after 1)
 	("np" "Pythonic" entry (file+headline
 			"~/Git/0--key/lib/org/agenda/py-genda.list" "Notes")
 	 "* INIT %i%?\nSCHEDULED: %t\n"
