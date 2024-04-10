@@ -351,6 +351,8 @@ CLOCK: [2024-02-27 Tue 18:52]--[2024-02-27 Tue 19:08] =>  0:16
 :END:
 ** BARE ~ELPA~ .deb packages
 SCHEDULED: <2024-04-08 Mon>
+- Note taken on [2024-04-10 Wed 10:21] \\
+  It is a =Debian= native path to use =Emacs= extensions safely.
 - Note taken on [2024-04-08 Mon 17:05] \\
   #+begin_src sh
   apt-cache search elpa* | grep treemacs
@@ -1500,7 +1502,11 @@ SCHEDULED: <2024-04-12 Fri>
 https://pypi.org/project/webdriver-manager/
 ** SET Separate venv for each frame
 SCHEDULED: <2024-04-09 Tue>
+- Note taken on [2024-04-10 Wed 10:22] \\
+  Seems it is impossible, but can be solved by hook: just launch a new
+  instance of =Emacs= and activate another =venv= there.
 :LOGBOOK:
+CLOCK: [2024-04-10 Wed 10:23]--[2024-04-10 Wed 10:23] =>  0:00
 CLOCK: [2024-03-28 Thu 10:59]--[2024-03-28 Thu 11:04] =>  0:05
 :END:
 
