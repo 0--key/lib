@@ -38,6 +38,7 @@
 (setq google-translate-default-target-language "ru")
 
 (require 'mw-thesaurus)
+(require 'powerthesaurus)
 
 
 (require 'python)
@@ -53,8 +54,8 @@
 
 
 (require 'voca-builder)
-(setq voca-builder/voca-file "~/Git/0--key/lib/org/vocabulary/202404.org")
-(setq voca-builder/current-tag "Peter")
+(setq voca-builder/voca-file "~/Git/0--key/lib/org/vocabulary/202405.org")
+(setq voca-builder/current-tag "Iain")
 (require 'speed-type)
 ;; (require 'xclip)
 ;; (xclip-mode 1)
@@ -112,7 +113,7 @@
  '(bmkp-last-as-first-bookmark-file "/home/alioth/.emacs.d/bookmarks")
  '(browse-url-browser-function 'eww-browse-url)
  '(org-agenda-files
-   '("/home/alioth/Git/0--key/lib/org/agenda/team-tasks.list" "/home/alioth/Git/0--key/lib/org/agenda/py-genda.list" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-11-09-star-warmth.org" "/home/alioth/Git/0--key/org-pub/2022-11-07-cultural-differences.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/org-pub/2022-02-07-the-average-workflow.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
+   '("/home/alioth/Git/0--key/lib/org/agenda/team-tasks.list" "/home/alioth/Git/0--key/lib/org/agenda/py-genda.list" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
  '(org-agenda-scheduled-leaders '("Sch " "Sch.%2dx: "))
  '(org-agenda-window-setup 'other-window)
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
