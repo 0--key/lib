@@ -18,14 +18,115 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
-** TODO Make friends across the world                             :backdoor:
-SCHEDULED: <2024-05-10 Fri>
+** Synergy
+:PROPERTIES:
+:CATEGORY: Synergy
+:END:
+
+*** TODO Make friends across the world                           :backdoor:
+SCHEDULED: <2024-05-13 Mon>
 By providing my recent revelation to group with similar interests.
 - emacs-kung-fu@gmail.com as the work email address integrated with my
   Emacs;
 - The current work system is efficient enough (opposite to
 https://whhone.com/posts/org-mode-task-management/) to be described
 and displayed for members of the target group.
+
+**** TODO Wai Hon                                               :backdoor:
+SCHEDULED: <2024-05-17 Fri>
+https://whhone.com/posts/org-mode-task-management/
+https://whhone.com/tags/linux/
+
+**** LAG Irreal blog                                            :backdoor:
+SCHEDULED: <2024-05-15 Wed>
+- Note taken on [2023-06-20 Tue 11:29] \\
+  [[http://irreal.org/blog/][Irreal | Blog]]
+:LOGBOOK:
+CLOCK: [2023-06-20 Tue 11:03]--[2023-06-20 Tue 11:28] =>  0:25
+CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
+:END:
+[[http://irreal.org/emacs-reminders.html][reading for fun]]
+
+
+**** TODO Authors                                               :backdoor:
+SCHEDULED: <2024-05-17 Fri>
+- Note taken on [2024-04-08 Mon 16:47] \\
+  From PyPi, pip and ELPA repositories might be a target audience for my
+  work presentation
+- Note taken on [2024-03-24 Sun 19:07] \\
+  Make a new acquaintance isn't easy thing, it requires to define your
+  target auditory which apt to appreciate your thought. The authors
+  (maintainers) from ELPA is the one.
+  
+  Other feasible audience might be: https://www.emacswiki.org and, of
+  cource, Reddit.
+:LOGBOOK:
+CLOCK: [2024-03-22 Fri 08:31]--[2024-03-22 Fri 09:03] =>  0:32
+CLOCK: [2024-03-19 Tue 19:27]--[2024-03-19 Tue 19:47] =>  0:20
+:END:
+[[file:~/.emacs.d/elpa/archives/gnu/archive-contents::\[(1 7)][Elpa]]
+- Note taken on [2024-03-19 Tue 12:27] \\
+  Emacs kung-fu with key-chord for most frequent keys
+the target audience for Twits and LinkedIn posts
+
+Google Analytics for 0--key.github.io
+
+
+
+*** INIT [#A] Team Synergy                                           :bait:
+SCHEDULED: <2024-05-17 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-26 Tue 07:16]
+:END:
+- State "AMPLE"      from ""           [2024-03-26 Tue 07:16]
+- State "AMPLE"      from ""           [2024-03-21 Thu 18:29]
+:LOGBOOK:
+CLOCK: [2024-03-25 Mon 10:24]--[2024-03-25 Mon 11:00] =>  0:36
+CLOCK: [2024-03-25 Mon 10:07]--[2024-03-25 Mon 10:08] =>  0:01
+CLOCK: [2024-03-21 Thu 18:15]--[2024-03-21 Thu 18:29] =>  0:14
+:END:
+[[https://www.linkedin.com/in/jasonanthonyrodriguez/]]
+[[file:~/Git/0--key/org-pub/2024-03-20-team-synergy-incubation.org::*AntiThesis][AntiThesis]]
+
+Cooperation vs Competition
+
+Two obvious approaches to tame with such intimidating amount of
+knowledge: life duration and sincere cooperation depth.
+
+
+*** [#A] CxMxCh                                             :backdoor:bait:
+SCHEDULED: <2024-05-14 Tue ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-04-09 Tue 09:34]
+:END:
+- State "AMPLE"      from ""           [2024-04-09 Tue 09:34]
+:LOGBOOK:
+CLOCK: [2024-04-09 Tue 08:36]--[2024-04-09 Tue 09:32] =>  0:56
+:END:
+Most useful key-chords ever description and usage
+[[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
+
+*** RAW Define Your System                                           :bait:
+SCHEDULED: <2024-05-15 Wed>
+https://www.youtube.com/watch?v=y4evLICF8kk
+
+**** INIT [#A] An Insight Incubation Approach                       :bait:
+SCHEDULED: <2024-05-17 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-04-09 Tue 15:09]
+:END:
+- State "AMPLE"      from "RAW"        [2024-04-09 Tue 15:09]
+:LOGBOOK:
+CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
+:END:
+
+****  Task Management
+[[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Task management][Task management]]
+
+
+*** INIT [#A] Kung-Fu                                                :bait:
+SCHEDULED: <2024-05-16 Thu>
+Take an attempt and publish your work
 
 
 ** English
@@ -82,15 +183,6 @@ Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 - <<<
 
 
-*** RAW [#A] An Insight Incubation Approach                          :bait:
-SCHEDULED: <2024-05-10 Fri ++1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-04-09 Tue 15:09]
-:END:
-- State "AMPLE"      from "RAW"        [2024-04-09 Tue 15:09]
-:LOGBOOK:
-CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
-:END:
 ** YouTube
 
 *** RETARD [#A] Ali Abdaal's *new* transcript                         :Ali:
@@ -215,26 +307,6 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :CATEGORY: TeaMan
 :END:
 A Clot for Every Slot
-*** INIT [#A] Team Synergy                                           :bait:
-SCHEDULED: <2024-05-10 Fri ++1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-03-26 Tue 07:16]
-:END:
-- State "AMPLE"      from ""           [2024-03-26 Tue 07:16]
-- State "AMPLE"      from ""           [2024-03-21 Thu 18:29]
-:LOGBOOK:
-CLOCK: [2024-03-25 Mon 10:24]--[2024-03-25 Mon 11:00] =>  0:36
-CLOCK: [2024-03-25 Mon 10:07]--[2024-03-25 Mon 10:08] =>  0:01
-CLOCK: [2024-03-21 Thu 18:15]--[2024-03-21 Thu 18:29] =>  0:14
-:END:
-[[https://www.linkedin.com/in/jasonanthonyrodriguez/]]
-[[file:~/Git/0--key/org-pub/2024-03-20-team-synergy-incubation.org::*AntiThesis][AntiThesis]]
-
-Cooperation vs Competition
-
-Two obvious approaches to tame with such intimidating amount of
-knowledge: life duration and sincere cooperation depth.
-
 
 * Git
 :PROPERTIES:
@@ -371,9 +443,7 @@ should be customized by ~keychords~
   (key-chord-define-global "yy" 'null)
   (define-key key-translation-map (kbd "<key-chord> yy")  (kbd "M-x"))
 #+end_src
-** INIT [#A] Kung-Fu                                                  :bait:
-SCHEDULED: <2024-05-10 Fri>
-Take an attempt and publish your work
+
 ** RETARD Mode Line Customization
 SCHEDULED: <2024-07-18 Thu>
 [[info:emacs#Mode Line][emacs#Mode Line]]
@@ -685,10 +755,7 @@ _as invention_
 :CATEGORY: Notes
 :END:
 
-** TODO Wai Hon                                                   :backdoor:
-SCHEDULED: <2024-05-10 Fri>
-https://whhone.com/posts/org-mode-task-management/
-https://whhone.com/tags/linux/
+
 ** Music
 SCHEDULED: <2024-09-10 Tue>
 :LOGBOOK:
@@ -1538,32 +1605,9 @@ SCHEDULED: <2024-05-15 Wed ++1d>
 - State "AMPLE"      from "ACTIVE"     [2024-04-09 Tue 18:43]
  Profile brush up
 
-*** TODO Authors                                                 :backdoor:
-SCHEDULED: <2024-05-10 Fri>
-- Note taken on [2024-04-08 Mon 16:47] \\
-  From PyPi, pip and ELPA repositories might be a target audience for my
-  work presentation
-- Note taken on [2024-03-24 Sun 19:07] \\
-  Make a new acquaintance isn't easy thing, it requires to define your
-  target auditory which apt to appreciate your thought. The authors
-  (maintainers) from ELPA is the one.
-  
-  Other feasible audience might be: https://www.emacswiki.org and, of
-  cource, Reddit.
-:LOGBOOK:
-CLOCK: [2024-03-22 Fri 08:31]--[2024-03-22 Fri 09:03] =>  0:32
-CLOCK: [2024-03-19 Tue 19:27]--[2024-03-19 Tue 19:47] =>  0:20
-:END:
-[[file:~/.emacs.d/elpa/archives/gnu/archive-contents::\[(1 7)][Elpa]]
-- Note taken on [2024-03-19 Tue 12:27] \\
-  Emacs kung-fu with key-chord for most frequent keys
-the target audience for Twits and LinkedIn posts
 
-Google Analytics for 0--key.github.io
-
-
-*** TODO Reqruitment Agency
-SCHEDULED: <2024-05-10 Fri>
+*** TODO [#A] Reqruitment Agency
+SCHEDULED: <2024-05-13 Mon>
 
 
 ** Chores
@@ -3135,15 +3179,7 @@ SCHEDULED: <2024-05-12 Sun>
 CLOCK: [2024-01-17 Wed 11:27]--[2024-01-17 Wed 11:32] =>  0:05
 :END:
 [[https://ashby.info/aphorisms.html][Aphorisms]]
-** LAG Irreal blog                                                :backdoor:
-SCHEDULED: <2024-05-10 Fri>
-- Note taken on [2023-06-20 Tue 11:29] \\
-  [[http://irreal.org/blog/][Irreal | Blog]]
-:LOGBOOK:
-CLOCK: [2023-06-20 Tue 11:03]--[2023-06-20 Tue 11:28] =>  0:25
-CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
-:END:
-[[http://irreal.org/emacs-reminders.html][reading for fun]]
+
 ** RAW Micro Trading
 ** LAG Framework Thinking
 SCHEDULED: <2024-06-05 Wed>
