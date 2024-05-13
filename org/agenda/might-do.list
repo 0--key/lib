@@ -1583,6 +1583,12 @@ SCHEDULED: <2024-04-09 Tue>
 CLOCK: [2024-04-10 Wed 10:23]--[2024-04-10 Wed 10:23] =>  0:00
 CLOCK: [2024-03-28 Thu 10:59]--[2024-03-28 Thu 11:04] =>  0:05
 :END:
+** RAW [#C] Large Language Model
+SCHEDULED: <2024-05-13 Mon>
+** RAW [#C] Requirements for SRE, DevOps
+SCHEDULED: <2024-05-13 Mon>
+** RAW [#C] keychords-cxmxch - how to make an Elisp package?
+SCHEDULED: <2024-05-13 Mon>
 
 * Tasks
 
@@ -2695,7 +2701,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-05-10 Fri ++2d/3d>
+SCHEDULED: <2024-05-13 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:11]
 :END:
