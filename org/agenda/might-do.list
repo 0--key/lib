@@ -1009,9 +1009,74 @@ Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
 ** RAW [#A] SRE vs DevOPs vs SE vs SD
-SCHEDULED: <2024-05-14 Tue ++1d>
+SCHEDULED: <2024-05-15 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-10 Fri 09:58]
+:LAST_REPEAT: [2024-05-14 Tue 10:55]
+:END:
+- State "AMPLE"      from "RAW"        [2024-05-14 Tue 10:55]
+- Note taken on [2024-05-14 Tue 10:54] \\
+  The difference between Site Reliability Engineering (SRE) and DevOps
+  lies in their primary focus and responsibilities within an
+  organization:
+  
+  1. Focus:
+     - DevOps: DevOps primarily focuses on software development and
+       deployment processes, aiming to bridge the gap between
+       development and operations teams to enhance collaboration and
+       streamline the software delivery lifecycle[1][5].
+     - SRE: SRE's main focus is on the reliability, scalability, and
+       availability of systems. SRE teams work to ensure continuous
+       functionality, automate maintenance tasks, and keep applications
+       running smoothly[1][5].
+  
+  2. Responsibilities:
+     - DevOps: DevOps teams are responsible for software
+       development, deployment, and ensuring the quality and reliability
+       of the end product. They work on continuous integration,
+       continuous delivery, automation, and collaboration between
+       different teams involved in the software delivery process[1][5].
+     - SRE: SRE teams deal with operational problems such as
+       production failures, infrastructure issues, security, and
+       monitoring. They focus on maintaining uptime, optimizing
+       performance, and ensuring system reliability. SREs also conduct
+       incident response, post-incident reviews, and work on bug
+       reporting related to infrastructure issues[1][5].
+  
+  3. Tools:
+     - DevOps: DevOps commonly uses tools like Jenkins, JIRA,
+       Splunk, GitHub, and integrated development environments (IDEs)
+       for development, continuous integration, change management, and
+       log monitoring[1].
+     - SRE: SRE teams utilize tools like Prometheus, Grafana,
+       incident alert tools (OP5, PageDuty, xMatters), Ansible, Puppet,
+       Chef, Kubernetes, Docker, and cloud platforms like AWS, GCP,
+       Azure for monitoring, visualization, incident management,
+       automation, and container orchestration[1].
+  
+  4. Measurement Metrics:
+     - DevOps: DevOps teams typically measure metrics like
+       deployment frequency and deployment failure rate to assess
+       performance and efficiency in software delivery[1].
+     - SRE: SRE teams focus on metrics such as Error Budgets,
+       Service Level Objectives (SLOs), Service Level Indicators (SLIs),
+       and Service Level Agreements (SLAs) to monitor reliability,
+       uptime, and robustness of systems[1].
+  
+  In summary, while both SRE and DevOps share common goals of enhancing
+  reliability, efficiency, and collaboration within IT operations, they
+  differ in their primary focus, responsibilities, tools used, and
+  measurement metrics, catering to distinct aspects of software
+  development, deployment, and system maintenance within an
+  organization[1][5].
+  
+  Citations:
+  [1] https://spacelift.io/blog/sre-vs-devops
+  [2] https://www.coursera.org/articles/sre-vs-devops
+  [3] https://devops.com/the-differences-between-devops-devsecops-and-sre/
+  [4] https://www.splunk.com/en_us/blog/learn/sre-vs-devops-vs-platform-engineering.html
+  [5] https://www.techtarget.com/searchitoperations/tip/Compare-the-roles-of-SREs-and-DevOps-engineers
+:LOGBOOK:
+CLOCK: [2024-05-14 Tue 10:48]--[2024-05-14 Tue 10:55] =>  0:07
 :END:
 Communication
 Debugging
