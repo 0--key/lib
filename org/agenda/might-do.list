@@ -107,7 +107,14 @@ Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
 *** RAW [#A] Define Your System                                      :bait:
-SCHEDULED: <2024-05-14 Tue>
+SCHEDULED: <2024-05-15 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-14 Tue 09:40]
+:END:
+- State "AMPLE"      from "INIT"       [2024-05-14 Tue 09:40]
+:LOGBOOK:
+CLOCK: [2024-05-14 Tue 08:27]--[2024-05-14 Tue 08:54] =>  0:27
+:END:
 https://www.youtube.com/watch?v=y4evLICF8kk
 [[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Preamble][Preamble]]
 
@@ -222,7 +229,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 *** ACTIVE Straight Work Approach
-SCHEDULED: <2024-05-14 Tue>
+SCHEDULED: <2024-05-15 Wed>
 :LOGBOOK:
 CLOCK: [2024-02-02 Fri 04:49]--[2024-02-02 Fri 05:14] =>  0:25
 :END:
@@ -268,7 +275,7 @@ The [[elisp:(bookmark-jump-other-frame "2024-03-11-thought-dissection.org")][poi
 [[file:~/Git/0--key/org-pub/2024-05-10-mechanical-approach.org::So it's very difficult for us to escape this categorization that the][Another]]
 
 ** ACTIVE Shallow/deep | long/short sessions
-SCHEDULED: <2024-05-14 Tue>
+SCHEDULED: <2024-05-15 Wed>
 ** DELAY Strategic Thinking
 SCHEDULED: <2024-05-15 Wed>
 :LOGBOOK:
@@ -1721,260 +1728,31 @@ SCHEDULED: <2024-05-14 Tue>
 :LOGBOOK:
 CLOCK: [2024-05-13 Mon 12:14]--[2024-05-13 Mon 12:19] =>  0:05
 :END:
-** INIT [#A] Requirements for DevOps
-SCHEDULED: <2024-05-14 Tue>
-- Note taken on [2024-05-13 Mon 12:37] \\
-  Some of the most common tools used by DevOps engineers include:
-  
-  1. Version Control Systems:
-     - Git: A widely used open-source distributed version control
-       system[1][3][4].
-     - GitHub: A cloud-based hosting service for Git repositories[4].
-  
-  2. Configuration Management:
-     - Ansible: An open-source software provisioning, configuration
-       management, and application-deployment tool[2][3].
-     - Puppet: An open-source software configuration management
-       tool[3][4].
-     - Chef: An open-source configuration management tool[4][5].
-  
-  3. Containerization:
-     - Docker: A popular containerization platform for building,
-       deploying, and running applications[2][4].
-  
-  4. Container Orchestration:
-     - Kubernetes: An open-source system for automating deployment,
-       scaling, and management of containerized applications[2][4].
-  
-  5. Continuous Integration and Continuous Deployment (CI/CD):
-     - Jenkins: An open-source automation server used for automating the
-       process of building, testing, and deploying
-       applications[2][3][5].
-     - CircleCI: A cloud-based CI/CD platform[5].
-  
-  6. Monitoring and Observability:
-     - Prometheus: An open-source monitoring system for collecting and
-       storing time series data[2][4].
-     - Datadog: A monitoring and analytics tool for IT and DevOps
-       teams[2][4].
-  
-  7. Cloud Platforms:
-     - AWS: A comprehensive cloud computing platform offered by
-       Amazon[2][4].
-  
-  8. Infrastructure as Code (IaC):
-     - Terraform: An open-source infrastructure as code software
-       tool[4].
-     - AWS CloudFormation: A service that helps model and set up AWS
-       resources[4].
-  
-  9. Testing:
-     - Selenium: An open-source testing framework for automating web
-       browsers[3][4].
-     - JUnit: A unit testing framework for Java[1].
-  
-  10. Collaboration and Communication:
-      - Slack: A cloud-based set of team collaboration tools and
-        services[4].
-  
-  These tools help DevOps engineers automate various processes, manage
-  infrastructure, monitor systems, and collaborate effectively
-  throughout the software development lifecycle[1][2][3][4][5].
-  
-  Citations:
-  [1] https://dev.to/aws-builders/essential-tools-for-a-successful-devops-engineer-4lgl
-  [2] https://www.oneclickitsolution.com/blog/devops-tools/
-  [3] https://www.indeed.com/career-advice/career-development/tools-for-devops
-  [4] https://spacelift.io/blog/devops-tools
-  [5] https://kinsta.com/blog/devops-tools/
-- Note taken on [2024-05-13 Mon 12:35] \\
-  The requirements for DevOps professionals include a mix of technical
-  skills, soft skills, and specific knowledge areas. Here are the key
-  prerequisites based on the provided sources:
-  
-  1. Technical Skills:
-     - Programming Languages: Proficiency in at least one
-       programming language like Python, Ruby, or Java is essential for
-       DevOps professionals[2][5].
-     - Scripting: Ability to write scripts, such as Shell scripting,
-       for task automation[2].
-     - Configuration Management: Understanding of configuration
-       management tools like Puppet, Chef, or Ansible[2].
-     - Cloud Computing: Familiarity with cloud computing platforms
-       such as AWS, Azure, or Google Cloud[2].
-     - CI/CD Tools: Knowledge of continuous integration and
-       continuous deployment tools like Jenkins or Travis CI[2].
-     - Version Control Systems: Familiarity with version control
-       systems like Git and containerization technologies like
-       Docker[2].
-  
-  2. Soft Skills:
-     - Communication and Collaboration Skills: Effective
-       communication and collaboration abilities are crucial for working
-       across different teams in a DevOps environment[2].
-     - Continuous Learning and Adaptability: A passion for
-       continuous learning and staying updated with the latest trends in
-       the field is essential for DevOps professionals[2].
-     - Problem-Solving: Strong problem-solving skills to identify
-       and resolve issues efficiently[2].
-     - Collaboration: Ability to work effectively in a team and
-       collaborate with other team members within and across different
-       teams in an organization[2].
-  
-  3. Knowledge Areas:
-     - Software Development Understanding: Basic understanding of
-       software development processes is important for DevOps
-       professionals[3].
-     - Operating Systems and Networking: Familiarity with operating
-       systems and networking concepts is beneficial for managing
-       infrastructure in a DevOps environment[3].
-  
-  In summary, to excel as a DevOps professional, individuals should
-  focus on developing a strong foundation in technical skills, honing
-  soft skills like communication and problem-solving, staying updated
-  with industry trends, and having a collaborative mindset to work
-  effectively in cross-functional teams[2][3][5].
-  
-  Citations:
-  [1] https://www.browserstack.com/guide/devops-prerequisites
-  [2] https://www.linkedin.com/pulse/what-important-prerequisites-devops-professionals-knowlathon
-  [3] https://www.knowledgehut.com/blog/devops/prerequisite-for-devops
-  [4] https://www.indeed.com/career-advice/career-development/how-to-become-a-devops-engineer
-  [5] https://spacelift.io/blog/how-to-become-devops-engineer
+** [#A] DevOps' CV
+SCHEDULED: <2024-05-15 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-14 Tue 10:18]
+:END:
+- State "AMPLE"      from "INIT"       [2024-05-14 Tue 10:18]
 :LOGBOOK:
+CLOCK: [2024-05-14 Tue 09:43]--[2024-05-14 Tue 10:01] =>  0:18
 CLOCK: [2024-05-13 Mon 12:33]--[2024-05-13 Mon 12:38] =>  0:05
 :END:
+[[file:~/Git/0--key/org-pub/2024-05-14-DevOpsCV.org::*Technical][Technical]]
 
-
-** INIT [#A] Requirements for SRE
-SCHEDULED: <2024-05-14 Tue>
-- Note taken on [2024-05-13 Mon 12:26] \\
-  Some /common tools/ used by Site Reliability Engineers (SREs) include:
-  
-  1. *Prometheus*:
-     - An open-source software used for monitoring and collecting
-       metrics about infrastructure and applications. It works well with
-       Kubernetes and offers extensive features and plugin support[3].
-  
-  2. *Grafana*:
-     - An open-source analytics and monitoring tool used to visualize
-       data and metrics. It supports various data sources like
-       Prometheus, MySQL, Elasticsearch, AWS, and more, allowing for
-       customizable dashboards and alerts[3].
-  
-  3. *Kibana*:
-     - A dashboard visualization software popular among SREs. It works
-       in conjunction with Elasticsearch and provides insights into
-       system health by analyzing logs, metrics, and traces[3].
-  
-  4. *Datadog*:
-     - A monitoring and analytics tool used by IT and DevOps teams to
-       monitor services like servers and databases. It collects events
-       and metrics, providing insights into monitoring and performance
-       data[3].
-  
-  5. *Splunk*:
-     - Used for monitoring and searching through big data, Splunk
-       indexes and correlates information for searchability, alerting,
-       reporting, and visualization. It collects and analyzes high
-       volumes of network and machine data in real-time[3].
-  
-  6. *New Relic*:
-     - A Software as a Service offering focusing on performance and
-       availability monitoring. It uses an application performance index
-       (Apdex) score to rate application performance and provides
-       insights for building better software[3].
-  
-  7. *Elasticsearch*:
-     - A distributed search and analytics engine built on Apache
-       Lucene. It is commonly used for log analytics, full-text search,
-       security intelligence, business analytics, and operational
-       intelligence use cases[3].
-  
-  8. *Dynatrace*:
-     - A monitoring tool that provides insights into application
-       performance and user experience. It offers real-time monitoring,
-       AI-powered analytics, and automation to optimize system
-       performance[3].
-  
-  9. *AppDynamics*:
-     - An application performance management and IT operations analytics
-       tool that provides real-time insights into application
-       performance, user experience, and business impact[3].
-  
-  10. *Zabbix*:
-      - An open-source monitoring software for networks and
-        applications. It offers real-time monitoring, alerting, and
-        visualization capabilities for IT infrastructure[3].
-  
-  These tools help SREs monitor, analyze, and optimize the performance,
-  reliability, and availability of systems and applications, ensuring
-  smooth operations and efficient incident response.
-  
-  Citations:
-  [1] https://www.dotcom-monitor.com/blog/top-13-site-reliability-engineer-sre-tools/
-  [2] https://business.linkedin.com/talent-solutions/resources/how-to-hire-guides/site-reliability-engineer/interview-questions
-  [3] https://www.devopsschool.com/blog/top-10-monitoring-and-observability-tools-in-2022-for-sre-site-reliability-engineering/
-  [4] https://www.recruitingfromscratch.com/blog/site-reliability-engineers
-  [5] https://successive.cloud/top-12-site-reliability-engineering-tools/
-- Note taken on [2024-05-13 Mon 12:21] \\
-  The requirements to become a Site Reliability Engineer (SRE) typically
-  include a combination of education, experience, and specific
-  skills. Here are the key requirements based on the provided sources:
-  
-  1. *Education*:
-     - Most SREs hold at least a bachelor's degree in IT, computer
-       science, engineering, or a related field[1][2].
-     
-  2. *Experience*:
-     - Aspiring SRE professionals should gain at least two to four years
-       of related work experience in IT operations and software
-       development[1].
-     
-  3. *Skills*:
-     - *Hard Skills*:
-       - Strong IT knowledge and skills.
-       - Data analysis.
-       - Writing code to fix software issues and automate processes.
-       - Database management.
-       - CI/CD pipeline development[1].
-     - *Soft Skills*:
-       - Communication and presentation skills.
-       - Time management and organizational skills.
-       - Strong collaboration and teamwork skills.
-       - Creative problem solving[1].
-     
-  4. *Tools and Programs*:
-     - Familiarity with tools like Grafana, JIRA, Terraform, Datadog,
-       Ansible, and SaltStack is beneficial for SREs[1].
-  
-  5. *Certifications and Courses*:
-     - Completing courses like Site Reliability Engineering (SRE)
-       Foundation, Site Reliability Engineering: Measuring and Managing
-       Reliability, or obtaining a Professional Certificate in Site
-       Reliability Engineering can enhance one's qualifications[1].
-  
-  6. *Career Path*:
-     - Many SREs start their careers in roles like software engineer,
-       developer, IT support specialist, or systems administrator before
-       transitioning to an SRE role[1].
-  
-  In summary, to become a successful Site Reliability Engineer,
-  individuals should focus on obtaining relevant education, gaining
-  practical experience, developing both hard and soft skills,
-  familiarizing themselves with essential tools, and considering
-  certifications to enhance their qualifications in the field[1].
-  
-  Citations:
-  [1] https://builtin.com/learn/careers/site-reliability-engineer
-  [2] https://www.knowledgehut.com/blog/devops/site-reliability-engineer
-  [3] https://www.tealhq.com/how-to-become/site-reliability-engineer
-  [4] https://www.itprotoday.com/it-operations/how-become-site-reliability-engineer-step-step-guide
-  [5] https://www.glassdoor.ie/Career/site-reliability-engineer-career_KO0,25.htm
+** [#A] The SRE's CV
+SCHEDULED: <2024-05-15 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-14 Tue 10:46]
+:END:
+- State "AMPLE"      from "INIT"       [2024-05-14 Tue 10:46]
 :LOGBOOK:
+CLOCK: [2024-05-14 Tue 10:18]--[2024-05-14 Tue 10:46] =>  0:28
 CLOCK: [2024-05-13 Mon 12:20]--[2024-05-13 Mon 12:33] =>  0:13
 CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
 :END:
+[[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
+
 ** RAW [#A] keychords-cxmxch - how to make an Elisp package?
 SCHEDULED: <2024-05-15 Wed>
 :LOGBOOK:
@@ -2015,10 +1793,11 @@ SCHEDULED: <2024-05-16 Thu>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-05-13 Mon ++1d>
+SCHEDULED: <2024-05-14 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-04-09 Tue 18:49]
+:LAST_REPEAT: [2024-05-13 Mon 20:10]
 :END:
+- State "AMPLE"      from ""           [2024-05-13 Mon 20:10]
 - State "AMPLE"      from ""           [2024-04-09 Tue 18:49]
 - State "AMPLE"      from ""           [2024-03-27 Wed 20:27]
 - State "AMPLE"      from ""           [2024-03-26 Tue 18:52]
@@ -2067,7 +1846,10 @@ SCHEDULED: <2024-05-13 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-13 Mon 20:07]
+CLOCK: [2024-05-14 Tue 10:56]
+CLOCK: [2024-05-14 Tue 10:14]--[2024-05-14 Tue 10:18] =>  0:04
+CLOCK: [2024-05-14 Tue 09:41]--[2024-05-14 Tue 09:42] =>  0:01
+CLOCK: [2024-05-13 Mon 20:07]--[2024-05-13 Mon 20:10] =>  0:03
 CLOCK: [2024-05-13 Mon 11:40]--[2024-05-13 Mon 11:53] =>  0:13
 CLOCK: [2024-05-10 Fri 10:40]--[2024-05-10 Fri 10:45] =>  0:05
 CLOCK: [2024-04-23 Tue 07:55]--[2024-04-23 Tue 08:03] =>  0:08
@@ -3184,7 +2966,7 @@ SCHEDULED: <2024-08-28 Wed>
 [[info:org#Column View]]
 [2024-01-02 Tue 17:21]
 ** DELAY [#B] Regressive pomodoro
-SCHEDULED: <2024-05-14 Tue>
+SCHEDULED: <2024-05-15 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-31 Wed 12:25]--[2024-01-31 Wed 12:51] =>  0:26
 :END:
@@ -3347,7 +3129,7 @@ SCHEDULED: <2024-05-10 Fri>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-05-14 Tue ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-28 Thu 09:22]
 :END:
