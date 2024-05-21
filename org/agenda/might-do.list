@@ -74,7 +74,7 @@ Google Analytics for 0--key.github.io
 
 
 *** INIT [#A] Team Synergy                                           :bait:
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-24 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-26 Tue 07:16]
 :END:
@@ -109,7 +109,7 @@ Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
 *** INIT [#A] Define Your System                                     :bait:
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 09:40]
 :END:
@@ -135,8 +135,8 @@ CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
 [[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Task management][Task management]]
 
 
-*** INIT [#A] Kung-Fu                                                :bait:
-SCHEDULED: <2024-05-17 Fri>
+*** INIT Kung-Fu                                                     :bait:
+SCHEDULED: <2024-05-21 Tue>
 Take an attempt and publish your work
 
 
@@ -159,7 +159,7 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
 *** RAW 25 must know Engllish expressions
-SCHEDULED: <2024-05-20 Mon>
+SCHEDULED: <2024-05-21 Tue>
 :LOGBOOK:
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
 CLOCK: [2024-02-28 Wed 11:07]--[2024-02-28 Wed 11:11] =>  0:04
@@ -623,7 +623,7 @@ CLOCK: [2023-10-17 Tue 10:24]--[2023-10-17 Tue 10:40] =>  0:16
 :END:
 ** CLOSED ToDos inside /org-pub/ files
 noexport for it and properties like ~category~
-** RETARD [#C] Lisp
+** RETARD [#C] Lisp                                                :ARCHIVE:
 SCHEDULED: <2024-05-20 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-25 Wed 16:35]--[2023-10-25 Wed 16:42] =>  0:07
@@ -759,7 +759,7 @@ SCHEDULED: <2024-06-17 Mon>
 GitHub don't displays properly in ~EWW~
 https://www.emacswiki.org/emacs/AnsiTerm
 ** LAG Key-chord prefixex                                         :CxMxCcCh:
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-05-23 Thu>
 _as invention_
 
 * Notes
@@ -1030,7 +1030,7 @@ Toggle Archives mode
 [[info:org#Agenda Commands]]
 [[info:org#Internal archiving][info:org#Internal archiving]]
 ** RAW [#A] SRE vs DevOPs vs SE vs SD
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 10:55]
 :END:
@@ -1181,7 +1181,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-06-10 Mon>
 [[info:org#TODO types][org#TODO types]]
 ** Whole week scheduling
-SCHEDULED: <2024-05-19 Sun .+1w>
+SCHEDULED: <2024-05-21 Tue .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-05-12 Sun 19:50]
@@ -1205,6 +1205,7 @@ SCHEDULED: <2024-05-19 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2024-05-21 Tue 08:46]--[2024-05-21 Tue 08:48] =>  0:02
 CLOCK: [2024-05-12 Sun 19:46]--[2024-05-12 Sun 19:50] =>  0:04
 CLOCK: [2024-04-08 Mon 16:59]--[2024-04-08 Mon 17:06] =>  0:07
 CLOCK: [2024-03-24 Sun 19:11]--[2024-03-24 Sun 19:18] =>  0:07
@@ -1325,7 +1326,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-05-18 Sat ++5w>
+SCHEDULED: <2024-05-25 Sat ++5w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-05 Fri 16:23]
 :END:
@@ -1618,7 +1619,7 @@ CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
 ** RETARD [#C] Enhanced self-esteem
-SCHEDULED: <2024-05-17 Fri ++1w>
+SCHEDULED: <2024-06-03 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
@@ -1638,7 +1639,7 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 ** LAG ElectricSheep
 SCHEDULED: <2024-10-05 Sat>
 ** DELAY Leadership as an advanced skill
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-06-25 Tue>
 Team synergy induction, gestation, stimulation
 
 *Synergy³* == how to define it as the highest priority task to do, create
@@ -1646,7 +1647,7 @@ a hospitable environment for its incubation, gestation and benign
 development. After its initiation == how to foster it, stimulate it to
 grow up in the right direction, how to cultivate and control it.
 ** DELAY Team leadership in software development
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-06-25 Tue>
 :LOGBOOK:
 CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
@@ -1745,7 +1746,7 @@ CLOCK: [2024-05-14 Tue 18:13]--[2024-05-14 Tue 18:35] =>  0:22
 CLOCK: [2024-05-13 Mon 12:14]--[2024-05-13 Mon 12:19] =>  0:05
 :END:
 ** [#A] DevOps' CV
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 10:18]
 :END:
@@ -1758,7 +1759,7 @@ CLOCK: [2024-05-13 Mon 12:33]--[2024-05-13 Mon 12:38] =>  0:05
 [[file:~/Git/0--key/org-pub/2024-05-14-DevOpsCV.org::*Technical][Technical]]
 
 ** [#A] The SRE's CV
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 10:46]
 :END:
@@ -1773,7 +1774,7 @@ CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
 [[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
 
 ** RAW [#A] keychords-cxmxch - how to make an Elisp package?      :CxMxCcCh:
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-05-23 Thu>
 :LOGBOOK:
 CLOCK: [2024-05-15 Wed 15:43]--[2024-05-15 Wed 15:53] =>  0:10
 CLOCK: [2024-05-13 Mon 12:38]--[2024-05-13 Mon 12:54] =>  0:16
@@ -1814,7 +1815,7 @@ SCHEDULED: <2024-06-03 Mon>
 SCHEDULED: <2024-05-22 Wed>
 
 *** RAW Skill endorsement at LinkedIn
-SCHEDULED: <2024-05-20 Mon>
+SCHEDULED: <2024-05-21 Tue>
 
 *** RAW Vikki's LinkedIn//UpWork
 SCHEDULED: <2024-05-22 Wed ++1d>
@@ -1826,7 +1827,7 @@ SCHEDULED: <2024-05-22 Wed ++1d>
 
 
 *** TODO [#A] Reqruitment Agency
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-05-28 Tue>
 
 
 ** Chores
@@ -1834,7 +1835,7 @@ SCHEDULED: <2024-05-17 Fri>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-13 Mon 20:10]
 :END:
@@ -1887,7 +1888,8 @@ SCHEDULED: <2024-05-17 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-17 Fri 11:26]
+CLOCK: [2024-05-21 Tue 11:31]
+CLOCK: [2024-05-17 Fri 11:26]--[2024-05-17 Fri 11:28] =>  0:02
 CLOCK: [2024-05-17 Fri 11:12]--[2024-05-17 Fri 11:13] =>  0:01
 CLOCK: [2024-05-15 Wed 15:41]--[2024-05-15 Wed 15:43] =>  0:02
 CLOCK: [2024-05-15 Wed 10:41]--[2024-05-15 Wed 10:55] =>  0:14
@@ -2154,11 +2156,12 @@ CLOCK: [2022-11-09 Wed 18:54]--[2022-11-09 Wed 19:20] =>  0:26
 CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
-*** [#C] Touch typing
-SCHEDULED: <2024-05-20 Mon ++1d>
+*** DELAY [#C] Touch typing
+SCHEDULED: <2024-06-26 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-02-29 Thu 11:54]
+:LAST_REPEAT: [2024-05-21 Tue 08:32]
 :END:
+- State "AMPLE"      from ""           [2024-05-21 Tue 08:32]
 - State "AMPLE"      from ""           [2024-02-29 Thu 11:54]
 - State "AMPLE"      from ""           [2024-01-31 Wed 19:52]
 - State "AMPLE"      from ""           [2024-01-26 Fri 19:31]
@@ -2355,7 +2358,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-13 Mon 19:57]
 :END:
@@ -2412,6 +2415,7 @@ SCHEDULED: <2024-05-17 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-05-21 Tue 08:28]--[2024-05-21 Tue 08:38] =>  0:10
 CLOCK: [2024-05-17 Fri 11:05]--[2024-05-17 Fri 11:12] =>  0:07
 CLOCK: [2024-05-15 Wed 08:04]--[2024-05-15 Wed 08:06] =>  0:02
 CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:57] =>  0:01
@@ -2626,7 +2630,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-05-17 Fri ++1d>
+SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-13 Mon 20:07]
 :END:
@@ -2799,7 +2803,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** [#A] Workspace decluttering #2
-SCHEDULED: <2024-05-17 Fri ++1w>
+SCHEDULED: <2024-05-24 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-24 Sun 19:19]
 :END:
@@ -2891,7 +2895,7 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 
 
 *** RAW English Grammar
-SCHEDULED: <2024-05-18 Sat ++1w>
+SCHEDULED: <2024-05-22 Wed ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -2934,10 +2938,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-05-17 Fri ++2d/3d>
+SCHEDULED: <2024-05-21 Tue ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-13 Mon 11:55]
+:LAST_REPEAT: [2024-05-17 Fri 11:39]
 :END:
+- State "AMPLE"      from ""           [2024-05-17 Fri 11:39]
 - State "AMPLE"      from ""           [2024-05-13 Mon 11:55]
 - Note taken on [2024-03-26 Tue 18:39] \\
   Join together all steps of a single task. Define this task.
@@ -2958,6 +2963,9 @@ SCHEDULED: <2024-05-17 Fri ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
 :LOGBOOK:
+CLOCK: [2024-05-21 Tue 08:41]--[2024-05-21 Tue 08:46] =>  0:05
+CLOCK: [2024-05-21 Tue 08:38]--[2024-05-21 Tue 08:40] =>  0:02
+CLOCK: [2024-05-17 Fri 11:36]--[2024-05-17 Fri 11:39] =>  0:03
 CLOCK: [2024-05-15 Wed 09:32]--[2024-05-15 Wed 09:34] =>  0:02
 CLOCK: [2024-05-13 Mon 11:05]--[2024-05-13 Mon 11:33] =>  0:28
 CLOCK: [2024-04-12 Fri 15:38]--[2024-04-12 Fri 15:40] =>  0:02
@@ -3078,8 +3086,8 @@ CLOCK: [2023-02-28 Tue 13:30]--[2023-02-28 Tue 13:50] =>  0:20
 CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
-*** RAW Quotations
-SCHEDULED: <2024-05-20 Mon .+2d/3d>
+*** DELAY Quotations
+SCHEDULED: <2024-06-24 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -3177,7 +3185,7 @@ SCHEDULED: <2024-05-10 Fri>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** CV elaboration
+** [#A] CV elaboration
 SCHEDULED: <2024-05-21 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-28 Thu 09:22]
@@ -3245,7 +3253,7 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** TODO [#A] LinkedIn
-SCHEDULED: <2024-05-17 Fri>
+SCHEDULED: <2024-05-25 Sat>
 :LOGBOOK:
 CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
 CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
@@ -3267,7 +3275,7 @@ SCHEDULED: <2024-05-10 Fri>
 CLOCK: [2023-12-12 Tue 14:17]--[2023-12-12 Tue 14:27] =>  0:10
 :END:
 [[info:emacs#Init File][emacs#Init File]]
-*** DELAY Several ~inits~ for different purposes
+*** BARE Several ~inits~ for different purposes
 SCHEDULED: <2024-05-20 Mon>
 [[info:emacs#Find Init]]
 [2023-12-12 Tue 14:24]
@@ -3333,8 +3341,8 @@ SCHEDULED: <2024-03-19 Tue>
 CLOCK: [2024-03-19 Tue 16:49]--[2024-03-19 Tue 16:53] =>  0:04
 CLOCK: [2024-03-19 Tue 12:33]--[2024-03-19 Tue 12:33] =>  0:00
 :END:
-** LAG Keep Going Austin Kleon
-SCHEDULED: <2024-05-20 Mon>
+** RETARD Keep Going Austin Kleon
+SCHEDULED: <2024-07-29 Mon>
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
 SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
@@ -3566,7 +3574,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2024-06-06 Thu>
 In fire alarm example
 ** DELAY [#A] Math with Andrew
-SCHEDULED: <2024-05-21 Tue ++2d/3d>
+SCHEDULED: <2024-06-04 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:22]
 :END:
@@ -3641,8 +3649,8 @@ with =Debian=. So:
 
 
 
-** TODO Search reference in *info*
-SCHEDULED: <2024-05-17 Fri>
+** ACTIVE Search reference in *info*
+SCHEDULED: <2024-05-24 Fri>
 - Note taken on [2024-01-17 Wed 11:04] \\
   s	Search through this Info file for specified regexp,
   	  and select the node in which the next occurrence is found.
