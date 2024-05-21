@@ -1803,6 +1803,17 @@ SCHEDULED: <2024-05-29 Wed>
 SCHEDULED: <2024-06-03 Mon>
 ** RAW [#C] Training Developer
 SCHEDULED: <2024-06-03 Mon>
+** Vanessa Van Edwards
+SCHEDULED: <2024-05-23 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-21 Tue 18:51]
+:END:
+- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
+:LOGBOOK:
+CLOCK: [2024-05-21 Tue 18:20]--[2024-05-21 Tue 18:51] =>  0:31
+:END:
+https://www.youtube.com/watch?v=c68E7S_D3Rs
+
 
 * Tasks
 
@@ -3186,10 +3197,19 @@ SCHEDULED: <2024-05-10 Fri>
   * So it would be wise
 to make a wider list of followers in that networks
 ** [#A] CV elaboration
-SCHEDULED: <2024-05-21 Tue ++1d>
+SCHEDULED: <2024-05-22 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-28 Thu 09:22]
 :END:
+- Note taken on [2024-05-21 Tue 16:53] \\
+  A holistic CV for LinkedIn with several sections:
+  - Maintenance Engineer;
+  - Software Engineer;
+  - Ultra Learning Tutor;
+  - Speculative CV.
+  
+  Which should be modulated with cover letters, relevant each job
+  proposal.
 - State "AMPLE"      from ""           [2024-03-28 Thu 09:22]
 - State "AMPLE"      from ""           [2024-03-19 Tue 19:05]
 - State "AMPLE"      from ""           [2024-02-27 Tue 10:45]
