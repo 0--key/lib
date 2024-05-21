@@ -27,8 +27,8 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-*** RAW [#C] Dissect the Python Itself
-SCHEDULED: <2024-05-21 Tue>
+*** RAW Dissect the Python Itself
+SCHEDULED: <2024-05-22 Wed>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 :END:
@@ -81,12 +81,24 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 SCHEDULED: <2024-06-07 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** RAW Cracking coding interview
-SCHEDULED: <2024-05-21 Tue ++2d/3d>
+SCHEDULED: <2024-05-23 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-21 Tue 18:53]
+:END:
+- State "AMPLE"      from "RAW"        [2024-05-21 Tue 18:53]
 :LOGBOOK:
+CLOCK: [2024-05-21 Tue 17:17]--[2024-05-21 Tue 17:42] =>  0:25
+CLOCK: [2024-05-21 Tue 16:53]--[2024-05-21 Tue 17:14] =>  0:21
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
 :END:
+[[elisp:(bookmark-jump-other-frame "Coding Interview - RealPython")][Current position]]
+
 https://realpython.com/python-coding-interview-tips/
+https://realpython.com/python-debug-idle/
+https://realpython.com/python-lambda/
+https://realpython.com/introduction-to-python-generators/
+
 
 ** SET Mark Lutz
 SCHEDULED: <2023-11-20 Mon ++4d>
@@ -128,12 +140,19 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/index.html][IPython Documentation — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
-** INIT [#A] Algorithms in CS
-SCHEDULED: <2024-05-21 Tue>
+
+* INIT [#A] Algorithms in CS
+SCHEDULED: <2024-05-23 Thu>
+:PROPERTIES:
+:CATEGORY: AlgoinCS
+:END:
 :LOGBOOK:
 CLOCK: [2024-05-21 Tue 11:00]--[2024-05-21 Tue 11:31] =>  0:31
 CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 :END:
+
+[[file:~/Git/0--key/org-pub/2024-05-21-algorithms-in-cs.org ::*Overview][Overview]]
+
 * INIT [#A] Data structures in CS
 SCHEDULED: <2024-05-22 Wed>
 :PROPERTIES:
@@ -156,8 +175,8 @@ SCHEDULED: <2024-05-22 Wed>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
 
-** INIT Full-stack Python Developer
-SCHEDULED: <2024-05-21 Tue>
+** INIT [#A] Full-stack Python Developer
+SCHEDULED: <2024-05-22 Wed>
 
 * Development Environment
 :PROPERTIES:
@@ -620,7 +639,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** RETARD Play&Learn
-SCHEDULED: <2024-05-22 Wed>
+SCHEDULED: <2024-05-29 Wed>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -714,7 +733,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 ** INIT Repo
-SCHEDULED: <2024-05-22 Wed>
+SCHEDULED: <2024-05-23 Thu>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -784,7 +803,7 @@ SCHEDULED: <2024-05-28 Tue>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-05-21 Tue ++2d/3d>
+SCHEDULED: <2024-05-22 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
@@ -815,7 +834,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** RAW LeetCode
-SCHEDULED: <2024-05-21 Tue ++3d/4d>
+SCHEDULED: <2024-05-22 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
