@@ -94,7 +94,7 @@ Two obvious approaches to tame with such intimidating amount of
 knowledge: life duration and sincere cooperation depth.
 
 
-*** [#A] CxMxCh                                                  :CxMxCcCh:
+*** CxMxCh                                                       :CxMxCcCh:
 SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 09:34]
@@ -109,7 +109,7 @@ Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
 *** INIT Define Your System                                          :bait:
-SCHEDULED: <2024-05-22 Wed ++1d>
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 09:40]
 :END:
@@ -158,9 +158,10 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 :END:
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
-*** RAW [#A] 25 must know Engllish expressions
-SCHEDULED: <2024-05-22 Wed>
+*** RAW 25 must know Engllish expressions
+SCHEDULED: <2024-05-23 Thu>
 :LOGBOOK:
+CLOCK: [2024-05-22 Wed 19:44]--[2024-05-22 Wed 19:45] =>  0:01
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
 CLOCK: [2024-02-28 Wed 11:07]--[2024-02-28 Wed 11:11] =>  0:04
 CLOCK: [2024-02-28 Wed 08:51]--[2024-02-28 Wed 09:33] =>  0:42
@@ -1774,7 +1775,7 @@ CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
 :END:
 [[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
 
-** RAW [#A] keychords-cxmxch - how to make an Elisp package?      :CxMxCcCh:
+** RAW keychords-cxmxch - how to make an Elisp package?           :CxMxCcCh:
 SCHEDULED: <2024-05-23 Thu>
 :LOGBOOK:
 CLOCK: [2024-05-15 Wed 15:43]--[2024-05-15 Wed 15:53] =>  0:10
@@ -1923,6 +1924,7 @@ SCHEDULED: <2024-05-22 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
+CLOCK: [2024-05-22 Wed 19:46]
 CLOCK: [2024-05-21 Tue 19:10]--[2024-05-21 Tue 19:15] =>  0:05
 CLOCK: [2024-05-21 Tue 11:31]--[2024-05-21 Tue 11:35] =>  0:04
 CLOCK: [2024-05-17 Fri 11:26]--[2024-05-17 Fri 11:28] =>  0:02
@@ -2394,7 +2396,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-22 Wed ++1d>
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:51]
 :END:
@@ -2668,10 +2670,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-05-22 Wed ++1d>
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-21 Tue 19:03]
+:LAST_REPEAT: [2024-05-22 Wed 19:46]
 :END:
+- State "AMPLE"      from ""           [2024-05-22 Wed 19:46]
 - State "AMPLE"      from ""           [2024-05-21 Tue 19:03]
 - State "AMPLE"      from ""           [2024-05-13 Mon 20:07]
 - State "AMPLE"      from ""           [2024-04-09 Tue 18:45]
@@ -2714,6 +2717,9 @@ SCHEDULED: <2024-05-22 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-05-22 Wed 19:45]--[2024-05-22 Wed 19:46] =>  0:01
+CLOCK: [2024-05-22 Wed 19:45]--[2024-05-22 Wed 19:45] =>  0:00
+CLOCK: [2024-05-22 Wed 19:42]--[2024-05-22 Wed 19:44] =>  0:02
 CLOCK: [2024-05-21 Tue 18:52]--[2024-05-21 Tue 19:03] =>  0:11
 CLOCK: [2024-05-13 Mon 19:58]--[2024-05-13 Mon 20:06] =>  0:08
 CLOCK: [2024-05-13 Mon 19:57]--[2024-05-13 Mon 19:58] =>  0:01
@@ -2935,8 +2941,8 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 - Light up like a X-mass tree;
 
 
-*** RAW [#A] English Grammar
-SCHEDULED: <2024-05-22 Wed ++1w>
+*** RAW English Grammar
+SCHEDULED: <2024-05-23 Thu ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -3176,7 +3182,7 @@ LifeSpan: Why We Age
 ** RAW Clifford D. Simak
 Ring Around the Sun
 ** INIT Library Loan
-DEADLINE: <2024-05-24 Fri -2d>
+SCHEDULED: <2024-05-23 Thu> DEADLINE: <2024-05-24 Fri -2d>
 https://donegal.spydus.ie
 ** Driver Licence Renewal
 SCHEDULED: <2024-10-08 Tue>
@@ -3227,8 +3233,8 @@ SCHEDULED: <2024-05-10 Fri>
   ** etc.
   * So it would be wise
 to make a wider list of followers in that networks
-** [#A] CV elaboration
-SCHEDULED: <2024-05-22 Wed ++1d>
+** CV elaboration
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-28 Thu 09:22]
 :END:
@@ -3351,7 +3357,7 @@ CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
 [2023-12-15 Fri 18:14]
 
 ** DELAY Agenda commands
-SCHEDULED: <2024-05-22 Wed>
+SCHEDULED: <2024-05-23 Thu>
 :LOGBOOK:
 CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
