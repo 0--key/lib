@@ -57,10 +57,11 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-05-22 Wed ++1d>
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-21 Tue 10:57]
+:LAST_REPEAT: [2024-05-22 Wed 15:03]
 :END:
+- State "AMPLE"      from ""           [2024-05-22 Wed 15:03]
 - State "AMPLE"      from ""           [2024-05-21 Tue 10:57]
 - State "AMPLE"      from ""           [2024-04-12 Fri 15:21]
 - State "AMPLE"      from ""           [2024-04-11 Thu 17:35]
