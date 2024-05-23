@@ -99,6 +99,21 @@ SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 09:34]
 :END:
+- Note taken on [2024-05-23 Thu 10:20] \\
+
+- Key-chord prefixex
+
+- keychords-cxmxch - how to make an Elisp package?
+  :LOGBOOK:
+  CLOCK: [2024-05-15 Wed 15:43]--[2024-05-15 Wed 15:53] =>  0:10
+  CLOCK: [2024-05-13 Mon 12:38]--[2024-05-13 Mon 12:54] =>  0:16
+  :END:
+  [[info:elisp#Packaging][elisp#Packaging]]
+  https://www.emacswiki.org/emacs/MakingPackages
+  https://www.emacswiki.org/emacs/ELPA#h5o-3
+  https://www.emacswiki.org/emacs/ElispAreaConventions
+  https://tromey.com/elpa/upload.html
+  https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org
 - Note taken on [2024-05-21 Tue 08:33] \\
   Publish it on RedIt
 - State "AMPLE"      from ""           [2024-04-09 Tue 09:34]
@@ -760,9 +775,6 @@ SCHEDULED: <2024-06-17 Mon>
 SCHEDULED: <2024-06-17 Mon>
 GitHub don't displays properly in ~EWW~
 https://www.emacswiki.org/emacs/AnsiTerm
-** LAG Key-chord prefixex                                         :CxMxCcCh:
-SCHEDULED: <2024-05-23 Thu>
-_as invention_
 
 * Notes
 :PROPERTIES:
@@ -1775,18 +1787,6 @@ CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
 :END:
 [[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
 
-** RAW keychords-cxmxch - how to make an Elisp package?           :CxMxCcCh:
-SCHEDULED: <2024-05-23 Thu>
-:LOGBOOK:
-CLOCK: [2024-05-15 Wed 15:43]--[2024-05-15 Wed 15:53] =>  0:10
-CLOCK: [2024-05-13 Mon 12:38]--[2024-05-13 Mon 12:54] =>  0:16
-:END:
-[[info:elisp#Packaging][elisp#Packaging]]
-https://www.emacswiki.org/emacs/MakingPackages
-https://www.emacswiki.org/emacs/ELPA#h5o-3
-https://www.emacswiki.org/emacs/ElispAreaConventions
-https://tromey.com/elpa/upload.html
-https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org
 
 ** DELAY Kubernetes & Emacs
 SCHEDULED: <2024-07-26 Fri>
