@@ -612,7 +612,7 @@ How to make in-out far from *Org Agenda* buffer?
 :CATEGORY: Capture
 :END:
 *** CLOSED Elaborate two-letters dispatcher
-*** RAW New approach
+*** New approach
 SCHEDULED: <2024-05-23 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-10 Wed 10:48]
@@ -1825,12 +1825,14 @@ https://www.youtube.com/watch?v=c68E7S_D3Rs
 :END:
 
 *** Full-stack Python Developer
-SCHEDULED: <2024-05-23 Thu ++1d>
+SCHEDULED: <2024-05-24 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-22 Wed 15:44]
+:LAST_REPEAT: [2024-05-23 Thu 10:39]
 :END:
+- State "AMPLE"      from ""           [2024-05-23 Thu 10:39]
 - State "AMPLE"      from ""           [2024-05-22 Wed 15:44]
 :LOGBOOK:
+CLOCK: [2024-05-23 Thu 10:23]--[2024-05-23 Thu 10:39] =>  0:16
 CLOCK: [2024-05-22 Wed 15:04]--[2024-05-22 Wed 15:40] =>  0:36
 :END:
 [[file:~/Git/0--key/org-pub/2024-04-25-full-stack-python-cv.org::*Freelance: Python3, PostgreSQL, Flask, Jinja2][Freelance: Python3, PostgreSQL, Flask, Jinja2]]
@@ -1870,10 +1872,11 @@ SCHEDULED: <2024-05-28 Tue>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-05-22 Wed ++1d>
+SCHEDULED: <2024-05-23 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-21 Tue 19:15]
+:LAST_REPEAT: [2024-05-22 Wed 20:02]
 :END:
+- State "AMPLE"      from ""           [2024-05-22 Wed 20:02]
 - State "AMPLE"      from ""           [2024-05-21 Tue 19:15]
 - State "AMPLE"      from ""           [2024-05-13 Mon 20:10]
 - State "AMPLE"      from ""           [2024-04-09 Tue 18:49]
@@ -1924,7 +1927,8 @@ SCHEDULED: <2024-05-22 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-22 Wed 19:46]
+CLOCK: [2024-05-23 Thu 10:39]
+CLOCK: [2024-05-22 Wed 19:46]--[2024-05-22 Wed 20:02] =>  0:16
 CLOCK: [2024-05-21 Tue 19:10]--[2024-05-21 Tue 19:15] =>  0:05
 CLOCK: [2024-05-21 Tue 11:31]--[2024-05-21 Tue 11:35] =>  0:04
 CLOCK: [2024-05-17 Fri 11:26]--[2024-05-17 Fri 11:28] =>  0:02
@@ -2454,6 +2458,7 @@ SCHEDULED: <2024-05-23 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-05-23 Thu 09:39]--[2024-05-23 Thu 09:41] =>  0:02
 CLOCK: [2024-05-21 Tue 16:49]--[2024-05-21 Tue 16:53] =>  0:04
 CLOCK: [2024-05-21 Tue 08:28]--[2024-05-21 Tue 08:38] =>  0:10
 CLOCK: [2024-05-17 Fri 11:05]--[2024-05-17 Fri 11:12] =>  0:07
@@ -3011,6 +3016,7 @@ SCHEDULED: <2024-05-23 Thu ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
 :LOGBOOK:
+CLOCK: [2024-05-23 Thu 10:18]--[2024-05-23 Thu 10:23] =>  0:05
 CLOCK: [2024-05-21 Tue 08:41]--[2024-05-21 Tue 08:46] =>  0:05
 CLOCK: [2024-05-21 Tue 08:38]--[2024-05-21 Tue 08:40] =>  0:02
 CLOCK: [2024-05-17 Fri 11:36]--[2024-05-17 Fri 11:39] =>  0:03
@@ -3182,7 +3188,7 @@ LifeSpan: Why We Age
 ** RAW Clifford D. Simak
 Ring Around the Sun
 ** INIT Library Loan
-SCHEDULED: <2024-05-23 Thu> DEADLINE: <2024-05-24 Fri -2d>
+DEADLINE: <2024-06-14 Fri -2d>
 https://donegal.spydus.ie
 ** Driver Licence Renewal
 SCHEDULED: <2024-10-08 Tue>
