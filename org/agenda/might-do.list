@@ -95,7 +95,7 @@ knowledge: life duration and sincere cooperation depth.
 
 
 *** CxMxCh                                                       :CxMxCcCh:
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-26 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 09:34]
 :END:
@@ -177,7 +177,7 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
 *** RAW 25 must know Engllish expressions
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-05-25 Sat>
 :LOGBOOK:
 CLOCK: [2024-05-22 Wed 19:44]--[2024-05-22 Wed 19:45] =>  0:01
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
@@ -625,7 +625,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** New approach
-SCHEDULED: <2024-05-24 Fri ++1w>
+SCHEDULED: <2024-05-25 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-10 Wed 10:48]
 :END:
@@ -1300,7 +1300,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** RAW Bash with Andrew
-SCHEDULED: <2024-05-25 Sat .+1w>
+SCHEDULED: <2024-05-26 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1443,8 +1443,8 @@ https://bit.ly/3Kxjzx6
 non-smokers, tea-total.
 ** RETARD Bmkp as a snippets database;
 SCHEDULED: <2024-06-24 Mon>
-** DELAY Phronesis
-SCHEDULED: <2024-05-25 Sat>
+** LAG Phronesis
+SCHEDULED: <2024-10-09 Wed>
 :LOGBOOK:
 CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
 :END:
@@ -1818,7 +1818,7 @@ SCHEDULED: <2024-06-03 Mon>
 ** RAW [#C] Training Developer
 SCHEDULED: <2024-06-03 Mon>
 ** Vanessa Van Edwards
-SCHEDULED: <2024-05-24 Fri ++2d/3d>
+SCHEDULED: <2024-05-25 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:51]
 :END:
@@ -1836,7 +1836,7 @@ https://www.youtube.com/watch?v=c68E7S_D3Rs
 :CATEGORY: Job
 :END:
 
-*** [#A] Full-stack Python Developer
+*** Full-stack Python Developer
 SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 19:08]
@@ -1853,7 +1853,7 @@ CLOCK: [2024-05-22 Wed 15:04]--[2024-05-22 Wed 15:40] =>  0:36
 [[file:~/Git/0--key/org-pub/2024-04-25-full-stack-python-cv.org::*Freelance: Full-stack Python web-developer][Freelance: Full-stack Python web-developer]]
 
 *** [#C] Gemma Roulstone
-SCHEDULED: <2024-05-24 Fri ++2d/3d>
+SCHEDULED: <2024-05-25 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-22 Wed 16:11]
 :END:
@@ -1888,10 +1888,11 @@ SCHEDULED: <2024-05-28 Tue>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-22 Wed 20:02]
+:LAST_REPEAT: [2024-05-24 Fri 20:30]
 :END:
+- State "AMPLE"      from ""           [2024-05-24 Fri 20:30]
 - State "AMPLE"      from ""           [2024-05-22 Wed 20:02]
 - State "AMPLE"      from ""           [2024-05-21 Tue 19:15]
 - State "AMPLE"      from ""           [2024-05-13 Mon 20:10]
@@ -1943,7 +1944,7 @@ SCHEDULED: <2024-05-24 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-24 Fri 20:21]
+CLOCK: [2024-05-24 Fri 20:21]--[2024-05-24 Fri 20:26] =>  0:05
 CLOCK: [2024-05-24 Fri 17:30]--[2024-05-24 Fri 17:31] =>  0:01
 CLOCK: [2024-05-23 Thu 10:39]--[2024-05-23 Thu 10:45] =>  0:06
 CLOCK: [2024-05-22 Wed 19:46]--[2024-05-22 Wed 20:02] =>  0:16
@@ -2418,7 +2419,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:51]
 :END:
@@ -2695,10 +2696,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-22 Wed 19:46]
+:LAST_REPEAT: [2024-05-24 Fri 20:30]
 :END:
+- State "AMPLE"      from ""           [2024-05-24 Fri 20:30]
 - State "AMPLE"      from ""           [2024-05-22 Wed 19:46]
 - State "AMPLE"      from ""           [2024-05-21 Tue 19:03]
 - State "AMPLE"      from ""           [2024-05-13 Mon 20:07]
@@ -2742,6 +2744,7 @@ SCHEDULED: <2024-05-24 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-05-24 Fri 20:26]--[2024-05-24 Fri 20:30] =>  0:04
 CLOCK: [2024-05-22 Wed 19:45]--[2024-05-22 Wed 19:46] =>  0:01
 CLOCK: [2024-05-22 Wed 19:45]--[2024-05-22 Wed 19:45] =>  0:00
 CLOCK: [2024-05-22 Wed 19:42]--[2024-05-22 Wed 19:44] =>  0:02
@@ -2969,7 +2972,7 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 
 
 *** RAW English Grammar
-SCHEDULED: <2024-05-24 Fri ++1w>
+SCHEDULED: <2024-05-25 Sat ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -3012,7 +3015,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-05-24 Fri ++2d/3d>
+SCHEDULED: <2024-05-25 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:51]
 :END:
@@ -3262,7 +3265,7 @@ SCHEDULED: <2024-05-10 Fri>
   * So it would be wise
 to make a wider list of followers in that networks
 ** CV elaboration
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-28 Thu 09:22]
 :END:
@@ -3384,8 +3387,8 @@ CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
 [[info:org#External Links]]
 [2023-12-15 Fri 18:14]
 
-** DELAY Agenda commands
-SCHEDULED: <2024-05-24 Fri>
+** RAW [#A] Agenda commands
+SCHEDULED: <2024-05-25 Sat>
 :LOGBOOK:
 CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 :END:
@@ -3491,7 +3494,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT 10 Daily Idioms
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-05-25 Sat>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 11:27]--[2024-03-25 Mon 11:34] =>  0:07
 CLOCK: [2024-03-21 Thu 09:06]--[2024-03-21 Thu 09:18] =>  0:12
@@ -3734,8 +3737,8 @@ with =Debian=. So:
 
 
 
-** ACTIVE Search reference in *info*
-SCHEDULED: <2024-05-24 Fri>
+** ACTIVE [#A] Search reference in *info*
+SCHEDULED: <2024-05-25 Sat>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\

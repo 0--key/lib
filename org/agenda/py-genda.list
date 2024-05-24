@@ -179,7 +179,7 @@ SCHEDULED: <2024-05-25 Sat>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-05-24 Fri ++1d>
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-23 Thu 10:18]
@@ -206,12 +206,12 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
   
 ** Linked List
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-05-25 Sat>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview]]
 [[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 
 ** Stack
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-05-25 Sat>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
 
@@ -844,7 +844,7 @@ SCHEDULED: <2024-05-28 Tue>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-05-24 Fri ++2d/3d>
+SCHEDULED: <2024-05-25 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
@@ -875,7 +875,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** RAW LeetCode
-SCHEDULED: <2024-05-24 Fri ++3d/4d>
+SCHEDULED: <2024-05-25 Sat ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
