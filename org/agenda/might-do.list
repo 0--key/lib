@@ -430,6 +430,15 @@ SCHEDULED: <2024-06-18 Tue>
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+** Bmkp+
+SCHEDULED: <2024-05-28 Tue>
+[[elisp:(bookmark-jump-other-window "EmacsWiki: Bookmark Plus")][Link]]
+** The Babel subtleties
+SCHEDULED: <2024-05-25 Sat ++1d>
+[[info:org#Working with Source Code][org#Working with Source Code]]
+** Python Is Inside
+SCHEDULED: <2024-05-26 Sun ++1d>
+https://www.emacswiki.org/emacs/PythonProgrammingInEmacs#h5o-1
 
 ** RETARD Emacs server on Debian 12 article
 SCHEDULED: <2024-05-28 Tue ++2d>
