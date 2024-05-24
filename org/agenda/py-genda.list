@@ -28,7 +28,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** RAW [#A] Dissect the Python Itself
-SCHEDULED: <2024-05-23 Thu>
+SCHEDULED: <2024-05-25 Sat>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 :END:
@@ -80,14 +80,15 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
-** RAW Cracking coding interview
-SCHEDULED: <2024-05-24 Fri ++1d>
+** INIT Cracking coding interview
+SCHEDULED: <2024-05-25 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-23 Thu 09:54]
 :END:
 - State "AMPLE"      from "RAW"        [2024-05-23 Thu 09:54]
 - State "AMPLE"      from "RAW"        [2024-05-21 Tue 18:53]
 :LOGBOOK:
+CLOCK: [2024-05-24 Fri 17:39]--[2024-05-24 Fri 18:19] =>  0:40
 CLOCK: [2024-05-23 Thu 09:41]--[2024-05-23 Thu 09:53] =>  0:12
 CLOCK: [2024-05-21 Tue 17:17]--[2024-05-21 Tue 17:42] =>  0:25
 CLOCK: [2024-05-21 Tue 16:53]--[2024-05-21 Tue 17:14] =>  0:21
@@ -161,8 +162,17 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 [[file:~/Git/0--key/org-pub/2024-05-21-algorithms-in-cs.org ::*Overview][Overview]]
 
 ** Searching
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-05-26 Sun ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-24 Fri 20:21]
+:END:
+- State "AMPLE"      from ""           [2024-05-24 Fri 20:21]
+:LOGBOOK:
+CLOCK: [2024-05-24 Fri 19:53]--[2024-05-24 Fri 20:21] =>  0:28
+:END:
 https://www.geeksforgeeks.org/searching-algorithms/
+https://www.geeksforgeeks.org/binary-search/
+https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
 SCHEDULED: <2024-05-25 Sat>
@@ -196,12 +206,12 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
   
 ** Linked List
-SCHEDULED: <2024-05-23 Thu>
+SCHEDULED: <2024-05-24 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview]]
 [[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 
 ** Stack
-SCHEDULED: <2024-05-23 Thu>
+SCHEDULED: <2024-05-24 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
 
@@ -283,8 +293,8 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
   - Ivy-Rich -;
   - All-The-Icons -;
   - General -;
-***** LAG Ivy
-SCHEDULED: <2024-05-24 Fri ++1d>
+***** RETARD Ivy
+SCHEDULED: <2024-08-02 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 10:49]
 :END:
@@ -544,7 +554,7 @@ CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
 [[info:emacs#Flymake][emacs#Flymake]]
 [[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
 
-*** RETARD The bald Python project
+*** RETARD The bald Python project                                :ARCHIVE:
 SCHEDULED: <2024-05-24 Fri>
 :LOGBOOK:
 CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
@@ -676,11 +686,12 @@ file:~/Git/python/algorithms/algorithms
 :PROPERTIES:
 :CATEGORY: PlayWright
 :END:
-**** Overview
-SCHEDULED: <2024-05-24 Fri ++1d>
+**** DELAY Overview
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-04-09 Tue 15:36]
+:LAST_REPEAT: [2024-05-24 Fri 17:45]
 :END:
+- State "AMPLE"      from ""           [2024-05-24 Fri 17:45]
 - State "AMPLE"      from ""           [2024-04-09 Tue 15:36]
 - State "AMPLE"      from ""           [2024-03-25 Mon 11:39]
 - State "AMPLE"      from ""           [2024-03-19 Tue 16:48]
@@ -804,7 +815,7 @@ CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
 ** RETARD Packages
-SCHEDULED: <2024-05-24 Fri>
+SCHEDULED: <2024-08-02 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -833,7 +844,7 @@ SCHEDULED: <2024-05-28 Tue>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** CodeWars 
-SCHEDULED: <2024-05-23 Thu ++2d/3d>
+SCHEDULED: <2024-05-24 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-13 Wed 12:02]
 :END:
@@ -864,7 +875,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** RAW LeetCode
-SCHEDULED: <2024-05-23 Thu ++3d/4d>
+SCHEDULED: <2024-05-24 Fri ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
