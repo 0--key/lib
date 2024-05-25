@@ -12,6 +12,26 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
+** Consul, Jenkins, Prometheus, or RabbitMQ
+SCHEDULED: <2024-05-29 Wed>
+
+** Cascading Style Sheets (CSS), HTML5, JSON, MongoDB, and XML
+SCHEDULED: <2024-05-28 Tue>
+
+** Agile Methodolody
+SCHEDULED: <2024-05-27 Mon ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-25 Sat 14:20]
+:END:
+- State "AMPLE"      from ""           [2024-05-25 Sat 14:20]
+:LOGBOOK:
+CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
+:END:
+elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")
+
+** RESTful web APIs
+SCHEDULED: <2024-05-27 Mon>
+
 ** DELAY Python Talk to Me
 SCHEDULED: <2024-06-17 Mon ++3d>
 :PROPERTIES:
@@ -204,14 +224,23 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 - The built-in list type is implemented as a linked list or a dynamic
   array. [2024-05-22 Wed 08:37]
 
-  
+
+
+** The Python's Innate Data Types
+SCHEDULED: <2024-05-26 Sun>
+[[info:python3.11#Data model][python3.11#Data model]]
+
+** The Python's Extended Data Types
+SCHEDULED: <2024-05-26 Sun>
+[[info:python3.11#Data Types][python3.11#Data Types]]
+
 ** Linked List
-SCHEDULED: <2024-05-25 Sat>
-[[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview]]
-[[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
+SCHEDULED: <2024-05-26 Sun>
+[[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview
+]][[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 
 ** Stack
-SCHEDULED: <2024-05-25 Sat>
+SCHEDULED: <2024-05-26 Sun>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
 
