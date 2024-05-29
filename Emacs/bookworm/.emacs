@@ -119,8 +119,11 @@
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
  '(org-clock-auto-clockout-timer 90)
  '(org-clock-sound t)
+ '(org-confirm-babel-evaluate nil)
+ '(org-html-htmlize-output-type 'css)
  '(org-src-window-setup 'other-window)
- '(package-selected-packages '(powerthesaurus sound-wav eglot xclip py-autopep8))
+ '(package-selected-packages
+   '(htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 
