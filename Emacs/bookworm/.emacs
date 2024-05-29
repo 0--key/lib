@@ -117,6 +117,7 @@
  '(org-agenda-scheduled-leaders '("Sch " "Sch.%2dx: "))
  '(org-agenda-window-setup 'other-window)
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
+ '(org-babel-python-command "python3")
  '(org-clock-auto-clockout-timer 90)
  '(org-clock-sound t)
  '(org-confirm-babel-evaluate nil)
