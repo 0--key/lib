@@ -13,13 +13,13 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** Consul, Jenkins, Prometheus, or RabbitMQ
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 
 ** Cascading Style Sheets (CSS), HTML5, JSON, MongoDB, and XML
-SCHEDULED: <2024-05-28 Tue>
+SCHEDULED: <2024-05-30 Thu>
 
 ** Agile Methodolody
-SCHEDULED: <2024-05-29 Wed ++2d>
+SCHEDULED: <2024-05-30 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-25 Sat 14:20]
 :END:
@@ -30,7 +30,7 @@ CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
 elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")
 
 ** RESTful web APIs
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 
 ** DELAY Python Talk to Me
 SCHEDULED: <2024-06-17 Mon ++3d>
@@ -48,7 +48,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** RAW Dissect the Python Itself
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 :END:
@@ -92,7 +92,7 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 :LOGBOOK:
 CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 :END:
@@ -166,7 +166,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
 ** INIT Object Oriented Design
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 
 * Algorithms in CS
 SCHEDULED: <2024-06-01 Sat ++1w>
@@ -189,7 +189,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-05-29 Wed ++2d>
+SCHEDULED: <2024-05-31 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -202,11 +202,11 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-05-29 Wed ++1d>
+SCHEDULED: <2024-05-31 Fri ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -236,7 +236,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-26 Sun 08:59]--[2024-05-26 Sun 09:15] =>  0:16
 :END:
@@ -248,12 +248,12 @@ SCHEDULED: <2024-06-03 Mon>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview
 ]][[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 
 ** Stack
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
 
@@ -284,7 +284,7 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 *** DELAY Introduction Article
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
 CLOCK: [2024-01-17 Wed 09:24]--[2024-01-17 Wed 10:11] =>  0:47
@@ -510,7 +510,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO Elpy
-SCHEDULED: <2024-05-29 Wed ++2d>
+SCHEDULED: <2024-05-31 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -718,7 +718,7 @@ https://docs.python.org/dev/library/unittest.mock
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
 ** RETARD Play&Learn
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
 :END:
@@ -842,7 +842,7 @@ SCHEDULED: <2024-06-06 Thu>
   :END:
 
   
-** RETARD Time Complexity
+** RAW Time Complexity
 SCHEDULED: <2024-05-29 Wed>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
@@ -880,7 +880,7 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 [2023-11-01 Wed 15:33]
 
 ** PEP
-*** LAG 257
+*** LAG 257                                                       :ARCHIVE:
 SCHEDULED: <2024-05-29 Wed>
 [[file:~/git/python/peps/pep-0257.txt]]
 * Coding
