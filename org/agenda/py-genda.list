@@ -12,10 +12,10 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** Consul, Jenkins, Prometheus, or RabbitMQ
+** [#A] Consul, Jenkins, Prometheus, or RabbitMQ
 SCHEDULED: <2024-05-30 Thu>
 
-** Cascading Style Sheets (CSS), HTML5, JSON, MongoDB, and XML
+** [#A] Cascading Style Sheets (CSS), HTML5, JSON, MongoDB, and XML
 SCHEDULED: <2024-05-30 Thu>
 
 ** Agile Methodolody
@@ -100,15 +100,17 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
-** INIT Cracking coding interview
-SCHEDULED: <2024-05-29 Wed ++1d>
+** RAW Cracking coding interview
+SCHEDULED: <2024-05-30 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-23 Thu 09:54]
+:LAST_REPEAT: [2024-05-29 Wed 17:27]
 :END:
+- State "AMPLE"      from "TODO"       [2024-05-29 Wed 17:27]
 - State "AMPLE"      from "RAW"        [2024-05-23 Thu 09:54]
 - State "AMPLE"      from "RAW"        [2024-05-21 Tue 18:53]
 - usually ask you to write simple code and read it aloud on the phone [2024-05-26 Sun 17:42]
 :LOGBOOK:
+CLOCK: [2024-05-29 Wed 17:14]--[2024-05-29 Wed 17:27] =>  0:13
 CLOCK: [2024-05-26 Sun 17:19]--[2024-05-26 Sun 19:10] =>  1:51
 CLOCK: [2024-05-24 Fri 17:39]--[2024-05-24 Fri 18:19] =>  0:40
 CLOCK: [2024-05-23 Thu 09:41]--[2024-05-23 Thu 09:53] =>  0:12
@@ -117,7 +119,7 @@ CLOCK: [2024-05-21 Tue 16:53]--[2024-05-21 Tue 17:14] =>  0:21
 CLOCK: [2023-11-16 Thu 09:24]--[2023-11-16 Thu 09:40] =>  0:16
 CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
 :END:
-[[elisp:(bookmark-jump-other-frame "Coding Interview - RealPython")][Current position]]
+[[elisp:(bookmark-jump-other-frame "How to Stand Out in a Python Coding Interview – Real Python")][Current position]]
 
 https://realpython.com/python-coding-interview-tips/
 https://realpython.com/python-debug-idle/
@@ -268,8 +270,8 @@ SCHEDULED: <2024-05-31 Fri>
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** LAG [#A] Emacs as Python IDE
-SCHEDULED: <2024-05-29 Wed ++1w>
+** DELAY [#A] Emacs as Python IDE
+SCHEDULED: <2024-07-03 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -850,7 +852,7 @@ SCHEDULED: <2024-06-06 Thu>
 
   
 ** RAW Time Complexity
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** LAG Modules

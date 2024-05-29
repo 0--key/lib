@@ -123,8 +123,8 @@ CLOCK: [2024-04-09 Tue 08:36]--[2024-04-09 Tue 09:32] =>  0:56
 Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
-*** RAW [#A] Define Your System                                      :bait:
-SCHEDULED: <2024-05-29 Wed ++1d>
+*** INIT Define Your System                                          :bait:
+SCHEDULED: <2024-05-31 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 18:42]
 :END:
@@ -160,7 +160,7 @@ Take an attempt and publish your work
 
 
 *** Test Driven Learnning
-SCHEDULED: <2024-05-29 Wed>
+SCHEDULED: <2024-05-30 Thu>
 
 
 ** English
@@ -265,41 +265,12 @@ https://www.youtube.com/watch?v=XJOsPyyYork
 - First 90 seconds after when you're wake up;
 - Harness your natural (early bird) proneness;
   
-*** DELAY Goal Setting as an Art
-SCHEDULED: <2024-05-30 Thu>
-https://www.youtube.com/watch?v=jOznXVLBGFo
-
-
 ** Scholarship                                                     :ARCHIVE:
 SCHEDULED: <2024-03-12 Tue>
 :LOGBOOK:
 CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 :END:
 [[https://www.youtube.com/watch?v=8oyA-ctqq3g][New Approach from Guberman]]
-
-** LAG Iain McGilChrist
-SCHEDULED: <2024-05-30 Thu .+1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-03-27 Wed 17:28]
-:END:
-- State "AMPLE"      from ""           [2024-03-27 Wed 17:28]
-- State "AMPLE"      from ""           [2024-03-21 Thu 10:36]
-- State "AMPLE"      from ""           [2024-03-20 Wed 09:26]
-- State "AMPLE"      from ""           [2024-03-13 Wed 11:12]
-- State "AMPLE"      from ""           [2024-03-12 Tue 17:01]
-:LOGBOOK:
-CLOCK: [2024-05-12 Sun 19:00]--[2024-05-12 Sun 19:43] =>  0:43
-CLOCK: [2024-05-12 Sun 10:54]--[2024-05-12 Sun 11:39] =>  0:45
-CLOCK: [2024-05-10 Fri 10:53]--[2024-05-10 Fri 11:31] =>  0:38
-CLOCK: [2024-03-27 Wed 13:24]--[2024-03-27 Wed 13:55] =>  0:31
-CLOCK: [2024-03-21 Thu 09:51]--[2024-03-21 Thu 10:35] =>  0:44
-CLOCK: [2024-03-20 Wed 08:23]--[2024-03-20 Wed 08:53] =>  0:30
-CLOCK: [2024-03-14 Thu 09:19]--[2024-03-14 Thu 09:49] =>  0:30
-CLOCK: [2024-03-13 Wed 09:29]--[2024-03-13 Wed 10:22] =>  0:53
-CLOCK: [2024-03-12 Tue 16:17]--[2024-03-12 Tue 17:00] =>  0:43
-:END:
-The [[elisp:(bookmark-jump-other-frame "2024-03-11-thought-dissection.org")][point]]
-[[file:~/Git/0--key/org-pub/2024-05-10-mechanical-approach.org::So it's very difficult for us to escape this categorization that the][Another]]
 
 ** ACTIVE Shallow/deep | long/short sessions                       :ARCHIVE:
 SCHEDULED: <2024-05-17 Fri>
@@ -444,29 +415,42 @@ SCHEDULED: <2024-06-03 Mon>
 - Note taken on [2024-05-29 Wed 11:22] \\
   How to use it as a storage for Python code snippets?
 [[elisp:(bookmark-jump-other-window "EmacsWiki: Bookmark Plus")][Link]]
-** [#A] The Babel subtleties
-SCHEDULED: <2024-05-29 Wed ++1d>
+** The Babel subtleties
+SCHEDULED: <2024-06-05 Wed>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-26 Sun 10:47]
+:LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
-- State "AMPLE"      from ""           [2024-05-26 Sun 10:47]
-- State "AMPLE"      from ""           [2024-05-26 Sun 08:58]
-- [[https://orgmode.org/worg/org-contrib/babel/]] [2024-05-26 Sun 10:20]
-- [[info:org#Property Syntax]] [2024-05-26 Sun 10:42]
-- [[info:org#Environment of a Code Block]] [2024-05-26 Sun 10:47]
+- State "AMPLE"      from ""           [2024-05-29 Wed 17:03]
 :LOGBOOK:
+CLOCK: [2024-05-29 Wed 15:36]--[2024-05-29 Wed 16:06] =>  0:30
 CLOCK: [2024-05-26 Sun 10:41]--[2024-05-26 Sun 10:47] =>  0:06
 CLOCK: [2024-05-26 Sun 09:57]--[2024-05-26 Sun 10:27] =>  0:30
 CLOCK: [2024-05-26 Sun 08:37]--[2024-05-26 Sun 08:58] =>  0:21
 CLOCK: [2024-05-25 Sat 14:31]--[2024-05-25 Sat 14:32] =>  0:01
 CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 :END:
+- State "AMPLE"      from ""           [2024-05-26 Sun 10:47]
+- State "AMPLE"      from ""           [2024-05-26 Sun 08:58]
+- [[https://orgmode.org/worg/org-contrib/babel/]] [2024-05-26 Sun 10:20]
+- [[info:org#Property Syntax]] [2024-05-26 Sun 10:42]
+- [[info:org#Environment of a Code Block]] [2024-05-26 Sun 10:47]
+- ‘org-babel-execute-src-block [2024-05-29 Wed 15:51]
+- ‘org-confirm-babel-evaluate [2024-05-29 Wed 15:52]
+
 [[info:org#Working with Source Code][org#Working with Source Code]]
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
-** [#A] Python Is Inside
-SCHEDULED: <2024-05-29 Wed ++1d>
+** Python Is Inside
+SCHEDULED: <2024-05-30 Thu ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-29 Wed 17:03]
+:END:
+- State "AMPLE"      from ""           [2024-05-29 Wed 17:03]
+:LOGBOOK:
+CLOCK: [2024-05-29 Wed 16:19]--[2024-05-29 Wed 16:42] =>  0:23
+:END:
 https://www.emacswiki.org/emacs/PythonProgrammingInEmacs#h5o-1
+[[elisp:(bookmark-jump-other-window "EmacsWiki: Python Programming In Emacs")][python-mode innate]]
 
 ** DELAY Emacs server on Debian 12 article
 SCHEDULED: <2024-07-01 Mon ++2d>
@@ -1848,7 +1832,7 @@ SCHEDULED: <2024-06-03 Mon>
 SCHEDULED: <2024-06-03 Mon>
 
 ** Vanessa Van Edwards
-SCHEDULED: <2024-05-29 Wed ++2d/3d>
+SCHEDULED: <2024-05-30 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:51]
 :END:
@@ -2114,7 +2098,10 @@ SCHEDULED: <2024-05-29 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-29 Wed 11:32]
+CLOCK: [2024-05-29 Wed 20:20]
+CLOCK: [2024-05-29 Wed 20:15]--[2024-05-29 Wed 20:17] =>  0:02
+CLOCK: [2024-05-29 Wed 11:50]--[2024-05-29 Wed 11:50] =>  0:00
+CLOCK: [2024-05-29 Wed 11:32]--[2024-05-29 Wed 11:34] =>  0:02
 CLOCK: [2024-05-27 Mon 19:59]--[2024-05-27 Mon 20:09] =>  0:11
 CLOCK: [2024-05-25 Sat 17:00]--[2024-05-25 Sat 17:03] =>  0:03
 CLOCK: [2024-05-24 Fri 20:21]--[2024-05-24 Fri 20:26] =>  0:05
@@ -2592,7 +2579,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-29 Wed ++1d>
+SCHEDULED: <2024-05-30 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-27 Mon 19:55]
 :END:
@@ -2876,10 +2863,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow tasks heap brushing up
-SCHEDULED: <2024-05-29 Wed ++1d>
+SCHEDULED: <2024-05-30 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-27 Mon 19:59]
+:LAST_REPEAT: [2024-05-29 Wed 20:20]
 :END:
+- State "AMPLE"      from ""           [2024-05-29 Wed 20:20]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:59]
 - State "AMPLE"      from ""           [2024-05-25 Sat 17:00]
 - State "AMPLE"      from ""           [2024-05-24 Fri 20:30]
@@ -2926,6 +2914,7 @@ SCHEDULED: <2024-05-29 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-05-29 Wed 20:19]--[2024-05-29 Wed 20:20] =>  0:01
 CLOCK: [2024-05-27 Mon 19:55]--[2024-05-27 Mon 19:59] =>  0:04
 CLOCK: [2024-05-25 Sat 16:59]--[2024-05-25 Sat 17:00] =>  0:01
 CLOCK: [2024-05-24 Fri 20:26]--[2024-05-24 Fri 20:30] =>  0:04
@@ -3198,8 +3187,8 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 
 
-*** New tasks trimming
-SCHEDULED: <2024-05-29 Wed ++2d/3d>
+*** [#A] New tasks trimming
+SCHEDULED: <2024-05-30 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-27 Mon 19:50]
 :END:
@@ -3226,6 +3215,8 @@ SCHEDULED: <2024-05-29 Wed ++2d/3d>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
 :LOGBOOK:
+CLOCK: [2024-05-29 Wed 19:12]--[2024-05-29 Wed 20:15] =>  1:03
+CLOCK: [2024-05-29 Wed 11:39]--[2024-05-29 Wed 11:50] =>  0:11
 CLOCK: [2024-05-27 Mon 15:23]--[2024-05-27 Mon 15:26] =>  0:03
 CLOCK: [2024-05-27 Mon 09:21]--[2024-05-27 Mon 09:36] =>  0:15
 CLOCK: [2024-05-27 Mon 08:41]--[2024-05-27 Mon 08:46] =>  0:05
@@ -3640,13 +3631,6 @@ CLOCK: [2024-03-21 Thu 09:06]--[2024-03-21 Thu 09:18] =>  0:12
  - Actions speak louder than words
 
    
-** LAG Ross Ashby
-SCHEDULED: <2024-05-30 Thu>
-:LOGBOOK:
-CLOCK: [2024-01-17 Wed 11:27]--[2024-01-17 Wed 11:32] =>  0:05
-:END:
-[[https://ashby.info/aphorisms.html][Aphorisms]]
-
 ** RAW Micro Trading
 ** LAG Framework Thinking
 SCHEDULED: <2024-06-05 Wed>
@@ -3865,8 +3849,8 @@ with =Debian=. So:
 
 
 
-** ACTIVE Search reference in *info*
-SCHEDULED: <2024-05-29 Wed>
+** ACTIVE [#A] Search reference in *info*
+SCHEDULED: <2024-05-30 Thu>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\
@@ -3881,6 +3865,7 @@ SCHEDULED: <2024-05-29 Wed>
   <key-chord> i p runs the command info-apropos (found in global-map),
   which is an interactive native-compiled Lisp function in ‘info.el’.
 :LOGBOOK:
+CLOCK: [2024-05-29 Wed 17:28]--[2024-05-29 Wed 17:34] =>  0:06
 CLOCK: [2024-05-25 Sat 06:29]--[2024-05-25 Sat 06:58] =>  0:29
 CLOCK: [2024-01-17 Wed 11:02]--[2024-01-17 Wed 11:10] =>  0:08
 CLOCK: [2024-01-09 Tue 11:08]--[2024-01-09 Tue 11:20] =>  0:12
