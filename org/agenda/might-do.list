@@ -18,6 +18,38 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
+** Non-verbal communication
+:PROPERTIES:
+:CATEGORY: Non-VC
+:END:
+
+*** Vanessa Van Edwards
+SCHEDULED: <2024-06-03 Mon ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-30 Thu 09:21]
+:END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 09:21]
+- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
+:LOGBOOK:
+CLOCK: [2024-05-26 Sun 19:10]--[2024-05-26 Sun 19:46] =>  0:36
+CLOCK: [2024-05-26 Sun 10:55]--[2024-05-26 Sun 11:34] =>  0:39
+CLOCK: [2024-05-21 Tue 18:20]--[2024-05-21 Tue 18:51] =>  0:31
+:END:
+https://www.youtube.com/watch?v=c68E7S_D3Rs
+https://www.youtube.com/watch?v=f9SA25OukyM
+
+*** Joe Navarro
+SCHEDULED: <2024-06-04 Tue ++5d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-30 Thu 09:34]
+:END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 09:34]
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 09:23]--[2024-05-30 Thu 09:34] =>  0:11
+:END:
+https://www.youtube.com/watch?v=f9SA25OukyM
+https://www.youtube.com/watch?v=tL0vtPSl-yc
+
 ** Synergy
 :PROPERTIES:
 :CATEGORY: Synergy
@@ -1831,19 +1863,56 @@ SCHEDULED: <2024-06-03 Mon>
 ** RAW [#C] Training Developer
 SCHEDULED: <2024-06-03 Mon>
 
-** Vanessa Van Edwards
-SCHEDULED: <2024-05-30 Thu ++2d/3d>
+
+** RAW Open Source Society University
+SCHEDULED: <2024-05-31 Fri>
+https://www.youtube.com/watch?v=6WdTxK_V9Qo
+https://algo.monster/?sscid=51k8_zcwzz&
+https://algo.monster/problems/stats
+
+** INIT [#C] Cut it thrice
+SCHEDULED: <2024-06-01 Sat>
+** INIT [#C] Chat GPT inside Emacs and Python
+SCHEDULED: <2024-06-04 Tue>
+** INIT [#C] How to detour ATS?
+SCHEDULED: <2024-06-01 Sat>
+** INIT [#A] Lead Agenda elaboration
+SCHEDULED: <2024-06-02 Sun>
+- Note taken on [2024-05-30 Thu 08:47] \\
+  Ask ChatGPT about particular questions on the job interview
+- Note taken on [2024-05-30 Thu 08:26] \\
+  “Knowing the right questions is much harder than having the answers.”
+- Note taken on [2024-05-30 Thu 08:23] \\
+  Literate Programming + Learning through Testing: To show explicitly
+  and prove the concept.
+** AMPLE [#C] Package-check-signature
+SCHEDULED: <2024-05-30 Thu>
+* NoSQL
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-21 Tue 18:51]
+:CATEGORY: NoSQL
 :END:
-- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
+
+** INIT MongoDB
+SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
-CLOCK: [2024-05-26 Sun 19:10]--[2024-05-26 Sun 19:46] =>  0:36
-CLOCK: [2024-05-26 Sun 10:55]--[2024-05-26 Sun 11:34] =>  0:39
-CLOCK: [2024-05-21 Tue 18:20]--[2024-05-21 Tue 18:51] =>  0:31
+CLOCK: [2024-05-30 Thu 08:53]--[2024-05-30 Thu 09:01] =>  0:08
 :END:
-https://www.youtube.com/watch?v=c68E7S_D3Rs
-https://www.youtube.com/watch?v=f9SA25OukyM
+https://www.mongodb.com/resources/basics/databases/nosql-explained
+
+* Misc
+:PROPERTIES:
+:CATEGORY: MQ
+:END:
+
+** Rabbit MQ
+*** INIT [#C] RabbitMQ Overview
+SCHEDULED: <2024-06-02 Sun>
+
+*** IBM MQ
+
+*** Kafka
+
+*** NATS
 
 * Tasks
 

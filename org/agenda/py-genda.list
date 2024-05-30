@@ -815,6 +815,40 @@ CLOCK: [2024-03-19 Tue 16:42]--[2024-03-19 Tue 16:48] =>  0:06
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 
+* Fundamentals
+:PROPERTIES:
+:CATEGORY: PyFu
+:END:
+
+** Innate Data Model
+SCHEDULED: <2024-05-31 Fri>
+- Built-in methods for each type of data.
+
+
+** Lambda Function
+SCHEDULED: <2024-06-02 Sun ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-30 Thu 16:19]
+:END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 16:19]
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
+:END:
+[[elisp:(bookmark-jump-other-window "How to Use Python Lambda Functions – Real Python")]]
+[[info:python3.11#Lambdas][python3.11#Lambdas]]
+
+** Generators
+SCHEDULED: <2024-05-31 Fri>
+https://realpython.com/introduction-to-python-generators/
+
+** Decorators
+SCHEDULED: <2024-06-03 Mon>
+
+** Debugging
+SCHEDULED: <2024-06-06 Thu>
+https://realpython.com/python-debug-idle/
+
+
 * LAG Idioms
 SCHEDULED: <2024-06-17 Mon>
 https://docs.python-guide.org/writing/style/#conventions
