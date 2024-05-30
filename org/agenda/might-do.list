@@ -203,7 +203,7 @@ SCHEDULED: <2024-06-02 Sun>
 *** British Counsil
 
 **** DELAY Mitigators
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-01 Sat>
 [[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 
 *** LAG Litotes
@@ -473,7 +473,7 @@ CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
 ** Python Is Inside
-SCHEDULED: <2024-05-30 Thu ++1d>
+SCHEDULED: <2024-06-04 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
@@ -1853,8 +1853,8 @@ CLOCK: [2024-05-15 Wed 09:34]--[2024-05-15 Wed 09:55] =>  0:21
 [[file:~/Git/0--key/org-pub/2024-05-15-k8s.org::*Installation & initial configuration][Installation & initial configuration]]
 [[https://www.linkedin.com/pulse/demystifying-kubernetes-architecture-deep-dive-code-samples/][Intro#1]]
 [[https://www.simform.com/blog/kubernetes-architecture/][Intro#2]]
-** INIT Emacs docker integration
-SCHEDULED: <2024-05-30 Thu>
+** INIT [#A] Emacs docker integration
+SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
 :END:
@@ -1871,7 +1871,7 @@ SCHEDULED: <2024-06-03 Mon>
 SCHEDULED: <2024-06-03 Mon>
 
 
-** RAW Open Source Society University
+** RAW [#A] Open Source Society University
 SCHEDULED: <2024-05-31 Fri>
 https://www.youtube.com/watch?v=6WdTxK_V9Qo
 https://algo.monster/?sscid=51k8_zcwzz&
@@ -2180,7 +2180,8 @@ SCHEDULED: <2024-05-30 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-30 Thu 18:59]
+CLOCK: [2024-05-30 Thu 19:09]
+CLOCK: [2024-05-30 Thu 18:59]--[2024-05-30 Thu 19:06] =>  0:07
 CLOCK: [2024-05-29 Wed 20:20]--[2024-05-29 Wed 20:24] =>  0:04
 CLOCK: [2024-05-29 Wed 20:15]--[2024-05-29 Wed 20:17] =>  0:02
 CLOCK: [2024-05-29 Wed 11:50]--[2024-05-29 Wed 11:50] =>  0:00
@@ -2662,10 +2663,11 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-30 Thu ++1d>
+SCHEDULED: <2024-05-31 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-27 Mon 19:55]
+:LAST_REPEAT: [2024-05-30 Thu 19:06]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:55]
 - State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
 - State "AMPLE"      from ""           [2024-05-13 Mon 19:57]
@@ -2947,10 +2949,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-05-30 Thu ++1d>
+SCHEDULED: <2024-05-31 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-29 Wed 20:20]
+:LAST_REPEAT: [2024-05-30 Thu 19:08]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 19:08]
 - State "AMPLE"      from ""           [2024-05-29 Wed 20:20]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:59]
 - State "AMPLE"      from ""           [2024-05-25 Sat 17:00]
@@ -2998,6 +3001,8 @@ SCHEDULED: <2024-05-30 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-05-30 Thu 19:07]--[2024-05-30 Thu 19:08] =>  0:01
+CLOCK: [2024-05-30 Thu 19:06]--[2024-05-30 Thu 19:07] =>  0:01
 CLOCK: [2024-05-29 Wed 20:19]--[2024-05-29 Wed 20:20] =>  0:01
 CLOCK: [2024-05-27 Mon 19:55]--[2024-05-27 Mon 19:59] =>  0:04
 CLOCK: [2024-05-25 Sat 16:59]--[2024-05-25 Sat 17:00] =>  0:01
@@ -3272,10 +3277,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-05-30 Thu ++2d/3d>
+SCHEDULED: <2024-06-01 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-27 Mon 19:50]
+:LAST_REPEAT: [2024-05-30 Thu 19:06]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:50]
 - State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
 - State "AMPLE"      from ""           [2024-05-17 Fri 11:39]

@@ -180,7 +180,7 @@ SCHEDULED: <2024-06-01 Sat>
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** INIT Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-03 Mon>
 
 * Algorithms in CS
 SCHEDULED: <2024-06-01 Sat ++1w>
@@ -219,7 +219,7 @@ https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 SCHEDULED: <2024-05-31 Fri>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
-* Data structures in CS
+* [#A] Data structures in CS
 SCHEDULED: <2024-05-31 Fri ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
@@ -229,6 +229,7 @@ SCHEDULED: <2024-05-31 Fri ++1d>
 - State "AMPLE"      from ""           [2024-05-23 Thu 10:18]
 - State "AMPLE"      from ""           [2024-05-22 Wed 15:03]
 :LOGBOOK:
+CLOCK: [2024-05-30 Thu 19:07]--[2024-05-30 Thu 19:07] =>  0:00
 CLOCK: [2024-05-25 Sat 07:59]--[2024-05-25 Sat 08:28] =>  0:29
 CLOCK: [2024-05-23 Thu 10:11]--[2024-05-23 Thu 10:18] =>  0:07
 CLOCK: [2024-05-23 Thu 09:55]--[2024-05-23 Thu 09:57] =>  0:02
@@ -249,7 +250,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 
-** The Python's Innate Data Types
+** [#A] The Python's Innate Data Types
 SCHEDULED: <2024-05-31 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-26 Sun 08:59]--[2024-05-26 Sun 09:15] =>  0:16
@@ -261,12 +262,12 @@ CLOCK: [2024-05-26 Sun 08:59]--[2024-05-26 Sun 09:15] =>  0:16
 SCHEDULED: <2024-06-03 Mon>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
-** Linked List
+** [#A] Linked List
 SCHEDULED: <2024-05-31 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview
 ]][[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 
-** Stack
+** [#A] Stack
 SCHEDULED: <2024-05-31 Fri>
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Stacks][Stacks Overview]]
 [[https://realpython.com/how-to-implement-python-stack/][Pythonic approach]]
@@ -825,7 +826,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :CATEGORY: PyFu
 :END:
 
-** Innate Data Model
+** [#A] Innate Data Model
 SCHEDULED: <2024-05-31 Fri>
 - Built-in methods for each type of data.
 
