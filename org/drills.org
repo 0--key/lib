@@ -4978,6 +4978,25 @@ target] [no one else can see].
    :DRILL_CARD_TYPE: hide1cloze
    :END:
 It [takes two years] to learn to speak and sixty years [to learn to keep quiet].
+
+** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:
+I don't make [the rules], I just know [them all].
+** COMMENT >->-> David Hume                                          :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide2cloze
+   :END:
+No [amount of observations] of white swans can allow [the inference]
+that all swans are white, but [the observation of a single black swan]
+is sufficent to [refute that conclusion].
+** COMMENT >->-> Oscar Wilde                                         :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:
+I am so clever [that sometimes I don’t understand] a [single word] of
+[what I am saying].
 * Colloquialisms
 ** LAG How to say 'Thank You!'
 SCHEDULED: <2024-06-17 Mon ++3d/4d>
