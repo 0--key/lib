@@ -12,25 +12,30 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** [#A] Consul, Jenkins, Prometheus, or RabbitMQ
-SCHEDULED: <2024-05-30 Thu>
+** [#A] Consul, Jenkins, Prometheus
+SCHEDULED: <2024-06-06 Thu>
 
-** [#A] Cascading Style Sheets (CSS), HTML5, JSON, MongoDB, and XML
-SCHEDULED: <2024-05-30 Thu>
+** Cascading Style Sheets (CSS), HTML5, JSON, and XML
+SCHEDULED: <2024-06-04 Tue>
 
 ** Agile Methodolody
-SCHEDULED: <2024-05-30 Thu ++2d>
+SCHEDULED: <2024-06-01 Sat ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-25 Sat 14:20]
+:LAST_REPEAT: [2024-05-30 Thu 15:37]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 15:37]
 - State "AMPLE"      from ""           [2024-05-25 Sat 14:20]
 :LOGBOOK:
+CLOCK: [2024-05-30 Thu 15:22]--[2024-05-30 Thu 15:37] =>  0:15
 CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
 :END:
-elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")
+[[elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")]]
 
 ** RESTful web APIs
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-03 Mon>
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
+:END:
 
 ** DELAY Python Talk to Me
 SCHEDULED: <2024-06-17 Mon ++3d>
@@ -48,7 +53,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** RAW Dissect the Python Itself
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-02 Sun>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 :END:
@@ -92,7 +97,7 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DP as PyPro
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-02 Sun>
 :LOGBOOK:
 CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 :END:
@@ -100,16 +105,18 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 *** LAG Personal Search Engine
 SCHEDULED: <2024-06-07 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
-** RAW Cracking coding interview
-SCHEDULED: <2024-05-30 Thu ++1d>
+** Cracking coding interview
+SCHEDULED: <2024-06-03 Mon ++4d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-29 Wed 17:27]
+:LAST_REPEAT: [2024-05-30 Thu 16:02]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 16:02]
 - State "AMPLE"      from "TODO"       [2024-05-29 Wed 17:27]
 - State "AMPLE"      from "RAW"        [2024-05-23 Thu 09:54]
 - State "AMPLE"      from "RAW"        [2024-05-21 Tue 18:53]
 - usually ask you to write simple code and read it aloud on the phone [2024-05-26 Sun 17:42]
 :LOGBOOK:
+CLOCK: [2024-05-30 Thu 15:49]--[2024-05-30 Thu 15:54] =>  0:05
 CLOCK: [2024-05-29 Wed 17:14]--[2024-05-29 Wed 17:27] =>  0:13
 CLOCK: [2024-05-26 Sun 17:19]--[2024-05-26 Sun 19:10] =>  1:51
 CLOCK: [2024-05-24 Fri 17:39]--[2024-05-24 Fri 18:19] =>  0:40
@@ -121,10 +128,8 @@ CLOCK: [2023-11-15 Wed 11:05]--[2023-11-15 Wed 11:12] =>  0:07
 :END:
 [[elisp:(bookmark-jump-other-frame "How to Stand Out in a Python Coding Interview – Real Python")][Current position]]
 
-https://realpython.com/python-coding-interview-tips/
-https://realpython.com/python-debug-idle/
-https://realpython.com/python-lambda/
-https://realpython.com/introduction-to-python-generators/
+
+
 
 
 ** SET Mark Lutz
@@ -168,7 +173,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
 ** INIT Object Oriented Design
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-02 Sun>
 ** INIT XOR in Python in list comparison
 SCHEDULED: <2024-06-01 Sat>
 :LOGBOOK:
@@ -886,7 +891,7 @@ SCHEDULED: <2024-06-06 Thu>
 
   
 ** RAW Time Complexity
-SCHEDULED: <2024-05-30 Thu>
+SCHEDULED: <2024-06-02 Sun>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** LAG Modules
