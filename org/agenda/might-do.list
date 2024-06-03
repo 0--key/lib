@@ -1906,6 +1906,13 @@ SCHEDULED: <2024-06-02 Sun>
 :CATEGORY: Job
 :END:
 
+*** Proposals Elaboration
+SCHEDULED: <2024-06-05 Wed>
+:LOGBOOK:
+CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
+:END:
+
+
 *** Full-stack Python Developer
 SCHEDULED: <2024-06-05 Wed ++1d>
 :PROPERTIES:
