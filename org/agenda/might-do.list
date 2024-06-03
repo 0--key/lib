@@ -1842,49 +1842,27 @@ CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
 [[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
 
 
-** DELAY Kubernetes & Emacs
-SCHEDULED: <2024-07-26 Fri>
-:LOGBOOK:
-CLOCK: [2024-05-15 Wed 15:35]--[2024-05-15 Wed 15:41] =>  0:06
-CLOCK: [2024-05-15 Wed 10:23]--[2024-05-15 Wed 10:37] =>  0:14
-CLOCK: [2024-05-15 Wed 10:00]--[2024-05-15 Wed 10:15] =>  0:15
-CLOCK: [2024-05-15 Wed 09:34]--[2024-05-15 Wed 09:55] =>  0:21
-:END:
-[[file:~/Git/0--key/org-pub/2024-05-15-k8s.org::*Installation & initial configuration][Installation & initial configuration]]
-[[https://www.linkedin.com/pulse/demystifying-kubernetes-architecture-deep-dive-code-samples/][Intro#1]]
-[[https://www.simform.com/blog/kubernetes-architecture/][Intro#2]]
-** INIT [#A] Emacs docker integration
-SCHEDULED: <2024-05-31 Fri>
-:LOGBOOK:
-CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
-:END:
+** [#A] How to sell my service?
+SCHEDULED: <2024-06-04 Tue>
 
-[[elisp:(bookmark-jump-other-window "2017-06-22-docker-intro.org")][Docker in Babel]]
-*** Getting Started
-SCHEDULED: <2024-05-31 Fri>
-https://docs.docker.com/get-started/
-
-** RAW [#C] How to sell my service?
-SCHEDULED: <2024-06-03 Mon>
-
-** RAW [#C] Training Developer
-SCHEDULED: <2024-06-03 Mon>
+** [#C] Training Developer
+SCHEDULED: <2024-06-04 Tue>
 
 
-** RAW [#A] Open Source Society University
-SCHEDULED: <2024-05-31 Fri>
+** [#A] Open Source Society University
+SCHEDULED: <2024-06-04 Tue>
 https://www.youtube.com/watch?v=6WdTxK_V9Qo
 https://algo.monster/?sscid=51k8_zcwzz&
 https://algo.monster/problems/stats
 
 ** INIT [#C] Cut it thrice
-SCHEDULED: <2024-06-01 Sat>
+SCHEDULED: <2024-06-08 Sat>
 ** INIT [#C] Chat GPT inside Emacs and Python
 SCHEDULED: <2024-06-04 Tue>
 ** INIT [#C] How to detour ATS?
-SCHEDULED: <2024-06-01 Sat>
-** INIT [#A] Lead Agenda elaboration
-SCHEDULED: <2024-06-02 Sun>
+SCHEDULED: <2024-06-08 Sat>
+** [#A] Lead Agenda elaboration
+SCHEDULED: <2024-06-04 Tue ++3d/4d>
 - Note taken on [2024-05-30 Thu 08:47] \\
   Ask ChatGPT about particular questions on the job interview
 - Note taken on [2024-05-30 Thu 08:26] \\
@@ -4001,3 +3979,35 @@ SCHEDULED: <2023-11-08 Wed 10:20>
 SCHEDULED: <2024-09-02 Mon>
 Dry Arch Business Park,Dromore,
 Letterkenny, Donegal F92 CTH6
+
+
+* DELAY Kubernetes & Emacs
+SCHEDULED: <2024-07-26 Fri>
+:PROPERTIES:
+:CATEGORY: k8s
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-15 Wed 15:35]--[2024-05-15 Wed 15:41] =>  0:06
+CLOCK: [2024-05-15 Wed 10:23]--[2024-05-15 Wed 10:37] =>  0:14
+CLOCK: [2024-05-15 Wed 10:00]--[2024-05-15 Wed 10:15] =>  0:15
+CLOCK: [2024-05-15 Wed 09:34]--[2024-05-15 Wed 09:55] =>  0:21
+:END:
+[[file:~/Git/0--key/org-pub/2024-05-15-k8s.org::*Installation & initial configuration][Installation & initial configuration]]
+[[https://www.linkedin.com/pulse/demystifying-kubernetes-architecture-deep-dive-code-samples/][Intro#1]]
+[[https://www.simform.com/blog/kubernetes-architecture/][Intro#2]]
+
+* INIT [#A] Emacs Docker integration
+:PROPERTIES:
+:CATEGORY: Docker
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
+:END:
+** LAG Restart Emacs
+SCHEDULED: <2024-06-24 Mon>
+to revive Socker in ~shell~ snippets 
+[[elisp:(bookmark-jump-other-window "2017-06-22-docker-intro.org")][Docker in Babel]]
+
+*** LAG Getting Started
+SCHEDULED: <2024-06-24 Mon>
+https://docs.docker.com/get-started/
