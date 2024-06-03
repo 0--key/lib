@@ -24,7 +24,7 @@ Advanced to-do list    -*- mode: org; -*-
 :END:
 
 *** Vanessa Van Edwards
-SCHEDULED: <2024-06-03 Mon ++2d/3d>
+SCHEDULED: <2024-06-07 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 09:21]
 :END:
@@ -156,7 +156,7 @@ Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
 *** INIT Define Your System                                          :bait:
-SCHEDULED: <2024-05-31 Fri ++1d>
+SCHEDULED: <2024-06-06 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 18:42]
 :END:
@@ -192,7 +192,7 @@ Take an attempt and publish your work
 
 
 *** Test Driven Learnning
-SCHEDULED: <2024-06-02 Sun>
+SCHEDULED: <2024-06-04 Tue>
 
 
 ** English
@@ -203,7 +203,7 @@ SCHEDULED: <2024-06-02 Sun>
 *** British Counsil
 
 **** DELAY Mitigators
-SCHEDULED: <2024-06-01 Sat>
+SCHEDULED: <2024-06-08 Sat>
 [[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 
 *** LAG Litotes
@@ -241,8 +241,8 @@ https://www.youtube.com/watch?v=_dh5LP4S7dI
 ** Symmathesy
 
 
-*** RETARD Cultivating Happiness
-SCHEDULED: <2024-05-31 Fri>
+*** LAG Cultivating Happiness
+SCHEDULED: <2024-06-24 Mon>
 Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 - Enjoyment;
@@ -409,8 +409,8 @@ CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
-** RETARD Stashes
-SCHEDULED: <2024-06-01 Sat>
+** LAG Stashes
+SCHEDULED: <2024-06-24 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
@@ -443,7 +443,7 @@ SCHEDULED: <2024-06-18 Tue>
 :CATEGORY: Emacs
 :END:
 ** Bmkp+
-SCHEDULED: <2024-06-03 Mon>
+SCHEDULED: <2024-06-04 Tue>
 - Note taken on [2024-05-29 Wed 11:22] \\
   How to use it as a storage for Python code snippets?
 [[elisp:(bookmark-jump-other-window "EmacsWiki: Bookmark Plus")][Link]]
@@ -1248,11 +1248,12 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-06-10 Mon>
 [[info:org#TODO types][org#TODO types]]
 ** Whole week scheduling
-SCHEDULED: <2024-06-02 Sun .+1w>
+SCHEDULED: <2024-06-09 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
-:LAST_REPEAT: [2024-05-12 Sun 19:50]
+:LAST_REPEAT: [2024-06-03 Mon 19:45]
 :END:
+- State "AMPLE"      from ""           [2024-06-03 Mon 19:45]
 - State "AMPLE"      from ""           [2024-05-12 Sun 19:50]
 - State "AMPLE"      from ""           [2024-03-24 Sun 19:19]
 - State "AMPLE"      from ""           [2024-03-12 Tue 19:25]
@@ -1272,6 +1273,7 @@ SCHEDULED: <2024-06-02 Sun .+1w>
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 - State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
 :LOGBOOK:
+CLOCK: [2024-06-03 Mon 19:42]--[2024-06-03 Mon 19:45] =>  0:03
 CLOCK: [2024-05-21 Tue 08:46]--[2024-05-21 Tue 08:48] =>  0:02
 CLOCK: [2024-05-12 Sun 19:46]--[2024-05-12 Sun 19:50] =>  0:04
 CLOCK: [2024-04-08 Mon 16:59]--[2024-04-08 Mon 17:06] =>  0:07
@@ -1341,7 +1343,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** RAW Bash with Andrew
-SCHEDULED: <2024-06-01 Sat .+1w>
+SCHEDULED: <2024-06-07 Fri .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1393,7 +1395,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-06-01 Sat ++1w>
+SCHEDULED: <2024-06-06 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-25 Sat 14:24]
 :END:
@@ -1406,8 +1408,8 @@ SCHEDULED: <2024-06-01 Sat ++1w>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:26]
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
-** RETARD Reading Alice
-SCHEDULED: <2024-06-02 Sun .+2d/3d>
+** LAG Reading Alice
+SCHEDULED: <2024-06-24 Mon .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -1433,17 +1435,17 @@ SCHEDULED: <2023-04-08 Sat>
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
-** RETARD Book
-SCHEDULED: <2024-06-02 Sun>
+** LAG Book
+SCHEDULED: <2024-06-24 Mon>
 Play ~ Stuart Brown&Christopher Vaughan
-** RETARD Book
-SCHEDULED: <2024-06-02 Sun>
+** LAG Book
+SCHEDULED: <2024-06-24 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
-** RETARD Book
-SCHEDULED: <2024-06-02 Sun>
+** LAG Book
+SCHEDULED: <2024-06-24 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -1686,8 +1688,8 @@ SCHEDULED: <2024-01-05 Fri>
 CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
-** RETARD [#C] Enhanced self-esteem
-SCHEDULED: <2024-06-03 Mon ++1w>
+** LAG [#C] Enhanced self-esteem
+SCHEDULED: <2024-06-24 Mon ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
@@ -1878,7 +1880,7 @@ SCHEDULED: <2024-05-30 Thu>
 :END:
 
 ** INIT MongoDB
-SCHEDULED: <2024-05-31 Fri>
+SCHEDULED: <2024-06-18 Tue>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 08:53]--[2024-05-30 Thu 09:01] =>  0:08
 :END:
@@ -1890,8 +1892,8 @@ https://www.mongodb.com/resources/basics/databases/nosql-explained
 :END:
 
 ** Rabbit MQ
-*** INIT [#C] RabbitMQ Overview
-SCHEDULED: <2024-06-02 Sun>
+*** LAG [#C] RabbitMQ Overview
+SCHEDULED: <2024-06-24 Mon>
 
 *** IBM MQ
 
@@ -2106,10 +2108,11 @@ SCHEDULED: <2024-06-05 Wed>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-05-30 Thu ++1d>
+SCHEDULED: <2024-06-03 Mon ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-29 Wed 20:24]
+:LAST_REPEAT: [2024-05-30 Thu 19:11]
 :END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 19:11]
 - State "AMPLE"      from ""           [2024-05-29 Wed 20:24]
 - State "AMPLE"      from ""           [2024-05-28 Tue 06:41]
 - State "AMPLE"      from ""           [2024-05-25 Sat 17:03]
@@ -2165,7 +2168,8 @@ SCHEDULED: <2024-05-30 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-05-30 Thu 19:09]
+CLOCK: [2024-06-03 Mon 19:52]
+CLOCK: [2024-05-30 Thu 19:09]--[2024-05-30 Thu 19:11] =>  0:02
 CLOCK: [2024-05-30 Thu 18:59]--[2024-05-30 Thu 19:06] =>  0:07
 CLOCK: [2024-05-29 Wed 20:20]--[2024-05-29 Wed 20:24] =>  0:04
 CLOCK: [2024-05-29 Wed 20:15]--[2024-05-29 Wed 20:17] =>  0:02
@@ -2648,7 +2652,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-05-31 Fri ++1d>
+SCHEDULED: <2024-06-04 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 19:06]
 :END:
@@ -2708,6 +2712,7 @@ SCHEDULED: <2024-05-31 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-06-03 Mon 19:32]--[2024-06-03 Mon 19:42] =>  0:10
 CLOCK: [2024-05-30 Thu 08:46]--[2024-05-30 Thu 08:53] =>  0:07
 CLOCK: [2024-05-29 Wed 11:20]--[2024-05-29 Wed 11:32] =>  0:12
 CLOCK: [2024-05-27 Mon 19:50]--[2024-05-27 Mon 19:55] =>  0:05
@@ -2934,10 +2939,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-05-31 Fri ++1d>
+SCHEDULED: <2024-06-04 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-30 Thu 19:08]
+:LAST_REPEAT: [2024-06-03 Mon 19:52]
 :END:
+- State "AMPLE"      from ""           [2024-06-03 Mon 19:52]
 - State "AMPLE"      from ""           [2024-05-30 Thu 19:08]
 - State "AMPLE"      from ""           [2024-05-29 Wed 20:20]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:59]
@@ -2986,6 +2992,7 @@ SCHEDULED: <2024-05-31 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-06-03 Mon 19:46]--[2024-06-03 Mon 19:52] =>  0:06
 CLOCK: [2024-05-30 Thu 19:07]--[2024-05-30 Thu 19:08] =>  0:01
 CLOCK: [2024-05-30 Thu 19:06]--[2024-05-30 Thu 19:07] =>  0:01
 CLOCK: [2024-05-29 Wed 20:19]--[2024-05-29 Wed 20:20] =>  0:01
@@ -3125,7 +3132,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2024-05-31 Fri ++1w>
+SCHEDULED: <2024-06-08 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 19:40]
 :END:
@@ -3166,7 +3173,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** LAG Vocabulary rectification
-SCHEDULED: <2024-06-03 Mon ++2d>
+SCHEDULED: <2024-06-24 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
@@ -3262,7 +3269,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-06-01 Sat ++2d/3d>
+SCHEDULED: <2024-06-04 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 19:06]
 :END:
@@ -3525,8 +3532,8 @@ SCHEDULED: <2024-05-10 Fri>
   * So it would be wise
 to make a wider list of followers in that networks
 
-** RETARD Global and Local Variables in Python
-SCHEDULED: <2024-05-31 Fri>
+** RAW Global and Local Variables in Python
+SCHEDULED: <2024-06-07 Fri>
 ** ACTIVE The Donegal Volunteer Centre                             :ARCHIVE:
 SCHEDULED: <2023-06-19 Mon>
 :LOGBOOK:
@@ -3653,7 +3660,7 @@ CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
 - Note taken on [2023-06-06 Tue 07:40] \\
   Or even pure /.txt/ form to dissect it in ~Emacs~ directly
 ** RAW Andrew's private summer lessons
-SCHEDULED: <2024-06-01 Sat>
+SCHEDULED: <2024-06-05 Wed>
  - Emacs;
  - Bash;
  - Git;
@@ -3854,7 +3861,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2024-06-06 Thu>
 In fire alarm example
 ** DELAY [#A] Math with Andrew
-SCHEDULED: <2024-06-04 Tue ++2d/3d>
+SCHEDULED: <2024-06-07 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:22]
 :END:
@@ -3930,7 +3937,7 @@ with =Debian=. So:
 
 
 ** ACTIVE [#A] Search reference in *info*
-SCHEDULED: <2024-06-01 Sat>
+SCHEDULED: <2024-06-04 Tue>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\
