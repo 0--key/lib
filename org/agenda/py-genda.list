@@ -12,14 +12,14 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** [#A] Consul, Jenkins, Prometheus
-SCHEDULED: <2024-06-06 Thu>
+** DELAY Consul, Jenkins, Prometheus
+SCHEDULED: <2024-07-11 Thu>
 
 ** Cascading Style Sheets (CSS), HTML5, JSON, and XML
 SCHEDULED: <2024-06-07 Fri>
 
 ** Agile Methodolody
-SCHEDULED: <2024-06-05 Wed ++2d>
+SCHEDULED: <2024-06-07 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 15:37]
 :END:
@@ -53,7 +53,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** Dissect the Python Itself
-SCHEDULED: <2024-06-05 Wed ++2d>
+SCHEDULED: <2024-06-07 Fri ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 06:44]--[2024-06-04 Tue 06:52] =>  0:08
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
@@ -224,7 +224,7 @@ SCHEDULED: <2024-06-06 Thu>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-06-05 Wed ++1d>
+SCHEDULED: <2024-06-07 Fri ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -257,7 +257,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-06-05 Wed ++1d>
+SCHEDULED: <2024-06-07 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -272,7 +272,7 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 ** The Python's Extended Data Types
-SCHEDULED: <2024-06-06 Thu>
+SCHEDULED: <2024-06-13 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
@@ -285,7 +285,7 @@ CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 [[https://www.geeksforgeeks.org/python-linked-list/][Implementation]]
 
 ** Stack
-SCHEDULED: <2024-06-05 Wed>
+SCHEDULED: <2024-06-07 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -515,7 +515,7 @@ the Pylsp and Gopls LSP servers:
 SCHEDULED: <2024-07-19 Fri>
 https://github.com/magit/forge
 
-**** LAG [#A] Shells
+**** RETARD [#A] Shells
 SCHEDULED: <2024-06-11 Tue>
 :LOGBOOK:
 CLOCK: [2024-01-17 Wed 18:04]--[2024-01-17 Wed 18:40] =>  0:36
@@ -523,12 +523,13 @@ CLOCK: [2024-01-16 Tue 17:49]--[2024-01-16 Tue 18:27] =>  0:38
 :END:
 - https://www.youtube.com/watch?v=wa_wZIuT9Vw
 - [[https://github.com/daviwil/emacs-from-scratch/blob/bbfbc77b3afab0c14149e07d0ab08d275d4ba575/Emacs.org#terminals][Description]]
-SCHEDULED: <2024-06-05 Wed>
-** RETARD EGlot
+SCHEDULED: <2024-08-14 Wed>
+** RETARD EGlot                                                    :ARCHIVE:
 SCHEDULED: <2024-06-06 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 17:52]
 :END:
+- Note taken on [2024-06-05 Wed 21:17]
 - State "AMPLE"      from ""           [2024-01-02 Tue 17:52]
 - State "AMPLE"      from ""           [2023-12-29 Fri 13:42]
 :LOGBOOK:
@@ -752,7 +753,7 @@ https://docs.python.org/dev/library/unittest.mock
 - The doctest module searches for pieces of text that look like
   interactive Python sessions in docstrings, and then executes those
   sessions to verify that they work exactly as shown.
-** RETARD Play&Learn
+** RETARD Play&Learn                                               :ARCHIVE:
 SCHEDULED: <2024-06-06 Thu>
 :LOGBOOK:
 CLOCK: [2023-12-13 Wed 18:23]--[2023-12-13 Wed 18:26] =>  0:03
@@ -847,7 +848,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** Innate Data Model
-SCHEDULED: <2024-06-05 Wed>
+SCHEDULED: <2024-06-07 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -868,14 +869,14 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-06-05 Wed>
+SCHEDULED: <2024-06-07 Fri>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-06-06 Thu>
+SCHEDULED: <2024-06-12 Wed>
 
 ** Debugging
-SCHEDULED: <2024-06-06 Thu>
+SCHEDULED: <2024-06-12 Wed>
 https://realpython.com/python-debug-idle/
 
 
@@ -907,7 +908,8 @@ SCHEDULED: <2024-06-06 Thu>
      Dynamic programming
      K nearest neighbors
      [[file:~/Git/python/algorithms/algorithms][file:~/Git/python/algorithms/algorithms]]
-  :LOGBOOK:
+[[file:~/Git/python/Leetcode75/array.py][file:~/Git/python/Leetcode75/array.py]]
+       :LOGBOOK:
   CLOCK: [2024-05-23 Thu 08:17]--[2024-05-23 Thu 08:39] =>  0:22
   CLOCK: [2024-05-22 Wed 19:45]--[2024-05-22 Wed 19:45] =>  0:00
   CLOCK: [2023-12-11 Mon 10:24]--[2023-12-11 Mon 10:47] =>  0:23
@@ -916,7 +918,7 @@ SCHEDULED: <2024-06-06 Thu>
 
   
 ** RAW Time Complexity
-SCHEDULED: <2024-06-05 Wed>
+SCHEDULED: <2024-06-07 Fri>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** LAG Modules

@@ -12,8 +12,8 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 
-* Test-Driven Learining
-SCHEDULED: <2024-06-05 Wed ++1d>
+* [#C] Test-Driven Learining
+SCHEDULED: <2024-06-07 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
@@ -23,6 +23,9 @@ SCHEDULED: <2024-06-05 Wed ++1d>
   https://simpleprogrammer.com/test-driven-learning/
   https://nedbatchelder.com/text/test0.html
 :LOGBOOK:
+CLOCK: [2024-06-05 Wed 08:42]--[2024-06-05 Wed 09:09] =>  0:27
+CLOCK: [2024-06-05 Wed 08:10]--[2024-06-05 Wed 08:37] =>  0:27
+CLOCK: [2024-06-05 Wed 07:58]--[2024-06-05 Wed 08:07] =>  0:09
 CLOCK: [2023-12-29 Fri 12:55]--[2023-12-29 Fri 13:03] =>  0:08
 CLOCK: [2023-12-28 Thu 10:40]--[2023-12-28 Thu 10:51] =>  0:11
 CLOCK: [2023-11-15 Wed 10:22]--[2023-11-15 Wed 10:26] =>  0:04
@@ -57,7 +60,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-06-05 Wed ++1d>
+SCHEDULED: <2024-06-06 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:07]
 :END:
@@ -129,11 +132,12 @@ CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-06-05 Wed ++1d>
+SCHEDULED: <2024-06-06 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-15 Wed 08:05]
+:LAST_REPEAT: [2024-06-05 Wed 21:15]
 :CATEGORY: CoLab
 :END:
+- State "AMPLE"      from ""           [2024-06-05 Wed 21:15]
 - State "AMPLE"      from ""           [2024-05-15 Wed 08:05]
 - State "AMPLE"      from ""           [2024-04-08 Mon 18:57]
 - State "AMPLE"      from ""           [2024-01-31 Wed 18:33]
@@ -145,6 +149,7 @@ SCHEDULED: <2024-06-05 Wed ++1d>
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
+CLOCK: [2024-06-05 Wed 20:07]--[2024-06-05 Wed 21:15] =>  1:08
 CLOCK: [2024-04-11 Thu 17:35]--[2024-04-11 Thu 18:35] =>  1:00
 CLOCK: [2024-04-08 Mon 20:13]--[2024-04-08 Mon 21:53] =>  1:40
 CLOCK: [2024-04-08 Mon 18:52]--[2024-04-08 Mon 18:54] =>  0:02
@@ -173,7 +178,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#C] Commits reviewing {jr>c}
-SCHEDULED: <2024-06-05 Wed ++2d>
+SCHEDULED: <2024-06-07 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-25 Sat 14:30]
 :END:
