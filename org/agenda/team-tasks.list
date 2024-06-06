@@ -60,10 +60,11 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-06-06 Thu ++1d>
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-04 Tue 08:07]
+:LAST_REPEAT: [2024-06-06 Thu 19:39]
 :END:
+- State "AMPLE"      from ""           [2024-06-06 Thu 19:39]
 - State "AMPLE"      from ""           [2024-06-04 Tue 08:07]
 - State "AMPLE"      from ""           [2024-05-27 Mon 07:32]
 - State "AMPLE"      from ""           [2024-05-26 Sun 08:37]
@@ -132,11 +133,12 @@ CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-06-06 Thu ++1d>
+SCHEDULED: <2024-06-07 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-05 Wed 21:15]
+:LAST_REPEAT: [2024-06-06 Thu 19:51]
 :CATEGORY: CoLab
 :END:
+- State "AMPLE"      from ""           [2024-06-06 Thu 19:51]
 - State "AMPLE"      from ""           [2024-06-05 Wed 21:15]
 - State "AMPLE"      from ""           [2024-05-15 Wed 08:05]
 - State "AMPLE"      from ""           [2024-04-08 Mon 18:57]
@@ -149,6 +151,7 @@ SCHEDULED: <2024-06-06 Thu ++1d>
 - State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
 - State "AMPLE"      from ""           [2023-10-12 Thu 15:21]
 :LOGBOOK:
+CLOCK: [2024-06-06 Thu 19:39]--[2024-06-06 Thu 19:51] =>  0:12
 CLOCK: [2024-06-05 Wed 20:07]--[2024-06-05 Wed 21:15] =>  1:08
 CLOCK: [2024-04-11 Thu 17:35]--[2024-04-11 Thu 18:35] =>  1:00
 CLOCK: [2024-04-08 Mon 20:13]--[2024-04-08 Mon 21:53] =>  1:40
