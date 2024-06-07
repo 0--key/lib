@@ -19,20 +19,22 @@ SCHEDULED: <2024-07-11 Thu>
 SCHEDULED: <2024-06-12 Wed>
 
 ** Agile Methodolody
-SCHEDULED: <2024-06-07 Fri ++2d>
+SCHEDULED: <2024-06-09 Sun ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-30 Thu 15:37]
+:LAST_REPEAT: [2024-06-07 Fri 15:30]
 :END:
+- State "AMPLE"      from ""           [2024-06-07 Fri 15:30]
 - State "AMPLE"      from ""           [2024-05-30 Thu 15:37]
 - State "AMPLE"      from ""           [2024-05-25 Sat 14:20]
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 15:03]--[2024-06-07 Fri 15:30] =>  0:27
 CLOCK: [2024-05-30 Thu 15:22]--[2024-05-30 Thu 15:37] =>  0:15
 CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
 :END:
 [[elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")]]
 
 ** RESTful web APIs
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
@@ -405,9 +407,16 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
-***** RAW [#A] Counsel
-SCHEDULED: <2024-06-07 Fri>
+***** INIT Counsel
+SCHEDULED: <2024-06-09 Sun>
+:LOGBOOK:
+CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
+:END:
 [[elisp:(apropos-command "counsel")]]
+
+- counsel-ack/ag/pt/rg requires ack/ag/pt/rg
+  
+
 ***** BARE Swiper
 SCHEDULED: <2024-05-20 Mon>
 :LOGBOOK:
@@ -556,7 +565,7 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO Elpy
+** TODO [#A] Elpy
 SCHEDULED: <2024-06-08 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
@@ -891,7 +900,7 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
@@ -912,7 +921,7 @@ https://docs.python-guide.org/writing/style/#conventions
 
 
 ** Repo
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]

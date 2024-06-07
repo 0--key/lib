@@ -156,7 +156,7 @@ Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
 *** INIT [#A] Define Your System                                     :bait:
-SCHEDULED: <2024-06-07 Fri ++1d>
+SCHEDULED: <2024-06-10 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 18:42]
 :END:
@@ -164,6 +164,7 @@ SCHEDULED: <2024-06-07 Fri ++1d>
 - State "AMPLE"      from "TODO"       [2024-05-24 Fri 18:42]
 - State "AMPLE"      from "INIT"       [2024-05-14 Tue 09:40]
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 07:39]--[2024-06-07 Fri 07:56] =>  0:17
 CLOCK: [2024-06-06 Thu 07:35]--[2024-06-06 Thu 07:58] =>  0:23
 CLOCK: [2024-05-24 Fri 18:19]--[2024-05-24 Fri 18:38] =>  0:19
 CLOCK: [2024-05-17 Fri 11:13]--[2024-05-17 Fri 11:25] =>  0:12
@@ -201,8 +202,15 @@ SCHEDULED: <2024-07-10 Wed>
 :CATEGORY: English
 :END:
 
-*** [#A] Useful expressions
-SCHEDULED: <2024-06-07 Fri>
+*** Useful expressions
+SCHEDULED: <2024-06-11 Tue ++4d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-06-07 Fri 07:57]
+:END:
+- State "AMPLE"      from ""           [2024-06-07 Fri 07:57]
+:LOGBOOK:
+CLOCK: [2024-06-07 Fri 07:23]--[2024-06-07 Fri 07:39] =>  0:16
+:END:
 https://www.ihbristol.com/useful-english-expressions/
 
 *** British Counsil
@@ -448,13 +456,13 @@ SCHEDULED: <2024-06-18 Tue>
 :CATEGORY: Emacs
 :END:
 ** Bmkp+
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 - Note taken on [2024-05-29 Wed 11:22] \\
   How to use it as a storage for Python code snippets?
 [[elisp:(bookmark-jump-other-window "EmacsWiki: Bookmark Plus")][Link]]
 
-** The Babel subtleties
-SCHEDULED: <2024-06-07 Fri>
+** [#A] The Babel subtleties
+SCHEDULED: <2024-06-08 Sat>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
@@ -478,8 +486,8 @@ CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 [[info:org#Working with Source Code][org#Working with Source Code]]
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
-** Python Is Inside
-SCHEDULED: <2024-06-07 Fri ++1d>
+** [#A] Python Is Inside
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
@@ -1349,7 +1357,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** RAW Bash with Andrew
-SCHEDULED: <2024-06-07 Fri .+1w>
+SCHEDULED: <2024-06-09 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1861,7 +1869,7 @@ CLOCK: [2024-06-04 Tue 06:58]--[2024-06-04 Tue 07:09] =>  0:11
 - https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/starting-a-business/
   
 ** [#C] Training Developer
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 
 
 ** [#A] Open Source Society University
@@ -1874,15 +1882,17 @@ https://algo.monster/?sscid=51k8_zcwzz&
 https://algo.monster/problems/stats
 https://github.com/ossu/computer-science?tab=readme-ov-file
 
-** INIT [#C] Cut it thrice
-SCHEDULED: <2024-06-08 Sat>
-** Chat GPT inside Emacs and Python
+** DELAY [#C] Cut it thrice
+SCHEDULED: <2024-06-28 Fri>
+** [#A] Chat GPT inside Emacs and Python
 SCHEDULED: <2024-06-08 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:38]
 :END:
 - State "AMPLE"      from ""           [2024-06-06 Thu 20:38]
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:59] =>  0:41
+CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:18] =>  0:00
 CLOCK: [2024-06-06 Thu 20:08]--[2024-06-06 Thu 20:37] =>  0:29
 CLOCK: [2024-06-05 Wed 09:50]--[2024-06-05 Wed 10:21] =>  0:31
 CLOCK: [2024-06-04 Tue 10:21]--[2024-06-04 Tue 10:29] =>  0:08
@@ -1894,8 +1904,8 @@ https://www.youtube.com/watch?v=JImYEdqVQR8
 - Copilot
 
   
-** INIT [#C] How to detour ATS?
-SCHEDULED: <2024-06-08 Sat>
+** DELAY [#C] How to detour ATS?
+SCHEDULED: <2024-06-28 Fri>
 ** Lead Agenda elaboration
 SCHEDULED: <2024-06-09 Sun ++3d/4d>
 - Note taken on [2024-05-30 Thu 08:47] \\
@@ -1942,14 +1952,15 @@ SCHEDULED: <2024-06-24 Mon>
 :END:
 
 *** Proposals Elaboration
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-14 Fri>
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
 CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
 :END:
 
 
-*** [#A] Full-stack Python Developer
-SCHEDULED: <2024-06-07 Fri ++1d>
+*** Full-stack Python Developer
+SCHEDULED: <2024-06-09 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 19:08]
 :END:
@@ -1957,6 +1968,7 @@ SCHEDULED: <2024-06-07 Fri ++1d>
 - State "AMPLE"      from ""           [2024-05-23 Thu 10:39]
 - State "AMPLE"      from ""           [2024-05-22 Wed 15:44]
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 08:24]--[2024-06-07 Fri 09:04] =>  0:40
 CLOCK: [2024-05-24 Fri 18:42]--[2024-05-24 Fri 19:08] =>  0:26
 CLOCK: [2024-05-23 Thu 10:23]--[2024-05-23 Thu 10:39] =>  0:16
 CLOCK: [2024-05-22 Wed 15:04]--[2024-05-22 Wed 15:40] =>  0:36
@@ -2141,10 +2153,11 @@ SCHEDULED: <2024-06-10 Mon>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-06-06 Thu ++1d>
+SCHEDULED: <2024-06-07 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-06 Thu 05:59]
+:LAST_REPEAT: [2024-06-06 Thu 20:52]
 :END:
+- State "AMPLE"      from ""           [2024-06-06 Thu 20:52]
 - State "AMPLE"      from ""           [2024-06-06 Thu 05:59]
 - State "AMPLE"      from ""           [2024-06-04 Tue 19:01]
 - State "AMPLE"      from ""           [2024-06-03 Mon 20:00]
@@ -2204,7 +2217,8 @@ SCHEDULED: <2024-06-06 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-06-06 Thu 20:48]
+CLOCK: [2024-06-07 Fri 18:44]
+CLOCK: [2024-06-06 Thu 20:48]--[2024-06-06 Thu 20:52] =>  0:04
 CLOCK: [2024-06-06 Thu 19:51]--[2024-06-06 Thu 19:54] =>  0:03
 CLOCK: [2024-06-05 Wed 21:24]--[2024-06-05 Wed 21:34] =>  0:10
 CLOCK: [2024-06-04 Tue 18:58]--[2024-06-04 Tue 19:01] =>  0:03
@@ -2692,7 +2706,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-06-07 Fri ++1d>
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:38]
 :END:
@@ -2982,10 +2996,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-06-07 Fri ++1d>
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-06 Thu 20:47]
+:LAST_REPEAT: [2024-06-07 Fri 18:44]
 :END:
+- State "AMPLE"      from ""           [2024-06-07 Fri 18:44]
 - State "AMPLE"      from ""           [2024-06-06 Thu 20:47]
 - State "AMPLE"      from ""           [2024-06-05 Wed 21:24]
 - State "AMPLE"      from ""           [2024-06-04 Tue 18:58]
@@ -3038,6 +3053,7 @@ SCHEDULED: <2024-06-07 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-06-07 Fri 18:42]--[2024-06-07 Fri 18:44] =>  0:02
 CLOCK: [2024-06-06 Thu 20:38]--[2024-06-06 Thu 20:47] =>  0:09
 CLOCK: [2024-06-05 Wed 21:17]--[2024-06-05 Wed 21:24] =>  0:07
 CLOCK: [2024-06-04 Tue 18:53]--[2024-06-04 Tue 18:58] =>  0:05
@@ -3319,7 +3335,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** New tasks trimming
-SCHEDULED: <2024-06-07 Fri ++2d/3d>
+SCHEDULED: <2024-06-08 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 19:06]
 :END:
@@ -3988,7 +4004,7 @@ with =Debian=. So:
 
 
 ** ACTIVE Search reference in *info*
-SCHEDULED: <2024-06-07 Fri>
+SCHEDULED: <2024-06-08 Sat>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\
