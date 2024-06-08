@@ -90,7 +90,9 @@
 ;; Killing and Yanking
 (key-chord-define-global "vf"     'kill-ring-save)
 (key-chord-define-global "rf"     'kill-region)
+(key-chord-define-global "rd"     'delete-region)
 (key-chord-define-global "uy"     'yank)
+
 ;; Translation
 (key-chord-define-global "tr"     'google-translate-at-point)
 (key-chord-define-global "TR"     'google-translate-at-point-reverse)
@@ -156,3 +158,43 @@
 ;; Clock In-Out and Timers
 (key-chord-define-global "lc"     'org-clock-in-last)
 (key-chord-define-global "sc"     'org-clock-out) ;; stop-clock
+
+(key-chord-define python-mode-map "dt"     'org-babel-detangle)
+
+;; Ivy and Counsel:
+;; (key-chord-define Info-mode-map "df"     'counsel-describe-function)
+;; (key-chord-define Info-mode-map "dv"     'counsel-describe-variable)
+;; Helpful just purely eclipses counsel's features!
+
+(key-chord-define ivy-minibuffer-map "gg"     'minibuffer-keyboard-quit) ;; often
+(key-chord-define ivy-minibuffer-map "jj"     'ivy-next-line)
+(key-chord-define ivy-minibuffer-map "kk"     'ivy-previous-line)
+(key-chord-define ivy-minibuffer-map "km"     'ivy-scroll-up-command)
+(key-chord-define ivy-minibuffer-map "ij"     'ivy-scroll-down-command)
+(key-chord-define ivy-minibuffer-map "xx"     'hydra-ivy/body) ;; just sample
+
+
+;; helpful ===========  ***  =====================
+;; it's just a brilliant composer of *Help* buffers
+;; Note that the built-in `describe-function' includes both functions
+;; and macros. `helpful-function' is functions only, so we provide
+;; `helpful-callable' as a drop-in replacement.
+(global-set-key (kbd "C-h f") #'helpful-callable)
+
+(global-set-key (kbd "C-h v") #'helpful-variable)
+(global-set-key (kbd "C-h k") #'helpful-key)
+(global-set-key (kbd "C-h x") #'helpful-command)
+
+;; Lookup the current symbol at point. C-c C-d is a common keybinding
+;; for this in lisp modes.
+;; (global-set-key (kbd "C-c C-d") #'helpful-at-point)
+
+;; Look up *F*unctions (excludes macros).
+;;
+;; By default, C-h F is bound to `Info-goto-emacs-command-node'. Helpful
+;; already links to the manual, if a function is referenced there.
+(global-set-key (kbd "C-h F") #'helpful-function)
+
+(setq counsel-describe-function-function #'helpful-callable)
+(setq counsel-describe-variable-function #'helpful-variable)
+;; ======================  =========================
