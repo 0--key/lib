@@ -202,6 +202,11 @@ SCHEDULED: <2024-07-10 Wed>
 :CATEGORY: English
 :END:
 
+*** Grammarly
+SCHEDULED: <2024-06-23 Sun>
+https://github.com/emacs-grammarly/grammarly
+
+
 *** Useful expressions
 SCHEDULED: <2024-06-11 Tue ++4d>
 :PROPERTIES:
@@ -1951,6 +1956,11 @@ SCHEDULED: <2024-06-24 Mon>
 :CATEGORY: Job
 :END:
 
+*** DataAnnotation
+SCHEDULED: <2024-06-11 Tue>
+https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
+
+
 *** Proposals Elaboration
 SCHEDULED: <2024-06-14 Fri>
 :LOGBOOK:
@@ -3216,6 +3226,7 @@ SCHEDULED: <2024-06-08 Sat ++1w>
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2024-06-08 Sat 18:43]--[2024-06-08 Sat 18:58] =>  0:15
 CLOCK: [2024-05-24 Fri 19:16]--[2024-05-24 Fri 19:40] =>  0:24
 CLOCK: [2024-04-05 Fri 16:21]--[2024-04-05 Fri 16:29] =>  0:08
 CLOCK: [2024-02-09 Fri 18:47]--[2024-02-09 Fri 19:00] =>  0:13
@@ -3362,7 +3373,13 @@ SCHEDULED: <2024-06-08 Sat ++2d/3d>
 - State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
 - [2024-03-04 Mon 10:50]
+- GNU password manager [2024-06-08 Sat 19:07]
+- The Outdatedness of Human Beings by Günther Anders [2024-06-08 Sat 19:07]
+- KVM as the Docker basement [2024-06-08 Sat 19:08]
+- Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
+- Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2024-06-08 Sat 19:03]--[2024-06-08 Sat 19:09] =>  0:06
 CLOCK: [2024-06-05 Wed 06:33]--[2024-06-05 Wed 06:42] =>  0:09
 CLOCK: [2024-05-30 Thu 15:54]--[2024-05-30 Thu 16:02] =>  0:08
 CLOCK: [2024-05-30 Thu 09:19]--[2024-05-30 Thu 09:23] =>  0:04

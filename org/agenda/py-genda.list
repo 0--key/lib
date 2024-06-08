@@ -284,6 +284,13 @@ https://realpython.com/python-data-types/
 https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
+*** Integers
+SCHEDULED: <2024-06-11 Tue>
+https://realpython.com/lessons/integers/
+
+**** Arithmetics
+SCHEDULED: <2024-06-12 Wed>
+
 ** The Python's Extended Data Types
 SCHEDULED: <2024-06-13 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
