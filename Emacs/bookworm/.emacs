@@ -44,14 +44,12 @@
 (require 'python)
 (require 'pyvenv)
 ;; (pyvenv-activate "/home/alioth/.local/venv0.1/")
-;; (add-to-list 'load-path "/usr/local/share/emacs/site-lisp/elpy/")
-;; (load "elpy")
-;; (load "elpy-rpc")
-;; (load "elpy-shell")
-;; (load "elpy-profile")
-;; (load "elpy-refactor")
-;; (elpy-enable)
-
+(load "elpy")
+(load "elpy-rpc")
+(load "elpy-shell")
+(load "elpy-profile")
+(load "elpy-refactor")
+(elpy-enable)
 
 (require 'voca-builder)
 (setq voca-builder/voca-file "~/Git/0--key/lib/org/vocabulary/202405.org")
@@ -124,7 +122,7 @@
  '(org-html-htmlize-output-type 'css)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
+   '(gptel htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 
