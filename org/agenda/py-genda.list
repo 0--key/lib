@@ -303,6 +303,8 @@ CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 [[file:~/Git/0--key/org-pub/2024-05-21-data-structures.org::*Linked Lists][LL Overview
 ]][[https://realpython.com/linked-lists-python/#introducing-collectionsdeque][Deque as a separate concept]]
 [[https://www.geeksforgeeks.org/python-linked-list/][Implementation]]
+https://www.geeksforgeeks.org/what-is-linked-list/
+
 
 ** Stack
 SCHEDULED: <2024-06-09 Sun>
@@ -422,7 +424,8 @@ CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 [[elisp:(apropos-command "counsel")]]
 
 - counsel-ack/ag/pt/rg requires ack/ag/pt/rg
-  
+- search occurence by keyword in whole folder (transcripts)
+- https://github.com/abo-abo/swiper
 
 ***** BARE Swiper
 SCHEDULED: <2024-05-20 Mon>
@@ -892,6 +895,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
 - Built-in methods for each type of data.
 - [[info:python3.11#Objects values and types][python3.11#Objects values and types]]
+- https://data-flair.training/blogs/python-number-types-conversion/
 
 
 ** Lambda Function
@@ -916,6 +920,10 @@ SCHEDULED: <2024-06-12 Wed>
 ** Debugging
 SCHEDULED: <2024-06-12 Wed>
 https://realpython.com/python-debug-idle/
+
+** Functions
+SCHEDULED: <2024-06-17 Mon>
+https://realpython.com/defining-your-own-python-function/
 
 
 * LAG Idioms

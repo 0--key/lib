@@ -460,6 +460,7 @@ SCHEDULED: <2024-06-18 Tue>
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+
 ** Bmkp+
 SCHEDULED: <2024-06-08 Sat>
 - Note taken on [2024-05-29 Wed 11:22] \\
@@ -1895,7 +1896,26 @@ SCHEDULED: <2024-06-08 Sat ++2d>
 :LAST_REPEAT: [2024-06-06 Thu 20:38]
 :END:
 - State "AMPLE"      from ""           [2024-06-06 Thu 20:38]
+- talkpython.fm/neo4j [2024-06-08 Sat 07:51]
+- Neo4j [2024-06-08 Sat 08:06]
+- LLMs are shiny [2024-06-08 Sat 08:11]
+- ChatGPT4 is really what I use [2024-06-08 Sat 08:14]
+- Pydantic [2024-06-08 Sat 08:17]
+- you have to ask it to criticize you [2024-06-08 Sat 08:19]
+- Console [2024-06-08 Sat 08:22]
+- https://www.phind.com/search?home=true
+- CLAWD by Anthropic [2024-06-08 Sat 08:30]
+- DocsBot.ai [2024-06-08 Sat 08:31]
+- LangChain [2024-06-08 Sat 09:00]
+- Simon Willison [2024-06-08 Sat 09:01]
+- LLAMA [2024-06-08 Sat 09:03]
+- Mistral [2024-06-08 Sat 09:03]
+- Mixtral [2024-06-08 Sat 09:03]
+- LengChain [2024-06-08 Sat 09:07]
+- LamaIndex!! [2024-06-08 Sat 09:08]
 :LOGBOOK:
+CLOCK: [2024-06-08 Sat 08:59]--[2024-06-08 Sat 09:11] =>  0:12
+CLOCK: [2024-06-08 Sat 07:45]--[2024-06-08 Sat 08:52] =>  1:07
 CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:59] =>  0:41
 CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:18] =>  0:00
 CLOCK: [2024-06-06 Thu 20:08]--[2024-06-06 Thu 20:37] =>  0:29
@@ -2163,7 +2183,7 @@ SCHEDULED: <2024-06-10 Mon>
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-06-07 Fri ++1d>
+SCHEDULED: <2024-06-08 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:52]
 :END:
@@ -2227,7 +2247,8 @@ SCHEDULED: <2024-06-07 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-06-07 Fri 18:44]
+CLOCK: [2024-06-08 Sat 19:11]
+CLOCK: [2024-06-07 Fri 18:44]--[2024-06-07 Fri 18:54] =>  0:10
 CLOCK: [2024-06-06 Thu 20:48]--[2024-06-06 Thu 20:52] =>  0:04
 CLOCK: [2024-06-06 Thu 19:51]--[2024-06-06 Thu 19:54] =>  0:03
 CLOCK: [2024-06-05 Wed 21:24]--[2024-06-05 Wed 21:34] =>  0:10
