@@ -19,7 +19,7 @@ SCHEDULED: <2024-07-11 Thu>
 SCHEDULED: <2024-06-12 Wed>
 
 ** Agile Methodolody
-SCHEDULED: <2024-06-09 Sun ++2d>
+SCHEDULED: <2024-06-12 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-07 Fri 15:30]
 :END:
@@ -34,7 +34,7 @@ CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
 [[elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")]]
 
 ** RESTful web APIs
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-13 Thu>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
@@ -55,7 +55,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** Dissect the Python Itself
-SCHEDULED: <2024-06-09 Sun ++2d>
+SCHEDULED: <2024-06-16 Sun ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 06:44]--[2024-06-04 Tue 06:52] =>  0:08
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
@@ -179,7 +179,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 [[file:/usr/share/doc/python-ipython-doc/html/overview.html][Overview — IPython 7.20.0 documentation]]
 [[file:/usr/share/doc/python-ipython-doc/html/interactive/reference.html#embedding][Embeddig]]
 ** INIT Object Oriented Design
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-17 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-06 Thu 06:09]--[2024-06-06 Thu 06:30] =>  0:21
 :END:
@@ -236,7 +236,7 @@ SCHEDULED: <2024-06-12 Wed>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-06-09 Sun ++1d>
+SCHEDULED: <2024-06-10 Mon ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -269,7 +269,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-06-09 Sun ++1d>
+SCHEDULED: <2024-06-11 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -296,7 +296,7 @@ SCHEDULED: <2024-06-13 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-11 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -307,7 +307,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-14 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -341,7 +341,7 @@ https://emacs-lsp.github.io/dap-mode/
 https://www.youtube.com/watch?v=JmmTUIahB1U
 https://www.reddit.com/r/emacs/comments/131ovtw/emacs_pyright_eglot_make_an_excellent_python_ide/
 *** DELAY Introduction Article
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-17 Mon>
 :LOGBOOK:
 CLOCK: [2024-02-01 Thu 04:58]--[2024-02-01 Thu 05:34] =>  0:36
 CLOCK: [2024-01-17 Wed 09:24]--[2024-01-17 Wed 10:11] =>  0:47
@@ -416,8 +416,8 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
-***** INIT Counsel
-SCHEDULED: <2024-06-09 Sun>
+***** INIT [#A] Counsel
+SCHEDULED: <2024-06-10 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 :END:
@@ -575,8 +575,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO [#A] Elpy
-SCHEDULED: <2024-06-09 Sun ++2d>
+** TODO Elpy
+SCHEDULED: <2024-06-10 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -593,6 +593,8 @@ SCHEDULED: <2024-06-09 Sun ++2d>
 - [[info:elpy.info#Projects]] [2023-12-15 Fri 15:49]
 - [2023-12-15 Fri 15:50]
 :LOGBOOK:
+CLOCK: [2024-06-09 Sun 08:10]--[2024-06-09 Sun 08:47] =>  0:37
+CLOCK: [2024-06-09 Sun 07:47]--[2024-06-09 Sun 08:05] =>  0:18
 CLOCK: [2023-12-15 Fri 15:27]--[2023-12-15 Fri 15:52] =>  0:25
 CLOCK: [2023-12-12 Tue 14:30]--[2023-12-12 Tue 14:40] =>  0:10
 CLOCK: [2023-12-12 Tue 09:30]--[2023-12-12 Tue 10:07] =>  0:37
@@ -654,7 +656,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** LAG FlyMake
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-07-14 Sun>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -794,8 +796,8 @@ file:~/Git/python/algorithms/algorithms
 :PROPERTIES:
 :CATEGORY: PlayWright
 :END:
-**** DELAY Overview
-SCHEDULED: <2024-06-09 Sun ++1d>
+**** LAG Overview
+SCHEDULED: <2024-08-18 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 17:45]
 :END:
@@ -874,11 +876,11 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 
 * Fundamentals
 :PROPERTIES:
-:CATEGORY: PyFu
+:CATEGORY: PyFu{e}
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-06-09 Sun ++1d>
+SCHEDULED: <2024-06-11 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -889,7 +891,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-11 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -899,7 +901,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-06-09 Sun ++3d>
+SCHEDULED: <2024-06-14 Fri ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -911,7 +913,7 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-14 Fri>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
@@ -936,7 +938,7 @@ https://docs.python-guide.org/writing/style/#conventions
 
 
 ** Repo
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-14 Fri>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -965,11 +967,11 @@ SCHEDULED: <2024-06-09 Sun>
 
   
 ** RAW Time Complexity
-SCHEDULED: <2024-06-09 Sun>
+SCHEDULED: <2024-06-14 Fri>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
-** LAG Modules
-SCHEDULED: <2024-06-10 Mon ++3d/4d>
+** RETARD Modules
+SCHEDULED: <2024-08-12 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-01 Wed 15:06]
 :END:
