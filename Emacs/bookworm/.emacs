@@ -43,7 +43,7 @@
 
 (require 'python)
 (require 'pyvenv)
-;; (pyvenv-activate "/home/alioth/.local/venv0.1/")
+(pyvenv-activate "/home/alioth/.local/OpenAI/")
 (load "elpy")
 (load "elpy-rpc")
 (load "elpy-shell")
