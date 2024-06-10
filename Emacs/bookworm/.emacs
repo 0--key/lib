@@ -74,6 +74,10 @@
 ;;
 ;;======================================================
 
+(require 'markdown-mode)
+(require 'htmlize )
+
+
 
 ;; Jekyll settings there -->
 ;;
@@ -122,7 +126,7 @@
  '(org-html-htmlize-output-type 'css)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(gptel htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
+   '(markdown-mode gptel htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 
