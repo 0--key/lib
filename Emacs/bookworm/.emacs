@@ -78,6 +78,12 @@
 (require 'htmlize )
 
 
+;; OpenAI section
+(require 'gptel)
+(require 'gptel-transient)
+(require 'gptel-curl)
+(setq gptel-api-key (getenv "OPENAI_API_KEY"))
+
 
 ;; Jekyll settings there -->
 ;;
@@ -105,7 +111,6 @@
 
   ("jekyll" :components ("jekyll-org" "jekyll-org-img"))
   ))
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
