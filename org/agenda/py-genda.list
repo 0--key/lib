@@ -12,6 +12,8 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
+** [#A] Pydantic
+SCHEDULED: <2024-06-22 Sat>
 ** DELAY Consul, Jenkins, Prometheus
 SCHEDULED: <2024-07-11 Thu>
 
@@ -195,7 +197,11 @@ CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** INIT Reproduce an article from RealPython in Babel!
 SCHEDULED: <2024-06-15 Sat>
-
+SCHEDULED: <2024-06-23 Sun>
+** INIT What is async app?
+SCHEDULED: <2024-06-23 Sun>
+** INIT Web-app with a set pre-defined modulators for queries
+SCHEDULED: <2024-06-23 Sun>
 * Algorithms in CS
 SCHEDULED: <2024-06-18 Tue ++1w>
 :PROPERTIES:

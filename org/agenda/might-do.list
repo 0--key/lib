@@ -854,7 +854,9 @@ https://www.emacswiki.org/emacs/AnsiTerm
 :CATEGORY: Notes
 :END:
 
-
+** Zero-shot learning
+SCHEDULED: <2024-06-25 Tue>
+https://en.wikipedia.org/wiki/Zero-shot_learning
 ** Music
 SCHEDULED: <2024-09-10 Tue>
 :LOGBOOK:
@@ -1060,6 +1062,8 @@ CLOCK: [2022-02-21 Mon 09:19]--[2022-02-21 Mon 09:46] =>  0:27
 CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
 :END:
 [[file:~/git/lib/org/proverbs.org::*A drowning man will clutch at a straw][Proverbs in a moist form]]
+** RAW Frames of Mind by Howard Gardner
+https://www.goodreads.com/book/show/294035.Frames_Of_Mind
 ** RAW Punished by Rewards by Alfie Kohn
 [[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
 ** RAW Distraction Epidemic
@@ -1915,13 +1919,16 @@ CLOCK: [2024-06-13 Thu 17:20]--[2024-06-13 Thu 17:22] =>  0:02
   and prove the concept.
 ** AMPLE [#C] Package-check-signature
 SCHEDULED: <2024-05-30 Thu>
+** RAW [#C] PhiloMath
+SCHEDULED: <2024-06-22 Sat>
+
 * NoSQL
 :PROPERTIES:
 :CATEGORY: NoSQL
 :END:
 
-** INIT MongoDB
-SCHEDULED: <2024-06-18 Tue>
+** DELAY MongoDB
+SCHEDULED: <2024-07-24 Wed>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 08:53]--[2024-05-30 Thu 09:01] =>  0:08
 :END:
@@ -1951,21 +1958,50 @@ SCHEDULED: <2024-06-24 Mon>
 
 *** LinkedIn trial
 DEADLINE: <2024-07-12 Fri -3d>
+
+*** Job application sending
+SCHEDULED: <2024-06-28 Fri ++1d>
+
 *** DataAnnotation
-SCHEDULED: <2024-06-15 Sat>
+SCHEDULED: <2024-06-27 Thu>
 https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
 
 
 *** Proposals Elaboration
-SCHEDULED: <2024-06-17 Mon>
+SCHEDULED: <2024-06-24 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
 CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
 :END:
 
+*** [#A] OpenAI section in PD&TD CVs
+SCHEDULED: <2024-06-28 Fri>
+
+*** Cover letters templates (with links)
+SCHEDULED: <2024-06-28 Fri>
+
+*** Alternative full-fledged CV with links
+SCHEDULED: <2024-06-28 Fri ++1d>
+
+*** [#A] Full/uncutted CV in blog
+SCHEDULED: <2024-06-22 Sat ++1d>
+:LOGBOOK:
+CLOCK: [2024-06-22 Sat 08:14]--[2024-06-22 Sat 08:15] =>  0:01
+:END:
+
+*** Seek for hiring managers
+SCHEDULED: <2024-06-28 Fri ++3d>
+
+*** Learning on demand
+SCHEDULED: <2024-06-23 Sun>
+(It's just impossible to know everything)
+Be wicked smart as a child do
+
+*** What are the questions on the job interview?
+SCHEDULED: <2024-06-26 Wed>
 
 *** Full-stack Python Developer
-SCHEDULED: <2024-06-21 Fri ++1d>
+SCHEDULED: <2024-06-28 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 19:08]
 :END:
