@@ -16,10 +16,10 @@ Advanced to-do list    -*- mode: org; -*-
 SCHEDULED: <2024-07-11 Thu>
 
 ** Cascading Style Sheets (CSS), HTML5, JSON, and XML
-SCHEDULED: <2024-06-12 Wed>
+SCHEDULED: <2024-06-18 Tue>
 
 ** Agile Methodolody
-SCHEDULED: <2024-06-12 Wed ++2d>
+SCHEDULED: <2024-06-17 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-07 Fri 15:30]
 :END:
@@ -34,7 +34,7 @@ CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
 [[elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")]]
 
 ** RESTful web APIs
-SCHEDULED: <2024-06-13 Thu>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
@@ -194,10 +194,10 @@ SCHEDULED: <2024-06-18 Tue>
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** INIT Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-06-11 Tue>
+SCHEDULED: <2024-06-15 Sat>
 
 * Algorithms in CS
-SCHEDULED: <2024-06-12 Wed ++1w>
+SCHEDULED: <2024-06-18 Tue ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -219,7 +219,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-06-12 Wed ++2d>
+SCHEDULED: <2024-06-18 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -232,11 +232,11 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-06-12 Wed>
+SCHEDULED: <2024-06-22 Sat>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-06-10 Mon ++1d>
+SCHEDULED: <2024-06-16 Sun ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -269,7 +269,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-06-11 Tue ++1d>
+SCHEDULED: <2024-06-22 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -285,18 +285,18 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 *** Integers
-SCHEDULED: <2024-06-11 Tue>
+SCHEDULED: <2024-06-14 Fri>
 https://realpython.com/lessons/integers/
 
 **** Arithmetics
-SCHEDULED: <2024-06-12 Wed>
+SCHEDULED: <2024-06-19 Wed>
 
 ** The Python's Extended Data Types
-SCHEDULED: <2024-06-13 Thu>
+SCHEDULED: <2024-06-20 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-06-11 Tue>
+SCHEDULED: <2024-06-14 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -416,16 +416,27 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[info:ivy#Completion Styles][ivy#Completion Styles]]
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
-***** INIT [#A] Counsel
-SCHEDULED: <2024-06-10 Mon>
+***** INIT Counsel
+SCHEDULED: <2024-06-17 Mon>
 :LOGBOOK:
+CLOCK: [2024-06-10 Mon 12:56]--[2024-06-10 Mon 13:26] =>  0:30
 CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 :END:
 [[elisp:(apropos-command "counsel")]]
 
 - counsel-ack/ag/pt/rg requires ack/ag/pt/rg
+- counsel-cd
+  - Change the directory for the currently running Ivy grep-like command.
 - search occurence by keyword in whole folder (transcripts)
 - https://github.com/abo-abo/swiper
+- counsel-bookmarked-directory [2024-06-10 Mon 13:04]
+- counsel-buffer-or-recentf [2024-06-10 Mon 13:05]
+- counsel-descbinds [2024-06-10 Mon 13:13]
+- counsel-google [2024-06-10 Mon 13:22]
+***** Counsel-Git
+SCHEDULED: <2024-06-17 Mon>
+[[elisp:(apropos-command "counsel-git")]]
+
 
 ***** BARE Swiper
 SCHEDULED: <2024-05-20 Mon>
@@ -545,8 +556,8 @@ the Pylsp and Gopls LSP servers:
 SCHEDULED: <2024-07-19 Fri>
 https://github.com/magit/forge
 
-**** RETARD [#A] Shells
-SCHEDULED: <2024-06-11 Tue>
+**** BARE [#A] Shells                                            :ARCHIVE:
+SCHEDULED: <2024-06-12 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-17 Wed 18:04]--[2024-01-17 Wed 18:40] =>  0:36
 CLOCK: [2024-01-16 Tue 17:49]--[2024-01-16 Tue 18:27] =>  0:38
@@ -576,7 +587,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO Elpy
-SCHEDULED: <2024-06-10 Mon ++2d>
+SCHEDULED: <2024-06-15 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -880,7 +891,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-06-11 Tue ++1d>
+SCHEDULED: <2024-06-17 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -891,7 +902,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-06-11 Tue>
+SCHEDULED: <2024-06-13 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -917,10 +928,10 @@ SCHEDULED: <2024-06-14 Fri>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-06-12 Wed>
+SCHEDULED: <2024-06-20 Thu>
 
 ** Debugging
-SCHEDULED: <2024-06-12 Wed>
+SCHEDULED: <2024-06-16 Sun>
 https://realpython.com/python-debug-idle/
 
 ** Functions
