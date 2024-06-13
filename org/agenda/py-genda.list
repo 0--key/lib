@@ -285,7 +285,7 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 *** Integers
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 https://realpython.com/lessons/integers/
 
 **** Arithmetics
@@ -296,7 +296,7 @@ SCHEDULED: <2024-06-20 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -307,7 +307,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -843,8 +843,8 @@ CLOCK: [2024-03-25 Mon 12:30]--[2024-03-25 Mon 12:49] =>  0:19
 CLOCK: [2024-03-20 Wed 09:26]--[2024-03-20 Wed 09:35] =>  0:09
 :END:
 https://playwright.dev/python/docs/codegen
-**** DELAY Inspector
-SCHEDULED: <2024-06-14 Fri>
+**** LAG Inspector
+SCHEDULED: <2024-08-23 Fri>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 12:51]--[2024-03-25 Mon 12:55] =>  0:04
 CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
@@ -902,7 +902,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-06-13 Thu>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -912,7 +912,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-06-14 Fri ++3d>
+SCHEDULED: <2024-06-15 Sat ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -924,7 +924,7 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
@@ -989,7 +989,7 @@ SCHEDULED: <2024-06-15 Sat>
 
   
 ** RAW Time Complexity
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** RETARD Modules
