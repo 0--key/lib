@@ -947,9 +947,20 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 
+** Recursion
+SCHEDULED: <2024-06-15 Sat>
+https://algo.monster/problems/recursion_intro
+
+** Trees
+SCHEDULED: <2024-06-15 Sat>
+https://algo.monster/problems/tree_intro
+
+** Depth First Search
+SCHEDULED: <2024-06-16 Sun ++3d>
+https://algo.monster/problems/dfs_intro
 
 ** Repo
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
