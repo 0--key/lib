@@ -24,7 +24,7 @@ Advanced to-do list    -*- mode: org; -*-
 :END:
 
 *** Vanessa Van Edwards
-SCHEDULED: <2024-06-14 Fri ++2d/3d>
+SCHEDULED: <2024-06-15 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 09:21]
 :END:
@@ -208,7 +208,7 @@ https://github.com/emacs-grammarly/grammarly
 
 
 *** [#A] Useful expressions
-SCHEDULED: <2024-06-14 Fri ++4d>
+SCHEDULED: <2024-06-15 Sat ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-07 Fri 07:57]
 :END:
@@ -1417,7 +1417,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-06-14 Fri ++1w>
+SCHEDULED: <2024-06-15 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 18:22]
 :END:
@@ -2156,8 +2156,9 @@ SCHEDULED: <2024-06-19 Wed>
 
 
 ***** [#A] InDeed profile elaboration
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
+CLOCK: [2024-06-14 Fri 07:02]--[2024-06-14 Fri 08:19] =>  1:17
 CLOCK: [2024-06-12 Wed 16:16]--[2024-06-12 Wed 16:56] =>  0:40
 CLOCK: [2024-06-10 Mon 09:24]--[2024-06-10 Mon 09:25] =>  0:01
 CLOCK: [2024-05-27 Mon 08:59]--[2024-05-27 Mon 09:05] =>  0:06
@@ -2191,7 +2192,7 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-06-13 Thu ++1d>
+SCHEDULED: <2024-06-14 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-12 Wed 20:14]
 :END:
@@ -2258,7 +2259,8 @@ SCHEDULED: <2024-06-13 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-06-13 Thu 18:28]
+CLOCK: [2024-06-15 Sat 06:54]
+CLOCK: [2024-06-13 Thu 18:28]--[2024-06-13 Thu 18:38] =>  0:10
 CLOCK: [2024-06-12 Wed 20:04]--[2024-06-12 Wed 20:14] =>  0:10
 CLOCK: [2024-06-09 Sun 20:57]--[2024-06-09 Sun 20:59] =>  0:02
 CLOCK: [2024-06-09 Sun 08:47]--[2024-06-09 Sun 08:49] =>  0:02
@@ -2752,7 +2754,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-06-14 Fri ++1d>
+SCHEDULED: <2024-06-15 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:22]
 :END:
@@ -3047,7 +3049,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-06-14 Fri ++1d>
+SCHEDULED: <2024-06-15 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:28]
 :END:
@@ -3813,7 +3815,7 @@ CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
 ** INIT [#A] 10 Daily Idioms
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 11:27]--[2024-03-25 Mon 11:34] =>  0:07
 CLOCK: [2024-03-21 Thu 09:06]--[2024-03-21 Thu 09:18] =>  0:12
@@ -4227,7 +4229,7 @@ https://www.youtube.com/watch?v=JImYEdqVQR8
 [[elisp:(bookmark-jump-other-window "Custom GPTS with Python")][Pointer for TalkToMe Episode]]
 
 ** [#A] Prompt Engineering
-SCHEDULED: <2024-06-14 Fri>
+SCHEDULED: <2024-06-15 Sat>
 - Note taken on [2024-06-13 Thu 15:06] \\
   Open AI CookBook
 https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/2/guidelines
@@ -4246,6 +4248,7 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/4/summarizing
   In addition, you’ll learn two key principles for writing effective
   prompts and how to systematically engineer good prompts.
 :LOGBOOK:
+CLOCK: [2024-06-14 Fri 05:00]--[2024-06-14 Fri 05:45] =>  0:45
 CLOCK: [2024-06-13 Thu 15:55]--[2024-06-13 Thu 16:00] =>  0:05
 CLOCK: [2024-06-13 Thu 14:57]--[2024-06-13 Thu 15:28] =>  0:31
 CLOCK: [2024-06-10 Mon 13:34]--[2024-06-10 Mon 14:03] =>  0:29
