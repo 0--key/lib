@@ -24,7 +24,7 @@ Advanced to-do list    -*- mode: org; -*-
 :END:
 
 *** Vanessa Van Edwards
-SCHEDULED: <2024-06-15 Sat ++2d/3d>
+SCHEDULED: <2024-07-05 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 09:21]
 :END:
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=c68E7S_D3Rs
 https://www.youtube.com/watch?v=f9SA25OukyM
 
 *** Joe Navarro
-SCHEDULED: <2024-06-21 Fri ++5d>
+SCHEDULED: <2024-07-05 Fri ++5d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 09:34]
 :END:
@@ -196,7 +196,6 @@ Take an attempt and publish your work
 *** DELAY Test Driven Learnning
 SCHEDULED: <2024-07-10 Wed>
 
-
 ** English
 :PROPERTIES:
 :CATEGORY: English
@@ -207,8 +206,8 @@ SCHEDULED: <2024-06-23 Sun>
 https://github.com/emacs-grammarly/grammarly
 
 
-*** [#A] Useful expressions
-SCHEDULED: <2024-06-15 Sat ++4d>
+*** Useful expressions
+SCHEDULED: <2024-06-28 Fri ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-07 Fri 07:57]
 :END:
@@ -220,8 +219,8 @@ https://www.ihbristol.com/useful-english-expressions/
 
 *** British Counsil
 
-**** DELAY Mitigators
-SCHEDULED: <2024-06-19 Wed>
+**** LAG Mitigators
+SCHEDULED: <2024-08-19 Mon>
 [[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 
 *** LAG Litotes
@@ -231,8 +230,8 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 :END:
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
-*** RAW 25 must know Engllish expressions
-SCHEDULED: <2024-06-16 Sun>
+*** RAW [#A] 25 must know Engllish expressions
+SCHEDULED: <2024-06-22 Sat>
 :LOGBOOK:
 CLOCK: [2024-05-22 Wed 19:44]--[2024-05-22 Wed 19:45] =>  0:01
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
@@ -244,8 +243,8 @@ https://www.youtube.com/watch?v=SuCDq_CZ52o
 [[https://www.youtube.com/watch?v=j_mMowcN0Fs][60 Incredibly Useful Phrases]]
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
-*** LAG 101 English Idioms in 13 minutes
-SCHEDULED: <2024-06-16 Sun>
+*** RAW 101 English Idioms in 13 minutes
+SCHEDULED: <2024-06-25 Tue>
 :LOGBOOK:
 CLOCK: [2024-03-13 Wed 12:07]--[2024-03-13 Wed 12:18] =>  0:11
 CLOCK: [2024-03-02 Sat 16:03]--[2024-03-02 Sat 16:33] =>  0:30
@@ -266,7 +265,6 @@ Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 - Enjoyment;
 - Meaning;
 - <<<
-
 
 ** YouTube
 
@@ -291,8 +289,8 @@ CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
 
 https://www.youtube.com/watch?v=MFXWY8TqSWw
 
-*** LAG Life Structuring and Ordering
-SCHEDULED: <2024-06-17 Mon>
+*** RETARD Life Structuring and Ordering
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
 CLOCK: [2024-01-25 Thu 18:11]--[2024-01-25 Thu 18:14] =>  0:03
 CLOCK: [2024-01-10 Wed 09:29]--[2024-01-10 Wed 09:56] =>  0:27
@@ -337,11 +335,12 @@ CLOCK: [2024-03-12 Tue 12:13]--[2024-03-12 Tue 12:32] =>  0:19
 [[https://www.youtube.com/watch?v=dbiNhAZlXZk][Video]]
 [[elisp:(bookmark-jump-other-frame "Use Strategic Thinking to Create the Life You Want")][Article]]
 
-** Erradicate an overthinking
-SCHEDULED: <2024-06-18 Tue ++35d>
+** DELAY Erradicate an overthinking
+SCHEDULED: <2024-08-25 Sun ++35d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-14 Tue 15:49]
+:LAST_REPEAT: [2024-06-19 Wed 07:40]
 :END:
+- State "AMPLE"      from ""           [2024-06-19 Wed 07:40]
 - State "AMPLE"      from ""           [2024-05-14 Tue 15:49]
 :LOGBOOK:
 CLOCK: [2024-05-14 Tue 15:43]--[2024-05-14 Tue 15:58] =>  0:15
@@ -419,8 +418,8 @@ https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 [[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
 
 
-** DELAY Basic Branches&Merging
-SCHEDULED: <2024-06-17 Mon>
+** RETARD Basic Branches&Merging
+SCHEDULED: <2024-08-09 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -434,7 +433,7 @@ CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** LAG ReSet, ReBase
-SCHEDULED: <2024-06-18 Tue ++2d/3d>
+SCHEDULED: <2024-08-19 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-17 Wed 10:17]
 :END:
@@ -455,12 +454,16 @@ CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
 https://git-scm.com/docs/git-reset
 [[info:magit#Rebasing][magit#Rebasing]]
 ** LAG Cherry
-SCHEDULED: <2024-06-18 Tue>
+SCHEDULED: <2024-08-19 Mon>
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
-
+** AI inside Emacs
+SCHEDULED: <2024-06-26 Wed ++1d>
+:LOGBOOK:
+CLOCK: [2024-06-19 Wed 15:00]--[2024-06-19 Wed 15:30] =>  0:30
+:END:
 ** DELAY Bmkp+
 SCHEDULED: <2024-07-19 Fri>
 - Note taken on [2024-05-29 Wed 11:22] \\
@@ -493,7 +496,7 @@ CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
 ** Python Is Inside
-SCHEDULED: <2024-06-15 Sat ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
@@ -562,7 +565,7 @@ CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
 - [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
 - [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
 ** LAG Company-Mode
-SCHEDULED: <2024-06-18 Tue>
+SCHEDULED: <2024-08-19 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-16 Sat 17:41]--[2023-12-16 Sat 17:53] =>  0:12
 CLOCK: [2023-12-15 Fri 15:57]--[2023-12-15 Fri 16:08] =>  0:11
@@ -588,7 +591,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** DELAY Extend
-SCHEDULED: <2024-06-18 Tue ++2w>
+SCHEDULED: <2024-07-05 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-03 Wed 17:26]
 :END:
@@ -829,8 +832,8 @@ SCHEDULED: <2024-07-13 Sat>
 https://www.emacswiki.org/emacs/ModeHooks
 - Separate colour theme for each mode
 - ~key-chord-mode~ in ~org-drill~
-** LAG Emacs as WM:
-SCHEDULED: <2024-06-17 Mon>
+** RETARD Emacs as WM:
+SCHEDULED: <2024-07-07 Sun>
 https://github.com/ch11ng/exwm/wiki
 ** LAG Console S-right/left fix:
 SCHEDULED: <2024-07-15 Mon>
@@ -841,11 +844,11 @@ SCHEDULED: <2024-07-15 Mon>
 CLOCK: [2024-01-17 Wed 11:10]--[2024-01-17 Wed 11:20] =>  0:10
 :END:
 https://github.com/atykhonov/google-translate#common-ui-customization
-** LAG Eterm as elisp shell
-SCHEDULED: <2024-06-17 Mon>
+** RETARD Eterm as elisp shell
+SCHEDULED: <2024-06-24 Mon>
 - eshell-git-prompt
-** LAG Lynx inside ansi-term
-SCHEDULED: <2024-06-17 Mon>
+** RETARD Lynx inside ansi-term
+SCHEDULED: <2024-07-24 Wed>
 GitHub don't displays properly in ~EWW~
 https://www.emacswiki.org/emacs/AnsiTerm
 
@@ -1225,8 +1228,8 @@ experimentation/.
 SCHEDULED: <2022-11-11 Fri>
 bmkp-store-org-link
 [[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
-** LAG Tracking your habits
-SCHEDULED: <2024-06-17 Mon .+2w>
+** RETARD Tracking your habits
+SCHEDULED: <2024-08-19 Mon .+2w>
 :PROPERTIES:
 :LAST_REPEAT: [2022-11-15 Tue 07:47]
 :END:
@@ -1272,7 +1275,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-08-12 Mon>
 [[info:org#TODO types][org#TODO types]]
 ** Whole week scheduling
-SCHEDULED: <2024-06-16 Sun .+1w>
+SCHEDULED: <2024-06-22 Sat .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-06-09 Sun 20:57]
@@ -1369,7 +1372,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** RAW Bash with Andrew
-SCHEDULED: <2024-06-16 Sun .+1w>
+SCHEDULED: <2024-06-23 Sun .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1421,7 +1424,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-06-15 Sat ++1w>
+SCHEDULED: <2024-06-22 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 18:22]
 :END:
@@ -1574,58 +1577,6 @@ CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
 CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
 :END:
 For open-source projects contributing
-** LAG [#B] Thought Cast
-SCHEDULED: <2024-06-17 Mon ++3d/4d>
-:PROPERTIES:
-:CATEGORY: Live&Learn
-:LAST_REPEAT: [2023-11-23 Thu 10:42]
-:END:
-- State "SET"        from ""           [2023-11-23 Thu 10:42]
-- State "AMPLE"      from ""           [2023-11-14 Tue 17:21]
-- State "AMPLE"      from ""           [2023-11-07 Tue 11:54]
-- State "AMPLE"      from ""           [2023-10-16 Mon 15:22]
-- State "AMPLE"      from ""           [2023-10-12 Thu 11:05]
-- State "AMPLE"      from ""           [2023-10-05 Thu 10:07]
-- State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
-- State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
-:LOGBOOK:
-CLOCK: [2023-11-14 Tue 15:59]--[2023-11-14 Tue 17:21] =>  1:22
-CLOCK: [2023-11-07 Tue 11:28]--[2023-11-07 Tue 11:54] =>  0:26
-CLOCK: [2023-10-23 Mon 11:01]--[2023-10-23 Mon 11:31] =>  0:30
-CLOCK: [2023-10-16 Mon 14:53]--[2023-10-16 Mon 15:22] =>  0:29
-CLOCK: [2023-10-12 Thu 10:44]--[2023-10-12 Thu 11:05] =>  0:21
-CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
-CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
-CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
-CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
-CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
-CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
-:END:
-FarnamStreet overview
-[[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
-https://www.youtube.com/watch?v=k_zt6qRTmN0
-*** RETARD [#C] Double Loop Learning                              :ARCHIVE:
-SCHEDULED: <2024-05-17 Fri ++2w>
-:PROPERTIES:
-:LAST_REPEAT: [2023-12-08 Fri 16:18]
-:END:
-- State "AMPLE"      from ""           [2023-12-08 Fri 16:18]
-- Note taken on [2023-12-08 Fri 16:17] \\
-  Infinite loop learning (maybe three loops are the optimal approach)
-- State "AMPLE"      from ""           [2023-11-02 Thu 11:12]
-- State "AMPLE"      from ""           [2023-10-31 Tue 19:00]
-- State "AMPLE"      from ""           [2023-10-26 Thu 11:36]
-- [[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*How to Structure]] [2023-11-02 Thu 11:11]
-:LOGBOOK:
-CLOCK: [2023-11-07 Tue 09:50]--[2023-11-07 Tue 10:10] =>  0:20
-CLOCK: [2023-11-04 Sat 09:00]--[2023-11-04 Sat 09:31] =>  0:31
-CLOCK: [2023-11-02 Thu 11:11]--[2023-11-02 Thu 11:11] =>  0:00
-CLOCK: [2023-11-02 Thu 10:49]--[2023-11-02 Thu 11:10] =>  0:21
-CLOCK: [2023-10-31 Tue 18:43]--[2023-10-31 Tue 19:00] =>  0:17
-CLOCK: [2023-10-26 Thu 11:08]--[2023-10-26 Thu 11:36] =>  0:28
-:END:
-https://www.youtube.com/watch?v=83w-jFcwiX0
-[[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*Thermostat Analogy][Thermostat Analogy]]
 ** RETARD 3 months in the future /smart/ shift
 SCHEDULED: <2024-07-16 Tue>
 - Note taken on [2023-09-21 Thu 19:32] \\
@@ -1880,9 +1831,10 @@ CLOCK: [2024-06-04 Tue 06:58]--[2024-06-04 Tue 07:09] =>  0:11
 - https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/becoming-self-employed/
 - https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/starting-a-business/
   
-** [#A] Open Source Society University
-SCHEDULED: <2024-06-17 Mon>
+** Open Source Society University
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
+CLOCK: [2024-06-19 Wed 09:00]--[2024-06-19 Wed 09:06] =>  0:06
 CLOCK: [2024-06-13 Thu 06:24]--[2024-06-13 Thu 06:53] =>  0:29
 CLOCK: [2024-06-04 Tue 06:55]--[2024-06-04 Tue 06:58] =>  0:03
 :END:
@@ -1895,11 +1847,18 @@ https://github.com/ossu/computer-science?tab=readme-ov-file
 SCHEDULED: <2024-06-28 Fri>
 ** DELAY [#C] How to detour ATS?
 SCHEDULED: <2024-06-28 Fri>
-** Lead Agenda elaboration
-SCHEDULED: <2024-06-16 Sun ++3d/4d>
+** [#C] Lead Agenda elaboration
+SCHEDULED: <2024-06-23 Sun ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:22]
 :END:
+- Note taken on [2024-06-17 Mon 07:29] \\
+  ** RAW [#B] Learn with OpenAI
+  :LOGBOOK:
+  CLOCK: [2024-06-17 Mon 07:13]--[2024-06-17 Mon 07:29] =>  0:16
+  CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
+  :END:
+  [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 - State "AMPLE"      from ""           [2024-06-13 Thu 18:22]
 - Note taken on [2024-06-13 Thu 17:20] \\
   Link for transcripts
@@ -1907,6 +1866,7 @@ SCHEDULED: <2024-06-16 Sun ++3d/4d>
   + Link for Course
   + Counsel
 :LOGBOOK:
+CLOCK: [2024-06-17 Mon 07:29]--[2024-06-17 Mon 07:31] =>  0:02
 CLOCK: [2024-06-13 Thu 17:45]--[2024-06-13 Thu 18:22] =>  0:37
 CLOCK: [2024-06-13 Thu 17:20]--[2024-06-13 Thu 17:22] =>  0:02
 :END:
@@ -2028,7 +1988,7 @@ CLOCK: [2024-06-10 Mon 07:40]--[2024-06-10 Mon 08:10] =>  0:30
 :END:
 
 *** Boolean search on LinkedIn
-SCHEDULED: <2024-06-19 Wed>
+SCHEDULED: <2024-06-22 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-10 Mon 08:53]--[2024-06-10 Mon 09:14] =>  0:21
 :END:
@@ -2171,7 +2131,9 @@ CLOCK: [2024-05-27 Mon 15:26]--[2024-05-27 Mon 17:26] =>  2:00
 :END:
 
 ***** CV elaboration
-SCHEDULED: <2024-06-16 Sun>
+SCHEDULED: <2024-06-22 Sat>
+- Note taken on [2024-06-17 Mon 07:06] \\
+  Make a full-fledged CV with links for my projects and portfolio
 :LOGBOOK:
 CLOCK: [2024-06-10 Mon 06:03]--[2024-06-10 Mon 07:34] =>  1:31
 CLOCK: [2024-05-28 Tue 06:43]--[2024-05-28 Tue 08:57] =>  2:14
@@ -2187,12 +2149,12 @@ CLOCK: [2024-05-27 Mon 08:47]--[2024-05-27 Mon 08:59] =>  0:12
 :END:
 
 ***** CV rectification
-SCHEDULED: <2024-06-19 Wed>
+SCHEDULED: <2024-06-28 Fri>
 [[https://docs.google.com/document/d/1LTFbCrMXFxqqG5HLTsIJQPStnF_IzzUPNC1LPxbdrek/edit][June]]
 
 
 ***** [#A] InDeed profile elaboration
-SCHEDULED: <2024-06-15 Sat>
+SCHEDULED: <2024-06-28 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-14 Fri 07:02]--[2024-06-14 Fri 08:19] =>  1:17
 CLOCK: [2024-06-12 Wed 16:16]--[2024-06-12 Wed 16:56] =>  0:40
@@ -2205,7 +2167,7 @@ CLOCK: [2024-05-27 Mon 08:59]--[2024-05-27 Mon 09:05] =>  0:06
 SCHEDULED: <2024-06-26 Wed>
 
 *** DELAY Skill endorsement at LinkedIn
-SCHEDULED: <2024-06-19 Wed>
+SCHEDULED: <2024-06-28 Fri>
 
 *** DELAY Vikki's LinkedIn//UpWork
 SCHEDULED: <2024-06-26 Wed ++1d>
@@ -2228,7 +2190,7 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-06-14 Fri ++1d>
+SCHEDULED: <2024-06-22 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-12 Wed 20:14]
 :END:
@@ -2295,7 +2257,8 @@ SCHEDULED: <2024-06-14 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-06-15 Sat 06:54]
+CLOCK: [2024-06-22 Sat 08:15]
+CLOCK: [2024-06-15 Sat 06:54]--[2024-06-15 Sat 06:58] =>  0:04
 CLOCK: [2024-06-13 Thu 18:28]--[2024-06-13 Thu 18:38] =>  0:10
 CLOCK: [2024-06-12 Wed 20:04]--[2024-06-12 Wed 20:14] =>  0:10
 CLOCK: [2024-06-09 Sun 20:57]--[2024-06-09 Sun 20:59] =>  0:02
@@ -2790,7 +2753,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-06-15 Sat ++1d>
+SCHEDULED: <2024-06-22 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:22]
 :END:
@@ -2852,6 +2815,15 @@ SCHEDULED: <2024-06-15 Sat ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-06-22 Sat 08:11]--[2024-06-22 Sat 08:14] =>  0:03
+CLOCK: [2024-06-21 Fri 17:56]--[2024-06-21 Fri 18:00] =>  0:04
+CLOCK: [2024-06-21 Fri 17:15]--[2024-06-21 Fri 17:18] =>  0:03
+CLOCK: [2024-06-21 Fri 06:16]--[2024-06-21 Fri 06:20] =>  0:04
+CLOCK: [2024-06-20 Thu 06:52]--[2024-06-20 Thu 06:56] =>  0:04
+CLOCK: [2024-06-19 Wed 07:40]--[2024-06-19 Wed 07:44] =>  0:04
+CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:39] =>  0:02
+CLOCK: [2024-06-19 Wed 07:29]--[2024-06-19 Wed 07:37] =>  0:08
+CLOCK: [2024-06-17 Mon 07:05]--[2024-06-17 Mon 07:13] =>  0:08
 CLOCK: [2024-06-13 Thu 17:41]--[2024-06-13 Thu 17:45] =>  0:04
 CLOCK: [2024-06-12 Wed 16:11]--[2024-06-12 Wed 16:16] =>  0:05
 CLOCK: [2024-06-12 Wed 09:28]--[2024-06-12 Wed 09:29] =>  0:01
@@ -3085,7 +3057,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-06-15 Sat ++1d>
+SCHEDULED: <2024-06-22 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:28]
 :END:
@@ -3223,7 +3195,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Clean all that mess up!
-SCHEDULED: <2024-06-20 Thu ++1w>
+SCHEDULED: <2024-06-28 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:52]
 :END:
@@ -3293,7 +3265,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2024-06-15 Sat ++1w>
+SCHEDULED: <2024-06-23 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-08 Sat 19:52]
 :END:
@@ -3374,7 +3346,7 @@ CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
 *** DELAY English We Speak
-SCHEDULED: <2024-06-18 Tue ++1d>
+SCHEDULED: <2024-06-22 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
@@ -3432,10 +3404,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-06-15 Sat ++2d/3d>
+SCHEDULED: <2024-06-26 Wed ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-08 Sat 19:22]
+:LAST_REPEAT: [2024-06-19 Wed 15:00]
 :END:
+- State "AMPLE"      from ""           [2024-06-19 Wed 15:00]
 - State "AMPLE"      from ""           [2024-06-08 Sat 19:22]
 - State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
 - State "AMPLE"      from ""           [2024-05-27 Mon 19:50]
@@ -3466,6 +3439,9 @@ SCHEDULED: <2024-06-15 Sat ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2024-06-19 Wed 14:25]--[2024-06-19 Wed 14:53] =>  0:28
+CLOCK: [2024-06-19 Wed 09:14]--[2024-06-19 Wed 09:25] =>  0:11
+CLOCK: [2024-06-16 Sun 07:10]--[2024-06-16 Sun 07:20] =>  0:10
 CLOCK: [2024-06-08 Sat 19:03]--[2024-06-08 Sat 19:09] =>  0:06
 CLOCK: [2024-06-05 Wed 06:33]--[2024-06-05 Wed 06:42] =>  0:09
 CLOCK: [2024-05-30 Thu 15:54]--[2024-05-30 Thu 16:02] =>  0:08
@@ -3631,9 +3607,6 @@ CLOCK: [2022-12-05 Mon 09:24]--[2022-12-05 Mon 09:31] =>  0:07
 For reguar tasks: TODO>>CURRENT|DONE ;; actually they are never being done!
 For irregular/unique ones: RAW>>INIT>>ACTUAL|DONE
 [[info:org#Multiple sets in one file][org#Multiple sets in one file]]
-** RETARD Tracking TODO state changes
-SCHEDULED: <2024-06-17 Mon>
- [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
 ** SET Letterkenny/Donegal LUG/Emacs/Python
 SCHEDULED: <2023-06-25 Sun>
 ** INIT Regular and habitual tasks not need in TODO status!!!      :ARCHIVE:
@@ -3810,7 +3783,7 @@ CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
 - Note taken on [2023-06-06 Tue 07:40] \\
   Or even pure /.txt/ form to dissect it in ~Emacs~ directly
 ** RAW Andrew's private summer lessons
-SCHEDULED: <2024-06-16 Sun>
+SCHEDULED: <2024-06-23 Sun>
  - Emacs;
  - Bash;
  - Git;
@@ -3841,17 +3814,15 @@ SCHEDULED: <2023-12-20 Wed>
 [[https://lucidmanager.org/productivity/emacs-chromebook/][link]]
 ** RAW Bmkp
 [[https://www.emacswiki.org/emacs/BookmarkPlus][link]]
-** RAW [#B] Learn with OpenAI
-SCHEDULED: <2024-06-16 Sun>
-:LOGBOOK:
-CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
-:END:
-[[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
 
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
-** INIT [#A] 10 Daily Idioms
-SCHEDULED: <2024-06-15 Sat>
+** RAW [#A] 10 Daily Idioms
+SCHEDULED: <2024-06-27 Thu ++5d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-06-22 Sat 08:12]
+:END:
+- State "AMPLE"      from "INIT"       [2024-06-22 Sat 08:12]
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 11:27]--[2024-03-25 Mon 11:34] =>  0:07
 CLOCK: [2024-03-21 Thu 09:06]--[2024-03-21 Thu 09:18] =>  0:12
@@ -4001,8 +3972,8 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
  [[https://docs.python-guide.org/writing/structure/][Structuring Your Project — The Hitchhiker's Guide to Python]]
 ** SET New destination for books
 SCHEDULED: <2023-12-10 Sun>
-** DELAY [#A] Check =Elpy= venv
-SCHEDULED: <2024-06-17 Mon>
+** LAG [#A] Check =Elpy= venv
+SCHEDULED: <2024-08-19 Mon>
 :LOGBOOK:
 CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 :END:
@@ -4012,7 +3983,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2024-07-23 Tue>
 In fire alarm example
 ** DELAY [#A] Math with Andrew
-SCHEDULED: <2024-06-16 Sun ++2d/3d>
+SCHEDULED: <2024-06-23 Sun ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:22]
 :END:
@@ -4064,7 +4035,7 @@ SCHEDULED: <2024-07-27 Sat ++3d>
 CLOCK: [2023-12-09 Sat 17:18]--[2023-12-09 Sat 17:33] =>  0:15
 :END:
 seems it it possible to manage them in ~Emacs~
-** DELAY Emacs IDE for Vikky at ~Dell~
+** BARE Emacs IDE for Vikky at ~Dell~
 SCHEDULED: <2024-06-17 Mon>
 :LOGBOOK:
 CLOCK: [2024-04-08 Mon 18:54]--[2024-04-08 Mon 18:57] =>  0:03
@@ -4211,8 +4182,8 @@ https://docs.docker.com/get-started/
 :PROPERTIES:
 :CATEGORY: LLM
 :END:
-** [#A] Overview
-SCHEDULED: <2024-06-15 Sat ++2d>
+** Overview
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-09 Sun 07:09]
 :END:
@@ -4264,8 +4235,12 @@ https://www.youtube.com/watch?v=JImYEdqVQR8
 - Copilot
 [[elisp:(bookmark-jump-other-window "Custom GPTS with Python")][Pointer for TalkToMe Episode]]
 
-** [#A] Prompt Engineering
-SCHEDULED: <2024-06-15 Sat>
+** Prompt Engineering
+SCHEDULED: <2024-06-27 Thu>
+- Note taken on [2024-06-17 Mon 07:34] \\
+  * Modulation Field
+[[elisp:(bookmark-jump-other-window "2024-06-15-openai-prompt-engineering.org")]]
+ https://platform.openai.com/docs/examples
 - Note taken on [2024-06-13 Thu 15:06] \\
   Open AI CookBook
 https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/2/guidelines
@@ -4284,6 +4259,17 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/4/summarizing
   In addition, you’ll learn two key principles for writing effective
   prompts and how to systematically engineer good prompts.
 :LOGBOOK:
+CLOCK: [2024-06-19 Wed 16:36]--[2024-06-19 Wed 16:59] =>  0:23
+CLOCK: [2024-06-17 Mon 10:28]--[2024-06-17 Mon 10:58] =>  0:30
+CLOCK: [2024-06-17 Mon 09:54]--[2024-06-17 Mon 10:02] =>  0:08
+CLOCK: [2024-06-17 Mon 09:28]--[2024-06-17 Mon 09:37] =>  0:09
+CLOCK: [2024-06-17 Mon 08:52]--[2024-06-17 Mon 09:27] =>  0:35
+CLOCK: [2024-06-17 Mon 07:43]--[2024-06-17 Mon 08:52] =>  1:09
+CLOCK: [2024-06-17 Mon 07:34]--[2024-06-17 Mon 07:40] =>  0:06
+CLOCK: [2024-06-16 Sun 06:42]--[2024-06-16 Sun 07:10] =>  0:28
+CLOCK: [2024-06-15 Sat 18:44]--[2024-06-15 Sat 19:19] =>  0:35
+CLOCK: [2024-06-15 Sat 18:17]--[2024-06-15 Sat 18:39] =>  0:22
+CLOCK: [2024-06-15 Sat 07:00]--[2024-06-15 Sat 07:49] =>  0:49
 CLOCK: [2024-06-14 Fri 05:00]--[2024-06-14 Fri 05:45] =>  0:45
 CLOCK: [2024-06-13 Thu 15:55]--[2024-06-13 Thu 16:00] =>  0:05
 CLOCK: [2024-06-13 Thu 14:57]--[2024-06-13 Thu 15:28] =>  0:31
@@ -4297,3 +4283,54 @@ CLOCK: [2024-06-09 Sun 06:56]--[2024-06-09 Sun 07:09] =>  0:13
   reducing ambiguity and improving the efficiency of
   interactions. [2024-06-09 Sun 06:59]
 - Where is the proper folder to store auth.key?
+
+
+
+** OpenAI
+:PROPERTIES:
+:CATEGORY: OpenAI
+:END:
+
+*** GptEl
+SCHEDULED: <2024-06-22 Sat ++1d>
+:LOGBOOK:
+CLOCK: [2024-06-21 Fri 19:00]--[2024-06-21 Fri 19:10] =>  0:10
+CLOCK: [2024-06-21 Fri 18:14]--[2024-06-21 Fri 18:25] =>  0:11
+CLOCK: [2024-06-20 Thu 08:34]--[2024-06-20 Thu 09:10] =>  0:36
+CLOCK: [2024-06-20 Thu 07:50]--[2024-06-20 Thu 08:31] =>  0:41
+CLOCK: [2024-06-20 Thu 06:56]--[2024-06-20 Thu 07:46] =>  0:50
+:END:
+
+*** Input format
+SCHEDULED: <2024-06-24 Mon>
+:LOGBOOK:
+CLOCK: [2024-06-21 Fri 07:16]--[2024-06-21 Fri 07:45] =>  0:29
+CLOCK: [2024-06-21 Fri 06:33]--[2024-06-21 Fri 07:02] =>  0:29
+CLOCK: [2024-06-21 Fri 06:27]--[2024-06-21 Fri 06:27] =>  0:00
+:END:
+https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
+[[elisp:(bookmark-jump-other-frame "2024-06-21-openai-input-format.org")][Initial]]
+
+*** [#A] Assistants API
+SCHEDULED: <2024-06-22 Sat ++2d>
+:LOGBOOK:
+CLOCK: [2024-06-21 Fri 09:36]--[2024-06-21 Fri 10:08] =>  0:32
+CLOCK: [2024-06-21 Fri 08:26]--[2024-06-21 Fri 08:59] =>  0:33
+CLOCK: [2024-06-21 Fri 07:56]--[2024-06-21 Fri 08:18] =>  0:22
+CLOCK: [2024-06-20 Thu 15:31]--[2024-06-20 Thu 16:00] =>  0:29
+CLOCK: [2024-06-20 Thu 15:07]--[2024-06-20 Thu 15:13] =>  0:06
+:END:
+https://platform.openai.com/docs/assistants/overview?context=without-streaming
+
+**** Threads
+SCHEDULED: <2024-06-22 Sat>
+
+**** Runs
+SCHEDULED: <2024-06-22 Sat>
+https://platform.openai.com/docs/assistants/how-it-works/run-lifecycle
+
+**** Web interface
+SCHEDULED: <2024-06-23 Sun>
+:LOGBOOK:
+CLOCK: [2024-06-21 Fri 17:22]--[2024-06-21 Fri 17:43] =>  0:21
+:END:

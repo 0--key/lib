@@ -469,3 +469,72 @@ SCHEDULED: <2024-06-10 Mon>
 :END:
 
 
+
+* LAG [#B] Thought Cast
+SCHEDULED: <2024-06-17 Mon ++3d/4d>
+:PROPERTIES:
+:CATEGORY: Live&Learn
+:LAST_REPEAT: [2023-11-23 Thu 10:42]
+:ARCHIVE_TIME: 2024-06-17 Mon 07:07
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Live&Learn
+:ARCHIVE_TODO: LAG
+:END:
+- State "SET"        from ""           [2023-11-23 Thu 10:42]
+- State "AMPLE"      from ""           [2023-11-14 Tue 17:21]
+- State "AMPLE"      from ""           [2023-11-07 Tue 11:54]
+- State "AMPLE"      from ""           [2023-10-16 Mon 15:22]
+- State "AMPLE"      from ""           [2023-10-12 Thu 11:05]
+- State "AMPLE"      from ""           [2023-10-05 Thu 10:07]
+- State "AMPLE"      from ""           [2023-10-02 Mon 11:53]
+- State "AMPLE"      from ""           [2023-09-29 Fri 10:39]
+:LOGBOOK:
+CLOCK: [2023-11-14 Tue 15:59]--[2023-11-14 Tue 17:21] =>  1:22
+CLOCK: [2023-11-07 Tue 11:28]--[2023-11-07 Tue 11:54] =>  0:26
+CLOCK: [2023-10-23 Mon 11:01]--[2023-10-23 Mon 11:31] =>  0:30
+CLOCK: [2023-10-16 Mon 14:53]--[2023-10-16 Mon 15:22] =>  0:29
+CLOCK: [2023-10-12 Thu 10:44]--[2023-10-12 Thu 11:05] =>  0:21
+CLOCK: [2023-10-05 Thu 09:39]--[2023-10-05 Thu 10:07] =>  0:28
+CLOCK: [2023-10-02 Mon 11:28]--[2023-10-02 Mon 11:53] =>  0:25
+CLOCK: [2023-09-29 Fri 10:18]--[2023-09-29 Fri 10:38] =>  0:20
+CLOCK: [2023-09-27 Wed 14:11]--[2023-09-27 Wed 14:15] =>  0:04
+CLOCK: [2023-09-21 Thu 09:51]--[2023-09-21 Thu 10:06] =>  0:15
+CLOCK: [2023-09-20 Wed 08:45]--[2023-09-20 Wed 08:57] =>  0:12
+:END:
+FarnamStreet overview
+[[eww:https://fs.blog/smart-decisions/][Smart Decisions]]
+https://www.youtube.com/watch?v=k_zt6qRTmN0
+** RETARD [#C] Double Loop Learning                                 :ARCHIVE:
+SCHEDULED: <2024-05-17 Fri ++2w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-12-08 Fri 16:18]
+:END:
+- State "AMPLE"      from ""           [2023-12-08 Fri 16:18]
+- Note taken on [2023-12-08 Fri 16:17] \\
+  Infinite loop learning (maybe three loops are the optimal approach)
+- State "AMPLE"      from ""           [2023-11-02 Thu 11:12]
+- State "AMPLE"      from ""           [2023-10-31 Tue 19:00]
+- State "AMPLE"      from ""           [2023-10-26 Thu 11:36]
+- [[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*How to Structure]] [2023-11-02 Thu 11:11]
+:LOGBOOK:
+CLOCK: [2023-11-07 Tue 09:50]--[2023-11-07 Tue 10:10] =>  0:20
+CLOCK: [2023-11-04 Sat 09:00]--[2023-11-04 Sat 09:31] =>  0:31
+CLOCK: [2023-11-02 Thu 11:11]--[2023-11-02 Thu 11:11] =>  0:00
+CLOCK: [2023-11-02 Thu 10:49]--[2023-11-02 Thu 11:10] =>  0:21
+CLOCK: [2023-10-31 Tue 18:43]--[2023-10-31 Tue 19:00] =>  0:17
+CLOCK: [2023-10-26 Thu 11:08]--[2023-10-26 Thu 11:36] =>  0:28
+:END:
+https://www.youtube.com/watch?v=83w-jFcwiX0
+[[file:~/git/org-pub/2023-10-26-double-loop-approach.org::*Thermostat Analogy][Thermostat Analogy]]
+
+* RETARD Tracking TODO state changes
+SCHEDULED: <2024-06-17 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-06-17 Mon 07:42
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+ [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
