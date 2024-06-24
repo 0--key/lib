@@ -83,6 +83,7 @@
 (require 'gptel-transient)
 (require 'gptel-curl)
 (setq gptel-api-key (getenv "OPENAI_API_KEY"))
+(setq openai-api-key (getenv "OPENAI_API_KEY"))
 
 
 ;; Jekyll settings there -->
