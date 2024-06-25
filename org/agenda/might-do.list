@@ -857,8 +857,12 @@ https://www.emacswiki.org/emacs/AnsiTerm
 :CATEGORY: Notes
 :END:
 
+** Gptel sessions (threads with assistants)
+SCHEDULED: <2024-06-27 Thu>
+https://www.reddit.com/r/emacs/comments/11k1q0s/chatgpt_inside_emacs/
+
 ** Zero-shot learning
-SCHEDULED: <2024-06-25 Tue>
+SCHEDULED: <2024-06-27 Thu>
 https://en.wikipedia.org/wiki/Zero-shot_learning
 ** Music
 SCHEDULED: <2024-09-10 Tue>
@@ -2113,6 +2117,9 @@ CLOCK: [2024-05-27 Mon 18:50]--[2024-05-27 Mon 19:50] =>  1:00
   - https://www.linkedin.com/advice/3/what-does-training-developer-do-training-development-advice-fvsqc
   - [[https://docs.google.com/document/d/13i6b3U9Bx2_Dn9XP4FePAO2GGWWEzhTIrMd8klaUSK0/edit][June]]
 
+
+**** [#A] Prompt Engineer
+SCHEDULED: <2024-06-28 Fri>
 
 **** Software Engineer                                               :job:
 :PROPERTIES:
@@ -4235,8 +4242,15 @@ https://www.youtube.com/watch?v=JImYEdqVQR8
 - Copilot
 [[elisp:(bookmark-jump-other-window "Custom GPTS with Python")][Pointer for TalkToMe Episode]]
 
-** Prompt Engineering
-SCHEDULED: <2024-06-27 Thu>
+** OpenAI
+:PROPERTIES:
+:CATEGORY: OpenAI
+:END:
+
+*** Prompt Engineering
+SCHEDULED: <2024-06-29 Sat>
+https://platform.openai.com/docs/guides/prompt-engineering
+[[https://platform.openai.com/docs/examples][PromptExamples]]
 - Note taken on [2024-06-17 Mon 07:34] \\
   * Modulation Field
 [[elisp:(bookmark-jump-other-window "2024-06-15-openai-prompt-engineering.org")]]
