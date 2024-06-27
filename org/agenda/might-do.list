@@ -187,8 +187,8 @@ CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
 [[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Task management][Task management]]
 
 
-*** DELAY Kung-Fu                                                    :bait:
-SCHEDULED: <2024-06-27 Thu>
+*** RETARD Kung-Fu                                                   :bait:
+SCHEDULED: <2024-07-21 Sun>
 Take an attempt and publish your work
 
 
@@ -207,7 +207,7 @@ https://github.com/emacs-grammarly/grammarly
 
 
 *** Useful expressions
-SCHEDULED: <2024-06-28 Fri ++4d>
+SCHEDULED: <2024-07-02 Tue ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-07 Fri 07:57]
 :END:
@@ -231,7 +231,7 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
 *** 25 must know Engllish expressions
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-22 Wed 19:44]--[2024-05-22 Wed 19:45] =>  0:01
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
@@ -244,7 +244,7 @@ https://www.youtube.com/watch?v=SuCDq_CZ52o
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** RAW 101 English Idioms in 13 minutes
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-07 Sun>
 :LOGBOOK:
 CLOCK: [2024-03-13 Wed 12:07]--[2024-03-13 Wed 12:18] =>  0:11
 CLOCK: [2024-03-02 Sat 16:03]--[2024-03-02 Sat 16:33] =>  0:30
@@ -258,8 +258,8 @@ https://www.youtube.com/watch?v=_dh5LP4S7dI
 ** Symmathesy
 
 
-*** LAG Cultivating Happiness
-SCHEDULED: <2024-06-27 Thu>
+*** RETARD Cultivating Happiness
+SCHEDULED: <2024-07-14 Sun>
 Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 - Enjoyment;
@@ -322,8 +322,8 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 
 ** ACTIVE Shallow/deep | long/short sessions                       :ARCHIVE:
 SCHEDULED: <2024-05-17 Fri>
-** LAG Strategic Thinking
-SCHEDULED: <2024-06-27 Thu ++2d/3d>
+** RETARD Strategic Thinking
+SCHEDULED: <2024-08-26 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 16:04]
 :END:
@@ -426,8 +426,8 @@ CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
-** LAG Stashes
-SCHEDULED: <2024-06-27 Thu>
+** DELAY Stashes
+SCHEDULED: <2024-07-04 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
@@ -460,7 +460,7 @@ SCHEDULED: <2024-08-19 Mon>
 :CATEGORY: Emacs
 :END:
 ** AI inside Emacs
-SCHEDULED: <2024-06-27 Thu ++1d>
+SCHEDULED: <2024-07-03 Wed ++1d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 15:00]--[2024-06-19 Wed 15:30] =>  0:30
 :END:
@@ -496,7 +496,7 @@ CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
 ** Python Is Inside
-SCHEDULED: <2024-06-27 Thu ++1d>
+SCHEDULED: <2024-07-03 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 17:03]
 :END:
@@ -689,7 +689,7 @@ How to make in-out far from *Org Agenda* buffer?
 :END:
 *** CLOSED Elaborate two-letters dispatcher
 *** New approach
-SCHEDULED: <2024-06-27 Thu ++1w>
+SCHEDULED: <2024-07-07 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-10 Wed 10:48]
 :END:
@@ -845,7 +845,7 @@ CLOCK: [2024-01-17 Wed 11:10]--[2024-01-17 Wed 11:20] =>  0:10
 :END:
 https://github.com/atykhonov/google-translate#common-ui-customization
 ** RETARD Eterm as elisp shell
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-08-19 Mon>
 - eshell-git-prompt
 ** RETARD Lynx inside ansi-term
 SCHEDULED: <2024-07-24 Wed>
@@ -858,11 +858,11 @@ https://www.emacswiki.org/emacs/AnsiTerm
 :END:
 
 ** Gptel sessions (threads with assistants)
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-07 Sun>
 https://www.reddit.com/r/emacs/comments/11k1q0s/chatgpt_inside_emacs/
 
 ** Zero-shot learning
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 https://en.wikipedia.org/wiki/Zero-shot_learning
 ** Music
 SCHEDULED: <2024-09-10 Tue>
@@ -1279,7 +1279,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-08-12 Mon>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2024-06-27 Thu .+1w>
+SCHEDULED: <2024-06-30 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-06-09 Sun 20:57]
@@ -1430,7 +1430,7 @@ CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
 - State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
 - State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
 *** Family shopping in Letterkenny
-SCHEDULED: <2024-06-27 Thu ++1w>
+SCHEDULED: <2024-06-29 Sat ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 18:22]
 :END:
@@ -1445,7 +1445,7 @@ SCHEDULED: <2024-06-27 Thu ++1w>
 - Note taken on [2023-06-07 Wed 12:07] \\
   And visit Intreo Office at 10.50
 ** RETARD Reading Alice
-SCHEDULED: <2024-06-27 Thu .+2d/3d>
+SCHEDULED: <2024-08-20 Tue .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2022-12-04 Sun 13:19]
 :END:
@@ -1471,17 +1471,17 @@ SCHEDULED: <2023-04-08 Sat>
 CLOCK: [2023-03-13 Mon 12:10]--[2023-03-13 Mon 12:16] =>  0:06
 :END:
 High Perfomance Habits ~ Brandon Bruchard
-** LAG Book
-SCHEDULED: <2024-06-27 Thu>
+** RETARD Book
+SCHEDULED: <2024-08-19 Mon>
 Play ~ Stuart Brown&Christopher Vaughan
-** LAG Book
-SCHEDULED: <2024-06-27 Thu>
+** RETARD Book
+SCHEDULED: <2024-07-22 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:19]--[2023-03-13 Mon 13:27] =>  0:08
 :END:
 Storyworthy ~ Matthew Dicks
-** LAG Book
-SCHEDULED: <2024-06-27 Thu>
+** RETARD Book
+SCHEDULED: <2024-07-22 Mon>
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:27]--[2023-03-13 Mon 13:48] =>  0:21
 :END:
@@ -1522,7 +1522,7 @@ https://bit.ly/3Kxjzx6
 16 y.o. boy from Mulroy College and his parents. No pets,
 non-smokers, tea-total.
 ** RETARD Bmkp as a snippets database;
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-08-06 Tue>
 ** LAG Phronesis
 SCHEDULED: <2024-10-09 Wed>
 :LOGBOOK:
@@ -1672,8 +1672,8 @@ SCHEDULED: <2024-01-05 Fri>
 CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
-** LAG [#C] Enhanced self-esteem
-SCHEDULED: <2024-06-27 Thu ++1w>
+** RETARD [#C] Enhanced self-esteem
+SCHEDULED: <2024-09-05 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
@@ -1692,16 +1692,16 @@ https://www.youtube.com/watch?v=0ruvCL9atE0
 
 ** LAG ElectricSheep
 SCHEDULED: <2024-10-05 Sat>
-** DELAY Leadership as an advanced skill
-SCHEDULED: <2024-06-27 Thu>
+** RETARD Leadership as an advanced skill
+SCHEDULED: <2024-08-26 Mon>
 Team synergy induction, gestation, stimulation
 
 *Synergy³* == how to define it as the highest priority task to do, create
 a hospitable environment for its incubation, gestation and benign
 development. After its initiation == how to foster it, stimulate it to
 grow up in the right direction, how to cultivate and control it.
-** DELAY Team leadership in software development
-SCHEDULED: <2024-06-27 Thu>
+** RETARD Team leadership in software development
+SCHEDULED: <2024-08-04 Sun>
 :LOGBOOK:
 CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
 :END:
@@ -1838,7 +1838,7 @@ CLOCK: [2024-06-04 Tue 06:58]--[2024-06-04 Tue 07:09] =>  0:11
 - https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/starting-a-business/
   
 ** Open Source Society University
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 09:00]--[2024-06-19 Wed 09:06] =>  0:06
 CLOCK: [2024-06-13 Thu 06:24]--[2024-06-13 Thu 06:53] =>  0:29
@@ -1854,7 +1854,7 @@ SCHEDULED: <2024-06-28 Fri>
 ** DELAY [#C] How to detour ATS?
 SCHEDULED: <2024-06-28 Fri>
 ** [#C] Lead Agenda elaboration
-SCHEDULED: <2024-06-27 Thu ++3d/4d>
+SCHEDULED: <2024-06-29 Sat ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:22]
 :END:
@@ -1886,7 +1886,7 @@ CLOCK: [2024-06-13 Thu 17:20]--[2024-06-13 Thu 17:22] =>  0:02
 ** AMPLE [#C] Package-check-signature
 SCHEDULED: <2024-05-30 Thu>
 ** RAW [#C] PhiloMath
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-28 Fri>
 
 * NoSQL
 :PROPERTIES:
@@ -1947,37 +1947,37 @@ SCHEDULED: <2024-06-28 Fri>
 *** LinkedIn trial
 DEADLINE: <2024-07-12 Fri -3d>
 
-*** Job application sending
+*** [#A] Job application sending
 SCHEDULED: <2024-06-28 Fri ++1d>
 
 *** DataAnnotation
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
 
 
 *** [#A] Proposals Elaboration
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-03 Wed>
 :LOGBOOK:
 CLOCK: [2024-06-27 Thu 07:58]--[2024-06-27 Thu 09:34] =>  1:36
 CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
 CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
 :END:
 
-*** [#A] OpenAI section in PD&TD CVs
-SCHEDULED: <2024-06-27 Thu>
+*** OpenAI section in PD&TD CVs
+SCHEDULED: <2024-06-28 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-24 Mon 07:53]--[2024-06-24 Mon 09:09] =>  1:16
 CLOCK: [2024-06-24 Mon 07:39]--[2024-06-24 Mon 07:43] =>  0:04
 :END:
 
 *** Cover letters templates (with links)
-SCHEDULED: <2024-06-28 Fri>
+SCHEDULED: <2024-07-03 Wed>
 
-*** Alternative full-fledged CV with links
+*** [#B] Alternative full-fledged CV with links
 SCHEDULED: <2024-06-28 Fri ++1d>
 
-*** [#A] Full/uncutted CV in blog
-SCHEDULED: <2024-06-27 Thu ++1d>
+*** [#B] Full/uncutted CV in blog
+SCHEDULED: <2024-06-28 Fri ++1d>
 - Note taken on [2024-06-22 Sat 20:05] \\
   APA style
 :LOGBOOK:
@@ -1985,18 +1985,18 @@ CLOCK: [2024-06-22 Sat 08:14]--[2024-06-22 Sat 08:15] =>  0:01
 :END:
 
 *** Seek for hiring managers
-SCHEDULED: <2024-06-28 Fri ++3d>
+SCHEDULED: <2024-06-29 Sat ++3d>
 
-*** [#A] Learning on demand
-SCHEDULED: <2024-06-27 Thu>
+*** [#B] Learning on demand
+SCHEDULED: <2024-06-28 Fri>
 (It's just impossible to know everything)
 Be wicked smart as a child do
 
 *** What are the questions on the job interview?
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 
 *** Full-stack Python Developer
-SCHEDULED: <2024-06-28 Fri ++1d>
+SCHEDULED: <2024-06-30 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 19:08]
 :END:
@@ -2022,15 +2022,15 @@ CLOCK: [2024-06-10 Mon 08:15]--[2024-06-10 Mon 08:36] =>  0:21
 CLOCK: [2024-06-10 Mon 07:40]--[2024-06-10 Mon 08:10] =>  0:30
 :END:
 
-*** [#A] Boolean search on LinkedIn
-SCHEDULED: <2024-06-27 Thu>
+*** Boolean search on LinkedIn
+SCHEDULED: <2024-07-08 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-10 Mon 08:53]--[2024-06-10 Mon 09:14] =>  0:21
 :END:
 https://www.linkedin.com/help/linkedin/answer/a524335
 
 *** Gemma Roulstone
-SCHEDULED: <2024-06-27 Thu ++2d/3d>
+SCHEDULED: <2024-07-04 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-22 Wed 16:11]
 :END:
@@ -2153,6 +2153,7 @@ CLOCK: [2024-05-27 Mon 18:50]--[2024-05-27 Mon 19:50] =>  1:00
 
 **** [#A] Prompt Engineer
 SCHEDULED: <2024-06-28 Fri>
+elisp:(bookmark-jump-other-window "2024-06-27-prompt-engineer.org")
 
 **** Software Engineer                                               :job:
 :PROPERTIES:
@@ -2170,8 +2171,8 @@ SCHEDULED: <2024-07-01 Mon>
 CLOCK: [2024-05-27 Mon 15:26]--[2024-05-27 Mon 17:26] =>  2:00
 :END:
 
-***** [#A] CV elaboration
-SCHEDULED: <2024-06-27 Thu>
+***** [#B] CV elaboration
+SCHEDULED: <2024-06-28 Fri>
 - Note taken on [2024-06-17 Mon 07:06] \\
   Make a full-fledged CV with links for my projects and portfolio
 :LOGBOOK:
@@ -2189,11 +2190,11 @@ CLOCK: [2024-05-27 Mon 08:47]--[2024-05-27 Mon 08:59] =>  0:12
 :END:
 
 ***** CV rectification
-SCHEDULED: <2024-06-28 Fri>
+SCHEDULED: <2024-07-07 Sun>
 [[https://docs.google.com/document/d/1LTFbCrMXFxqqG5HLTsIJQPStnF_IzzUPNC1LPxbdrek/edit][June]]
 
 
-***** [#A] InDeed profile elaboration
+***** [#B] InDeed profile elaboration
 SCHEDULED: <2024-06-28 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-14 Fri 07:02]--[2024-06-14 Fri 08:19] =>  1:17
@@ -2204,13 +2205,13 @@ CLOCK: [2024-05-27 Mon 08:59]--[2024-05-27 Mon 09:05] =>  0:06
 
 
 *** DELAY Vikki's CV elaboration
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-17 Wed>
 
 *** DELAY Skill endorsement at LinkedIn
-SCHEDULED: <2024-06-28 Fri>
+SCHEDULED: <2024-07-02 Tue>
 
 *** DELAY Vikki's LinkedIn//UpWork
-SCHEDULED: <2024-06-27 Thu ++1d>
+SCHEDULED: <2024-07-09 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 18:43]
 :END:
@@ -2297,7 +2298,8 @@ SCHEDULED: <2024-06-27 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-06-27 Thu 16:52]
+CLOCK: [2024-06-27 Thu 20:19]
+CLOCK: [2024-06-27 Thu 16:52]--[2024-06-27 Thu 17:17] =>  0:25
 CLOCK: [2024-06-22 Sat 08:15]--[2024-06-22 Sat 08:43] =>  0:28
 CLOCK: [2024-06-15 Sat 06:54]--[2024-06-15 Sat 06:58] =>  0:04
 CLOCK: [2024-06-13 Thu 18:28]--[2024-06-13 Thu 18:38] =>  0:10
@@ -2794,10 +2796,11 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-06-27 Thu ++1d>
+SCHEDULED: <2024-06-28 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-13 Thu 18:22]
+:LAST_REPEAT: [2024-06-27 Thu 20:09]
 :END:
+- State "AMPLE"      from ""           [2024-06-27 Thu 20:09]
 - State "AMPLE"      from ""           [2024-06-13 Thu 18:22]
 - State "AMPLE"      from ""           [2024-06-06 Thu 20:38]
 - State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
@@ -2856,6 +2859,7 @@ SCHEDULED: <2024-06-27 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-06-27 Thu 19:53]--[2024-06-27 Thu 20:09] =>  0:16
 CLOCK: [2024-06-24 Mon 07:25]--[2024-06-24 Mon 07:39] =>  0:14
 CLOCK: [2024-06-23 Sun 07:14]--[2024-06-23 Sun 07:28] =>  0:14
 CLOCK: [2024-06-22 Sat 08:11]--[2024-06-22 Sat 08:14] =>  0:03
@@ -3100,10 +3104,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Keep myself on track (tomorrow begins today)
-SCHEDULED: <2024-06-27 Thu ++1d>
+SCHEDULED: <2024-06-28 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-13 Thu 18:28]
+:LAST_REPEAT: [2024-06-27 Thu 20:19]
 :END:
+- State "AMPLE"      from ""           [2024-06-27 Thu 20:19]
 - State "AMPLE"      from ""           [2024-06-13 Thu 18:28]
 - State "AMPLE"      from ""           [2024-06-12 Wed 20:04]
 - State "AMPLE"      from ""           [2024-06-09 Sun 20:57]
@@ -3160,6 +3165,7 @@ SCHEDULED: <2024-06-27 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-06-27 Thu 20:09]--[2024-06-27 Thu 20:19] =>  0:10
 CLOCK: [2024-06-13 Thu 18:23]--[2024-06-13 Thu 18:28] =>  0:05
 CLOCK: [2024-06-12 Wed 20:00]--[2024-06-12 Wed 20:04] =>  0:04
 CLOCK: [2024-06-09 Sun 20:47]--[2024-06-09 Sun 20:54] =>  0:07
@@ -3352,8 +3358,8 @@ Remove all unnecessary:
  - commit and push them all to cloud;
  - update&upgrade Debian packages;
  - and restart OS.
-*** LAG Vocabulary rectification
-SCHEDULED: <2024-06-27 Thu ++2d>
+*** INIT Vocabulary rectification                                :AI_Tutor:
+SCHEDULED: <2024-07-01 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
@@ -3390,8 +3396,8 @@ SCHEDULED: <2024-06-30 Sun ++2d>
 CLOCK: [2023-09-22 Fri 13:44]--[2023-09-22 Fri 14:05] =>  0:21
 CLOCK: [2023-09-20 Wed 15:36]--[2023-09-20 Wed 16:07] =>  0:31
 :END:
-*** DELAY English We Speak
-SCHEDULED: <2024-06-27 Thu ++1d>
+*** INIT English We Speak                                        :AI_Tutor:
+SCHEDULED: <2024-07-02 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
 :END:
@@ -3405,8 +3411,8 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 - Light up like a X-mass tree;
 
 
-*** DELAY English Grammar
-SCHEDULED: <2024-06-27 Thu ++1w>
+*** INIT English Grammar                                         :AI_Tutor:
+SCHEDULED: <2024-06-28 Fri ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -3449,10 +3455,11 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2024-06-27 Thu ++2d/3d>
+SCHEDULED: <2024-06-29 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-19 Wed 15:00]
+:LAST_REPEAT: [2024-06-27 Thu 19:59]
 :END:
+- State "AMPLE"      from ""           [2024-06-27 Thu 19:59]
 - State "AMPLE"      from ""           [2024-06-19 Wed 15:00]
 - State "AMPLE"      from ""           [2024-06-08 Sat 19:22]
 - State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
@@ -3484,6 +3491,7 @@ SCHEDULED: <2024-06-27 Thu ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2024-06-27 Thu 19:13]--[2024-06-27 Thu 19:52] =>  0:39
 CLOCK: [2024-06-19 Wed 14:25]--[2024-06-19 Wed 14:53] =>  0:28
 CLOCK: [2024-06-19 Wed 09:14]--[2024-06-19 Wed 09:25] =>  0:11
 CLOCK: [2024-06-16 Sun 07:10]--[2024-06-16 Sun 07:20] =>  0:10
@@ -3862,11 +3870,12 @@ SCHEDULED: <2023-12-20 Wed>
 
 ** RAW How to Realize
 [[https://www.youtube.com/watch?v=-8WekZ6D-qM][True Potential]]
-** RAW [#A] 10 Daily Idioms
-SCHEDULED: <2024-06-27 Thu ++5d>
+** [#A] 10 Daily Idioms
+SCHEDULED: <2024-07-04 Thu ++5d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-06-22 Sat 08:12]
+:LAST_REPEAT: [2024-06-27 Thu 20:12]
 :END:
+- State "AMPLE"      from ""           [2024-06-27 Thu 20:12]
 - State "AMPLE"      from "INIT"       [2024-06-22 Sat 08:12]
 :LOGBOOK:
 CLOCK: [2024-03-25 Mon 11:27]--[2024-03-25 Mon 11:34] =>  0:07
@@ -4052,11 +4061,12 @@ CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
 :END:
 https://quotefancy.com/motivational-quotes
 https://quotefancy.com/perseverance-quotes
-** RETARD Taxation in Ireland
-SCHEDULED: <2024-06-27 Thu ++3d>
+** DELAY Taxation in Ireland
+SCHEDULED: <2024-06-30 Sun ++3d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-16 Thu 15:21]
+:LAST_REPEAT: [2024-06-27 Thu 19:58]
 :END:
+- State "BARE"       from "RETARD"     [2024-06-27 Thu 19:58]
 - State "AMPLE"      from "RAW"        [2023-11-16 Thu 15:21]
 
 :LOGBOOK:
@@ -4218,7 +4228,7 @@ to revive Socker in ~shell~ snippets
 
 
 *** LAG Getting Started
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-08-01 Thu>
 https://docs.docker.com/get-started/
 [[elisp:(bookmark-jump-other-window "2017-06-22-docker-intro.org")][Docker in Babel]]
 
@@ -4228,7 +4238,7 @@ https://docs.docker.com/get-started/
 :CATEGORY: LLM
 :END:
 ** Overview
-SCHEDULED: <2024-06-27 Thu ++2d>
+SCHEDULED: <2024-06-28 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-09 Sun 07:09]
 :END:
@@ -4356,7 +4366,7 @@ CLOCK: [2024-06-09 Sun 06:56]--[2024-06-09 Sun 07:09] =>  0:13
 
 
 **** Summarizing
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-22 Sat 10:13]--[2024-06-22 Sat 10:50] =>  0:37
 :END:
@@ -4364,21 +4374,21 @@ CLOCK: [2024-06-22 Sat 10:13]--[2024-06-22 Sat 10:50] =>  0:37
 [[elisp:(bookmark-jump-other-window "2024-06-22-sum-up-with-openai.org")]]
 
 **** Inferring
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-03 Wed>
 :LOGBOOK:
 CLOCK: [2024-06-22 Sat 19:43]--[2024-06-22 Sat 19:47] =>  0:04
 :END:
 (e.g., sentiment classification, topic extraction)
 
 **** Transforming text
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-02 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-22 Sat 19:48]--[2024-06-22 Sat 20:02] =>  0:14
 :END:
 (e.g., translation, spelling & grammar correction)
 
 **** Expanding
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 (e.g., automatically writing emails)
 
 
@@ -4401,15 +4411,15 @@ CLOCK: [2024-06-20 Thu 07:50]--[2024-06-20 Thu 08:31] =>  0:41
 CLOCK: [2024-06-20 Thu 06:56]--[2024-06-20 Thu 07:46] =>  0:50
 :END:
 
-**** [#A] Source code overview
-SCHEDULED: <2024-06-27 Thu>
+**** Source code overview
+SCHEDULED: <2024-06-30 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-24 Mon 15:54]--[2024-06-24 Mon 20:39] =>  4:45
 :END:
-**** [#A] Extension
-SCHEDULED: <2024-06-27 Thu>
+**** Extension
+SCHEDULED: <2024-07-04 Thu>
 *** Input format
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-07-02 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 07:16]--[2024-06-21 Fri 07:45] =>  0:29
 CLOCK: [2024-06-21 Fri 06:33]--[2024-06-21 Fri 07:02] =>  0:29
@@ -4419,7 +4429,7 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-frame "2024-06-21-openai-input-format.org")][Initial]]
 
 *** [#A] Assistants API
-SCHEDULED: <2024-06-27 Thu ++2d>
+SCHEDULED: <2024-07-11 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-26 Wed 09:07]--[2024-06-26 Wed 11:15] =>  2:08
 CLOCK: [2024-06-25 Tue 18:55]--[2024-06-25 Tue 20:55] =>  3:00
@@ -4441,7 +4451,7 @@ https://platform.openai.com/docs/assistants/tools/function-calling
 
 
 **** [#A] Threads
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-28 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-25 Tue 14:41]--[2024-06-25 Tue 15:42] =>  1:01
 CLOCK: [2024-06-25 Tue 10:17]--[2024-06-25 Tue 11:14] =>  0:57
@@ -4453,7 +4463,7 @@ CLOCK: [2024-06-23 Sun 07:29]--[2024-06-23 Sun 08:00] =>  0:31
 https://platform.openai.com/docs/api-reference/threads
 
 **** [#A] Runs
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-28 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-26 Wed 14:15]--[2024-06-26 Wed 19:47] =>  5:32
 CLOCK: [2024-06-26 Wed 05:25]--[2024-06-26 Wed 09:07] =>  3:42
@@ -4468,7 +4478,8 @@ https://platform.openai.com/docs/assistants/how-it-works/run-lifecycle
 SCHEDULED: <2024-06-30 Sun>
 
 **** [#A] Web interface
-SCHEDULED: <2024-06-27 Thu>
+SCHEDULED: <2024-06-29 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 17:22]--[2024-06-21 Fri 17:43] =>  0:21
 :END:
+
