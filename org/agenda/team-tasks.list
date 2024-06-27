@@ -13,7 +13,7 @@ Collaborative work agenda    -*- mode: org; -*-
 #+TODO: | SET
 
 * [#C] Test-Driven Learining
-SCHEDULED: <2024-06-23 Sun ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:03]
 :END:
@@ -60,7 +60,7 @@ SCHEDULED: <2023-10-11 Wed>
 CLOCK: [2023-10-11 Wed 09:21]--[2023-10-11 Wed 10:17] =>  0:56
 :END:
 * Morning correction
-SCHEDULED: <2024-06-22 Sat ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-21 Fri 17:15]
 :END:
@@ -138,7 +138,7 @@ CLOCK: [2024-02-06 Tue 11:43]--[2024-02-06 Tue 11:59] =>  0:16
 - State "AMPLE"      from ""           [2024-01-02 Tue 14:20]
 - State "AMPLE"      from ""           [2023-12-15 Fri 12:13]
 * [#C] Evening conclusion meeting
-SCHEDULED: <2024-06-22 Sat ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-08 Sat 19:22]
 :CATEGORY: CoLab
@@ -189,7 +189,7 @@ CLOCK: [2023-10-12 Thu 15:23]--[2023-10-12 Thu 15:48] =>  0:25
 :END:
 in very beginning of org-agenda-files (low priority routine tasks)
 * [#C] Commits reviewing {jr>c}
-SCHEDULED: <2024-06-22 Sat ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-12 Wed 19:59]
 :END:

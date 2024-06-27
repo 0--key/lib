@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** [#A] Pydantic
-SCHEDULED: <2024-06-22 Sat>
+SCHEDULED: <2024-07-01 Mon>
 ** DELAY Consul, Jenkins, Prometheus
 SCHEDULED: <2024-07-11 Thu>
 
@@ -21,7 +21,7 @@ SCHEDULED: <2024-07-11 Thu>
 SCHEDULED: <2024-07-23 Tue>
 
 ** DELAY Agile Methodolody
-SCHEDULED: <2024-06-25 Tue ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-17 Mon 07:10]
 :END:
@@ -43,7 +43,7 @@ CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
 
 ** RAW Python Talk to Me
-SCHEDULED: <2024-06-23 Sun ++3d>
+SCHEDULED: <2024-06-27 Thu ++3d>
 :PROPERTIES:
 :CATEGORY: PyTatMe
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
@@ -58,7 +58,7 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
 *** Dissect the Python Itself
-SCHEDULED: <2024-06-26 Wed ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 06:44]--[2024-06-04 Tue 06:52] =>  0:08
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
@@ -71,7 +71,7 @@ CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 
   
 *** DELAY Learning to Learn as Pythonista
-SCHEDULED: <2024-06-26 Wed ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 05:56]
 :END:
@@ -161,7 +161,7 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
 ** RAW IPython
-SCHEDULED: <2024-06-25 Tue ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -195,18 +195,24 @@ https://realpython.com/python3-object-oriented-programming/
 
 
 ** INIT XOR in Python in list comparison
-SCHEDULED: <2024-06-24 Mon>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** INIT Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-06-23 Sun>
+SCHEDULED: <2024-06-27 Thu>
 ** INIT What is async app?
-SCHEDULED: <2024-06-23 Sun>
+SCHEDULED: <2024-06-27 Thu>
+- Note taken on [2024-06-23 Sun 07:21] \\
+  An asynchronous (async) application is a program that allows multiple
+  operations to be executed concurrently, without waiting for each
+  operation to finish before starting the next one. This helps improve
+  performance and responsiveness in applications by handling tasks in a
+  non-blocking manner.
 ** INIT Web-app with a set pre-defined modulators for queries
-SCHEDULED: <2024-06-23 Sun>
-** RAW [#A] openai library dissection
-SCHEDULED: <2024-06-24 Mon>
+SCHEDULED: <2024-06-30 Sun>
+** RAW openai library dissection
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 16:37]--[2024-06-21 Fri 17:14] =>  0:37
 CLOCK: [2024-06-21 Fri 06:20]--[2024-06-21 Fri 06:27] =>  0:07
@@ -239,7 +245,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-06-22 Sat ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -252,11 +258,11 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-06-22 Sat>
+SCHEDULED: <2024-06-27 Thu>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-06-22 Sat ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -289,7 +295,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-06-22 Sat ++1d>
+SCHEDULED: <2024-06-27 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -305,18 +311,18 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 *** Integers
-SCHEDULED: <2024-06-23 Sun>
+SCHEDULED: <2024-06-27 Thu>
 https://realpython.com/lessons/integers/
 
 **** Arithmetics
-SCHEDULED: <2024-06-22 Sat>
+SCHEDULED: <2024-06-27 Thu>
 
 ** The Python's Extended Data Types
-SCHEDULED: <2024-06-22 Sat>
+SCHEDULED: <2024-06-27 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-06-23 Sun>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -327,7 +333,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-06-22 Sat>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -455,7 +461,7 @@ CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 - counsel-descbinds [2024-06-10 Mon 13:13]
 - counsel-google [2024-06-10 Mon 13:22]
 ***** Counsel-Git
-SCHEDULED: <2024-06-25 Tue>
+SCHEDULED: <2024-06-27 Thu>
 [[elisp:(apropos-command "counsel-git")]]
 
 
@@ -608,7 +614,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO Elpy
-SCHEDULED: <2024-06-24 Mon ++2d>
+SCHEDULED: <2024-06-27 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -856,7 +862,7 @@ CLOCK: [2024-03-25 Mon 11:39]--[2024-03-25 Mon 12:08] =>  0:29
 https://playwright.dev/python/docs/intro
 [[file:~/Git/0--key/org-pub/2024-03-22-playwright-init.org::*Conclusion][Conclusion]]
 **** DELAY Codegen
-SCHEDULED: <2024-06-25 Tue>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-03-27 Wed 11:20]--[2024-03-27 Wed 11:23] =>  0:03
 CLOCK: [2024-03-27 Wed 11:04]--[2024-03-27 Wed 11:12] =>  0:08
@@ -923,7 +929,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-06-23 Sun>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -933,7 +939,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-06-24 Mon ++3d>
+SCHEDULED: <2024-06-27 Thu ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -949,10 +955,10 @@ SCHEDULED: <2024-06-28 Fri>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-06-26 Wed>
+SCHEDULED: <2024-06-27 Thu>
 
 ** Debugging
-SCHEDULED: <2024-06-24 Mon>
+SCHEDULED: <2024-06-27 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
@@ -969,7 +975,7 @@ https://docs.python-guide.org/writing/style/#conventions
 :END:
 
 ** Recursion
-SCHEDULED: <2024-06-25 Tue>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
@@ -989,11 +995,11 @@ CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
 https://algo.monster/problems/tree_intro
 
 *** Python solution of tree-like problems
-SCHEDULED: <2024-06-25 Tue>
+SCHEDULED: <2024-06-27 Thu>
 Are tree structures graph in general?
 
 ** Depth First Search
-SCHEDULED: <2024-06-23 Sun ++3d>
+SCHEDULED: <2024-06-27 Thu ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
@@ -1029,8 +1035,13 @@ SCHEDULED: <2024-06-27 Thu>
   :END:
 
   
-** RAW Time Complexity
-SCHEDULED: <2024-06-23 Sun>
+** INIT Time Complexity
+SCHEDULED: <2024-06-27 Thu>
+- Note taken on [2024-06-23 Sun 07:25] \\
+  Time complexity of an algorithm is a measure of the amount of time
+  taken by an algorithm to run as a function of the length of the
+  input. It describes the relationship between the input size and the
+  time taken by the algorithm to run.
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
 ** RETARD Modules
@@ -1058,7 +1069,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** LAG Intra-package References
-SCHEDULED: <2024-06-26 Wed>
+SCHEDULED: <2024-06-27 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -1079,7 +1090,7 @@ SCHEDULED: <2024-07-08 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** DELAY CodeWars 
-SCHEDULED: <2024-06-24 Mon ++2d/3d>
+SCHEDULED: <2024-06-27 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-03 Mon 19:39]
 :END:
