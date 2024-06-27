@@ -1917,11 +1917,33 @@ SCHEDULED: <2024-08-27 Tue>
 
 * Tasks
 
+** Vizier
+:PROPERTIES:
+:CATEGORY: Vizier
+:END:
+
+*** [#A] Enhancement
+SCHEDULED: <2024-06-28 Fri>
+[[elisp:(bookmark-jump-other-window "2024-06-26-org-with-ai-assistant.org")][Run accomlishment delay issue]]
+Same branch output (not the bottom)
+
+*** Git repository
+SCHEDULED: <2024-06-29 Sat>
+- Sponsorship;
+- Patreon.
+
 ** Job Seeking
 :PROPERTIES:
 :CATEGORY: Job
 :END:
 
+*** [#A] LinkedIn Profile
+SCHEDULED: <2024-06-28 Fri>
+- Add PE CV;
+- Change specialization;
+- Brush up skills set.
+
+  
 *** LinkedIn trial
 DEADLINE: <2024-07-12 Fri -3d>
 
@@ -4263,6 +4285,22 @@ https://www.youtube.com/watch?v=JImYEdqVQR8
 :CATEGORY: OpenAI
 :END:
 
+*** [#A] List of Threads and Assistants
+SCHEDULED: <2024-06-28 Fri>
+Vizier&Elisp in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
+Vizier&Elisp in Org :vizier-thread-id: thread_Q1teTN2ZdIKPvKif3ZuzN42S
+
+Elisp&Emacs: :vizier-assistant-id: asst_k0LyQk3P0ugc93lkXqkzrP0x
+CareerCouch: :vizier-assistant-id: asst_TBAMrIBzyYhMQ1cJSEuaGzGx
+
+Additional for me and Vikky for Python, Flask, Jinja2, Reasoner,
+Philosopher...
+
+*** Smart Join
+SCHEDULED: <2024-07-02 Tue>
+Compile a more complete answer out from high-temperature answers (n=3).
+Web-app with semantic highlighting.
+
 *** Prompt Engineering
 SCHEDULED: <2024-06-29 Sat>
 https://platform.openai.com/docs/guides/prompt-engineering
@@ -4423,6 +4461,11 @@ CLOCK: [2024-06-23 Sun 09:18]--[2024-06-23 Sun 10:03] =>  0:45
 CLOCK: [2024-06-23 Sun 08:54]--[2024-06-23 Sun 09:08] =>  0:14
 :END:
 https://platform.openai.com/docs/assistants/how-it-works/run-lifecycle
+- How to check up the Run state?
+
+
+**** Agent proficient in reasoning
+SCHEDULED: <2024-06-30 Sun>
 
 **** [#A] Web interface
 SCHEDULED: <2024-06-27 Thu>
