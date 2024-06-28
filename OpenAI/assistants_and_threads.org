@@ -1,0 +1,50 @@
+#+STARTUP: showall indent
+* Preface
+
+Local ~vizier~ source: /usr/local/share/emacs/site-lisp/vizier-0.0.1/vizier.el
+
+
+* Threads
+
+** Tony
+
+*** Elisp & Vizier
+in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
+:vizier-thread-id: thread_Q1teTN2ZdIKPvKif3ZuzN42S
+
+
+*** OpenAI subtleties
+:vizier-thread-id: thread_HZBh9PMJgndmnJLVz2GqifRz
+
+*** English Grammar
+
+*** Computer Science
+
+*** History of CS
+
+
+** Vikki
+
+*** Computer Science + Python
+:vizier-thread-id: thread_Qmu6ocrAmdVCjJ643eRVW51Q
+
+*** Applied Python with Flask and Jinja2
+:vizier-thread-id: thread_kMLnt3ba0opm0biRsBfpDHLR
+
+*** English Grammar
+:vizier-thread-id: thread_BBSYNTbvFHpbermXHfm0QzmO
+
+
+
+* Assistants
+
+Are common for our both:
+
+Elisp&Emacs: :vizier-assistant-id: asst_k0LyQk3P0ugc93lkXqkzrP0x
+CareerCouch: :vizier-assistant-id: asst_TBAMrIBzyYhMQ1cJSEuaGzGx
+OpenAICouch: :vizier-assistant-id: asst_oLuLDRdsSDyMcBAvpwCGkbGS
+GrammarAI: :vizier-assistant-id: asst_u6sQc9si0rJOYJBcNGSozM7i
+CS+PythonCouch: :vizier-assistant-id: asst_9U8N72u9uVQesQNNjgOLJOu8
+Python&Flask&Jinja2: :vizier-assistant-id: asst_DnaQMwaoR1nGJHA0Y8bcqC2b
+Reasoner:
+Philosopher:
