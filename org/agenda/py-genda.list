@@ -15,13 +15,13 @@ Advanced to-do list    -*- mode: org; -*-
 ** DELAY Pydantic
 SCHEDULED: <2024-07-20 Sat>
 ** DELAY Consul, Jenkins, Prometheus
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-21 Sun>
 
 ** DELAY Cascading Style Sheets (CSS), HTML5, JSON, and XML
 SCHEDULED: <2024-07-23 Tue>
 
 ** DELAY Agile Methodolody
-SCHEDULED: <2024-07-11 Thu ++2d>
+SCHEDULED: <2024-07-16 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-17 Mon 07:10]
 :END:
@@ -194,15 +194,15 @@ https://python-textbok.readthedocs.io/en/1.0/index.html
 https://realpython.com/python3-object-oriented-programming/
 
 
-** INIT XOR in Python in list comparison
-SCHEDULED: <2024-07-11 Thu>
+** DELAY XOR in Python in list comparison
+SCHEDULED: <2024-07-22 Mon>
 :LOGBOOK:
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
-** INIT Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-07-11 Thu>
-** INIT What is async app?
-SCHEDULED: <2024-07-11 Thu>
+** DELAY Reproduce an article from RealPython in Babel!
+SCHEDULED: <2024-07-23 Tue>
+** DELAY What is async app?
+SCHEDULED: <2024-07-12 Fri>
 - Note taken on [2024-06-23 Sun 07:21] \\
   An asynchronous (async) application is a program that allows multiple
   operations to be executed concurrently, without waiting for each
@@ -210,7 +210,7 @@ SCHEDULED: <2024-07-11 Thu>
   performance and responsiveness in applications by handling tasks in a
   non-blocking manner.
 ** INIT Flask Web-App
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
  with a set pre-defined modulators for queries
 - Note taken on [2024-07-03 Wed 09:23] \\
   Question clarification: generate three adjacent questions (n=3,
@@ -228,7 +228,7 @@ https://github.com/0--key/openai-python
 [[elisp:(bookmark-jump-other-window "openai-python")]]
   
 * Algorithms in CS
-SCHEDULED: <2024-07-11 Thu ++1w>
+SCHEDULED: <2024-07-15 Mon ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -263,7 +263,7 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-14 Sun>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
@@ -316,18 +316,18 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 *** Integers
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-17 Wed>
 https://realpython.com/lessons/integers/
 
 **** Arithmetics
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
 
-** The Python's Extended Data Types
-SCHEDULED: <2024-07-11 Thu>
+** DELAY The Python's Extended Data Types
+SCHEDULED: <2024-07-12 Fri>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-14 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -338,7 +338,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-17 Wed>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -466,7 +466,7 @@ CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 - counsel-descbinds [2024-06-10 Mon 13:13]
 - counsel-google [2024-06-10 Mon 13:22]
 ***** DELAY Counsel-Git
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-08-05 Mon>
 [[elisp:(apropos-command "counsel-git")]]
 
 
@@ -531,58 +531,6 @@ apt-cache search elpa | grep hydra
 #+RESULTS:
 : elpa-ivy-hydra - additional key bindings for Emacs Ivy
 : elpa-hydra - make Emacs bindings that stick around
-
-***** RETARD Projectile
-SCHEDULED: <2024-07-11 Thu ++2d/3d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-01-25 Thu 19:08]
-:END:
-- State "AMPLE"      from ""           [2024-01-25 Thu 19:08]
-:LOGBOOK:
-CLOCK: [2024-01-16 Tue 19:01]--[2024-01-16 Tue 19:22] =>  0:21
-CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
-:END:
-#+begin_src sh :results output
-  apt-cache search elpa | grep projectile
-#+end_src
-
-#+RESULTS:
-: elpa-helm-projectile - Helm integration for Projectile
-: elpa-ibuffer-projectile - group buffers in ibuffer list by Projectile project
-: elpa-projectile - project interaction library for Emacs
-: elpa-treemacs-projectile - tree layout file explorer for Emacs
-
-[[file:/usr/share/doc/elpa-projectile/index.html][Projectile]]
-- supports multiple back-ends like ag, rg [2024-01-16 Tue 19:18]
-- project etags or gtags [2024-01-16 Tue 19:19]
-****** RETARD [#A] Python testing with Eglot
-SCHEDULED: <2024-09-16 Mon ++1d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-03-01 Fri 11:21]
-:END:
-- State "SET"        from ""           [2024-03-01 Fri 11:21]
-- State "AMPLE"      from ""           [2024-01-26 Fri 18:48]
-:LOGBOOK:
-CLOCK: [2024-01-26 Fri 18:18]--[2024-01-26 Fri 18:47] =>  0:29
-CLOCK: [2024-01-12 Fri 10:58]--[2024-01-12 Fri 11:42] =>  0:44
-CLOCK: [2024-01-12 Fri 10:06]--[2024-01-12 Fri 10:43] =>  0:37
-CLOCK: [2024-01-12 Fri 09:40]--[2024-01-12 Fri 10:04] =>  0:24
-:END:
-https://www.adventuresinwhy.com/post/eglot/
-- install pyflakes, pylint or something else
-
-- eglot-workspace-configuration >>>
-
-- This variable should be set as a directory-local variable.  See
-info node (emacs)Directory Variables for various ways to do that.
-
-Here's an example value that establishes two sections relevant to
-the Pylsp and Gopls LSP servers:
-
-  (:pylsp (:plugins (:jedi_completion (:include_params t
-                                       :fuzzy t)
-                     :pylint (:enabled :json-false)))
-   :gopls (:usePlaceholders t))
 
 ***** LAG Forge
 SCHEDULED: <2024-07-19 Fri>
@@ -923,7 +871,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-07-11 Thu ++1d>
+SCHEDULED: <2024-07-13 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -934,7 +882,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -956,18 +904,18 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-16 Tue>
 
 ** Debugging
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-14 Sun>
 https://realpython.com/python-debug-idle/
 
 ** Functions
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-15 Mon>
 https://realpython.com/defining-your-own-python-function/
 
 
@@ -980,14 +928,14 @@ https://docs.python-guide.org/writing/style/#conventions
 :END:
 
 ** Recursion
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-13 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
 https://algo.monster/problems/recursion_intro
 
 ** Trees
-SCHEDULED: <2024-07-11 Thu ++2d>
+SCHEDULED: <2024-07-15 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 08:54]
 :END:
@@ -1000,11 +948,11 @@ CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
 https://algo.monster/problems/tree_intro
 
 *** Python solution of tree-like problems
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
 Are tree structures graph in general?
 
 ** Depth First Search
-SCHEDULED: <2024-07-11 Thu ++3d>
+SCHEDULED: <2024-07-16 Tue ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
@@ -1012,7 +960,7 @@ CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
 https://algo.monster/problems/dfs_intro
 
 ** Repo
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-16 Tue>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -1041,7 +989,7 @@ SCHEDULED: <2024-07-11 Thu>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-12 Fri>
 - Note taken on [2024-06-23 Sun 07:25] \\
   Time complexity of an algorithm is a measure of the amount of time
   taken by an algorithm to run as a function of the length of the
@@ -1074,7 +1022,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** LAG Intra-package References
-SCHEDULED: <2024-07-11 Thu>
+SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -1095,7 +1043,7 @@ SCHEDULED: <2024-07-13 Sat>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** DELAY CodeWars 
-SCHEDULED: <2024-07-11 Thu ++2d/3d>
+SCHEDULED: <2024-08-01 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-03 Mon 19:39]
 :END:
