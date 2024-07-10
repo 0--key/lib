@@ -538,3 +538,48 @@ SCHEDULED: <2024-06-17 Mon>
 :ARCHIVE_TODO: RETARD
 :END:
  [[info:org#Tracking TODO state changes][org#Tracking TODO state changes]]
+
+* Gptel sessions (threads with assistants)
+SCHEDULED: <2024-07-08 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-07 Sun 22:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:END:
+https://www.reddit.com/r/emacs/comments/11k1q0s/chatgpt_inside_emacs/
+
+
+* RAW [#A] Large Language Model
+SCHEDULED: <2024-07-09 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-09 Tue 08:15
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: RAW
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-09 Tue 07:54]--[2024-07-09 Tue 08:12] =>  0:18
+CLOCK: [2024-07-09 Tue 07:31]--[2024-07-09 Tue 07:42] =>  0:11
+CLOCK: [2024-05-14 Tue 18:13]--[2024-05-14 Tue 18:35] =>  0:22
+CLOCK: [2024-05-13 Mon 12:14]--[2024-05-13 Mon 12:19] =>  0:05
+:END:
+
+
+* AMPLE [#A] Private Git repository
+SCHEDULED: <2024-07-09 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-09 Tue 08:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: AMPLE
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-09 Tue 07:20]--[2024-07-09 Tue 07:29] =>  0:09
+CLOCK: [2024-07-09 Tue 07:10]--[2024-07-09 Tue 07:20] =>  0:10
+CLOCK: [2024-07-08 Mon 04:59]--[2024-07-08 Mon 05:17] =>  0:18
+:END:
+[[elisp:(bookmark-jump-other-window "2024-07-08-git-tidbits.org")]]
+

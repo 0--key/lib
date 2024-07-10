@@ -12,8 +12,8 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** [#A] Pydantic
-SCHEDULED: <2024-07-01 Mon>
+** DELAY Pydantic
+SCHEDULED: <2024-07-20 Sat>
 ** DELAY Consul, Jenkins, Prometheus
 SCHEDULED: <2024-07-11 Thu>
 
@@ -57,8 +57,8 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-*** DELAY Dissect the Python Itself
-SCHEDULED: <2024-07-02 Tue ++2d>
+*** LAG Dissect the Python Itself
+SCHEDULED: <2024-08-06 Tue ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 06:44]--[2024-06-04 Tue 06:52] =>  0:08
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
@@ -106,7 +106,7 @@ CLOCK: [2024-01-31 Wed 14:54]--[2024-01-31 Wed 15:32] =>  0:38
 - Matt Harrison [2024-01-31 Wed 15:02]
 - drip distract her [2024-01-31 Wed 15:31]
 *** DELAY DP as PyPro
-SCHEDULED: <2024-07-08 Mon>
+SCHEDULED: <2024-07-13 Sat>
 :LOGBOOK:
 CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 :END:
@@ -115,7 +115,7 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 SCHEDULED: <2024-08-16 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** DELAY Cracking coding interview
-SCHEDULED: <2024-07-03 Wed ++4d>
+SCHEDULED: <2024-07-12 Fri ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:02]
 :END:
@@ -161,7 +161,7 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
 ** RAW IPython
-SCHEDULED: <2024-07-03 Wed ++2d>
+SCHEDULED: <2024-07-12 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -195,24 +195,29 @@ https://realpython.com/python3-object-oriented-programming/
 
 
 ** INIT XOR in Python in list comparison
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** INIT Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 ** INIT What is async app?
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 - Note taken on [2024-06-23 Sun 07:21] \\
   An asynchronous (async) application is a program that allows multiple
   operations to be executed concurrently, without waiting for each
   operation to finish before starting the next one. This helps improve
   performance and responsiveness in applications by handling tasks in a
   non-blocking manner.
-** INIT Web-app with a set pre-defined modulators for queries
-SCHEDULED: <2024-06-30 Sun>
+** INIT Flask Web-App
+SCHEDULED: <2024-07-11 Thu>
+ with a set pre-defined modulators for queries
+- Note taken on [2024-07-03 Wed 09:23] \\
+  Question clarification: generate three adjacent questions (n=3,
+  temperature=1.0) and ask user to choose the most precise ones (one or
+  several).
 ** DELAY openai library dissection
-SCHEDULED: <2024-07-10 Wed>
+SCHEDULED: <2024-07-12 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 16:37]--[2024-06-21 Fri 17:14] =>  0:37
 CLOCK: [2024-06-21 Fri 06:20]--[2024-06-21 Fri 06:27] =>  0:07
@@ -223,7 +228,7 @@ https://github.com/0--key/openai-python
 [[elisp:(bookmark-jump-other-window "openai-python")]]
   
 * Algorithms in CS
-SCHEDULED: <2024-07-03 Wed ++1w>
+SCHEDULED: <2024-07-11 Thu ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -245,7 +250,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-03 Wed ++2d>
+SCHEDULED: <2024-07-11 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -258,11 +263,11 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-07-03 Wed ++1d>
+SCHEDULED: <2024-07-11 Thu ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -295,7 +300,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-07-03 Wed ++1d>
+SCHEDULED: <2024-07-11 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -311,18 +316,18 @@ https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
 *** Integers
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 https://realpython.com/lessons/integers/
 
 **** Arithmetics
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 
 ** The Python's Extended Data Types
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -333,7 +338,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -344,8 +349,8 @@ CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** DELAY [#A] Emacs as Python IDE
-SCHEDULED: <2024-07-03 Wed ++1w>
+** LAG [#A] Emacs as Python IDE
+SCHEDULED: <2024-08-11 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -387,8 +392,8 @@ https://www.emacswiki.org/emacs/ProgrammingWithPythonModeDotEl
 :PROPERTIES:
 :CATEGORY: SysCraft
 :END:
-**** LAG Prerequisites
-SCHEDULED: <2024-07-02 Tue ++2d/3d>
+**** RETARD Prerequisites
+SCHEDULED: <2024-09-10 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 17:33]
 :END:
@@ -461,7 +466,7 @@ CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 - counsel-descbinds [2024-06-10 Mon 13:13]
 - counsel-google [2024-06-10 Mon 13:22]
 ***** DELAY Counsel-Git
-SCHEDULED: <2024-07-07 Sun>
+SCHEDULED: <2024-07-11 Thu>
 [[elisp:(apropos-command "counsel-git")]]
 
 
@@ -528,7 +533,7 @@ apt-cache search elpa | grep hydra
 : elpa-hydra - make Emacs bindings that stick around
 
 ***** RETARD Projectile
-SCHEDULED: <2024-07-10 Wed ++2d/3d>
+SCHEDULED: <2024-07-11 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-25 Thu 19:08]
 :END:
@@ -550,8 +555,8 @@ CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
 [[file:/usr/share/doc/elpa-projectile/index.html][Projectile]]
 - supports multiple back-ends like ag, rg [2024-01-16 Tue 19:18]
 - project etags or gtags [2024-01-16 Tue 19:19]
-****** LAG [#A] Python testing with Eglot
-SCHEDULED: <2024-07-08 Mon ++1d>
+****** RETARD [#A] Python testing with Eglot
+SCHEDULED: <2024-09-16 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-01 Fri 11:21]
 :END:
@@ -614,7 +619,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO Elpy
-SCHEDULED: <2024-07-03 Wed ++2d>
+SCHEDULED: <2024-07-11 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -877,8 +882,8 @@ CLOCK: [2024-03-25 Mon 12:51]--[2024-03-25 Mon 12:55] =>  0:04
 CLOCK: [2024-03-20 Wed 09:35]--[2024-03-20 Wed 09:36] =>  0:01
 :END:
 https://playwright.dev/python/docs/debug#playwright-inspector
-**** DELAY Trace Viewer
- SCHEDULED: <2024-06-30 Sun ++2d>
+**** LAG Trace Viewer
+ SCHEDULED: <2024-09-09 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 15:47]
 :END:
@@ -918,7 +923,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-07-03 Wed ++1d>
+SCHEDULED: <2024-07-11 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -929,7 +934,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
 ** Innate Data Model
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -939,7 +944,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-07-03 Wed ++3d>
+SCHEDULED: <2024-07-11 Thu ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -951,18 +956,18 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** Generators
-SCHEDULED: <2024-07-04 Thu>
+SCHEDULED: <2024-07-11 Thu>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 
 ** Debugging
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 https://realpython.com/defining-your-own-python-function/
 
 
@@ -975,14 +980,14 @@ https://docs.python-guide.org/writing/style/#conventions
 :END:
 
 ** Recursion
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
 https://algo.monster/problems/recursion_intro
 
 ** Trees
-SCHEDULED: <2024-07-03 Wed ++2d>
+SCHEDULED: <2024-07-11 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 08:54]
 :END:
@@ -995,11 +1000,11 @@ CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
 https://algo.monster/problems/tree_intro
 
 *** Python solution of tree-like problems
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 Are tree structures graph in general?
 
 ** Depth First Search
-SCHEDULED: <2024-07-03 Wed ++3d>
+SCHEDULED: <2024-07-11 Thu ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
@@ -1007,7 +1012,7 @@ CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
 https://algo.monster/problems/dfs_intro
 
 ** Repo
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -1036,7 +1041,7 @@ SCHEDULED: <2024-07-03 Wed>
 
   
 ** INIT Time Complexity
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 - Note taken on [2024-06-23 Sun 07:25] \\
   Time complexity of an algorithm is a measure of the amount of time
   taken by an algorithm to run as a function of the length of the
@@ -1069,7 +1074,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** LAG Intra-package References
-SCHEDULED: <2024-07-03 Wed>
+SCHEDULED: <2024-07-11 Thu>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
@@ -1082,7 +1087,7 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 SCHEDULED: <2024-05-29 Wed>
 [[file:~/git/python/peps/pep-0257.txt]]
 *** DELAY DocTests
-SCHEDULED: <2024-07-08 Mon>
+SCHEDULED: <2024-07-13 Sat>
 [[info:python3.11#doctest — Test interactive Python examples][python3.11#doctest — Test interactive Python examples]]
 
 * Coding
@@ -1090,7 +1095,7 @@ SCHEDULED: <2024-07-08 Mon>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** DELAY CodeWars 
-SCHEDULED: <2024-07-03 Wed ++2d/3d>
+SCHEDULED: <2024-07-11 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-03 Mon 19:39]
 :END:
