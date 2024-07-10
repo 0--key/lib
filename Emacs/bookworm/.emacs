@@ -39,6 +39,7 @@
 
 (require 'mw-thesaurus)
 
+;; Python section
 (require 'python)
 (require 'pyvenv)
 (pyvenv-activate "/home/alioth/.local/OpenAI/")
@@ -78,6 +79,7 @@
 
 ;; OpenAI section
 (setq openai-api-key (getenv "OPENAI_API_KEY"))
+(require 'vizier)
 
 
 ;; Jekyll settings there -->
