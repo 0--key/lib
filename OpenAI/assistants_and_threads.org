@@ -8,15 +8,26 @@ Local ~vizier~ source: /usr/local/share/emacs/site-lisp/vizier-0.0.1/vizier.el
 
 ** Tony
 
+*** Git
+thread_DxS4jeIINr43Kg86DRbUJXun
+
+
+*** From Letterkenny to Dublin
+thread_mnFNG9dC4Igf8hc4IFUB4QU2
+
+
 *** Elisp & Vizier
 in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
-:vizier-thread-id: thread_Q1teTN2ZdIKPvKif3ZuzN42S
+vizier-thread-id thread_Q1teTN2ZdIKPvKif3ZuzN42S
 
+*** Emacs usage
+vizier-thread-id thread_9Yp00xihHmW6E0bl6LyhLy8q
 
 *** OpenAI subtleties
-:vizier-thread-id: thread_HZBh9PMJgndmnJLVz2GqifRz
+vizier-thread-id thread_HZBh9PMJgndmnJLVz2GqifRz
 
 *** English Grammar
+vizier-thread-id thread_PvkC2Tbe7Djc0xOTE3ansOSF
 
 *** Computer Science
 
@@ -26,13 +37,13 @@ in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
 ** Vikki
 
 *** Computer Science + Python
-:vizier-thread-id: thread_Qmu6ocrAmdVCjJ643eRVW51Q
+vizier-thread-id thread_Qmu6ocrAmdVCjJ643eRVW51Q
 
 *** Applied Python with Flask and Jinja2
-:vizier-thread-id: thread_kMLnt3ba0opm0biRsBfpDHLR
+vizier-thread-id thread_kMLnt3ba0opm0biRsBfpDHLR
 
 *** English Grammar
-:vizier-thread-id: thread_BBSYNTbvFHpbermXHfm0QzmO
+vizier-thread-id thread_BBSYNTbvFHpbermXHfm0QzmO
 
 
 
@@ -40,6 +51,8 @@ in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
 
 Are common for our both:
 
+AWS: asst_p7qY0db95VJOnhiDsaF1jEqp
+Git: asst_enUVW0dg6eP0D3NNqwYWiYN0
 Elisp&Emacs: :vizier-assistant-id: asst_k0LyQk3P0ugc93lkXqkzrP0x
 CareerCouch: :vizier-assistant-id: asst_TBAMrIBzyYhMQ1cJSEuaGzGx
 OpenAICouch: :vizier-assistant-id: asst_oLuLDRdsSDyMcBAvpwCGkbGS
@@ -48,3 +61,4 @@ CS+PythonCouch: :vizier-assistant-id: asst_9U8N72u9uVQesQNNjgOLJOu8
 Python&Flask&Jinja2: :vizier-assistant-id: asst_DnaQMwaoR1nGJHA0Y8bcqC2b
 Reasoner:
 Philosopher:
+IrishGuide: asst_zKITvEz92AJbY0AvE2caZ2Vp
