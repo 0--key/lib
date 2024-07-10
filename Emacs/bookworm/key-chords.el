@@ -82,23 +82,17 @@
 (key-chord-define-global "m "     'set-mark-command)
 ;; Misc
 (key-chord-define-global "fg"     'find-file)
-(key-chord-define-global "ew"     'eval-last-sexp)
-;;(key-chord-define-global "hg"     'keyboard-quit)
+(key-chord-define-global "ex"     'eval-region)
 (key-chord-define-global "gs"     'magit-status)
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
 (key-chord-define with-editor-mode-map "dc"     'with-editor-finish) ;; ~cd~ in bash
 (key-chord-define-global "pi"     'info-apropos)
-
-
-;; Searching
-;; (key-chord-define-global "sf"     'isearch-forward)
-;; (key-chord-define-global "SF"     'isearch-backward)
 ;;
 (key-chord-define-global "sf"     'swiper)
 (key-chord-define-global "SF"     'swiper-backward)
 ;;
-;; (key-chord-define-global "ri"     'insert-register) ;; too common
+(key-chord-define-global "im"     'insert-register) ;; too common
 
 ;; Killing and Yanking
 (key-chord-define-global "vf"     'kill-ring-save)
@@ -112,12 +106,6 @@
 (key-chord-define-global "tv"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
-;;(key-chord-define-global "WD"     'powerthesaurus-lookup-sentences-dwim)
-    ;; (global-set-key "\C-x4w" 'langtool-check)
-    ;; (global-set-key "\C-x4W" 'langtool-check-done)
-    ;; (global-set-key "\C-x4l" 'langtool-switch-default-language)
-    ;; (global-set-key "\C-x44" 'langtool-show-message-at-point)
-    ;; (global-set-key "\C-x4c" 'langtool-correct-buffer)
 
 ;; Drilling
 (key-chord-define org-mode-map "dr"     'org-drill-resume)

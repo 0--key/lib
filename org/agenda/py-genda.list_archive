@@ -1,0 +1,63 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/alioth/Git/0--key/lib/org/agenda/py-genda.list
+
+
+* RETARD Projectile
+SCHEDULED: <2024-07-11 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-25 Thu 19:08]
+:ARCHIVE_TIME: 2024-07-10 Wed 18:05
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Development Environment/Emacs as Python IDE/SysCrafting/Prerequisites
+:ARCHIVE_CATEGORY: SysCraft
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 19:08]
+:LOGBOOK:
+CLOCK: [2024-01-16 Tue 19:01]--[2024-01-16 Tue 19:22] =>  0:21
+CLOCK: [2024-01-11 Thu 15:46]--[2024-01-11 Thu 16:06] =>  0:20
+:END:
+#+begin_src sh :results output
+  apt-cache search elpa | grep projectile
+#+end_src
+
+#+RESULTS:
+: elpa-helm-projectile - Helm integration for Projectile
+: elpa-ibuffer-projectile - group buffers in ibuffer list by Projectile project
+: elpa-projectile - project interaction library for Emacs
+: elpa-treemacs-projectile - tree layout file explorer for Emacs
+
+[[file:/usr/share/doc/elpa-projectile/index.html][Projectile]]
+- supports multiple back-ends like ag, rg [2024-01-16 Tue 19:18]
+- project etags or gtags [2024-01-16 Tue 19:19]
+** RETARD [#A] Python testing with Eglot
+SCHEDULED: <2024-09-16 Mon ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-01 Fri 11:21]
+:END:
+- State "SET"        from ""           [2024-03-01 Fri 11:21]
+- State "AMPLE"      from ""           [2024-01-26 Fri 18:48]
+:LOGBOOK:
+CLOCK: [2024-01-26 Fri 18:18]--[2024-01-26 Fri 18:47] =>  0:29
+CLOCK: [2024-01-12 Fri 10:58]--[2024-01-12 Fri 11:42] =>  0:44
+CLOCK: [2024-01-12 Fri 10:06]--[2024-01-12 Fri 10:43] =>  0:37
+CLOCK: [2024-01-12 Fri 09:40]--[2024-01-12 Fri 10:04] =>  0:24
+:END:
+https://www.adventuresinwhy.com/post/eglot/
+- install pyflakes, pylint or something else
+
+- eglot-workspace-configuration >>>
+
+- This variable should be set as a directory-local variable.  See
+info node (emacs)Directory Variables for various ways to do that.
+
+Here's an example value that establishes two sections relevant to
+the Pylsp and Gopls LSP servers:
+
+  (:pylsp (:plugins (:jedi_completion (:include_params t
+                                       :fuzzy t)
+                     :pylint (:enabled :json-false)))
+   :gopls (:usePlaceholders t))
+
