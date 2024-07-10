@@ -65,6 +65,19 @@
 			 (lambda ()
 			   (interactive)
 			   (switch-to-buffer "*scratch*")))
+(key-chord-define-global "in"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*info*")))
+(key-chord-define-global "yn"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*shell*")))
+(key-chord-define-global "mn"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*Messages*")))
+
 ;; Marks
 (key-chord-define-global "m "     'set-mark-command)
 ;; Misc
