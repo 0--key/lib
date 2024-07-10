@@ -38,8 +38,6 @@
 (setq google-translate-default-target-language "ru")
 
 (require 'mw-thesaurus)
-(require 'powerthesaurus)
-
 
 (require 'python)
 (require 'pyvenv)
@@ -79,10 +77,6 @@
 
 
 ;; OpenAI section
-(require 'gptel)
-(require 'gptel-transient)
-(require 'gptel-curl)
-(setq gptel-api-key (getenv "OPENAI_API_KEY"))
 (setq openai-api-key (getenv "OPENAI_API_KEY"))
 
 
@@ -132,7 +126,7 @@
  '(org-html-htmlize-output-type 'css)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
-   '(markdown-mode gptel htmlize gnu-elpa-keyring-update powerthesaurus sound-wav eglot xclip py-autopep8))
+   '(markdown-mode htmlize gnu-elpa-keyring-update sound-wav eglot xclip py-autopep8))
  '(vc-follow-symlinks t))
 
 
