@@ -1,9 +1,7 @@
 ;; The common config file for all users on the host
 ;; =sudo chown <username> /etc/emacs/site-start.d/00debian.el=
 (setq inhibit-startup-message t)
-(tool-bar-mode -1)
 (menu-bar-mode -1)
-(scroll-bar-mode -1)
 
 (server-start)
 
