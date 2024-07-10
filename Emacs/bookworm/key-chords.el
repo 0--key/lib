@@ -70,7 +70,7 @@
 ;; Misc
 (key-chord-define-global "fg"     'find-file)
 (key-chord-define-global "ew"     'eval-last-sexp)
-(key-chord-define-global "hg"     'keyboard-quit)
+;;(key-chord-define-global "hg"     'keyboard-quit)
 (key-chord-define-global "gs"     'magit-status)
 (key-chord-define-global "vl"     'vc-print-log)
 (key-chord-define-global "fm"     'follow-mode)
@@ -79,8 +79,8 @@
 
 
 ;; Searching
-(key-chord-define-global "sf"     'isearch-forward)
-(key-chord-define-global "SF"     'isearch-backward)
+;; (key-chord-define-global "sf"     'isearch-forward)
+;; (key-chord-define-global "SF"     'isearch-backward)
 ;;
 (key-chord-define-global "sf"     'swiper)
 (key-chord-define-global "SF"     'swiper-backward)
@@ -96,10 +96,10 @@
 ;; Translation
 (key-chord-define-global "tr"     'google-translate-at-point)
 (key-chord-define-global "TR"     'google-translate-at-point-reverse)
-(key-chord-define-global "ty"     'voca-builder/search-popup)
+(key-chord-define-global "tv"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
-(key-chord-define-global "WD"     'powerthesaurus-lookup-sentences-dwim)
+;;(key-chord-define-global "WD"     'powerthesaurus-lookup-sentences-dwim)
     ;; (global-set-key "\C-x4w" 'langtool-check)
     ;; (global-set-key "\C-x4W" 'langtool-check-done)
     ;; (global-set-key "\C-x4l" 'langtool-switch-default-language)
