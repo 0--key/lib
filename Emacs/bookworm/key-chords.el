@@ -119,6 +119,8 @@
 
 ;; Org section
 (global-set-key (kbd "C-c c") 'org-capture)
+(key-chord-define org-mode-map "zv"     'vizier)
+(key-chord-define org-mode-map "av"     'vizier-answer)
 
 ;; Clocked task capture for straight note as a point on the bullet
 ;; list:
