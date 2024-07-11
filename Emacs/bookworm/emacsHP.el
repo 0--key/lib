@@ -41,7 +41,7 @@
 ;; Python section
 (require 'python)
 (require 'pyvenv)
-(pyvenv-activate "/home/alioth/.local/OpenAI/")
+(pyvenv-activate "/home/alioth/.virtualenvs/OpenAI/")
 (load "elpy")
 (load "elpy-rpc")
 (load "elpy-shell")
