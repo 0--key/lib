@@ -115,7 +115,7 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 SCHEDULED: <2024-08-16 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** DELAY Cracking coding interview
-SCHEDULED: <2024-07-12 Fri ++4d>
+SCHEDULED: <2024-07-21 Sun ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:02]
 :END:
@@ -160,8 +160,8 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 :END:
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
-** RAW IPython
-SCHEDULED: <2024-07-12 Fri ++2d>
+** DELAY IPython
+SCHEDULED: <2024-07-21 Sun ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -202,7 +202,7 @@ CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 ** DELAY Reproduce an article from RealPython in Babel!
 SCHEDULED: <2024-07-23 Tue>
 ** DELAY What is async app?
-SCHEDULED: <2024-07-12 Fri>
+SCHEDULED: <2024-07-21 Sun>
 - Note taken on [2024-06-23 Sun 07:21] \\
   An asynchronous (async) application is a program that allows multiple
   operations to be executed concurrently, without waiting for each
@@ -250,12 +250,13 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-11 Thu ++2d>
+SCHEDULED: <2024-07-13 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
 - State "AMPLE"      from ""           [2024-05-24 Fri 20:21]
 :LOGBOOK:
+CLOCK: [2024-07-11 Thu 08:16]--[2024-07-11 Thu 08:26] =>  0:10
 CLOCK: [2024-05-24 Fri 19:53]--[2024-05-24 Fri 20:21] =>  0:28
 :END:
 https://www.geeksforgeeks.org/searching-algorithms/
@@ -267,7 +268,7 @@ SCHEDULED: <2024-07-14 Sun>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-07-11 Thu ++1d>
+SCHEDULED: <2024-07-17 Wed ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -300,7 +301,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** The Python's Innate Data Types
-SCHEDULED: <2024-07-11 Thu ++1d>
+SCHEDULED: <2024-07-16 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -319,11 +320,11 @@ https://realpython.com/courses/python-data-types/
 SCHEDULED: <2024-07-17 Wed>
 https://realpython.com/lessons/integers/
 
-**** Arithmetics
-SCHEDULED: <2024-07-12 Fri>
+**** DELAY Arithmetics
+SCHEDULED: <2024-07-21 Sun>
 
 ** DELAY The Python's Extended Data Types
-SCHEDULED: <2024-07-12 Fri>
+SCHEDULED: <2024-07-21 Sun>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
@@ -567,7 +568,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** TODO Elpy
-SCHEDULED: <2024-07-11 Thu ++2d>
+SCHEDULED: <2024-07-12 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -881,8 +882,8 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 :END:
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
 
-** Innate Data Model
-SCHEDULED: <2024-07-12 Fri>
+** DELAY Innate Data Model
+SCHEDULED: <2024-07-21 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -892,7 +893,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-07-11 Thu ++3d>
+SCHEDULED: <2024-07-14 Sun ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -903,8 +904,8 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[elisp:(bookmark-jump-other-window "How to Use Python Lambda Functions – Real Python")]]
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
-** Generators
-SCHEDULED: <2024-07-12 Fri>
+** DELAY Generators
+SCHEDULED: <2024-07-21 Sun>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
@@ -947,8 +948,8 @@ CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
 :END:
 https://algo.monster/problems/tree_intro
 
-*** Python solution of tree-like problems
-SCHEDULED: <2024-07-12 Fri>
+*** DELAY Python solution of tree-like problems
+SCHEDULED: <2024-07-21 Sun>
 Are tree structures graph in general?
 
 ** Depth First Search
@@ -988,8 +989,8 @@ SCHEDULED: <2024-07-16 Tue>
   :END:
 
   
-** INIT Time Complexity
-SCHEDULED: <2024-07-12 Fri>
+** DELAY Time Complexity
+SCHEDULED: <2024-07-21 Sun>
 - Note taken on [2024-06-23 Sun 07:25] \\
   Time complexity of an algorithm is a measure of the amount of time
   taken by an algorithm to run as a function of the length of the
@@ -1075,7 +1076,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** DELAY LeetCode
-SCHEDULED: <2024-07-12 Fri ++3d/4d>
+SCHEDULED: <2024-07-21 Sun ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:

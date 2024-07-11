@@ -81,6 +81,13 @@
 (require 'vizier)
 
 
+     ;; Use xclip in terminal mode when running under a graphical session
+     (when (and (not (display-graphic-p))
+                (getenv "DISPLAY"))
+       (require 'xclip)
+       (xclip-mode 1))
+
+
 ;; Jekyll settings there -->
 ;;
 (setq org-publish-project-alist
