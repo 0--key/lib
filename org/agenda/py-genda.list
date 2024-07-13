@@ -250,7 +250,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-14 Sun ++2d>
+SCHEDULED: <2024-07-15 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -264,7 +264,7 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-07-14 Sun>
+SCHEDULED: <2024-07-15 Mon>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
@@ -328,7 +328,7 @@ SCHEDULED: <2024-07-21 Sun>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-07-14 Sun>
+SCHEDULED: <2024-07-15 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -648,7 +648,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** LAG FlyMake
-SCHEDULED: <2024-07-14 Sun>
+SCHEDULED: <2024-07-15 Mon>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -872,7 +872,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-07-13 Sat ++1d>
+SCHEDULED: <2024-07-15 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -894,7 +894,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-07-14 Sun ++3d>
+SCHEDULED: <2024-07-15 Mon ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -913,7 +913,7 @@ https://realpython.com/introduction-to-python-generators/
 SCHEDULED: <2024-07-16 Tue>
 
 ** Debugging
-SCHEDULED: <2024-07-14 Sun>
+SCHEDULED: <2024-07-15 Mon>
 https://realpython.com/python-debug-idle/
 
 ** Functions
@@ -1085,7 +1085,12 @@ SCHEDULED: <2024-07-21 Sun ++3d/4d>
 CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
 :END:
 * OpenAI
-** Assistant with Enterpreter
-SCHEDULED: <2024-07-13 Sat>
+** [#A] Assistant with Enterpreter {s}
+SCHEDULED: <2024-07-14 Sun>
+:LOGBOOK:
+CLOCK: [2024-07-13 Sat 14:36]--[2024-07-13 Sat 16:34] =>  1:58
+CLOCK: [2024-07-13 Sat 08:40]--[2024-07-13 Sat 09:34] =>  0:54
+CLOCK: [2024-07-13 Sat 05:18]--[2024-07-13 Sat 05:28] =>  0:10
+:END:
 https://platform.openai.com/docs/api-reference/assistants/createAssistant
 - Try to make a function by defining its test suite.

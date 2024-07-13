@@ -65,10 +65,18 @@
 			 (lambda ()
 			   (interactive)
 			   (switch-to-buffer "*scratch*")))
-(key-chord-define-global "in"
+(key-chord-define-global "i7"
 			 (lambda ()
 			   (interactive)
 			   (switch-to-buffer "*info*")))
+(key-chord-define-global "i8"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*info*<2>")))
+(key-chord-define-global "i9"
+			 (lambda ()
+			   (interactive)
+			   (switch-to-buffer "*info*<3>")))
 (key-chord-define-global "yn"
 			 (lambda ()
 			   (interactive)
@@ -121,7 +129,7 @@
 ;; Org section
 (global-set-key (kbd "C-c c") 'org-capture)
 (key-chord-define org-mode-map "zv"     'vizier)
-(key-chord-define org-mode-map "av"     'vizier-answer)
+;;(key-chord-define org-mode-map "av"     'vizier-answer)
 
 ;; Clocked task capture for straight note as a point on the bullet
 ;; list:
@@ -159,8 +167,8 @@
 		  'org-agenda-toggle-archive-tag)
 
 ;; Clock In-Out and Timers
-(key-chord-define-global "lc"     'org-clock-in-last)
-(key-chord-define-global "sc"     'org-clock-out) ;; stop-clock
+(key-chord-define-global "ce"     'org-clock-in-last)
+(key-chord-define-global "cq"     'org-clock-out) ;; stop-clock
 
 (key-chord-define python-mode-map "dt"     'org-babel-detangle)
 
