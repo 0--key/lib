@@ -132,7 +132,9 @@
  '(org-clock-auto-clockout-timer 90)
  '(org-clock-sound t)
  '(org-confirm-babel-evaluate nil)
+ '(org-edit-src-content-indentation 0)
  '(org-html-htmlize-output-type 'css)
+ '(org-src-preserve-indentation t)
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
    '(markdown-mode htmlize gnu-elpa-keyring-update sound-wav eglot py-autopep8))
