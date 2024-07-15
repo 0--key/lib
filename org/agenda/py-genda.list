@@ -20,8 +20,8 @@ SCHEDULED: <2024-07-21 Sun>
 ** DELAY Cascading Style Sheets (CSS), HTML5, JSON, and XML
 SCHEDULED: <2024-07-23 Tue>
 
-** DELAY Agile Methodolody
-SCHEDULED: <2024-07-16 Tue ++2d>
+** LAG Agile Methodolody
+SCHEDULED: <2024-08-20 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-17 Mon 07:10]
 :END:
@@ -228,7 +228,7 @@ https://github.com/0--key/openai-python
 [[elisp:(bookmark-jump-other-window "openai-python")]]
   
 * Algorithms in CS
-SCHEDULED: <2024-07-15 Mon ++1w>
+SCHEDULED: <2024-07-18 Thu ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -250,7 +250,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-15 Mon ++2d>
+SCHEDULED: <2024-07-17 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -264,7 +264,7 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-07-15 Mon>
+SCHEDULED: <2024-07-16 Tue>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
@@ -328,7 +328,7 @@ SCHEDULED: <2024-07-21 Sun>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-07-15 Mon>
+SCHEDULED: <2024-07-19 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -513,7 +513,7 @@ CLOCK: [2024-01-11 Thu 11:14]--[2024-01-11 Thu 11:21] =>  0:07
 https://github.com/justbur/emacs-which-key
 [[elisp:(apropos-command "which-key")]]
 ***** LAG Hydra
-SCHEDULED: <2024-07-15 Mon ++1d>
+SCHEDULED: <2024-08-19 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 16:37]
 :END:
@@ -567,8 +567,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO [#A] Elpy
-SCHEDULED: <2024-07-14 Sun ++2d>
+** TODO Elpy
+SCHEDULED: <2024-07-16 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -648,7 +648,7 @@ CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
 *
 
 **** LAG FlyMake
-SCHEDULED: <2024-07-15 Mon>
+SCHEDULED: <2024-09-14 Sat>
 :LOGBOOK:
 CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
 CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
@@ -871,8 +871,8 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :CATEGORY: PyFu{e}
 :END:
 
-** The Language Basement
-SCHEDULED: <2024-07-15 Mon ++1d>
+** [#A] The Language Basement
+SCHEDULED: <2024-07-16 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -893,8 +893,8 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 - https://data-flair.training/blogs/python-number-types-conversion/
 
 
-** Lambda Function
-SCHEDULED: <2024-07-15 Mon ++3d>
+** [#A] Lambda Function
+SCHEDULED: <2024-07-16 Tue ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -913,11 +913,11 @@ https://realpython.com/introduction-to-python-generators/
 SCHEDULED: <2024-07-16 Tue>
 
 ** Debugging
-SCHEDULED: <2024-07-15 Mon>
+SCHEDULED: <2024-07-18 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
-SCHEDULED: <2024-07-15 Mon>
+SCHEDULED: <2024-07-19 Fri>
 https://realpython.com/defining-your-own-python-function/
 
 * LAG Idioms
@@ -935,8 +935,8 @@ CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
 https://algo.monster/problems/recursion_intro
 
-** Trees
-SCHEDULED: <2024-07-15 Mon ++2d>
+** [#A] Trees
+SCHEDULED: <2024-07-16 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 08:54]
 :END:
@@ -952,7 +952,7 @@ https://algo.monster/problems/tree_intro
 SCHEDULED: <2024-07-21 Sun>
 Are tree structures graph in general?
 
-** Depth First Search
+** [#A] Depth First Search
 SCHEDULED: <2024-07-16 Tue ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
@@ -960,8 +960,8 @@ CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
 :END:
 https://algo.monster/problems/dfs_intro
 
-** Repo
-SCHEDULED: <2024-07-16 Tue>
+** DELAY Repo
+SCHEDULED: <2024-08-20 Tue>
 - Note taken on [2023-12-11 Mon 09:33] \\
   * Algorithms
   - State "AMPLE"      from ""           [2023-12-08 Fri 17:47]
@@ -1035,8 +1035,8 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 *** LAG 257                                                       :ARCHIVE:
 SCHEDULED: <2024-05-29 Wed>
 [[file:~/git/python/peps/pep-0257.txt]]
-*** DELAY DocTests
-SCHEDULED: <2024-07-16 Tue>
+*** LAG DocTests
+SCHEDULED: <2024-08-20 Tue>
 [[info:python3.11#doctest — Test interactive Python examples][python3.11#doctest — Test interactive Python examples]]
 
 * Coding
@@ -1086,8 +1086,10 @@ CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
 :END:
 * OpenAI
 ** [#A] Assistant with Enterpreter {s}
-SCHEDULED: <2024-07-14 Sun>
+SCHEDULED: <2024-07-16 Tue>
 :LOGBOOK:
+CLOCK: [2024-07-14 Sun 16:40]--[2024-07-14 Sun 18:05] =>  1:25
+CLOCK: [2024-07-14 Sun 07:03]--[2024-07-14 Sun 08:13] =>  1:10
 CLOCK: [2024-07-13 Sat 14:36]--[2024-07-13 Sat 16:34] =>  1:58
 CLOCK: [2024-07-13 Sat 08:40]--[2024-07-13 Sat 09:34] =>  0:54
 CLOCK: [2024-07-13 Sat 05:18]--[2024-07-13 Sat 05:28] =>  0:10
