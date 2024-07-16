@@ -8,13 +8,14 @@ Local ~vizier~ source: /usr/local/share/emacs/site-lisp/vizier-0.0.1/vizier.el
 
 ** Tony
 
+*** Python & TDD
+thread_bEfocrvYp57YATvOo3EmvkDV
+
 *** Git
 thread_DxS4jeIINr43Kg86DRbUJXun
 
-
 *** From Letterkenny to Dublin
 thread_mnFNG9dC4Igf8hc4IFUB4QU2
-
 
 *** Elisp & Vizier
 in browser: :vizier-thread-id: thread_qFukKSt7R8eBVWrYtbBcPEVg
@@ -30,6 +31,7 @@ vizier-thread-id thread_HZBh9PMJgndmnJLVz2GqifRz
 vizier-thread-id thread_PvkC2Tbe7Djc0xOTE3ansOSF
 
 *** Computer Science
+thread_KCfRUB9ZmqlcKLwduLD6PZxO
 
 *** History of CS
 
@@ -65,3 +67,5 @@ Python&Flask&Jinja2: :vizier-assistant-id: asst_DnaQMwaoR1nGJHA0Y8bcqC2b
 Reasoner:
 Philosopher:
 IrishGuide: asst_zKITvEz92AJbY0AvE2caZ2Vp
+
+Pythonista with interpreter: asst_Qy77LlTvrNX9xGWl5jxGnK46
