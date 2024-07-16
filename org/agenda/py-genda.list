@@ -250,7 +250,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-17 Wed ++2d>
+SCHEDULED: <2024-07-19 Fri ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -264,11 +264,11 @@ https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
 ** Sorting
-SCHEDULED: <2024-07-16 Tue>
+SCHEDULED: <2024-07-19 Fri>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-07-17 Wed ++1d>
+SCHEDULED: <2024-07-22 Mon ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -300,8 +300,8 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 
-** The Python's Innate Data Types
-SCHEDULED: <2024-07-16 Tue ++1d>
+** [#A] The Python's Innate Data Types
+SCHEDULED: <2024-07-17 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -316,7 +316,7 @@ https://realpython.com/python-data-types/
 https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
-*** Integers
+*** [#A] Integers
 SCHEDULED: <2024-07-17 Wed>
 https://realpython.com/lessons/integers/
 
@@ -339,7 +339,7 @@ https://www.geeksforgeeks.org/what-is-linked-list/
 
 
 ** Stack
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-22 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -567,8 +567,8 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** TODO Elpy
-SCHEDULED: <2024-07-16 Tue ++2d>
+** Elpy
+SCHEDULED: <2024-07-17 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -872,16 +872,19 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** [#A] The Language Basement
-SCHEDULED: <2024-07-16 Tue ++1d>
+SCHEDULED: <2024-07-18 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
 - State "AMPLE"      from ""           [2024-06-06 Thu 20:07]
 :LOGBOOK:
+CLOCK: [2024-07-16 Tue 09:56]--[2024-07-16 Tue 10:45] =>  0:49
+CLOCK: [2024-07-16 Tue 08:59]--[2024-07-16 Tue 09:02] =>  0:03
 CLOCK: [2024-07-12 Fri 19:45]--[2024-07-12 Fri 19:45] =>  0:00
 CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 :END:
 [[elisp:(bookmark-jump-other-window "2024-06-05-python-fundamentals.org")][True is not False!]]
+[[elisp:(bookmark-jump-other-window "py-fu.org")]]
 
 ** DELAY Innate Data Model
 SCHEDULED: <2024-07-21 Sun>
@@ -893,24 +896,27 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 - https://data-flair.training/blogs/python-number-types-conversion/
 
 
-** [#A] Lambda Function
-SCHEDULED: <2024-07-16 Tue ++3d>
+** Lambda Function
+SCHEDULED: <2024-07-19 Fri ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
 - State "AMPLE"      from ""           [2024-05-30 Thu 16:19]
 :LOGBOOK:
+CLOCK: [2024-07-16 Tue 18:28]--[2024-07-16 Tue 19:07] =>  0:39
+CLOCK: [2024-07-16 Tue 16:15]--[2024-07-16 Tue 16:51] =>  0:36
 CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 :END:
+[[elisp:(bookmark-jump-other-window "2024-05-30-lambda-in-python.org: Transformation into ~unittest~")]]
 [[elisp:(bookmark-jump-other-window "How to Use Python Lambda Functions – Real Python")]]
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
-** DELAY Generators
-SCHEDULED: <2024-07-21 Sun>
+** RAW Generators
+SCHEDULED: <2024-07-18 Thu>
 https://realpython.com/introduction-to-python-generators/
 
-** Decorators
-SCHEDULED: <2024-07-16 Tue>
+** [#A] Decorators
+SCHEDULED: <2024-07-17 Wed>
 
 ** Debugging
 SCHEDULED: <2024-07-18 Thu>
@@ -929,19 +935,20 @@ https://docs.python-guide.org/writing/style/#conventions
 :END:
 
 ** Recursion
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-21 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
 https://algo.monster/problems/recursion_intro
 
 ** [#A] Trees
-SCHEDULED: <2024-07-16 Tue ++2d>
+SCHEDULED: <2024-07-23 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 08:54]
 :END:
 - State "AMPLE"      from ""           [2024-06-19 Wed 08:54]
 :LOGBOOK:
+CLOCK: [2024-07-16 Tue 08:51]--[2024-07-16 Tue 08:54] =>  0:03
 CLOCK: [2024-06-19 Wed 08:36]--[2024-06-19 Wed 08:54] =>  0:18
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:39] =>  0:00
 CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
@@ -953,7 +960,7 @@ SCHEDULED: <2024-07-21 Sun>
 Are tree structures graph in general?
 
 ** [#A] Depth First Search
-SCHEDULED: <2024-07-16 Tue ++3d>
+SCHEDULED: <2024-07-23 Tue ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
@@ -1085,8 +1092,8 @@ SCHEDULED: <2024-07-21 Sun ++3d/4d>
 CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
 :END:
 * OpenAI
-** [#A] Assistant with Enterpreter {s}
-SCHEDULED: <2024-07-16 Tue>
+** Assistant with Enterpreter
+SCHEDULED: <2024-07-23 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-14 Sun 16:40]--[2024-07-14 Sun 18:05] =>  1:25
 CLOCK: [2024-07-14 Sun 07:03]--[2024-07-14 Sun 08:13] =>  1:10
@@ -1096,3 +1103,4 @@ CLOCK: [2024-07-13 Sat 05:18]--[2024-07-13 Sat 05:28] =>  0:10
 :END:
 https://platform.openai.com/docs/api-reference/assistants/createAssistant
 - Try to make a function by defining its test suite.
+[[elisp:(bookmark-jump-other-window "2024-07-13-assistant-with-python.org")]]
