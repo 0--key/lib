@@ -19,14 +19,14 @@ Advanced to-do list    -*- mode: org; -*-
 :END:
 
 ** [#A] Private agenda
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 ** Non-verbal communication
 :PROPERTIES:
 :CATEGORY: Non-VC
 :END:
 
 *** DELAY Vanessa Van Edwards
-SCHEDULED: <2024-07-18 Thu ++2d/3d>
+SCHEDULED: <2024-07-20 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 09:21]
 :END:
@@ -208,7 +208,7 @@ SCHEDULED: <2024-07-28 Sun>
 https://github.com/emacs-grammarly/grammarly
 
 *** [#A] File with grammar and vocabulary
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
 CLOCK: [2024-07-11 Thu 08:53]--[2024-07-11 Thu 08:56] =>  0:03
 CLOCK: [2024-07-11 Thu 08:31]--[2024-07-11 Thu 08:51] =>  0:20
@@ -386,7 +386,7 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :END:
 A Clot for Every Slot
 
-** Philomath.ie LLC
+** [#A] Philomath.ie LLC
 SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
 CLOCK: [2024-07-10 Wed 08:02]--[2024-07-10 Wed 08:14] =>  0:12
@@ -401,7 +401,7 @@ CLOCK: [2024-07-10 Wed 06:40]--[2024-07-10 Wed 07:09] =>  0:29
 :END:
 
 ** LAG Tags
-SCHEDULED: <2024-07-18 Thu ++3d/5d>
+SCHEDULED: <2024-07-19 Fri ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -485,7 +485,7 @@ SCHEDULED: <2024-08-19 Mon>
 :CATEGORY: Elisp
 :END:
 *** Arguments passing
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
 CLOCK: [2024-07-15 Mon 18:59]--[2024-07-15 Mon 19:01] =>  0:02
 CLOCK: [2024-07-15 Mon 18:44]--[2024-07-15 Mon 18:54] =>  0:10
@@ -502,7 +502,7 @@ CLOCK: [2024-07-15 Mon 09:56]--[2024-07-15 Mon 10:09] =>  0:13
 [[elisp:(bookmark-jump-other-window "elisp.org if/else")]]
 
 *** [#A] Zero-shot
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 [[elisp:(bookmark-jump-other-window "elisp.org zero")]]
 ** DELAY AI inside Emacs
 SCHEDULED: <2024-08-13 Tue ++1d>
@@ -623,10 +623,6 @@ should be customized by ~keychords~
   (define-key key-translation-map (kbd "<key-chord> yy")  (kbd "M-x"))
 #+end_src
 
-** RETARD Mode Line Customization
-SCHEDULED: <2024-07-18 Thu>
-[[info:emacs#Mode Line][emacs#Mode Line]]
-It would be great to vitalise it by colouring.
 ** RETARD [#A] Version Control
 SCHEDULED: <2024-08-04 Sun ++2d>
 :PROPERTIES:
@@ -931,7 +927,7 @@ SCHEDULED: <2024-07-25 Thu>
 https://www.reddit.com/r/emacs/comments/39sl5s/syntax_highlight_on_markdown_code_blocks/
 https://www.reddit.com/r/emacs/comments/10h9jf0/beautify_markdown_on_emacs/
 
-** Zero-shot learning
+** [#A] Zero-shot learning
 SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
 CLOCK: [2024-07-12 Fri 05:52]--[2024-07-12 Fri 06:10] =>  0:18
@@ -1855,7 +1851,7 @@ SCHEDULED: <2024-08-06 Tue>
 ** LAG [#C] How to detour ATS?
 SCHEDULED: <2024-09-16 Mon>
 ** [#C] Lead Agenda elaboration
-SCHEDULED: <2024-07-17 Wed ++3d/4d>
+SCHEDULED: <2024-07-18 Thu ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-13 Thu 18:22]
 :END:
@@ -1925,7 +1921,7 @@ SCHEDULED: <2024-08-27 Tue>
 :END:
 
 *** Enhancement {v}
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 - Note taken on [2024-07-11 Thu 20:36] \\
   How to use Git branching feature for development properly? What is the
   average workflow?
@@ -1964,7 +1960,7 @@ SCHEDULED: <2024-07-22 Mon>
 :END:
 
 *** [#A] LinkedIn Profile
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 - Note taken on [2024-06-28 Fri 09:18] \\
   Operations with OpenAI in web-browser tab is a kind of mazochinsm, so
   I wrote my own tool set to do it inside Emacs.
@@ -1988,9 +1984,10 @@ SCHEDULED: <2024-07-30 Tue>
 https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
 
 
-*** Proposals Elaboration
-SCHEDULED: <2024-07-20 Sat>
+*** [#A] Proposals Elaboration
+SCHEDULED: <2024-07-18 Thu>
 :LOGBOOK:
+CLOCK: [2024-07-17 Wed 11:11]--[2024-07-17 Wed 16:02] =>  4:51
 CLOCK: [2024-07-11 Thu 14:04]--[2024-07-11 Thu 14:34] =>  0:30
 CLOCK: [2024-07-04 Thu 04:55]--[2024-07-04 Thu 05:55] =>  1:00
 CLOCK: [2024-07-02 Tue 15:45]--[2024-07-02 Tue 15:59] =>  0:14
@@ -2024,12 +2021,12 @@ CLOCK: [2024-06-22 Sat 08:14]--[2024-06-22 Sat 08:15] =>  0:01
 SCHEDULED: <2024-07-21 Sun ++3d>
 
 *** [#B] Learning on demand
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-19 Fri>
 (It's just impossible to know everything)
 Be wicked smart as a child do
 
 *** What are the questions on the job interview?
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-18 Thu>
 
 *** DELAY Full-stack Python Developer
 SCHEDULED: <2024-07-21 Sun ++1d>
@@ -2188,7 +2185,7 @@ CLOCK: [2024-05-27 Mon 18:50]--[2024-05-27 Mon 19:50] =>  1:00
 
 
 **** Prompt Engineer
-SCHEDULED: <2024-07-17 Wed>
+SCHEDULED: <2024-07-19 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-14 Sun 20:10]--[2024-07-14 Sun 21:17] =>  1:07
 CLOCK: [2024-07-14 Sun 18:05]--[2024-07-14 Sun 18:38] =>  0:33
@@ -2234,7 +2231,7 @@ CLOCK: [2024-05-27 Mon 08:47]--[2024-05-27 Mon 08:59] =>  0:12
 :END:
 
 ***** CV rectification
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-20 Sat>
 [[https://docs.google.com/document/d/1LTFbCrMXFxqqG5HLTsIJQPStnF_IzzUPNC1LPxbdrek/edit][June]]
 
 
@@ -2263,8 +2260,8 @@ SCHEDULED: <2024-07-30 Tue ++1d>
  Profile brush up
 
 
-*** DELAY [#A] Reqruitment Agencies
-SCHEDULED: <2024-07-18 Thu>
+*** DELAY Reqruitment Agencies
+SCHEDULED: <2024-07-21 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :END:
@@ -2275,10 +2272,11 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-07-16 Tue ++1d>
+SCHEDULED: <2024-07-17 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-07-15 Mon 19:32]
+:LAST_REPEAT: [2024-07-16 Tue 20:08]
 :END:
+- State "AMPLE"      from ""           [2024-07-16 Tue 20:08]
 - State "AMPLE"      from ""           [2024-07-15 Mon 19:32]
 - State "AMPLE"      from ""           [2024-06-12 Wed 20:14]
 - State "AMPLE"      from ""           [2024-06-09 Sun 20:59]
@@ -2343,7 +2341,8 @@ SCHEDULED: <2024-07-16 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-07-16 Tue 19:40]
+CLOCK: [2024-07-17 Wed 19:35]
+CLOCK: [2024-07-16 Tue 19:40]--[2024-07-16 Tue 20:08] =>  0:28
 CLOCK: [2024-07-15 Mon 19:28]--[2024-07-15 Mon 19:32] =>  0:04
 CLOCK: [2024-07-13 Sat 21:05]--[2024-07-13 Sat 21:20] =>  0:15
 CLOCK: [2024-07-12 Fri 19:54]--[2024-07-12 Fri 20:13] =>  0:19
@@ -2849,7 +2848,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-07-17 Wed ++1d>
+SCHEDULED: <2024-07-18 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-27 Thu 20:09]
 :END:
@@ -3169,10 +3168,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-07-17 Wed ++1d>
+SCHEDULED: <2024-07-18 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-07-16 Tue 19:40]
+:LAST_REPEAT: [2024-07-17 Wed 19:35]
 :END:
+- State "AMPLE"      from ""           [2024-07-17 Wed 19:35]
 - State "AMPLE"      from ""           [2024-07-16 Tue 19:40]
 - State "AMPLE"      from ""           [2024-07-15 Mon 19:27]
 - State "AMPLE"      from ""           [2024-07-14 Sun 21:27]
@@ -3239,6 +3239,7 @@ SCHEDULED: <2024-07-17 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-07-17 Wed 19:29]--[2024-07-17 Wed 19:35] =>  0:06
 CLOCK: [2024-07-16 Tue 19:29]--[2024-07-16 Tue 19:40] =>  0:11
 CLOCK: [2024-07-15 Mon 19:10]--[2024-07-15 Mon 19:16] =>  0:06
 CLOCK: [2024-07-14 Sun 21:17]--[2024-07-14 Sun 21:27] =>  0:10
@@ -4101,8 +4102,8 @@ CLOCK: [2023-11-10 Fri 09:39]--[2023-11-10 Fri 09:46] =>  0:07
 - elpa-flycheck - modern on-the-fly syntax checking for Emacs [2023-11-10 Fri 09:42]
 - flycheck-doc - modern on-the-fly syntax checking for Emacs - documentation [2023-11-10 Fri 09:42]
 - [[https://www.flycheck.org/en/latest/]] [2023-11-10 Fri 09:44]
-*** LAG [#A] What is PyFlakes?
-SCHEDULED: <2024-07-17 Wed>
+*** LAG What is PyFlakes?
+SCHEDULED: <2024-07-24 Wed>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 09:46]--[2023-11-10 Fri 09:49] =>  0:03
 :END:
@@ -4333,7 +4334,7 @@ https://docs.docker.com/get-started/
 :CATEGORY: LLM
 :END:
 ** Overview
-SCHEDULED: <2024-07-17 Wed ++2d>
+SCHEDULED: <2024-07-18 Thu ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-15 Mon 09:42]
 :END:
@@ -4544,7 +4545,7 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-window "2024-07-02-openai-options.org")]]
 
 *** Assistants API
-SCHEDULED: <2024-07-17 Wed ++2d>
+SCHEDULED: <2024-07-23 Tue ++2d>
 :LOGBOOK:
 CLOCK: [2024-07-12 Fri 06:10]--[2024-07-12 Fri 06:13] =>  0:03
 CLOCK: [2024-07-11 Thu 16:52]--[2024-07-11 Thu 16:59] =>  0:07
@@ -4568,7 +4569,7 @@ https://platform.openai.com/docs/assistants/tools/file-search
 https://platform.openai.com/docs/assistants/tools/function-calling
 
 **** Supported Files
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-19 Fri>
 https://platform.openai.com/docs/assistants/tools/code-interpreter/supported-files
 
 
@@ -4585,7 +4586,7 @@ CLOCK: [2024-06-23 Sun 07:29]--[2024-06-23 Sun 08:00] =>  0:31
 https://platform.openai.com/docs/api-reference/threads
 
 **** [#B] Runs
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-21 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-26 Wed 14:15]--[2024-06-26 Wed 19:47] =>  5:32
 CLOCK: [2024-06-26 Wed 05:25]--[2024-06-26 Wed 09:07] =>  3:42
@@ -4621,8 +4622,8 @@ CLOCK: [2024-07-07 Sun 08:47]--[2024-07-07 Sun 08:51] =>  0:04
 https://platform.openai.com/docs/assistants/tools/function-calling
 
 
-**** [#A] Agent proficient in reasoning
-SCHEDULED: <2024-07-17 Wed>
+**** Agent proficient in reasoning
+SCHEDULED: <2024-07-22 Mon>
 And a philosopher as well!
 What kind of instructions they require?
 

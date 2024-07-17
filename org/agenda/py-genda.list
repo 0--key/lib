@@ -148,7 +148,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** LAG Assignment test suite
-SCHEDULED: <2024-07-18 Thu ++2d>
+SCHEDULED: <2024-07-24 Wed ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -185,7 +185,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 
 
 ** DELAY Object Oriented Design
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-19 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-06 Thu 06:09]--[2024-06-06 Thu 06:30] =>  0:21
 :END:
@@ -228,7 +228,7 @@ https://github.com/0--key/openai-python
 [[elisp:(bookmark-jump-other-window "openai-python")]]
   
 * Algorithms in CS
-SCHEDULED: <2024-07-18 Thu ++1w>
+SCHEDULED: <2024-07-19 Fri ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -300,8 +300,8 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 
-** [#A] The Python's Innate Data Types
-SCHEDULED: <2024-07-17 Wed ++1d>
+** The Python's Innate Data Types
+SCHEDULED: <2024-07-18 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -316,8 +316,8 @@ https://realpython.com/python-data-types/
 https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
-*** [#A] Integers
-SCHEDULED: <2024-07-17 Wed>
+*** Integers
+SCHEDULED: <2024-07-20 Sat>
 https://realpython.com/lessons/integers/
 
 **** DELAY Arithmetics
@@ -568,7 +568,7 @@ https://joaotavora.github.io/eglot/
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
 ** Elpy
-SCHEDULED: <2024-07-17 Wed ++2d>
+SCHEDULED: <2024-07-20 Sat ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-12-15 Fri 15:54]
 :END:
@@ -871,8 +871,8 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :CATEGORY: PyFu{e}
 :END:
 
-** [#A] The Language Basement
-SCHEDULED: <2024-07-18 Thu ++1d>
+** The Language Basement
+SCHEDULED: <2024-07-22 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -912,14 +912,14 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** RAW Generators
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-19 Fri>
 https://realpython.com/introduction-to-python-generators/
 
-** [#A] Decorators
-SCHEDULED: <2024-07-17 Wed>
+** Decorators
+SCHEDULED: <2024-07-22 Mon>
 
 ** Debugging
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-21 Sun>
 https://realpython.com/python-debug-idle/
 
 ** Functions
@@ -1030,7 +1030,7 @@ CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
 :END:
 [[info:python3.7#Packages][python3.7#Packages]]
 *** LAG Intra-package References
-SCHEDULED: <2024-07-18 Thu>
+SCHEDULED: <2024-07-23 Tue>
 :LOGBOOK:
 CLOCK: [2023-11-03 Fri 14:37]--[2023-11-03 Fri 15:07] =>  0:30
 CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04

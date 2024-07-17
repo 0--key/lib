@@ -662,3 +662,15 @@ CLOCK: [2024-07-11 Thu 08:51]--[2024-07-11 Thu 08:53] =>  0:02
 :END:
  [[file:~/Git/0--key/lib/Emacs/bookworm/.emacs::xclip]]
  [[elisp:(bookmark-jump-other-window "nox-mode")]]
+
+* RETARD Mode Line Customization
+SCHEDULED: <2024-07-18 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-17 Wed 19:32
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+[[info:emacs#Mode Line][emacs#Mode Line]]
+It would be great to vitalise it by colouring.
