@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("2024-05-30-lambda-in-python.org: Transformation into ~unittest~" 0 63
+(#1=(#("vizier.el correction" 0 20
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/vizier/vizier.el")
+    (buffer-name . "vizier.el")
+    (front-context-string . "\n               ")
+    (rear-context-string . "openai-api-key))")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26264 4395 344400 784000))
+    (created . #2#)
+    (position . 2084))
+#1=(#("2024-05-30-lambda-in-python.org: Transformation into ~unittest~" 0 63
       (bmkp-full-record #1#))
     (filename . "~/Git/0--key/org-pub/2024-05-30-lambda-in-python.org")
     (buffer-name . "2024-05-30-lambda-in-python.org")
