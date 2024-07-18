@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("vizier.el correction" 0 20
+(#1=(#("2024-02-27-debian-12-emacs.org" 0 30
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/org-pub/2024-02-27-debian-12-emacs.org")
+    (buffer-name . "2024-02-27-debian-12-emacs.org")
+    (front-context-string . "pesonal load pat")
+    (rear-context-string . "older/ into the\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26265 30085 642368 864000))
+    (created . #2#)
+    (position . 29059))
+#1=(#("vizier.el correction" 0 20
       (bmkp-full-record #1#))
     (filename . "~/Git/0--key/vizier/vizier.el")
     (buffer-name . "vizier.el")
