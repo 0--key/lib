@@ -571,11 +571,12 @@ CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
 [[info:org#Working with Source Code][org#Working with Source Code]]
 - [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
 - [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
-** Python Is Inside
-SCHEDULED: <2024-07-23 Tue ++1d>
+** DELAY Python Is Inside
+SCHEDULED: <2024-08-28 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-05-29 Wed 17:03]
+:LAST_REPEAT: [2024-07-22 Mon 20:24]
 :END:
+- State "AMPLE"      from ""           [2024-07-22 Mon 20:24]
 - State "AMPLE"      from ""           [2024-05-29 Wed 17:03]
 :LOGBOOK:
 CLOCK: [2024-05-29 Wed 16:19]--[2024-05-29 Wed 16:42] =>  0:23
@@ -900,8 +901,8 @@ https://github.com/SavchenkoValeriy/emacs-powerthesaurus
 ** RETARD Use-package as a panacea
 SCHEDULED: <2024-09-10 Tue>
 https://github.com/jwiegley/use-package
-** RAW Mode Hooks
-SCHEDULED: <2024-07-23 Tue>
+** DELAY Mode Hooks
+SCHEDULED: <2024-08-28 Wed>
 :LOGBOOK:
 CLOCK: [2024-07-13 Sat 07:23]--[2024-07-13 Sat 07:39] =>  0:16
 :END:
@@ -930,7 +931,7 @@ https://www.reddit.com/r/emacs/comments/39sl5s/syntax_highlight_on_markdown_code
 https://www.reddit.com/r/emacs/comments/10h9jf0/beautify_markdown_on_emacs/
 
 ** Zero-shot learning
-SCHEDULED: <2024-07-22 Mon>
+SCHEDULED: <2024-07-23 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-12 Fri 05:52]--[2024-07-12 Fri 06:10] =>  0:18
 CLOCK: [2024-07-10 Wed 06:29]--[2024-07-10 Wed 06:32] =>  0:03
@@ -1958,7 +1959,7 @@ CLOCK: [2024-06-28 Fri 08:56]--[2024-06-28 Fri 09:12] =>  0:16
 
   
 *** TODO Job application sending
-SCHEDULED: <2024-07-23 Tue ++1d>
+SCHEDULED: <2024-07-26 Fri ++1d>
 
 *** DataAnnotation
 SCHEDULED: <2024-07-30 Tue>
@@ -2037,7 +2038,7 @@ CLOCK: [2024-06-10 Mon 07:40]--[2024-06-10 Mon 08:10] =>  0:30
 :END:
 
 *** DELAY Boolean search on LinkedIn
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-10 Mon 08:53]--[2024-06-10 Mon 09:14] =>  0:21
 :END:
@@ -2242,7 +2243,7 @@ SCHEDULED: <2024-07-30 Tue ++1d>
 
 
 *** TODO Reqruitment Agencies
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-25 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :END:
@@ -2323,7 +2324,8 @@ SCHEDULED: <2024-07-22 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-07-22 Mon 11:43]
+CLOCK: [2024-07-22 Mon 20:27]
+CLOCK: [2024-07-22 Mon 11:43]--[2024-07-22 Mon 12:02] =>  0:19
 CLOCK: [2024-07-18 Thu 21:16]--[2024-07-18 Thu 21:21] =>  0:05
 CLOCK: [2024-07-17 Wed 19:35]--[2024-07-17 Wed 20:00] =>  0:25
 CLOCK: [2024-07-16 Tue 19:40]--[2024-07-16 Tue 20:08] =>  0:28
@@ -2832,7 +2834,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-07-22 Mon ++1d>
+SCHEDULED: <2024-07-23 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-18 Thu 21:06]
 :END:
@@ -3155,10 +3157,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-07-22 Mon ++1d>
+SCHEDULED: <2024-07-23 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-07-18 Thu 21:16]
+:LAST_REPEAT: [2024-07-22 Mon 20:27]
 :END:
+- State "AMPLE"      from ""           [2024-07-22 Mon 20:27]
 - State "AMPLE"      from ""           [2024-07-18 Thu 21:16]
 - State "AMPLE"      from ""           [2024-07-17 Wed 19:35]
 - State "AMPLE"      from ""           [2024-07-16 Tue 19:40]
@@ -3227,6 +3230,7 @@ SCHEDULED: <2024-07-22 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-07-22 Mon 20:21]--[2024-07-22 Mon 20:27] =>  0:06
 CLOCK: [2024-07-18 Thu 21:03]--[2024-07-18 Thu 21:16] =>  0:13
 CLOCK: [2024-07-17 Wed 19:29]--[2024-07-17 Wed 19:35] =>  0:06
 CLOCK: [2024-07-16 Tue 19:29]--[2024-07-16 Tue 19:40] =>  0:11
@@ -3487,7 +3491,7 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 
 
 *** INIT [#A] English Grammar                                    :AI_Tutor:
-SCHEDULED: <2024-07-23 Tue ++1w>
+SCHEDULED: <2024-07-25 Thu ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -3534,7 +3538,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#C] New tasks trimming
-SCHEDULED: <2024-07-22 Mon ++2d/3d>
+SCHEDULED: <2024-07-24 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-18 Thu 21:03]
 :END:
@@ -4073,7 +4077,7 @@ https://jedi.readthedocs.io/en/latest/docs/installation.html
   references.
    [2024-04-12 Fri 15:30]
 *** RETARD What is PyLint?
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-29 Mon>
 :LOGBOOK:
 CLOCK: [2023-11-10 Fri 09:31]--[2023-11-10 Fri 09:39] =>  0:08
 :END:
@@ -4119,7 +4123,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
  [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
  [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
 ** RETARD Bayes' Theorem
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-24 Wed>
 In fire alarm example
 ** DELAY [#A] Math with Andrew                                        :AnAn:
 SCHEDULED: <2024-08-04 Sun ++2d/3d>
@@ -4198,8 +4202,8 @@ with =Debian=. So:
 
 
 
-** DELAY Search reference in *info*
-SCHEDULED: <2024-07-23 Tue>
+** LAG Search reference in *info*
+SCHEDULED: <2024-10-01 Tue>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\
@@ -4224,7 +4228,7 @@ CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
 :END:
 [[info:emacs#Regexp Search][emacs#Regexp Search]]
 ** RETARD Rhythmbox Dark Theme
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-28 Sun>
 https://github.com/fossfreedom/alternative-toolbar
 https://wiki.gnome.org/Apps/Rhythmbox/FAQ
 ** DELAY Exclude =ORG= folder from ~load-path~                     :ARCHIVE:
@@ -4534,7 +4538,7 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-window "2024-07-02-openai-options.org")]]
 
 *** Assistants API
-SCHEDULED: <2024-07-23 Tue ++2d>
+SCHEDULED: <2024-07-29 Mon ++2d>
 :LOGBOOK:
 CLOCK: [2024-07-12 Fri 06:10]--[2024-07-12 Fri 06:13] =>  0:03
 CLOCK: [2024-07-11 Thu 16:52]--[2024-07-11 Thu 16:59] =>  0:07
@@ -4575,7 +4579,7 @@ CLOCK: [2024-06-23 Sun 07:29]--[2024-06-23 Sun 08:00] =>  0:31
 https://platform.openai.com/docs/api-reference/threads
 
 **** [#B] Runs
-SCHEDULED: <2024-07-23 Tue>
+SCHEDULED: <2024-07-24 Wed>
 :LOGBOOK:
 CLOCK: [2024-06-26 Wed 14:15]--[2024-06-26 Wed 19:47] =>  5:32
 CLOCK: [2024-06-26 Wed 05:25]--[2024-06-26 Wed 09:07] =>  3:42
@@ -4617,7 +4621,7 @@ And a philosopher as well!
 What kind of instructions they require?
 
 **** Web interface
-SCHEDULED: <2024-07-22 Mon>
+SCHEDULED: <2024-07-28 Sun>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 17:22]--[2024-06-21 Fri 17:43] =>  0:21
 :END:
