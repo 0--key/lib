@@ -13,34 +13,23 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** Pydantic
-SCHEDULED: <2024-07-19 Fri>
-** DELAY Consul, Jenkins, Prometheus
-SCHEDULED: <2024-07-21 Sun>
-
-** DELAY Cascading Style Sheets (CSS), HTML5, JSON, and XML
-SCHEDULED: <2024-07-23 Tue>
-
-** LAG Agile Methodolody
-SCHEDULED: <2024-08-20 Tue ++2d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-06-17 Mon 07:10]
-:END:
-- State "AMPLE"      from ""           [2024-06-17 Mon 07:10]
-- State "AMPLE"      from ""           [2024-06-07 Fri 15:30]
-- State "AMPLE"      from ""           [2024-05-30 Thu 15:37]
-- State "AMPLE"      from ""           [2024-05-25 Sat 14:20]
-:LOGBOOK:
-CLOCK: [2024-06-07 Fri 15:03]--[2024-06-07 Fri 15:30] =>  0:27
-CLOCK: [2024-05-30 Thu 15:22]--[2024-05-30 Thu 15:37] =>  0:15
-CLOCK: [2024-05-25 Sat 13:26]--[2024-05-25 Sat 14:02] =>  0:36
-:END:
-[[elisp:(bookmark-jump-other-window "2024-05-25-agile-intro.org")]]
-
-** DELAY RESTful web APIs
 SCHEDULED: <2024-07-22 Mon>
+:LOGBOOK:
+CLOCK: [2024-07-20 Sat 08:29]--[2024-07-20 Sat 09:00] =>  0:31
+CLOCK: [2024-07-20 Sat 07:37]--[2024-07-20 Sat 08:26] =>  0:49
+:END:
+[[elisp:(bookmark-jump-other-window "2024-07-20-pydantic-brief-overview.org")]]
+
+
+** LAG Consul, Jenkins, Prometheus
+SCHEDULED: <2024-09-29 Sun>
+
+** TODO RESTful web APIs
+SCHEDULED: <2024-07-26 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
+[[https://www.rfc-editor.org/rfc/rfc9110#name-method-definitions]]
 
 ** DELAY Python Talk to Me
 SCHEDULED: <2024-07-23 Tue ++3d>
@@ -115,7 +104,7 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 SCHEDULED: <2024-08-16 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** DELAY Cracking coding interview
-SCHEDULED: <2024-07-21 Sun ++4d>
+SCHEDULED: <2024-07-29 Mon ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:02]
 :END:
@@ -161,7 +150,7 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
 ** DELAY IPython
-SCHEDULED: <2024-07-21 Sun ++2d>
+SCHEDULED: <2024-08-07 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -194,15 +183,15 @@ https://python-textbok.readthedocs.io/en/1.0/index.html
 https://realpython.com/python3-object-oriented-programming/
 
 
-** DELAY XOR in Python in list comparison
-SCHEDULED: <2024-07-22 Mon>
+** LAG XOR in Python in list comparison
+SCHEDULED: <2024-09-30 Mon>
 :LOGBOOK:
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** DELAY Reproduce an article from RealPython in Babel!
 SCHEDULED: <2024-07-23 Tue>
 ** DELAY What is async app?
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-07-29 Mon>
 - Note taken on [2024-06-23 Sun 07:21] \\
   An asynchronous (async) application is a program that allows multiple
   operations to be executed concurrently, without waiting for each
@@ -263,12 +252,12 @@ https://www.geeksforgeeks.org/searching-algorithms/
 https://www.geeksforgeeks.org/binary-search/
 https://www.geeksforgeeks.org/meta-binary-search-one-sided-binary-search/
 
-** Sorting
-SCHEDULED: <2024-07-21 Sun>
+** DELAY Sorting
+SCHEDULED: <2024-08-26 Mon>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-07-22 Mon ++1d>
+SCHEDULED: <2024-07-29 Mon ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -301,7 +290,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** [#B] The Python's Innate Data Types
-SCHEDULED: <2024-07-19 Fri ++1d>
+SCHEDULED: <2024-07-26 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -316,15 +305,15 @@ https://realpython.com/python-data-types/
 https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
-*** Integers
-SCHEDULED: <2024-07-20 Sat>
+*** DELAY Integers
+SCHEDULED: <2024-08-12 Mon>
 https://realpython.com/lessons/integers/
 
 **** DELAY Arithmetics
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-08-10 Sat>
 
 ** DELAY The Python's Extended Data Types
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-07-26 Fri>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
@@ -338,8 +327,8 @@ CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 https://www.geeksforgeeks.org/what-is-linked-list/
 
 
-** Stack
-SCHEDULED: <2024-07-22 Mon>
+** DELAY Stack
+SCHEDULED: <2024-08-12 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -567,11 +556,12 @@ https://joaotavora.github.io/eglot/
 [[file:~/.emacs.d/elpa/eglot-1.15/eglot.texi::server-specific items.][.texi]]
 [[info:eglot#Top][eglot#Top]]
 [[info:eglot#Eglot Commands][eglot#Eglot Commands]]
-** Elpy
-SCHEDULED: <2024-07-20 Sat ++2d>
+** DELAY Elpy
+SCHEDULED: <2024-08-19 Mon ++2d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-12-15 Fri 15:54]
+:LAST_REPEAT: [2024-07-20 Sat 05:29]
 :END:
+- State "AMPLE"      from ""           [2024-07-20 Sat 05:29]
 - State "DONE"       from "ACTIVE"     [2023-12-15 Fri 15:54]
 - Note taken on [2023-12-09 Sat 17:16] \\
   Unclear where is ~rpc~ venv when the system don't use ~pip~ at all.
@@ -815,8 +805,8 @@ CLOCK: [2024-03-25 Mon 11:39]--[2024-03-25 Mon 12:08] =>  0:29
 :END:
 https://playwright.dev/python/docs/intro
 [[file:~/Git/0--key/org-pub/2024-03-22-playwright-init.org::*Conclusion][Conclusion]]
-**** DELAY Codegen
-SCHEDULED: <2024-07-20 Sat>
+**** LAG Codegen
+SCHEDULED: <2024-09-12 Thu>
 :LOGBOOK:
 CLOCK: [2024-03-27 Wed 11:20]--[2024-03-27 Wed 11:23] =>  0:03
 CLOCK: [2024-03-27 Wed 11:04]--[2024-03-27 Wed 11:12] =>  0:08
@@ -872,7 +862,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-07-22 Mon ++1d>
+SCHEDULED: <2024-07-24 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -887,7 +877,7 @@ CLOCK: [2024-06-06 Thu 19:54]--[2024-06-06 Thu 20:07] =>  0:13
 [[elisp:(bookmark-jump-other-window "py-fu.org")]]
 
 ** DELAY Innate Data Model
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-08-23 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 :END:
@@ -916,10 +906,10 @@ SCHEDULED: <2024-07-28 Sun>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-07-22 Mon>
+SCHEDULED: <2024-07-25 Thu>
 
-** Debugging
-SCHEDULED: <2024-07-21 Sun>
+** DELAY Debugging
+SCHEDULED: <2024-08-22 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
@@ -934,8 +924,8 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 
-** Recursion
-SCHEDULED: <2024-07-21 Sun>
+** DELAY Recursion
+SCHEDULED: <2024-08-10 Sat>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:
@@ -956,7 +946,7 @@ CLOCK: [2024-06-19 Wed 07:37]--[2024-06-19 Wed 07:37] =>  0:00
 https://algo.monster/problems/tree_intro
 
 *** DELAY Python solution of tree-like problems
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-08-24 Sat>
 Are tree structures graph in general?
 
 ** [#A] Depth First Search
@@ -997,7 +987,7 @@ SCHEDULED: <2024-08-20 Tue>
 
   
 ** DELAY Time Complexity
-SCHEDULED: <2024-07-21 Sun>
+SCHEDULED: <2024-08-25 Sun>
 - Note taken on [2024-06-23 Sun 07:25] \\
   Time complexity of an algorithm is a measure of the amount of time
   taken by an algorithm to run as a function of the length of the
@@ -1083,7 +1073,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** DELAY LeetCode
-SCHEDULED: <2024-07-21 Sun ++3d/4d>
+SCHEDULED: <2024-08-13 Tue ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
@@ -1109,13 +1099,55 @@ https://platform.openai.com/docs/api-reference/assistants/createAssistant
 :CATEGORY: Interview
 :END:
 
-** [#A] FastAPI
-SCHEDULED: <2024-07-19 Fri>
-:LOGBOOK:
-CLOCK: [2024-07-18 Thu 14:24]--[2024-07-18 Thu 15:11] =>  0:47
+* [#A] SQLAlchemy
+:PROPERTIES:
+:CATEGORY: SQLAlchemy
 :END:
-** [#A] SQLAlchemy
-SCHEDULED: <2024-07-19 Fri>
 :LOGBOOK:
+CLOCK: [2024-07-19 Fri 07:26]--[2024-07-19 Fri 14:00] =>  6:34
 CLOCK: [2024-07-18 Thu 16:14]--[2024-07-18 Thu 16:54] =>  0:40
 :END:
+
+** [#A] Main Features
+SCHEDULED: <2024-07-22 Mon>
+:LOGBOOK:
+CLOCK: [2024-07-22 Mon 11:40]--[2024-07-22 Mon 11:43] =>  0:03
+CLOCK: [2024-07-20 Sat 10:02]--[2024-07-20 Sat 10:46] =>  0:44
+:END:
+
+** [#A] Feature Dissection
+SCHEDULED: <2024-07-22 Mon>
+Try to figure out how it works.
+
+** [#A] Source Code
+SCHEDULED: <2024-07-22 Mon>
+Git repository overview
+
+* FastAPI
+:PROPERTIES:
+:CATEGORY: {F}astAPI
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-19 Fri 14:00]--[2024-07-19 Fri 14:39] =>  0:39
+CLOCK: [2024-07-19 Fri 05:50]--[2024-07-19 Fri 06:15] =>  0:25
+CLOCK: [2024-07-18 Thu 14:24]--[2024-07-18 Thu 15:11] =>  0:47
+:END:
+** Development Environment
+SCHEDULED: <2024-07-24 Wed>
+:LOGBOOK:
+CLOCK: [2024-07-19 Fri 15:24]--[2024-07-19 Fri 15:59] =>  0:35
+CLOCK: [2024-07-19 Fri 14:54]--[2024-07-19 Fri 15:19] =>  0:25
+:END:
+
+** [#A] Main Features
+SCHEDULED: <2024-07-22 Mon>
+
+** [#A] Test Suite
+SCHEDULED: <2024-07-22 Mon>
+:LOGBOOK:
+CLOCK: [2024-07-19 Fri 17:26]--[2024-07-29 Fri 17:56] =>  0:30
+CLOCK: [2024-07-19 Fri 16:33]--[2024-07-19 Fri 17:06] =>  0:33
+:END:
+
+** [#A] Source Code Review
+SCHEDULED: <2024-07-22 Mon>
