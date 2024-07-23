@@ -738,3 +738,28 @@ SCHEDULED: <2024-07-22 Mon>
 - Sponsorship;
 - Patreon.
 
+
+* Private agenda
+SCHEDULED: <2024-07-23 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-23 Tue 16:24
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development
+:ARCHIVE_CATEGORY: PersDev
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-23 Tue 16:13]--[2024-07-23 Tue 16:24] =>  0:11
+:END:
+
+* RETARD Lynx inside ansi-term
+SCHEDULED: <2024-07-24 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-23 Tue 20:21
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+GitHub don't displays properly in ~EWW~
+https://www.emacswiki.org/emacs/AnsiTerm
+
