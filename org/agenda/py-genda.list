@@ -12,9 +12,10 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** [#B] Pydantic
-SCHEDULED: <2024-07-24 Wed>
+** Pydantic
+SCHEDULED: <2024-07-28 Sun>
 :LOGBOOK:
+CLOCK: [2024-07-25 Thu 08:11]--[2024-07-25 Thu 08:35] =>  0:24
 CLOCK: [2024-07-20 Sat 08:29]--[2024-07-20 Sat 09:00] =>  0:31
 CLOCK: [2024-07-20 Sat 07:37]--[2024-07-20 Sat 08:26] =>  0:49
 :END:
@@ -25,11 +26,14 @@ CLOCK: [2024-07-20 Sat 07:37]--[2024-07-20 Sat 08:26] =>  0:49
 SCHEDULED: <2024-09-29 Sun>
 
 ** TODO RESTful web APIs
-SCHEDULED: <2024-07-26 Fri>
+SCHEDULED: <2024-07-31 Wed>
 :LOGBOOK:
+CLOCK: [2024-07-26 Fri 08:37]--[2024-07-26 Fri 08:43] =>  0:06
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 :END:
 [[https://www.rfc-editor.org/rfc/rfc9110#name-method-definitions]]
+[[elisp:(bookmark-jump-other-window "2024-07-18-fastapi-overview.org: What is RESTful API?")]]
+
 
 ** LAG Python Talk to Me
 SCHEDULED: <2024-08-12 Mon ++3d>
@@ -60,7 +64,7 @@ CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
 
   
 *** DELAY Learning to Learn as Pythonista
-SCHEDULED: <2024-07-25 Thu ++1d>
+SCHEDULED: <2024-08-17 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 05:56]
 :END:
@@ -189,7 +193,7 @@ SCHEDULED: <2024-09-30 Mon>
 CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 :END:
 ** DELAY Reproduce an article from RealPython in Babel!
-SCHEDULED: <2024-07-25 Thu>
+SCHEDULED: <2024-08-16 Fri>
 ** DELAY What is async app?
 SCHEDULED: <2024-07-29 Mon>
 - Note taken on [2024-06-23 Sun 07:21] \\
@@ -239,7 +243,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-07-26 Fri ++2d>
+SCHEDULED: <2024-07-28 Sun ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -290,7 +294,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** [#B] The Python's Innate Data Types
-SCHEDULED: <2024-07-26 Fri ++1d>
+SCHEDULED: <2024-07-28 Sun ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -313,7 +317,7 @@ https://realpython.com/lessons/integers/
 SCHEDULED: <2024-08-10 Sat>
 
 ** DELAY The Python's Extended Data Types
-SCHEDULED: <2024-07-26 Fri>
+SCHEDULED: <2024-07-28 Sun>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
@@ -838,8 +842,8 @@ https://playwright.dev/python/docs/trace-viewer-intro
 :PROPERTIES:
 :CATEGORY: Selenium
 :END:
-**** DELAY Overview
-SCHEDULED: <2024-07-25 Thu ++1d>
+**** LAG Overview
+SCHEDULED: <2024-10-03 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-23 Thu 09:39]
 :END:
@@ -862,7 +866,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-07-24 Wed ++1d>
+SCHEDULED: <2024-07-31 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -887,7 +891,7 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 
 
 ** Lambda Function
-SCHEDULED: <2024-07-26 Fri ++3d>
+SCHEDULED: <2024-08-08 Thu ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -906,14 +910,14 @@ SCHEDULED: <2024-07-28 Sun>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-07-25 Thu>
+SCHEDULED: <2024-07-28 Sun>
 
 ** DELAY Debugging
 SCHEDULED: <2024-08-22 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
-SCHEDULED: <2024-07-26 Fri>
+SCHEDULED: <2024-07-28 Sun>
 https://realpython.com/defining-your-own-python-function/
 
 * LAG Idioms
@@ -1072,6 +1076,12 @@ SCHEDULED: <2024-08-13 Tue ++3d/4d>
 :LOGBOOK:
 CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
 :END:
+
+
+* =pytest=
+SCHEDULED: <2024-07-28 Sun>
+
+
 * OpenAI
 ** Assistant with Enterpreter
 SCHEDULED: <2024-07-30 Tue>
@@ -1090,7 +1100,7 @@ https://platform.openai.com/docs/api-reference/assistants/createAssistant
 :CATEGORY: Interview
 :END:
 
-* [#A] SQLAlchemy
+* SQLAlchemy
 :PROPERTIES:
 :CATEGORY: SQLAlchemy
 :END:
@@ -1099,9 +1109,19 @@ CLOCK: [2024-07-19 Fri 07:26]--[2024-07-19 Fri 14:00] =>  6:34
 CLOCK: [2024-07-18 Thu 16:14]--[2024-07-18 Thu 16:54] =>  0:40
 :END:
 
-** Main Features
-SCHEDULED: <2024-07-25 Thu>
+** [#A] Main Features
+SCHEDULED: <2024-07-28 Sun>
+- Note taken on [2024-07-26 Fri 09:12] \\
+  Elisp script to clean-up markup
+  ( **,  *)
+  (:**, :*)
+  (```org,)
+  (```,)
+  (`, ~)
+  
+  find(" - ")(org-fill-paragraph)
 :LOGBOOK:
+CLOCK: [2024-07-26 Fri 08:43]--[2024-07-26 Fri 09:15] =>  0:32
 CLOCK: [2024-07-23 Tue 17:32]--[2024-07-23 Tue 18:17] =>  0:45
 CLOCK: [2024-07-22 Mon 19:06]--[2024-07-22 Mon 20:21] =>  1:15
 CLOCK: [2024-07-22 Mon 11:40]--[2024-07-22 Mon 11:43] =>  0:03
@@ -1109,18 +1129,32 @@ CLOCK: [2024-07-20 Sat 10:02]--[2024-07-20 Sat 10:46] =>  0:44
 :END:
 [[elisp:(bookmark-jump-other-window "2024-07-22-sqlalchemy-features.org")]]
 
-** Feature Dissection
-SCHEDULED: <2024-07-25 Thu>
+** [#A] Feature Dissection
+SCHEDULED: <2024-07-28 Sun>
+:LOGBOOK:
+CLOCK: [2024-07-26 Fri 09:22]--[2024-07-26 Fri 09:27] =>  0:05
+CLOCK: [2024-07-26 Fri 09:15]--[2024-07-26 Fri 09:15] =>  0:00
+:END:
 Try to figure out how it works.
 [[elisp:(bookmark-jump-other-window "2024-07-22-sqlalchemy-features.org")]]
 
 ** [#A] Source Code
-SCHEDULED: <2024-07-25 Thu>
+SCHEDULED: <2024-07-28 Sun>
+- Note taken on [2024-07-24 Wed 19:54] \\
+  /async ORMs that support ACID transactions/
 :LOGBOOK:
+CLOCK: [2024-07-25 Thu 07:52]--[2024-07-25 Thu 08:07] =>  0:15
+CLOCK: [2024-07-25 Thu 07:41]--[2024-07-25 Thu 07:47] =>  0:06
 CLOCK: [2024-07-22 Mon 17:10]--[2024-07-22 Mon 17:40] =>  0:30
 :END:
 Git repository overview
 [[elisp:(bookmark-jump-other-window "sqlalchemy<Git>")]]
+
+** Testing
+SCHEDULED: <2024-07-28 Sun>
+from sqlalchemy import testing
+from sqlalchemy.testing import fixtures
+
 * FastAPI
 :PROPERTIES:
 :CATEGORY: {F}astAPI
@@ -1131,31 +1165,36 @@ CLOCK: [2024-07-19 Fri 05:50]--[2024-07-19 Fri 06:15] =>  0:25
 CLOCK: [2024-07-18 Thu 14:24]--[2024-07-18 Thu 15:11] =>  0:47
 :END:
 ** Development Environment
-SCHEDULED: <2024-07-24 Wed>
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 15:24]--[2024-07-19 Fri 15:59] =>  0:35
 CLOCK: [2024-07-19 Fri 14:54]--[2024-07-19 Fri 15:19] =>  0:25
 :END:
+[[elisp:(bookmark-jump-other-window "fastapi-dev-in-babel")]]
 
-** [#A] Main Features
-SCHEDULED: <2024-07-24 Wed>
+** Main Features
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
+CLOCK: [2024-07-24 Wed 16:00]--[2024-07-24 Wed 16:00] =>  0:00
+CLOCK: [2024-07-24 Wed 07:09]--[2024-07-24 Wed 07:40] =>  0:31
 CLOCK: [2024-07-23 Tue 17:03]--[2024-07-23 Tue 17:21] =>  0:18
 CLOCK: [2024-07-23 Tue 08:17]--[2024-07-23 Tue 08:17] =>  0:00
 :END:
 [[elisp:(bookmark-jump-other-window "emacs.org.md")]]
 
-** [#A] Test Suite
-SCHEDULED: <2024-07-24 Wed>
+** Test Suite
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 17:26]--[2024-07-29 Fri 17:56] =>  0:30
 CLOCK: [2024-07-19 Fri 16:33]--[2024-07-19 Fri 17:06] =>  0:33
 :END:
 https://www.rfc-editor.org/rfc/rfc9110#name-method-definitions
 
-** [#A] Source Code Review
-SCHEDULED: <2024-07-25 Thu>
+** Source Code Review
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
+CLOCK: [2024-07-24 Wed 09:41]--[2024-07-24 Wed 09:50] =>  0:09
+CLOCK: [2024-07-24 Wed 09:26]--[2024-07-24 Wed 09:36] =>  0:10
 CLOCK: [2024-07-23 Tue 08:55]--[2024-07-23 Tue 09:15] =>  0:20
 CLOCK: [2024-07-23 Tue 08:17]--[2024-07-23 Tue 08:36] =>  0:19
 CLOCK: [2024-07-22 Mon 16:13]--[2024-07-22 Mon 16:49] =>  0:36
@@ -1165,7 +1204,41 @@ CLOCK: [2024-07-22 Mon 15:45]--[2024-07-22 Mon 15:53] =>  0:08
 [[elisp:(bookmark-jump-other-window "fastapi<Git>")]]
 
 ** [#B] Blog Articles Review&Correction 
-SCHEDULED: <2024-07-24 Wed>
+SCHEDULED: <2024-07-30 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-23 Tue 20:23]--[2024-07-23 Tue 20:41] =>  0:18
 :END:
+
+** Test All Supported HTTP Request's Methods
+SCHEDULED: <2024-07-29 Mon>
+:LOGBOOK:
+CLOCK: [2024-07-25 Thu 09:09]--[2024-07-25 Thu 09:54] =>  0:45
+CLOCK: [2024-07-25 Thu 08:41]--[2024-07-25 Thu 09:05] =>  0:24
+:END:
+[[elisp:(bookmark-jump-other-window "2024-07-25-declarative-programming.org")]]
+Additional HTTP Methods: HEAD, PATCH, OPTIONS
+
+** Visualize FastAPI architecture
+SCHEDULED: <2024-07-29 Mon>
+
+
+* Starlette
+:PROPERTIES:
+:CATEGORY: {S}tarlette
+:END:
+
+** [#A] Core Features
+SCHEDULED: <2024-07-28 Sun>
+:LOGBOOK:
+CLOCK: [2024-07-24 Wed 16:40]--[2024-07-24 Wed 16:49] =>  0:09
+CLOCK: [2024-07-24 Wed 16:02]--[2024-07-24 Wed 16:36] =>  0:34
+:END:
+
+** [#A] Git Repository CheckUp
+SCHEDULED: <2024-07-28 Sun>
+:LOGBOOK:
+CLOCK: [2024-07-26 Fri 09:28]--[2024-07-26 Fri 09:31] =>  0:03
+CLOCK: [2024-07-24 Wed 16:49]--[2024-07-24 Wed 17:05] =>  0:16
+:END:
+[[elisp:(bookmark-jump-other-window "starlette-docs")]]
+[[elisp:(bookmark-jump-other-window "starlette<Git>")]]

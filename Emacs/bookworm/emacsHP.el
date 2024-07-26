@@ -41,7 +41,7 @@
 ;; Python section
 (require 'python)
 (require 'pyvenv)
-(pyvenv-activate "/home/alioth/.virtualenvs/OpenAI/")
+(pyvenv-activate "/home/alioth/.virtualenvs/FastAPI/")
 (load "elpy")
 (load "elpy-rpc")
 (load "elpy-shell")
@@ -72,7 +72,7 @@
 ;;
 ;;======================================================
 
-(require 'markdown-mode)
+;;(require 'markdown-mode)
 (require 'htmlize )
 
 

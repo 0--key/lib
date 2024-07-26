@@ -763,3 +763,18 @@ SCHEDULED: <2024-07-24 Wed>
 GitHub don't displays properly in ~EWW~
 https://www.emacswiki.org/emacs/AnsiTerm
 
+
+* RETARD TXT script from YouTube for EReader
+SCHEDULED: <2024-07-26 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-07-26 Fri 15:29
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2023-06-06 Tue 07:41]--[2023-06-06 Tue 08:06] =>  0:25
+:END:
+- Note taken on [2023-06-06 Tue 07:40] \\
+  Or even pure /.txt/ form to dissect it in ~Emacs~ directly
