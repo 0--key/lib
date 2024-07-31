@@ -2,7 +2,31 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("2016-08-24-intro.org" 0 20
+(#1=(#("JSObfuscate" 0 11
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/philomath/kin/js.org")
+    (buffer-name . "js.org")
+    (front-context-string . "* JS code obfusc")
+    (rear-context-string . "ods.\n#+end_src\n\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26282 38549 763029 28000))
+    (created . #2#)
+    (position . 20132))
+#1=(#("FetchAPI" 0 8
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/philomath/kin/mvp.org")
+    (buffer-name . "mvp.org")
+    (front-context-string . "jQuery\nSeems lik")
+    (rear-context-string . "t.\n#+end_src\n\n* ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 1)
+    (time 26282 38384 357294 941000)
+    (created 26282 37534 58652 81000)
+    (position . 3349))
+#1=(#("2016-08-24-intro.org" 0 20
       (bmkp-full-record #1#))
     (filename . "~/Git/0--key/org-pub/2016-08-24-intro.org")
     (buffer-name . "2016-08-24-intro.org")
@@ -82,9 +106,9 @@
     (rear-context-string . "#+end_src\n\n* MVP")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 0)
-    (time . #2=(26279 17306 77900 347000))
-    (created . #2#)
+    (visits . 1)
+    (time 26281 48917 576140 294000)
+    (created 26279 17306 77900 347000)
     (position . 6153))
 #1=(#("Transcript for Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet | Lex Fridman Podcast #434 - Lex Fridman" 0 127
       (bmkp-full-record #1#))

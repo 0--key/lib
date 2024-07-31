@@ -13,7 +13,7 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: | SET
 * Notes
 ** Pydantic
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-02 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-25 Thu 08:11]--[2024-07-25 Thu 08:35] =>  0:24
 CLOCK: [2024-07-20 Sat 08:29]--[2024-07-20 Sat 09:00] =>  0:31
@@ -108,7 +108,7 @@ CLOCK: [2024-03-20 Wed 09:49]--[2024-03-20 Wed 09:53] =>  0:04
 SCHEDULED: <2024-08-16 Fri>
 [[file:~/Git/python/talk-python-transcripts/transcripts/299.txt][Transcript]]
 ** DELAY Cracking coding interview
-SCHEDULED: <2024-08-01 Thu ++4d>
+SCHEDULED: <2024-08-20 Tue ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:02]
 :END:
@@ -141,7 +141,7 @@ CLOCK: [2023-11-16 Thu 15:22]--[2023-11-16 Thu 15:45] =>  0:23
 CLOCK: [2023-03-29 Wed 16:37]--[2023-03-29 Wed 18:00] =>  1:23
 :END:
 ** LAG Assignment test suite
-SCHEDULED: <2024-08-01 Thu ++2d>
+SCHEDULED: <2024-08-20 Tue ++2d>
 :PROPERTIES:
 :CATEGORY: PY{s}
 :LAST_REPEAT: [2023-11-16 Thu 10:58]
@@ -195,7 +195,7 @@ CLOCK: [2024-05-29 Wed 17:04]--[2024-05-29 Wed 17:14] =>  0:10
 ** DELAY Reproduce an article from RealPython in Babel!
 SCHEDULED: <2024-08-16 Fri>
 ** DELAY What is async app?
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 - Note taken on [2024-06-23 Sun 07:21] \\
   An asynchronous (async) application is a program that allows multiple
   operations to be executed concurrently, without waiting for each
@@ -243,7 +243,7 @@ CLOCK: [2024-05-21 Tue 08:40]--[2024-05-21 Tue 08:41] =>  0:01
 
 
 ** Searching
-SCHEDULED: <2024-08-01 Thu ++2d>
+SCHEDULED: <2024-08-20 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-24 Fri 20:21]
 :END:
@@ -261,7 +261,7 @@ SCHEDULED: <2024-08-26 Mon>
 https://www.geeksforgeeks.org/sorting-algorithms/
 
 * Data structures in CS
-SCHEDULED: <2024-08-01 Thu ++1d>
+SCHEDULED: <2024-08-20 Tue ++1d>
 :PROPERTIES:
 :CATEGORY: DSinCS
 :LAST_REPEAT: [2024-05-25 Sat 08:42]
@@ -294,7 +294,7 @@ https://realpython.com/iterate-through-dictionary-python/#using-comprehensions
 
 
 ** [#B] The Python's Innate Data Types
-SCHEDULED: <2024-08-01 Thu ++1d>
+SCHEDULED: <2024-08-20 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-04 Tue 08:55]
 :END:
@@ -317,11 +317,11 @@ https://realpython.com/lessons/integers/
 SCHEDULED: <2024-08-10 Sat>
 
 ** DELAY The Python's Extended Data Types
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 [[info:python3.11#Data Types][python3.11#Data Types]]
 
 ** Linked List
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 :END:
@@ -866,7 +866,7 @@ https://www.browserstack.com/guide/python-selenium-to-run-web-automation-test
 :END:
 
 ** The Language Basement
-SCHEDULED: <2024-08-01 Thu ++1d>
+SCHEDULED: <2024-08-20 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-06 Thu 20:07]
 :END:
@@ -906,18 +906,18 @@ CLOCK: [2024-05-30 Thu 16:02]--[2024-05-30 Thu 16:19] =>  0:17
 [[info:python3.11#Lambdas][python3.11#Lambdas]]
 
 ** RAW Generators
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 https://realpython.com/introduction-to-python-generators/
 
 ** Decorators
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 
 ** DELAY Debugging
 SCHEDULED: <2024-08-22 Thu>
 https://realpython.com/python-debug-idle/
 
 ** Functions
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 https://realpython.com/defining-your-own-python-function/
 
 * LAG Idioms
@@ -936,7 +936,7 @@ CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 https://algo.monster/problems/recursion_intro
 
 ** Trees
-SCHEDULED: <2024-08-01 Thu ++2d>
+SCHEDULED: <2024-08-20 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 08:54]
 :END:
@@ -954,7 +954,7 @@ SCHEDULED: <2024-08-24 Sat>
 Are tree structures graph in general?
 
 ** Depth First Search
-SCHEDULED: <2024-08-01 Thu ++3d>
+SCHEDULED: <2024-08-20 Tue ++3d>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:55]--[2024-06-19 Wed 08:55] =>  0:00
 CLOCK: [2024-06-19 Wed 07:39]--[2024-06-19 Wed 07:40] =>  0:01
@@ -1036,7 +1036,7 @@ SCHEDULED: <2024-08-20 Tue>
 :CATEGORY: PyAct{rj*w}
 :END:
 ** DELAY CodeWars 
-SCHEDULED: <2024-08-01 Thu ++2d/3d>
+SCHEDULED: <2024-08-20 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-03 Mon 19:39]
 :END:
@@ -1090,7 +1090,7 @@ https://docs.pytest.org/en/stable/getting-started.html
 
 * OpenAI
 ** Assistant with Enterpreter
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-14 Sun 16:40]--[2024-07-14 Sun 18:05] =>  1:25
 CLOCK: [2024-07-14 Sun 07:03]--[2024-07-14 Sun 08:13] =>  1:10
@@ -1116,7 +1116,7 @@ CLOCK: [2024-07-18 Thu 16:14]--[2024-07-18 Thu 16:54] =>  0:40
 :END:
 
 ** Main Features
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 - Note taken on [2024-07-26 Fri 09:12] \\
   Elisp script to clean-up markup
   ( **,  *)
@@ -1136,7 +1136,7 @@ CLOCK: [2024-07-20 Sat 10:02]--[2024-07-20 Sat 10:46] =>  0:44
 [[elisp:(bookmark-jump-other-window "2024-07-22-sqlalchemy-features.org")]]
 
 ** Feature Dissection
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-26 Fri 09:22]--[2024-07-26 Fri 09:27] =>  0:05
 CLOCK: [2024-07-26 Fri 09:15]--[2024-07-26 Fri 09:15] =>  0:00
@@ -1145,7 +1145,7 @@ Try to figure out how it works.
 [[elisp:(bookmark-jump-other-window "2024-07-22-sqlalchemy-features.org")]]
 
 ** Source Code
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 - Note taken on [2024-07-24 Wed 19:54] \\
   /async ORMs that support ACID transactions/
 :LOGBOOK:
@@ -1157,7 +1157,7 @@ Git repository overview
 [[elisp:(bookmark-jump-other-window "sqlalchemy<Git>")]]
 
 ** Testing
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-20 Tue>
 from sqlalchemy import testing
 from sqlalchemy.testing import fixtures
 
@@ -1171,7 +1171,7 @@ CLOCK: [2024-07-19 Fri 05:50]--[2024-07-19 Fri 06:15] =>  0:25
 CLOCK: [2024-07-18 Thu 14:24]--[2024-07-18 Thu 15:11] =>  0:47
 :END:
 ** Development Environment
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-03 Sat>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 15:24]--[2024-07-19 Fri 15:59] =>  0:35
 CLOCK: [2024-07-19 Fri 14:54]--[2024-07-19 Fri 15:19] =>  0:25
@@ -1179,7 +1179,7 @@ CLOCK: [2024-07-19 Fri 14:54]--[2024-07-19 Fri 15:19] =>  0:25
 [[elisp:(bookmark-jump-other-window "fastapi-dev-in-babel")]]
 
 ** Main Features
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-06 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 16:00]--[2024-07-24 Wed 16:00] =>  0:00
 CLOCK: [2024-07-24 Wed 07:09]--[2024-07-24 Wed 07:40] =>  0:31
@@ -1189,7 +1189,7 @@ CLOCK: [2024-07-23 Tue 08:17]--[2024-07-23 Tue 08:17] =>  0:00
 [[elisp:(bookmark-jump-other-window "emacs.org.md")]]
 
 ** Test Suite
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-04 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 17:26]--[2024-07-29 Fri 17:56] =>  0:30
 CLOCK: [2024-07-19 Fri 16:33]--[2024-07-19 Fri 17:06] =>  0:33
@@ -1197,7 +1197,7 @@ CLOCK: [2024-07-19 Fri 16:33]--[2024-07-19 Fri 17:06] =>  0:33
 https://www.rfc-editor.org/rfc/rfc9110#name-method-definitions
 
 ** Source Code Review
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-06 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 09:41]--[2024-07-24 Wed 09:50] =>  0:09
 CLOCK: [2024-07-24 Wed 09:26]--[2024-07-24 Wed 09:36] =>  0:10
@@ -1210,13 +1210,13 @@ CLOCK: [2024-07-22 Mon 15:45]--[2024-07-22 Mon 15:53] =>  0:08
 [[elisp:(bookmark-jump-other-window "fastapi<Git>")]]
 
 ** [#B] Blog Articles Review&Correction 
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-06 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-23 Tue 20:23]--[2024-07-23 Tue 20:41] =>  0:18
 :END:
 
 ** Test All Supported HTTP Request's Methods
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-06 Tue>
 :LOGBOOK:
 CLOCK: [2024-07-25 Thu 09:09]--[2024-07-25 Thu 09:54] =>  0:45
 CLOCK: [2024-07-25 Thu 08:41]--[2024-07-25 Thu 09:05] =>  0:24
@@ -1234,7 +1234,7 @@ SCHEDULED: <2024-08-05 Mon>
 :END:
 
 ** Core Features
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-02 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 16:40]--[2024-07-24 Wed 16:49] =>  0:09
 CLOCK: [2024-07-24 Wed 16:02]--[2024-07-24 Wed 16:36] =>  0:34
@@ -1243,7 +1243,7 @@ CLOCK: [2024-07-24 Wed 16:02]--[2024-07-24 Wed 16:36] =>  0:34
 
 
 ** Git Repository CheckUp
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-07 Wed>
 :LOGBOOK:
 CLOCK: [2024-07-26 Fri 09:28]--[2024-07-26 Fri 09:31] =>  0:03
 CLOCK: [2024-07-24 Wed 16:49]--[2024-07-24 Wed 17:05] =>  0:16
