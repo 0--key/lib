@@ -811,3 +811,85 @@ SCHEDULED: <2024-07-31 Wed>
 :ARCHIVE_CATEGORY: Main
 :END:
 
+
+* RETARD [#A] Version Control
+SCHEDULED: <2024-08-04 Sun ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-10 Fri 17:49]
+:ARCHIVE_TIME: 2024-08-04 Sun 19:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2023-11-10 Fri 17:49]
+- State "AMPLE"      from ""           [2023-11-06 Mon 10:41]
+:LOGBOOK:
+CLOCK: [2023-11-06 Mon 10:23]--[2023-11-06 Mon 10:41] =>  0:18
+CLOCK: [2023-11-03 Fri 15:28]--[2023-11-03 Fri 15:34] =>  0:06
+:END:
+- [[info:emacs#Version Control]] [2023-11-06 Mon 10:28]
+- [[info:emacs#Types of Log File]] [2023-11-06 Mon 10:40]
+
+* RETARD Team leadership in software development
+SCHEDULED: <2024-08-04 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-08-04 Sun 19:10
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2024-03-13 Wed 11:13]--[2024-03-13 Wed 11:42] =>  0:29
+:END:
+
+* DELAY Source code overview
+SCHEDULED: <2024-08-04 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-08-04 Sun 19:13
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI/GptEl
+:ARCHIVE_CATEGORY: GPTel
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-24 Mon 15:54]--[2024-06-24 Mon 20:39] =>  4:45
+:END:
+
+* DELAY Extension
+SCHEDULED: <2024-08-04 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-08-04 Sun 19:13
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI/GptEl
+:ARCHIVE_CATEGORY: GPTel
+:ARCHIVE_TODO: DELAY
+:END:
+
+* LAG IDEFree
+SCHEDULED: <2024-08-05 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-08-04 Sun 19:39
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: LAG
+:END:
+https://xakep.ru/2016/05/17/console-magic/
+https://xakep.ru/2014/09/10/obustraivaem-minimalistichnoe-rabochee-okruzhenie/
+https://xakep.ru/2018/12/05/idefree/
+https://xakep.ru/2017/05/18/cli-console-tips/
+
+* DELAY Smart Join
+SCHEDULED: <2024-08-06 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-08-04 Sun 19:43
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: OpenAI
+:ARCHIVE_TODO: DELAY
+:END:
+Compile a more complete answer out from high-temperature answers (n=3).
+Web-app with semantic highlighting.
+

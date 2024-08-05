@@ -12,8 +12,8 @@ Advanced to-do list    -*- mode: org; -*-
 #+TODO: DELAY LAG RETARD | BARE
 #+TODO: | SET
 * Notes
-** Pydantic
-SCHEDULED: <2024-08-02 Fri>
+** DELAY Pydantic
+SCHEDULED: <2024-08-30 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-25 Thu 08:11]--[2024-07-25 Thu 08:35] =>  0:24
 CLOCK: [2024-07-20 Sat 08:29]--[2024-07-20 Sat 09:00] =>  0:31
@@ -26,7 +26,7 @@ CLOCK: [2024-07-20 Sat 07:37]--[2024-07-20 Sat 08:26] =>  0:49
 SCHEDULED: <2024-09-29 Sun>
 
 ** TODO RESTful web APIs
-SCHEDULED: <2024-08-01 Thu>
+SCHEDULED: <2024-08-18 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-26 Fri 08:37]--[2024-07-26 Fri 08:43] =>  0:06
 CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
@@ -50,8 +50,8 @@ CLOCK: [2023-12-12 Tue 10:35]--[2023-12-12 Tue 11:35] =>  1:00
 - https://realpython.com/run-python-scripts/ [2023-12-12 Tue 10:54]
 - https://realpython.com/intermediate-python-project-ideas/ [2023-12-12 Tue 10:58]
 - https://realpython.com/storing-images-in-python/
-*** LAG Dissect the Python Itself
-SCHEDULED: <2024-08-06 Tue ++2d>
+*** DELAY Dissect the Python Itself
+SCHEDULED: <2024-09-08 Sun ++2d>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 06:44]--[2024-06-04 Tue 06:52] =>  0:08
 CLOCK: [2024-02-01 Thu 18:24]--[2024-02-01 Thu 18:49] =>  0:25
@@ -178,7 +178,7 @@ CLOCK: [2023-10-02 Mon 09:04]--[2023-10-02 Mon 09:32] =>  0:28
 
 
 ** DELAY Object Oriented Design
-SCHEDULED: <2024-08-08 Thu>
+SCHEDULED: <2024-08-30 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-06 Thu 06:09]--[2024-06-06 Thu 06:30] =>  0:21
 :END:
@@ -202,7 +202,7 @@ SCHEDULED: <2024-08-20 Tue>
   operation to finish before starting the next one. This helps improve
   performance and responsiveness in applications by handling tasks in a
   non-blocking manner.
-** DELAY Flask Web-App
+** RAW Flask Web-App
 SCHEDULED: <2024-08-08 Thu>
  with a set pre-defined modulators for queries
 - Note taken on [2024-07-03 Wed 09:23] \\
@@ -210,7 +210,7 @@ SCHEDULED: <2024-08-08 Thu>
   temperature=1.0) and ask user to choose the most precise ones (one or
   several).
 ** DELAY openai library dissection
-SCHEDULED: <2024-08-08 Thu>
+SCHEDULED: <2024-08-30 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-21 Fri 16:37]--[2024-06-21 Fri 17:14] =>  0:37
 CLOCK: [2024-06-21 Fri 06:20]--[2024-06-21 Fri 06:27] =>  0:07
@@ -221,7 +221,7 @@ https://github.com/0--key/openai-python
 [[elisp:(bookmark-jump-other-window "openai-python")]]
   
 * Algorithms in CS
-SCHEDULED: <2024-08-03 Sat ++1w>
+SCHEDULED: <2024-08-18 Sun ++1w>
 :PROPERTIES:
 :CATEGORY: AlgoinCS
 :LAST_REPEAT: [2024-05-25 Sat 13:25]
@@ -418,7 +418,7 @@ CLOCK: [2024-01-09 Tue 09:31]--[2024-01-09 Tue 10:23] =>  0:52
   - All-The-Icons -;
   - General -;
 ***** RETARD Ivy
-SCHEDULED: <2024-08-02 Fri ++1d>
+SCHEDULED: <2024-10-17 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-02-01 Thu 10:49]
 :END:
@@ -459,8 +459,8 @@ CLOCK: [2024-06-07 Fri 06:33]--[2024-06-07 Fri 07:17] =>  0:44
 - counsel-buffer-or-recentf [2024-06-10 Mon 13:05]
 - counsel-descbinds [2024-06-10 Mon 13:13]
 - counsel-google [2024-06-10 Mon 13:22]
-***** DELAY Counsel-Git
-SCHEDULED: <2024-08-05 Mon>
+***** LAG Counsel-Git
+SCHEDULED: <2024-09-30 Mon>
 [[elisp:(apropos-command "counsel-git")]]
 
 
@@ -890,8 +890,8 @@ CLOCK: [2024-06-04 Tue 09:09]--[2024-06-04 Tue 09:15] =>  0:06
 - https://data-flair.training/blogs/python-number-types-conversion/
 
 
-** Lambda Function
-SCHEDULED: <2024-08-08 Thu ++3d>
+** DELAY Lambda Function
+SCHEDULED: <2024-08-30 Fri ++3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-30 Thu 16:19]
 :END:
@@ -1012,7 +1012,7 @@ CLOCK: [2023-10-27 Fri 09:04]--[2023-10-27 Fri 09:41] =>  0:37
 :END:
 [[info:python3.7#The Module Search Path][python3.7#The Module Search Path]]
 ** RETARD Packages
-SCHEDULED: <2024-08-02 Fri>
+SCHEDULED: <2024-10-17 Thu>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-27 Fri 10:33]
 :END:
@@ -1078,8 +1078,8 @@ CLOCK: [2023-11-07 Tue 11:00]--[2023-11-07 Tue 11:26] =>  0:26
 :END:
 
 
-* INIT =pytest=
-SCHEDULED: <2024-08-05 Mon>
+* DELAY =pytest=
+SCHEDULED: <2024-09-09 Mon>
 :LOGBOOK:
 CLOCK: [2024-07-29 Mon 10:50]--[2024-07-29 Mon 11:59] =>  1:09
 :END:
@@ -1171,15 +1171,15 @@ CLOCK: [2024-07-19 Fri 05:50]--[2024-07-19 Fri 06:15] =>  0:25
 CLOCK: [2024-07-18 Thu 14:24]--[2024-07-18 Thu 15:11] =>  0:47
 :END:
 ** Development Environment
-SCHEDULED: <2024-08-03 Sat>
+SCHEDULED: <2024-08-18 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 15:24]--[2024-07-19 Fri 15:59] =>  0:35
 CLOCK: [2024-07-19 Fri 14:54]--[2024-07-19 Fri 15:19] =>  0:25
 :END:
 [[elisp:(bookmark-jump-other-window "fastapi-dev-in-babel")]]
 
-** Main Features
-SCHEDULED: <2024-08-06 Tue>
+** DELAY Main Features
+SCHEDULED: <2024-09-08 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 16:00]--[2024-07-24 Wed 16:00] =>  0:00
 CLOCK: [2024-07-24 Wed 07:09]--[2024-07-24 Wed 07:40] =>  0:31
@@ -1189,15 +1189,15 @@ CLOCK: [2024-07-23 Tue 08:17]--[2024-07-23 Tue 08:17] =>  0:00
 [[elisp:(bookmark-jump-other-window "emacs.org.md")]]
 
 ** Test Suite
-SCHEDULED: <2024-08-04 Sun>
+SCHEDULED: <2024-08-18 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-19 Fri 17:26]--[2024-07-29 Fri 17:56] =>  0:30
 CLOCK: [2024-07-19 Fri 16:33]--[2024-07-19 Fri 17:06] =>  0:33
 :END:
 https://www.rfc-editor.org/rfc/rfc9110#name-method-definitions
 
-** Source Code Review
-SCHEDULED: <2024-08-06 Tue>
+** DELAY Source Code Review
+SCHEDULED: <2024-09-08 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 09:41]--[2024-07-24 Wed 09:50] =>  0:09
 CLOCK: [2024-07-24 Wed 09:26]--[2024-07-24 Wed 09:36] =>  0:10
@@ -1209,14 +1209,14 @@ CLOCK: [2024-07-22 Mon 15:45]--[2024-07-22 Mon 15:53] =>  0:08
 [[elisp:(bookmark-jump-other-window "fastapi-tutorial")]]
 [[elisp:(bookmark-jump-other-window "fastapi<Git>")]]
 
-** [#B] Blog Articles Review&Correction 
-SCHEDULED: <2024-08-06 Tue>
+** DELAY [#B] Blog Articles Review&Correction 
+SCHEDULED: <2024-09-08 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-23 Tue 20:23]--[2024-07-23 Tue 20:41] =>  0:18
 :END:
 
-** Test All Supported HTTP Request's Methods
-SCHEDULED: <2024-08-06 Tue>
+** DELAY Test All Supported HTTP Request's Methods
+SCHEDULED: <2024-09-08 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-25 Thu 09:09]--[2024-07-25 Thu 09:54] =>  0:45
 CLOCK: [2024-07-25 Thu 08:41]--[2024-07-25 Thu 09:05] =>  0:24
@@ -1225,7 +1225,7 @@ CLOCK: [2024-07-25 Thu 08:41]--[2024-07-25 Thu 09:05] =>  0:24
 Additional HTTP Methods: HEAD, PATCH, OPTIONS
 
 ** Visualize FastAPI architecture
-SCHEDULED: <2024-08-05 Mon>
+SCHEDULED: <2024-08-19 Mon>
 [[elisp:(bookmark-jump-other-window "2016-08-24-intro.org")]]
 
 * Starlette
@@ -1234,7 +1234,7 @@ SCHEDULED: <2024-08-05 Mon>
 :END:
 
 ** Core Features
-SCHEDULED: <2024-08-02 Fri>
+SCHEDULED: <2024-08-18 Sun>
 :LOGBOOK:
 CLOCK: [2024-07-24 Wed 16:40]--[2024-07-24 Wed 16:49] =>  0:09
 CLOCK: [2024-07-24 Wed 16:02]--[2024-07-24 Wed 16:36] =>  0:34
