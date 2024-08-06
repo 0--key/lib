@@ -154,7 +154,7 @@ CLOCK: [2023-11-03 Fri 10:14]--[2023-11-03 Fri 10:49] =>  0:35
 https://www.youtube.com/watch?v=_AEJHKGk9ns
 [[file:~/Git/0--key/archpy/tests/test_assignment.py::self.assertEqual(alias_of_sample_list, \['a', 'b', 'c', 'd'\])][Current state]]
 ** DELAY IPython
-SCHEDULED: <2024-08-07 Wed ++2d>
+SCHEDULED: <2024-08-21 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-09 Mon 11:30]
 :END:
@@ -1242,8 +1242,8 @@ CLOCK: [2024-07-24 Wed 16:02]--[2024-07-24 Wed 16:36] =>  0:34
 [[elisp:(bookmark-jump-other-window "2024-07-24-starlette-overview.org")]]
 
 
-** Git Repository CheckUp
-SCHEDULED: <2024-08-07 Wed>
+** DELAY Git Repository CheckUp
+SCHEDULED: <2024-09-11 Wed>
 :LOGBOOK:
 CLOCK: [2024-07-26 Fri 09:28]--[2024-07-26 Fri 09:31] =>  0:03
 CLOCK: [2024-07-24 Wed 16:49]--[2024-07-24 Wed 17:05] =>  0:16

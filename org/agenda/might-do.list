@@ -389,6 +389,7 @@ A Clot for Every Slot
 ** [#A] Modes of Thinking
 SCHEDULED: <2024-08-07 Wed>
 [[elisp:(bookmark-jump-other-window "2024-08-05-modes-of-thinking.org")]]
+[[elisp:(bookmark-jump-other-window "2024-08-05-six-levels-of-thinking.org")]]
 :LOGBOOK:
 CLOCK: [2024-08-05 Mon 06:52]--[2024-08-05 Mon 07:18] =>  0:26
 CLOCK: [2024-08-05 Mon 06:05]--[2024-08-05 Mon 06:37] =>  0:32
@@ -516,13 +517,6 @@ CLOCK: [2024-07-15 Mon 09:56]--[2024-07-15 Mon 10:09] =>  0:13
 *** LAG Zero-shot
 SCHEDULED: <2024-09-05 Thu>
 [[elisp:(bookmark-jump-other-window "elisp.org zero")]]
-
-*** [#A] RAG (Retrieval Augumented Generation) methodology
-SCHEDULED: <2024-08-06 Tue>
-https://github.com/s-kostyaev/elisa
-:LOGBOOK:
-CLOCK: [2024-06-19 Wed 15:00]--[2024-06-19 Wed 15:30] =>  0:30
-:END:
 
 
 ** DELAY Copilot
@@ -1453,7 +1447,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** INIT [#B] Bash with Andrew                                       :AnAn:
-SCHEDULED: <2024-08-06 Tue .+1w>
+SCHEDULED: <2024-08-07 Wed .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1921,14 +1915,13 @@ SCHEDULED: <2024-08-08 Thu>
 :CATEGORY: Vizier
 :END:
 
-*** RAW [#A] Enhancement Plan
-SCHEDULED: <2024-08-06 Tue>
+*** INIT [#A] Enhancement Plan
+SCHEDULED: <2024-08-20 Tue>
 - Note taken on [2024-08-05 Mon 19:48] \\
   * Tools for testing (ERT)
   https://www.gnu.org/software/emacs/manual/html_node/ert/Introduction.html
-  * OpenAI API simulator
-  on ~localhost~ with FastAPI?
  :LOGBOOK:
+ CLOCK: [2024-08-06 Tue 09:48]--[2024-08-06 Tue 09:53] =>  0:05
   CLOCK: [2024-08-05 Mon 09:18]--[2024-08-05 Mon 10:47] =>  1:29
   CLOCK: [2024-08-05 Mon 08:26]--[2024-08-05 Mon 08:29] =>  0:03
   CLOCK: [2024-07-12 Fri 17:04]--[2024-07-12 Fri 19:23] =>  2:19
@@ -2296,10 +2289,11 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-08-05 Mon ++1d>
+SCHEDULED: <2024-08-06 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-04 Sun 20:16]
+:LAST_REPEAT: [2024-08-05 Mon 20:20]
 :END:
+- State "AMPLE"      from ""           [2024-08-05 Mon 20:20]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:16]
 - State "AMPLE"      from ""           [2024-07-31 Wed 21:02]
 - State "AMPLE"      from ""           [2024-07-30 Tue 19:45]
@@ -2372,7 +2366,8 @@ SCHEDULED: <2024-08-05 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-08-05 Mon 20:11]
+CLOCK: [2024-08-06 Tue 18:20]
+CLOCK: [2024-08-05 Mon 20:11]--[2024-08-05 Mon 20:20] =>  0:09
 CLOCK: [2024-08-04 Sun 20:12]--[2024-08-04 Sun 20:16] =>  0:04
 CLOCK: [2024-07-31 Wed 20:51]--[2024-07-31 Wed 21:02] =>  0:11
 CLOCK: [2024-07-30 Tue 19:41]--[2024-07-30 Tue 19:45] =>  0:04
@@ -2890,10 +2885,11 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-08-06 Tue ++1d>
+SCHEDULED: <2024-08-07 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-07-31 Wed 18:00]
+:LAST_REPEAT: [2024-08-06 Tue 18:05]
 :END:
+- State "AMPLE"      from ""           [2024-08-06 Tue 18:05]
 - State "AMPLE"      from ""           [2024-07-31 Wed 18:00]
 - State "AMPLE"      from ""           [2024-07-30 Tue 19:35]
 - State "AMPLE"      from ""           [2024-07-29 Mon 19:42]
@@ -2957,6 +2953,7 @@ SCHEDULED: <2024-08-06 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2024-08-06 Tue 18:00]--[2024-08-06 Tue 18:02] =>  0:02
 CLOCK: [2024-08-04 Sun 19:07]--[2024-08-04 Sun 19:13] =>  0:06
 CLOCK: [2024-08-02 Fri 09:08]--[2024-08-02 Fri 09:15] =>  0:07
 CLOCK: [2024-07-31 Wed 17:49]--[2024-07-31 Wed 18:00] =>  0:11
@@ -3221,10 +3218,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-08-06 Tue ++1d>
+SCHEDULED: <2024-08-07 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-05 Mon 20:11]
+:LAST_REPEAT: [2024-08-06 Tue 18:20]
 :END:
+- State "AMPLE"      from ""           [2024-08-06 Tue 18:20]
 - State "AMPLE"      from ""           [2024-08-05 Mon 20:11]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:17]
 - State "AMPLE"      from ""           [2024-07-31 Wed 20:51]
@@ -3301,6 +3299,8 @@ SCHEDULED: <2024-08-06 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-08-06 Tue 18:03]--[2024-08-06 Tue 18:08] =>  0:05
+CLOCK: [2024-08-06 Tue 15:11]--[2024-08-06 Tue 15:13] =>  0:02
 CLOCK: [2024-08-05 Mon 19:53]--[2024-08-05 Mon 19:57] =>  0:04
 CLOCK: [2024-08-02 Fri 20:35]--[2024-08-02 Fri 21:04] =>  0:29
 CLOCK: [2024-07-31 Wed 20:34]--[2024-07-31 Wed 20:51] =>  0:17
@@ -3399,7 +3399,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Clean all that mess up!
-SCHEDULED: <2024-08-06 Tue ++1w>
+SCHEDULED: <2024-08-13 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-30 Tue 19:35]
 :END:
@@ -3625,7 +3625,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#C] New tasks trimming
-SCHEDULED: <2024-08-06 Tue ++2d/3d>
+SCHEDULED: <2024-08-07 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-04 Sun 19:32]
 :END:
@@ -3743,7 +3743,7 @@ CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
-**** RAW Effort in task resolving
+**** RAW [#A] Effort in task resolving
 SCHEDULED: <2024-08-07 Wed>
 :LOGBOOK:
 CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
@@ -4015,7 +4015,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** INIT [#B] Andrew's private summer lessons                          :AnAn:
-SCHEDULED: <2024-08-06 Tue>
+SCHEDULED: <2024-08-07 Wed>
  - Emacs;
  - Bash;
  - Git;
@@ -4413,6 +4413,16 @@ https://docs.docker.com/get-started/
 :PROPERTIES:
 :CATEGORY: LLM
 :END:
+** DELAY RAG & IR methodology
+SCHEDULED: <2024-09-03 Tue>
+Retrieval Augumented Generation augumented by Information Retrieval.
+=First impression as an overly overthinking idea.=
+https://github.com/s-kostyaev/elisa
+:LOGBOOK:
+CLOCK: [2024-08-06 Tue 09:40]--[2024-08-06 Tue 09:43] =>  0:03
+CLOCK: [2024-06-19 Wed 15:00]--[2024-06-19 Wed 15:30] =>  0:30
+:END:
+
 ** DELAY Overview
 SCHEDULED: <2024-08-21 Wed ++2d>
 :PROPERTIES:
@@ -4480,18 +4490,32 @@ CLOCK: [2024-07-23 Tue 07:39]--[2024-07-23 Tue 08:15] =>  0:36
 :END:
 Context Window
 
-** [#A] Amazon BedRock
-SCHEDULED: <2024-08-06 Tue>
+** DELAY Amazon BedRock
+SCHEDULED: <2024-08-22 Thu>
 :LOGBOOK:
+CLOCK: [2024-08-06 Tue 09:10]--[2024-08-06 Tue 09:34] =>  0:24
 CLOCK: [2024-07-30 Tue 08:37]--[2024-07-30 Tue 08:54] =>  0:17
 :END:
 https://aws.amazon.com/bedrock/
-
+https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/150-agents
+https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US
+https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-for-bedrock
 
 ** OpenAI
 :PROPERTIES:
 :CATEGORY: OpenAI
 :END:
+*** [#A] API simulator
+SCHEDULED: <2024-08-07 Wed>
+For application development and testing its interaction.
+on ~localhost~ with FastAPI?
+
+*** [#A] The bundle of Elisp functions
+SCHEDULED: <2024-08-07 Wed>
+:LOGBOOK:
+CLOCK: [2024-08-06 Tue 10:33]--[2024-08-06 Tue 10:54] =>  0:21
+:END:
+For interaction with OpenAI API
 
 *** AMPLE [#A] The Kin of Threads and Assistants
 SCHEDULED: <2024-07-11 Thu>
@@ -4636,9 +4660,11 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-frame "2024-06-21-openai-input-format.org")][Initial Pythonic]]
 [[elisp:(bookmark-jump-other-window "2024-07-02-openai-options.org")]]
 
-*** Assistants API
+*** [#A] Assistants API
 SCHEDULED: <2024-08-07 Wed ++2d>
 :LOGBOOK:
+CLOCK: [2024-08-06 Tue 17:11]--[2024-08-06 Tue 17:22] =>  0:11
+CLOCK: [2024-08-06 Tue 15:18]--[2024-08-06 Tue 16:26] =>  1:08
 CLOCK: [2024-07-12 Fri 06:10]--[2024-07-12 Fri 06:13] =>  0:03
 CLOCK: [2024-07-11 Thu 16:52]--[2024-07-11 Thu 16:59] =>  0:07
 CLOCK: [2024-07-11 Thu 06:50]--[2024-07-11 Thu 07:03] =>  0:13
@@ -4705,8 +4731,8 @@ SCHEDULED: <2024-09-08 Sun>
 CLOCK: [2024-07-07 Sun 08:41]--[2024-07-07 Sun 08:47] =>  0:06
 :END:
 https://platform.openai.com/docs/assistants/tools/file-search
-***** Function Calling
-SCHEDULED: <2024-08-07 Wed>
+***** DELAY Function Calling
+SCHEDULED: <2024-09-11 Wed>
 :LOGBOOK:
 CLOCK: [2024-07-13 Sat 07:39]--[2024-07-13 Sat 07:45] =>  0:06
 CLOCK: [2024-07-07 Sun 08:47]--[2024-07-07 Sun 08:51] =>  0:04
@@ -4726,7 +4752,7 @@ CLOCK: [2024-06-21 Fri 17:22]--[2024-06-21 Fri 17:43] =>  0:21
 :END:
 
 *** Org-mode answer format --> Assistant's instructions
-SCHEDULED: <2024-08-06 Tue>
+SCHEDULED: <2024-08-13 Tue>
 
 *** DELAY Existing Solutions
 SCHEDULED: <2024-08-13 Tue>

@@ -2,7 +2,21 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("2024-08-05-modes-of-thinking.org" 0 32
+(#1=(#("2024-08-05-six-levels-of-thinking.org" 0 37
+      (bmkp-full-record #1#))
+    (annotation)
+    (tags)
+    (filename . "~/Git/annelida/ballyboe/org-blog/2024-08-05-six-levels-of-thinking.org")
+    (buffer-name . "2024-08-05-six-levels-of-thinking.org")
+    (front-context-string . "Preamble\n\nThere ")
+    (rear-context-string . "sE][Source\n]]\n* ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26290 23315 581389 743000))
+    (created . #2#)
+    (position . 572))
+#1=(#("2024-08-05-modes-of-thinking.org" 0 32
       (bmkp-full-record #1#))
     (annotation)
     (tags)
