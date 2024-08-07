@@ -387,10 +387,13 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 A Clot for Every Slot
 
 ** [#A] Modes of Thinking
-SCHEDULED: <2024-08-07 Wed>
+SCHEDULED: <2024-08-09 Fri>
 [[elisp:(bookmark-jump-other-window "2024-08-05-modes-of-thinking.org")]]
 [[elisp:(bookmark-jump-other-window "2024-08-05-six-levels-of-thinking.org")]]
 :LOGBOOK:
+CLOCK: [2024-08-07 Wed 16:04]--[2024-08-07 Wed 16:29] =>  0:25
+CLOCK: [2024-08-07 Wed 08:37]--[2024-08-07 Wed 09:20] =>  0:43
+CLOCK: [2024-08-07 Wed 07:27]--[2024-08-07 Wed 07:49] =>  0:22
 CLOCK: [2024-08-05 Mon 06:52]--[2024-08-05 Mon 07:18] =>  0:26
 CLOCK: [2024-08-05 Mon 06:05]--[2024-08-05 Mon 06:37] =>  0:32
 :END:
@@ -1447,7 +1450,7 @@ SCHEDULED: <2022-12-08 Thu>
 :CATEGORY: kin
 :END:
 *** INIT [#B] Bash with Andrew                                       :AnAn:
-SCHEDULED: <2024-08-07 Wed .+1w>
+SCHEDULED: <2024-08-10 Sat .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-13 Sat 10:22]
 :END:
@@ -1826,14 +1829,16 @@ SCHEDULED: <2024-10-15 Tue>
 ** LAG [#C] How to detour ATS?
 SCHEDULED: <2024-09-16 Mon>
 ** [#C] Lead Agenda elaboration
-SCHEDULED: <2024-08-07 Wed ++3d/4d>
+SCHEDULED: <2024-08-10 Sat ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-04 Sun 20:16]
+:LAST_REPEAT: [2024-08-07 Wed 18:04]
 :END:
+- State "AMPLE"      from ""           [2024-08-07 Wed 18:04]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:16]
 - Note taken on [2024-06-17 Mon 07:29] \\
   ** RAW [#B] Learn with OpenAI
   :LOGBOOK:
+  CLOCK: [2024-08-07 Wed 17:55]--[2024-08-07 Wed 18:04] =>  0:09
   CLOCK: [2024-08-04 Sun 19:58]--[2024-08-04 Sun 20:12] =>  0:14
   CLOCK: [2024-06-17 Mon 07:13]--[2024-06-17 Mon 07:29] =>  0:16
   CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
@@ -2289,10 +2294,11 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-08-06 Tue ++1d>
+SCHEDULED: <2024-08-07 Wed ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-05 Mon 20:20]
+:LAST_REPEAT: [2024-08-06 Tue 18:40]
 :END:
+- State "AMPLE"      from ""           [2024-08-06 Tue 18:40]
 - State "AMPLE"      from ""           [2024-08-05 Mon 20:20]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:16]
 - State "AMPLE"      from ""           [2024-07-31 Wed 21:02]
@@ -2366,7 +2372,8 @@ SCHEDULED: <2024-08-06 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-08-06 Tue 18:20]
+CLOCK: [2024-08-07 Wed 18:04]
+CLOCK: [2024-08-06 Tue 18:20]--[2024-08-06 Tue 18:40] =>  0:20
 CLOCK: [2024-08-05 Mon 20:11]--[2024-08-05 Mon 20:20] =>  0:09
 CLOCK: [2024-08-04 Sun 20:12]--[2024-08-04 Sun 20:16] =>  0:04
 CLOCK: [2024-07-31 Wed 20:51]--[2024-07-31 Wed 21:02] =>  0:11
@@ -2885,10 +2892,11 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-08-07 Wed ++1d>
+SCHEDULED: <2024-08-08 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-06 Tue 18:05]
+:LAST_REPEAT: [2024-08-07 Wed 17:53]
 :END:
+- State "AMPLE"      from ""           [2024-08-07 Wed 17:53]
 - State "AMPLE"      from ""           [2024-08-06 Tue 18:05]
 - State "AMPLE"      from ""           [2024-07-31 Wed 18:00]
 - State "AMPLE"      from ""           [2024-07-30 Tue 19:35]
@@ -3218,10 +3226,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-08-07 Wed ++1d>
+SCHEDULED: <2024-08-08 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-06 Tue 18:20]
+:LAST_REPEAT: [2024-08-07 Wed 18:04]
 :END:
+- State "AMPLE"      from ""           [2024-08-07 Wed 18:04]
 - State "AMPLE"      from ""           [2024-08-06 Tue 18:20]
 - State "AMPLE"      from ""           [2024-08-05 Mon 20:11]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:17]
@@ -3299,6 +3308,7 @@ SCHEDULED: <2024-08-07 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-08-07 Wed 17:53]--[2024-08-07 Wed 17:55] =>  0:02
 CLOCK: [2024-08-06 Tue 18:03]--[2024-08-06 Tue 18:08] =>  0:05
 CLOCK: [2024-08-06 Tue 15:11]--[2024-08-06 Tue 15:13] =>  0:02
 CLOCK: [2024-08-05 Mon 19:53]--[2024-08-05 Mon 19:57] =>  0:04
@@ -3625,7 +3635,7 @@ SCHEDULED: <2024-09-13 Fri ++4w>
 
 
 *** [#C] New tasks trimming
-SCHEDULED: <2024-08-07 Wed ++2d/3d>
+SCHEDULED: <2024-08-09 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-04 Sun 19:32]
 :END:
@@ -3743,9 +3753,13 @@ CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
 maiden scheduling of completely new (*RAW*) tasks 
-**** RAW [#A] Effort in task resolving
-SCHEDULED: <2024-08-07 Wed>
+**** INIT [#A] Effort in task resolving
+SCHEDULED: <2024-08-21 Wed>
+:PROPERTIES:
+:Effort:   20
+:END:
 :LOGBOOK:
+CLOCK: [2024-08-07 Wed 07:19]--[2024-08-07 Wed 07:27] =>  0:08
 CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 :END:
 [[info:org#Effort Estimates][org#Effort Estimates]]
@@ -4015,7 +4029,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** INIT [#B] Andrew's private summer lessons                          :AnAn:
-SCHEDULED: <2024-08-07 Wed>
+SCHEDULED: <2024-08-10 Sat>
  - Emacs;
  - Bash;
  - Git;
@@ -4214,7 +4228,7 @@ CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
 SCHEDULED: <2024-09-04 Wed>
 In fire alarm example
 ** INIT [#B] Math with Andrew                                         :AnAn:
-SCHEDULED: <2024-08-07 Wed ++2d/3d>
+SCHEDULED: <2024-08-10 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-02 Tue 15:22]
 :END:
@@ -4506,12 +4520,15 @@ https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-for-bedro
 :CATEGORY: OpenAI
 :END:
 *** [#A] API simulator
-SCHEDULED: <2024-08-07 Wed>
+SCHEDULED: <2024-08-08 Thu>
+:LOGBOOK:
+CLOCK: [2024-08-07 Wed 10:33]--[2024-08-07 Wed 11:31] =>  0:58
+:END:
 For application development and testing its interaction.
 on ~localhost~ with FastAPI?
 
 *** [#A] The bundle of Elisp functions
-SCHEDULED: <2024-08-07 Wed>
+SCHEDULED: <2024-08-08 Thu>
 :LOGBOOK:
 CLOCK: [2024-08-06 Tue 10:33]--[2024-08-06 Tue 10:54] =>  0:21
 :END:
@@ -4661,8 +4678,9 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-window "2024-07-02-openai-options.org")]]
 
 *** [#A] Assistants API
-SCHEDULED: <2024-08-07 Wed ++2d>
+SCHEDULED: <2024-08-08 Thu ++2d>
 :LOGBOOK:
+CLOCK: [2024-08-07 Wed 09:37]--[2024-08-07 Wed 09:51] =>  0:14
 CLOCK: [2024-08-06 Tue 17:11]--[2024-08-06 Tue 17:22] =>  0:11
 CLOCK: [2024-08-06 Tue 15:18]--[2024-08-06 Tue 16:26] =>  1:08
 CLOCK: [2024-07-12 Fri 06:10]--[2024-07-12 Fri 06:13] =>  0:03
@@ -4765,5 +4783,9 @@ https://github.com/kamushadenes/gptel-extensions.el
 Search threads and assistants in all these repositories.
 
 ** Aravind Srinavas
-SCHEDULED: <2024-08-07 Wed>
+SCHEDULED: <2024-08-13 Tue>
+:LOGBOOK:
+CLOCK: [2024-08-07 Wed 16:37]--[2024-08-07 Wed 17:01] =>  0:24
+:END:
 [[elisp:(bookmark-jump-other-window "Transcript for Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet | Lex Fridman Podcast #434 - Lex Fridman")][Bmk+]]
+- 00:08:18 [2024-08-07 Wed 17:01]
