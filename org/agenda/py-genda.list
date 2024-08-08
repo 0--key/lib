@@ -313,8 +313,8 @@ https://realpython.com/courses/python-data-types/
 SCHEDULED: <2024-08-12 Mon>
 https://realpython.com/lessons/integers/
 
-**** DELAY Arithmetics
-SCHEDULED: <2024-08-10 Sat>
+**** LAG Arithmetics
+SCHEDULED: <2024-09-27 Fri>
 
 ** DELAY The Python's Extended Data Types
 SCHEDULED: <2024-08-20 Tue>
@@ -928,8 +928,8 @@ https://docs.python-guide.org/writing/style/#conventions
 :CATEGORY: Algorithms
 :END:
 
-** DELAY Recursion
-SCHEDULED: <2024-08-10 Sat>
+** LAG Recursion
+SCHEDULED: <2024-09-27 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-19 Wed 08:56]--[2024-06-19 Wed 09:00] =>  0:04
 :END:

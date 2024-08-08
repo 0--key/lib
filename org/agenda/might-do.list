@@ -360,7 +360,7 @@ CLOCK: [2024-02-06 Tue 04:24]--[2024-02-06 Tue 04:30] =>  0:06
 https://www.youtube.com/watch?v=WIOtv4fM8jc
 
 ** DELAY The Peter Principle
-SCHEDULED: <2024-08-09 Fri ++2d/3d>
+SCHEDULED: <2024-10-18 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-29 Wed 11:25]
 :END:
@@ -386,7 +386,7 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :END:
 A Clot for Every Slot
 
-** [#A] Modes of Thinking
+** Modes of Thinking
 SCHEDULED: <2024-08-09 Fri>
 [[elisp:(bookmark-jump-other-window "2024-08-05-modes-of-thinking.org")]]
 [[elisp:(bookmark-jump-other-window "2024-08-05-six-levels-of-thinking.org")]]
@@ -400,14 +400,14 @@ CLOCK: [2024-08-05 Mon 06:05]--[2024-08-05 Mon 06:37] =>  0:32
 
 ** Weekly
 
-*** Friday as a Day of Reflection
+*** [#A] Friday as a Day of Reflection
 SCHEDULED: <2024-08-09 Fri>
 - Conclusions;
 - Recall;
 - Analysis.
 
 *** Thursday as a Day of Extension and Refactoring:
-SCHEDULED: <2024-08-08 Thu>
+SCHEDULED: <2024-08-15 Thu>
 - Extend in the morning;
 - Enhance in the afternoon.
 
@@ -416,8 +416,8 @@ SCHEDULED: <2024-08-08 Thu>
 :CATEGORY: Git
 :END:
 
-** DELAY Tags
-SCHEDULED: <2024-08-10 Sat ++3d/5d>
+** LAG Tags
+SCHEDULED: <2024-09-27 Fri ++3d/5d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-06 Mon 11:33]
 :END:
@@ -456,7 +456,7 @@ https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
 
 
 ** RETARD Basic Branches&Merging
-SCHEDULED: <2024-08-09 Fri>
+SCHEDULED: <2024-10-18 Fri>
 :LOGBOOK:
 CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
 CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
@@ -1881,7 +1881,7 @@ https://www.mongodb.com/resources/basics/databases/nosql-explained
 ** Frontend
 
 *** [#A] Client-Server Architecture
-SCHEDULED: <2024-08-09 Fri>
+SCHEDULED: <2024-08-23 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-29 Mon 08:41]--[2024-07-29 Mon 08:55] =>  0:14
 :END:
@@ -1909,10 +1909,17 @@ SCHEDULED: <2024-08-27 Tue>
 
 ** NATS
 
-** [#C] META-declarative style of programming
-SCHEDULED: <2024-08-08 Thu>
+** META-declarative style of programming
+SCHEDULED: <2024-08-09 Fri>
+:LOGBOOK:
+CLOCK: [2024-08-08 Thu 09:19]--[2024-08-08 Thu 11:16] =>  1:57
+CLOCK: [2024-08-08 Thu 08:36]--[2024-08-08 Thu 09:10] =>  0:34
+:END:
 - Note taken on [2024-08-05 Mon 19:52] \\
   Publish the bait at ReddIt
+[[elisp:(bookmark-jump-other-window "2024-08-08-mds-challenges.org")]]
+[[elisp:(bookmark-jump-other-window "2024-08-08-meta-declarative-style-intro.org")]]
+  
 * Tasks
 
 ** Vizier
@@ -2294,10 +2301,11 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-08-07 Wed ++1d>
+SCHEDULED: <2024-08-08 Thu ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-06 Tue 18:40]
+:LAST_REPEAT: [2024-08-07 Wed 18:09]
 :END:
+- State "AMPLE"      from ""           [2024-08-07 Wed 18:09]
 - State "AMPLE"      from ""           [2024-08-06 Tue 18:40]
 - State "AMPLE"      from ""           [2024-08-05 Mon 20:20]
 - State "AMPLE"      from ""           [2024-08-04 Sun 20:16]
@@ -2372,7 +2380,8 @@ SCHEDULED: <2024-08-07 Wed ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-08-07 Wed 18:04]
+CLOCK: [2024-08-08 Thu 20:30]
+CLOCK: [2024-08-07 Wed 18:04]--[2024-08-07 Wed 18:09] =>  0:05
 CLOCK: [2024-08-06 Tue 18:20]--[2024-08-06 Tue 18:40] =>  0:20
 CLOCK: [2024-08-05 Mon 20:11]--[2024-08-05 Mon 20:20] =>  0:09
 CLOCK: [2024-08-04 Sun 20:12]--[2024-08-04 Sun 20:16] =>  0:04
@@ -2892,7 +2901,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-08-08 Thu ++1d>
+SCHEDULED: <2024-08-09 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-07 Wed 17:53]
 :END:
@@ -3226,10 +3235,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-08-08 Thu ++1d>
+SCHEDULED: <2024-08-09 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-07 Wed 18:04]
+:LAST_REPEAT: [2024-08-08 Thu 20:21]
 :END:
+- State "AMPLE"      from ""           [2024-08-08 Thu 20:21]
 - State "AMPLE"      from ""           [2024-08-07 Wed 18:04]
 - State "AMPLE"      from ""           [2024-08-06 Tue 18:20]
 - State "AMPLE"      from ""           [2024-08-05 Mon 20:11]
@@ -3308,6 +3318,7 @@ SCHEDULED: <2024-08-08 Thu ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-08-08 Thu 20:17]--[2024-08-08 Thu 20:21] =>  0:04
 CLOCK: [2024-08-07 Wed 17:53]--[2024-08-07 Wed 17:55] =>  0:02
 CLOCK: [2024-08-06 Tue 18:03]--[2024-08-06 Tue 18:08] =>  0:05
 CLOCK: [2024-08-06 Tue 15:11]--[2024-08-06 Tue 15:13] =>  0:02
@@ -4520,7 +4531,7 @@ https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-for-bedro
 :CATEGORY: OpenAI
 :END:
 *** [#A] API simulator
-SCHEDULED: <2024-08-08 Thu>
+SCHEDULED: <2024-08-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-08-07 Wed 10:33]--[2024-08-07 Wed 11:31] =>  0:58
 :END:
@@ -4528,7 +4539,7 @@ For application development and testing its interaction.
 on ~localhost~ with FastAPI?
 
 *** [#A] The bundle of Elisp functions
-SCHEDULED: <2024-08-08 Thu>
+SCHEDULED: <2024-08-09 Fri>
 :LOGBOOK:
 CLOCK: [2024-08-06 Tue 10:33]--[2024-08-06 Tue 10:54] =>  0:21
 :END:
@@ -4678,7 +4689,7 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 [[elisp:(bookmark-jump-other-window "2024-07-02-openai-options.org")]]
 
 *** [#A] Assistants API
-SCHEDULED: <2024-08-08 Thu ++2d>
+SCHEDULED: <2024-08-09 Fri ++2d>
 :LOGBOOK:
 CLOCK: [2024-08-07 Wed 09:37]--[2024-08-07 Wed 09:51] =>  0:14
 CLOCK: [2024-08-06 Tue 17:11]--[2024-08-06 Tue 17:22] =>  0:11

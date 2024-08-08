@@ -2,7 +2,31 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("2024-08-05-six-levels-of-thinking.org" 0 37
+(#1=(#("2024-08-08-meta-declarative-style-intro.org" 0 43
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/org-pub/2024-08-08-meta-declarative-style-intro.org")
+    (buffer-name . "2024-08-08-meta-declarative-style-intro.org")
+    (front-context-string . "Conclusion\n\nOver")
+    (rear-context-string . "rated code.\n\n\n* ")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26293 6938 44061 431000))
+    (created . #2#)
+    (position . 4260))
+#1=(#("2024-08-08-mds-challenges.org" 0 29
+      (bmkp-full-record #1#))
+    (filename . "~/Git/0--key/org-pub/2024-08-08-mds-challenges.org")
+    (buffer-name . "2024-08-08-mds-challenges.org")
+    (front-context-string . "\n\n** A Mold from")
+    (rear-context-string . " crystallisation")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(26293 6870 257384 472000))
+    (created . #2#)
+    (position . 2851))
+#1=(#("2024-08-05-six-levels-of-thinking.org" 0 37
       (bmkp-full-record #1#))
     (annotation)
     (tags)
