@@ -893,3 +893,71 @@ SCHEDULED: <2024-08-06 Tue>
 Compile a more complete answer out from high-temperature answers (n=3).
 Web-app with semantic highlighting.
 
+
+* RETARD Powerthesaurus
+SCHEDULED: <2024-08-12 Mon ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-21 Thu 18:58]
+:ARCHIVE_TIME: 2024-08-11 Sun 19:28
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from "TODO"       [2024-03-21 Thu 18:58]
+- State "SET"        from ""           [2024-01-04 Thu 14:53]
+- Note taken on [2024-01-04 Thu 14:52] \\
+  It might be useful later, due to its innate ~replace~ by synonym
+  feature
+- State "AMPLE"      from ""           [2023-12-16 Sat 18:17]
+- State "AMPLE"      from ""           [2023-12-09 Sat 14:17]
+:LOGBOOK:
+CLOCK: [2024-03-25 Mon 10:02]--[2024-03-25 Mon 10:07] =>  0:05
+CLOCK: [2024-03-21 Thu 18:35]--[2024-03-21 Thu 18:58] =>  0:23
+CLOCK: [2023-12-16 Sat 18:10]--[2023-12-16 Sat 18:17] =>  0:07
+CLOCK: [2023-12-14 Thu 10:21]--[2023-12-14 Thu 10:29] =>  0:08
+CLOCK: [2023-12-09 Sat 13:57]--[2023-12-09 Sat 14:13] =>  0:16
+CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
+:END:
+https://github.com/SavchenkoValeriy/emacs-powerthesaurus
+
+* RETARD Archive Day Weekly
+SCHEDULED: <2024-08-12 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-22 Fri 09:23]
+:ARCHIVE_TIME: 2024-08-11 Sun 19:29
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from "INIT"       [2023-09-22 Fri 09:23]
+- State "DONE"       from "ACTIVE"     [2022-11-25 Fri 09:35]
+- State "DONE"       from "ACTIVE"     [2022-11-18 Fri 18:52]
+- State "DONE"       from "ACTIVE"     [2022-11-14 Mon 08:40]
+:LOGBOOK:
+CLOCK: [2022-11-18 Fri 18:41]--[2022-11-18 Fri 18:42] =>  0:01
+CLOCK: [2022-11-18 Fri 18:36]--[2022-11-18 Fri 18:40] =>  0:04
+CLOCK: [2022-11-06 Sun 12:06]--[2022-11-06 Sun 12:31] =>  0:25
+CLOCK: [2022-11-06 Sun 11:27]--[2022-11-06 Sun 11:49] =>  0:22
+:END:
+Toggle Archives mode
+[[info:org#Agenda Commands]]
+[[info:org#Internal archiving][info:org#Internal archiving]]
+
+* RETARD Monthly archive day .+4w
+SCHEDULED: <2024-08-12 Mon .+4w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-09-22 Fri 09:21]
+:ARCHIVE_TIME: 2024-08-11 Sun 19:29
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from "RAW"        [2023-09-22 Fri 09:21]
+- State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
+- Note taken on [2022-12-16 Fri 10:30] \\
+  One month passed away but there are not tasks to archive at the
+  monthly basics.
+- State "DONE"       from "ACTIVE"     [2022-11-18 Fri 07:26]

@@ -35,8 +35,8 @@ CLOCK: [2024-05-30 Thu 14:41]--[2024-05-30 Thu 15:15] =>  0:34
 [[elisp:(bookmark-jump-other-window "2024-07-18-fastapi-overview.org: What is RESTful API?")]]
 
 
-** LAG Python Talk to Me
-SCHEDULED: <2024-08-12 Mon ++3d>
+** RETARD Python Talk to Me
+SCHEDULED: <2024-10-21 Mon ++3d>
 :PROPERTIES:
 :CATEGORY: PyTatMe
 :LAST_REPEAT: [2023-12-12 Tue 11:35]
@@ -209,9 +209,10 @@ SCHEDULED: <2024-08-15 Thu>
   Question clarification: generate three adjacent questions (n=3,
   temperature=1.0) and ask user to choose the most precise ones (one or
   several).
-** DELAY openai library dissection
-SCHEDULED: <2024-08-30 Fri>
+** RAW openai library dissection
+SCHEDULED: <2024-08-12 Mon>
 :LOGBOOK:
+CLOCK: [2024-08-11 Sun 08:38]--[2024-08-11 Sun 09:09] =>  0:31
 CLOCK: [2024-06-21 Fri 16:37]--[2024-06-21 Fri 17:14] =>  0:37
 CLOCK: [2024-06-21 Fri 06:20]--[2024-06-21 Fri 06:27] =>  0:07
 :END:
@@ -309,8 +310,8 @@ https://realpython.com/python-data-types/
 https://realpython.com/courses/python-data-types/
 [[elisp:(bookmark-jump-other-window "2024-05-26-pythons-innate-data-model.org")][Cursor]]
 
-*** DELAY Integers
-SCHEDULED: <2024-08-12 Mon>
+*** LAG Integers
+SCHEDULED: <2024-09-16 Mon>
 https://realpython.com/lessons/integers/
 
 **** LAG Arithmetics
@@ -331,8 +332,8 @@ CLOCK: [2024-06-04 Tue 08:56]--[2024-06-04 Tue 09:06] =>  0:10
 https://www.geeksforgeeks.org/what-is-linked-list/
 
 
-** DELAY Stack
-SCHEDULED: <2024-08-12 Mon>
+** LAG Stack
+SCHEDULED: <2024-09-16 Mon>
 :LOGBOOK:
 CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :END:
@@ -343,8 +344,8 @@ CLOCK: [2024-06-04 Tue 09:06]--[2024-06-04 Tue 09:08] =>  0:02
 :PROPERTIES:
 :CATEGORY: PyDevEnv
 :END:
-** LAG [#A] Emacs as Python IDE
-SCHEDULED: <2024-08-11 Sun ++1w>
+** RETARD [#A] Emacs as Python IDE
+SCHEDULED: <2024-11-10 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-09 Tue 09:10]
 :END:
@@ -999,11 +1000,12 @@ SCHEDULED: <2024-08-25 Sun>
   time taken by the algorithm to run.
 https://www.youtube.com/watch?v=duvZ-2UK0fc
 * Docs
-** RETARD Modules
-SCHEDULED: <2024-08-12 Mon ++3d/4d>
+** DELAY Modules
+SCHEDULED: <2024-09-20 Fri ++3d/4d>
 :PROPERTIES:
-:LAST_REPEAT: [2023-11-01 Wed 15:06]
+:LAST_REPEAT: [2024-08-11 Sun 19:30]
 :END:
+- State "BARE"       from "RETARD"     [2024-08-11 Sun 19:30]
 - State "AMPLE"      from ""           [2023-11-01 Wed 15:06]
 - State "AMPLE"      from ""           [2023-10-27 Fri 09:29]
 :LOGBOOK:
@@ -1067,8 +1069,8 @@ CLOCK: [2023-10-05 Thu 17:46]--[2023-10-05 Thu 18:08] =>  0:22
 CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
-** DELAY LeetCode
-SCHEDULED: <2024-08-13 Tue ++3d/4d>
+** LAG LeetCode
+SCHEDULED: <2024-09-24 Tue ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
