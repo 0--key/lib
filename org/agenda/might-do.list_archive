@@ -961,3 +961,41 @@ SCHEDULED: <2024-08-12 Mon .+4w>
   One month passed away but there are not tasks to archive at the
   monthly basics.
 - State "DONE"       from "ACTIVE"     [2022-11-18 Fri 07:26]
+
+* INIT Library Loan
+SCHEDULED: <2024-10-28 Mon> DEADLINE: <2024-09-11 Wed -2d>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-23 Mon 09:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: INIT
+:END:
+https://donegal.spydus.ie
+
+* RETARD [#A] Ali Abdaal's *new* transcript                             :Ali:
+SCHEDULED: <2024-09-23 Mon +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-09 Wed 18:25]
+:ARCHIVE_TIME: 2024-09-23 Mon 09:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development/YouTube
+:ARCHIVE_CATEGORY: PersDev
+:ARCHIVE_TODO: RETARD
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-09 Wed 18:25]
+- State "MAYBE"      from "ACTIVE"     [2022-02-22 Tue 10:02]
+- State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 17:02]
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 19:29]--[2024-01-17 Wed 19:29] =>  0:00
+CLOCK: [2024-01-16 Tue 09:05]--[2024-01-16 Tue 09:27] =>  0:22
+CLOCK: [2024-01-16 Tue 08:33]--[2024-01-16 Tue 08:39] =>  0:06
+CLOCK: [2022-11-09 Wed 18:23]--[2022-11-09 Wed 18:25] =>  0:02
+CLOCK: [2022-02-21 Mon 16:30]--[2022-02-21 Mon 17:02] =>  0:32
+CLOCK: [2022-02-21 Mon 08:44]--[2022-02-21 Mon 08:56] =>  0:12
+:END:
+- State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:41]
+- State "MAYBE"      from "ACTIVE"     [2022-02-16 Wed 09:40]
+
+https://www.youtube.com/watch?v=MFXWY8TqSWw
+
