@@ -1284,7 +1284,7 @@ SCHEDULED: <2022-12-07 Wed>
 SCHEDULED: <2024-11-04 Mon>
 [[info:org#TODO types][org#TODO types]]
 ** [#C] Whole week scheduling
-SCHEDULED: <2024-09-23 Mon .+1w>
+SCHEDULED: <2024-09-29 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2024-08-11 Sun 19:43]
@@ -2330,7 +2330,8 @@ SCHEDULED: <2024-09-23 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-09-23 Mon 10:05]
+CLOCK: [2024-09-23 Mon 19:53]
+CLOCK: [2024-09-23 Mon 10:05]--[2024-09-23 Mon 10:33] =>  0:28
 CLOCK: [2024-08-11 Sun 19:20]--[2024-08-11 Sun 19:24] =>  0:04
 CLOCK: [2024-08-08 Thu 20:30]--[2024-08-08 Thu 20:35] =>  0:05
 CLOCK: [2024-08-07 Wed 18:04]--[2024-08-07 Wed 18:09] =>  0:05
@@ -2853,7 +2854,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-09-23 Mon ++1d>
+SCHEDULED: <2024-09-24 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-07 Wed 17:53]
 :END:
@@ -3193,7 +3194,7 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2024-09-23 Mon ++1d>
+SCHEDULED: <2024-09-24 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-08 Thu 20:21]
 :END:
@@ -3276,6 +3277,7 @@ SCHEDULED: <2024-09-23 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-09-23 Mon 19:53]--[2024-09-23 Mon 19:53] =>  0:00
 CLOCK: [2024-08-08 Thu 20:17]--[2024-08-08 Thu 20:21] =>  0:04
 CLOCK: [2024-08-07 Wed 17:53]--[2024-08-07 Wed 17:55] =>  0:02
 CLOCK: [2024-08-06 Tue 18:03]--[2024-08-06 Tue 18:08] =>  0:05
@@ -3378,7 +3380,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Clean all that mess up!
-SCHEDULED: <2024-09-23 Mon ++1w>
+SCHEDULED: <2024-09-24 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-30 Tue 19:35]
 :END:
@@ -3604,7 +3606,7 @@ SCHEDULED: <2024-10-01 Tue ++4w>
 
 
 *** [#C] New tasks trimming
-SCHEDULED: <2024-09-23 Mon ++2d/3d>
+SCHEDULED: <2024-09-24 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-04 Sun 19:32]
 :END:
@@ -3644,6 +3646,7 @@ SCHEDULED: <2024-09-23 Mon ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2024-09-23 Mon 10:33]--[2024-09-23 Mon 10:46] =>  0:13
 CLOCK: [2024-09-23 Mon 08:52]--[2024-09-23 Mon 09:01] =>  0:09
 CLOCK: [2024-09-03 Tue 14:37]--[2024-09-03 Tue 14:59] =>  0:22
 CLOCK: [2024-08-04 Sun 19:13]--[2024-08-04 Sun 19:32] =>  0:19
