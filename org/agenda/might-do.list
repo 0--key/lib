@@ -449,7 +449,7 @@ CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
 :END:
 - Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** RETARD ReSet, ReBase
-SCHEDULED: <2024-09-25 Wed ++2d/3d>
+SCHEDULED: <2024-10-03 Thu ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-01-17 Wed 10:17]
 :END:
@@ -641,7 +641,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** Extend
-SCHEDULED: <2024-09-24 Tue ++1w>
+SCHEDULED: <2024-10-01 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-13 Sat 14:35]
 :END:
@@ -713,7 +713,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** DELAY Declutter
-SCHEDULED: <2024-09-24 Tue ++4w>
+SCHEDULED: <2024-10-01 Tue ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:57]
 :END:
@@ -1676,7 +1676,7 @@ CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
 :END:
 - [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
 ** RETARD [#C] Enhanced self-esteem
-SCHEDULED: <2024-09-25 Wed ++1w>
+SCHEDULED: <2024-10-03 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-03-12 Tue 19:13]
 :END:
@@ -1911,7 +1911,7 @@ CLOCK: [2024-06-28 Fri 14:45]--[2024-06-28 Fri 14:53] =>  0:08
 :END:
 
 *** [#A] LinkedIn Profile
-SCHEDULED: <2024-09-24 Tue ++2d/3d>
+SCHEDULED: <2024-10-02 Wed ++2d/3d>
 - Note taken on [2024-06-28 Fri 09:18] \\
   Operations with OpenAI in web-browser tab is a kind of mazochinsm, so
   I wrote my own tool set to do it inside Emacs.
@@ -1929,7 +1929,7 @@ CLOCK: [2024-06-28 Fri 08:56]--[2024-06-28 Fri 09:12] =>  0:16
 
   
 *** TODO [#A] Job application sending
-SCHEDULED: <2024-09-26 Thu ++20d>
+SCHEDULED: <2024-09-27 Fri ++20d>
 :LOGBOOK:
 CLOCK: [2024-08-22 Thu 05:38]--[2024-08-22 Thu 06:38] =>  1:00
 CLOCK: [2024-07-30 Tue 11:06]--[2024-07-30 Tue 11:40] =>  0:34
@@ -1941,7 +1941,7 @@ https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
 
 
 *** Proposals Elaboration
-SCHEDULED: <2024-09-25 Wed>
+SCHEDULED: <2024-10-03 Thu>
 :LOGBOOK:
 CLOCK: [2024-07-17 Wed 11:11]--[2024-07-17 Wed 16:02] =>  4:51
 CLOCK: [2024-07-11 Thu 14:04]--[2024-07-11 Thu 14:34] =>  0:30
@@ -1969,7 +1969,7 @@ CLOCK: [2024-08-21 Wed 18:48]--[2024-08-21 Wed 19:14] =>  0:26
 :END:
 
 *** ACTIVE [#A] Full/uncutted CV in blog
-SCHEDULED: <2024-09-25 Wed ++1d>
+SCHEDULED: <2024-10-03 Thu ++1d>
 - Note taken on [2024-06-22 Sat 20:05] \\
   APA style
 [[elisp:(bookmark-jump-other-window "SE_CV.org")]]
@@ -1979,7 +1979,7 @@ CLOCK: [2024-06-22 Sat 08:14]--[2024-06-22 Sat 08:15] =>  0:01
 :END:
 
 *** TODO [#A] Seek for hiring managers
-SCHEDULED: <2024-09-24 Tue ++3d>
+SCHEDULED: <2024-09-30 Mon ++3d>
 [[elisp:(bookmark-jump-other-window "Reqruitment Agencies")]]
 - For more information, please call Andrew Dowd on 35319609973 or
   email Andrew.dowd@archer.ie;
@@ -2207,7 +2207,7 @@ SCHEDULED: <2024-09-27 Fri>
 
 
 ***** [#A] InDeed profile elaboration
-SCHEDULED: <2024-09-25 Wed>
+SCHEDULED: <2024-10-03 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-14 Fri 07:02]--[2024-06-14 Fri 08:19] =>  1:17
 CLOCK: [2024-06-12 Wed 16:16]--[2024-06-12 Wed 16:56] =>  0:40
@@ -2250,10 +2250,11 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#C] >Git<
-SCHEDULED: <2024-09-23 Mon ++1d>
+SCHEDULED: <2024-09-24 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-08-08 Thu 20:35]
+:LAST_REPEAT: [2024-09-23 Mon 19:57]
 :END:
+- State "AMPLE"      from ""           [2024-09-23 Mon 19:57]
 - State "AMPLE"      from ""           [2024-08-08 Thu 20:35]
 - State "AMPLE"      from ""           [2024-08-07 Wed 18:09]
 - State "AMPLE"      from ""           [2024-08-06 Tue 18:40]
@@ -2330,7 +2331,8 @@ SCHEDULED: <2024-09-23 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2024-09-23 Mon 19:53]
+CLOCK: [2024-09-24 Tue 19:32]
+CLOCK: [2024-09-23 Mon 19:53]--[2024-09-23 Mon 19:57] =>  0:04
 CLOCK: [2024-09-23 Mon 10:05]--[2024-09-23 Mon 10:33] =>  0:28
 CLOCK: [2024-08-11 Sun 19:20]--[2024-08-11 Sun 19:24] =>  0:04
 CLOCK: [2024-08-08 Thu 20:30]--[2024-08-08 Thu 20:35] =>  0:05
@@ -2854,7 +2856,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** Daily tasks pile assay
-SCHEDULED: <2024-09-24 Tue ++1d>
+SCHEDULED: <2024-09-25 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-07 Wed 17:53]
 :END:
@@ -3277,6 +3279,7 @@ SCHEDULED: <2024-09-24 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2024-09-24 Tue 19:30]--[2024-09-24 Tue 19:32] =>  0:02
 CLOCK: [2024-09-23 Mon 19:53]--[2024-09-23 Mon 19:53] =>  0:00
 CLOCK: [2024-08-08 Thu 20:17]--[2024-08-08 Thu 20:21] =>  0:04
 CLOCK: [2024-08-07 Wed 17:53]--[2024-08-07 Wed 17:55] =>  0:02
@@ -3380,7 +3383,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Clean all that mess up!
-SCHEDULED: <2024-09-24 Tue ++1w>
+SCHEDULED: <2024-09-25 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-30 Tue 19:35]
 :END:
@@ -3500,7 +3503,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** DELAY Vocabulary rectification                               :AI_Tutor:
-SCHEDULED: <2024-09-24 Tue ++2d>
+SCHEDULED: <2024-10-01 Tue ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
@@ -3606,7 +3609,7 @@ SCHEDULED: <2024-10-01 Tue ++4w>
 
 
 *** [#C] New tasks trimming
-SCHEDULED: <2024-09-24 Tue ++2d/3d>
+SCHEDULED: <2024-09-25 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-04 Sun 19:32]
 :END:
@@ -3646,6 +3649,7 @@ SCHEDULED: <2024-09-24 Tue ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2024-09-24 Tue 09:24]--[2024-09-24 Tue 09:32] =>  0:08
 CLOCK: [2024-09-23 Mon 10:33]--[2024-09-23 Mon 10:46] =>  0:13
 CLOCK: [2024-09-23 Mon 08:52]--[2024-09-23 Mon 09:01] =>  0:09
 CLOCK: [2024-09-03 Tue 14:37]--[2024-09-03 Tue 14:59] =>  0:22
@@ -3807,7 +3811,7 @@ CLOCK: [2022-12-06 Tue 11:34]--[2022-12-06 Tue 11:55] =>  0:21
 CLOCK: [2022-12-05 Mon 10:50]--[2022-12-05 Mon 11:20] =>  0:30
 :END:
 *** DELAY Quotations
-SCHEDULED: <2024-09-25 Wed .+2d/3d>
+SCHEDULED: <2024-10-03 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -3912,7 +3916,7 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
 ** TODO LinkedIn
-SCHEDULED: <2024-09-24 Tue ++1d>
+SCHEDULED: <2024-10-01 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-25 Sat 09:12]
 :END:

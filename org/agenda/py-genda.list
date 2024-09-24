@@ -443,7 +443,7 @@ CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
 [[elisp:(apropos-command "ivy")]]
 [[elisp:ivy-help]]
 ***** DELAY Counsel
-SCHEDULED: <2024-09-24 Tue>
+SCHEDULED: <2024-10-01 Tue>
 :LOGBOOK:
 CLOCK: [2024-08-15 Thu 10:01]--[2024-08-15 Thu 10:09] =>  0:08
 CLOCK: [2024-06-21 Fri 18:00]--[2024-06-21 Fri 18:13] =>  0:13
@@ -1071,7 +1071,7 @@ CLOCK: [2023-10-03 Tue 09:41]--[2023-10-03 Tue 10:00] =>  0:19
 :END:
 [[file:~/git/org-pub/2016-11-12-toys-tasks.org::*#37 First non-repeating character][First non-repeating character]]
 ** LAG LeetCode
-SCHEDULED: <2024-09-24 Tue ++3d/4d>
+SCHEDULED: <2024-10-01 Tue ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-07 Tue 11:26]
 :END:
