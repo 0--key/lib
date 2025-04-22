@@ -78,3 +78,318 @@ CLOCK: [2023-11-03 Fri 11:06]--[2023-11-03 Fri 11:10] =>  0:04
 [[info:python3.7#Intra-package References]]
 [2023-11-01 Wed 15:33]
 
+
+* LAG Consul, Jenkins, Prometheus
+SCHEDULED: <2024-10-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Python{p}
+:ARCHIVE_TODO: LAG
+:END:
+
+
+* RETARD Ivy
+SCHEDULED: <2024-10-17 Thu ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-01 Thu 10:49]
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Development Environment/Emacs as Python IDE/SysCrafting/Prerequisites
+:ARCHIVE_CATEGORY: SysCraft
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-02-01 Thu 10:49]
+- State "AMPLE"      from ""           [2024-01-11 Thu 19:29]
+:LOGBOOK:
+CLOCK: [2024-02-01 Thu 10:36]--[2024-02-01 Thu 10:49] =>  0:13
+CLOCK: [2024-01-11 Thu 19:04]--[2024-01-11 Thu 19:28] =>  0:24
+CLOCK: [2024-01-11 Thu 16:09]--[2024-01-11 Thu 16:29] =>  0:20
+CLOCK: [2024-01-11 Thu 10:13]--[2024-01-11 Thu 10:35] =>  0:22
+CLOCK: [2024-01-10 Wed 18:17]--[2024-01-10 Wed 18:58] =>  0:41
+:END:
+  + Counsel:
+    #+begin_src sh
+      sudo apt-get install elpa-ivy
+      sudo apt-get install elpa-counsel
+    #+end_src
+[[info:ivy#Global key bindings][ivy#Global key bindings]]
+[[info:ivy#Hydra in the minibuffer][ivy#Hydra in the minibuffer]]
+[[info:ivy#Completion Styles][ivy#Completion Styles]]
+[[elisp:(apropos-command "ivy")]]
+[[elisp:ivy-help]]
+
+* RETARD Hydra
+SCHEDULED: <2024-10-16 Wed ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-01 Thu 16:37]
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Development Environment/Emacs as Python IDE/SysCrafting/Prerequisites
+:ARCHIVE_CATEGORY: SysCraft
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-02-01 Thu 16:37]
+:LOGBOOK:
+CLOCK: [2024-02-01 Thu 10:51]--[2024-02-01 Thu 10:57] =>  0:06
+CLOCK: [2024-01-11 Thu 17:45]--[2024-01-11 Thu 17:51] =>  0:06
+CLOCK: [2024-01-11 Thu 10:44]--[2024-01-11 Thu 10:56] =>  0:12
+:END:
+https://github.com/abo-abo/hydra
+[[https://www.reddit.com/r/emacs/comments/8of6tx/tip_how_to_be_a_beast_with_hydra/][The Examples]]
+#+begin_src sh :results output
+apt-cache search elpa | grep hydra
+#+end_src
+
+#+RESULTS:
+: elpa-ivy-hydra - additional key bindings for Emacs Ivy
+: elpa-hydra - make Emacs bindings that stick around
+
+
+* RETARD Elpy
+SCHEDULED: <2024-10-16 Wed ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-07-20 Sat 05:29]
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Development Environment
+:ARCHIVE_CATEGORY: PyDevEnv
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-07-20 Sat 05:29]
+- State "DONE"       from "ACTIVE"     [2023-12-15 Fri 15:54]
+- Note taken on [2023-12-09 Sat 17:16] \\
+  Unclear where is ~rpc~ venv when the system don't use ~pip~ at all.
+- Note taken on [2023-10-13 Fri 10:35] \\
+  There are several points to rectify before the return to the main
+  item.
+- State "AMPLE"      from ""           [2023-10-09 Mon 12:00]
+- State "AMPLE"      from ""           [2023-10-04 Wed 11:43]
+- State "AMPLE"      from ""           [2023-10-03 Tue 19:09]
+- [[info:elpy.info#Emacs Basics]] [2023-12-15 Fri 15:40]
+- [[info:elpy.info#Projects]] [2023-12-15 Fri 15:49]
+- [2023-12-15 Fri 15:50]
+:LOGBOOK:
+CLOCK: [2024-06-09 Sun 08:10]--[2024-06-09 Sun 08:47] =>  0:37
+CLOCK: [2024-06-09 Sun 07:47]--[2024-06-09 Sun 08:05] =>  0:18
+CLOCK: [2023-12-15 Fri 15:27]--[2023-12-15 Fri 15:52] =>  0:25
+CLOCK: [2023-12-12 Tue 14:30]--[2023-12-12 Tue 14:40] =>  0:10
+CLOCK: [2023-12-12 Tue 09:30]--[2023-12-12 Tue 10:07] =>  0:37
+CLOCK: [2023-12-11 Mon 09:56]--[2023-12-11 Mon 10:16] =>  0:20
+CLOCK: [2023-12-09 Sat 16:54]--[2023-12-09 Sat 17:16] =>  0:22
+CLOCK: [2023-10-25 Wed 09:10]--[2023-10-25 Wed 09:40] =>  0:30
+CLOCK: [2023-10-24 Tue 10:02]--[2023-10-24 Tue 10:05] =>  0:03
+CLOCK: [2023-10-13 Fri 10:35]--[2023-10-13 Fri 10:36] =>  0:01
+CLOCK: [2023-10-13 Fri 10:09]--[2023-10-13 Fri 10:34] =>  0:25
+CLOCK: [2023-10-12 Thu 10:13]--[2023-10-12 Thu 10:39] =>  0:26
+CLOCK: [2023-10-09 Mon 11:36]--[2023-10-09 Mon 12:00] =>  0:24
+CLOCK: [2023-10-06 Fri 11:41]--[2023-10-06 Fri 12:08] =>  0:27
+CLOCK: [2023-10-04 Wed 11:13]--[2023-10-04 Wed 11:43] =>  0:30
+CLOCK: [2023-10-03 Tue 11:23]--[2023-10-03 Tue 11:40] =>  0:17
+CLOCK: [2023-10-03 Tue 10:34]--[2023-10-03 Tue 11:04] =>  0:30
+:END:
+[[https://elpy.readthedocs.io/en/latest/ide.html][IDE Features — Elpy 1.35.0 documentation]]
+[[https://www.gnu.org/software/emacs/manual/html_node/emacs/Xref.html][Xref (GNU Emacs Manual)]]
+[[https://elpy.readthedocs.io/en/latest/ide.html#evaluating-code-fragments][Eval code fragments]]
+[[https://elpy.readthedocs.io/en/latest/ide.html#syntax-checking][Syntax Checking]]
+[[info:elpy.info#Useful keybindings][elpy.info#Useful keybindings]]
+
+** SET Deprecated Install#1
+SCHEDULED: <2023-12-13 Wed>
+:LOGBOOK:
+CLOCK: [2023-12-13 Wed 11:41]--[2023-12-13 Wed 11:47] =>  0:06
+:END:
+https://debian.pkgs.org/10/debian-main-amd64/elpa-elpy_1.28.0-2_all.deb.html
+- Remove all unneccessary files (from failed install) by hand;
+- Download & install all requrements;
+- Download & install ~elpa-elpy~.
+- Conclusion *NOT WORKING*
+*** *WORKING*
+installation from *Git* repository:
+https://elpy.readthedocs.io/en/latest/introduction.html#manually-from-sources
+#+begin_src sh
+  git clone git@github.com:jorgenschaefer/elpy.git
+  cd elpy/
+  git checkout add-new-py-version
+#+end_src
+*** Another user test
+Try to use ~elpy~ in Vikky's account
+Not tried yet
+** RETARD VirtualEnv
+SCHEDULED: <2024-11-20 Wed>
+:LOGBOOK:
+CLOCK: [2023-12-12 Tue 14:50]--[2023-12-12 Tue 15:21] =>  0:31
+CLOCK: [2023-10-05 Thu 09:21]--[2023-10-05 Thu 09:27] =>  0:06
+:END:
+- Note taken on [2023-10-04 Wed 19:11] \\
+  Does apt-get install Debian package in venv only?
+** RETARD PyPackage Management
+SCHEDULED: <2024-10-28 Mon>
+:LOGBOOK:
+CLOCK: [2023-10-05 Thu 09:27]--[2023-10-05 Thu 09:33] =>  0:06
+:END:
+- Note taken on [2023-10-04 Wed 19:12] \\
+  What is ~pip~ and how it works?
+*
+
+*** LAG FlyMake
+SCHEDULED: <2024-10-28 Mon>
+:LOGBOOK:
+CLOCK: [2023-12-27 Wed 15:45]--[2023-12-27 Wed 15:54] =>  0:09
+CLOCK: [2023-11-01 Wed 10:28]--[2023-11-01 Wed 10:36] =>  0:08
+:END:
+[[info:emacs#Flymake][emacs#Flymake]]
+[[info:flymake#Finding diagnostics][flymake#Finding diagnostics]]
+
+** RETARD The bald Python project                                   :ARCHIVE:
+SCHEDULED: <2024-05-24 Fri>
+:LOGBOOK:
+CLOCK: [2023-10-15 Sun 09:45]--[2023-10-15 Sun 09:55] =>  0:10
+:END:
+For Elpy training purposes
+*** RETARD Style
+SCHEDULED: <2024-06-02 Sun>
+- Note taken on [2023-10-16 Mon 10:10] \\
+  The Zen of Python, by Tim Peters
+
+  Beautiful is better than ugly.
+  Explicit is better than implicit.
+  Simple is better than complex.
+  Complex is better than complicated.
+  Flat is better than nested.
+  Sparse is better than dense.
+  Readability counts.
+  Special cases aren't special enough to break the rules.
+  Although practicality beats purity.
+  Errors should never pass silently.
+  Unless explicitly silenced.
+  In the face of ambiguity, refuse the temptation to guess.
+  There should be one-- and preferably only one --obvious way to do it.
+  Although that way may not be obvious at first unless you're Dutch.
+  Now is better than never.
+  Although never is often better than *right* now.
+  If the implementation is hard to explain, it's a bad idea.
+  If the implementation is easy to explain, it may be a good idea.
+  Namespaces are one honking great idea -- let's do more of those!
+
+- */Code is read much more often than it is written/*
+:LOGBOOK:
+CLOCK: [2023-10-18 Wed 10:14]--[2023-10-18 Wed 10:23] =>  0:09
+CLOCK: [2023-10-18 Wed 09:31]--[2023-10-18 Wed 10:02] =>  0:31
+CLOCK: [2023-10-18 Wed 09:07]--[2023-10-18 Wed 09:22] =>  0:15
+CLOCK: [2023-10-16 Mon 09:55]--[2023-10-16 Mon 10:18] =>  0:23
+CLOCK: [2023-10-16 Mon 09:28]--[2023-10-16 Mon 09:43] =>  0:15
+:END:
+[[https://docs.python-guide.org/writing/style/#auto-formatting][cur-link]]
+http://en.wikipedia.org/wiki/You_ain't_gonna_need_it
+**** LAG PEP8
+SCHEDULED: <2024-06-10 Mon>
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 10:42]--[2023-10-24 Tue 10:47] =>  0:05
+:END:
+http://pep8.org/
+https://pypi.org/project/autopep8/
+**** RETARD YAPF
+SCHEDULED: <2024-09-10 Tue ++14d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-23 Thu 10:38]
+:END:
+- State "SET"        from ""           [2023-11-23 Thu 10:38]
+- State "AMPLE"      from ""           [2023-11-06 Mon 11:47]
+- State "AMPLE"      from ""           [2023-10-19 Thu 16:06]
+- [[https://github.com/google/yapf#knobs]] [2023-11-06 Mon 11:45]
+:LOGBOOK:
+CLOCK: [2023-11-06 Mon 11:34]--[2023-11-06 Mon 11:46] =>  0:12
+CLOCK: [2023-10-19 Thu 15:50]--[2023-10-19 Thu 16:05] =>  0:15
+:END:
+https://github.com/google/yapf
+**** RETARD [#A] BLACK                                              :ARCHIVE:
+SCHEDULED: <2024-05-21 Tue>
+:LOGBOOK:
+CLOCK: [2023-10-24 Tue 11:23]--[2023-10-24 Tue 11:49] =>  0:26
+CLOCK: [2023-10-23 Mon 10:07]--[2023-10-23 Mon 10:20] =>  0:13
+:END:
+https://github.com/psf/black
+https://youtu.be/esZLCuWs_2Y
+**** DELAY Zen
+SCHEDULED: <2024-05-26 Sun>
+:LOGBOOK:
+CLOCK: [2023-10-23 Mon 10:46]--[2023-10-23 Mon 10:55] =>  0:09
+CLOCK: [2023-10-23 Mon 10:20]--[2023-10-23 Mon 10:28] =>  0:08
+:END:
+[[https://github.com/hblanks/zen-of-python-by-example]]
+[[file:~/git/python/zen-of-python-by-example/pep20_by_example.py]]
+**** LAG [#A] PyCodeStyle
+SCHEDULED: <2024-06-12 Wed ++4d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-27 Fri 09:00]
+:END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 09:00]
+:LOGBOOK:
+CLOCK: [2023-10-27 Fri 08:47]--[2023-10-27 Fri 09:00] =>  0:13
+CLOCK: [2023-10-23 Mon 10:56]--[2023-10-23 Mon 11:01] =>  0:05
+:END:
+https://github.com/PyCQA/pycodestyle
+https://youtu.be/PulzIT8KYLk?t=36m
+[[https://pycodestyle.pycqa.org/en/latest/intro.html][doc]]
+*** RETARD Structure
+SCHEDULED: <2024-05-28 Tue>
+:LOGBOOK:
+CLOCK: [2023-10-31 Tue 15:31]--[2023-10-31 Tue 15:54] =>  0:23
+CLOCK: [2023-10-31 Tue 14:51]--[2023-10-31 Tue 14:53] =>  0:02
+CLOCK: [2023-10-31 Tue 14:45]--[2023-10-31 Tue 14:50] =>  0:05
+CLOCK: [2023-10-26 Thu 09:36]--[2023-10-26 Thu 09:43] =>  0:07
+CLOCK: [2023-10-24 Tue 09:29]--[2023-10-24 Tue 10:02] =>  0:33
+CLOCK: [2023-10-19 Thu 10:04]--[2023-10-19 Thu 10:31] =>  0:27
+CLOCK: [2023-10-17 Tue 09:26]--[2023-10-17 Tue 09:56] =>  0:30
+:END:
+[[https://docs.python-guide.org/writing/structure/]]
+*** LAG [#B] Testing
+SCHEDULED: <2024-05-29 Wed>
+:LOGBOOK:
+CLOCK: [2023-10-31 Tue 16:22]--[2023-10-31 Tue 16:28] =>  0:06
+CLOCK: [2023-10-31 Tue 15:11]--[2023-10-31 Tue 15:13] =>  0:02
+CLOCK: [2023-10-26 Thu 09:51]--[2023-10-26 Thu 11:07] =>  1:16
+CLOCK: [2023-10-18 Wed 10:54]--[2023-10-18 Wed 11:03] =>  0:09
+CLOCK: [2023-10-16 Mon 12:05]--[2023-10-16 Mon 12:30] =>  0:25
+:END:
+https://docs.python-guide.org/writing/tests/
+https://docs.python.org/3/library/unittest.html
+https://docs.pytest.org/en/latest/
+https://hypothesis.readthedocs.io/en/latest/
+https://tox.readthedocs.io/en/latest/
+https://docs.python.org/dev/library/unittest.mock
+- The doctest module searches for pieces of text that look like
+  interactive Python sessions in docstrings, and then executes those
+  sessions to verify that they work exactly as shown.
+
+* RETARD Packages
+SCHEDULED: <2024-10-17 Thu>
+:PROPERTIES:
+:LAST_REPEAT: [2023-10-27 Fri 10:33]
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Docs
+:ARCHIVE_CATEGORY: Python{p}
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2023-10-27 Fri 10:33]
+:LOGBOOK:
+CLOCK: [2023-11-01 Wed 15:30]--[2023-11-01 Wed 15:39] =>  0:09
+CLOCK: [2023-10-27 Fri 09:41]--[2023-10-27 Fri 10:11] =>  0:30
+CLOCK: [2023-10-27 Fri 09:30]--[2023-10-27 Fri 09:35] =>  0:05
+:END:
+[[info:python3.7#Packages][python3.7#Packages]]
+
+* LAG DocTests
+SCHEDULED: <2024-10-16 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-18 Fri 06:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/py-genda.list
+:ARCHIVE_OLPATH: Docs/PEP
+:ARCHIVE_CATEGORY: Python{p}
+:ARCHIVE_TODO: LAG
+:END:
+[[info:python3.11#doctest — Test interactive Python examples][python3.11#doctest — Test interactive Python examples]]
+
