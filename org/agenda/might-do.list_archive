@@ -1120,3 +1120,675 @@ SCHEDULED: <2024-10-28 Mon>
 https://docs.docker.com/get-started/
 [[elisp:(bookmark-jump-other-window "2017-06-22-docker-intro.org")][Docker in Babel]]
 
+
+* [#A] Kasia
+SCHEDULED: <2024-10-18 Fri ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-22 Wed 16:11]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:11
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Job
+:END:
+- Note taken on [2024-06-13 Thu 09:38]
+- State "AMPLE"      from ""           [2024-05-22 Wed 16:11]
+:LOGBOOK:
+CLOCK: [2024-07-31 Wed 09:28]--[2024-07-31 Wed 10:49] =>  1:21
+CLOCK: [2024-06-13 Thu 16:00]--[2024-06-13 Thu 17:15] =>  1:15
+CLOCK: [2024-06-13 Thu 08:45]--[2024-06-13 Thu 09:39] =>  0:54
+CLOCK: [2024-06-13 Thu 08:28]--[2024-06-13 Thu 08:28] =>  0:00
+CLOCK: [2024-06-12 Wed 17:00]--[2024-06-12 Wed 17:01] =>  0:01
+CLOCK: [2024-05-28 Tue 10:46]--[2024-05-28 Tue 15:46] =>  5:00
+CLOCK: [2024-05-27 Mon 06:35]--[2024-05-27 Mon 07:26] =>  0:51
+CLOCK: [2024-05-26 Sun 07:49]--[2024-05-26 Sun 08:29] =>  0:40
+CLOCK: [2024-05-25 Sat 14:22]--[2024-05-25 Sat 14:25] =>  0:03
+CLOCK: [2024-05-22 Wed 15:46]--[2024-05-22 Wed 16:11] =>  0:25
+:END:
+
+    Currently living in Ireland.
+    Currently holding an EEA passport or valid Stamp 4 visa.
+    Immediate starter (if possible).
+
+    Remote contract details.
+Gemma Roulstone
+[[file:~/Git/0--key/org-pub/2024-05-22-gemma.org::*The third appointment][The third appointment]]
+https://bigthink.com/business/how-to-avoid-the-panglossian-trap-and-make-better-decisions/?utm_source=pocket-newtab-en-gb
+[[elisp:(bookmark-jump-other-window "Gemma.txt")]]
+
+
+* RETARD [#A] Test Jedi inside Emacs
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2023-10-18 Wed 15:42]--[2023-10-18 Wed 15:47] =>  0:05
+:END:
+Seems it is working as expected in terminal, but don't inside Emacs
+Python's buffers.
+** RETARD What is JEDI?
+SCHEDULED: <2024-10-28 Mon>
+:LOGBOOK:
+CLOCK: [2024-04-12 Fri 15:24]--[2024-04-12 Fri 15:37] =>  0:13
+CLOCK: [2023-10-24 Tue 18:46]--[2023-10-24 Tue 19:20] =>  0:34
+:END:
+https://jedi.readthedocs.io/
+https://jedi.readthedocs.io/en/latest/docs/installation.html
+- Jedi is a static analysis tool for Python that is typically used in
+  IDEs/editors plugins. Jedi has a focus on autocompletion and goto
+  functionality. Other features include refactoring, code search and finding
+  references.
+   [2024-04-12 Fri 15:30]
+** LAG What is FlyCheck?
+SCHEDULED: <2024-10-28 Mon>
+:LOGBOOK:
+CLOCK: [2023-11-10 Fri 09:39]--[2023-11-10 Fri 09:46] =>  0:07
+:END:
+- elpa-flycheck - modern on-the-fly syntax checking for Emacs [2023-11-10 Fri 09:42]
+- flycheck-doc - modern on-the-fly syntax checking for Emacs - documentation [2023-11-10 Fri 09:42]
+- [[https://www.flycheck.org/en/latest/]] [2023-11-10 Fri 09:44]
+
+* RETARD [#A] Check =Elpy= venv
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2023-10-18 Wed 15:36]--[2023-10-18 Wed 15:42] =>  0:06
+:END:
+ [[file:~/git/lib/Emacs/buster/00debian.el::(pyvenv-activate "/home/alioth/.emacs.d/elpy/rpc-venv/") ;; restricted by elpy][Config]]
+ [[file:~/.emacs.d/elpy/rpc-venv/][Destination]]
+
+*  [#A] Prism
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: OpenAI
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-14 Wed 09:55]--[2024-08-14 Wed 10:32] =>  0:37
+CLOCK: [2024-08-14 Wed 08:40]--[2024-08-14 Wed 08:52] =>  0:12
+CLOCK: [2024-08-14 Wed 08:22]--[2024-08-14 Wed 08:39] =>  0:17
+CLOCK: [2024-08-14 Wed 08:00]--[2024-08-14 Wed 08:06] =>  0:06
+:END:
+https://github.com/stoplightio/prism
+
+
+* [#A] OpenAPI specification
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: OpenAI
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-16 Fri 07:35]--[2024-08-16 Fri 07:36] =>  0:01
+CLOCK: [2024-08-16 Fri 06:13]--[2024-08-16 Fri 07:04] =>  0:51
+CLOCK: [2024-08-15 Thu 07:05]--[2024-08-15 Thu 07:08] =>  0:03
+CLOCK: [2024-08-14 Wed 18:10]--[2024-08-14 Wed 18:17] =>  0:07
+CLOCK: [2024-08-14 Wed 17:52]--[2024-08-14 Wed 18:07] =>  0:15
+:END:
+[[elisp:(bookmark-jump-other-window "Assistant Section")]]
+
+
+* DELAY SRE vs DevOPs vs SE vs SD
+SCHEDULED: <2024-10-18 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-10-11 Fri 08:40]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:23
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: DELAY
+:END:
+- State "BARE"       from "RETARD"     [2024-10-11 Fri 08:40]
+- State "AMPLE"      from "RAW"        [2024-05-14 Tue 10:55]
+- Note taken on [2024-05-14 Tue 10:54] \\
+  The difference between Site Reliability Engineering (SRE) and DevOps
+  lies in their primary focus and responsibilities within an
+  organization:
+  
+  1. Focus:
+     - DevOps: DevOps primarily focuses on software development and
+       deployment processes, aiming to bridge the gap between
+       development and operations teams to enhance collaboration and
+       streamline the software delivery lifecycle[1][5].
+     - SRE: SRE's main focus is on the reliability, scalability, and
+       availability of systems. SRE teams work to ensure continuous
+       functionality, automate maintenance tasks, and keep applications
+       running smoothly[1][5].
+  
+  2. Responsibilities:
+     - DevOps: DevOps teams are responsible for software
+       development, deployment, and ensuring the quality and reliability
+       of the end product. They work on continuous integration,
+       continuous delivery, automation, and collaboration between
+       different teams involved in the software delivery process[1][5].
+     - SRE: SRE teams deal with operational problems such as
+       production failures, infrastructure issues, security, and
+       monitoring. They focus on maintaining uptime, optimizing
+       performance, and ensuring system reliability. SREs also conduct
+       incident response, post-incident reviews, and work on bug
+       reporting related to infrastructure issues[1][5].
+  
+  3. Tools:
+     - DevOps: DevOps commonly uses tools like Jenkins, JIRA,
+       Splunk, GitHub, and integrated development environments (IDEs)
+       for development, continuous integration, change management, and
+       log monitoring[1].
+     - SRE: SRE teams utilize tools like Prometheus, Grafana,
+       incident alert tools (OP5, PageDuty, xMatters), Ansible, Puppet,
+       Chef, Kubernetes, Docker, and cloud platforms like AWS, GCP,
+       Azure for monitoring, visualization, incident management,
+       automation, and container orchestration[1].
+  
+  4. Measurement Metrics:
+     - DevOps: DevOps teams typically measure metrics like
+       deployment frequency and deployment failure rate to assess
+       performance and efficiency in software delivery[1].
+     - SRE: SRE teams focus on metrics such as Error Budgets,
+       Service Level Objectives (SLOs), Service Level Indicators (SLIs),
+       and Service Level Agreements (SLAs) to monitor reliability,
+       uptime, and robustness of systems[1].
+  
+  In summary, while both SRE and DevOps share common goals of enhancing
+  reliability, efficiency, and collaboration within IT operations, they
+  differ in their primary focus, responsibilities, tools used, and
+  measurement metrics, catering to distinct aspects of software
+  development, deployment, and system maintenance within an
+  organization[1][5].
+  
+  Citations:
+  [1] https://spacelift.io/blog/sre-vs-devops
+  [2] https://www.coursera.org/articles/sre-vs-devops
+  [3] https://devops.com/the-differences-between-devops-devsecops-and-sre/
+  [4] https://www.splunk.com/en_us/blog/learn/sre-vs-devops-vs-platform-engineering.html
+  [5] https://www.techtarget.com/searchitoperations/tip/Compare-the-roles-of-SREs-and-DevOps-engineers
+:LOGBOOK:
+CLOCK: [2024-05-14 Tue 10:48]--[2024-05-14 Tue 10:55] =>  0:07
+:END:
+Communication
+Debugging
+Hypertext Transfer Protocol (HTTP)
+Scripting
+Self Service
+Troubleshooting
+User Datagram Protocol (UDP)
+Written Communication
+Jenkins
+MQ(Message Queues)
+Linux
+MQ like IBM MQ/Kafka/NATS
+ITIL
+CI/CD pipeline
+PL/SQL
+Jenkins
+Troubleshooting
+Deployments
+Any Monitoring Tool – Splunk preferred.
+Incident Management
+DevOps
+
+
+* DELAY DevOps' CV
+SCHEDULED: <2024-10-18 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-10-11 Fri 08:37]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:23
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: DELAY
+:END:
+- State "BARE"       from "RETARD"     [2024-10-11 Fri 08:37]
+- State "AMPLE"      from "INIT"       [2024-05-14 Tue 10:18]
+:LOGBOOK:
+CLOCK: [2024-05-15 Wed 08:51]--[2024-05-15 Wed 09:31] =>  0:40
+CLOCK: [2024-05-14 Tue 09:43]--[2024-05-14 Tue 10:01] =>  0:18
+CLOCK: [2024-05-13 Mon 12:33]--[2024-05-13 Mon 12:38] =>  0:05
+:END:
+[[file:~/Git/0--key/org-pub/2024-05-14-DevOpsCV.org::*Technical][Technical]]
+
+
+* DELAY The SRE's CV
+SCHEDULED: <2024-10-18 Fri ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-10-11 Fri 08:37]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:23
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: DELAY
+:END:
+- State "BARE"       from "RETARD"     [2024-10-11 Fri 08:37]
+- State "AMPLE"      from "INIT"       [2024-05-14 Tue 10:46]
+:LOGBOOK:
+CLOCK: [2024-05-15 Wed 08:36]--[2024-05-15 Wed 08:46] =>  0:10
+CLOCK: [2024-05-15 Wed 08:06]--[2024-05-15 Wed 08:07] =>  0:01
+CLOCK: [2024-05-14 Tue 10:18]--[2024-05-14 Tue 10:46] =>  0:28
+CLOCK: [2024-05-13 Mon 12:20]--[2024-05-13 Mon 12:33] =>  0:13
+CLOCK: [2024-05-13 Mon 11:56]--[2024-05-13 Mon 11:56] =>  0:00
+:END:
+[[file:~/Git/0--key/org-pub/2024-05-14-SRE_CV.org::*Soft][Soft]]
+
+
+  
+
+* [#A] Client-Server Architecture
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:23
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc/Frontend
+:ARCHIVE_CATEGORY: Main
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-29 Mon 08:41]--[2024-07-29 Mon 08:55] =>  0:14
+:END:
+for web app intro
+[[elisp:(bookmark-jump-other-window "js.org")]]
+
+
+
+* [#A] META-declarative style of programming
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:23
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc
+:ARCHIVE_CATEGORY: Main
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-22 Thu 05:26]--[2024-08-22 Thu 05:38] =>  0:12
+CLOCK: [2024-08-21 Wed 19:25]--[2024-08-21 Wed 20:21] =>  0:56
+CLOCK: [2024-08-21 Wed 18:40]--[2024-08-21 Wed 18:48] =>  0:08
+CLOCK: [2024-08-21 Wed 18:12]--[2024-08-21 Wed 18:37] =>  0:25
+CLOCK: [2024-08-21 Wed 14:22]--[2024-08-21 Wed 14:54] =>  0:32
+CLOCK: [2024-08-16 Fri 07:36]--[2024-08-16 Fri 08:13] =>  0:37
+CLOCK: [2024-08-08 Thu 09:19]--[2024-08-08 Thu 11:16] =>  1:57
+CLOCK: [2024-08-08 Thu 08:36]--[2024-08-08 Thu 09:10] =>  0:34
+:END:
+- Note taken on [2024-08-05 Mon 19:52] \\
+  Publish the bait at ReddIt
+[[elisp:(bookmark-jump-other-window "2024-08-08-mds-challenges.org")]]
+[[elisp:(bookmark-jump-other-window "2024-08-08-meta-declarative-style-intro.org")]]
+  
+
+* LAG Advanced Merging
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: LAG
+:END:
+- Note taken on [2024-01-03 Wed 16:43] \\
+  First of all, if at all possible, try to make sure your working
+  directory is clean before doing a merge that may have conflicts. If
+  you have work in progress, either commit it to a temporary branch or
+  stash it.
+:LOGBOOK:
+CLOCK: [2024-01-17 Wed 18:55]--[2024-01-17 Wed 19:18] =>  0:23
+CLOCK: [2024-01-05 Fri 20:24]--[2024-01-05 Fri 20:34] =>  0:10
+CLOCK: [2024-01-05 Fri 15:07]--[2024-01-05 Fri 15:13] =>  0:06
+CLOCK: [2024-01-03 Wed 16:39]--[2024-01-03 Wed 16:56] =>  0:17
+:END:
+
+First of all lets try to make a fixture, then - resolve the conflict
+manually. Stashes and conflicts in the same branch.
+
+If you checkout onto new branch all your unstaged changes will be
+lost?
+
+https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging
+[[info:magit#Resolving Conflicts][magit#Resolving Conflicts]]
+
+
+
+* RETARD Cherry
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: RETARD
+:END:
+
+* LAG Arguments passing
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs/Elisp
+:ARCHIVE_CATEGORY: Elisp
+:ARCHIVE_TODO: LAG
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-15 Mon 18:59]--[2024-07-15 Mon 19:01] =>  0:02
+CLOCK: [2024-07-15 Mon 18:44]--[2024-07-15 Mon 18:54] =>  0:10
+CLOCK: [2024-07-15 Mon 09:46]--[2024-07-15 Mon 09:56] =>  0:10
+:END:
+[[elisp:(bookmark-jump-other-window "elisp.org")]]
+
+
+* If-else implementation
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs/Elisp
+:ARCHIVE_CATEGORY: Elisp
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-15 Mon 19:01]--[2024-07-15 Mon 19:10] =>  0:09
+CLOCK: [2024-07-15 Mon 09:56]--[2024-07-15 Mon 10:09] =>  0:13
+:END:
+[[elisp:(bookmark-jump-other-window "elisp.org if/else")]]
+
+
+* LAG Zero-shot
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs/Elisp
+:ARCHIVE_CATEGORY: Elisp
+:ARCHIVE_TODO: LAG
+:END:
+[[elisp:(bookmark-jump-other-window "elisp.org zero")]]
+
+
+
+* DELAY Copilot
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-09 Tue 10:30]--[2024-07-09 Tue 10:37] =>  0:07
+CLOCK: [2024-07-09 Tue 09:30]--[2024-07-09 Tue 09:50] =>  0:20
+:END:
+[[https://github.com/d1egoaz/c3po.el]]
+
+* DELAY Python Is Inside
+SCHEDULED: <2024-10-28 Mon ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-07-22 Mon 20:24]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+- State "AMPLE"      from ""           [2024-07-22 Mon 20:24]
+- State "AMPLE"      from ""           [2024-05-29 Wed 17:03]
+:LOGBOOK:
+CLOCK: [2024-05-29 Wed 16:19]--[2024-05-29 Wed 16:42] =>  0:23
+:END:
+https://www.emacswiki.org/emacs/PythonProgrammingInEmacs#h5o-1
+[[elisp:(bookmark-jump-other-window "EmacsWiki: Python Programming In Emacs")][python-mode innate]]
+
+
+* RETARD Eterm as elisp shell
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+- eshell-git-prompt
+
+* RETARD K8, Docker
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: RETARD
+:END:
+architecture
+
+* DELAY webdriver-manager
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: DELAY
+:END:
+https://pypi.org/project/webdriver-manager/
+
+* LAG [#C] How to detour ATS?
+SCHEDULED: <2024-10-18 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: LAG
+:END:
+
+* LAG [#C] RabbitMQ Overview
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc/Message Queue/Rabbit MQ
+:ARCHIVE_CATEGORY: MQ
+:ARCHIVE_TODO: LAG
+:END:
+
+
+* DataAnnotation
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Job
+:END:
+https://www.reddit.com/r/WFHJobs/comments/135xojm/is_data_annotation_a_scam/
+
+
+
+* TODO Full-stack Python Developer
+SCHEDULED: <2024-10-28 Mon ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-24 Fri 19:08]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Job
+:ARCHIVE_TODO: TODO
+:END:
+- State "AMPLE"      from ""           [2024-05-24 Fri 19:08]
+- State "AMPLE"      from ""           [2024-05-23 Thu 10:39]
+- State "AMPLE"      from ""           [2024-05-22 Wed 15:44]
+:LOGBOOK:
+CLOCK: [2024-06-10 Mon 05:48]--[2024-06-10 Mon 06:03] =>  0:15
+CLOCK: [2024-06-07 Fri 08:24]--[2024-06-07 Fri 09:04] =>  0:40
+CLOCK: [2024-05-24 Fri 18:42]--[2024-05-24 Fri 19:08] =>  0:26
+CLOCK: [2024-05-23 Thu 10:23]--[2024-05-23 Thu 10:39] =>  0:16
+CLOCK: [2024-05-22 Wed 15:04]--[2024-05-22 Wed 15:40] =>  0:36
+:END:
+
+[[file:~/Git/0--key/org-pub/2024-04-25-full-stack-python-cv.org::*Freelance: Full-stack Python web-developer][Freelance: Full-stack Python web-developer]]
+
+
+* Prompt Engineer
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking/CV elaboration
+:ARCHIVE_CATEGORY: Job
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-14 Sun 20:10]--[2024-07-14 Sun 21:17] =>  1:07
+CLOCK: [2024-07-14 Sun 18:05]--[2024-07-14 Sun 18:38] =>  0:33
+:END:
+[[elisp:(bookmark-jump-other-window "2024-06-27-prompt-engineer.org")]]
+
+
+* DELAY Vikki's LinkedIn//UpWork
+SCHEDULED: <2024-10-27 Sun ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-04-09 Tue 18:43]
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Job
+:ARCHIVE_TODO: DELAY
+:END:
+- State "AMPLE"      from "ACTIVE"     [2024-04-09 Tue 18:43]
+ Profile brush up
+
+
+
+* DELAY Global and Local Variables in Python
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+
+* RETARD Zsh
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+[[info:zsh#Top][zsh#Top]]
+#+begin_src sh
+alioth@penguin:~$ sudo apt-cache search zsh
+csh - Shell with C-like syntax
+ddgr - DuckDuckGo from the terminal
+direnv - Utility to set directory specific environment variables
+draai - Command-line music player for MPD
+env2 - convert environment variables between scripting languages
+elpa-esh-help - add some help functions and support for Eshell
+extrace - trace exec() calls system-wide
+fizsh - Friendly Interactive ZSHell
+fzf - general-purpose command-line fuzzy finder
+googler - Power tool to Google (Web & News) and Google Site Search from the terminal
+gradle-completion - Bash and Zsh completion support for Gradle
+hstr - Suggest box like shell history completion
+imgp - Superfast batch image resizer and rotator
+libjline3-java - Console input handling library
+kdesdk-scripts - scripts and data files for development
+liquidprompt - adaptative prompt for bash & zsh
+ondir - Automate tasks specific to certain directories in the shell
+pk4 - make available the Debian source package producing the specified package
+zsh-theme-powerlevel9k - powerlevel9k is a theme for zsh which uses powerline fonts
+fonts-powerline - prompt and statusline utility (symbols font)
+powerline - prompt and statusline utility
+powerline-doc - prompt and statusline utility (documentation)
+python3-powerline - prompt and statusline utility (Python 3.x module)
+powerline-gitstatus - Powerline Git segment
+python3-powerline-gitstatus - Powerline Git segment for Python (3.x)
+px - ps and top for human beings
+rosbash - Assorted shell commands for using Robot OS with bash
+shellex - shell-based launcher
+shove - test tool for shell scripts with TAP outputs
+thefuck - spelling corrector of console commands
+vcsh - Version Control System for $HOME - multiple Git repositories in $HOME
+vim-syntastic - Syntax checking hacks for vim
+yash - yet another shell
+zgen - Lightweight plugin manager for ZSH inspired by Antigen
+zplug - next-generation plugin manager for zsh
+zsh - shell with lots of features
+zsh-common - architecture independent files for Zsh
+zsh-dev - shell with lots of features (development files)
+zsh-doc - zsh documentation - info/HTML format
+zsh-static - shell with lots of features (static link)
+zsh-antigen - manage your zsh plugins
+zsh-autosuggestions - Fish-like fast/unobtrusive autosuggestions for zsh
+zsh-syntax-highlighting - Fish shell like syntax highlighting for zsh
+alioth@penguin:~$ sudo apt-get install zsh-doc
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfuse2
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  zsh zsh-common
+The following NEW packages will be installed:
+  zsh zsh-common zsh-doc
+#+end_src
+
+* DELAY Kubernetes & Emacs
+SCHEDULED: <2024-10-23 Wed>
+:PROPERTIES:
+:CATEGORY: k8s
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_CATEGORY: k8s
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-15 Wed 15:35]--[2024-05-15 Wed 15:41] =>  0:06
+CLOCK: [2024-05-15 Wed 10:23]--[2024-05-15 Wed 10:37] =>  0:14
+CLOCK: [2024-05-15 Wed 10:00]--[2024-05-15 Wed 10:15] =>  0:15
+CLOCK: [2024-05-15 Wed 09:34]--[2024-05-15 Wed 09:55] =>  0:21
+:END:
+[[file:~/Git/0--key/org-pub/2024-05-15-k8s.org::*Installation & initial configuration][Installation & initial configuration]]
+[[https://www.linkedin.com/pulse/demystifying-kubernetes-architecture-deep-dive-code-samples/][Intro#1]]
+[[https://www.simform.com/blog/kubernetes-architecture/][Intro#2]]
+
+
+* DELAY Aravind Srinavas
+SCHEDULED: <2024-10-28 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-07 Wed 16:37]--[2024-08-07 Wed 17:01] =>  0:24
+:END:
+[[elisp:(bookmark-jump-other-window "Transcript for Aravind Srinivas: Perplexity CEO on Future of AI, Search & the Internet | Lex Fridman Podcast #434 - Lex Fridman")][Bmk+]]
+- 00:08:18 [2024-08-07 Wed 17:01]
+
+
+
+* Granite
+SCHEDULED: <2024-10-18 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-28 Mon 04:36
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models
+:ARCHIVE_CATEGORY: LLM
+:END:
+[[https://www.ibm.com/granite]]
+[[https://huggingface.co/collections/ibm-granite/granite-code-models-6624c5cec322e4c148c8b330]]
+
