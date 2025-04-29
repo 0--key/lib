@@ -207,6 +207,69 @@ SCHEDULED: <2025-05-01 Thu>
 :CATEGORY: English
 :END:
 
+*** Class Materials
+SCHEDULED: <2025-04-29 Tue>
+- Zero;
+- First;
+- Last;
+
+https://learnenglish.britishcouncil.org/english-levels/improve-your-english-level/how-can-i-improve-my-english-pronunciation
+https://preply.com/en/blog/improve-your-english-pronunciation/
+https://esl.wiki/en/software/stardict-mueller7
+
+*** Colloquialisms
+SCHEDULED: <2025-05-05 Mon>
+*** Message for Edward Lewis
+SCHEDULED: <2025-04-30 Wed>
+
+*** Prosody
+SCHEDULED: <2025-05-01 Thu>
+https://www.ldatschool.ca/prosody-reading-proficiency/
+
+*** Reading Aloud
+SCHEDULED: <2025-04-30 Wed>
+https://gianfrancoconti.com/2018/03/16/my-favourite-read-aloud-task-and-how-i-use-them/
+https://janemesser.com/2024/02/20/reading-aloud-for-revision-and-performance/
+https://www.bbc.co.uk/bitesize/articles/z8pbf82#zpcv9ty
+
+*** Intonation
+SCHEDULED: <2025-05-02 Fri>
+
+To mark up text for reading aloud with proper intonation, you can use a combination of punctuation, symbols, and visual cues to indicate pitch changes, pauses, and emphasis. Punctuation like question marks (?), exclamation points (!), and periods (.) guide rising, emphatic, and falling intonation respectively. Additional symbols like arrows (↑ for rising, ↓ for falling) or dashes (—) for emphasis can be added above or next to relevant words. 
+Here's a more detailed breakdown:
+1. Punctuation:
+
+    Question Marks (?): Indicate a rising pitch at the end of the sentence, as in "Are you hungry?". 
+
+Exclamation Points (!): Signal a forceful, often excited, ending, like "That's amazing!". 
+Periods (.): Typically mark the end of a statement with a falling pitch. 
+Commas (,): Indicate a slight pause and pitch change within a sentence. 
+Ellipsis (...): Suggest a trailing off of the voice and a longer pause. 
+
+2. Symbols for Intonation:
+
+    Arrows: Use upward-pointing arrows (↑) to indicate a rising pitch, often used at the end of questions or incomplete sentences. Downward-pointing arrows (↓) signify a falling pitch, as in declarative sentences or when a "case closed" signal is needed.
+    Dashes: Use dashes (—) above or next to words you want to emphasize, drawing attention to their importance.
+    Stars: Mark key points with a star (☆) to remember to give them extra emphasis. 
+
+3. Chunking and Phrasing:
+
+    Divide into Thought Groups:
+    Break down sentences into smaller chunks of words that naturally group together. These groups often end with a change in pitch and a short pause. 
+
+Visual Cues:
+You can use underscores (_) or other visual cues to separate thought groups, helping you remember where to pause and adjust your pitch. 
+
+4. Practice and Refinement:
+
+    Listen to Recordings: Listen to recordings of the text to hear how native speakers use intonation. 
+
+Read Aloud and Adjust: Read the text aloud and adjust your intonation markings as needed. 
+Focus on Meaning: Intonation is a tool to express meaning, so focus on conveying the emotion and intent of the text. 
+
+
+
+
 *** LAG File with grammar and vocabulary
 SCHEDULED: <2025-05-12 Mon>
 :LOGBOOK:
@@ -215,7 +278,6 @@ CLOCK: [2024-07-11 Thu 08:31]--[2024-07-11 Thu 08:51] =>  0:20
 :END:
 Specific Assistant's Instructions
 [[elisp:(bookmark-jump-other-window "Grammar")]]
-
 
 *** LAG Useful expressions
 SCHEDULED: <2025-05-08 Thu ++4d>
@@ -1624,6 +1686,40 @@ https://www.mongodb.com/resources/basics/databases/nosql-explained
 
 * Misc
 
+** Non-empirical system of perception
+SCHEDULED: <2025-05-20 Tue>
+
+** Robert I. Sutton
+SCHEDULED: <2025-05-26 Mon>
+https://www.youtube.com/watch?v=tU1aAUqF7G4
+
+** Equity and equality
+SCHEDULED: <2025-06-02 Mon>
+
+** Grapes in ireland in middle ages
+SCHEDULED: <2025-05-06 Tue>
+Early Attempts:
+
+There's historical evidence that some monasteries in
+Ireland, like the one in County Kilkenny, attempted to cultivate
+grapes in the 5th century, aiming to produce wine for religious
+purposes.
+
+** Just Enough Concept
+SCHEDULED: <2025-05-14 Wed>
+https://bigthink.com/mini-philosophy/swedish-philosophy-lagom-just-enough/?utm_source=firefox-newtab-en-gb
+
+** О русском Уме
+SCHEDULED: <2025-05-26 Mon>
+http://vivovoco.ibmh.msk.su/VV/PAPERS/ECCE/MIND.HTM
+
+** Emotions-Feelings Table
+SCHEDULED: <2025-05-05 Mon>
+
+** Simone Weil
+SCHEDULED: <2025-05-19 Mon>
+https://en.wikipedia.org/wiki/Simone_Weil
+
 ** Frontend
 
 *** React
@@ -1687,6 +1783,7 @@ CLOCK: [2024-06-28 Fri 14:45]--[2024-06-28 Fri 14:53] =>  0:08
 [[elisp:(bookmark-jump-other-window "mark-current-paragraph")]]
 
 ** Job Seeking
+
 :PROPERTIES:
 :CATEGORY: Job
 :END:
@@ -2044,6 +2141,7 @@ SCHEDULED: <2025-04-29 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
+CLOCK: [2025-04-29 Tue 04:25]
 CLOCK: [2025-04-28 Mon 04:40]--[2025-04-28 Mon 04:45] =>  0:05
 CLOCK: [2024-09-24 Tue 19:32]--[2024-09-24 Tue 19:38] =>  0:06
 CLOCK: [2024-09-23 Mon 19:53]--[2024-09-23 Mon 19:57] =>  0:04
@@ -3372,6 +3470,7 @@ SCHEDULED: <2025-04-29 Tue ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2025-04-29 Tue 03:35]--[2025-04-29 Tue 04:25] =>  0:50
 CLOCK: [2024-09-27 Fri 08:57]--[2024-09-27 Fri 09:00] =>  0:03
 CLOCK: [2024-09-24 Tue 09:24]--[2024-09-24 Tue 09:32] =>  0:08
 CLOCK: [2024-09-23 Mon 10:33]--[2024-09-23 Mon 10:46] =>  0:13
@@ -3558,7 +3657,7 @@ CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** TODO Idioms
 SCHEDULED: <2025-04-29 Tue>
-
+https://www.gci.ie/blog/20-english-idioms-every-english-student-should-know/
 
 ** ACTIVE Several workflows                                        :ARCHIVE:
 SCHEDULED: <2022-12-07 Wed>
@@ -3976,6 +4075,7 @@ Letterkenny, Donegal F92 CTH6
 :LOGBOOK:
 CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
 :END:
+
 * Large Language Models
 :PROPERTIES:
 :CATEGORY: LLM
