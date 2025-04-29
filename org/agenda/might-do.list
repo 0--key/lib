@@ -70,8 +70,8 @@ and displayed for members of the target group.
 SCHEDULED: <2025-05-05 Mon>
 Justin Sun, Ali Abdal, Morgan Ua, Declan Meehan
 
-**** RAW Wai Hon                                                :backdoor:
-SCHEDULED: <2025-04-30 Wed>
+**** DELAY Wai Hon                                              :backdoor:
+SCHEDULED: <2025-05-21 Wed>
 https://whhone.com/posts/org-mode-task-management/
 https://whhone.com/tags/linux/
 
@@ -207,8 +207,8 @@ SCHEDULED: <2025-05-01 Thu>
 :CATEGORY: English
 :END:
 
-*** Class Materials
-SCHEDULED: <2025-04-29 Tue>
+*** [#A] Class Materials
+SCHEDULED: <2025-04-30 Wed>
 - Zero;
 - First;
 - Last;
@@ -480,12 +480,6 @@ CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
 CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
 :END:
 - https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
-** RETARD Stashes
-SCHEDULED: <2025-04-30 Wed>
-:LOGBOOK:
-CLOCK: [2023-11-04 Sat 14:15]--[2023-11-04 Sat 14:39] =>  0:24
-:END:
-- Stashes are accessible in all branches [2023-11-04 Sat 14:17]
 ** DELAY ReSet, ReBase
 SCHEDULED: <2025-05-07 Wed ++2d/3d>
 :PROPERTIES:
@@ -873,7 +867,7 @@ CLOCK: [2024-09-03 Tue 14:59]--[2024-09-03 Tue 15:21] =>  0:22
 :END:
 [[elisp:(bookmark-jump-other-window "My Last Five Years of Work")]]
 ** DELAY LaTex
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 :LOGBOOK:
 CLOCK: [2024-10-03 Thu 09:55]--[2024-10-03 Thu 10:24] =>  0:29
 CLOCK: [2024-09-27 Fri 09:24]--[2024-09-27 Fri 09:33] =>  0:09
@@ -881,8 +875,8 @@ CLOCK: [2024-09-27 Fri 09:01]--[2024-09-27 Fri 09:22] =>  0:21
 :END:
 (‘org-latex-export-to-pdf’)
 [[info:org#Include Files][org#Include Files]]
-** DELAY [#A] NDLS
-SCHEDULED: <2025-04-29 Tue>
+** DELAY NDLS
+SCHEDULED: <2025-04-30 Wed>
 :LOGBOOK:
 CLOCK: [2024-09-27 Fri 14:11]--[2024-09-27 Fri 15:15] =>  1:04
 :END:
@@ -987,7 +981,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** RETARD Archive non-actual tasks
-SCHEDULED: <2025-04-29 Tue .+3d/4d>
+SCHEDULED: <2025-04-30 Wed .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-09-22 Fri 09:23]
 :END:
@@ -1624,18 +1618,6 @@ SCHEDULED: <2024-04-09 Tue>
 CLOCK: [2024-04-10 Wed 10:23]--[2024-04-10 Wed 10:23] =>  0:00
 CLOCK: [2024-03-28 Thu 10:59]--[2024-03-28 Thu 11:04] =>  0:05
 :END:
-** RAW Open Source Society University
-SCHEDULED: <2025-04-30 Wed>
-:LOGBOOK:
-CLOCK: [2024-06-19 Wed 09:00]--[2024-06-19 Wed 09:06] =>  0:06
-CLOCK: [2024-06-13 Thu 06:24]--[2024-06-13 Thu 06:53] =>  0:29
-CLOCK: [2024-06-04 Tue 06:55]--[2024-06-04 Tue 06:58] =>  0:03
-:END:
-https://www.youtube.com/watch?v=6WdTxK_V9Qo
-https://algo.monster/?sscid=51k8_zcwzz&
-https://algo.monster/problems/stats
-https://github.com/ossu/computer-science?tab=readme-ov-file
-
 ** [#C] Lead Agenda elaboration
 SCHEDULED: <2025-04-30 Wed ++3d/4d>
 :PROPERTIES:
@@ -1835,8 +1817,8 @@ CLOCK: [2024-06-24 Mon 07:39]--[2024-06-24 Mon 07:43] =>  0:04
 *** Cover letters templates (with links)
 SCHEDULED: <2025-05-10 Sat>
 
-*** TODO [#A] Alternative full-fledged CV with links
-SCHEDULED: <2025-04-30 Wed ++1d>
+*** DELAY Alternative full-fledged CV with links
+SCHEDULED: <2025-05-22 Thu ++1d>
 :LOGBOOK:
 CLOCK: [2024-08-21 Wed 18:48]--[2024-08-21 Wed 19:14] =>  0:26
 :END:
@@ -1861,7 +1843,7 @@ SCHEDULED: <2025-05-02 Fri ++3d>
 - Shane.OMahony@cpl.ie
 
 *** DELAY [#B] Learning on demand
-SCHEDULED: <2025-04-30 Wed>
+SCHEDULED: <2025-05-02 Fri>
 (It's just impossible to know everything)
 Be wicked smart as a child do
 
@@ -1958,8 +1940,8 @@ CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
 [[file:~/git/org-pub/2016-10-13-CV.org::*Linux][Linux]]
 
 
-**** RAW Speculative CV
-SCHEDULED: <2025-04-30 Wed>
+**** DELAY Speculative CV
+SCHEDULED: <2025-05-22 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-27 Thu 16:43]--[2024-06-27 Thu 16:44] =>  0:01
 CLOCK: [2024-06-24 Mon 07:43]--[2024-06-24 Mon 07:53] =>  0:10
@@ -2141,7 +2123,8 @@ SCHEDULED: <2025-04-29 Tue ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2025-04-29 Tue 04:25]
+CLOCK: [2025-04-29 Tue 20:13]
+CLOCK: [2025-04-29 Tue 04:25]--[2025-04-29 Tue 04:28] =>  0:03
 CLOCK: [2025-04-28 Mon 04:40]--[2025-04-28 Mon 04:45] =>  0:05
 CLOCK: [2024-09-24 Tue 19:32]--[2024-09-24 Tue 19:38] =>  0:06
 CLOCK: [2024-09-23 Mon 19:53]--[2024-09-23 Mon 19:57] =>  0:04
@@ -2668,7 +2651,7 @@ https://quotefancy.com/perseverance-quotes
 [[file:~/Git/0--key/lib/org/drills.org::*Binomials and trinomials][Binomials and trinomials]]
 
 *** [#A] Daily tasks pile assay
-SCHEDULED: <2025-04-29 Tue ++1d>
+SCHEDULED: <2025-04-30 Wed ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-07 Wed 17:53]
 :END:
@@ -3201,7 +3184,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Clean all that mess up!
-SCHEDULED: <2025-04-29 Tue ++1w>
+SCHEDULED: <2025-04-30 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-30 Tue 19:35]
 :END:
@@ -3430,7 +3413,7 @@ SCHEDULED: <2025-05-13 Tue ++4w>
 
 
 *** [#A] New tasks trimming
-SCHEDULED: <2025-04-29 Tue ++2d/3d>
+SCHEDULED: <2025-04-30 Wed ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-08-04 Sun 19:32]
 :END:
@@ -3605,7 +3588,7 @@ create your key binding like this:
 :PROPERTIES:
 :CATEGORY: Glom
 :END:
-*** DELAY Proverbs
+*** DELAY [#A] Proverbs
 SCHEDULED: <2025-04-30 Wed .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-28 Mon 19:52]
@@ -3655,8 +3638,8 @@ CLOCK: [2022-12-08 Thu 19:42]--[2022-12-08 Thu 19:45] =>  0:03
 CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
-*** TODO Idioms
-SCHEDULED: <2025-04-29 Tue>
+*** TODO [#A] Idioms
+SCHEDULED: <2025-04-30 Wed>
 https://www.gci.ie/blog/20-english-idioms-every-english-student-should-know/
 
 ** ACTIVE Several workflows                                        :ARCHIVE:
@@ -3684,14 +3667,14 @@ LifeSpan: Why We Age
 ** RAW Clifford D. Simak
 Ring Around the Sun
 ** Driver Licence Renewal
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 https://www.ndls.ie/contact-form.html
 https://www.ndls.ie/learner-driver/my-first-learner-permit.html
 
 ** DONE 48 laws of power
 SCHEDULED: <2023-04-03 Mon>
 ** LAG Capture for idioms
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -3917,7 +3900,7 @@ CLOCK: [2023-10-19 Thu 10:53]--[2023-10-19 Thu 11:14] =>  0:21
 ** SET New destination for books
 SCHEDULED: <2023-12-10 Sun>
 ** LAG Bayes' Theorem
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 In fire alarm example
 ** RETARD [#B] Math with Andrew                                       :AnAn:
 SCHEDULED: <2025-05-07 Wed ++2d/3d>
@@ -3937,7 +3920,7 @@ CLOCK: [2023-11-15 Wed 10:26]--[2023-11-15 Wed 10:32] =>  0:06
   disabled as a unit.  You can use Custom themes to switch easily between
   various collections of settings, and to transfer such collections from
   one computer to another. [2023-11-24 Fri 14:40]
-** RETARD [#C] New Qoutes
+** RETARD [#A] New Qoutes
 SCHEDULED: <2025-04-30 Wed>
 :LOGBOOK:
 CLOCK: [2023-11-19 Sun 16:05]--[2023-11-19 Sun 16:25] =>  0:20
@@ -3986,7 +3969,7 @@ with =Debian=. So:
 
 
 ** LAG Search reference in *info*
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 - Note taken on [2024-05-24 Fri 17:37] \\
   Does info-apropos able to find the keyword in Python section of #info?
 - Note taken on [2024-01-17 Wed 11:04] \\
@@ -4031,7 +4014,7 @@ CLOCK: [2023-05-23 Tue 16:09]--[2023-05-23 Tue 16:09] =>  0:00
 :END:
 [[https://en.wikipedia.org/wiki/Personal_development][Article]]
 *** LAG Stackoverflow profile elaboration
-SCHEDULED: <2024-06-10 Mon>
+SCHEDULED: <2025-04-30 Wed>
 :PROPERTIES:
 :ARCHIVE_TIME: 2024-06-08 Sat 19:58
 :END:
@@ -4279,7 +4262,7 @@ CLOCK: [2024-06-22 Sat 10:13]--[2024-06-22 Sat 10:50] =>  0:37
 [[elisp:(bookmark-jump-other-window "2024-06-22-sum-up-with-openai.org")]]
 
 **** RETARD Inferring
-SCHEDULED: <2025-04-29 Tue>
+SCHEDULED: <2025-04-30 Wed>
 :LOGBOOK:
 CLOCK: [2024-07-13 Sat 07:51]--[2024-07-13 Sat 08:04] =>  0:13
 CLOCK: [2024-07-13 Sat 07:46]--[2024-07-13 Sat 07:47] =>  0:01
