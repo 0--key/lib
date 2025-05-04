@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Become a Niche" 0 14
+(#1=(#("Greenwood James. The True History of a Little Ragamuffin - royallib.com.epub" 0 76
+      (bmkp-full-record #1#))
+    (filename . "/home/alioth/books/Greenwood James. The True History of a Little Ragamuffin - royallib.com.epub")
+    (index . 0)
+    (position . 46)
+    (handler . nov-bookmark-jump-handler))
+#1=(#("Become a Niche" 0 14
       (bmkp-full-record #1#))
     (filename . "~/Git/0--key/philomath/tutorial/koe.org")
     (buffer-name . "koe.org")
@@ -661,8 +667,8 @@
     (rear-context-string . "2GqifRz\n:END:\n\n\n")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 1)
-    (time 26256 46935 438056 45000)
+    (visits . 2)
+    (time 26646 63882 567075 605000)
     (created 26256 46901 310706 462000)
     (position . 565))
 #1=(#("vizier.git" 0 10
@@ -1492,8 +1498,8 @@
     (rear-context-string . "h-editor-finish)")
     (front-context-region-string)
     (rear-context-region-string)
-    (visits . 6)
-    (time 26638 61721 474773 607000)
+    (visits . 7)
+    (time 26646 62785 803453 770000)
     (created 25977 37663 283862 800000)
     (position . 3248))
 #1=(#("portfolio" 0 9
