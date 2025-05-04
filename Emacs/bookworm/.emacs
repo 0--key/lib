@@ -130,6 +130,8 @@
  '(org-src-window-setup 'other-window)
  '(package-selected-packages
    '(markdown-mode htmlize gnu-elpa-keyring-update sound-wav eglot xclip py-autopep8))
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil)
  '(vc-follow-symlinks t))
 
 
