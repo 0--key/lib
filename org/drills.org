@@ -8,7 +8,7 @@
 #+TODO: | SET
 
 * RAW [#C] Proverbs
-SCHEDULED: <2025-05-07 Wed ++3d/4d>
+SCHEDULED: <2025-06-04 Wed ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-29 Sat 12:52]
 :END:
@@ -2510,7 +2510,7 @@ or family./
 [Dress] for the [job you want], not the [job you have].
 
 * RETARD Quotes
-SCHEDULED: <2025-05-05 Mon .+3d/4d>
+SCHEDULED: <2025-06-16 Mon .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-04-11 Tue 15:15]
 :END:
@@ -4998,106 +4998,149 @@ is sufficent to [refute that conclusion].
 I am so clever [that sometimes I don’t understand] a [single word] of
 [what I am saying].
 * Colloquialisms
-** LAG How to say 'Thank You!'
-SCHEDULED: <2025-05-06 Tue ++3d/4d>
+** RAW How to say 'Thank You!'
+SCHEDULED: <2025-05-16 Fri ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-23 Thu 10:43]
+:END:
+:LOGBOOK:
+CLOCK: [2025-05-06 Tue 06:04]--[2025-05-06 Tue 06:08] =>  0:04
 :END:
 
 - State "SET"        from ""           [2023-11-23 Thu 10:43]
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       8346c23d-7624-49ae-bbb4-8ae6381b5675
    :END:
 You really [went above and beyond]. Thanks [a ton]!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       30bbafd9-8ea6-426c-9eeb-23ade7349af1
    :END:
 You [made] my day. [Thank you]!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       1f34ba95-514b-426c-acdd-7ce2cfe2a9d3
    :END:
 I [appreciate your] help [more than you] know.
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       44cde3da-16a8-49c2-a297-ff8d9f36eed1
    :END:
 You are [a true blessing] and I am [thankful for you].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       b8e785d2-b042-40f9-9142-645798a0c562
    :END:
 I’m [so lucky to have friends] like you – [thank you]!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       be93a45d-e4b8-41f9-91d6-f65aeb9ca0f6
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 0.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 0
+   :DRILL_LAST_REVIEWED: [2025-05-06 Tue 06:06]
    :END:
 My world [is brighter because] of [your kindness]. Thanks!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       857af2f8-7b2d-4de7-bf22-6a1e359ec206
    :END:
 I [don’t know] how [to thank you enough].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       221fb03f-4533-40d1-a2ae-f75767ce531f
    :END:
 A million thanks for [being there] when [I needed you].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       4443d4f6-f09b-41c6-abb9-98fe001e8fc0
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 0.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 0
+   :DRILL_LAST_REVIEWED: [2025-05-06 Tue 06:07]
    :END:
 [Your support] means [the world to me] – thank you!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       2847fe40-617c-4dcf-947f-c83f234b2750
+   :DRILL_LAST_INTERVAL: 0.0
+   :DRILL_REPEATS_SINCE_FAIL: 1
+   :DRILL_TOTAL_REPEATS: 1
+   :DRILL_FAILURE_COUNT: 1
+   :DRILL_AVERAGE_QUALITY: 0.0
+   :DRILL_EASE: 2.5
+   :DRILL_LAST_QUALITY: 0
+   :DRILL_LAST_REVIEWED: [2025-05-06 Tue 06:07]
    :END:
 You are an [amazing person] and [a great friend]. Thank you!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       3277915f-fad1-4bc3-a625-c7eaed83d4ae
    :END:
 [Words cannot] [express my gratitude].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       bd49b406-238c-445d-b145-b1b3eebf5e7c
    :END:
 [You have] my [sincere thanks].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       fcc2d7bf-eb49-4523-b01b-6b0c738f939e
    :END:
 [A big thank you] [hug to you]!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       6e2bc5af-4ade-48b5-adc5-184d8892c0aa
    :END:
 [I owe you] [a huge debt of gratitude].
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       99888ff5-deb0-4241-b6f4-24ea76ab4ed7
    :END:
 [Nothing compares] [to your kindness] – thank you!
 
 *** COMMENT ==> => >>                                               :drill:
    :PROPERTIES:
    :DRILL_CARD_TYPE: hide1cloze
+   :ID:       44f80cce-8ae5-4ddc-b582-e1396cdaf0f9
    :END:
 My heart is [overflowing with gratitude] [for all you’ve done].
 

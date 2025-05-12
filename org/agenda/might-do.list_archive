@@ -1954,3 +1954,196 @@ SCHEDULED: <2025-05-04 Sun>
 :END:
 - Chrome's passwords
 - Bookmarks from Chrome
+
+* DELAY Rye
+SCHEDULED: <2025-05-07 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-07 Wed 05:05
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: OpenAI
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-14 Wed 08:06]--[2024-08-14 Wed 08:16] =>  0:10
+:END:
+https://rye.astral.sh/guide/
+
+
+* RETARD Basic Branches&Merging
+SCHEDULED: <2025-05-09 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-08 Thu 20:07
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2023-11-17 Fri 18:02]--[2023-11-17 Fri 18:21] =>  0:19
+CLOCK: [2023-11-10 Fri 17:30]--[2023-11-10 Fri 17:49] =>  0:19
+CLOCK: [2023-11-04 Sat 10:24]--[2023-11-04 Sat 10:51] =>  0:27
+:END:
+- https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging [2023-11-17 Fri 18:05]
+
+* DELAY The Babel subtleties
+SCHEDULED: <2025-05-09 Fri>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-29 Wed 17:03]
+:ARCHIVE_TIME: 2025-05-08 Thu 20:07
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+- State "AMPLE"      from ""           [2024-05-29 Wed 17:03]
+:LOGBOOK:
+CLOCK: [2024-05-29 Wed 15:36]--[2024-05-29 Wed 16:06] =>  0:30
+CLOCK: [2024-05-26 Sun 10:41]--[2024-05-26 Sun 10:47] =>  0:06
+CLOCK: [2024-05-26 Sun 09:57]--[2024-05-26 Sun 10:27] =>  0:30
+CLOCK: [2024-05-26 Sun 08:37]--[2024-05-26 Sun 08:58] =>  0:21
+CLOCK: [2024-05-25 Sat 14:31]--[2024-05-25 Sat 14:32] =>  0:01
+CLOCK: [2024-05-25 Sat 09:13]--[2024-05-25 Sat 09:13] =>  0:00
+:END:
+- State "AMPLE"      from ""           [2024-05-26 Sun 10:47]
+- State "AMPLE"      from ""           [2024-05-26 Sun 08:58]
+- [[https://orgmode.org/worg/org-contrib/babel/]] [2024-05-26 Sun 10:20]
+- [[info:org#Property Syntax]] [2024-05-26 Sun 10:42]
+- [[info:org#Environment of a Code Block]] [2024-05-26 Sun 10:47]
+- ‘org-babel-execute-src-block [2024-05-29 Wed 15:51]
+- ‘org-confirm-babel-evaluate [2024-05-29 Wed 15:52]
+
+[[info:org#Working with Source Code][org#Working with Source Code]]
+- [[info:org#Structure Templates]] [2024-05-26 Sun 08:43]
+- [[info:org#Using Header Arguments]] [2024-05-26 Sun 08:57]
+
+* What are the questions on the job interview?
+SCHEDULED: <2025-05-09 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-08 Thu 20:08
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:END:
+
+
+* DELAY Overview
+SCHEDULED: <2025-05-09 Fri ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-07-15 Mon 09:42]
+:ARCHIVE_TIME: 2025-05-08 Thu 20:08
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: DELAY
+:END:
+- State "AMPLE"      from ""           [2024-07-15 Mon 09:42]
+[[elisp:(bookmark-jump-other-window "llm.org")]]
+[[elisp:(bookmark-jump-other-window "2024-07-25-large-arena.org")]]
+- State "AMPLE"      from ""           [2024-06-09 Sun 07:09]
+- State "AMPLE"      from ""           [2024-06-06 Thu 20:38]
+- talkpython.fm/neo4j [2024-06-08 Sat 07:51]
+- Neo4j [2024-06-08 Sat 08:06]
+- LLMs are shiny [2024-06-08 Sat 08:11]
+- ChatGPT4 is really what I use [2024-06-08 Sat 08:14]
+- Pydantic [2024-06-08 Sat 08:17]
+- you have to ask it to criticize you [2024-06-08 Sat 08:19]
+-- Console [2024-06-08 Sat 08:22]
+- https://www.phind.com/search?home=true
++ Claude by Anthropic [2024-06-08 Sat 08:30]
++ DocsBot.ai [2024-06-08 Sat 08:31]
++ LangChain [2024-06-08 Sat 09:00]
++ Simon Willison [2024-06-08 Sat 09:01]
++ LLAMA [2024-06-08 Sat 09:03]
+- Mistral [2024-06-08 Sat 09:03]
+- Mixtral [2024-06-08 Sat 09:03]
+- LengChain [2024-06-08 Sat 09:07]
+- LamaIndex!! [2024-06-08 Sat 09:08]
+- LLM Studio [2024-06-09 Sun 05:29]
+  Local implementation
+- Hugging Face [2024-06-09 Sun 05:30]
+- Mistral 7B [2024-06-09 Sun 05:31]
+- account on Hugging
+  Face called The Bloke [2024-06-09 Sun 05:33]
+- N-O-U-S [2024-06-09 Sun 05:33]
+- Llama CPP [2024-06-09 Sun 05:35]
+- Llama File [2024-06-09 Sun 05:36]
+- prompt engineering [2024-06-09 Sun 05:50]
+:LOGBOOK:
+CLOCK: [2024-07-29 Mon 10:44]--[2024-07-29 Mon 10:50] =>  0:06
+CLOCK: [2024-07-25 Thu 13:59]--[2024-07-25 Thu 15:08] =>  1:09
+CLOCK: [2024-07-15 Mon 09:11]--[2024-07-15 Mon 09:32] =>  0:21
+CLOCK: [2024-06-13 Thu 07:00]--[2024-06-13 Thu 07:22] =>  0:22
+CLOCK: [2024-06-09 Sun 06:31]--[2024-06-09 Sun 06:45] =>  0:14
+CLOCK: [2024-06-09 Sun 05:24]--[2024-06-09 Sun 06:03] =>  0:39
+CLOCK: [2024-06-08 Sat 08:59]--[2024-06-08 Sat 09:11] =>  0:12
+CLOCK: [2024-06-08 Sat 07:45]--[2024-06-08 Sat 08:52] =>  1:07
+CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:59] =>  0:41
+CLOCK: [2024-06-07 Fri 14:18]--[2024-06-07 Fri 14:18] =>  0:00
+CLOCK: [2024-06-06 Thu 20:08]--[2024-06-06 Thu 20:37] =>  0:29
+CLOCK: [2024-06-05 Wed 09:50]--[2024-06-05 Wed 10:21] =>  0:31
+CLOCK: [2024-06-04 Tue 10:21]--[2024-06-04 Tue 10:29] =>  0:08
+CLOCK: [2024-06-04 Tue 07:16]--[2024-06-04 Tue 07:19] =>  0:03
+:END:
+[[https://github.com/rksm/org-ai]]
+https://github.com/karthink/gptel
+https://www.youtube.com/watch?v=JImYEdqVQR8
+- Copilot
+[[elisp:(bookmark-jump-other-window "Custom GPTS with Python")][Pointer for TalkToMe Episode]]
+[[elisp:(bookmark-jump-other-window "2024-07-09-llm-dissection.org")][The Article]]
+
+
+* RETARD MongoDB
+SCHEDULED: <2025-05-12 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-12 Mon 04:37
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NoSQL
+:ARCHIVE_CATEGORY: NoSQL
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 08:53]--[2024-05-30 Thu 09:01] =>  0:08
+:END:
+https://www.mongodb.com/resources/basics/databases/nosql-explained
+
+
+* DELAY Amazon BedRock
+SCHEDULED: <2025-05-12 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-12 Mon 04:40
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-06 Tue 09:10]--[2024-08-06 Tue 09:34] =>  0:24
+CLOCK: [2024-07-30 Tue 08:37]--[2024-07-30 Tue 08:54] =>  0:17
+:END:
+https://aws.amazon.com/bedrock/
+https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/150-agents
+https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US
+https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-for-bedrock
+
+
+* LAG Tags
+SCHEDULED: <2025-05-12 Mon ++3d/5d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-11-06 Mon 11:33]
+:ARCHIVE_TIME: 2025-05-12 Mon 04:45
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: LAG
+:END:
+- State "AMPLE"      from ""           [2023-11-06 Mon 11:33]
+:LOGBOOK:
+CLOCK: [2024-01-10 Wed 19:19]--[2024-01-10 Wed 19:23] =>  0:04
+CLOCK: [2023-11-10 Fri 16:36]--[2023-11-10 Fri 17:46] =>  1:10
+CLOCK: [2023-11-03 Fri 15:13]--[2023-11-03 Fri 15:21] =>  0:08
+CLOCK: [2023-11-01 Wed 16:04]--[2023-11-01 Wed 16:12] =>  0:08
+CLOCK: [2023-11-01 Wed 15:42]--[2023-11-01 Wed 16:03] =>  0:21
+:END:
+https://git-scm.com/book/en/v2/Git-Basics-Tagging
+- [[info:magit#Tagging]] [2023-11-01 Wed 16:11]
