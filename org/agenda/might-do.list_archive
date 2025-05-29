@@ -2157,3 +2157,88 @@ SCHEDULED: <2025-05-18 Sun>
 :ARCHIVE_CATEGORY: Main
 :ARCHIVE_TODO: RETARD
 :END:
+
+* DELAY Supported Files
+SCHEDULED: <2025-05-23 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-22 Thu 19:46
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI/Assistants API
+:ARCHIVE_CATEGORY: OpenAI
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2025-05-22 Thu 19:44]--[2025-05-22 Thu 19:46] =>  0:02
+CLOCK: [2025-05-02 Fri 04:51]--[2025-05-02 Fri 05:01] =>  0:10
+:END:
+[[https://platform.openai.com/docs/assistants/tools/code-interpreter/supported-files]]
+
+
+
+* RETARD [#B] Runs
+SCHEDULED: <2025-05-26 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-26 Mon 08:35
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI/Assistants API
+:ARCHIVE_CATEGORY: OpenAI
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-26 Wed 14:15]--[2024-06-26 Wed 19:47] =>  5:32
+CLOCK: [2024-06-26 Wed 05:25]--[2024-06-26 Wed 09:07] =>  3:42
+CLOCK: [2024-06-23 Sun 09:18]--[2024-06-23 Sun 10:03] =>  0:45
+CLOCK: [2024-06-23 Sun 08:54]--[2024-06-23 Sun 09:08] =>  0:14
+:END:
+https://platform.openai.com/docs/assistants/how-it-works/run-lifecycle
+- How to check up the Run state?
+
+
+
+* RETARD Nov -- advanced ~epub~ reader
+SCHEDULED: <2025-05-29 Thu ++28d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-02-28 Wed 18:44]
+:ARCHIVE_TIME: 2025-05-29 Thu 09:22
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+- State "SET"        from ""           [2024-02-28 Wed 18:44]
+- State "AMPLE"      from ""           [2024-01-08 Mon 12:13]
+:LOGBOOK:
+CLOCK: [2024-01-04 Thu 14:24]--[2024-01-04 Thu 14:33] =>  0:09
+CLOCK: [2023-12-29 Fri 13:57]--[2023-12-29 Fri 14:15] =>  0:18
+CLOCK: [2023-12-29 Fri 13:42]--[2023-12-29 Fri 13:46] =>  0:04
+CLOCK: [2023-12-16 Sat 17:53]--[2023-12-16 Sat 18:06] =>  0:13
+CLOCK: [2023-12-14 Thu 10:29]--[2023-12-14 Thu 10:41] =>  0:12
+CLOCK: [2023-12-08 Fri 16:40]--[2023-12-08 Fri 16:57] =>  0:17
+:END:
+- [[https://depp.brause.cc/nov.el/]] [2023-12-08 Fri 16:45]
+
+* RETARD [#B] Bash with Andrew                                         :AnAn:
+SCHEDULED: <2025-05-29 Thu .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-04-13 Sat 10:22]
+:ARCHIVE_TIME: 2025-05-29 Thu 09:22
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NDLS/Family
+:ARCHIVE_CATEGORY: kin
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from "RAW"        [2024-04-13 Sat 10:22]
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
+
+* RETARD [#B] Math with Andrew                                         :AnAn:
+SCHEDULED: <2025-05-29 Thu ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-02 Tue 15:22]
+:ARCHIVE_TIME: 2025-05-29 Thu 09:22
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from "INIT"       [2024-01-02 Tue 15:22]
+https://www.youtube.com/watch?v=OHw8ReqH968
