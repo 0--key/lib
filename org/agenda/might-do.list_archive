@@ -2242,3 +2242,174 @@ SCHEDULED: <2025-05-29 Thu ++2d/3d>
 :END:
 - State "AMPLE"      from "INIT"       [2024-01-02 Tue 15:22]
 https://www.youtube.com/watch?v=OHw8ReqH968
+
+* DELAY Bmkp+
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+- Note taken on [2025-05-06 Tue 04:54] \\
+  As Zettelkasten?
+- Note taken on [2024-05-29 Wed 11:22] \\
+  How to use it as a storage for Python code snippets?
+[[elisp:(bookmark-jump-other-window "EmacsWiki: Bookmark Plus")][Link]]
+
+
+* LAG New approach
+SCHEDULED: <2025-06-03 Tue ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-07-22 Mon 11:26]
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs/Org-capture
+:ARCHIVE_CATEGORY: Capture
+:ARCHIVE_TODO: LAG
+:END:
+- State "AMPLE"      from ""           [2024-07-22 Mon 11:26]
+- State "AMPLE"      from "ACTIVE"     [2024-04-10 Wed 10:48]
+- State "DONE"       from "ACTIVE"     [2023-10-20 Fri 10:38]
+:LOGBOOK:
+CLOCK: [2024-04-10 Wed 10:44]--[2024-04-10 Wed 10:48] =>  0:04
+CLOCK: [2024-04-10 Wed 10:29]--[2024-04-10 Wed 10:41] =>  0:12
+CLOCK: [2023-10-20 Fri 10:06]--[2023-10-20 Fri 10:38] =>  0:32
+CLOCK: [2023-10-18 Wed 16:09]--[2023-10-18 Wed 16:20] =>  0:11
+CLOCK: [2023-10-17 Tue 13:22]--[2023-10-17 Tue 13:40] =>  0:18
+CLOCK: [2023-10-17 Tue 10:46]--[2023-10-17 Tue 11:00] =>  0:14
+:END:
+To accumulate the material in the current =clocking= task item.
+It is possible to insert the current ~tip of the killring~.
+[[org#Capture templates]]
+[[info:org#Template elements][org#Template elements]]
+- A plain list item
+- :immediate-finish 1
+
+* RETARD Use-package as a panacea
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+https://github.com/jwiegley/use-package
+
+* DELAY Mode Hooks
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-13 Sat 07:23]--[2024-07-13 Sat 07:39] =>  0:16
+:END:
+https://www.emacswiki.org/emacs/ModeHooks
+- Separate colour theme for each mode
+- ~key-chord-mode~ in ~org-drill~
+
+* DELAY Markdown
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NDLS
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+https://www.reddit.com/r/emacs/comments/39sl5s/syntax_highlight_on_markdown_code_blocks/
+https://www.reddit.com/r/emacs/comments/10h9jf0/beautify_markdown_on_emacs/
+
+
+* RETARD Tracking your habits
+SCHEDULED: <2025-06-03 Tue .+2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-15 Tue 07:47]
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NDLS
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-15 Tue 07:47]
+:LOGBOOK:
+CLOCK: [2022-11-14 Mon 10:31]--[2022-11-14 Mon 10:44] =>  0:13
+:END:
+[[info:org#Progress Logging]]
+
+* RETARD TODO keywords as types
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NDLS
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+[[info:org#TODO types][org#TODO types]]
+
+* LAG https://www.poetryfoundation.org/poems/43798/ae-fond-kiss
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: NDLS
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: LAG
+:END:
+https://pressbooks.pub/poetrypoetics/chapter/a-dream-within-a-dream-by-edgar-allen-poe/
+
+* Cover letters templates (with links)
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:END:
+
+
+* DELAY Boolean search on LinkedIn
+SCHEDULED: <2025-06-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-03 Tue 04:50
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-10 Mon 08:53]--[2024-06-10 Mon 09:14] =>  0:21
+:END:
+https://www.linkedin.com/help/linkedin/answer/a524335
+
+
+* [#A] My Last Five Years of Work
+SCHEDULED: <2025-06-10 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-11 Wed 04:59
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:END:
+:LOGBOOK:
+CLOCK: [2024-09-03 Tue 14:59]--[2024-09-03 Tue 15:21] =>  0:22
+:END:
+[[elisp:(bookmark-jump-other-window "My Last Five Years of Work")]]
+
+* DELAY Equity and equality
+SCHEDULED: <2025-06-12 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-11 Wed 05:04
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+
