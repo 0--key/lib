@@ -213,7 +213,7 @@ SCHEDULED: <2025-12-07 Sun>
 SCHEDULED: <2025-12-05 Fri ++1w>
 
 *** [#C] Talk with Gemini
-SCHEDULED: <2025-11-23 Sun ++1d>
+SCHEDULED: <2025-11-24 Mon ++1d>
 :LOGBOOK:
 CLOCK: [2025-05-02 Fri 10:26]--[2025-05-02 Fri 10:42] =>  0:16
 :END:
@@ -912,11 +912,6 @@ CLOCK: [2025-04-30 Wed 15:59]--[2025-04-30 Wed 16:06] =>  0:07
 CLOCK: [2024-09-27 Fri 14:11]--[2024-09-27 Fri 15:15] =>  1:04
 :END:
 ukrainelicence@ndls.ie, cis@welfare.ie
-** Car Insurance Broker
-SCHEDULED: <2025-11-24 Mon>
-:LOGBOOK:
-CLOCK: [2024-09-27 Fri 09:40]--[2024-09-27 Fri 10:03] =>  0:23
-:END:
 ** DELAY Zero-shot learning :moveIt!:                   :TopicStarters:2025:
 SCHEDULED: <2026-01-01 Thu>
 :LOGBOOK:
@@ -1007,7 +1002,7 @@ For notes linkage in Zettelkasten
 [[info:org#Handling Links][Source]]
 
 ** [#C] Archive non-actual tasks
-SCHEDULED: <2025-11-23 Sun .+3d/4d>
+SCHEDULED: <2025-11-24 Mon .+3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-06-03 Tue 04:54]
 :END:
@@ -1212,7 +1207,7 @@ CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
 SCHEDULED: <2022-12-07 Wed>
 =1h/8h/1d/3d/10d/=
 ** [#C] Whole week scheduling
-SCHEDULED: <2025-11-23 Sun .+1w>
+SCHEDULED: <2025-11-30 Sun .+1w>
 :PROPERTIES:
 :CATEGORY: Meta
 :LAST_REPEAT: [2025-06-01 Sun 19:56]
@@ -2091,6 +2086,7 @@ SCHEDULED: <2025-11-23 Sun ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
+CLOCK: [2025-11-23 Sun 19:28]
 CLOCK: [2025-11-23 Sun 10:55]--[2025-11-23 Sun 10:59] =>  0:04
 CLOCK: [2025-11-19 Wed 09:29]--[2025-11-19 Wed 09:38] =>  0:09
 CLOCK: [2025-06-01 Sun 20:01]--[2025-06-01 Sun 20:06] =>  0:05
@@ -2427,7 +2423,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2025-11-23 Sun ++1d>
+SCHEDULED: <2025-11-24 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-22 Thu 08:46]
 :END:
@@ -2798,10 +2794,11 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2025-11-23 Sun ++1d>
+SCHEDULED: <2025-11-24 Mon ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-05-22 Thu 19:49]
+:LAST_REPEAT: [2025-11-23 Sun 19:28]
 :END:
+- State "AMPLE"      from ""           [2025-11-23 Sun 19:28]
 - State "AMPLE"      from ""           [2025-05-22 Thu 19:49]
 - State "AMPLE"      from ""           [2025-05-21 Wed 19:18]
 - State "AMPLE"      from ""           [2025-05-12 Mon 19:48]
@@ -2887,6 +2884,7 @@ SCHEDULED: <2025-11-23 Sun ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2025-11-23 Sun 19:22]--[2025-11-23 Sun 19:28] =>  0:06
 CLOCK: [2025-06-03 Tue 19:55]--[2025-06-03 Tue 19:59] =>  0:04
 CLOCK: [2025-05-22 Thu 19:47]--[2025-05-22 Thu 19:49] =>  0:02
 CLOCK: [2025-05-22 Thu 19:39]--[2025-05-22 Thu 19:44] =>  0:05
@@ -3000,7 +2998,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** Clean all that mess up!
-SCHEDULED: <2025-11-23 Sun ++1w>
+SCHEDULED: <2025-11-26 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-18 Sun 06:24]
 :END:
@@ -3239,8 +3237,8 @@ CLOCK: [2025-05-13 Tue 08:15]--[2025-05-13 Tue 08:22] =>  0:07
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 
 
-*** [#A] New tasks trimming
-SCHEDULED: <2025-11-23 Sun ++2d/3d>
+*** New tasks trimming
+SCHEDULED: <2025-11-24 Mon ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-12 Mon 05:56]
 :END:
@@ -3281,6 +3279,7 @@ SCHEDULED: <2025-11-23 Sun ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2025-11-23 Sun 19:16]--[2025-11-23 Sun 19:22] =>  0:06
 CLOCK: [2025-06-02 Mon 05:38]--[2025-06-02 Mon 06:07] =>  0:29
 CLOCK: [2025-05-27 Tue 06:15]--[2025-05-27 Tue 06:26] =>  0:11
 CLOCK: [2025-05-15 Thu 05:41]--[2025-05-15 Thu 06:03] =>  0:22
@@ -4109,7 +4108,7 @@ https://github.com/kamushadenes/gptel-extensions.el
 Search threads and assistants in all these repositories.
 
 ** OpenAI o1
-SCHEDULED: <2025-11-23 Sun>
+SCHEDULED: <2025-11-25 Tue>
 - Note taken on [2025-05-27 Tue 05:35] \\
   A single gray mouse case endeavour.
 :LOGBOOK:
