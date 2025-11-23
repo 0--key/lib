@@ -2685,3 +2685,88 @@ CLOCK: [2024-06-24 Mon 07:53]--[2024-06-24 Mon 09:09] =>  1:16
 CLOCK: [2024-06-24 Mon 07:39]--[2024-06-24 Mon 07:43] =>  0:04
 :END:
 
+
+* LAG Assistants API                                                   :2025:
+SCHEDULED: <2025-11-21 Fri ++2d>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-23 Sun 09:54
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: OpenAI
+:ARCHIVE_TODO: LAG
+:END:
+:LOGBOOK:
+CLOCK: [2024-08-07 Wed 09:37]--[2024-08-07 Wed 09:51] =>  0:14
+CLOCK: [2024-08-06 Tue 17:11]--[2024-08-06 Tue 17:22] =>  0:11
+CLOCK: [2024-08-06 Tue 15:18]--[2024-08-06 Tue 16:26] =>  1:08
+CLOCK: [2024-07-12 Fri 06:10]--[2024-07-12 Fri 06:13] =>  0:03
+CLOCK: [2024-07-11 Thu 16:52]--[2024-07-11 Thu 16:59] =>  0:07
+CLOCK: [2024-07-11 Thu 06:50]--[2024-07-11 Thu 07:03] =>  0:13
+CLOCK: [2024-06-26 Wed 09:07]--[2024-06-26 Wed 11:15] =>  2:08
+CLOCK: [2024-06-25 Tue 18:55]--[2024-06-25 Tue 20:55] =>  3:00
+CLOCK: [2024-06-25 Tue 18:13]--[2024-06-25 Tue 18:50] =>  0:37
+CLOCK: [2024-06-25 Tue 07:10]--[2024-06-25 Tue 07:54] =>  0:44
+CLOCK: [2024-06-25 Tue 06:56]--[2024-06-25 Tue 07:01] =>  0:05
+CLOCK: [2024-06-21 Fri 09:36]--[2024-06-21 Fri 10:08] =>  0:32
+CLOCK: [2024-06-21 Fri 08:26]--[2024-06-21 Fri 08:59] =>  0:33
+CLOCK: [2024-06-21 Fri 07:56]--[2024-06-21 Fri 08:18] =>  0:22
+CLOCK: [2024-06-20 Thu 15:31]--[2024-06-20 Thu 16:00] =>  0:29
+CLOCK: [2024-06-20 Thu 15:07]--[2024-06-20 Thu 15:13] =>  0:06
+:END:
+https://platform.openai.com/docs/assistants/overview?context=without-streaming
+https://platform.openai.com/docs/assistants/tools/code-interpreter
+https://platform.openai.com/docs/assistants/tools/code-interpreter/supported-files
+
+https://platform.openai.com/docs/assistants/tools/file-search
+https://platform.openai.com/docs/assistants/tools/function-calling
+
+
+** RETARD Threads                                                   :ARCHIVE:
+SCHEDULED: <2025-05-21 Wed>
+:LOGBOOK:
+CLOCK: [2024-06-25 Tue 14:41]--[2024-06-25 Tue 15:42] =>  1:01
+CLOCK: [2024-06-25 Tue 10:17]--[2024-06-25 Tue 11:14] =>  0:57
+CLOCK: [2024-06-25 Tue 09:31]--[2024-06-25 Tue 09:59] =>  0:28
+CLOCK: [2024-06-25 Tue 08:05]--[2024-06-25 Tue 09:31] =>  1:26
+CLOCK: [2024-06-25 Tue 07:54]--[2024-06-25 Tue 07:58] =>  0:04
+CLOCK: [2024-06-23 Sun 07:29]--[2024-06-23 Sun 08:00] =>  0:31
+:END:
+https://platform.openai.com/docs/api-reference/threads
+
+** Tools
+*** DELAY File Search                                                  :2025:
+SCHEDULED: <2025-11-20 Thu>
+:LOGBOOK:
+CLOCK: [2025-05-22 Thu 08:46]--[2025-05-22 Thu 08:55] =>  0:09
+CLOCK: [2024-08-15 Thu 09:51]--[2024-08-15 Thu 10:01] =>  0:10
+CLOCK: [2024-08-15 Thu 09:42]--[2024-08-15 Thu 09:46] =>  0:04
+CLOCK: [2024-08-15 Thu 09:24]--[2024-08-15 Thu 09:36] =>  0:12
+CLOCK: [2024-07-07 Sun 08:41]--[2024-07-07 Sun 08:47] =>  0:06
+:END:
+https://platform.openai.com/docs/assistants/tools/file-search
+[[file:~/Git/0--key/philomath/kin/openai-file-search.org::*Testing the 'File Search' Feature][Testing the 'File Search' Feature]]
+[[file:~/Git/0--key/philomath/kin/openai-file-search.org::*Understanding the 'File Search' Feature][Understanding the 'File Search' Feature]]
+
+*** DELAY Function Calling                                          :ARCHIVE:
+SCHEDULED: <2025-05-21 Wed>
+:LOGBOOK:
+CLOCK: [2024-07-13 Sat 07:39]--[2024-07-13 Sat 07:45] =>  0:06
+CLOCK: [2024-07-07 Sun 08:47]--[2024-07-07 Sun 08:51] =>  0:04
+:END:
+https://platform.openai.com/docs/assistants/tools/function-calling
+
+
+** DELAY [#B] Agent proficient in reasoning                            :2025:
+SCHEDULED: <2026-01-01 Thu>
+:LOGBOOK:
+CLOCK: [2025-05-12 Mon 04:41]--[2025-05-12 Mon 04:42] =>  0:01
+:END:
+And a philosopher as well!
+What kind of instructions they require?
+
+** BARE Web interface
+SCHEDULED: <2024-10-11 Fri>
+:LOGBOOK:
+CLOCK: [2024-06-21 Fri 17:22]--[2024-06-21 Fri 17:43] =>  0:21
+:END:
+

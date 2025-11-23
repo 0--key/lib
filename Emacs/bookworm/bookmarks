@@ -92,9 +92,11 @@
     (position . 194))
 #1=(#("Greenwood James. The True History of a Little Ragamuffin - royallib.com.epub" 0 76
       (bmkp-full-record #1#))
+    (annotation)
+    (tags)
     (filename . "/home/alioth/books/Greenwood James. The True History of a Little Ragamuffin - royallib.com.epub")
-    (index . 0)
-    (position . 46)
+    (index . 29)
+    (position . 16713)
     (handler . nov-bookmark-jump-handler))
 #1=(#("Become a Niche" 0 14
       (bmkp-full-record #1#))
