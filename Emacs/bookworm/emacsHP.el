@@ -120,7 +120,7 @@
  '(browse-url-browser-function 'eww-browse-url)
  '(desktop-save-mode t)
  '(org-agenda-files
-   '("~/Git/0--key/philomath/agenda.org" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
+   '("~/Git/0--key/philomath/theory/youtube.org" "/home/alioth/Git/0--key/philomath/V3-Thinking-Patterns/01-GIST.org" "/home/alioth/Git/0--key/philomath/agenda.org" "/home/alioth/Git/0--key/lib/org/drills.org" "/home/alioth/Git/0--key/org-pub/2022-01-27-cognitive-biases.org" "/home/alioth/Git/0--key/lib/org/agenda/might-do.list"))
  '(org-agenda-scheduled-leaders '("Sch " "Sch.%2dx: "))
  '(org-agenda-window-setup 'other-window)
  '(org-babel-load-languages '((python . t) (emacs-lisp . t) (shell . t) (sqlite . t)))
