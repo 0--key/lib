@@ -11,6 +11,8 @@
   (normal-top-level-add-subdirs-to-load-path)
   (nconc load-path orig-load-path))
 
+  (set-face-attribute 'default nil :height 140)
+
 (require 'bookmark+)
 (require 'magit)
 (require 'nov)
