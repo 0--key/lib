@@ -2782,3 +2782,842 @@ SCHEDULED: <2025-11-24 Mon>
 :LOGBOOK:
 CLOCK: [2024-09-27 Fri 09:40]--[2024-09-27 Fri 10:03] =>  0:23
 :END:
+
+* RAW Emotions-Feelings Table                                          :2025:
+SCHEDULED: <2025-11-26 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-26 Wed 08:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RAW
+:END:
+:LOGBOOK:
+CLOCK: [2025-06-05 Thu 06:23]--[2025-06-05 Thu 07:23] =>  1:00
+CLOCK: [2025-05-05 Mon 07:56]--[2025-05-05 Mon 08:30] =>  0:34
+:END:
+
+
+* DELAY Treemacs                                                       :2025:
+SCHEDULED: <2025-11-27 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-27 Thu 05:37
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2024-01-16 Tue 19:23]--[2024-01-16 Tue 19:29] =>  0:06
+:END:
+https://github.com/Alexander-Miller/treemacs
+
+* DELAY Followers                                             :backdoor:2025:
+SCHEDULED: <2025-11-27 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-27 Thu 05:44
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development/Synergy/Make friends across the world
+:ARCHIVE_CATEGORY: Synergy
+:ARCHIVE_TODO: DELAY
+:END:
+Justin Sun, Ali Abdal, Morgan Ua, Declan Meehan
+
+
+* RETARD External Links                                                :2025:
+SCHEDULED: <2025-11-27 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-27 Thu 05:44
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Handling links
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+:LOGBOOK:
+CLOCK: [2023-12-16 Sat 11:14]--[2023-12-16 Sat 11:16] =>  0:02
+:END:
+[[info:org#External Links]]
+[2023-12-15 Fri 18:14]
+
+
+* RAW [#B] NDLS
+SCHEDULED: <2025-12-02 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-12-02 Tue 10:05
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RAW
+:END:
+:LOGBOOK:
+CLOCK: [2025-04-30 Wed 15:59]--[2025-04-30 Wed 16:06] =>  0:07
+CLOCK: [2024-09-27 Fri 14:11]--[2024-09-27 Fri 15:15] =>  1:04
+:END:
+ukrainelicence@ndls.ie, cis@welfare.ie
+** DELAY Zero-shot learning :moveIt!:                   :TopicStarters:2025:
+SCHEDULED: <2026-01-01 Thu>
+:LOGBOOK:
+CLOCK: [2025-05-04 Sun 06:20]--[2025-05-04 Sun 06:50] =>  0:30
+CLOCK: [2024-07-12 Fri 05:52]--[2024-07-12 Fri 06:10] =>  0:18
+CLOCK: [2024-07-10 Wed 06:29]--[2024-07-10 Wed 06:32] =>  0:03
+CLOCK: [2024-07-09 Tue 09:50]--[2024-07-09 Tue 10:26] =>  0:36
+CLOCK: [2024-06-29 Sat 08:45]--[2024-06-29 Sat 09:03] =>  0:18
+CLOCK: [2024-06-29 Sat 07:22]--[2024-06-29 Sat 07:43] =>  0:21
+:END:
+[[elisp:(bookmark-jump-other-window "2024-06-29-zero-shot-learning.org")]]
+[[file:~/Git/0--key/org-pub/2024-06-29-zero-shot-learning.org::*Usage with OpenAI][Usage with OpenAI]]
+[[file:~/Git/0--key/org-pub/2024-06-29-zero-shot-learning.org::*Non-empirical system of perception][Non-empirical system of perception]]
+** DELAY Music                                                        :2025:
+SCHEDULED: <2026-01-14 Wed>
+:LOGBOOK:
+CLOCK: [2024-03-19 Tue 12:38]--[2024-03-19 Tue 12:42] =>  0:04
+:END:
+An Ending (Brian Eno)
+Reflection Nebula
+Ekhar
+2013 - Kalpamantra - Frith
+
+The Magi
+Council of Nine
+Dakhma
+2015 - Cryo Chamber - Olivier
+
+Lost in Translation
+Logan Nelson
+Lavender Echoes
+2020 - 1631 Recordings
+
+Lost in Translation
+Logan Nelson
+Lavender Echoes
+2020 - 1631 Recordings
+
+Winter Sorrows
+Connect.Ohm
+9980
+2012 - Ultimae - Koizumi / Scheffer
+
+Inocybe
+Azulina
+Fungipedia
+2020 - [self-released] - Canale
+
+Betula Pendula
+Carbon Based Lifeforms
+World of Sleepers
+2006 - Ultimae - Ringström / Hedberg
+
+Within the Primordial Cathedral
+Parhelion
+Temples in Ice
+2013 - Kalpamantra Records - Dawidiuk
+
+Girl Walking on the Beach Wearing a Skirt
+Kit
+Trè Em
+2012 - A Strangely Isolated Place
+
+The Forest
+Mont Real
+The Night Sky
+2019 - [self-released]
+
+you could strobe
+stanleystanley
+soon soon [ep]
+2021 - The Ambient Zone
+
+Pakgarin
+Ayqix
+Tarpuymit'a EP
+2011 - Temiong Recordings
+
+Magnetic Field
+Jack Hertz
+7.83 Hz
+2013 - Free Floating Music
+
+** INIT [[info:org#Activation][org-store-link]]                                             :ARCHIVE:
+SCHEDULED: <2022-11-29 Tue>
+
+For notes linkage in Zettelkasten
+[[info:org#Handling Links][Source]]
+
+** [#C] Archive non-actual tasks
+SCHEDULED: <2025-12-06 Sat .+3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2025-06-03 Tue 04:54]
+:END:
+- State "AMPLE"      from ""           [2025-06-03 Tue 04:54]
+- State "AMPLE"      from "RAW"        [2023-09-22 Fri 09:23]
+- State "DONE"       from "ACTIVE"     [2023-06-19 Mon 10:26]
+- State "DONE"       from "ACTIVE"     [2023-04-06 Thu 14:58]
+- State "DONE"       from "ACTIVE"     [2023-03-21 Tue 14:34]
+- State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
+:LOGBOOK:
+CLOCK: [2025-11-19 Wed 09:08]--[2025-11-19 Wed 09:26] =>  0:18
+CLOCK: [2025-06-03 Tue 04:51]--[2025-06-03 Tue 04:54] =>  0:03
+CLOCK: [2025-05-01 Thu 06:15]--[2025-05-01 Thu 06:18] =>  0:03
+CLOCK: [2023-03-15 Wed 09:01]--[2023-03-15 Wed 09:05] =>  0:04
+:END:
+- State "DONE"       from "ACTIVE"     [2023-02-28 Tue 13:22]
+- State "DONE"       from "ACTIVE"     [2022-12-11 Sun 13:44]
+- State "DONE"       from "ACTIVE"     [2022-12-08 Thu 07:34]
+for retrospect analysys
+[[info:org#Internal archiving][Source]]
+
+** INIT BBDB                                                       :ARCHIVE:
+SCHEDULED: <2022-11-25 Fri +2w -1d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-13 Sun 10:40]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-11 Fri 10:40]
+https://www.jwz.org/bbdb/
+
+** INIT Custom ID property
+:PROPERTIES:
+:CATEGORY: Zettelkasten
+:END:
+SCHEDULED: <2022-02-17 Thu>
+
+** INIT Paretto law                                                :ARCHIVE:
+SCHEDULED: <2022-12-19 Mon>
+:PROPERTIES:
+:CATEGORY: Meta
+:END:
+for time ratio on gathering and digesting
+
+** INIT Org-attach                                                 :ARCHIVE:
+SCHEDULED: <2022-12-08 Thu>
+What is it?
+
+** ACTIVE Text search in additional files                          :ARCHIVE:
+SCHEDULED: <2023-06-07 Wed +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-07 Mon 14:15]
+:END:
+:LOGBOOK:
+CLOCK: [2022-11-21 Mon 19:44]--[2022-11-21 Mon 19:56] =>  0:12
+:END:
+- State "DONE"       from "ACTIVE"     [2022-11-07 Mon 14:15]
+M-x customize-apropos org-agenda
+
+Org Agenda Text Search Extra Files:
+[ ] Agenda Archives
+[ ] Repeat:
+    [INS]
+   [ State ]: STANDARD.
+   List of extra files to be searched by text search commands.
+
+   These files will be searched in addition to the agenda files by the
+   commands ‘org-search-view’ (‘<key-chord> a g s’) and ‘org-occur-in-agenda-files’.
+   Note that these files will only be searched for text search commands,
+   not for the other agenda views like todo lists, tag searches or the weekly
+   agenda.  This variable is intended to list notes and possibly archive files
+   that should also be searched by these two commands.
+   In fact, if the first element in the list is the symbol ‘agenda-archives’,
+   then all archive files of all agenda files will be added to the search
+   scope.
+
+** DONE Switch from DeadLine
+SCHEDULED: <2022-02-15 Tue>
+on to [[info:org#Deadlines and Scheduling][SCHEDULED]]
+** DONE Make repeated tasks a chore
+SCHEDULED: <2022-11-08 Tue>
+:LOGBOOK:
+CLOCK: [2022-11-08 Tue 16:25]--[2022-11-08 Tue 16:32] =>  0:07
+:END:
+Repeated tasks
+--------------------
+[[info:org#Repeated tasks]]
+** DONE Inserting deadlines or schedules
+SCHEDULED: <2022-02-15 Tue>
+--------------------------------------
+[[info:org#Inserting deadline/schedule]]
+** DONE Deadlines and Scheduling
+SCHEDULED: <2022-11-07 Mon>
+:LOGBOOK:
+CLOCK: [2022-11-07 Mon 13:31]--[2022-11-07 Mon 13:53] =>  0:22
+:END:
+============================
+[[info:org#Deadlines and Scheduling]]
+** DONE Inserting deadlines or schedules
+SCHEDULED: <2022-11-07 Mon>
+--------------------------------------
+[[info:org#Inserting deadline/schedule]]
+** ACTIVE Capture for Books, Thoughts,                             :ARCHIVE:
+SCHEDULED: <2022-12-07 Wed>
+sayings, proverbs (Kazakh by Abay), idioms.
+
+To capture /a gist/ out of any material with minimal distractions and
+interruptions.
+** SET Include Files                                          :zettelkasten:
+SCHEDULED: <2023-06-25 Sun>
+[[info:org#Include Files]]
+** DONE Append ~drill files~ to *Agenda*
+SCHEDULED: <2022-11-22 Tue>
+:PROPERTIES:
+:LAST_REPEAT: [2022-02-21 Mon 09:59]
+:END:
+- Note taken on [2022-11-15 Tue 18:57] \\
+  Naturally it would be handy to switch to drilling node directly from
+  the *Org-Agenda* buffer. So, just include file with drills into
+  *Org-Agenda* list and all nodes become accessible in the appropriate
+  buffer.
+- State "MAYBE"      from "ACTIVE"     [2022-02-21 Mon 09:59]
+:LOGBOOK:
+CLOCK: [2022-11-22 Tue 17:15]--[2022-11-22 Tue 17:19] =>  0:04
+CLOCK: [2022-11-22 Tue 15:02]--[2022-11-22 Tue 15:16] =>  0:14
+CLOCK: [2022-11-15 Tue 10:50]--[2022-11-15 Tue 11:03] =>  0:13
+CLOCK: [2022-02-21 Mon 09:19]--[2022-02-21 Mon 09:46] =>  0:27
+CLOCK: [2022-02-21 Mon 08:38]--[2022-02-21 Mon 08:43] =>  0:05
+:END:
+[[file:~/git/lib/org/proverbs.org::*A drowning man will clutch at a straw][Proverbs in a moist form]]
+** RAW Frames of Mind by Howard Gardner
+https://www.goodreads.com/book/show/294035.Frames_Of_Mind
+** RAW Punished by Rewards by Alfie Kohn
+[[*Punished by Rewards by Alfie Kohn][Punished by Rewards by Alfie Kohn]]
+** RAW Distraction Epidemic
+** RAW Indistractable by Nir Eyal
+** RAW The Righteous Mind by Jonathan Haidt
+** RAW How to Talk to Anyone by Leil Lowndes
+** RAW Narrative Economics by Robert J. Shiller
+** RAW How We Learn by Benedict Carey
+** RAW Ultralearning by Scott H. Young
+** RAW Small Teaching by James M. Lang
+** BARE Clocking tasks execution
+SCHEDULED: <2024-10-11 Fri>
+- Note taken on [2023-06-06 Tue 07:05] \\
+  Now it seems not actual and uncertain, so just postpone it on two
+  months.
+org-clock-out Global
+org-clock-in & with C-u
+org-clock-in-last Global
+org-clock-cancel
+[[info:org#Clocking commands]]
+** DONE Commands in the Agenda Buffer                              :ARCHIVE:
+SCHEDULED: <2022-11-08 Tue>
+:LOGBOOK:
+CLOCK: [2022-11-06 Sun 10:16]--[2022-11-06 Sun 10:41] =>  0:25
+CLOCK: [2022-11-06 Sun 09:51]--[2022-11-06 Sun 10:10] =>  0:19
+CLOCK: [2022-02-22 Tue 10:04]--[2022-02-22 Tue 10:19] =>  0:15
+:END:
+==================================
+[[info:org#Agenda Commands]]
+** INIT Build sefl-sustained system provisioning you with time
+They require periodic support and nurturing, but they survive on
+their own, creating a surrogate for your time for money trade.
+[[file:~/git/org-pub/2022-02-11-making-money.org::They require periodic support and nurturing, but they survive on
+their own, creating a surrogate for your time for money trade.][Build money trees]]
+** INIT Create the content once.
+But then you can sell it to multiple people further down the line.
+[[file:~/git/org-pub/2022-02-11-making-money.org::create the content once. But then you can sell it to multiple people further down the line.][Build money trees]]
+** RAW The Rules of the Game, by Neil Strauss
+** DONE Thesaurus from Mariam-Webster
+SCHEDULED: <2022-11-08 Tue>
+:LOGBOOK:
+CLOCK: [2022-11-08 Tue 20:40]--[2022-11-08 Tue 20:58] =>  0:18
+:END:
+** RAW Heuristic theory or approach                                :ARCHIVE:
+SCHEDULED: <2022-11-18 Fri>
+which serves to promote discovery or /learning by encouraging
+experimentation/.
+** DONE Store and insert precise links
+SCHEDULED: <2022-11-11 Fri>
+bmkp-store-org-link
+[[https://www.emacswiki.org/emacs/BookmarkPlus#UsingMultipleBookmarkFiles]]
+** INIT Brendan Kelly                                              :ARCHIVE:
+DEADLINE: <2022-12-06 Tue -3d>
+** Review all TODOs even not scheduled yet?                        :ARCHIVE:
+SCHEDULED: <2022-12-11 Sun .+1w/2w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-04 Sun 12:13]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:13]
+- State "DONE"       from "ACTIVE"     [2022-11-21 Mon 09:16]
+:LOGBOOK:
+CLOCK: [2022-11-21 Mon 08:53]--[2022-11-21 Mon 09:16] =>  0:23
+:END:
+** ACTIVE Fleeting Notes templates elaboration                     :ARCHIVE:
+SCHEDULED: <2022-12-07 Wed .+3d/4d>
+:LOGBOOK:
+CLOCK: [2022-11-24 Thu 19:40]--[2022-11-24 Thu 20:24] =>  0:44
+CLOCK: [2022-11-24 Thu 16:05]--[2022-11-24 Thu 17:04] =>  0:59
+:END:
+[[info:org#Template expansion][org#Template expansion]]
+** INIT Distributed rehearsal system                               :ARCHIVE:
+SCHEDULED: <2022-12-07 Wed>
+=1h/8h/1d/3d/10d/=
+** [#C] Whole week scheduling
+SCHEDULED: <2025-12-07 Sun .+1w>
+:PROPERTIES:
+:CATEGORY: Meta
+:LAST_REPEAT: [2025-06-01 Sun 19:56]
+:END:
+- State "AMPLE"      from ""           [2025-06-01 Sun 19:56]
+- State "AMPLE"      from ""           [2025-05-12 Mon 04:54]
+- State "AMPLE"      from ""           [2024-08-11 Sun 19:43]
+- State "AMPLE"      from ""           [2024-08-04 Sun 19:48]
+- State "AMPLE"      from ""           [2024-06-09 Sun 20:57]
+- State "AMPLE"      from ""           [2024-06-03 Mon 19:45]
+- State "AMPLE"      from ""           [2024-05-12 Sun 19:50]
+- State "AMPLE"      from ""           [2024-03-24 Sun 19:19]
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:25]
+- State "AMPLE"      from ""           [2024-01-16 Tue 11:36]
+- State "AMPLE"      from ""           [2024-01-08 Mon 17:49]
+- State "AMPLE"      from ""           [2024-01-02 Tue 14:34]
+- State "AMPLE"      from ""           [2023-12-26 Tue 17:08]
+- State "AMPLE"      from ""           [2023-12-12 Tue 09:16]
+- State "AMPLE"      from ""           [2023-10-18 Wed 19:27]
+- State "AMPLE"      from "RAW"        [2023-09-24 Sun 11:51]
+- State "DONE"       from "ACTIVE"     [2023-06-19 Mon 10:27]
+- State "DONE"       from "ACTIVE"     [2023-05-23 Tue 14:12]
+- State "DONE"       from "ACTIVE"     [2023-03-28 Tue 15:25]
+- State "DONE"       from "ACTIVE"     [2023-03-21 Tue 12:02]
+- State "DONE"       from "ACTIVE"     [2023-03-13 Mon 12:06]
+- State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:25]
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
+- State "DONE"       from "ACTIVE"     [2022-11-22 Tue 10:32]
+:LOGBOOK:
+CLOCK: [2025-06-23 Mon 06:32]--[2025-06-23 Mon 06:49] =>  0:17
+CLOCK: [2025-06-11 Wed 04:50]--[2025-06-11 Wed 05:05] =>  0:15
+CLOCK: [2025-06-01 Sun 19:38]--[2025-06-01 Sun 19:56] =>  0:18
+CLOCK: [2025-05-12 Mon 04:42]--[2025-05-12 Mon 04:53] =>  0:11
+CLOCK: [2024-08-11 Sun 19:25]--[2024-08-11 Sun 19:43] =>  0:18
+CLOCK: [2024-08-04 Sun 19:32]--[2024-08-04 Sun 19:48] =>  0:16
+CLOCK: [2024-06-23 Sun 07:28]--[2024-06-23 Sun 07:28] =>  0:00
+CLOCK: [2024-06-09 Sun 20:54]--[2024-06-09 Sun 20:57] =>  0:03
+CLOCK: [2024-06-03 Mon 19:42]--[2024-06-03 Mon 19:45] =>  0:03
+CLOCK: [2024-05-21 Tue 08:46]--[2024-05-21 Tue 08:48] =>  0:02
+CLOCK: [2024-05-12 Sun 19:46]--[2024-05-12 Sun 19:50] =>  0:04
+CLOCK: [2024-04-08 Mon 16:59]--[2024-04-08 Mon 17:06] =>  0:07
+CLOCK: [2024-03-24 Sun 19:11]--[2024-03-24 Sun 19:18] =>  0:07
+CLOCK: [2024-03-19 Tue 12:19]--[2024-03-19 Tue 12:24] =>  0:05
+CLOCK: [2024-03-12 Tue 19:19]--[2024-03-12 Tue 19:24] =>  0:05
+CLOCK: [2024-03-12 Tue 19:13]--[2024-03-12 Tue 19:15] =>  0:02
+CLOCK: [2024-03-12 Tue 10:59]--[2024-03-12 Tue 11:02] =>  0:03
+CLOCK: [2024-01-16 Tue 11:33]--[2024-01-16 Tue 11:36] =>  0:03
+CLOCK: [2024-01-08 Mon 12:16]--[2024-01-08 Mon 12:20] =>  0:04
+CLOCK: [2024-01-02 Tue 14:26]--[2024-01-02 Tue 14:29] =>  0:03
+CLOCK: [2023-12-12 Tue 09:06]--[2023-12-12 Tue 09:15] =>  0:09
+CLOCK: [2023-12-11 Mon 09:49]--[2023-12-11 Mon 09:56] =>  0:07
+CLOCK: [2023-12-10 Sun 18:42]--[2023-12-10 Sun 18:52] =>  0:10
+CLOCK: [2023-11-10 Fri 09:27]--[2023-11-10 Fri 09:29] =>  0:02
+CLOCK: [2023-11-06 Mon 09:14]--[2023-11-06 Mon 09:20] =>  0:06
+CLOCK: [2023-11-04 Sat 15:27]--[2023-11-04 Sat 15:36] =>  0:09
+CLOCK: [2023-10-23 Mon 09:48]--[2023-10-23 Mon 09:56] =>  0:08
+CLOCK: [2023-10-23 Mon 09:44]--[2023-10-23 Mon 09:46] =>  0:02
+CLOCK: [2023-10-16 Mon 09:16]--[2023-10-16 Mon 09:21] =>  0:05
+CLOCK: [2023-10-16 Mon 08:56]--[2023-10-16 Mon 09:09] =>  0:13
+CLOCK: [2023-10-09 Mon 10:37]--[2023-10-09 Mon 10:43] =>  0:06
+CLOCK: [2023-10-09 Mon 10:21]--[2023-10-09 Mon 10:27] =>  0:06
+CLOCK: [2023-10-03 Tue 19:10]--[2023-10-03 Tue 19:12] =>  0:02
+CLOCK: [2023-09-27 Wed 08:47]--[2023-09-27 Wed 08:57] =>  0:10
+CLOCK: [2023-09-25 Mon 10:27]--[2023-09-25 Mon 10:38] =>  0:11
+CLOCK: [2023-06-19 Mon 10:05]--[2023-06-19 Mon 10:25] =>  0:20
+CLOCK: [2023-06-19 Mon 08:50]--[2023-06-19 Mon 09:04] =>  0:14
+CLOCK: [2023-04-10 Mon 11:36]--[2023-04-10 Mon 11:40] =>  0:04
+CLOCK: [2023-03-28 Tue 15:21]--[2023-03-28 Tue 15:25] =>  0:04
+CLOCK: [2023-03-21 Tue 11:59]--[2023-03-21 Tue 12:01] =>  0:02
+CLOCK: [2023-03-13 Mon 12:03]--[2023-03-13 Mon 12:06] =>  0:03
+CLOCK: [2023-03-06 Mon 12:19]--[2023-03-06 Mon 12:23] =>  0:04
+CLOCK: [2023-01-10 Tue 11:47]--[2023-01-10 Tue 12:07] =>  0:20
+CLOCK: [2022-12-19 Mon 12:30]--[2022-12-19 Mon 12:37] =>  0:07
+CLOCK: [2022-12-19 Mon 12:27]--[2022-12-19 Mon 12:29] =>  0:02
+CLOCK: [2022-12-11 Sun 13:27]--[2022-12-11 Sun 13:44] =>  0:17
+CLOCK: [2022-12-04 Sun 12:04]--[2022-12-04 Sun 12:21] =>  0:17
+CLOCK: [2022-11-21 Mon 16:19]--[2022-11-21 Mon 16:37] =>  0:18
+:END:
+** INIT Several sets of keywords                                   :ARCHIVE:
+SCHEDULED: <2022-11-22 Tue>
+Setting up keywords for individual files
+[[info:org#Per-file keywords]]
+** INIT [#A] Agenda for next 4 months                              :ARCHIVE:
+SCHEDULED: <2022-11-22 Tue .+1d>
+:PROPERTIES:
+:CATEGORY: MetaFuture
+:END:
+
+- Note taken on [2022-11-21 Mon 08:16] \\
+  Compose the ~LongRunAgenda~ for next 4 months with inclination on
+  
+  - English:
+  + Grammar;
+  + Vocabulary;
+  + Pronounciation;
+  
+  = Python
+  ...
+  
+  ++ Mental Health
+** INIT Irish by myself                                            :ARCHIVE:
+SCHEDULED: <2022-12-08 Thu>
+** Family
+:PROPERTIES:
+:CATEGORY: kin
+:END:
+*** INIT Bash with Andrew                                         :ARCHIVE:
+SCHEDULED: <2023-03-15 Wed .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-03 Sat 09:35]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-03 Sat 09:35]
+*** INIT Chemistry with Andrew                                    :ARCHIVE:
+SCHEDULED: <2023-03-15 Wed .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-04 Sun 21:39]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
+*** INIT Physics with Andrew                                      :ARCHIVE:
+SCHEDULED: <2023-03-15 Wed .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-04 Sun 21:39]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 21:39]
+*** RAW Milford Library #1                                        :ARCHIVE:
+SCHEDULED: <2023-03-16 Thu .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-03-09 Thu 12:40]
+:END:
+
+- State "DONE"       from "ACTIVE"     [2023-03-09 Thu 12:40]
+*** Milford Library with ViLee                                    :ARCHIVE:
+SCHEDULED: <2023-03-16 Thu .+1w>
+
+*** Shopping with ViLee in Milford
+SCHEDULED: <2025-12-02 Tue .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-06-11 Wed 04:59]
+:END:
+- State "AMPLE"      from ""           [2025-06-11 Wed 04:59]
+- State "AMPLE"      from ""           [2025-06-03 Tue 19:56]
+- Note taken on [2025-05-06 Tue 06:03] \\
+  Lemon, cucumbers and swimming suite
+- State "SET"        from "DELAY"      [2025-04-28 Mon 04:16]
+- State "SET"        from "DELAY"      [2025-04-28 Mon 04:16]
+- State "AMPLE"      from "RAW"        [2025-04-28 Mon 04:16]
+- State "AMPLE"      from "RAW"        [2025-04-28 Mon 04:16]
+- State "AMPLE"      from "RAW"        [2025-04-28 Mon 04:16]
+- State "AMPLE"      from ""           [2024-06-27 Thu 16:51]
+- State "AMPLE"      from ""           [2024-02-29 Thu 20:25]
+- State "AMPLE"      from ""           [2023-11-03 Fri 09:03]
+- State "AMPLE"      from ""           [2023-10-27 Fri 08:29]
+- State "AMPLE"      from ""           [2023-10-19 Thu 15:59]
+- State "AMPLE"      from ""           [2023-10-11 Wed 19:49]
+- State "AMPLE"      from ""           [2023-10-04 Wed 19:08]
+:LOGBOOK:
+CLOCK: [2025-06-03 Tue 11:39]--[2025-06-03 Tue 19:55] =>  8:16
+CLOCK: [2023-10-04 Wed 17:07]--[2023-10-04 Wed 19:08] =>  2:01
+:END:
+
+- State "AMPLE"      from ""           [2023-09-29 Fri 07:34]
+- State "AMPLE"      from ""           [2023-09-22 Fri 09:51]
+*** Family shopping in Letterkenny
+SCHEDULED: <2025-12-05 Fri ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-06-06 Thu 18:22]
+:END:
+
+
+
+- State "AMPLE"      from ""           [2024-06-06 Thu 18:22]
+- State "AMPLE"      from ""           [2024-05-25 Sat 14:24]
+- State "AMPLE"      from ""           [2024-04-05 Fri 16:23]
+- State "AMPLE"      from ""           [2023-12-16 Sat 10:59]
+- State "AMPLE"      from ""           [2023-10-30 Mon 10:26]
+- Note taken on [2023-06-07 Wed 12:07] \\
+  And visit Intreo Office at 10.50
+** RETARD Reading Alice                                               :2025:
+SCHEDULED: <2025-12-11 Thu .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-04 Sun 13:19]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:19]
+:LOGBOOK:
+CLOCK: [2022-12-04 Sun 12:57]--[2022-12-04 Sun 13:18] =>  0:21
+:END:
+** INIT Re-writing ProductivityGame                                :ARCHIVE:
+SCHEDULED: <2023-04-06 Thu .+2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-12-07 Wed 19:25]
+:END:
+- State "DONE"       from "ACTIVE"     [2022-12-07 Wed 19:25]
+:LOGBOOK:
+CLOCK: [2022-12-07 Wed 18:25]--[2022-12-07 Wed 18:57] =>  0:32
+:END:
+** INIT Improve your English                                       :ARCHIVE:
+SCHEDULED: <2022-12-16 Fri>
+https://www.youtube.com/watch?v=axYAW7PuSIM
+** DONE YouTube overview
+SCHEDULED: <2023-03-22 Wed>
+:LOGBOOK:
+CLOCK: [2023-03-22 Wed 15:04]--[2023-03-22 Wed 15:35] =>  0:31
+:END:
+Notetaking around a decent CV
+** LAG New dev environment on ChromeBook                           :ARCHIVE:
+SCHEDULED: <2024-01-05 Fri>
+:LOGBOOK:
+CLOCK: [2023-04-06 Thu 17:40]--[2023-04-06 Thu 18:51] =>  1:11
+CLOCK: [2023-04-01 Sat 13:27]--[2023-04-01 Sat 13:27] =>  0:00
+CLOCK: [2023-03-30 Thu 15:13]--[2023-03-30 Thu 15:22] =>  0:09
+:END:
+- Git;
+- Magit;
+- Thesaurus;
+- Info files;
+- Bookmark+;
+- Dictionary;
+** DONE Letter to ATU
+SCHEDULED: <2023-04-12 Wed>
+:LOGBOOK:
+CLOCK: [2023-04-12 Wed 15:44]--[2023-04-12 Wed 15:59] =>  0:15
+:END:
+English for academic study
+** INIT Family of 3 Ukrainians                                     :ARCHIVE:
+SCHEDULED: <2023-05-02 Tue>
+looking for 2 bedroom house in
+Letterkenny, Milford, Kerrykeel, Rathmullan area. Tax-free 8
+hundreds from the Government
+
+https://bit.ly/3Kxjzx6
+
+16 y.o. boy from Mulroy College and his parents. No pets,
+non-smokers, tea-total.
+** DELAY Phronesis :moveIt!:                            :TopicStarters:2025:
+SCHEDULED: <2026-02-11 Wed>
+:LOGBOOK:
+CLOCK: [2023-05-25 Thu 11:36]--[2023-05-25 Thu 11:58] =>  0:22
+:END:
+[[https://en.wikipedia.org/wiki/Phronesis][Phronesis - Wikipedia]]
+** RETARD Dry Creek Wrangler School                                   :2025:
+SCHEDULED: <2026-02-01 Sun>
+** RAW Gargantuan efforts
+Dogged tenacity again, capture for idioms(!)
+** RAW (Un)onditionaly repetitive tasks
+** RAW Collection of Python snippets with Bmkp
+** RAW Notes into ideas incubator
+Thought gestation usually is a delicate and time-consuming process.
+** RAW other-window -1 {JO>jj>JJ>??}
+** RAW Commit to Emacs repo
+** RAW org-tempo, org-superstar
+#+begin_src elisp
+  Org mode awesome  
+  (use-package org  
+    :ensure t  
+    :bind (  
+       ("C-c l" . org-store-link)  
+       ("C-c a" . org-agenda)  
+       ("C-c c" . org-capture))  
+    :config  
+    (require 'org-tempo)  
+    ;; (setq org-startup-indented t) ; Enable `org-indent-mode' by default  
+    (setq org-log-done t) ; Set time for when things were completed  
+    (setq org-hide-emphasis-markers t) ; Not show typographical commands  
+    (setq org-plantuml-jar-path (expand-file-name "/usr/share/plantuml/plantuml.jar"))  
+    )  
+
+  (use-package org-superstar  
+    :ensure t  
+    :config  
+    (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1))))  
+
+  (use-package org-present  
+    :ensure t  
+    )  
+
+#+end_src
+** RETARD [#C] AWS micro-instance
+SCHEDULED: <2025-12-24 Wed>
+- Note taken on [2024-08-02 Fri 20:39] \\
+  After you stop the instance, you are no longer charged usage or data
+  transfer fees for it. However, you will still be billed for associated
+  resources, such as attached EBS volumes and associated Elastic IP
+  addresses.
+- Note taken on [2024-07-10 Wed 17:58] \\
+  How many requests can t2 process? How to calculate it?
+- Note taken on [2023-09-22 Fri 10:19] \\
+  Yes, it is appealingly attractive, but it's only 25GB Linux :-)
+:LOGBOOK:
+CLOCK: [2024-08-05 Mon 19:57]--[2024-08-05 Mon 20:10] =>  0:13
+CLOCK: [2024-08-01 Thu 17:07]--[2024-08-01 Thu 17:11] =>  0:04
+CLOCK: [2024-07-10 Wed 08:51]--[2024-07-10 Wed 08:59] =>  0:08
+CLOCK: [2024-07-08 Mon 17:38]--[2024-07-08 Mon 18:19] =>  0:41
+CLOCK: [2024-07-08 Mon 06:05]--[2024-07-08 Mon 07:23] =>  1:18
+CLOCK: [2023-09-22 Fri 10:19]--[2023-09-22 Fri 10:21] =>  0:02
+CLOCK: [2023-09-21 Thu 18:35]--[2023-09-21 Thu 19:04] =>  0:29
+:END:
+For open-source projects contributing
+[[https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Home:]]
+
+
+** RETARD 3 months in the future /smart/ shift                     :ARCHIVE:
+SCHEDULED: <2024-07-16 Tue>
+- Note taken on [2023-09-21 Thu 19:32] \\
+  It is possible to bulk-scatter task across several weeks in the near
+  future. So it might be reasonable to switch all postponed tasks in
+  to DELAY set and:
+
+  - Split all them into 3 or 4 groups of tasks:
+    - Next week;
+    - Next month;
+    - Next 3 months.
+
+      Which allow to shift each group separately (smartly)
+
+:LOGBOOK:
+CLOCK: [2023-09-22 Fri 09:44]--[2023-09-22 Fri 10:09] =>  0:25
+CLOCK: [2023-09-21 Thu 19:17]--[2023-09-21 Thu 19:35] =>  0:18
+:END:
++ switch on to another state (DELAY) set macros
+** RAW Dedicated window registers for:
+- *scratch* buffer;
+- magit's buffers;
+- *Org-Agenda*
++ and key-chord for speed access
+** DONE [#A] The separate category for Python
+SCHEDULED: <2023-09-27 Wed>
+:LOGBOOK:
+CLOCK: [2023-09-27 Wed 15:49]--[2023-09-27 Wed 16:03] =>  0:14
+:END:
+- Note taken on [2023-09-25 Mon 10:18] \\
+  or even a separate file appended to *Org-Agenda*
+** DELAY Story telling with Martin                                 :ARCHIVE:
+SCHEDULED: <2024-04-08 Mon ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-01-25 Thu 18:06]
+:END:
+- State "AMPLE"      from ""           [2024-01-25 Thu 18:06]
+- State "AMPLE"      from ""           [2023-11-01 Wed 14:59]
+:LOGBOOK:
+CLOCK: [2023-11-01 Wed 12:52]--[2023-11-01 Wed 14:58] =>  2:06
+CLOCK: [2023-10-02 Mon 12:54]--[2023-10-02 Mon 13:37] =>  0:43
+:END:
+** DONE [#A] Letters for Manuel and Kane
+SCHEDULED: <2023-09-28 Thu>
+:LOGBOOK:
+CLOCK: [2023-09-28 Thu 11:28]--[2023-09-29 Fri 07:29] => 20:01
+CLOCK: [2023-09-28 Thu 07:51]--[2023-09-28 Thu 08:13] =>  0:22
+:END:
+** SET Tramp
+SCHEDULED: <2024-01-09 Tue>
+/ssh:alioth@192.168.43.35#8022:/home/alioth/
+(tramp) Top
+** SET Backlit keyboard                              :backlit:keyboard:Dell:
+SCHEDULED: <2024-01-09 Tue>
+sudo nano /sys/class/leds/dell\:\:kbd_backlight/stop_timeout
+** SET The separate key-chord for clocked snippet
+SCHEDULED: <2023-12-15 Fri>
+:LOGBOOK:
+CLOCK: [2023-12-15 Fri 12:17]--[2023-12-15 Fri 12:36] =>  0:19
+:END:
+https://www.reddit.com/r/DoomEmacs/comments/poxx5n/how_do_you_add_twokey_orgcapturetemplates_entries/
+- ELisp programs can set KEYS to a string associated with a template
+  in ‘org-capture-templates’.  In this case, interactive selection
+  will be bypassed.
+   [2023-12-15 Fri 12:35]
+** AMPLE Four types of bad-bosses
+SCHEDULED: <2024-01-05 Fri>
+:LOGBOOK:
+CLOCK: [2024-01-05 Fri 19:59]--[2024-01-05 Fri 20:16] =>  0:17
+:END:
+- [[https://lifehacker.com/four-types-of-bad-bosses?utm_source=pocket-newtab-en-gb]] [2024-01-05 Fri 20:16]
+** INIT Enhanced self-esteem                                   :therapy:ALC:
+SCHEDULED: <2025-12-16 Tue ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2025-11-27 Thu 05:42]
+:END:
+- State "AMPLE"      from "RAW"        [2025-11-27 Thu 05:42]
+- State "AMPLE"      from "RAW"        [2025-05-20 Tue 07:08]
+- Note taken on [2025-05-12 Mon 06:01] \\
+  The Winner Effect by Ian Robertson
+- State "BARE"       from "RETARD"     [2025-05-05 Mon 06:14]
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
+:LOGBOOK:
+CLOCK: [2025-05-20 Tue 05:34]--[2025-05-20 Tue 06:22] =>  0:48
+CLOCK: [2025-05-13 Tue 09:10]--[2025-05-13 Tue 09:40] =>  0:30
+CLOCK: [2025-05-13 Tue 08:22]--[2025-05-13 Tue 08:54] =>  0:32
+CLOCK: [2025-05-12 Mon 06:01]--[2025-05-12 Mon 06:05] =>  0:04
+CLOCK: [2024-03-12 Tue 19:12]--[2024-03-12 Tue 19:12] =>  0:00
+CLOCK: [2024-01-26 Fri 18:54]--[2024-01-26 Fri 19:10] =>  0:16
+:END:
+1. Acknowledge and count your wins
+2. Reward efforts,  not outcomes
+3. Easy wins first, then stack
+4. Build self trust in your word
+5. Manage expectations
+6. Visualisation
+https://www.youtube.com/watch?v=0ruvCL9atE0
+[[elisp:(bookmark-jump-other-window "bewinner.org")][The point]]
+
+** BARE ElectricSheep
+SCHEDULED: <2024-10-11 Fri>
+** RETARD Leadership as an advanced skill                          :ARCHIVE:
+SCHEDULED: <2025-05-01 Thu>
+Team synergy induction, gestation, stimulation
+
+*Synergy³* == how to define it as the highest priority task to do, create
+a hospitable environment for its incubation, gestation and benign
+development. After its initiation == how to foster it, stimulate it to
+grow up in the right direction, how to cultivate and control it.
+** SET Separate venv for each frame
+SCHEDULED: <2024-04-09 Tue>
+- Note taken on [2024-04-10 Wed 10:22] \\
+  Seems it is impossible, but can be solved by hook: just launch a new
+  instance of =Emacs= and activate another =venv= there.
+:LOGBOOK:
+CLOCK: [2024-04-10 Wed 10:23]--[2024-04-10 Wed 10:23] =>  0:00
+CLOCK: [2024-03-28 Thu 10:59]--[2024-03-28 Thu 11:04] =>  0:05
+:END:
+** [#C] Lead Agenda elaboration                                    :ARCHIVE:
+SCHEDULED: <2025-05-01 Thu ++3d/4d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-08-07 Wed 18:04]
+:END:
+- State "AMPLE"      from ""           [2024-08-07 Wed 18:04]
+- State "AMPLE"      from ""           [2024-08-04 Sun 20:16]
+- Note taken on [2024-06-17 Mon 07:29] \\
+  ** RAW [#B] Learn with OpenAI
+  :LOGBOOK:
+  CLOCK: [2024-08-07 Wed 17:55]--[2024-08-07 Wed 18:04] =>  0:09
+  CLOCK: [2024-08-04 Sun 19:58]--[2024-08-04 Sun 20:12] =>  0:14
+  CLOCK: [2024-06-17 Mon 07:13]--[2024-06-17 Mon 07:29] =>  0:16
+  CLOCK: [2023-06-21 Wed 10:25]--[2023-06-21 Wed 10:50] =>  0:25
+  :END:
+  [[https://www.youtube.com/watch?v=MnDudvCyWpc][How to Learn Anything Fast]]
+- State "AMPLE"      from ""           [2024-06-13 Thu 18:22]
+- Note taken on [2024-06-13 Thu 17:20] \\
+  Link for transcripts
+  + The sample of on-page Babel testing
+  + Link for Course
+  + Counsel
+:LOGBOOK:
+CLOCK: [2024-06-17 Mon 07:29]--[2024-06-17 Mon 07:31] =>  0:02
+CLOCK: [2024-06-13 Thu 17:45]--[2024-06-13 Thu 18:22] =>  0:37
+CLOCK: [2024-06-13 Thu 17:20]--[2024-06-13 Thu 17:22] =>  0:02
+:END:
+- Note taken on [2024-05-30 Thu 08:47] \\
+  Ask ChatGPT about particular questions on the job interview
+- Note taken on [2024-05-30 Thu 08:26] \\
+  “Knowing the right questions is much harder than having the answers.”
+- Note taken on [2024-05-30 Thu 08:23] \\
+  Literate Programming + Learning through Testing: To show explicitly
+  and prove the concept.
+** AMPLE [#C] Package-check-signature
+SCHEDULED: <2024-05-30 Thu>
+
+* RETARD Joe Navarro                                                   :2025:
+SCHEDULED: <2025-12-04 Thu ++5d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-30 Thu 09:34]
+:ARCHIVE_TIME: 2025-12-04 Thu 09:31
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development/Non-verbal communication
+:ARCHIVE_CATEGORY: Non-VC
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-05-30 Thu 09:34]
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 09:23]--[2024-05-30 Thu 09:34] =>  0:11
+:END:
+https://www.youtube.com/watch?v=f9SA25OukyM
+https://www.youtube.com/watch?v=tL0vtPSl-yc
+
