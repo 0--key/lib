@@ -18,27 +18,44 @@ Advanced to-do list    -*- mode: org; -*-
 :CATEGORY: PersDev
 :END:
 
+** Concepts                                                        :concept:
+
+*** Chesterton’s Fence
+https://fs.blog/chestertons-fence/
+
+
+*** The stages of death acceptance
+SCHEDULED: <2026-01-02 Fri>
+part of the Kübler-Ross model, are commonly known as Denial, Anger,
+Bargaining, Depression, and Acceptance, but they aren't a rigid,
+linear path; people can skip stages, repeat them, or experience them
+out of order, as grief is highly personal and non-linear.
+
+*** Nyāya
+SCHEDULED: <2026-01-01 Thu>
+literally meaning "justice", "rules", "method" or "judgment",
+is one of the six orthodox schools of Hindu philosophy.
+
+*** Ontology
+SCHEDULED: <2026-01-03 Sat>
+is the philosophical study of being, existence, and reality, exploring
+what kinds of things exist, their fundamental categories, and their
+relationships, essentially asking "what is?".
+
+*** The term "human intent amplifier"
+SCHEDULED: <2026-01-05 Mon>
+is a philosophical and technological concept, often used to describe
+the role of technology—particularly Artificial Intelligence (AI)—as a
+tool that magnifies human capabilities, decisions, and values
+
 
 ** Non-verbal communication
 :PROPERTIES:
 :CATEGORY: Non-VC
 :END:
 
-*** RETARD Vanessa Van Edwards                                       :2025:
-SCHEDULED: <2025-12-28 Sun ++2d/3d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-05-30 Thu 09:21]
-:END:
-- State "AMPLE"      from ""           [2024-05-30 Thu 09:21]
-- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
-:LOGBOOK:
-CLOCK: [2024-05-26 Sun 19:10]--[2024-05-26 Sun 19:46] =>  0:36
-CLOCK: [2024-05-26 Sun 10:55]--[2024-05-26 Sun 11:34] =>  0:39
-CLOCK: [2024-05-21 Tue 18:20]--[2024-05-21 Tue 18:51] =>  0:31
-:END:
-https://www.youtube.com/watch?v=c68E7S_D3Rs
-https://www.youtube.com/watch?v=f9SA25OukyM
-
+** CareerSwitch
+SCHEDULED: <2026-01-08 Thu>
 ** Synergy
 
 :PROPERTIES:
@@ -175,8 +192,11 @@ SCHEDULED: <2026-01-08 Thu ++1d>
 CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
 :END:
 
-**** DELAY Task Management                                          :2025:
-SCHEDULED: <2025-12-20 Sat>
+**** LAG Task Management                                            :2025:
+SCHEDULED: <2026-02-28 Sat>
+:LOGBOOK:
+CLOCK: [2025-12-22 Mon 05:35]--[2025-12-22 Mon 05:36] =>  0:01
+:END:
 [[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Task management][Task management]]
 
 
@@ -187,19 +207,47 @@ Take an attempt and publish your work
 
 
 *** LAG Test Driven Learnning                                        :2025:
-SCHEDULED: <2025-12-07 Sun>
+SCHEDULED: <2026-04-20 Mon>
 
 ** English
 :PROPERTIES:
 :CATEGORY: English
 :END:
 
-*** Edward L. Wickes
-SCHEDULED: <2025-12-05 Fri ++1w>
-
-*** [#A] Talk with Gemini
-SCHEDULED: <2025-12-06 Sat ++1d>
+*** Jeeves&Wooster
+SCHEDULED: <2025-12-30 Tue ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2025-12-17 Wed 17:57]
+:END:
+- State "AMPLE"      from ""           [2025-12-17 Wed 17:57]
+- State "AMPLE"      from ""           [2025-12-16 Tue 19:42]
+- State "AMPLE"      from ""           [2025-12-11 Thu 20:22]
+- I was given to understand that you
+    required a valet. [2025-12-17 Wed 16:18]
+- Gentlemen have told me they find it invigorating
+    after a late evening. [2025-12-17 Wed 16:19]
+- I'm not at liberty to divulge the ingredients, sir. [2025-12-17 Wed 16:21]
+- I was hoping to have a snifter before lunch. [2025-12-17 Wed 16:22]
 :LOGBOOK:
+CLOCK: [2025-12-17 Wed 16:15]--[2025-12-17 Wed 16:42] =>  0:27
+CLOCK: [2025-12-16 Tue 18:52]--[2025-12-16 Tue 19:40] =>  0:48
+CLOCK: [2025-12-16 Tue 16:44]--[2025-12-16 Tue 17:43] =>  0:59
+CLOCK: [2025-12-11 Thu 17:23]--[2025-12-11 Thu 18:12] =>  0:49
+:END:
+https://gemini.google.com/share/4817fcabb2b0
+[[elisp:(bookmark-jump-other-window "2025-12-16-jeeves-and-wooster.org")][Current position]]
+
+*** Edward L. Wickes
+SCHEDULED: <2026-01-02 Fri ++1w>
+
+*** Talk with Gemini
+SCHEDULED: <2025-12-30 Tue ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2025-12-29 Mon 19:34]
+:END:
+- State "AMPLE"      from ""           [2025-12-29 Mon 19:34]
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 19:01]--[2025-12-29 Mon 19:34] =>  0:33
 CLOCK: [2025-12-04 Thu 10:48]--[2025-12-04 Thu 11:48] =>  1:00
 CLOCK: [2025-12-04 Thu 09:40]--[2025-12-04 Thu 10:33] =>  0:53
 CLOCK: [2025-05-02 Fri 10:26]--[2025-05-02 Fri 10:42] =>  0:16
@@ -232,8 +280,8 @@ SCHEDULED: <2025-11-25 Tue>
 CLOCK: [2025-11-25 Tue 15:17]--[2025-11-25 Tue 16:05] =>  0:48
 :END:
 
-**** Parts of speech                                                :2025:
-SCHEDULED: <2025-12-25 Thu>
+**** DELAY Parts of speech                                          :2025:
+SCHEDULED: <2026-01-29 Thu>
 :LOGBOOK:
 CLOCK: [2025-06-11 Wed 06:21]--[2025-06-11 Wed 06:39] =>  0:18
 CLOCK: [2025-06-11 Wed 06:00]--[2025-06-11 Wed 06:11] =>  0:11
@@ -253,8 +301,8 @@ CLOCK: [2025-05-05 Mon 07:53]--[2025-05-05 Mon 07:56] =>  0:03
 
 *** DELAY Colloquialisms                                             :2025:
 SCHEDULED: <2026-01-17 Sat>
-*** Message for Edward Lewis
-SCHEDULED: <2025-12-19 Fri>
+*** DELAY Message for Edward Lewis
+SCHEDULED: <2026-01-23 Fri>
 
 *** BARE Prosody
 SCHEDULED: <2025-07-01 Tue>
@@ -444,7 +492,7 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 ** ACTIVE Shallow/deep | long/short sessions                       :ARCHIVE:
 SCHEDULED: <2024-05-17 Fri>
 ** DELAY Strategic Thinking                                           :2025:
-SCHEDULED: <2025-12-11 Thu ++2d/3d>
+SCHEDULED: <2026-02-13 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 16:04]
 :END:
@@ -513,8 +561,8 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :END:
 A Clot for Every Slot
 
-** DELAY Modes of Thinking :moveIt!:                    :TopicStarters:2025:
-SCHEDULED: <2025-12-13 Sat>
+** LAG Modes of Thinking :moveIt!:                      :TopicStarters:2025:
+SCHEDULED: <2026-04-27 Mon>
 [[elisp:(bookmark-jump-other-window "2024-08-05-modes-of-thinking.org")]]
 [[elisp:(bookmark-jump-other-window "2024-08-05-six-levels-of-thinking.org")]]
 :LOGBOOK:
@@ -527,8 +575,8 @@ CLOCK: [2024-08-05 Mon 06:05]--[2024-08-05 Mon 06:37] =>  0:32
 
 ** Weekly
 
-*** [#A] Friday as a Day of Reflection
-SCHEDULED: <2025-12-05 Fri>
+*** Friday as a Day of Reflection
+SCHEDULED: <2026-01-02 Fri>
 :LOGBOOK:
 CLOCK: [2025-11-28 Fri 14:44]--[2025-11-28 Fri 15:06] =>  0:22
 :END:
@@ -537,10 +585,15 @@ CLOCK: [2025-11-28 Fri 14:44]--[2025-11-28 Fri 15:06] =>  0:22
 - Analysis.
 
 *** [#A] Thursday as a Day of Extension and Refactoring:
-SCHEDULED: <2025-12-11 Thu ++1w>
+SCHEDULED: <2026-01-01 Thu ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-11-28 Fri 14:43]
+:LAST_REPEAT: [2025-12-18 Thu 19:29]
 :END:
+- State "AMPLE"      from ""           [2025-12-18 Thu 19:29]
+:LOGBOOK:
+CLOCK: [2025-12-18 Thu 19:28]--[2025-12-18 Thu 19:29] =>  0:01
+:END:
+- State "AMPLE"      from ""           [2025-12-11 Thu 20:23]
 - State "AMPLE"      from ""           [2025-11-28 Fri 14:43]
 - State "AMPLE"      from ""           [2025-05-22 Thu 19:40]
 - State "AMPLE"      from ""           [2025-05-01 Thu 19:07]
@@ -601,8 +654,8 @@ CLOCK: [2025-05-05 Mon 06:18]--[2025-05-05 Mon 06:28] =>  0:10
 :END:
 [[info:org#Sparse Trees][org#Sparse Trees]]
 
-** RETARD Emacs config                                                :2025:
-SCHEDULED: <2025-12-16 Tue>
+** BARE Emacs config                                                  :2025:
+SCHEDULED: <2025-12-15 Mon>
 :LOGBOOK:
 CLOCK: [2024-07-10 Wed 17:01]--[2024-07-10 Wed 17:58] =>  0:57
 CLOCK: [2024-07-10 Wed 16:19]--[2024-07-10 Wed 16:28] =>  0:09
@@ -625,15 +678,8 @@ CLOCK: [2025-05-06 Tue 05:03]--[2025-05-06 Tue 05:17] =>  0:14
 [[info:org#Tags][org#Tags]]
 [[info:org#Tag Searches][org#Tag Searches]]
 
-** RETARD Emacs deployment script                                     :2025:
-SCHEDULED: <2025-12-28 Sun>
-:LOGBOOK:
-CLOCK: [2024-07-09 Tue 16:03]--[2024-07-09 Tue 16:10] =>  0:07
-CLOCK: [2024-07-09 Tue 11:20]--[2024-07-09 Tue 12:14] =>  0:54
-:END:
-[[elisp:(bookmark-jump-other-window "2024-02-27-debian-12-emacs.org")]]
-** LAG Emacs server on Debian 12 article                              :2025:
-SCHEDULED: <2025-12-17 Wed ++2d>
+** RETARD Emacs server on Debian 12 article                           :2025:
+SCHEDULED: <2026-05-06 Wed ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-07-01 Mon 08:58]
 :END:
@@ -886,8 +932,8 @@ CLOCK: [2024-09-27 Fri 09:01]--[2024-09-27 Fri 09:22] =>  0:21
 :END:
 (‘org-latex-export-to-pdf’)
 [[info:org#Include Files][org#Include Files]]
-** DELAY Scratch.backup revision                                      :2025:
-SCHEDULED: <2025-12-18 Thu>
+** LAG Scratch.backup revision                                        :2025:
+SCHEDULED: <2026-06-16 Tue>
 ** INIT Retelling, rehearsal, paraphrase, narration                   :2025:
 SCHEDULED: <2026-02-25 Wed>
 - Note taken on [2025-05-22 Thu 19:48] \\
@@ -905,9 +951,12 @@ CLOCK: [2025-05-22 Thu 19:47]--[2025-05-22 Thu 19:47] =>  0:00
 :END:
 
 * Misc
+:PROPERTIES:
+:CATEGORY: Misc
+:END:
 
 ** RSA Reduced EDT
-SCHEDULED: <2025-12-09 Tue>
+SCHEDULED: <2025-12-31 Wed>
 :LOGBOOK:
 CLOCK: [2025-12-04 Thu 10:33]--[2025-12-04 Thu 10:48] =>  0:15
 :END:
@@ -915,8 +964,56 @@ CLOCK: [2025-12-04 Thu 10:33]--[2025-12-04 Thu 10:48] =>  0:15
 ** DELAY Non-empirical system of perception :moveIt!:   :TopicStarters:2025:
 SCHEDULED: <2026-02-17 Tue>
 
+** Glacier/AralSea
+SCHEDULED: <2026-01-01 Thu>
+:LOGBOOK:
+CLOCK: [2025-12-18 Thu 06:17]--[2025-12-18 Thu 06:53] =>  0:36
+:END:
+#+begin_src markdown
+Here are the specific names for the professionals who study these two
+distinct fields:
+
+###1. Study of Glaciers: **Glaciologist**
+
+A **Glaciologist** is a scientist who studies glaciers, ice sheets,
+and other natural phenomena involving ice (cryosphere).
+
+- **What they do:** They analyze the movement, formation, and retreat
+  of glaciers. They also study how ice interacts with the climate,
+  often drilling deep "ice cores" to look at ancient air bubbles
+  trapped inside, which reveal Earth's atmospheric history.
+- **Related Fields:**
+- **Glacial Geologist:** Focuses specifically on the landforms and
+  sediment deposits left behind by glaciers.
+- **Climatologist:** Often works closely with glaciologists to
+  understand global warming trends.
+
+
+
+###2. Study of Inner Seas: **Limnologist**
+
+A **Limnologist** is a scientist who studies inland waters. While
+"oceanographers" study the open ocean, limnologists focus on "inner"
+bodies of water such as **inland seas**, lakes, rivers, wetlands, and
+reservoirs.
+
+- **What they do:** They study the biological, chemical, physical, and
+  geological properties of these waters. This includes analyzing water
+  quality, aquatic life, and the ecosystem's health.
+- **Key Distinction:** Even though some inner seas are salty (like the
+  Caspian Sea or the Dead Sea), they are often categorized under
+  limnology because they are landlocked (or semi-enclosed) rather than
+  part of the global ocean system. However, very large inland seas may
+  sometimes be studied by researchers who apply **Oceanography**
+  principles due to their massive size.
+
+###Summary Table| Field of Study | Professional Name | Primary Focus |
+| --- | --- | --- |
+| **Glaciers** | **Glaciologist** | Ice sheets, snow, permafrost, and their movement/history. |
+| **Inner Seas** | **Limnologist** | Inland aquatic ecosystems (lakes, inland seas, rivers), both fresh and saline. |
+#+end_src
 ** DELAY Robert I. Sutton                                             :2025:
-SCHEDULED: <2025-12-19 Fri>
+SCHEDULED: <2026-04-18 Sat>
 https://www.youtube.com/watch?v=tU1aAUqF7G4
 
 ** Grapes in ireland in middle ages                                   :2025:
@@ -928,9 +1025,9 @@ Ireland, like the one in County Kilkenny, attempted to cultivate
 grapes in the 5th century, aiming to produce wine for religious
 purposes.
 
-** LAG Just Enough Concept :moveIt!:                    :TopicStarters:2025:
-SCHEDULED: <2025-12-20 Sat>
-https://bigthink.com/mini-philosophy/swedish-philosophy-lagom-just-enough/?utm_source=firefox-newtab-en-gb
+** Wheel of Life
+SCHEDULED: <2026-01-01 Thu>
+https://positivepsychology.com/wheel-of-life-coaching/
 
 ** DELAY О русском Уме                                                :2025:
 SCHEDULED: <2026-02-12 Thu>
@@ -1050,12 +1147,6 @@ CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
 CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
 :END:
 
-*** LAG Alternative full-fledged CV with links                       :2025:
-SCHEDULED: <2025-12-30 Tue ++1d>
-:LOGBOOK:
-CLOCK: [2024-08-21 Wed 18:48]--[2024-08-21 Wed 19:14] =>  0:26
-:END:
-
 *** LAG [#B] Learning on demand                                      :2025:
 SCHEDULED: <2026-01-13 Tue>
 (It's just impossible to know everything)
@@ -1070,159 +1161,21 @@ CLOCK: [2024-06-10 Mon 08:15]--[2024-06-10 Mon 08:36] =>  0:21
 CLOCK: [2024-06-10 Mon 07:40]--[2024-06-10 Mon 08:10] =>  0:30
 :END:
 
-*** CV elaboration                                                   :2025:
-SCHEDULED: <2025-12-09 Tue>
-:PROPERTIES:
-:LAST_REPEAT: [2024-03-28 Thu 09:22]
-:END:
-- Note taken on [2024-05-21 Tue 16:53] \\
-  A holistic CV for LinkedIn with several sections:
-  - Maintenance Engineer;
-  - Software Engineer;
-  - Ultra Learning Tutor;
-  - Speculative CV.
-  
-  Which should be modulated with cover letters, relevant each job
-  proposal.
-- State "AMPLE"      from ""           [2024-03-28 Thu 09:22]
-- State "AMPLE"      from ""           [2024-03-19 Tue 19:05]
-- State "AMPLE"      from ""           [2024-02-27 Tue 10:45]
-- State "AMPLE"      from ""           [2024-02-02 Fri 05:46]
-- State "AMPLE"      from ""           [2023-11-17 Fri 13:35]
-- Note taken on [2023-11-03 Fri 15:10] \\
-  Reverse engeneering --> try to find the list of requirements and write
-  CV to satisfy them.
-- State "AMPLE"      from "RAW"        [2023-11-01 Wed 10:36]
-- State "DONE"       from "ACTIVE"     [2023-10-24 Tue 11:15]
-- State "DONE"       from "ACTIVE"     [2023-10-17 Tue 14:47]
-- Note taken on [2023-10-15 Sun 09:25] \\
-  Pursuit of knowledge and chase for skills
-- State "DONE"       from "ACTIVE"     [2023-10-13 Fri 09:57]
-- Note taken on [2023-09-22 Fri 10:24] \\
-  * New and actual photo
-  * All projects from the earliest to the current ones
-- State "DONE"       from "ACTIVE"     [2023-04-14 Fri 15:24]
-:LOGBOOK:
-CLOCK: [2025-06-04 Wed 04:47]--[2025-06-04 Wed 04:58] =>  0:11
-CLOCK: [2024-10-11 Fri 08:45]--[2024-10-11 Fri 09:10] =>  0:25
-CLOCK: [2024-08-21 Wed 19:14]--[2024-08-21 Wed 19:25] =>  0:11
-CLOCK: [2024-08-21 Wed 12:58]--[2024-08-21 Wed 14:06] =>  1:08
-CLOCK: [2024-05-27 Mon 08:10]--[2024-05-27 Mon 08:22] =>  0:12
-CLOCK: [2024-05-27 Mon 07:43]--[2024-05-27 Mon 07:51] =>  0:08
-CLOCK: [2024-04-23 Tue 09:40]--[2024-04-23 Tue 10:21] =>  0:41
-CLOCK: [2024-04-23 Tue 08:35]--[2024-04-23 Tue 09:14] =>  0:39
-CLOCK: [2024-04-23 Tue 07:55]--[2024-04-23 Tue 07:55] =>  0:00
-CLOCK: [2024-03-28 Thu 08:50]--[2024-03-28 Thu 09:22] =>  0:32
-CLOCK: [2024-03-19 Tue 18:31]--[2024-03-19 Tue 19:05] =>  0:34
-CLOCK: [2024-02-29 Thu 16:43]--[2024-02-29 Thu 17:11] =>  0:28
-CLOCK: [2024-02-29 Thu 16:10]--[2024-02-29 Thu 16:21] =>  0:11
-CLOCK: [2024-02-28 Wed 19:21]--[2024-02-28 Wed 19:51] =>  0:30
-CLOCK: [2024-02-28 Wed 11:24]--[2024-02-28 Wed 12:25] =>  1:01
-CLOCK: [2024-02-27 Tue 01:29]--[2024-02-27 Tue 05:44] =>  4:15
-CLOCK: [2024-02-02 Fri 05:18]--[2024-02-02 Fri 05:46] =>  0:28
-CLOCK: [2023-11-29 Wed 17:20]--[2023-11-29 Wed 17:50] =>  0:30
-CLOCK: [2023-11-17 Fri 09:41]--[2023-11-17 Fri 10:11] =>  0:30
-CLOCK: [2023-11-04 Sat 09:47]--[2023-11-04 Sat 10:13] =>  0:26
-CLOCK: [2023-11-03 Fri 15:10]--[2023-11-03 Fri 15:11] =>  0:01
-CLOCK: [2023-11-01 Wed 10:10]--[2023-11-01 Wed 10:28] =>  0:18
-CLOCK: [2023-10-24 Tue 10:48]--[2023-10-24 Tue 11:15] =>  0:27
-CLOCK: [2023-10-19 Thu 16:48]--[2023-10-19 Thu 16:54] =>  0:06
-CLOCK: [2023-10-17 Tue 14:03]--[2023-10-17 Tue 14:46] =>  0:43
-CLOCK: [2023-10-17 Tue 09:57]--[2023-10-17 Tue 10:01] =>  0:04
-CLOCK: [2023-10-13 Fri 09:13]--[2023-10-13 Fri 09:53] =>  0:40
-CLOCK: [2023-10-06 Fri 11:06]--[2023-10-06 Fri 11:32] =>  0:26
-CLOCK: [2023-10-06 Fri 09:01]--[2023-10-06 Fri 09:23] =>  0:22
-CLOCK: [2023-10-04 Wed 09:27]--[2023-10-04 Wed 09:57] =>  0:30
-CLOCK: [2023-10-03 Tue 09:06]--[2023-10-03 Tue 09:38] =>  0:32
-CLOCK: [2023-09-29 Fri 08:19]--[2023-09-29 Fri 08:43] =>  0:24
-CLOCK: [2023-09-27 Wed 11:06]--[2023-09-27 Wed 11:54] =>  0:48
-CLOCK: [2023-09-22 Fri 10:21]--[2023-09-22 Fri 10:44] =>  0:23
-CLOCK: [2023-09-20 Wed 09:01]--[2023-09-20 Wed 09:28] =>  0:27
-CLOCK: [2023-04-14 Fri 15:04]--[2023-04-14 Fri 15:21] =>  0:17
-CLOCK: [2023-04-13 Thu 14:18]--[2023-04-13 Thu 14:50] =>  0:32
-CLOCK: [2023-03-16 Thu 11:50]--[2023-03-16 Thu 12:10] => 0:30
-:END:
-[[file:~/git/org-pub/2016-10-13-CV.org::*Linux][Linux]]
-
-
-**** LAG Speculative CV                                             :2025:
-SCHEDULED: <2025-12-31 Wed>
-:LOGBOOK:
-CLOCK: [2024-06-27 Thu 16:43]--[2024-06-27 Thu 16:44] =>  0:01
-CLOCK: [2024-06-24 Mon 07:43]--[2024-06-24 Mon 07:53] =>  0:10
-CLOCK: [2024-05-28 Tue 08:57]--[2024-05-28 Tue 09:36] =>  0:39
-CLOCK: [2024-05-27 Mon 18:50]--[2024-05-27 Mon 19:50] =>  1:00
-:END:
-- Training Developer
-
-  - A training developer is responsible for creating, designing, and
-    developing training programs and materials to facilitate learning
-    and skill development among employees or learners. This involves
-    identifying training needs, designing curricula, creating content,
-    selecting appropriate delivery methods, and evaluating the
-    effectiveness of training programs. Their goal is to ensure that
-    training aligns with organizational objectives and enhances the
-    knowledge and skills of participants.
-
-  - https://www.linkedin.com/advice/3/what-does-training-developer-do-training-development-advice-fvsqc
-  - [[https://docs.google.com/document/d/13i6b3U9Bx2_Dn9XP4FePAO2GGWWEzhTIrMd8klaUSK0/edit][June]]
-
-
-**** Software Engineer                                               :job:
-:PROPERTIES:
-:CATEGORY: Developer
-:END:
-:LOGBOOK:
-CLOCK: [2024-05-28 Tue 06:42]--[2024-05-28 Tue 06:43] =>  0:01
-CLOCK: [2024-05-27 Mon 15:22]--[2024-05-27 Mon 15:22] =>  0:00
-:END:
-
-
-***** CV elaboration                                               :2025:
-SCHEDULED: <2026-01-17 Sat>
-- Note taken on [2024-07-16 Tue 16:13] \\
-  Projects:
-  - vizier.el
-  - philomath.ie
-- Note taken on [2024-06-17 Mon 07:06] \\
-  Make a full-fledged CV with links for my projects and portfolio
-:LOGBOOK:
-CLOCK: [2024-06-10 Mon 06:03]--[2024-06-10 Mon 07:34] =>  1:31
-CLOCK: [2024-05-28 Tue 06:43]--[2024-05-28 Tue 08:57] =>  2:14
-:END:
-[[https://docs.google.com/document/d/1hU4eRRIcVqsMGgjBB6_hfDb94tdx7091LvSsOjfR04Y/edit][June]]
-
-**** Maintenance Engineer                                            :job:
-:PROPERTIES:
-:CATEGORY: Engineer
-:END:
-:LOGBOOK:
-CLOCK: [2024-05-27 Mon 08:47]--[2024-05-27 Mon 08:59] =>  0:12
-:END:
-
-***** DELAY CV rectification                                       :2025:
-SCHEDULED: <2026-01-13 Tue>
-[[https://docs.google.com/document/d/1LTFbCrMXFxqqG5HLTsIJQPStnF_IzzUPNC1LPxbdrek/edit][June]]
-
-
-***** DELAY InDeed profile elaboration                             :2025:
-SCHEDULED: <2026-01-28 Wed>
-:LOGBOOK:
-CLOCK: [2024-06-14 Fri 07:02]--[2024-06-14 Fri 08:19] =>  1:17
-CLOCK: [2024-06-12 Wed 16:16]--[2024-06-12 Wed 16:56] =>  0:40
-CLOCK: [2024-06-10 Mon 09:24]--[2024-06-10 Mon 09:25] =>  0:01
-CLOCK: [2024-05-27 Mon 08:59]--[2024-05-27 Mon 09:05] =>  0:06
-:END:
-
-
 *** DELAY Vikki's CV elaboration                                     :2025:
 SCHEDULED: <2026-01-29 Thu>
 
-*** DELAY Skill endorsement at LinkedIn                              :2025:
-SCHEDULED: <2025-12-07 Sun>
+*** DELAY [#B] Skill endorsement at LinkedIn                         :2025:
+SCHEDULED: <2026-02-13 Fri ++2w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-12-29 Mon 02:31]
+:END:
+- State "AMPLE"      from ""           [2025-12-29 Mon 02:31]
+:LOGBOOK:
+CLOCK: [2025-12-15 Mon 10:53]--[2025-12-15 Mon 11:05] =>  0:12
+:END:
 
 *** DELAY Reqruitment Agencies                                       :2025:
-SCHEDULED: <2025-12-18 Thu>
+SCHEDULED: <2026-01-08 Thu>
 :LOGBOOK:
 CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :END:
@@ -1240,7 +1193,7 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 :CATEGORY: Chore
 :END:
 *** [#A] >Git<
-SCHEDULED: <2025-12-05 Fri ++1d>
+SCHEDULED: <2025-12-30 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-11-23 Sun 19:32]
 :END:
@@ -1324,7 +1277,8 @@ SCHEDULED: <2025-12-05 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2025-12-05 Fri 09:42]
+CLOCK: [2025-12-29 Mon 19:38]--[2025-12-29 Mon 19:38] =>  0:00
+CLOCK: [2025-12-05 Fri 09:42]--[2025-12-05 Fri 09:51] =>  0:09
 CLOCK: [2025-12-04 Thu 09:38]--[2025-12-04 Thu 09:38] =>  0:00
 CLOCK: [2025-11-23 Sun 19:28]--[2025-11-23 Sun 19:32] =>  0:04
 CLOCK: [2025-11-23 Sun 10:55]--[2025-11-23 Sun 10:59] =>  0:04
@@ -1663,7 +1617,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2025-12-05 Fri ++1d>
+SCHEDULED: <2025-12-30 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-22 Thu 08:46]
 :END:
@@ -1733,6 +1687,16 @@ SCHEDULED: <2025-12-05 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2025-12-29 Mon 02:26]--[2025-12-29 Mon 02:35] =>  0:09
+CLOCK: [2025-12-23 Tue 09:10]--[2025-12-23 Tue 09:23] =>  0:13
+CLOCK: [2025-12-22 Mon 05:34]--[2025-12-22 Mon 05:35] =>  0:01
+CLOCK: [2025-12-22 Mon 05:24]--[2025-12-22 Mon 05:30] =>  0:06
+CLOCK: [2025-12-18 Thu 12:56]--[2025-12-18 Thu 13:01] =>  0:05
+CLOCK: [2025-12-15 Mon 10:25]--[2025-12-15 Mon 10:37] =>  0:12
+CLOCK: [2025-12-11 Thu 07:33]--[2025-12-11 Thu 07:43] =>  0:10
+CLOCK: [2025-12-11 Thu 07:31]--[2025-12-11 Thu 07:32] =>  0:01
+CLOCK: [2025-12-09 Tue 16:09]--[2025-12-09 Tue 16:11] =>  0:02
+CLOCK: [2025-12-06 Sat 09:48]--[2025-12-06 Sat 09:52] =>  0:04
 CLOCK: [2025-12-05 Fri 09:33]--[2025-12-05 Fri 09:42] =>  0:09
 CLOCK: [2025-12-05 Fri 09:32]--[2025-12-05 Fri 09:32] =>  0:00
 CLOCK: [2025-12-02 Tue 10:05]--[2025-12-02 Tue 10:07] =>  0:02
@@ -2041,10 +2005,15 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2025-12-05 Fri ++1d>
+SCHEDULED: <2025-12-30 Tue ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-11-25 Tue 20:17]
+:LAST_REPEAT: [2025-12-29 Mon 19:38]
 :END:
+- State "AMPLE"      from ""           [2025-12-29 Mon 19:38]
+- State "AMPLE"      from ""           [2025-12-18 Thu 19:45]
+- State "AMPLE"      from ""           [2025-12-17 Wed 17:58]
+- State "AMPLE"      from ""           [2025-12-16 Tue 19:47]
+- State "AMPLE"      from ""           [2025-12-15 Mon 19:08]
 - State "AMPLE"      from ""           [2025-11-25 Tue 20:17]
 - State "AMPLE"      from ""           [2025-11-24 Mon 15:32]
 - State "AMPLE"      from ""           [2025-11-23 Sun 19:28]
@@ -2133,6 +2102,13 @@ SCHEDULED: <2025-12-05 Fri ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2025-12-29 Mon 19:34]--[2025-12-29 Mon 19:38] =>  0:04
+CLOCK: [2025-12-18 Thu 19:42]--[2025-12-18 Thu 19:45] =>  0:03
+CLOCK: [2025-12-18 Thu 19:42]--[2025-12-18 Thu 19:42] =>  0:00
+CLOCK: [2025-12-17 Wed 17:57]--[2025-12-17 Wed 17:58] =>  0:01
+CLOCK: [2025-12-16 Tue 19:43]--[2025-12-16 Tue 19:47] =>  0:04
+CLOCK: [2025-12-15 Mon 18:59]--[2025-12-15 Mon 19:08] =>  0:09
+CLOCK: [2025-12-09 Tue 20:04]--[2025-12-09 Tue 20:08] =>  0:04
 CLOCK: [2025-11-25 Tue 20:11]--[2025-11-25 Tue 20:17] =>  0:06
 CLOCK: [2025-11-24 Mon 15:28]--[2025-11-24 Mon 15:32] =>  0:04
 CLOCK: [2025-11-23 Sun 19:22]--[2025-11-23 Sun 19:28] =>  0:06
@@ -2248,11 +2224,12 @@ CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
-*** Clean all that mess up!
-SCHEDULED: <2025-12-05 Fri ++1w>
+*** Clean all that mess up!                                  :FireFox:tabs:
+SCHEDULED: <2026-01-06 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-11-28 Fri 14:43]
+:LAST_REPEAT: [2025-12-09 Tue 20:04]
 :END:
+- State "AMPLE"      from ""           [2025-12-09 Tue 20:04]
 - State "AMPLE"      from ""           [2025-11-28 Fri 14:43]
 - State "AMPLE"      from ""           [2025-05-18 Sun 06:24]
 - State "AMPLE"      from ""           [2024-07-30 Tue 19:35]
@@ -2287,6 +2264,7 @@ SCHEDULED: <2025-12-05 Fri ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2025-12-05 Fri 09:52]--[2025-12-05 Fri 10:20] =>  0:28
 CLOCK: [2025-11-27 Thu 05:55]--[2025-11-27 Thu 05:57] =>  0:02
 CLOCK: [2025-11-23 Sun 09:55]--[2025-11-23 Sun 09:57] =>  0:02
 CLOCK: [2025-05-05 Mon 06:03]--[2025-05-05 Mon 06:16] =>  0:13
@@ -2330,11 +2308,12 @@ CLOCK: [2023-03-06 Mon 12:10]--[2023-03-06 Mon 12:16] =>  0:06
 Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
-*** Workspace decluttering #2
-SCHEDULED: <2025-12-06 Sat ++1w>
+*** [#A] Workspace decluttering #2
+SCHEDULED: <2025-12-30 Tue ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-06-01 Sun 19:57]
+:LAST_REPEAT: [2025-12-19 Fri 09:44]
 :END:
+- State "AMPLE"      from ""           [2025-12-19 Fri 09:44]
 - State "AMPLE"      from ""           [2025-06-01 Sun 19:57]
 - State "AMPLE"      from ""           [2025-05-18 Sun 06:24]
 - State "AMPLE"      from ""           [2025-04-28 Mon 04:41]
@@ -2354,6 +2333,9 @@ SCHEDULED: <2025-12-06 Sat ++1w>
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2025-12-30 Tue 08:47]
+CLOCK: [2025-12-19 Fri 09:34]--[2025-12-19 Fri 09:44] =>  0:10
+CLOCK: [2025-12-18 Thu 19:42]--[2025-12-18 Thu 19:42] =>  0:00
 CLOCK: [2025-11-27 Thu 05:55]--[2025-11-27 Thu 05:55] =>  0:00
 CLOCK: [2025-11-23 Sun 09:51]--[2025-11-23 Sun 09:55] =>  0:04
 CLOCK: [2025-11-19 Wed 09:26]--[2025-11-19 Wed 09:29] =>  0:03
@@ -2478,7 +2460,7 @@ SCHEDULED: <2023-03-09 Thu>
 
 *
 *** [#A] DSP Re-Submittion
-SCHEDULED: <2025-12-23 Tue ++4w>
+SCHEDULED: <2026-01-20 Tue ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-11-25 Tue 15:05]
 :END:
@@ -2492,11 +2474,14 @@ CLOCK: [2025-05-13 Tue 08:15]--[2025-05-13 Tue 08:22] =>  0:07
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 
 
-*** New tasks trimming
-SCHEDULED: <2025-12-06 Sat ++2d/3d>
+*** [#A] New tasks trimming
+SCHEDULED: <2026-01-01 Thu ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-11-29 Sat 18:02]
+:LAST_REPEAT: [2025-12-30 Tue 08:48]
 :END:
+- State "AMPLE"      from ""           [2025-12-30 Tue 08:48]
+- State "AMPLE"      from ""           [2025-12-19 Fri 09:44]
+- State "AMPLE"      from ""           [2025-12-15 Mon 10:52]
 - State "AMPLE"      from ""           [2025-11-29 Sat 18:02]
 - State "AMPLE"      from ""           [2025-11-26 Wed 08:17]
 - Note taken on [2025-11-26 Wed 07:47] \\
@@ -2542,6 +2527,12 @@ SCHEDULED: <2025-12-06 Sat ++2d/3d>
 - Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 :LOGBOOK:
+CLOCK: [2025-12-30 Tue 08:07]--[2025-12-30 Tue 08:47] =>  0:40
+CLOCK: [2025-12-29 Mon 14:51]--[2025-12-29 Mon 15:40] =>  0:49
+CLOCK: [2025-12-19 Fri 09:30]--[2025-12-19 Fri 09:34] =>  0:04
+CLOCK: [2025-12-15 Mon 10:37]--[2025-12-15 Mon 10:52] =>  0:15
+CLOCK: [2025-12-09 Tue 16:25]--[2025-12-09 Tue 16:48] =>  0:23
+CLOCK: [2025-12-09 Tue 16:11]--[2025-12-09 Tue 16:11] =>  0:00
 CLOCK: [2025-12-04 Thu 09:31]--[2025-12-04 Thu 09:38] =>  0:07
 CLOCK: [2025-12-01 Mon 09:54]--[2025-12-01 Mon 10:09] =>  0:15
 CLOCK: [2025-11-29 Sat 17:59]--[2025-11-29 Sat 18:01] =>  0:02
@@ -2739,7 +2730,7 @@ CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** DELAY Idioms                                                     :2025:
-SCHEDULED: <2025-12-10 Wed>
+SCHEDULED: <2026-04-07 Tue>
 :LOGBOOK:
 CLOCK: [2025-05-09 Fri 14:08]--[2025-05-09 Fri 15:13] =>  1:05
 :END:
@@ -2883,7 +2874,7 @@ CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
 ** LAG Emacs TUTORIAL                                              :ARCHIVE:
 SCHEDULED: <2023-11-27 Mon>
 For Andrew <<C-h ?>>
-** RETARD ScreenCasting                                               :2025:
+** BARE ScreenCasting                                                 :2025:
 SCHEDULED: <2025-12-15 Mon>
 - Note taken on [2023-06-06 Tue 06:56] \\
   Seems like it is a separate skill to develop out from the set of
@@ -3170,15 +3161,20 @@ SCHEDULED: <2026-01-14 Wed>
 CLOCK: [2024-07-23 Tue 07:39]--[2024-07-23 Tue 08:15] =>  0:36
 :END:
 
+** Creative Writing
+SCHEDULED: <2026-01-02 Fri>
+https://en.wikipedia.org/wiki/Creative_writing
+** OpenAI                                                           :OpenAI:
 
-** OpenAI
-:PROPERTIES:
-:CATEGORY: OpenAI
-:END:
-
-*** RAW [#A] How to use Vector Store?                    :creative:writing:
-SCHEDULED: <2025-12-05 Fri>
+*** DELAY How to use Vector Store?                       :creative:writing:
+SCHEDULED: <2026-02-03 Tue>
+- Note taken on [2025-12-15 Mon 18:58] \\
+  I will use it with my cv.md initially, and, if it will succeed, with
+  autobio.md too.
+- Note taken on [2025-12-06 Sat 18:17] \\
+  How to test its features?
 :LOGBOOK:
+CLOCK: [2025-12-06 Sat 08:31]--[2025-12-06 Sat 09:12] =>  0:41
 CLOCK: [2025-12-05 Fri 09:32]--[2025-12-05 Fri 09:33] =>  0:01
 CLOCK: [2025-12-02 Tue 09:07]--[2025-12-02 Tue 09:42] =>  0:35
 CLOCK: [2025-05-21 Wed 05:33]--[2025-05-21 Wed 06:05] =>  0:32
@@ -3188,6 +3184,7 @@ CLOCK: [2025-05-02 Fri 05:13]--[2025-05-02 Fri 05:30] =>  0:17
 [[file:~/Git/0--key/philomath/kin/openai.org::*Vector Store][Vector Store]]
 [[file:~/Git/0--key/philomath/kin/openai-file-search.org::*Testing the 'File Search' Feature][Testing the 'File Search' Feature]]
 [[file:~/Git/0--key/philomath/theory/vectorstore.org::*Proposed System Instructions][Proposed System Instructions]]
+[[https://gemini.google.com/app/020c62e7253dc8af?hl=en_GB][Gemini's Thread]]
 
 *** DELAY The limits of AI programming :moveIt!:       :TopicStarters:2025:
 SCHEDULED: <2026-01-25 Sun>
@@ -3200,8 +3197,8 @@ CLOCK: [2025-05-05 Mon 07:04]--[2025-05-05 Mon 07:44] =>  0:40
 :END:
 [[file:~/Git/0--key/philomath/kin/openai.org::*Image Generation][Image Generation]]
 
-*** RETARD The bundle of Elisp functions               :Vizier:Del:Message:
-SCHEDULED: <2025-12-16 Tue>
+*** BARE The bundle of Elisp functions                 :Vizier:Del:Message:
+SCHEDULED: <2025-12-15 Mon>
 - Note taken on [2025-12-05 Fri 09:36] \\
   It would be extremely necessary to extend functionality by additional
   "Delete Message" feature.
@@ -3312,8 +3309,8 @@ CLOCK: [2024-06-22 Sat 19:48]--[2024-06-22 Sat 20:02] =>  0:14
 SCHEDULED: <2026-01-15 Thu>
 (e.g., automatically writing emails)
 
-*** LAG [#A] Batch API                                               :2025:
-SCHEDULED: <2025-12-28 Sun>
+*** RETARD [#A] Batch API                                            :2025:
+SCHEDULED: <2026-06-26 Fri>
 - Note taken on [2025-05-01 Thu 05:10] \\
   Is it really possible to generate the whole curriculum in a /single/
   query?
@@ -3374,21 +3371,52 @@ https://www.amazon.science/blog/emnlp-prompt-engineering-is-the-new-feature-engi
 https://github.com/kamushadenes/gptel-extensions.el
 Search threads and assistants in all these repositories.
 
-** OpenAI o1
-SCHEDULED: <2025-12-06 Sat>
+*** DELAY OpenAI o1
+SCHEDULED: <2026-01-15 Thu>
+:PROPERTIES:
+:LAST_REPEAT: [2025-12-06 Sat 18:00]
+:END:
+- State "AMPLE"      from ""           [2025-12-06 Sat 18:00]
 - Note taken on [2025-05-27 Tue 05:35] \\
   A single gray mouse case endeavour.
 :LOGBOOK:
+CLOCK: [2025-12-18 Thu 19:30]--[2025-12-18 Thu 19:41] =>  0:11
+CLOCK: [2025-12-06 Sat 09:52]--[2025-12-06 Sat 10:18] =>  0:26
 CLOCK: [2025-05-27 Tue 05:33]--[2025-05-27 Tue 05:46] =>  0:13
 :END:
 [[https://openai.com/index/introducing-openai-o1-preview/]]
+[[https://gemini.google.com/app/ebb19f9d719adcd0?hl=en_GB][Gemini's Thread]]
 
-** Vector Store test
-SCHEDULED: <2025-12-09 Tue>
+*** DELAY Vector Store test
+SCHEDULED: <2026-01-27 Tue>
+:LOGBOOK:
+CLOCK: [2025-12-09 Tue 17:25]--[2025-12-09 Tue 17:46] =>  0:21
+:END:
 VS as the Context Window *extension*
 
-* [#A] 3/1 days in week
-SCHEDULED: <2025-12-05 Fri>
+** Gemini                                                           :Gemini:
+
+*** Emacs and Lisp
+SCHEDULED: <2026-01-02 Fri>
+
+*** API
+SCHEDULED: <2026-01-05 Mon>
+https://ai.google.dev/gemini-api/docs/quickstart
+
+*** Veo3
+SCHEDULED: <2026-01-06 Tue>
+https://www.youtube.com/watch?v=IjF5Uun2jrM
+
+*** Sora
+SCHEDULED: <2026-01-04 Sun>
+https://www.youtube.com/watch?v=0-0gFuDwmXI
+ 
+* AMPLE [#A] 3/1 days in week
+SCHEDULED: <2025-12-08 Mon>
 :PROPERTIES:
 :CATEGORY: 3W1H
 :END:
+:LOGBOOK:
+CLOCK: [2025-12-06 Sat 09:35]--[2025-12-06 Sat 09:45] =>  0:10
+:END:
+https://gemini.google.com/app/fdeeb9295cfdb4b6?hl=en_GB
