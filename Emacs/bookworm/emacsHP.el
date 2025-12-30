@@ -82,7 +82,52 @@
 (setq openai-api-key (getenv "OPENAI_API_KEY"))
 (require 'vizier)
 
+;; RAG export settings
 
+;; (defun export-org-to-rag-markdown ()
+;;   "Export buffer to a RAG-optimized Markdown file."
+;;   (interactive)
+;;   (let ((org-export-with-section-numbers nil)
+;;         (org-export-with-drawers nil)
+;;         (org-export-with-tags t)
+;;         (org-export-headline-levels 5))
+;;     (org-md-export-to-markdown
+;;      '((:with-toc . nil)            ; <-- Pass plist as the 1st argument
+;;        (:with-section-numbers . nil)))))
+
+;; (defun my-export-org-to-rag-markdown ()
+;;   "Export buffer to a RAG-optimized Markdown file."
+;;   (interactive)
+;;   (let ((org-export-with-section-numbers nil)
+;;         (org-export-with-drawers nil)
+;;         (org-export-with-tags t)
+;;         (org-export-headline-levels 5))
+;;     (org-md-export-to-markdown
+;;      nil nil nil nil  ; Ensure all 4 preceding args are explicitly nil
+;;      '((:with-toc . nil)
+;;        (:with-section-numbers . nil)))))
+
+;; (defun export-org-to-rag-markdown ()
+;;   "Export buffer to a RAG-optimized Markdown file."
+;;   (interactive)
+;;   (let ((org-export-with-section-numbers nil)
+;;         (org-export-with-drawers nil)
+;;         (org-export-with-tags t)
+;;         (org-export-headline-levels 5))
+;;     (org-md-export-to-markdown
+;;      nil nil nil t                     ; Standard org-export-to-file args
+;;      '((:with-toc . nil)               ; <-- THIS IS THE KEY PLIST ENTRY
+;;        (:with-section-numbers . nil)))))
+
+(defun export-org-to-rag-markdown ()
+  "Export buffer to a RAG-optimized Markdown file."
+  (interactive)
+  (let ((org-export-with-toc nil)              ; Table of contents is noise for RAG
+        (org-export-with-section-numbers nil)  ; Numbers (1.2.3) confuse semantic matching
+        (org-export-with-drawers nil)          ; Remove :PROPERTIES:
+        (org-export-with-tags t)               ; KEEP tags, they are valuable keywords
+        (org-export-headline-levels 5))        ; Flatten deep nesting
+    (org-md-export-to-markdown)))
 
 ;; Jekyll settings there -->
 ;;
