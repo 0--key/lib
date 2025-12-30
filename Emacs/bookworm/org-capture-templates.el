@@ -46,6 +46,16 @@
    :END:\n%?%i\n\n" :empty-lines 1)
 	;;
 	;;
+	("j" "Jeeves and Wooster" entry (file+headline
+				"~/Git/0--key/lib/org/drills.org" "Jeeves and Wooster")
+	 "** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:\n%i\n\n"
+	 :empty-lines 1
+	 :immediate-finish t)
+	;;
+	;;
 	("n" "Notes");; <-- prefix key for notes
 	;; For the crude notes only:
 	("nf" "Fleeting" entry (file+headline

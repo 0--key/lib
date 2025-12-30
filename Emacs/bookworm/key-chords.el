@@ -144,7 +144,11 @@
 			 (lambda ()
 			   (interactive) (org-capture nil "nf")
 			   (deactivate-mark)))
-;;
+;; for Jeeves and Wooster
+(key-chord-define-global "jw"
+			 (lambda ()
+			   (interactive) (org-capture nil "j")
+			   (deactivate-mark)))
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define org-mode-map "dc"     'org-capture-finalize)
 (key-chord-define-global "qq"     'org-fill-paragraph)
