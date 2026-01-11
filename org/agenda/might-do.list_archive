@@ -3686,3 +3686,49 @@ SCHEDULED: <2025-12-30 Tue ++1d>
 CLOCK: [2024-08-21 Wed 18:48]--[2024-08-21 Wed 19:14] =>  0:26
 :END:
 
+
+* RETARD Taxation in Ireland                                           :2025:
+SCHEDULED: <2025-12-31 Wed ++3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-06-27 Thu 19:58]
+:ARCHIVE_TIME: 2025-12-31 Wed 07:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+- State "BARE"       from "RETARD"     [2024-06-27 Thu 19:58]
+- State "AMPLE"      from "RAW"        [2023-11-16 Thu 15:21]
+
+:LOGBOOK:
+CLOCK: [2023-11-24 Fri 14:53]--[2023-11-24 Fri 15:02] =>  0:09
+CLOCK: [2023-11-16 Thu 15:08]--[2023-11-16 Thu 15:21] =>  0:13
+:END:
+https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-your-tax-is-calculated/
+
+* RETARD Ssh with ~pub~ key                                            :2025:
+SCHEDULED: <2026-01-02 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 06:33
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: RETARD
+:END:
+
+* AMPLE Fineos Developer
+SCHEDULED: <2024-06-12 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-08 Thu 06:53
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: AMPLE
+:END:
+:LOGBOOK:
+CLOCK: [2024-06-12 Wed 09:43]--[2024-06-12 Wed 11:29] =>  1:46
+CLOCK: [2024-06-12 Wed 09:29]--[2024-06-12 Wed 09:37] =>  0:08
+CLOCK: [2024-06-10 Mon 08:15]--[2024-06-10 Mon 08:36] =>  0:21
+CLOCK: [2024-06-10 Mon 07:40]--[2024-06-10 Mon 08:10] =>  0:30
+:END:
+
