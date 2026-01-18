@@ -1,7 +1,7 @@
 ;;
+(package-initialize)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
-(package-initialize)
 
 ;; add all subdirs from the host's =site-lisp= to ~load-path~
 (let* ((my-lisp-dir "/usr/local/share/emacs/site-lisp/")
