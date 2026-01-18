@@ -114,6 +114,7 @@
 (key-chord-define-global "tv"     'voca-builder/search-popup)
 (key-chord-define-global "wt"     'dictionary-lookup-definition)
 (key-chord-define-global "wd"     'mw-thesaurus-lookup-dwim)
+(key-chord-define-global "lm"     'quick-sdcv-search-at-point)
 
 ;; Drilling
 (key-chord-define org-mode-map "dr"     'org-drill-resume)
@@ -151,7 +152,7 @@
 			   (deactivate-mark)))
 (global-set-key (kbd "C-c a") 'org-agenda)
 (key-chord-define org-mode-map "dc"     'org-capture-finalize)
-(key-chord-define-global "qq"     'org-fill-paragraph)
+(key-chord-define-global "qq"     'fill-paragraph)
 ;; (key-chord-define org-mode-map "km"     'org-meta-return) ;; useless
 (key-chord-define org-mode-map "a["     'org-agenda-file-to-front)
 (key-chord-define org-mode-map "a]"     'org-remove-file)
@@ -174,7 +175,7 @@
 (key-chord-define-global "ce"     'org-clock-in-last)
 (key-chord-define-global "cq"     'org-clock-out) ;; stop-clock
 
-(key-chord-define python-mode-map "dt"     'org-babel-detangle)
+;;(key-chord-define python-mode-map "dt"     'org-babel-detangle)
 
 ;; Ivy and Counsel:
 ;; (key-chord-define Info-mode-map "df"     'counsel-describe-function)
@@ -213,3 +214,6 @@
 (setq counsel-describe-function-function #'helpful-callable)
 (setq counsel-describe-variable-function #'helpful-variable)
 ;; ======================  =========================
+
+;; Gptel section
+(key-chord-define-global "wg"     'gptel-rewrite)
