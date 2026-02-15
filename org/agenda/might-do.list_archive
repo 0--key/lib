@@ -3773,3 +3773,268 @@ SCHEDULED: <2026-01-18 Sun>
 :LOGBOOK:
 CLOCK: [2026-01-18 Sun 18:04]--[2026-01-18 Sun 18:29] =>  0:25
 :END:
+
+* SET Vector Store test
+SCHEDULED: <2026-01-27 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-26 Mon 06:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: SET
+:ARCHIVE_ITAGS: OpenAI
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-09 Tue 17:25]--[2025-12-09 Tue 17:46] =>  0:21
+:END:
+VS as the Context Window *extension*
+
+
+* DELAY Vikki's CV elaboration                                         :2025:
+SCHEDULED: <2026-01-29 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-28 Wed 18:01
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+
+
+* LAG Enhancement Plan                                                 :2025:
+SCHEDULED: <2026-02-02 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-02 Mon 07:56
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Vizier
+:ARCHIVE_CATEGORY: Vizier
+:ARCHIVE_TODO: LAG
+:END:
+- Note taken on [2024-08-05 Mon 19:48] \\
+  * Tools for testing (ERT)
+  https://www.gnu.org/software/emacs/manual/html_node/ert/Introduction.html
+ :LOGBOOK:
+ CLOCK: [2024-08-06 Tue 09:48]--[2024-08-06 Tue 09:53] =>  0:05
+  CLOCK: [2024-08-05 Mon 09:18]--[2024-08-05 Mon 10:47] =>  1:29
+  CLOCK: [2024-08-05 Mon 08:26]--[2024-08-05 Mon 08:29] =>  0:03
+  CLOCK: [2024-07-12 Fri 17:04]--[2024-07-12 Fri 19:23] =>  2:19
+  CLOCK: [2024-07-12 Fri 09:41]--[2024-07-12 Fri 10:52] =>  1:11
+  CLOCK: [2024-07-12 Fri 06:24]--[2024-07-12 Fri 06:41] =>  0:17
+CLOCK: [2024-07-11 Thu 17:14]--[2024-07-11 Thu 17:37] =>  0:23
+CLOCK: [2024-07-07 Sun 11:23]--[2024-07-07 Sun 20:09] =>  8:46
+CLOCK: [2024-07-03 Wed 10:09]--[2024-07-03 Wed 10:21] =>  0:12
+CLOCK: [2024-07-02 Tue 18:49]--[2024-07-02 Tue 19:15] =>  0:26
+CLOCK: [2024-07-02 Tue 18:32]--[2024-07-02 Tue 18:46] =>  0:14
+CLOCK: [2024-07-02 Tue 17:24]--[2024-07-02 Tue 17:55] =>  0:31
+CLOCK: [2024-07-02 Tue 17:05]--[2024-07-02 Tue 17:18] =>  0:13
+CLOCK: [2024-06-28 Fri 17:40]--[2024-06-28 Fri 17:59] =>  0:19
+CLOCK: [2024-06-28 Fri 17:09]--[2024-06-28 Fri 17:32] =>  0:23
+CLOCK: [2024-06-28 Fri 16:26]--[2024-06-28 Fri 16:57] =>  0:31
+CLOCK: [2024-06-28 Fri 14:45]--[2024-06-28 Fri 14:53] =>  0:08
+:END:
+
+- Note taken on [2024-07-11 Thu 20:36] \\
+  How to use Git branching feature for development properly? What is the
+  average workflow?
+- Current paragraph as queston by default;
+- Additional instructions for Assistant;
+- Add a file for Tread/Run/Assistant
+  
+ Assistant's instructions from register ?q
+[[elisp:(bookmark-jump-other-window "2024-06-26-org-with-ai-assistant.org")][Instructions]]
+[[elisp:(bookmark-jump-other-window "mark-current-paragraph")]]
+
+
+* RETARD Team Synergy                                  :bait:leadership:2025:
+SCHEDULED: <2026-02-03 Tue ++1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-03-26 Tue 07:16]
+:ARCHIVE_TIME: 2026-02-02 Mon 08:13
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development/Synergy
+:ARCHIVE_CATEGORY: PersDev
+:ARCHIVE_TODO: RETARD
+:END:
+- State "AMPLE"      from ""           [2024-03-26 Tue 07:16]
+- State "AMPLE"      from ""           [2024-03-21 Thu 18:29]
+:LOGBOOK:
+CLOCK: [2024-03-25 Mon 10:24]--[2024-03-25 Mon 11:00] =>  0:36
+CLOCK: [2024-03-25 Mon 10:07]--[2024-03-25 Mon 10:08] =>  0:01
+CLOCK: [2024-03-21 Thu 18:15]--[2024-03-21 Thu 18:29] =>  0:14
+:END:
+[[https://www.linkedin.com/in/jasonanthonyrodriguez/]]
+[[file:~/Git/0--key/org-pub/2024-03-20-team-synergy-incubation.org::*AntiThesis][AntiThesis]]
+
+Cooperation vs Competition
+
+Two obvious approaches to tame with such intimidating amount of
+knowledge: life duration and sincere cooperation depth.
+
+
+
+* BARE How to use Vector Store?                            :creative:writing:
+SCHEDULED: <2026-02-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-02 Mon 08:13
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: BARE
+:ARCHIVE_ITAGS: OpenAI
+:END:
+- Note taken on [2025-12-15 Mon 18:58] \\
+  I will use it with my cv.md initially, and, if it will succeed, with
+  autobio.md too.
+- Note taken on [2025-12-06 Sat 18:17] \\
+  How to test its features?
+:LOGBOOK:
+CLOCK: [2025-12-06 Sat 08:31]--[2025-12-06 Sat 09:12] =>  0:41
+CLOCK: [2025-12-05 Fri 09:32]--[2025-12-05 Fri 09:33] =>  0:01
+CLOCK: [2025-12-02 Tue 09:07]--[2025-12-02 Tue 09:42] =>  0:35
+CLOCK: [2025-05-21 Wed 05:33]--[2025-05-21 Wed 06:05] =>  0:32
+CLOCK: [2025-05-05 Mon 06:45]--[2025-05-05 Mon 07:04] =>  0:19
+CLOCK: [2025-05-02 Fri 05:13]--[2025-05-02 Fri 05:30] =>  0:17
+:END:
+[[file:~/Git/0--key/philomath/kin/openai.org::*Vector Store][Vector Store]]
+[[file:~/Git/0--key/philomath/kin/openai-file-search.org::*Testing the 'File Search' Feature][Testing the 'File Search' Feature]]
+[[file:~/Git/0--key/philomath/theory/vectorstore.org::*Proposed System Instructions][Proposed System Instructions]]
+[[https://gemini.google.com/app/020c62e7253dc8af?hl=en_GB][Gemini's Thread]]
+
+
+* AMPLE [#C] GDrive integration
+SCHEDULED: <2026-02-03 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-03 Tue 17:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: AMPLE
+:END:
+:LOGBOOK:
+CLOCK: [2026-02-03 Tue 17:05]--[2026-02-03 Tue 17:18] =>  0:13
+CLOCK: [2026-02-03 Tue 15:41]--[2026-02-03 Tue 15:41] =>  0:00
+:END:
+
+
+* BARE Search reference in *info*                                      :2025:
+SCHEDULED: <2026-02-04 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-03 Tue 19:15
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: BARE
+:END:
+- Note taken on [2024-05-24 Fri 17:37] \\
+  Does info-apropos able to find the keyword in Python section of #info?
+- Note taken on [2024-01-17 Wed 11:04] \\
+  s	Search through this Info file for specified regexp,
+  	  and select the node in which the next occurrence is found.
+  S	Search through this Info file for specified regexp case-sensitively.
+  C-s, C-M-s	Use Isearch to search through multiple Info nodes.
+  i	Search for a topic in this manual’s Index and go to index entry.
+  ,	(comma) Move to the next match from a previous i command.
+  I	Look for a string and display the index node with results.
+  <key-chord> p i	Look for a string in the indices of all manuals.
+  <key-chord> i p runs the command info-apropos (found in global-map),
+  which is an interactive native-compiled Lisp function in ‘info.el’.
+:LOGBOOK:
+CLOCK: [2024-05-30 Thu 07:30]--[2024-05-30 Thu 07:47] =>  0:17
+CLOCK: [2024-05-29 Wed 17:28]--[2024-05-29 Wed 17:34] =>  0:06
+CLOCK: [2024-05-25 Sat 06:29]--[2024-05-25 Sat 06:58] =>  0:29
+CLOCK: [2024-01-17 Wed 11:02]--[2024-01-17 Wed 11:10] =>  0:08
+CLOCK: [2024-01-09 Tue 11:08]--[2024-01-09 Tue 11:20] =>  0:12
+CLOCK: [2024-01-04 Thu 13:40]--[2024-01-04 Thu 13:51] =>  0:11
+CLOCK: [2023-12-14 Thu 09:43]--[2023-12-14 Thu 10:08] =>  0:25
+:END:
+[[info:emacs#Regexp Search][emacs#Regexp Search]]
+
+* Dalink.to
+SCHEDULED: <2026-02-05 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-05 Thu 09:57
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/Monetisation
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_ITAGS: monetization
+:END:
+- Note taken on [2026-02-05 Thu 08:58] \\
+  Seems like it can spy upon my channel:
+
+  Select what can access
+
+  - See a list of your current active channel members, their current
+    level, and when they became a member. Learn more;
+  - View your YouTube account. Learn more;
+  - View YouTube Analytics reports for your YouTube content. Learn more;
+  - Manage your YouTube account. Learn more.
+:LOGBOOK:
+CLOCK: [2026-02-05 Thu 08:54]--[2026-02-05 Thu 09:02] =>  0:08
+CLOCK: [2026-02-02 Mon 16:12]--[2026-02-02 Mon 16:15] =>  0:03
+CLOCK: [2026-01-30 Fri 09:40]--[2026-01-30 Fri 10:56] =>  1:16
+:END:
+
+
+* BARE File with grammar and vocabulary                                :2025:
+SCHEDULED: <2026-02-09 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-09 Mon 10:16
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Personal Development/English
+:ARCHIVE_CATEGORY: English
+:ARCHIVE_TODO: BARE
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-11 Thu 08:53]--[2024-07-11 Thu 08:56] =>  0:03
+CLOCK: [2024-07-11 Thu 08:31]--[2024-07-11 Thu 08:51] =>  0:20
+:END:
+Specific Assistant's Instructions
+[[elisp:(bookmark-jump-other-window "Grammar")]]
+
+
+* BARE Howard Gardner                                                  :2025:
+SCHEDULED: <2026-02-09 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-09 Mon 10:17
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: BARE
+:END:
+Frames of Mind
+
+* DONE Text emotional colouring
+SCHEDULED: <2026-02-10 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-10 Tue 15:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: DONE
+:END:
+
+* AMPLE [#C] Get it! : the Irish driving test : O'Leary, Brian
+SCHEDULED: <2026-02-10 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-02-10 Tue 15:18
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: AMPLE
+:END:
+
+* DELAY [#B] Skill endorsement at LinkedIn                             :2025:
+SCHEDULED: <2026-02-13 Fri ++2w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-12-29 Mon 02:31]
+:ARCHIVE_TIME: 2026-02-15 Sun 18:20
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:ARCHIVE_TODO: DELAY
+:END:
+- State "AMPLE"      from ""           [2025-12-29 Mon 02:31]
+:LOGBOOK:
+CLOCK: [2025-12-15 Mon 10:53]--[2025-12-15 Mon 11:05] =>  0:12
+:END:
+

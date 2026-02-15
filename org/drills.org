@@ -4997,9 +4997,17 @@ is sufficent to [refute that conclusion].
    :END:
 I am so clever [that sometimes I don’t understand] a [single word] of
 [what I am saying].
+
+** COMMENT ==> => >> :drill:
+   :PROPERTIES:
+   :DRILL_CARD_TYPE: hide1cloze
+   :END:
+"There are three kinds of lies: lies, damned lies, and statistics."
+%?
+
 * Colloquialisms
-** DELAY [#C] How to say 'Thank You!'
-SCHEDULED: <2026-02-02 Mon ++3d/4d>
+** LAG [#C] How to say 'Thank You!'
+SCHEDULED: <2026-04-13 Mon ++3d/4d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-11-23 Thu 10:43]
 :END:
