@@ -4038,3 +4038,50 @@ SCHEDULED: <2026-02-13 Fri ++2w>
 CLOCK: [2025-12-15 Mon 10:53]--[2025-12-15 Mon 11:05] =>  0:12
 :END:
 
+
+* LAG ReSet, ReBase                                                    :2025:
+SCHEDULED: <2026-02-25 Wed ++2d/3d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-10-11 Fri 08:40]
+:ARCHIVE_TIME: 2026-02-23 Mon 08:56
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Git
+:ARCHIVE_CATEGORY: Git
+:ARCHIVE_TODO: LAG
+:END:
+- State "BARE"       from "RETARD"     [2024-10-11 Fri 08:40]
+- State "AMPLE"      from ""           [2024-01-17 Wed 10:17]
+- State "AMPLE"      from ""           [2024-01-09 Tue 11:39]
+- State "AMPLE"      from ""           [2024-01-03 Wed 16:57]
+- State "AMPLE"      from ""           [2023-11-15 Wed 11:00]
+- State "AMPLE"      from ""           [2023-11-09 Thu 18:39]
+- State "AMPLE"      from ""           [2023-11-06 Mon 11:31]
+:LOGBOOK:
+CLOCK: [2024-01-09 Tue 11:20]--[2024-01-09 Tue 11:38] =>  0:18
+CLOCK: [2024-01-03 Wed 16:31]--[2024-01-03 Wed 16:39] =>  0:08
+CLOCK: [2023-11-15 Wed 10:55]--[2023-11-15 Wed 11:00] =>  0:05
+CLOCK: [2023-11-15 Wed 10:43]--[2023-11-15 Wed 10:48] =>  0:05
+CLOCK: [2023-11-09 Thu 10:23]--[2023-11-09 Thu 10:43] => 0:20
+CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
+:END:
+https://git-scm.com/docs/git-reset
+[[info:magit#Rebasing][magit#Rebasing]]
+
+* Proposals Elaboration                                                :2025:
+SCHEDULED: <2026-03-05 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-03-03 Tue 20:03
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Job Seeking
+:ARCHIVE_CATEGORY: Main
+:END:
+:LOGBOOK:
+CLOCK: [2024-07-17 Wed 11:11]--[2024-07-17 Wed 16:02] =>  4:51
+CLOCK: [2024-07-11 Thu 14:04]--[2024-07-11 Thu 14:34] =>  0:30
+CLOCK: [2024-07-04 Thu 04:55]--[2024-07-04 Thu 05:55] =>  1:00
+CLOCK: [2024-07-02 Tue 15:45]--[2024-07-02 Tue 15:59] =>  0:14
+CLOCK: [2024-06-27 Thu 07:58]--[2024-06-27 Thu 09:34] =>  1:36
+CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
+CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
+:END:
+

@@ -20,8 +20,8 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** Concepts                                                        :concept:
 
-*** DELAY Chesterton’s Fence
-SCHEDULED: <2026-02-18 Wed>
+*** LAG Chesterton’s Fence
+SCHEDULED: <2026-04-29 Wed>
 https://fs.blog/chestertons-fence/
 
 
@@ -34,8 +34,8 @@ literally meaning "justice", "rules", "method" or "judgment",
 is one of the six orthodox schools of Hindu philosophy.
 https://gemini.google.com/app/3580c0cb88fe0bd6?hl=en_GB
 
-*** Ontology                                                          :TCL:
-SCHEDULED: <2026-03-06 Fri>
+*** DELAY Ontology                                                    :TCL:
+SCHEDULED: <2026-04-16 Thu>
 is the philosophical study of being, existence, and reality, exploring
 what kinds of things exist, their fundamental categories, and their
 relationships, essentially asking "what is?".
@@ -53,8 +53,8 @@ SCHEDULED: <2026-03-26 Thu>
 :CATEGORY: Synergy
 :END:
 
-*** RAW Make friends across the world                       :backdoor:2025:
-SCHEDULED: <2026-02-23 Mon>
+*** LAG Make friends across the world                       :backdoor:2025:
+SCHEDULED: <2026-03-22 Sun>
 By providing my recent revelation to group with similar interests.
 - emacs-kung-fu@gmail.com as the work email address integrated with my
   Emacs;
@@ -68,8 +68,8 @@ SCHEDULED: <2026-05-21 Thu>
 https://whhone.com/posts/org-mode-task-management/
 https://whhone.com/tags/linux/
 
-**** DELAY Irreal blog                                     :backdoor:2025:
-SCHEDULED: <2026-02-18 Wed>
+**** LAG Irreal blog                                       :backdoor:2025:
+SCHEDULED: <2026-04-29 Wed>
 - Note taken on [2023-06-20 Tue 11:29] \\
   [[http://irreal.org/blog/][Irreal | Blog]]
 :LOGBOOK:
@@ -133,8 +133,8 @@ CLOCK: [2024-04-09 Tue 08:36]--[2024-04-09 Tue 09:32] =>  0:56
 Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
-*** Define Your System                                      :philosys:2025:
-SCHEDULED: <2026-02-22 Sun ++1d>
+*** LAG Define Your System                                  :philosys:2025:
+SCHEDULED: <2026-05-18 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-08 Thu 20:01]
 :END:
@@ -162,8 +162,8 @@ SCHEDULED: <2026-04-25 Sat ++1d>
 CLOCK: [2024-04-09 Tue 09:45]--[2024-04-09 Tue 10:40] =>  0:55
 :END:
 
-**** LAG Task Management                                            :2025:
-SCHEDULED: <2026-02-28 Sat>
+**** RETARD Task Management                                         :2025:
+SCHEDULED: <2026-07-18 Sat>
 :LOGBOOK:
 CLOCK: [2025-12-22 Mon 05:35]--[2025-12-22 Mon 05:36] =>  0:01
 :END:
@@ -184,8 +184,8 @@ SCHEDULED: <2026-04-20 Mon>
 :CATEGORY: English
 :END:
 
-*** DELAY [#C] Jeeves&Wooster
-SCHEDULED: <2026-03-03 Tue ++1d>
+*** LAG [#C] Jeeves&Wooster
+SCHEDULED: <2026-05-12 Tue ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-25 Sun 19:07]
 :END:
@@ -225,8 +225,8 @@ CLOCK: [2026-01-09 Fri 17:38]--[2026-01-09 Fri 17:38] =>  0:00
 CLOCK: [2026-01-09 Fri 13:20]--[2026-01-09 Fri 16:20] =>  3:00
 :END:
 
-*** DELAY [#C] Talk with Gemini
-SCHEDULED: <2026-02-27 Fri ++1d>
+*** LAG [#C] Talk with Gemini
+SCHEDULED: <2026-04-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-22 Thu 20:27]
 :END:
@@ -396,8 +396,8 @@ CLOCK: [2024-02-28 Wed 18:20]--[2024-02-28 Wed 18:42] =>  0:22
 :END:
 https://www.youtube.com/watch?v=UrQYpDXV16k
 
-*** LAG 25 must know Engllish expressions                            :2025:
-SCHEDULED: <2026-02-27 Fri>
+*** RETARD 25 must know Engllish expressions                         :2025:
+SCHEDULED: <2026-07-17 Fri>
 :LOGBOOK:
 CLOCK: [2024-05-22 Wed 19:44]--[2024-05-22 Wed 19:45] =>  0:01
 CLOCK: [2024-03-12 Tue 11:57]--[2024-03-12 Tue 12:05] =>  0:08
@@ -424,8 +424,8 @@ https://www.youtube.com/watch?v=_dh5LP4S7dI
 ** Symmathesy
 
 
-*** RAW Cultivating Happiness                                    :TLL:idea:
-SCHEDULED: <2026-02-20 Fri>
+*** DELAY Cultivating Happiness                            :TLL:idea:stash:
+SCHEDULED: <2026-04-23 Thu>
 Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 - Enjoyment;
@@ -448,8 +448,8 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Truth About Quadrant One][Truth About Quadrant One]]
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
-*** 100 Books a Year                                                 :2025:
-SCHEDULED: <2026-02-19 Thu>
+*** DELAY 100 Books a Year                                     :2025:stash:
+SCHEDULED: <2026-03-27 Fri>
 https://www.youtube.com/watch?v=fc8kOuCPNEM
 
 *** ACTIVE Straight Work Approach                                 :ARCHIVE:
@@ -555,8 +555,8 @@ CLOCK: [2024-08-05 Mon 06:05]--[2024-08-05 Mon 06:37] =>  0:32
 
 ** Weekly
 
-*** Preliminary Overview                                      :weekly:2025:
-SCHEDULED: <2026-02-20 Fri .+1w>
+*** LAG Preliminary Overview                                  :weekly:2025:
+SCHEDULED: <2026-06-18 Thu .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-06-01 Sun 20:00]
 :END:
@@ -571,28 +571,6 @@ CLOCK: [2025-05-18 Sun 06:20]--[2025-05-18 Sun 06:25] =>  0:05
 :CATEGORY: Git
 :END:
 
-** LAG ReSet, ReBase                                                  :2025:
-SCHEDULED: <2026-02-25 Wed ++2d/3d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-10-11 Fri 08:40]
-:END:
-- State "BARE"       from "RETARD"     [2024-10-11 Fri 08:40]
-- State "AMPLE"      from ""           [2024-01-17 Wed 10:17]
-- State "AMPLE"      from ""           [2024-01-09 Tue 11:39]
-- State "AMPLE"      from ""           [2024-01-03 Wed 16:57]
-- State "AMPLE"      from ""           [2023-11-15 Wed 11:00]
-- State "AMPLE"      from ""           [2023-11-09 Thu 18:39]
-- State "AMPLE"      from ""           [2023-11-06 Mon 11:31]
-:LOGBOOK:
-CLOCK: [2024-01-09 Tue 11:20]--[2024-01-09 Tue 11:38] =>  0:18
-CLOCK: [2024-01-03 Wed 16:31]--[2024-01-03 Wed 16:39] =>  0:08
-CLOCK: [2023-11-15 Wed 10:55]--[2023-11-15 Wed 11:00] =>  0:05
-CLOCK: [2023-11-15 Wed 10:43]--[2023-11-15 Wed 10:48] =>  0:05
-CLOCK: [2023-11-09 Thu 10:23]--[2023-11-09 Thu 10:43] => 0:20
-CLOCK: [2023-11-06 Mon 11:02]--[2023-11-06 Mon 11:27] => 0:25
-:END:
-https://git-scm.com/docs/git-reset
-[[info:magit#Rebasing][magit#Rebasing]]
 * Emacs
 :PROPERTIES:
 :CATEGORY: Emacs
@@ -601,8 +579,8 @@ https://git-scm.com/docs/git-reset
 :PROPERTIES:
 :CATEGORY: Elisp
 :END:
-** DELAY Agenda Filtering
-SCHEDULED: <2026-03-11 Wed>
+** LAG Agenda Filtering
+SCHEDULED: <2026-05-13 Wed>
 M-x org-agenda-filter
 M-x org-agenda-filter-by-tag M-x
  org-agenda-filter-by-effort M-x org-agenda-filter-by-regexp M-x
@@ -709,8 +687,8 @@ By putting the actual (most significant) agenda file on the top.
 :PROPERTIES:
 :CATEGORY: Key-chords
 :END:
-*** DELAY Extend
-SCHEDULED: <2026-03-11 Wed ++1w>
+*** LAG Extend
+SCHEDULED: <2026-05-13 Wed ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-16 Fri 06:56]
 :END:
@@ -884,7 +862,7 @@ CLOCK: [2023-11-10 Fri 16:30]--[2023-11-10 Fri 16:36] =>  0:06
 ** RETARD Emacs as WM:                                             :ARCHIVE:
 SCHEDULED: <2024-07-08 Mon>
 https://github.com/ch11ng/exwm/wiki
-* Notes
+* Notes                                                                :note:
 :PROPERTIES:
 :CATEGORY: Notes
 :END:
@@ -899,8 +877,8 @@ CLOCK: [2024-09-27 Fri 09:01]--[2024-09-27 Fri 09:22] =>  0:21
 [[info:org#Include Files][org#Include Files]]
 ** LAG Scratch.backup revision                                        :2025:
 SCHEDULED: <2026-06-16 Tue>
-** INIT Retelling, rehearsal, paraphrase, narration                   :2025:
-SCHEDULED: <2026-02-25 Wed>
+** DELAY Retelling, rehearsal, paraphrase, narration                  :2025:
+SCHEDULED: <2026-05-01 Fri>
 - Note taken on [2025-05-22 Thu 19:48] \\
   How to do it as a foreign language learner?
 :LOGBOOK:
@@ -909,8 +887,8 @@ CLOCK: [2025-05-23 Fri 05:06]--[2025-05-23 Fri 05:35] =>  0:29
 CLOCK: [2025-05-22 Thu 19:47]--[2025-05-22 Thu 19:47] =>  0:00
 :END:
 [[file:~/Git/0--key/philomath/V1/narrators_guide.org::*Storytelling: A Key Skill in Learning Foreign Languages][Storytelling: A Key Skill in Learning Foreign Languages]]
-** DELAY Gemini Gems
-SCHEDULED: <2026-02-25 Wed>
+** LAG Gemini Gems
+SCHEDULED: <2026-05-10 Sun>
 - Note taken on [2026-01-14 Wed 12:04] \\
   Well fit for graphical materials generation
 :LOGBOOK:
@@ -918,13 +896,13 @@ CLOCK: [2026-01-14 Wed 11:50]--[2026-01-14 Wed 12:05] =>  0:15
 CLOCK: [2026-01-14 Wed 11:02]--[2026-01-14 Wed 11:15] =>  0:13
 CLOCK: [2026-01-12 Mon 09:28]--[2026-01-12 Mon 09:35] =>  0:07
 :END:
-** DELAY [#C] Gptel branching test
+** SET [#C] Gptel branching test
 SCHEDULED: <2026-02-27 Fri>
 :LOGBOOK:
 CLOCK: [2026-01-18 Sun 18:39]--[2026-01-18 Sun 18:46] =>  0:07
 :END:
-** DELAY [#C] Groq
-SCHEDULED: <2026-03-06 Fri>
+** LAG [#C] Groq
+SCHEDULED: <2026-05-20 Wed>
 :LOGBOOK:
 CLOCK: [2026-01-25 Sun 19:45]--[2026-01-25 Sun 19:48] =>  0:03
 :END:
@@ -962,8 +940,8 @@ CLOCK: [2026-02-05 Thu 09:02]--[2026-02-05 Thu 09:56] =>  0:54
 :END:
 https://www.buymeacoffee.com/tonyphilomath
 
-*** Patreon 
-SCHEDULED: <2026-02-26 Thu>
+*** DELAY Patreon 
+SCHEDULED: <2026-04-02 Thu>
 :LOGBOOK:
 CLOCK: [2026-02-12 Thu 15:26]--[2026-02-12 Thu 15:34] =>  0:08
 CLOCK: [2026-02-06 Fri 07:15]--[2026-02-06 Fri 08:00] =>  0:45
@@ -995,19 +973,50 @@ SCHEDULED: <2026-03-19 Thu>
 CLOCK: [2026-02-12 Thu 15:18]--[2026-02-12 Thu 15:26] =>  0:08
 :END:
 [[file:~/Git/0--key/philomath/theory/youtube.org::*Two or a single channel][Two or a single channel]]
+** AMPLE [#A] Question --> Answer Intro Section
+SCHEDULED: <2026-03-09 Mon>
+:LOGBOOK:
+CLOCK: [2026-03-09 Mon 09:21]--[2026-03-09 Mon 09:27] =>  0:06
+:END:
+** [#A] ShotCut Video Editor
+SCHEDULED: <2026-03-13 Fri>
+:LOGBOOK:
+CLOCK: [2026-03-13 Fri 07:15]--[2026-03-13 Fri 07:23] =>  0:08
+CLOCK: [2026-03-10 Tue 19:24]--[2026-03-10 Tue 20:47] =>  1:23
+CLOCK: [2026-03-10 Tue 17:29]--[2026-03-10 Tue 18:28] =>  0:59
+CLOCK: [2026-03-10 Tue 14:50]--[2026-03-10 Tue 15:41] =>  0:51
+CLOCK: [2026-03-09 Mon 17:52]--[2026-03-09 Mon 19:58] =>  2:06
+CLOCK: [2026-03-09 Mon 07:40]--[2026-03-09 Mon 08:49] =>  1:09
+:END:
+
 
 * NoSQL
 :PROPERTIES:
 :CATEGORY: NoSQL
 :END:
 
-* Misc
+* Misc                                                                 :misc:
 :PROPERTIES:
 :CATEGORY: Misc
 :END:
 
-** DELAY RSA Reduced EDT
-SCHEDULED: <2026-02-25 Wed>
+** AMPLE David JP Phillips
+SCHEDULED: <2026-03-10 Tue>
+:LOGBOOK:
+CLOCK: [2026-03-09 Mon 06:53]--[2026-03-09 Mon 07:13] =>  0:20
+:END:
+
+** [#A] Storyworthy
+SCHEDULED: <2026-03-13 Fri>
+:LOGBOOK:
+CLOCK: [2026-03-11 Wed 09:23]--[2026-03-11 Wed 09:47] =>  0:24
+:END:
+by Mattew Dicks
+10 main insights
+
+
+** TODO RSA Reduced EDT
+SCHEDULED: <2026-03-20 Fri>
 :LOGBOOK:
 CLOCK: [2025-12-04 Thu 10:33]--[2025-12-04 Thu 10:48] =>  0:15
 :END:
@@ -1120,8 +1129,8 @@ https://en.wikipedia.org/wiki/Simone_Weil
 :CATEGORY: Job
 :END:
 
-*** DELAY LinkedIn Profile                                           :2025:
-SCHEDULED: <2026-02-20 Fri ++2d/3d>
+*** LAG LinkedIn Profile                                             :2025:
+SCHEDULED: <2026-05-01 Fri ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-06-03 Tue 04:48]
 :END:
@@ -1151,18 +1160,6 @@ CLOCK: [2024-08-22 Thu 05:38]--[2024-08-22 Thu 06:38] =>  1:00
 CLOCK: [2024-07-30 Tue 11:06]--[2024-07-30 Tue 11:40] =>  0:34
 :END:
 
-*** Proposals Elaboration                                            :2025:
-SCHEDULED: <2026-03-05 Thu>
-:LOGBOOK:
-CLOCK: [2024-07-17 Wed 11:11]--[2024-07-17 Wed 16:02] =>  4:51
-CLOCK: [2024-07-11 Thu 14:04]--[2024-07-11 Thu 14:34] =>  0:30
-CLOCK: [2024-07-04 Thu 04:55]--[2024-07-04 Thu 05:55] =>  1:00
-CLOCK: [2024-07-02 Tue 15:45]--[2024-07-02 Tue 15:59] =>  0:14
-CLOCK: [2024-06-27 Thu 07:58]--[2024-06-27 Thu 09:34] =>  1:36
-CLOCK: [2024-06-07 Fri 08:23]--[2024-06-07 Fri 08:24] =>  0:01
-CLOCK: [2024-05-31 Fri 09:48]--[2024-05-31 Fri 10:26] =>  0:38
-:END:
-
 *** LAG [#B] Learning on demand                                      :2025:
 SCHEDULED: <2026-04-06 Mon>
 (It's just impossible to know everything)
@@ -1182,15 +1179,44 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 - https://www.brightwater.ie/
   
 
+
+** YouTube Censorship
+SCHEDULED: <2026-03-13 Fri>
+:LOGBOOK:
+CLOCK: [2026-03-12 Thu 08:36]--[2026-03-12 Thu 08:50] =>  0:14
+:END:
+
+
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
-*** [#B] >Git<
-SCHEDULED: <2026-02-15 Sun ++1w>
+
+*** Morning Exercise with Hadar Shemesh
+SCHEDULED: <2026-03-13 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2026-01-25 Sun 20:18]
+:LAST_REPEAT: [2026-03-09 Mon 09:13]
 :END:
+- State "AMPLE"      from ""           [2026-03-09 Mon 09:13]
+- State "AMPLE"      from ""           [2026-03-04 Wed 16:55]
+- State "AMPLE"      from ""           [2026-02-24 Tue 10:23]
+- State "AMPLE"      from ""           [2026-02-19 Thu 18:02]
+:LOGBOOK:
+CLOCK: [2026-03-10 Tue 09:25]--[2026-03-10 Tue 09:49] =>  0:24
+CLOCK: [2026-03-09 Mon 08:51]--[2026-03-09 Mon 09:13] =>  0:22
+CLOCK: [2026-03-04 Wed 16:25]--[2026-03-04 Wed 16:55] =>  0:30
+CLOCK: [2026-02-24 Tue 10:05]--[2026-02-24 Tue 10:23] =>  0:18
+CLOCK: [2026-02-20 Fri 16:37]--[2026-02-20 Fri 16:37] =>  0:00
+CLOCK: [2026-02-19 Thu 17:45]--[2026-02-19 Thu 18:02] =>  0:17
+:END:
+https://www.youtube.com/watch?v=l69yZ5xabbo
+
+*** [#A] >Git<
+SCHEDULED: <2026-03-15 Sun ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2026-02-15 Sun 19:19]
+:END:
+- State "AMPLE"      from ""           [2026-02-15 Sun 19:19]
 - State "AMPLE"      from ""           [2026-01-25 Sun 20:18]
 - State "AMPLE"      from ""           [2026-01-18 Sun 19:16]
 - State "AMPLE"      from ""           [2026-01-11 Sun 17:22]
@@ -1275,7 +1301,8 @@ SCHEDULED: <2026-02-15 Sun ++1w>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2026-02-15 Sun 19:09]
+CLOCK: [2026-03-15 Sun 06:31]
+CLOCK: [2026-02-15 Sun 19:09]--[2026-02-15 Sun 19:19] =>  0:10
 CLOCK: [2026-01-25 Sun 20:14]--[2026-01-25 Sun 20:18] =>  0:04
 CLOCK: [2026-01-18 Sun 18:56]--[2026-01-18 Sun 19:16] =>  0:20
 CLOCK: [2026-01-11 Sun 17:06]--[2026-01-11 Sun 17:22] =>  0:16
@@ -1620,7 +1647,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2026-02-16 Mon ++1d>
+SCHEDULED: <2026-03-13 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-22 Thu 08:46]
 :END:
@@ -1690,6 +1717,13 @@ SCHEDULED: <2026-02-16 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-11-06 Sun 19:31]
 - State "MAYBE"      from "ACTIVE"     [2022-11-06 Sun 10:29]
 :LOGBOOK:
+CLOCK: [2026-03-13 Fri 07:13]--[2026-03-13 Fri 07:15] =>  0:02
+CLOCK: [2026-03-12 Thu 08:25]--[2026-03-12 Thu 08:28] =>  0:03
+CLOCK: [2026-03-11 Wed 09:13]--[2026-03-11 Wed 09:18] =>  0:05
+CLOCK: [2026-03-06 Fri 06:08]--[2026-03-06 Fri 06:26] =>  0:18
+CLOCK: [2026-02-27 Fri 09:58]--[2026-02-27 Fri 10:34] =>  0:36
+CLOCK: [2026-02-25 Wed 06:37]--[2026-02-25 Wed 06:43] =>  0:06
+CLOCK: [2026-02-20 Fri 08:43]--[2026-02-20 Fri 08:50] =>  0:07
 CLOCK: [2026-02-12 Thu 06:57]--[2026-02-12 Thu 07:07] =>  0:10
 CLOCK: [2026-02-09 Mon 10:13]--[2026-02-09 Mon 10:19] =>  0:06
 CLOCK: [2026-02-02 Mon 16:02]--[2026-02-02 Mon 16:12] =>  0:10
@@ -2025,10 +2059,12 @@ Daily shore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2026-02-16 Mon ++1d>
+SCHEDULED: <2026-03-13 Fri ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2026-02-10 Tue 19:42]
+:LAST_REPEAT: [2026-02-19 Thu 19:28]
 :END:
+- State "AMPLE"      from ""           [2026-02-19 Thu 19:28]
+- State "AMPLE"      from ""           [2026-02-16 Mon 19:42]
 - State "AMPLE"      from ""           [2026-02-10 Tue 19:42]
 - State "AMPLE"      from ""           [2026-02-04 Wed 17:54]
 - State "AMPLE"      from ""           [2026-02-03 Tue 19:16]
@@ -2134,6 +2170,9 @@ SCHEDULED: <2026-02-16 Mon ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2026-03-03 Tue 20:01]--[2026-03-03 Tue 20:17] =>  0:16
+CLOCK: [2026-02-18 Wed 19:33]--[2026-02-18 Wed 19:37] =>  0:04
+CLOCK: [2026-02-16 Mon 19:35]--[2026-02-16 Mon 19:42] =>  0:07
 CLOCK: [2026-02-10 Tue 19:38]--[2026-02-10 Tue 19:42] =>  0:04
 CLOCK: [2026-02-04 Wed 17:31]--[2026-02-04 Wed 17:54] =>  0:23
 CLOCK: [2026-02-03 Tue 19:11]--[2026-02-03 Tue 19:16] =>  0:05
@@ -2271,7 +2310,7 @@ CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
 *** [#A] Friday as a Day of Reflection
-SCHEDULED: <2026-02-20 Fri>
+SCHEDULED: <2026-03-13 Fri>
 :LOGBOOK:
 CLOCK: [2025-11-28 Fri 14:44]--[2025-11-28 Fri 15:06] =>  0:22
 :END:
@@ -2280,7 +2319,7 @@ CLOCK: [2025-11-28 Fri 14:44]--[2025-11-28 Fri 15:06] =>  0:22
 - Analysis.
 
 *** [#A] Thursday as a Day of Extension and Refactoring:
-SCHEDULED: <2026-02-19 Thu ++1w>
+SCHEDULED: <2026-03-19 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-22 Thu 20:25]
 :END:
@@ -2296,18 +2335,19 @@ CLOCK: [2025-12-18 Thu 19:28]--[2025-12-18 Thu 19:29] =>  0:01
 - Extend in the morning;
 - Enhance in the afternoon.
 
-
-
-*** Week Designing
-SCHEDULED: <2026-02-22 Sun ++1w>
+*** [#A] Week Designing
+SCHEDULED: <2026-03-16 Mon ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-02-15 Sun 19:09]
+:LAST_REPEAT: [2026-03-09 Mon 06:53]
 :END:
+- State "AMPLE"      from ""           [2026-03-09 Mon 06:53]
 - State "AMPLE"      from ""           [2026-02-15 Sun 19:09]
 - State "AMPLE"      from ""           [2026-01-25 Sun 20:14]
 - State "AMPLE"      from ""           [2026-01-18 Sun 18:55]
 - State "AMPLE"      from ""           [2026-01-11 Sun 15:06]
 :LOGBOOK:
+CLOCK: [2026-03-09 Mon 06:47]--[2026-03-09 Mon 06:52] =>  0:05
+CLOCK: [2026-02-23 Mon 08:47]--[2026-02-23 Mon 09:02] =>  0:15
 CLOCK: [2026-02-15 Sun 18:58]--[2026-02-15 Sun 19:09] =>  0:11
 CLOCK: [2026-02-15 Sun 18:23]--[2026-02-15 Sun 18:40] =>  0:17
 CLOCK: [2026-02-01 Sun 11:00]--[2026-02-01 Sun 12:00] =>  1:00
@@ -2319,10 +2359,11 @@ CLOCK: [2026-01-11 Sun 14:31]--[2026-01-11 Sun 15:06] =>  0:35
 
 
 *** Clean all that mess up!                                  :FireFox:tabs:
-SCHEDULED: <2026-02-17 Tue ++1w>
+SCHEDULED: <2026-03-13 Fri ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-01-30 Fri 07:55]
+:LAST_REPEAT: [2026-03-06 Fri 06:05]
 :END:
+- State "AMPLE"      from ""           [2026-03-06 Fri 06:05]
 - State "AMPLE"      from ""           [2026-01-30 Fri 07:55]
 - State "AMPLE"      from ""           [2026-01-23 Fri 08:36]
 - State "AMPLE"      from ""           [2026-01-14 Wed 12:24]
@@ -2361,6 +2402,7 @@ SCHEDULED: <2026-02-17 Tue ++1w>
 - State "DONE"       from "ACTIVE"     [2023-03-15 Wed 11:45]
 - State "DONE"       from "ACTIVE"     [2023-03-06 Mon 12:22]
 :LOGBOOK:
+CLOCK: [2026-03-06 Fri 05:32]--[2026-03-06 Fri 06:04] =>  0:32
 CLOCK: [2026-02-09 Mon 18:54]--[2026-02-09 Mon 19:10] =>  0:16
 CLOCK: [2026-01-30 Fri 07:26]--[2026-01-30 Fri 07:55] =>  0:29
 CLOCK: [2026-01-23 Fri 08:22]--[2026-01-23 Fri 08:36] =>  0:14
@@ -2411,7 +2453,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2026-02-20 Fri ++1w>
+SCHEDULED: <2026-03-13 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-18 Sun 18:30]
 :END:
@@ -2521,8 +2563,8 @@ CLOCK: [2024-01-17 Wed 19:19]--[2024-01-17 Wed 19:27] =>  0:08
 
 - To rear its ugly head;
 - Light up like a X-mass tree;
-*** LAG English Grammar                                     :AI_Tutor:2025:
-SCHEDULED: <2026-02-24 Tue ++1w>
+*** RETARD English Grammar                                  :AI_Tutor:2025:
+SCHEDULED: <2026-07-15 Wed ++1w>
 :PROPERTIES:
 :CATEGORY: Gram
 :LAST_REPEAT: [2023-10-11 Wed 08:29]
@@ -2566,15 +2608,17 @@ SCHEDULED: <2023-03-09 Thu>
 
 *
 *** [#A] DSP Re-Submittion
-SCHEDULED: <2026-02-17 Tue ++4w>
+SCHEDULED: <2026-03-17 Tue ++4w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-01-20 Tue 20:11]
+:LAST_REPEAT: [2026-02-17 Tue 16:50]
 :END:
+- State "AMPLE"      from ""           [2026-02-17 Tue 16:50]
 - State "AMPLE"      from ""           [2026-01-20 Tue 20:11]
 - State "AMPLE"      from ""           [2025-11-25 Tue 15:05]
 - State "AMPLE"      from ""           [2025-06-11 Wed 04:58]
 - State "AMPLE"      from ""           [2025-05-13 Tue 08:54]
 :LOGBOOK:
+CLOCK: [2026-02-17 Tue 08:39]--[2026-02-17 Tue 08:50] =>  0:11
 CLOCK: [2025-05-13 Tue 08:15]--[2025-05-13 Tue 08:22] =>  0:07
 :END:
 - State "AMPLE"      from ""           [2023-10-31 Tue 11:47]
@@ -2582,116 +2626,20 @@ CLOCK: [2025-05-13 Tue 08:15]--[2025-05-13 Tue 08:22] =>  0:07
 
 
 *** New tasks trimming
-SCHEDULED: <2026-02-17 Tue ++2d/3d>
+SCHEDULED: <2026-03-14 Sat ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2026-02-15 Sun 18:58]
+:LAST_REPEAT: [2026-03-12 Thu 08:36]
 :END:
-- State "AMPLE"      from ""           [2026-02-15 Sun 18:58]
-- State "AMPLE"      from ""           [2026-02-09 Mon 19:52]
-- State "AMPLE"      from ""           [2026-02-06 Fri 14:32]
-- State "AMPLE"      from ""           [2026-01-25 Sun 19:44]
-- Note taken on [2026-01-22 Thu 20:24] \\
-  ;; Killing and Yanking
-  (key-chord-define-global "vf"     'kill-ring-save)
-  (key-chord-define-global "rf"     'kill-region)
-  (key-chord-define-global "rd"     'delete-region)
-  (key-chord-define-global "uy"     'yank)
-
-
-  "There are three kinds of lies: lies, damned lies, and statistics."
-  (23438 29959)
-
-  Sovereignty
-
-  ### Key Mental Drivers in 2025:
-
-   - **Status Anxiety:** The shame of no longer being the "provider" or
-     "expert."
-   - **The "Ghosting" Epidemic:** In 2025, AI-filtered recruitment means
-     many high-earners never receive a single human response, leading to
-     a feeling of being "obsolete."
-   - **The Savings Burn:** Watching a decade of 401(k) or emergency
-     savings vanish in 6 months to pay for a mortgage creates
-     "existential dread."
-   - **The "Overqualified" Trap:** Being rejected for lower-paying roles
-     because they are "too expensive," leaving them stuck in a
-  middle-ground where no one will hire them.
-
-
-  Context engineering
-  https://www.youtube.com/watch?v=yMOmmnjy3sE
-
-  Groq
-
-  Salary as the potent drug
-
-  Monetisation
-
-  Text emotional colouring
-
-  Rare words inclusion
-
-  Clarity promotes vision
-
-  All starts from thoughtfulness
-
-  An unemployment is the taboo in the consumer society, but it is
-  absolutely normal to deem it a prejudice.
-
-  An ambitious goal definition: a million subscribers in a year.
-
-  Brian Tracy formula of success.
-
-  A new section: "Lets Read Together, or The Book Club"
-- State "AMPLE"      from ""           [2026-01-05 Mon 10:20]
-- State "AMPLE"      from ""           [2025-12-30 Tue 08:48]
-- State "AMPLE"      from ""           [2025-12-19 Fri 09:44]
-- State "AMPLE"      from ""           [2025-12-15 Mon 10:52]
-- State "AMPLE"      from ""           [2025-11-29 Sat 18:02]
-- State "AMPLE"      from ""           [2025-11-26 Wed 08:17]
-- Note taken on [2025-11-26 Wed 07:47] \\
-  What is the practical usage of vector store? Can I use it as the
-  cornerstone (basement) for all answers?
-- Note taken on [2025-11-25 Tue 20:16] \\
-  Youtube theory, in particular - terminology.
-- State "AMPLE"      from ""           [2025-11-24 Mon 13:16]
-- State "AMPLE"      from ""           [2025-05-12 Mon 05:56]
-- State "AMPLE"      from ""           [2024-08-04 Sun 19:32]
-- State "AMPLE"      from ""           [2024-07-29 Mon 19:50]
-- State "AMPLE"      from ""           [2024-07-18 Thu 21:03]
-- State "AMPLE"      from ""           [2024-07-10 Wed 18:00]
-- State "AMPLE"      from ""           [2024-06-27 Thu 19:59]
-- State "AMPLE"      from ""           [2024-06-19 Wed 15:00]
-- State "AMPLE"      from ""           [2024-06-08 Sat 19:22]
-- State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
-- State "AMPLE"      from ""           [2024-05-27 Mon 19:50]
-- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
-- State "AMPLE"      from ""           [2024-05-17 Fri 11:39]
-- State "AMPLE"      from ""           [2024-05-13 Mon 11:55]
-- Note taken on [2024-03-26 Tue 18:39] \\
-  Join together all steps of a single task. Define this task.
-- State "AMPLE"      from ""           [2024-03-24 Sun 19:11]
-- State "AMPLE"      from ""           [2024-03-19 Tue 16:27]
-- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
-- State "AMPLE"      from ""           [2024-02-27 Tue 17:40]
-- State "AMPLE"      from ""           [2024-01-31 Wed 11:50]
-- State "AMPLE"      from ""           [2024-01-25 Thu 18:46]
-- State "AMPLE"      from ""           [2024-01-16 Tue 11:44]
-- State "AMPLE"      from ""           [2024-01-02 Tue 15:21]
-- State "AMPLE"      from ""           [2023-12-27 Wed 16:06]
-- State "AMPLE"      from ""           [2023-12-13 Wed 11:13]
-- State "AMPLE"      from ""           [2023-11-29 Wed 16:35]
-- State "AMPLE"      from ""           [2023-11-15 Wed 09:38]
-- State "AMPLE"      from ""           [2023-11-07 Tue 11:26]
-- State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
-- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
-- [2024-03-04 Mon 10:50]
-- GNU password manager [2024-06-08 Sat 19:07]
-- The Outdatedness of Human Beings by Günther Anders [2024-06-08 Sat 19:07]
-- KVM as the Docker basement [2024-06-08 Sat 19:08]
-- Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
-- Using Greek in variable names in Python [2024-06-08 Sat 19:08]
+- State "AMPLE"      from ""           [2026-03-12 Thu 08:36]
+- State "AMPLE"      from ""           [2026-03-04 Wed 15:20]
 :LOGBOOK:
+CLOCK: [2026-03-12 Thu 08:28]--[2026-03-12 Thu 08:36] =>  0:08
+CLOCK: [2026-03-09 Mon 06:26]--[2026-03-09 Mon 06:47] =>  0:21
+CLOCK: [2026-03-06 Fri 06:39]--[2026-03-06 Fri 06:40] =>  0:01
+CLOCK: [2026-03-04 Wed 15:14]--[2026-03-04 Wed 15:20] =>  0:06
+CLOCK: [2026-03-02 Mon 15:39]--[2026-03-02 Mon 15:41] =>  0:02
+CLOCK: [2026-03-02 Mon 07:49]--[2026-03-02 Mon 09:21] =>  1:32
+CLOCK: [2026-02-17 Tue 16:57]--[2026-02-17 Tue 17:51] =>  0:54
 CLOCK: [2026-02-15 Sun 18:40]--[2026-02-15 Sun 18:58] =>  0:18
 CLOCK: [2026-02-09 Mon 19:10]--[2026-02-09 Mon 19:11] =>  0:01
 CLOCK: [2026-02-09 Mon 10:19]--[2026-02-09 Mon 10:36] =>  0:17
@@ -2803,6 +2751,111 @@ CLOCK: [2022-12-11 Sun 13:55]--[2022-12-11 Sun 14:00] =>  0:05
 CLOCK: [2022-12-04 Sun 12:26]--[2022-12-04 Sun 12:57] =>  0:31
 CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 :END:
+- State "AMPLE"      from ""           [2026-02-15 Sun 18:58]
+- State "AMPLE"      from ""           [2026-02-09 Mon 19:52]
+- State "AMPLE"      from ""           [2026-02-06 Fri 14:32]
+- State "AMPLE"      from ""           [2026-01-25 Sun 19:44]
+- Note taken on [2026-01-22 Thu 20:24] \\
+  ;; Killing and Yanking
+  (key-chord-define-global "vf"     'kill-ring-save)
+  (key-chord-define-global "rf"     'kill-region)
+  (key-chord-define-global "rd"     'delete-region)
+  (key-chord-define-global "uy"     'yank)
+
+
+  "There are three kinds of lies: lies, damned lies, and statistics."
+  (23438 29959)
+
+  Sovereignty
+
+  ### Key Mental Drivers in 2025:
+
+   - **Status Anxiety:** The shame of no longer being the "provider" or
+     "expert."
+   - **The "Ghosting" Epidemic:** In 2025, AI-filtered recruitment means
+     many high-earners never receive a single human response, leading to
+     a feeling of being "obsolete."
+   - **The Savings Burn:** Watching a decade of 401(k) or emergency
+     savings vanish in 6 months to pay for a mortgage creates
+     "existential dread."
+   - **The "Overqualified" Trap:** Being rejected for lower-paying roles
+     because they are "too expensive," leaving them stuck in a
+  middle-ground where no one will hire them.
+
+
+  Context engineering
+  https://www.youtube.com/watch?v=yMOmmnjy3sE
+
+  Groq
+
+  Salary as the potent drug
+
+  Monetisation
+
+  Text emotional colouring
+
+  Rare words inclusion
+
+  Clarity promotes vision
+
+  All starts from thoughtfulness
+
+  An unemployment is the taboo in the consumer society, but it is
+  absolutely normal to deem it a prejudice.
+
+  An ambitious goal definition: a million subscribers in a year.
+
+  Brian Tracy formula of success.
+
+  A new section: "Lets Read Together, or The Book Club"
+- State "AMPLE"      from ""           [2026-01-05 Mon 10:20]
+- State "AMPLE"      from ""           [2025-12-30 Tue 08:48]
+- State "AMPLE"      from ""           [2025-12-19 Fri 09:44]
+- State "AMPLE"      from ""           [2025-12-15 Mon 10:52]
+- State "AMPLE"      from ""           [2025-11-29 Sat 18:02]
+- State "AMPLE"      from ""           [2025-11-26 Wed 08:17]
+- Note taken on [2025-11-26 Wed 07:47] \\
+  What is the practical usage of vector store? Can I use it as the
+  cornerstone (basement) for all answers?
+- Note taken on [2025-11-25 Tue 20:16] \\
+  Youtube theory, in particular - terminology.
+- State "AMPLE"      from ""           [2025-11-24 Mon 13:16]
+- State "AMPLE"      from ""           [2025-05-12 Mon 05:56]
+- State "AMPLE"      from ""           [2024-08-04 Sun 19:32]
+- State "AMPLE"      from ""           [2024-07-29 Mon 19:50]
+- State "AMPLE"      from ""           [2024-07-18 Thu 21:03]
+- State "AMPLE"      from ""           [2024-07-10 Wed 18:00]
+- State "AMPLE"      from ""           [2024-06-27 Thu 19:59]
+- State "AMPLE"      from ""           [2024-06-19 Wed 15:00]
+- State "AMPLE"      from ""           [2024-06-08 Sat 19:22]
+- State "AMPLE"      from ""           [2024-05-30 Thu 19:06]
+- State "AMPLE"      from ""           [2024-05-27 Mon 19:50]
+- State "AMPLE"      from ""           [2024-05-21 Tue 18:51]
+- State "AMPLE"      from ""           [2024-05-17 Fri 11:39]
+- State "AMPLE"      from ""           [2024-05-13 Mon 11:55]
+- Note taken on [2024-03-26 Tue 18:39] \\
+  Join together all steps of a single task. Define this task.
+- State "AMPLE"      from ""           [2024-03-24 Sun 19:11]
+- State "AMPLE"      from ""           [2024-03-19 Tue 16:27]
+- State "AMPLE"      from ""           [2024-03-12 Tue 19:13]
+- State "AMPLE"      from ""           [2024-02-27 Tue 17:40]
+- State "AMPLE"      from ""           [2024-01-31 Wed 11:50]
+- State "AMPLE"      from ""           [2024-01-25 Thu 18:46]
+- State "AMPLE"      from ""           [2024-01-16 Tue 11:44]
+- State "AMPLE"      from ""           [2024-01-02 Tue 15:21]
+- State "AMPLE"      from ""           [2023-12-27 Wed 16:06]
+- State "AMPLE"      from ""           [2023-12-13 Wed 11:13]
+- State "AMPLE"      from ""           [2023-11-29 Wed 16:35]
+- State "AMPLE"      from ""           [2023-11-15 Wed 09:38]
+- State "AMPLE"      from ""           [2023-11-07 Tue 11:26]
+- State "AMPLE"      from ""           [2023-10-30 Mon 10:33]
+- State "DONE"       from "ACTIVE"     [2022-12-04 Sun 13:20]
+- [2024-03-04 Mon 10:50]
+- GNU password manager [2024-06-08 Sat 19:07]
+- The Outdatedness of Human Beings by Günther Anders [2024-06-08 Sat 19:07]
+- KVM as the Docker basement [2024-06-08 Sat 19:08]
+- Full-stack is much more appealing for companies [2024-06-08 Sat 19:08]
+- Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 maiden scheduling of completely new (*RAW*) tasks 
 **** DELAY Effort in task resolving                                 :2025:
 SCHEDULED: <2026-03-14 Sat>
@@ -2993,8 +3046,8 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** RAW LinkedIn                                                       :2025:
-SCHEDULED: <2026-02-19 Thu>
+** LAG LinkedIn                                                       :2025:
+SCHEDULED: <2026-05-22 Fri>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-25 Sat 09:12]
 :END:
@@ -3028,8 +3081,8 @@ SCHEDULED: <2024-05-20 Mon>
 [[info:emacs#Find Init]]
 [2023-12-12 Tue 14:24]
 
-** DELAY Handling links                                               :2025:
-SCHEDULED: <2026-02-23 Mon>
+** LAG Handling links                                                 :2025:
+SCHEDULED: <2026-03-16 Mon>
 :LOGBOOK:
 CLOCK: [2025-05-02 Fri 05:05]--[2025-05-02 Fri 05:11] =>  0:06
 CLOCK: [2025-05-02 Fri 05:04]--[2025-05-02 Fri 05:05] =>  0:01
@@ -3068,8 +3121,8 @@ SCHEDULED: <2024-03-19 Tue>
 CLOCK: [2024-03-19 Tue 16:49]--[2024-03-19 Tue 16:53] =>  0:04
 CLOCK: [2024-03-19 Tue 12:33]--[2024-03-19 Tue 12:33] =>  0:00
 :END:
-** DELAY [#A] Keep Going Austin Kleon                                 :2025:
-SCHEDULED: <2026-02-23 Mon>
+** LAG [#A] Keep Going Austin Kleon                         :2025:book:club:
+SCHEDULED: <2026-04-16 Thu>
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
 SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
@@ -3093,8 +3146,8 @@ SCHEDULED: <2026-04-26 Sun>
 CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
 :END:
 50 personal adjectives
-** DELAY Anton Alexeyev's lessons                                     :2025:
-SCHEDULED: <2026-02-25 Wed>
+** LAG Anton Alexeyev's lessons                                       :2025:
+SCHEDULED: <2026-05-07 Thu>
 https://www.youtube.com/@AntonALEX
 
 ** BARE Bulk remote editing selected entries
@@ -3286,8 +3339,8 @@ CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
 :PROPERTIES:
 :CATEGORY: LLM
 :END:
-** DELAY RAG & IR methodology                                         :2025:
-SCHEDULED: <2026-03-11 Wed>
+** LAG RAG & IR methodology                                           :2025:
+SCHEDULED: <2026-05-27 Wed>
 Retrieval Augumented Generation augumented by Information Retrieval.
 =First impression as an overly overthinking idea.=
 https://github.com/s-kostyaev/elisa
@@ -3302,9 +3355,10 @@ SCHEDULED: <2026-04-12 Sun>
 CLOCK: [2024-07-23 Tue 07:39]--[2024-07-23 Tue 08:15] =>  0:36
 :END:
 
-** DELAY [#A] Creative Writing
-SCHEDULED: <2026-02-19 Thu>
+** ACTIVE [#A] Creative Writing
+SCHEDULED: <2026-03-13 Fri>
 :LOGBOOK:
+CLOCK: [2026-03-05 Thu 07:18]--[2026-03-05 Thu 09:01] =>  1:43
 CLOCK: [2026-01-02 Fri 09:31]--[2026-01-02 Fri 09:56] =>  0:25
 :END:
 https://en.wikipedia.org/wiki/Creative_writing
@@ -3465,8 +3519,8 @@ CLOCK: [2024-06-20 Thu 06:56]--[2024-06-20 Thu 07:46] =>  0:50
 :END:
 
 
-*** LAG Input format ~not documented yet~ options                    :2025:
-SCHEDULED: <2026-02-27 Fri>
+*** RETARD Input format ~not documented yet~ options                 :2025:
+SCHEDULED: <2026-05-08 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-16 Tue 10:58]--[2024-07-16 Tue 11:11] =>  0:13
 CLOCK: [2024-07-03 Wed 09:54]--[2024-07-03 Wed 09:59] =>  0:05
@@ -3513,8 +3567,8 @@ CLOCK: [2025-05-27 Tue 05:33]--[2025-05-27 Tue 05:46] =>  0:13
 
 ** Gemini                                                           :Gemini:
 
-*** DELAY Veo3
-SCHEDULED: <2026-02-19 Thu>
+*** LAG Veo3
+SCHEDULED: <2026-05-01 Fri>
 - Note taken on [2026-01-15 Thu 18:35] \\
   Seems a quite expensive solution for channel with mostly verbal
   information.
@@ -3532,8 +3586,8 @@ CLOCK: [2026-01-05 Mon 10:24]--[2026-01-05 Mon 10:27] =>  0:03
 :END:
 https://www.youtube.com/watch?v=0-0gFuDwmXI
 
-*** DELAY AI Studio 
-SCHEDULED: <2026-03-06 Fri>
+*** LAG AI Studio 
+SCHEDULED: <2026-05-15 Fri>
 :LOGBOOK:
 CLOCK: [2026-01-15 Thu 18:36]--[2026-01-15 Thu 18:47] =>  0:11
 :END:
