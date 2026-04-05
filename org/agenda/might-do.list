@@ -1243,10 +1243,18 @@ CLOCK: [2026-02-19 Thu 17:45]--[2026-02-19 Thu 18:02] =>  0:17
 https://www.youtube.com/watch?v=l69yZ5xabbo
 
 *** [#A] >Git<
+<<<<<<< HEAD
 SCHEDULED: <2026-04-05 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-03-15 Sun 06:47]
 :END:
+=======
+SCHEDULED: <2026-04-12 Sun ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2026-04-05 Sun 11:13]
+:END:
+- State "AMPLE"      from ""           [2026-04-05 Sun 11:13]
+>>>>>>> e3b1131 (General task set refinement)
 - State "AMPLE"      from ""           [2026-03-15 Sun 06:47]
 - State "AMPLE"      from ""           [2026-02-15 Sun 19:19]
 - State "AMPLE"      from ""           [2026-01-25 Sun 20:18]
@@ -1333,7 +1341,11 @@ SCHEDULED: <2026-04-05 Sun ++1w>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
+<<<<<<< HEAD
 CLOCK: [2026-04-05 Sun 11:00]
+=======
+CLOCK: [2026-04-05 Sun 11:00]--[2026-04-05 Sun 11:13] =>  0:13
+>>>>>>> e3b1131 (General task set refinement)
 CLOCK: [2026-03-15 Sun 06:31]--[2026-03-15 Sun 06:47] =>  0:16
 CLOCK: [2026-02-15 Sun 19:09]--[2026-02-15 Sun 19:19] =>  0:10
 CLOCK: [2026-01-25 Sun 20:14]--[2026-01-25 Sun 20:18] =>  0:04
