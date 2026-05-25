@@ -140,8 +140,7 @@ The continuous practice of logging every single step, decision, tool call, param
 **The Essence:** Moving away from a single model and treating an agentic system like an orchestra.
 
 
-* 
-**Key Focus:** Designing the architecture of data flow and coordination between LLMs, tools, databases, and sub-agents so they function structurally without failing.
+* **Key Focus:** Designing the architecture of data flow and coordination between LLMs, tools, databases, and sub-agents so they function structurally without failing.
 
 
 
@@ -156,56 +155,46 @@ The continuous practice of logging every single step, decision, tool call, param
 
 ## 3. Retrieval Engineering (RAG)
 
-* 
-**The Essence:** Ensuring the context fed into your model is highly relevant signal, not random noise.
+* **The Essence:** Ensuring the context fed into your model is highly relevant signal, not random noise.
 
 
-* 
-**Key Focus:** Perfecting document chunking strategies, optimizing how embedding models represent meaning, and utilizing re-ranking pipelines to prioritize the most relevant data.
+* **Key Focus:** Perfecting document chunking strategies, optimizing how embedding models represent meaning, and utilizing re-ranking pipelines to prioritize the most relevant data.
 
 
 
 ## 4. Reliability Engineering
 
-* 
-**The Essence:** Standard software and external APIs fail; your agent must be built to handle those failures gracefully.
+* **The Essence:** Standard software and external APIs fail; your agent must be built to handle those failures gracefully.
 
 
-* 
-**Key Focus:** Implementing classic backend engineering practices such as retry logic with back-offs, timeouts, fallback paths (Plan B options), and circuit breakers to prevent cascading system failures.
+* **Key Focus:** Implementing classic backend engineering practices such as retry logic with back-offs, timeouts, fallback paths (Plan B options), and circuit breakers to prevent cascading system failures.
 
 
 
 ## 5. Security & Safety
 
-* 
-**The Essence:** Protecting your agent from being manipulated or weaponized against you.
+* **The Essence:** Protecting your agent from being manipulated or weaponized against you.
 
 
-* 
-**Key Focus:** Defending against prompt injections via input validation, setting up output filters to block policy-violating responses, and strictly limiting the agent's permission boundaries (e.g., restricting direct database write access or unapproved emailing).
+* **Key Focus:** Defending against prompt injections via input validation, setting up output filters to block policy-violating responses, and strictly limiting the agent's permission boundaries (e.g., restricting direct database write access or unapproved emailing).
 
 
 
 ## 6. Evaluation & Observability
 
-* 
-**The Essence:** Replacing "vibes" and guesswork with definitive data and metrics.
+* **The Essence:** Replacing "vibes" and guesswork with definitive data and metrics.
 
 
-* 
-**Key Focus:** Setting up tracing pipelines to log every decision, tool call, and reasoning step. You must establish evaluation pipelines with known test cases to measure concrete metrics like success rate, latency, and cost per task.
+* **Key Focus:** Setting up tracing pipelines to log every decision, tool call, and reasoning step. You must establish evaluation pipelines with known test cases to measure concrete metrics like success rate, latency, and cost per task.
 
 
 
 ## 7. Product Thinking & UX
 
-* 
-**The Essence:** Designing an experience for a system that is inherently unpredictable.
+* **The Essence:** Designing an experience for a system that is inherently unpredictable.
 
 
-* 
-**Key Focus:** Building human trust by ensuring the agent handles errors gracefully, clearly signals when it is certain vs. uncertain, and knows exactly when to ask a human for clarification or escalate the task entirely.
+* **Key Focus:** Building human trust by ensuring the agent handles errors gracefully, clearly signals when it is certain vs. uncertain, and knows exactly when to ask a human for clarification or escalate the task entirely.
 
 
 
