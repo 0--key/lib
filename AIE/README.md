@@ -136,8 +136,7 @@ The continuous practice of logging every single step, decision, tool call, param
 
 ## 1. System Design
 
-* 
-**The Essence:** Moving away from a single model and treating an agentic system like an orchestra.
+* **The Essence:** Moving away from a single model and treating an agentic system like an orchestra.
 
 
 * **Key Focus:** Designing the architecture of data flow and coordination between LLMs, tools, databases, and sub-agents so they function structurally without failing.
