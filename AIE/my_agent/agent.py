@@ -1,9 +1,12 @@
 from google.adk.agents.llm_agent import Agent
+"""A lonely agent with a single tool"""
+
 
 # Mock tool implementation
 def get_current_time(city: str) -> dict:
     """Returns the current time in a specified city."""
     return {"status": "success", "city": city, "time": "10:30 AM"}
+
 
 root_agent = Agent(
     model='gemini-2.5-flash',
