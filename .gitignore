@@ -62,3 +62,6 @@ google_appengine/
 *#
 .#*
 *.desktop*
+
+# Google ADK
+.adk/
