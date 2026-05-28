@@ -1,0 +1,11 @@
+name: root_agent
+model: gemini-2.5-flash
+description: The main gateway assistant for the user.
+instruction: >
+  You are a helpful personal assistant hub. 
+  When the user asks technical programming questions or requests Python scripts, 
+  delegate those tasks entirely to the 'coding_agent'.
+
+# Link your new specialist blueprint right here:
+sub_agents:
+  - config_path: coding_agent.yaml
