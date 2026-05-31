@@ -20,13 +20,13 @@ Advanced to-do list    -*- mode: org; -*-
 
 ** Concepts                                                        :concept:
 
-*** LAG Chesterton’s Fence
-SCHEDULED: <2026-04-29 Wed>
+*** RETARD Chesterton’s Fence
+SCHEDULED: <2026-06-30 Tue>
 https://fs.blog/chestertons-fence/
 
 
 *** RETARD Nyāya
-SCHEDULED: <2026-04-26 Sun>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2026-01-05 Mon 10:11]--[2026-01-05 Mon 10:15] =>  0:04
 :END:
@@ -39,6 +39,15 @@ SCHEDULED: <2026-07-09 Thu>
 is the philosophical study of being, existence, and reality, exploring
 what kinds of things exist, their fundamental categories, and their
 relationships, essentially asking "what is?".
+
+** Software Engineering
+SCHEDULED: <2026-06-03 Wed>
+Dave Farley’s book Modern Software Engineering
+https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/
+
+** Gascon Spirit
+SCHEDULED: <2026-06-05 Fri>
+https://www.lemondededartagnan.org/en/gascony/gascons/gascon-spirit
 
 ** Non-verbal communication
 :PROPERTIES:
@@ -63,13 +72,13 @@ https://whhone.com/posts/org-mode-task-management/) to be described
 and displayed for members of the target group.
 
 
-**** LAG Wai Hon                                           :backdoor:2025:
-SCHEDULED: <2026-05-21 Thu>
+**** RETARD Wai Hon                                        :backdoor:2025:
+SCHEDULED: <2026-10-22 Thu>
 https://whhone.com/posts/org-mode-task-management/
 https://whhone.com/tags/linux/
 
-**** LAG Irreal blog                                       :backdoor:2025:
-SCHEDULED: <2026-04-29 Wed>
+**** RETARD Irreal blog                                    :backdoor:2025:
+SCHEDULED: <2026-09-11 Fri>
 - Note taken on [2023-06-20 Tue 11:29] \\
   [[http://irreal.org/blog/][Irreal | Blog]]
 :LOGBOOK:
@@ -80,7 +89,7 @@ CLOCK: [2023-06-20 Tue 10:51]--[2023-06-20 Tue 10:54] =>  0:03
 
 
 **** DELAY Authors                                         :backdoor:2025:
-SCHEDULED: <2026-05-03 Sun>
+SCHEDULED: <2026-06-03 Wed>
 - Note taken on [2024-04-08 Mon 16:47] \\
   From PyPi, pip and ELPA repositories might be a target audience for my
   work presentation
@@ -133,8 +142,8 @@ CLOCK: [2024-04-09 Tue 08:36]--[2024-04-09 Tue 09:32] =>  0:56
 Most useful key-chords ever description and usage
 [[file:~/Git/0--key/org-pub/2024-04-08-CxMxCh.org::*Touch typing][Touch typing]]
 
-*** LAG Define Your System                                  :philosys:2025:
-SCHEDULED: <2026-05-18 Mon ++1d>
+*** RETARD Define Your System                               :philosys:2025:
+SCHEDULED: <2026-11-28 Sat ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-08 Thu 20:01]
 :END:
@@ -152,8 +161,8 @@ CLOCK: [2024-05-14 Tue 08:27]--[2024-05-14 Tue 08:54] =>  0:27
 https://www.youtube.com/watch?v=y4evLICF8kk
 [[file:~/Git/0--key/org-pub/2022-02-07-the-average-workflow.org::*Preamble][Preamble]]
 
-**** LAG An Insight Incubation Approach                             :2025:
-SCHEDULED: <2026-04-25 Sat ++1d>
+**** RETARD An Insight Incubation Approach                          :2025:
+SCHEDULED: <2026-07-23 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-04-09 Tue 15:09]
 :END:
@@ -185,7 +194,7 @@ SCHEDULED: <2026-06-25 Thu>
 :END:
 
 *** LAG [#C] Jeeves&Wooster
-SCHEDULED: <2026-05-12 Tue ++1d>
+SCHEDULED: <2026-06-05 Fri ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-25 Sun 19:07]
 :END:
@@ -215,7 +224,7 @@ https://gemini.google.com/share/4817fcabb2b0
 [[elisp:(bookmark-jump-other-window "2025-12-16-jeeves-and-wooster.org")][Current position]]
 
 *** Edward L. Wickes
-SCHEDULED: <2026-04-24 Fri ++2w>
+SCHEDULED: <2026-06-05 Fri ++2w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-09 Fri 17:55]
 :END:
@@ -226,7 +235,7 @@ CLOCK: [2026-01-09 Fri 13:20]--[2026-01-09 Fri 16:20] =>  3:00
 :END:
 
 *** RETARD [#C] Talk with Gemini
-SCHEDULED: <2026-04-27 Mon ++1d>
+SCHEDULED: <2026-06-01 Mon ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-22 Thu 20:27]
 :END:
@@ -278,7 +287,7 @@ https://nickdale.me/2015/10/26/parts-of-speech/
 
 
 *** RETARD The Cornerstone :moveIt!:                   :TopicStarters:2025:
-SCHEDULED: <2026-05-25 Mon>
+SCHEDULED: <2026-10-17 Sat>
 :LOGBOOK:
 CLOCK: [2025-05-12 Mon 05:14]--[2025-05-12 Mon 05:46] =>  0:32
 CLOCK: [2025-05-05 Mon 07:53]--[2025-05-05 Mon 07:56] =>  0:03
@@ -286,7 +295,7 @@ CLOCK: [2025-05-05 Mon 07:53]--[2025-05-05 Mon 07:56] =>  0:03
 [[elisp:(bookmark-jump-other-window "2025-04-23-cornerstone-of-success.org")]]
 
 *** LAG Message for Edward Lewis
-SCHEDULED: <2026-05-24 Sun>
+SCHEDULED: <2026-06-05 Fri>
 
 *** BARE Prosody
 SCHEDULED: <2025-07-01 Tue>
@@ -368,7 +377,7 @@ markings as needed.  Focus on Meaning: Intonation is a tool to express
 meaning, so focus on conveying the emotion and intent of the text.
 
 *** LAG Useful expressions                                           :2025:
-SCHEDULED: <2026-05-28 Thu ++4d>
+SCHEDULED: <2026-06-07 Sun ++4d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-06-11 Wed 06:40]
 :END:
@@ -384,7 +393,7 @@ CLOCK: [2024-06-07 Fri 07:23]--[2024-06-07 Fri 07:39] =>  0:16
 *** British Counsil
 
 **** LAG Mitigators                                                 :2025:
-SCHEDULED: <2026-05-11 Mon>
+SCHEDULED: <2026-06-04 Thu>
 [[https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/mitigators][Link]]
 
 *** LAG Litotes                                                      :2025:
@@ -423,7 +432,7 @@ https://www.youtube.com/watch?v=_dh5LP4S7dI
 
 
 *** RETARD Cultivating Happiness                           :TLL:idea:stash:
-SCHEDULED: <2026-05-03 Sun>
+SCHEDULED: <2026-06-04 Thu>
 Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 
 - Enjoyment;
@@ -433,7 +442,7 @@ Arthur C.Brooks dissection with Peter Attia at ~Drive~ podcast #280
 ** YouTube
 
 *** LAG Life Structuring and Ordering :moveIt!:        :TopicStarters:2025:
-SCHEDULED: <2026-05-03 Sun>
+SCHEDULED: <2026-06-04 Thu>
 :LOGBOOK:
 CLOCK: [2024-01-25 Thu 18:11]--[2024-01-25 Thu 18:14] =>  0:03
 CLOCK: [2024-01-10 Wed 09:29]--[2024-01-10 Wed 09:56] =>  0:27
@@ -447,7 +456,7 @@ https://www.youtube.com/watch?v=QGB_jCIk8IA
 [[file:~/Git/0--key/org-pub/2024-01-08-order-and-structure.org::*Step One: The Secret Quadrant][Step One: The Secret Quadrant]]
 
 *** RAW [#A] 100 Books a Year                                   :book:club:
-SCHEDULED: <2026-05-28 Thu>
+SCHEDULED: <2026-06-04 Thu>
 https://www.youtube.com/watch?v=fc8kOuCPNEM
 
 *** ACTIVE Straight Work Approach                                 :ARCHIVE:
@@ -469,8 +478,8 @@ CLOCK: [2024-03-12 Tue 12:06]--[2024-03-12 Tue 12:09] =>  0:03
 
 ** ACTIVE Shallow/deep | long/short sessions                       :ARCHIVE:
 SCHEDULED: <2024-05-17 Fri>
-** LAG Strategic Thinking                                             :2025:
-SCHEDULED: <2026-05-01 Fri ++2d/3d>
+** RETARD Strategic Thinking                                          :2025:
+SCHEDULED: <2026-09-26 Sat ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-14 Tue 16:04]
 :END:
@@ -498,8 +507,8 @@ CLOCK: [2024-03-12 Tue 12:13]--[2024-03-12 Tue 12:32] =>  0:19
 [[https://www.youtube.com/watch?v=dbiNhAZlXZk][Video]]
 [[elisp:(bookmark-jump-other-frame "Use Strategic Thinking to Create the Life You Want")][Article]]
 
-** LAG Erradicate an overthinking :moveIt!:             :TopicStarters:2025:
-SCHEDULED: <2026-05-15 Fri ++35d>
+** RETARD Erradicate an overthinking :moveIt!:          :TopicStarters:2025:
+SCHEDULED: <2026-06-14 Sun ++35d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-06-19 Wed 07:40]
 :END:
@@ -539,8 +548,8 @@ CLOCK: [2024-03-12 Tue 11:23]--[2024-03-12 Tue 11:55] =>  0:32
 :END:
 A Clot for Every Slot
 
-** LAG Modes of Thinking :moveIt!:                      :TopicStarters:2025:
-SCHEDULED: <2026-04-27 Mon>
+** RETARD Modes of Thinking :moveIt!:                   :TopicStarters:2025:
+SCHEDULED: <2026-09-12 Sat>
 [[elisp:(bookmark-jump-other-window "2024-08-05-modes-of-thinking.org")]]
 [[elisp:(bookmark-jump-other-window "2024-08-05-six-levels-of-thinking.org")]]
 :LOGBOOK:
@@ -573,12 +582,17 @@ CLOCK: [2025-05-18 Sun 06:20]--[2025-05-18 Sun 06:25] =>  0:05
 :PROPERTIES:
 :CATEGORY: Emacs
 :END:
+
+** Assisted Programming                                              :Emigo:
+SCHEDULED: <2026-06-03 Wed>
+https://github.com/MatthewZMD/emigo
+
 ** Elisp
 :PROPERTIES:
 :CATEGORY: Elisp
 :END:
 ** LAG Agenda Filtering
-SCHEDULED: <2026-05-13 Wed>
+SCHEDULED: <2026-06-03 Wed>
 M-x org-agenda-filter
 M-x org-agenda-filter-by-tag M-x
  org-agenda-filter-by-effort M-x org-agenda-filter-by-regexp M-x
@@ -587,7 +601,7 @@ M-x org-agenda-filter-by-tag M-x
 org-agenda-filter-remove-all
 
 ** LAG Sparce Trees                                                   :2025:
-SCHEDULED: <2026-05-06 Wed>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2025-05-05 Mon 06:18]--[2025-05-05 Mon 06:28] =>  0:10
 :END:
@@ -608,7 +622,7 @@ CLOCK: [2024-07-09 Tue 17:24]--[2024-07-09 Tue 18:46] =>  1:22
 [[elisp:(bookmark-jump-other-window "emacs-deployment-sh-script")]]
 
 ** LAG Tags                                                           :2025:
-SCHEDULED: <2026-05-28 Thu>
+SCHEDULED: <2026-06-10 Wed>
 :LOGBOOK:
 CLOCK: [2025-05-08 Thu 09:18]--[2025-05-08 Thu 09:28] =>  0:10
 CLOCK: [2025-05-06 Tue 05:56]--[2025-05-06 Tue 06:02] =>  0:06
@@ -617,18 +631,6 @@ CLOCK: [2025-05-06 Tue 05:03]--[2025-05-06 Tue 05:17] =>  0:14
 [[info:org#Tags][org#Tags]]
 [[info:org#Tag Searches][org#Tag Searches]]
 
-** RETARD Emacs server on Debian 12 article                           :2025:
-SCHEDULED: <2026-05-06 Wed ++2d>
-:PROPERTIES:
-:LAST_REPEAT: [2024-07-01 Mon 08:58]
-:END:
-- State "BARE"       from "RETARD"     [2024-07-01 Mon 08:58]
-- State "AMPLE"      from ""           [2024-02-29 Thu 11:14]
-- State "AMPLE"      from ""           [2024-02-27 Tue 18:24]
-:LOGBOOK:
-CLOCK: [2024-02-29 Thu 10:55]--[2024-02-29 Thu 11:14] =>  0:19
-CLOCK: [2024-02-27 Tue 18:02]--[2024-02-27 Tue 18:24] =>  0:22
-:END:
 ** SET Install MWThesaurus system-wide
 SCHEDULED: <2024-02-27 Tue>
 :LOGBOOK:
@@ -686,7 +688,7 @@ By putting the actual (most significant) agenda file on the top.
 :CATEGORY: Key-chords
 :END:
 *** LAG Extend
-SCHEDULED: <2026-05-13 Wed ++1w>
+SCHEDULED: <2026-06-05 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-01-16 Fri 06:56]
 :END:
@@ -761,7 +763,7 @@ SCHEDULED: <2022-12-08 Thu .+2w>
 :END:
 - State "DONE"       from "ACTIVE"     [2022-11-10 Thu 07:54]
 *** Declutter
-SCHEDULED: <2026-04-23 Thu ++4w>
+SCHEDULED: <2026-06-14 Sun ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-05-21 Tue 18:57]
 :END:
@@ -876,7 +878,7 @@ CLOCK: [2024-09-27 Fri 09:01]--[2024-09-27 Fri 09:22] =>  0:21
 ** LAG Scratch.backup revision                                        :2025:
 SCHEDULED: <2026-06-16 Tue>
 ** DELAY Retelling, rehearsal, paraphrase, narration                  :2025:
-SCHEDULED: <2026-05-01 Fri>
+SCHEDULED: <2026-06-05 Fri>
 - Note taken on [2025-05-22 Thu 19:48] \\
   How to do it as a foreign language learner?
 :LOGBOOK:
@@ -886,7 +888,7 @@ CLOCK: [2025-05-22 Thu 19:47]--[2025-05-22 Thu 19:47] =>  0:00
 :END:
 [[file:~/Git/0--key/philomath/V1/narrators_guide.org::*Storytelling: A Key Skill in Learning Foreign Languages][Storytelling: A Key Skill in Learning Foreign Languages]]
 ** LAG Gemini Gems
-SCHEDULED: <2026-05-10 Sun>
+SCHEDULED: <2026-06-05 Fri>
 - Note taken on [2026-01-14 Wed 12:04] \\
   Well fit for graphical materials generation
 :LOGBOOK:
@@ -900,7 +902,7 @@ SCHEDULED: <2026-02-27 Fri>
 CLOCK: [2026-01-18 Sun 18:39]--[2026-01-18 Sun 18:46] =>  0:07
 :END:
 ** LAG [#C] Groq
-SCHEDULED: <2026-05-20 Wed>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2026-01-25 Sun 19:45]--[2026-01-25 Sun 19:48] =>  0:03
 :END:
@@ -928,8 +930,8 @@ CLOCK: [2026-02-05 Thu 10:03]--[2026-02-05 Thu 10:19] =>  0:16
 :END:
 [[elisp:(bookmark-jump-other-window "BitCoin Intro")][Intro]]
 
-*** LAG Stripe
-SCHEDULED: <2026-06-02 Tue>
+*** RETARD Stripe
+SCHEDULED: <2026-10-22 Thu>
 
 *** AMPLE Buy Me a Coffe
 SCHEDULED: <2026-02-05 Thu>
@@ -938,20 +940,20 @@ CLOCK: [2026-02-05 Thu 09:02]--[2026-02-05 Thu 09:56] =>  0:54
 :END:
 https://www.buymeacoffee.com/tonyphilomath
 
-*** LAG Patreon 
-SCHEDULED: <2026-04-29 Wed>
+*** RETARD Patreon 
+SCHEDULED: <2026-08-01 Sat>
 :LOGBOOK:
 CLOCK: [2026-02-12 Thu 15:26]--[2026-02-12 Thu 15:34] =>  0:08
 CLOCK: [2026-02-06 Fri 07:15]--[2026-02-06 Fri 08:00] =>  0:45
 :END:
 https://www.patreon.com/c/TonyPhilomath?vanity=user
+*** Become a Personal Agent
+SCHEDULED: <2026-06-03 Wed>
+[[gnus:nnimap+home:\[Gmail\]/All Mail#20260506140903.3.f0c37098cb968596@mg-d0.substack.com][Email from Peter Yang: The Race to Build a Personal AI Agent (And Why Nobody Has Won Yet)]]
+https://share.google/aimode/JQSRo3XXT620sizdE
 
 ** LAG [#C] Rare words inclusion
 SCHEDULED: <2026-06-16 Tue>
-** LAG [#C] An ambitious goal definition: a million subscribers in a year.
-SCHEDULED: <2026-06-01 Mon>
-** LAG [#C] A new section: "Lets Read Together, or The Book Club"
-SCHEDULED: <2026-05-03 Sun>
 ** LAG [#C] Patreon Podcast
 SCHEDULED: <2026-06-03 Wed>
 ** RETARD [#C] TLL Logo and Banner
@@ -960,60 +962,51 @@ SCHEDULED: <2026-07-21 Tue>
 CLOCK: [2026-02-06 Fri 14:32]--[2026-02-06 Fri 15:29] =>  0:57
 :END:
 ** LAG [#C] M-shape career
-SCHEDULED: <2026-05-03 Sun>
+SCHEDULED: <2026-06-05 Fri>
 https://www.forbes.com/councils/forbescoachescouncil/2024/09/30/t-shaped-n-shaped-and-m-shaped-skills-unlock-versatility-for-career-success/
 ** LAG [#C] AI and education
-SCHEDULED: <2026-05-06 Wed>
+SCHEDULED: <2026-06-02 Tue>
 https://www.youtube.com/watch?v=ivVPJhYM8Ng
-** LAG Channels & Playlists
-SCHEDULED: <2026-05-10 Sun>
-- Note taken on [2026-03-19 Thu 09:48] \\
-  Elaborate and refine the old transcripts set, create new clips and
-  move the old ones into 'Archive' playlist.
-:LOGBOOK:
-CLOCK: [2026-02-12 Thu 15:18]--[2026-02-12 Thu 15:26] =>  0:08
-:END:
-[[file:~/Git/0--key/philomath/theory/youtube.org::*Two or a single channel][Two or a single channel]]
 ** AMPLE [#A] Question --> Answer Intro Section
 SCHEDULED: <2026-03-09 Mon>
 :LOGBOOK:
 CLOCK: [2026-03-09 Mon 09:21]--[2026-03-09 Mon 09:27] =>  0:06
 :END:
 ** User Manual Studying                                             :manual:
-*** ShotCut Video Editor
-SCHEDULED: <2026-04-24 Fri>
-:LOGBOOK:
-CLOCK: [2026-03-26 Thu 17:20]--[2026-03-26 Thu 17:44] =>  0:24
-CLOCK: [2026-03-24 Tue 16:25]--[2026-03-24 Tue 16:54] =>  0:29
-CLOCK: [2026-03-24 Tue 09:29]--[2026-03-24 Tue 10:07] =>  0:38
-CLOCK: [2026-03-24 Tue 08:50]--[2026-03-24 Tue 09:12] =>  0:22
-CLOCK: [2026-03-20 Fri 09:20]--[2026-03-20 Fri 09:50] =>  0:30
-CLOCK: [2026-03-20 Fri 09:07]--[2026-03-20 Fri 09:08] =>  0:01
-CLOCK: [2026-03-18 Wed 18:01]--[2026-03-18 Wed 18:39] =>  0:38
-CLOCK: [2026-03-18 Wed 07:33]--[2026-03-18 Wed 08:42] =>  1:09
-CLOCK: [2026-03-17 Tue 11:18]--[2026-03-17 Tue 12:00] =>  0:42
-CLOCK: [2026-03-16 Mon 15:23]--[2026-03-16 Mon 16:00] =>  0:37
-CLOCK: [2026-03-13 Fri 07:15]--[2026-03-13 Fri 07:23] =>  0:08
-CLOCK: [2026-03-10 Tue 19:24]--[2026-03-10 Tue 20:47] =>  1:23
-CLOCK: [2026-03-10 Tue 17:29]--[2026-03-10 Tue 18:28] =>  0:59
-CLOCK: [2026-03-10 Tue 14:50]--[2026-03-10 Tue 15:41] =>  0:51
-CLOCK: [2026-03-09 Mon 17:52]--[2026-03-09 Mon 19:58] =>  2:06
-CLOCK: [2026-03-09 Mon 07:40]--[2026-03-09 Mon 08:49] =>  1:09
-:END:
-*** QPrompt
-SCHEDULED: <2026-04-21 Tue>
-:LOGBOOK:
-CLOCK: [2026-04-01 Wed 10:11]--[2026-04-01 Wed 10:36] =>  0:25
-:END:
-*** OBS-Studio
-SCHEDULED: <2026-04-23 Thu>
-:LOGBOOK:
-CLOCK: [2026-04-01 Wed 10:36]--[2026-04-01 Wed 11:07] =>  0:31
-:END:
 ** RETARD [#C] Pornocracy
 SCHEDULED: <2026-06-21 Sun>
 ** DELAY [#C] PaddyStan
 SCHEDULED: <2026-06-28 Sun>
+** Liz Fosslien
+SCHEDULED: <2026-08-17 Mon>
+https://www.fosslien.com/faq
+** Organ Recitals at St Columb's Cathedral
+SCHEDULED: <2026-06-24 Wed>
+- Note taken on [2026-05-03 Sun 09:01] \\
+  https://www.derrystrabane.com/what-s-on/events-(sv)/organ-recitals-at-st-columb-s-cathedral/970751
+
+  03 Jul - 03 Jul
+  Thursday - 13:10
+
+  10 Jul - 10 Jul
+  Thursday - 13:10
+
+  17 Jul - 17 Jul
+  Thursday - 13:10
+
+  24 Jul - 24 Jul
+  Thursday - 13:10
+
+  31 Jul - 31 Jul
+  Thursday - 13:10
+
+  London Street, Derry~Londonderry, Co Londonderry, BT48 6RQ
+** FireFox relay
+SCHEDULED: <2026-06-03 Wed>
+https://relay.firefox.com/accounts/profile/?
+** Minnesota Somalian Refugee Fraud
+SCHEDULED: <2026-09-29 Tue>
+https://www.bbc.com/news/articles/c75xnndvlyko
 
 * NoSQL
 :PROPERTIES:
@@ -1041,7 +1034,7 @@ by Mattew Dicks
 
 
 ** ACTIVE RSA Driving Test
-SCHEDULED: <2026-05-14 Thu>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2025-12-04 Thu 10:33]--[2025-12-04 Thu 10:48] =>  0:15
 :END:
@@ -1101,21 +1094,12 @@ reservoirs.
 SCHEDULED: <2026-06-27 Sat>
 https://www.youtube.com/watch?v=tU1aAUqF7G4
 
-** DELAY Grapes in ireland in middle ages                             :2025:
-SCHEDULED: <2026-05-04 Mon>
-Early Attempts:
-
-There's historical evidence that some monasteries in
-Ireland, like the one in County Kilkenny, attempted to cultivate
-grapes in the 5th century, aiming to produce wine for religious
-purposes.
-
 ** LAG Wheel of Life
-SCHEDULED: <2026-05-21 Thu>
+SCHEDULED: <2026-06-05 Fri>
 https://positivepsychology.com/wheel-of-life-coaching/
 
-** LAG О русском Уме                                                  :2025:
-SCHEDULED: <2026-04-30 Thu>
+** RETARD О русском Уме                                               :2025:
+SCHEDULED: <2026-06-05 Fri>
 http://vivovoco.ibmh.msk.su/VV/PAPERS/ECCE/MIND.HTM
 
 ** RETARD Simone Weil                                    :TopicStarters:ALC:
@@ -1156,8 +1140,8 @@ https://en.wikipedia.org/wiki/Simone_Weil
 :CATEGORY: Job
 :END:
 
-*** LAG LinkedIn Profile                                             :2025:
-SCHEDULED: <2026-05-01 Fri ++2d/3d>
+*** RETARD LinkedIn Profile                                          :2025:
+SCHEDULED: <2026-09-29 Tue ++2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-06-03 Tue 04:48]
 :END:
@@ -1206,23 +1190,19 @@ CLOCK: [2024-06-13 Thu 08:06]--[2024-06-13 Thu 08:27] =>  0:21
 - https://www.brightwater.ie/
   
 
-** SUSI Letter
+** AMPLE SUSI Letter
 SCHEDULED: <2026-04-19 Sun>
-
-** LAG YouTube Censorship
-SCHEDULED: <2026-05-25 Mon>
 :LOGBOOK:
-CLOCK: [2026-03-12 Thu 08:36]--[2026-03-12 Thu 08:50] =>  0:14
+CLOCK: [2026-04-19 Sun 09:38]--[2026-04-19 Sun 09:59] =>  0:21
 :END:
-
 
 ** Chores
 :PROPERTIES:
 :CATEGORY: Chore
 :END:
 
-*** [#A] Morning Exercise with Hadar Shemesh
-SCHEDULED: <2026-04-20 Mon ++1d>
+*** Morning Exercise with Hadar Shemesh
+SCHEDULED: <2026-06-01 Mon ++1d>
 :PROPERTIES:
 :CATEGORY: Pronounce
 :LAST_REPEAT: [2026-03-09 Mon 09:13]
@@ -1248,10 +1228,11 @@ CLOCK: [2026-02-19 Thu 17:45]--[2026-02-19 Thu 18:02] =>  0:17
 https://www.youtube.com/watch?v=l69yZ5xabbo
 
 *** [#A] >Git<
-SCHEDULED: <2026-04-19 Sun ++1w>
+SCHEDULED: <2026-05-31 Sun ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2026-04-05 Sun 11:13]
+:LAST_REPEAT: [2026-04-19 Sun 09:36]
 :END:
+- State "AMPLE"      from ""           [2026-04-19 Sun 09:36]
 - State "AMPLE"      from ""           [2026-04-05 Sun 11:13]
 - State "AMPLE"      from ""           [2026-03-15 Sun 06:47]
 - State "AMPLE"      from ""           [2026-02-15 Sun 19:19]
@@ -1339,7 +1320,8 @@ SCHEDULED: <2026-04-19 Sun ++1w>
 - State "DONE"       from "ACTIVE"     [2022-11-08 Tue 20:40]
 
 :LOGBOOK:
-CLOCK: [2026-04-19 Sun 09:11]
+CLOCK: [2026-05-31 Sun 16:07]
+CLOCK: [2026-04-19 Sun 09:11]--[2026-04-19 Sun 09:36] =>  0:25
 CLOCK: [2026-04-05 Sun 11:00]--[2026-04-05 Sun 11:13] =>  0:13
 CLOCK: [2026-03-15 Sun 06:31]--[2026-03-15 Sun 06:47] =>  0:16
 CLOCK: [2026-02-15 Sun 19:09]--[2026-02-15 Sun 19:19] =>  0:10
@@ -1687,7 +1669,7 @@ CLOCK: [2022-11-09 Wed 17:42]--[2022-11-09 Wed 17:43] =>  0:01
 CLOCK: [2022-11-08 Tue 16:10]--[2022-11-08 Tue 16:22] =>  0:12
 :END:
 *** [#C] Daily tasks pile assay
-SCHEDULED: <2026-04-20 Mon .+1d>
+SCHEDULED: <2026-06-01 Mon .+1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-05-22 Thu 08:46]
 :END:
@@ -2105,14 +2087,15 @@ CLOCK: [2022-11-04 Fri 10:19]--[2022-11-04 Fri 10:50] =>  0:31
 CLOCK: [2022-11-04 Fri 09:53]--[2022-11-04 Fri 09:59] =>  0:06
 CLOCK: [2022-02-22 Tue 10:00]--[2022-02-22 Tue 10:04] =>  0:04
 :END:
-Daily shore to order, prioritize and schedule tasks. First of all it
+Daily chore to order, prioritize and schedule tasks. First of all it
 is neccessary to re-arrange today's tasks, /after that - tasks for
 tomorrow/.
 *** [#C] Tomorrow begins today :-)
-SCHEDULED: <2026-04-19 Sun ++1d>
+SCHEDULED: <2026-06-01 Mon ++1d>
 :PROPERTIES:
-:LAST_REPEAT: [2026-02-19 Thu 19:28]
+:LAST_REPEAT: [2026-04-19 Sun 17:09]
 :END:
+- State "AMPLE"      from ""           [2026-04-19 Sun 17:09]
 - State "AMPLE"      from ""           [2026-02-19 Thu 19:28]
 - State "AMPLE"      from ""           [2026-02-16 Mon 19:42]
 - State "AMPLE"      from ""           [2026-02-10 Tue 19:42]
@@ -2220,6 +2203,7 @@ SCHEDULED: <2026-04-19 Sun ++1d>
 - State "DONE"       from "ACTIVE"     [2022-12-05 Mon 10:03]
 - State "DONE"       from "ACTIVE"     [2022-12-04 Sun 12:21]
 :LOGBOOK:
+CLOCK: [2026-04-19 Sun 17:07]--[2026-04-19 Sun 17:09] =>  0:02
 CLOCK: [2026-04-06 Mon 14:50]--[2026-04-06 Mon 14:50] =>  0:00
 CLOCK: [2026-03-03 Tue 20:01]--[2026-03-03 Tue 20:17] =>  0:16
 CLOCK: [2026-02-18 Wed 19:33]--[2026-02-18 Wed 19:37] =>  0:04
@@ -2360,9 +2344,11 @@ CLOCK: [2022-12-07 Wed 13:30]--[2022-12-07 Wed 13:34] =>  0:04
 CLOCK: [2022-12-05 Mon 09:14]--[2022-12-05 Mon 09:17] =>  0:03
 CLOCK: [2022-11-25 Fri 09:27]--[2022-11-25 Fri 09:37] =>  0:10
 :END:
-*** [#A] Friday as a Day of Reflection
-SCHEDULED: <2026-04-24 Fri>
+*** [#A] A Day of Reflection
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
+CLOCK: [2026-05-29 Fri 17:35]--[2026-05-29 Fri 17:38] =>  0:03
+CLOCK: [2026-05-01 Fri 07:53]--[2026-05-01 Fri 08:12] =>  0:19
 CLOCK: [2026-04-10 Fri 09:31]--[2026-04-10 Fri 09:52] =>  0:21
 CLOCK: [2026-04-03 Fri 10:59]--[2026-04-03 Fri 12:22] =>  1:23
 CLOCK: [2026-03-20 Fri 09:08]--[2026-03-20 Fri 09:20] =>  0:12
@@ -2373,7 +2359,7 @@ CLOCK: [2025-11-28 Fri 14:44]--[2025-11-28 Fri 15:06] =>  0:22
 - Analysis.
 
 *** [#A] Consulting, Extension and Refactoring
-SCHEDULED: <2026-04-23 Thu ++1w>
+SCHEDULED: <2026-06-04 Thu ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-04-03 Fri 10:55]
 :END:
@@ -2381,6 +2367,8 @@ SCHEDULED: <2026-04-23 Thu ++1w>
 - State "AMPLE"      from ""           [2026-01-22 Thu 20:25]
 - State "AMPLE"      from ""           [2025-12-18 Thu 19:29]
 :LOGBOOK:
+CLOCK: [2026-05-01 Fri 08:12]--[2026-05-01 Fri 09:00] =>  0:48
+CLOCK: [2026-04-23 Thu 08:35]--[2026-04-23 Thu 08:48] =>  0:13
 CLOCK: [2026-04-09 Thu 09:11]--[2026-04-09 Thu 09:27] =>  0:16
 CLOCK: [2026-04-02 Thu 10:01]--[2026-04-02 Thu 10:41] =>  0:40
 CLOCK: [2026-03-26 Thu 17:46]--[2026-03-26 Thu 18:10] =>  0:24
@@ -2397,7 +2385,7 @@ CLOCK: [2025-12-18 Thu 19:28]--[2025-12-18 Thu 19:29] =>  0:01
 - Enhance in the afternoon.
 
 *** [#A] Week Designing
-SCHEDULED: <2026-04-26 Sun ++1w>
+SCHEDULED: <2026-06-07 Sun ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-04-19 Sun 09:11]
 :END:
@@ -2408,6 +2396,7 @@ SCHEDULED: <2026-04-26 Sun ++1w>
 - State "AMPLE"      from ""           [2026-01-18 Sun 18:55]
 - State "AMPLE"      from ""           [2026-01-11 Sun 15:06]
 :LOGBOOK:
+CLOCK: [2026-05-31 Sun 15:58]--[2026-05-31 Sun 16:07] =>  0:09
 CLOCK: [2026-04-19 Sun 09:06]--[2026-04-19 Sun 09:11] =>  0:05
 CLOCK: [2026-04-19 Sun 08:47]--[2026-04-19 Sun 09:00] =>  0:13
 CLOCK: [2026-03-09 Mon 06:47]--[2026-03-09 Mon 06:52] =>  0:05
@@ -2423,7 +2412,7 @@ CLOCK: [2026-01-11 Sun 14:31]--[2026-01-11 Sun 15:06] =>  0:35
 
 
 *** Clean all that mess up!                                  :FireFox:tabs:
-SCHEDULED: <2026-04-26 Sun ++1w>
+SCHEDULED: <2026-06-02 Tue ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-03-15 Sun 16:30]
 :END:
@@ -2521,7 +2510,7 @@ Remove all unnecessary:
  - tabs on Google Chrome;
  - buffers in Emacs.
 *** Workspace decluttering #2
-SCHEDULED: <2026-04-24 Fri ++1w>
+SCHEDULED: <2026-06-05 Fri ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-03-15 Sun 07:14]
 :END:
@@ -2548,6 +2537,8 @@ SCHEDULED: <2026-04-24 Fri ++1w>
 - State "AMPLE"      from ""           [2023-11-03 Fri 09:30]
 - State "AMPLE"      from ""           [2023-10-27 Fri 11:51]
 :LOGBOOK:
+CLOCK: [2026-05-29 Fri 17:38]--[2026-05-29 Fri 18:07] =>  0:29
+CLOCK: [2026-05-29 Fri 13:15]--[2026-05-29 Fri 13:17] =>  0:02
 CLOCK: [2026-03-15 Sun 06:52]--[2026-03-15 Sun 07:14] =>  0:22
 CLOCK: [2026-02-06 Fri 15:30]--[2026-02-06 Fri 15:37] =>  0:07
 CLOCK: [2026-01-18 Sun 17:41]--[2026-01-18 Sun 18:04] =>  0:23
@@ -2584,7 +2575,7 @@ Remove all unnecessary:
  - update&upgrade Debian packages;
  - and restart OS.
 *** LAG Vocabulary Elaboration                              :AI_Tutor:2025:
-SCHEDULED: <2026-05-06 Wed ++2d>
+SCHEDULED: <2026-06-01 Mon ++2d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-10-12 Thu 09:22]
 :END:
@@ -2678,7 +2669,7 @@ SCHEDULED: <2023-03-09 Thu>
 
 *
 *** [#A] DSP Re-Submittion
-SCHEDULED: <2026-05-12 Tue ++4w>
+SCHEDULED: <2026-06-09 Tue ++4w>
 :PROPERTIES:
 :LAST_REPEAT: [2026-04-14 Tue 11:30]
 :END:
@@ -2695,7 +2686,7 @@ CLOCK: [2025-05-13 Tue 08:15]--[2025-05-13 Tue 08:22] =>  0:07
 - State "AMPLE"      from ""           [2023-10-31 Tue 11:47]
 - State "AMPLE"      from ""           [2023-10-03 Tue 09:39]
 *** LAES
-SCHEDULED: <2026-04-28 Tue>
+SCHEDULED: <2026-06-23 Tue>
 LAES Letterkenny Room 1A
 Unit 1 Glenview Business Park
 Carnamuggagh Upper
@@ -2705,14 +2696,16 @@ Co Donegal
 3.30PM
 
 *** New tasks trimming
-SCHEDULED: <2026-04-19 Sun ++2d/3d>
+SCHEDULED: <2026-06-05 Fri ++2d/3d>
 :PROPERTIES:
-:LAST_REPEAT: [2026-03-30 Mon 08:38]
+:LAST_REPEAT: [2026-04-19 Sun 17:07]
 :END:
+- State "AMPLE"      from ""           [2026-04-19 Sun 17:07]
 - State "AMPLE"      from ""           [2026-03-30 Mon 08:38]
 - State "AMPLE"      from ""           [2026-03-12 Thu 08:36]
 - State "AMPLE"      from ""           [2026-03-04 Wed 15:20]
 :LOGBOOK:
+CLOCK: [2026-05-29 Fri 18:07]--[2026-05-29 Fri 18:29] =>  0:22
 CLOCK: [2026-04-19 Sun 09:00]--[2026-04-19 Sun 09:06] =>  0:06
 CLOCK: [2026-04-04 Sat 12:34]--[2026-04-04 Sat 12:42] =>  0:08
 CLOCK: [2026-04-02 Thu 09:49]--[2026-04-02 Thu 10:01] =>  0:12
@@ -2948,7 +2941,7 @@ CLOCK: [2022-12-04 Sun 11:36]--[2022-12-04 Sun 11:49] =>  0:13
 - Using Greek in variable names in Python [2024-06-08 Sat 19:08]
 maiden scheduling of completely new (*RAW*) tasks 
 **** LAG Effort in task resolving                                   :2025:
-SCHEDULED: <2026-05-23 Sat>
+SCHEDULED: <2026-06-05 Fri>
 :PROPERTIES:
 :Effort:   15
 :END:
@@ -2959,14 +2952,6 @@ CLOCK: [2024-01-02 Tue 17:16]--[2024-01-02 Tue 17:22] =>  0:06
 :END:
 [[info:org#Effort Estimates][org#Effort Estimates]]
 [2023-12-27 Wed 16:01]
-***** DELAY Agenda Column View
-SCHEDULED: <2026-05-16 Sat>
-:LOGBOOK:
-CLOCK: [2026-01-09 Fri 17:56]--[2026-01-09 Fri 17:58] =>  0:02
-CLOCK: [2025-05-06 Tue 06:12]--[2025-05-06 Tue 06:17] =>  0:05
-:END:
-[[info:org#Column View]]
-[2024-01-02 Tue 17:21]
 ** DELAY [#B] Regressive pomodoro                                  :ARCHIVE:
 SCHEDULED: <2024-05-17 Fri>
 :LOGBOOK:
@@ -3030,7 +3015,7 @@ https://en.wikipedia.org/wiki/List_of_proverbial_phrases
 
 
 *** LAG Quotations                                                   :2025:
-SCHEDULED: <2026-05-29 Fri .+2d/3d>
+SCHEDULED: <2026-06-04 Thu .+2d/3d>
 :PROPERTIES:
 :LAST_REPEAT: [2023-03-21 Tue 14:34]
 :END:
@@ -3048,7 +3033,7 @@ CLOCK: [2022-12-08 Thu 19:09]--[2022-12-08 Thu 19:33] =>  0:24
 CLOCK: [2022-12-06 Tue 14:30]--[2022-12-06 Tue 14:46] =>  0:16
 :END:
 *** DELAY Idioms                                                     :2025:
-SCHEDULED: <2026-05-01 Fri>
+SCHEDULED: <2026-06-04 Thu>
 :LOGBOOK:
 CLOCK: [2025-05-09 Fri 14:08]--[2025-05-09 Fri 15:13] =>  1:05
 :END:
@@ -3085,7 +3070,7 @@ Play
 ** Brandon Bruchard
 High Perfomance Habits
 ** RETARD Capture for idioms                                          :2025:
-SCHEDULED: <2026-11-29 Sun>
+SCHEDULED: <2026-06-01 Mon>
 :LOGBOOK:
 CLOCK: [2023-04-14 Fri 17:00]--[2023-04-14 Fri 17:05] =>  0:05
 :END:
@@ -3136,23 +3121,8 @@ CLOCK: [2023-04-13 Thu 15:46]--[2023-04-13 Thu 15:56] =>  0:10
 :END:
 Glenview Business Park, Carnamuggagh Letterkenny F92 EW99.
 074 9126740 or 086 8186035. The Contact name is *John Curran*
-** LAG LinkedIn                                                       :2025:
-SCHEDULED: <2026-05-22 Fri>
-:PROPERTIES:
-:LAST_REPEAT: [2024-05-25 Sat 09:12]
-:END:
-- Note taken on [2026-02-15 Sun 18:19] \\
-  Fake history concoction
-- State "AMPLE"      from "TODO"       [2024-05-25 Sat 09:12]
-:LOGBOOK:
-CLOCK: [2024-05-25 Sat 08:42]--[2024-05-25 Sat 09:11] =>  0:29
-CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
-CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
-CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
-:END:
-- It seems to me like an expensive (annualy payed) and overthinked idea.
 ** RETARD Howard Gardner                                     :2025:BookClub:
-SCHEDULED: <2026-04-24 Fri>
+SCHEDULED: <2026-06-04 Thu>
 Frames of Mind
 ** SET The separate set of DONE
 SCHEDULED: <2023-06-29 Thu>
@@ -3185,7 +3155,7 @@ CLOCK: [2023-06-21 Wed 08:21]--[2023-06-21 Wed 08:27] =>  0:06
                ‘[[elisp:org-agenda]]’ (interactive Elisp command)
    [2023-12-15 Fri 18:13]
 ** LAG Agenda commands                                                :2025:
-SCHEDULED: <2026-05-24 Sun>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2026-03-15 Sun 16:30]--[2026-03-15 Sun 17:06] =>  0:36
 CLOCK: [2023-06-20 Tue 08:44]--[2023-06-20 Tue 08:49] =>  0:05
@@ -3212,8 +3182,15 @@ SCHEDULED: <2024-03-19 Tue>
 CLOCK: [2024-03-19 Tue 16:49]--[2024-03-19 Tue 16:53] =>  0:04
 CLOCK: [2024-03-19 Tue 12:33]--[2024-03-19 Tue 12:33] =>  0:00
 :END:
-** RAW [#A] Keep Going Austin Kleon                         :2025:book:club:
-SCHEDULED: <2026-04-20 Mon>
+** TODO [#A] Keep Going Austin Kleon                        :2025:book:club:
+SCHEDULED: <2026-06-09 Tue>
+:LOGBOOK:
+CLOCK: [2026-04-21 Tue 09:01]--[2026-04-21 Tue 09:34] =>  0:33
+CLOCK: [2026-04-21 Tue 07:07]--[2026-04-21 Tue 07:46] =>  0:39
+CLOCK: [2026-04-20 Mon 07:12]--[2026-04-20 Mon 08:13] =>  1:01
+:END:
+[[elisp:(bookmark-jump-other-window "Keep Going")][The Point]]
+
 ** INIT Letter to ARP for Ukrainians                               :ARCHIVE:
 SCHEDULED: <2023-06-13 Tue>
 with CC to Kane and Noel
@@ -3222,7 +3199,7 @@ For all other questions, please contact the Department of Children,
 Equality, Disability, Integration and Youth at:
 ukrainerecognitionpayment@equality.gov.ie or phone +353 1 647 3000
 ** RETARD Andrew's private summer lessons                             :AnAn:
-SCHEDULED: <2026-05-27 Wed>
+SCHEDULED: <2026-06-10 Wed>
  - Emacs;
  - Bash;
  - Git;
@@ -3231,14 +3208,8 @@ SCHEDULED: <2026-05-27 Wed>
  - Guitar;
  - SQL;
  - Docker??
-** DELAY English with Lucy                                            :2025:
-SCHEDULED: <2026-04-26 Sun>
-:LOGBOOK:
-CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
-:END:
-50 personal adjectives
 ** LAG Anton Alexeyev's lessons                                       :2025:
-SCHEDULED: <2026-05-07 Thu>
+SCHEDULED: <2026-06-02 Tue>
 https://www.youtube.com/@AntonALEX
 
 ** BARE Bulk remote editing selected entries
@@ -3382,15 +3353,6 @@ SCHEDULED: <2025-04-30 Wed>
   knoledge of programming tidbits.
 
   So it is postponed on a two months initially.
-** LAG stochastic schedulling                                         :2025:
-SCHEDULED: <2026-05-03 Sun>
-- Note taken on [2025-05-29 Thu 12:18] \\
-  Definition of stochastic schedulling: I don't know it!
-:LOGBOOK:
-CLOCK: [2025-06-05 Thu 19:55]--[2025-06-05 Thu 19:57] =>  0:02
-CLOCK: [2025-05-29 Thu 12:18]--[2025-05-29 Thu 12:19] =>  0:01
-CLOCK: [2025-05-29 Thu 12:16]--[2025-05-29 Thu 12:17] =>  0:01
-:END:
 * Events
 :PROPERTIES:
 :CATEGORY: Event
@@ -3431,7 +3393,7 @@ CLOCK: [2024-05-30 Thu 06:19]--[2024-05-30 Thu 07:08] =>  0:49
 :CATEGORY: LLM
 :END:
 ** LAG RAG & IR methodology                                           :2025:
-SCHEDULED: <2026-05-27 Wed>
+SCHEDULED: <2026-06-04 Thu>
 Retrieval Augumented Generation augumented by Information Retrieval.
 =First impression as an overly overthinking idea.=
 https://github.com/s-kostyaev/elisa
@@ -3441,14 +3403,16 @@ CLOCK: [2024-06-19 Wed 15:00]--[2024-06-19 Wed 15:30] =>  0:30
 :END:
 
 ** LAG Glossary: Context Window :moveIt!:               :TopicStarters:2025:
-SCHEDULED: <2026-05-04 Mon>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-23 Tue 07:39]--[2024-07-23 Tue 08:15] =>  0:36
 :END:
+https://www.youtube.com/watch?v=-QVoIxEpFkM
 
-** ACTIVE Creative Writing
-SCHEDULED: <2026-04-20 Mon>
+** ACTIVE [#A] Creative Writing
+SCHEDULED: <2026-06-01 Mon>
 :LOGBOOK:
+CLOCK: [2026-04-20 Mon 12:50]--[2026-04-20 Mon 13:15] =>  0:25
 CLOCK: [2026-04-08 Wed 10:05]--[2026-04-08 Wed 10:55] =>  0:50
 CLOCK: [2026-03-05 Thu 07:18]--[2026-03-05 Thu 09:01] =>  1:43
 CLOCK: [2026-01-02 Fri 09:31]--[2026-01-02 Fri 09:56] =>  0:25
@@ -3459,13 +3423,6 @@ https://en.wikipedia.org/wiki/Creative_writing
 *** LAG The limits of AI programming :moveIt!:         :TopicStarters:2025:
 SCHEDULED: <2026-07-12 Sun>
 https://www.youtube.com/watch?v=lR21C8cNx2o
-
-*** LAG How to generate images?                                      :2025:
-SCHEDULED: <2026-04-22 Wed>
-:LOGBOOK:
-CLOCK: [2025-05-05 Mon 07:04]--[2025-05-05 Mon 07:44] =>  0:40
-:END:
-[[file:~/Git/0--key/philomath/kin/openai.org::*Image Generation][Image Generation]]
 
 *** BARE The bundle of Elisp functions                 :Vizier:Del:Message:
 SCHEDULED: <2025-12-15 Mon>
@@ -3490,7 +3447,7 @@ CLOCK: [2024-06-28 Fri 14:09]--[2024-06-28 Fri 14:42] =>  0:33
 [[elisp:(bookmark-jump-other-window "assistants_and_threads.org")]]
 
 *** LAG Prompt Engineering :moveIt!:                   :TopicStarters:2025:
-SCHEDULED: <2026-05-22 Fri>
+SCHEDULED: <2026-06-03 Wed>
 - Note taken on [2024-07-02 Tue 04:41] \\
   "max_tokens": 64,
   "top_p": 1
@@ -3558,7 +3515,7 @@ CLOCK: [2024-06-22 Sat 10:13]--[2024-06-22 Sat 10:50] =>  0:37
 [[elisp:(bookmark-jump-other-window "2024-06-22-sum-up-with-openai.org")]]
 
 **** LAG Inferring                                                  :2025:
-SCHEDULED: <2026-05-21 Thu>
+SCHEDULED: <2026-06-03 Wed>
 :LOGBOOK:
 CLOCK: [2025-05-02 Fri 05:03]--[2025-05-02 Fri 05:04] =>  0:01
 CLOCK: [2025-05-02 Fri 05:02]--[2025-05-02 Fri 05:03] =>  0:01
@@ -3569,14 +3526,14 @@ CLOCK: [2024-06-22 Sat 19:43]--[2024-06-22 Sat 19:47] =>  0:04
 (e.g., sentiment classification, topic extraction)
 
 **** RETARD Transforming text                                       :2025:
-SCHEDULED: <2026-04-26 Sun>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-06-22 Sat 19:48]--[2024-06-22 Sat 20:02] =>  0:14
 :END:
 (e.g., translation, spelling & grammar correction)
 
 **** DELAY Expanding                                  :TopicStarters:2025:
-SCHEDULED: <2026-04-25 Sat>
+SCHEDULED: <2026-06-04 Thu>
 (e.g., automatically writing emails)
 
 *** RETARD [#A] Batch API                                            :2025:
@@ -3612,7 +3569,7 @@ CLOCK: [2024-06-20 Thu 06:56]--[2024-06-20 Thu 07:46] =>  0:50
 
 
 *** RETARD Input format ~not documented yet~ options                 :2025:
-SCHEDULED: <2026-05-08 Fri>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2024-07-16 Tue 10:58]--[2024-07-16 Tue 11:11] =>  0:13
 CLOCK: [2024-07-03 Wed 09:54]--[2024-07-03 Wed 09:59] =>  0:05
@@ -3631,16 +3588,6 @@ https://cookbook.openai.com/examples/how_to_format_inputs_to_chatgpt_models
 *** Org-mode answer format --> Assistant's instructions           :ARCHIVE:
 SCHEDULED: <2025-06-01 Sun>
 
-*** LAG Existing Solutions                                           :2025:
-SCHEDULED: <2026-04-29 Wed>
-https://github.com/emacs-openai/openai?tab=readme-ov-file
-https://github.com/emacs-openai/chatgpt
-https://github.com/MichaelBurge/leafy-mode
-https://github.com/emacs-openai/codegpt
-https://www.amazon.science/blog/emnlp-prompt-engineering-is-the-new-feature-engineering
-https://github.com/kamushadenes/gptel-extensions.el
-Search threads and assistants in all these repositories.
-
 *** RETARD OpenAI o1
 SCHEDULED: <2026-09-30 Wed>
 :PROPERTIES:
@@ -3657,10 +3604,17 @@ CLOCK: [2025-05-27 Tue 05:33]--[2025-05-27 Tue 05:46] =>  0:13
 [[https://openai.com/index/introducing-openai-o1-preview/]]
 [[https://gemini.google.com/app/ebb19f9d719adcd0?hl=en_GB][Gemini's Thread]]
 
-** Gemini                                                           :Gemini:
+*** OpenAI Agents SDK
+SCHEDULED: <2026-06-05 Fri>
+https://developers.openai.com/api/docs/guides/agents
+https://developers.openai.com/api/docs
 
-*** LAG Veo3
-SCHEDULED: <2026-05-01 Fri>
+** Gemini                                                           :Gemini:
+:PROPERTIES:
+:CATEGORY: Gemini
+:END:
+*** RETARD Veo3
+SCHEDULED: <2026-09-28 Mon>
 - Note taken on [2026-01-15 Thu 18:35] \\
   Seems a quite expensive solution for channel with mostly verbal
   information.
@@ -3671,20 +3625,23 @@ CLOCK: [2026-01-05 Mon 16:20]--[2026-01-05 Mon 16:25] =>  0:05
 https://www.youtube.com/watch?v=IjF5Uun2jrM  -+
 https://www.youtube.com/watch?v=SHjnb-JtKvw
 
-*** LAG Sora
-SCHEDULED: <2026-04-23 Thu>
+*** RETARD Sora
+SCHEDULED: <2026-07-02 Thu>
 :LOGBOOK:
 CLOCK: [2026-01-05 Mon 10:24]--[2026-01-05 Mon 10:27] =>  0:03
 :END:
 https://www.youtube.com/watch?v=0-0gFuDwmXI
 
 *** LAG AI Studio 
-SCHEDULED: <2026-05-15 Fri>
+SCHEDULED: <2026-06-05 Fri>
 :LOGBOOK:
 CLOCK: [2026-01-15 Thu 18:36]--[2026-01-15 Thu 18:47] =>  0:11
 :END:
 https://www.youtube.com/watch?v=PRSk7_F0RNM
 
+*** Automated Programming Interface                                   :API:
+SCHEDULED: <2026-06-05 Fri>
+https://ai.google.dev/gemini-api/docs/quickstart
 
 * AMPLE [#A] 3/1 days in week
 SCHEDULED: <2025-12-08 Mon>

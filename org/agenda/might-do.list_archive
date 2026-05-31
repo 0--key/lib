@@ -4095,3 +4095,253 @@ SCHEDULED: <2026-03-16 Mon>
 :ARCHIVE_CATEGORY: English
 :ARCHIVE_TODO: DELAY
 :END:
+
+* LAG stochastic schedulling                                           :2025:
+SCHEDULED: <2026-05-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-28 Thu 13:19
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Task
+:ARCHIVE_TODO: LAG
+:END:
+- Note taken on [2025-05-29 Thu 12:18] \\
+  Definition of stochastic schedulling: I don't know it!
+:LOGBOOK:
+CLOCK: [2025-06-05 Thu 19:55]--[2025-06-05 Thu 19:57] =>  0:02
+CLOCK: [2025-05-29 Thu 12:18]--[2025-05-29 Thu 12:19] =>  0:01
+CLOCK: [2025-05-29 Thu 12:16]--[2025-05-29 Thu 12:17] =>  0:01
+:END:
+
+* RETARD Emacs server on Debian 12 article                             :2025:
+SCHEDULED: <2026-05-06 Wed ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-07-01 Mon 08:58]
+:ARCHIVE_TIME: 2026-05-29 Fri 13:05
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Emacs
+:ARCHIVE_CATEGORY: Emacs
+:ARCHIVE_TODO: RETARD
+:END:
+- State "BARE"       from "RETARD"     [2024-07-01 Mon 08:58]
+- State "AMPLE"      from ""           [2024-02-29 Thu 11:14]
+- State "AMPLE"      from ""           [2024-02-27 Tue 18:24]
+:LOGBOOK:
+CLOCK: [2024-02-29 Thu 10:55]--[2024-02-29 Thu 11:14] =>  0:19
+CLOCK: [2024-02-27 Tue 18:02]--[2024-02-27 Tue 18:24] =>  0:22
+:END:
+
+* ShotCut Video Editor
+SCHEDULED: <2026-05-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/User Manual Studying
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_ITAGS: note manual
+:END:
+:LOGBOOK:
+CLOCK: [2026-03-26 Thu 17:20]--[2026-03-26 Thu 17:44] =>  0:24
+CLOCK: [2026-03-24 Tue 16:25]--[2026-03-24 Tue 16:54] =>  0:29
+CLOCK: [2026-03-24 Tue 09:29]--[2026-03-24 Tue 10:07] =>  0:38
+CLOCK: [2026-03-24 Tue 08:50]--[2026-03-24 Tue 09:12] =>  0:22
+CLOCK: [2026-03-20 Fri 09:20]--[2026-03-20 Fri 09:50] =>  0:30
+CLOCK: [2026-03-20 Fri 09:07]--[2026-03-20 Fri 09:08] =>  0:01
+CLOCK: [2026-03-18 Wed 18:01]--[2026-03-18 Wed 18:39] =>  0:38
+CLOCK: [2026-03-18 Wed 07:33]--[2026-03-18 Wed 08:42] =>  1:09
+CLOCK: [2026-03-17 Tue 11:18]--[2026-03-17 Tue 12:00] =>  0:42
+CLOCK: [2026-03-16 Mon 15:23]--[2026-03-16 Mon 16:00] =>  0:37
+CLOCK: [2026-03-13 Fri 07:15]--[2026-03-13 Fri 07:23] =>  0:08
+CLOCK: [2026-03-10 Tue 19:24]--[2026-03-10 Tue 20:47] =>  1:23
+CLOCK: [2026-03-10 Tue 17:29]--[2026-03-10 Tue 18:28] =>  0:59
+CLOCK: [2026-03-10 Tue 14:50]--[2026-03-10 Tue 15:41] =>  0:51
+CLOCK: [2026-03-09 Mon 17:52]--[2026-03-09 Mon 19:58] =>  2:06
+CLOCK: [2026-03-09 Mon 07:40]--[2026-03-09 Mon 08:49] =>  1:09
+:END:
+
+* QPrompt
+SCHEDULED: <2026-05-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/User Manual Studying
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_ITAGS: note manual
+:END:
+:LOGBOOK:
+CLOCK: [2026-04-01 Wed 10:11]--[2026-04-01 Wed 10:36] =>  0:25
+:END:
+
+* OBS-Studio
+SCHEDULED: <2026-05-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes/User Manual Studying
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_ITAGS: note manual
+:END:
+:LOGBOOK:
+CLOCK: [2026-04-23 Thu 15:17]--[2026-04-23 Thu 15:50] =>  0:33
+CLOCK: [2026-04-01 Wed 10:36]--[2026-04-01 Wed 11:07] =>  0:31
+:END:
+
+* DELAY Grapes in ireland in middle ages                               :2025:
+SCHEDULED: <2026-05-04 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:06
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Misc
+:ARCHIVE_CATEGORY: Misc
+:ARCHIVE_TODO: DELAY
+:ARCHIVE_ITAGS: misc
+:END:
+Early Attempts:
+
+There's historical evidence that some monasteries in
+Ireland, like the one in County Kilkenny, attempted to cultivate
+grapes in the 5th century, aiming to produce wine for religious
+purposes.
+
+
+* LAG YouTube Censorship
+SCHEDULED: <2026-05-25 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:07
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Task
+:ARCHIVE_TODO: LAG
+:END:
+:LOGBOOK:
+CLOCK: [2026-03-12 Thu 08:36]--[2026-03-12 Thu 08:50] =>  0:14
+:END:
+
+
+
+* RETARD Existing Solutions                                            :2025:
+SCHEDULED: <2026-05-27 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:07
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: RETARD
+:ARCHIVE_ITAGS: OpenAI
+:END:
+https://github.com/emacs-openai/openai?tab=readme-ov-file
+https://github.com/emacs-openai/chatgpt
+https://github.com/MichaelBurge/leafy-mode
+https://github.com/emacs-openai/codegpt
+https://www.amazon.science/blog/emnlp-prompt-engineering-is-the-new-feature-engineering
+https://github.com/kamushadenes/gptel-extensions.el
+Search threads and assistants in all these repositories.
+
+
+* LAG How to generate images?                                          :2025:
+SCHEDULED: <2026-05-11 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:12
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Large Language Models/OpenAI
+:ARCHIVE_CATEGORY: LLM
+:ARCHIVE_TODO: LAG
+:ARCHIVE_ITAGS: OpenAI
+:END:
+:LOGBOOK:
+CLOCK: [2025-05-05 Mon 07:04]--[2025-05-05 Mon 07:44] =>  0:40
+:END:
+[[file:~/Git/0--key/philomath/kin/openai.org::*Image Generation][Image Generation]]
+
+
+* DELAY Agenda Column View
+SCHEDULED: <2026-05-16 Sat>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:13
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks/Chores/New tasks trimming/Effort in task resolving
+:ARCHIVE_CATEGORY: Chore
+:ARCHIVE_TODO: DELAY
+:ARCHIVE_ITAGS: 2025
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-09 Fri 17:56]--[2026-01-09 Fri 17:58] =>  0:02
+CLOCK: [2025-05-06 Tue 06:12]--[2025-05-06 Tue 06:17] =>  0:05
+:END:
+[[info:org#Column View]]
+[2024-01-02 Tue 17:21]
+
+* LAG [#C] A new section: "Lets Read Together, or The Book Club"
+SCHEDULED: <2026-05-03 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-29 Fri 13:15
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: LAG
+:ARCHIVE_ITAGS: note
+:END:
+
+* LAG LinkedIn                                                         :2025:
+SCHEDULED: <2026-05-31 Sun>
+:PROPERTIES:
+:LAST_REPEAT: [2024-05-25 Sat 09:12]
+:ARCHIVE_TIME: 2026-05-31 Sun 15:56
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Task
+:ARCHIVE_TODO: LAG
+:END:
+- Note taken on [2026-02-15 Sun 18:19] \\
+  Fake history concoction
+- State "AMPLE"      from "TODO"       [2024-05-25 Sat 09:12]
+:LOGBOOK:
+CLOCK: [2024-05-25 Sat 08:42]--[2024-05-25 Sat 09:11] =>  0:29
+CLOCK: [2023-09-20 Wed 17:53]--[2023-09-20 Wed 18:04] =>  0:11
+CLOCK: [2023-04-29 Sat 14:43]--[2023-04-29 Sat 15:09] =>  0:26
+CLOCK: [2023-04-13 Thu 15:31]--[2023-04-13 Thu 15:37] =>  0:06
+:END:
+- It seems to me like an expensive (annualy payed) and overthinked idea.
+
+* DELAY English with Lucy                                              :2025:
+SCHEDULED: <2026-05-31 Sun>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-31 Sun 15:59
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Tasks
+:ARCHIVE_CATEGORY: Task
+:ARCHIVE_TODO: DELAY
+:END:
+:LOGBOOK:
+CLOCK: [2023-05-23 Tue 15:31]--[2023-05-23 Tue 15:53] =>  0:22
+:END:
+50 personal adjectives
+
+* LAG [#C] An ambitious goal definition: a million subscribers in a year.
+SCHEDULED: <2026-06-01 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-31 Sun 16:01
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: LAG
+:ARCHIVE_ITAGS: note
+:END:
+
+* LAG Channels & Playlists
+SCHEDULED: <2026-06-01 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-05-31 Sun 16:02
+:ARCHIVE_FILE: ~/Git/0--key/lib/org/agenda/might-do.list
+:ARCHIVE_OLPATH: Notes
+:ARCHIVE_CATEGORY: Notes
+:ARCHIVE_TODO: LAG
+:ARCHIVE_ITAGS: note
+:END:
+- Note taken on [2026-03-19 Thu 09:48] \\
+  Elaborate and refine the old transcripts set, create new clips and
+  move the old ones into 'Archive' playlist.
+:LOGBOOK:
+CLOCK: [2026-02-12 Thu 15:18]--[2026-02-12 Thu 15:26] =>  0:08
+:END:
+[[file:~/Git/0--key/philomath/theory/youtube.org::*Two or a single channel][Two or a single channel]]
