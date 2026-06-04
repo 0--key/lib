@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Gravity - Cloud Native Python App</title>
+    <meta name="description" content="A premium Python web application running on Google App Engine standard environment, showcasing rich aesthetics and modern design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Background glow elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-icon">🪐</span>
+                <span class="logo-text">Zero Gravity</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="https://cloud.google.com/appengine" target="_blank" class="nav-link" rel="noopener">App Engine</a>
+                <a href="https://flask.palletsprojects.com/" target="_blank" class="nav-link" rel="noopener">Flask</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section class="hero-section">
+                <h1 class="hero-title" id="main-title">Elevate to <span class="gradient-text">Zero Gravity</span></h1>
+                <p class="hero-subtitle">
+                    A premium Python web application running seamlessly on <strong>Google App Engine</strong> standard environment.
+                </p>
+
+                <!-- Glassmorphism Card -->
+                <div class="status-card" id="status-card">
+                    <div class="card-header">
+                        <span class="status-indicator-dot animated-pulse"></span>
+                        <span class="status-text">System Status: Active</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="stat-item">
+                            <span class="stat-label">Runtime</span>
+                            <span class="stat-value">Python 3.11</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Framework</span>
+                            <span class="stat-value">Flask 3.0.3</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Platform</span>
+                            <span class="stat-value">GAE Standard</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary" id="btn-explore" onclick="toggleSecret()">
+                            Explore System Details
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hidden Info Panel (Toggled by JS) -->
+                <div class="info-panel hidden" id="info-panel">
+                    <h3>Environment Details</h3>
+                    <p>This web application is configured with Gunicorn and Flask, optimizing request handling under the App Engine standard sandbox guidelines.</p>
+                    <div class="code-block">
+                        <code>runtime: python311<br>entrypoint: gunicorn -b :$PORT main:app</code>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Zero Gravity. Built with Flask and Google App Engine.</p>
+        </footer>
+    </div>
+
+    <!-- Interactive Script -->
+    <script>
+        function toggleSecret() {
+            const panel = document.getElementById('info-panel');
+            const btn = document.getElementById('btn-explore');
+            if (panel.classList.contains('hidden')) {
+                panel.classList.remove('hidden');
+                panel.classList.add('visible');
+                btn.textContent = 'Hide Details';
+            } else {
+                panel.classList.remove('visible');
+                panel.classList.add('hidden');
+                btn.textContent = 'Explore System Details';
+            }
+        }
+    </script>
+</body>
+</html>
