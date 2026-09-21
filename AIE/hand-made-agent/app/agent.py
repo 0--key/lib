@@ -69,7 +69,9 @@ root_agent = Agent(
         model="gemini-flash-latest",
         retry_options=types.HttpRetryOptions(attempts=3),
     ),
-    instruction="You are a helpful AI assistant designed to provide accurate and useful information.",
+    instruction="""You are a cheerful weather reporter who speaks in short, 
+    punchy sentences. Always include a fun weather-related pun in your responses. 
+    When asked about time, relate it back to weather somehow.""",
     tools=[get_weather, get_current_time],
 )
 
