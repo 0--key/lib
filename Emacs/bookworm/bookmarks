@@ -2,7 +2,21 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Keep Going" 0 10
+(#1=(#("2026-05-18-modern-software-engineering.org" 0 42
+      (bmkp-full-record #1#))
+    (annotation)
+    (tags)
+    (filename . "~/Git/0--key/org-pub/2026-05-18-modern-software-engineering.org")
+    (buffer-name . "2026-05-18-modern-software-engineering.org")
+    (front-context-string . "itecture\nSystem ")
+    (rear-context-string . "ts and Tool Arch")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(27176 23329 52064 46000))
+    (created . #2#)
+    (position . 69169))
+#1=(#("Keep Going" 0 10
       (bmkp-full-record #1#))
     (filename . "~/Git/0--key/philomath/YouTube/book-worms-club.org")
     (buffer-name . "book-worms-club.org")
